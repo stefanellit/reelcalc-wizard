@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-07-01T01:11:48.162Z",
+  "source_directory": "C:/Users/Tyler/Documents/Creelcalc-wizard",
+  "calculator_source": "Calc code.txt",
+  "inventory": [
+    {
+      "file": "abu_garcia_reel_database_master.json",
+      "type": "reel data",
+      "count": 45,
+      "bytes": 34117
+    },
+    {
+      "file": "bass_pro_reel_database_master.json",
+      "type": "reel data",
+      "count": 43,
+      "bytes": 39521
+    },
+    {
+      "file": "daiwa_reel_database_master.json",
+      "type": "reel data",
+      "count": 154,
+      "bytes": 128876
+    },
+    {
+      "file": "kastking_reel_database_master.json",
+      "type": "reel data",
+      "count": 67,
+      "bytes": 51131
+    },
+    {
+      "file": "lews_reel_database_master.json",
+      "type": "reel data",
+      "count": 49,
+      "bytes": 38350
+    },
+    {
+      "file": "okuma_reel_database_master.json",
+      "type": "reel data",
+      "count": 96,
+      "bytes": 72735
+    },
+    {
+      "file": "penn_reel_database_master.json",
+      "type": "reel data",
+      "count": 80,
+      "bytes": 64367
+    },
+    {
+      "file": "pflueger_reel_database_master.json",
+      "type": "reel data",
+      "count": 29,
+      "bytes": 22154
+    },
+    {
+      "file": "quantum_reel_database_master.json",
+      "type": "reel data",
+      "count": 61,
+      "bytes": 48624
+    },
+    {
+      "file": "shimano_reel_database_master.json",
+      "type": "reel data",
+      "count": 179,
+      "bytes": 146857
+    },
+    {
+      "file": "reelcalc_line_database_master.json",
+      "type": "line data",
+      "count": 763,
+      "bytes": 227892
+    }
+  ],
+  "reel_data": {
+    "total_rows": 803,
+    "missing_mono_capacity": 33,
+    "source_or_spec_needs_verification": 334,
+    "exact_duplicate_keys": 0,
+    "fields": [
+      "bearings",
+      "braid_capacity_note",
+      "brand",
+      "capacity_data_source",
+      "capacity_note",
+      "capacity_options",
+      "capacity_status",
+      "capacity_yards",
+      "data_warnings",
+      "gear_ratio",
+      "id",
+      "line_retrieve_in",
+      "max_drag_lb",
+      "model",
+      "msrp_usd",
+      "notes",
+      "rated_line_diameter_in",
+      "rated_line_lb",
+      "reel_type",
+      "reelcalc_recommended_braid",
+      "reelcalc_recommended_mono_fluoro",
+      "reelcalc_use_case",
+      "search_text",
+      "size_class",
+      "size_label",
+      "sku",
+      "source_file",
+      "source_url",
+      "spool_space",
+      "weight_oz"
+    ]
+  },
+  "line_data": {
+    "total_rows": 763,
+    "missing_dia_in": 0,
+    "exact_duplicate_keys": 0,
+    "dia_in_dia_mm_mismatches": [
+      {
+        "brand": "PowerPro",
+        "model": "Spectra",
+        "type": "Braid",
+        "lb": 3,
+        "dia_in": 0.005,
+        "dia_mm": 0.1,
+        "expected_mm": 0.127
+      }
+    ],
+    "fields": [
+      "brand",
+      "dia_in",
+      "dia_mm",
+      "id",
+      "lb",
+      "model",
+      "search_text",
+      "source_note",
+      "type"
+    ],
+    "types": [
+      "Braid",
+      "Copolymer",
+      "Fluorocarbon",
+      "Fluorocarbon Coated",
+      "Fluorocarbon Leader",
+      "Monofilament"
+    ]
+  }
+}
