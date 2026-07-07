@@ -878,7 +878,7 @@ function renderRecommendations() {
     html += "<div class=\"card-meta\">";
     html += "<span class=\"pill subtle\">" + formatDiameterWithUnit(setup.line.dia_in) + "</span>";
     html += "<span class=\"pill subtle\">" + formatLength(capacity, 1) + " est.</span>";
-    html += "<span class=\"pill subtle\">Score " + escapeHtml(String(setup.score || 0)) + "</span>";
+    html += "<span class=\"pill subtle\">" + escapeHtml(recommendationPurposeLabel(setup)) + "</span>";
     html += "</div>";
     html += "<p>" + escapeHtml(setup.explanation) + "</p>";
     if (setup.warnings && setup.warnings.length) {
@@ -901,6 +901,18 @@ function formatSetupHeadline(setup) {
     return main + " + " + formatStrength(setup.leaderLb) + " " + setup.leaderType.toLowerCase() + " leader";
   }
   return main;
+}
+
+function recommendationPurposeLabel(setup) {
+  var labels = {
+    "best-overall": "All-around",
+    "casting-distance": "Longer casts",
+    "finesse": "Finesse",
+    "heavy-cover": "More power",
+    "simple-mono": "Easy setup",
+    "fluorocarbon": "Low visibility"
+  };
+  return labels[setup.useCase] || "Recommended";
 }
 
 function formatGenericLineShort(line) {
@@ -1283,15 +1295,4 @@ function formatNumber(value, digits) {
 
 function formatDiameter(value) {
   var number = Number(value);
-  if (!Number.isFinite(number)) return "--";
-  return number.toFixed(4).replace(/0+$/, "").replace(/\.$/, "");
-}
-
-function escapeHtml(value) {
-  return String(value === undefined || value === null ? "" : value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
+  if (!Number.isFinite(number
