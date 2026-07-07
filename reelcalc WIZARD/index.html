@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReelCalc Reel Setup Wizard</title>
+  <link rel="stylesheet" href="css/wizard.css">
+  <script defer src="js/calculator-core.js"></script>
+  <script defer src="js/recommendation-engine.js"></script>
+  <script defer src="js/wizard.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <a class="brand-link" href="https://www.reelcalc.com">ReelCalc</a>
+      <p class="page-kicker">Reel Setup Wizard</p>
+    </div>
+    <nav class="quick-links" aria-label="ReelCalc links">
+      <a href="https://www.reelcalc.com">Home</a>
+      <a href="https://www.reelcalc.com/line-database">Line Database</a>
+      <a href="https://www.reelcalc.com/fishing-line-setup-guides">Setup Guides</a>
+    </nav>
+  </header>
+
+  <main class="wizard-shell">
+    <section class="tool-heading" aria-labelledby="wizardTitle">
+      <div>
+        <h1 id="wizardTitle">Reel Setup Wizard</h1>
+        <p>Choose a reel, compare exact line capacity, get practical setup recommendations, and calculate backing.</p>
+      </div>
+      <div class="heading-actions">
+        <div class="data-pill" id="dataStatus">Loading ReelCalc data...</div>
+        <div class="unit-toggle" role="tablist" aria-label="Measurement units">
+          <button class="segment-button active" type="button" data-unit="standard">Standard</button>
+          <button class="segment-button" type="button" data-unit="metric">Metric</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="reelPanel" aria-labelledby="reelTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Reel</span>
+          <h2 id="reelTitle">Choose Your Reel</h2>
+        </div>
+      </div>
+
+      <div class="form-grid three">
+        <label class="field">
+          <span>Brand</span>
+          <select id="reelBrand"></select>
+        </label>
+        <label class="field">
+          <span>Model</span>
+          <select id="reelModel"></select>
+        </label>
+        <label class="field">
+          <span>Size</span>
+          <select id="reelSize"></select>
+        </label>
+      </div>
+
+      <div class="action-row">
+        <button class="secondary-button manual-toggle" type="button" id="manualReelToggle" aria-pressed="false">Enter reel manually: Off</button>
+      </div>
+
+      <div class="manual-panel hidden" id="manualReelPanel">
+        <div class="form-grid two">
+          <label class="field">
+            <span id="manualReelCapacityLabel">Rated capacity yards</span>
+            <input id="manualReelYards" type="number" min="1" step="1" placeholder="165">
+          </label>
+          <label class="field">
+            <span id="manualReelStrengthLabel">Rated line lb test</span>
+            <input id="manualReelLb" type="number" min="1" step="1" placeholder="10">
+          </label>
+        </div>
+      </div>
+
+      <div class="summary-strip hidden" id="reelSummary"></div>
+    </section>
+
+    <section class="panel hidden" id="pathPanel" aria-labelledby="pathTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Setup</span>
+          <h2 id="pathTitle">How Do You Want to Pick Line?</h2>
+        </div>
+      </div>
+      <div class="segmented-control" role="tablist" aria-label="Wizard path">
+        <button class="segment-button active" type="button" data-path="recommend">Recommend a setup</button>
+        <button class="segment-button" type="button" data-path="exact">Choose my line</button>
+      </div>
+    </section>
+
+    <section class="panel hidden" id="recommendPanel" aria-labelledby="recommendTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Recommendations</span>
+          <h2 id="recommendTitle">Setup Recommendations</h2>
+        </div>
+      </div>
+
+      <div class="form-grid two">
+        <label class="field">
+          <span>Fishing type</span>
+          <select id="fishingType">
+            <option value="trout">Trout / panfish</option>
+            <option value="bass" selected>Bass</option>
+            <option value="walleye">Walleye</option>
+            <option value="inshore">Inshore saltwater</option>
+            <option value="surf">Surf / heavy saltwater</option>
+            <option value="freshwater">General freshwater</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Priority</span>
+          <select id="priority">
+            <option value="all-around" selected>All-around setup</option>
+            <option value="distance">Casting distance</option>
+            <option value="sensitivity">Sensitivity</option>
+            <option value="simplicity">Simplicity</option>
+            <option value="abrasion">Abrasion resistance</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="recommendation-grid" id="recommendations"></div>
+    </section>
+
+    <section class="panel hidden" id="exactPanel" aria-labelledby="exactTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Line</span>
+          <h2 id="exactTitle">Choose Exact Line</h2>
+        </div>
+      </div>
+
+      <div class="form-grid three">
+        <label class="field">
+          <span>Line brand</span>
+          <select id="lineBrand"></select>
+        </label>
+        <label class="field">
+          <span>Line model</span>
+          <select id="lineModel"></select>
+        </label>
+        <label class="field">
+          <span id="lineLbLabel">Lb test</span>
+          <select id="lineLb"></select>
+        </label>
+      </div>
+
+      <div class="action-row">
+        <button class="secondary-button manual-toggle" type="button" id="manualLineToggle" aria-pressed="false">Enter line manually: Off</button>
+      </div>
+
+      <div class="manual-panel hidden" id="manualLinePanel">
+        <div class="form-grid three">
+          <label class="field">
+            <span>Line type</span>
+            <select id="manualLineType">
+              <option>Braid</option>
+              <option>Monofilament</option>
+              <option>Fluorocarbon</option>
+              <option>Copolymer</option>
+            </select>
+          </label>
+          <label class="field">
+            <span id="manualLineStrengthLabel">Line lb test</span>
+            <input id="manualLineLb" type="number" min="1" step="1" placeholder="15">
+          </label>
+          <label class="field">
+            <span id="manualLineDiameterLabel">Diameter in</span>
+            <input id="manualLineDiameter" type="number" min="0.001" step="0.0001" placeholder="0.009">
+          </label>
+        </div>
+      </div>
+
+      <div class="summary-strip hidden" id="lineSummary"></div>
+    </section>
+
+    <section class="panel hidden" id="resultPanel" aria-labelledby="resultTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Capacity</span>
+          <h2 id="resultTitle">Line Capacity</h2>
+        </div>
+      </div>
+      <div id="capacityResult" class="empty-state">Choose a reel and a line setup to calculate capacity.</div>
+    </section>
+
+    <section class="panel hidden" id="backingPanel" aria-labelledby="backingTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Backing</span>
+          <h2 id="backingTitle">Want to Use Backing?</h2>
+        </div>
+      </div>
+
+      <div class="segmented-control compact" role="tablist" aria-label="Backing option">
+        <button class="segment-button active" type="button" data-backing="none">Main line only</button>
+        <button class="segment-button" type="button" data-backing="yes">Add backing</button>
+      </div>
+
+      <div class="backing-fields hidden" id="backingFields">
+        <div class="form-grid three">
+          <label class="field">
+            <span>Backing brand</span>
+            <select id="backingBrand"></select>
+          </label>
+          <label class="field">
+            <span>Backing model</span>
+            <select id="backingModel"></select>
+          </label>
+          <label class="field">
+            <span id="backingLbLabel">Lb test</span>
+            <select id="backingLb"></select>
+          </label>
+        </div>
+
+        <div class="action-row">
+          <button class="secondary-button manual-toggle" type="button" id="manualBackingToggle" aria-pressed="false">Enter backing manually: Off</button>
+        </div>
+
+        <div class="manual-panel hidden" id="manualBackingPanel">
+          <div class="form-grid three">
+            <label class="field">
+              <span>Backing type</span>
+              <select id="manualBackingType">
+                <option selected>Monofilament</option>
+                <option>Braid</option>
+                <option>Custom</option>
+              </select>
+            </label>
+            <label class="field">
+              <span id="manualBackingStrengthLabel">Backing lb test</span>
+              <input id="manualBackingLb" type="number" min="1" step="1" value="10">
+            </label>
+            <label class="field">
+              <span id="manualBackingDiameterLabel">Backing diameter in</span>
+              <input id="manualBackingDiameter" type="number" min="0.001" step="0.0001" value="0.012">
+            </label>
+          </div>
+        </div>
+
+        <div class="slider-row">
+          <label class="field">
+            <span id="mainLineYardsLabel">Desired main line yards</span>
+            <input id="mainLineYards" type="number" min="1" step="1" value="100">
+          </label>
+          <input id="mainLineSlider" class="range" type="range" min="1" max="300" step="1" value="100" aria-label="Desired main line yards">
+        </div>
+      </div>
+
+      <div id="backingResult" class="empty-state">Backing results will appear after you choose a reel and main line.</div>
+    </section>
+
+    <section class="panel hidden" id="similarPanel" aria-labelledby="similarTitle">
+      <div class="panel-heading">
+        <div>
+          <span class="step-label">Other Lines</span>
+          <h2 id="similarTitle">Other Lines That Fit Similar</h2>
+        </div>
+      </div>
+      <div id="similarLines" class="empty-state">Similar line options will appear after a main line is selected.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>These results are estimates. Reel model, spool depth, actual line diameter, and manufacturer labeling can vary. For best results, use the exact capacity printed on your reel and the actual diameter of your line.</p>
+  </footer>
+</body>
+</html>
