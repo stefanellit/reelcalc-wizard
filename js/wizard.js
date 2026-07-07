@@ -1295,4 +1295,15 @@ function formatNumber(value, digits) {
 
 function formatDiameter(value) {
   var number = Number(value);
-  if (!Number.isFinite(number
+    if (!Number.isFinite(number)) return "--";
+  return number.toFixed(4).replace(/0+$/, "").replace(/\.$/, "");
+}
+
+function escapeHtml(value) {
+  return String(value === undefined || value === null ? "" : value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
