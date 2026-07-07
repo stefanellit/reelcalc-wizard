@@ -487,6 +487,21 @@ button {
   color: var(--muted);
 }
 
+.setup-warning {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid rgba(191, 122, 24, 0.32);
+  border-radius: 8px;
+  color: #6d450c;
+  background: rgba(191, 122, 24, 0.10);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.setup-warning strong {
+  color: #6d450c;
+}
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
