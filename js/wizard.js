@@ -848,17 +848,17 @@ function renderRecommendations() {
     state.recommendations = [];
     return;
   }
-  var specs = recommendationSpecs(el.fishingType.value, el.priority.value, reel);
-  state.recommendations = specs.map(function(spec) {
-    var line = pickLineForSetup(spec.mainType, spec.mainLb);
-    return {
-      title: spec.title,
-      line: line,
-      leaderType: spec.leaderType,
-      leaderLb: spec.leaderLb,
-      explanation: spec.explanation,
-      priorityNote: spec.priorityNote
-    };
+  if (!window.ReelCalcRecommendations) {
+    el.recommendations.innerHTML = "<div class=\"empty-state warning-box\">Recommendation engine did not load. Refresh the page and try again.</div>";
+    state.recommendations = [];
+    return;
+  }
+  state.recommendations = window.ReelCalcRecommendations.recommendSetups({
+    reel: reel,
+    lines: state.lines,
+    fishingType: el.fishingType.value,
+    priority: el.priority.value,
+    calculateFullSpoolCapacity: calculateFullSpoolCapacity
   }).filter(function(setup) {
     return setup.line && setup.line.dia_in;
   });
@@ -867,7 +867,7 @@ function renderRecommendations() {
     return;
   }
   el.recommendations.innerHTML = state.recommendations.map(function(setup, index) {
-    var capacity = calculateFullSpoolCapacity(reel, setup.line);
+    var capacity = setup.capacityYards || calculateFullSpoolCapacity(reel, setup.line);
     var selected = state.selectedSetup && state.selectedSetup.title === setup.title && state.selectedSetup.line.id === setup.line.id;
     var isBestPick = index === 0;
     var html = "<article class=\"setup-card" + (isBestPick ? " best-pick" : "") + (selected ? " selected" : "") + "\">";
@@ -878,9 +878,16 @@ function renderRecommendations() {
     html += "<div class=\"card-meta\">";
     html += "<span class=\"pill subtle\">" + formatDiameterWithUnit(setup.line.dia_in) + "</span>";
     html += "<span class=\"pill subtle\">" + formatLength(capacity, 1) + " est.</span>";
+    html += "<span class=\"pill subtle\">Score " + escapeHtml(String(setup.score || 0)) + "</span>";
     html += "</div>";
     html += "<p>" + escapeHtml(setup.explanation) + "</p>";
-    html += "<p class=\"tiny-note\">Estimate uses " + escapeHtml(formatGenericLineShort(setup.line)) + " diameter data.</p>";
+    if (setup.warnings && setup.warnings.length) {
+      html += "<div class=\"setup-warning\"><strong>Warning:</strong> " + escapeHtml(setup.warnings.join(" ")) + "</div>";
+    }
+    if (setup.tradeoffs && setup.tradeoffs.length) {
+      html += "<p class=\"tiny-note\"><strong>Keep in mind:</strong> " + escapeHtml(setup.tradeoffs.join(" ")) + "</p>";
+    }
+    html += "<p class=\"tiny-note\">" + escapeHtml(setup.diameterNote || ("Estimate uses " + formatGenericLineShort(setup.line) + " diameter data.")) + " If you pick a specific line later, ReelCalc uses that line's listed diameter.</p>";
     html += "<button class=\"use-button\" type=\"button\" data-setup-index=\"" + String(index) + "\">" + (selected ? "Selected" : "Use setup") + "</button>";
     html += "</article>";
     return html;
@@ -910,138 +917,6 @@ function genericLineType(typeValue) {
   if (type.includes("fluoro")) return "fluorocarbon";
   if (type.includes("copoly")) return "copolymer";
   return type;
-}
-
-function recommendationSpecs(fishingType, priority, reel) {
-  var base = {
-    trout: [
-      ["Best All-Around Setup", "Braid", 6, "Fluorocarbon", 4, "Light braid with a short fluoro leader casts well on small reels and keeps trout and panfish presentations lively."],
-      ["Braid-to-Leader Setup", "Braid", 8, "Fluorocarbon", 6, "A little more main-line strength while keeping leader diameter modest for clear water."],
-      ["Simple Monofilament Setup", "Monofilament", 4, "", 0, "Easy handling, simple knots, and enough stretch for light hooks."],
-      ["Fluorocarbon Setup", "Fluorocarbon", 6, "", 0, "Useful when low visibility and abrasion resistance matter more than maximum casting distance."],
-      ["Heavier-Duty Option", "Braid", 10, "Fluorocarbon", 8, "A stronger creek, dock, or mixed-cover option without overpowering a light spinning reel."]
-    ],
-    bass: [
-      ["Best All-Around Setup", "Braid", 15, "Fluorocarbon", 8, "Good all-around bass setup with sensitivity, casting distance, and manageable leader strength."],
-      ["Braid-to-Leader Setup", "Braid", 20, "Fluorocarbon", 10, "Adds strength for cover while keeping the leader practical for spinning and finesse work."],
-      ["Simple Monofilament Setup", "Monofilament", 10, "", 0, "A straightforward bass setup for moving baits, beginners, and low-maintenance spooling."],
-      ["Fluorocarbon Setup", "Fluorocarbon", 10, "", 0, "A good choice for bottom contact, clear water, and abrasion around rock or wood."],
-      ["Heavy-Cover Option", "Braid", 30, "Fluorocarbon", 15, "For heavier vegetation, docks, and stronger hooksets where a thin finesse setup is not enough."]
-    ],
-    walleye: [
-      ["Best All-Around Setup", "Braid", 10, "Fluorocarbon", 8, "Sensitive enough for jigging and still practical for trolling or casting."],
-      ["Braid-to-Leader Setup", "Braid", 12, "Fluorocarbon", 10, "A balanced braid-to-leader setup for deeper water and light current."],
-      ["Simple Monofilament Setup", "Monofilament", 8, "", 0, "Simple, forgiving line for mixed walleye presentations."],
-      ["Fluorocarbon Setup", "Fluorocarbon", 8, "", 0, "A low-visibility option for clear water and slower presentations."],
-      ["Heavier-Duty Option", "Braid", 15, "Fluorocarbon", 12, "Adds control for current, bigger baits, or mixed pike/walleye water."]
-    ],
-    inshore: [
-      ["Best All-Around Setup", "Braid", 20, "Fluorocarbon", 20, "A practical inshore setup for redfish, snook, speckled trout, and general saltwater casting."],
-      ["Braid-to-Leader Setup", "Braid", 30, "Fluorocarbon", 25, "More margin around docks, shell, and current while keeping good casting distance."],
-      ["Simple Monofilament Setup", "Monofilament", 12, "", 0, "Simple and durable for casual inshore fishing where leader knots are not desired."],
-      ["Fluorocarbon Setup", "Fluorocarbon", 15, "", 0, "Useful around abrasive structure and clear water when spool capacity allows it."],
-      ["Heavier-Duty Option", "Braid", 40, "Fluorocarbon", 30, "A stronger setup for jetties, docks, bigger fish, or heavier drag settings."]
-    ],
-    surf: [
-      ["Best All-Around Setup", "Braid", 40, "Fluorocarbon", 40, "Good surf and heavy saltwater starting point with strong capacity and long-cast potential."],
-      ["Braid-to-Leader Setup", "Braid", 50, "Fluorocarbon", 50, "More abrasion resistance and leader strength for heavier fish or rough structure."],
-      ["Simple Monofilament Setup", "Monofilament", 20, "", 0, "Simple, shock-absorbing line for surf setups where braid is not preferred."],
-      ["Fluorocarbon Setup", "Fluorocarbon", 20, "", 0, "A niche full-spool option when abrasion resistance matters and capacity is still acceptable."],
-      ["Heavy-Cover Option", "Braid", 65, "Fluorocarbon", 60, "For heavy rigs, strong current, and bigger saltwater fish where the reel size supports it."]
-    ],
-    freshwater: [
-      ["Best All-Around Setup", "Braid", 10, "Fluorocarbon", 8, "Flexible freshwater setup for bass, walleye, panfish, and mixed presentations."],
-      ["Braid-to-Leader Setup", "Braid", 15, "Fluorocarbon", 10, "A little more strength while keeping good casting and sensitivity."],
-      ["Simple Monofilament Setup", "Monofilament", 8, "", 0, "Simple, affordable, and easy to manage on most freshwater spinning reels."],
-      ["Fluorocarbon Setup", "Fluorocarbon", 8, "", 0, "Low visibility and abrasion resistance for clear water or bottom contact."],
-      ["Heavier-Duty Option", "Braid", 20, "Fluorocarbon", 12, "More useful around weeds, docks, or mixed species without jumping to heavy saltwater line."]
-    ]
-  };
-  var rows = base[fishingType] || base.freshwater;
-  return rows.map(function(row) {
-    var adjustedLb = adjustLineLb(row[2], row[1], reel, fishingType, priority);
-    var leaderLb = row[4] ? adjustLeaderLb(row[4], reel, fishingType, priority) : 0;
-    return {
-      title: row[0],
-      mainType: row[1],
-      mainLb: adjustedLb,
-      leaderType: row[3],
-      leaderLb: leaderLb,
-      explanation: row[5],
-      priorityNote: priorityNote(priority, row[1])
-    };
-  });
-}
-
-function adjustLineLb(baseLb, type, reel, fishingType, priority) {
-  var size = Number(reel.size_class || reel.size_label || 0);
-  var lb = baseLb;
-  if (size && size <= 1000) lb = Math.min(lb, type === "Braid" ? 10 : 6);
-  if (size && size > 1000 && size <= 2500 && fishingType !== "surf") lb = Math.min(lb, type === "Braid" ? 20 : 10);
-  if (size && size >= 4000 && (fishingType === "inshore" || fishingType === "surf")) lb = Math.max(lb, type === "Braid" ? 30 : 15);
-  if (priority === "distance" && type === "Braid") lb = lowerCommonLb(lb);
-  if (priority === "abrasion" && type !== "Braid") lb = higherCommonLb(lb);
-  if (priority === "simplicity" && type === "Monofilament") lb = higherCommonLb(lb);
-  return nearestCommonLb(lb);
-}
-
-function adjustLeaderLb(baseLb, reel, fishingType, priority) {
-  var lb = baseLb;
-  var size = Number(reel.size_class || reel.size_label || 0);
-  if (size && size <= 1000) lb = Math.min(lb, 6);
-  if (priority === "abrasion") lb = higherCommonLb(lb);
-  if (fishingType === "surf") lb = Math.max(lb, 40);
-  return nearestCommonLb(lb);
-}
-
-function priorityNote(priority, type) {
-  if (priority === "distance") return type === "Braid" ? "Priority tweak: thinner braid is favored for casting distance." : "Priority tweak: consider the braid setup above for maximum casting distance.";
-  if (priority === "sensitivity") return type === "Braid" ? "Priority tweak: braid gives the most direct feel." : "Priority tweak: this setup trades some sensitivity for simplicity or abrasion resistance.";
-  if (priority === "simplicity") return type === "Monofilament" ? "Priority tweak: mono keeps the setup simple and forgiving." : "Priority tweak: use this when performance matters more than maximum simplicity.";
-  if (priority === "abrasion") return "Priority tweak: stronger leader or fuller-diameter line is favored for abrasion resistance.";
-  return "";
-}
-
-function nearestCommonLb(value) {
-  var common = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 65, 80];
-  return common.reduce(function(best, current) {
-    return Math.abs(current - value) < Math.abs(best - value) ? current : best;
-  }, common[0]);
-}
-
-function lowerCommonLb(value) {
-  var common = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 65, 80];
-  var lower = common.filter(function(lb) { return lb < value; });
-  return lower.length ? lower[lower.length - 1] : value;
-}
-
-function higherCommonLb(value) {
-  var common = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 65, 80];
-  var higher = common.find(function(lb) { return lb > value; });
-  return higher || value;
-}
-
-function pickLineForSetup(type, targetLb) {
-  var candidates = state.lines.filter(function(line) {
-    return isLineReady(line) && lineMatchesDesiredType(line, type);
-  });
-  if (!candidates.length) return null;
-  return candidates.sort(function(a, b) {
-    var lbDiff = Math.abs(Number(a.lb) - targetLb) - Math.abs(Number(b.lb) - targetLb);
-    if (lbDiff !== 0) return lbDiff;
-    var diameterDiff = Number(a.dia_in) - Number(b.dia_in);
-    if (diameterDiff !== 0) return diameterDiff;
-    return formatLineShort(a).localeCompare(formatLineShort(b), undefined, { sensitivity: "base" });
-  })[0];
-}
-
-function lineMatchesDesiredType(line, desiredType) {
-  var type = String(line.type || "").toLowerCase();
-  if (desiredType === "Braid") return type.includes("braid");
-  if (desiredType === "Monofilament") return type.includes("mono");
-  if (desiredType === "Fluorocarbon") return type.includes("fluoro") && !type.includes("leader");
-  if (desiredType === "Copolymer") return type.includes("copoly");
-  return type.includes(String(desiredType || "").toLowerCase());
 }
 
 function renderCapacityResult() {
