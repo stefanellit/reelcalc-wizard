@@ -36790,19 +36790,41 @@
     "size_label": "1000R",
     "size_class": "1000",
     "reel_type": "rear_drag",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 65,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.009,
+    "spool_space": 0.005265,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 95,
+        "diameter_in": 0.008,
+        "spool_space": 0.00608,
+        "raw": "10-95"
+      },
+      {
+        "lb": 15,
+        "yards": 85,
+        "diameter_in": 0.008,
+        "spool_space": 0.00544,
+        "raw": "15-85"
+      },
+      {
+        "lb": 20,
+        "yards": 65,
+        "diameter_in": 0.009,
+        "spool_space": 0.005265,
+        "raw": "20-65"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 10-95, 15-85, 20-65",
     "braid_capacity_note": "10-95, 15-85, 20-65",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano US PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "4.1",
     "max_drag_lb": 7,
@@ -36813,7 +36835,7 @@
     "reelcalc_recommended_braid": "6-10 lb braid",
     "reelcalc_recommended_mono_fluoro": "2-6 lb mono/fluoro",
     "reelcalc_use_case": "panfish, trout, finesse freshwater",
-    "notes": "Official table did not list mono capacity or bearings",
+    "notes": "Official Shimano page publishes PowerPro capacity but not mono capacity; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano ix ix1000r 1000r 1000 panfish, trout, finesse freshwater"
   },
   {
@@ -36824,19 +36846,41 @@
     "size_label": "2000R",
     "size_class": "2000",
     "reel_type": "rear_drag",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 95,
+    "rated_line_lb": 30,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.011495,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 170,
+        "diameter_in": 0.008,
+        "spool_space": 0.01088,
+        "raw": "10-170"
+      },
+      {
+        "lb": 15,
+        "yards": 145,
+        "diameter_in": 0.008,
+        "spool_space": 0.00928,
+        "raw": "15-145"
+      },
+      {
+        "lb": 30,
+        "yards": 95,
+        "diameter_in": 0.011,
+        "spool_space": 0.011495,
+        "raw": "30-95"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 10-170, 15-145, 30-95",
     "braid_capacity_note": "10-170, 15-145, 30-95",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano US PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "4.1",
     "max_drag_lb": 7,
@@ -36847,7 +36891,7 @@
     "reelcalc_recommended_braid": "8-15 lb braid",
     "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
     "reelcalc_use_case": "trout, panfish, light bass",
-    "notes": "Official table did not list mono capacity or bearings",
+    "notes": "Official Shimano page publishes PowerPro capacity but not mono capacity; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano ix ix2000r 2000r 2000 trout, panfish, light bass"
   },
   {
@@ -36858,19 +36902,41 @@
     "size_label": "4000R",
     "size_class": "4000",
     "reel_type": "rear_drag",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 145,
+    "rated_line_lb": 50,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.02842,
+    "capacity_options": [
+      {
+        "lb": 15,
+        "yards": 265,
+        "diameter_in": 0.008,
+        "spool_space": 0.01696,
+        "raw": "15-265"
+      },
+      {
+        "lb": 30,
+        "yards": 175,
+        "diameter_in": 0.011,
+        "spool_space": 0.021175,
+        "raw": "30-175"
+      },
+      {
+        "lb": 50,
+        "yards": 145,
+        "diameter_in": 0.014,
+        "spool_space": 0.02842,
+        "raw": "50-145"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 15-265, 30-175, 50-145",
     "braid_capacity_note": "15-265, 30-175, 50-145",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano US PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "4.1",
     "max_drag_lb": 15,
@@ -36881,7 +36947,7 @@
     "reelcalc_recommended_braid": "20-30 lb braid",
     "reelcalc_recommended_mono_fluoro": "10-12 lb mono/fluoro",
     "reelcalc_use_case": "larger bass, pike, catfish, light saltwater, rear-drag/quickfire style",
-    "notes": "Official table did not list mono capacity or bearings",
+    "notes": "Official Shimano page publishes PowerPro capacity but not mono capacity; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano ix ix4000r 4000r 4000 larger bass, pike, catfish, light saltwater, rear-drag/quickfire style"
   },
   {
@@ -38293,20 +38359,40 @@
     "size_label": "4000",
     "size_class": "4000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002vnrerqaa.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 160,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.03136,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 240,
+        "diameter_in": 0.011,
+        "spool_space": 0.02904,
+        "raw": "8-240"
+      },
+      {
+        "lb": 10,
+        "yards": 200,
+        "diameter_in": 0.012,
+        "spool_space": 0.0288,
+        "raw": "10-200"
+      },
+      {
+        "lb": 12,
+        "yards": 160,
+        "diameter_in": 0.014,
+        "spool_space": 0.03136,
+        "raw": "12-160"
+      }
     ],
+    "capacity_note": "8-240, 10-200, 12-160",
+    "braid_capacity_note": "15-270, 20-190, 40-145",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU capacity table from Dick's Sporting Goods; mechanical specs from Shimano",
+    "source_url": "https://www.dickssportinggoods.com/p/shimano-baitrunner-oc-spinning-reel/15shmubtrnnr4000cree",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.8",
     "max_drag_lb": 15,
     "weight_oz": 13.4,
@@ -38316,7 +38402,7 @@
     "reelcalc_recommended_braid": "20-30 lb braid",
     "reelcalc_recommended_mono_fluoro": "10-12 lb mono/fluoro",
     "reelcalc_use_case": "beach, pier, inshore, light saltwater",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR4000OC; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner oc btr4000oc 4000 4000 beach, pier, inshore, light saltwater"
   },
   {
@@ -38327,20 +38413,40 @@
     "size_label": "6000",
     "size_class": "6000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002vnrerqaa.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 170,
+    "rated_line_lb": 16,
+    "rated_line_diameter_in": 0.0156,
+    "spool_space": 0.041371,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 300,
+        "diameter_in": 0.012,
+        "spool_space": 0.0432,
+        "raw": "10-300"
+      },
+      {
+        "lb": 12,
+        "yards": 265,
+        "diameter_in": 0.014,
+        "spool_space": 0.05194,
+        "raw": "12-265"
+      },
+      {
+        "lb": 16,
+        "yards": 170,
+        "diameter_in": 0.0156,
+        "spool_space": 0.041371,
+        "raw": "16-170"
+      }
     ],
+    "capacity_note": "10-300, 12-265, 16-170",
+    "braid_capacity_note": "30-245, 50-210, 65-130",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU capacity table from Dick's Sporting Goods; mechanical specs from Shimano",
+    "source_url": "https://www.dickssportinggoods.com/p/shimano-baitrunner-oc-spinning-reel/15shmubtrnnr4000cree",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.8",
     "max_drag_lb": 20,
     "weight_oz": 19.2,
@@ -38350,7 +38456,7 @@
     "reelcalc_recommended_braid": "40-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "14-20 lb mono",
     "reelcalc_use_case": "surf, inshore, larger saltwater, live bait",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR6000OC; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner oc btr6000oc 6000 6000 surf, inshore, larger saltwater, live bait"
   },
   {
@@ -38361,20 +38467,40 @@
     "size_label": "8000",
     "size_class": "8000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002vnrerqaa.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 195,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.06318,
+    "capacity_options": [
+      {
+        "lb": 14,
+        "yards": 295,
+        "diameter_in": 0.014667,
+        "spool_space": 0.063461,
+        "raw": "14-295"
+      },
+      {
+        "lb": 17,
+        "yards": 250,
+        "diameter_in": 0.0162,
+        "spool_space": 0.06561,
+        "raw": "17-250"
+      },
+      {
+        "lb": 20,
+        "yards": 195,
+        "diameter_in": 0.018,
+        "spool_space": 0.06318,
+        "raw": "20-195"
+      }
     ],
+    "capacity_note": "14-295, 17-250, 20-195",
+    "braid_capacity_note": "40-295, 50-290, 65-180",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU capacity table from Dick's Sporting Goods; mechanical specs from Shimano",
+    "source_url": "https://www.dickssportinggoods.com/p/shimano-baitrunner-oc-spinning-reel/15shmubtrnnr4000cree",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.8",
     "max_drag_lb": 20,
     "weight_oz": 20.8,
@@ -38384,7 +38510,7 @@
     "reelcalc_recommended_braid": "50-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "16-20 lb mono",
     "reelcalc_use_case": "surf, offshore, heavy bait fishing, live bait",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR8000OC; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner oc btr8000oc 8000 8000 surf, offshore, heavy bait fishing, live bait"
   },
   {
@@ -38395,20 +38521,40 @@
     "size_label": "4000",
     "size_class": "4000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fizqa2.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 160,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.03136,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 240,
+        "diameter_in": 0.011,
+        "spool_space": 0.02904,
+        "raw": "8-240"
+      },
+      {
+        "lb": 10,
+        "yards": 200,
+        "diameter_in": 0.012,
+        "spool_space": 0.0288,
+        "raw": "10-200"
+      },
+      {
+        "lb": 12,
+        "yards": 160,
+        "diameter_in": 0.014,
+        "spool_space": 0.03136,
+        "raw": "12-160"
+      }
     ],
+    "capacity_note": "8-240, 10-200, 12-160",
+    "braid_capacity_note": "15-270, 20-190, 40-145",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU retailer capacity table; mechanical specs from Shimano",
+    "source_url": "https://bigdogtackle.com/products/shimano-baitrunner-d-spinning-reel",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.8",
     "max_drag_lb": 15,
     "weight_oz": 13.5,
@@ -38418,7 +38564,7 @@
     "reelcalc_recommended_braid": "20-30 lb braid",
     "reelcalc_recommended_mono_fluoro": "10-12 lb mono/fluoro",
     "reelcalc_use_case": "beach, pier, inshore, light saltwater",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR4000D; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner d btr4000d 4000 4000 beach, pier, inshore, light saltwater"
   },
   {
@@ -38429,20 +38575,40 @@
     "size_label": "6000",
     "size_class": "6000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fizqa2.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 170,
+    "rated_line_lb": 16,
+    "rated_line_diameter_in": 0.0156,
+    "spool_space": 0.041371,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 300,
+        "diameter_in": 0.012,
+        "spool_space": 0.0432,
+        "raw": "10-300"
+      },
+      {
+        "lb": 12,
+        "yards": 265,
+        "diameter_in": 0.014,
+        "spool_space": 0.05194,
+        "raw": "12-265"
+      },
+      {
+        "lb": 16,
+        "yards": 170,
+        "diameter_in": 0.0156,
+        "spool_space": 0.041371,
+        "raw": "16-170"
+      }
     ],
+    "capacity_note": "10-300, 12-265, 16-170",
+    "braid_capacity_note": "30-245, 50-210, 65-130",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU retailer capacity table; mechanical specs from Shimano",
+    "source_url": "https://bigdogtackle.com/products/shimano-baitrunner-d-spinning-reel",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.8",
     "max_drag_lb": 20,
     "weight_oz": 20.7,
@@ -38452,7 +38618,7 @@
     "reelcalc_recommended_braid": "40-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "14-20 lb mono",
     "reelcalc_use_case": "surf, inshore, larger saltwater, live bait",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR6000D; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner d btr6000d 6000 6000 surf, inshore, larger saltwater, live bait"
   },
   {
@@ -38463,20 +38629,40 @@
     "size_label": "8000",
     "size_class": "8000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fizqa2.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 195,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.06318,
+    "capacity_options": [
+      {
+        "lb": 14,
+        "yards": 295,
+        "diameter_in": 0.014667,
+        "spool_space": 0.063461,
+        "raw": "14-295"
+      },
+      {
+        "lb": 17,
+        "yards": 250,
+        "diameter_in": 0.0162,
+        "spool_space": 0.06561,
+        "raw": "17-250"
+      },
+      {
+        "lb": 20,
+        "yards": 195,
+        "diameter_in": 0.018,
+        "spool_space": 0.06318,
+        "raw": "20-195"
+      }
     ],
+    "capacity_note": "14-295, 17-250, 20-195",
+    "braid_capacity_note": "40-295, 50-290, 65-180",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU retailer capacity table; mechanical specs from Shimano",
+    "source_url": "https://bigdogtackle.com/products/shimano-baitrunner-d-spinning-reel",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.8",
     "max_drag_lb": 20,
     "weight_oz": 21.7,
@@ -38486,7 +38672,7 @@
     "reelcalc_recommended_braid": "50-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "16-20 lb mono",
     "reelcalc_use_case": "surf, offshore, heavy bait fishing, live bait",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR8000D; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner d btr8000d 8000 8000 surf, offshore, heavy bait fishing, live bait"
   },
   {
@@ -38497,20 +38683,40 @@
     "size_label": "12000",
     "size_class": "12000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
-    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fizqa2.html",
-    "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+    "capacity_yards": 265,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.08586,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 550,
+        "diameter_in": 0.014,
+        "spool_space": 0.1078,
+        "raw": "12-550"
+      },
+      {
+        "lb": 16,
+        "yards": 350,
+        "diameter_in": 0.0156,
+        "spool_space": 0.085176,
+        "raw": "16-350"
+      },
+      {
+        "lb": 20,
+        "yards": 265,
+        "diameter_in": 0.018,
+        "spool_space": 0.08586,
+        "raw": "20-265"
+      }
     ],
+    "capacity_note": "12-550, 16-350, 20-265",
+    "braid_capacity_note": "50-505, 65-310, 80-230",
+    "capacity_status": "ready",
+    "capacity_data_source": "Exact-SKU retailer capacity table; mechanical specs from Shimano",
+    "source_url": "https://bigdogtackle.com/products/shimano-baitrunner-d-spinning-reel",
+    "source_file": "shimano_reel_database_master.json",
+    "data_warnings": [],
     "gear_ratio": "4.4",
     "max_drag_lb": 20,
     "weight_oz": 30,
@@ -38520,7 +38726,7 @@
     "reelcalc_recommended_braid": "50-80 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-25 lb mono",
     "reelcalc_use_case": "heavy surf, offshore, big saltwater, live bait",
-    "notes": "Official Shimano table currently omits line capacity columns for this model; add later from spool/manual if needed",
+    "notes": "Mono and braid capacities verified for BTR12000D; mechanical specifications remain from Shimano's official current chart.",
     "search_text": "shimano baitrunner d btr12000d 12000 12000 heavy surf, offshore, big saltwater, live bait"
   },
   {
@@ -38895,19 +39101,41 @@
     "size_label": "8000PG",
     "size_class": "8000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 215,
+    "rated_line_lb": 65,
+    "rated_line_diameter_in": 0.016,
+    "spool_space": 0.05504,
+    "capacity_options": [
+      {
+        "lb": 40,
+        "yards": 340,
+        "diameter_in": 0.013,
+        "spool_space": 0.05746,
+        "raw": "40-340"
+      },
+      {
+        "lb": 50,
+        "yards": 265,
+        "diameter_in": 0.014,
+        "spool_space": 0.05194,
+        "raw": "50-265"
+      },
+      {
+        "lb": 65,
+        "yards": 215,
+        "diameter_in": 0.016,
+        "spool_space": 0.05504,
+        "raw": "65-215"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 40-340, 50-265, 65-215",
     "braid_capacity_note": "40-340, 50-265, 65-215",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano US PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "4.8",
     "max_drag_lb": 55,
@@ -38918,7 +39146,7 @@
     "reelcalc_recommended_braid": "50-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "16-20 lb mono",
     "reelcalc_use_case": "surf, offshore, heavy bait fishing",
-    "notes": "Official table did not list mono capacity for this size",
+    "notes": "Official Shimano page publishes PowerPro capacity but not mono capacity for STLSW8000PGD; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano stella sw d stlsw8000pgd 8000pg 8000 surf, offshore, heavy bait fishing"
   },
   {
@@ -38929,19 +39157,41 @@
     "size_label": "8000HG",
     "size_class": "8000",
     "reel_type": "sw_spinning",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 215,
+    "rated_line_lb": 65,
+    "rated_line_diameter_in": 0.016,
+    "spool_space": 0.05504,
+    "capacity_options": [
+      {
+        "lb": 40,
+        "yards": 340,
+        "diameter_in": 0.013,
+        "spool_space": 0.05746,
+        "raw": "40-340"
+      },
+      {
+        "lb": 50,
+        "yards": 265,
+        "diameter_in": 0.014,
+        "spool_space": 0.05194,
+        "raw": "50-265"
+      },
+      {
+        "lb": 65,
+        "yards": 215,
+        "diameter_in": 0.016,
+        "spool_space": 0.05504,
+        "raw": "65-215"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 40-340, 50-265, 65-215",
     "braid_capacity_note": "40-340, 50-265, 65-215",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "Official Shimano US spec chart",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano US PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "5.6",
     "max_drag_lb": 55,
@@ -38952,7 +39202,7 @@
     "reelcalc_recommended_braid": "50-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "16-20 lb mono",
     "reelcalc_use_case": "surf, offshore, heavy bait fishing",
-    "notes": "Official table did not list mono capacity for this size",
+    "notes": "Official Shimano page publishes PowerPro capacity but not mono capacity for STLSW8000HGD; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano stella sw d stlsw8000hgd 8000hg 8000 surf, offshore, heavy bait fishing"
   },
   {
@@ -39822,20 +40072,41 @@
     "size_label": "C3000XG",
     "size_class": "3000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 105,
+    "rated_line_lb": 40,
+    "rated_line_diameter_in": 0.013,
+    "spool_space": 0.017745,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 200,
+        "diameter_in": 0.008,
+        "spool_space": 0.0128,
+        "raw": "10-200"
+      },
+      {
+        "lb": 20,
+        "yards": 140,
+        "diameter_in": 0.009,
+        "spool_space": 0.01134,
+        "raw": "20-140"
+      },
+      {
+        "lb": 40,
+        "yards": 105,
+        "diameter_in": 0.013,
+        "spool_space": 0.017745,
+        "raw": "40-105"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 10-200, 20-140, 40-105",
     "braid_capacity_note": "10-200, 20-140, 40-105",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "official_current_partial",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations.",
-      "Source/spec should be verified before public use."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "6.4",
     "max_drag_lb": 19.8,
@@ -39846,7 +40117,7 @@
     "reelcalc_recommended_braid": "10-20 lb braid",
     "reelcalc_recommended_mono_fluoro": "6-12 lb mono/fluoro",
     "reelcalc_use_case": "bass, walleye, light inshore, general freshwater",
-    "notes": "Official Shimano regional page does not list mono lb-yd capacity for this size.",
+    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for C3000XG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano vanquish c3000xg c3000xg 3000 bass, walleye, light inshore, general freshwater"
   },
   {
@@ -39911,20 +40182,41 @@
     "size_label": "4000MHG",
     "size_class": "4000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 110,
+    "rated_line_lb": 30,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.01331,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 195,
+        "diameter_in": 0.008,
+        "spool_space": 0.01248,
+        "raw": "10-195"
+      },
+      {
+        "lb": 20,
+        "yards": 120,
+        "diameter_in": 0.009,
+        "spool_space": 0.00972,
+        "raw": "20-120"
+      },
+      {
+        "lb": 30,
+        "yards": 110,
+        "diameter_in": 0.011,
+        "spool_space": 0.01331,
+        "raw": "30-110"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 10-195, 20-120, 30-110",
     "braid_capacity_note": "10-195, 20-120, 30-110",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "official_current_partial",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations.",
-      "Source/spec should be verified before public use."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "5.7",
     "max_drag_lb": 24.3,
@@ -39935,7 +40227,7 @@
     "reelcalc_recommended_braid": "15-40 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-14 lb mono/fluoro",
     "reelcalc_use_case": "inshore, heavier freshwater, light surf",
-    "notes": "Official Shimano regional page does not list mono lb-yd capacity for this size.",
+    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for 4000MHG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano vanquish 4000mhg 4000mhg 4000 inshore, heavier freshwater, light surf"
   },
   {
@@ -39946,20 +40238,41 @@
     "size_label": "4000XG",
     "size_class": "4000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 120,
+    "rated_line_lb": 50,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.02352,
+    "capacity_options": [
+      {
+        "lb": 15,
+        "yards": 230,
+        "diameter_in": 0.008,
+        "spool_space": 0.01472,
+        "raw": "15-230"
+      },
+      {
+        "lb": 30,
+        "yards": 180,
+        "diameter_in": 0.011,
+        "spool_space": 0.02178,
+        "raw": "30-180"
+      },
+      {
+        "lb": 50,
+        "yards": 120,
+        "diameter_in": 0.014,
+        "spool_space": 0.02352,
+        "raw": "50-120"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 15-230, 30-180, 50-120",
     "braid_capacity_note": "15-230, 30-180, 50-120",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "official_current_partial",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations.",
-      "Source/spec should be verified before public use."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "6.2",
     "max_drag_lb": 24.3,
@@ -39970,7 +40283,7 @@
     "reelcalc_recommended_braid": "15-40 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-14 lb mono/fluoro",
     "reelcalc_use_case": "inshore, heavier freshwater, light surf",
-    "notes": "Official Shimano regional page does not list mono lb-yd capacity for this size.",
+    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for 4000XG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano vanquish 4000xg 4000xg 4000 inshore, heavier freshwater, light surf"
   },
   {
@@ -39981,20 +40294,41 @@
     "size_label": "C5000XG",
     "size_class": "5000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
+    "capacity_yards": 185,
+    "rated_line_lb": 40,
+    "rated_line_diameter_in": 0.013,
+    "spool_space": 0.031265,
+    "capacity_options": [
+      {
+        "lb": 20,
+        "yards": 260,
+        "diameter_in": 0.009,
+        "spool_space": 0.02106,
+        "raw": "20-260"
+      },
+      {
+        "lb": 30,
+        "yards": 235,
+        "diameter_in": 0.011,
+        "spool_space": 0.028435,
+        "raw": "30-235"
+      },
+      {
+        "lb": 40,
+        "yards": 185,
+        "diameter_in": 0.013,
+        "spool_space": 0.031265,
+        "raw": "40-185"
+      }
+    ],
+    "capacity_note": "PowerPro basis: 20-260, 30-235, 40-185",
     "braid_capacity_note": "20-260, 30-235, 40-185",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "official_current_partial",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
     "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
     "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations.",
-      "Source/spec should be verified before public use."
+      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
     ],
     "gear_ratio": "6.2",
     "max_drag_lb": 24.3,
@@ -40005,7 +40339,7 @@
     "reelcalc_recommended_braid": "15-40 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-14 lb mono/fluoro",
     "reelcalc_use_case": "inshore, heavier freshwater, light surf",
-    "notes": "Official Shimano regional page does not list mono lb-yd capacity for this size.",
+    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for C5000XG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
     "search_text": "shimano vanquish c5000xg c5000xg 5000 inshore, heavier freshwater, light surf"
   },
   {
@@ -40425,5 +40759,1116 @@
     "reelcalc_use_case": "trout, panfish, finesse bass, light freshwater",
     "notes": "Mono yards converted from Shimano lb-m regional spec.",
     "search_text": "shimano vanquish ce 2500shg 2500shg 2500 trout, panfish, finesse bass, light freshwater"
+  },
+  {
+    "id": "daiwa-iprimi-lt-1000s",
+    "brand": "Daiwa",
+    "model": "IPRIMI LT",
+    "sku": "IPRIMILT1000S",
+    "size_label": "1000S",
+    "size_class": "1000",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 80,
+    "rated_line_lb": 3,
+    "rated_line_diameter_in": 0.007,
+    "spool_space": 0.00392,
+    "capacity_options": [
+      {
+        "lb": 2,
+        "yards": 130,
+        "diameter_in": 0.006,
+        "spool_space": 0.00468,
+        "raw": "2-130"
+      },
+      {
+        "lb": 3,
+        "yards": 80,
+        "diameter_in": 0.007,
+        "spool_space": 0.00392,
+        "raw": "3-80"
+      }
+    ],
+    "capacity_note": "2-130, 3-80",
+    "braid_capacity_note": "4-140",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/spin-reels/products/2026-iprimi-lt",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": 11,
+    "weight_oz": 6,
+    "line_retrieve_in": 25.5,
+    "bearings": "1CRBB, 7BB, 1RB",
+    "msrp_usd": 199.99,
+    "reelcalc_recommended_braid": "4-8 lb braid",
+    "reelcalc_recommended_mono_fluoro": "2-6 lb mono/fluoro",
+    "reelcalc_use_case": "trout, ultralight, panfish, micro-finesse freshwater",
+    "notes": "2026 IPRIMI LT; official Daiwa mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa iprimi lt iprimilt1000s 1000s 1000 2026 daiwa iprimi 1000 daiwa iprimi lt 1000 iprimi lt 1000s trout reel ultralight reel trout, ultralight, panfish, micro-finesse freshwater"
+  },
+  {
+    "id": "daiwa-iprimi-lt-2000s-xh",
+    "brand": "Daiwa",
+    "model": "IPRIMI LT",
+    "sku": "IPRIMILT2000S-XH",
+    "size_label": "2000S-XH",
+    "size_class": "2000",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 110,
+    "rated_line_lb": 4,
+    "rated_line_diameter_in": 0.008,
+    "spool_space": 0.00704,
+    "capacity_options": [
+      {
+        "lb": 3,
+        "yards": 160,
+        "diameter_in": 0.007,
+        "spool_space": 0.00784,
+        "raw": "3-160"
+      },
+      {
+        "lb": 4,
+        "yards": 110,
+        "diameter_in": 0.008,
+        "spool_space": 0.00704,
+        "raw": "4-110"
+      }
+    ],
+    "capacity_note": "3-160, 4-110",
+    "braid_capacity_note": "6-165",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/spin-reels/products/2026-iprimi-lt",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 11,
+    "weight_oz": 6.2,
+    "line_retrieve_in": 32,
+    "bearings": "1CRBB, 7BB, 1RB",
+    "msrp_usd": 199.99,
+    "reelcalc_recommended_braid": "6-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-10 lb mono/fluoro",
+    "reelcalc_use_case": "trout, panfish, micro-finesse freshwater",
+    "notes": "2026 IPRIMI LT; official Daiwa mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa iprimi lt iprimilt2000s-xh 2000s-xh 2000 2026 daiwa iprimi 2000 daiwa iprimi lt 2000 iprimi lt 2000s-xh trout reel micro finesse reel ultralight reel trout, panfish, micro-finesse freshwater"
+  },
+  {
+    "id": "daiwa-bg-lt-2500d-xh",
+    "brand": "Daiwa",
+    "model": "BG LT",
+    "sku": "BGLT2500D-XH",
+    "size_label": "2500D-XH",
+    "size_class": "2500",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 210,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.03024,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 240,
+        "diameter_in": 0.011,
+        "spool_space": 0.02904,
+        "raw": "8-240"
+      },
+      {
+        "lb": 10,
+        "yards": 210,
+        "diameter_in": 0.012,
+        "spool_space": 0.03024,
+        "raw": "10-210"
+      }
+    ],
+    "capacity_note": "8-240, 10-210",
+    "braid_capacity_note": "10-250, 15-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/spin-reels/products/bg-copy",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 22,
+    "weight_oz": 8.5,
+    "line_retrieve_in": 34.5,
+    "bearings": "1CRBB, 4BB, 1RB",
+    "msrp_usd": 179.99,
+    "reelcalc_recommended_braid": "6-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-10 lb mono/fluoro",
+    "reelcalc_use_case": "trout, finesse bass, light freshwater, light inshore",
+    "notes": "2026 BG LT, separate from original BG and BG MQ; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa bg lt bglt2500d-xh 2500d-xh 2500 2026 daiwa bg lt 2500 bg lt 2500 daiwa bg 2500 lt trout, finesse bass, light freshwater, light inshore"
+  },
+  {
+    "id": "daiwa-bg-lt-3000d-xh",
+    "brand": "Daiwa",
+    "model": "BG LT",
+    "sku": "BGLT3000D-XH",
+    "size_label": "3000D-XH",
+    "size_class": "3000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 220,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.04312,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 280,
+        "diameter_in": 0.012,
+        "spool_space": 0.04032,
+        "raw": "10-280"
+      },
+      {
+        "lb": 12,
+        "yards": 220,
+        "diameter_in": 0.014,
+        "spool_space": 0.04312,
+        "raw": "12-220"
+      }
+    ],
+    "capacity_note": "10-280, 12-220",
+    "braid_capacity_note": "15-250, 20-220",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/spin-reels/products/bg-copy",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 22,
+    "weight_oz": 9.3,
+    "line_retrieve_in": 36.8,
+    "bearings": "1CRBB, 4BB, 1RB",
+    "msrp_usd": 179.99,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "2026 BG LT, separate from original BG and BG MQ; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa bg lt bglt3000d-xh 3000d-xh 3000 2026 daiwa bg lt 3000 bg lt 3000 daiwa bg 3000 lt bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "daiwa-bg-lt-4000d-cxh",
+    "brand": "Daiwa",
+    "model": "BG LT",
+    "sku": "BGLT4000D-CXH",
+    "size_label": "4000D-CXH",
+    "size_class": "4000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 250,
+    "rated_line_lb": 14,
+    "rated_line_diameter_in": 0.014667,
+    "spool_space": 0.05378,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 360,
+        "diameter_in": 0.012,
+        "spool_space": 0.05184,
+        "raw": "10-360"
+      },
+      {
+        "lb": 14,
+        "yards": 250,
+        "diameter_in": 0.014667,
+        "spool_space": 0.05378,
+        "raw": "14-250"
+      }
+    ],
+    "capacity_note": "10-360, 14-250",
+    "braid_capacity_note": "20-280, 30-200",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/spin-reels/products/bg-copy",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 26.4,
+    "weight_oz": 9.9,
+    "line_retrieve_in": 39.1,
+    "bearings": "1CRBB, 4BB, 1RB",
+    "msrp_usd": 179.99,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "2026 BG LT, separate from original BG and BG MQ; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa bg lt bglt4000d-cxh 4000d-cxh 4000 2026 daiwa bg lt 4000 bg lt 4000 daiwa bg 4000 lt bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "daiwa-tatula-mq-2500-h",
+    "brand": "Daiwa",
+    "model": "Tatula MQ",
+    "sku": "TTMQFC2500-H",
+    "size_label": "2500-H",
+    "size_class": "2500",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 110,
+    "rated_line_lb": 8,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.01331,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 160,
+        "diameter_in": 0.0095,
+        "spool_space": 0.01444,
+        "raw": "6-160"
+      },
+      {
+        "lb": 8,
+        "yards": 110,
+        "diameter_in": 0.011,
+        "spool_space": 0.01331,
+        "raw": "8-110"
+      }
+    ],
+    "capacity_note": "6-160, 8-110",
+    "braid_capacity_note": "8-200, 10-170",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.8:1",
+    "max_drag_lb": 11,
+    "weight_oz": 6.3,
+    "line_retrieve_in": 32.4,
+    "bearings": "2CRBB, 6BB, 1RB",
+    "msrp_usd": 259.99,
+    "reelcalc_recommended_braid": "6-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-10 lb mono/fluoro",
+    "reelcalc_use_case": "trout, finesse bass, light freshwater, light inshore",
+    "notes": "2026 Tatula MQ Finesse Custom; separate from Tatula MQ LT. Official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa tatula mq ttmqfc2500-h 2500-h 2500 2026 finesse custom daiwa tatula mq 2500 tatula mq 2500 tatula mq fc 2500 trout, finesse bass, light freshwater, light inshore"
+  },
+  {
+    "id": "daiwa-tatula-mq-3000-xh",
+    "brand": "Daiwa",
+    "model": "Tatula MQ",
+    "sku": "TTMQLT3000-XH",
+    "size_label": "3000-XH",
+    "size_class": "3000",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 130,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.01872,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 160,
+        "diameter_in": 0.011,
+        "spool_space": 0.01936,
+        "raw": "8-160"
+      },
+      {
+        "lb": 10,
+        "yards": 130,
+        "diameter_in": 0.012,
+        "spool_space": 0.01872,
+        "raw": "10-130"
+      }
+    ],
+    "capacity_note": "8-160, 10-130",
+    "braid_capacity_note": "8-220, 10-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 22,
+    "weight_oz": 7.6,
+    "line_retrieve_in": 36.8,
+    "bearings": "2CRBB, 6BB, 1RB",
+    "msrp_usd": 259.99,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "2026 Tatula MQ Power Finesse; separate from Tatula MQ LT. Official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa tatula mq ttmqlt3000-xh 3000-xh 3000 2026 power finesse daiwa tatula mq 3000 tatula mq 3000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "daiwa-tatula-elite-mq-2500-h",
+    "brand": "Daiwa",
+    "model": "Tatula Elite MQ",
+    "sku": "TTELMQFC2500-H",
+    "size_label": "2500-H",
+    "size_class": "2500",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 110,
+    "rated_line_lb": 8,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.01331,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 160,
+        "diameter_in": 0.0095,
+        "spool_space": 0.01444,
+        "raw": "6-160"
+      },
+      {
+        "lb": 8,
+        "yards": 110,
+        "diameter_in": 0.011,
+        "spool_space": 0.01331,
+        "raw": "8-110"
+      }
+    ],
+    "capacity_note": "6-160, 8-110",
+    "braid_capacity_note": "8-200, 10-170",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.8:1",
+    "max_drag_lb": 11,
+    "weight_oz": 6,
+    "line_retrieve_in": 32.4,
+    "bearings": "3CRBB, 8BB, 1RB",
+    "msrp_usd": 319.99,
+    "reelcalc_recommended_braid": "6-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-10 lb mono/fluoro",
+    "reelcalc_use_case": "trout, finesse bass, light freshwater, light inshore",
+    "notes": "2026 Tatula Elite MQ Finesse Custom; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa tatula elite mq ttelmqfc2500-h 2500-h 2500 2026 finesse custom daiwa tatula elite mq 2500 tatula elite mq 2500 trout, finesse bass, light freshwater, light inshore"
+  },
+  {
+    "id": "daiwa-tatula-elite-mq-3000-cxh",
+    "brand": "Daiwa",
+    "model": "Tatula Elite MQ",
+    "sku": "TTELMQLT3000-CXH",
+    "size_label": "3000-CXH",
+    "size_class": "3000",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 130,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.01872,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 160,
+        "diameter_in": 0.011,
+        "spool_space": 0.01936,
+        "raw": "8-160"
+      },
+      {
+        "lb": 10,
+        "yards": 130,
+        "diameter_in": 0.012,
+        "spool_space": 0.01872,
+        "raw": "10-130"
+      }
+    ],
+    "capacity_note": "8-160, 10-130",
+    "braid_capacity_note": "8-220, 10-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 22,
+    "weight_oz": 6.7,
+    "line_retrieve_in": 36.8,
+    "bearings": "3CRBB, 8BB, 1RB",
+    "msrp_usd": 319.99,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "2026 Tatula Elite MQ; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa tatula elite mq ttelmqlt3000-cxh 3000-cxh 3000 2026 daiwa tatula elite mq 3000 cxh tatula elite mq 3000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "daiwa-tatula-elite-mq-3000-xh",
+    "brand": "Daiwa",
+    "model": "Tatula Elite MQ",
+    "sku": "TTELMQLT3000-XH",
+    "size_label": "3000-XH",
+    "size_class": "3000",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 130,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.01872,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 160,
+        "diameter_in": 0.011,
+        "spool_space": 0.01936,
+        "raw": "8-160"
+      },
+      {
+        "lb": 10,
+        "yards": 130,
+        "diameter_in": 0.012,
+        "spool_space": 0.01872,
+        "raw": "10-130"
+      }
+    ],
+    "capacity_note": "8-160, 10-130",
+    "braid_capacity_note": "8-220, 10-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 22,
+    "weight_oz": 7.4,
+    "line_retrieve_in": 36.8,
+    "bearings": "3CRBB, 8BB, 1RB",
+    "msrp_usd": 339.99,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "2026 Tatula Elite MQ Power Finesse; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa tatula elite mq ttelmqlt3000-xh 3000-xh 3000 2026 power finesse daiwa tatula elite mq 3000 xh tatula elite mq 3000 xh bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "daiwa-tatula-elite-mq-4000-cxh",
+    "brand": "Daiwa",
+    "model": "Tatula Elite MQ",
+    "sku": "TTELMQLT4000-CXH",
+    "size_label": "4000-CXH",
+    "size_class": "4000",
+    "reel_type": "front_drag_freshwater",
+    "capacity_yards": 160,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.03136,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 210,
+        "diameter_in": 0.012,
+        "spool_space": 0.03024,
+        "raw": "10-210"
+      },
+      {
+        "lb": 12,
+        "yards": 160,
+        "diameter_in": 0.014,
+        "spool_space": 0.03136,
+        "raw": "12-160"
+      }
+    ],
+    "capacity_note": "10-210, 12-160",
+    "braid_capacity_note": "10-220, 15-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Daiwa US 2026 product specification table",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+    "source_file": "daiwa_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 26.4,
+    "weight_oz": 7.6,
+    "line_retrieve_in": 39.1,
+    "bearings": "3CRBB, 8BB, 1RB",
+    "msrp_usd": 339.99,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "2026 Tatula Elite MQ; official mono and J-Braid capacities. Interchangeable right/left retrieve.",
+    "search_text": "daiwa tatula elite mq ttelmqlt4000-cxh 4000-cxh 4000 2026 daiwa tatula elite mq 4000 tatula elite mq 4000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "penn-battle-iii-2500",
+    "brand": "PENN",
+    "model": "Battle III",
+    "sku": "BTLIII2500",
+    "size_label": "2500",
+    "size_class": "2500",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 140,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.02016,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 255,
+        "diameter_in": 0.0095,
+        "spool_space": 0.023014,
+        "raw": "6-255"
+      },
+      {
+        "lb": 8,
+        "yards": 175,
+        "diameter_in": 0.011,
+        "spool_space": 0.021175,
+        "raw": "8-175"
+      },
+      {
+        "lb": 10,
+        "yards": 140,
+        "diameter_in": 0.012,
+        "spool_space": 0.02016,
+        "raw": "10-140"
+      }
+    ],
+    "capacity_note": "6-255, 8-175, 10-140",
+    "braid_capacity_note": "10-240, 15-220, 20-160",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennBattleIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 12,
+    "weight_oz": 9.7,
+    "line_retrieve_in": 33,
+    "bearings": "5+1",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "6-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-10 lb mono/fluoro",
+    "reelcalc_use_case": "trout, finesse bass, light freshwater, light inshore",
+    "notes": "Discontinued Battle III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn battle iii btliii2500 2500 2500 battle 3 third generation 2020-2023 penn battle 3 2500 penn battle iii 2500 battle iii 2500 trout, finesse bass, light freshwater, light inshore"
+  },
+  {
+    "id": "penn-battle-iii-3000",
+    "brand": "PENN",
+    "model": "Battle III",
+    "sku": "BTLIII3000",
+    "size_label": "3000",
+    "size_class": "3000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 120,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.02352,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 200,
+        "diameter_in": 0.011,
+        "spool_space": 0.0242,
+        "raw": "8-200"
+      },
+      {
+        "lb": 10,
+        "yards": 165,
+        "diameter_in": 0.012,
+        "spool_space": 0.02376,
+        "raw": "10-165"
+      },
+      {
+        "lb": 12,
+        "yards": 120,
+        "diameter_in": 0.014,
+        "spool_space": 0.02352,
+        "raw": "12-120"
+      }
+    ],
+    "capacity_note": "8-200, 10-165, 12-120",
+    "braid_capacity_note": "15-250, 20-180, 30-130",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennBattleIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 15,
+    "weight_oz": 11.6,
+    "line_retrieve_in": 35,
+    "bearings": "5+1",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "Discontinued Battle III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn battle iii btliii3000 3000 3000 battle 3 third generation 2020-2023 penn battle 3 3000 penn battle iii 3000 battle iii 3000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "penn-battle-iii-4000",
+    "brand": "PENN",
+    "model": "Battle III",
+    "sku": "BTLIII4000",
+    "size_label": "4000",
+    "size_class": "4000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 165,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.03234,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 270,
+        "diameter_in": 0.011,
+        "spool_space": 0.03267,
+        "raw": "8-270"
+      },
+      {
+        "lb": 10,
+        "yards": 220,
+        "diameter_in": 0.012,
+        "spool_space": 0.03168,
+        "raw": "10-220"
+      },
+      {
+        "lb": 12,
+        "yards": 165,
+        "diameter_in": 0.014,
+        "spool_space": 0.03234,
+        "raw": "12-165"
+      }
+    ],
+    "capacity_note": "8-270, 10-220, 12-165",
+    "braid_capacity_note": "15-360, 20-260, 30-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennBattleIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 15,
+    "weight_oz": 12.2,
+    "line_retrieve_in": 37,
+    "bearings": "5+1",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "Discontinued Battle III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn battle iii btliii4000 4000 4000 battle 3 third generation 2020-2023 penn battle 3 4000 penn battle iii 4000 battle iii 4000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "penn-battle-iii-5000",
+    "brand": "PENN",
+    "model": "Battle III",
+    "sku": "BTLIII5000",
+    "size_label": "5000",
+    "size_class": "5000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 135,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.04374,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 225,
+        "diameter_in": 0.014,
+        "spool_space": 0.0441,
+        "raw": "12-225"
+      },
+      {
+        "lb": 15,
+        "yards": 200,
+        "diameter_in": 0.015,
+        "spool_space": 0.045,
+        "raw": "15-200"
+      },
+      {
+        "lb": 20,
+        "yards": 135,
+        "diameter_in": 0.018,
+        "spool_space": 0.04374,
+        "raw": "20-135"
+      }
+    ],
+    "capacity_note": "12-225, 15-200, 20-135",
+    "braid_capacity_note": "20-420, 30-300, 40-240",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennBattleIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.6:1",
+    "max_drag_lb": 25,
+    "weight_oz": 18.8,
+    "line_retrieve_in": 36,
+    "bearings": "5+1",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "20-80 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-30 lb mono",
+    "reelcalc_use_case": "heavy inshore, nearshore, surf, live bait",
+    "notes": "Discontinued Battle III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn battle iii btliii5000 5000 5000 battle 3 third generation 2020-2023 penn battle 3 5000 penn battle iii 5000 battle iii 5000 heavy inshore, nearshore, surf, live bait"
+  },
+  {
+    "id": "penn-battle-iii-6000",
+    "brand": "PENN",
+    "model": "Battle III",
+    "sku": "BTLIII6000",
+    "size_label": "6000",
+    "size_class": "6000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 210,
+    "rated_line_lb": 25,
+    "rated_line_diameter_in": 0.019,
+    "spool_space": 0.07581,
+    "capacity_options": [
+      {
+        "lb": 15,
+        "yards": 335,
+        "diameter_in": 0.015,
+        "spool_space": 0.075375,
+        "raw": "15-335"
+      },
+      {
+        "lb": 20,
+        "yards": 230,
+        "diameter_in": 0.018,
+        "spool_space": 0.07452,
+        "raw": "20-230"
+      },
+      {
+        "lb": 25,
+        "yards": 210,
+        "diameter_in": 0.019,
+        "spool_space": 0.07581,
+        "raw": "25-210"
+      }
+    ],
+    "capacity_note": "15-335, 20-230, 25-210",
+    "braid_capacity_note": "30-490, 40-390, 50-335",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennBattleIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.6:1",
+    "max_drag_lb": 25,
+    "weight_oz": 20.8,
+    "line_retrieve_in": 41,
+    "bearings": "5+1",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "20-80 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-30 lb mono",
+    "reelcalc_use_case": "heavy inshore, nearshore, surf, live bait",
+    "notes": "Discontinued Battle III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn battle iii btliii6000 6000 6000 battle 3 third generation 2020-2023 penn battle 3 6000 penn battle iii 6000 battle iii 6000 heavy inshore, nearshore, surf, live bait"
+  },
+  {
+    "id": "penn-pursuit-iii-2500",
+    "brand": "PENN",
+    "model": "Pursuit III",
+    "sku": "PURIII2500",
+    "size_label": "2500",
+    "size_class": "2500",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 140,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.02016,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 255,
+        "diameter_in": 0.0095,
+        "spool_space": 0.023014,
+        "raw": "6-255"
+      },
+      {
+        "lb": 8,
+        "yards": 175,
+        "diameter_in": 0.011,
+        "spool_space": 0.021175,
+        "raw": "8-175"
+      },
+      {
+        "lb": 10,
+        "yards": 140,
+        "diameter_in": 0.012,
+        "spool_space": 0.02016,
+        "raw": "10-140"
+      }
+    ],
+    "capacity_note": "6-255, 8-175, 10-140",
+    "braid_capacity_note": "10-240, 15-220, 20-160",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 10,
+    "weight_oz": 9.8,
+    "line_retrieve_in": 33,
+    "bearings": "5",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "6-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-10 lb mono/fluoro",
+    "reelcalc_use_case": "trout, finesse bass, light freshwater, light inshore",
+    "notes": "Discontinued Pursuit III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn pursuit iii puriii2500 2500 2500 pursuit 3 third generation 2018-2022 penn pursuit 3 2500 penn pursuit iii 2500 pursuit iii 2500 trout, finesse bass, light freshwater, light inshore"
+  },
+  {
+    "id": "penn-pursuit-iii-3000",
+    "brand": "PENN",
+    "model": "Pursuit III",
+    "sku": "PURIII3000",
+    "size_label": "3000",
+    "size_class": "3000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 120,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.02352,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 200,
+        "diameter_in": 0.011,
+        "spool_space": 0.0242,
+        "raw": "8-200"
+      },
+      {
+        "lb": 10,
+        "yards": 165,
+        "diameter_in": 0.012,
+        "spool_space": 0.02376,
+        "raw": "10-165"
+      },
+      {
+        "lb": 12,
+        "yards": 120,
+        "diameter_in": 0.014,
+        "spool_space": 0.02352,
+        "raw": "12-120"
+      }
+    ],
+    "capacity_note": "8-200, 10-165, 12-120",
+    "braid_capacity_note": "15-250, 20-180, 30-130",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 12,
+    "weight_oz": 11.8,
+    "line_retrieve_in": 35,
+    "bearings": "5",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "Discontinued Pursuit III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn pursuit iii puriii3000 3000 3000 pursuit 3 third generation 2018-2022 penn pursuit 3 3000 penn pursuit iii 3000 pursuit iii 3000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "penn-pursuit-iii-4000",
+    "brand": "PENN",
+    "model": "Pursuit III",
+    "sku": "PURIII4000",
+    "size_label": "4000",
+    "size_class": "4000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 165,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.03234,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 270,
+        "diameter_in": 0.011,
+        "spool_space": 0.03267,
+        "raw": "8-270"
+      },
+      {
+        "lb": 10,
+        "yards": 220,
+        "diameter_in": 0.012,
+        "spool_space": 0.03168,
+        "raw": "10-220"
+      },
+      {
+        "lb": 12,
+        "yards": 165,
+        "diameter_in": 0.014,
+        "spool_space": 0.03234,
+        "raw": "12-165"
+      }
+    ],
+    "capacity_note": "8-270, 10-220, 12-165",
+    "braid_capacity_note": "15-360, 20-260, 30-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 12,
+    "weight_oz": 12.4,
+    "line_retrieve_in": 37,
+    "bearings": "5",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "10-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-14 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, inshore, general freshwater",
+    "notes": "Discontinued Pursuit III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn pursuit iii puriii4000 4000 4000 pursuit 3 third generation 2018-2022 penn pursuit 3 4000 penn pursuit iii 4000 pursuit iii 4000 bass, walleye, inshore, general freshwater"
+  },
+  {
+    "id": "penn-pursuit-iii-5000",
+    "brand": "PENN",
+    "model": "Pursuit III",
+    "sku": "PURIII5000",
+    "size_label": "5000",
+    "size_class": "5000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 135,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.04374,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 225,
+        "diameter_in": 0.014,
+        "spool_space": 0.0441,
+        "raw": "12-225"
+      },
+      {
+        "lb": 15,
+        "yards": 200,
+        "diameter_in": 0.015,
+        "spool_space": 0.045,
+        "raw": "15-200"
+      },
+      {
+        "lb": 20,
+        "yards": 135,
+        "diameter_in": 0.018,
+        "spool_space": 0.04374,
+        "raw": "20-135"
+      }
+    ],
+    "capacity_note": "12-225, 15-200, 20-135",
+    "braid_capacity_note": "20-420, 30-300, 40-240",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.6:1",
+    "max_drag_lb": 20,
+    "weight_oz": 19.7,
+    "line_retrieve_in": 36,
+    "bearings": "5",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "20-80 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-30 lb mono",
+    "reelcalc_use_case": "heavy inshore, nearshore, surf, live bait",
+    "notes": "Discontinued Pursuit III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn pursuit iii puriii5000 5000 5000 pursuit 3 third generation 2018-2022 penn pursuit 3 5000 penn pursuit iii 5000 pursuit iii 5000 heavy inshore, nearshore, surf, live bait"
+  },
+  {
+    "id": "penn-pursuit-iii-6000",
+    "brand": "PENN",
+    "model": "Pursuit III",
+    "sku": "PURIII6000",
+    "size_label": "6000",
+    "size_class": "6000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 210,
+    "rated_line_lb": 25,
+    "rated_line_diameter_in": 0.019,
+    "spool_space": 0.07581,
+    "capacity_options": [
+      {
+        "lb": 15,
+        "yards": 335,
+        "diameter_in": 0.015,
+        "spool_space": 0.075375,
+        "raw": "15-335"
+      },
+      {
+        "lb": 20,
+        "yards": 230,
+        "diameter_in": 0.018,
+        "spool_space": 0.07452,
+        "raw": "20-230"
+      },
+      {
+        "lb": 25,
+        "yards": 210,
+        "diameter_in": 0.019,
+        "spool_space": 0.07581,
+        "raw": "25-210"
+      }
+    ],
+    "capacity_note": "15-335, 20-230, 25-210",
+    "braid_capacity_note": "30-490, 40-390, 50-335",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.6:1",
+    "max_drag_lb": 20,
+    "weight_oz": 21.4,
+    "line_retrieve_in": 41,
+    "bearings": "5",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "20-80 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-30 lb mono",
+    "reelcalc_use_case": "heavy inshore, nearshore, surf, live bait",
+    "notes": "Discontinued Pursuit III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn pursuit iii puriii6000 6000 6000 pursuit 3 third generation 2018-2022 penn pursuit 3 6000 penn pursuit iii 6000 pursuit iii 6000 heavy inshore, nearshore, surf, live bait"
+  },
+  {
+    "id": "penn-pursuit-iii-8000",
+    "brand": "PENN",
+    "model": "Pursuit III",
+    "sku": "PURIII8000",
+    "size_label": "8000",
+    "size_class": "8000",
+    "reel_type": "sw_spinning",
+    "capacity_yards": 230,
+    "rated_line_lb": 30,
+    "rated_line_diameter_in": 0.022,
+    "spool_space": 0.11132,
+    "capacity_options": [
+      {
+        "lb": 20,
+        "yards": 340,
+        "diameter_in": 0.018,
+        "spool_space": 0.11016,
+        "raw": "20-340"
+      },
+      {
+        "lb": 25,
+        "yards": 310,
+        "diameter_in": 0.019,
+        "spool_space": 0.11191,
+        "raw": "25-310"
+      },
+      {
+        "lb": 30,
+        "yards": 230,
+        "diameter_in": 0.022,
+        "spool_space": 0.11132,
+        "raw": "30-230"
+      }
+    ],
+    "capacity_note": "20-340, 25-310, 30-230",
+    "braid_capacity_note": "50-475, 65-390, 80-345",
+    "capacity_status": "ready",
+    "capacity_data_source": "PENN published specifications archived by Mystic Reel Parts",
+    "source_url": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+    "source_file": "penn_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.3:1",
+    "max_drag_lb": 25,
+    "weight_oz": 29.1,
+    "line_retrieve_in": 43,
+    "bearings": "5",
+    "msrp_usd": null,
+    "reelcalc_recommended_braid": "20-80 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-30 lb mono",
+    "reelcalc_use_case": "heavy inshore, nearshore, surf, live bait",
+    "notes": "Discontinued Pursuit III generation; mono and braid capacities preserved separately. Interchangeable right/left retrieve.",
+    "search_text": "penn pursuit iii puriii8000 8000 8000 pursuit 3 third generation 2018-2022 penn pursuit 3 8000 penn pursuit iii 8000 pursuit iii 8000 heavy inshore, nearshore, surf, live bait"
   }
 ]
