@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T01:19:48.696Z",
+  "generated_at": "2026-07-09T02:11:36.569Z",
   "source_directory": "C:/Users/Tyler/Documents/Creelcalc-wizard",
   "calculator_source": "Calc code.txt",
   "inventory": [
@@ -147,6 +147,11 @@
     "date": "2026-07-08",
     "added_reels": 22,
     "corrected_shimano_reels": 16,
-    "note": "Daiwa current specs use official Daiwa US tables. PENN discontinued specs use a reputable parts/spec archive. Shimano placeholders were replaced with exact-SKU mono or manufacturer-published PowerPro capacity."
+    "note": "Daiwa current specs use official Daiwa US tables. PENN discontinued specs use a reputable parts/spec archive. Shimano placeholders were replaced with exact-SKU mono or manufacturer-published PowerPro capacity.",
+    "vanquish_mono_correction": {
+      "date": "2026-07-09",
+      "corrected_reels": 4,
+      "note": "Vanquish calculator capacity now uses exact manufacturer mono lb-yd specifications. US Shimano was checked first; UK Shimano was used only for two sizes absent from the US lineup."
+    }
   }
 }

@@ -40072,42 +40072,40 @@
     "size_label": "C3000XG",
     "size_class": "3000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": 105,
-    "rated_line_lb": 40,
-    "rated_line_diameter_in": 0.013,
-    "spool_space": 0.017745,
+    "capacity_yards": 140,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.02016,
     "capacity_options": [
       {
+        "lb": 6,
+        "yards": 230,
+        "diameter_in": 0.0095,
+        "spool_space": 0.020758,
+        "raw": "6-230"
+      },
+      {
+        "lb": 8,
+        "yards": 170,
+        "diameter_in": 0.011,
+        "spool_space": 0.02057,
+        "raw": "8-170"
+      },
+      {
         "lb": 10,
-        "yards": 200,
-        "diameter_in": 0.008,
-        "spool_space": 0.0128,
-        "raw": "10-200"
-      },
-      {
-        "lb": 20,
         "yards": 140,
-        "diameter_in": 0.009,
-        "spool_space": 0.01134,
-        "raw": "20-140"
-      },
-      {
-        "lb": 40,
-        "yards": 105,
-        "diameter_in": 0.013,
-        "spool_space": 0.017745,
-        "raw": "40-105"
+        "diameter_in": 0.012,
+        "spool_space": 0.02016,
+        "raw": "10-140"
       }
     ],
-    "capacity_note": "PowerPro basis: 10-200, 20-140, 40-105",
+    "capacity_note": "6-230, 8-170, 10-140",
     "braid_capacity_note": "10-200, 20-140, 40-105",
     "capacity_status": "ready",
-    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
-    "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
+    "capacity_data_source": "Official Shimano US mono capacity; official Shimano Singapore PowerPro capacity",
+    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.4",
     "max_drag_lb": 19.8,
     "weight_oz": 6,
@@ -40117,7 +40115,7 @@
     "reelcalc_recommended_braid": "10-20 lb braid",
     "reelcalc_recommended_mono_fluoro": "6-12 lb mono/fluoro",
     "reelcalc_use_case": "bass, walleye, light inshore, general freshwater",
-    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for C3000XG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
+    "notes": "Exact 23 Vanquish C3000XG mono capacity from Shimano US. PowerPro capacity is preserved from Shimano's regional chart.",
     "search_text": "shimano vanquish c3000xg c3000xg 3000 bass, walleye, light inshore, general freshwater"
   },
   {
@@ -40182,42 +40180,40 @@
     "size_label": "4000MHG",
     "size_class": "4000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": 110,
-    "rated_line_lb": 30,
-    "rated_line_diameter_in": 0.011,
-    "spool_space": 0.01331,
+    "capacity_yards": 90,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.01764,
     "capacity_options": [
       {
-        "lb": 10,
-        "yards": 195,
-        "diameter_in": 0.008,
-        "spool_space": 0.01248,
-        "raw": "10-195"
+        "lb": 6,
+        "yards": 190,
+        "diameter_in": 0.0095,
+        "spool_space": 0.017147,
+        "raw": "6-190"
       },
       {
-        "lb": 20,
+        "lb": 8,
         "yards": 120,
-        "diameter_in": 0.009,
-        "spool_space": 0.00972,
-        "raw": "20-120"
+        "diameter_in": 0.011,
+        "spool_space": 0.01452,
+        "raw": "8-120"
       },
       {
-        "lb": 30,
-        "yards": 110,
-        "diameter_in": 0.011,
-        "spool_space": 0.01331,
-        "raw": "30-110"
+        "lb": 12,
+        "yards": 90,
+        "diameter_in": 0.014,
+        "spool_space": 0.01764,
+        "raw": "12-90"
       }
     ],
-    "capacity_note": "PowerPro basis: 10-195, 20-120, 30-110",
+    "capacity_note": "6-190, 8-120, 12-90",
     "braid_capacity_note": "10-195, 20-120, 30-110",
     "capacity_status": "ready",
-    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
-    "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
+    "capacity_data_source": "Official Shimano UK mono capacity; official Shimano Singapore PowerPro capacity",
+    "source_url": "https://fish.shimano.com/en-GB/product/reels/spinning/frontdrag/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
-    ],
+    "data_warnings": [],
     "gear_ratio": "5.7",
     "max_drag_lb": 24.3,
     "weight_oz": 7.2,
@@ -40227,7 +40223,7 @@
     "reelcalc_recommended_braid": "15-40 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-14 lb mono/fluoro",
     "reelcalc_use_case": "inshore, heavier freshwater, light surf",
-    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for 4000MHG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
+    "notes": "Exact 23 Vanquish 4000MHG mono capacity from Shimano UK because this model is not in the US lineup. PowerPro capacity is preserved from Shimano's regional chart.",
     "search_text": "shimano vanquish 4000mhg 4000mhg 4000 inshore, heavier freshwater, light surf"
   },
   {
@@ -40238,42 +40234,33 @@
     "size_label": "4000XG",
     "size_class": "4000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": 120,
-    "rated_line_lb": 50,
+    "capacity_yards": 160,
+    "rated_line_lb": 12,
     "rated_line_diameter_in": 0.014,
-    "spool_space": 0.02352,
+    "spool_space": 0.03136,
     "capacity_options": [
       {
-        "lb": 15,
-        "yards": 230,
-        "diameter_in": 0.008,
-        "spool_space": 0.01472,
-        "raw": "15-230"
+        "lb": 10,
+        "yards": 200,
+        "diameter_in": 0.012,
+        "spool_space": 0.0288,
+        "raw": "10-200"
       },
       {
-        "lb": 30,
-        "yards": 180,
-        "diameter_in": 0.011,
-        "spool_space": 0.02178,
-        "raw": "30-180"
-      },
-      {
-        "lb": 50,
-        "yards": 120,
+        "lb": 12,
+        "yards": 160,
         "diameter_in": 0.014,
-        "spool_space": 0.02352,
-        "raw": "50-120"
+        "spool_space": 0.03136,
+        "raw": "12-160"
       }
     ],
-    "capacity_note": "PowerPro basis: 15-230, 30-180, 50-120",
+    "capacity_note": "10-200, 12-160",
     "braid_capacity_note": "15-230, 30-180, 50-120",
     "capacity_status": "ready",
-    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
-    "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
+    "capacity_data_source": "Official Shimano US mono capacity; official Shimano Singapore PowerPro capacity",
+    "source_url": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.2",
     "max_drag_lb": 24.3,
     "weight_oz": 7.2,
@@ -40283,7 +40270,7 @@
     "reelcalc_recommended_braid": "15-40 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-14 lb mono/fluoro",
     "reelcalc_use_case": "inshore, heavier freshwater, light surf",
-    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for 4000XG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
+    "notes": "Exact 23 Vanquish 4000XG mono capacity from Shimano US. PowerPro capacity is preserved from Shimano's regional chart.",
     "search_text": "shimano vanquish 4000xg 4000xg 4000 inshore, heavier freshwater, light surf"
   },
   {
@@ -40294,42 +40281,33 @@
     "size_label": "C5000XG",
     "size_class": "5000",
     "reel_type": "front_drag_freshwater",
-    "capacity_yards": 185,
-    "rated_line_lb": 40,
-    "rated_line_diameter_in": 0.013,
-    "spool_space": 0.031265,
+    "capacity_yards": 165,
+    "rated_line_lb": 14,
+    "rated_line_diameter_in": 0.014667,
+    "spool_space": 0.035495,
     "capacity_options": [
       {
-        "lb": 20,
-        "yards": 260,
-        "diameter_in": 0.009,
-        "spool_space": 0.02106,
-        "raw": "20-260"
+        "lb": 12,
+        "yards": 195,
+        "diameter_in": 0.014,
+        "spool_space": 0.03822,
+        "raw": "12-195"
       },
       {
-        "lb": 30,
-        "yards": 235,
-        "diameter_in": 0.011,
-        "spool_space": 0.028435,
-        "raw": "30-235"
-      },
-      {
-        "lb": 40,
-        "yards": 185,
-        "diameter_in": 0.013,
-        "spool_space": 0.031265,
-        "raw": "40-185"
+        "lb": 14,
+        "yards": 165,
+        "diameter_in": 0.014667,
+        "spool_space": 0.035495,
+        "raw": "14-165"
       }
     ],
-    "capacity_note": "PowerPro basis: 20-260, 30-235, 40-185",
+    "capacity_note": "12-195, 14-165",
     "braid_capacity_note": "20-260, 30-235, 40-185",
     "capacity_status": "ready",
-    "capacity_data_source": "Official Shimano Singapore PowerPro capacity",
-    "source_url": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
+    "capacity_data_source": "Official Shimano UK mono capacity; official Shimano Singapore PowerPro capacity",
+    "source_url": "https://fish.shimano.com/en-GB/product/reels/spinning/frontdrag/a075f00003slvm7qac.html",
     "source_file": "shimano_reel_database_master.json",
-    "data_warnings": [
-      "Mono capacity is not published; spool volume is calculated from the verified PowerPro capacity."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.2",
     "max_drag_lb": 24.3,
     "weight_oz": 7.8,
@@ -40339,7 +40317,7 @@
     "reelcalc_recommended_braid": "15-40 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-14 lb mono/fluoro",
     "reelcalc_use_case": "inshore, heavier freshwater, light surf",
-    "notes": "Official Shimano regional chart publishes PowerPro lb-yd capacity but not mono lb-m capacity for C5000XG; calculator uses the verified PowerPro capacity as its spool-volume basis.",
+    "notes": "Exact 23 Vanquish C5000XG mono capacity from Shimano UK because this model is not in the US lineup. PowerPro capacity is preserved from Shimano's regional chart.",
     "search_text": "shimano vanquish c5000xg c5000xg 5000 inshore, heavier freshwater, light surf"
   },
   {
