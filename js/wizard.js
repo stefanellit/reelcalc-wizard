@@ -65,6 +65,7 @@ async function init() {
   bindEvents();
   await loadData();
   populateReelFilters();
+  applyReelPreloadFromUrl();
   populateLineFilters();
   populateBackingFilters();
   renderAll();
@@ -584,6 +585,24 @@ function selectReel(reel, updateSearch) {
     el.manualReelPanel.classList.remove("hidden");
   } else {
     el.manualReelPanel.classList.add("hidden");
+  }
+}
+
+function applyReelPreloadFromUrl() {
+  var requested = new URLSearchParams(window.location.search).get("reel");
+  if (!requested) return;
+
+  var normalizedRequested = normalizeSearch(requested);
+  var reel = state.reels.find(function(item) {
+    return item.id === requested;
+  }) || state.reels.find(function(item) {
+    return normalizeSearch(item.id) === normalizedRequested ||
+      normalizeSearch(item.sku) === normalizedRequested;
+  });
+
+  if (reel) {
+    selectReel(reel, false);
+    resetDesiredMainLine();
   }
 }
 
@@ -1295,7 +1314,7 @@ function formatNumber(value, digits) {
 
 function formatDiameter(value) {
   var number = Number(value);
-    if (!Number.isFinite(number)) return "--";
+  if (!Number.isFinite(number)) return "--";
   return number.toFixed(4).replace(/0+$/, "").replace(/\.$/, "");
 }
 
