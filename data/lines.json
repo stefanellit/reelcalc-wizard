@@ -700,8 +700,8 @@
     "lb": 4,
     "dia_in": 0.007,
     "dia_mm": 0.18,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 4 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 4 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-6",
@@ -711,8 +711,8 @@
     "lb": 6,
     "dia_in": 0.008,
     "dia_mm": 0.2,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 6 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 6 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-8",
@@ -722,8 +722,8 @@
     "lb": 8,
     "dia_in": 0.009,
     "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 8 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 8 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-10",
@@ -733,8 +733,8 @@
     "lb": 10,
     "dia_in": 0.01,
     "dia_mm": 0.25,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 10 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 10 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-12",
@@ -744,8 +744,8 @@
     "lb": 12,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 12 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 12 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-15",
@@ -755,8 +755,8 @@
     "lb": 15,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 15 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 15 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-17",
@@ -766,8 +766,8 @@
     "lb": 17,
     "dia_in": 0.015,
     "dia_mm": 0.38,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 17 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 17 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-20",
@@ -777,8 +777,8 @@
     "lb": 20,
     "dia_in": 0.016,
     "dia_mm": 0.41,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 20 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 20 lb gin clear fluoro water"
   },
   {
     "id": "berkley-ginclear-fluorocarbon-25",
@@ -788,8 +788,8 @@
     "lb": 25,
     "dia_in": 0.017,
     "dia_mm": 0.43,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley ginclear fluorocarbon 25 lb"
+    "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+    "search_text": "berkley ginclear fluorocarbon 25 lb gin clear fluoro water"
   },
   {
     "id": "berkley-forward-finesse-braid-braid-6",
@@ -1446,10 +1446,10 @@
     "model": "J-Braid Grand X8",
     "type": "Braid",
     "lb": 6,
-    "dia_in": 0.005,
-    "dia_mm": 0.13,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 6 lb"
+    "dia_in": 0.003,
+    "dia_mm": 0.1,
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 6 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-8",
@@ -1457,10 +1457,10 @@
     "model": "J-Braid Grand X8",
     "type": "Braid",
     "lb": 8,
-    "dia_in": 0.006,
-    "dia_mm": 0.15,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 8 lb"
+    "dia_in": 0.005,
+    "dia_mm": 0.13,
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 8 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-10",
@@ -1470,8 +1470,8 @@
     "lb": 10,
     "dia_in": 0.006,
     "dia_mm": 0.15,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 10 lb"
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 10 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-15",
@@ -1479,10 +1479,10 @@
     "model": "J-Braid Grand X8",
     "type": "Braid",
     "lb": 15,
-    "dia_in": 0.007,
-    "dia_mm": 0.18,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 15 lb"
+    "dia_in": 0.008,
+    "dia_mm": 0.19,
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 15 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-20",
@@ -1492,8 +1492,8 @@
     "lb": 20,
     "dia_in": 0.009,
     "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 20 lb"
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 20 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-30",
@@ -1503,8 +1503,8 @@
     "lb": 30,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 30 lb"
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 30 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-40",
@@ -1514,8 +1514,8 @@
     "lb": 40,
     "dia_in": 0.013,
     "dia_mm": 0.32,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 40 lb"
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 40 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-50",
@@ -1525,8 +1525,8 @@
     "lb": 50,
     "dia_in": 0.014,
     "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 50 lb"
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 50 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-j-braid-grand-x8-braid-65",
@@ -1536,8 +1536,8 @@
     "lb": 65,
     "dia_in": 0.016,
     "dia_mm": 0.41,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "daiwa j-braid grand x8 braid 65 lb"
+    "source_note": "Verified against Daiwa U.S. J-Braid Grand X8 diameter table; Ocean Splash confirmed as a Daiwa U.S. color variant.",
+    "search_text": "daiwa j-braid grand x8 braid 65 lb j 8x ocean splash dark green island blue gray light chartreuse white multi-color"
   },
   {
     "id": "daiwa-samurai-fluorocarbon-fluorocarbon-6",
@@ -3789,10 +3789,10 @@
     "model": "EndurX Braid",
     "type": "Braid",
     "lb": 10,
-    "dia_in": 0.006,
-    "dia_mm": 0.15,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line endurx braid braid 10 lb"
+    "dia_in": 0.007,
+    "dia_mm": 0.18,
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 10 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
   },
   {
     "id": "p-line-endurx-braid-braid-20",
@@ -3802,8 +3802,8 @@
     "lb": 20,
     "dia_in": 0.009,
     "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line endurx braid braid 20 lb"
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 20 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
   },
   {
     "id": "p-line-endurx-braid-braid-30",
@@ -3813,8 +3813,8 @@
     "lb": 30,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line endurx braid braid 30 lb"
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 30 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
   },
   {
     "id": "p-line-endurx-braid-braid-40",
@@ -3824,8 +3824,8 @@
     "lb": 40,
     "dia_in": 0.013,
     "dia_mm": 0.32,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line endurx braid braid 40 lb"
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 40 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
   },
   {
     "id": "p-line-endurx-braid-braid-50",
@@ -3835,8 +3835,8 @@
     "lb": 50,
     "dia_in": 0.014,
     "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line endurx braid braid 50 lb"
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 50 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
   },
   {
     "id": "p-line-tcb-8-braid-braid-10",
@@ -8391,5 +8391,1360 @@
     "dia_mm": 0.25,
     "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
     "search_text": "vicious panfish hi-vis mono monofilament 8 lb"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-8",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 8,
+    "dia_in": 0.005,
+    "dia_mm": 0.13,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 8 lb x-braid marsh green multi color 9 carrier plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-10",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 10,
+    "dia_in": 0.006,
+    "dia_mm": 0.15,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 10 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-15",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 15,
+    "dia_in": 0.008,
+    "dia_mm": 0.19,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 15 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-20",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 20,
+    "dia_in": 0.009,
+    "dia_mm": 0.23,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 20 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-30",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 30,
+    "dia_in": 0.011,
+    "dia_mm": 0.28,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 30 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-40",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 40,
+    "dia_in": 0.013,
+    "dia_mm": 0.32,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 40 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-50",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 50,
+    "dia_in": 0.014,
+    "dia_mm": 0.36,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 50 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-65",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 65,
+    "dia_in": 0.016,
+    "dia_mm": 0.41,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 65 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-80",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 80,
+    "dia_in": 0.017,
+    "dia_mm": 0.43,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 80 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-100",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 100,
+    "dia_in": 0.02,
+    "dia_mm": 0.5,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 100 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "xbraid-x9-fulldrag-braid-braid-120",
+    "brand": "XBraid",
+    "model": "X9 Fulldrag Braid",
+    "type": "Braid",
+    "lb": 120,
+    "dia_in": 0.022,
+    "dia_mm": 0.55,
+    "source_note": "Verified against official XBraid U.S. X9 Fulldrag published diameter table.",
+    "search_text": "xbraid x9 fulldrag braid 120 lb x-braid marsh green multi color 9 carrier 8 plus 1"
+  },
+  {
+    "id": "p-line-endurx-braid-braid-15",
+    "brand": "P-Line",
+    "model": "EndurX Braid",
+    "type": "Braid",
+    "lb": 15,
+    "dia_in": 0.008,
+    "dia_mm": 0.2,
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 15 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
+  },
+  {
+    "id": "p-line-endurx-braid-braid-65",
+    "brand": "P-Line",
+    "model": "EndurX Braid",
+    "type": "Braid",
+    "lb": 65,
+    "dia_in": 0.016,
+    "dia_mm": 0.4,
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 65 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
+  },
+  {
+    "id": "p-line-endurx-braid-braid-80",
+    "brand": "P-Line",
+    "model": "EndurX Braid",
+    "type": "Braid",
+    "lb": 80,
+    "dia_in": 0.017,
+    "dia_mm": 0.44,
+    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
+    "search_text": "p-line endurx braid 80 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
+  },
+  {
+    "id": "cast-fishing-co-x12-frog-and-flip-braid-braid-65",
+    "brand": "CAST Fishing Co.",
+    "model": "X12 Frog & Flip Braid",
+    "type": "Braid",
+    "lb": 65,
+    "dia_in": 0.01,
+    "dia_mm": 0.26,
+    "source_note": "Verified against official CAST X12 Frog & Flip product page and Tackle Warehouse diameter table. Specialty heavy-cover braid excluded from generic recommendations.",
+    "search_text": "cast fishing co. x12 frog & flip braid 65 lb and flipping punching heavy cover",
+    "recommendation_eligible": false
+  },
+  {
+    "id": "cast-fishing-co-x12-frog-and-flip-braid-braid-80",
+    "brand": "CAST Fishing Co.",
+    "model": "X12 Frog & Flip Braid",
+    "type": "Braid",
+    "lb": 80,
+    "dia_in": 0.011,
+    "dia_mm": 0.3,
+    "source_note": "Verified against official CAST X12 Frog & Flip product page and Tackle Warehouse diameter table. Specialty heavy-cover braid excluded from generic recommendations.",
+    "search_text": "cast fishing co. x12 frog & flip braid 80 lb and flipping punching heavy cover",
+    "recommendation_eligible": false
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-4",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 4,
+    "dia_in": 0.009,
+    "dia_mm": 0.235,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 4 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-6",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 6,
+    "dia_in": 0.0104,
+    "dia_mm": 0.263,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 6 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-8",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 8,
+    "dia_in": 0.0111,
+    "dia_mm": 0.283,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 8 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-10",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 10,
+    "dia_in": 0.0121,
+    "dia_mm": 0.308,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 10 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-12",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 12,
+    "dia_in": 0.0133,
+    "dia_mm": 0.338,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 12 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-15",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 15,
+    "dia_in": 0.0159,
+    "dia_mm": 0.405,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 15 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-20",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 20,
+    "dia_in": 0.0172,
+    "dia_mm": 0.438,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 20 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-25",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 25,
+    "dia_in": 0.0187,
+    "dia_mm": 0.475,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 25 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-30",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 30,
+    "dia_in": 0.0226,
+    "dia_mm": 0.573,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 30 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-40",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 40,
+    "dia_in": 0.0244,
+    "dia_mm": 0.62,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 40 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-50",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 50,
+    "dia_in": 0.028,
+    "dia_mm": 0.711,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 50 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-60",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 60,
+    "dia_in": 0.0306,
+    "dia_mm": 0.776,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 60 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-80",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 80,
+    "dia_in": 0.0344,
+    "dia_mm": 0.875,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 80 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-100",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 100,
+    "dia_in": 0.0385,
+    "dia_mm": 0.979,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 100 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-copolymer-130",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid",
+    "type": "Copolymer",
+    "lb": 130,
+    "dia_in": 0.0482,
+    "dia_mm": 1.225,
+    "source_note": "Verified against official Yo-Zuri Hybrid clear and high visibility published diameter table.",
+    "search_text": "yo-zuri hybrid copolymer 130 lb yo zuri yozuri fluorocarbon nylon clear hi-vis yellow high visibility"
+  },
+  {
+    "id": "yo-zuri-hybrid-ice-line-copolymer-1",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid Ice Line",
+    "type": "Copolymer",
+    "lb": 1,
+    "dia_in": 0.005,
+    "dia_mm": 0.127,
+    "source_note": "Verified against official Yo-Zuri Hybrid Ice published diameter table.",
+    "search_text": "yo-zuri hybrid ice line copolymer 1 lb yo zuri yozuri fishing"
+  },
+  {
+    "id": "yo-zuri-hybrid-ice-line-copolymer-2",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid Ice Line",
+    "type": "Copolymer",
+    "lb": 2,
+    "dia_in": 0.006,
+    "dia_mm": 0.152,
+    "source_note": "Verified against official Yo-Zuri Hybrid Ice published diameter table.",
+    "search_text": "yo-zuri hybrid ice line copolymer 2 lb yo zuri yozuri fishing"
+  },
+  {
+    "id": "yo-zuri-hybrid-ice-line-copolymer-3",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid Ice Line",
+    "type": "Copolymer",
+    "lb": 3,
+    "dia_in": 0.007,
+    "dia_mm": 0.17,
+    "source_note": "Verified against official Yo-Zuri Hybrid Ice published diameter table.",
+    "search_text": "yo-zuri hybrid ice line copolymer 3 lb yo zuri yozuri fishing"
+  },
+  {
+    "id": "yo-zuri-hybrid-ice-line-copolymer-4",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid Ice Line",
+    "type": "Copolymer",
+    "lb": 4,
+    "dia_in": 0.008,
+    "dia_mm": 0.203,
+    "source_note": "Verified against official Yo-Zuri Hybrid Ice published diameter table.",
+    "search_text": "yo-zuri hybrid ice line copolymer 4 lb yo zuri yozuri fishing"
+  },
+  {
+    "id": "yo-zuri-hybrid-ice-line-copolymer-5",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid Ice Line",
+    "type": "Copolymer",
+    "lb": 5,
+    "dia_in": 0.009,
+    "dia_mm": 0.22,
+    "source_note": "Verified against official Yo-Zuri Hybrid Ice published diameter table.",
+    "search_text": "yo-zuri hybrid ice line copolymer 5 lb yo zuri yozuri fishing"
+  },
+  {
+    "id": "yo-zuri-hybrid-ice-line-copolymer-6",
+    "brand": "Yo-Zuri",
+    "model": "Hybrid Ice Line",
+    "type": "Copolymer",
+    "lb": 6,
+    "dia_in": 0.01,
+    "dia_mm": 0.254,
+    "source_note": "Verified against official Yo-Zuri Hybrid Ice published diameter table.",
+    "search_text": "yo-zuri hybrid ice line copolymer 6 lb yo zuri yozuri fishing"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-6",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 6,
+    "dia_in": 0.008,
+    "dia_mm": 0.205,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 6 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-8",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 8,
+    "dia_in": 0.009,
+    "dia_mm": 0.235,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 8 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-10",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 10,
+    "dia_in": 0.01,
+    "dia_mm": 0.26,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 10 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-12",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 12,
+    "dia_in": 0.011,
+    "dia_mm": 0.285,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 12 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-14",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 14,
+    "dia_in": 0.012,
+    "dia_mm": 0.31,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 14 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-16",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 16,
+    "dia_in": 0.013,
+    "dia_mm": 0.33,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 16 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-20",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 20,
+    "dia_in": 0.015,
+    "dia_mm": 0.37,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 20 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-t-7-premium-fluorocarbon-fluorocarbon-25",
+    "brand": "Yo-Zuri",
+    "model": "T-7 Premium Fluorocarbon",
+    "type": "Fluorocarbon",
+    "lb": 25,
+    "dia_in": 0.017,
+    "dia_mm": 0.435,
+    "source_note": "Verified against official Yo-Zuri T-7 Premium Fluorocarbon published diameter table.",
+    "search_text": "yo-zuri t-7 premium fluorocarbon 25 lb yo zuri t7 natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-6",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 6,
+    "dia_in": 0.008,
+    "dia_mm": 0.205,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 6 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-8",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 8,
+    "dia_in": 0.009,
+    "dia_mm": 0.235,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 8 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-10",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 10,
+    "dia_in": 0.01,
+    "dia_mm": 0.26,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 10 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-12",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 12,
+    "dia_in": 0.011,
+    "dia_mm": 0.285,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 12 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-14",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 14,
+    "dia_in": 0.012,
+    "dia_mm": 0.31,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 14 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-16",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 16,
+    "dia_in": 0.013,
+    "dia_mm": 0.33,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 16 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-20",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 20,
+    "dia_in": 0.015,
+    "dia_mm": 0.37,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 20 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-mainline-fluorocarbon-25",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot MainLine",
+    "type": "Fluorocarbon",
+    "lb": 25,
+    "dia_in": 0.017,
+    "dia_mm": 0.435,
+    "source_note": "Verified against official Yo-Zuri TopKnot MainLine published diameter table.",
+    "search_text": "yo-zuri topknot mainline fluorocarbon 25 lb yo zuri top knot main line natural clear"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-8",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 8,
+    "dia_in": 0.009,
+    "dia_mm": 0.235,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 8 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-10",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 10,
+    "dia_in": 0.01,
+    "dia_mm": 0.26,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 10 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-12",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 12,
+    "dia_in": 0.011,
+    "dia_mm": 0.285,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 12 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-15",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 15,
+    "dia_in": 0.013,
+    "dia_mm": 0.33,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 15 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-20",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 20,
+    "dia_in": 0.015,
+    "dia_mm": 0.37,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 20 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-25",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 25,
+    "dia_in": 0.017,
+    "dia_mm": 0.435,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 25 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-30",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 30,
+    "dia_in": 0.019,
+    "dia_mm": 0.47,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 30 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-40",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 40,
+    "dia_in": 0.023,
+    "dia_mm": 0.57,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 40 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-50",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 50,
+    "dia_in": 0.025,
+    "dia_mm": 0.62,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 50 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-60",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 60,
+    "dia_in": 0.028,
+    "dia_mm": 0.7,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 60 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-80",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 80,
+    "dia_in": 0.032,
+    "dia_mm": 0.81,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 80 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-100",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 100,
+    "dia_in": 0.036,
+    "dia_mm": 0.91,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 100 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-130",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 130,
+    "dia_in": 0.042,
+    "dia_mm": 1.05,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 130 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-150",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 150,
+    "dia_in": 0.046,
+    "dia_mm": 1.17,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 150 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-topknot-leader-fluorocarbon-leader-200",
+    "brand": "Yo-Zuri",
+    "model": "TopKnot Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 200,
+    "dia_in": 0.058,
+    "dia_mm": 1.48,
+    "source_note": "Verified against official Yo-Zuri TopKnot Leader Natural Clear published diameter table.",
+    "search_text": "yo-zuri topknot leader fluorocarbon 200 lb yo zuri top knot natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-4",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 4,
+    "dia_in": 0.007,
+    "dia_mm": 0.173,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 4 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-6",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 6,
+    "dia_in": 0.008,
+    "dia_mm": 0.215,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 6 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-8",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 8,
+    "dia_in": 0.01,
+    "dia_mm": 0.253,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 8 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-10",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 10,
+    "dia_in": 0.011,
+    "dia_mm": 0.275,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 10 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-12",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 12,
+    "dia_in": 0.012,
+    "dia_mm": 0.297,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 12 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-15",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 15,
+    "dia_in": 0.013,
+    "dia_mm": 0.331,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 15 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-20",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 20,
+    "dia_in": 0.015,
+    "dia_mm": 0.38,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 20 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-25",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 25,
+    "dia_in": 0.018,
+    "dia_mm": 0.457,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 25 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-30",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 30,
+    "dia_in": 0.019,
+    "dia_mm": 0.488,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 30 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-40",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 40,
+    "dia_in": 0.024,
+    "dia_mm": 0.602,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 40 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-50",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 50,
+    "dia_in": 0.025,
+    "dia_mm": 0.645,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 50 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-60",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 60,
+    "dia_in": 0.029,
+    "dia_mm": 0.747,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 60 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-80",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 80,
+    "dia_in": 0.033,
+    "dia_mm": 0.847,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 80 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-100",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 100,
+    "dia_in": 0.038,
+    "dia_mm": 0.953,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 100 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-130",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 130,
+    "dia_in": 0.043,
+    "dia_mm": 1.087,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 130 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-150",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 150,
+    "dia_in": 0.048,
+    "dia_mm": 1.215,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 150 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-200",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 200,
+    "dia_in": 0.061,
+    "dia_mm": 1.545,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 200 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-superfluoro-leader-fluorocarbon-leader-300",
+    "brand": "Yo-Zuri",
+    "model": "SuperFluoro Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 300,
+    "dia_in": 0.075,
+    "dia_mm": 1.885,
+    "source_note": "Verified against official Yo-Zuri SuperFluoro published diameter table.",
+    "search_text": "yo-zuri superfluoro leader fluorocarbon 300 lb yo zuri super fluoro natural clear material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-2",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 2,
+    "dia_in": 0.005,
+    "dia_mm": 0.123,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 2 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-4",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 4,
+    "dia_in": 0.007,
+    "dia_mm": 0.173,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 4 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-6",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 6,
+    "dia_in": 0.008,
+    "dia_mm": 0.215,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 6 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-8",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 8,
+    "dia_in": 0.01,
+    "dia_mm": 0.253,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 8 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-10",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 10,
+    "dia_in": 0.011,
+    "dia_mm": 0.275,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 10 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-12",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 12,
+    "dia_in": 0.012,
+    "dia_mm": 0.297,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 12 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-15",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 15,
+    "dia_in": 0.013,
+    "dia_mm": 0.331,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 15 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-20",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 20,
+    "dia_in": 0.015,
+    "dia_mm": 0.38,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 20 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-25",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 25,
+    "dia_in": 0.018,
+    "dia_mm": 0.457,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 25 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-30",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 30,
+    "dia_in": 0.019,
+    "dia_mm": 0.488,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 30 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-40",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 40,
+    "dia_in": 0.024,
+    "dia_mm": 0.602,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 40 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-50",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 50,
+    "dia_in": 0.025,
+    "dia_mm": 0.645,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 50 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-60",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 60,
+    "dia_in": 0.029,
+    "dia_mm": 0.747,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 60 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-80",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 80,
+    "dia_in": 0.033,
+    "dia_mm": 0.847,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 80 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-100",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 100,
+    "dia_in": 0.038,
+    "dia_mm": 0.953,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 100 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-130",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 130,
+    "dia_in": 0.043,
+    "dia_mm": 1.087,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 130 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-150",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 150,
+    "dia_in": 0.048,
+    "dia_mm": 1.215,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 150 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-200",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 200,
+    "dia_in": 0.061,
+    "dia_mm": 1.545,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 200 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-h-d-carbon-leader-fluorocarbon-leader-300",
+    "brand": "Yo-Zuri",
+    "model": "H.D. Carbon Leader",
+    "type": "Fluorocarbon Leader",
+    "lb": 300,
+    "dia_in": 0.075,
+    "dia_mm": 1.885,
+    "source_note": "Verified against official Yo-Zuri H.D. Carbon Disappearing Pink published diameter table.",
+    "search_text": "yo-zuri h.d. carbon leader fluorocarbon 300 lb yo zuri hd disappearing pink material"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-10",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 10,
+    "dia_in": 0.006,
+    "dia_mm": 0.15,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 10 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-15",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 15,
+    "dia_in": 0.008,
+    "dia_mm": 0.19,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 15 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-20",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 20,
+    "dia_in": 0.009,
+    "dia_mm": 0.23,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 20 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-30",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 30,
+    "dia_in": 0.011,
+    "dia_mm": 0.28,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 30 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-40",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 40,
+    "dia_in": 0.012,
+    "dia_mm": 0.32,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 40 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-50",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 50,
+    "dia_in": 0.014,
+    "dia_mm": 0.36,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 50 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-65",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 65,
+    "dia_in": 0.016,
+    "dia_mm": 0.41,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 65 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-braid-80",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid",
+    "type": "Braid",
+    "lb": 80,
+    "dia_in": 0.017,
+    "dia_mm": 0.43,
+    "source_note": "Verified against Yo-Zuri product/category info and FishUSA/TackleDirect published diameter tables.",
+    "search_text": "yo-zuri superbraid braid 80 lb yo zuri super dark green blue white yellow five color"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-8",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 8,
+    "dia_in": 0.005,
+    "dia_mm": 0.13,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 8 lb yo zuri super carrier plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-10",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 10,
+    "dia_in": 0.006,
+    "dia_mm": 0.15,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 10 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-15",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 15,
+    "dia_in": 0.008,
+    "dia_mm": 0.19,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 15 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-20",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 20,
+    "dia_in": 0.009,
+    "dia_mm": 0.23,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 20 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-30",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 30,
+    "dia_in": 0.011,
+    "dia_mm": 0.28,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 30 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-40",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 40,
+    "dia_in": 0.012,
+    "dia_mm": 0.32,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 40 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-50",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 50,
+    "dia_in": 0.014,
+    "dia_mm": 0.36,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 50 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-65",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 65,
+    "dia_in": 0.016,
+    "dia_mm": 0.41,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 65 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-80",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 80,
+    "dia_in": 0.017,
+    "dia_mm": 0.43,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 80 lb yo zuri super carrier 8 plus 1"
+  },
+  {
+    "id": "yo-zuri-superbraid-9-braid-100",
+    "brand": "Yo-Zuri",
+    "model": "SuperBraid 9",
+    "type": "Braid",
+    "lb": 100,
+    "dia_in": 0.02,
+    "dia_mm": 0.5,
+    "source_note": "Verified against official Duel/Yo-Zuri SuperBraid 9 published diameter table.",
+    "search_text": "yo-zuri superbraid 9 braid 100 lb yo zuri super carrier 8 plus 1"
   }
 ]
