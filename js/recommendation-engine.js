@@ -300,7 +300,7 @@
     var genericType = normalizeType(type);
     var range = typicalRange(genericType, lb);
     var diameters = lines.filter(function(line) {
-      return lineMatchesType(line, genericType) && Number(line.lb) === Number(lb) && Number(line.dia_in) > 0;
+      return lineEligibleForRecommendations(line) && lineMatchesType(line, genericType) && Number(line.lb) === Number(lb) && Number(line.dia_in) > 0;
     }).map(function(line) {
       return Number(line.dia_in);
     }).sort(function(a, b) {
@@ -332,7 +332,7 @@
 
   function fallbackDiameter(lines, type, lb, range) {
     var nearby = lines.filter(function(line) {
-      return lineMatchesType(line, type) && Number(line.lb) > 0 && Number(line.dia_in) > 0;
+      return lineEligibleForRecommendations(line) && lineMatchesType(line, type) && Number(line.lb) > 0 && Number(line.dia_in) > 0;
     }).map(function(line) {
       return {
         lb: Number(line.lb),
@@ -676,6 +676,10 @@
     if (desiredType === "Monofilament") return type.indexOf("mono") !== -1;
     if (desiredType === "Fluorocarbon") return type.indexOf("fluoro") !== -1 && type.indexOf("coated") === -1 && type.indexOf("leader") === -1;
     return type.indexOf(String(desiredType || "").toLowerCase()) !== -1;
+  }
+
+  function lineEligibleForRecommendations(line) {
+    return line && line.recommendation_eligible !== false;
   }
 
   function normalizeType(type) {
