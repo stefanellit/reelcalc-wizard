@@ -116,6 +116,49 @@
     }
   };
 
+  var FISHING_REEL_COMPATIBILITY = {
+    trout: {
+      label: "trout / panfish",
+      commonRange: "500 to 3000",
+      tooLargeAt: 4000,
+      alternate: "Surf / heavy saltwater"
+    },
+    bass: {
+      label: "bass",
+      commonRange: "1000 to 4000",
+      tooSmallBelow: 1000,
+      tooLargeAt: 5000,
+      alternate: "Surf / heavy saltwater"
+    },
+    walleye: {
+      label: "walleye",
+      commonRange: "1000 to 4000",
+      tooSmallBelow: 1000,
+      tooLargeAt: 5000,
+      alternate: "Surf / heavy saltwater"
+    },
+    freshwater: {
+      label: "general freshwater",
+      commonRange: "500 to 4000",
+      tooLargeAt: 5000,
+      alternate: "Surf / heavy saltwater"
+    },
+    inshore: {
+      label: "inshore saltwater",
+      commonRange: "2500 to 6000",
+      tooSmallBelow: 2500,
+      tooLargeAt: 8000,
+      tooSmallAlternate: "Bass or general freshwater",
+      tooLargeAlternate: "Surf / heavy saltwater"
+    },
+    surf: {
+      label: "surf / heavy saltwater",
+      commonRange: "4000 and larger",
+      tooSmallBelow: 3500,
+      alternate: "Inshore saltwater or bass"
+    }
+  };
+
   var PRIORITY_BONUS = {
     "all-around": {
       "best-overall": 28,
@@ -178,6 +221,7 @@
     var core = global.ReelCalcCore || {};
     var calculateFullSpoolCapacity = options && options.calculateFullSpoolCapacity || core.calculateFullSpoolCapacity;
     if (!reel || !calculateFullSpoolCapacity) return [];
+    if (!recommendationCompatibility(reel, fishingType).recommend) return [];
 
     var group = FISHING_PROFILES[fishingType] || FISHING_PROFILES.freshwater;
     var setups = group.setups.map(function(setupProfile) {
@@ -189,12 +233,69 @@
         speciesLabel: group.label,
         calculateFullSpoolCapacity: calculateFullSpoolCapacity
       });
-    }).filter(Boolean);
+    }).filter(Boolean).filter(function(setup) {
+      return setupFitsReelSize(setup, reel, fishingType);
+    });
 
     return setups.sort(function(a, b) {
       if (b.rankScore !== a.rankScore) return b.rankScore - a.rankScore;
       return setupPriorityOrder(a.useCase) - setupPriorityOrder(b.useCase);
     });
+  }
+
+  function setupFitsReelSize(setup, reel, fishingType) {
+    var reelSize = reelSizeClass(reel);
+    if (!reelSize) return true;
+
+    if (setup.useCase === "heavy-cover" && reelSize <= 1000) {
+      return false;
+    }
+    if (fishingType === "inshore" && reelSize >= 5000) {
+      return setup.useCase !== "finesse" && setup.useCase !== "casting-distance";
+    }
+    return true;
+  }
+
+  function recommendationCompatibility(reel, fishingType) {
+    var reelSize = reelSizeClass(reel);
+    var rule = FISHING_REEL_COMPATIBILITY[fishingType];
+    if (!reelSize || !rule) {
+      return { recommend: true, message: "" };
+    }
+
+    if (rule.tooLargeAt && reelSize >= rule.tooLargeAt) {
+      var tooLargeAlternate = suggestedFishingTypesForReelSize(reelSize, fishingType);
+      return {
+        recommend: false,
+        message: "This " + String(reelSize) + " size reel is much larger than a normal " + rule.label + " setup. ReelCalc will not call light line a Best Pick on this reel. For realistic recommendations with this reel, use " + tooLargeAlternate + ", or use exact line mode to calculate a specific line."
+      };
+    }
+
+    if (rule.tooSmallBelow && reelSize < rule.tooSmallBelow) {
+      var tooSmallAlternate = suggestedFishingTypesForReelSize(reelSize, fishingType);
+      return {
+        recommend: false,
+        message: "This " + String(reelSize) + " size reel is smaller than a normal " + rule.label + " setup. For realistic recommendations with this reel, use " + tooSmallAlternate + ", or use exact line mode to calculate a specific line."
+      };
+    }
+
+    return { recommend: true, message: "" };
+  }
+
+  function suggestedFishingTypesForReelSize(reelSize, currentFishingType) {
+    var labels = [];
+    Object.keys(FISHING_REEL_COMPATIBILITY).forEach(function(type) {
+      var rule = FISHING_REEL_COMPATIBILITY[type];
+      if (type === currentFishingType) return;
+      if (rule.tooLargeAt && reelSize >= rule.tooLargeAt) return;
+      if (rule.tooSmallBelow && reelSize < rule.tooSmallBelow) return;
+      labels.push(rule.label);
+    });
+
+    if (!labels.length) return "exact line mode";
+    if (labels.length === 1) return labels[0];
+    if (labels.length === 2) return labels[0] + " or " + labels[1];
+    return labels.slice(0, -1).join(", ") + ", or " + labels[labels.length - 1];
   }
 
   function pickBestSetupForProfile(setupProfile, context) {
@@ -300,7 +401,7 @@
     var genericType = normalizeType(type);
     var range = typicalRange(genericType, lb);
     var diameters = lines.filter(function(line) {
-      return lineMatchesType(line, genericType) && Number(line.lb) === Number(lb) && Number(line.dia_in) > 0;
+      return lineEligibleForRecommendations(line) && lineMatchesType(line, genericType) && Number(line.lb) === Number(lb) && Number(line.dia_in) > 0;
     }).map(function(line) {
       return Number(line.dia_in);
     }).sort(function(a, b) {
@@ -332,7 +433,7 @@
 
   function fallbackDiameter(lines, type, lb, range) {
     var nearby = lines.filter(function(line) {
-      return lineMatchesType(line, type) && Number(line.lb) > 0 && Number(line.dia_in) > 0;
+      return lineEligibleForRecommendations(line) && lineMatchesType(line, type) && Number(line.lb) > 0 && Number(line.dia_in) > 0;
     }).map(function(line) {
       return {
         lb: Number(line.lb),
@@ -678,6 +779,10 @@
     return type.indexOf(String(desiredType || "").toLowerCase()) !== -1;
   }
 
+  function lineEligibleForRecommendations(line) {
+    return line && line.recommendation_eligible !== false;
+  }
+
   function normalizeType(type) {
     var value = String(type || "").toLowerCase();
     if (value.indexOf("braid") !== -1) return "Braid";
@@ -701,6 +806,7 @@
 
   global.ReelCalcRecommendations = {
     recommendSetups: recommendSetups,
+    recommendationCompatibility: recommendationCompatibility,
     typicalDiameter: typicalDiameter,
     reelSizeClass: reelSizeClass
   };
