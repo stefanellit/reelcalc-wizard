@@ -374,7 +374,7 @@ function scrollToMainResultAfterRender() {
       var headerHeight = header ? header.getBoundingClientRect().height : 0;
       var isMobileViewport = window.matchMedia &&
         window.matchMedia("(max-width: 700px)").matches;
-      var extraSpacing = isMobileViewport ? 56 : 20;
+      var extraSpacing = isMobileViewport ? 96 : 20;
       var targetPosition = resultTarget.getBoundingClientRect().top +
         window.scrollY -
         headerHeight -
