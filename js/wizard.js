@@ -372,7 +372,9 @@ function scrollToMainResultAfterRender() {
         document.querySelector(".Header") ||
         document.querySelector("#header");
       var headerHeight = header ? header.getBoundingClientRect().height : 0;
-      var extraSpacing = 20;
+      var isMobileViewport = window.matchMedia &&
+        window.matchMedia("(max-width: 700px)").matches;
+      var extraSpacing = isMobileViewport ? 56 : 20;
       var targetPosition = resultTarget.getBoundingClientRect().top +
         window.scrollY -
         headerHeight -
