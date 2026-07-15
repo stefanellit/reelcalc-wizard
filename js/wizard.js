@@ -900,6 +900,15 @@ function renderRecommendations() {
     state.recommendations = [];
     return;
   }
+  var compatibility = window.ReelCalcRecommendations.recommendationCompatibility
+    ? window.ReelCalcRecommendations.recommendationCompatibility(reel, el.fishingType.value)
+    : { recommend: true };
+  if (compatibility && compatibility.recommend === false) {
+    state.selectedSetup = null;
+    state.recommendations = [];
+    el.recommendations.innerHTML = "<div class=\"empty-state warning-box\">" + escapeHtml(compatibility.message) + "</div>";
+    return;
+  }
   state.recommendations = window.ReelCalcRecommendations.recommendSetups({
     reel: reel,
     lines: state.lines,
