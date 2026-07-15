@@ -169,7 +169,7 @@ function bindEvents() {
     setActiveButtons("data-path", state.path);
     resetDesiredMainLine();
     renderAll();
-    byId("resultPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToMainResultAfterRender();
   });
 
   el.lineBrand.addEventListener("change", function() {
@@ -358,6 +358,32 @@ function renderAll() {
   renderCapacityResult();
   renderBackingResult();
   renderSimilarLines();
+}
+
+function scrollToMainResultAfterRender() {
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      var resultTarget = byId("reelcalc-main-result");
+      if (!resultTarget) return;
+
+      var header = document.querySelector("header") ||
+        document.querySelector(".header") ||
+        document.querySelector(".site-header") ||
+        document.querySelector(".Header") ||
+        document.querySelector("#header");
+      var headerHeight = header ? header.getBoundingClientRect().height : 0;
+      var extraSpacing = 20;
+      var targetPosition = resultTarget.getBoundingClientRect().top +
+        window.scrollY -
+        headerHeight -
+        extraSpacing;
+
+      window.scrollTo({
+        top: Math.max(targetPosition, 0),
+        behavior: "smooth"
+      });
+    });
+  });
 }
 
 function setActiveButtons(dataName, value) {
@@ -982,7 +1008,7 @@ function renderCapacityResult() {
   }
   var capacity = calculateFullSpoolCapacity(reel, line);
   var lineLabel = formatActiveLineShort(line);
-  var html = "<div class=\"result-box capacity-result\">";
+  var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
   html += "<div class=\"capacity-hero\">";
   html += "<div><span class=\"eyebrow\">Estimated full-spool capacity</span><strong class=\"capacity-number\">" + formatLength(capacity, 1, true) + "</strong><p>of " + escapeHtml(lineLabel) + "</p></div>";
   html += "</div>";
