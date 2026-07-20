@@ -3,6 +3,14 @@
 
   var COMMON_LB = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 65, 80];
 
+  var PFLUEGER_SIZE_EQUIVALENTS = {
+    20: 500,
+    25: 1000,
+    30: 2000,
+    35: 2500,
+    40: 3000
+  };
+
   var TYPICAL_DIAMETER_RANGES_IN = {
     Braid: {
       4: [0.004, 0.006],
@@ -258,6 +266,7 @@
 
   function recommendationCompatibility(reel, fishingType) {
     var reelSize = reelSizeClass(reel);
+    var reelLabel = reelDisplaySize(reel, reelSize);
     var rule = FISHING_REEL_COMPATIBILITY[fishingType];
     if (!reelSize || !rule) {
       return { recommend: true, message: "" };
@@ -267,7 +276,7 @@
       var tooLargeAlternate = suggestedFishingTypesForReelSize(reelSize, fishingType);
       return {
         recommend: false,
-        message: "This " + String(reelSize) + " size reel is much larger than a normal " + rule.label + " setup. ReelCalc will not call light line a Best Pick on this reel. For realistic recommendations with this reel, use " + tooLargeAlternate + ", or use exact line mode to calculate a specific line."
+        message: "This " + reelLabel + " size reel is much larger than a normal " + rule.label + " setup. ReelCalc will not call light line a Best Pick on this reel. For realistic recommendations with this reel, use " + tooLargeAlternate + ", or use exact line mode to calculate a specific line."
       };
     }
 
@@ -275,7 +284,7 @@
       var tooSmallAlternate = suggestedFishingTypesForReelSize(reelSize, fishingType);
       return {
         recommend: false,
-        message: "This " + String(reelSize) + " size reel is smaller than a normal " + rule.label + " setup. For realistic recommendations with this reel, use " + tooSmallAlternate + ", or use exact line mode to calculate a specific line."
+        message: "This " + reelLabel + " size reel is smaller than a normal " + rule.label + " setup. For realistic recommendations with this reel, use " + tooSmallAlternate + ", or use exact line mode to calculate a specific line."
       };
     }
 
@@ -697,7 +706,7 @@
   function reasonNotes(setupProfile, context, line, leaderLb, capacity) {
     var reelSize = reelSizeClass(context.reel);
     var reason = setupIntro(setupProfile, context.speciesLabel);
-    if (reelSize) reason += " It is a good match for a " + String(reelSize) + " size reel.";
+    if (reelSize) reason += " It is a good match for a " + reelDisplaySize(context.reel, reelSize) + " size reel.";
 
     var diameterReason = lineRoleCopy(line, setupProfile);
 
@@ -768,7 +777,17 @@
   function reelSizeClass(reel) {
     var raw = reel && (reel.size_class || reel.size_label || "");
     var match = String(raw).match(/\d+/);
-    return match ? Number(match[0]) : 0;
+    var size = match ? Number(match[0]) : 0;
+    var brand = String(reel && reel.brand || "").toLowerCase();
+    if (brand === "pflueger" && PFLUEGER_SIZE_EQUIVALENTS[size]) {
+      return PFLUEGER_SIZE_EQUIVALENTS[size];
+    }
+    return size;
+  }
+
+  function reelDisplaySize(reel, fallback) {
+    var raw = reel && (reel.size_label || reel.size_class || "");
+    return String(raw || fallback || "");
   }
 
   function lineMatchesType(line, desiredType) {
