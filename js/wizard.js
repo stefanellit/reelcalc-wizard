@@ -12,6 +12,7 @@ const {
   estimateMonoLbFromDiameter,
   calculateFullSpoolCapacity,
   calculateBackingNeeded,
+  calculateHandleTurns,
   isReelReady,
   isLineReady
 } = window.ReelCalcCore;
@@ -550,16 +551,31 @@ function populateReelFilters() {
   var sizePool = modelPool.filter(function(reel) {
     return !model || reel.model === model;
   });
-  var sizes = uniqueSorted(sizePool.map(function(reel) { return reel.size_label || reel.size_class; }));
   fillSelect(el.reelBrand, brands, "Select brand", brand);
   fillSelect(el.reelModel, models, "Select model", model, function(modelName) {
     if (!brand) return modelName;
     return formatReelModelOption(modelName, modelPool);
   });
-  fillSelect(el.reelSize, sizes, "Select size", size, function(sizeLabel) {
-    if (!brand || !model) return sizeLabel;
-    return formatReelSizeOption(sizeLabel, sizePool);
-  });
+  if (brand && model) {
+    var exactReels = sizePool.slice().sort(function(a, b) {
+      var sizeCompare = String(a.size_label || a.size_class || "").localeCompare(
+        String(b.size_label || b.size_class || ""),
+        undefined,
+        { numeric: true, sensitivity: "base" }
+      );
+      if (sizeCompare) return sizeCompare;
+      return String(a.sku || a.id).localeCompare(String(b.sku || b.id), undefined, { numeric: true, sensitivity: "base" });
+    });
+    fillSelect(el.reelSize, exactReels.map(function(reel) { return reel.id; }), "Select exact size", size, function(reelId) {
+      var reel = exactReels.find(function(item) { return item.id === reelId; });
+      return formatExactReelOption(reel, exactReels);
+    });
+  } else {
+    var sizes = uniqueSorted(sizePool.map(function(reel) { return reel.size_label || reel.size_class; }));
+    fillSelect(el.reelSize, sizes, "Select size", size, function(sizeLabel) {
+      return formatReelSizeOption(sizeLabel, sizePool);
+    });
+  }
 }
 
 function formatReelModelOption(modelName, modelPool) {
@@ -586,7 +602,29 @@ function formatReelSizeOption(sizeLabel, sizePool) {
     : sizeLabel;
 }
 
+function formatExactReelOption(reel, exactReels) {
+  if (!reel) return "Unknown reel variant";
+  var sizeLabel = reel.size_label || reel.size_class || reel.sku || "Unknown size";
+  var sameSize = exactReels.filter(function(item) {
+    return (item.size_label || item.size_class) === sizeLabel;
+  });
+  var label = sizeLabel;
+  if (sameSize.length > 1) {
+    label += " - " + (reel.sku || reel.id);
+    if (reel.gear_ratio) label += " - " + reel.gear_ratio;
+  }
+  if (!isReelReady(reel)) label += " - manual capacity needed";
+  return label;
+}
+
 function resolveReelFromFilters() {
+  var exactMatch = state.reels.find(function(reel) {
+    return reel.id === state.reelFilters.size;
+  });
+  if (exactMatch && exactMatch.brand === state.reelFilters.brand && exactMatch.model === state.reelFilters.model) {
+    selectReel(exactMatch, false);
+    return;
+  }
   var matches = state.reels.filter(function(reel) {
     var reelSize = reel.size_label || reel.size_class;
     return (!state.reelFilters.brand || reel.brand === state.reelFilters.brand) &&
@@ -606,7 +644,7 @@ function selectReel(reel, updateSearch) {
   state.manualReel = null;
   state.reelFilters.brand = reel.brand || "";
   state.reelFilters.model = reel.model || "";
-  state.reelFilters.size = reel.size_label || reel.size_class || "";
+  state.reelFilters.size = reel.id || "";
   populateReelFilters();
   if (!isReelReady(reel)) {
     state.useManualReel = true;
@@ -987,6 +1025,57 @@ function genericLineType(typeValue) {
   return type;
 }
 
+function getVerifiedHandleTurnReel() {
+  if (state.useManualReel || !state.selectedReel) return null;
+  var reel = state.selectedReel;
+  return reel.ipt_verification_status === "verified" && Number(reel.line_retrieve_in) > 0
+    ? reel
+    : null;
+}
+
+function formatIpt(ipt) {
+  var value = Number(ipt);
+  if (isMetric()) return formatNumber(value * MM_PER_INCH / 10, 1) + " cm per turn";
+  return formatNumber(value, 1) + " in per turn";
+}
+
+function formatTurnEstimate(estimate) {
+  if (!estimate) return "Unavailable";
+  var html = "<strong>Approximately " + formatNumber(estimate.approximateTurns, 0) + " turns</strong>";
+  html += "<span>Practical range: " + formatNumber(estimate.rangeMin, 0) + "-" + formatNumber(estimate.rangeMax, 0) + "</span>";
+  return html;
+}
+
+function handleTurnEstimateHtml(parts) {
+  var exactReel = getVerifiedHandleTurnReel();
+  if (!exactReel) {
+    return "<div class=\"handle-turn-unavailable\"><span class=\"estimate-flag\">ESTIMATE UNAVAILABLE</span><h3>Estimated Handle Turns</h3><p>Handle-turn estimate unavailable: a verified inches-per-turn specification has not yet been added for this exact reel variant.</p></div>";
+  }
+
+  var ipt = Number(exactReel.line_retrieve_in);
+  var validParts = parts.filter(function(part) {
+    return Number(part.yards) >= 0;
+  });
+  var totalYards = validParts.reduce(function(sum, part) {
+    return sum + Number(part.yards);
+  }, 0);
+  var html = "<section class=\"handle-turn-estimate\" aria-label=\"Estimated handle turns\">";
+  html += "<div class=\"handle-turn-heading\"><div><span class=\"estimate-flag\">ESTIMATED HANDLE TURNS ONLY</span><h3>Estimated Handle Turns</h3></div><span class=\"ipt-badge\">" + escapeHtml(formatIpt(ipt)) + "</span></div>";
+  html += "<div class=\"handle-turn-grid\">";
+  validParts.forEach(function(part) {
+    var itemClass = part.kind === "backing" ? " backing" : " main-line";
+    var itemTitle = part.kind === "backing" ? "Backing Handle Turns" : "Main-Line Handle Turns";
+    html += "<div class=\"handle-turn-item" + itemClass + "\"><span class=\"handle-turn-block-title\">" + itemTitle + "</span><span class=\"handle-turn-line-label\">" + escapeHtml(part.label) + "</span>" + formatTurnEstimate(calculateHandleTurns(part.yards, ipt)) + "</div>";
+  });
+  if (validParts.length > 1) {
+    html += "<div class=\"handle-turn-item total\"><span class=\"handle-turn-block-title\">Total Handle Turns</span><span class=\"handle-turn-line-label\">Backing + main line</span>" + formatTurnEstimate(calculateHandleTurns(totalYards, ipt)) + "</div>";
+  }
+  html += "</div>";
+  html += "<div class=\"handle-turn-warning\"><strong>ESTIMATE ONLY</strong><p>Use this as a starting point. Line tension, packing, and spool fill can change the actual count. Watch the spool and stop at your preferred fill level.</p></div>";
+  html += "</section>";
+  return html;
+}
+
 function renderCapacityResult() {
   var reel = getActiveReel();
   var line = getActiveMainLine();
@@ -1027,7 +1116,9 @@ function renderCapacityResult() {
   html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>Rated at " + formatReelRating(reel) + " line.</p></div>";
   html += "<div class=\"capacity-detail-card\"><span>Line used</span><strong>" + escapeHtml(lineLabel) + "</strong><p>Diameter: " + formatDiameterWithUnit(line.dia_in) + ".</p></div>";
   html += "</div>";
-  html += "<div class=\"estimate-note\"><strong>How this estimate is made</strong><p>Reel capacity space is based on the reel rating and rated line diameter, then divided by the selected line diameter. Actual line lay, spool depth, and manufacturer diameters can vary.</p></div>";
+  if (state.backingMode !== "yes") {
+    html += handleTurnEstimateHtml([{ kind: "main-line", label: formatActiveLineShort(line), yards: capacity }]);
+  }
   html += "</div>";
   el.capacityResult.className = "";
   el.capacityResult.innerHTML = html;
@@ -1074,6 +1165,12 @@ function renderBackingResult() {
   html += metricTile("Backing line", formatLength(result.backingYards, 1) + " " + formatLineShort(backing));
   html += metricTile("Backing diameter", formatDiameterWithUnit(backing.dia_in));
   html += "</div>";
+  if (!result.overCapacity) {
+    html += handleTurnEstimateHtml([
+      { kind: "backing", label: formatLineShort(backing), yards: result.backingYards },
+      { kind: "main-line", label: formatActiveLineShort(line), yards: desired }
+    ]);
+  }
   var backingNote = backing === DEFAULT_BACKING
     ? "No backing line selected yet, so this uses " + formatStrength(DEFAULT_BACKING.lb) + " monofilament at " + formatDiameterWithUnit(DEFAULT_BACKING.dia_in) + "."
     : "Backing calculation uses the selected backing specs.";

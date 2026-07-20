@@ -96,6 +96,28 @@
     };
   }
 
+  function roundHandleTurns(value) {
+    var turns = Number(value);
+    if (!Number.isFinite(turns) || turns < 0) return null;
+    if (turns === 0) return 0;
+    var increment = turns < 100 ? 5 : turns < 500 ? 10 : 25;
+    return Math.max(increment, Math.round(turns / increment) * increment);
+  }
+
+  function calculateHandleTurns(lineYards, inchesPerTurn) {
+    var yards = Number(lineYards);
+    var ipt = Number(inchesPerTurn);
+    if (!(yards >= 0) || !(ipt > 0)) return null;
+
+    var rawTurns = yards * 36 / ipt;
+    return {
+      rawTurns: rawTurns,
+      approximateTurns: roundHandleTurns(rawTurns),
+      rangeMin: roundHandleTurns(rawTurns * 0.9),
+      rangeMax: roundHandleTurns(rawTurns * 1.1)
+    };
+  }
+
   global.ReelCalcCore = {
     YARDS_PER_METER: YARDS_PER_METER,
     MM_PER_INCH: MM_PER_INCH,
@@ -113,6 +135,7 @@
     calculateMainLineCapacity: calculateMainLineCapacity,
     getReelSpoolSpace: getReelSpoolSpace,
     calculateBackingNeeded: calculateBackingNeeded,
+    calculateHandleTurns: calculateHandleTurns,
     isReelReady: isReelReady,
     isLineReady: isLineReady
   };
