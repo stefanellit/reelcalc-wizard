@@ -430,8 +430,10 @@
       standardRatedDiameterIn: Number(reel.rated_line_diameter_in),
       lastMetricReelDiaMm: Number(reel.rated_line_diameter_in) * core.MM_PER_INCH
     };
-    var GOOD_LINE_COST = 0.25;
-    var BACKING_COST = 0.05;
+    var PREMIUM_LINE_COST_LOW = 0.10;
+    var PREMIUM_LINE_COST_HIGH = 0.16;
+    var BACKING_COST_LOW = 0.01;
+    var BACKING_COST_HIGH = 0.03;
     var INCH_TO_CM = 2.54;
     var CM_TO_INCH = 1 / INCH_TO_CM;
 
@@ -648,9 +650,22 @@
 
       var backingYards = backingResult.backingYards;
       var maxPremiumOnlyYards = core.calculateMainLineCapacity(calculationReel, selectedLine);
-      var fullPremiumOnlyCost = maxPremiumOnlyYards * GOOD_LINE_COST;
-      var usingBackingCost = goodYards * GOOD_LINE_COST + backingYards * BACKING_COST;
-      var savings = Math.max(0, fullPremiumOnlyCost - usingBackingCost);
+      var premiumYardsAvoided = Math.max(0, maxPremiumOnlyYards - goodYards);
+      var savingsLow = Math.max(
+        0,
+        premiumYardsAvoided * PREMIUM_LINE_COST_LOW - backingYards * BACKING_COST_HIGH
+      );
+      var savingsHigh = Math.max(
+        savingsLow,
+        premiumYardsAvoided * PREMIUM_LINE_COST_HIGH - backingYards * BACKING_COST_LOW
+      );
+      var savingsLowRounded = Math.floor(savingsLow);
+      var savingsHighRounded = Math.ceil(savingsHigh);
+      var savingsLabel = savingsLowRounded < 1
+        ? "Up to about $" + savingsHighRounded
+        : savingsLowRounded === savingsHighRounded
+          ? "About $" + savingsLowRounded
+          : "About $" + savingsLowRounded + "-$" + savingsHighRounded;
       var backingOutput = state.isMetric ? core.yardsToMeters(backingYards) : backingYards;
       var goodOutput = state.isMetric ? core.yardsToMeters(goodYards) : goodYards;
       var totalOutput = backingOutput + goodOutput;
@@ -661,11 +676,10 @@
         "<strong>Braid/Fluoro line:</strong> " + goodOutput.toFixed(1) + " " + unitLabel + "<br>" +
         "<strong>Total on spool:</strong> " + totalOutput.toFixed(1) + " " + unitLabel +
         '<div style="margin-top:6px;font-size:13px;opacity:0.8;">Note: A total length greater than the reel&#39;s rated capacity is normal due to differences in line diameter.</div>' +
-        '<div class="savings-box"><strong>Estimated Cost Savings</strong><br><br>' +
-        "Full spool with premium line only: $" + fullPremiumOnlyCost.toFixed(2) + "<br>" +
-        "Using backing: $" + usingBackingCost.toFixed(2) + "<br><br>" +
-        "<strong>You save about $" + savings.toFixed(2) + "</strong><br>" +
-        "<em>(Based on average retail pricing)</em></div>";
+        '<div class="savings-box"><strong>Estimated Line-Cost Savings</strong><br><br>' +
+        "<strong>" + savingsLabel + "</strong><br>" +
+        "<em>Typical retail estimate using $0.10-$0.16 per yard for premium line and " +
+        "$0.01-$0.03 per yard for backing. Actual prices vary by line, strength, and spool size.</em></div>";
 
       appendHandleTurns(output, goodYards, backingYards);
       dispatchCompleted(mount, reel, "backing");
