@@ -131,27 +131,67 @@
       "imageSource": "Exact Amazon VFC5000XGA selected-variant product image"
     },
     {
-      "reelId": "penn-battle-iv-10000-btliv10000-466",
-      "path": "/penn-battle-iv-10000",
+      "reelId": "penn-battle-iv-2500-btliv2500-457",
+      "path": "/penn-battle-iv-2500",
       "family": "penn-battle-iv",
-      "imageUrl": "https://fishermansheadquarters.com/cdn/shop/files/Penn_Battle_10000.jpg?v=1759444830",
-      "imageAlt": "PENN Battle IV 10000 spinning reel",
-      "imageSource": "Fisherman's Headquarters exact BTLIV10000 product image"
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV2500_alt1_ffa4aed7-ef98-4c8a-8878-a30e239780a2.jpg?v=1779928628",
+      "imageAlt": "PENN Battle IV 2500 spinning reel",
+      "imageSource": "Official PENN US BTLIV2500 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
-      "reelId": "penn-battle-iv-8000-btliv8000-465",
-      "path": "/penn-battle-iv-8000",
-      "family": "penn-battle-iv"
+      "reelId": "penn-battle-iv-3000-btliv3000-458",
+      "path": "/penn-battle-iv-3000",
+      "family": "penn-battle-iv",
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV3000_alt1_bba51859-6e1d-4365-b79f-ccabd5da8f92.jpg?v=1779928629",
+      "imageAlt": "PENN Battle IV 3000 spinning reel",
+      "imageSource": "Official PENN US BTLIV3000 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
-      "reelId": "penn-battle-iv-6000-btliv6000-463",
-      "path": "/penn-battle-iv-6000",
-      "family": "penn-battle-iv"
+      "reelId": "penn-battle-iv-4000-btliv4000-460",
+      "path": "/penn-battle-iv-4000",
+      "family": "penn-battle-iv",
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV4000_alt1_aaef83d4-4878-432b-931b-b8356fdc93b1.jpg?v=1779928628",
+      "imageAlt": "PENN Battle IV 4000 spinning reel",
+      "imageSource": "Official PENN US BTLIV4000 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
       "reelId": "penn-battle-iv-5000-btliv5000-461",
       "path": "/penn-battle-iv-5000",
-      "family": "penn-battle-iv"
+      "family": "penn-battle-iv",
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV5000_alt1_827b1f55-13e7-4f5d-851c-f6c9f6aa5436.jpg?v=1779928627",
+      "imageAlt": "PENN Battle IV 5000 spinning reel",
+      "imageSource": "Official PENN US BTLIV5000 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "penn-battle-iv-6000-btliv6000-463",
+      "path": "/penn-battle-iv-6000",
+      "family": "penn-battle-iv",
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV6000_alt1_28131af9-c164-49ac-b39c-68a3ee2f1c96.jpg?v=1779928629",
+      "imageAlt": "PENN Battle IV 6000 spinning reel",
+      "imageSource": "Official PENN US BTLIV6000 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "penn-battle-iv-8000-btliv8000-465",
+      "path": "/penn-battle-iv-8000",
+      "family": "penn-battle-iv",
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV8000_alt1_c1784963-48f4-455c-91aa-7171cc10a4fb.jpg?v=1779928628",
+      "imageAlt": "PENN Battle IV 8000 spinning reel",
+      "imageSource": "Official PENN US BTLIV8000 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "penn-battle-iv-10000-btliv10000-466",
+      "path": "/penn-battle-iv-10000",
+      "family": "penn-battle-iv",
+      "imageUrl": "https://www.pennfishing.com/cdn/shop/files/PENN_BattleIVSpinningReel_BTLIV10000_alt1_a95578af-465f-4d5c-994d-800035f67c40.jpg?v=1779928628",
+      "imageAlt": "PENN Battle IV 10000 spinning reel",
+      "imageSource": "Official PENN US BTLIV10000 product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
       "reelId": "daiwa-bg-2500-bg2500-184",
