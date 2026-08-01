@@ -1,0 +1,62 @@
+.reelcalc-guide-list,
+.reelcalc-guide-list * {
+  box-sizing: border-box;
+}
+
+.reelcalc-guide-list {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.reelcalc-guide-directory {
+  border-bottom: 1px solid rgba(31, 37, 40, 0.18);
+}
+
+.reelcalc-guide-brand {
+  border-top: 1px solid rgba(31, 37, 40, 0.18);
+  padding: 26px 0 24px;
+}
+
+.reelcalc-guide-brand h3 {
+  font-size: 1.25rem;
+  letter-spacing: 0;
+  line-height: 1.3;
+  margin: 0 0 14px;
+}
+
+.reelcalc-guide-brand ul {
+  display: grid;
+  gap: 8px 32px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  padding-left: 22px;
+}
+
+.reelcalc-guide-brand li {
+  break-inside: avoid;
+  min-width: 0;
+  padding-right: 8px;
+}
+
+.reelcalc-guide-brand a {
+  overflow-wrap: anywhere;
+}
+
+.reelcalc-guide-status {
+  color: rgba(31, 37, 40, 0.72);
+  margin: 0;
+  padding: 18px 0;
+}
+
+@media (max-width: 640px) {
+  .reelcalc-guide-brand {
+    padding: 22px 0 20px;
+  }
+
+  .reelcalc-guide-brand ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
