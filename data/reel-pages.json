@@ -83,9 +83,52 @@
       "family": "shimano-nasci-fc"
     },
     {
+      "reelId": "shimano-vanford-fa-500a-vf500a-689",
+      "path": "/shimano-vanford-500",
+      "family": "shimano-vanford-fa",
+      "imageUrl": "https://m.media-amazon.com/images/I/61PZw7R3ddL._AC_SL1500_.jpg",
+      "imageAlt": "Shimano Vanford A 500 spinning reel",
+      "imageSource": "Exact Amazon VF500A selected-variant product image"
+    },
+    {
+      "reelId": "shimano-vanford-fa-c2000hga-vfc2000hga-690",
+      "path": "/shimano-vanford-2000",
+      "family": "shimano-vanford-fa",
+      "imageUrl": "https://m.media-amazon.com/images/I/717lKSLtxpL._AC_SL1500_.jpg",
+      "imageAlt": "Shimano Vanford A C2000HG spinning reel",
+      "imageSource": "Exact Amazon VFC2000HGA selected-variant product image"
+    },
+    {
       "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
       "path": "/shimano-vanford-2500",
-      "family": "shimano-vanford-fa"
+      "family": "shimano-vanford-fa",
+      "imageUrl": "https://m.media-amazon.com/images/I/717lKSLtxpL._AC_SL1500_.jpg",
+      "imageAlt": "Shimano Vanford A 2500HG spinning reel",
+      "imageSource": "Exact Amazon VF2500HGA selected-variant product image"
+    },
+    {
+      "reelId": "shimano-vanford-fa-c3000xga-vfc3000xga-692",
+      "path": "/shimano-vanford-3000",
+      "family": "shimano-vanford-fa",
+      "imageUrl": "https://m.media-amazon.com/images/I/717lKSLtxpL._AC_SL1500_.jpg",
+      "imageAlt": "Shimano Vanford A C3000XG spinning reel",
+      "imageSource": "Exact Amazon VFC3000XGA selected-variant product image"
+    },
+    {
+      "reelId": "shimano-vanford-fa-4000xga-vf4000xga-693",
+      "path": "/shimano-vanford-4000",
+      "family": "shimano-vanford-fa",
+      "imageUrl": "https://m.media-amazon.com/images/I/717lKSLtxpL._AC_SL1500_.jpg",
+      "imageAlt": "Shimano Vanford A 4000XG spinning reel",
+      "imageSource": "Exact Amazon VF4000XGA selected-variant product image"
+    },
+    {
+      "reelId": "shimano-vanford-fa-c5000xga-vfc5000xga-694",
+      "path": "/shimano-vanford-5000",
+      "family": "shimano-vanford-fa",
+      "imageUrl": "https://m.media-amazon.com/images/I/717lKSLtxpL._AC_SL1500_.jpg",
+      "imageAlt": "Shimano Vanford A C5000XG spinning reel",
+      "imageSource": "Exact Amazon VFC5000XGA selected-variant product image"
     },
     {
       "reelId": "penn-battle-iv-10000-btliv10000-466",
