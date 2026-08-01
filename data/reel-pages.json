@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "siteBaseUrl": "https://www.reelcalc.com",
+  "wizardPath": "/reelcalc-wizard",
+  "assetBaseUrl": "https://stefanellit.github.io/reelcalc-wizard",
+  "resources": [
+    {
+      "label": "Fishing Reel Backing Calculator",
+      "path": "/home"
+    },
+    {
+      "label": "Fishing Line Diameter Database",
+      "path": "/line-database"
+    },
+    {
+      "label": "Fishing Line Setup Guides",
+      "path": "/fishing-line-setup-guides"
+    },
+    {
+      "label": "Best Fishing Knots for Every Line Connection",
+      "path": "/blog/best-fishing-knots-for-every-line-connection"
+    },
+    {
+      "label": "Best Line Setup for Spinning Reels",
+      "path": "/blog/best-line-setup-for-spinning-reels-braid-mono-fluoro-explained"
+    },
+    {
+      "label": "How Much Backing Do I Need on a Fishing Reel?",
+      "path": "/blog/how-much-backing-do-i-need-on-a-fishing-reel"
+    }
+  ],
+  "pages": [
+    {
+      "reelId": "shimano-sedona-fj-2500hg-se2500hgfj-652",
+      "path": "/shimano-sedona-fj-2500",
+      "family": "shimano-sedona-fj",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/698a8b607a3f9d6205cf2830/b9a02c91-b3a2-4ad5-b847-d3967917a1ac/shimano-sedona-fj-2500.webp",
+      "imageAlt": "Shimano Sedona FJ spinning reel",
+      "imageSource": "Existing ReelCalc Sedona FJ 2500 page asset"
+    },
+    {
+      "reelId": "shimano-sedona-fj-c3000hg-sec3000hgfj-653",
+      "path": "/shimano-sedona-fj-3000",
+      "family": "shimano-sedona-fj"
+    },
+    {
+      "reelId": "shimano-sedona-fj-4000xg-se4000xgfj-654",
+      "path": "/shimano-sedona-fj-4000",
+      "family": "shimano-sedona-fj"
+    },
+    {
+      "reelId": "shimano-stradic-fm-2500hg-st2500hgfm-685",
+      "path": "/shimano-stradic-2500",
+      "family": "shimano-stradic-fm"
+    },
+    {
+      "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+      "path": "/shimano-stradic-3000",
+      "family": "shimano-stradic-fm",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/lo5fmg4plkmqkfzqnplu.png",
+      "imageAlt": "Shimano Stradic FM C3000XG spinning reel",
+      "imageSource": "Official Shimano North America store STC3000XGFM product image"
+    },
+    {
+      "reelId": "shimano-stradic-fm-4000xg-st4000xgfm-687",
+      "path": "/shimano-stradic-4000",
+      "family": "shimano-stradic-fm",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/qekd5wcftt2fbh5cobuj.png",
+      "imageAlt": "Shimano Stradic FM 4000XG spinning reel",
+      "imageSource": "Official Shimano North America store ST4000XGFM product image"
+    },
+    {
+      "reelId": "shimano-stradic-fm-c5000xg-stc5000xgfm-688",
+      "path": "/shimano-stradic-5000",
+      "family": "shimano-stradic-fm",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/vzl7lsr2psqlw0brom6c.png",
+      "imageAlt": "Shimano Stradic FM C5000XG spinning reel",
+      "imageSource": "Official Shimano North America store STC5000XGFM product image"
+    },
+    {
+      "reelId": "shimano-nasci-fc-2500hg-nas2500hgfc-664",
+      "path": "/shimano-nasci-2500",
+      "family": "shimano-nasci-fc"
+    },
+    {
+      "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+      "path": "/shimano-vanford-2500",
+      "family": "shimano-vanford-fa"
+    },
+    {
+      "reelId": "penn-battle-iv-10000-btliv10000-466",
+      "path": "/penn-battle-iv-10000",
+      "family": "penn-battle-iv",
+      "imageUrl": "https://fishermansheadquarters.com/cdn/shop/files/Penn_Battle_10000.jpg?v=1759444830",
+      "imageAlt": "PENN Battle IV 10000 spinning reel",
+      "imageSource": "Fisherman's Headquarters exact BTLIV10000 product image"
+    },
+    {
+      "reelId": "penn-battle-iv-8000-btliv8000-465",
+      "path": "/penn-battle-iv-8000",
+      "family": "penn-battle-iv"
+    },
+    {
+      "reelId": "penn-battle-iv-6000-btliv6000-463",
+      "path": "/penn-battle-iv-6000",
+      "family": "penn-battle-iv"
+    },
+    {
+      "reelId": "penn-battle-iv-5000-btliv5000-461",
+      "path": "/penn-battle-iv-5000",
+      "family": "penn-battle-iv"
+    },
+    {
+      "reelId": "daiwa-bg-2500-bg2500-184",
+      "path": "/daiwa-bg-2500",
+      "family": "daiwa-bg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Q9wq9cyeL._AC_SL1400_.jpg",
+      "imageAlt": "Daiwa BG 2500 black and gold spinning reel",
+      "imageSource": "Exact Amazon BG2500 product listing image"
+    },
+    {
+      "reelId": "daiwa-bg-3000-bg3000-185",
+      "path": "/daiwa-bg-3000",
+      "family": "daiwa-bg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Q9wq9cyeL._AC_SL1400_.jpg",
+      "imageAlt": "Daiwa BG 3000 black and gold spinning reel",
+      "imageSource": "Exact Amazon BG3000 product listing image"
+    },
+    {
+      "reelId": "daiwa-bg-4000-bg4000-187",
+      "path": "/daiwa-bg-4000",
+      "family": "daiwa-bg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Q9wq9cyeL._AC_SL1400_.jpg",
+      "imageAlt": "Daiwa BG 4000 black and gold spinning reel",
+      "imageSource": "Exact Amazon BG4000 product listing image"
+    },
+    {
+      "reelId": "daiwa-bg-5000-bg5000-189",
+      "path": "/daiwa-bg-5000",
+      "family": "daiwa-bg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Q9wq9cyeL._AC_SL1400_.jpg",
+      "imageAlt": "Daiwa BG 5000 black and gold spinning reel",
+      "imageSource": "Exact Amazon BG5000 product listing image"
+    },
+    {
+      "reelId": "shimano-nasci-fd-500-nas500fd-668",
+      "path": "/shimano-nasci-fd-500",
+      "family": "shimano-nasci-fd",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/sen27pdfyw6pg8v1tq0o.png",
+      "imageAlt": "Shimano NASCI FD 500 spinning reel",
+      "imageSource": "Official Shimano North America store NAS500FD product image"
+    },
+    {
+      "reelId": "shimano-nasci-fd-1000-nas1000fd-669",
+      "path": "/shimano-nasci-fd-1000",
+      "family": "shimano-nasci-fd",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/xcns59pihonseiyepw4j.avif",
+      "imageAlt": "Shimano NASCI FD 1000 spinning reel",
+      "imageSource": "Official Shimano North America store NAS1000FD product image"
+    },
+    {
+      "reelId": "shimano-nasci-fd-2500hg-nas2500hgfd-670",
+      "path": "/shimano-nasci-fd-2500",
+      "family": "shimano-nasci-fd",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/nwcoyfoyy8rh36txl7ct.png",
+      "imageAlt": "Shimano NASCI FD 2500HG spinning reel",
+      "imageSource": "Official Shimano North America store NAS2500HGFD product image"
+    },
+    {
+      "reelId": "shimano-nasci-fd-c3000hg-nasc3000hgfd-671",
+      "path": "/shimano-nasci-fd-3000",
+      "family": "shimano-nasci-fd",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/l647ulypfmjajjgoyafe.png",
+      "imageAlt": "Shimano NASCI FD C3000HG spinning reel",
+      "imageSource": "Official Shimano North America store NASC3000HGFD product image"
+    },
+    {
+      "reelId": "shimano-nasci-fd-4000xg-nas4000xgfd-672",
+      "path": "/shimano-nasci-fd-4000",
+      "family": "shimano-nasci-fd",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/rmul17jg2tw9k7circz8.png",
+      "imageAlt": "Shimano NASCI FD 4000XG spinning reel",
+      "imageSource": "Official Shimano North America store NAS4000XGFD product image"
+    },
+    {
+      "reelId": "shimano-nasci-fd-c5000xg-nasc5000xgfd-673",
+      "path": "/shimano-nasci-fd-5000",
+      "family": "shimano-nasci-fd",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/tqi4ckqh24pjivx9keba.png",
+      "imageAlt": "Shimano NASCI FD C5000XG spinning reel",
+      "imageSource": "Official Shimano North America store NASC5000XGFD product image"
+    }
+  ],
+  "goldStandard": {
+    "path": "/shimano-miravel-4000",
+    "displayModel": "Shimano Miravel 4000XG A",
+    "sku": "MIR4000XGA",
+    "status": "missing-exact-reel-record",
+    "note": "The live gold-standard page is the newer Miravel A model. The current reel database contains MIR4000XG, not MIR4000XGA. Keep these models separate until the exact A record is added and verified."
+  }
+}
