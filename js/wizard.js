@@ -1,7 +1,8 @@
 const DATA_PATHS = {
   reels: "data/reels.json",
   lines: "data/lines.json",
-  quality: "data/data-quality-report.json"
+  quality: "data/data-quality-report.json",
+  reelAffiliates: "data/reel-affiliates.json"
 };
 
 const {
@@ -31,6 +32,7 @@ const state = {
   reels: [],
   lines: [],
   quality: null,
+  reelAffiliates: {},
   reelFilters: { brand: "", model: "", size: "" },
   lineFilters: { brand: "", model: "", lb: "" },
   selectedReel: null,
@@ -122,6 +124,13 @@ function bindEvents() {
     resolveReelFromFilters();
     resetDesiredMainLine();
     renderAll();
+  });
+  el.reelSummary.addEventListener("click", function(event) {
+    var link = event.target.closest("[data-reel-affiliate-link]");
+    if (!link) return;
+    trackWizardEvent("reel_affiliate_clicked", {
+      reel_id: link.dataset.reelId || ""
+    });
   });
 
   el.manualReelToggle.addEventListener("click", function() {
@@ -314,17 +323,27 @@ function bindEvents() {
 
 async function loadData() {
   try {
+    var affiliateRequest = fetch(DATA_PATHS.reelAffiliates).then(function(response) {
+      if (!response.ok) return null;
+      return response.json();
+    }).catch(function() {
+      return null;
+    });
     var responses = await Promise.all([
       fetch(DATA_PATHS.reels),
       fetch(DATA_PATHS.lines),
-      fetch(DATA_PATHS.quality)
+      fetch(DATA_PATHS.quality),
+      affiliateRequest
     ]);
-    responses.forEach(function(response) {
+    responses.slice(0, 3).forEach(function(response) {
       if (!response.ok) throw new Error("Data request failed");
     });
     state.reels = await responses[0].json();
     state.lines = await responses[1].json();
     state.quality = await responses[2].json();
+    state.reelAffiliates = responses[3] && responses[3].reels
+      ? responses[3].reels
+      : {};
     el.dataStatus.className = "data-pill";
     el.dataStatus.textContent = "Search " + formatCountBadge(state.reels.length) + " reels and " + formatCountBadge(state.lines.length) + " lines";
   } catch (error) {
@@ -894,9 +913,40 @@ function renderReelSummary() {
   }
   html += "</div>";
   if (warnings.length) html += "<div class=\"tiny-note\">Data note: " + escapeHtml(warnings.join(" ")) + "</div>";
+  html += reelAffiliateHtml(reel);
   el.reelSummary.className = ready ? "summary-strip selected-card" : "summary-strip selected-card warning-box";
   el.reelSummary.classList.remove("hidden");
   el.reelSummary.innerHTML = html;
+}
+
+function reelAffiliateHtml(reel) {
+  if (state.useManualReel || !reel || !reel.id) return "";
+  var mapping = state.reelAffiliates[reel.id];
+  var url = verifiedAmazonUrl(mapping && mapping.reelAffiliateUrl);
+  if (!url) return "";
+
+  var html = "<div class=\"reel-affiliate-row\">";
+  html += "<a class=\"reel-affiliate-button\" href=\"" + escapeHtml(url) + "\" target=\"_blank\" rel=\"sponsored nofollow noopener\" data-reel-affiliate-link data-reel-id=\"" + escapeHtml(reel.id) + "\">View This Reel on Amazon</a>";
+  html += "<span class=\"reel-affiliate-disclosure\">As an Amazon Associate, ReelCalc earns from qualifying purchases.</span>";
+  html += "</div>";
+  return html;
+}
+
+function verifiedAmazonUrl(value) {
+  try {
+    var url = new URL(String(value || ""));
+    var host = url.hostname.toLowerCase();
+    var isAmazon = host === "amazon.com" || host.endsWith(".amazon.com") || host === "amzn.to";
+    return url.protocol === "https:" && isAmazon ? url.href : "";
+  } catch (error) {
+    return "";
+  }
+}
+
+function trackWizardEvent(name, parameters) {
+  if (typeof window.gtag === "function") {
+    window.gtag("event", name, parameters || {});
+  }
 }
 
 function renderLineSummary() {

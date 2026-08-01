@@ -385,6 +385,42 @@ button {
   border-color: rgba(37, 53, 81, 0.24);
 }
 
+.reel-affiliate-row {
+  display: flex;
+  align-items: center;
+  gap: 10px 14px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(37, 53, 81, 0.12);
+}
+
+.reel-affiliate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  border: 1px solid rgba(37, 53, 81, 0.28);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--teal);
+  padding: 9px 13px;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.reel-affiliate-button:hover {
+  border-color: rgba(37, 53, 81, 0.52);
+  transform: translateY(-1px);
+}
+
+.reel-affiliate-disclosure {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
 .selected-card-head,
 .setup-card-head {
   display: flex;
@@ -872,6 +908,10 @@ button {
   }
 
   .quick-links a {
+    width: 100%;
+  }
+
+  .reel-affiliate-button {
     width: 100%;
   }
 }
