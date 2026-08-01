@@ -56,7 +56,8 @@
       ? '<p class="starting-setup"><strong>Suggested starting setup:</strong> ' +
         escapeHtml(defaults.mainLineLb) + " lb braid, " +
         escapeHtml(defaults.mainLineYards) + " yards, over " +
-        escapeHtml(defaults.backingLb) + " lb monofilament backing.</p>"
+        escapeHtml(defaults.backingLb) + " lb monofilament backing. " +
+        "Using more backing can reduce how much premium line you need.</p>"
       : "";
     return `
       <style>
