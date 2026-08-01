@@ -42,7 +42,23 @@
 }
 
 .reelcalc-guide-brand a {
+  color: #1d5f8f;
   overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 160ms ease, text-decoration-thickness 160ms ease;
+}
+
+.reelcalc-guide-brand a:hover {
+  color: #a33a2f;
+  text-decoration-thickness: 2px;
+}
+
+.reelcalc-guide-brand a:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid #1d5f8f;
+  outline-offset: 3px;
 }
 
 .reelcalc-guide-status {
