@@ -51,6 +51,63 @@
     });
   }
 
+  function initializeAnalyticsBridge() {
+    if (document.documentElement.dataset.reelcalcAnalyticsBridge === "true") return;
+    document.documentElement.dataset.reelcalcAnalyticsBridge = "true";
+    var allowedEvents = new Set([
+      "reelcalc_page_view",
+      "wizard_viewed",
+      "wizard_reel_selected",
+      "wizard_line_selected",
+      "wizard_technique_selected",
+      "wizard_priority_selected",
+      "wizard_recommendation_generated",
+      "wizard_setup_selected",
+      "wizard_calculation_completed",
+      "wizard_backing_mode_selected",
+      "wizard_backing_calculated",
+      "wizard_manual_mode_changed",
+      "wizard_mode_selected",
+      "wizard_unit_changed",
+      "wizard_reel_not_found",
+      "reel_affiliate_clicked",
+      "reelcalc_data_error"
+    ]);
+    var allowedParameters = new Set([
+      "wizard_session_id", "page_type", "reel_preloaded", "placement",
+      "reel_id", "reel_brand", "reel_model", "reel_size", "reel_size_class",
+      "capacity_status", "retailer", "match_type", "selection_source",
+      "manual_entry", "entry_type", "enabled", "wizard_mode", "fishing_use",
+      "priority", "recommendation_count", "recommendation_rank",
+      "recommendation_type", "top_recommendation_type", "top_line_type",
+      "top_line_lb", "line_role", "line_id", "line_brand", "line_model",
+      "line_type", "line_lb", "line_diameter_mm", "unit_system",
+      "backing_used", "backing_mode", "desired_main_yards", "main_line_type",
+      "main_line_lb", "backing_line_id", "backing_type", "backing_lb",
+      "backing_diameter_mm", "data_area"
+    ]);
+
+    window.addEventListener("message", function(event) {
+      if (event.origin !== "https://stefanellit.github.io") return;
+      var data = event.data;
+      if (!data || data.source !== "reelcalc-analytics" || !allowedEvents.has(data.name)) return;
+      var parameters = {};
+      Object.keys(data.parameters || {}).forEach(function(key) {
+        if (allowedParameters.has(key)) parameters[key] = data.parameters[key];
+      });
+      if (window.ReelCalcAnalytics && typeof window.ReelCalcAnalytics.track === "function") {
+        window.ReelCalcAnalytics.track(data.name, parameters);
+      } else {
+        window.ReelCalcAnalyticsQueue = window.ReelCalcAnalyticsQueue || [];
+        window.ReelCalcAnalyticsQueue.push({
+          name: data.name,
+          parameters: parameters,
+          options: {}
+        });
+      }
+    });
+  }
+
   function sectionKey(content, index) {
     if (index === 0) return "introduction";
     var heading = content.querySelector("h2");
@@ -354,6 +411,15 @@
   }
 
   function initialize() {
+    initializeAnalyticsBridge();
+    loadScript("js/analytics.js", "ReelCalcAnalytics").then(function(analytics) {
+      if (analytics && analytics.instrumentLineDatabase) {
+        analytics.instrumentLineDatabase();
+      }
+    }).catch(function() {
+      // Analytics is optional and must never block page content.
+    });
+
     if (initializeCollectionPage()) return;
 
     var detail = document.querySelector(".product-detail");
@@ -394,6 +460,8 @@
         showLoadError(detail, "This ReelCalc guide could not finish loading. " + error.message);
       });
   }
+
+  initializeAnalyticsBridge();
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initialize, { once: true });

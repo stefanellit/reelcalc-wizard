@@ -7,6 +7,136 @@
     ? new URL(loaderScript.dataset.assetBase, document.baseURI)
     : new URL("../", scriptUrl);
   var affiliateDataPromise = null;
+  var analyticsPromise = null;
+
+  function loadAnalytics() {
+    if (window.ReelCalcAnalytics) return Promise.resolve(window.ReelCalcAnalytics);
+    if (analyticsPromise) return analyticsPromise;
+    var src = new URL("js/analytics.js", assetBase).href;
+    var existing = Array.from(document.scripts).find(function(script) {
+      return script.src === src;
+    });
+    analyticsPromise = new Promise(function(resolve) {
+      if (existing) {
+        existing.addEventListener("load", function() {
+          resolve(window.ReelCalcAnalytics || null);
+        }, { once: true });
+        existing.addEventListener("error", function() { resolve(null); }, { once: true });
+        return;
+      }
+      var script = document.createElement("script");
+      script.src = src;
+      script.dataset.assetBase = assetBase.href;
+      script.onload = function() { resolve(window.ReelCalcAnalytics || null); };
+      script.onerror = function() { resolve(null); };
+      document.head.appendChild(script);
+    });
+    return analyticsPromise;
+  }
+
+  function track(name, parameters, options) {
+    if (window.ReelCalcAnalytics && typeof window.ReelCalcAnalytics.track === "function") {
+      window.ReelCalcAnalytics.track(name, parameters || {}, options || {});
+      return;
+    }
+    window.ReelCalcAnalyticsQueue = window.ReelCalcAnalyticsQueue || [];
+    window.ReelCalcAnalyticsQueue.push({
+      name: name,
+      parameters: parameters || {},
+      options: options || {}
+    });
+    loadAnalytics();
+  }
+
+  function reelDetailParameters(detail) {
+    var data = detail || {};
+    return {
+      page_type: "reel_guide",
+      reel_id: data.reelId || "",
+      reel_brand: data.reelBrand || "",
+      reel_model: data.reelModel || "",
+      reel_size: data.reelSize || ""
+    };
+  }
+
+  function trackReelPageViews() {
+    document.querySelectorAll(".reelcalc-reel-page[data-reel-id]").forEach(function(page) {
+      var reelId = page.dataset.reelId || "";
+      if (!reelId) return;
+      track("reel_page_view", {
+        page_type: "reel_guide",
+        reel_id: reelId
+      }, { onceKey: location.pathname + "|" + reelId });
+    });
+  }
+
+  function initializeAnalytics() {
+    if (document.documentElement.dataset.reelcalcPageAnalyticsReady === "true") {
+      trackReelPageViews();
+      return;
+    }
+    document.documentElement.dataset.reelcalcPageAnalyticsReady = "true";
+    trackReelPageViews();
+
+    document.addEventListener("reelcalc:calculator-ready", function(event) {
+      var detail = event.detail || {};
+      track("reel_calculator_ready", reelDetailParameters(detail), {
+        onceKey: location.pathname + "|" + (detail.reelId || "")
+      });
+    });
+
+    document.addEventListener("reelcalc:calculation-completed", function(event) {
+      var detail = event.detail || {};
+      if (!detail.isUserInitiated) return;
+      track("reel_calculation_completed", Object.assign(
+        reelDetailParameters(detail),
+        {
+          calculator_mode: detail.mode || "",
+          interaction_source: detail.interactionSource || "",
+          unit_system: detail.unitSystem || "",
+          main_line_yards: Number(detail.mainLineYards) || 0,
+          main_line_diameter_mm: Number(detail.mainLineDiameterMm) || 0,
+          backing_yards: Number(detail.backingYards) || 0,
+          backing_diameter_mm: Number(detail.backingDiameterMm) || 0,
+          starting_main_line_lb: Number(detail.startingMainLineLb) || 0,
+          starting_backing_lb: Number(detail.startingBackingLb) || 0
+        }
+      ));
+    });
+
+    document.addEventListener("click", function(event) {
+      var target = event.target && event.target.closest
+        ? event.target.closest("a")
+        : null;
+      if (!target) return;
+
+      if (target.classList.contains("reelcalc-affiliate-link")) {
+        var affiliateMount = target.closest("[data-reelcalc-affiliates]");
+        track("reel_affiliate_clicked", {
+          page_type: "reel_guide",
+          placement: "reel_page",
+          reel_id: affiliateMount ? affiliateMount.dataset.reelId || "" : "",
+          retailer: target.dataset.retailer || "",
+          match_type: target.dataset.matchType || ""
+        });
+        return;
+      }
+
+      if (target.href && target.href.indexOf("reelcalc-wizard") >= 0) {
+        var reelId = "";
+        try {
+          reelId = new URL(target.href, document.baseURI).searchParams.get("reel") || "";
+        } catch (error) {
+          reelId = "";
+        }
+        track("wizard_opened_from_reel_page", {
+          page_type: "reel_guide",
+          reel_id: reelId,
+          link_placement: target.closest('[data-section="cta"]') ? "page_cta" : "content_link"
+        });
+      }
+    });
+  }
 
   function isAllowedRetailerUrl(value, retailer) {
     try {
@@ -117,12 +247,23 @@
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initializeAffiliates, { once: true });
+    document.addEventListener("DOMContentLoaded", function() {
+      initializeAnalytics();
+      initializeAffiliates();
+    }, { once: true });
   } else {
+    initializeAnalytics();
     initializeAffiliates();
   }
 
+  loadAnalytics().then(function() {
+    initializeAnalytics();
+  });
+
   window.ReelCalcReelPageRuntime = {
-    initialize: initializeAffiliates
+    initialize: function() {
+      initializeAnalytics();
+      initializeAffiliates();
+    }
   };
 })();

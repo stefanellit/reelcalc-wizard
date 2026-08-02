@@ -64,14 +64,22 @@ function byId(id) {
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+  if (window.ReelCalcAnalytics && typeof window.ReelCalcAnalytics.startWizardSession === "function") {
+    window.ReelCalcAnalytics.startWizardSession();
+  }
   cacheElements();
   bindEvents();
   await loadData();
   populateReelFilters();
-  applyReelPreloadFromUrl();
+  var preloadedReel = applyReelPreloadFromUrl();
   populateLineFilters();
   populateBackingFilters();
   renderAll();
+  trackWizardEvent("wizard_viewed", {
+    page_type: "setup_wizard",
+    reel_preloaded: Boolean(preloadedReel)
+  }, { onceKey: "wizard-view" });
+  if (preloadedReel) trackSelectedReel("url_preload");
 }
 
 function cacheElements() {
@@ -124,11 +132,14 @@ function bindEvents() {
     resolveReelFromFilters();
     resetDesiredMainLine();
     renderAll();
+    if (state.selectedReel) trackSelectedReel("wizard_selector");
   });
   el.reelSummary.addEventListener("click", function(event) {
     var link = event.target.closest("[data-reel-affiliate-link]");
     if (!link) return;
     trackWizardEvent("reel_affiliate_clicked", {
+      page_type: "setup_wizard",
+      placement: "wizard_reel_summary",
       reel_id: link.dataset.reelId || "",
       retailer: link.dataset.retailer || "",
       match_type: link.dataset.matchType || ""
@@ -141,6 +152,11 @@ function bindEvents() {
     updateManualReel();
     resetDesiredMainLine();
     renderAll();
+    trackWizardEvent("wizard_manual_mode_changed", {
+      page_type: "setup_wizard",
+      entry_type: "reel",
+      enabled: state.useManualReel
+    });
   });
   [el.manualReelYards, el.manualReelLb].forEach(function(input) {
     input.addEventListener("input", function() {
@@ -149,6 +165,9 @@ function bindEvents() {
       updateManualReel();
       resetDesiredMainLine();
       renderAll();
+    });
+    input.addEventListener("change", function() {
+      if (state.manualReel) trackSelectedReel("manual_entry");
     });
   });
 
@@ -160,16 +179,30 @@ function bindEvents() {
       }
       setActiveButtons("data-path", state.path);
       renderAll();
+      trackWizardEvent("wizard_mode_selected", {
+        page_type: "setup_wizard",
+        wizard_mode: state.path
+      });
     });
   });
 
   el.fishingType.addEventListener("change", function() {
     state.selectedSetup = null;
     renderAll();
+    trackWizardEvent("wizard_technique_selected", Object.assign({
+      page_type: "setup_wizard",
+      fishing_use: el.fishingType.value,
+      priority: el.priority.value
+    }, reelEventParameters(getActiveReel())));
   });
   el.priority.addEventListener("change", function() {
     state.selectedSetup = null;
     renderAll();
+    trackWizardEvent("wizard_priority_selected", Object.assign({
+      page_type: "setup_wizard",
+      fishing_use: el.fishingType.value,
+      priority: el.priority.value
+    }, reelEventParameters(getActiveReel())));
   });
   el.recommendations.addEventListener("click", function(event) {
     var button = event.target.closest("[data-setup-index]");
@@ -181,6 +214,7 @@ function bindEvents() {
     setActiveButtons("data-path", state.path);
     resetDesiredMainLine();
     renderAll();
+    trackRecommendedSetup(setup, Number(button.dataset.setupIndex));
     scrollToMainResultAfterRender();
   });
 
@@ -212,6 +246,10 @@ function bindEvents() {
     resolveLineFromFilters();
     resetDesiredMainLine();
     renderAll();
+    if (state.selectedLine) {
+      trackSelectedLine(state.selectedLine, "exact_selector", "main_line");
+      trackWizardCalculation("exact_line");
+    }
   });
 
   el.manualLineToggle.addEventListener("click", function() {
@@ -221,6 +259,11 @@ function bindEvents() {
     updateManualLine();
     resetDesiredMainLine();
     renderAll();
+    trackWizardEvent("wizard_manual_mode_changed", {
+      page_type: "setup_wizard",
+      entry_type: "line",
+      enabled: state.useManualLine
+    });
   });
   [el.manualLineType, el.manualLineLb, el.manualLineDiameter].forEach(function(input) {
     input.addEventListener("input", function() {
@@ -235,6 +278,10 @@ function bindEvents() {
       updateManualLine();
       resetDesiredMainLine();
       renderAll();
+      if (state.manualLine) {
+        trackSelectedLine(state.manualLine, "manual_entry", "main_line");
+        trackWizardCalculation("manual_line");
+      }
     });
   });
 
@@ -244,6 +291,10 @@ function bindEvents() {
       setActiveButtons("data-backing", state.backingMode);
       el.backingFields.classList.toggle("hidden", state.backingMode !== "yes");
       renderAll();
+      trackWizardEvent("wizard_backing_mode_selected", Object.assign({
+        page_type: "setup_wizard",
+        backing_mode: state.backingMode
+      }, reelEventParameters(getActiveReel())));
     });
   });
   el.backingBrand.addEventListener("change", function() {
@@ -274,6 +325,10 @@ function bindEvents() {
     el.manualBackingPanel.classList.add("hidden");
     resolveBackingFromFilters();
     renderAll();
+    if (state.backingLine) {
+      trackSelectedLine(state.backingLine, "exact_selector", "backing");
+      trackBackingCalculation("backing_line_selected");
+    }
   });
   el.manualBackingToggle.addEventListener("click", function() {
     state.useManualBacking = !state.useManualBacking;
@@ -281,6 +336,11 @@ function bindEvents() {
     el.manualBackingPanel.classList.toggle("hidden", !state.useManualBacking);
     updateManualBacking();
     renderAll();
+    trackWizardEvent("wizard_manual_mode_changed", {
+      page_type: "setup_wizard",
+      entry_type: "backing",
+      enabled: state.useManualBacking
+    });
   });
   [el.manualBackingType, el.manualBackingLb, el.manualBackingDiameter].forEach(function(input) {
     input.addEventListener("input", function() {
@@ -293,6 +353,10 @@ function bindEvents() {
     input.addEventListener("change", function() {
       updateManualBacking();
       renderAll();
+      if (state.manualBacking) {
+        trackSelectedLine(state.manualBacking, "manual_entry", "backing");
+        trackBackingCalculation("manual_backing");
+      }
     });
   });
   el.mainLineYards.addEventListener("input", function() {
@@ -314,6 +378,7 @@ function bindEvents() {
     }
     syncDesiredMainLineInputs();
     renderAll();
+    trackBackingCalculation("main_line_length_changed");
   });
   el.mainLineSlider.addEventListener("input", function() {
     var desiredDisplay = Number(el.mainLineSlider.value);
@@ -351,6 +416,10 @@ async function loadData() {
   } catch (error) {
     el.dataStatus.className = "data-pill error";
     el.dataStatus.textContent = "Data did not load. Run this from a local server.";
+    trackWizardEvent("reelcalc_data_error", {
+      page_type: "setup_wizard",
+      data_area: "wizard_initial_load"
+    }, { onceKey: "wizard-data-load" });
     console.error(error);
   }
 }
@@ -455,6 +524,10 @@ function switchUnitSystem(nextUnit) {
   populateLineFilters();
   populateBackingFilters();
   renderAll();
+  trackWizardEvent("wizard_unit_changed", {
+    page_type: "setup_wizard",
+    unit_system: state.unitSystem
+  });
 }
 
 function convertDisplayedUnitInputs(fromUnit, toUnit) {
@@ -677,7 +750,7 @@ function selectReel(reel, updateSearch) {
 
 function applyReelPreloadFromUrl() {
   var requested = new URLSearchParams(window.location.search).get("reel");
-  if (!requested) return;
+  if (!requested) return null;
 
   var normalizedRequested = normalizeSearch(requested);
   var reel = state.reels.find(function(item) {
@@ -690,7 +763,13 @@ function applyReelPreloadFromUrl() {
   if (reel) {
     selectReel(reel, false);
     resetDesiredMainLine();
+    return reel;
   }
+  trackWizardEvent("wizard_reel_not_found", {
+    page_type: "setup_wizard",
+    selection_source: "url_preload"
+  });
+  return null;
 }
 
 function populateLineFilters() {
@@ -979,10 +1058,123 @@ function resolvePreferredReelAffiliate(reelId) {
   return null;
 }
 
-function trackWizardEvent(name, parameters) {
-  if (typeof window.gtag === "function") {
-    window.gtag("event", name, parameters || {});
+function trackWizardEvent(name, parameters, options) {
+  if (window.ReelCalcAnalytics && typeof window.ReelCalcAnalytics.track === "function") {
+    window.ReelCalcAnalytics.track(name, parameters || {}, options || {});
+    return;
   }
+  window.ReelCalcAnalyticsQueue = window.ReelCalcAnalyticsQueue || [];
+  window.ReelCalcAnalyticsQueue.push({
+    name: name,
+    parameters: parameters || {},
+    options: options || {}
+  });
+}
+
+function reelEventParameters(reel) {
+  if (!reel) return {};
+  return {
+    reel_id: reel.id || "",
+    reel_brand: reel.brand || "",
+    reel_model: reel.model || "",
+    reel_size: reel.size_label || reel.size_class || "",
+    reel_size_class: reel.size_class || reel.size_label || "",
+    capacity_status: isReelReady(reel) ? "ready" : "missing"
+  };
+}
+
+function lineEventParameters(line) {
+  if (!line) return {};
+  return {
+    line_id: line.id || "",
+    line_brand: line.brand || "",
+    line_model: line.model || "",
+    line_type: genericLineType(line.type || "line"),
+    line_lb: Number(line.lb) || 0,
+    line_diameter_mm: Number(line.dia_in) > 0
+      ? Number((Number(line.dia_in) * MM_PER_INCH).toFixed(3))
+      : 0
+  };
+}
+
+function trackSelectedReel(selectionSource) {
+  var reel = getActiveReel();
+  if (!reel) return;
+  trackWizardEvent("wizard_reel_selected", Object.assign({
+    page_type: "setup_wizard",
+    selection_source: selectionSource,
+    manual_entry: reel.id === "manual-reel"
+  }, reelEventParameters(reel)));
+}
+
+function trackSelectedLine(line, selectionSource, lineRole) {
+  if (!line) return;
+  trackWizardEvent("wizard_line_selected", Object.assign({
+    page_type: "setup_wizard",
+    selection_source: selectionSource,
+    line_role: lineRole,
+    manual_entry: line.id === "manual-line" || line.id === "manual-backing"
+  }, reelEventParameters(getActiveReel()), lineEventParameters(line)));
+}
+
+function trackWizardCalculation(selectionSource) {
+  var reel = getActiveReel();
+  var line = getActiveMainLine();
+  if (!isReelReady(reel) || !isLineReady(line)) return;
+  trackWizardEvent("wizard_calculation_completed", Object.assign({
+    page_type: "setup_wizard",
+    selection_source: selectionSource,
+    wizard_mode: state.path,
+    unit_system: state.unitSystem,
+    fishing_use: state.path === "recommend" ? el.fishingType.value : "",
+    priority: state.path === "recommend" ? el.priority.value : "",
+    backing_used: state.backingMode === "yes"
+  }, reelEventParameters(reel), lineEventParameters(line)));
+}
+
+function trackRecommendedSetup(setup, index) {
+  if (!setup || !setup.line) return;
+  var reel = getActiveReel();
+  var params = Object.assign({
+    page_type: "setup_wizard",
+    selection_source: "recommendation",
+    fishing_use: el.fishingType.value,
+    priority: el.priority.value,
+    recommendation_rank: index + 1,
+    recommendation_type: setup.useCase || "",
+    line_type: genericLineType(setup.line.type || "line"),
+    line_lb: Number(setup.line.lb) || 0,
+    line_diameter_mm: Number(setup.line.dia_in) > 0
+      ? Number((Number(setup.line.dia_in) * MM_PER_INCH).toFixed(3))
+      : 0
+  }, reelEventParameters(reel));
+  trackWizardEvent("wizard_setup_selected", params);
+  trackWizardCalculation("recommendation");
+}
+
+function trackBackingCalculation(selectionSource) {
+  var reel = getActiveReel();
+  var mainLine = getActiveMainLine();
+  var backing = getBackingLine();
+  if (state.backingMode !== "yes" ||
+      !isReelReady(reel) ||
+      !isLineReady(mainLine) ||
+      !isLineReady(backing) ||
+      !(Number(state.desiredMainYards) > 0)) return;
+  trackWizardEvent("wizard_backing_calculated", Object.assign({
+    page_type: "setup_wizard",
+    selection_source: selectionSource,
+    unit_system: state.unitSystem,
+    desired_main_yards: Number(state.desiredMainYards.toFixed(1)),
+    main_line_type: genericLineType(mainLine.type || "line"),
+    main_line_lb: Number(mainLine.lb) || 0,
+    backing_line_id: backing.id || "",
+    backing_type: genericLineType(backing.type || "line"),
+    backing_lb: Number(backing.lb) || 0,
+    backing_diameter_mm: Number(backing.dia_in) > 0
+      ? Number((Number(backing.dia_in) * MM_PER_INCH).toFixed(3))
+      : 0
+  }, reelEventParameters(reel)));
 }
 
 function renderLineSummary() {
@@ -1046,6 +1238,21 @@ function renderRecommendations() {
     el.recommendations.innerHTML = "<div class=\"empty-state warning-box\">No matching line records were found for this recommendation set.</div>";
     return;
   }
+  var topRecommendation = state.recommendations[0];
+  var recommendationKey = [
+    reel.id || "manual-reel",
+    el.fishingType.value,
+    el.priority.value
+  ].join("|");
+  trackWizardEvent("wizard_recommendation_generated", Object.assign({
+    page_type: "setup_wizard",
+    fishing_use: el.fishingType.value,
+    priority: el.priority.value,
+    recommendation_count: state.recommendations.length,
+    top_line_type: genericLineType(topRecommendation.line.type || "line"),
+    top_line_lb: Number(topRecommendation.line.lb) || 0,
+    top_recommendation_type: topRecommendation.useCase || ""
+  }, reelEventParameters(reel)), { onceKey: recommendationKey });
   el.recommendations.innerHTML = state.recommendations.map(function(setup, index) {
     var capacity = setup.capacityYards || calculateFullSpoolCapacity(reel, setup.line);
     var selected = state.selectedSetup && state.selectedSetup.title === setup.title && state.selectedSetup.line.id === setup.line.id;

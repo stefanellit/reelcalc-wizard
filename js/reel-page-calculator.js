@@ -582,7 +582,7 @@
       }
     }
 
-    function calculate() {
+    function calculate(interactionSource) {
       var reelLengthDisplay = Number(q("reel-yards").value);
       var goodLengthDisplay = Number(q("good-yards").value);
       var goodDiameterDisplay = Number(q("good-dia").value);
@@ -633,7 +633,16 @@
           '<div style="margin-top:6px;font-size:13px;opacity:0.8;">Note: This is an estimate based on line diameter and the reel&#39;s rated capacity.</div>';
 
         appendHandleTurns(output, maxGoodYards, null);
-        dispatchCompleted(mount, reel, "capacity");
+        dispatchCompleted(mount, reel, "capacity", {
+          interactionSource: interactionSource || "automatic",
+          isUserInitiated: interactionSource !== "initial",
+          unitSystem: state.isMetric ? "metric" : "standard",
+          mainLineYards: Number(maxGoodYards.toFixed(1)),
+          mainLineDiameterMm: Number((goodDiameterIn * core.MM_PER_INCH).toFixed(3)),
+          backingYards: 0,
+          startingMainLineLb: Number(defaults.mainLineLb) || 0,
+          startingBackingLb: Number(defaults.backingLb) || 0
+        });
         return;
       }
 
@@ -684,7 +693,17 @@
         "$0.01-$0.03 per yard for backing. Actual prices vary by line, strength, and spool size.</em></div>";
 
       appendHandleTurns(output, goodYards, backingYards);
-      dispatchCompleted(mount, reel, "backing");
+      dispatchCompleted(mount, reel, "backing", {
+        interactionSource: interactionSource || "automatic",
+        isUserInitiated: interactionSource !== "initial",
+        unitSystem: state.isMetric ? "metric" : "standard",
+        mainLineYards: Number(goodYards.toFixed(1)),
+        mainLineDiameterMm: Number((goodDiameterIn * core.MM_PER_INCH).toFixed(3)),
+        backingYards: Number(backingYards.toFixed(1)),
+        backingDiameterMm: Number((backingDiameterIn * core.MM_PER_INCH).toFixed(3)),
+        startingMainLineLb: Number(defaults.mainLineLb) || 0,
+        startingBackingLb: Number(defaults.backingLb) || 0
+      });
     }
 
     function appendHandleTurns(output, workingYards, backingYards) {
@@ -706,10 +725,16 @@
       output.insertAdjacentHTML("beforeend", html);
     }
 
-    function dispatchCompleted(element, reelRecord, mode) {
+    function dispatchCompleted(element, reelRecord, mode, calculation) {
       element.dispatchEvent(new CustomEvent("reelcalc:calculation-completed", {
         bubbles: true,
-        detail: { reelId: reelRecord.id, mode: mode }
+        detail: Object.assign({
+          reelId: reelRecord.id,
+          reelBrand: reelRecord.brand || "",
+          reelModel: reelRecord.model || "",
+          reelSize: reelRecord.size_label || reelRecord.size_class || "",
+          mode: mode
+        }, calculation || {})
       }));
     }
 
@@ -728,7 +753,7 @@
       state.isMetric = goingMetric;
       updateReelSpecUI();
       updateUnitUI();
-      calculate();
+      calculate("unit_change");
     });
 
     q("mode-segment").addEventListener("click", function(event) {
@@ -736,7 +761,7 @@
       if (!button) return;
       state.isCapacityOnly = button.dataset.mode === "capacity";
       updateModeUI();
-      calculate();
+      calculate("mode_change");
     });
 
     shadow.querySelectorAll("[data-info]").forEach(function(button) {
@@ -750,7 +775,9 @@
     q("modal-overlay").addEventListener("click", function(event) {
       if (event.target === q("modal-overlay")) hideInfo();
     });
-    q("calculate").addEventListener("click", calculate);
+    q("calculate").addEventListener("click", function() {
+      calculate("calculate_button");
+    });
     q("reel-dia").addEventListener("input", function() {
       this.dataset.userEdited = "true";
       var value = Number(this.value);
@@ -776,7 +803,9 @@
       "back-dia",
       "reel-ipt"
     ].forEach(function(role) {
-      q(role).addEventListener("change", calculate);
+      q(role).addEventListener("change", function() {
+        calculate("input_change");
+      });
     });
 
     setSegmentActive("unit-segment", "unit", "standard");
@@ -784,11 +813,16 @@
     updateUnitUI();
     updateModeUI();
     updateReelSpecUI();
-    calculate();
+    calculate("initial");
     mount.dataset.reelcalcReady = "true";
     mount.dispatchEvent(new CustomEvent("reelcalc:calculator-ready", {
       bubbles: true,
-      detail: { reelId: reel.id }
+      detail: {
+        reelId: reel.id,
+        reelBrand: reel.brand || "",
+        reelModel: reel.model || "",
+        reelSize: reel.size_label || reel.size_class || ""
+      }
     }));
   }
 
