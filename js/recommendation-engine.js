@@ -1,7 +1,7 @@
 (function(global) {
   "use strict";
 
-  var COMMON_LB = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 65, 80];
+  var COMMON_LB = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 60, 65, 80, 100, 120];
 
   var PFLUEGER_SIZE_EQUIVALENTS = {
     20: 500,
@@ -25,7 +25,9 @@
       40: [0.012, 0.014],
       50: [0.014, 0.016],
       65: [0.016, 0.018],
-      80: [0.017, 0.020]
+      80: [0.017, 0.020],
+      100: [0.018, 0.021],
+      120: [0.021, 0.024]
     },
     Monofilament: {
       2: [0.005, 0.007],
@@ -38,7 +40,9 @@
       20: [0.017, 0.020],
       25: [0.019, 0.022],
       30: [0.021, 0.024],
-      40: [0.024, 0.028]
+      40: [0.024, 0.028],
+      50: [0.027, 0.032],
+      60: [0.030, 0.036]
     },
     Fluorocarbon: {
       4: [0.006, 0.008],
@@ -232,7 +236,9 @@
     if (!recommendationCompatibility(reel, fishingType).recommend) return [];
 
     var group = FISHING_PROFILES[fishingType] || FISHING_PROFILES.freshwater;
+    var reelSize = reelSizeClass(reel);
     var setups = group.setups.map(function(setupProfile) {
+      setupProfile = scaledProfileForReel(setupProfile, reelSize, fishingType);
       return pickBestSetupForProfile(setupProfile, {
         reel: reel,
         lines: lines,
@@ -251,6 +257,52 @@
     });
   }
 
+  function scaledProfileForReel(setupProfile, reelSize, fishingType) {
+    if (fishingType !== "surf" || !(reelSize >= 8000)) return setupProfile;
+
+    var tier;
+    if (reelSize >= 18000) {
+      tier = {
+        "casting-distance": [80, 100],
+        "best-overall": [100, 120],
+        "heavy-cover": [100, 120],
+        "simple-mono": [40, 60]
+      };
+    } else if (reelSize >= 14000) {
+      tier = {
+        "casting-distance": [65, 80],
+        "best-overall": [80, 100],
+        "heavy-cover": [100, 120],
+        "simple-mono": [30, 50]
+      };
+    } else if (reelSize >= 10000) {
+      tier = {
+        "casting-distance": [50, 65],
+        "best-overall": [65, 80],
+        "heavy-cover": [80, 100],
+        "simple-mono": [25, 40]
+      };
+    } else {
+      tier = {
+        "casting-distance": [40, 50],
+        "best-overall": [50, 65],
+        "heavy-cover": [65, 80],
+        "simple-mono": [20, 30]
+      };
+    }
+
+    var mainRange = tier[setupProfile.useCase];
+    if (!mainRange) return setupProfile;
+    return {
+      useCase: setupProfile.useCase,
+      title: setupProfile.title,
+      mainType: setupProfile.mainType,
+      mainRange: mainRange,
+      leaderType: setupProfile.leaderType,
+      leaderRange: setupProfile.leaderRange
+    };
+  }
+
   function setupFitsReelSize(setup, reel, fishingType) {
     var reelSize = reelSizeClass(reel);
     if (!reelSize) return true;
@@ -260,6 +312,9 @@
     }
     if (fishingType === "inshore" && reelSize >= 5000) {
       return setup.useCase !== "finesse" && setup.useCase !== "casting-distance";
+    }
+    if (fishingType === "surf" && reelSize >= 8000 && setup.useCase === "fluorocarbon") {
+      return false;
     }
     return true;
   }
