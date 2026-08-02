@@ -78,11 +78,6 @@
       "imageSource": "Official Shimano North America store STC5000XGFM product image"
     },
     {
-      "reelId": "shimano-nasci-fc-2500hg-nas2500hgfc-664",
-      "path": "/shimano-nasci-2500",
-      "family": "shimano-nasci-fc"
-    },
-    {
       "reelId": "shimano-miravel-2500hg-mir2500hg-675",
       "path": "/shimano-miravel-2500",
       "family": "shimano-miravel"
@@ -292,23 +287,25 @@
     },
     {
       "reelId": "shimano-nasci-fd-500-nas500fd-668",
-      "path": "/shimano-nasci-fd-500",
+      "path": "/shimano-nasci-500",
       "family": "shimano-nasci-fd",
+      "verifiedLive": true,
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/sen27pdfyw6pg8v1tq0o.png",
       "imageAlt": "Shimano NASCI FD 500 spinning reel",
       "imageSource": "Official Shimano North America store NAS500FD product image"
     },
     {
       "reelId": "shimano-nasci-fd-1000-nas1000fd-669",
-      "path": "/shimano-nasci-fd-1000",
+      "path": "/shimano-nasci-1000",
       "family": "shimano-nasci-fd",
+      "verifiedLive": true,
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/xcns59pihonseiyepw4j.avif",
       "imageAlt": "Shimano NASCI FD 1000 spinning reel",
       "imageSource": "Official Shimano North America store NAS1000FD product image"
     },
     {
       "reelId": "shimano-nasci-fd-2500hg-nas2500hgfd-670",
-      "path": "/shimano-nasci-fd-2500",
+      "path": "/shimano-nasci-2500",
       "family": "shimano-nasci-fd",
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/nwcoyfoyy8rh36txl7ct.png",
       "imageAlt": "Shimano NASCI FD 2500HG spinning reel",
@@ -316,7 +313,7 @@
     },
     {
       "reelId": "shimano-nasci-fd-c3000hg-nasc3000hgfd-671",
-      "path": "/shimano-nasci-fd-3000",
+      "path": "/shimano-nasci-3000",
       "family": "shimano-nasci-fd",
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/l647ulypfmjajjgoyafe.png",
       "imageAlt": "Shimano NASCI FD C3000HG spinning reel",
@@ -324,7 +321,7 @@
     },
     {
       "reelId": "shimano-nasci-fd-4000xg-nas4000xgfd-672",
-      "path": "/shimano-nasci-fd-4000",
+      "path": "/shimano-nasci-4000",
       "family": "shimano-nasci-fd",
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/rmul17jg2tw9k7circz8.png",
       "imageAlt": "Shimano NASCI FD 4000XG spinning reel",
@@ -332,8 +329,9 @@
     },
     {
       "reelId": "shimano-nasci-fd-c5000xg-nasc5000xgfd-673",
-      "path": "/shimano-nasci-fd-5000",
+      "path": "/shimano-nasci-5000",
       "family": "shimano-nasci-fd",
+      "verifiedLive": true,
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/tqi4ckqh24pjivx9keba.png",
       "imageAlt": "Shimano NASCI FD C5000XG spinning reel",
       "imageSource": "Official Shimano North America store NASC5000XGFD product image"
