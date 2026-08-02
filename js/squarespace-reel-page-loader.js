@@ -164,6 +164,19 @@
     });
   }
 
+  function applyPageMetadata(entry) {
+    if (entry.seoTitle) document.title = entry.seoTitle;
+    if (entry.metaDescription) {
+      var description = document.querySelector('meta[name="description"]');
+      if (!description) {
+        description = document.createElement("meta");
+        description.name = "description";
+        document.head.appendChild(description);
+      }
+      description.content = entry.metaDescription;
+    }
+  }
+
   function initialize() {
     var detail = document.querySelector(".product-detail");
     if (!detail || !guideTags.some(function(tag) { return detail.classList.contains(tag); })) return;
@@ -184,6 +197,8 @@
           : slug;
         var entry = manifest.pages && manifest.pages[canonicalSlug];
         if (!entry) throw new Error("No verified ReelCalc page mapping exists for this URL.");
+
+        applyPageMetadata(entry);
 
         detail.querySelectorAll(".product-description").forEach(function(description) {
           decorateDescription(description, entry);
