@@ -70,6 +70,7 @@
         label: page.guideLabel || reelLabel(reel),
         path: path,
         reelId: reel.id,
+        verifiedLive: page.verifiedLive === true,
         registry: true,
         legacy: false
       };
@@ -103,7 +104,7 @@
 
     var published = publishedPaths instanceof Set ? publishedPaths : new Set();
     return Array.from(entriesByPath.values()).filter(function (entry) {
-      return entry.legacy || includeUnpublished || published.has(entry.path);
+      return entry.legacy || entry.verifiedLive || includeUnpublished || published.has(entry.path);
     });
   }
 

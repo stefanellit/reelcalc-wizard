@@ -18,7 +18,7 @@ The generator uses the existing reel and line JSON files, stops on ambiguous or 
 
 The fishing-line setup guide directory is rendered by `js/reel-guide-list.js` with styles from `css/reel-guide-list.css`.
 
-The component preserves the existing live links from `data/reel-guide-legacy.json`, merges new entries from `data/reel-pages.json`, and uses the Squarespace sitemap to show registry-only pages after they are published. Draft registry entries therefore do not create broken guide links.
+The component preserves the existing live links from `data/reel-guide-legacy.json`, merges new entries from `data/reel-pages.json`, and uses the Squarespace sitemap to show registry-only pages after they are published. A directly checked page that Squarespace omits from its sitemap can use `"verifiedLive": true`. Draft registry entries therefore do not create broken guide links.
 
 Future reel-page protocol:
 
