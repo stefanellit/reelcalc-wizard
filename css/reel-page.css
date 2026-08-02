@@ -210,6 +210,36 @@
   padding: 14px;
 }
 
+/* Squarespace removes custom attributes from imported product descriptions.
+   The shared loader restores ReelCalc hooks and marks only imported guides. */
+.product-detail.reelcalc-imported-guide .product-nav,
+.product-detail.reelcalc-imported-guide .product-gallery,
+.product-detail.reelcalc-imported-guide .product-title,
+.product-detail.reelcalc-imported-guide .product-price,
+.product-detail.reelcalc-imported-guide .product-add-to-cart {
+  display: none !important;
+}
+
+.product-detail.reelcalc-imported-guide > div[data-product-detail-layout],
+.product-detail.reelcalc-imported-guide .product-content-wrapper,
+.product-detail.reelcalc-imported-guide .product-meta,
+.product-detail.reelcalc-imported-guide .product-description {
+  box-sizing: border-box;
+  clear: both !important;
+  display: block !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+}
+
+.product-detail.reelcalc-imported-guide .product-description.hidden-up-md {
+  display: none !important;
+}
+
 /* Imported reel guides use a Squarespace product only as the page container. */
 @supports selector(body:has(.reelcalc-reel-page)) {
   body:has(.reelcalc-reel-page) .ProductItem-nav,
@@ -253,6 +283,14 @@
 }
 
 @media (max-width: 720px) {
+  .product-detail.reelcalc-imported-guide .product-description.hidden-down-md {
+    display: none !important;
+  }
+
+  .product-detail.reelcalc-imported-guide .product-description.hidden-up-md {
+    display: block !important;
+  }
+
   .reelcalc-reel-page {
     font-size: 16px;
   }

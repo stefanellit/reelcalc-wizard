@@ -121,4 +121,8 @@
   } else {
     initializeAffiliates();
   }
+
+  window.ReelCalcReelPageRuntime = {
+    initialize: initializeAffiliates
+  };
 })();

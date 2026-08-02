@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "pages": {
+    "shimano-sedona-fj-500": {
+      "reelId": "shimano-sedona-fj-500-se500fj-650",
+      "calculator": {
+        "mainLineLb": 4,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.004,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-sedona-fj-1000": {
+      "reelId": "shimano-sedona-fj-1000-se1000fj-651",
+      "calculator": {
+        "mainLineLb": 6,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-sedona-fj-2500": {
+      "reelId": "shimano-sedona-fj-2500hg-se2500hgfj-652",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-sedona-fj-3000": {
+      "reelId": "shimano-sedona-fj-c3000hg-sec3000hgfj-653",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-sedona-fj-4000": {
+      "reelId": "shimano-sedona-fj-4000xg-se4000xgfj-654",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-sedona-fj-5000": {
+      "reelId": "shimano-sedona-fj-c5000xg-sec5000xgfj-655",
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.014,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-stradic-3000": {
+      "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-stradic-4000": {
+      "reelId": "shimano-stradic-fm-4000xg-st4000xgfm-687",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-stradic-5000": {
+      "reelId": "shimano-stradic-fm-c5000xg-stc5000xgfm-688",
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.014,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-vanford-500": {
+      "reelId": "shimano-vanford-fa-500a-vf500a-689",
+      "calculator": {
+        "mainLineLb": 4,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.004,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-vanford-2000": {
+      "reelId": "shimano-vanford-fa-c2000hga-vfc2000hga-690",
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-vanford-2500": {
+      "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-vanford-3000": {
+      "reelId": "shimano-vanford-fa-c3000xga-vfc3000xga-692",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-vanford-4000": {
+      "reelId": "shimano-vanford-fa-4000xga-vf4000xga-693",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-vanford-5000": {
+      "reelId": "shimano-vanford-fa-c5000xga-vfc5000xga-694",
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.014,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-2500": {
+      "reelId": "penn-battle-iv-2500-btliv2500-457",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-3000": {
+      "reelId": "penn-battle-iv-3000-btliv3000-458",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-4000": {
+      "reelId": "penn-battle-iv-4000-btliv4000-460",
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-5000": {
+      "reelId": "penn-battle-iv-5000-btliv5000-461",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.014,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-6000": {
+      "reelId": "penn-battle-iv-6000-btliv6000-463",
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 300,
+        "backingLb": 15,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.015,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-8000": {
+      "reelId": "penn-battle-iv-8000-btliv8000-465",
+      "calculator": {
+        "mainLineLb": 50,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.014,
+        "mainLineYards": 300,
+        "backingLb": 20,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.018,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "penn-battle-iv-10000": {
+      "reelId": "penn-battle-iv-10000-btliv10000-466",
+      "calculator": {
+        "mainLineLb": 65,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.016,
+        "mainLineYards": 300,
+        "backingLb": 30,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.022,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-bg-2500": {
+      "reelId": "daiwa-bg-2500-bg2500-184",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.011,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-bg-3000": {
+      "reelId": "daiwa-bg-3000-bg3000-185",
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-bg-4000": {
+      "reelId": "daiwa-bg-4000-bg4000-187",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-bg-5000": {
+      "reelId": "daiwa-bg-5000-bg5000-189",
+      "calculator": {
+        "mainLineLb": 50,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.014,
+        "mainLineYards": 300,
+        "backingLb": 14,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.015,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-fuego-lt-1000": {
+      "reelId": "daiwa-fuego-lt-1000d-feglt1000d-129",
+      "calculator": {
+        "mainLineLb": 6,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-fuego-lt-2000": {
+      "reelId": "daiwa-fuego-lt-2000d-feglt2000d-130",
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-fuego-lt-2500": {
+      "reelId": "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-fuego-lt-3000": {
+      "reelId": "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-fuego-lt-4000": {
+      "reelId": "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "daiwa-fuego-lt-5000": {
+      "reelId": "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 14,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.015,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-nasci-500": {
+      "reelId": "shimano-nasci-fd-500-nas500fd-668",
+      "calculator": {
+        "mainLineLb": 4,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.004,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-nasci-1000": {
+      "reelId": "shimano-nasci-fd-1000-nas1000fd-669",
+      "calculator": {
+        "mainLineLb": 6,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-nasci-2500": {
+      "reelId": "shimano-nasci-fd-2500hg-nas2500hgfd-670",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-nasci-3000": {
+      "reelId": "shimano-nasci-fd-c3000hg-nasc3000hgfd-671",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-nasci-4000": {
+      "reelId": "shimano-nasci-fd-4000xg-nas4000xgfd-672",
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-nasci-5000": {
+      "reelId": "shimano-nasci-fd-c5000xg-nasc5000xgfd-673",
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.014,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "pflueger-president-20": {
+      "reelId": "pflueger-president-20-pres20x-540",
+      "calculator": {
+        "mainLineLb": 4,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.004,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "pflueger-president-25": {
+      "reelId": "pflueger-president-25-pres25x-541",
+      "calculator": {
+        "mainLineLb": 6,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.0095,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "pflueger-president-30": {
+      "reelId": "pflueger-president-30-pres30x-542",
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.011,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "pflueger-president-35": {
+      "reelId": "pflueger-president-35-pres35x-543",
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "pflueger-president-40": {
+      "reelId": "pflueger-president-40-pres40x-544",
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      }
+    }
+  },
+  "aliases": {
+    "reelcalc-import-test-sedona-fj-2500": "shimano-sedona-fj-2500"
+  },
+  "withheld": [
+    {
+      "reelId": "shimano-stradic-fm-2500hg-st2500hgfm-685",
+      "status": "needs-data"
+    },
+    {
+      "reelId": "shimano-miravel-2500hg-mir2500hg-675",
+      "status": "needs-data"
+    },
+    {
+      "reelId": "shimano-miravel-c3000hg-mirc3000hg-676",
+      "status": "needs-data"
+    },
+    {
+      "reelId": "shimano-miravel-4000xg-mir4000xg-677",
+      "status": "needs-data"
+    }
+  ]
+}
