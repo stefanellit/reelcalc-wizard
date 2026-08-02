@@ -679,6 +679,7 @@
         '<div style="margin-top:6px;font-size:13px;opacity:0.8;">Note: A total length greater than the reel&#39;s rated capacity is normal due to differences in line diameter.</div>' +
         '<div class="savings-box"><strong>Estimated Line-Cost Savings</strong><br><br>' +
         "<strong>" + savingsLabel + "</strong><br>" +
+        "Savings come from using lower-cost backing instead of filling the entire spool with premium line.<br>" +
         "<em>Typical retail estimate using $0.10-$0.16 per yard for premium line and " +
         "$0.01-$0.03 per yard for backing. Actual prices vary by line, strength, and spool size.</em></div>";
 
