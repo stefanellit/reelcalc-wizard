@@ -31,22 +31,58 @@
   ],
   "pages": [
     {
+      "reelId": "shimano-sedona-fj-500-se500fj-650",
+      "path": "/shimano-sedona-fj-500",
+      "family": "shimano-sedona-fj",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/uu3zbkjjaxdkedp5cmzl.png",
+      "imageAlt": "Shimano Sedona FJ 500 spinning reel",
+      "imageSource": "Official Shimano North America store SE500FJ product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "shimano-sedona-fj-1000-se1000fj-651",
+      "path": "/shimano-sedona-fj-1000",
+      "family": "shimano-sedona-fj",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/rlyu7qcagxqmzvugcy1q.png",
+      "imageAlt": "Shimano Sedona FJ 1000 spinning reel",
+      "imageSource": "Official Shimano North America store SE1000FJ product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
       "reelId": "shimano-sedona-fj-2500hg-se2500hgfj-652",
       "path": "/shimano-sedona-fj-2500",
       "family": "shimano-sedona-fj",
-      "imageUrl": "https://images.squarespace-cdn.com/content/v1/698a8b607a3f9d6205cf2830/b9a02c91-b3a2-4ad5-b847-d3967917a1ac/shimano-sedona-fj-2500.webp",
-      "imageAlt": "Shimano Sedona FJ spinning reel",
-      "imageSource": "Existing ReelCalc Sedona FJ 2500 page asset"
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/bvlxgh1ytptnpvu4wi8m.png",
+      "imageAlt": "Shimano Sedona FJ 2500HG spinning reel",
+      "imageSource": "Official Shimano North America store SE2500HGFJ product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
       "reelId": "shimano-sedona-fj-c3000hg-sec3000hgfj-653",
       "path": "/shimano-sedona-fj-3000",
-      "family": "shimano-sedona-fj"
+      "family": "shimano-sedona-fj",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/yozl7srazxifw8kft6hr.png",
+      "imageAlt": "Shimano Sedona FJ C3000HG spinning reel",
+      "imageSource": "Official Shimano North America store SEC3000HGFJ product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
       "reelId": "shimano-sedona-fj-4000xg-se4000xgfj-654",
       "path": "/shimano-sedona-fj-4000",
-      "family": "shimano-sedona-fj"
+      "family": "shimano-sedona-fj",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/hpbuoyjaqffi1cr829vh.png",
+      "imageAlt": "Shimano Sedona FJ 4000XG spinning reel",
+      "imageSource": "Official Shimano North America store SE4000XGFJ product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "shimano-sedona-fj-c5000xg-sec5000xgfj-655",
+      "path": "/shimano-sedona-fj-5000",
+      "family": "shimano-sedona-fj",
+      "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/k8lt0hen0o1uzifasefp.png",
+      "imageAlt": "Shimano Sedona FJ C5000XG spinning reel",
+      "imageSource": "Official Shimano North America store SEC5000XGFJ product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     },
     {
       "reelId": "shimano-stradic-fm-2500hg-st2500hgfm-685",
