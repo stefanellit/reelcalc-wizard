@@ -32,7 +32,7 @@ const state = {
   reels: [],
   lines: [],
   quality: null,
-  reelAffiliates: {},
+  affiliateData: null,
   reelFilters: { brand: "", model: "", size: "" },
   lineFilters: { brand: "", model: "", lb: "" },
   selectedReel: null,
@@ -129,7 +129,9 @@ function bindEvents() {
     var link = event.target.closest("[data-reel-affiliate-link]");
     if (!link) return;
     trackWizardEvent("reel_affiliate_clicked", {
-      reel_id: link.dataset.reelId || ""
+      reel_id: link.dataset.reelId || "",
+      retailer: link.dataset.retailer || "",
+      match_type: link.dataset.matchType || ""
     });
   });
 
@@ -341,9 +343,9 @@ async function loadData() {
     state.reels = await responses[0].json();
     state.lines = await responses[1].json();
     state.quality = await responses[2].json();
-    state.reelAffiliates = responses[3] && responses[3].reels
-      ? responses[3].reels
-      : {};
+    state.affiliateData = responses[3] && responses[3].reels
+      ? responses[3]
+      : null;
     el.dataStatus.className = "data-pill";
     el.dataStatus.textContent = "Search " + formatCountBadge(state.reels.length) + " reels and " + formatCountBadge(state.lines.length) + " lines";
   } catch (error) {
@@ -921,26 +923,60 @@ function renderReelSummary() {
 
 function reelAffiliateHtml(reel) {
   if (state.useManualReel || !reel || !reel.id) return "";
-  var mapping = state.reelAffiliates[reel.id];
-  var url = verifiedAmazonUrl(mapping && mapping.reelAffiliateUrl);
-  if (!url) return "";
+  var offer = resolvePreferredReelAffiliate(reel.id);
+  if (!offer) return "";
 
   var html = "<div class=\"reel-affiliate-row\">";
-  html += "<a class=\"reel-affiliate-button\" href=\"" + escapeHtml(url) + "\" target=\"_blank\" rel=\"sponsored nofollow noopener\" data-reel-affiliate-link data-reel-id=\"" + escapeHtml(reel.id) + "\">View This Reel on Amazon</a>";
-  html += "<span class=\"reel-affiliate-disclosure\">As an Amazon Associate, ReelCalc earns from qualifying purchases.</span>";
+  html += "<a class=\"reel-affiliate-button\" href=\"" + escapeHtml(offer.url) + "\" target=\"_blank\" rel=\"sponsored nofollow noopener\" data-reel-affiliate-link data-reel-id=\"" + escapeHtml(reel.id) + "\" data-retailer=\"" + escapeHtml(offer.retailerId) + "\" data-match-type=\"" + escapeHtml(offer.matchType) + "\">" + escapeHtml(offer.label) + "</a>";
+  html += "<span class=\"reel-affiliate-disclosure\">" + escapeHtml(offer.disclosure) + "</span>";
   html += "</div>";
   return html;
 }
 
-function verifiedAmazonUrl(value) {
+function isAllowedRetailerUrl(value, retailer) {
   try {
     var url = new URL(String(value || ""));
     var host = url.hostname.toLowerCase();
-    var isAmazon = host === "amazon.com" || host.endsWith(".amazon.com") || host === "amzn.to";
-    return url.protocol === "https:" && isAmazon ? url.href : "";
+    var allowedHosts = Array.isArray(retailer && retailer.allowedHosts)
+      ? retailer.allowedHosts
+      : [];
+    var allowed = allowedHosts.some(function(allowedHost) {
+      var expected = String(allowedHost || "").toLowerCase();
+      return expected && (host === expected || host.endsWith("." + expected));
+    });
+    return url.protocol === "https:" && allowed ? url.href : "";
   } catch (error) {
     return "";
   }
+}
+
+function resolvePreferredReelAffiliate(reelId) {
+  var data = state.affiliateData;
+  var mapping = data && data.reels ? data.reels[reelId] : null;
+  var priority = data && Array.isArray(data.retailerPriority)
+    ? data.retailerPriority
+    : [];
+  if (!mapping) return null;
+
+  for (var index = 0; index < priority.length; index += 1) {
+    var retailerId = priority[index];
+    var retailer = data.retailers && data.retailers[retailerId];
+    var offer = mapping.offers && mapping.offers[retailerId]
+      ? mapping.offers[retailerId].reel
+      : null;
+    var url = isAllowedRetailerUrl(offer && offer.url, retailer);
+    if (!retailer || !offer || !url) continue;
+    var isSearch = offer.matchType === "search";
+    return {
+      retailerId: retailerId,
+      url: url,
+      matchType: isSearch ? "search" : "exact",
+      label: offer.label || (isSearch ? retailer.searchLabel : retailer.directLabel) ||
+        "Check Current Price at " + (retailer.name || retailerId),
+      disclosure: [data.genericDisclosure, retailer.disclosure].filter(Boolean).join(" ")
+    };
+  }
+  return null;
 }
 
 function trackWizardEvent(name, parameters) {

@@ -107,6 +107,8 @@ The live GitHub repository does not use exactly the same CSS folder layout as th
 
 Important: do not create a `css` folder on GitHub unless `index.html` is deliberately changed to load `css/wizard.css`. With the current live repository layout, upload local `css/wizard.css` from the repository's main page so it replaces the root-level `wizard.css`.
 
+Affiliate destinations are selected centrally from `data/reel-affiliates.json`. Amazon is the current preferred retailer, with verified direct product links retained and exact-model search links clearly labeled when necessary. Run `node scripts/sync-reel-affiliates.mjs` after adding reel-page registry entries. A future retailer can be placed ahead of Amazon in `retailerPriority` without editing existing Squarespace reel pages.
+
 ## Squarespace Embed Path
 
 For Squarespace, upload these files as hosted assets:

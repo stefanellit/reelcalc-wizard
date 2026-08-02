@@ -8,10 +8,18 @@
     : new URL("../", scriptUrl);
   var affiliateDataPromise = null;
 
-  function isValidUrl(value) {
+  function isAllowedRetailerUrl(value, retailer) {
     try {
       var url = new URL(value);
-      return url.protocol === "https:" || url.protocol === "http:";
+      if (url.protocol !== "https:") return false;
+      var host = url.hostname.toLowerCase();
+      var allowedHosts = Array.isArray(retailer && retailer.allowedHosts)
+        ? retailer.allowedHosts
+        : [];
+      return allowedHosts.some(function(allowedHost) {
+        var allowed = String(allowedHost || "").toLowerCase();
+        return allowed && (host === allowed || host.endsWith("." + allowed));
+      });
     } catch (error) {
       return false;
     }
@@ -28,31 +36,40 @@
     return affiliateDataPromise;
   }
 
-  function affiliateItems(mapping, kind) {
-    if (!mapping || typeof mapping !== "object") return [];
-    var reelItems = [
-      { key: "reelAffiliateUrl", label: mapping.reelLabel || "Check Current Reel Price on Amazon" }
-    ];
-    var lineItems = [
-      { key: "braidAffiliateUrl", label: mapping.braidLabel || "View Matching Braid on Amazon" },
-      { key: "monoAffiliateUrl", label: mapping.monoLabel || "View Matching Monofilament on Amazon" },
-      { key: "fluoroAffiliateUrl", label: mapping.fluoroLabel || "View Matching Fluorocarbon on Amazon" }
-    ];
-    var items = kind === "reel" ? reelItems : lineItems;
-    return items.filter(function(item) {
-      return isValidUrl(mapping[item.key]);
-    }).map(function(item) {
+  function resolvePreferredReelOffer(data, reelId) {
+    var mapping = data && data.reels ? data.reels[reelId] : null;
+    var priority = data && Array.isArray(data.retailerPriority)
+      ? data.retailerPriority
+      : [];
+    if (!mapping) return null;
+
+    for (var index = 0; index < priority.length; index += 1) {
+      var retailerId = priority[index];
+      var retailer = data.retailers && data.retailers[retailerId];
+      var offer = mapping.offers && mapping.offers[retailerId]
+        ? mapping.offers[retailerId].reel
+        : null;
+      if (!retailer || !offer || !isAllowedRetailerUrl(offer.url, retailer)) continue;
+      var isSearch = offer.matchType === "search";
       return {
-        label: item.label,
-        url: mapping[item.key]
+        retailerId: retailerId,
+        retailerName: retailer.name || retailerId,
+        url: offer.url,
+        matchType: isSearch ? "search" : "exact",
+        label: offer.label || (isSearch ? retailer.searchLabel : retailer.directLabel) ||
+          "Check Current Price at " + (retailer.name || retailerId),
+        disclosure: [data.genericDisclosure, retailer.disclosure].filter(Boolean).join(" ")
       };
-    });
+    }
+    return null;
   }
 
-  function renderAffiliateArea(mount, mapping) {
+  function renderAffiliateArea(mount, data) {
     var kind = mount.dataset.affiliateKind === "reel" ? "reel" : "line";
-    var items = affiliateItems(mapping, kind);
-    if (!items.length) {
+    var offer = kind === "reel"
+      ? resolvePreferredReelOffer(data, mount.dataset.reelId)
+      : null;
+    if (!offer) {
       mount.hidden = true;
       mount.replaceChildren();
       return;
@@ -62,19 +79,19 @@
     heading.textContent = kind === "reel" ? "Check Current Reel Price" : "Lines That Match This Setup";
     var disclosure = document.createElement("p");
     disclosure.className = "reelcalc-affiliate-disclosure";
-    disclosure.textContent = "ReelCalc may earn a commission from purchases made through these links, at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.";
+    disclosure.textContent = offer.disclosure;
     var links = document.createElement("div");
     links.className = "reelcalc-affiliate-links";
 
-    items.forEach(function(item) {
-      var link = document.createElement("a");
-      link.className = "reelcalc-affiliate-link";
-      link.href = item.url;
-      link.target = "_blank";
-      link.rel = "sponsored nofollow noopener";
-      link.textContent = item.label;
-      links.appendChild(link);
-    });
+    var link = document.createElement("a");
+    link.className = "reelcalc-affiliate-link";
+    link.href = offer.url;
+    link.target = "_blank";
+    link.rel = "sponsored nofollow noopener";
+    link.textContent = offer.label;
+    link.dataset.retailer = offer.retailerId;
+    link.dataset.matchType = offer.matchType;
+    links.appendChild(link);
 
     mount.replaceChildren(heading, disclosure, links);
     mount.hidden = false;
@@ -88,9 +105,8 @@
     });
 
     loadAffiliateData().then(function(data) {
-      var reelMappings = data && data.reels ? data.reels : {};
       mounts.forEach(function(mount) {
-        renderAffiliateArea(mount, reelMappings[mount.dataset.reelId]);
+        renderAffiliateArea(mount, data);
       });
     }).catch(function() {
       mounts.forEach(function(mount) {

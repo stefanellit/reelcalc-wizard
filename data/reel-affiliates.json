@@ -1,306 +1,587 @@
 {
-  "version": 1,
+  "version": 2,
+  "retailerPriority": [
+    "amazon"
+  ],
+  "genericDisclosure": "ReelCalc may earn a commission from purchases made through these links, at no extra cost to you.",
+  "retailers": {
+    "amazon": {
+      "name": "Amazon",
+      "affiliateNetwork": "Amazon Associates",
+      "affiliateTag": "reelcalc-20",
+      "allowedHosts": [
+        "amazon.com",
+        "amzn.to"
+      ],
+      "directLabel": "Check Current Price on Amazon",
+      "searchLabel": "Search Amazon for This Reel",
+      "disclosure": "As an Amazon Associate, ReelCalc earns from qualifying purchases."
+    }
+  },
   "reels": {
     "shimano-sedona-fj-500-se500fj-650": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CBQL8JC4?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CBQL8JC4"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CBQL8JC4?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CBQL8JC4"
+          }
+        }
+      }
     },
     "shimano-sedona-fj-1000-se1000fj-651": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CBQM46QH?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CBQM46QH"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CBQM46QH?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CBQM46QH"
+          }
+        }
+      }
     },
     "shimano-sedona-fj-2500hg-se2500hgfj-652": {
-      "reelAffiliateUrl": "https://amzn.to/4fFSjef",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CBQLSCLG"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://amzn.to/4fFSjef",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CBQLSCLG"
+          }
+        }
+      }
     },
     "shimano-sedona-fj-c3000hg-sec3000hgfj-653": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CBQMJGJ4?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CBQMJGJ4"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CBQMJGJ4?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CBQMJGJ4"
+          }
+        }
+      }
     },
     "shimano-sedona-fj-4000xg-se4000xgfj-654": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CBQLYLBS?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CBQLYLBS"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CBQLYLBS?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CBQLYLBS"
+          }
+        }
+      }
     },
     "shimano-sedona-fj-c5000xg-sec5000xgfj-655": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CBQLQP7J?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CBQLQP7J"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CBQLQP7J?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CBQLQP7J"
+          }
+        }
+      }
     },
     "shimano-stradic-fm-c3000xg-stc3000xgfm-686": {
-      "reelAffiliateUrl": "https://amzn.to/4wAYBmJ",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CJFVMWP2"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://amzn.to/4wAYBmJ",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CJFVMWP2"
+          }
+        }
+      }
     },
     "shimano-stradic-fm-4000xg-st4000xgfm-687": {
-      "reelAffiliateUrl": "https://amzn.to/3TmIuum",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CC69LJFR"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://amzn.to/3TmIuum",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CC69LJFR"
+          }
+        }
+      }
     },
     "shimano-stradic-fm-c5000xg-stc5000xgfm-688": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CC6DCLQD?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CC6DCLQD"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CC6DCLQD?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CC6DCLQD"
+          }
+        }
+      }
     },
     "daiwa-bg-2500-bg2500-184": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B01JH8FHS0?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B01JH8FHS0"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B01JH8FHS0?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B01JH8FHS0"
+          }
+        }
+      }
     },
     "daiwa-bg-3000-bg3000-185": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B01JH8FHTE?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B01JH8FHTE"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B01JH8FHTE?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B01JH8FHTE"
+          }
+        }
+      }
     },
     "daiwa-bg-4000-bg4000-187": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B01JH8FHIK?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B01JH8FHIK"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B01JH8FHIK?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B01JH8FHIK"
+          }
+        }
+      }
     },
     "daiwa-bg-5000-bg5000-189": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B01JH8FHFI?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B01JH8FHFI"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B01JH8FHFI?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B01JH8FHFI"
+          }
+        }
+      }
     },
     "daiwa-fuego-lt-1000d-feglt1000d-129": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CB76YT3J?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CB76YT3J"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CB76YT3J?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CB76YT3J"
+          }
+        }
+      }
     },
     "daiwa-fuego-lt-2000d-feglt2000d-130": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CB74LC82?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CB74LC82"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CB74LC82?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CB74LC82"
+          }
+        }
+      }
     },
     "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CB772CCZ?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CB772CCZ"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CB772CCZ?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CB772CCZ"
+          }
+        }
+      }
     },
     "daiwa-fuego-lt-3000d-c-feglt3000d-c-132": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CB76ZMZF?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CB76ZMZF"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CB76ZMZF?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CB76ZMZF"
+          }
+        }
+      }
     },
     "daiwa-fuego-lt-4000d-c-feglt4000d-c-133": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CB76N62W?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CB76N62W"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CB76N62W?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CB76N62W"
+          }
+        }
+      }
     },
     "daiwa-fuego-lt-5000d-c-feglt5000d-c-134": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CB76GNN6?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CB76GNN6"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CB76GNN6?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CB76GNN6"
+          }
+        }
+      }
     },
     "shimano-nasci-fd-500-nas500fd-668": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0FGYK1Q3H?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0FGYK1Q3H"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0FGYK1Q3H?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0FGYK1Q3H"
+          }
+        }
+      }
     },
     "shimano-nasci-fd-1000-nas1000fd-669": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0FGYY96HT?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0FGYY96HT"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0FGYY96HT?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0FGYY96HT"
+          }
+        }
+      }
     },
     "shimano-nasci-fd-2500hg-nas2500hgfd-670": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0FGZ1P859?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0FGZ1P859"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0FGZ1P859?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0FGZ1P859"
+          }
+        }
+      }
     },
     "shimano-nasci-fd-c3000hg-nasc3000hgfd-671": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0FGYPCHPT?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0FGYPCHPT"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0FGYPCHPT?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0FGYPCHPT"
+          }
+        }
+      }
     },
     "shimano-nasci-fd-4000xg-nas4000xgfd-672": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0FGYS29RF?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0FGYS29RF"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0FGYS29RF?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0FGYS29RF"
+          }
+        }
+      }
     },
     "shimano-nasci-fd-c5000xg-nasc5000xgfd-673": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0FGYKFZY1?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0FGYKFZY1"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0FGYKFZY1?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0FGYKFZY1"
+          }
+        }
+      }
     },
     "shimano-vanford-fa-500a-vf500a-689": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D79MJTN9?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D79MJTN9"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D79MJTN9?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D79MJTN9"
+          }
+        }
+      }
     },
     "shimano-vanford-fa-c2000hga-vfc2000hga-690": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D79KSRH6?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D79KSRH6"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D79KSRH6?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D79KSRH6"
+          }
+        }
+      }
     },
     "shimano-vanford-fa-2500hga-vf2500hga-691": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D79KDWBD?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D79KDWBD"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D79KDWBD?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D79KDWBD"
+          }
+        }
+      }
     },
     "shimano-vanford-fa-c3000xga-vfc3000xga-692": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D79KNMQN?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D79KNMQN"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D79KNMQN?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D79KNMQN"
+          }
+        }
+      }
     },
     "shimano-vanford-fa-4000xga-vf4000xga-693": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D79LQMV3?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D79LQMV3"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D79LQMV3?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D79LQMV3"
+          }
+        }
+      }
     },
     "shimano-vanford-fa-c5000xga-vfc5000xga-694": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D79KMTQS?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D79KMTQS"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D79KMTQS?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D79KMTQS"
+          }
+        }
+      }
     },
     "penn-battle-iv-2500-btliv2500-457": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D197C8M8?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D197C8M8"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D197C8M8?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D197C8M8"
+          }
+        }
+      }
     },
     "penn-battle-iv-3000-btliv3000-458": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D19MW8K8?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D19MW8K8"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D19MW8K8?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D19MW8K8"
+          }
+        }
+      }
     },
     "penn-battle-iv-4000-btliv4000-460": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D19X1HCX?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D19X1HCX"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D19X1HCX?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D19X1HCX"
+          }
+        }
+      }
     },
     "penn-battle-iv-5000-btliv5000-461": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D197YVX9?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D197YVX9"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D197YVX9?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D197YVX9"
+          }
+        }
+      }
     },
     "penn-battle-iv-6000-btliv6000-463": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D19DV4TF?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D19DV4TF"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D19DV4TF?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D19DV4TF"
+          }
+        }
+      }
     },
     "penn-battle-iv-8000-btliv8000-465": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D19BLW1D?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D19BLW1D"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D19BLW1D?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D19BLW1D"
+          }
+        }
+      }
     },
     "penn-battle-iv-10000-btliv10000-466": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0D19DTN1W?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0D19DTN1W"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0D19DTN1W?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0D19DTN1W"
+          }
+        }
+      }
     },
     "pflueger-president-20-pres20x-540": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CK13CSFQ?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CK13CSFQ"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CK13CSFQ?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CK13CSFQ"
+          }
+        }
+      }
     },
     "pflueger-president-25-pres25x-541": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CJZF2MV9?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CJZF2MV9"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CJZF2MV9?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CJZF2MV9"
+          }
+        }
+      }
     },
     "pflueger-president-30-pres30x-542": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CK12NCTF?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CK12NCTF"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CK12NCTF?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CK12NCTF"
+          }
+        }
+      }
     },
     "pflueger-president-35-pres35x-543": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CJZW8R8L?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CJZW8R8L"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CJZW8R8L?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CJZW8R8L"
+          }
+        }
+      }
     },
     "pflueger-president-40-pres40x-544": {
-      "reelAffiliateUrl": "https://www.amazon.com/dp/B0CJZ6DSRF?tag=reelcalc-20",
-      "reelLabel": "Check Current Price on Amazon",
-      "retailer": "Amazon",
-      "affiliateNetwork": "Amazon Associates",
-      "productId": "B0CJZ6DSRF"
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/dp/B0CJZ6DSRF?tag=reelcalc-20",
+            "matchType": "exact",
+            "verifiedExact": true,
+            "productId": "B0CJZ6DSRF"
+          }
+        }
+      }
+    },
+    "shimano-stradic-fm-2500hg-st2500hgfm-685": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shimano+Stradic+FM+2500HG+ST2500HGFM&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shimano Stradic FM 2500HG ST2500HGFM"
+          }
+        }
+      }
+    },
+    "shimano-miravel-2500hg-mir2500hg-675": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shimano+Miravel+2500HG+MIR2500HG&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shimano Miravel 2500HG MIR2500HG"
+          }
+        }
+      }
+    },
+    "shimano-miravel-c3000hg-mirc3000hg-676": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shimano+Miravel+C3000HG+MIRC3000HG&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shimano Miravel C3000HG MIRC3000HG"
+          }
+        }
+      }
+    },
+    "shimano-miravel-4000xg-mir4000xg-677": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shimano+Miravel+4000XG+MIR4000XG&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shimano Miravel 4000XG MIR4000XG"
+          }
+        }
+      }
     }
   }
 }
