@@ -210,6 +210,73 @@
   padding: 14px;
 }
 
+/* The Reel Pages collection is a guide index, not a storefront. */
+body.reelcalc-reel-collection main h1 {
+  font-size: 52px !important;
+  letter-spacing: 0 !important;
+  line-height: 1.08 !important;
+  max-width: 900px;
+}
+
+body.reelcalc-reel-collection .reelcalc-collection-introduction {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 760px;
+}
+
+body.reelcalc-reel-collection .reelcalc-collection-directory-link {
+  color: #174e75;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+body.reelcalc-reel-collection .product-list-layout-container {
+  display: grid !important;
+  gap: 12px !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  padding: 32px max(24px, calc((100vw - 1180px) / 2)) 64px !important;
+}
+
+body.reelcalc-reel-collection .product-list-item {
+  background: #fff;
+  border: 1px solid #d8dee2;
+  border-radius: 6px;
+  margin: 0 !important;
+  min-width: 0;
+  width: auto !important;
+}
+
+body.reelcalc-reel-collection .product-list-item-link {
+  display: block !important;
+  height: 100%;
+  padding: 16px !important;
+}
+
+body.reelcalc-reel-collection .product-list-item:hover {
+  border-color: #174e75;
+  box-shadow: 0 3px 12px rgba(31, 37, 40, 0.1);
+}
+
+body.reelcalc-reel-collection .product-list-item-title {
+  color: #1f2528;
+  font-size: 16px !important;
+  font-weight: 700;
+  letter-spacing: 0 !important;
+  line-height: 1.4;
+}
+
+body.reelcalc-reel-collection .product-list-image-wrapper,
+body.reelcalc-reel-collection .product-list-item-price,
+body.reelcalc-reel-collection .product-list-item-status,
+body.reelcalc-reel-collection .sqs-add-to-cart-button,
+body.reelcalc-reel-collection .sqs-add-to-cart-button-wrapper {
+  display: none !important;
+}
+
 /* Squarespace removes custom attributes from imported product descriptions.
    The shared loader restores ReelCalc hooks and marks only imported guides. */
 .product-detail.reelcalc-imported-guide .product-nav,
@@ -283,6 +350,19 @@
 }
 
 @media (max-width: 720px) {
+  body.reelcalc-reel-collection main h1 {
+    font-size: 34px !important;
+  }
+
+  body.reelcalc-reel-collection .reelcalc-collection-introduction {
+    font-size: 16px;
+  }
+
+  body.reelcalc-reel-collection .product-list-layout-container {
+    grid-template-columns: 1fr !important;
+    padding: 24px 18px 48px !important;
+  }
+
   .product-detail.reelcalc-imported-guide .product-description.hidden-down-md {
     display: none !important;
   }

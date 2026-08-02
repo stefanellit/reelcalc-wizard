@@ -177,7 +177,45 @@
     }
   }
 
+  function initializeCollectionPage() {
+    var path = location.pathname.replace(/\/+$/, "") || "/";
+    if (path !== "/reel-pages") return false;
+
+    document.body.classList.add("reelcalc-reel-collection");
+    loadStylesheet();
+    document.title = "Fishing Reel Line Capacity & Setup Guides | ReelCalc";
+
+    var metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement("meta");
+      metaDescription.name = "description";
+      document.head.appendChild(metaDescription);
+    }
+    metaDescription.content = "Browse ReelCalc fishing reel pages with published line capacity, recommended line setups, backing guidance, and pre-loaded spool calculators.";
+
+    var heading = document.querySelector("main h1");
+    if (heading) heading.textContent = "Fishing Reel Line Capacity & Setup Guides";
+
+    var paragraphs = Array.from(document.querySelectorAll("main p"));
+    var introduction = paragraphs.find(function(paragraph) {
+      return paragraph.textContent.trim().indexOf("Discover the latest additions") === 0;
+    });
+    if (introduction) {
+      introduction.classList.add("reelcalc-collection-introduction");
+      introduction.textContent = "Choose your exact reel to see its published capacity, recommended line setup, backing guidance, and pre-loaded ReelCalc calculator.";
+      var directoryLink = document.createElement("a");
+      directoryLink.className = "reelcalc-collection-directory-link";
+      directoryLink.href = "/fishing-line-setup-guides";
+      directoryLink.textContent = "Browse the organized guide directory";
+      introduction.insertAdjacentElement("afterend", directoryLink);
+    }
+
+    return true;
+  }
+
   function initialize() {
+    if (initializeCollectionPage()) return;
+
     var detail = document.querySelector(".product-detail");
     if (!detail || !guideTags.some(function(tag) { return detail.classList.contains(tag); })) return;
 
