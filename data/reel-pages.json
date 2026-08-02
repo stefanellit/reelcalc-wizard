@@ -83,6 +83,21 @@
       "family": "shimano-nasci-fc"
     },
     {
+      "reelId": "shimano-miravel-2500hg-mir2500hg-675",
+      "path": "/shimano-miravel-2500",
+      "family": "shimano-miravel"
+    },
+    {
+      "reelId": "shimano-miravel-c3000hg-mirc3000hg-676",
+      "path": "/shimano-miravel-3000",
+      "family": "shimano-miravel"
+    },
+    {
+      "reelId": "shimano-miravel-4000xg-mir4000xg-677",
+      "path": "/shimano-miravel-4000",
+      "family": "shimano-miravel"
+    },
+    {
       "reelId": "shimano-vanford-fa-500a-vf500a-689",
       "path": "/shimano-vanford-500",
       "family": "shimano-vanford-fa",
