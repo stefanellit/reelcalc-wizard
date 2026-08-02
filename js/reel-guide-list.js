@@ -79,7 +79,9 @@
 
   function mergeEntries(legacyData, registry, reels, publishedPaths, includeUnpublished) {
     var entriesByPath = new Map();
-    var legacyPages = Array.isArray(legacyData && legacyData.pages) ? legacyData.pages : [];
+    var legacyPages = registry && registry.replaceLegacy === true
+      ? []
+      : (Array.isArray(legacyData && legacyData.pages) ? legacyData.pages : []);
 
     legacyPages.forEach(function (page) {
       var path = normalizePath(page.path);
