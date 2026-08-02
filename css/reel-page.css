@@ -210,6 +210,33 @@
   padding: 14px;
 }
 
+/* Imported reel guides use a Squarespace product only as the page container. */
+@supports selector(body:has(.reelcalc-reel-page)) {
+  body:has(.reelcalc-reel-page) .ProductItem-gallery,
+  body:has(.reelcalc-reel-page) .ProductItem-details-title,
+  body:has(.reelcalc-reel-page) .ProductItem-details-price,
+  body:has(.reelcalc-reel-page) .ProductItem-details-checkout,
+  body:has(.reelcalc-reel-page) .ProductItem-add-to-cart,
+  body:has(.reelcalc-reel-page) .sqs-add-to-cart-button-wrapper,
+  body:has(.reelcalc-reel-page) .product-quantity-input,
+  body:has(.reelcalc-reel-page) .product-variants,
+  body:has(.reelcalc-reel-page) .product-price,
+  body:has(.reelcalc-reel-page) .product-mark {
+    display: none !important;
+  }
+
+  body:has(.reelcalc-reel-page) .ProductItem,
+  body:has(.reelcalc-reel-page) .ProductItem-details,
+  body:has(.reelcalc-reel-page) .ProductItem-details-excerpt {
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+    width: 100%;
+  }
+}
+
 @media (max-width: 720px) {
   .reelcalc-reel-page {
     font-size: 16px;
