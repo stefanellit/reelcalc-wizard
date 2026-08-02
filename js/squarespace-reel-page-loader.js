@@ -150,7 +150,10 @@
     if (firstContent) {
       var paragraphs = firstContent.querySelectorAll("p");
       if (paragraphs[0]) paragraphs[0].classList.add("reelcalc-page-kicker");
-      if (paragraphs[1]) paragraphs[1].classList.add("reelcalc-page-summary");
+      if (paragraphs[1]) {
+        paragraphs[1].classList.add("reelcalc-page-summary");
+        if (entry.intro) paragraphs[1].textContent = entry.intro;
+      }
     }
   }
 
