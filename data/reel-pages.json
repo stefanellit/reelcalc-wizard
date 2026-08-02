@@ -371,6 +371,56 @@
       "imageUrl": "https://fishshop.shimano.com/cdn/shop/files/tqi4ckqh24pjivx9keba.png",
       "imageAlt": "Shimano NASCI FD C5000XG spinning reel",
       "imageSource": "Official Shimano North America store NASC5000XGFD product image"
+    },
+    {
+      "reelId": "pflueger-president-20-pres20x-540",
+      "path": "/pflueger-president-20",
+      "family": "pflueger-president",
+      "verifiedLive": true,
+      "imageUrl": "https://pfluegerfishing.com/cdn/shop/files/Pflueger_PresidentSpinningReel_20_alt1.jpg",
+      "imageAlt": "Pflueger President 20 spinning reel",
+      "imageSource": "Official Pflueger PRES20X product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "pflueger-president-25-pres25x-541",
+      "path": "/pflueger-president-25",
+      "family": "pflueger-president",
+      "verifiedLive": true,
+      "imageUrl": "https://pfluegerfishing.com/cdn/shop/files/Pflueger_PresidentSpinningReel_25_alt1.jpg",
+      "imageAlt": "Pflueger President 25 spinning reel",
+      "imageSource": "Official Pflueger PRES25X product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "pflueger-president-30-pres30x-542",
+      "path": "/pflueger-president-30",
+      "family": "pflueger-president",
+      "verifiedLive": true,
+      "imageUrl": "https://pfluegerfishing.com/cdn/shop/files/Pflueger_PresidentSpinningReel_30_alt1.jpg",
+      "imageAlt": "Pflueger President 30 spinning reel",
+      "imageSource": "Official Pflueger PRES30X product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "pflueger-president-35-pres35x-543",
+      "path": "/pflueger-president-35",
+      "family": "pflueger-president",
+      "verifiedLive": true,
+      "imageUrl": "https://pfluegerfishing.com/cdn/shop/files/Pflueger_PresidentSpinningReel_35_alt1.jpg",
+      "imageAlt": "Pflueger President 35 spinning reel",
+      "imageSource": "Official Pflueger PRES35X product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+    },
+    {
+      "reelId": "pflueger-president-40-pres40x-544",
+      "path": "/pflueger-president-40",
+      "family": "pflueger-president",
+      "verifiedLive": true,
+      "imageUrl": "https://pfluegerfishing.com/cdn/shop/files/Pflueger_PresidentSpinningReel_40_alt1.jpg",
+      "imageAlt": "Pflueger President 40 spinning reel",
+      "imageSource": "Official Pflueger PRES40X product image",
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
     }
   ],
   "goldStandard": {
