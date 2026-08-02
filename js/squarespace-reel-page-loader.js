@@ -164,17 +164,138 @@
     });
   }
 
-  function applyPageMetadata(entry) {
-    if (entry.seoTitle) document.title = entry.seoTitle;
-    if (entry.metaDescription) {
-      var description = document.querySelector('meta[name="description"]');
-      if (!description) {
-        description = document.createElement("meta");
-        description.name = "description";
-        document.head.appendChild(description);
-      }
-      description.content = entry.metaDescription;
+  function setMeta(attribute, key, content) {
+    if (!content) return;
+    var selector = `meta[${attribute}="${key}"]`;
+    var elements = Array.from(document.querySelectorAll(selector));
+    if (!elements.length) {
+      var meta = document.createElement("meta");
+      meta.setAttribute(attribute, key);
+      document.head.appendChild(meta);
+      elements.push(meta);
     }
+    elements.forEach(function(meta) {
+      meta.content = content;
+    });
+  }
+
+  function setCanonical(canonicalUrl) {
+    var links = Array.from(document.querySelectorAll('link[rel="canonical"]'));
+    if (!links.length) {
+      var link = document.createElement("link");
+      link.rel = "canonical";
+      document.head.appendChild(link);
+      links.push(link);
+    }
+    links.forEach(function(link) {
+      link.href = canonicalUrl;
+    });
+  }
+
+  function removeSquarespaceProductMetadata() {
+    document.querySelectorAll('meta[property^="product:"], meta[name^="product:"]').forEach(function(meta) {
+      meta.remove();
+    });
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function(script) {
+      try {
+        var value = JSON.parse(script.textContent);
+        var nodes = Array.isArray(value) ? value : [value];
+        var hasProduct = nodes.some(function(node) {
+          if (!node || typeof node !== "object") return false;
+          if (node["@type"] === "Product") return true;
+          return Array.isArray(node["@graph"]) && node["@graph"].some(function(child) {
+            return child && child["@type"] === "Product";
+          });
+        });
+        if (hasProduct) script.remove();
+      } catch (error) {
+        // Leave unrelated structured data alone if Squarespace uses a non-JSON block.
+      }
+    });
+  }
+
+  function setStructuredData(id, value) {
+    var current = document.getElementById(id);
+    if (!current) {
+      current = document.createElement("script");
+      current.id = id;
+      current.type = "application/ld+json";
+      document.head.appendChild(current);
+    }
+    current.textContent = JSON.stringify(value);
+  }
+
+  function applyGuideStructuredData(entry, canonicalUrl) {
+    removeSquarespaceProductMetadata();
+    var breadcrumbs = [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ReelCalc",
+        item: "https://www.reelcalc.com/"
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Fishing Line Setup Guides",
+        item: "https://www.reelcalc.com/fishing-line-setup-guides"
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: entry.pageTitle,
+        item: canonicalUrl
+      }
+    ];
+    var article = {
+      "@type": "Article",
+      "@id": `${canonicalUrl}#article`,
+      headline: entry.pageTitle,
+      description: entry.metaDescription,
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": canonicalUrl
+      },
+      author: {
+        "@type": "Organization",
+        name: "ReelCalc",
+        url: "https://www.reelcalc.com/"
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "ReelCalc",
+        url: "https://www.reelcalc.com/"
+      }
+    };
+    if (entry.imageUrl) article.image = [entry.imageUrl];
+    setStructuredData("reelcalc-guide-structured-data", {
+      "@context": "https://schema.org",
+      "@graph": [
+        article,
+        {
+          "@type": "BreadcrumbList",
+          "@id": `${canonicalUrl}#breadcrumbs`,
+          itemListElement: breadcrumbs
+        }
+      ]
+    });
+  }
+
+  function applyPageMetadata(entry) {
+    var canonicalUrl = new URL(entry.canonicalPath, "https://www.reelcalc.com").href;
+    if (entry.seoTitle) document.title = entry.seoTitle;
+    setMeta("name", "description", entry.metaDescription);
+    setMeta("property", "og:type", "article");
+    setMeta("property", "og:title", entry.seoTitle || entry.pageTitle);
+    setMeta("property", "og:description", entry.metaDescription);
+    setMeta("property", "og:url", canonicalUrl);
+    setMeta("property", "og:image", entry.imageUrl);
+    setMeta("name", "twitter:card", "summary_large_image");
+    setMeta("name", "twitter:title", entry.seoTitle || entry.pageTitle);
+    setMeta("name", "twitter:description", entry.metaDescription);
+    setMeta("name", "twitter:image", entry.imageUrl);
+    setCanonical(canonicalUrl);
+    applyGuideStructuredData(entry, canonicalUrl);
   }
 
   function initializeCollectionPage() {
@@ -183,15 +304,31 @@
 
     document.body.classList.add("reelcalc-reel-collection");
     loadStylesheet();
-    document.title = "Fishing Reel Line Capacity & Setup Guides | ReelCalc";
-
-    var metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement("meta");
-      metaDescription.name = "description";
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.content = "Browse ReelCalc fishing reel pages with published line capacity, recommended line setups, backing guidance, and pre-loaded spool calculators.";
+    var collectionTitle = "Fishing Reel Line Capacity & Setup Guides | ReelCalc";
+    var collectionDescription = "Browse verified fishing reel line capacities, recommended braid and mono sizes, backing guidance, and pre-loaded ReelCalc calculators for hundreds of reels.";
+    var collectionUrl = "https://www.reelcalc.com/reel-pages";
+    document.title = collectionTitle;
+    setMeta("name", "description", collectionDescription);
+    setMeta("property", "og:type", "website");
+    setMeta("property", "og:title", collectionTitle);
+    setMeta("property", "og:description", collectionDescription);
+    setMeta("property", "og:url", collectionUrl);
+    setMeta("name", "twitter:card", "summary");
+    setMeta("name", "twitter:title", collectionTitle);
+    setMeta("name", "twitter:description", collectionDescription);
+    setCanonical(collectionUrl);
+    setStructuredData("reelcalc-collection-structured-data", {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: collectionTitle.replace(" | ReelCalc", ""),
+      description: collectionDescription,
+      url: collectionUrl,
+      isPartOf: {
+        "@type": "WebSite",
+        name: "ReelCalc",
+        url: "https://www.reelcalc.com/"
+      }
+    });
 
     var heading = document.querySelector("main h1");
     if (heading) heading.textContent = "Fishing Reel Line Capacity & Setup Guides";
