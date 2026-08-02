@@ -272,6 +272,7 @@ body.reelcalc-reel-collection .product-list-item-title {
 body.reelcalc-reel-collection .product-list-image-wrapper,
 body.reelcalc-reel-collection .product-list-item-price,
 body.reelcalc-reel-collection .product-list-item-status,
+body.reelcalc-reel-collection .nested-category-title,
 body.reelcalc-reel-collection .sqs-add-to-cart-button,
 body.reelcalc-reel-collection .sqs-add-to-cart-button-wrapper {
   display: none !important;
