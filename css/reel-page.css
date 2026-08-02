@@ -212,10 +212,17 @@
 
 /* Imported reel guides use a Squarespace product only as the page container. */
 @supports selector(body:has(.reelcalc-reel-page)) {
+  body:has(.reelcalc-reel-page) .ProductItem-nav,
+  body:has(.reelcalc-reel-page) .ProductItem-nav-breadcrumb,
+  body:has(.reelcalc-reel-page) .ProductItem-nav-pagination,
   body:has(.reelcalc-reel-page) .ProductItem-gallery,
+  body:has(.reelcalc-reel-page) .pdp-gallery,
   body:has(.reelcalc-reel-page) .ProductItem-details-title,
+  body:has(.reelcalc-reel-page) .pdp-details-title,
   body:has(.reelcalc-reel-page) .ProductItem-details-price,
+  body:has(.reelcalc-reel-page) .pdp-details-price,
   body:has(.reelcalc-reel-page) .ProductItem-details-checkout,
+  body:has(.reelcalc-reel-page) .pdp-details-checkout,
   body:has(.reelcalc-reel-page) .ProductItem-add-to-cart,
   body:has(.reelcalc-reel-page) .sqs-add-to-cart-button-wrapper,
   body:has(.reelcalc-reel-page) .product-quantity-input,
@@ -226,14 +233,22 @@
   }
 
   body:has(.reelcalc-reel-page) .ProductItem,
+  body:has(.reelcalc-reel-page) .pdp-layout,
   body:has(.reelcalc-reel-page) .ProductItem-details,
-  body:has(.reelcalc-reel-page) .ProductItem-details-excerpt {
+  body:has(.reelcalc-reel-page) .pdp-details,
+  body:has(.reelcalc-reel-page) .ProductItem-details-excerpt,
+  body:has(.reelcalc-reel-page) .pdp-details-excerpt {
     box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: none;
-    width: 100%;
+    clear: both !important;
+    display: block !important;
+    float: none !important;
+    grid-column: 1 / -1 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
   }
 }
 
