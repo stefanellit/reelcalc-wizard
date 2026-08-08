@@ -51,8 +51,30 @@
   }
 
   function reelLabel(reel) {
-    var size = reel.size_class || reel.size_label || "";
+    var size = reel.size_label || reel.size_class || "";
     return [reel.brand, reel.model, size].filter(Boolean).join(" ").trim();
+  }
+
+  function disambiguateLabels(entries) {
+    var labels = new Map();
+
+    entries.forEach(function (entry) {
+      var key = String(entry.label || "").trim().toLowerCase();
+      if (!labels.has(key)) labels.set(key, []);
+      labels.get(key).push(entry);
+    });
+
+    labels.forEach(function (matches) {
+      if (matches.length < 2) return;
+      matches.forEach(function (entry) {
+        var detail = entry.sku || entry.reelId || "";
+        if (detail && !String(entry.label).toLowerCase().includes(String(detail).toLowerCase())) {
+          entry.label += " (" + detail + ")";
+        }
+      });
+    });
+
+    return entries;
   }
 
   function buildRegistryEntries(registry, reels) {
@@ -60,7 +82,7 @@
       return [reel.id, reel];
     }));
 
-    return (Array.isArray(registry && registry.pages) ? registry.pages : []).map(function (page) {
+    var entries = (Array.isArray(registry && registry.pages) ? registry.pages : []).map(function (page) {
       var reel = reelsById.get(page.reelId);
       var path = normalizePath(page.path);
       if (!reel || !path) return null;
@@ -68,6 +90,7 @@
         brand: reel.brand,
         family: page.family || "",
         label: page.guideLabel || reelLabel(reel),
+        sku: reel.sku || "",
         path: path,
         reelId: reel.id,
         verifiedLive: page.verifiedLive === true,
@@ -75,6 +98,8 @@
         legacy: false
       };
     }).filter(Boolean);
+
+    return disambiguateLabels(entries);
   }
 
   function mergeEntries(legacyData, registry, reels, publishedPaths, includeUnpublished) {
@@ -258,6 +283,8 @@
   var api = {
     normalizePath: normalizePath,
     parseSitemapPaths: parseSitemapPaths,
+    reelLabel: reelLabel,
+    disambiguateLabels: disambiguateLabels,
     buildRegistryEntries: buildRegistryEntries,
     mergeEntries: mergeEntries,
     groupEntries: groupEntries,
