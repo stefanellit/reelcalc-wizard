@@ -772,9 +772,14 @@
 
     var diameterReason = lineRoleCopy(line, setupProfile);
 
-    var capacityReason = capacity > 0
-      ? "On this reel, expect roughly " + String(Math.round(capacity)) + " yards on a full spool."
-      : "ReelCalc could not estimate full-spool capacity for this setup.";
+    var capacityReason;
+    if (capacity > 0 && normalizeType(line.type) === "Braid") {
+      capacityReason = "Braid varies by brand and how it packs, so use the capacity range shown below as a realistic target.";
+    } else if (capacity > 0) {
+      capacityReason = "On this reel, expect roughly " + String(Math.round(capacity)) + " yards on a full spool.";
+    } else {
+      capacityReason = "ReelCalc could not estimate full-spool capacity for this setup.";
+    }
 
     var leaderReason = setupProfile.leaderType && leaderLb
       ? "The " + String(leaderLb) + " lb " + setupProfile.leaderType.toLowerCase() + " leader gives you a practical bite section without making the setup feel too bulky."

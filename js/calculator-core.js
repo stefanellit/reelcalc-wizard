@@ -178,6 +178,54 @@
     return publishedBraidCapacityEstimate(reel, line);
   }
 
+  function capacityRangeIncrement(yards) {
+    if (yards >= 1000) return 25;
+    if (yards >= 500) return 10;
+    return 5;
+  }
+
+  function roundCapacityRange(value, direction) {
+    var increment = capacityRangeIncrement(value);
+    var rounded = direction === "down"
+      ? Math.floor(value / increment) * increment
+      : Math.ceil(value / increment) * increment;
+    return Math.max(increment, rounded);
+  }
+
+  function braidCapacityUncertainty(line, publishedEstimate) {
+    var genericRecommendation = line && line.generic_recommendation === true;
+    var uncertainty = genericRecommendation ? 0.15 : 0.10;
+
+    if (!publishedEstimate) return uncertainty + 0.05;
+    if (publishedEstimate.method !== "exact") return uncertainty + 0.05;
+    return uncertainty;
+  }
+
+  function calculateBraidCapacityRange(reel, line) {
+    if (!line || !isBraidLine(line)) return null;
+
+    var publishedEstimate = calculatePublishedBraidCapacity(reel, line);
+    var centerYards = publishedEstimate
+      ? Number(publishedEstimate.yards)
+      : Number(calculateMainLineCapacity(reel, line));
+    if (!(centerYards > 0)) return null;
+
+    var uncertainty = braidCapacityUncertainty(line, publishedEstimate);
+    var minimumYards = roundCapacityRange(centerYards * (1 - uncertainty), "down");
+    var maximumYards = roundCapacityRange(centerYards * (1 + uncertainty), "up");
+
+    return {
+      centerYards: centerYards,
+      minimumYards: minimumYards,
+      maximumYards: maximumYards,
+      uncertaintyRate: uncertainty,
+      basis: publishedEstimate ? "published-braid" : "diameter-fallback",
+      method: publishedEstimate ? publishedEstimate.method : "diameter-fallback",
+      publishedEstimate: publishedEstimate,
+      genericRecommendation: line.generic_recommendation === true
+    };
+  }
+
   function calculateMainLineCapacity(reel, line) {
     if (!isReelReady(reel) || !isLineReady(line)) return null;
     return calculateLineCapacityFromDiameter(Number(reel.capacity_yards), Number(reel.rated_line_diameter_in), Number(line.dia_in));
@@ -257,6 +305,7 @@
     publishedBraidCapacityOptions: publishedBraidCapacityOptions,
     publishedBraidCapacityEstimate: publishedBraidCapacityEstimate,
     calculatePublishedBraidCapacity: calculatePublishedBraidCapacity,
+    calculateBraidCapacityRange: calculateBraidCapacityRange,
     calculateFullSpoolCapacity: calculateFullSpoolCapacity,
     calculateMainLineCapacity: calculateMainLineCapacity,
     getReelSpoolSpace: getReelSpoolSpace,

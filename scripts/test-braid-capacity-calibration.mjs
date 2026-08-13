@@ -17,11 +17,13 @@ function assert(condition, message) {
 
 loadBrowserScript("js/calculator-core.js");
 loadBrowserScript("js/recommendation-engine.js");
+loadBrowserScript("js/affiliate-links.js");
 
 const reels = JSON.parse(fs.readFileSync(path.join(rootDir, "data/reels.json"), "utf8"));
 const lines = JSON.parse(fs.readFileSync(path.join(rootDir, "data/lines.json"), "utf8"));
 const core = globalThis.ReelCalcCore;
 const engine = globalThis.ReelCalcRecommendations;
+const affiliate = globalThis.ReelCalcAffiliateLinks;
 
 function findReel(id) {
   const reel = reels.find((item) => item.id === id);
@@ -44,6 +46,10 @@ const exactPublished = core.publishedBraidCapacityEstimate(daiwa3000, genericBra
 assert(exactPublished && exactPublished.method === "exact", "Daiwa 15 lb braid should use an exact published rating");
 assert(exactPublished.yards === 250, "Daiwa 15 lb braid should calculate to the published 250 yd rating");
 assert(core.calculateFullSpoolCapacity(daiwa3000, genericBraid(15)) === 250, "Generic recommendation should use published braid capacity");
+const genericRange = core.calculateBraidCapacityRange(daiwa3000, genericBraid(15));
+assert(genericRange.centerYards === 250, "Generic braid range should stay centered on the published rating");
+assert(genericRange.minimumYards === 210 && genericRange.maximumYards === 290, "Generic braid should use a conservative 210-290 yd range");
+assert(genericRange.uncertaintyRate === 0.15, "Generic braid should use 15 percent uncertainty with an exact rating");
 assert(
   core.calculateFullSpoolCapacity(daiwa3000, genericBraid(10, 0.006)) === 250,
   "A lighter generic recommendation should not exceed the nearest published braid capacity"
@@ -60,6 +66,12 @@ const selectedBraid = core.calculatePublishedBraidCapacity(
 );
 assert(selectedBraid.yards === 250, "A selected 15 lb braid should retain the reel's published 250 yd rating");
 assert(selectedBraid.method === "exact", "A selected braid should not receive an unsupported diameter adjustment");
+const selectedRange = core.calculateBraidCapacityRange(
+  daiwa3000,
+  { type: "Braid", lb: 15, dia_in: 0.009 }
+);
+assert(selectedRange.minimumYards === 225 && selectedRange.maximumYards === 275, "An exact selected braid should use a narrower 225-275 yd range");
+assert(selectedRange.uncertaintyRate === 0.10, "An exact selected braid should use 10 percent uncertainty with an exact rating");
 
 for (const line of [
   { type: "Monofilament", lb: 10, dia_in: 0.012, generic_recommendation: true },
@@ -69,6 +81,7 @@ for (const line of [
     core.calculateFullSpoolCapacity(daiwa3000, line) === core.calculateMainLineCapacity(daiwa3000, line),
     `${line.type} capacity should remain on the existing mono-rated diameter model`
   );
+  assert(core.calculateBraidCapacityRange(daiwa3000, line) === null, `${line.type} should not receive a braid range`);
 }
 
 const slashCases = [
@@ -112,5 +125,33 @@ assert(revrosFifteen, "Daiwa Revros 3000 should include a 15 lb braid recommenda
 assert(revrosFifteen.capacityYards === 250, "Daiwa Revros 15 lb recommendation should show 250 yd");
 assert(revrosFifteen.capacityBasis === "published-braid", "Recommendation should identify the published braid basis");
 
+let bassRecommendationsChecked = 0;
+let largestBassSpool = 0;
+let largestBassSpoolLabel = "";
+for (const reel of reels) {
+  if (!core.isReelReady(reel) || !engine.recommendationCompatibility(reel, "bass").recommend) continue;
+  const setups = engine.recommendSetups({
+    reel,
+    lines,
+    fishingType: "bass",
+    priority: "all-around",
+    calculateFullSpoolCapacity: core.calculateFullSpoolCapacity
+  });
+  for (const setup of setups) {
+    if (!String(setup.line.type || "").toLowerCase().includes("braid")) continue;
+    const range = core.calculateBraidCapacityRange(reel, setup.line);
+    assert(range, `${reel.id} ${setup.line.lb} lb braid recommendation should have a capacity range`);
+    assert(range.centerYards === setup.capacityYards, `${reel.id} braid range should preserve the recommendation center`);
+    const spoolYards = affiliate.recommendedSpoolYards(range.centerYards);
+    assert(spoolYards && spoolYards < 1000, `${reel.id} bass recommendation must not suggest a ${spoolYards} yd bulk spool`);
+    if (spoolYards > largestBassSpool) {
+      largestBassSpool = spoolYards;
+      largestBassSpoolLabel = `${reel.brand} ${reel.model} ${reel.size_label || reel.size_class || ""}`;
+    }
+    bassRecommendationsChecked += 1;
+  }
+}
+
 console.log(`Published braid calibration test passed: ${parsedReels} reels and ${exactRatingsChecked} exact ratings checked.`);
 console.log(`Daiwa Revros LT 3000D-C: 15 lb braid = ${revrosFifteen.capacityYards} yd (published rating).`);
+console.log(`Checked ${bassRecommendationsChecked} bass braid recommendations; largest suggested retail spool was ${largestBassSpool} yd for ${largestBassSpoolLabel}.`);

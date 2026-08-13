@@ -12,6 +12,7 @@ const {
   monoDiameter,
   estimateMonoLbFromDiameter,
   calculatePublishedBraidCapacity,
+  calculateBraidCapacityRange,
   calculateFullSpoolCapacity: calculateCoreFullSpoolCapacity,
   calculateBackingNeeded,
   calculateHandleTurns,
@@ -1288,6 +1289,7 @@ function renderRecommendations() {
   }, reelEventParameters(reel)), { onceKey: recommendationKey });
   el.recommendations.innerHTML = state.recommendations.map(function(setup, index) {
     var capacity = setup.capacityYards || calculateFullSpoolCapacity(reel, setup.line);
+    var capacityRange = getBraidCapacityRange(reel, setup.line);
     var selected = state.selectedSetup && state.selectedSetup.title === setup.title && state.selectedSetup.line.id === setup.line.id;
     var isBestPick = index === 0;
     var html = "<article class=\"setup-card" + (isBestPick ? " best-pick" : "") + (selected ? " selected" : "") + "\">";
@@ -1297,7 +1299,7 @@ function renderRecommendations() {
     html += "<p class=\"setup-headline\"><strong>" + escapeHtml(formatSetupHeadline(setup)) + "</strong></p>";
     html += "<div class=\"card-meta\">";
     html += "<span class=\"pill subtle\">" + formatDiameterWithUnit(setup.line.dia_in) + "</span>";
-    html += "<span class=\"pill subtle\">" + formatLength(capacity, 1) + " est.</span>";
+    html += "<span class=\"pill subtle\">" + (capacityRange ? formatCapacityRange(capacityRange, false) : formatLength(capacity, 1)) + " est.</span>";
     html += "<span class=\"pill subtle\">" + escapeHtml(recommendationPurposeLabel(setup)) + "</span>";
     html += "</div>";
     html += "<p>" + escapeHtml(setup.explanation) + "</p>";
@@ -1307,9 +1309,9 @@ function renderRecommendations() {
     if (setup.tradeoffs && setup.tradeoffs.length) {
       html += "<p class=\"tiny-note\"><strong>Keep in mind:</strong> " + escapeHtml(setup.tradeoffs.join(" ")) + "</p>";
     }
-    var braidCapacityNote = publishedBraidCapacityNote(reel, setup.line);
+    var braidCapacityNote = braidCapacityRangeNote(reel, setup.line, capacityRange);
     if (braidCapacityNote) {
-      html += "<p class=\"tiny-note\">" + escapeHtml(braidCapacityNote) + " A specific braid may vary from the published rating.</p>";
+      html += "<p class=\"tiny-note\">" + escapeHtml(braidCapacityNote) + "</p>";
     } else {
       html += "<p class=\"tiny-note\">" + escapeHtml(setup.diameterNote || ("Estimate uses " + formatGenericLineShort(setup.line) + " diameter data.")) + " If you pick a specific line later, ReelCalc uses that line's listed diameter.</p>";
     }
@@ -1350,20 +1352,27 @@ function getPublishedBraidEstimate(reel, line) {
   return calculatePublishedBraidCapacity(reel, line);
 }
 
+function getBraidCapacityRange(reel, line) {
+  return calculateBraidCapacityRange(reel, line);
+}
+
 function calculateFullSpoolCapacity(reel, line) {
   return calculateCoreFullSpoolCapacity(reel, line, {
     usePublishedBraid: true
   });
 }
 
-function publishedBraidCapacityNote(reel, line) {
-  var estimate = getPublishedBraidEstimate(reel, line);
-  if (!estimate) return "";
+function braidCapacityRangeNote(reel, line, range) {
+  if (!range) return "";
+  var estimate = range.publishedEstimate || getPublishedBraidEstimate(reel, line);
+  if (!estimate) {
+    return "This wider braid range uses the line's listed diameter because a usable reel braid rating is not available.";
+  }
   if (estimate.method === "exact" && estimate.anchors.length) {
     var rating = estimate.anchors[0];
-    return "Capacity uses this reel's published " + formatStrength(rating.lb) + " braid rating of " + formatLength(rating.yards, 0, true) + ".";
+    return "The reel's published " + formatStrength(rating.lb) + " braid rating of " + formatLength(rating.yards, 0, true) + " sets the center of this range.";
   }
-  return "Capacity is anchored to this reel's published braid ratings near " + formatStrength(estimate.targetLb) + ".";
+  return "The center of this range is anchored to the reel's published braid ratings near " + formatStrength(estimate.targetLb) + ".";
 }
 
 function genericLineType(typeValue) {
@@ -1436,7 +1445,7 @@ function formatRetailSpoolLength(yards) {
   return formatNumber(value, 0) + " yd";
 }
 
-function recommendationAffiliateHtml(line, fullCapacity) {
+function recommendationAffiliateHtml(line, fullCapacity, capacityRange) {
   if (state.path !== "recommend" || !state.selectedSetup || !line ||
       !window.ReelCalcAffiliateLinks || !state.affiliateData) return "";
 
@@ -1455,12 +1464,14 @@ function recommendationAffiliateHtml(line, fullCapacity) {
   var lineLabel = formatGenericLineShort(line);
   var setupDescription = state.backingMode === "yes"
     ? "Your backing setup uses about " + formatLength(requiredYards, 0, true) + " of main line."
-    : "A full spool is estimated to use about " + formatLength(requiredYards, 0, true) + ".";
+    : capacityRange
+      ? "A full spool is likely to use about " + formatCapacityRange(capacityRange, true) + "."
+      : "A full spool is estimated to use about " + formatLength(requiredYards, 0, true) + ".";
   var buttonLabel = "Shop " + formatRetailSpoolLength(offer.suggestedSpoolYards) + " " + lineLabel + " options";
   var html = "<section class=\"line-affiliate-card\" aria-label=\"Shop the recommended main line\">";
   html += "<div class=\"line-affiliate-copy\"><span class=\"eyebrow\">Shop this main-line setup</span>";
   html += "<strong>Look for at least " + escapeHtml(formatRetailSpoolLength(offer.suggestedSpoolYards)) + " of " + escapeHtml(lineLabel) + "</strong>";
-  html += "<p>" + escapeHtml(setupDescription) + " This brand-neutral search includes a small allowance for normal spool-fill variation.</p></div>";
+  html += "<p>" + escapeHtml(setupDescription) + " The suggested retail spool size includes a practical allowance for normal fill variation.</p></div>";
   html += "<a class=\"line-affiliate-button\" href=\"" + escapeHtml(offer.url) + "\" target=\"_blank\" rel=\"sponsored nofollow noopener\" data-line-affiliate-link data-retailer=\"" + escapeHtml(offer.retailerId) + "\" data-match-type=\"" + escapeHtml(offer.matchType) + "\" data-required-yards=\"" + escapeHtml(String(Number(requiredYards.toFixed(1)))) + "\" data-spool-yards=\"" + escapeHtml(String(offer.suggestedSpoolYards)) + "\">" + escapeHtml(buttonLabel) + "</a>";
   html += "<span class=\"line-affiliate-disclosure\">" + escapeHtml(offer.disclosure) + "</span>";
   html += "</section>";
@@ -1498,17 +1509,18 @@ function renderCapacityResult() {
     return;
   }
   var capacity = calculateFullSpoolCapacity(reel, line);
+  var capacityRange = getBraidCapacityRange(reel, line);
   var lineLabel = formatActiveLineShort(line);
-  var braidCapacityNote = publishedBraidCapacityNote(reel, line);
+  var braidCapacityNote = braidCapacityRangeNote(reel, line, capacityRange);
   var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
   html += "<div class=\"capacity-hero\">";
-  html += "<div><span class=\"eyebrow\">Estimated full-spool capacity</span><strong class=\"capacity-number\">" + formatLength(capacity, 1, true) + "</strong><p>of " + escapeHtml(lineLabel) + "</p></div>";
+  html += "<div><span class=\"eyebrow\">" + (capacityRange ? "Estimated full-spool capacity range" : "Estimated full-spool capacity") + "</span><strong class=\"capacity-number\">" + (capacityRange ? formatCapacityRangeValue(capacityRange) : formatNumber(yardsToDisplayLength(capacity), 1)) + "</strong><p>" + lengthUnitLong() + " of " + escapeHtml(lineLabel) + "</p></div>";
   html += "</div>";
   html += "<div class=\"capacity-detail-grid\">";
   html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>" + (braidCapacityNote ? escapeHtml(braidCapacityNote) : "Rated at " + formatReelRating(reel) + " line.") + "</p></div>";
   html += "<div class=\"capacity-detail-card\"><span>Line used</span><strong>" + escapeHtml(lineLabel) + "</strong><p>Diameter: " + formatDiameterWithUnit(line.dia_in) + ".</p></div>";
   html += "</div>";
-  html += recommendationAffiliateHtml(line, capacity);
+  html += recommendationAffiliateHtml(line, capacity, capacityRange);
   if (state.backingMode !== "yes") {
     html += handleTurnEstimateHtml([{ kind: "main-line", label: formatActiveLineShort(line), yards: capacity }]);
   }
@@ -1531,10 +1543,11 @@ function renderBackingResult() {
     return;
   }
   var fullCapacity = calculateFullSpoolCapacity(reel, line);
+  var fullCapacityRange = getBraidCapacityRange(reel, line);
   updateSliderBounds(fullCapacity);
   if (state.backingMode !== "yes") {
     el.backingResult.className = "";
-    el.backingResult.innerHTML = "<div class=\"result-box\"><p><strong>No backing:</strong> fill the reel with approximately " + formatLength(fullCapacity, 1, true) + " of " + escapeHtml(formatActiveLineShort(line)) + ".</p>" + spoolBar(0, 100) + "<p class=\"tiny-note\">This is the estimated full-spool capacity of the selected main line.</p></div>";
+    el.backingResult.innerHTML = "<div class=\"result-box\"><p><strong>No backing:</strong> fill the reel with approximately " + (fullCapacityRange ? formatCapacityRange(fullCapacityRange, true) : formatLength(fullCapacity, 1, true)) + " of " + escapeHtml(formatActiveLineShort(line)) + ".</p>" + spoolBar(0, 100) + "<p class=\"tiny-note\">" + (fullCapacityRange ? "Braid capacity is shown as a real-world range because line diameter, packing tension, and fill level vary." : "This is the estimated full-spool capacity of the selected main line.") + "</p></div>";
     return;
   }
   if (!(Number(state.desiredMainYards) > 0)) {
@@ -1596,6 +1609,7 @@ function renderSimilarLines() {
     var block = "<section class=\"line-group\"><h3>" + escapeHtml(group.title) + "</h3><div class=\"line-group-grid\">";
     block += group.lines.map(function(item) {
       var yards = calculateFullSpoolCapacity(reel, item);
+      var capacityRange = getBraidCapacityRange(reel, item);
       var card = "<article class=\"line-card\">";
       card += "<h3>" + escapeHtml(item.brand) + "</h3>";
       card += "<p><strong>" + escapeHtml(item.model) + "</strong></p>";
@@ -1604,7 +1618,7 @@ function renderSimilarLines() {
       card += "<span class=\"pill subtle\">" + formatStrength(item.lb) + "</span>";
       card += "<span class=\"pill subtle\">" + formatDiameterWithUnit(item.dia_in) + "</span>";
       card += "</div>";
-      card += "<p>Estimated " + lengthUnitLong() + " on selected reel: <strong>" + formatLength(yards, 1) + "</strong></p>";
+      card += "<p>Estimated " + lengthUnitLong() + " on selected reel: <strong>" + (capacityRange ? formatCapacityRangeValue(capacityRange) : formatNumber(yardsToDisplayLength(yards), 1)) + "</strong></p>";
       card += "</article>";
       return card;
     }).join("");
@@ -1801,6 +1815,17 @@ function displayDiameterToInches(value) {
 
 function formatLength(yards, digits, longUnit) {
   return formatNumber(yardsToDisplayLength(yards), digits) + " " + (longUnit ? lengthUnitLong() : lengthUnit());
+}
+
+function formatCapacityRangeValue(range) {
+  if (!range) return "";
+  var minimum = yardsToDisplayLength(range.minimumYards);
+  var maximum = yardsToDisplayLength(range.maximumYards);
+  return formatNumber(minimum, 0) + "-" + formatNumber(maximum, 0);
+}
+
+function formatCapacityRange(range, longUnit) {
+  return formatCapacityRangeValue(range) + " " + (longUnit ? lengthUnitLong() : lengthUnit());
 }
 
 function formatLengthInput(yards) {
