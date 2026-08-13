@@ -232,6 +232,7 @@
     var priority = options && options.priority || "all-around";
     var core = global.ReelCalcCore || {};
     var calculateFullSpoolCapacity = options && options.calculateFullSpoolCapacity || core.calculateFullSpoolCapacity;
+    var publishedBraidCapacityEstimate = core.publishedBraidCapacityEstimate;
     if (!reel || !calculateFullSpoolCapacity) return [];
     if (!recommendationCompatibility(reel, fishingType).recommend) return [];
 
@@ -245,7 +246,8 @@
         fishingType: fishingType,
         priority: priority,
         speciesLabel: group.label,
-        calculateFullSpoolCapacity: calculateFullSpoolCapacity
+        calculateFullSpoolCapacity: calculateFullSpoolCapacity,
+        publishedBraidCapacityEstimate: publishedBraidCapacityEstimate
       });
     }).filter(Boolean).filter(function(setup) {
       return setupFitsReelSize(setup, reel, fishingType);
@@ -398,6 +400,9 @@
     var reel = context.reel;
     var line = candidate.line;
     var capacity = context.calculateFullSpoolCapacity(reel, line);
+    var publishedBraidEstimate = context.publishedBraidCapacityEstimate
+      ? context.publishedBraidCapacityEstimate(reel, line)
+      : null;
     var reelSize = reelSizeClass(reel);
     var score = 35;
     var warnings = [];
@@ -431,7 +436,9 @@
       explanation: reasons.join(" "),
       tradeoffs: tradeoffs,
       warnings: warnings,
-      diameterNote: diameterNote(line)
+      diameterNote: diameterNote(line),
+      capacityBasis: publishedBraidEstimate ? "published-braid" : "diameter",
+      publishedBraidEstimate: publishedBraidEstimate
     };
   }
 

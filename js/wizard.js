@@ -11,7 +11,8 @@ const {
   LB_PER_KG,
   monoDiameter,
   estimateMonoLbFromDiameter,
-  calculateFullSpoolCapacity,
+  calculatePublishedBraidCapacity,
+  calculateFullSpoolCapacity: calculateCoreFullSpoolCapacity,
   calculateBackingNeeded,
   calculateHandleTurns,
   isReelReady,
@@ -1306,7 +1307,12 @@ function renderRecommendations() {
     if (setup.tradeoffs && setup.tradeoffs.length) {
       html += "<p class=\"tiny-note\"><strong>Keep in mind:</strong> " + escapeHtml(setup.tradeoffs.join(" ")) + "</p>";
     }
-    html += "<p class=\"tiny-note\">" + escapeHtml(setup.diameterNote || ("Estimate uses " + formatGenericLineShort(setup.line) + " diameter data.")) + " If you pick a specific line later, ReelCalc uses that line's listed diameter.</p>";
+    var braidCapacityNote = publishedBraidCapacityNote(reel, setup.line);
+    if (braidCapacityNote) {
+      html += "<p class=\"tiny-note\">" + escapeHtml(braidCapacityNote) + " A specific braid may vary from the published rating.</p>";
+    } else {
+      html += "<p class=\"tiny-note\">" + escapeHtml(setup.diameterNote || ("Estimate uses " + formatGenericLineShort(setup.line) + " diameter data.")) + " If you pick a specific line later, ReelCalc uses that line's listed diameter.</p>";
+    }
     html += "<button class=\"use-button\" type=\"button\" data-setup-index=\"" + String(index) + "\">" + (selected ? "Selected" : "Use setup") + "</button>";
     html += "</article>";
     return html;
@@ -1338,6 +1344,39 @@ function formatGenericLineShort(line) {
   if (!line) return "";
   var type = genericLineType(line.type);
   return [formatStrength(line.lb), type].filter(Boolean).join(" ");
+}
+
+function typicalBraidDiameter(line) {
+  if (!line || !window.ReelCalcRecommendations || !window.ReelCalcRecommendations.typicalDiameter) return null;
+  var type = String(line.type || "").toLowerCase();
+  if (!type.includes("braid")) return null;
+  var typical = window.ReelCalcRecommendations.typicalDiameter(state.lines, "Braid", Number(line.lb));
+  return typical && Number(typical.dia_in) > 0 ? Number(typical.dia_in) : null;
+}
+
+function getPublishedBraidEstimate(reel, line) {
+  return calculatePublishedBraidCapacity(reel, line, typicalBraidDiameter(line));
+}
+
+function calculateFullSpoolCapacity(reel, line) {
+  return calculateCoreFullSpoolCapacity(reel, line, {
+    usePublishedBraid: true,
+    referenceBraidDiameterIn: typicalBraidDiameter(line)
+  });
+}
+
+function publishedBraidCapacityNote(reel, line) {
+  var estimate = getPublishedBraidEstimate(reel, line);
+  if (!estimate) return "";
+  if (estimate.method === "exact" && estimate.anchors.length) {
+    var rating = estimate.anchors[0];
+    return "Capacity uses this reel's published " + formatStrength(rating.lb) + " braid rating of " + formatLength(rating.yards, 0, true) + ".";
+  }
+  if (estimate.method.indexOf("diameter-adjusted") !== -1 && estimate.anchors.length) {
+    var anchor = estimate.anchors[0];
+    return "Capacity starts from this reel's published " + formatStrength(anchor.lb) + " braid rating of " + formatLength(anchor.yards, 0, true) + " and adjusts conservatively for this line's listed diameter.";
+  }
+  return "Capacity is anchored to this reel's published braid ratings near " + formatStrength(estimate.targetLb) + ".";
 }
 
 function genericLineType(typeValue) {
@@ -1473,12 +1512,13 @@ function renderCapacityResult() {
   }
   var capacity = calculateFullSpoolCapacity(reel, line);
   var lineLabel = formatActiveLineShort(line);
+  var braidCapacityNote = publishedBraidCapacityNote(reel, line);
   var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
   html += "<div class=\"capacity-hero\">";
   html += "<div><span class=\"eyebrow\">Estimated full-spool capacity</span><strong class=\"capacity-number\">" + formatLength(capacity, 1, true) + "</strong><p>of " + escapeHtml(lineLabel) + "</p></div>";
   html += "</div>";
   html += "<div class=\"capacity-detail-grid\">";
-  html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>Rated at " + formatReelRating(reel) + " line.</p></div>";
+  html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>" + (braidCapacityNote ? escapeHtml(braidCapacityNote) : "Rated at " + formatReelRating(reel) + " line.") + "</p></div>";
   html += "<div class=\"capacity-detail-card\"><span>Line used</span><strong>" + escapeHtml(lineLabel) + "</strong><p>Diameter: " + formatDiameterWithUnit(line.dia_in) + ".</p></div>";
   html += "</div>";
   html += recommendationAffiliateHtml(line, capacity);
