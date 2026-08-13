@@ -4,6 +4,7 @@
   var MATERIALS = [
     { id: "Monofilament", label: "Mono" },
     { id: "Fluorocarbon", label: "Fluorocarbon" },
+    { id: "Copolymer", label: "Copolymer" },
     { id: "Braid", label: "Braid" }
   ];
 
@@ -12,6 +13,7 @@
     if (type.indexOf("braid") !== -1) return "Braid";
     if (type === "monofilament" || type.indexOf("mono") !== -1) return "Monofilament";
     if (type === "fluorocarbon") return "Fluorocarbon";
+    if (type === "copolymer" || type === "fluorocarbon coated") return "Copolymer";
     return "";
   }
 

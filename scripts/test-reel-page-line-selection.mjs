@@ -34,7 +34,7 @@ const invizx8 = line("seaguar-invizx-fluorocarbon-8");
 
 assert.ok(shimano && daiwa && revros && noBraidRating, "required reel fixtures must exist");
 assert.ok(powerPro15 && powerPro20 && trilene8 && trilene10 && invizx8, "required line fixtures must exist");
-assert.equal(lines.length, 793, "central line database valid-record count changed unexpectedly");
+assert.equal(lines.length, 852, "central spool-line database valid-record count changed unexpectedly");
 
 // 1-4: Shimano and Daiwa each use mono calibration for mono and braid calibration for braid.
 assert.equal(core.capacityBasisForLine(shimano, trilene8).type, "published-mono");
@@ -61,6 +61,11 @@ const fallback = core.capacityBasisForLine(noBraidRating, powerPro15);
 assert.equal(fallback.type, "mono-derived-braid-fallback");
 assert.equal(fallback.fallback, true);
 assert.equal(core.capacityBasisForLine(shimano, invizx8).type, "published-mono");
+const copolymer = line("yo-zuri-hybrid-copolymer-10");
+assert.ok(copolymer, "copolymer main line should be available");
+assert.equal(copolymer.material, "Copolymer");
+assert.equal(core.capacityBasisForLine(shimano, copolymer).type, "published-mono");
+assert.ok(!lines.some((record) => record.type === "Fluorocarbon Leader"), "leader-only material should not appear as spool line");
 
 // 9: Capacity Only returns the selected exact line's appropriate full-spool reference.
 assert.equal(core.capacityBasisForLine(shimano, powerPro15).capacityYards, 145);

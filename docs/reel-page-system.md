@@ -51,7 +51,7 @@ Shared live-page files:
 
 ## Actual-Line Calculator Flow
 
-Both `Capacity Only` and `Backing + Main Line` load their choices from `data/lines.json`. The first load uses clear `Choose a line` placeholders so an alphabetical database entry is never mistaken for a ReelCalc brand endorsement. The user chooses Mono, Fluorocarbon, or Braid, then an actual brand/product and strength. A custom-line option remains available when a product is not listed.
+Both `Capacity Only` and `Backing + Main Line` load their choices from `data/lines.json`. The first load uses clear `Choose a line` placeholders so an alphabetical database entry is never mistaken for a ReelCalc brand endorsement. The user chooses Mono, Fluorocarbon, Copolymer, or Braid, then an actual brand/product and strength. Fluorocarbon-coated main lines are grouped under Copolymer. Leader-only products are intentionally excluded because they are not intended to fill a reel spool. A custom-line option remains available when a product is not listed.
 
 The page's suggested main-line amount is treated as a starting target. When that amount would consume more than 90% of the lower end of a braid capacity range, the shared calculator steps it down to a practical 25-yard increment so `Backing + Main Line` still leaves useful room for backing. An explicit `mainYards` URL parameter is never changed.
 
