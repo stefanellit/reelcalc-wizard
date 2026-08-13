@@ -1346,22 +1346,13 @@ function formatGenericLineShort(line) {
   return [formatStrength(line.lb), type].filter(Boolean).join(" ");
 }
 
-function typicalBraidDiameter(line) {
-  if (!line || !window.ReelCalcRecommendations || !window.ReelCalcRecommendations.typicalDiameter) return null;
-  var type = String(line.type || "").toLowerCase();
-  if (!type.includes("braid")) return null;
-  var typical = window.ReelCalcRecommendations.typicalDiameter(state.lines, "Braid", Number(line.lb));
-  return typical && Number(typical.dia_in) > 0 ? Number(typical.dia_in) : null;
-}
-
 function getPublishedBraidEstimate(reel, line) {
-  return calculatePublishedBraidCapacity(reel, line, typicalBraidDiameter(line));
+  return calculatePublishedBraidCapacity(reel, line);
 }
 
 function calculateFullSpoolCapacity(reel, line) {
   return calculateCoreFullSpoolCapacity(reel, line, {
-    usePublishedBraid: true,
-    referenceBraidDiameterIn: typicalBraidDiameter(line)
+    usePublishedBraid: true
   });
 }
 
@@ -1371,10 +1362,6 @@ function publishedBraidCapacityNote(reel, line) {
   if (estimate.method === "exact" && estimate.anchors.length) {
     var rating = estimate.anchors[0];
     return "Capacity uses this reel's published " + formatStrength(rating.lb) + " braid rating of " + formatLength(rating.yards, 0, true) + ".";
-  }
-  if (estimate.method.indexOf("diameter-adjusted") !== -1 && estimate.anchors.length) {
-    var anchor = estimate.anchors[0];
-    return "Capacity starts from this reel's published " + formatStrength(anchor.lb) + " braid rating of " + formatLength(anchor.yards, 0, true) + " and adjusts conservatively for this line's listed diameter.";
   }
   return "Capacity is anchored to this reel's published braid ratings near " + formatStrength(estimate.targetLb) + ".";
 }

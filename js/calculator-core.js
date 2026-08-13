@@ -174,26 +174,8 @@
     };
   }
 
-  function calculatePublishedBraidCapacity(reel, line, referenceDiameterIn) {
-    var estimate = publishedBraidCapacityEstimate(reel, line);
-    if (!estimate) return null;
-
-    var selectedDiameter = Number(line && line.dia_in);
-    var referenceDiameter = Number(referenceDiameterIn);
-    if (line.generic_recommendation === true || !(selectedDiameter > 0) || !(referenceDiameter > 0)) {
-      return estimate;
-    }
-
-    var rawAdjustment = referenceDiameter * referenceDiameter / (selectedDiameter * selectedDiameter);
-    var diameterAdjustment = clamp(rawAdjustment, 0.75, 1.25);
-    return Object.assign({}, estimate, {
-      yards: Math.round(estimate.yards * diameterAdjustment),
-      method: estimate.method + "-diameter-adjusted",
-      referenceDiameterIn: referenceDiameter,
-      selectedDiameterIn: selectedDiameter,
-      rawDiameterAdjustment: rawAdjustment,
-      diameterAdjustment: diameterAdjustment
-    });
+  function calculatePublishedBraidCapacity(reel, line) {
+    return publishedBraidCapacityEstimate(reel, line);
   }
 
   function calculateMainLineCapacity(reel, line) {
@@ -204,11 +186,11 @@
   function calculateFullSpoolCapacity(reel, line, options) {
     var settings = options || {};
     if (line && line.generic_recommendation === true) {
-      var genericBraidEstimate = calculatePublishedBraidCapacity(reel, line, Number(line.dia_in));
+      var genericBraidEstimate = calculatePublishedBraidCapacity(reel, line);
       if (genericBraidEstimate) return genericBraidEstimate.yards;
     }
     if (settings.usePublishedBraid === true) {
-      var selectedBraidEstimate = calculatePublishedBraidCapacity(reel, line, settings.referenceBraidDiameterIn);
+      var selectedBraidEstimate = calculatePublishedBraidCapacity(reel, line);
       if (selectedBraidEstimate) return selectedBraidEstimate.yards;
     }
     return calculateMainLineCapacity(reel, line);

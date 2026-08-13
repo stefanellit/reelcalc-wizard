@@ -54,18 +54,12 @@ assert(
   core.calculateFullSpoolCapacity(daiwa3000, exactProduct) === core.calculateMainLineCapacity(daiwa3000, exactProduct),
   "Core callers must opt into selected-line braid calibration"
 );
-const thickerSelectedBraid = core.calculatePublishedBraidCapacity(
+const selectedBraid = core.calculatePublishedBraidCapacity(
   daiwa3000,
-  { type: "Braid", lb: 15, dia_in: 0.009 },
-  0.008
+  { type: "Braid", lb: 15, dia_in: 0.009 }
 );
-assert(thickerSelectedBraid.yards === 198, "A thicker selected 15 lb braid should adjust the 250 yd rating downward");
-const thinnerSelectedBraid = core.calculatePublishedBraidCapacity(
-  daiwa3000,
-  { type: "Braid", lb: 15, dia_in: 0.006 },
-  0.008
-);
-assert(thinnerSelectedBraid.yards === 313, "A thin selected braid should be limited to a 25% upward adjustment");
+assert(selectedBraid.yards === 250, "A selected 15 lb braid should retain the reel's published 250 yd rating");
+assert(selectedBraid.method === "exact", "A selected braid should not receive an unsupported diameter adjustment");
 
 for (const line of [
   { type: "Monofilament", lb: 10, dia_in: 0.012, generic_recommendation: true },
