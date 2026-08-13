@@ -1366,13 +1366,13 @@ function braidCapacityRangeNote(reel, line, range) {
   if (!range) return "";
   var estimate = range.publishedEstimate || getPublishedBraidEstimate(reel, line);
   if (!estimate) {
-    return "This wider braid range uses the line's listed diameter because a usable reel braid rating is not available.";
+    return "Braid diameter and how tightly it packs vary by brand, so actual capacity may fall within this range.";
   }
   if (estimate.method === "exact" && estimate.anchors.length) {
     var rating = estimate.anchors[0];
-    return "The reel's published " + formatStrength(rating.lb) + " braid rating of " + formatLength(rating.yards, 0, true) + " sets the center of this range.";
+    return "Published reel rating: " + formatStrength(rating.lb) + " braid / " + formatLength(rating.yards, 0, true) + ". Braid diameter and how tightly it packs vary by brand, so actual capacity may fall within this range.";
   }
-  return "The center of this range is anchored to the reel's published braid ratings near " + formatStrength(estimate.targetLb) + ".";
+  return "This range uses the reel's published braid ratings near " + formatStrength(estimate.targetLb) + ". Braid diameter and how tightly it packs vary by brand, so actual capacity may differ.";
 }
 
 function genericLineType(typeValue) {
