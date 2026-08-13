@@ -977,6 +977,16 @@ function getBackingLine() {
   return DEFAULT_BACKING;
 }
 
+function getVisibleReelWarnings(values) {
+  if (!Array.isArray(values)) return [];
+  return values.map(function(value) {
+    return String(value || "")
+      .replace(/source\/spec should be verified before public use\.?/gi, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }).filter(Boolean);
+}
+
 function renderReelSummary() {
   var reel = getActiveReel();
   if (state.useManualReel && !state.manualReel) {
@@ -998,7 +1008,7 @@ function renderReelSummary() {
     el.reelSummary.innerHTML = "";
     return;
   }
-  var warnings = reel.data_warnings && reel.data_warnings.length ? reel.data_warnings : [];
+  var warnings = getVisibleReelWarnings(reel.data_warnings);
   var ready = isReelReady(reel);
   var html = "<div class=\"selected-card-head\">";
   html += "<div><span class=\"eyebrow\">Your reel</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong></div>";
