@@ -175,10 +175,11 @@
     var state = {
       unit: "standard",
       mode: preload.mode === "capacity" ? "capacity" : "backing",
-      main: { material: "Braid", custom: false, line: null },
-      backing: { material: "Monofilament", custom: false, line: null },
+      main: { material: "Braid", custom: false, line: null, awaitingChoice: true },
+      backing: { material: "Monofilament", custom: false, line: null, awaitingChoice: true },
       affiliateImpressions: new Set(),
-      lastCapacityBasisKey: ""
+      lastCapacityBasisKey: "",
+      mainYardsTouched: false
     };
     var PREMIUM_LINE_COST_LOW = 0.10;
     var PREMIUM_LINE_COST_HIGH = 0.16;
@@ -270,6 +271,7 @@
     function setRoleLine(role, line) {
       state[role].line = line || null;
       if (!line) return;
+      state[role].awaitingChoice = false;
       state[role].material = line.material || selector.normalizedMaterial(line.type);
       refreshRole(role, line.id);
     }
@@ -280,7 +282,9 @@
       var current = selectedLineId
         ? preparedLines.find(function(line) { return line.id === selectedLineId; })
         : roleState.line;
-      if (!current || current.material !== roleState.material) {
+      if (roleState.awaitingChoice && !selectedLineId) {
+        current = null;
+      } else if (!current || current.material !== roleState.material) {
         current = products.length
           ? selector.strengthsFor(preparedLines, products[0])[0]
           : null;
@@ -288,19 +292,21 @@
       roleState.line = current;
 
       var currentProductKey = current ? selector.productKey(current) : "";
-      q(role + "-product").innerHTML = optionsHtml(products, currentProductKey, "key", function(product) {
+      q(role + "-product").innerHTML = '<option value="">Choose a line</option>' + optionsHtml(products, currentProductKey, "key", function(product) {
         return product.label;
       });
       var product = products.find(function(item) { return item.key === currentProductKey; }) || products[0];
+      if (!currentProductKey) product = null;
       var strengths = selector.strengthsFor(preparedLines, product);
       if (!strengths.some(function(line) { return current && line.id === current.id; })) current = strengths[0] || null;
       roleState.line = current;
-      q(role + "-strength").innerHTML = optionsHtml(strengths, current ? current.id : "", "id", function(line) {
+      q(role + "-strength").innerHTML = (strengths.length ? "" : '<option value="">Choose a line first</option>') + optionsHtml(strengths, current ? current.id : "", "id", function(line) {
         return strengthLabel(line);
       });
+      q(role + "-strength").disabled = !strengths.length;
       q(role + "-detail").textContent = current
         ? "Published diameter: " + formatNumber(inchesToDisplay(current.dia_in), state.unit === "metric" ? 3 : 4) + " " + (state.unit === "metric" ? "mm" : "in")
-        : "No usable line records are available for this selection.";
+        : "Choose the exact line and strength you plan to spool.";
       qa('[data-action="material"][data-line-role="' + role + '"]').forEach(function(button) {
         button.classList.toggle("active", button.dataset.material === roleState.material);
       });
@@ -345,7 +351,8 @@
           : "";
       }
       emit("reelcalc:custom-line-changed", { lineRole: role, enabled: roleState.custom });
-      calculate("custom_line_toggle", false);
+      updateSuggestedSummary();
+      calculateIfReady("custom_line_toggle");
     }
 
     function updateMode() {
@@ -465,13 +472,46 @@
       return Math.min(requested, adjusted);
     }
 
+    function genericSuggestedMainLine() {
+      return {
+        type: "Braid",
+        lb: defaults.mainLineLb,
+        dia_in: defaults.mainLineDiameterIn,
+        generic_recommendation: true
+      };
+    }
+
     function updateSuggestedSummary() {
-      var main = state.main.line;
-      var backing = state.backing.line;
-      if (!main || !backing) return;
+      var main = currentLine("main");
+      var backing = currentLine("backing");
       var yards = displayToYards(Number(q("main-yards").value));
+      if (!main || !backing) {
+        var mainStrength = state.unit === "metric"
+          ? formatNumber(core.lbToKg(defaults.mainLineLb), 1) + " kg"
+          : formatNumber(defaults.mainLineLb, 0) + " lb";
+        var backingStrength = state.unit === "metric"
+          ? formatNumber(core.lbToKg(defaults.backingLb), 1) + " kg"
+          : formatNumber(defaults.backingLb, 0) + " lb";
+        q("recommended-summary").textContent = mainStrength + " braid, " + lengthLabel(yards, 0) +
+          ", over " + backingStrength + " mono backing";
+        return;
+      }
       q("recommended-summary").textContent = lineLabel(main) + ", " + lengthLabel(yards, 0) +
         ", over " + lineLabel(backing) + " backing";
+    }
+
+    function calculateIfReady(interactionSource) {
+      var main = currentLine("main");
+      var backing = state.mode === "backing" ? currentLine("backing") : true;
+      if (main && backing) calculate(interactionSource, false);
+      else q("output").replaceChildren();
+    }
+
+    function applyPracticalMainLineAmount() {
+      if (preload.mainLineYards || state.mainYardsTouched) return;
+      var main = currentLine("main") || genericSuggestedMainLine();
+      q("main-yards").value = formatNumber(yardsToDisplay(recommendedMainYards(main)), 1);
+      updateSuggestedSummary();
     }
 
     function calculate(interactionSource, userInitiated) {
@@ -575,31 +615,26 @@
     }
 
     function useRecommendedSetup(userInitiated) {
-      var main = selector.findLine(preparedLines, "", preload.mainLineId || defaults.mainLineId) ||
-        selector.closestLine(preparedLines, {
-          material: "Braid",
-          lb: defaults.mainLineLb,
-          dia_in: defaults.mainLineDiameterIn
-        });
-      var backing = selector.findLine(preparedLines, "", preload.backingLineId || defaults.backingLineId) ||
-        selector.closestLine(preparedLines, {
-          material: "Monofilament",
-          lb: defaults.backingLb,
-          dia_in: defaults.backingDiameterIn
-        });
-      if (main) setRoleLine("main", main);
-      if (backing) setRoleLine("backing", backing);
+      var main = selector.findLine(preparedLines, "", preload.mainLineId || defaults.mainLineId);
+      var backing = selector.findLine(preparedLines, "", preload.backingLineId || defaults.backingLineId);
+      if (main) setRoleLine("main", main); else refreshRole("main");
+      if (backing) setRoleLine("backing", backing); else refreshRole("backing");
       state.mode = preload.mode === "capacity" ? "capacity" : "backing";
-      var suggestedMainYards = main ? recommendedMainYards(main) : (preload.mainLineYards || defaults.mainLineYards);
+      var suggestedMainYards = recommendedMainYards(main || genericSuggestedMainLine());
       q("main-yards").value = formatNumber(yardsToDisplay(suggestedMainYards), 1);
       updateSuggestedSummary();
+      shadow.querySelector('[data-action="recommended"]').hidden = !(main && (state.mode === "capacity" || backing));
       updateMode();
       if (userInitiated) emit("reelcalc:recommended-setup-loaded", {
         mainLineId: main ? main.id : "",
         backingLineId: backing ? backing.id : "",
         mode: state.mode
       });
-      calculate(userInitiated ? "recommended_setup" : "initial", !!userInitiated);
+      if (main && (state.mode === "capacity" || backing)) {
+        calculate(userInitiated ? "recommended_setup" : "initial", !!userInitiated);
+      } else {
+        q("output").replaceChildren();
+      }
     }
 
     shadow.addEventListener("click", function(event) {
@@ -616,9 +651,12 @@
         if (action === "material") {
           var role = button.dataset.lineRole;
           state[role].material = button.dataset.material;
+          state[role].line = null;
+          state[role].awaitingChoice = true;
           refreshRole(role);
           emit("reelcalc:line-selection-changed", { lineRole: role, selectionStage: "type", lineType: state[role].material });
-          calculate("line_type_change", false);
+          updateSuggestedSummary();
+          calculateIfReady("line_type_change");
         }
         if (action === "toggle-custom") toggleCustom(button.dataset.lineRole);
         if (action === "calculate") calculate("calculate_button", true);
@@ -652,8 +690,11 @@
           return item.key === event.target.value;
         });
         var nextLine = selector.strengthsFor(preparedLines, product)[0] || null;
+        state[role].awaitingChoice = !nextLine;
         state[role].line = nextLine;
         refreshRole(role, nextLine && nextLine.id);
+        if (role === "main") applyPracticalMainLineAmount();
+        updateSuggestedSummary();
         emit("reelcalc:line-selection-changed", {
           lineRole: role,
           selectionStage: "product",
@@ -662,11 +703,14 @@
           lineModel: nextLine ? nextLine.model : "",
           lineType: state[role].material
         });
-        calculate("line_product_change", false);
+        calculateIfReady("line_product_change");
       } else if (event.target.matches('[data-role$="-strength"]')) {
         role = event.target.dataset.role.replace("-strength", "");
         state[role].line = preparedLines.find(function(line) { return line.id === event.target.value; }) || null;
+        state[role].awaitingChoice = !state[role].line;
         refreshRole(role, state[role].line && state[role].line.id);
+        if (role === "main") applyPracticalMainLineAmount();
+        updateSuggestedSummary();
         emit("reelcalc:line-selection-changed", {
           lineRole: role,
           selectionStage: "strength",
@@ -676,9 +720,12 @@
           lineType: state[role].material,
           lineLb: state[role].line ? state[role].line.lb : 0
         });
-        calculate("line_strength_change", false);
+        calculateIfReady("line_strength_change");
       } else if (event.target.matches("input")) {
-        calculate("input_change", false);
+        if (event.target.matches('[data-role="main-yards"]')) state.mainYardsTouched = true;
+        if (event.target.matches('[data-role^="main-custom-"]')) applyPracticalMainLineAmount();
+        updateSuggestedSummary();
+        calculateIfReady("input_change");
       }
     });
 
