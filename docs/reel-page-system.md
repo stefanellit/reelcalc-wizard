@@ -53,6 +53,8 @@ Shared live-page files:
 
 Both `Capacity Only` and `Backing + Main Line` load their choices from `data/lines.json`. The user chooses Mono, Fluorocarbon, or Braid, then an actual brand/product and strength. A custom-line option remains available when a product is not listed.
 
+The page's suggested main-line amount is treated as a starting target. When that amount would consume more than 90% of the lower end of a braid capacity range, the shared calculator steps it down to a practical 25-yard increment so `Backing + Main Line` still leaves useful room for backing. An explicit `mainYards` URL parameter is never changed.
+
 Capacity basis is automatic:
 
 - Mono and fluorocarbon use the reel's published mono capacity and the selected line's stored diameter.

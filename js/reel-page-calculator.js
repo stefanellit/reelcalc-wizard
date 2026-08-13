@@ -122,7 +122,7 @@
       <div class="calculator">
         <p class="reel-name">Pre-loaded for ${escapeHtml(displayName(reel))}</p>
         <div class="starting-setup">
-          <strong>Suggested starting setup:</strong> ${escapeHtml(defaults.mainLineLb)} lb braid, ${escapeHtml(defaults.mainLineYards)} yards, over ${escapeHtml(defaults.backingLb)} lb mono backing. Using more backing can reduce how much premium line you need.
+          <strong>Suggested starting setup:</strong> <span data-role="recommended-summary">${escapeHtml(defaults.mainLineLb)} lb braid, ${escapeHtml(defaults.mainLineYards)} yards, over ${escapeHtml(defaults.backingLb)} lb mono backing</span>. Using more backing can reduce how much premium line you need.
           <button type="button" class="text-button small-button" data-action="recommended">Use suggested setup</button>
         </div>
         <div class="toolbar">
@@ -377,6 +377,7 @@
       qa('[data-role="diameter-unit"]').forEach(function(element) { element.textContent = toMetric ? "mm" : "in"; });
       qa('[data-role="ipt-unit"]').forEach(function(element) { element.textContent = toMetric ? "centimeters" : "inches"; });
       ["main", "backing"].forEach(function(role) { refreshRole(role, state[role].line && state[role].line.id); });
+      updateSuggestedSummary();
       setActiveButtons("unit", "unit", state.unit);
       calculate("unit_change", false);
     }
@@ -451,6 +452,26 @@
       return '<div class="savings"><strong>Estimated Line-Cost Savings: ' + label + "</strong><br>" +
         "Savings come from using lower-cost backing instead of filling the entire spool with premium line. " +
         "Estimate uses $0.10-$0.16 per yard for premium line and $0.01-$0.03 per yard for backing. Actual prices vary.</div>";
+    }
+
+    function recommendedMainYards(mainLine) {
+      var requested = preload.mainLineYards || defaults.mainLineYards;
+      if (preload.mainLineYards || state.mode !== "backing") return requested;
+      var range = core.calculateBraidCapacityRange(reel, mainLine);
+      var basis = core.capacityBasisForLine(reel, mainLine);
+      var practicalCapacity = range ? range.minimumYards : (basis && basis.capacityYards);
+      if (!(practicalCapacity > 0) || requested <= practicalCapacity * 0.9) return requested;
+      var adjusted = Math.max(25, Math.round(practicalCapacity * 0.75 / 25) * 25);
+      return Math.min(requested, adjusted);
+    }
+
+    function updateSuggestedSummary() {
+      var main = state.main.line;
+      var backing = state.backing.line;
+      if (!main || !backing) return;
+      var yards = displayToYards(Number(q("main-yards").value));
+      q("recommended-summary").textContent = lineLabel(main) + ", " + lengthLabel(yards, 0) +
+        ", over " + lineLabel(backing) + " backing";
     }
 
     function calculate(interactionSource, userInitiated) {
@@ -569,7 +590,9 @@
       if (main) setRoleLine("main", main);
       if (backing) setRoleLine("backing", backing);
       state.mode = preload.mode === "capacity" ? "capacity" : "backing";
-      q("main-yards").value = formatNumber(yardsToDisplay(preload.mainLineYards || defaults.mainLineYards), 1);
+      var suggestedMainYards = main ? recommendedMainYards(main) : (preload.mainLineYards || defaults.mainLineYards);
+      q("main-yards").value = formatNumber(yardsToDisplay(suggestedMainYards), 1);
+      updateSuggestedSummary();
       updateMode();
       if (userInitiated) emit("reelcalc:recommended-setup-loaded", {
         mainLineId: main ? main.id : "",
@@ -703,6 +726,10 @@
         selector: values[1],
         affiliates: values[2]
       });
+      var introduction = mount.previousElementSibling;
+      if (introduction && introduction.tagName === "P") {
+        introduction.textContent = "This calculator is pre-loaded for the exact reel shown on this page. Choose the actual line you plan to spool and ReelCalc automatically uses the appropriate published mono or braid capacity. In backing mode, the suggested main-line amount adjusts when needed to leave practical room for backing. The handle-turn estimate uses the reel's published retrieve when available.";
+      }
     }).catch(function(error) {
       renderLoadError(mount, "The ReelCalc calculator could not load. " + error.message);
     });
