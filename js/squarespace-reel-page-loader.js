@@ -71,6 +71,7 @@
       "wizard_unit_changed",
       "wizard_reel_not_found",
       "reel_affiliate_clicked",
+      "line_affiliate_clicked",
       "reelcalc_data_error"
     ]);
     var allowedParameters = new Set([
@@ -84,7 +85,8 @@
       "line_type", "line_lb", "line_diameter_mm", "unit_system",
       "backing_used", "backing_mode", "desired_main_yards", "main_line_type",
       "main_line_lb", "backing_line_id", "backing_type", "backing_lb",
-      "backing_diameter_mm", "data_area"
+      "backing_diameter_mm", "data_area", "affiliate_context",
+      "required_line_yards", "suggested_spool_yards"
     ]);
 
     window.addEventListener("message", function(event) {

@@ -613,6 +613,60 @@ button {
   color: var(--muted);
 }
 
+.line-affiliate-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px 18px;
+  border: 1px solid rgba(23, 92, 79, 0.28);
+  border-radius: 8px;
+  background: #f2f8f5;
+  padding: 14px;
+}
+
+.line-affiliate-copy {
+  min-width: 0;
+}
+
+.line-affiliate-copy strong {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.line-affiliate-copy p {
+  margin: 5px 0 0;
+  color: var(--muted);
+}
+
+.line-affiliate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  max-width: 300px;
+  border: 1px solid var(--teal);
+  border-radius: 8px;
+  background: var(--teal);
+  color: #ffffff;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+}
+
+.line-affiliate-button:hover {
+  transform: translateY(-1px);
+}
+
+.line-affiliate-disclosure {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
 .estimate-note {
   border-left: 3px solid var(--teal);
   background: rgba(37, 53, 81, 0.06);
@@ -881,6 +935,15 @@ button {
 
   .capacity-hero {
     flex-direction: column;
+  }
+
+  .line-affiliate-card {
+    grid-template-columns: 1fr;
+  }
+
+  .line-affiliate-button {
+    max-width: none;
+    width: 100%;
   }
 
   .handle-turn-heading {

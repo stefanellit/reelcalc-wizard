@@ -145,6 +145,28 @@ function bindEvents() {
       match_type: link.dataset.matchType || ""
     });
   });
+  el.capacityResult.addEventListener("click", function(event) {
+    var link = event.target.closest("[data-line-affiliate-link]");
+    if (!link) return;
+    var setup = state.selectedSetup;
+    var line = getActiveMainLine();
+    var recommendationIndex = setup
+      ? state.recommendations.findIndex(function(item) {
+        return item === setup || (item.line && setup.line && item.line.id === setup.line.id && item.useCase === setup.useCase);
+      })
+      : -1;
+    trackWizardEvent("line_affiliate_clicked", Object.assign({
+      page_type: "setup_wizard",
+      placement: "wizard_recommendation_result",
+      affiliate_context: "generic_recommendation",
+      retailer: link.dataset.retailer || "",
+      match_type: link.dataset.matchType || "generic_search",
+      required_line_yards: Number(link.dataset.requiredYards) || 0,
+      suggested_spool_yards: Number(link.dataset.spoolYards) || 0,
+      recommendation_rank: recommendationIndex >= 0 ? recommendationIndex + 1 : 0,
+      recommendation_type: setup && setup.useCase ? setup.useCase : ""
+    }, reelEventParameters(getActiveReel()), lineEventParameters(line)));
+  });
 
   el.manualReelToggle.addEventListener("click", function() {
     state.useManualReel = !state.useManualReel;
@@ -1369,6 +1391,46 @@ function handleTurnEstimateHtml(parts) {
   return html;
 }
 
+function formatRetailSpoolLength(yards) {
+  var value = Number(yards);
+  if (!Number.isFinite(value)) return "";
+  if (isMetric()) {
+    return formatNumber(value / YARDS_PER_METER, 0) + " m (" + formatNumber(value, 0) + " yd)";
+  }
+  return formatNumber(value, 0) + " yd";
+}
+
+function recommendationAffiliateHtml(line, fullCapacity) {
+  if (state.path !== "recommend" || !state.selectedSetup || !line ||
+      !window.ReelCalcAffiliateLinks || !state.affiliateData) return "";
+
+  var requiredYards = state.backingMode === "yes"
+    ? Number(state.desiredMainYards)
+    : Number(fullCapacity);
+  if (!(requiredYards > 0)) return "";
+
+  var offer = window.ReelCalcAffiliateLinks.buildRecommendedLineOffer({
+    affiliateData: state.affiliateData,
+    line: line,
+    requiredYards: requiredYards
+  });
+  if (!offer) return "";
+
+  var lineLabel = formatGenericLineShort(line);
+  var setupDescription = state.backingMode === "yes"
+    ? "Your backing setup uses about " + formatLength(requiredYards, 0, true) + " of main line."
+    : "A full spool is estimated to use about " + formatLength(requiredYards, 0, true) + ".";
+  var buttonLabel = "Shop " + formatRetailSpoolLength(offer.suggestedSpoolYards) + " " + lineLabel + " options";
+  var html = "<section class=\"line-affiliate-card\" aria-label=\"Shop the recommended main line\">";
+  html += "<div class=\"line-affiliate-copy\"><span class=\"eyebrow\">Shop this main-line setup</span>";
+  html += "<strong>Look for at least " + escapeHtml(formatRetailSpoolLength(offer.suggestedSpoolYards)) + " of " + escapeHtml(lineLabel) + "</strong>";
+  html += "<p>" + escapeHtml(setupDescription) + " This brand-neutral search includes a small allowance for normal spool-fill variation.</p></div>";
+  html += "<a class=\"line-affiliate-button\" href=\"" + escapeHtml(offer.url) + "\" target=\"_blank\" rel=\"sponsored nofollow noopener\" data-line-affiliate-link data-retailer=\"" + escapeHtml(offer.retailerId) + "\" data-match-type=\"" + escapeHtml(offer.matchType) + "\" data-required-yards=\"" + escapeHtml(String(Number(requiredYards.toFixed(1)))) + "\" data-spool-yards=\"" + escapeHtml(String(offer.suggestedSpoolYards)) + "\">" + escapeHtml(buttonLabel) + "</a>";
+  html += "<span class=\"line-affiliate-disclosure\">" + escapeHtml(offer.disclosure) + "</span>";
+  html += "</section>";
+  return html;
+}
+
 function renderCapacityResult() {
   var reel = getActiveReel();
   var line = getActiveMainLine();
@@ -1409,6 +1471,7 @@ function renderCapacityResult() {
   html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>Rated at " + formatReelRating(reel) + " line.</p></div>";
   html += "<div class=\"capacity-detail-card\"><span>Line used</span><strong>" + escapeHtml(lineLabel) + "</strong><p>Diameter: " + formatDiameterWithUnit(line.dia_in) + ".</p></div>";
   html += "</div>";
+  html += recommendationAffiliateHtml(line, capacity);
   if (state.backingMode !== "yes") {
     html += handleTurnEstimateHtml([{ kind: "main-line", label: formatActiveLineShort(line), yards: capacity }]);
   }

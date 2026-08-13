@@ -9,12 +9,16 @@
       "name": "Amazon",
       "affiliateNetwork": "Amazon Associates",
       "affiliateTag": "reelcalc-20",
+      "searchUrl": "https://www.amazon.com/s",
+      "searchQueryParameter": "k",
+      "affiliateTagParameter": "tag",
       "allowedHosts": [
         "amazon.com",
         "amzn.to"
       ],
       "directLabel": "Check Current Price on Amazon",
       "searchLabel": "Search Amazon for This Reel",
+      "lineSearchLabel": "Shop Recommended Line on Amazon",
       "disclosure": "As an Amazon Associate, ReelCalc earns from qualifying purchases."
     }
   },
