@@ -34,6 +34,8 @@ The one-time Squarespace embed is saved at `generated/reel-guide-list-squarespac
 - index.html - loader HTML and wizard layout. It only links external CSS, JavaScript, and JSON data files.
 - css/wizard.css - responsive ReelCalc wizard styling.
 - js/calculator-core.js - calculator math, unit conversion helpers, capacity math, and backing math.
+- js/line-selector.js - shared actual-line validation, filtering, sorting, and URL preload helpers.
+- js/affiliate-links.js - shared product-aware retailer search and retail-spool sizing.
 - js/wizard.js - page behavior, filters, recommendations, manual-entry UI, and rendering.
 - data/reels.json - normalized reel data generated from the provided brand master files.
 - data/lines.json - normalized line data generated from the provided line master file.
@@ -99,6 +101,11 @@ The live GitHub repository does not use exactly the same CSS folder layout as th
 | `index.html` | `index.html` |
 | `css/wizard.css` | `wizard.css` at the repository root |
 | `js/calculator-core.js` | `js/calculator-core.js` |
+| `js/line-selector.js` | `js/line-selector.js` |
+| `js/affiliate-links.js` | `js/affiliate-links.js` |
+| `js/reel-page-calculator.js` | `js/reel-page-calculator.js` |
+| `js/reel-page-runtime.js` | `js/reel-page-runtime.js` |
+| `js/squarespace-reel-page-loader.js` | `js/squarespace-reel-page-loader.js` |
 | `js/recommendation-engine.js` | `js/recommendation-engine.js` |
 | `js/wizard.js` | `js/wizard.js` |
 | `data/reels.json` | `data/reels.json` |
@@ -124,7 +131,7 @@ Then place the index.html body markup in a Code Block and update the asset paths
 
 ## Calculator Math
 
-The wizard reuses the existing ReelCalc formula:
+Mono and fluorocarbon reuse the existing ReelCalc formula:
 
 ~~~text
 totalSpoolSpace = reel.capacity_yards * reel.rated_line_diameter_in^2
@@ -138,3 +145,5 @@ mainLineSpace = desiredMainLineYards * selectedLine.dia_in^2
 backingSpace = totalSpoolSpace - mainLineSpace
 backingYards = backingSpace / backingLine.dia_in^2
 ~~~
+
+For braid, a usable manufacturer-published braid rating is preferred over mono conversion. Exact strength matches use the published yardage; strengths between ratings use the shared interpolation logic. Reel pages show a practical range because braid diameter and packing vary. When no usable braid rating exists, ReelCalc labels the wider mono-derived fallback instead of inventing a braid rating.

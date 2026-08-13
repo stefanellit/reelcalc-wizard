@@ -6,388 +6,52 @@
   var assetBase = loaderScript.dataset.assetBase
     ? new URL(loaderScript.dataset.assetBase, document.baseURI)
     : new URL("../", scriptUrl);
-  var reelCache = new Map();
-  var corePromise = null;
+  var jsonCache = new Map();
+  var scriptCache = new Map();
 
-  function loadCore() {
-    if (window.ReelCalcCore) return Promise.resolve(window.ReelCalcCore);
-    if (corePromise) return corePromise;
-
-    corePromise = new Promise(function(resolve, reject) {
-      var script = document.createElement("script");
-      script.src = new URL("js/calculator-core.js", assetBase).href;
-      script.onload = function() {
-        if (window.ReelCalcCore) resolve(window.ReelCalcCore);
-        else reject(new Error("Calculator core loaded without ReelCalcCore."));
-      };
-      script.onerror = function() {
-        reject(new Error("Calculator core could not be loaded."));
-      };
-      document.head.appendChild(script);
-    });
-
-    return corePromise;
+  function assetUrl(path) {
+    return new URL(path, assetBase).href;
   }
 
-  function loadReels(url) {
-    if (!reelCache.has(url)) {
-      reelCache.set(url, fetch(url, { credentials: "omit" }).then(function(response) {
-        if (!response.ok) throw new Error("Reel data returned HTTP " + response.status + ".");
+  function loadScript(path, globalName) {
+    if (globalName && window[globalName]) return Promise.resolve(window[globalName]);
+    var url = assetUrl(path);
+    if (scriptCache.has(url)) return scriptCache.get(url);
+    var promise = new Promise(function(resolve, reject) {
+      var existing = Array.from(document.scripts).find(function(script) {
+        return script.src === url;
+      });
+      var script = existing || document.createElement("script");
+      function complete() {
+        if (!globalName || window[globalName]) resolve(globalName ? window[globalName] : true);
+        else reject(new Error(path + " loaded without " + globalName + "."));
+      }
+      script.addEventListener("load", complete, { once: true });
+      script.addEventListener("error", function() {
+        reject(new Error(path + " could not be loaded."));
+      }, { once: true });
+      if (!existing) {
+        script.src = url;
+        script.dataset.assetBase = assetBase.href;
+        document.head.appendChild(script);
+      }
+    });
+    scriptCache.set(url, promise);
+    return promise;
+  }
+
+  function loadJson(url) {
+    if (!jsonCache.has(url)) {
+      jsonCache.set(url, fetch(url, { credentials: "omit" }).then(function(response) {
+        if (!response.ok) throw new Error("Data returned HTTP " + response.status + ".");
         return response.json();
-      }).then(function(data) {
-        if (!Array.isArray(data)) throw new Error("Reel data is not an array.");
-        return data;
       }));
     }
-    return reelCache.get(url);
-  }
-
-  function renderLoadError(mount, message) {
-    mount.innerHTML = "";
-    var box = document.createElement("div");
-    box.className = "reelcalc-page-status";
-    box.setAttribute("role", "status");
-    box.textContent = message;
-    mount.appendChild(box);
-  }
-
-  function calculatorTemplate(reel, defaults) {
-    var startingSetup = defaults.showStartingSetup
-      ? '<p class="starting-setup"><strong>Suggested starting setup:</strong> ' +
-        escapeHtml(defaults.mainLineLb) + " lb braid, " +
-        escapeHtml(defaults.mainLineYards) + " yards, over " +
-        escapeHtml(defaults.backingLb) + " lb monofilament backing. " +
-        "Using more backing can reduce how much premium line you need.</p>"
-      : "";
-    return `
-      <style>
-        :host {
-          color: #1f2528;
-          display: block;
-          font-family: Arial, sans-serif;
-        }
-        * { box-sizing: border-box; }
-        .calculator-container {
-          margin: 20px auto;
-          max-width: 600px;
-          padding: 20px;
-        }
-        label {
-          display: block;
-          font-weight: bold;
-          letter-spacing: 0;
-          margin-top: 15px;
-        }
-        .info-btn {
-          background: transparent;
-          border: 0;
-          color: inherit;
-          cursor: pointer;
-          display: inline;
-          font-size: 14px;
-          margin: 0 0 0 6px;
-          opacity: 0.7;
-          padding: 0;
-          width: auto;
-        }
-        .info-btn:hover { opacity: 1; }
-        input {
-          background: #ffffff;
-          border: 1px solid #cccccc;
-          border-radius: 8px;
-          color: #111111;
-          font: inherit;
-          margin-top: 5px;
-          padding: 8px;
-          width: 100%;
-        }
-        input:disabled {
-          background: rgba(0, 0, 0, 0.06);
-          cursor: not-allowed;
-          opacity: 0.75;
-        }
-        .calculate-btn,
-        .modal button {
-          background: #4caf50;
-          border: 0;
-          border-radius: 8px;
-          color: #ffffff;
-          cursor: pointer;
-          font-size: 16px;
-          font-weight: bold;
-          margin-top: 20px;
-          padding: 10px;
-          width: 100%;
-        }
-        .calculate-btn:hover { background: #3f9343; }
-        .output {
-          background: rgba(0, 0, 0, 0.05);
-          border-radius: 8px;
-          margin-top: 20px;
-          min-height: 48px;
-          padding: 12px;
-          white-space: normal;
-        }
-        .output:empty { display: none; }
-        .savings-box {
-          background: rgba(76, 175, 80, 0.1);
-          border-left: 4px solid #4caf50;
-          border-radius: 6px;
-          font-size: 15px;
-          margin-top: 15px;
-          padding: 12px;
-        }
-        .turns-box {
-          border-top: 1px solid #cfd4d6;
-          margin-top: 16px;
-          padding-top: 16px;
-        }
-        .turns-note {
-          display: block;
-          font-size: 13px;
-          margin-top: 10px;
-          opacity: 0.78;
-        }
-        .toggle-row {
-          align-items: center;
-          display: flex;
-          flex-wrap: wrap;
-          font-weight: bold;
-          gap: 10px;
-          justify-content: center;
-          margin: 10px 0 12px;
-        }
-        .toggle-subtext {
-          font-size: 13px;
-          margin: -4px 0 14px;
-          opacity: 0.75;
-          text-align: center;
-        }
-        .segmented {
-          background: rgba(0, 0, 0, 0.06);
-          border: 1px solid rgba(0, 0, 0, 0.1);
-          border-radius: 999px;
-          display: flex;
-          max-width: 520px;
-          padding: 3px;
-          width: 100%;
-        }
-        .seg-btn {
-          background: transparent;
-          border: 0;
-          border-radius: 999px;
-          color: rgba(0, 0, 0, 0.65);
-          cursor: pointer;
-          flex: 1;
-          font-size: 13px;
-          font-weight: 800;
-          margin: 0;
-          min-width: 0;
-          padding: 10px 12px;
-        }
-        .seg-btn.active[data-unit="standard"] {
-          background: rgba(231, 76, 60, 0.26);
-          color: rgba(0, 0, 0, 0.82);
-        }
-        .seg-btn.active[data-unit="metric"] {
-          background: rgba(52, 152, 219, 0.26);
-          color: rgba(0, 0, 0, 0.82);
-        }
-        .seg-btn.active[data-mode="backing"] {
-          background: linear-gradient(90deg, rgba(52, 152, 219, 0.26), rgba(46, 204, 113, 0.26), rgba(155, 89, 182, 0.26));
-          color: rgba(0, 0, 0, 0.82);
-        }
-        .seg-btn.active[data-mode="capacity"] {
-          background: linear-gradient(90deg, rgba(52, 152, 219, 0.26), rgba(46, 204, 113, 0.26));
-          color: rgba(0, 0, 0, 0.82);
-        }
-        .mode-badge {
-          border: 1px solid rgba(0, 0, 0, 0.08);
-          border-radius: 999px;
-          color: #0b1b17;
-          display: inline-block;
-          font-size: 12px;
-          font-weight: 800;
-          margin-right: 8px;
-          padding: 3px 10px;
-          vertical-align: middle;
-        }
-        .badge-capacity {
-          background: linear-gradient(90deg, rgba(52, 152, 219, 0.35), rgba(46, 204, 113, 0.35));
-        }
-        .badge-backing {
-          background: linear-gradient(90deg, rgba(52, 152, 219, 0.35), rgba(46, 204, 113, 0.35), rgba(155, 89, 182, 0.35));
-        }
-        .calc-group {
-          border: 1px solid #e6e6e6;
-          border-radius: 12px;
-          margin-top: 18px;
-          padding: 14px 14px 10px 18px;
-          position: relative;
-        }
-        .calc-group h3 {
-          font-size: 14px;
-          font-weight: 700;
-          letter-spacing: 0;
-          margin: 0 0 8px;
-        }
-        .calc-group::before {
-          border-radius: 10px;
-          bottom: 10px;
-          content: "";
-          left: 0;
-          position: absolute;
-          top: 10px;
-          width: 6px;
-        }
-        .group-reel {
-          background: rgba(52, 152, 219, 0.08);
-          border-color: rgba(52, 152, 219, 0.25);
-        }
-        .group-reel::before { background: #3498db; }
-        .group-premium {
-          background: rgba(46, 204, 113, 0.08);
-          border-color: rgba(46, 204, 113, 0.25);
-        }
-        .group-premium::before { background: #2ecc71; }
-        .group-backing {
-          background: rgba(155, 89, 182, 0.08);
-          border-color: rgba(155, 89, 182, 0.25);
-        }
-        .group-backing::before { background: #9b59b6; }
-        .modal-overlay {
-          align-items: center;
-          background: rgba(0, 0, 0, 0.6);
-          display: none;
-          inset: 0;
-          justify-content: center;
-          position: fixed;
-          z-index: 9999;
-        }
-        .modal {
-          background: #ffffff;
-          border-radius: 12px;
-          color: #000000;
-          max-width: 420px;
-          padding: 20px;
-          width: 90%;
-        }
-        .modal h3,
-        .modal p { color: #000000; }
-        .modal h3 { margin: 0 0 10px; }
-        .modal button { background: #444444; }
-        .reel-name {
-          color: #5e666a;
-          font-size: 13px;
-          margin: 0 0 8px;
-          text-align: center;
-        }
-        .starting-setup {
-          background: rgba(46, 125, 50, 0.08);
-          border-left: 4px solid #2e7d32;
-          border-radius: 6px;
-          color: #26332b;
-          font-size: 13px;
-          line-height: 1.5;
-          margin: 0 0 14px;
-          padding: 10px 12px;
-        }
-        .hidden { display: none !important; }
-        @media (max-width: 520px) {
-          .calculator-container { padding: 8px 0; }
-          .seg-btn {
-            font-size: 12px;
-            padding: 10px 7px;
-          }
-        }
-      </style>
-      <div class="calculator-container">
-        <p class="reel-name">Pre-loaded for ${escapeHtml(displayName(reel))}</p>
-        ${startingSetup}
-        <div class="toggle-row">
-          <div class="segmented" data-role="unit-segment" aria-label="Units">
-            <button type="button" class="seg-btn active" data-unit="standard">Standard</button>
-            <button type="button" class="seg-btn" data-unit="metric">Metric</button>
-          </div>
-        </div>
-        <div class="toggle-row">
-          <div class="segmented" data-role="mode-segment" aria-label="Calculator mode">
-            <button type="button" class="seg-btn active" data-mode="backing">Backing + Working Line</button>
-            <button type="button" class="seg-btn" data-mode="capacity">Capacity Only</button>
-          </div>
-          <button type="button" class="info-btn" data-info="modes" aria-label="About calculator modes">i</button>
-        </div>
-        <div class="toggle-subtext" data-role="mode-subtext">
-          <span class="mode-badge badge-backing">BACKING MODE</span>
-          Backing mode is selected: calculate backing + your chosen working line length.
-        </div>
-        <div class="calc-group group-reel">
-          <h3>Reel Specs</h3>
-          <div data-role="reel-lb-wrap">
-            <label>
-              Reel rated mono lb test
-              <button type="button" class="info-btn" data-info="reel-lb" aria-label="About rated mono pound test">i</button>
-            </label>
-            <input data-role="reel-lb" type="number" inputmode="decimal">
-          </div>
-          <div class="hidden" data-role="reel-dia-wrap">
-            <label>
-              Reel rated mono diameter (mm)
-              <button type="button" class="info-btn" data-info="reel-dia" aria-label="About rated mono diameter">i</button>
-            </label>
-            <input data-role="reel-dia" type="number" inputmode="decimal" step="0.01">
-          </div>
-          <label>
-            Reel capacity (<span data-role="length-unit">yards</span>)
-            <button type="button" class="info-btn" data-info="reel-capacity" aria-label="About reel capacity">i</button>
-          </label>
-          <input data-role="reel-yards" type="number" inputmode="decimal">
-        </div>
-        <div class="calc-group group-premium">
-          <h3>Premium Line</h3>
-          <label>
-            Braid/Fluoro line (<span data-role="length-unit">yards</span>)
-            <button type="button" class="info-btn" data-info="premium-length" aria-label="About premium line length">i</button>
-          </label>
-          <input data-role="good-yards" type="number" inputmode="decimal" value="${escapeHtml(defaults.mainLineYards)}" placeholder="Example: 50">
-          <label>
-            Braid/Fluoro line diameter (<span data-role="dia-unit">in</span>)
-            <button type="button" class="info-btn" data-info="premium-dia" aria-label="About premium line diameter">i</button>
-          </label>
-          <input data-role="good-dia" type="number" inputmode="decimal" step="0.001" value="${escapeHtml(defaults.mainLineDiameterIn)}">
-        </div>
-        <div class="calc-group group-backing" data-role="backing-group">
-          <h3>Backing</h3>
-          <label>
-            Backing diameter (<span data-role="dia-unit">in</span>)
-            <button type="button" class="info-btn" data-info="backing-dia" aria-label="About backing diameter">i</button>
-          </label>
-          <input data-role="back-dia" type="number" inputmode="decimal" step="0.001" value="${escapeHtml(defaults.backingDiameterIn)}">
-        </div>
-        <button type="button" class="calculate-btn" data-role="calculate">Calculate</button>
-        <label>
-          Reel <span data-role="ipt-unit">inches</span> per turn (optional)
-          <button type="button" class="info-btn" data-info="ipt" aria-label="About line retrieve per turn">i</button>
-        </label>
-        <input data-role="reel-ipt" type="number" inputmode="decimal" step="0.1" placeholder="Optional">
-        <div class="output" data-role="output" aria-live="polite"></div>
-      </div>
-      <div class="modal-overlay" data-role="modal-overlay">
-        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="reelcalc-modal-title">
-          <h3 id="reelcalc-modal-title" data-role="modal-title"></h3>
-          <p data-role="modal-text"></p>
-          <button type="button" data-role="modal-close">Close</button>
-        </div>
-      </div>
-    `;
-  }
-
-  function displayName(reel) {
-    return [reel.brand, reel.model, reel.size_label].filter(Boolean).join(" ");
+    return jsonCache.get(url);
   }
 
   function escapeHtml(value) {
-    return String(value)
+    return String(value == null ? "" : value)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
@@ -395,435 +59,618 @@
       .replace(/'/g, "&#039;");
   }
 
-  function calculatorDefaults(mount) {
-    var mainLineLb = Number(mount.dataset.mainLineLb);
-    var mainLineYards = Number(mount.dataset.mainLineYards);
-    var mainLineDiameterIn = Number(mount.dataset.mainLineDiameterIn);
-    var backingLb = Number(mount.dataset.backingLb);
-    var backingDiameterIn = Number(mount.dataset.backingDiameterIn);
-    var showStartingSetup =
-      mainLineLb > 0 &&
-      mainLineYards > 0 &&
-      mainLineDiameterIn > 0 &&
-      backingLb > 0 &&
-      backingDiameterIn > 0;
+  function displayName(reel) {
+    return [reel.brand, reel.model, reel.size_label || reel.size_class].filter(Boolean).join(" ");
+  }
 
+  function renderLoadError(mount, message) {
+    mount.innerHTML = '<div class="reelcalc-page-status" role="status">' + escapeHtml(message) + "</div>";
+  }
+
+  function defaultsForMount(mount) {
     return {
-      mainLineLb: mainLineLb > 0 ? mainLineLb : "",
-      mainLineYards: mainLineYards > 0 ? mainLineYards : 50,
-      mainLineDiameterIn: mainLineDiameterIn > 0 ? mainLineDiameterIn : 0.009,
-      backingLb: backingLb > 0 ? backingLb : "",
-      backingDiameterIn: backingDiameterIn > 0 ? backingDiameterIn : 0.012,
-      showStartingSetup: showStartingSetup
+      mainLineLb: Number(mount.dataset.mainLineLb) || 15,
+      mainLineYards: Number(mount.dataset.mainLineYards) || 150,
+      mainLineDiameterIn: Number(mount.dataset.mainLineDiameterIn) || 0.008,
+      backingLb: Number(mount.dataset.backingLb) || 10,
+      backingDiameterIn: Number(mount.dataset.backingDiameterIn) || 0.012,
+      mainLineId: mount.dataset.mainLineId || "",
+      backingLineId: mount.dataset.backingLineId || ""
     };
   }
 
-  function mountCalculator(mount, reel, core) {
-    var shadow = mount.shadowRoot || mount.attachShadow({ mode: "open" });
-    var defaults = calculatorDefaults(mount);
-    shadow.innerHTML = calculatorTemplate(reel, defaults);
+  function lineSelectorTemplate(role, title, material) {
+    return `
+      <div class="line-selector" data-role="${role}-selector">
+        <div class="line-selector-head">
+          <h3>${escapeHtml(title)}</h3>
+          <button type="button" class="text-button" data-action="toggle-custom" data-line-role="${role}" aria-pressed="false">My line isn't listed</button>
+        </div>
+        <div class="material-tabs" role="group" aria-label="${escapeHtml(title)} type">
+          <button type="button" data-action="material" data-line-role="${role}" data-material="Monofilament" class="material-button${material === "Monofilament" ? " active" : ""}">Mono</button>
+          <button type="button" data-action="material" data-line-role="${role}" data-material="Fluorocarbon" class="material-button${material === "Fluorocarbon" ? " active" : ""}">Fluorocarbon</button>
+          <button type="button" data-action="material" data-line-role="${role}" data-material="Braid" class="material-button${material === "Braid" ? " active" : ""}">Braid</button>
+        </div>
+        <div data-role="${role}-database-fields">
+          <label for="${role}-product">Brand / line</label>
+          <select id="${role}-product" data-role="${role}-product"></select>
+          <label for="${role}-strength">Strength</label>
+          <select id="${role}-strength" data-role="${role}-strength"></select>
+          <p class="selection-detail" data-role="${role}-detail"></p>
+        </div>
+        <div class="custom-fields hidden" data-role="${role}-custom-fields">
+          <div class="field-grid">
+            <div>
+              <label for="${role}-custom-lb">Strength (<span data-role="strength-unit">lb</span>)</label>
+              <input id="${role}-custom-lb" data-role="${role}-custom-lb" type="number" inputmode="decimal" min="0.1" step="0.1">
+            </div>
+            <div>
+              <label for="${role}-custom-dia">Diameter (<span data-role="diameter-unit">in</span>)</label>
+              <input id="${role}-custom-dia" data-role="${role}-custom-dia" type="number" inputmode="decimal" min="0.001" step="0.001">
+            </div>
+          </div>
+          <p class="selection-detail">Use the published diameter for your exact line. Custom braid estimates may have a wider range.</p>
+        </div>
+      </div>`;
+  }
 
+  function calculatorTemplate(reel, defaults) {
+    return `
+      <style>
+        :host{color:#1f2528;display:block;font-family:Arial,sans-serif;--green:#2f7d32;--green-dark:#256728;--blue:#24688f;--border:#d8dee2;--soft:#f4f7f6;--muted:#5e666a}*{box-sizing:border-box}.calculator{margin:18px auto;max-width:720px;padding:14px 0}.reel-name{color:var(--muted);font-size:13px;margin:0 0 10px;text-align:center}.starting-setup{background:#eef7ef;border-left:4px solid var(--green);border-radius:6px;font-size:13px;line-height:1.5;margin:0 0 14px;padding:11px 12px}.starting-setup .small-button{margin-left:6px}.toolbar{display:grid;gap:10px;margin-bottom:14px}.segmented{background:#f0f2f2;border:1px solid var(--border);border-radius:8px;display:grid;grid-template-columns:1fr 1fr;padding:3px}.segment-button,.material-button{background:transparent;border:0;border-radius:6px;color:#4f585c;cursor:pointer;font:inherit;font-size:13px;font-weight:800;min-height:42px;padding:8px}.segment-button.active,.material-button.active{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.12);color:#1f2528}.mode-note{color:var(--muted);font-size:13px;margin:0;text-align:center}.guidance{align-items:center;background:#f2f7fa;border-left:4px solid var(--blue);display:flex;font-size:13px;gap:8px;line-height:1.45;margin:14px 0;padding:10px 12px}.info-button{background:transparent;border:1px solid #8a969b;border-radius:50%;color:#344247;cursor:pointer;flex:0 0 auto;font-size:12px;font-weight:800;height:22px;margin:0;padding:0;width:22px}.line-selector{border:1px solid var(--border);border-radius:8px;margin-top:14px;padding:14px}.main-selector{border-left:5px solid var(--green)}.backing-selector{border-left:5px solid #6d5b91}.line-selector-head{align-items:center;display:flex;gap:10px;justify-content:space-between}.line-selector h3{font-size:16px;letter-spacing:0;margin:0}.text-button{background:transparent;border:0;color:#215e86;cursor:pointer;font-size:12px;font-weight:700;padding:5px;text-decoration:underline;text-underline-offset:3px}.text-button.active{color:#7a3f17}.material-tabs{display:grid;gap:5px;grid-template-columns:repeat(3,minmax(0,1fr));margin:12px 0}.material-button{border:1px solid var(--border);min-width:0}.material-button.active{background:#e9f4ea;border-color:#80aa83;box-shadow:none;color:#1f5622}label{display:block;font-size:13px;font-weight:700;letter-spacing:0;margin:10px 0 4px}select,input{background:#fff;border:1px solid #bcc5c9;border-radius:6px;color:#111;font:inherit;min-height:44px;padding:8px;width:100%}select:focus,input:focus,button:focus-visible{outline:3px solid rgba(36,104,143,.2);outline-offset:1px}.selection-detail{color:var(--muted);font-size:12px;line-height:1.45;margin:7px 0 0}.field-grid{display:grid;gap:10px;grid-template-columns:1fr 1fr}.length-field{background:var(--soft);border-radius:8px;margin:12px 0 0;padding:12px}.calculate-button{background:var(--green);border:0;border-radius:7px;color:#fff;cursor:pointer;font-size:16px;font-weight:800;margin-top:16px;min-height:48px;padding:11px 16px;width:100%}.calculate-button:hover{background:var(--green-dark)}.advanced{border-top:1px solid var(--border);margin-top:16px;padding-top:12px}.advanced summary{color:var(--muted);cursor:pointer;font-size:13px;font-weight:700}.output{margin-top:18px;min-height:48px}.output:empty{display:none}.result{border:1px solid var(--border);border-radius:8px;overflow:hidden}.result-head{background:#edf6ee;border-left:6px solid var(--green);padding:16px}.result-kicker{color:#315c34;display:block;font-size:12px;font-weight:800;text-transform:uppercase}.result-number{color:#235e27;display:block;font-size:32px;font-weight:900;line-height:1.15;margin-top:4px}.result-subtitle{margin:5px 0 0}.basis{align-items:flex-start;background:#f5f7f8;display:flex;font-size:13px;gap:8px;padding:11px 14px}.setup-summary{display:grid;gap:1px;background:var(--border);grid-template-columns:1fr 1fr}.summary-item{background:#fff;padding:13px}.summary-item span{color:var(--muted);display:block;font-size:12px}.summary-item strong{display:block;font-size:14px;margin-top:3px}.result-note{color:var(--muted);font-size:12px;line-height:1.5;margin:0;padding:12px 14px}.affiliate-grid{border-top:1px solid var(--border);display:grid;gap:10px;padding:14px}.affiliate-card{background:#f7f8f8;border:1px solid var(--border);border-radius:7px;padding:12px}.affiliate-card strong{display:block;font-size:14px}.affiliate-card p{color:var(--muted);font-size:12px;margin:5px 0 10px}.affiliate-link{align-items:center;background:var(--green);border-radius:6px;color:#fff!important;display:inline-flex;font-size:13px;font-weight:800;min-height:40px;padding:9px 12px;text-decoration:none!important}.disclosure{color:var(--muted);display:block;font-size:10px;line-height:1.4;margin-top:8px}.savings{background:#eef7ef;border-left:4px solid var(--green);font-size:13px;line-height:1.5;margin:12px 14px;padding:10px 12px}.turns{border-top:1px solid var(--border);font-size:13px;line-height:1.6;padding:13px 14px}.error{background:#fff8e5;border:1px solid #d7a72f;border-radius:7px;color:#5f4607;padding:13px}.hidden{display:none!important}.modal-overlay{align-items:center;background:rgba(0,0,0,.6);display:none;inset:0;justify-content:center;position:fixed;z-index:9999}.modal{background:#fff;border-radius:8px;color:#1f2528;max-width:440px;padding:20px;width:90%}.modal h3{font-size:18px;margin:0 0 10px}.modal p{line-height:1.55;margin:0}.modal-close{background:#3e484c;border:0;border-radius:6px;color:#fff;cursor:pointer;font-weight:700;margin-top:18px;min-height:42px;width:100%}@media(max-width:520px){.calculator{padding:4px 0}.segment-button,.material-button{font-size:12px;padding:7px 4px}.field-grid,.setup-summary{grid-template-columns:1fr}.result-number{font-size:29px}.line-selector-head{align-items:flex-start;flex-direction:column;gap:3px}.text-button{padding-left:0}.guidance{align-items:flex-start}}
+      </style>
+      <div class="calculator">
+        <p class="reel-name">Pre-loaded for ${escapeHtml(displayName(reel))}</p>
+        <div class="starting-setup">
+          <strong>Suggested starting setup:</strong> ${escapeHtml(defaults.mainLineLb)} lb braid, ${escapeHtml(defaults.mainLineYards)} yards, over ${escapeHtml(defaults.backingLb)} lb mono backing. Using more backing can reduce how much premium line you need.
+          <button type="button" class="text-button small-button" data-action="recommended">Use suggested setup</button>
+        </div>
+        <div class="toolbar">
+          <div class="segmented" role="group" aria-label="Measurement units">
+            <button type="button" class="segment-button active" data-action="unit" data-unit="standard">Standard</button>
+            <button type="button" class="segment-button" data-action="unit" data-unit="metric">Metric</button>
+          </div>
+          <div class="segmented" role="group" aria-label="Calculator mode">
+            <button type="button" class="segment-button active" data-action="mode" data-mode="backing">Backing + Main Line</button>
+            <button type="button" class="segment-button" data-action="mode" data-mode="capacity">Capacity Only</button>
+          </div>
+          <p class="mode-note" data-role="mode-note">Choose your main-line amount, then ReelCalc calculates the backing.</p>
+        </div>
+        <div class="guidance">
+          <span>Choose the line you plan to spool. ReelCalc automatically uses the appropriate mono or braid capacity rating for this reel.</span>
+          <button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button>
+        </div>
+        <div class="main-selector">${lineSelectorTemplate("main", "Main Line", "Braid")}</div>
+        <div class="length-field" data-role="main-yards-wrap">
+          <label for="main-yards">Main line amount (<span data-role="length-unit">yards</span>)</label>
+          <input id="main-yards" data-role="main-yards" type="number" inputmode="decimal" min="1" step="1" value="${escapeHtml(defaults.mainLineYards)}">
+        </div>
+        <div class="backing-selector" data-role="backing-wrap">${lineSelectorTemplate("backing", "Backing Line", "Monofilament")}</div>
+        <button type="button" class="calculate-button" data-action="calculate">Calculate My Setup</button>
+        <details class="advanced">
+          <summary>Handle-turn estimate</summary>
+          <label for="reel-ipt">Reel retrieve (<span data-role="ipt-unit">inches</span> per turn)</label>
+          <input id="reel-ipt" data-role="reel-ipt" type="number" inputmode="decimal" step="0.1" placeholder="Optional">
+        </details>
+        <div class="output" data-role="output" aria-live="polite"></div>
+      </div>
+      <div class="modal-overlay" data-role="modal-overlay">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="reelcalc-capacity-info-title">
+          <h3 id="reelcalc-capacity-info-title">How ReelCalc Chooses Capacity</h3>
+          <p>ReelCalc uses the reel's mono capacity for mono and fluorocarbon, and its published braid capacity for braid when available. Braid does not always convert accurately from a mono capacity rating.</p>
+          <button type="button" class="modal-close" data-action="modal-close">Close</button>
+        </div>
+      </div>`;
+  }
+
+  function mountCalculator(mount, reel, lines, affiliateData, services) {
+    var core = services.core;
+    var selector = services.selector;
+    var affiliates = services.affiliates;
+    var defaults = defaultsForMount(mount);
+    var preload = selector.parsePreload(location.search);
+    var shadow = mount.shadowRoot || mount.attachShadow({ mode: "open" });
+    shadow.innerHTML = calculatorTemplate(reel, defaults);
+    var preparedLines = selector.prepareLines(lines);
     var state = {
-      isMetric: false,
-      isCapacityOnly: false,
-      currentDisplayIsMetric: false,
-      lastStandardReelLb: Number(reel.rated_line_lb),
-      standardRatedDiameterIn: Number(reel.rated_line_diameter_in),
-      lastMetricReelDiaMm: Number(reel.rated_line_diameter_in) * core.MM_PER_INCH
+      unit: "standard",
+      mode: preload.mode === "capacity" ? "capacity" : "backing",
+      main: { material: "Braid", custom: false, line: null },
+      backing: { material: "Monofilament", custom: false, line: null },
+      affiliateImpressions: new Set(),
+      lastCapacityBasisKey: ""
     };
     var PREMIUM_LINE_COST_LOW = 0.10;
     var PREMIUM_LINE_COST_HIGH = 0.16;
     var BACKING_COST_LOW = 0.01;
     var BACKING_COST_HIGH = 0.03;
-    var INCH_TO_CM = 2.54;
-    var CM_TO_INCH = 1 / INCH_TO_CM;
 
     function q(role) {
       return shadow.querySelector('[data-role="' + role + '"]');
     }
 
-    function qa(role) {
-      return shadow.querySelectorAll('[data-role="' + role + '"]');
+    function qa(selectorValue) {
+      return Array.from(shadow.querySelectorAll(selectorValue));
     }
 
-    function safeNumber(element) {
-      var value = String(element.value || "").trim();
-      return value === "" ? NaN : Number(value);
+    function emit(name, detail) {
+      mount.dispatchEvent(new CustomEvent(name, {
+        bubbles: true,
+        composed: true,
+        detail: Object.assign({
+          reelId: reel.id,
+          reelBrand: reel.brand || "",
+          reelModel: reel.model || "",
+          reelSize: reel.size_label || reel.size_class || ""
+        }, detail || {})
+      }));
     }
 
-    function setSegmentActive(role, key, value) {
-      q(role).querySelectorAll(".seg-btn").forEach(function(button) {
-        button.classList.toggle("active", button.dataset[key] === value);
+    function formatNumber(value, digits) {
+      return Number(value).toLocaleString(undefined, {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: digits == null ? 1 : digits
       });
     }
 
-    function showInfo(title, text) {
-      q("modal-title").textContent = title;
-      q("modal-text").textContent = text;
-      q("modal-overlay").style.display = "flex";
-      q("modal-close").focus();
+    function yardsToDisplay(yards) {
+      return state.unit === "metric" ? core.yardsToMeters(yards) : Number(yards);
     }
 
-    function hideInfo() {
-      q("modal-overlay").style.display = "none";
+    function displayToYards(value) {
+      return state.unit === "metric" ? core.metersToYards(value) : Number(value);
     }
 
-    function infoContent(key) {
-      var content = {
-        modes: [
-          "Calculator Modes",
-          "Backing + Working Line calculates how much backing you need beneath a chosen working-line length. Capacity Only estimates how much of the selected line fills the spool without backing."
-        ],
-        "reel-lb": [
-          "Reel rated mono lb test",
-          "This is pre-loaded from the reel's published monofilament capacity rating."
-        ],
-        "reel-dia": [
-          "Reel rated mono diameter",
-          "This is the diameter associated with the reel's published capacity rating."
-        ],
-        "reel-capacity": [
-          state.isMetric ? "Reel capacity (meters)" : "Reel capacity (yards)",
-          "This capacity is pre-loaded from ReelCalc's verified reel record."
-        ],
-        "premium-length": [
-          "Premium line length",
-          "Enter how much braid or fluorocarbon you want on top. This field is not used in Capacity Only mode."
-        ],
-        "premium-dia": [
-          "Premium line diameter",
-          "Enter the published diameter of the exact braid or fluorocarbon you plan to use."
-        ],
-        "backing-dia": [
-          "Backing diameter",
-          "Enter the published diameter of your backing line."
-        ],
-        ipt: [
-          "Reel line retrieve",
-          "ReelCalc pre-loads the published line retrieve when it is available. Standard uses inches per turn and Metric uses centimeters per turn."
-        ]
+    function inchesToDisplay(inches) {
+      return state.unit === "metric" ? core.inchesToMm(inches) : Number(inches);
+    }
+
+    function displayToInches(value) {
+      return state.unit === "metric" ? core.mmToInches(value) : Number(value);
+    }
+
+    function lengthLabel(yards, digits) {
+      return formatNumber(yardsToDisplay(yards), digits) + " " + (state.unit === "metric" ? "m" : "yd");
+    }
+
+    function rangeLabel(range) {
+      return formatNumber(yardsToDisplay(range.minimumYards), 0) + "-" +
+        formatNumber(yardsToDisplay(range.maximumYards), 0) + " " +
+        (state.unit === "metric" ? "m" : "yd");
+    }
+
+    function strengthLabel(line) {
+      return state.unit === "metric"
+        ? formatNumber(core.lbToKg(line.lb), 1) + " kg"
+        : formatNumber(line.lb, 0) + " lb";
+    }
+
+    function lineLabel(line) {
+      if (!line) return "";
+      var product = line.custom_line
+        ? "Custom " + selector.normalizedMaterial(line.type).toLowerCase()
+        : [line.brand, line.model].filter(Boolean).join(" ");
+      return product + " " + strengthLabel(line);
+    }
+
+    function setActiveButtons(action, attribute, value) {
+      qa('[data-action="' + action + '"]').forEach(function(button) {
+        button.classList.toggle("active", button.dataset[attribute] === value);
+      });
+    }
+
+    function optionsHtml(options, selectedValue, valueKey, labelFunction) {
+      return options.map(function(option) {
+        var value = option[valueKey];
+        return '<option value="' + escapeHtml(value) + '"' + (value === selectedValue ? " selected" : "") + ">" +
+          escapeHtml(labelFunction(option)) + "</option>";
+      }).join("");
+    }
+
+    function setRoleLine(role, line) {
+      state[role].line = line || null;
+      if (!line) return;
+      state[role].material = line.material || selector.normalizedMaterial(line.type);
+      refreshRole(role, line.id);
+    }
+
+    function refreshRole(role, selectedLineId) {
+      var roleState = state[role];
+      var products = selector.productsFor(preparedLines, roleState.material);
+      var current = selectedLineId
+        ? preparedLines.find(function(line) { return line.id === selectedLineId; })
+        : roleState.line;
+      if (!current || current.material !== roleState.material) {
+        current = products.length
+          ? selector.strengthsFor(preparedLines, products[0])[0]
+          : null;
+      }
+      roleState.line = current;
+
+      var currentProductKey = current ? selector.productKey(current) : "";
+      q(role + "-product").innerHTML = optionsHtml(products, currentProductKey, "key", function(product) {
+        return product.label;
+      });
+      var product = products.find(function(item) { return item.key === currentProductKey; }) || products[0];
+      var strengths = selector.strengthsFor(preparedLines, product);
+      if (!strengths.some(function(line) { return current && line.id === current.id; })) current = strengths[0] || null;
+      roleState.line = current;
+      q(role + "-strength").innerHTML = optionsHtml(strengths, current ? current.id : "", "id", function(line) {
+        return strengthLabel(line);
+      });
+      q(role + "-detail").textContent = current
+        ? "Published diameter: " + formatNumber(inchesToDisplay(current.dia_in), state.unit === "metric" ? 3 : 4) + " " + (state.unit === "metric" ? "mm" : "in")
+        : "No usable line records are available for this selection.";
+      qa('[data-action="material"][data-line-role="' + role + '"]').forEach(function(button) {
+        button.classList.toggle("active", button.dataset.material === roleState.material);
+      });
+    }
+
+    function currentLine(role) {
+      var roleState = state[role];
+      if (!roleState.custom) return roleState.line;
+      var lbDisplay = Number(q(role + "-custom-lb").value);
+      var diameterDisplay = Number(q(role + "-custom-dia").value);
+      var lb = state.unit === "metric" ? core.kgToLb(lbDisplay) : lbDisplay;
+      var diameter = displayToInches(diameterDisplay);
+      if (!(lb > 0) || !(diameter > 0)) return null;
+      return {
+        id: "custom-" + role + "-line",
+        brand: "Custom",
+        model: roleState.material,
+        type: roleState.material,
+        material: roleState.material,
+        lb: lb,
+        dia_in: diameter,
+        custom_line: true
       };
-      return content[key];
     }
 
-    function updateUnitUI() {
-      qa("length-unit").forEach(function(element) {
-        element.textContent = state.isMetric ? "meters" : "yards";
+    function toggleCustom(role) {
+      var roleState = state[role];
+      roleState.custom = !roleState.custom;
+      var button = shadow.querySelector('[data-action="toggle-custom"][data-line-role="' + role + '"]');
+      button.classList.toggle("active", roleState.custom);
+      button.setAttribute("aria-pressed", String(roleState.custom));
+      button.textContent = roleState.custom ? "Use line database" : "My line isn't listed";
+      q(role + "-database-fields").classList.toggle("hidden", roleState.custom);
+      q(role + "-custom-fields").classList.toggle("hidden", !roleState.custom);
+      if (roleState.custom && !q(role + "-custom-lb").value) {
+        var source = roleState.line;
+        q(role + "-custom-lb").value = source
+          ? formatNumber(state.unit === "metric" ? core.lbToKg(source.lb) : source.lb, 1)
+          : "";
+        q(role + "-custom-dia").value = source
+          ? formatNumber(inchesToDisplay(source.dia_in), state.unit === "metric" ? 3 : 4)
+          : "";
+      }
+      emit("reelcalc:custom-line-changed", { lineRole: role, enabled: roleState.custom });
+      calculate("custom_line_toggle", false);
+    }
+
+    function updateMode() {
+      var capacityOnly = state.mode === "capacity";
+      q("backing-wrap").classList.toggle("hidden", capacityOnly);
+      q("main-yards-wrap").classList.toggle("hidden", capacityOnly);
+      q("mode-note").textContent = capacityOnly
+        ? "Choose your exact line to see how much fits without backing."
+        : "Choose your main-line amount, then ReelCalc calculates the backing.";
+      setActiveButtons("mode", "mode", state.mode);
+    }
+
+    function updateUnits(nextUnit) {
+      if (nextUnit === state.unit) return;
+      var toMetric = nextUnit === "metric";
+      var mainYards = Number(q("main-yards").value);
+      var ipt = Number(q("reel-ipt").value);
+      if (mainYards > 0) q("main-yards").value = formatNumber(toMetric ? core.yardsToMeters(mainYards) : core.metersToYards(mainYards), 1);
+      if (ipt > 0) q("reel-ipt").value = formatNumber(toMetric ? ipt * 2.54 : ipt / 2.54, 1);
+      ["main", "backing"].forEach(function(role) {
+        var lb = Number(q(role + "-custom-lb").value);
+        var dia = Number(q(role + "-custom-dia").value);
+        if (lb > 0) q(role + "-custom-lb").value = formatNumber(toMetric ? core.lbToKg(lb) : core.kgToLb(lb), 1);
+        if (dia > 0) q(role + "-custom-dia").value = formatNumber(toMetric ? core.inchesToMm(dia) : core.mmToInches(dia), toMetric ? 3 : 4);
       });
-      qa("dia-unit").forEach(function(element) {
-        element.textContent = state.isMetric ? "mm" : "in";
+      state.unit = nextUnit;
+      qa('[data-role="length-unit"]').forEach(function(element) { element.textContent = toMetric ? "meters" : "yards"; });
+      qa('[data-role="strength-unit"]').forEach(function(element) { element.textContent = toMetric ? "kg" : "lb"; });
+      qa('[data-role="diameter-unit"]').forEach(function(element) { element.textContent = toMetric ? "mm" : "in"; });
+      qa('[data-role="ipt-unit"]').forEach(function(element) { element.textContent = toMetric ? "centimeters" : "inches"; });
+      ["main", "backing"].forEach(function(role) { refreshRole(role, state[role].line && state[role].line.id); });
+      setActiveButtons("unit", "unit", state.unit);
+      calculate("unit_change", false);
+    }
+
+    function basisExplanation(basis, mainLine, range) {
+      if (basis.type === "published-braid") {
+        var estimate = basis.publishedEstimate;
+        var rating = estimate && estimate.method === "exact" && estimate.anchors.length
+          ? " Published reel rating: " + formatNumber(estimate.anchors[0].lb, 0) + " lb braid / " + lengthLabel(estimate.anchors[0].yards, 0) + "."
+          : "";
+        return basis.label + "." + rating + " Braid diameter and packing vary, so capacity is shown as a range.";
+      }
+      if (basis.fallback) {
+        return "This reel does not provide a usable braid rating for " + strengthLabel(mainLine) + ". ReelCalc is estimating from the published mono capacity and the selected line diameter, so the range is wider.";
+      }
+      return basis.label + ". The selected line's stored diameter is used for the calculation.";
+    }
+
+    function handleTurnsHtml(mainYards, backingYards) {
+      var iptDisplay = Number(q("reel-ipt").value);
+      if (!(iptDisplay > 0)) return "";
+      var ipt = state.unit === "metric" ? iptDisplay / 2.54 : iptDisplay;
+      var main = core.calculateHandleTurns(mainYards, ipt);
+      if (!main) return "";
+      var html = '<div class="turns"><strong>Estimated Handle Turns</strong><br>';
+      if (backingYards != null) {
+        var backing = core.calculateHandleTurns(backingYards, ipt);
+        html += "Backing: about " + formatNumber(backing.approximateTurns, 0) + " turns<br>";
+        html += "Main line: about " + formatNumber(main.approximateTurns, 0) + " turns";
+      } else {
+        html += "Total line: about " + formatNumber(main.approximateTurns, 0) + " turns";
+      }
+      return html + '<p class="selection-detail">Use this as a starting point and watch the spool fill level.</p></div>';
+    }
+
+    function affiliateCard(line, requiredYards, role) {
+      var offer = affiliates.buildRecommendedLineOffer({
+        affiliateData: affiliateData,
+        line: line,
+        requiredYards: requiredYards
       });
-      q("good-dia").step = state.isMetric ? "0.01" : "0.001";
-      q("back-dia").step = state.isMetric ? "0.01" : "0.001";
-      q("ipt-unit").textContent = state.isMetric ? "cm" : "inches";
-    }
-
-    function updateReelSpecUI() {
-      var reelLb = q("reel-lb");
-      var reelDia = q("reel-dia");
-
-      if (state.isMetric) {
-        var lbValue = Number(reelLb.value);
-        if (lbValue > 0) state.lastStandardReelLb = lbValue;
-        if (reelDia.dataset.userEdited !== "true") {
-          reelDia.value = state.lastMetricReelDiaMm.toFixed(3);
-        }
-        q("reel-lb-wrap").classList.add("hidden");
-        q("reel-dia-wrap").classList.remove("hidden");
-      } else {
-        reelLb.value = state.lastStandardReelLb;
-        var diaValue = Number(reelDia.value);
-        if (diaValue > 0) state.lastMetricReelDiaMm = diaValue;
-        q("reel-dia-wrap").classList.add("hidden");
-        q("reel-lb-wrap").classList.remove("hidden");
+      if (!offer) return "";
+      var impressionKey = [role, line.id, offer.suggestedSpoolYards].join("|");
+      if (!state.affiliateImpressions.has(impressionKey)) {
+        state.affiliateImpressions.add(impressionKey);
+        emit("reelcalc:line-affiliate-impression", {
+          lineRole: role,
+          lineId: line.id || "",
+          lineBrand: line.brand || "",
+          lineModel: line.model || "",
+          lineType: selector.normalizedMaterial(line.type),
+          lineLb: Number(line.lb) || 0,
+          retailer: offer.retailerId,
+          requiredLineYards: Number(requiredYards.toFixed(1)),
+          suggestedSpoolYards: offer.suggestedSpoolYards
+        });
       }
+      var roleLabel = role === "main" ? "Main line" : "Backing";
+      return '<div class="affiliate-card"><strong>' + roleLabel + ': ' + escapeHtml(lineLabel(line)) + "</strong>" +
+        "<p>Calculated amount: " + escapeHtml(lengthLabel(requiredYards, 1)) + ". Suggested retail spool: " + escapeHtml(lengthLabel(offer.suggestedSpoolYards, 0)) + ".</p>" +
+        '<a class="affiliate-link" href="' + escapeHtml(offer.url) + '" target="_blank" rel="sponsored nofollow noopener" data-affiliate-role="' + role + '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-line-id="' + escapeHtml(line.id || "") + '" data-required-yards="' + escapeHtml(requiredYards.toFixed(1)) + '" data-spool-yards="' + escapeHtml(offer.suggestedSpoolYards) + '">' + escapeHtml(offer.label) + "</a>" +
+        '<span class="disclosure">' + escapeHtml(offer.disclosure) + "</span></div>";
     }
 
-    function convertDisplayedValues(toMetric) {
-      if (toMetric === state.currentDisplayIsMetric) return;
-
-      var reelLength = safeNumber(q("reel-yards"));
-      var goodLength = safeNumber(q("good-yards"));
-      var goodDiameter = safeNumber(q("good-dia"));
-      var backingDiameter = safeNumber(q("back-dia"));
-      var ipt = safeNumber(q("reel-ipt"));
-
-      if (toMetric) {
-        if (!Number.isNaN(reelLength)) q("reel-yards").value = core.yardsToMeters(reelLength).toFixed(1);
-        if (!Number.isNaN(goodLength)) q("good-yards").value = core.yardsToMeters(goodLength).toFixed(1);
-        if (!Number.isNaN(goodDiameter)) q("good-dia").value = core.inchesToMm(goodDiameter).toFixed(2);
-        if (!Number.isNaN(backingDiameter)) q("back-dia").value = core.inchesToMm(backingDiameter).toFixed(2);
-        if (!Number.isNaN(ipt)) q("reel-ipt").value = (ipt * INCH_TO_CM).toFixed(1);
-      } else {
-        if (!Number.isNaN(reelLength)) q("reel-yards").value = core.metersToYards(reelLength).toFixed(1);
-        if (!Number.isNaN(goodLength)) q("good-yards").value = core.metersToYards(goodLength).toFixed(1);
-        if (!Number.isNaN(goodDiameter)) q("good-dia").value = core.mmToInches(goodDiameter).toFixed(3);
-        if (!Number.isNaN(backingDiameter)) q("back-dia").value = core.mmToInches(backingDiameter).toFixed(3);
-        if (!Number.isNaN(ipt)) q("reel-ipt").value = (ipt * CM_TO_INCH).toFixed(1);
-      }
-
-      state.currentDisplayIsMetric = toMetric;
+    function savingsHtml(mainLine, mainYards, backingYards, fullCapacity) {
+      var premiumAvoided = Math.max(0, fullCapacity - mainYards);
+      var low = Math.max(0, premiumAvoided * PREMIUM_LINE_COST_LOW - backingYards * BACKING_COST_HIGH);
+      var high = Math.max(low, premiumAvoided * PREMIUM_LINE_COST_HIGH - backingYards * BACKING_COST_LOW);
+      var label = Math.floor(low) < 1
+        ? "Up to about $" + Math.ceil(high)
+        : "About $" + Math.floor(low) + "-$" + Math.ceil(high);
+      return '<div class="savings"><strong>Estimated Line-Cost Savings: ' + label + "</strong><br>" +
+        "Savings come from using lower-cost backing instead of filling the entire spool with premium line. " +
+        "Estimate uses $0.10-$0.16 per yard for premium line and $0.01-$0.03 per yard for backing. Actual prices vary.</div>";
     }
 
-    function updateModeUI() {
-      var goodYards = q("good-yards");
-      setSegmentActive("mode-segment", "mode", state.isCapacityOnly ? "capacity" : "backing");
-
-      if (state.isCapacityOnly) {
-        q("backing-group").classList.add("hidden");
-        q("mode-subtext").innerHTML = '<span class="mode-badge badge-capacity">CAPACITY MODE</span>Capacity Only is selected: estimate the maximum amount of your braid/fluoro that fills the reel (no backing).';
-        goodYards.disabled = true;
-        goodYards.placeholder = "Disabled in Capacity Only";
-      } else {
-        q("backing-group").classList.remove("hidden");
-        q("mode-subtext").innerHTML = '<span class="mode-badge badge-backing">BACKING MODE</span>Backing mode is selected: calculate backing + your chosen working line length.';
-        goodYards.disabled = false;
-        goodYards.placeholder = "Example: 50";
-      }
-    }
-
-    function calculate(interactionSource) {
-      var reelLengthDisplay = Number(q("reel-yards").value);
-      var goodLengthDisplay = Number(q("good-yards").value);
-      var goodDiameterDisplay = Number(q("good-dia").value);
-      var backingDiameterDisplay = Number(q("back-dia").value);
-      var reelLb = Number(q("reel-lb").value);
-      var reelDiameterMm = Number(q("reel-dia").value);
+    function calculate(interactionSource, userInitiated) {
+      var mainLine = currentLine("main");
+      var backingLine = state.mode === "backing" ? currentLine("backing") : null;
       var output = q("output");
-      var missingStandardReel = !state.isMetric && !reelLb;
-      var missingMetricReel = state.isMetric && !reelDiameterMm;
-
-      if (
-        !reelLengthDisplay ||
-        !goodDiameterDisplay ||
-        missingStandardReel ||
-        missingMetricReel ||
-        (!state.isCapacityOnly && !backingDiameterDisplay) ||
-        (!state.isCapacityOnly && !goodLengthDisplay)
-      ) {
-        output.textContent = "Please fill in all required fields.";
+      if (!mainLine || (state.mode === "backing" && !backingLine)) {
+        output.innerHTML = '<div class="error">Choose lines with a usable diameter, or complete the custom-line fields.</div>';
         return;
       }
+      var basis = core.capacityBasisForLine(reel, mainLine);
+      if (!basis) {
+        output.innerHTML = '<div class="error">ReelCalc could not establish a usable capacity reference for this setup.</div>';
+        return;
+      }
+      var braidRange = core.calculateBraidCapacityRange(reel, mainLine);
+      var basisText = basisExplanation(basis, mainLine, braidRange);
+      var capacityBasisKey = [basis.type, mainLine.id || "custom", mainLine.lb].join("|");
+      if (capacityBasisKey !== state.lastCapacityBasisKey) {
+        state.lastCapacityBasisKey = capacityBasisKey;
+        emit("reelcalc:capacity-basis-selected", {
+          capacityBasis: basis.type,
+          lineType: selector.normalizedMaterial(mainLine.type),
+          lineId: mainLine.id || "",
+          fallbackUsed: basis.fallback
+        });
+      }
 
-      var reelYards = state.isMetric ? core.metersToYards(reelLengthDisplay) : reelLengthDisplay;
-      var goodYards = state.isMetric ? core.metersToYards(goodLengthDisplay) : goodLengthDisplay;
-      var goodDiameterIn = state.isMetric ? core.mmToInches(goodDiameterDisplay) : goodDiameterDisplay;
-      var backingDiameterIn = state.isMetric ? core.mmToInches(backingDiameterDisplay) : backingDiameterDisplay;
-      var ratedDiameterIn = state.isMetric
-        ? core.mmToInches(reelDiameterMm)
-        : state.standardRatedDiameterIn;
-      var calculationReel = {
-        capacity_yards: reelYards,
-        rated_line_diameter_in: ratedDiameterIn
-      };
-      var selectedLine = { dia_in: goodDiameterIn };
-      var unitLabel = state.isMetric ? "meters" : "yards";
-
-      if (state.isCapacityOnly) {
-        var maxGoodYards = core.calculateMainLineCapacity(calculationReel, selectedLine);
-        if (!(maxGoodYards > 0)) {
-          output.textContent = "Please check the reel and line values.";
-          return;
-        }
-        var maxOutput = state.isMetric ? core.yardsToMeters(maxGoodYards) : maxGoodYards;
-        output.innerHTML =
-          "<strong>Capacity Only Result</strong><br><br>" +
-          "Estimated maximum that will fill the reel:<br>" +
-          "<strong>Braid/Fluoro line:</strong> " + maxOutput.toFixed(1) + " " + unitLabel +
-          '<div style="margin-top:6px;font-size:13px;opacity:0.8;">Note: This is an estimate based on line diameter and the reel&#39;s rated capacity.</div>';
-
-        appendHandleTurns(output, maxGoodYards, null);
-        dispatchCompleted(mount, reel, "capacity", {
-          interactionSource: interactionSource || "automatic",
-          isUserInitiated: interactionSource !== "initial",
-          unitSystem: state.isMetric ? "metric" : "standard",
-          mainLineYards: Number(maxGoodYards.toFixed(1)),
-          mainLineDiameterMm: Number((goodDiameterIn * core.MM_PER_INCH).toFixed(3)),
-          backingYards: 0,
-          startingMainLineLb: Number(defaults.mainLineLb) || 0,
-          startingBackingLb: Number(defaults.backingLb) || 0
+      if (state.mode === "capacity") {
+        var capacityDisplay = braidRange ? rangeLabel(braidRange) : lengthLabel(basis.capacityYards, 1);
+        var capacityNote = braidRange
+          ? "Use this as a real-world fill target. Winding tension and preferred fill level can change the final amount."
+          : "This estimate uses the selected line's stored diameter and the reel's published mono capacity.";
+        output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">Estimated full-spool capacity' + (braidRange ? " range" : "") + '</span><strong class="result-number">' + escapeHtml(capacityDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(mainLine)) + '</p></div>' +
+          '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
+          '<div class="setup-summary"><div class="summary-item"><span>Reel</span><strong>' + escapeHtml(displayName(reel)) + '</strong></div><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + '</strong></div></div>' +
+          '<p class="result-note">' + escapeHtml(capacityNote) + '</p>' +
+          '<div class="affiliate-grid">' + affiliateCard(mainLine, braidRange ? braidRange.maximumYards : basis.capacityYards, "main") + '</div>' +
+          handleTurnsHtml(basis.capacityYards, null) + "</section>";
+        dispatchCompleted(interactionSource, userInitiated, mainLine, null, basis, {
+          mainLineYards: basis.capacityYards,
+          backingYards: 0
         });
         return;
       }
 
-      var backingResult = core.calculateBackingNeeded(
-        calculationReel,
-        selectedLine,
-        goodYards,
-        { dia_in: backingDiameterIn }
-      );
-
-      if (!backingResult || backingResult.overCapacity) {
-        output.textContent = "Premium line exceeds reel capacity. Reduce length or use thinner line.";
+      var desiredDisplay = Number(q("main-yards").value);
+      var desiredYards = displayToYards(desiredDisplay);
+      if (!(desiredYards > 0)) {
+        output.innerHTML = '<div class="error">Enter how much main line you want on the reel.</div>';
         return;
       }
+      var result = core.calculateCalibratedBacking(reel, mainLine, desiredYards, backingLine);
+      if (!result || result.overCapacity) {
+        output.innerHTML = '<div class="error">That main-line amount is greater than this reel is estimated to hold. Use less main line or choose a thinner line.</div>';
+        return;
+      }
+      var backingRange = core.calculateCalibratedBackingRange(reel, mainLine, desiredYards, backingLine);
+      var backingDisplay = backingRange ? rangeLabel(backingRange) : lengthLabel(result.backingYards, 1);
+      var backingNote = backingRange
+        ? "Backing is also shown as a range because the main-line braid capacity is a range."
+        : "Backing uses the selected main and backing line diameters.";
+      output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">Estimated backing needed' + (backingRange ? " range" : "") + '</span><strong class="result-number">' + escapeHtml(backingDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(backingLine)) + '</p></div>' +
+        '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
+        '<div class="setup-summary"><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + " - " + escapeHtml(lengthLabel(desiredYards, 1)) + '</strong></div><div class="summary-item"><span>Backing</span><strong>' + escapeHtml(lineLabel(backingLine)) + " - " + escapeHtml(backingDisplay) + '</strong></div></div>' +
+        '<p class="result-note">' + escapeHtml(backingNote) + '</p>' +
+        savingsHtml(mainLine, desiredYards, result.backingYards, basis.capacityYards) +
+        '<div class="affiliate-grid">' + affiliateCard(mainLine, desiredYards, "main") + affiliateCard(backingLine, backingRange ? backingRange.maximumYards : result.backingYards, "backing") + '</div>' +
+        handleTurnsHtml(desiredYards, result.backingYards) + "</section>";
+      dispatchCompleted(interactionSource, userInitiated, mainLine, backingLine, basis, {
+        mainLineYards: desiredYards,
+        backingYards: result.backingYards
+      });
+    }
 
-      var backingYards = backingResult.backingYards;
-      var maxPremiumOnlyYards = core.calculateMainLineCapacity(calculationReel, selectedLine);
-      var premiumYardsAvoided = Math.max(0, maxPremiumOnlyYards - goodYards);
-      var savingsLow = Math.max(
-        0,
-        premiumYardsAvoided * PREMIUM_LINE_COST_LOW - backingYards * BACKING_COST_HIGH
-      );
-      var savingsHigh = Math.max(
-        savingsLow,
-        premiumYardsAvoided * PREMIUM_LINE_COST_HIGH - backingYards * BACKING_COST_LOW
-      );
-      var savingsLowRounded = Math.floor(savingsLow);
-      var savingsHighRounded = Math.ceil(savingsHigh);
-      var savingsLabel = savingsLowRounded < 1
-        ? "Up to about $" + savingsHighRounded
-        : savingsLowRounded === savingsHighRounded
-          ? "About $" + savingsLowRounded
-          : "About $" + savingsLowRounded + "-$" + savingsHighRounded;
-      var backingOutput = state.isMetric ? core.yardsToMeters(backingYards) : backingYards;
-      var goodOutput = state.isMetric ? core.yardsToMeters(goodYards) : goodYards;
-      var totalOutput = backingOutput + goodOutput;
-
-      output.innerHTML =
-        "You need:<br>" +
-        "<strong>Backing:</strong> " + backingOutput.toFixed(1) + " " + unitLabel + "<br>" +
-        "<strong>Braid/Fluoro line:</strong> " + goodOutput.toFixed(1) + " " + unitLabel + "<br>" +
-        "<strong>Total on spool:</strong> " + totalOutput.toFixed(1) + " " + unitLabel +
-        '<div style="margin-top:6px;font-size:13px;opacity:0.8;">Note: A total length greater than the reel&#39;s rated capacity is normal due to differences in line diameter.</div>' +
-        '<div class="savings-box"><strong>Estimated Line-Cost Savings</strong><br><br>' +
-        "<strong>" + savingsLabel + "</strong><br>" +
-        "Savings come from using lower-cost backing instead of filling the entire spool with premium line.<br>" +
-        "<em>Typical retail estimate using $0.10-$0.16 per yard for premium line and " +
-        "$0.01-$0.03 per yard for backing. Actual prices vary by line, strength, and spool size.</em></div>";
-
-      appendHandleTurns(output, goodYards, backingYards);
-      dispatchCompleted(mount, reel, "backing", {
+    function dispatchCompleted(interactionSource, userInitiated, mainLine, backingLine, basis, values) {
+      emit("reelcalc:calculation-completed", {
         interactionSource: interactionSource || "automatic",
-        isUserInitiated: interactionSource !== "initial",
-        unitSystem: state.isMetric ? "metric" : "standard",
-        mainLineYards: Number(goodYards.toFixed(1)),
-        mainLineDiameterMm: Number((goodDiameterIn * core.MM_PER_INCH).toFixed(3)),
-        backingYards: Number(backingYards.toFixed(1)),
-        backingDiameterMm: Number((backingDiameterIn * core.MM_PER_INCH).toFixed(3)),
-        startingMainLineLb: Number(defaults.mainLineLb) || 0,
-        startingBackingLb: Number(defaults.backingLb) || 0
+        isUserInitiated: !!userInitiated,
+        mode: state.mode,
+        unitSystem: state.unit,
+        capacityBasis: basis.type,
+        fallbackUsed: basis.fallback,
+        mainLineId: mainLine.id || "",
+        mainLineBrand: mainLine.brand || "",
+        mainLineModel: mainLine.model || "",
+        mainLineType: selector.normalizedMaterial(mainLine.type),
+        mainLineLb: Number(mainLine.lb) || 0,
+        mainLineYards: Number(values.mainLineYards.toFixed(1)),
+        mainLineDiameterMm: Number((mainLine.dia_in * core.MM_PER_INCH).toFixed(3)),
+        backingLineId: backingLine ? backingLine.id || "" : "",
+        backingLineBrand: backingLine ? backingLine.brand || "" : "",
+        backingLineModel: backingLine ? backingLine.model || "" : "",
+        backingLineType: backingLine ? selector.normalizedMaterial(backingLine.type) : "",
+        backingLineLb: backingLine ? Number(backingLine.lb) || 0 : 0,
+        backingYards: Number(values.backingYards.toFixed(1)),
+        backingDiameterMm: backingLine ? Number((backingLine.dia_in * core.MM_PER_INCH).toFixed(3)) : 0,
+        customMainLine: !!mainLine.custom_line,
+        customBackingLine: !!(backingLine && backingLine.custom_line)
       });
     }
 
-    function appendHandleTurns(output, workingYards, backingYards) {
-      var iptDisplay = Number(q("reel-ipt").value);
-      if (!(iptDisplay > 0)) return;
-      var iptInches = state.isMetric ? iptDisplay * CM_TO_INCH : iptDisplay;
-      var workingTurns = core.calculateHandleTurns(workingYards, iptInches);
-      if (!workingTurns) return;
-
-      var html = '<div class="turns-box"><strong>Estimated Handle Turns</strong><br>';
-      if (backingYards !== null) {
-        var backingTurns = core.calculateHandleTurns(backingYards, iptInches);
-        html += "<strong>Backing:</strong> " + backingTurns.rawTurns.toFixed(1) + " turns<br>";
-        html += "<strong>Working Line:</strong> " + workingTurns.rawTurns.toFixed(1) + " turns";
-      } else {
-        html += "<strong>Total line:</strong> " + workingTurns.rawTurns.toFixed(1) + " turns";
-      }
-      html += '<span class="turns-note"><em>Handle turns are estimated. Actual turns may vary slightly as spool diameter changes while filling.</em></span></div>';
-      output.insertAdjacentHTML("beforeend", html);
-    }
-
-    function dispatchCompleted(element, reelRecord, mode, calculation) {
-      element.dispatchEvent(new CustomEvent("reelcalc:calculation-completed", {
-        bubbles: true,
-        detail: Object.assign({
-          reelId: reelRecord.id,
-          reelBrand: reelRecord.brand || "",
-          reelModel: reelRecord.model || "",
-          reelSize: reelRecord.size_label || reelRecord.size_class || "",
-          mode: mode
-        }, calculation || {})
-      }));
-    }
-
-    q("reel-lb").value = reel.rated_line_lb;
-    q("reel-yards").value = reel.capacity_yards;
-    q("reel-dia").value = state.lastMetricReelDiaMm.toFixed(3);
-    q("reel-dia").dataset.userEdited = "false";
-    if (Number(reel.line_retrieve_in) > 0) q("reel-ipt").value = Number(reel.line_retrieve_in);
-
-    q("unit-segment").addEventListener("click", function(event) {
-      var button = event.target.closest(".seg-btn");
-      if (!button) return;
-      var goingMetric = button.dataset.unit === "metric";
-      setSegmentActive("unit-segment", "unit", button.dataset.unit);
-      convertDisplayedValues(goingMetric);
-      state.isMetric = goingMetric;
-      updateReelSpecUI();
-      updateUnitUI();
-      calculate("unit_change");
-    });
-
-    q("mode-segment").addEventListener("click", function(event) {
-      var button = event.target.closest(".seg-btn");
-      if (!button) return;
-      state.isCapacityOnly = button.dataset.mode === "capacity";
-      updateModeUI();
-      calculate("mode_change");
-    });
-
-    shadow.querySelectorAll("[data-info]").forEach(function(button) {
-      button.addEventListener("click", function() {
-        var content = infoContent(button.dataset.info);
-        if (content) showInfo(content[0], content[1]);
+    function useRecommendedSetup(userInitiated) {
+      var main = selector.findLine(preparedLines, "", preload.mainLineId || defaults.mainLineId) ||
+        selector.closestLine(preparedLines, {
+          material: "Braid",
+          lb: defaults.mainLineLb,
+          dia_in: defaults.mainLineDiameterIn
+        });
+      var backing = selector.findLine(preparedLines, "", preload.backingLineId || defaults.backingLineId) ||
+        selector.closestLine(preparedLines, {
+          material: "Monofilament",
+          lb: defaults.backingLb,
+          dia_in: defaults.backingDiameterIn
+        });
+      if (main) setRoleLine("main", main);
+      if (backing) setRoleLine("backing", backing);
+      state.mode = preload.mode === "capacity" ? "capacity" : "backing";
+      q("main-yards").value = formatNumber(yardsToDisplay(preload.mainLineYards || defaults.mainLineYards), 1);
+      updateMode();
+      if (userInitiated) emit("reelcalc:recommended-setup-loaded", {
+        mainLineId: main ? main.id : "",
+        backingLineId: backing ? backing.id : "",
+        mode: state.mode
       });
-    });
+      calculate(userInitiated ? "recommended_setup" : "initial", !!userInitiated);
+    }
 
-    q("modal-close").addEventListener("click", hideInfo);
-    q("modal-overlay").addEventListener("click", function(event) {
-      if (event.target === q("modal-overlay")) hideInfo();
-    });
-    q("calculate").addEventListener("click", function() {
-      calculate("calculate_button");
-    });
-    q("reel-dia").addEventListener("input", function() {
-      this.dataset.userEdited = "true";
-      var value = Number(this.value);
-      if (value > 0) state.lastMetricReelDiaMm = value;
-    });
-    q("reel-lb").addEventListener("input", function() {
-      var value = Number(this.value);
-      if (value > 0) {
-        state.lastStandardReelLb = value;
-        state.standardRatedDiameterIn = core.monoDiameter(value);
-        if (q("reel-dia").dataset.userEdited !== "true") {
-          state.lastMetricReelDiaMm = state.standardRatedDiameterIn * core.MM_PER_INCH;
+    shadow.addEventListener("click", function(event) {
+      var button = event.target.closest("[data-action]");
+      if (button) {
+        var action = button.dataset.action;
+        if (action === "unit") updateUnits(button.dataset.unit);
+        if (action === "mode") {
+          state.mode = button.dataset.mode;
+          updateMode();
+          emit("reelcalc:calculator-mode-changed", { mode: state.mode });
+          calculate("mode_change", true);
         }
+        if (action === "material") {
+          var role = button.dataset.lineRole;
+          state[role].material = button.dataset.material;
+          refreshRole(role);
+          emit("reelcalc:line-selection-changed", { lineRole: role, selectionStage: "type", lineType: state[role].material });
+          calculate("line_type_change", false);
+        }
+        if (action === "toggle-custom") toggleCustom(button.dataset.lineRole);
+        if (action === "calculate") calculate("calculate_button", true);
+        if (action === "recommended") useRecommendedSetup(true);
+        if (action === "capacity-info") q("modal-overlay").style.display = "flex";
+        if (action === "modal-close") q("modal-overlay").style.display = "none";
+      }
+      var link = event.target.closest("[data-affiliate-role]");
+      if (link) {
+        var roleName = link.dataset.affiliateRole;
+        var clickedLine = currentLine(roleName);
+        emit("reelcalc:line-affiliate-click", {
+          lineRole: roleName,
+          lineId: link.dataset.lineId || "",
+          lineBrand: clickedLine ? clickedLine.brand || "" : "",
+          lineModel: clickedLine ? clickedLine.model || "" : "",
+          lineType: clickedLine ? selector.normalizedMaterial(clickedLine.type) : "",
+          lineLb: clickedLine ? Number(clickedLine.lb) || 0 : 0,
+          retailer: link.dataset.retailer || "",
+          requiredLineYards: Number(link.dataset.requiredYards) || 0,
+          suggestedSpoolYards: Number(link.dataset.spoolYards) || 0
+        });
       }
     });
 
-    [
-      "reel-lb",
-      "reel-dia",
-      "reel-yards",
-      "good-yards",
-      "good-dia",
-      "back-dia",
-      "reel-ipt"
-    ].forEach(function(role) {
-      q(role).addEventListener("change", function() {
-        calculate("input_change");
-      });
+    shadow.addEventListener("change", function(event) {
+      var role;
+      if (event.target.matches('[data-role$="-product"]')) {
+        role = event.target.dataset.role.replace("-product", "");
+        var product = selector.productsFor(preparedLines, state[role].material).find(function(item) {
+          return item.key === event.target.value;
+        });
+        var nextLine = selector.strengthsFor(preparedLines, product)[0] || null;
+        state[role].line = nextLine;
+        refreshRole(role, nextLine && nextLine.id);
+        emit("reelcalc:line-selection-changed", {
+          lineRole: role,
+          selectionStage: "product",
+          lineId: nextLine ? nextLine.id : "",
+          lineBrand: nextLine ? nextLine.brand : "",
+          lineModel: nextLine ? nextLine.model : "",
+          lineType: state[role].material
+        });
+        calculate("line_product_change", false);
+      } else if (event.target.matches('[data-role$="-strength"]')) {
+        role = event.target.dataset.role.replace("-strength", "");
+        state[role].line = preparedLines.find(function(line) { return line.id === event.target.value; }) || null;
+        refreshRole(role, state[role].line && state[role].line.id);
+        emit("reelcalc:line-selection-changed", {
+          lineRole: role,
+          selectionStage: "strength",
+          lineId: state[role].line ? state[role].line.id : "",
+          lineBrand: state[role].line ? state[role].line.brand : "",
+          lineModel: state[role].line ? state[role].line.model : "",
+          lineType: state[role].material,
+          lineLb: state[role].line ? state[role].line.lb : 0
+        });
+        calculate("line_strength_change", false);
+      } else if (event.target.matches("input")) {
+        calculate("input_change", false);
+      }
     });
 
-    setSegmentActive("unit-segment", "unit", "standard");
-    setSegmentActive("mode-segment", "mode", "backing");
-    updateUnitUI();
-    updateModeUI();
-    updateReelSpecUI();
-    calculate("initial");
+    q("modal-overlay").addEventListener("click", function(event) {
+      if (event.target === q("modal-overlay")) q("modal-overlay").style.display = "none";
+    });
+    if (Number(reel.line_retrieve_in) > 0) q("reel-ipt").value = Number(reel.line_retrieve_in);
+    useRecommendedSetup(false);
+    setActiveButtons("unit", "unit", state.unit);
+    updateMode();
     mount.dataset.reelcalcReady = "true";
-    mount.dispatchEvent(new CustomEvent("reelcalc:calculator-ready", {
-      bubbles: true,
-      detail: {
-        reelId: reel.id,
-        reelBrand: reel.brand || "",
-        reelModel: reel.model || "",
-        reelSize: reel.size_label || reel.size_class || ""
-      }
-    }));
+    emit("reelcalc:calculator-ready", {
+      lineCount: preparedLines.length,
+      validLineCount: preparedLines.length
+    });
   }
 
   function initializeMount(mount) {
@@ -833,28 +680,29 @@
       renderLoadError(mount, "This reel calculator is missing its ReelCalc reel ID.");
       return;
     }
+    var reelsUrl = mount.dataset.reelsUrl ? new URL(mount.dataset.reelsUrl, document.baseURI).href : assetUrl("data/reels.json");
+    var linesUrl = mount.dataset.linesUrl ? new URL(mount.dataset.linesUrl, document.baseURI).href : assetUrl("data/lines.json");
+    var affiliatesUrl = mount.dataset.affiliatesUrl ? new URL(mount.dataset.affiliatesUrl, document.baseURI).href : assetUrl("data/reel-affiliates.json");
 
-    var reelsUrl = mount.dataset.reelsUrl
-      ? new URL(mount.dataset.reelsUrl, document.baseURI).href
-      : new URL("data/reels.json", assetBase).href;
-
-    Promise.all([loadCore(), loadReels(reelsUrl)]).then(function(values) {
-      var core = values[0];
-      var reels = values[1];
-      var reel = reels.find(function(record) {
-        return record.id === reelId;
+    Promise.all([
+      loadScript("js/calculator-core.js", "ReelCalcCore"),
+      loadScript("js/line-selector.js", "ReelCalcLineSelector"),
+      loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
+      loadJson(reelsUrl),
+      loadJson(linesUrl),
+      loadJson(affiliatesUrl)
+    ]).then(function(values) {
+      var reels = values[3];
+      var lines = values[4];
+      var reel = Array.isArray(reels) ? reels.find(function(record) { return record.id === reelId; }) : null;
+      if (!reel) throw new Error('ReelCalc could not find the reel record "' + reelId + '".');
+      if (!values[0].isReelReady(reel)) throw new Error("This reel is missing required mono capacity data.");
+      if (!Array.isArray(lines)) throw new Error("The central line database is unavailable.");
+      mountCalculator(mount, reel, lines, values[5], {
+        core: values[0],
+        selector: values[1],
+        affiliates: values[2]
       });
-
-      if (!reel) {
-        renderLoadError(mount, "ReelCalc could not find the reel record \"" + reelId + "\".");
-        return;
-      }
-      if (!core.isReelReady(reel)) {
-        renderLoadError(mount, "This reel is missing verified capacity data. The calculator cannot be pre-loaded yet.");
-        return;
-      }
-
-      mountCalculator(mount, reel, core);
     }).catch(function(error) {
       renderLoadError(mount, "The ReelCalc calculator could not load. " + error.message);
     });
@@ -870,7 +718,5 @@
     initializeAll();
   }
 
-  window.ReelCalcReelPageCalculator = {
-    initialize: initializeAll
-  };
+  window.ReelCalcReelPageCalculator = { initialize: initializeAll };
 })();

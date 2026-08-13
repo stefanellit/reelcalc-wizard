@@ -71,6 +71,13 @@
       "wizard_unit_changed",
       "wizard_reel_not_found",
       "reel_affiliate_clicked",
+      "reel_line_selected",
+      "reel_capacity_basis_selected",
+      "reel_braid_capacity_fallback",
+      "reel_calculator_mode_selected",
+      "reel_recommended_setup_loaded",
+      "reel_custom_line_changed",
+      "line_affiliate_impression",
       "line_affiliate_clicked",
       "reelcalc_data_error"
     ]);
@@ -86,7 +93,12 @@
       "backing_used", "backing_mode", "desired_main_yards", "main_line_type",
       "main_line_lb", "backing_line_id", "backing_type", "backing_lb",
       "backing_diameter_mm", "data_area", "affiliate_context",
-      "required_line_yards", "suggested_spool_yards"
+      "required_line_yards", "suggested_spool_yards", "selection_stage",
+      "calculator_mode", "interaction_source", "capacity_basis", "fallback_used",
+      "main_line_id", "main_line_brand", "main_line_model", "main_line_yards",
+      "main_line_diameter_mm", "backing_line_brand", "backing_line_model",
+      "backing_line_type", "backing_line_lb", "backing_yards",
+      "custom_main_line", "custom_backing_line"
     ]);
 
     window.addEventListener("message", function(event) {

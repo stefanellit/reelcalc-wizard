@@ -59,6 +59,19 @@
     };
   }
 
+  function selectedLineParameters(detail) {
+    var data = detail || {};
+    return {
+      line_role: data.lineRole || "",
+      selection_stage: data.selectionStage || "",
+      line_id: data.lineId || "",
+      line_brand: data.lineBrand || "",
+      line_model: data.lineModel || "",
+      line_type: data.lineType || "",
+      line_lb: Number(data.lineLb) || 0
+    };
+  }
+
   function trackReelPageViews() {
     document.querySelectorAll(".reelcalc-reel-page[data-reel-id]").forEach(function(page) {
       var reelId = page.dataset.reelId || "";
@@ -94,12 +107,100 @@
           calculator_mode: detail.mode || "",
           interaction_source: detail.interactionSource || "",
           unit_system: detail.unitSystem || "",
+          capacity_basis: detail.capacityBasis || "",
+          fallback_used: !!detail.fallbackUsed,
+          main_line_id: detail.mainLineId || "",
+          main_line_brand: detail.mainLineBrand || "",
+          main_line_model: detail.mainLineModel || "",
+          main_line_type: detail.mainLineType || "",
+          main_line_lb: Number(detail.mainLineLb) || 0,
           main_line_yards: Number(detail.mainLineYards) || 0,
           main_line_diameter_mm: Number(detail.mainLineDiameterMm) || 0,
+          backing_line_id: detail.backingLineId || "",
+          backing_line_brand: detail.backingLineBrand || "",
+          backing_line_model: detail.backingLineModel || "",
+          backing_line_type: detail.backingLineType || "",
+          backing_line_lb: Number(detail.backingLineLb) || 0,
           backing_yards: Number(detail.backingYards) || 0,
           backing_diameter_mm: Number(detail.backingDiameterMm) || 0,
-          starting_main_line_lb: Number(detail.startingMainLineLb) || 0,
-          starting_backing_lb: Number(detail.startingBackingLb) || 0
+          custom_main_line: !!detail.customMainLine,
+          custom_backing_line: !!detail.customBackingLine
+        }
+      ));
+    });
+
+    document.addEventListener("reelcalc:line-selection-changed", function(event) {
+      var detail = event.detail || {};
+      track("reel_line_selected", Object.assign(
+        reelDetailParameters(detail),
+        selectedLineParameters(detail)
+      ));
+    });
+
+    document.addEventListener("reelcalc:capacity-basis-selected", function(event) {
+      var detail = event.detail || {};
+      var parameters = Object.assign(reelDetailParameters(detail), {
+        capacity_basis: detail.capacityBasis || "",
+        fallback_used: !!detail.fallbackUsed,
+        line_id: detail.lineId || "",
+        line_type: detail.lineType || ""
+      });
+      track("reel_capacity_basis_selected", parameters);
+      if (detail.fallbackUsed) {
+        track("reel_braid_capacity_fallback", parameters, {
+          onceKey: [location.pathname, detail.reelId || "", detail.lineId || ""].join("|")
+        });
+      }
+    });
+
+    document.addEventListener("reelcalc:calculator-mode-changed", function(event) {
+      var detail = event.detail || {};
+      track("reel_calculator_mode_selected", Object.assign(reelDetailParameters(detail), {
+        calculator_mode: detail.mode || ""
+      }));
+    });
+
+    document.addEventListener("reelcalc:recommended-setup-loaded", function(event) {
+      var detail = event.detail || {};
+      track("reel_recommended_setup_loaded", Object.assign(reelDetailParameters(detail), {
+        calculator_mode: detail.mode || "",
+        main_line_id: detail.mainLineId || "",
+        backing_line_id: detail.backingLineId || ""
+      }));
+    });
+
+    document.addEventListener("reelcalc:custom-line-changed", function(event) {
+      var detail = event.detail || {};
+      track("reel_custom_line_changed", Object.assign(reelDetailParameters(detail), {
+        line_role: detail.lineRole || "",
+        enabled: !!detail.enabled
+      }));
+    });
+
+    document.addEventListener("reelcalc:line-affiliate-impression", function(event) {
+      var detail = event.detail || {};
+      track("line_affiliate_impression", Object.assign(
+        reelDetailParameters(detail),
+        selectedLineParameters(detail),
+        {
+          retailer: detail.retailer || "",
+          required_line_yards: Number(detail.requiredLineYards) || 0,
+          suggested_spool_yards: Number(detail.suggestedSpoolYards) || 0
+        }
+      ), {
+        onceKey: [location.pathname, detail.reelId || "", detail.lineRole || "", detail.lineId || "", detail.suggestedSpoolYards || ""].join("|")
+      });
+    });
+
+    document.addEventListener("reelcalc:line-affiliate-click", function(event) {
+      var detail = event.detail || {};
+      track("line_affiliate_clicked", Object.assign(
+        reelDetailParameters(detail),
+        selectedLineParameters(detail),
+        {
+          retailer: detail.retailer || "",
+          required_line_yards: Number(detail.requiredLineYards) || 0,
+          suggested_spool_yards: Number(detail.suggestedSpoolYards) || 0
         }
       ));
     });
