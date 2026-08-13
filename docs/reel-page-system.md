@@ -53,6 +53,8 @@ Shared live-page files:
 
 Both `Capacity Only` and `Backing + Main Line` load their choices from `data/lines.json`. The first load uses clear `Choose a line` placeholders so an alphabetical database entry is never mistaken for a ReelCalc brand endorsement. The user chooses Mono, Fluorocarbon, Copolymer, or Braid, then an actual brand/product and strength. Fluorocarbon-coated main lines are grouped under Copolymer. Leader-only products are intentionally excluded because they are not intended to fill a reel spool. A custom-line option remains available when a product is not listed.
 
+Braid results lead with one best estimate and show the expected real-world range underneath. An exact database line that matches a published reel braid strength uses the tightest range (6 percent on either side before practical rounding). Generic recommendations, interpolated strengths, custom lines, and mono-derived fallbacks keep wider ranges. The result tells the angler to begin near the low end, wind under firm even tension, watch the fill level, and treat the upper end as an allowance rather than an amount that must fit.
+
 The page's suggested main-line amount is treated as a starting target. When that amount would consume more than 90% of the lower end of a braid capacity range, the shared calculator steps it down to a practical 25-yard increment so `Backing + Main Line` still leaves useful room for backing. An explicit `mainYards` URL parameter is never changed.
 
 Capacity basis is automatic:

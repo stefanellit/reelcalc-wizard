@@ -393,10 +393,10 @@
     function basisExplanation(basis, mainLine, range) {
       if (basis.type === "published-braid") {
         var estimate = basis.publishedEstimate;
-        var rating = estimate && estimate.method === "exact" && estimate.anchors.length
-          ? " Published reel rating: " + formatNumber(estimate.anchors[0].lb, 0) + " lb braid / " + lengthLabel(estimate.anchors[0].yards, 0) + "."
-          : "";
-        return basis.label + "." + rating + " Braid diameter and packing vary, so capacity is shown as a range.";
+        if (estimate && estimate.method === "exact") {
+          return "The best estimate uses this reel's matching published braid capacity. The range allows for differences in braid thickness, winding tension, and fill level.";
+        }
+        return "The best estimate uses this reel's published braid ratings near the selected strength. The range is wider because the strength is between published ratings.";
       }
       if (basis.fallback) {
         return "This reel does not provide a usable braid rating for " + strengthLabel(mainLine) + ". ReelCalc is estimating from the published mono capacity and the selected line diameter, so the range is wider.";
@@ -542,11 +542,14 @@
       }
 
       if (state.mode === "capacity") {
-        var capacityDisplay = braidRange ? rangeLabel(braidRange) : lengthLabel(basis.capacityYards, 1);
+        var capacityDisplay = braidRange ? lengthLabel(braidRange.centerYards, 0) : lengthLabel(basis.capacityYards, 1);
+        var capacityRangeSummary = braidRange
+          ? '<p class="result-subtitle"><strong>Expected real-world range:</strong> ' + escapeHtml(rangeLabel(braidRange)) + '</p>'
+          : "";
         var capacityNote = braidRange
-          ? "Use this as a real-world fill target. Winding tension and preferred fill level can change the final amount."
+          ? "Start near the low end, wind the line under firm even tension, and watch the spool fill. Stop at the reel's recommended fill level rather than forcing on the upper amount."
           : "This estimate uses the selected line's stored diameter and the reel's published mono capacity.";
-        output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">Estimated full-spool capacity' + (braidRange ? " range" : "") + '</span><strong class="result-number">' + escapeHtml(capacityDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(mainLine)) + '</p></div>' +
+        output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">' + (braidRange ? "Best full-spool estimate" : "Estimated full-spool capacity") + '</span><strong class="result-number">' + escapeHtml(capacityDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(mainLine)) + '</p>' + capacityRangeSummary + '</div>' +
           '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
           '<div class="setup-summary"><div class="summary-item"><span>Reel</span><strong>' + escapeHtml(displayName(reel)) + '</strong></div><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + '</strong></div></div>' +
           '<p class="result-note">' + escapeHtml(capacityNote) + '</p>' +
@@ -571,11 +574,14 @@
         return;
       }
       var backingRange = core.calculateCalibratedBackingRange(reel, mainLine, desiredYards, backingLine);
-      var backingDisplay = backingRange ? rangeLabel(backingRange) : lengthLabel(result.backingYards, 1);
+      var backingDisplay = lengthLabel(result.backingYards, 1);
+      var backingRangeSummary = backingRange
+        ? '<p class="result-subtitle"><strong>Expected real-world range:</strong> ' + escapeHtml(rangeLabel(backingRange)) + '</p>'
+        : "";
       var backingNote = backingRange
-        ? "Backing is also shown as a range because the main-line braid capacity is a range."
+        ? "Start with the best backing estimate, wind the backing evenly, then add your planned main line under firm tension. Treat the range as an adjustment allowance and stop at the reel's recommended fill level."
         : "Backing uses the selected main and backing line diameters.";
-      output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">Estimated backing needed' + (backingRange ? " range" : "") + '</span><strong class="result-number">' + escapeHtml(backingDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(backingLine)) + '</p></div>' +
+      output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">' + (backingRange ? "Best backing estimate" : "Estimated backing needed") + '</span><strong class="result-number">' + escapeHtml(backingDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(backingLine)) + '</p>' + backingRangeSummary + '</div>' +
         '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
         '<div class="setup-summary"><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + " - " + escapeHtml(lengthLabel(desiredYards, 1)) + '</strong></div><div class="summary-item"><span>Backing</span><strong>' + escapeHtml(lineLabel(backingLine)) + " - " + escapeHtml(backingDisplay) + '</strong></div></div>' +
         '<p class="result-note">' + escapeHtml(backingNote) + '</p>' +

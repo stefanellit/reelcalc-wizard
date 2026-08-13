@@ -68,10 +68,22 @@ assert(selectedBraid.yards === 250, "A selected 15 lb braid should retain the re
 assert(selectedBraid.method === "exact", "A selected braid should not receive an unsupported diameter adjustment");
 const selectedRange = core.calculateBraidCapacityRange(
   daiwa3000,
-  { type: "Braid", lb: 15, dia_in: 0.009 }
+  { id: "verified-selected-braid-15", type: "Braid", lb: 15, dia_in: 0.009 }
 );
-assert(selectedRange.minimumYards === 225 && selectedRange.maximumYards === 275, "An exact selected braid should use a narrower 225-275 yd range");
-assert(selectedRange.uncertaintyRate === 0.10, "An exact selected braid should use 10 percent uncertainty with an exact rating");
+assert(selectedRange.minimumYards === 235 && selectedRange.maximumYards === 265, "An exact selected braid should use a tighter 235-265 yd range");
+assert(selectedRange.uncertaintyRate === 0.06, "An exact selected database braid should use 6 percent uncertainty with an exact rating");
+
+const threeHundredYardReel = {
+  ...daiwa3000,
+  id: "test-300-yard-braid-rating",
+  braid_capacity_note: "15-300"
+};
+const threeHundredRange = core.calculateBraidCapacityRange(
+  threeHundredYardReel,
+  { id: "verified-selected-braid-15", type: "Braid", lb: 15, dia_in: 0.009 }
+);
+assert(threeHundredRange.centerYards === 300, "The best estimate should preserve the published 300 yd rating");
+assert(threeHundredRange.minimumYards === 280 && threeHundredRange.maximumYards === 320, "A verified 300 yd match should show a tighter 280-320 yd range");
 
 for (const line of [
   { type: "Monofilament", lb: 10, dia_in: 0.012, generic_recommendation: true },

@@ -151,10 +151,16 @@ assert.equal(preload.mode, "capacity");
 // 22-23: Shared component contains mobile rules and all page systems still load that one component.
 const calculatorSource = read("js/reel-page-calculator.js");
 const loaderSource = read("js/squarespace-reel-page-loader.js");
+const wizardSource = read("js/wizard.js");
 assert.match(calculatorSource, /@media\(max-width:520px\)/);
 assert.match(calculatorSource, /lineSelectorTemplate\("main", "Main Line"/);
 assert.match(calculatorSource, /lineSelectorTemplate\("backing", "Backing Line"/);
 assert.match(calculatorSource, /data\/lines\.json/);
+assert.match(calculatorSource, /Best full-spool estimate/);
+assert.match(calculatorSource, /Expected real-world range/);
+assert.match(wizardSource, /calculateCalibratedBacking\(reel, line, desired, backing\)/);
+assert.match(wizardSource, /Best full-spool estimate/);
+assert.match(wizardSource, /How to use the range/);
 assert.match(loaderSource, /js\/reel-page-calculator\.js/);
 const rendererPath = path.join(root, "scripts/reel-pages/render.mjs");
 if (fs.existsSync(rendererPath)) {

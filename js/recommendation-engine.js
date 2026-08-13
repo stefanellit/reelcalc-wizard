@@ -774,7 +774,7 @@
 
     var capacityReason;
     if (capacity > 0 && normalizeType(line.type) === "Braid") {
-      capacityReason = "Braid varies by brand and how it packs, so use the capacity range shown below as a realistic target.";
+      capacityReason = "Use the best estimate as your starting point; the expected range allows for differences in braid thickness, winding tension, and fill level.";
     } else if (capacity > 0) {
       capacityReason = "On this reel, expect roughly " + String(Math.round(capacity)) + " yards on a full spool.";
     } else {

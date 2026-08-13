@@ -194,6 +194,14 @@
 
   function braidCapacityUncertainty(line, publishedEstimate) {
     var genericRecommendation = line && line.generic_recommendation === true;
+    var verifiedDatabaseLine = line && line.id && !genericRecommendation && line.custom_line !== true;
+
+    // A selected database braid that exactly matches a published reel rating
+    // has the strongest available anchor, so it earns the tightest range.
+    if (verifiedDatabaseLine && publishedEstimate && publishedEstimate.method === "exact") {
+      return 0.06;
+    }
+
     var uncertainty = genericRecommendation ? 0.15 : 0.10;
 
     if (line && line.custom_line === true) uncertainty += 0.05;

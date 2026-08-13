@@ -14,7 +14,8 @@ const {
   calculatePublishedBraidCapacity,
   calculateBraidCapacityRange,
   calculateFullSpoolCapacity: calculateCoreFullSpoolCapacity,
-  calculateBackingNeeded,
+  calculateCalibratedBacking,
+  calculateCalibratedBackingRange,
   calculateHandleTurns,
   isReelReady,
   isLineReady
@@ -1299,7 +1300,7 @@ function renderRecommendations() {
     html += "<p class=\"setup-headline\"><strong>" + escapeHtml(formatSetupHeadline(setup)) + "</strong></p>";
     html += "<div class=\"card-meta\">";
     html += "<span class=\"pill subtle\">" + formatDiameterWithUnit(setup.line.dia_in) + "</span>";
-    html += "<span class=\"pill subtle\">" + (capacityRange ? formatCapacityRange(capacityRange, false) : formatLength(capacity, 1)) + " est.</span>";
+    html += "<span class=\"pill subtle\">" + (capacityRange ? formatLength(capacityRange.centerYards, 0) + " best est." : formatLength(capacity, 1) + " est.") + "</span>";
     html += "<span class=\"pill subtle\">" + escapeHtml(recommendationPurposeLabel(setup)) + "</span>";
     html += "</div>";
     html += "<p>" + escapeHtml(setup.explanation) + "</p>";
@@ -1362,17 +1363,19 @@ function calculateFullSpoolCapacity(reel, line) {
   });
 }
 
-function braidCapacityRangeNote(reel, line, range) {
+function braidCapacityRangeNote(reel, line, range, includeRange) {
   if (!range) return "";
   var estimate = range.publishedEstimate || getPublishedBraidEstimate(reel, line);
+  var prefix = includeRange === false
+    ? ""
+    : "Expected real-world range: " + formatCapacityRange(range, true) + ". ";
   if (!estimate) {
-    return "Braid diameter and how tightly it packs vary by brand, so actual capacity may fall within this range.";
+    return prefix + "This estimate is wider because a matching published braid rating is unavailable. Braid thickness, winding tension, and fill level can change the final amount.";
   }
   if (estimate.method === "exact" && estimate.anchors.length) {
-    var rating = estimate.anchors[0];
-    return "Published reel rating: " + formatStrength(rating.lb) + " braid / " + formatLength(rating.yards, 0, true) + ". Braid diameter and how tightly it packs vary by brand, so actual capacity may fall within this range.";
+    return prefix + "Braid thickness, winding tension, and fill level can change the final amount.";
   }
-  return "This range uses the reel's published braid ratings near " + formatStrength(estimate.targetLb) + ". Braid diameter and how tightly it packs vary by brand, so actual capacity may differ.";
+  return prefix + "This estimate uses the reel's published braid ratings near " + formatStrength(estimate.targetLb) + ", so its range is wider.";
 }
 
 function genericLineType(typeValue) {
@@ -1465,7 +1468,7 @@ function recommendationAffiliateHtml(line, fullCapacity, capacityRange) {
   var setupDescription = state.backingMode === "yes"
     ? "Your backing setup uses about " + formatLength(requiredYards, 0, true) + " of main line."
     : capacityRange
-      ? "A full spool is likely to use about " + formatCapacityRange(capacityRange, true) + "."
+      ? "Best full-spool estimate: " + formatLength(capacityRange.centerYards, 0, true) + ". Expected range: " + formatCapacityRange(capacityRange, true) + "."
       : "A full spool is estimated to use about " + formatLength(requiredYards, 0, true) + ".";
   var buttonLabel = "Shop " + formatRetailSpoolLength(offer.suggestedSpoolYards) + " " + lineLabel + " options";
   var html = "<section class=\"line-affiliate-card\" aria-label=\"Shop the recommended main line\">";
@@ -1511,15 +1514,18 @@ function renderCapacityResult() {
   var capacity = calculateFullSpoolCapacity(reel, line);
   var capacityRange = getBraidCapacityRange(reel, line);
   var lineLabel = formatActiveLineShort(line);
-  var braidCapacityNote = braidCapacityRangeNote(reel, line, capacityRange);
+  var braidCapacityNote = braidCapacityRangeNote(reel, line, capacityRange, false);
   var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
   html += "<div class=\"capacity-hero\">";
-  html += "<div><span class=\"eyebrow\">" + (capacityRange ? "Estimated full-spool capacity range" : "Estimated full-spool capacity") + "</span><strong class=\"capacity-number\">" + (capacityRange ? formatCapacityRangeValue(capacityRange) : formatNumber(yardsToDisplayLength(capacity), 1)) + "</strong><p>" + lengthUnitLong() + " of " + escapeHtml(lineLabel) + "</p></div>";
+  html += "<div><span class=\"eyebrow\">" + (capacityRange ? "Best full-spool estimate" : "Estimated full-spool capacity") + "</span><strong class=\"capacity-number\">" + formatNumber(yardsToDisplayLength(capacityRange ? capacityRange.centerYards : capacity), capacityRange ? 0 : 1) + "</strong><p>" + lengthUnitLong() + " of " + escapeHtml(lineLabel) + "</p>" + (capacityRange ? "<p class=\"capacity-range-note\"><strong>Expected real-world range:</strong> " + formatCapacityRange(capacityRange, true) + "</p>" : "") + "</div>";
   html += "</div>";
   html += "<div class=\"capacity-detail-grid\">";
   html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>" + (braidCapacityNote ? escapeHtml(braidCapacityNote) : "Rated at " + formatReelRating(reel) + " line.") + "</p></div>";
   html += "<div class=\"capacity-detail-card\"><span>Line used</span><strong>" + escapeHtml(lineLabel) + "</strong><p>Diameter: " + formatDiameterWithUnit(line.dia_in) + ".</p></div>";
   html += "</div>";
+  if (capacityRange) {
+    html += "<p class=\"capacity-spooling-note\"><strong>How to use the range:</strong> Start near the low end, wind under firm even tension, and watch the spool fill. Stop at the reel's recommended fill level rather than forcing on the upper amount.</p>";
+  }
   html += recommendationAffiliateHtml(line, capacity, capacityRange);
   if (state.backingMode !== "yes") {
     html += handleTurnEstimateHtml([{ kind: "main-line", label: formatActiveLineShort(line), yards: capacity }]);
@@ -1547,7 +1553,7 @@ function renderBackingResult() {
   updateSliderBounds(fullCapacity);
   if (state.backingMode !== "yes") {
     el.backingResult.className = "";
-    el.backingResult.innerHTML = "<div class=\"result-box\"><p><strong>No backing:</strong> fill the reel with approximately " + (fullCapacityRange ? formatCapacityRange(fullCapacityRange, true) : formatLength(fullCapacity, 1, true)) + " of " + escapeHtml(formatActiveLineShort(line)) + ".</p>" + spoolBar(0, 100) + "<p class=\"tiny-note\">" + (fullCapacityRange ? "Braid capacity is shown as a real-world range because line diameter, packing tension, and fill level vary." : "This is the estimated full-spool capacity of the selected main line.") + "</p></div>";
+    el.backingResult.innerHTML = "<div class=\"result-box\"><p><strong>No backing:</strong> best estimate " + formatLength(fullCapacityRange ? fullCapacityRange.centerYards : fullCapacity, fullCapacityRange ? 0 : 1, true) + " of " + escapeHtml(formatActiveLineShort(line)) + ".</p>" + (fullCapacityRange ? "<p><strong>Expected real-world range:</strong> " + formatCapacityRange(fullCapacityRange, true) + ".</p>" : "") + spoolBar(0, 100) + "<p class=\"tiny-note\">" + (fullCapacityRange ? "Start near the low end, wind under firm even tension, and stop at the reel's recommended fill level. The upper end is an allowance, not an amount that must fit." : "This is the estimated full-spool capacity of the selected main line.") + "</p></div>";
     return;
   }
   if (!(Number(state.desiredMainYards) > 0)) {
@@ -1557,12 +1563,19 @@ function renderBackingResult() {
   }
   var backing = getBackingLine();
   var desired = Number(state.desiredMainYards) || 0;
-  var result = calculateBackingNeeded(reel, line, desired, backing);
+  var result = calculateCalibratedBacking(reel, line, desired, backing);
+  var backingRange = calculateCalibratedBackingRange(reel, line, desired, backing);
+  if (!result) {
+    el.backingResult.className = "empty-state warning-box";
+    el.backingResult.textContent = "ReelCalc could not establish a usable capacity reference for this backing setup.";
+    return;
+  }
   var html = "<div class=\"result-box" + (result.overCapacity ? " error-box" : "") + "\">";
   if (result.overCapacity) {
     html += "<p><strong>That is more line than this reel is estimated to hold.</strong> Use less main line or a thinner line.</p>";
   } else {
-    html += "<p><strong>Estimated backing needed:</strong> " + formatLength(result.backingYards, 1, true) + ".</p>";
+    html += "<p><strong>Best backing estimate:</strong> " + formatLength(result.backingYards, 1, true) + ".</p>";
+    if (backingRange) html += "<p><strong>Expected real-world range:</strong> " + formatCapacityRange(backingRange, true) + ".</p>";
   }
   html += spoolBar(result.backingPercent, result.mainPercent);
   html += "<div class=\"result-grid\">";
@@ -1580,7 +1593,10 @@ function renderBackingResult() {
   var backingNote = backing === DEFAULT_BACKING
     ? "No backing line selected yet, so this uses " + formatStrength(DEFAULT_BACKING.lb) + " monofilament at " + formatDiameterWithUnit(DEFAULT_BACKING.dia_in) + "."
     : "Backing calculation uses the selected backing specs.";
-  html += "<p class=\"tiny-note\">" + escapeHtml(backingNote) + " More main line uses more spool space and leaves less room for backing.</p>";
+  var backingSequence = backingRange
+    ? " Start with the best backing estimate, wind backing evenly, then add the planned main line under firm tension. Treat the range as an adjustment allowance and stop at the reel's recommended fill level."
+    : " More main line uses more spool space and leaves less room for backing.";
+  html += "<p class=\"tiny-note\">" + escapeHtml(backingNote + backingSequence) + "</p>";
   html += "</div>";
   el.backingResult.className = "";
   el.backingResult.innerHTML = html;

@@ -577,6 +577,23 @@ button {
   color: var(--muted);
 }
 
+.capacity-hero .capacity-range-note {
+  color: #315c34;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 9px;
+}
+
+.capacity-spooling-note {
+  margin: 0;
+  border-left: 4px solid var(--teal);
+  background: rgba(23, 92, 79, 0.06);
+  padding: 10px 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .result-box .capacity-number {
   display: block;
   color: #2f6f35;
