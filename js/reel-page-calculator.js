@@ -716,7 +716,11 @@
         var product = selector.productsFor(preparedLines, state[role].material).find(function(item) {
           return item.key === event.target.value;
         });
-        var nextLine = selector.strengthsFor(preparedLines, product)[0] || null;
+        var productStrengths = selector.strengthsFor(preparedLines, product);
+        var suggestedLb = role === "main" ? defaults.mainLineLb : defaults.backingLb;
+        var nextLine = productStrengths.slice().sort(function(a, b) {
+          return Math.abs(a.lb - suggestedLb) - Math.abs(b.lb - suggestedLb) || a.lb - b.lb;
+        })[0] || null;
         state[role].awaitingChoice = !nextLine;
         state[role].line = nextLine;
         refreshRole(role, nextLine && nextLine.id);
