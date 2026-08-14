@@ -240,6 +240,7 @@
     var reelSize = reelSizeClass(reel);
     var setups = group.setups.map(function(setupProfile) {
       setupProfile = scaledProfileForReel(setupProfile, reelSize, fishingType);
+      setupProfile = bestOverallProfileForReel(setupProfile, reel);
       return pickBestSetupForProfile(setupProfile, {
         reel: reel,
         lines: lines,
@@ -303,6 +304,36 @@
       leaderType: setupProfile.leaderType,
       leaderRange: setupProfile.leaderRange
     };
+  }
+
+  function bestOverallProfileForReel(setupProfile, reel) {
+    if (setupProfile.useCase !== "best-overall" || normalizeType(setupProfile.mainType) !== "Braid") {
+      return setupProfile;
+    }
+
+    var reelRange = recommendedBraidRange(reel);
+    if (!reelRange || Number(setupProfile.mainRange[0]) >= reelRange[0]) return setupProfile;
+
+    var adjustedMaximum = Math.max(Number(setupProfile.mainRange[1]), reelRange[0]);
+
+    return {
+      useCase: setupProfile.useCase,
+      title: setupProfile.title,
+      mainType: setupProfile.mainType,
+      mainRange: [reelRange[0], adjustedMaximum],
+      leaderType: setupProfile.leaderType,
+      leaderRange: setupProfile.leaderRange
+    };
+  }
+
+  function recommendedBraidRange(reel) {
+    var value = String(reel && reel.reelcalc_recommended_braid || "");
+    var strengths = value.match(/\d+(?:\.\d+)?/g);
+    if (!strengths || !strengths.length) return null;
+    var minimum = Number(strengths[0]);
+    var maximum = Number(strengths[1] || strengths[0]);
+    if (!(minimum > 0) || !(maximum >= minimum)) return null;
+    return [minimum, maximum];
   }
 
   function setupFitsReelSize(setup, reel, fishingType) {
