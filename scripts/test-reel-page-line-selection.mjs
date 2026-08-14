@@ -26,14 +26,20 @@ const shimano = reel("shimano-sedona-fj-2500hg-se2500hgfj-652");
 const daiwa = reel("daiwa-bg-2500-bg2500-184");
 const revros = reel("daiwa-revros-lt-3000d-c-rvslt3000d-c-104");
 const noBraidRating = reel("lew-s-crappie-thunder-spinning-reel-75-43-353");
+const centron4000 = reel("kastking-centron-spinning-4000-51-294");
+const vanquishPe1000 = reel("shimano-vanquish-1000ssspg-781");
 const powerPro15 = line("powerpro-spectra-braid-15");
 const powerPro20 = line("powerpro-spectra-braid-20");
+const superPower20 = line("kastking-superpower-braid-braid-20");
+const superPower40 = line("kastking-superpower-braid-braid-40");
+const superPower6 = line("kastking-superpower-braid-braid-6");
+const bigGame12 = line("berkley-trilene-big-game-monofilament-12");
 const trilene8 = line("berkley-trilene-xl-monofilament-8");
 const trilene10 = line("berkley-trilene-xl-monofilament-10");
 const invizx8 = line("seaguar-invizx-fluorocarbon-8");
 
-assert.ok(shimano && daiwa && revros && noBraidRating, "required reel fixtures must exist");
-assert.ok(powerPro15 && powerPro20 && trilene8 && trilene10 && invizx8, "required line fixtures must exist");
+assert.ok(shimano && daiwa && revros && noBraidRating && centron4000 && vanquishPe1000, "required reel fixtures must exist");
+assert.ok(powerPro15 && powerPro20 && superPower6 && superPower20 && superPower40 && bigGame12 && trilene8 && trilene10 && invizx8, "required line fixtures must exist");
 assert.equal(lines.length, 852, "central spool-line database valid-record count changed unexpectedly");
 
 // 1-4: Shimano and Daiwa each use mono calibration for mono and braid calibration for braid.
@@ -55,6 +61,45 @@ const interpolated = core.capacityBasisForLine(revros, custom18Braid);
 assert.equal(interpolated.type, "published-braid");
 assert.equal(interpolated.publishedEstimate.method, "interpolated");
 assert.ok(interpolated.capacityYards < 250 && interpolated.capacityYards > 220);
+
+// Reel pages opt into actual-line diameter calibration without changing the Wizard's legacy path.
+const legacyCentron20 = core.capacityBasisForLine(centron4000, superPower20);
+assert.equal(legacyCentron20.capacityYards, 310);
+const calibratedCentron20 = core.capacityBasisForActualLine(centron4000, superPower20, lines);
+assert.equal(calibratedCentron20.type, "published-braid-diameter");
+assert.equal(calibratedCentron20.actualLineEstimate.method, "diameter-calibrated");
+assert.equal(calibratedCentron20.actualLineEstimate.referenceQuality, "selected-product-exact");
+assert.ok(calibratedCentron20.capacityYards > 625 && calibratedCentron20.capacityYards < 650);
+
+const centron20Range = core.calculateActualLineBraidCapacityRange(centron4000, superPower20, lines);
+assert.ok(centron20Range.minimumYards < centron20Range.centerYards);
+assert.ok(centron20Range.maximumYards > centron20Range.centerYards);
+const centron20Backing = core.calculateActualLineCalibratedBacking(
+  centron4000,
+  superPower20,
+  150,
+  bigGame12,
+  lines
+);
+assert.ok(centron20Backing.backingYards > 195 && centron20Backing.backingYards < 210);
+const centron20BackingRange = core.calculateActualLineCalibratedBackingRange(
+  centron4000,
+  superPower20,
+  150,
+  bigGame12,
+  lines
+);
+assert.ok(centron20BackingRange.minimumYards < centron20Backing.backingYards);
+assert.ok(centron20BackingRange.maximumYards > centron20Backing.backingYards);
+
+const calibratedCentron40 = core.capacityBasisForActualLine(centron4000, superPower40, lines);
+assert.equal(calibratedCentron40.actualLineEstimate.method, "exact");
+assert.equal(calibratedCentron40.capacityYards, 310);
+
+const peVanquishRange = core.calculateActualLineBraidCapacityRange(vanquishPe1000, superPower6, lines);
+assert.equal(peVanquishRange.method, "pe-diameter-calibrated");
+assert.equal(peVanquishRange.referenceQuality, "published-pe-diameter");
+assert.ok(peVanquishRange.centerYards > 95 && peVanquishRange.centerYards < 115);
 
 // 7-8: Missing braid data is labeled as fallback; fluorocarbon stays on mono calibration.
 const fallback = core.capacityBasisForLine(noBraidRating, powerPro15);
@@ -158,6 +203,9 @@ assert.match(calculatorSource, /lineSelectorTemplate\("backing", "Backing Line"/
 assert.match(calculatorSource, /data\/lines\.json/);
 assert.match(calculatorSource, /Best full-spool estimate/);
 assert.match(calculatorSource, /Expected real-world range/);
+assert.match(calculatorSource, /capacityBasisForActualLine\(reel, mainLine, preparedLines\)/);
+assert.match(calculatorSource, /calculateActualLineCalibratedBacking\(reel, mainLine, desiredYards, backingLine, preparedLines\)/);
+assert.match(calculatorSource, /Plan for up to/);
 assert.match(wizardSource, /calculateCalibratedBacking\(reel, line, desired, backing\)/);
 assert.match(wizardSource, /Best full-spool estimate/);
 assert.match(wizardSource, /How to use the range/);

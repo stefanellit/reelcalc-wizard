@@ -391,6 +391,19 @@
     }
 
     function basisExplanation(basis, mainLine, range) {
+      if (basis.type === "published-braid-diameter") {
+        var actualEstimate = basis.actualLineEstimate;
+        if (actualEstimate && actualEstimate.method === "exact") {
+          return "The best estimate uses this reel's matching published braid capacity. The range allows for differences in winding tension and fill level.";
+        }
+        if (actualEstimate && actualEstimate.referenceQuality === "published-pe-diameter") {
+          return "The best estimate converts this reel's published PE-size capacity using the selected line's diameter. The range allows for normal braid and spooling variation.";
+        }
+        if (actualEstimate && actualEstimate.referenceQuality.indexOf("selected-product") === 0) {
+          return "The best estimate converts this reel's published braid ratings using diameters from the selected line family. The range allows for normal spooling variation.";
+        }
+        return "The best estimate converts this reel's published braid ratings using typical verified braid diameters at those strengths. The range allows for line-to-line variation.";
+      }
       if (basis.type === "published-braid") {
         var estimate = basis.publishedEstimate;
         if (estimate && estimate.method === "exact") {
@@ -421,11 +434,14 @@
       return html + '<p class="selection-detail">Use this as a starting point and watch the spool fill level.</p></div>';
     }
 
-    function affiliateCard(line, requiredYards, role) {
+    function affiliateCard(line, requiredYards, role, planningYards) {
+      var purchaseYards = Number(planningYards) > Number(requiredYards)
+        ? Number(planningYards)
+        : Number(requiredYards);
       var offer = affiliates.buildRecommendedLineOffer({
         affiliateData: affiliateData,
         line: line,
-        requiredYards: requiredYards
+        requiredYards: purchaseYards
       });
       if (!offer) return "";
       var impressionKey = [role, line.id, offer.suggestedSpoolYards].join("|");
@@ -440,13 +456,17 @@
           lineLb: Number(line.lb) || 0,
           retailer: offer.retailerId,
           requiredLineYards: Number(requiredYards.toFixed(1)),
+          planningLineYards: Number(purchaseYards.toFixed(1)),
           suggestedSpoolYards: offer.suggestedSpoolYards
         });
       }
       var roleLabel = role === "main" ? "Main line" : "Backing";
+      var amountText = purchaseYards > requiredYards + 0.05
+        ? "Best estimate: " + lengthLabel(requiredYards, 1) + ". Plan for up to " + lengthLabel(purchaseYards, 1) + ". "
+        : "Calculated amount: " + lengthLabel(requiredYards, 1) + ". ";
       return '<div class="affiliate-card"><strong>' + roleLabel + ': ' + escapeHtml(lineLabel(line)) + "</strong>" +
-        "<p>Calculated amount: " + escapeHtml(lengthLabel(requiredYards, 1)) + ". Suggested retail spool: " + escapeHtml(lengthLabel(offer.suggestedSpoolYards, 0)) + ".</p>" +
-        '<a class="affiliate-link" href="' + escapeHtml(offer.url) + '" target="_blank" rel="sponsored nofollow noopener" data-affiliate-role="' + role + '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-line-id="' + escapeHtml(line.id || "") + '" data-required-yards="' + escapeHtml(requiredYards.toFixed(1)) + '" data-spool-yards="' + escapeHtml(offer.suggestedSpoolYards) + '">' + escapeHtml(offer.label) + "</a>" +
+        "<p>" + escapeHtml(amountText) + "Suggested retail spool: " + escapeHtml(lengthLabel(offer.suggestedSpoolYards, 0)) + ".</p>" +
+        '<a class="affiliate-link" href="' + escapeHtml(offer.url) + '" target="_blank" rel="sponsored nofollow noopener" data-affiliate-role="' + role + '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-line-id="' + escapeHtml(line.id || "") + '" data-required-yards="' + escapeHtml(requiredYards.toFixed(1)) + '" data-planning-yards="' + escapeHtml(purchaseYards.toFixed(1)) + '" data-spool-yards="' + escapeHtml(offer.suggestedSpoolYards) + '">' + escapeHtml(offer.label) + "</a>" +
         '<span class="disclosure">' + escapeHtml(offer.disclosure) + "</span></div>";
     }
 
@@ -465,8 +485,8 @@
     function recommendedMainYards(mainLine) {
       var requested = preload.mainLineYards || defaults.mainLineYards;
       if (preload.mainLineYards || state.mode !== "backing") return requested;
-      var range = core.calculateBraidCapacityRange(reel, mainLine);
-      var basis = core.capacityBasisForLine(reel, mainLine);
+      var range = core.calculateActualLineBraidCapacityRange(reel, mainLine, preparedLines);
+      var basis = core.capacityBasisForActualLine(reel, mainLine, preparedLines);
       var practicalCapacity = range ? range.minimumYards : (basis && basis.capacityYards);
       if (!(practicalCapacity > 0) || requested <= practicalCapacity * 0.9) return requested;
       var adjusted = Math.max(25, Math.round(practicalCapacity * 0.75 / 25) * 25);
@@ -523,12 +543,12 @@
         output.innerHTML = '<div class="error">Choose lines with a usable diameter, or complete the custom-line fields.</div>';
         return;
       }
-      var basis = core.capacityBasisForLine(reel, mainLine);
+      var basis = core.capacityBasisForActualLine(reel, mainLine, preparedLines);
       if (!basis) {
         output.innerHTML = '<div class="error">ReelCalc could not establish a usable capacity reference for this setup.</div>';
         return;
       }
-      var braidRange = core.calculateBraidCapacityRange(reel, mainLine);
+      var braidRange = core.calculateActualLineBraidCapacityRange(reel, mainLine, preparedLines);
       var basisText = basisExplanation(basis, mainLine, braidRange);
       var capacityBasisKey = [basis.type, mainLine.id || "custom", mainLine.lb].join("|");
       if (capacityBasisKey !== state.lastCapacityBasisKey) {
@@ -553,7 +573,7 @@
           '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
           '<div class="setup-summary"><div class="summary-item"><span>Reel</span><strong>' + escapeHtml(displayName(reel)) + '</strong></div><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + '</strong></div></div>' +
           '<p class="result-note">' + escapeHtml(capacityNote) + '</p>' +
-          '<div class="affiliate-grid">' + affiliateCard(mainLine, braidRange ? braidRange.maximumYards : basis.capacityYards, "main") + '</div>' +
+          '<div class="affiliate-grid">' + affiliateCard(mainLine, braidRange ? braidRange.centerYards : basis.capacityYards, "main", braidRange ? braidRange.maximumYards : basis.capacityYards) + '</div>' +
           handleTurnsHtml(basis.capacityYards, null) + "</section>";
         dispatchCompleted(interactionSource, userInitiated, mainLine, null, basis, {
           mainLineYards: basis.capacityYards,
@@ -568,12 +588,12 @@
         output.innerHTML = '<div class="error">Enter how much main line you want on the reel.</div>';
         return;
       }
-      var result = core.calculateCalibratedBacking(reel, mainLine, desiredYards, backingLine);
+      var result = core.calculateActualLineCalibratedBacking(reel, mainLine, desiredYards, backingLine, preparedLines);
       if (!result || result.overCapacity) {
         output.innerHTML = '<div class="error">That main-line amount is greater than this reel is estimated to hold. Use less main line or choose a thinner line.</div>';
         return;
       }
-      var backingRange = core.calculateCalibratedBackingRange(reel, mainLine, desiredYards, backingLine);
+      var backingRange = core.calculateActualLineCalibratedBackingRange(reel, mainLine, desiredYards, backingLine, preparedLines);
       var backingDisplay = lengthLabel(result.backingYards, 1);
       var backingRangeSummary = backingRange
         ? '<p class="result-subtitle"><strong>Expected real-world range:</strong> ' + escapeHtml(rangeLabel(backingRange)) + '</p>'
@@ -586,7 +606,7 @@
         '<div class="setup-summary"><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + " - " + escapeHtml(lengthLabel(desiredYards, 1)) + '</strong></div><div class="summary-item"><span>Backing</span><strong>' + escapeHtml(lineLabel(backingLine)) + " - " + escapeHtml(backingDisplay) + '</strong></div></div>' +
         '<p class="result-note">' + escapeHtml(backingNote) + '</p>' +
         savingsHtml(mainLine, desiredYards, result.backingYards, basis.capacityYards) +
-        '<div class="affiliate-grid">' + affiliateCard(mainLine, desiredYards, "main") + affiliateCard(backingLine, backingRange ? backingRange.maximumYards : result.backingYards, "backing") + '</div>' +
+        '<div class="affiliate-grid">' + affiliateCard(mainLine, desiredYards, "main", desiredYards) + affiliateCard(backingLine, result.backingYards, "backing", backingRange ? backingRange.maximumYards : result.backingYards) + '</div>' +
         handleTurnsHtml(desiredYards, result.backingYards) + "</section>";
       dispatchCompleted(interactionSource, userInitiated, mainLine, backingLine, basis, {
         mainLineYards: desiredYards,

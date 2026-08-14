@@ -235,6 +235,228 @@
     };
   }
 
+  function median(values) {
+    var sorted = values.filter(function(value) {
+      return Number.isFinite(value) && value > 0;
+    }).sort(function(a, b) { return a - b; });
+    if (!sorted.length) return null;
+    var middle = Math.floor(sorted.length / 2);
+    return sorted.length % 2
+      ? sorted[middle]
+      : (sorted[middle - 1] + sorted[middle]) / 2;
+  }
+
+  function normalizedLineText(value) {
+    return String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
+  }
+
+  function braidProductMatches(left, right) {
+    return isBraidLine(left) && isBraidLine(right) &&
+      normalizedLineText(left.brand) === normalizedLineText(right.brand) &&
+      normalizedLineText(left.model) === normalizedLineText(right.model);
+  }
+
+  function diameterRowsAtStrength(lines, targetLb) {
+    return lines.filter(function(candidate) {
+      return isBraidLine(candidate) &&
+        Number(candidate.dia_in) > 0 &&
+        Math.abs(Number(candidate.lb) - targetLb) < 0.001;
+    });
+  }
+
+  function interpolateDiameter(rows, targetLb) {
+    var byStrength = new Map();
+    rows.forEach(function(row) {
+      var lb = Number(row.lb);
+      var diameter = Number(row.dia_in);
+      if (!(lb > 0) || !(diameter > 0)) return;
+      if (!byStrength.has(lb)) byStrength.set(lb, []);
+      byStrength.get(lb).push(diameter);
+    });
+    var points = Array.from(byStrength.entries()).map(function(entry) {
+      return { lb: entry[0], diameterIn: median(entry[1]) };
+    }).filter(function(point) {
+      return point.diameterIn > 0;
+    }).sort(function(a, b) { return a.lb - b.lb; });
+    var lower = null;
+    var upper = null;
+    points.forEach(function(point) {
+      if (point.lb < targetLb) lower = point;
+      if (!upper && point.lb > targetLb) upper = point;
+    });
+    if (!lower || !upper || upper.lb === lower.lb) return null;
+    var position = (targetLb - lower.lb) / (upper.lb - lower.lb);
+    return lower.diameterIn + (upper.diameterIn - lower.diameterIn) * position;
+  }
+
+  function braidReferenceDiameter(line, targetLb, lineCatalog) {
+    var catalog = Array.isArray(lineCatalog) ? lineCatalog : [];
+    var productRows = catalog.filter(function(candidate) {
+      return braidProductMatches(line, candidate) && Number(candidate.dia_in) > 0;
+    });
+    var productExact = diameterRowsAtStrength(productRows, targetLb);
+    if (productExact.length) {
+      return {
+        diameterIn: median(productExact.map(function(candidate) { return Number(candidate.dia_in); })),
+        quality: "selected-product-exact",
+        qualityRank: 4
+      };
+    }
+
+    var catalogExact = diameterRowsAtStrength(catalog, targetLb);
+    if (catalogExact.length) {
+      return {
+        diameterIn: median(catalogExact.map(function(candidate) { return Number(candidate.dia_in); })),
+        quality: "catalog-median-exact",
+        qualityRank: 3
+      };
+    }
+
+    var productInterpolated = interpolateDiameter(productRows, targetLb);
+    if (productInterpolated > 0) {
+      return {
+        diameterIn: productInterpolated,
+        quality: "selected-product-interpolated",
+        qualityRank: 2
+      };
+    }
+
+    var catalogInterpolated = interpolateDiameter(catalog.filter(isBraidLine), targetLb);
+    if (catalogInterpolated > 0) {
+      return {
+        diameterIn: catalogInterpolated,
+        quality: "catalog-median-interpolated",
+        qualityRank: 1
+      };
+    }
+    return null;
+  }
+
+  function publishedPeCapacityAnchors(reel) {
+    var note = String(reel && reel.braid_capacity_note || "").trim();
+    if (!/\bPE\b/i.test(note)) return [];
+    var usesYards = /\b(?:yd|yds|yard|yards)\b/i.test(note);
+    var anchors = [];
+    var pairPattern = /(\d+(?:\.\d+)?)\s*[\/-]\s*(\d+(?:\.\d+)?)/g;
+    var match;
+    while ((match = pairPattern.exec(note))) {
+      var peSize = Number(match[1]);
+      var publishedLength = Number(match[2]);
+      if (!(peSize > 0 && peSize <= 30 && publishedLength >= 20 && publishedLength <= 10000)) continue;
+      var diameterMm = 0.165 * Math.sqrt(peSize);
+      anchors.push({
+        peSize: peSize,
+        yards: usesYards ? publishedLength : metersToYards(publishedLength),
+        referenceDiameterIn: mmToInches(diameterMm),
+        publishedLength: publishedLength,
+        publishedUnit: usesYards ? "yards" : "meters"
+      });
+    }
+    return anchors;
+  }
+
+  function actualLineBraidCapacityEstimate(reel, line, lineCatalog) {
+    if (!line || !isBraidLine(line) || !(Number(line.dia_in) > 0)) return null;
+    var targetLb = Number(line.lb);
+    var selectedDiameter = Number(line.dia_in);
+    var peOptions = publishedPeCapacityAnchors(reel);
+    var options = peOptions.length ? [] : publishedBraidCapacityOptions(reel);
+    if (!(targetLb > 0) || (!options.length && !peOptions.length)) return null;
+
+    var anchors = peOptions.length
+      ? peOptions.map(function(option) {
+        var peSpoolSpace = option.yards * option.referenceDiameterIn * option.referenceDiameterIn;
+        return {
+          peSize: option.peSize,
+          yards: option.yards,
+          publishedLength: option.publishedLength,
+          publishedUnit: option.publishedUnit,
+          referenceDiameterIn: option.referenceDiameterIn,
+          selectedLineCapacityYards: peSpoolSpace / (selectedDiameter * selectedDiameter),
+          spoolSpace: peSpoolSpace,
+          quality: "published-pe-diameter",
+          qualityRank: 5
+        };
+      })
+      : options.map(function(option) {
+        var reference = braidReferenceDiameter(line, option.lb, lineCatalog);
+        if (!reference || !(reference.diameterIn > 0)) return null;
+        var spoolSpace = option.yards * reference.diameterIn * reference.diameterIn;
+        return {
+          lb: option.lb,
+          yards: option.yards,
+          referenceDiameterIn: reference.diameterIn,
+          selectedLineCapacityYards: spoolSpace / (selectedDiameter * selectedDiameter),
+          spoolSpace: spoolSpace,
+          quality: reference.quality,
+          qualityRank: reference.qualityRank
+        };
+      }).filter(Boolean);
+    if (!anchors.length) return null;
+
+    var strongestRank = Math.max.apply(Math, anchors.map(function(anchor) { return anchor.qualityRank; }));
+    var strongestAnchors = anchors.filter(function(anchor) { return anchor.qualityRank === strongestRank; });
+    var exactOption = options.find(function(option) {
+      return Math.abs(option.lb - targetLb) < 0.001;
+    });
+    var centerYards = exactOption
+      ? exactOption.yards
+      : median(strongestAnchors.map(function(anchor) { return anchor.selectedLineCapacityYards; }));
+    if (!(centerYards > 0)) return null;
+
+    var anchorSpread = strongestAnchors.reduce(function(largest, anchor) {
+      return Math.max(largest, Math.abs(anchor.selectedLineCapacityYards - centerYards) / centerYards);
+    }, 0);
+    var baseUncertainty = strongestRank === 5 ? 0.08 : strongestRank >= 4 ? 0.06 : strongestRank === 3 ? 0.10 : 0.12;
+    if (line.custom_line === true) baseUncertainty += 0.03;
+    var uncertainty = clamp(Math.max(baseUncertainty, anchorSpread + 0.03), baseUncertainty, 0.20);
+
+    return {
+      yards: centerYards,
+      centerYards: centerYards,
+      minimumYards: roundCapacityRange(centerYards * (1 - uncertainty), "down"),
+      maximumYards: roundCapacityRange(centerYards * (1 + uncertainty), "up"),
+      uncertaintyRate: uncertainty,
+      method: exactOption ? "exact" : peOptions.length ? "pe-diameter-calibrated" : "diameter-calibrated",
+      targetLb: targetLb,
+      anchors: strongestAnchors,
+      referenceQuality: strongestAnchors[0].quality,
+      sourceNote: String(reel.braid_capacity_note || "")
+    };
+  }
+
+  function calculateActualLineBraidCapacityRange(reel, line, lineCatalog) {
+    return actualLineBraidCapacityEstimate(reel, line, lineCatalog);
+  }
+
+  function capacityBasisForActualLine(reel, line, lineCatalog) {
+    if (!line || !isLineReady(line)) return null;
+    if (!isBraidLine(line)) return capacityBasisForLine(reel, line);
+
+    var calibrated = actualLineBraidCapacityEstimate(reel, line, lineCatalog);
+    if (calibrated) {
+      return {
+        type: "published-braid-diameter",
+        label: "Using this reel's published braid capacity",
+        capacityYards: Number(calibrated.centerYards),
+        publishedEstimate: calibrated,
+        actualLineEstimate: calibrated,
+        fallback: false
+      };
+    }
+
+    var fallbackCapacity = calculateMainLineCapacity(reel, line);
+    if (!(fallbackCapacity > 0)) return null;
+    return {
+      type: "mono-derived-braid-fallback",
+      label: "Estimating from this reel's published mono capacity",
+      capacityYards: Number(fallbackCapacity),
+      publishedEstimate: null,
+      actualLineEstimate: null,
+      fallback: true
+    };
+  }
+
   function capacityBasisForLine(reel, line) {
     if (!line || !isLineReady(line)) return null;
     if (isBraidLine(line)) {
@@ -270,8 +492,7 @@
     };
   }
 
-  function calculateCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine) {
-    var basis = capacityBasisForLine(reel, mainLine);
+  function calculateBackingForBasis(reel, basis, mainLine, desiredMainLineYards, backingLine) {
     var mainDiameter = Number(mainLine && mainLine.dia_in);
     var backingDiameter = Number(backingLine && backingLine.dia_in);
     var desired = Number(desiredMainLineYards);
@@ -280,7 +501,7 @@
     // A usable published braid rating is an empirical full-spool anchor. Expressing
     // that anchor in the selected main line's diameter units preserves the rating,
     // then lets the backing diameter divide only the remaining calibrated space.
-    var totalSpoolSpace = basis.type === "published-braid"
+    var totalSpoolSpace = basis.type.indexOf("published-braid") === 0
       ? basis.capacityYards * mainDiameter * mainDiameter
       : getReelSpoolSpace(reel);
     if (!(totalSpoolSpace > 0)) return null;
@@ -301,9 +522,58 @@
     };
   }
 
+  function calculateCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine) {
+    return calculateBackingForBasis(
+      reel,
+      capacityBasisForLine(reel, mainLine),
+      mainLine,
+      desiredMainLineYards,
+      backingLine
+    );
+  }
+
+  function calculateActualLineCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine, lineCatalog) {
+    return calculateBackingForBasis(
+      reel,
+      capacityBasisForActualLine(reel, mainLine, lineCatalog),
+      mainLine,
+      desiredMainLineYards,
+      backingLine
+    );
+  }
+
   function calculateCalibratedBackingRange(reel, mainLine, desiredMainLineYards, backingLine) {
     var center = calculateCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine);
     var range = calculateBraidCapacityRange(reel, mainLine);
+    var mainDiameter = Number(mainLine && mainLine.dia_in);
+    var backingDiameter = Number(backingLine && backingLine.dia_in);
+    var desired = Number(desiredMainLineYards);
+    if (!center || !range || !(mainDiameter > 0) || !(backingDiameter > 0)) return null;
+
+    function backingAtCapacity(capacityYards) {
+      var totalSpace = Number(capacityYards) * mainDiameter * mainDiameter;
+      var remaining = totalSpace - desired * mainDiameter * mainDiameter;
+      return Math.max(0, remaining / (backingDiameter * backingDiameter));
+    }
+
+    return {
+      minimumYards: backingAtCapacity(range.minimumYards),
+      centerYards: center.backingYards,
+      maximumYards: backingAtCapacity(range.maximumYards),
+      capacityRange: range,
+      basis: center.basis
+    };
+  }
+
+  function calculateActualLineCalibratedBackingRange(reel, mainLine, desiredMainLineYards, backingLine, lineCatalog) {
+    var center = calculateActualLineCalibratedBacking(
+      reel,
+      mainLine,
+      desiredMainLineYards,
+      backingLine,
+      lineCatalog
+    );
+    var range = calculateActualLineBraidCapacityRange(reel, mainLine, lineCatalog);
     var mainDiameter = Number(mainLine && mainLine.dia_in);
     var backingDiameter = Number(backingLine && backingLine.dia_in);
     var desired = Number(desiredMainLineYards);
@@ -404,9 +674,14 @@
     publishedBraidCapacityEstimate: publishedBraidCapacityEstimate,
     calculatePublishedBraidCapacity: calculatePublishedBraidCapacity,
     calculateBraidCapacityRange: calculateBraidCapacityRange,
+    actualLineBraidCapacityEstimate: actualLineBraidCapacityEstimate,
+    calculateActualLineBraidCapacityRange: calculateActualLineBraidCapacityRange,
     capacityBasisForLine: capacityBasisForLine,
+    capacityBasisForActualLine: capacityBasisForActualLine,
     calculateCalibratedBacking: calculateCalibratedBacking,
     calculateCalibratedBackingRange: calculateCalibratedBackingRange,
+    calculateActualLineCalibratedBacking: calculateActualLineCalibratedBacking,
+    calculateActualLineCalibratedBackingRange: calculateActualLineCalibratedBackingRange,
     calculateFullSpoolCapacity: calculateFullSpoolCapacity,
     calculateMainLineCapacity: calculateMainLineCapacity,
     getReelSpoolSpace: getReelSpoolSpace,
