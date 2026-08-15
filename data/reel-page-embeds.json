@@ -22,7 +22,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -45,9 +45,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 4,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.008,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -70,9 +70,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 4,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.008,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -95,9 +95,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -120,7 +120,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 8,
+        "backingLb": 10,
         "backingType": "monofilament",
         "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
@@ -145,9 +145,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 4,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.008,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -170,9 +170,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -197,7 +197,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -220,9 +220,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -245,9 +245,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -270,9 +270,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -295,9 +295,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -320,9 +320,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 4,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.008,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -345,9 +345,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -370,9 +370,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -395,9 +395,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -420,9 +420,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -445,9 +445,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -470,9 +470,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 17,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -497,7 +497,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -522,7 +522,7 @@
         "mainLineYards": 250,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -570,9 +570,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -595,9 +595,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -620,9 +620,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 17,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -647,7 +647,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -672,7 +672,7 @@
         "mainLineYards": 250,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -723,9 +723,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -753,7 +753,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -779,9 +779,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -807,9 +807,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -837,7 +837,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -863,9 +863,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -891,9 +891,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 14,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -921,7 +921,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -947,9 +947,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -975,9 +975,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1003,9 +1003,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1033,7 +1033,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1059,9 +1059,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1089,7 +1089,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1117,7 +1117,7 @@
         "mainLineYards": 150,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1143,9 +1143,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1173,7 +1173,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1199,9 +1199,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 14,
+        "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1224,9 +1224,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.017,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1249,9 +1249,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1274,9 +1274,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1299,9 +1299,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1324,9 +1324,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 17,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0162,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1352,9 +1352,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1380,9 +1380,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1408,9 +1408,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1438,7 +1438,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1464,9 +1464,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1492,9 +1492,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1520,9 +1520,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014667,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1547,9 +1547,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1574,9 +1574,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1601,9 +1601,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 17,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0162,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1628,9 +1628,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 20,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1656,9 +1656,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1684,9 +1684,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1712,9 +1712,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014667,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1740,9 +1740,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014667,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1768,9 +1768,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 275,
-        "backingLb": 17,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0162,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1797,7 +1797,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1822,9 +1822,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1849,9 +1849,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1876,9 +1876,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 16,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0156,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1905,7 +1905,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1931,9 +1931,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1959,9 +1959,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -1987,9 +1987,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 17,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0162,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2015,9 +2015,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 20,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2042,9 +2042,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2069,9 +2069,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2097,9 +2097,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.004,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2125,9 +2125,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2153,9 +2153,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2181,9 +2181,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2209,9 +2209,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2237,9 +2237,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2265,9 +2265,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2293,9 +2293,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 25,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2323,7 +2323,7 @@
         "mainLineYards": 300,
         "backingLb": 25,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.02,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2377,9 +2377,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2405,9 +2405,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2433,9 +2433,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 15,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2461,9 +2461,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 25,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2491,7 +2491,7 @@
         "mainLineYards": 300,
         "backingLb": 25,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.02,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2546,7 +2546,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2573,7 +2573,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2598,9 +2598,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2625,9 +2625,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2652,9 +2652,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 16,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0156,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2682,7 +2682,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2708,9 +2708,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2736,9 +2736,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2764,9 +2764,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2794,7 +2794,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2820,7 +2820,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -2848,9 +2848,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2876,9 +2876,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 6,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2904,9 +2904,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2932,9 +2932,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2962,7 +2962,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -2988,9 +2988,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3018,7 +3018,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3044,9 +3044,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3072,9 +3072,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3102,7 +3102,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3130,7 +3130,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3158,7 +3158,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3186,7 +3186,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3212,9 +3212,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3240,9 +3240,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3270,7 +3270,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3296,9 +3296,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3324,9 +3324,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3352,9 +3352,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3382,7 +3382,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3408,9 +3408,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3437,7 +3437,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3462,9 +3462,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3489,9 +3489,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3518,7 +3518,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3543,9 +3543,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3573,7 +3573,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3599,9 +3599,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3627,9 +3627,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3655,9 +3655,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3683,9 +3683,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3711,9 +3711,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3741,7 +3741,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3769,7 +3769,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3795,9 +3795,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3825,7 +3825,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3853,7 +3853,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3879,9 +3879,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3909,7 +3909,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3935,7 +3935,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -3963,9 +3963,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -3991,9 +3991,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4019,7 +4019,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4047,7 +4047,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4075,9 +4075,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4103,9 +4103,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4131,9 +4131,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.016,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4161,7 +4161,7 @@
         "mainLineYards": 300,
         "backingLb": 40,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.025,
+        "backingDiameterIn": 0.024,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4189,7 +4189,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4215,7 +4215,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4243,9 +4243,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4271,9 +4271,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4299,9 +4299,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4327,9 +4327,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.016,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4355,9 +4355,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.016,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4385,7 +4385,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4413,7 +4413,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4439,7 +4439,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4467,9 +4467,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4495,9 +4495,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4523,9 +4523,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4551,9 +4551,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4579,9 +4579,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4607,7 +4607,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4635,9 +4635,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4663,9 +4663,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4691,7 +4691,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4719,7 +4719,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4747,7 +4747,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4775,7 +4775,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -4804,7 +4804,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4829,9 +4829,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4858,7 +4858,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4883,9 +4883,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4911,9 +4911,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4939,9 +4939,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4967,9 +4967,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -4995,9 +4995,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5025,7 +5025,7 @@
         "mainLineYards": 300,
         "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5053,7 +5053,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5109,7 +5109,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5137,7 +5137,7 @@
         "mainLineYards": 100,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5163,9 +5163,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5191,9 +5191,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5219,9 +5219,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5247,9 +5247,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5277,7 +5277,7 @@
         "mainLineYards": 300,
         "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5305,7 +5305,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5331,9 +5331,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5359,9 +5359,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5387,9 +5387,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5415,9 +5415,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5445,7 +5445,7 @@
         "mainLineYards": 300,
         "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5473,7 +5473,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5499,9 +5499,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5527,9 +5527,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5555,9 +5555,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5583,9 +5583,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5611,9 +5611,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5639,7 +5639,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -5667,7 +5667,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -5695,9 +5695,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 15,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5725,7 +5725,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5807,9 +5807,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5835,9 +5835,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5863,9 +5863,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5891,9 +5891,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5919,9 +5919,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5947,9 +5947,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 15,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -5975,7 +5975,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -6003,7 +6003,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 15,
         "backingType": "monofilament",
         "backingDiameterIn": 0.014,
         "diameterSource": "database median inside realistic range"
@@ -6031,9 +6031,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 15,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6061,7 +6061,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6089,7 +6089,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6145,7 +6145,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6173,7 +6173,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6201,7 +6201,7 @@
         "mainLineYards": 150,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6227,9 +6227,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6255,9 +6255,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6285,7 +6285,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6311,9 +6311,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6339,9 +6339,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6367,9 +6367,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6397,7 +6397,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6425,7 +6425,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6453,7 +6453,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6479,9 +6479,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6507,9 +6507,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6535,9 +6535,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6565,7 +6565,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6593,7 +6593,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6619,9 +6619,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6647,9 +6647,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6677,7 +6677,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6705,7 +6705,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6731,9 +6731,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6759,9 +6759,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6789,7 +6789,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6817,7 +6817,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6845,7 +6845,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6871,9 +6871,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6899,9 +6899,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6929,7 +6929,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6957,7 +6957,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -6985,7 +6985,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7013,7 +7013,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7039,9 +7039,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7067,9 +7067,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7097,7 +7097,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7125,7 +7125,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7152,7 +7152,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7180,7 +7180,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7205,9 +7205,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7233,9 +7233,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7263,7 +7263,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7290,7 +7290,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7318,7 +7318,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7346,7 +7346,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7372,9 +7372,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7400,9 +7400,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7430,7 +7430,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7458,7 +7458,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7486,7 +7486,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7512,9 +7512,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7540,9 +7540,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7570,7 +7570,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7598,7 +7598,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7626,7 +7626,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7652,9 +7652,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7680,9 +7680,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7710,7 +7710,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7738,7 +7738,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7766,7 +7766,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7792,9 +7792,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7820,9 +7820,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7850,7 +7850,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7878,7 +7878,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7906,7 +7906,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7932,9 +7932,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7960,9 +7960,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -7988,9 +7988,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8018,7 +8018,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8046,7 +8046,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8072,9 +8072,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8100,9 +8100,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8130,7 +8130,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8158,7 +8158,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8184,9 +8184,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8212,9 +8212,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8242,7 +8242,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8270,7 +8270,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8298,7 +8298,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8326,7 +8326,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8352,9 +8352,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8382,7 +8382,7 @@
         "mainLineYards": 150,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8408,7 +8408,7 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 125,
-        "backingLb": 8,
+        "backingLb": 10,
         "backingType": "monofilament",
         "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
@@ -8438,7 +8438,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8464,9 +8464,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8492,9 +8492,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8522,7 +8522,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8550,7 +8550,7 @@
         "mainLineYards": 150,
         "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8577,7 +8577,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8602,9 +8602,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8631,7 +8631,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8656,7 +8656,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8679,9 +8679,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8706,7 +8706,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8731,7 +8731,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8754,9 +8754,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8781,7 +8781,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8806,7 +8806,7 @@
         "mainLineYards": 100,
         "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0095,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8829,9 +8829,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8856,7 +8856,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8882,9 +8882,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8910,9 +8910,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8940,7 +8940,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8966,9 +8966,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -8994,9 +8994,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9022,9 +9022,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 275,
-        "backingLb": 14,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9050,9 +9050,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 16,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9078,9 +9078,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.016,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9106,9 +9106,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.017,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9134,9 +9134,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9162,9 +9162,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9190,9 +9190,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 275,
-        "backingLb": 14,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9218,9 +9218,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 16,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9246,9 +9246,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.016,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9274,9 +9274,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.017,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9302,9 +9302,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.017,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9330,9 +9330,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9358,9 +9358,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9386,9 +9386,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 275,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9414,9 +9414,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9444,7 +9444,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9470,9 +9470,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9498,9 +9498,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 250,
-        "backingLb": 14,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.015,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9526,9 +9526,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9551,9 +9551,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9576,9 +9576,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 175,
-        "backingLb": 16,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0156,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9603,7 +9603,7 @@
         "mainLineYards": 250,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9626,9 +9626,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9651,9 +9651,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 175,
-        "backingLb": 16,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0156,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9678,7 +9678,7 @@
         "mainLineYards": 250,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9703,7 +9703,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9731,7 +9731,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9757,9 +9757,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9785,9 +9785,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9815,7 +9815,7 @@
         "mainLineYards": 150,
         "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9841,9 +9841,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9869,9 +9869,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9897,9 +9897,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.013,
         "mainLineYards": 225,
-        "backingLb": 12,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9925,9 +9925,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.014,
         "mainLineYards": 300,
-        "backingLb": 16,
+        "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9953,9 +9953,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.016,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -9981,9 +9981,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.017,
         "mainLineYards": 300,
-        "backingLb": 20,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10009,9 +10009,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.017,
         "mainLineYards": 300,
-        "backingLb": 25,
+        "backingLb": 30,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10039,7 +10039,7 @@
         "mainLineYards": 300,
         "backingLb": 40,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.025,
+        "backingDiameterIn": 0.024,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10065,9 +10065,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.004,
         "mainLineYards": 100,
-        "backingLb": 3,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.007,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10093,9 +10093,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 5,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.00875,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10121,9 +10121,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 5,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.00875,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10149,9 +10149,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10177,9 +10177,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10205,9 +10205,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10233,9 +10233,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10263,7 +10263,7 @@
         "mainLineYards": 150,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10291,7 +10291,7 @@
         "mainLineYards": 150,
         "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10317,9 +10317,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10345,9 +10345,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10373,9 +10373,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10401,9 +10401,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10429,9 +10429,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10457,9 +10457,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014667,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10485,9 +10485,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.004,
         "mainLineYards": 100,
-        "backingLb": 3,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.007,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10513,9 +10513,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.004,
         "mainLineYards": 100,
-        "backingLb": 3,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.007,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10541,9 +10541,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 5,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.00875,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10569,9 +10569,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 5,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.00875,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10597,9 +10597,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10625,9 +10625,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10653,9 +10653,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10681,9 +10681,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10709,9 +10709,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.004,
         "mainLineYards": 100,
-        "backingLb": 3,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.007,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10737,9 +10737,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 100,
-        "backingLb": 4,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.008,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10765,9 +10765,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10793,9 +10793,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10821,9 +10821,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014667,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10849,9 +10849,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 150,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10877,9 +10877,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10905,9 +10905,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 150,
-        "backingLb": 8,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.011,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10933,9 +10933,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10961,9 +10961,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -10989,9 +10989,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11014,9 +11014,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11039,9 +11039,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11064,9 +11064,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11089,9 +11089,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 20,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11116,7 +11116,7 @@
         "mainLineYards": 300,
         "backingLb": 25,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.02,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11139,9 +11139,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.005,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 6,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.009,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11164,9 +11164,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11189,9 +11189,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11214,9 +11214,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 20,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11241,7 +11241,7 @@
         "mainLineYards": 300,
         "backingLb": 25,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.02,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11292,9 +11292,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11320,9 +11320,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.006,
         "mainLineYards": 150,
-        "backingLb": 10,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.012,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11348,9 +11348,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.008,
         "mainLineYards": 150,
-        "backingLb": 12,
+        "backingLb": 8,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014,
+        "backingDiameterIn": 0.01,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11376,9 +11376,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.009,
         "mainLineYards": 150,
-        "backingLb": 14,
+        "backingLb": 10,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.014667,
+        "backingDiameterIn": 0.011,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11404,9 +11404,9 @@
         "mainLineType": "braid",
         "mainLineDiameterIn": 0.011,
         "mainLineYards": 150,
-        "backingLb": 20,
+        "backingLb": 12,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11434,7 +11434,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11462,7 +11462,7 @@
         "mainLineYards": 300,
         "backingLb": 20,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.018,
+        "backingDiameterIn": 0.0175,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11490,7 +11490,7 @@
         "mainLineYards": 300,
         "backingLb": 25,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.019,
+        "backingDiameterIn": 0.02,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11518,7 +11518,7 @@
         "mainLineYards": 300,
         "backingLb": 35,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.0235,
+        "backingDiameterIn": 0.022,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11546,7 +11546,7 @@
         "mainLineYards": 300,
         "backingLb": 40,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.025,
+        "backingDiameterIn": 0.024,
         "diameterSource": "database median inside realistic range"
       }
     },
@@ -11574,7 +11574,7 @@
         "mainLineYards": 300,
         "backingLb": 50,
         "backingType": "monofilament",
-        "backingDiameterIn": 0.028,
+        "backingDiameterIn": 0.027,
         "diameterSource": "database median inside realistic range"
       }
     }
