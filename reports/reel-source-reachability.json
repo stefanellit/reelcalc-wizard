@@ -1,84 +1,15 @@
 {
-  "generated_at": "2026-08-15T12:49:09.427Z",
+  "generated_at": "2026-08-15T13:10:04.371Z",
   "methodology_note": "Reachability and page-text identity checks are evidence triage only. A reachable page or SKU text match does not independently verify every stored specification.",
   "summary": {
     "reel_records": 836,
-    "unique_source_urls": 169,
-    "access_restricted": 72,
-    "broken": 1,
-    "reachable": 96,
-    "inspectable_sources": 95,
-    "inspectable_sources_without_identity_match": 1
+    "unique_source_urls": 170,
+    "access_restricted": 57,
+    "reachable": 113,
+    "inspectable_sources": 106,
+    "inspectable_sources_without_identity_match": 0
   },
   "sources": [
-    {
-      "url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
-      "final_url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 4,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "daiwa-tatula-elite-mq-2500-h",
-          "name": "Daiwa Tatula Elite MQ 2500-H",
-          "sku": "TTELMQFC2500-H",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "daiwa-tatula-elite-mq-3000-cxh",
-          "name": "Daiwa Tatula Elite MQ 3000-CXH",
-          "sku": "TTELMQLT3000-CXH",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "daiwa-tatula-elite-mq-3000-xh",
-          "name": "Daiwa Tatula Elite MQ 3000-XH",
-          "sku": "TTELMQLT3000-XH",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "daiwa-tatula-elite-mq-4000-cxh",
-          "name": "Daiwa Tatula Elite MQ 4000-CXH",
-          "sku": "TTELMQLT4000-CXH",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
-      "final_url": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 2,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "daiwa-tatula-mq-2500-h",
-          "name": "Daiwa Tatula MQ 2500-H",
-          "sku": "TTMQFC2500-H",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "daiwa-tatula-mq-3000-xh",
-          "name": "Daiwa Tatula MQ 3000-XH",
-          "sku": "TTMQLT3000-XH",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
     {
       "url": "https://defender.com/en_us/quantum-merit-spinning-reel",
       "final_url": "https://defender.com/en_us/quantum-merit-spinning-reel",
@@ -1848,122 +1779,6 @@
       ]
     },
     {
-      "url": "https://okumafishingusa.com/collections/spinning-reels/products/aria-a-reels",
-      "final_url": "https://okumafishingusa.com/collections/spinning-reels/products/aria-a-reels",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 4,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "okuma-aria-a-1000-aria-1000a-451",
-          "name": "Okuma Aria A 1000",
-          "sku": "ARIA-1000a",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-aria-a-3000-aria-3000a-452",
-          "name": "Okuma Aria A 3000",
-          "sku": "ARIA-3000a",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-aria-a-c4000-aria-c4000a-453",
-          "name": "Okuma Aria A C4000",
-          "sku": "ARIA-C4000a",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-aria-a-5000-aria-5000a-454",
-          "name": "Okuma Aria A 5000",
-          "sku": "ARIA-5000a",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://okumafishingusa.com/collections/spinning-reels/products/cat-slayer-custom-spinning-baitfeeder-reels",
-      "final_url": "https://okumafishingusa.com/collections/spinning-reels/products/cat-slayer-custom-spinning-baitfeeder-reels",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 4,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "okuma-cat-slayer-custom-6000-csc-6000ng-447",
-          "name": "Okuma Cat Slayer Custom 6000",
-          "sku": "CSC-6000NG",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-cat-slayer-custom-6000-csc-6000no-448",
-          "name": "Okuma Cat Slayer Custom 6000",
-          "sku": "CSC-6000NO",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-cat-slayer-custom-6000-baitfeeder-cscf-6000ng-449",
-          "name": "Okuma Cat Slayer Custom 6000 Baitfeeder",
-          "sku": "CSCF-6000NG",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-cat-slayer-custom-6000-baitfeeder-cscf-6000no-450",
-          "name": "Okuma Cat Slayer Custom 6000 Baitfeeder",
-          "sku": "CSCF-6000NO",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://pfluegerfishing.com/products/patriarch-spinning-reel",
-      "final_url": "https://pfluegerfishing.com/products/patriarch-spinning-reel",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 3,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "pflueger-patriarch-25-parsp25x-561",
-          "name": "Pflueger Patriarch 25",
-          "sku": "PARSP25X",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "pflueger-patriarch-30-parsp30x-pfl-562",
-          "name": "Pflueger Patriarch 30",
-          "sku": "PARSP30X PFL",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "pflueger-patriarch-35-parsp35x-pfl-563",
-          "name": "Pflueger Patriarch 35",
-          "sku": "PARSP35X PFL",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
       "url": "https://pfluegerfishing.com/products/president-spinning-reel",
       "final_url": "https://pfluegerfishing.com/products/president-spinning-reel-1595567",
       "http_status": 429,
@@ -2012,41 +1827,96 @@
       ]
     },
     {
-      "url": "https://pfluegerfishing.com/products/supreme-xt-spinning-reel",
-      "final_url": "https://pfluegerfishing.com/products/supreme-xt-spinning-reel-1310331",
+      "url": "https://pfluegerfishing.com/products/president-xt-spinning-reel",
+      "final_url": "https://pfluegerfishing.com/products/president-xt-spinning-reel",
       "http_status": 429,
       "state": "access_restricted",
       "content_type": "text/html; charset=utf-8",
       "content_checked": true,
-      "record_count": 4,
+      "record_count": 5,
       "sku_matches": 0,
       "model_term_matches": 0,
       "records": [
         {
-          "id": "pflueger-supreme-xt-25-supxtsp25x-557",
-          "name": "Pflueger Supreme XT 25",
-          "sku": "SUPXTSP25X",
+          "id": "pflueger-president-xt-20-presxt20x-545",
+          "name": "Pflueger President XT 20",
+          "sku": "PRESXT20X",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "pflueger-supreme-xt-30-supxtsp30x-558",
-          "name": "Pflueger Supreme XT 30",
-          "sku": "SUPXTSP30X",
+          "id": "pflueger-president-xt-25-presxt25x-546",
+          "name": "Pflueger President XT 25",
+          "sku": "PRESXT25X",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "pflueger-supreme-xt-35-supxtsp35x-559",
-          "name": "Pflueger Supreme XT 35",
-          "sku": "SUPXTSP35X",
+          "id": "pflueger-president-xt-30-presxt30x-547",
+          "name": "Pflueger President XT 30",
+          "sku": "PRESXT30X",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "pflueger-supreme-xt-40-supxtsp40x-560",
-          "name": "Pflueger Supreme XT 40",
-          "sku": "SUPXTSP40X",
+          "id": "pflueger-president-xt-35-presxt35x-548",
+          "name": "Pflueger President XT 35",
+          "sku": "PRESXT35X",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "pflueger-president-xt-40-presxt40x-549",
+          "name": "Pflueger President XT 40",
+          "sku": "PRESXT40X",
+          "sku_found": false,
+          "model_terms_found": false
+        }
+      ]
+    },
+    {
+      "url": "https://pfluegerfishing.com/products/trion-spinning-reel",
+      "final_url": "https://pfluegerfishing.com/products/trion-spinning-reel-1641625",
+      "http_status": 429,
+      "state": "access_restricted",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 5,
+      "sku_matches": 0,
+      "model_term_matches": 0,
+      "records": [
+        {
+          "id": "pflueger-trion-20-trion20x-535",
+          "name": "Pflueger Trion 20",
+          "sku": "TRION20X",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "pflueger-trion-25-trion25x-536",
+          "name": "Pflueger Trion 25",
+          "sku": "TRION25X",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "pflueger-trion-30-trion30x-537",
+          "name": "Pflueger Trion 30",
+          "sku": "TRION30X",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "pflueger-trion-35-trion35x-538",
+          "name": "Pflueger Trion 35",
+          "sku": "TRION35X",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "pflueger-trion-40-trion40x-539",
+          "name": "Pflueger Trion 40",
+          "sku": "TRION40X",
           "sku_found": false,
           "model_terms_found": false
         }
@@ -2087,47 +1957,6 @@
           "id": "bass-pro-shops-pro-qualifier-spinning-reel-various-pqs-verify-52",
           "name": "Bass Pro Shops Pro Qualifier Spinning Reel various",
           "sku": "PQS-VERIFY",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
-      "final_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
-      "http_status": 403,
-      "state": "access_restricted",
-      "content_type": "text/html",
-      "content_checked": true,
-      "record_count": 4,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "bass-pro-shops-formula-spinning-reel-10-fma10-47",
-          "name": "Bass Pro Shops Formula Spinning Reel 10",
-          "sku": "FMA10",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
-          "name": "Bass Pro Shops Formula Spinning Reel 20",
-          "sku": "FMA20",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
-          "name": "Bass Pro Shops Formula Spinning Reel 30",
-          "sku": "FMA30",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
-          "name": "Bass Pro Shops Formula Spinning Reel 40",
-          "sku": "FMA40",
           "sku_found": false,
           "model_terms_found": false
         }
@@ -2482,47 +2311,6 @@
       ]
     },
     {
-      "url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
-      "final_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
-      "http_status": 403,
-      "state": "access_restricted",
-      "content_type": "text/html",
-      "content_checked": true,
-      "record_count": 4,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "offshore-angler-sea-lion-spinning-reel-5000-sls50-79",
-          "name": "Offshore Angler Sea Lion Spinning Reel 5000",
-          "sku": "SLS50",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "offshore-angler-sea-lion-spinning-reel-6000-sls60-80",
-          "name": "Offshore Angler Sea Lion Spinning Reel 6000",
-          "sku": "SLS60",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "offshore-angler-sea-lion-spinning-reel-7000-sls70-81",
-          "name": "Offshore Angler Sea Lion Spinning Reel 7000",
-          "sku": "SLS70",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "offshore-angler-sea-lion-spinning-reel-8000-sls80-82",
-          "name": "Offshore Angler Sea Lion Spinning Reel 8000",
-          "sku": "SLS80",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
       "url": "https://www.basspro.com/shop/en/ProductDisplay?catalogId=3074457345616676768&categoryId=11570&langId=-1&parent_category_rn=%5BLjava.lang.String%3B%40f08865ae&productId=3074457345616934145&storeId=715838534&top_category=%5BLjava.lang.String%3B%407b144cc2&urlLangId=-1&urlRequestType=Base",
       "final_url": "https://www.basspro.com/shop/en/ProductDisplay?catalogId=3074457345616676768&categoryId=11570&langId=-1&parent_category_rn=%5BLjava.lang.String%3B%40f08865ae&productId=3074457345616934145&storeId=715838534&top_category=%5BLjava.lang.String%3B%407b144cc2&urlLangId=-1&urlRequestType=Base",
       "http_status": 403,
@@ -2578,26 +2366,6 @@
       ]
     },
     {
-      "url": "https://www.desertcart.com.au/products/369325385-smoke-x-spinning-fishing-reel-size-25-reel-changeable-right-or-left-hand-retrieve-continuous-anti-reverse-clutch-with-niti-indestructible-bail-scr-alloy-frame-6-0-1-gear-ratio-blue",
-      "final_url": "https://www.desertcart.com.au/products/369325385-smoke-x-spinning-fishing-reel-size-25-reel-changeable-right-or-left-hand-retrieve-continuous-anti-reverse-clutch-with-niti-indestructible-bail-scr-alloy-frame-6-0-1-gear-ratio-blue",
-      "http_status": 403,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 1,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "quantum-smoke-x-25-smx25xpt-bx3-608",
-          "name": "Quantum Smoke X 25",
-          "sku": "SMX25XPT.BX3",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
       "url": "https://www.dickssportinggoods.com/p/shimano-baitrunner-oc-spinning-reel/15shmubtrnnr4000cree",
       "final_url": "https://www.dickssportinggoods.com/p/shimano-baitrunner-oc-spinning-reel/15shmubtrnnr4000cree",
       "http_status": 403,
@@ -2626,26 +2394,6 @@
           "id": "shimano-baitrunner-oc-8000-btr8000oc-761",
           "name": "Shimano Baitrunner OC 8000",
           "sku": "BTR8000OC",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.ebay.com/b/Quantum-Right-5-2-1-Gear-Ratio-Fishing-Reels/261030/bn_112518998",
-      "final_url": "https://www.ebay.com/b/Quantum-Right-5-2-1-Gear-Ratio-Fishing-Reels/261030/bn_112518998",
-      "http_status": 403,
-      "state": "access_restricted",
-      "content_type": "text/html",
-      "content_checked": true,
-      "record_count": 1,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "quantum-optix-20-op20-594",
-          "name": "Quantum Optix 20",
-          "sku": "OP20",
           "sku_found": false,
           "model_terms_found": false
         }
@@ -2810,524 +2558,82 @@
       ]
     },
     {
-      "url": "https://www.pennfishing.com/products/authority-spinning-reel-1573574",
-      "final_url": "https://www.pennfishing.com/products/authority-spinning-reel-1573574",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 11,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "penn-authority-2500-ath2500-524",
-          "name": "PENN Authority 2500",
-          "sku": "ATH2500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-3500-ath3500-525",
-          "name": "PENN Authority 3500",
-          "sku": "ATH3500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-4500-ath4500-526",
-          "name": "PENN Authority 4500",
-          "sku": "ATH4500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-4500-ath4500hs-527",
-          "name": "PENN Authority 4500",
-          "sku": "ATH4500HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-5500-ath5500-528",
-          "name": "PENN Authority 5500",
-          "sku": "ATH5500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-6500-ath6500-529",
-          "name": "PENN Authority 6500",
-          "sku": "ATH6500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-6500-ath6500hs-530",
-          "name": "PENN Authority 6500",
-          "sku": "ATH6500HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-7500-ath7500-531",
-          "name": "PENN Authority 7500",
-          "sku": "ATH7500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-8500-ath8500-532",
-          "name": "PENN Authority 8500",
-          "sku": "ATH8500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-8500-ath8500hs-533",
-          "name": "PENN Authority 8500",
-          "sku": "ATH8500HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-authority-10500-ath10500-534",
-          "name": "PENN Authority 10500",
-          "sku": "ATH10500",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.pennfishing.com/products/clash-ii-spinning-reel-1523129",
-      "final_url": "https://www.pennfishing.com/products/clash-ii-spinning-reel-1523129",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 7,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "penn-clash-ii-2000-claii2000-487",
-          "name": "PENN Clash II 2000",
-          "sku": "CLAII2000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-clash-ii-2500-claii2500-488",
-          "name": "PENN Clash II 2500",
-          "sku": "CLAII2500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-clash-ii-3000-claii3000-489",
-          "name": "PENN Clash II 3000",
-          "sku": "CLAII3000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-clash-ii-3000-claii3000hs-490",
-          "name": "PENN Clash II 3000",
-          "sku": "CLAII3000HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-clash-ii-4000-claii4000-491",
-          "name": "PENN Clash II 4000",
-          "sku": "CLAII4000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-clash-ii-4000-claii4000hs-492",
-          "name": "PENN Clash II 4000",
-          "sku": "CLAII4000HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-clash-ii-5000-claii5000-493",
-          "name": "PENN Clash II 5000",
-          "sku": "CLAII5000",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.pennfishing.com/products/pursuit-v-spinning-reel-1641576",
-      "final_url": "https://www.pennfishing.com/products/pursuit-v-spinning-reel-1641576",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 6,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "penn-pursuit-v-2500-purv2500-475",
-          "name": "PENN Pursuit V 2500",
-          "sku": "PURV2500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-pursuit-v-3000-purv3000-476",
-          "name": "PENN Pursuit V 3000",
-          "sku": "PURV3000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-pursuit-v-4000-purv4000-477",
-          "name": "PENN Pursuit V 4000",
-          "sku": "PURV4000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-pursuit-v-5000-purv5000-478",
-          "name": "PENN Pursuit V 5000",
-          "sku": "PURV5000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-pursuit-v-6000-purv6000-479",
-          "name": "PENN Pursuit V 6000",
-          "sku": "PURV6000",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-pursuit-v-8000-purv8000-480",
-          "name": "PENN Pursuit V 8000",
-          "sku": "PURV8000",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.pennfishing.com/products/slammer-iv-spinning-reel-1310317",
-      "final_url": "https://www.pennfishing.com/products/slammer-iv-spinning-reel-1310317",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 12,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "penn-slammer-iv-2500-slaiv2500-512",
-          "name": "PENN Slammer IV 2500",
-          "sku": "SLAIV2500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-3500-slaiv3500-513",
-          "name": "PENN Slammer IV 3500",
-          "sku": "SLAIV3500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-4500-slaiv4500-514",
-          "name": "PENN Slammer IV 4500",
-          "sku": "SLAIV4500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-4500-slaiv4500hs-515",
-          "name": "PENN Slammer IV 4500",
-          "sku": "SLAIV4500HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-5500-slaiv5500bls-516",
-          "name": "PENN Slammer IV 5500",
-          "sku": "SLAIV5500BLS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-5500-slaiv5500-517",
-          "name": "PENN Slammer IV 5500",
-          "sku": "SLAIV5500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-6500-slaiv6500-518",
-          "name": "PENN Slammer IV 6500",
-          "sku": "SLAIV6500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-6500-slaiv6500hs-519",
-          "name": "PENN Slammer IV 6500",
-          "sku": "SLAIV6500HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-7500-slaiv7500-520",
-          "name": "PENN Slammer IV 7500",
-          "sku": "SLAIV7500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-8500-slaiv8500-521",
-          "name": "PENN Slammer IV 8500",
-          "sku": "SLAIV8500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-8500-slaiv8500hs-522",
-          "name": "PENN Slammer IV 8500",
-          "sku": "SLAIV8500HS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-slammer-iv-10500-slaiv10500-523",
-          "name": "PENN Slammer IV 10500",
-          "sku": "SLAIV10500",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.pennfishing.com/products/spinfisher-vii-live-liner-spinning-reel-1601020",
-      "final_url": "https://www.pennfishing.com/products/spinfisher-vii-live-liner-spinning-reel-1601020",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
+      "url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+      "final_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "application/pdf",
+      "content_checked": false,
       "record_count": 4,
       "sku_matches": 0,
       "model_term_matches": 0,
       "records": [
         {
-          "id": "penn-spinfisher-vii-live-liner-2500-ssvii2500ll-505",
-          "name": "PENN Spinfisher VII Live Liner 2500",
-          "sku": "SSVII2500LL",
+          "id": "offshore-angler-sea-lion-spinning-reel-5000-sls50-79",
+          "name": "Offshore Angler Sea Lion Spinning Reel 5000",
+          "sku": "SLS50",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "penn-spinfisher-vii-live-liner-4500-ssvii4500ll-506",
-          "name": "PENN Spinfisher VII Live Liner 4500",
-          "sku": "SSVII4500LL",
+          "id": "offshore-angler-sea-lion-spinning-reel-6000-sls60-80",
+          "name": "Offshore Angler Sea Lion Spinning Reel 6000",
+          "sku": "SLS60",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "penn-spinfisher-vii-live-liner-6500-ssvii6500ll-507",
-          "name": "PENN Spinfisher VII Live Liner 6500",
-          "sku": "SSVII6500LL",
+          "id": "offshore-angler-sea-lion-spinning-reel-7000-sls70-81",
+          "name": "Offshore Angler Sea Lion Spinning Reel 7000",
+          "sku": "SLS70",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "penn-spinfisher-vii-live-liner-8500-ssvii8500ll-508",
-          "name": "PENN Spinfisher VII Live Liner 8500",
-          "sku": "SSVII8500LL",
+          "id": "offshore-angler-sea-lion-spinning-reel-8000-sls80-82",
+          "name": "Offshore Angler Sea Lion Spinning Reel 8000",
+          "sku": "SLS80",
           "sku_found": false,
           "model_terms_found": false
         }
       ]
     },
     {
-      "url": "https://www.pennfishing.com/products/spinfisher-vii-spinning-reel-1595548",
-      "final_url": "https://www.pennfishing.com/products/spinfisher-vii-spinning-reel-1595548",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 11,
+      "url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+      "final_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "application/pdf",
+      "content_checked": false,
+      "record_count": 4,
       "sku_matches": 0,
       "model_term_matches": 0,
       "records": [
         {
-          "id": "penn-spinfisher-vii-2500-ssvii2500-494",
-          "name": "PENN Spinfisher VII 2500",
-          "sku": "SSVII2500",
+          "id": "bass-pro-shops-formula-spinning-reel-10-fma10-47",
+          "name": "Bass Pro Shops Formula Spinning Reel 10",
+          "sku": "FMA10",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "penn-spinfisher-vii-3500-ssvii3500-495",
-          "name": "PENN Spinfisher VII 3500",
-          "sku": "SSVII3500",
+          "id": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
+          "name": "Bass Pro Shops Formula Spinning Reel 20",
+          "sku": "FMA20",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "penn-spinfisher-vii-4500-ssvii4500bls-496",
-          "name": "PENN Spinfisher VII 4500",
-          "sku": "SSVII4500BLS",
+          "id": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
+          "name": "Bass Pro Shops Formula Spinning Reel 30",
+          "sku": "FMA30",
           "sku_found": false,
           "model_terms_found": false
         },
         {
-          "id": "penn-spinfisher-vii-4500-ssvii4500-497",
-          "name": "PENN Spinfisher VII 4500",
-          "sku": "SSVII4500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-5500-ssvii5500-498",
-          "name": "PENN Spinfisher VII 5500",
-          "sku": "SSVII5500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-6500-ssvii6500bls-499",
-          "name": "PENN Spinfisher VII 6500",
-          "sku": "SSVII6500BLS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-6500-ssvii6500-500",
-          "name": "PENN Spinfisher VII 6500",
-          "sku": "SSVII6500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-7500-ssvii7500-501",
-          "name": "PENN Spinfisher VII 7500",
-          "sku": "SSVII7500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-8500-ssvii8500-502",
-          "name": "PENN Spinfisher VII 8500",
-          "sku": "SSVII8500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-9500-ssvii9500-503",
-          "name": "PENN Spinfisher VII 9500",
-          "sku": "SSVII9500",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-spinfisher-vii-10500-ssvii10500-504",
-          "name": "PENN Spinfisher VII 10500",
-          "sku": "SSVII10500",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://www.pennfishing.com/products/wrath-ii-spinning-reel-1595550",
-      "final_url": "https://www.pennfishing.com/products/wrath-ii-spinning-reel-1595550",
-      "http_status": 429,
-      "state": "access_restricted",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 6,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "penn-wrath-ii-2500-wrthii2500c-481",
-          "name": "PENN Wrath II 2500",
-          "sku": "WRTHII2500C",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-wrath-ii-3000-wrthii3000c-482",
-          "name": "PENN Wrath II 3000",
-          "sku": "WRTHII3000C",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-wrath-ii-4000-wrthii4000c-483",
-          "name": "PENN Wrath II 4000",
-          "sku": "WRTHII4000C",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-wrath-ii-5000-wrthii5000c-484",
-          "name": "PENN Wrath II 5000",
-          "sku": "WRTHII5000C",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-wrath-ii-6000-wrthii6000c-485",
-          "name": "PENN Wrath II 6000",
-          "sku": "WRTHII6000C",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "penn-wrath-ii-8000-wrthii8000c-486",
-          "name": "PENN Wrath II 8000",
-          "sku": "WRTHII8000C",
-          "sku_found": false,
-          "model_terms_found": false
-        }
-      ]
-    },
-    {
-      "url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
-      "final_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
-      "http_status": 404,
-      "state": "broken",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 3,
-      "sku_matches": 0,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "okuma-makaira-10000-mk-10000l-r-417",
-          "name": "Okuma Makaira 10000",
-          "sku": "MK-10000L/R",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-makaira-20000-mk-20000ls-rs-418",
-          "name": "Okuma Makaira 20000",
-          "sku": "MK-20000LS/RS",
-          "sku_found": false,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-makaira-30000-mk-30000ls-rs-419",
-          "name": "Okuma Makaira 30000",
-          "sku": "MK-30000LS/RS",
+          "id": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
+          "name": "Bass Pro Shops Formula Spinning Reel 40",
+          "sku": "FMA40",
           "sku_found": false,
           "model_terms_found": false
         }
@@ -3371,6 +2677,26 @@
           "sku": "BTR12000D",
           "sku_found": true,
           "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf",
+      "final_url": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "application/pdf",
+      "content_checked": false,
+      "record_count": 1,
+      "sku_matches": 0,
+      "model_term_matches": 0,
+      "records": [
+        {
+          "id": "lew-s-kvd-elite-spinning-reel-300-shallow-kvd300ssg2-338",
+          "name": "Lew's KVD Elite Spinning Reel 300 Shallow",
+          "sku": "KVDSS300G2",
+          "sku_found": false,
+          "model_terms_found": false
         }
       ]
     },
@@ -3949,6 +3275,47 @@
       ]
     },
     {
+      "url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+      "final_url": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 4,
+      "sku_matches": 4,
+      "model_term_matches": 4,
+      "records": [
+        {
+          "id": "daiwa-tatula-elite-mq-2500-h",
+          "name": "Daiwa Tatula Elite MQ 2500-H",
+          "sku": "TTELMQFC2500-H",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "daiwa-tatula-elite-mq-3000-cxh",
+          "name": "Daiwa Tatula Elite MQ 3000-CXH",
+          "sku": "TTELMQLT3000-CXH",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "daiwa-tatula-elite-mq-3000-xh",
+          "name": "Daiwa Tatula Elite MQ 3000-XH",
+          "sku": "TTELMQLT3000-XH",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "daiwa-tatula-elite-mq-4000-cxh",
+          "name": "Daiwa Tatula Elite MQ 4000-CXH",
+          "sku": "TTELMQLT4000-CXH",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
       "url": "https://daiwa.us/pages/tatula-mq",
       "final_url": "https://daiwa.us/pages/tatula-mq",
       "http_status": 200,
@@ -3992,6 +3359,33 @@
           "name": "Daiwa Tatula MQ LT 4000D-CXH",
           "sku": "TALT4000D-CXH",
           "sku_found": false,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
+      "final_url": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 2,
+      "sku_matches": 2,
+      "model_term_matches": 2,
+      "records": [
+        {
+          "id": "daiwa-tatula-mq-2500-h",
+          "name": "Daiwa Tatula MQ 2500-H",
+          "sku": "TTMQFC2500-H",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "daiwa-tatula-mq-3000-xh",
+          "name": "Daiwa Tatula MQ 3000-XH",
+          "sku": "TTMQLT3000-XH",
+          "sku_found": true,
           "model_terms_found": true
         }
       ]
@@ -5654,6 +5048,47 @@
       ]
     },
     {
+      "url": "https://okumafishingusa.com/collections/spinning-reels/products/aria-a-reels",
+      "final_url": "https://okumafishingusa.com/products/aria-a-reels",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 4,
+      "sku_matches": 4,
+      "model_term_matches": 4,
+      "records": [
+        {
+          "id": "okuma-aria-a-1000-aria-1000a-451",
+          "name": "Okuma Aria A 1000",
+          "sku": "ARIA-1000a",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-aria-a-3000-aria-3000a-452",
+          "name": "Okuma Aria A 3000",
+          "sku": "ARIA-3000a",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-aria-a-c4000-aria-c4000a-453",
+          "name": "Okuma Aria A C4000",
+          "sku": "ARIA-C4000a",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-aria-a-5000-aria-5000a-454",
+          "name": "Okuma Aria A 5000",
+          "sku": "ARIA-5000a",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
       "url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
       "final_url": "https://okumafishingusa.com/products/avenger-b-spinning-reel",
       "http_status": 200,
@@ -5779,6 +5214,47 @@
           "id": "okuma-azores-blue-14000-z-14000h-blue-441",
           "name": "Okuma Azores Blue 14000",
           "sku": "Z-14000H-BLUE",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://okumafishingusa.com/collections/spinning-reels/products/cat-slayer-custom-spinning-baitfeeder-reels",
+      "final_url": "https://okumafishingusa.com/products/cat-slayer-custom-spinning-baitfeeder-reels",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 4,
+      "sku_matches": 4,
+      "model_term_matches": 4,
+      "records": [
+        {
+          "id": "okuma-cat-slayer-custom-6000-csc-6000ng-447",
+          "name": "Okuma Cat Slayer Custom 6000",
+          "sku": "CSC-6000NG",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-cat-slayer-custom-6000-csc-6000no-448",
+          "name": "Okuma Cat Slayer Custom 6000",
+          "sku": "CSC-6000NO",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-cat-slayer-custom-6000-baitfeeder-cscf-6000ng-449",
+          "name": "Okuma Cat Slayer Custom 6000 Baitfeeder",
+          "sku": "CSCF-6000NG",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-cat-slayer-custom-6000-baitfeeder-cscf-6000no-450",
+          "name": "Okuma Cat Slayer Custom 6000 Baitfeeder",
+          "sku": "CSCF-6000NO",
           "sku_found": true,
           "model_terms_found": true
         }
@@ -6181,8 +5657,8 @@
       "state": "reachable",
       "content_type": "text/html; charset=utf-8",
       "content_checked": true,
-      "record_count": 3,
-      "sku_matches": 3,
+      "record_count": 2,
+      "sku_matches": 2,
       "model_term_matches": 0,
       "records": [
         {
@@ -6196,13 +5672,6 @@
           "id": "okuma-rox-3000-rox-3000a-396",
           "name": "Okuma ROX 3000",
           "sku": "ROX-3000A",
-          "sku_found": true,
-          "model_terms_found": false
-        },
-        {
-          "id": "okuma-rox-4000-rox-4000a-397",
-          "name": "Okuma ROX 4000",
-          "sku": "ROX-4000A",
           "sku_found": true,
           "model_terms_found": false
         }
@@ -6422,6 +5891,94 @@
       ]
     },
     {
+      "url": "https://okumafishingusa.com/products/makaira-spinning",
+      "final_url": "https://okumafishingusa.com/",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 3,
+      "sku_matches": 0,
+      "model_term_matches": 3,
+      "records": [
+        {
+          "id": "okuma-makaira-10000-mk-10000l-r-417",
+          "name": "Okuma Makaira 10000",
+          "sku": "MK-10000L/R",
+          "sku_found": false,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-makaira-20000-mk-20000ls-rs-418",
+          "name": "Okuma Makaira 20000",
+          "sku": "MK-20000LS/RS",
+          "sku_found": false,
+          "model_terms_found": true
+        },
+        {
+          "id": "okuma-makaira-30000-mk-30000ls-rs-419",
+          "name": "Okuma Makaira 30000",
+          "sku": "MK-30000LS/RS",
+          "sku_found": false,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://okumafishingusa.com/products/rox-spinning-reels",
+      "final_url": "https://okumafishingusa.com/products/rox-spinning-reels",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 1,
+      "sku_matches": 1,
+      "model_term_matches": 0,
+      "records": [
+        {
+          "id": "okuma-rox-4000-rox-4000a-397",
+          "name": "Okuma ROX 4000",
+          "sku": "ROX-4000A",
+          "sku_found": true,
+          "model_terms_found": false
+        }
+      ]
+    },
+    {
+      "url": "https://pfluegerfishing.com/products/patriarch-spinning-reel",
+      "final_url": "https://pfluegerfishing.com/products/patriarch-spinning-reel-1573578",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 3,
+      "sku_matches": 3,
+      "model_term_matches": 3,
+      "records": [
+        {
+          "id": "pflueger-patriarch-25-parsp25x-561",
+          "name": "Pflueger Patriarch 25",
+          "sku": "PARSP25X",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "pflueger-patriarch-30-parsp30x-pfl-562",
+          "name": "Pflueger Patriarch 30",
+          "sku": "PARSP30X PFL",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "pflueger-patriarch-35-parsp35x-pfl-563",
+          "name": "Pflueger Patriarch 35",
+          "sku": "PARSP35X PFL",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
       "url": "https://pfluegerfishing.com/products/president-le-spinning-reel",
       "final_url": "https://pfluegerfishing.com/products/president-le-spinning-reel-1595564",
       "http_status": 200,
@@ -6450,54 +6007,6 @@
           "id": "pflueger-president-le-35-presle35x-552",
           "name": "Pflueger President LE 35",
           "sku": "PRESLE35X",
-          "sku_found": true,
-          "model_terms_found": true
-        }
-      ]
-    },
-    {
-      "url": "https://pfluegerfishing.com/products/president-xt-spinning-reel",
-      "final_url": "https://pfluegerfishing.com/products/president-xt-spinning-reel-1595568",
-      "http_status": 200,
-      "state": "reachable",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 5,
-      "sku_matches": 5,
-      "model_term_matches": 5,
-      "records": [
-        {
-          "id": "pflueger-president-xt-20-presxt20x-545",
-          "name": "Pflueger President XT 20",
-          "sku": "PRESXT20X",
-          "sku_found": true,
-          "model_terms_found": true
-        },
-        {
-          "id": "pflueger-president-xt-25-presxt25x-546",
-          "name": "Pflueger President XT 25",
-          "sku": "PRESXT25X",
-          "sku_found": true,
-          "model_terms_found": true
-        },
-        {
-          "id": "pflueger-president-xt-30-presxt30x-547",
-          "name": "Pflueger President XT 30",
-          "sku": "PRESXT30X",
-          "sku_found": true,
-          "model_terms_found": true
-        },
-        {
-          "id": "pflueger-president-xt-35-presxt35x-548",
-          "name": "Pflueger President XT 35",
-          "sku": "PRESXT35X",
-          "sku_found": true,
-          "model_terms_found": true
-        },
-        {
-          "id": "pflueger-president-xt-40-presxt40x-549",
-          "name": "Pflueger President XT 40",
-          "sku": "PRESXT40X",
           "sku_found": true,
           "model_terms_found": true
         }
@@ -6545,48 +6054,41 @@
       ]
     },
     {
-      "url": "https://pfluegerfishing.com/products/trion-spinning-reel",
-      "final_url": "https://pfluegerfishing.com/products/trion-spinning-reel-1641625",
+      "url": "https://pfluegerfishing.com/products/supreme-xt-spinning-reel",
+      "final_url": "https://pfluegerfishing.com/products/supreme-xt-spinning-reel-1310331",
       "http_status": 200,
       "state": "reachable",
       "content_type": "text/html; charset=utf-8",
       "content_checked": true,
-      "record_count": 5,
-      "sku_matches": 5,
-      "model_term_matches": 5,
+      "record_count": 4,
+      "sku_matches": 4,
+      "model_term_matches": 4,
       "records": [
         {
-          "id": "pflueger-trion-20-trion20x-535",
-          "name": "Pflueger Trion 20",
-          "sku": "TRION20X",
+          "id": "pflueger-supreme-xt-25-supxtsp25x-557",
+          "name": "Pflueger Supreme XT 25",
+          "sku": "SUPXTSP25X",
           "sku_found": true,
           "model_terms_found": true
         },
         {
-          "id": "pflueger-trion-25-trion25x-536",
-          "name": "Pflueger Trion 25",
-          "sku": "TRION25X",
+          "id": "pflueger-supreme-xt-30-supxtsp30x-558",
+          "name": "Pflueger Supreme XT 30",
+          "sku": "SUPXTSP30X",
           "sku_found": true,
           "model_terms_found": true
         },
         {
-          "id": "pflueger-trion-30-trion30x-537",
-          "name": "Pflueger Trion 30",
-          "sku": "TRION30X",
+          "id": "pflueger-supreme-xt-35-supxtsp35x-559",
+          "name": "Pflueger Supreme XT 35",
+          "sku": "SUPXTSP35X",
           "sku_found": true,
           "model_terms_found": true
         },
         {
-          "id": "pflueger-trion-35-trion35x-538",
-          "name": "Pflueger Trion 35",
-          "sku": "TRION35X",
-          "sku_found": true,
-          "model_terms_found": true
-        },
-        {
-          "id": "pflueger-trion-40-trion40x-539",
-          "name": "Pflueger Trion 40",
-          "sku": "TRION40X",
+          "id": "pflueger-supreme-xt-40-supxtsp40x-560",
+          "name": "Pflueger Supreme XT 40",
+          "sku": "SUPXTSP40X",
           "sku_found": true,
           "model_terms_found": true
         }
@@ -7133,6 +6635,40 @@
       ]
     },
     {
+      "url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+      "final_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "application/pdf",
+      "content_checked": false,
+      "record_count": 3,
+      "sku_matches": 0,
+      "model_term_matches": 0,
+      "records": [
+        {
+          "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
+          "name": "Lew's KVD Spinning Reel 200",
+          "sku": "KVD200",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
+          "name": "Lew's KVD Spinning Reel 300",
+          "sku": "KVD300",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
+          "name": "Lew's KVD Spinning Reel 400",
+          "sku": "KVD400",
+          "sku_found": false,
+          "model_terms_found": false
+        }
+      ]
+    },
+    {
       "url": "https://www.lews.com/en/shop/reels/ahcg2",
       "final_url": "https://www.lews.com/en/shop/reels/ahcg2",
       "http_status": 200,
@@ -7376,9 +6912,9 @@
       "state": "reachable",
       "content_type": "text/html; charset=utf-8",
       "content_checked": true,
-      "record_count": 4,
+      "record_count": 3,
       "sku_matches": 3,
-      "model_term_matches": 4,
+      "model_term_matches": 3,
       "records": [
         {
           "id": "lew-s-kvd-elite-spinning-reel-100-kvd100g2-335",
@@ -7400,47 +6936,6 @@
           "sku": "KVD300G2",
           "sku_found": true,
           "model_terms_found": true
-        },
-        {
-          "id": "lew-s-kvd-elite-spinning-reel-300-shallow-kvd300ssg2-338",
-          "name": "Lew's KVD Elite Spinning Reel 300 Shallow",
-          "sku": "KVD300SSG2",
-          "sku_found": false,
-          "model_terms_found": true
-        }
-      ]
-    },
-    {
-      "url": "https://www.lews.com/en/shop/reels/kvds",
-      "final_url": "https://www.lews.com/en/shop/reels/kvds",
-      "http_status": 200,
-      "state": "reachable",
-      "content_type": "text/html; charset=utf-8",
-      "content_checked": true,
-      "record_count": 3,
-      "sku_matches": 3,
-      "model_term_matches": 0,
-      "records": [
-        {
-          "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
-          "name": "Lew's KVD Spinning Reel 200",
-          "sku": "KVD200",
-          "sku_found": true,
-          "model_terms_found": false
-        },
-        {
-          "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
-          "name": "Lew's KVD Spinning Reel 300",
-          "sku": "KVD300",
-          "sku_found": true,
-          "model_terms_found": false
-        },
-        {
-          "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
-          "name": "Lew's KVD Spinning Reel 400",
-          "sku": "KVD400",
-          "sku_found": true,
-          "model_terms_found": false
         }
       ]
     },
@@ -7724,6 +7219,96 @@
       ]
     },
     {
+      "url": "https://www.pennfishing.com/products/authority-spinning-reel-1573574",
+      "final_url": "https://www.pennfishing.com/products/authority-spinning-reel-1573574",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 11,
+      "sku_matches": 11,
+      "model_term_matches": 11,
+      "records": [
+        {
+          "id": "penn-authority-2500-ath2500-524",
+          "name": "PENN Authority 2500",
+          "sku": "ATH2500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-3500-ath3500-525",
+          "name": "PENN Authority 3500",
+          "sku": "ATH3500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-4500-ath4500-526",
+          "name": "PENN Authority 4500",
+          "sku": "ATH4500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-4500-ath4500hs-527",
+          "name": "PENN Authority 4500",
+          "sku": "ATH4500HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-5500-ath5500-528",
+          "name": "PENN Authority 5500",
+          "sku": "ATH5500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-6500-ath6500-529",
+          "name": "PENN Authority 6500",
+          "sku": "ATH6500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-6500-ath6500hs-530",
+          "name": "PENN Authority 6500",
+          "sku": "ATH6500HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-7500-ath7500-531",
+          "name": "PENN Authority 7500",
+          "sku": "ATH7500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-8500-ath8500-532",
+          "name": "PENN Authority 8500",
+          "sku": "ATH8500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-8500-ath8500hs-533",
+          "name": "PENN Authority 8500",
+          "sku": "ATH8500HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-authority-10500-ath10500-534",
+          "name": "PENN Authority 10500",
+          "sku": "ATH10500",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
       "url": "https://www.pennfishing.com/products/battle-iv-spinning-reel-1624423",
       "final_url": "https://www.pennfishing.com/products/battle-iv-spinning-reel-1624423",
       "http_status": 200,
@@ -7821,6 +7406,68 @@
       ]
     },
     {
+      "url": "https://www.pennfishing.com/products/clash-ii-spinning-reel-1523129",
+      "final_url": "https://www.pennfishing.com/products/clash-ii-spinning-reel-1523129",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 7,
+      "sku_matches": 7,
+      "model_term_matches": 7,
+      "records": [
+        {
+          "id": "penn-clash-ii-2000-claii2000-487",
+          "name": "PENN Clash II 2000",
+          "sku": "CLAII2000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-clash-ii-2500-claii2500-488",
+          "name": "PENN Clash II 2500",
+          "sku": "CLAII2500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-clash-ii-3000-claii3000-489",
+          "name": "PENN Clash II 3000",
+          "sku": "CLAII3000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-clash-ii-3000-claii3000hs-490",
+          "name": "PENN Clash II 3000",
+          "sku": "CLAII3000HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-clash-ii-4000-claii4000-491",
+          "name": "PENN Clash II 4000",
+          "sku": "CLAII4000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-clash-ii-4000-claii4000hs-492",
+          "name": "PENN Clash II 4000",
+          "sku": "CLAII4000HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-clash-ii-5000-claii5000-493",
+          "name": "PENN Clash II 5000",
+          "sku": "CLAII5000",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
       "url": "https://www.pennfishing.com/products/fierce-iv-spinning-reel-1573575",
       "final_url": "https://www.pennfishing.com/products/fierce-iv-spinning-reel-1573575",
       "http_status": 200,
@@ -7890,6 +7537,199 @@
       ]
     },
     {
+      "url": "https://www.pennfishing.com/products/pursuit-v-spinning-reel-1641576",
+      "final_url": "https://www.pennfishing.com/products/pursuit-v-spinning-reel-1641576",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 6,
+      "sku_matches": 6,
+      "model_term_matches": 6,
+      "records": [
+        {
+          "id": "penn-pursuit-v-2500-purv2500-475",
+          "name": "PENN Pursuit V 2500",
+          "sku": "PURV2500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-pursuit-v-3000-purv3000-476",
+          "name": "PENN Pursuit V 3000",
+          "sku": "PURV3000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-pursuit-v-4000-purv4000-477",
+          "name": "PENN Pursuit V 4000",
+          "sku": "PURV4000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-pursuit-v-5000-purv5000-478",
+          "name": "PENN Pursuit V 5000",
+          "sku": "PURV5000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-pursuit-v-6000-purv6000-479",
+          "name": "PENN Pursuit V 6000",
+          "sku": "PURV6000",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-pursuit-v-8000-purv8000-480",
+          "name": "PENN Pursuit V 8000",
+          "sku": "PURV8000",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.pennfishing.com/products/slammer-iv-spinning-reel-1310317",
+      "final_url": "https://www.pennfishing.com/products/slammer-iv-spinning-reel-1310317",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 12,
+      "sku_matches": 12,
+      "model_term_matches": 12,
+      "records": [
+        {
+          "id": "penn-slammer-iv-2500-slaiv2500-512",
+          "name": "PENN Slammer IV 2500",
+          "sku": "SLAIV2500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-3500-slaiv3500-513",
+          "name": "PENN Slammer IV 3500",
+          "sku": "SLAIV3500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-4500-slaiv4500-514",
+          "name": "PENN Slammer IV 4500",
+          "sku": "SLAIV4500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-4500-slaiv4500hs-515",
+          "name": "PENN Slammer IV 4500",
+          "sku": "SLAIV4500HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-5500-slaiv5500bls-516",
+          "name": "PENN Slammer IV 5500",
+          "sku": "SLAIV5500BLS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-5500-slaiv5500-517",
+          "name": "PENN Slammer IV 5500",
+          "sku": "SLAIV5500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-6500-slaiv6500-518",
+          "name": "PENN Slammer IV 6500",
+          "sku": "SLAIV6500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-6500-slaiv6500hs-519",
+          "name": "PENN Slammer IV 6500",
+          "sku": "SLAIV6500HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-7500-slaiv7500-520",
+          "name": "PENN Slammer IV 7500",
+          "sku": "SLAIV7500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-8500-slaiv8500-521",
+          "name": "PENN Slammer IV 8500",
+          "sku": "SLAIV8500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-8500-slaiv8500hs-522",
+          "name": "PENN Slammer IV 8500",
+          "sku": "SLAIV8500HS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-slammer-iv-10500-slaiv10500-523",
+          "name": "PENN Slammer IV 10500",
+          "sku": "SLAIV10500",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.pennfishing.com/products/spinfisher-vii-live-liner-spinning-reel-1601020",
+      "final_url": "https://www.pennfishing.com/products/spinfisher-vii-live-liner-spinning-reel-1601020",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 4,
+      "sku_matches": 4,
+      "model_term_matches": 4,
+      "records": [
+        {
+          "id": "penn-spinfisher-vii-live-liner-2500-ssvii2500ll-505",
+          "name": "PENN Spinfisher VII Live Liner 2500",
+          "sku": "SSVII2500LL",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-live-liner-4500-ssvii4500ll-506",
+          "name": "PENN Spinfisher VII Live Liner 4500",
+          "sku": "SSVII4500LL",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-live-liner-6500-ssvii6500ll-507",
+          "name": "PENN Spinfisher VII Live Liner 6500",
+          "sku": "SSVII6500LL",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-live-liner-8500-ssvii8500ll-508",
+          "name": "PENN Spinfisher VII Live Liner 8500",
+          "sku": "SSVII8500LL",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
       "url": "https://www.pennfishing.com/products/spinfisher-vii-long-cast-spinning-reel-1601021",
       "final_url": "https://www.pennfishing.com/products/spinfisher-vii-long-cast-spinning-reel-1601021",
       "http_status": 200,
@@ -7924,20 +7764,192 @@
       ]
     },
     {
-      "url": "https://www.reddit.com/r/FishingForBeginners/comments/149i2b8/reel_braid_question/",
-      "final_url": "https://www.reddit.com/r/FishingForBeginners/comments/149i2b8/reel_braid_question/",
+      "url": "https://www.pennfishing.com/products/spinfisher-vii-spinning-reel-1595548",
+      "final_url": "https://www.pennfishing.com/products/spinfisher-vii-spinning-reel-1595548",
       "http_status": 200,
       "state": "reachable",
-      "content_type": "text/html",
+      "content_type": "text/html; charset=utf-8",
       "content_checked": true,
+      "record_count": 11,
+      "sku_matches": 11,
+      "model_term_matches": 11,
+      "records": [
+        {
+          "id": "penn-spinfisher-vii-2500-ssvii2500-494",
+          "name": "PENN Spinfisher VII 2500",
+          "sku": "SSVII2500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-3500-ssvii3500-495",
+          "name": "PENN Spinfisher VII 3500",
+          "sku": "SSVII3500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-4500-ssvii4500bls-496",
+          "name": "PENN Spinfisher VII 4500",
+          "sku": "SSVII4500BLS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-4500-ssvii4500-497",
+          "name": "PENN Spinfisher VII 4500",
+          "sku": "SSVII4500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-5500-ssvii5500-498",
+          "name": "PENN Spinfisher VII 5500",
+          "sku": "SSVII5500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-6500-ssvii6500bls-499",
+          "name": "PENN Spinfisher VII 6500",
+          "sku": "SSVII6500BLS",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-6500-ssvii6500-500",
+          "name": "PENN Spinfisher VII 6500",
+          "sku": "SSVII6500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-7500-ssvii7500-501",
+          "name": "PENN Spinfisher VII 7500",
+          "sku": "SSVII7500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-8500-ssvii8500-502",
+          "name": "PENN Spinfisher VII 8500",
+          "sku": "SSVII8500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-9500-ssvii9500-503",
+          "name": "PENN Spinfisher VII 9500",
+          "sku": "SSVII9500",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-spinfisher-vii-10500-ssvii10500-504",
+          "name": "PENN Spinfisher VII 10500",
+          "sku": "SSVII10500",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.pennfishing.com/products/wrath-ii-spinning-reel-1595550",
+      "final_url": "https://www.pennfishing.com/products/wrath-ii-spinning-reel-1595550",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "text/html; charset=utf-8",
+      "content_checked": true,
+      "record_count": 6,
+      "sku_matches": 6,
+      "model_term_matches": 6,
+      "records": [
+        {
+          "id": "penn-wrath-ii-2500-wrthii2500c-481",
+          "name": "PENN Wrath II 2500",
+          "sku": "WRTHII2500C",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-wrath-ii-3000-wrthii3000c-482",
+          "name": "PENN Wrath II 3000",
+          "sku": "WRTHII3000C",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-wrath-ii-4000-wrthii4000c-483",
+          "name": "PENN Wrath II 4000",
+          "sku": "WRTHII4000C",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-wrath-ii-5000-wrthii5000c-484",
+          "name": "PENN Wrath II 5000",
+          "sku": "WRTHII5000C",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-wrath-ii-6000-wrthii6000c-485",
+          "name": "PENN Wrath II 6000",
+          "sku": "WRTHII6000C",
+          "sku_found": true,
+          "model_terms_found": true
+        },
+        {
+          "id": "penn-wrath-ii-8000-wrthii8000c-486",
+          "name": "PENN Wrath II 8000",
+          "sku": "WRTHII8000C",
+          "sku_found": true,
+          "model_terms_found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2023_fnl.pdf",
+      "final_url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2023_fnl.pdf",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "application/pdf",
+      "content_checked": false,
+      "record_count": 2,
+      "sku_matches": 0,
+      "model_term_matches": 0,
+      "records": [
+        {
+          "id": "quantum-optix-20-op20-594",
+          "name": "Quantum Optix 20",
+          "sku": "OP20",
+          "sku_found": false,
+          "model_terms_found": false
+        },
+        {
+          "id": "quantum-optix-40-op40-596",
+          "name": "Quantum Optix 40",
+          "sku": "OP40",
+          "sku_found": false,
+          "model_terms_found": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf",
+      "final_url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf",
+      "http_status": 200,
+      "state": "reachable",
+      "content_type": "application/pdf",
+      "content_checked": false,
       "record_count": 1,
       "sku_matches": 0,
       "model_term_matches": 0,
       "records": [
         {
-          "id": "quantum-optix-40-op40-596",
-          "name": "Quantum Optix 40",
-          "sku": "OP40",
+          "id": "quantum-smoke-x-25-smx25xpt-bx3-608",
+          "name": "Quantum Smoke X 25",
+          "sku": "SMX25XPT.BX3",
           "sku_found": false,
           "model_terms_found": false
         }
