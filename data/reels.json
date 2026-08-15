@@ -1299,7 +1299,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "abu-garcia-revo-x-spinning-20-revo3-x-sp20-22",
@@ -1361,7 +1362,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "abu-garcia-revo-x-spinning-30-revo3-x-sp30-23",
@@ -1423,7 +1425,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "abu-garcia-revo-x-spinning-40-revo3-x-sp40-24",
@@ -1485,7 +1488,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "abu-garcia-revo-sx-spinning-10-revo3-sx-sp10-25",
@@ -1547,7 +1551,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "abu-garcia-revo-sx-spinning-20-revo3-sx-sp20-26",
@@ -1609,7 +1614,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "abu-garcia-revo-sx-spinning-30-revo3-sx-sp30-27",
@@ -1671,7 +1677,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "abu-garcia-revo-sx-spinning-40-revo3-sx-sp40-28",
@@ -1733,7 +1740,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "abu-garcia-revo-rocket-spinning-20-revo3-rocket-sp20-29",
@@ -1795,7 +1803,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "abu-garcia-revo-rocket-spinning-30-revo3-rocket-sp30-30",
@@ -1857,7 +1866,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "abu-garcia-revo-rocket-spinning-40-revo3-rocket-sp40-31",
@@ -1919,7 +1929,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "abu-garcia-revo-winch-spinning-30-revo3-winch-sp30-32",
@@ -1981,7 +1992,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "abu-garcia-zenon-x-spinning-2000-zenon-x-sp2000-33",
@@ -2541,7 +2553,8 @@
     "ipt_source_url": "https://fishermenssource.com/products/abu-garcia-zata-spinning-fishing-reels",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "abu-garcia-zata-spinning-30-zatasp30-42",
@@ -2605,7 +2618,8 @@
     "ipt_source_url": "https://fishermenssource.com/products/abu-garcia-zata-spinning-fishing-reels",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "abu-garcia-zata-spinning-40-zatasp40-43",
@@ -2669,7 +2683,8 @@
     "ipt_source_url": "https://fishermenssource.com/products/abu-garcia-zata-spinning-fishing-reels",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "abu-garcia-jordan-lee-spinning-20-jleesp20-44",
@@ -2733,7 +2748,8 @@
     "ipt_source_url": "https://fishermenssource.com/products/abu-garcia-jordan-lee-spinning-reel",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "abu-garcia-jordan-lee-spinning-30-jleesp30-45",
@@ -2797,7 +2813,8 @@
     "ipt_source_url": "https://fishermenssource.com/products/abu-garcia-jordan-lee-spinning-reel",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "bass-pro-shops-catmaxx-spinning-reel-large-catmaxx-verify-46",
@@ -2897,7 +2914,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
@@ -2947,7 +2965,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
@@ -2990,7 +3009,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
@@ -3040,7 +3060,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -3088,7 +3109,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-micro-lite-elite-spinning-reel-5-size-4529353",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 500
   },
   {
     "id": "bass-pro-shops-pro-qualifier-spinning-reel-various-pqs-verify-52",
@@ -3179,7 +3201,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-tourney-special-spinning-reel-tsz-10-2924070",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "bass-pro-shops-tourney-special-spinning-reel-20-tsz-20-54",
@@ -3227,7 +3250,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-tourney-special-spinning-reel-tsz-10-2924070",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "bass-pro-shops-tourney-special-spinning-reel-30-tsz-30-55",
@@ -3275,7 +3299,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-tourney-special-spinning-reel-tsz-10-2924070",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "bass-pro-shops-tourney-special-spinning-reel-40-tsz-40-56",
@@ -3323,7 +3348,8 @@
     "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-tourney-special-spinning-reel-tsz-10-2924070",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000-jct1000-57",
@@ -18257,7 +18283,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 750
   },
   {
     "id": "lew-s-speed-spin-20-1-311",
@@ -18307,7 +18334,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-speed-spin-30-2-312",
@@ -18345,11 +18373,11 @@
     "line_retrieve_in": 32,
     "bearings": "",
     "msrp_usd": null,
-    "reelcalc_recommended_braid": "4-8 lb braid",
-    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
-    "reelcalc_use_case": "ultralight panfish, trout, crappie",
+    "reelcalc_recommended_braid": "8-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
+    "reelcalc_use_case": "trout, panfish, finesse bass, light freshwater",
     "notes": "Capacity mapped from Lews visible ordered spec values; verify size-to-capacity order before public calculator launch.",
-    "search_text": "lew's speed spin 30 30 ultralight panfish, trout, crappie",
+    "search_text": "lew's speed spin 30 30 trout, panfish, finesse bass, light freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 32,
     "ipt_original_unit": "in/turn",
@@ -18357,7 +18385,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-speed-spin-40-3-313",
@@ -18395,11 +18424,11 @@
     "line_retrieve_in": 35,
     "bearings": "",
     "msrp_usd": null,
-    "reelcalc_recommended_braid": "4-8 lb braid",
-    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
-    "reelcalc_use_case": "ultralight panfish, trout, crappie",
+    "reelcalc_recommended_braid": "10-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "8-10 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, finesse spinning, all-around freshwater",
     "notes": "Capacity mapped from Lews visible ordered spec values; verify size-to-capacity order before public calculator launch.",
-    "search_text": "lew's speed spin 40 40 ultralight panfish, trout, crappie",
+    "search_text": "lew's speed spin 40 40 bass, walleye, finesse spinning, all-around freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 35,
     "ipt_original_unit": "in/turn",
@@ -18407,7 +18436,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-speed-spin-50-4-314",
@@ -18445,11 +18475,11 @@
     "line_retrieve_in": 38,
     "bearings": "",
     "msrp_usd": null,
-    "reelcalc_recommended_braid": "4-8 lb braid",
-    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
-    "reelcalc_use_case": "ultralight panfish, trout, crappie",
+    "reelcalc_recommended_braid": "20-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "10-12 lb mono/fluoro",
+    "reelcalc_use_case": "larger bass, walleye, light pike, heavier freshwater",
     "notes": "Capacity mapped from Lews visible ordered spec values; verify size-to-capacity order before public calculator launch.",
-    "search_text": "lew's speed spin 50 50 ultralight panfish, trout, crappie",
+    "search_text": "lew's speed spin 50 50 larger bass, walleye, light pike, heavier freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 38,
     "ipt_original_unit": "in/turn",
@@ -18457,7 +18487,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "lew-s-speed-spin-crx-10-5-315",
@@ -18507,7 +18538,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrscrx",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 750
   },
   {
     "id": "lew-s-speed-spin-crx-20-6-316",
@@ -18557,7 +18589,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrscrx",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-speed-spin-crx-30-7-317",
@@ -18595,11 +18628,11 @@
     "line_retrieve_in": 32,
     "bearings": "",
     "msrp_usd": null,
-    "reelcalc_recommended_braid": "4-8 lb braid",
-    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
-    "reelcalc_use_case": "ultralight panfish, trout, crappie",
+    "reelcalc_recommended_braid": "8-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
+    "reelcalc_use_case": "trout, panfish, finesse bass, light freshwater",
     "notes": "Capacity mapped from Lews visible ordered spec values; verify size-to-capacity order before public calculator launch.",
-    "search_text": "lew's speed spin crx 30 30 ultralight panfish, trout, crappie",
+    "search_text": "lew's speed spin crx 30 30 trout, panfish, finesse bass, light freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 32,
     "ipt_original_unit": "in/turn",
@@ -18607,7 +18640,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrscrx",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-speed-spin-crx-40-8-318",
@@ -18645,11 +18679,11 @@
     "line_retrieve_in": 35,
     "bearings": "",
     "msrp_usd": null,
-    "reelcalc_recommended_braid": "4-8 lb braid",
-    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
-    "reelcalc_use_case": "ultralight panfish, trout, crappie",
+    "reelcalc_recommended_braid": "10-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "8-10 lb mono/fluoro",
+    "reelcalc_use_case": "bass, walleye, finesse spinning, all-around freshwater",
     "notes": "Capacity mapped from Lews visible ordered spec values; verify size-to-capacity order before public calculator launch.",
-    "search_text": "lew's speed spin crx 40 40 ultralight panfish, trout, crappie",
+    "search_text": "lew's speed spin crx 40 40 bass, walleye, finesse spinning, all-around freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 35,
     "ipt_original_unit": "in/turn",
@@ -18657,7 +18691,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrscrx",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-speed-spin-crx-50-9-319",
@@ -18695,11 +18730,11 @@
     "line_retrieve_in": 38,
     "bearings": "",
     "msrp_usd": null,
-    "reelcalc_recommended_braid": "4-8 lb braid",
-    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
-    "reelcalc_use_case": "ultralight panfish, trout, crappie",
+    "reelcalc_recommended_braid": "20-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "10-12 lb mono/fluoro",
+    "reelcalc_use_case": "larger bass, walleye, light pike, heavier freshwater",
     "notes": "Capacity mapped from Lews visible ordered spec values; verify size-to-capacity order before public calculator launch.",
-    "search_text": "lew's speed spin crx 50 50 ultralight panfish, trout, crappie",
+    "search_text": "lew's speed spin crx 50 50 larger bass, walleye, light pike, heavier freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 38,
     "ipt_original_unit": "in/turn",
@@ -18707,7 +18742,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ssrscrx",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "lew-s-custom-spinning-reel-100-10-320",
@@ -18757,7 +18793,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/cssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-custom-spinning-reel-200-11-321",
@@ -18807,7 +18844,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/cssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-custom-spinning-reel-300-12-322",
@@ -18857,7 +18895,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/cssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-custom-spinning-reel-400-13-323",
@@ -18907,7 +18946,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/cssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "lew-s-custom-pro-spinning-reel-100-14-324",
@@ -18957,7 +18997,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/tlcsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-custom-pro-spinning-reel-200-15-325",
@@ -19007,7 +19048,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/tlcsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-custom-pro-spinning-reel-300-16-326",
@@ -19057,7 +19099,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/tlcsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-custom-pro-spinning-reel-400-17-327",
@@ -19107,7 +19150,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/tlcsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "lew-s-custom-lite-spinning-reel-100-cl100-328",
@@ -19157,7 +19201,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/clsr",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-custom-lite-spinning-reel-200-cl200-329",
@@ -19207,7 +19252,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/clsr",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-custom-lite-spinning-reel-300-cl300-330",
@@ -19257,7 +19303,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/clsr",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-custom-lite-shallow-spool-spinning-reel-200-ss-21-331",
@@ -19305,7 +19352,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/clss",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-laser-lite-spinning-reel-75-22-332",
@@ -19355,7 +19403,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/llssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 500
   },
   {
     "id": "lew-s-laser-lite-spinning-reel-100-23-333",
@@ -19405,7 +19454,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/llssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 750
   },
   {
     "id": "lew-s-laser-lite-spinning-reel-200-24-334",
@@ -19455,7 +19505,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/llssg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-100-kvd100g2-335",
@@ -19505,7 +19556,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvdes",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-200-kvd200g2-336",
@@ -19555,7 +19607,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvdes",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-300-kvd300g2-337",
@@ -19605,7 +19658,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvdes",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-300-shallow-kvd300ssg2-338",
@@ -19655,7 +19709,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
@@ -19719,7 +19774,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvds",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
@@ -19783,7 +19839,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvds",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
@@ -19847,7 +19904,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvds",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "lew-s-hypermag-spinning-reel-200-hms200-342",
@@ -19897,7 +19955,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/hmrs",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-hypermag-spinning-reel-300-hms300-343",
@@ -19947,7 +20006,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/hmrs",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-mach-1-spinning-reel-100-mh100a-344",
@@ -19997,7 +20057,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/mh1sg3",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-mach-1-spinning-reel-200-mh200a-345",
@@ -20047,7 +20108,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/mh1sg3",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-mach-1-spinning-reel-300-mh300a-346",
@@ -20097,7 +20159,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/mh1sg3",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-american-hero-spinning-reel-100-37-347",
@@ -20147,7 +20210,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ahsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-american-hero-spinning-reel-200-38-348",
@@ -20197,7 +20261,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ahsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-american-hero-spinning-reel-300-39-349",
@@ -20247,7 +20312,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ahsg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-american-hero-camo-spinning-reel-200-40-350",
@@ -20297,7 +20363,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ahcg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-american-hero-camo-spinning-reel-300-41-351",
@@ -20347,7 +20414,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/ahcg2",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "lew-s-american-hero-tier-1-spinning-reel-200-42-352",
@@ -20397,7 +20465,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/aht1sr",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-crappie-thunder-spinning-reel-75-43-353",
@@ -20447,7 +20516,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 750
   },
   {
     "id": "lew-s-crappie-thunder-spinning-reel-100-44-354",
@@ -20497,7 +20567,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "lew-s-crappie-thunder-spinning-reel-200-45-355",
@@ -20547,7 +20618,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "lew-s-wally-marshall-signature-series-spinning-reel-75-46-356",
@@ -20597,7 +20669,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/wspsg3",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 500
   },
   {
     "id": "lew-s-wally-marshall-signature-series-spinning-reel-100-47-357",
@@ -20647,7 +20720,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/wspsg3",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 750
   },
   {
     "id": "lew-s-wally-marshall-signature-series-spinning-reel-200-48-358",
@@ -20697,7 +20771,8 @@
     "ipt_source_url": "https://www.lews.com/en/shop/reels/wspsg3",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved."
+    "ipt_notes": "Matched by the row's published mono capacity, marketed size, and official Lew's model code; the ReelCalc ID was preserved.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "okuma-ceymar-a-500-c-500a-359",
@@ -31949,7 +32024,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 500
   },
   {
     "id": "pflueger-trion-25-trion25x-536",
@@ -32011,7 +32087,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-trion-30-trion30x-537",
@@ -32073,7 +32150,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-trion-35-trion35x-538",
@@ -32135,7 +32213,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "pflueger-trion-40-trion40x-539",
@@ -32197,7 +32276,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "pflueger-president-20-pres20x-540",
@@ -32259,7 +32339,8 @@
     "ipt_source_url": "https://www.cabelas.com/shop/en/pflueger-president-spinning-reel-3768499",
     "ipt_date_checked": "2026-08-01",
     "ipt_confidence": "high",
-    "ipt_notes": "Exact PRES20X retrieve rate cross-checked across two major tackle retailers."
+    "ipt_notes": "Exact PRES20X retrieve rate cross-checked across two major tackle retailers.",
+    "recommendation_size_class": 500
   },
   {
     "id": "pflueger-president-25-pres25x-541",
@@ -32321,7 +32402,8 @@
     "ipt_source_url": "https://www.cabelas.com/shop/en/pflueger-president-spinning-reel-3768499",
     "ipt_date_checked": "2026-08-01",
     "ipt_confidence": "high",
-    "ipt_notes": "Exact PRES25X retrieve rate cross-checked across two major tackle retailers."
+    "ipt_notes": "Exact PRES25X retrieve rate cross-checked across two major tackle retailers.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-president-30-pres30x-542",
@@ -32383,7 +32465,8 @@
     "ipt_source_url": "https://www.cabelas.com/shop/en/pflueger-president-spinning-reel-3768499",
     "ipt_date_checked": "2026-08-01",
     "ipt_confidence": "high",
-    "ipt_notes": "Exact PRES30X retrieve rate cross-checked across two major tackle retailers."
+    "ipt_notes": "Exact PRES30X retrieve rate cross-checked across two major tackle retailers.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-president-35-pres35x-543",
@@ -32445,7 +32528,8 @@
     "ipt_source_url": "https://www.cabelas.com/shop/en/pflueger-president-spinning-reel-3768499",
     "ipt_date_checked": "2026-08-01",
     "ipt_confidence": "high",
-    "ipt_notes": "Exact PRES35X retrieve rate cross-checked across two major tackle retailers."
+    "ipt_notes": "Exact PRES35X retrieve rate cross-checked across two major tackle retailers.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "pflueger-president-40-pres40x-544",
@@ -32507,7 +32591,8 @@
     "ipt_source_url": "https://www.cabelas.com/shop/en/pflueger-president-spinning-reel-3768499",
     "ipt_date_checked": "2026-08-01",
     "ipt_confidence": "high",
-    "ipt_notes": "Exact PRES40X retrieve rate cross-checked across two major tackle retailers."
+    "ipt_notes": "Exact PRES40X retrieve rate cross-checked across two major tackle retailers.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "pflueger-president-xt-20-presxt20x-545",
@@ -32569,7 +32654,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 500
   },
   {
     "id": "pflueger-president-xt-25-presxt25x-546",
@@ -32631,7 +32717,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-president-xt-30-presxt30x-547",
@@ -32693,7 +32780,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-president-xt-35-presxt35x-548",
@@ -32755,7 +32843,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "pflueger-president-xt-40-presxt40x-549",
@@ -32817,7 +32906,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "pflueger-president-le-25-presle25x-550",
@@ -32879,7 +32969,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-president-le-30-presle30x-551",
@@ -32941,7 +33032,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-president-le-35-presle35x-552",
@@ -33003,7 +33095,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "pflueger-supreme-25-supsp25x-553",
@@ -33065,7 +33158,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-supreme-30-supsp30x-554",
@@ -33127,7 +33221,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-supreme-35-supsp35x-555",
@@ -33189,7 +33284,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "pflueger-supreme-40-supsp40x-556",
@@ -33251,7 +33347,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "pflueger-supreme-xt-25-supxtsp25x-557",
@@ -33313,7 +33410,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-supreme-xt-30-supxtsp30x-558",
@@ -33375,7 +33473,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-supreme-xt-35-supxtsp35x-559",
@@ -33437,7 +33536,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "pflueger-supreme-xt-40-supxtsp40x-560",
@@ -33499,7 +33599,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "pflueger-patriarch-25-parsp25x-561",
@@ -33561,7 +33662,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "pflueger-patriarch-30-parsp30x-pfl-562",
@@ -33623,7 +33725,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "pflueger-patriarch-35-parsp35x-pfl-563",
@@ -33685,7 +33788,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-accurist-15-at15spta-564",
@@ -33735,7 +33839,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1500
   },
   {
     "id": "quantum-accurist-25-at25spta-565",
@@ -33785,7 +33890,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-accurist-30-at30spta-566",
@@ -33835,7 +33941,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-accurist-inshore-25-ats25spt-567",
@@ -33885,7 +33992,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-accurist-inshore-30-ats30spt-568",
@@ -33935,7 +34043,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-benchmark-2500-bm2500-b2-569",
@@ -34585,7 +34694,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 500
   },
   {
     "id": "quantum-drive-10-dr10-582",
@@ -34635,7 +34745,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "quantum-drive-20-dr20-583",
@@ -34685,7 +34796,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "quantum-energy-15-en15spt-584",
@@ -34735,7 +34847,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1500
   },
   {
     "id": "quantum-energy-25-en25spt-585",
@@ -34785,7 +34898,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-energy-30-en30spt-586",
@@ -34835,7 +34949,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-merit-2500-mt2500-b2-587",
@@ -35185,7 +35300,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "quantum-optix-20-op20-594",
@@ -35235,7 +35351,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "quantum-optix-30-op30d-cp2-595",
@@ -35285,7 +35402,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-optix-40-op40-596",
@@ -35335,7 +35453,8 @@
     "ipt_source_url": "",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
-    "ipt_notes": "An IPT value exists, but it is not enabled until its exact-variant source is approved."
+    "ipt_notes": "An IPT value exists, but it is not enabled until its exact-variant source is approved.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "quantum-optix-80-op80d-cp2-597",
@@ -35385,7 +35504,8 @@
     "ipt_source_url": "https://www.opticsplanet.com/quantum-optix-spinning-reel-4-bearings-4-9-1-ratio-braid-360-50-mono-245-25.html",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 8000
   },
   {
     "id": "quantum-reliance-30-rel30xpt-598",
@@ -35435,7 +35555,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-reliance-35-rel35xpt-599",
@@ -35485,7 +35606,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3500
   },
   {
     "id": "quantum-reliance-40-rel40xpt-600",
@@ -35535,7 +35657,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "quantum-smoke-s3-15-sm15xpt-601",
@@ -35585,7 +35708,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1500
   },
   {
     "id": "quantum-smoke-s3-25-sm25xpt-602",
@@ -35635,7 +35759,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-smoke-s3-30-sm30xpt-603",
@@ -35685,7 +35810,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-smoke-s3-inshore-25-ssm25xpt-604",
@@ -35735,7 +35861,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-smoke-s3-inshore-30-ssm30xpt-605",
@@ -35785,7 +35912,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-smoke-s3-inshore-40-ssm40xpt-606",
@@ -35835,7 +35963,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "quantum-smoke-s3-inshore-50-ssm50xpt-607",
@@ -35885,7 +36014,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 5000
   },
   {
     "id": "quantum-smoke-x-25-smx25xpt-bx3-608",
@@ -35935,7 +36065,8 @@
     "ipt_source_url": "https://www.desertcart.com.au/products/369325385-smoke-x-spinning-fishing-reel-size-25-reel-changeable-right-or-left-hand-retrieve-continuous-anti-reverse-clutch-with-niti-indestructible-bail-scr-alloy-frame-6-0-1-gear-ratio-blue",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-strategy-05-sr05a-609",
@@ -35985,7 +36116,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 500
   },
   {
     "id": "quantum-strategy-10-sr10a-610",
@@ -36035,7 +36167,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "quantum-strategy-20-sr20a-611",
@@ -36085,7 +36218,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2000
   },
   {
     "id": "quantum-strategy-30-sr30a-612",
@@ -36135,7 +36269,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-strategy-40-sr40a-613",
@@ -36185,7 +36320,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 4000
   },
   {
     "id": "quantum-strategy-60-sr60a-614",
@@ -36235,7 +36371,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 6000
   },
   {
     "id": "quantum-strive-2500-sv2500-b2-615",
@@ -36585,7 +36722,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 1000
   },
   {
     "id": "quantum-throttle-25-th25c-622",
@@ -36635,7 +36773,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "quantum-throttle-30-th30c-623",
@@ -36685,7 +36824,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 3000
   },
   {
     "id": "quantum-vapor-25-vp25xpt-624",
@@ -36735,7 +36875,8 @@
     "ipt_source_url": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "recommendation_size_class": 2500
   },
   {
     "id": "shimano-fx-fc-1000-fx1000fc-625",

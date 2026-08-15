@@ -11,6 +11,13 @@
     40: 3000
   };
 
+  var SHORT_REEL_SIZE_SYSTEMS = {
+    "abu garcia": { maximum: 40, multiplier: 100 },
+    "bass pro shops": { maximum: 40, multiplier: 100 },
+    "lew's": { maximum: 400, multiplier: 10 },
+    quantum: { maximum: 99, multiplier: 100 }
+  };
+
   var TYPICAL_DIAMETER_RANGES_IN = {
     Braid: {
       4: [0.004, 0.006],
@@ -878,12 +885,20 @@
   }
 
   function reelSizeClass(reel) {
+    var explicitSize = Number(reel && reel.recommendation_size_class);
+    if (explicitSize > 0) return explicitSize;
+
     var raw = reel && (reel.size_class || reel.size_label || "");
     var match = String(raw).match(/\d+/);
     var size = match ? Number(match[0]) : 0;
     var brand = String(reel && reel.brand || "").toLowerCase();
     if (brand === "pflueger" && PFLUEGER_SIZE_EQUIVALENTS[size]) {
       return PFLUEGER_SIZE_EQUIVALENTS[size];
+    }
+
+    var shortSizeSystem = SHORT_REEL_SIZE_SYSTEMS[brand];
+    if (shortSizeSystem && size > 0 && size <= shortSizeSystem.maximum) {
+      return size * shortSizeSystem.multiplier;
     }
     return size;
   }

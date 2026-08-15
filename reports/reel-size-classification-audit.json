@@ -1,0 +1,1057 @@
+{
+  "generatedAt": "2026-08-15T01:49:08.153Z",
+  "classifiedCount": 141,
+  "classifiedByBrand": {
+    "Abu Garcia": 17,
+    "Bass Pro Shops": 9,
+    "Lew's": 49,
+    "Pflueger": 29,
+    "Quantum": 37
+  },
+  "guidanceCorrectionCount": 6,
+  "guidanceCorrections": [
+    {
+      "id": "lew-s-speed-spin-30-2-312",
+      "model": "Speed Spin",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000,
+      "braid": "8-15 lb braid",
+      "mono": "4-8 lb mono/fluoro",
+      "useCase": "trout, panfish, finesse bass, light freshwater"
+    },
+    {
+      "id": "lew-s-speed-spin-40-3-313",
+      "model": "Speed Spin",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000,
+      "braid": "10-20 lb braid",
+      "mono": "8-10 lb mono/fluoro",
+      "useCase": "bass, walleye, finesse spinning, all-around freshwater"
+    },
+    {
+      "id": "lew-s-speed-spin-50-4-314",
+      "model": "Speed Spin",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000,
+      "braid": "20-30 lb braid",
+      "mono": "10-12 lb mono/fluoro",
+      "useCase": "larger bass, walleye, light pike, heavier freshwater"
+    },
+    {
+      "id": "lew-s-speed-spin-crx-30-7-317",
+      "model": "Speed Spin CRX",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000,
+      "braid": "8-15 lb braid",
+      "mono": "4-8 lb mono/fluoro",
+      "useCase": "trout, panfish, finesse bass, light freshwater"
+    },
+    {
+      "id": "lew-s-speed-spin-crx-40-8-318",
+      "model": "Speed Spin CRX",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000,
+      "braid": "10-20 lb braid",
+      "mono": "8-10 lb mono/fluoro",
+      "useCase": "bass, walleye, finesse spinning, all-around freshwater"
+    },
+    {
+      "id": "lew-s-speed-spin-crx-50-9-319",
+      "model": "Speed Spin CRX",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000,
+      "braid": "20-30 lb braid",
+      "mono": "10-12 lb mono/fluoro",
+      "useCase": "larger bass, walleye, light pike, heavier freshwater"
+    }
+  ],
+  "classified": [
+    {
+      "id": "abu-garcia-revo-x-spinning-10-revo3-x-sp10-21",
+      "brand": "Abu Garcia",
+      "model": "Revo X Spinning",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "abu-garcia-revo-x-spinning-20-revo3-x-sp20-22",
+      "brand": "Abu Garcia",
+      "model": "Revo X Spinning",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "abu-garcia-revo-x-spinning-30-revo3-x-sp30-23",
+      "brand": "Abu Garcia",
+      "model": "Revo X Spinning",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "abu-garcia-revo-x-spinning-40-revo3-x-sp40-24",
+      "brand": "Abu Garcia",
+      "model": "Revo X Spinning",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "abu-garcia-revo-sx-spinning-10-revo3-sx-sp10-25",
+      "brand": "Abu Garcia",
+      "model": "Revo SX Spinning",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "abu-garcia-revo-sx-spinning-20-revo3-sx-sp20-26",
+      "brand": "Abu Garcia",
+      "model": "Revo SX Spinning",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "abu-garcia-revo-sx-spinning-30-revo3-sx-sp30-27",
+      "brand": "Abu Garcia",
+      "model": "Revo SX Spinning",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "abu-garcia-revo-sx-spinning-40-revo3-sx-sp40-28",
+      "brand": "Abu Garcia",
+      "model": "Revo SX Spinning",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "abu-garcia-revo-rocket-spinning-20-revo3-rocket-sp20-29",
+      "brand": "Abu Garcia",
+      "model": "Revo Rocket Spinning",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "abu-garcia-revo-rocket-spinning-30-revo3-rocket-sp30-30",
+      "brand": "Abu Garcia",
+      "model": "Revo Rocket Spinning",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "abu-garcia-revo-rocket-spinning-40-revo3-rocket-sp40-31",
+      "brand": "Abu Garcia",
+      "model": "Revo Rocket Spinning",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "abu-garcia-revo-winch-spinning-30-revo3-winch-sp30-32",
+      "brand": "Abu Garcia",
+      "model": "Revo Winch Spinning",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "abu-garcia-zata-spinning-20-zatasp20-41",
+      "brand": "Abu Garcia",
+      "model": "Zata Spinning",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "abu-garcia-zata-spinning-30-zatasp30-42",
+      "brand": "Abu Garcia",
+      "model": "Zata Spinning",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "abu-garcia-zata-spinning-40-zatasp40-43",
+      "brand": "Abu Garcia",
+      "model": "Zata Spinning",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "abu-garcia-jordan-lee-spinning-20-jleesp20-44",
+      "brand": "Abu Garcia",
+      "model": "Jordan Lee Spinning",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "abu-garcia-jordan-lee-spinning-30-jleesp30-45",
+      "brand": "Abu Garcia",
+      "model": "Jordan Lee Spinning",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-10-fma10-47",
+      "brand": "Bass Pro Shops",
+      "model": "Formula Spinning Reel",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
+      "brand": "Bass Pro Shops",
+      "model": "Formula Spinning Reel",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
+      "brand": "Bass Pro Shops",
+      "model": "Formula Spinning Reel",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
+      "brand": "Bass Pro Shops",
+      "model": "Formula Spinning Reel",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
+      "brand": "Bass Pro Shops",
+      "model": "Micro Lite Elite Spinning Reel",
+      "displayedSize": "5",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "bass-pro-shops-tourney-special-spinning-reel-10-tsz-10-53",
+      "brand": "Bass Pro Shops",
+      "model": "Tourney Special Spinning Reel",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "bass-pro-shops-tourney-special-spinning-reel-20-tsz-20-54",
+      "brand": "Bass Pro Shops",
+      "model": "Tourney Special Spinning Reel",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "bass-pro-shops-tourney-special-spinning-reel-30-tsz-30-55",
+      "brand": "Bass Pro Shops",
+      "model": "Tourney Special Spinning Reel",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "bass-pro-shops-tourney-special-spinning-reel-40-tsz-40-56",
+      "brand": "Bass Pro Shops",
+      "model": "Tourney Special Spinning Reel",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "lew-s-speed-spin-10-0-310",
+      "brand": "Lew's",
+      "model": "Speed Spin",
+      "displayedSize": "75",
+      "recommendationSizeClass": 750
+    },
+    {
+      "id": "lew-s-speed-spin-20-1-311",
+      "brand": "Lew's",
+      "model": "Speed Spin",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-speed-spin-30-2-312",
+      "brand": "Lew's",
+      "model": "Speed Spin",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-speed-spin-40-3-313",
+      "brand": "Lew's",
+      "model": "Speed Spin",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-speed-spin-50-4-314",
+      "brand": "Lew's",
+      "model": "Speed Spin",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "lew-s-speed-spin-crx-10-5-315",
+      "brand": "Lew's",
+      "model": "Speed Spin CRX",
+      "displayedSize": "75",
+      "recommendationSizeClass": 750
+    },
+    {
+      "id": "lew-s-speed-spin-crx-20-6-316",
+      "brand": "Lew's",
+      "model": "Speed Spin CRX",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-speed-spin-crx-30-7-317",
+      "brand": "Lew's",
+      "model": "Speed Spin CRX",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-speed-spin-crx-40-8-318",
+      "brand": "Lew's",
+      "model": "Speed Spin CRX",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-speed-spin-crx-50-9-319",
+      "brand": "Lew's",
+      "model": "Speed Spin CRX",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "lew-s-custom-spinning-reel-100-10-320",
+      "brand": "Lew's",
+      "model": "Custom Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-custom-spinning-reel-200-11-321",
+      "brand": "Lew's",
+      "model": "Custom Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-custom-spinning-reel-300-12-322",
+      "brand": "Lew's",
+      "model": "Custom Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-custom-spinning-reel-400-13-323",
+      "brand": "Lew's",
+      "model": "Custom Spinning Reel",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "lew-s-custom-pro-spinning-reel-100-14-324",
+      "brand": "Lew's",
+      "model": "Custom Pro Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-custom-pro-spinning-reel-200-15-325",
+      "brand": "Lew's",
+      "model": "Custom Pro Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-custom-pro-spinning-reel-300-16-326",
+      "brand": "Lew's",
+      "model": "Custom Pro Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-custom-pro-spinning-reel-400-17-327",
+      "brand": "Lew's",
+      "model": "Custom Pro Spinning Reel",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "lew-s-custom-lite-spinning-reel-100-cl100-328",
+      "brand": "Lew's",
+      "model": "Custom Lite Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-custom-lite-spinning-reel-200-cl200-329",
+      "brand": "Lew's",
+      "model": "Custom Lite Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-custom-lite-spinning-reel-300-cl300-330",
+      "brand": "Lew's",
+      "model": "Custom Lite Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-custom-lite-shallow-spool-spinning-reel-200-ss-21-331",
+      "brand": "Lew's",
+      "model": "Custom Lite Shallow Spool Spinning Reel",
+      "displayedSize": "200 SS",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-laser-lite-spinning-reel-75-22-332",
+      "brand": "Lew's",
+      "model": "Laser Lite Spinning Reel",
+      "displayedSize": "50",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "lew-s-laser-lite-spinning-reel-100-23-333",
+      "brand": "Lew's",
+      "model": "Laser Lite Spinning Reel",
+      "displayedSize": "75",
+      "recommendationSizeClass": 750
+    },
+    {
+      "id": "lew-s-laser-lite-spinning-reel-200-24-334",
+      "brand": "Lew's",
+      "model": "Laser Lite Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-100-kvd100g2-335",
+      "brand": "Lew's",
+      "model": "KVD Elite Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-200-kvd200g2-336",
+      "brand": "Lew's",
+      "model": "KVD Elite Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-300-kvd300g2-337",
+      "brand": "Lew's",
+      "model": "KVD Elite Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-300-shallow-kvd300ssg2-338",
+      "brand": "Lew's",
+      "model": "KVD Elite Spinning Reel",
+      "displayedSize": "300 Shallow",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
+      "brand": "Lew's",
+      "model": "KVD Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
+      "brand": "Lew's",
+      "model": "KVD Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
+      "brand": "Lew's",
+      "model": "KVD Spinning Reel",
+      "displayedSize": "400",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "lew-s-hypermag-spinning-reel-200-hms200-342",
+      "brand": "Lew's",
+      "model": "HyperMag Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-hypermag-spinning-reel-300-hms300-343",
+      "brand": "Lew's",
+      "model": "HyperMag Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-mach-1-spinning-reel-100-mh100a-344",
+      "brand": "Lew's",
+      "model": "MACH 1 Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-mach-1-spinning-reel-200-mh200a-345",
+      "brand": "Lew's",
+      "model": "MACH 1 Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-mach-1-spinning-reel-300-mh300a-346",
+      "brand": "Lew's",
+      "model": "MACH 1 Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-american-hero-spinning-reel-100-37-347",
+      "brand": "Lew's",
+      "model": "American Hero Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-american-hero-spinning-reel-200-38-348",
+      "brand": "Lew's",
+      "model": "American Hero Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-american-hero-spinning-reel-300-39-349",
+      "brand": "Lew's",
+      "model": "American Hero Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-american-hero-camo-spinning-reel-200-40-350",
+      "brand": "Lew's",
+      "model": "American Hero Camo Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-american-hero-camo-spinning-reel-300-41-351",
+      "brand": "Lew's",
+      "model": "American Hero Camo Spinning Reel",
+      "displayedSize": "300",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "lew-s-american-hero-tier-1-spinning-reel-200-42-352",
+      "brand": "Lew's",
+      "model": "American Hero Tier 1 Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-crappie-thunder-spinning-reel-75-43-353",
+      "brand": "Lew's",
+      "model": "Crappie Thunder Spinning Reel",
+      "displayedSize": "75",
+      "recommendationSizeClass": 750
+    },
+    {
+      "id": "lew-s-crappie-thunder-spinning-reel-100-44-354",
+      "brand": "Lew's",
+      "model": "Crappie Thunder Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "lew-s-crappie-thunder-spinning-reel-200-45-355",
+      "brand": "Lew's",
+      "model": "Crappie Thunder Spinning Reel",
+      "displayedSize": "200",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "lew-s-wally-marshall-signature-series-spinning-reel-75-46-356",
+      "brand": "Lew's",
+      "model": "Wally Marshall Signature Series Spinning Reel",
+      "displayedSize": "50",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "lew-s-wally-marshall-signature-series-spinning-reel-100-47-357",
+      "brand": "Lew's",
+      "model": "Wally Marshall Signature Series Spinning Reel",
+      "displayedSize": "75",
+      "recommendationSizeClass": 750
+    },
+    {
+      "id": "lew-s-wally-marshall-signature-series-spinning-reel-200-48-358",
+      "brand": "Lew's",
+      "model": "Wally Marshall Signature Series Spinning Reel",
+      "displayedSize": "100",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-trion-20-trion20x-535",
+      "brand": "Pflueger",
+      "model": "Trion",
+      "displayedSize": "20",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "pflueger-trion-25-trion25x-536",
+      "brand": "Pflueger",
+      "model": "Trion",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-trion-30-trion30x-537",
+      "brand": "Pflueger",
+      "model": "Trion",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-trion-35-trion35x-538",
+      "brand": "Pflueger",
+      "model": "Trion",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "pflueger-trion-40-trion40x-539",
+      "brand": "Pflueger",
+      "model": "Trion",
+      "displayedSize": "40",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "pflueger-president-20-pres20x-540",
+      "brand": "Pflueger",
+      "model": "President",
+      "displayedSize": "20",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "pflueger-president-25-pres25x-541",
+      "brand": "Pflueger",
+      "model": "President",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-president-30-pres30x-542",
+      "brand": "Pflueger",
+      "model": "President",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-president-35-pres35x-543",
+      "brand": "Pflueger",
+      "model": "President",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "pflueger-president-40-pres40x-544",
+      "brand": "Pflueger",
+      "model": "President",
+      "displayedSize": "40",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "pflueger-president-xt-20-presxt20x-545",
+      "brand": "Pflueger",
+      "model": "President XT",
+      "displayedSize": "20",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "pflueger-president-xt-25-presxt25x-546",
+      "brand": "Pflueger",
+      "model": "President XT",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-president-xt-30-presxt30x-547",
+      "brand": "Pflueger",
+      "model": "President XT",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-president-xt-35-presxt35x-548",
+      "brand": "Pflueger",
+      "model": "President XT",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "pflueger-president-xt-40-presxt40x-549",
+      "brand": "Pflueger",
+      "model": "President XT",
+      "displayedSize": "40",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "pflueger-president-le-25-presle25x-550",
+      "brand": "Pflueger",
+      "model": "President LE",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-president-le-30-presle30x-551",
+      "brand": "Pflueger",
+      "model": "President LE",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-president-le-35-presle35x-552",
+      "brand": "Pflueger",
+      "model": "President LE",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "pflueger-supreme-25-supsp25x-553",
+      "brand": "Pflueger",
+      "model": "Supreme",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-supreme-30-supsp30x-554",
+      "brand": "Pflueger",
+      "model": "Supreme",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-supreme-35-supsp35x-555",
+      "brand": "Pflueger",
+      "model": "Supreme",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "pflueger-supreme-40-supsp40x-556",
+      "brand": "Pflueger",
+      "model": "Supreme",
+      "displayedSize": "40",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "pflueger-supreme-xt-25-supxtsp25x-557",
+      "brand": "Pflueger",
+      "model": "Supreme XT",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-supreme-xt-30-supxtsp30x-558",
+      "brand": "Pflueger",
+      "model": "Supreme XT",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-supreme-xt-35-supxtsp35x-559",
+      "brand": "Pflueger",
+      "model": "Supreme XT",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "pflueger-supreme-xt-40-supxtsp40x-560",
+      "brand": "Pflueger",
+      "model": "Supreme XT",
+      "displayedSize": "40",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "pflueger-patriarch-25-parsp25x-561",
+      "brand": "Pflueger",
+      "model": "Patriarch",
+      "displayedSize": "25",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "pflueger-patriarch-30-parsp30x-pfl-562",
+      "brand": "Pflueger",
+      "model": "Patriarch",
+      "displayedSize": "30",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "pflueger-patriarch-35-parsp35x-pfl-563",
+      "brand": "Pflueger",
+      "model": "Patriarch",
+      "displayedSize": "35",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-accurist-15-at15spta-564",
+      "brand": "Quantum",
+      "model": "Accurist",
+      "displayedSize": "15",
+      "recommendationSizeClass": 1500
+    },
+    {
+      "id": "quantum-accurist-25-at25spta-565",
+      "brand": "Quantum",
+      "model": "Accurist",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-accurist-30-at30spta-566",
+      "brand": "Quantum",
+      "model": "Accurist",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-accurist-inshore-25-ats25spt-567",
+      "brand": "Quantum",
+      "model": "Accurist Inshore",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-accurist-inshore-30-ats30spt-568",
+      "brand": "Quantum",
+      "model": "Accurist Inshore",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-drive-05-dr05-581",
+      "brand": "Quantum",
+      "model": "Drive",
+      "displayedSize": "05",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "quantum-drive-10-dr10-582",
+      "brand": "Quantum",
+      "model": "Drive",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "quantum-drive-20-dr20-583",
+      "brand": "Quantum",
+      "model": "Drive",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "quantum-energy-15-en15spt-584",
+      "brand": "Quantum",
+      "model": "Energy",
+      "displayedSize": "15",
+      "recommendationSizeClass": 1500
+    },
+    {
+      "id": "quantum-energy-25-en25spt-585",
+      "brand": "Quantum",
+      "model": "Energy",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-energy-30-en30spt-586",
+      "brand": "Quantum",
+      "model": "Energy",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-optix-10-op10-593",
+      "brand": "Quantum",
+      "model": "Optix",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "quantum-optix-20-op20-594",
+      "brand": "Quantum",
+      "model": "Optix",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "quantum-optix-30-op30d-cp2-595",
+      "brand": "Quantum",
+      "model": "Optix",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-optix-40-op40-596",
+      "brand": "Quantum",
+      "model": "Optix",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "quantum-optix-80-op80d-cp2-597",
+      "brand": "Quantum",
+      "model": "Optix",
+      "displayedSize": "80",
+      "recommendationSizeClass": 8000
+    },
+    {
+      "id": "quantum-reliance-30-rel30xpt-598",
+      "brand": "Quantum",
+      "model": "Reliance",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-reliance-35-rel35xpt-599",
+      "brand": "Quantum",
+      "model": "Reliance",
+      "displayedSize": "35",
+      "recommendationSizeClass": 3500
+    },
+    {
+      "id": "quantum-reliance-40-rel40xpt-600",
+      "brand": "Quantum",
+      "model": "Reliance",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "quantum-smoke-s3-15-sm15xpt-601",
+      "brand": "Quantum",
+      "model": "Smoke S3",
+      "displayedSize": "15",
+      "recommendationSizeClass": 1500
+    },
+    {
+      "id": "quantum-smoke-s3-25-sm25xpt-602",
+      "brand": "Quantum",
+      "model": "Smoke S3",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-smoke-s3-30-sm30xpt-603",
+      "brand": "Quantum",
+      "model": "Smoke S3",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-smoke-s3-inshore-25-ssm25xpt-604",
+      "brand": "Quantum",
+      "model": "Smoke S3 Inshore",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-smoke-s3-inshore-30-ssm30xpt-605",
+      "brand": "Quantum",
+      "model": "Smoke S3 Inshore",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-smoke-s3-inshore-40-ssm40xpt-606",
+      "brand": "Quantum",
+      "model": "Smoke S3 Inshore",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "quantum-smoke-s3-inshore-50-ssm50xpt-607",
+      "brand": "Quantum",
+      "model": "Smoke S3 Inshore",
+      "displayedSize": "50",
+      "recommendationSizeClass": 5000
+    },
+    {
+      "id": "quantum-smoke-x-25-smx25xpt-bx3-608",
+      "brand": "Quantum",
+      "model": "Smoke X",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-strategy-05-sr05a-609",
+      "brand": "Quantum",
+      "model": "Strategy",
+      "displayedSize": "05",
+      "recommendationSizeClass": 500
+    },
+    {
+      "id": "quantum-strategy-10-sr10a-610",
+      "brand": "Quantum",
+      "model": "Strategy",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "quantum-strategy-20-sr20a-611",
+      "brand": "Quantum",
+      "model": "Strategy",
+      "displayedSize": "20",
+      "recommendationSizeClass": 2000
+    },
+    {
+      "id": "quantum-strategy-30-sr30a-612",
+      "brand": "Quantum",
+      "model": "Strategy",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-strategy-40-sr40a-613",
+      "brand": "Quantum",
+      "model": "Strategy",
+      "displayedSize": "40",
+      "recommendationSizeClass": 4000
+    },
+    {
+      "id": "quantum-strategy-60-sr60a-614",
+      "brand": "Quantum",
+      "model": "Strategy",
+      "displayedSize": "60",
+      "recommendationSizeClass": 6000
+    },
+    {
+      "id": "quantum-throttle-10-th10c-621",
+      "brand": "Quantum",
+      "model": "Throttle",
+      "displayedSize": "10",
+      "recommendationSizeClass": 1000
+    },
+    {
+      "id": "quantum-throttle-25-th25c-622",
+      "brand": "Quantum",
+      "model": "Throttle",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    },
+    {
+      "id": "quantum-throttle-30-th30c-623",
+      "brand": "Quantum",
+      "model": "Throttle",
+      "displayedSize": "30",
+      "recommendationSizeClass": 3000
+    },
+    {
+      "id": "quantum-vapor-25-vp25xpt-624",
+      "brand": "Quantum",
+      "model": "Vapor",
+      "displayedSize": "25",
+      "recommendationSizeClass": 2500
+    }
+  ]
+}
