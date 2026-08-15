@@ -51,8 +51,8 @@ assert(genericRange.centerYards === 250, "Generic braid range should stay center
 assert(genericRange.minimumYards === 210 && genericRange.maximumYards === 290, "Generic braid should use a conservative 210-290 yd range");
 assert(genericRange.uncertaintyRate === 0.15, "Generic braid should use 15 percent uncertainty with an exact rating");
 assert(
-  core.calculateFullSpoolCapacity(daiwa3000, genericBraid(10, 0.006)) === 250,
-  "A lighter generic recommendation should not exceed the nearest published braid capacity"
+  core.calculateFullSpoolCapacity(daiwa3000, genericBraid(10, 0.006)) > 250,
+  "A lighter generic braid must not be frozen at the heavier published braid yardage"
 );
 
 const exactProduct = { type: "Braid", lb: 15, dia_in: 0.008 };
@@ -134,12 +134,16 @@ const revrosSetups = engine.recommendSetups({
 });
 const revrosFifteen = revrosSetups.find((setup) => setup.line.type === "Braid" && setup.line.lb === 15);
 assert(revrosFifteen, "Daiwa Revros 3000 should include a 15 lb braid recommendation");
-assert(revrosFifteen.capacityYards === 250, "Daiwa Revros 15 lb recommendation should show 250 yd");
-assert(revrosFifteen.capacityBasis === "published-braid", "Recommendation should identify the published braid basis");
+const calibratedRevrosFifteen = core.actualLineBraidCapacityEstimate(daiwa3000, revrosFifteen.line, lines);
+assert(calibratedRevrosFifteen, "Daiwa Revros 15 lb recommendation should have a diameter-calibrated estimate");
+assert(revrosFifteen.capacityYards === calibratedRevrosFifteen.centerYards, "Recommendation should use the shared diameter-calibrated center");
+assert(Math.abs(revrosFifteen.capacityYards - 250) < 25, "Daiwa Revros 15 lb recommendation should remain close to its published rating");
+assert(revrosFifteen.capacityBasis === "published-braid-diameter", "Recommendation should identify the diameter-calibrated published braid basis");
 
 let bassRecommendationsChecked = 0;
 let largestBassSpool = 0;
 let largestBassSpoolLabel = "";
+const bulkSpoolFailures = [];
 for (const reel of reels) {
   if (!core.isReelReady(reel) || !engine.recommendationCompatibility(reel, "bass").recommend) continue;
   const setups = engine.recommendSetups({
@@ -151,11 +155,15 @@ for (const reel of reels) {
   });
   for (const setup of setups) {
     if (!String(setup.line.type || "").toLowerCase().includes("braid")) continue;
-    const range = core.calculateBraidCapacityRange(reel, setup.line);
+    const range = core.calculateBraidCapacityRange(reel, setup.line, lines);
     assert(range, `${reel.id} ${setup.line.lb} lb braid recommendation should have a capacity range`);
     assert(range.centerYards === setup.capacityYards, `${reel.id} braid range should preserve the recommendation center`);
     const spoolYards = affiliate.recommendedSpoolYards(range.centerYards);
-    assert(spoolYards && spoolYards < 1000, `${reel.id} bass recommendation must not suggest a ${spoolYards} yd bulk spool`);
+    if (!(spoolYards && spoolYards < 1000)) {
+      bulkSpoolFailures.push(
+        `${reel.id} / ${setup.title} / ${setup.line.lb} lb / ${Math.round(range.centerYards)} yd / ${spoolYards} yd retail spool`
+      );
+    }
     if (spoolYards > largestBassSpool) {
       largestBassSpool = spoolYards;
       largestBassSpoolLabel = `${reel.brand} ${reel.model} ${reel.size_label || reel.size_class || ""}`;
@@ -164,6 +172,11 @@ for (const reel of reels) {
   }
 }
 
+assert(
+  bulkSpoolFailures.length === 0,
+  `Bass recommendations suggesting 1,000+ yd bulk spools (${bulkSpoolFailures.length}):\n- ${bulkSpoolFailures.join("\n- ")}`
+);
+
 console.log(`Published braid calibration test passed: ${parsedReels} reels and ${exactRatingsChecked} exact ratings checked.`);
-console.log(`Daiwa Revros LT 3000D-C: 15 lb braid = ${revrosFifteen.capacityYards} yd (published rating).`);
+console.log(`Daiwa Revros LT 3000D-C: 15 lb braid = ${Math.round(revrosFifteen.capacityYards)} yd (diameter-calibrated near its published rating).`);
 console.log(`Checked ${bassRecommendationsChecked} bass braid recommendations; largest suggested retail spool was ${largestBassSpool} yd for ${largestBassSpoolLabel}.`);

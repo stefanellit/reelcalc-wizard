@@ -62,13 +62,14 @@ assert.equal(interpolated.type, "published-braid");
 assert.equal(interpolated.publishedEstimate.method, "interpolated");
 assert.ok(interpolated.capacityYards < 250 && interpolated.capacityYards > 220);
 
-// Reel pages opt into actual-line diameter calibration without changing the Wizard's legacy path.
-const legacyCentron20 = core.capacityBasisForLine(centron4000, superPower20);
-assert.equal(legacyCentron20.capacityYards, 310);
+// Even the no-catalog fallback must scale below a reel's lightest published
+// braid rating; exact Wizard and reel-page selections use catalog diameters.
+const strengthScaledCentron20 = core.capacityBasisForLine(centron4000, superPower20);
+assert.equal(strengthScaledCentron20.capacityYards, 620);
 const calibratedCentron20 = core.capacityBasisForActualLine(centron4000, superPower20, lines);
 assert.equal(calibratedCentron20.type, "published-braid-diameter");
 assert.equal(calibratedCentron20.actualLineEstimate.method, "diameter-calibrated");
-assert.equal(calibratedCentron20.actualLineEstimate.referenceQuality, "selected-product-exact");
+assert.equal(calibratedCentron20.actualLineEstimate.referenceQuality, "catalog-median-exact");
 assert.ok(calibratedCentron20.capacityYards > 625 && calibratedCentron20.capacityYards < 650);
 
 const centron20Range = core.calculateActualLineBraidCapacityRange(centron4000, superPower20, lines);
@@ -93,8 +94,13 @@ assert.ok(centron20BackingRange.minimumYards < centron20Backing.backingYards);
 assert.ok(centron20BackingRange.maximumYards > centron20Backing.backingYards);
 
 const calibratedCentron40 = core.capacityBasisForActualLine(centron4000, superPower40, lines);
-assert.equal(calibratedCentron40.actualLineEstimate.method, "exact");
-assert.equal(calibratedCentron40.capacityYards, 310);
+assert.equal(calibratedCentron40.actualLineEstimate.method, "label-match-diameter-calibrated");
+const centron20Space = calibratedCentron20.capacityYards * superPower20.dia_in * superPower20.dia_in;
+const centron40Space = calibratedCentron40.capacityYards * superPower40.dia_in * superPower40.dia_in;
+assert.ok(
+  Math.abs(centron20Space - centron40Space) <= centron20Space * 1e-9,
+  "selected line strength must not change the Centron's inferred physical spool space"
+);
 
 const peVanquishRange = core.calculateActualLineBraidCapacityRange(vanquishPe1000, superPower6, lines);
 assert.equal(peVanquishRange.method, "pe-diameter-calibrated");
@@ -206,7 +212,8 @@ assert.match(calculatorSource, /Expected real-world range/);
 assert.match(calculatorSource, /capacityBasisForActualLine\(reel, mainLine, preparedLines\)/);
 assert.match(calculatorSource, /calculateActualLineCalibratedBacking\(reel, mainLine, desiredYards, backingLine, preparedLines\)/);
 assert.match(calculatorSource, /Plan for up to/);
-assert.match(wizardSource, /calculateCalibratedBacking\(reel, line, desired, backing\)/);
+assert.match(wizardSource, /calculateActualLineCalibratedBacking\(reel, line, desired, backing, state\.lines\)/);
+assert.match(wizardSource, /capacityBasisForActualLine\(reel, line, state\.lines\)/);
 assert.match(wizardSource, /Best full-spool estimate/);
 assert.match(wizardSource, /How to use the range/);
 assert.match(loaderSource, /js\/reel-page-calculator\.js/);

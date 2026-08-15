@@ -137,7 +137,10 @@
     var method;
     var anchors;
     if (!lower && upper) {
-      estimate = upper.yards;
+      // A lighter braid cannot reasonably have the same full-spool yardage as
+      // the only heavier published rating. Strength ratio is a conservative
+      // fallback when a line catalog is not available for diameter calibration.
+      estimate = upper.yards * upper.lb / targetLb;
       method = "minimum-published-rating";
       anchors = [upper];
     } else if (lower && upper && upper.lb !== lower.lb && lower.yards >= upper.yards) {
@@ -160,10 +163,7 @@
       anchors = [nearest];
     }
 
-    var publishedYards = options.map(function(option) { return option.yards; });
-    var minPublished = Math.min.apply(Math, publishedYards);
-    var maxPublished = Math.max.apply(Math, publishedYards);
-    estimate = clamp(estimate, Math.max(20, minPublished * 0.5), maxPublished);
+    estimate = clamp(estimate, 20, 10000);
 
     return {
       yards: Math.round(estimate),
@@ -210,8 +210,13 @@
     return uncertainty;
   }
 
-  function calculateBraidCapacityRange(reel, line) {
+  function calculateBraidCapacityRange(reel, line, lineCatalog) {
     if (!line || !isBraidLine(line)) return null;
+
+    var calibratedEstimate = Array.isArray(lineCatalog)
+      ? actualLineBraidCapacityEstimate(reel, line, lineCatalog)
+      : null;
+    if (calibratedEstimate) return calibratedEstimate;
 
     var publishedEstimate = calculatePublishedBraidCapacity(reel, line);
     var centerYards = publishedEstimate
@@ -246,6 +251,50 @@
       : (sorted[middle - 1] + sorted[middle]) / 2;
   }
 
+  var braidCatalogDiameterCache = new Map();
+
+  function braidCatalogDiameterData(lineCatalog) {
+    var catalog = Array.isArray(lineCatalog) ? lineCatalog : [];
+    if (braidCatalogDiameterCache.has(catalog)) return braidCatalogDiameterCache.get(catalog);
+
+    var byStrength = new Map();
+    catalog.forEach(function(line) {
+      if (!isBraidLine(line)) return;
+      var lb = Number(line.lb);
+      var diameter = Number(line.dia_in);
+      if (!(lb > 0) || !(diameter > 0)) return;
+      if (!byStrength.has(lb)) byStrength.set(lb, []);
+      byStrength.get(lb).push(diameter);
+    });
+    var points = Array.from(byStrength.entries()).map(function(entry) {
+      return { lb: entry[0], diameterIn: median(entry[1]) };
+    }).filter(function(point) {
+      return point.diameterIn > 0;
+    }).sort(function(a, b) {
+      return a.lb - b.lb;
+    });
+    var data = {
+      byStrength: new Map(points.map(function(point) {
+        return [point.lb, point.diameterIn];
+      })),
+      points: points
+    };
+    braidCatalogDiameterCache.set(catalog, data);
+    return data;
+  }
+
+  function interpolateDiameterPoints(points, targetLb) {
+    var lower = null;
+    var upper = null;
+    points.forEach(function(point) {
+      if (point.lb < targetLb) lower = point;
+      if (!upper && point.lb > targetLb) upper = point;
+    });
+    if (!lower || !upper || upper.lb === lower.lb) return null;
+    var position = (targetLb - lower.lb) / (upper.lb - lower.lb);
+    return lower.diameterIn + (upper.diameterIn - lower.diameterIn) * position;
+  }
+
   function normalizedLineText(value) {
     return String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
   }
@@ -254,14 +303,6 @@
     return isBraidLine(left) && isBraidLine(right) &&
       normalizedLineText(left.brand) === normalizedLineText(right.brand) &&
       normalizedLineText(left.model) === normalizedLineText(right.model);
-  }
-
-  function diameterRowsAtStrength(lines, targetLb) {
-    return lines.filter(function(candidate) {
-      return isBraidLine(candidate) &&
-        Number(candidate.dia_in) > 0 &&
-        Math.abs(Number(candidate.lb) - targetLb) < 0.001;
-    });
   }
 
   function interpolateDiameter(rows, targetLb) {
@@ -291,19 +332,17 @@
 
   function braidReferenceDiameter(line, targetLb, lineCatalog) {
     var catalog = Array.isArray(lineCatalog) ? lineCatalog : [];
-    var productRows = catalog.filter(function(candidate) {
-      return braidProductMatches(line, candidate) && Number(candidate.dia_in) > 0;
-    });
-    var catalogExact = diameterRowsAtStrength(catalog, targetLb);
-    if (catalogExact.length) {
+    var catalogData = braidCatalogDiameterData(catalog);
+    var catalogExact = catalogData.byStrength.get(targetLb);
+    if (catalogExact > 0) {
       return {
-        diameterIn: median(catalogExact.map(function(candidate) { return Number(candidate.dia_in); })),
+        diameterIn: catalogExact,
         quality: "catalog-median-exact",
         qualityRank: 4
       };
     }
 
-    var catalogInterpolated = interpolateDiameter(catalog.filter(isBraidLine), targetLb);
+    var catalogInterpolated = interpolateDiameterPoints(catalogData.points, targetLb);
     if (catalogInterpolated > 0) {
       return {
         diameterIn: catalogInterpolated,
@@ -312,6 +351,9 @@
       };
     }
 
+    var productRows = catalog.filter(function(candidate) {
+      return braidProductMatches(line, candidate) && Number(candidate.dia_in) > 0;
+    });
     var productInterpolated = interpolateDiameter(productRows, targetLb);
     if (productInterpolated > 0) {
       return {
@@ -398,6 +440,7 @@
       return Math.max(largest, Math.abs(anchor.selectedLineCapacityYards - centerYards) / centerYards);
     }, 0);
     var baseUncertainty = strongestRank === 5 ? 0.08 : strongestRank >= 4 ? 0.10 : strongestRank === 3 ? 0.12 : 0.15;
+    if (line.generic_recommendation === true) baseUncertainty += 0.05;
     if (line.custom_line === true) baseUncertainty += 0.03;
     var uncertainty = clamp(Math.max(baseUncertainty, anchorSpread + 0.03), baseUncertainty, 0.20);
     var minimumYards = Math.min(centerYards, roundCapacityRange(centerYards * (1 - uncertainty), "down"));
@@ -593,6 +636,10 @@
 
   function calculateFullSpoolCapacity(reel, line, options) {
     var settings = options || {};
+    if (isBraidLine(line) && Array.isArray(settings.lineCatalog)) {
+      var calibratedBraidEstimate = actualLineBraidCapacityEstimate(reel, line, settings.lineCatalog);
+      if (calibratedBraidEstimate) return calibratedBraidEstimate.centerYards;
+    }
     if (line && line.generic_recommendation === true) {
       var genericBraidEstimate = calculatePublishedBraidCapacity(reel, line);
       if (genericBraidEstimate) return genericBraidEstimate.yards;

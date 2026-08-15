@@ -2,6 +2,8 @@
   "use strict";
 
   var COMMON_LB = [2, 3, 4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 60, 65, 80, 100, 120];
+  var MAX_RECOMMENDED_FULL_SPOOL_YARDS = 600;
+  var recommendationCapacityFloorCache = new Map();
 
   var PFLUEGER_SIZE_EQUIVALENTS = {
     20: 500,
@@ -240,6 +242,7 @@
     var core = global.ReelCalcCore || {};
     var calculateFullSpoolCapacity = options && options.calculateFullSpoolCapacity || core.calculateFullSpoolCapacity;
     var publishedBraidCapacityEstimate = core.publishedBraidCapacityEstimate;
+    var actualLineBraidCapacityEstimate = core.actualLineBraidCapacityEstimate;
     if (!reel || !calculateFullSpoolCapacity) return [];
     if (!recommendationCompatibility(reel, fishingType).recommend) return [];
 
@@ -247,7 +250,7 @@
     var reelSize = reelSizeClass(reel);
     var setups = group.setups.map(function(setupProfile) {
       setupProfile = scaledProfileForReel(setupProfile, reelSize, fishingType);
-      setupProfile = profileForReel(setupProfile, reel);
+      setupProfile = profileForReel(setupProfile, reel, lines);
       if (!setupProfile) return null;
       return pickBestSetupForProfile(setupProfile, {
         reel: reel,
@@ -256,7 +259,8 @@
         priority: priority,
         speciesLabel: group.label,
         calculateFullSpoolCapacity: calculateFullSpoolCapacity,
-        publishedBraidCapacityEstimate: publishedBraidCapacityEstimate
+        publishedBraidCapacityEstimate: publishedBraidCapacityEstimate,
+        actualLineBraidCapacityEstimate: actualLineBraidCapacityEstimate
       });
     }).filter(Boolean).filter(function(setup) {
       return setupFitsReelSize(setup, reel, fishingType);
@@ -314,12 +318,12 @@
     };
   }
 
-  function profileForReel(setupProfile, reel) {
+  function profileForReel(setupProfile, reel, lines) {
     if (normalizeType(setupProfile.mainType) !== "Braid") {
       return setupProfile;
     }
 
-    var reelRange = recommendedBraidRange(reel);
+    var reelRange = recommendedBraidRange(reel, lines);
     if (!reelRange || Number(setupProfile.mainRange[0]) >= reelRange[0]) return setupProfile;
 
     if (Number(setupProfile.mainRange[1]) < reelRange[0] && setupProfile.useCase !== "best-overall") {
@@ -338,14 +342,60 @@
     };
   }
 
-  function recommendedBraidRange(reel) {
+  function recommendedBraidRange(reel, lines) {
     var value = String(reel && reel.reelcalc_recommended_braid || "");
     var strengths = value.match(/\d+(?:\.\d+)?/g);
-    if (!strengths || !strengths.length) return null;
-    var minimum = Number(strengths[0]);
-    var maximum = Number(strengths[1] || strengths[0]);
+    var minimum = strengths && strengths.length ? Number(strengths[0]) : 0;
+    var maximum = strengths && strengths.length ? Number(strengths[1] || strengths[0]) : 0;
+    var core = global.ReelCalcCore || {};
+    var publishedOptions = core.publishedBraidCapacityOptions
+      ? core.publishedBraidCapacityOptions(reel)
+      : [];
+    if (publishedOptions.length) {
+      var lightestPublished = Math.min.apply(Math, publishedOptions.map(function(option) {
+        return Number(option.lb);
+      }));
+      minimum = Math.max(minimum, lightestPublished * 0.5);
+      maximum = Math.max(maximum, minimum);
+    }
+    if (minimum > 0) {
+      minimum = recommendationCapacityFloor(reel, lines, minimum);
+      maximum = Math.max(maximum, minimum);
+    }
     if (!(minimum > 0) || !(maximum >= minimum)) return null;
     return [minimum, maximum];
+  }
+
+  function recommendationCapacityFloor(reel, lines, startingMinimum) {
+    var core = global.ReelCalcCore || {};
+    if (!core.actualLineBraidCapacityEstimate || !Array.isArray(lines)) return startingMinimum;
+
+    var cacheKey = [
+      reel && reel.id || "manual-reel",
+      reel && reel.braid_capacity_note || "",
+      reel && reel.capacity_yards || "",
+      reel && reel.rated_line_diameter_in || "",
+      startingMinimum,
+      lines.length
+    ].join("|");
+    if (recommendationCapacityFloorCache.has(cacheKey)) {
+      return recommendationCapacityFloorCache.get(cacheKey);
+    }
+
+    var options = COMMON_LB.filter(function(lb) {
+      return lb >= startingMinimum;
+    });
+    for (var index = 0; index < options.length; index += 1) {
+      var line = genericLine(lines, "Braid", options[index]);
+      if (!line) continue;
+      var estimate = core.actualLineBraidCapacityEstimate(reel, line, lines);
+      if (!estimate || Number(estimate.centerYards) <= MAX_RECOMMENDED_FULL_SPOOL_YARDS) {
+        recommendationCapacityFloorCache.set(cacheKey, options[index]);
+        return options[index];
+      }
+    }
+    recommendationCapacityFloorCache.set(cacheKey, startingMinimum);
+    return startingMinimum;
   }
 
   function setupFitsReelSize(setup, reel, fishingType) {
@@ -442,7 +492,12 @@
   function scoreCandidate(setupProfile, candidate, context) {
     var reel = context.reel;
     var line = candidate.line;
-    var capacity = context.calculateFullSpoolCapacity(reel, line);
+    var actualBraidEstimate = context.actualLineBraidCapacityEstimate
+      ? context.actualLineBraidCapacityEstimate(reel, line, context.lines)
+      : null;
+    var capacity = actualBraidEstimate
+      ? actualBraidEstimate.centerYards
+      : context.calculateFullSpoolCapacity(reel, line);
     var publishedBraidEstimate = context.publishedBraidCapacityEstimate
       ? context.publishedBraidCapacityEstimate(reel, line)
       : null;
@@ -480,8 +535,9 @@
       tradeoffs: tradeoffs,
       warnings: warnings,
       diameterNote: diameterNote(line),
-      capacityBasis: publishedBraidEstimate ? "published-braid" : "diameter",
-      publishedBraidEstimate: publishedBraidEstimate
+      capacityBasis: actualBraidEstimate ? "published-braid-diameter" : publishedBraidEstimate ? "published-braid" : "diameter",
+      publishedBraidEstimate: publishedBraidEstimate,
+      actualLineBraidEstimate: actualBraidEstimate
     };
   }
 

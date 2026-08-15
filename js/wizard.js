@@ -1358,12 +1358,12 @@ function getPublishedBraidEstimate(reel, line) {
 }
 
 function usesActualBraidCalibration(line) {
-  return !!line && genericLineType(line.type) === "braid" && line.generic_recommendation !== true;
+  return !!line && genericLineType(line.type) === "braid";
 }
 
 function getBraidCapacityRange(reel, line) {
   if (usesActualBraidCalibration(line)) {
-    return calculateActualLineBraidCapacityRange(reel, line, state.lines);
+    return calculateActualLineBraidCapacityRange(reel, line, state.lines) || calculateBraidCapacityRange(reel, line);
   }
   return calculateBraidCapacityRange(reel, line);
 }
@@ -1384,7 +1384,10 @@ function braidCapacityRangeNote(reel, line, range, includeRange) {
     var actualPrefix = includeRange === false
       ? ""
       : "Expected real-world range: " + formatCapacityRange(range, true) + ". ";
-    return actualPrefix + "This estimate combines the reel's published braid capacity with the selected line's listed diameter. The range allows for normal winding tension and fill-level differences.";
+    var diameterDescription = line && line.generic_recommendation === true
+      ? "a typical diameter for this braid strength"
+      : "the selected line's listed diameter";
+    return actualPrefix + "This estimate combines the reel's published braid capacity with " + diameterDescription + ". The range allows for normal winding tension and fill-level differences.";
   }
   var estimate = range.publishedEstimate || getPublishedBraidEstimate(reel, line);
   var prefix = includeRange === false
