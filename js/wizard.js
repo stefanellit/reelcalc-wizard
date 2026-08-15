@@ -13,9 +13,13 @@ const {
   estimateMonoLbFromDiameter,
   calculatePublishedBraidCapacity,
   calculateBraidCapacityRange,
+  calculateActualLineBraidCapacityRange,
+  capacityBasisForActualLine,
   calculateFullSpoolCapacity: calculateCoreFullSpoolCapacity,
   calculateCalibratedBacking,
   calculateCalibratedBackingRange,
+  calculateActualLineCalibratedBacking,
+  calculateActualLineCalibratedBackingRange,
   calculateHandleTurns,
   isReelReady,
   isLineReady
@@ -1353,11 +1357,22 @@ function getPublishedBraidEstimate(reel, line) {
   return calculatePublishedBraidCapacity(reel, line);
 }
 
+function usesActualBraidCalibration(line) {
+  return !!line && genericLineType(line.type) === "braid" && line.generic_recommendation !== true;
+}
+
 function getBraidCapacityRange(reel, line) {
+  if (usesActualBraidCalibration(line)) {
+    return calculateActualLineBraidCapacityRange(reel, line, state.lines);
+  }
   return calculateBraidCapacityRange(reel, line);
 }
 
 function calculateFullSpoolCapacity(reel, line) {
+  if (usesActualBraidCalibration(line)) {
+    var actualBasis = capacityBasisForActualLine(reel, line, state.lines);
+    return actualBasis ? actualBasis.capacityYards : null;
+  }
   return calculateCoreFullSpoolCapacity(reel, line, {
     usePublishedBraid: true
   });
@@ -1365,6 +1380,12 @@ function calculateFullSpoolCapacity(reel, line) {
 
 function braidCapacityRangeNote(reel, line, range, includeRange) {
   if (!range) return "";
+  if (range.referenceQuality) {
+    var actualPrefix = includeRange === false
+      ? ""
+      : "Expected real-world range: " + formatCapacityRange(range, true) + ". ";
+    return actualPrefix + "This estimate combines the reel's published braid capacity with the selected line's listed diameter. The range allows for normal winding tension and fill-level differences.";
+  }
   var estimate = range.publishedEstimate || getPublishedBraidEstimate(reel, line);
   var prefix = includeRange === false
     ? ""
@@ -1563,8 +1584,12 @@ function renderBackingResult() {
   }
   var backing = getBackingLine();
   var desired = Number(state.desiredMainYards) || 0;
-  var result = calculateCalibratedBacking(reel, line, desired, backing);
-  var backingRange = calculateCalibratedBackingRange(reel, line, desired, backing);
+  var result = usesActualBraidCalibration(line)
+    ? calculateActualLineCalibratedBacking(reel, line, desired, backing, state.lines)
+    : calculateCalibratedBacking(reel, line, desired, backing);
+  var backingRange = usesActualBraidCalibration(line)
+    ? calculateActualLineCalibratedBackingRange(reel, line, desired, backing, state.lines)
+    : calculateCalibratedBackingRange(reel, line, desired, backing);
   if (!result) {
     el.backingResult.className = "empty-state warning-box";
     el.backingResult.textContent = "ReelCalc could not establish a usable capacity reference for this backing setup.";

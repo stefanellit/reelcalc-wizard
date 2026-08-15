@@ -220,8 +220,8 @@
     if (!(centerYards > 0)) return null;
 
     var uncertainty = braidCapacityUncertainty(line, publishedEstimate);
-    var minimumYards = roundCapacityRange(centerYards * (1 - uncertainty), "down");
-    var maximumYards = roundCapacityRange(centerYards * (1 + uncertainty), "up");
+    var minimumYards = Math.min(centerYards, roundCapacityRange(centerYards * (1 - uncertainty), "down"));
+    var maximumYards = Math.max(centerYards, roundCapacityRange(centerYards * (1 + uncertainty), "up"));
 
     return {
       centerYards: centerYards,
@@ -294,20 +294,20 @@
     var productRows = catalog.filter(function(candidate) {
       return braidProductMatches(line, candidate) && Number(candidate.dia_in) > 0;
     });
-    var productExact = diameterRowsAtStrength(productRows, targetLb);
-    if (productExact.length) {
-      return {
-        diameterIn: median(productExact.map(function(candidate) { return Number(candidate.dia_in); })),
-        quality: "selected-product-exact",
-        qualityRank: 4
-      };
-    }
-
     var catalogExact = diameterRowsAtStrength(catalog, targetLb);
     if (catalogExact.length) {
       return {
         diameterIn: median(catalogExact.map(function(candidate) { return Number(candidate.dia_in); })),
         quality: "catalog-median-exact",
+        qualityRank: 4
+      };
+    }
+
+    var catalogInterpolated = interpolateDiameter(catalog.filter(isBraidLine), targetLb);
+    if (catalogInterpolated > 0) {
+      return {
+        diameterIn: catalogInterpolated,
+        quality: "catalog-median-interpolated",
         qualityRank: 3
       };
     }
@@ -321,14 +321,6 @@
       };
     }
 
-    var catalogInterpolated = interpolateDiameter(catalog.filter(isBraidLine), targetLb);
-    if (catalogInterpolated > 0) {
-      return {
-        diameterIn: catalogInterpolated,
-        quality: "catalog-median-interpolated",
-        qualityRank: 1
-      };
-    }
     return null;
   }
 
@@ -399,25 +391,25 @@
     var exactOption = options.find(function(option) {
       return Math.abs(option.lb - targetLb) < 0.001;
     });
-    var centerYards = exactOption
-      ? exactOption.yards
-      : median(strongestAnchors.map(function(anchor) { return anchor.selectedLineCapacityYards; }));
+    var centerYards = median(strongestAnchors.map(function(anchor) { return anchor.selectedLineCapacityYards; }));
     if (!(centerYards > 0)) return null;
 
     var anchorSpread = strongestAnchors.reduce(function(largest, anchor) {
       return Math.max(largest, Math.abs(anchor.selectedLineCapacityYards - centerYards) / centerYards);
     }, 0);
-    var baseUncertainty = strongestRank === 5 ? 0.08 : strongestRank >= 4 ? 0.06 : strongestRank === 3 ? 0.10 : 0.12;
+    var baseUncertainty = strongestRank === 5 ? 0.08 : strongestRank >= 4 ? 0.10 : strongestRank === 3 ? 0.12 : 0.15;
     if (line.custom_line === true) baseUncertainty += 0.03;
     var uncertainty = clamp(Math.max(baseUncertainty, anchorSpread + 0.03), baseUncertainty, 0.20);
+    var minimumYards = Math.min(centerYards, roundCapacityRange(centerYards * (1 - uncertainty), "down"));
+    var maximumYards = Math.max(centerYards, roundCapacityRange(centerYards * (1 + uncertainty), "up"));
 
     return {
       yards: centerYards,
       centerYards: centerYards,
-      minimumYards: roundCapacityRange(centerYards * (1 - uncertainty), "down"),
-      maximumYards: roundCapacityRange(centerYards * (1 + uncertainty), "up"),
+      minimumYards: minimumYards,
+      maximumYards: maximumYards,
       uncertaintyRate: uncertainty,
-      method: exactOption ? "exact" : peOptions.length ? "pe-diameter-calibrated" : "diameter-calibrated",
+      method: peOptions.length ? "pe-diameter-calibrated" : exactOption ? "label-match-diameter-calibrated" : "diameter-calibrated",
       targetLb: targetLb,
       anchors: strongestAnchors,
       referenceQuality: strongestAnchors[0].quality,

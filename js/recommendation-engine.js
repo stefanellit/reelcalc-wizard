@@ -240,7 +240,8 @@
     var reelSize = reelSizeClass(reel);
     var setups = group.setups.map(function(setupProfile) {
       setupProfile = scaledProfileForReel(setupProfile, reelSize, fishingType);
-      setupProfile = bestOverallProfileForReel(setupProfile, reel);
+      setupProfile = profileForReel(setupProfile, reel);
+      if (!setupProfile) return null;
       return pickBestSetupForProfile(setupProfile, {
         reel: reel,
         lines: lines,
@@ -306,13 +307,17 @@
     };
   }
 
-  function bestOverallProfileForReel(setupProfile, reel) {
-    if (setupProfile.useCase !== "best-overall" || normalizeType(setupProfile.mainType) !== "Braid") {
+  function profileForReel(setupProfile, reel) {
+    if (normalizeType(setupProfile.mainType) !== "Braid") {
       return setupProfile;
     }
 
     var reelRange = recommendedBraidRange(reel);
     if (!reelRange || Number(setupProfile.mainRange[0]) >= reelRange[0]) return setupProfile;
+
+    if (Number(setupProfile.mainRange[1]) < reelRange[0] && setupProfile.useCase !== "best-overall") {
+      return null;
+    }
 
     var adjustedMaximum = Math.max(Number(setupProfile.mainRange[1]), reelRange[0]);
 

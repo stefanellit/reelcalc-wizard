@@ -393,14 +393,11 @@
     function basisExplanation(basis, mainLine, range) {
       if (basis.type === "published-braid-diameter") {
         var actualEstimate = basis.actualLineEstimate;
-        if (actualEstimate && actualEstimate.method === "exact") {
-          return "The best estimate uses this reel's matching published braid capacity. The range allows for differences in winding tension and fill level.";
-        }
         if (actualEstimate && actualEstimate.referenceQuality === "published-pe-diameter") {
           return "The best estimate converts this reel's published PE-size capacity using the selected line's diameter. The range allows for normal braid and spooling variation.";
         }
-        if (actualEstimate && actualEstimate.referenceQuality.indexOf("selected-product") === 0) {
-          return "The best estimate converts this reel's published braid ratings using diameters from the selected line family. The range allows for normal spooling variation.";
+        if (actualEstimate) {
+          return "The best estimate combines this reel's published braid ratings with the selected line's listed diameter. The range allows for normal braid and spooling variation.";
         }
         return "The best estimate converts this reel's published braid ratings using typical verified braid diameters at those strengths. The range allows for line-to-line variation.";
       }
@@ -786,7 +783,7 @@
     var affiliatesUrl = mount.dataset.affiliatesUrl ? new URL(mount.dataset.affiliatesUrl, document.baseURI).href : assetUrl("data/reel-affiliates.json");
 
     Promise.all([
-      loadScript("js/calculator-core.js", "ReelCalcCore"),
+      loadScript("js/calculator-core.js?v=6", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
       loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
       loadJson(reelsUrl),

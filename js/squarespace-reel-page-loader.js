@@ -463,7 +463,7 @@
         });
 
         return Promise.all([
-          loadScript("js/reel-page-calculator.js", "ReelCalcReelPageCalculator"),
+          loadScript("js/reel-page-calculator.js?v=6", "ReelCalcReelPageCalculator"),
           loadScript("js/reel-page-runtime.js", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();
