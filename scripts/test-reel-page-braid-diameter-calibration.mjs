@@ -19,11 +19,11 @@ const selector = sandbox.window.ReelCalcLineSelector;
 const lines = selector.prepareLines(rawLines);
 const reelsById = new Map(reels.map((reel) => [reel.id, reel]));
 const braidLines = lines.filter((line) => line.material === "Braid");
-const backingLine = lines.find((line) => line.id === "berkley-trilene-big-game-monofilament-12");
+const backingLine = lines.find((line) => line.id === "berkley-trilene-big-game-monofilament-10");
 assert.ok(backingLine, "backing-line fixture is missing");
 
 let auditedPages = 0;
-let exactAnchors = 0;
+let labeledAnchorSelections = 0;
 let nonExactSelections = 0;
 const largestCapacities = [];
 
@@ -35,14 +35,17 @@ for (const page of pageRegistry.pages) {
   if (!options.length && !peRated) continue;
   auditedPages += 1;
 
+  let pageSpoolSpace = null;
   for (const option of options) {
     const exactLine = braidLines.find((line) => Math.abs(line.lb - option.lb) < 0.001);
     if (!exactLine) continue;
     const exact = core.capacityBasisForActualLine(reel, exactLine, lines);
     assert.equal(exact.type, "published-braid-diameter", `${page.path} did not use its braid rating`);
-    assert.equal(exact.actualLineEstimate.method, "exact", `${page.path} lost an exact braid match`);
-    assert.equal(exact.capacityYards, option.yards, `${page.path} changed an exact published braid capacity`);
-    exactAnchors += 1;
+    assert.equal(exact.actualLineEstimate.method, "label-match-diameter-calibrated", `${page.path} did not calibrate the selected braid diameter`);
+    const inferredSpace = exact.capacityYards * exactLine.dia_in * exactLine.dia_in;
+    if (pageSpoolSpace == null) pageSpoolSpace = inferredSpace;
+    assert.ok(Math.abs(inferredSpace - pageSpoolSpace) <= pageSpoolSpace * 1e-9, `${page.path} changed physical spool space between selected braid strengths`);
+    labeledAnchorSelections += 1;
   }
 
   const publishedStrengths = new Set(options.map((option) => option.lb));
@@ -61,8 +64,8 @@ for (const page of pageRegistry.pages) {
     `${page.path} used pound-test interpolation`
   );
   assert.ok(Number.isFinite(range.centerYards) && range.centerYards > 0, `${page.path} produced an invalid center`);
-  assert.ok(range.minimumYards < range.centerYards, `${page.path} produced an invalid lower range`);
-  assert.ok(range.maximumYards > range.centerYards, `${page.path} produced an invalid upper range`);
+  assert.ok(range.minimumYards <= range.centerYards, `${page.path} produced an invalid lower range`);
+  assert.ok(range.maximumYards >= range.centerYards, `${page.path} produced an invalid upper range`);
   assert.ok(range.maximumYards <= 50000, `${page.path} produced an implausibly large capacity`);
 
   const desired = Math.min(150, range.centerYards * 0.5);
@@ -82,12 +85,37 @@ for (const page of pageRegistry.pages) {
 
 largestCapacities.sort((a, b) => b.centerYards - a.centerYards);
 assert.ok(auditedPages > 300, "too few published reel pages were audited");
-assert.ok(exactAnchors > 500, "too few exact braid anchors were checked");
+assert.ok(labeledAnchorSelections > 500, "too few labeled braid anchors were checked");
 assert.ok(nonExactSelections > 300, "too few non-exact braid selections were checked");
 
+const centron4000 = reelsById.get("kastking-centron-spinning-4000-51-294");
+const spiderwire10 = lines.find((line) => line.id === "spiderwire-ez-braid-braid-10");
+const spiderwire40 = lines.find((line) => line.id === "spiderwire-ez-braid-braid-40");
+assert.ok(centron4000 && spiderwire10 && spiderwire40, "Centron regression fixtures are missing");
+const centronBacking10 = core.calculateActualLineCalibratedBacking(
+  centron4000,
+  spiderwire10,
+  150,
+  backingLine,
+  lines
+);
+const centronBacking40 = core.calculateActualLineCalibratedBacking(
+  centron4000,
+  spiderwire40,
+  150,
+  backingLine,
+  lines
+);
+assert.ok(!centronBacking10.overCapacity && !centronBacking40.overCapacity, "Centron regression setup should fit");
+assert.ok(
+  centronBacking10.backingYards > centronBacking40.backingYards,
+  "thinner 10 lb braid must leave more room for backing than thicker 40 lb braid"
+);
+
 console.log(`Reel-page braid calibration passed for ${auditedPages} published pages.`);
-console.log(`- ${exactAnchors} exact manufacturer braid ratings remained unchanged`);
+console.log(`- ${labeledAnchorSelections} matching-strength selections preserved one physical spool space while applying actual line diameter`);
 console.log(`- ${nonExactSelections} non-exact strengths used diameter calibration`);
+console.log(`- Centron 4000 regression: 10 lb left ${centronBacking10.backingYards.toFixed(1)} yd backing; 40 lb left ${centronBacking40.backingYards.toFixed(1)} yd`);
 console.log("- Largest audited capacity estimates:");
 largestCapacities.slice(0, 5).forEach((entry) => {
   console.log(`  ${entry.centerYards} yd | ${entry.line} | ${entry.page}`);

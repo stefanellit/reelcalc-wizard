@@ -1,0 +1,4811 @@
+{
+  "generatedAt": "2026-08-15T12:58:36.379Z",
+  "summary": {
+    "reelsWithMultipleAnchors": 600,
+    "spreadOver125": 280,
+    "spreadOver150": 159,
+    "spreadOver200": 55
+  },
+  "records": [
+    {
+      "reel": "Okuma Safyre 3000",
+      "reelId": "okuma-safyre-3000-sf-3000a-402",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "200/10, 140/20, 105/40",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Okuma Safyre 3000H",
+      "reelId": "okuma-safyre-3000h-sf-3000ha-403",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "200/10, 140/20, 105/40",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano FX FC C3000",
+      "reelId": "shimano-fx-fc-c3000-fxc3000fc-628",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sienna FG C3000",
+      "reelId": "shimano-sienna-fg-c3000-snc3000fg-634",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Catana FE C3000HG",
+      "reelId": "shimano-catana-fe-c3000hg-catc3000hgfe-638",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nexave FI C3000HG",
+      "reelId": "shimano-nexave-fi-c3000hg-nexc3000hgfi-642",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nexave FJ C3000HG",
+      "reelId": "shimano-nexave-fj-c3000hg-nexc3000hgfj-647",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sedona FJ C3000HG",
+      "reelId": "shimano-sedona-fj-c3000hg-sec3000hgfj-653",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sahara FJ C3000HG",
+      "reelId": "shimano-sahara-fj-c3000hg-shc3000hgfj-659",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nasci FC C3000HG",
+      "reelId": "shimano-nasci-fc-c3000hg-nasc3000hgfc-665",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nasci FD C3000HG",
+      "reelId": "shimano-nasci-fd-c3000hg-nasc3000hgfd-671",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Miravel C3000HG",
+      "reelId": "shimano-miravel-c3000hg-mirc3000hg-676",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Ultegra FD C3000HGD",
+      "reelId": "shimano-ultegra-fd-c3000hgd-ultc3000hgd-681",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Stradic FM C3000XG",
+      "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Vanford A C3000XGA",
+      "reelId": "shimano-vanford-fa-c3000xga-vfc3000xga-692",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sustain FJ C3000HG",
+      "reelId": "shimano-sustain-fj-c3000hg-sac3000hgfj-696",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Twin Power FE C3000XG",
+      "reelId": "shimano-twin-power-fe-c3000xg-tpc3000xgfe-700",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Twin Power XD FB C3000XG",
+      "reelId": "shimano-twin-power-xd-fb-c3000xg-tpxdc3000xgfb-705",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Stella FK C3000XG",
+      "reelId": "shimano-stella-fk-c3000xg-stlc3000xgfk-715",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Spheros SW 3000/4000 C3000HG",
+      "reelId": "shimano-spheros-sw-3000-4000-c3000hg-spc3000hgsw-733",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Spheros SW 3000/4000 3000XG",
+      "reelId": "shimano-spheros-sw-3000-4000-3000xg-sp3000xgsw-734",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Vanquish C3000XG",
+      "reelId": "shimano-vanquish-c3000xg-791",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sustain FK C3000HG",
+      "reelId": "shimano-sustain-fk-c3000hg-sac30hgfk",
+      "ratio": 2.4645833333333336,
+      "anchorCount": 3,
+      "braidNote": "10-200, 20-140, 40-105",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Okuma Safyre 2500",
+      "reelId": "okuma-safyre-2500-sf-2500a-400",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "150/10, 145/15, 100/30",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Okuma Safyre 2500H",
+      "reelId": "okuma-safyre-2500h-sf-2500ha-401",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "150/10, 145/15, 100/30",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano FX FC 2500HG",
+      "reelId": "shimano-fx-fc-2500hg-fx2500hgfc-627",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sienna FG 2500HG",
+      "reelId": "shimano-sienna-fg-2500hg-sn2500hgfg-633",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Catana FE 2500HG",
+      "reelId": "shimano-catana-fe-2500hg-cat2500hgfe-637",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nexave FI 2500HG",
+      "reelId": "shimano-nexave-fi-2500hg-nex2500hgfi-641",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nexave FJ 2500HG",
+      "reelId": "shimano-nexave-fj-2500hg-nex2500hgfj-646",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sedona FJ 2500HG",
+      "reelId": "shimano-sedona-fj-2500hg-se2500hgfj-652",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sahara FJ 2500",
+      "reelId": "shimano-sahara-fj-2500-sh2500fj-658",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nasci FC 2500HG",
+      "reelId": "shimano-nasci-fc-2500hg-nas2500hgfc-664",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nasci FD 2500HG",
+      "reelId": "shimano-nasci-fd-2500hg-nas2500hgfd-670",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Miravel 2500HG",
+      "reelId": "shimano-miravel-2500hg-mir2500hg-675",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Ultegra FD 2500HGD",
+      "reelId": "shimano-ultegra-fd-2500hgd-ult2500hgd-680",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Stradic FM 2500HG",
+      "reelId": "shimano-stradic-fm-2500hg-st2500hgfm-685",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Vanford A 2500HGA",
+      "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sustain FJ 2500HG",
+      "reelId": "shimano-sustain-fj-2500hg-sa2500hgfj-695",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Twin Power FE 2500",
+      "reelId": "shimano-twin-power-fe-2500-tp2500fe-699",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Exsence B 2500XG",
+      "reelId": "shimano-exsence-b-2500xg-25exs25xgb-708",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Stella FK 2500HG",
+      "reelId": "shimano-stella-fk-2500hg-stl2500hgfk-714",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sienna RE 2500",
+      "reelId": "shimano-sienna-re-2500-sn2500re-725",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sahara Rear Drag 2500R",
+      "reelId": "shimano-sahara-rear-drag-2500r-sh2500r-728",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sustain FK 2500HG",
+      "reelId": "shimano-sustain-fk-2500hg-sa25hgfk",
+      "ratio": 2.24074074074074,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-145, 30-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sienna FG 500",
+      "reelId": "shimano-sienna-fg-500-sn500fg-630",
+      "ratio": 2.076923076923077,
+      "anchorCount": 3,
+      "braidNote": "5-135, 8-105, 10-65",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sedona FJ 500",
+      "reelId": "shimano-sedona-fj-500-se500fj-650",
+      "ratio": 2.076923076923077,
+      "anchorCount": 3,
+      "braidNote": "5-135, 8-105, 10-65",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Sahara FJ 500",
+      "reelId": "shimano-sahara-fj-500-sh500fj-656",
+      "ratio": 2.076923076923077,
+      "anchorCount": 3,
+      "braidNote": "5-135, 8-105, 10-65",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nasci FC 500",
+      "reelId": "shimano-nasci-fc-500-nas500fc-662",
+      "ratio": 2.076923076923077,
+      "anchorCount": 3,
+      "braidNote": "5-135, 8-105, 10-65",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Nasci FD 500",
+      "reelId": "shimano-nasci-fd-500-nas500fd-668",
+      "ratio": 2.076923076923077,
+      "anchorCount": 3,
+      "braidNote": "5-135, 8-105, 10-65",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Vanford A 500A",
+      "reelId": "shimano-vanford-fa-500a-vf500a-689",
+      "ratio": 2.076923076923077,
+      "anchorCount": 3,
+      "braidNote": "5-135, 8-105, 10-65",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "PENN Battle IV 1000",
+      "reelId": "penn-battle-iv-1000-btliv1000-455",
+      "ratio": 2.048,
+      "anchorCount": 3,
+      "braidNote": "8-125, 10-110, 15-100",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "PENN Battle IV 2000",
+      "reelId": "penn-battle-iv-2000-btliv2000-456",
+      "ratio": 2.011428571428571,
+      "anchorCount": 3,
+      "braidNote": "8-210, 10-180, 15-165",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "PENN Fierce IV 2000",
+      "reelId": "penn-fierce-iv-2000-frciv2000-468",
+      "ratio": 2.011428571428571,
+      "anchorCount": 3,
+      "braidNote": "8-210, 10-180, 15-165",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "PENN Clash II 2000",
+      "reelId": "penn-clash-ii-2000-claii2000-487",
+      "ratio": 2.011428571428571,
+      "anchorCount": 3,
+      "braidNote": "8-210, 10-180, 15-165",
+      "reviewPriority": "high"
+    },
+    {
+      "reel": "Shimano Vanquish C2000S",
+      "reelId": "shimano-vanquish-c2000s-782",
+      "ratio": 1.9285714285714286,
+      "anchorCount": 3,
+      "braidNote": "3-125, 4-105, 5-90",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish C2000SHG",
+      "reelId": "shimano-vanquish-c2000shg-783",
+      "ratio": 1.9285714285714286,
+      "anchorCount": 3,
+      "braidNote": "3-125, 4-105, 5-90",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish CE C2000S",
+      "reelId": "shimano-vanquish-ce-c2000s-798",
+      "ratio": 1.9285714285714286,
+      "anchorCount": 3,
+      "braidNote": "3-125, 4-105, 5-90",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish CE C2000SHG",
+      "reelId": "shimano-vanquish-ce-c2000shg-799",
+      "ratio": 1.9285714285714286,
+      "anchorCount": 3,
+      "braidNote": "3-125, 4-105, 5-90",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Exsence B 4000MXG",
+      "reelId": "shimano-exsence-b-4000mxg-25exs40mxgb-710",
+      "ratio": 1.896011396011396,
+      "anchorCount": 3,
+      "braidNote": "10-195, 20-120, 30-110",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Exsence A 4000MXG",
+      "reelId": "shimano-exsence-a-4000mxg-exs4000mxga-712",
+      "ratio": 1.896011396011396,
+      "anchorCount": 3,
+      "braidNote": "10-195, 20-120, 30-110",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish 4000MHG",
+      "reelId": "shimano-vanquish-4000mhg-793",
+      "ratio": 1.896011396011396,
+      "anchorCount": 3,
+      "braidNote": "10-195, 20-120, 30-110",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Syncopate FG 2500",
+      "reelId": "shimano-syncopate-fg-2500-sc2500fg-719",
+      "ratio": 1.8782679738562087,
+      "anchorCount": 3,
+      "braidNote": "10-170, 15-145, 30-95",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Spirex FG 2500",
+      "reelId": "shimano-spirex-fg-2500-sr2500fg-722",
+      "ratio": 1.8782679738562087,
+      "anchorCount": 3,
+      "braidNote": "10-170, 15-145, 30-95",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano IX 2000R",
+      "reelId": "shimano-ix-2000r-ix2000r-731",
+      "ratio": 1.8782679738562087,
+      "anchorCount": 3,
+      "braidNote": "10-170, 15-145, 30-95",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish C2500S",
+      "reelId": "shimano-vanquish-c2500s-784",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish C2500SXG",
+      "reelId": "shimano-vanquish-c2500sxg-785",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish 2500S",
+      "reelId": "shimano-vanquish-2500s-786",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish 2500SHG",
+      "reelId": "shimano-vanquish-2500shg-787",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish C3000SDH",
+      "reelId": "shimano-vanquish-c3000sdh-788",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish C3000SDHHG",
+      "reelId": "shimano-vanquish-c3000sdhhg-789",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish CE C2500S",
+      "reelId": "shimano-vanquish-ce-c2500s-800",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish CE C2500SXG",
+      "reelId": "shimano-vanquish-ce-c2500sxg-801",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish CE 2500S",
+      "reelId": "shimano-vanquish-ce-2500s-802",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish CE 2500SHG",
+      "reelId": "shimano-vanquish-ce-2500shg-803",
+      "ratio": 1.68,
+      "anchorCount": 3,
+      "braidNote": "5-140, 8-120, 10-85",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Syncopate FG 4000",
+      "reelId": "shimano-syncopate-fg-4000-sc4000fg-720",
+      "ratio": 1.6757075471698113,
+      "anchorCount": 3,
+      "braidNote": "15-265, 30-175, 50-145",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Spirex FG 4000",
+      "reelId": "shimano-spirex-fg-4000-sr4000fg-723",
+      "ratio": 1.6757075471698113,
+      "anchorCount": 3,
+      "braidNote": "15-265, 30-175, 50-145",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano IX 4000R",
+      "reelId": "shimano-ix-4000r-ix4000r-732",
+      "ratio": 1.6757075471698113,
+      "anchorCount": 3,
+      "braidNote": "15-265, 30-175, 50-145",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sienna RE 4000",
+      "reelId": "shimano-sienna-re-4000-sn4000re-726",
+      "ratio": 1.640625,
+      "anchorCount": 3,
+      "braidNote": "15-280, 30-170, 50-150",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sahara Rear Drag 4000R",
+      "reelId": "shimano-sahara-rear-drag-4000r-sh4000r-729",
+      "ratio": 1.640625,
+      "anchorCount": 3,
+      "braidNote": "15-280, 30-170, 50-150",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger Trion 35",
+      "reelId": "pflueger-trion-35-trion35x-538",
+      "ratio": 1.6384,
+      "anchorCount": 3,
+      "braidNote": "250/8, 220/10, 160/14",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger President 35",
+      "reelId": "pflueger-president-35-pres35x-543",
+      "ratio": 1.6384,
+      "anchorCount": 3,
+      "braidNote": "8-250, 10-220, 14-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger President XT 35",
+      "reelId": "pflueger-president-xt-35-presxt35x-548",
+      "ratio": 1.6384,
+      "anchorCount": 3,
+      "braidNote": "250/8, 220/10, 160/14",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger President LE 35",
+      "reelId": "pflueger-president-le-35-presle35x-552",
+      "ratio": 1.6384,
+      "anchorCount": 3,
+      "braidNote": "250/8, 220/10, 160/14",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger Supreme 35",
+      "reelId": "pflueger-supreme-35-supsp35x-555",
+      "ratio": 1.6384,
+      "anchorCount": 3,
+      "braidNote": "250/8, 220/10, 160/14",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger Supreme XT 35",
+      "reelId": "pflueger-supreme-xt-35-supxtsp35x-559",
+      "ratio": 1.6384,
+      "anchorCount": 3,
+      "braidNote": "250/8, 220/10, 160/14",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Battle IV 2500",
+      "reelId": "penn-battle-iv-2500-btliv2500-457",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Fierce IV 2500",
+      "reelId": "penn-fierce-iv-2500-frciv2500-469",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Pursuit V 2500",
+      "reelId": "penn-pursuit-v-2500-purv2500-475",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Wrath II 2500",
+      "reelId": "penn-wrath-ii-2500-wrthii2500c-481",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Clash II 2500",
+      "reelId": "penn-clash-ii-2500-claii2500-488",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Spinfisher VII 2500",
+      "reelId": "penn-spinfisher-vii-2500-ssvii2500-494",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Spinfisher VII Live Liner 2500",
+      "reelId": "penn-spinfisher-vii-live-liner-2500-ssvii2500ll-505",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Slammer IV 2500",
+      "reelId": "penn-slammer-iv-2500-slaiv2500-512",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Authority 2500",
+      "reelId": "penn-authority-2500-ath2500-524",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Battle III 2500",
+      "reelId": "penn-battle-iii-2500",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Pursuit III 2500",
+      "reelId": "penn-pursuit-iii-2500",
+      "ratio": 1.6296296296296298,
+      "anchorCount": 3,
+      "braidNote": "10-240, 15-220, 20-160",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Safyre 4000",
+      "reelId": "okuma-safyre-4000-sf-4000a-404",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "230/15, 180/30, 140/40",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Safyre 4000X",
+      "reelId": "okuma-safyre-4000x-sf-4000xa-405",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "230/15, 180/30, 140/40",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nexave FJ 4000HG",
+      "reelId": "shimano-nexave-fj-4000hg-nex4000hgfj-648",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 40-140",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nasci FD 4000XG",
+      "reelId": "shimano-nasci-fd-4000xg-nas4000xgfd-672",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 40-140",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Ultegra FD 4000XGD",
+      "reelId": "shimano-ultegra-fd-4000xgd-ult4000xgd-682",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 40-140",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Twin Power XD FB 4000XG",
+      "reelId": "shimano-twin-power-xd-fb-4000xg-tpxd4000xgfb-706",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 40-140",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Stella SW D 4000XG",
+      "reelId": "shimano-stella-sw-d-4000xg-stlsw4000xgd-769",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 40-140",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sustain FK 4000XG",
+      "reelId": "shimano-sustain-fk-4000xg-sa40xgfk",
+      "ratio": 1.6073369565217388,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 40-140",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Avenger B C2000",
+      "reelId": "okuma-avenger-b-c2000-av-c2000b-377",
+      "ratio": 1.5999999999999999,
+      "anchorCount": 2,
+      "braidNote": "150/10, 135/15",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano FX FC 4000",
+      "reelId": "shimano-fx-fc-4000-fx4000fc-629",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sienna FG 4000",
+      "reelId": "shimano-sienna-fg-4000-sn4000fg-635",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Catana FE 4000HG",
+      "reelId": "shimano-catana-fe-4000hg-cat4000hgfe-639",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nexave FI 4000HG",
+      "reelId": "shimano-nexave-fi-4000hg-nex4000hgfi-643",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sedona FJ 4000XG",
+      "reelId": "shimano-sedona-fj-4000xg-se4000xgfj-654",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sahara FJ 4000XG",
+      "reelId": "shimano-sahara-fj-4000xg-sh4000xgfj-660",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nasci FC 4000XG",
+      "reelId": "shimano-nasci-fc-4000xg-nas4000xgfc-666",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Miravel 4000XG",
+      "reelId": "shimano-miravel-4000xg-mir4000xg-677",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Stradic FM 4000XG",
+      "reelId": "shimano-stradic-fm-4000xg-st4000xgfm-687",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanford A 4000XGA",
+      "reelId": "shimano-vanford-fa-4000xga-vf4000xga-693",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sustain FJ 4000XG",
+      "reelId": "shimano-sustain-fj-4000xg-sa4000xgfj-697",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Twin Power FE 4000XG",
+      "reelId": "shimano-twin-power-fe-4000xg-tp4000xgfe-701",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Twin Power XD FA 4000XG",
+      "reelId": "shimano-twin-power-xd-fa-4000xg-tpxd4000xgfa-703",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Stella FK 4000XG",
+      "reelId": "shimano-stella-fk-4000xg-stl4000xgfk-716",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Spheros SW 3000/4000 4000XG",
+      "reelId": "shimano-spheros-sw-3000-4000-4000xg-sp4000xgsw-735",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Twin Power SW C 4000XG",
+      "reelId": "shimano-twin-power-sw-c-4000xg-tpsw4000xgc-766",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanquish 4000XG",
+      "reelId": "shimano-vanquish-4000xg-794",
+      "ratio": 1.5978260869565217,
+      "anchorCount": 3,
+      "braidNote": "15-230, 30-180, 50-120",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Spinfisher VII 3500",
+      "reelId": "penn-spinfisher-vii-3500-ssvii3500-495",
+      "ratio": 1.5967741935483866,
+      "anchorCount": 3,
+      "braidNote": "10-310, 15-270, 20-220",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Slammer IV 3500",
+      "reelId": "penn-slammer-iv-3500-slaiv3500-513",
+      "ratio": 1.5967741935483866,
+      "anchorCount": 3,
+      "braidNote": "10-310, 15-270, 20-220",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Authority 3500",
+      "reelId": "penn-authority-3500-ath3500-525",
+      "ratio": 1.5967741935483866,
+      "anchorCount": 3,
+      "braidNote": "10-310, 15-270, 20-220",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Baitrunner OC 4000",
+      "reelId": "shimano-baitrunner-oc-4000-btr4000oc-759",
+      "ratio": 1.5922677063027941,
+      "anchorCount": 3,
+      "braidNote": "15-270, 20-190, 40-145",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Baitrunner D 4000",
+      "reelId": "shimano-baitrunner-d-4000-btr4000d-762",
+      "ratio": 1.5922677063027941,
+      "anchorCount": 3,
+      "braidNote": "15-270, 20-190, 40-145",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano FX FC 1000",
+      "reelId": "shimano-fx-fc-1000-fx1000fc-625",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sienna FG 1000",
+      "reelId": "shimano-sienna-fg-1000-sn1000fg-631",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Syncopate FG 1000",
+      "reelId": "shimano-syncopate-fg-1000-sc1000fg-718",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Spirex FG 1000",
+      "reelId": "shimano-spirex-fg-1000-sr1000fg-721",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sienna RE 1000",
+      "reelId": "shimano-sienna-re-1000-sn1000re-724",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sahara Rear Drag 1000R",
+      "reelId": "shimano-sahara-rear-drag-1000r-sh1000r-727",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano IX 1000R",
+      "reelId": "shimano-ix-1000r-ix1000r-730",
+      "ratio": 1.590643274853801,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-85, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Ceymar A 500",
+      "reelId": "okuma-ceymar-a-500-c-500a-359",
+      "ratio": 1.5802469135802468,
+      "anchorCount": 2,
+      "braidNote": "90/10, 80/15",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Ceymar Baitfeeder A 500",
+      "reelId": "okuma-ceymar-baitfeeder-a-500-chbf-500a-407",
+      "ratio": 1.5802469135802468,
+      "anchorCount": 2,
+      "braidNote": "90/10, 80/15",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger Trion 40",
+      "reelId": "pflueger-trion-40-trion40x-539",
+      "ratio": 1.5555555555555558,
+      "anchorCount": 3,
+      "braidNote": "320/10, 280/14, 200/20",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger President 40",
+      "reelId": "pflueger-president-40-pres40x-544",
+      "ratio": 1.5555555555555558,
+      "anchorCount": 3,
+      "braidNote": "10-320, 14-280, 20-200",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger President XT 40",
+      "reelId": "pflueger-president-xt-40-presxt40x-549",
+      "ratio": 1.5555555555555558,
+      "anchorCount": 3,
+      "braidNote": "320/10, 280/14, 200/20",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger Supreme 40",
+      "reelId": "pflueger-supreme-40-supsp40x-556",
+      "ratio": 1.5555555555555558,
+      "anchorCount": 3,
+      "braidNote": "320/10, 280/14, 200/20",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Pflueger Supreme XT 40",
+      "reelId": "pflueger-supreme-xt-40-supxtsp40x-560",
+      "ratio": 1.5555555555555558,
+      "anchorCount": 3,
+      "braidNote": "320/10, 280/14, 200/20",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "PENN Fierce IV 1000",
+      "reelId": "penn-fierce-iv-1000-frciv1000-467",
+      "ratio": 1.5468749999999998,
+      "anchorCount": 3,
+      "braidNote": "6-160, 8-130, 10-110",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Safyre 1000",
+      "reelId": "okuma-safyre-1000-sf-1000a-398",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "95/10, 75/15, 65/20",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Catana FE 1000",
+      "reelId": "shimano-catana-fe-1000-cat1000fe-636",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nexave FI 1000",
+      "reelId": "shimano-nexave-fi-1000-nex1000fi-640",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nexave FJ 1000",
+      "reelId": "shimano-nexave-fj-1000-nex1000fj-645",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sedona FJ 1000",
+      "reelId": "shimano-sedona-fj-1000-se1000fj-651",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sahara FJ 1000",
+      "reelId": "shimano-sahara-fj-1000-sh1000fj-657",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nasci FC 1000",
+      "reelId": "shimano-nasci-fc-1000-nas1000fc-663",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Nasci FD 1000",
+      "reelId": "shimano-nasci-fd-1000-nas1000fd-669",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Miravel 1000",
+      "reelId": "shimano-miravel-1000-mir1000-674",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Ultegra FD 1000D",
+      "reelId": "shimano-ultegra-fd-1000d-ult1000d-679",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Stradic FM 1000HG",
+      "reelId": "shimano-stradic-fm-1000hg-st1000hgfm-684",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Stella FK 1000",
+      "reelId": "shimano-stella-fk-1000-stl1000fk-713",
+      "ratio": 1.539473684210526,
+      "anchorCount": 3,
+      "braidNote": "10-95, 15-75, 20-65",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Okuma Safyre C2000",
+      "reelId": "okuma-safyre-c2000-sf-c2000a-399",
+      "ratio": 1.5267857142857142,
+      "anchorCount": 3,
+      "braidNote": "140/10, 115/15, 95/20",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano FX FC 2000",
+      "reelId": "shimano-fx-fc-2000-fx2000fc-626",
+      "ratio": 1.5267857142857142,
+      "anchorCount": 3,
+      "braidNote": "10-140, 15-115, 20-95",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Sienna FG 2000",
+      "reelId": "shimano-sienna-fg-2000-sn2000fg-632",
+      "ratio": 1.5267857142857142,
+      "anchorCount": 3,
+      "braidNote": "10-140, 15-115, 20-95",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Shimano Vanford A C2000HGA",
+      "reelId": "shimano-vanford-fa-c2000hga-vfc2000hga-690",
+      "ratio": 1.5267857142857142,
+      "anchorCount": 3,
+      "braidNote": "10-140, 15-115, 20-95",
+      "reviewPriority": "medium"
+    },
+    {
+      "reel": "Daiwa Crossfire LT 4000-C",
+      "reelId": "daiwa-crossfire-lt-4000-c-crflt4000-c-93",
+      "ratio": 1.494949494949495,
+      "anchorCount": 2,
+      "braidNote": "10-220, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Laguna LT 4000-C",
+      "reelId": "daiwa-laguna-lt-4000-c-lagunalt4000-c-99",
+      "ratio": 1.494949494949495,
+      "anchorCount": 2,
+      "braidNote": "10-220, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Tatula Elite MQ 4000-CXH",
+      "reelId": "daiwa-tatula-elite-mq-4000-cxh",
+      "ratio": 1.494949494949495,
+      "anchorCount": 2,
+      "braidNote": "10-220, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Spheros SW A 5000XG",
+      "reelId": "shimano-spheros-sw-a-5000xg-spsw5000xga-736",
+      "ratio": 1.4902998236331573,
+      "anchorCount": 3,
+      "braidNote": "20-245, 30-225, 40-175",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 5000XG",
+      "reelId": "shimano-saragosa-sw-a-5000xg-srg5000swaxg-743",
+      "ratio": 1.4902998236331573,
+      "anchorCount": 3,
+      "braidNote": "20-245, 30-225, 40-175",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Socorro SW 5000",
+      "reelId": "shimano-socorro-sw-5000-soc5000sw-751",
+      "ratio": 1.4902998236331573,
+      "anchorCount": 3,
+      "braidNote": "20-245, 30-225, 40-175",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Twin Power SW C 5000HG",
+      "reelId": "shimano-twin-power-sw-c-5000hg-tpsw5000hgc-767",
+      "ratio": 1.4902998236331573,
+      "anchorCount": 3,
+      "braidNote": "20-245, 30-225, 40-175",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Stella SW D 5000HG",
+      "reelId": "shimano-stella-sw-d-5000hg-stlsw5000hgd-770",
+      "ratio": 1.4902998236331573,
+      "anchorCount": 3,
+      "braidNote": "20-245, 30-225, 40-175",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Baitrunner D 12000",
+      "reelId": "shimano-baitrunner-d-12000-btr12000d-765",
+      "ratio": 1.4890928238302996,
+      "anchorCount": 3,
+      "braidNote": "50-505, 65-310, 80-230",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Safyre C5000",
+      "reelId": "okuma-safyre-c5000-sf-c5000a-406",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "260/20, 235/30, 185/40",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Nexave FI C5000HG",
+      "reelId": "shimano-nexave-fi-c5000hg-nexc5000hgfi-644",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Nexave FJ C5000HG",
+      "reelId": "shimano-nexave-fj-c5000hg-nexc5000hgfj-649",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Sedona FJ C5000XG",
+      "reelId": "shimano-sedona-fj-c5000xg-sec5000xgfj-655",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Sahara FJ C5000XG",
+      "reelId": "shimano-sahara-fj-c5000xg-shc5000xgfj-661",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Nasci FC C5000XG",
+      "reelId": "shimano-nasci-fc-c5000xg-nasc5000xgfc-667",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Nasci FD C5000XG",
+      "reelId": "shimano-nasci-fd-c5000xg-nasc5000xgfd-673",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Miravel C5000XG",
+      "reelId": "shimano-miravel-c5000xg-mirc5000xg-678",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Ultegra FD C5000XGD",
+      "reelId": "shimano-ultegra-fd-c5000xgd-ultc5000xgd-683",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Stradic FM C5000XG",
+      "reelId": "shimano-stradic-fm-c5000xg-stc5000xgfm-688",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Vanford A C5000XGA",
+      "reelId": "shimano-vanford-fa-c5000xga-vfc5000xga-694",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Sustain FJ C5000XG",
+      "reelId": "shimano-sustain-fj-c5000xg-sac5000xgfj-698",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Twin Power FE C5000XG",
+      "reelId": "shimano-twin-power-fe-c5000xg-tpc5000xgfe-702",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Twin Power XD FA C5000XG",
+      "reelId": "shimano-twin-power-xd-fa-c5000xg-tpxdc5000xgfa-704",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Twin Power XD FB C5000XG",
+      "reelId": "shimano-twin-power-xd-fb-c5000xg-tpxdc5000xgfb-707",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Stella FK C5000XG",
+      "reelId": "shimano-stella-fk-c5000xg-stlc5000xgfk-717",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Vanquish C5000XG",
+      "reelId": "shimano-vanquish-c5000xg-795",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Sustain FK C5000XG",
+      "reelId": "shimano-sustain-fk-c5000xg-sac50xgfk",
+      "ratio": 1.4845679012345676,
+      "anchorCount": 3,
+      "braidNote": "20-260, 30-235, 40-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Tesoro 4000",
+      "reelId": "okuma-tesoro-4000-tsr-4000xa-420",
+      "ratio": 1.4796195652173911,
+      "anchorCount": 2,
+      "braidNote": "230/15, 180/30",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Ceymar A 2500",
+      "reelId": "okuma-ceymar-a-2500-c-2500a-361",
+      "ratio": 1.4666666666666668,
+      "anchorCount": 2,
+      "braidNote": "200/10, 165/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Inspira ISX 2500",
+      "reelId": "okuma-inspira-isx-2500-isx-2500ha-367",
+      "ratio": 1.4666666666666668,
+      "anchorCount": 2,
+      "braidNote": "200/10, 165/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Avenger B 2500",
+      "reelId": "okuma-avenger-b-2500-av-2500b-378",
+      "ratio": 1.4666666666666668,
+      "anchorCount": 2,
+      "braidNote": "200/10, 165/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Rockaway SI 2500",
+      "reelId": "okuma-rockaway-si-2500-rsi-2500ha-386",
+      "ratio": 1.4666666666666668,
+      "anchorCount": 2,
+      "braidNote": "200/10, 165/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Acuador 2500",
+      "reelId": "okuma-acuador-2500-acu-2500a-391",
+      "ratio": 1.4666666666666668,
+      "anchorCount": 2,
+      "braidNote": "200/10, 165/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Trion 20",
+      "reelId": "pflueger-trion-20-trion20x-535",
+      "ratio": 1.44,
+      "anchorCount": 3,
+      "braidNote": "180/4, 125/6, 100/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President 20",
+      "reelId": "pflueger-president-20-pres20x-540",
+      "ratio": 1.44,
+      "anchorCount": 3,
+      "braidNote": "4-180, 6-125, 8-100",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President XT 20",
+      "reelId": "pflueger-president-xt-20-presxt20x-545",
+      "ratio": 1.44,
+      "anchorCount": 3,
+      "braidNote": "180/4, 125/6, 100/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Trion 25",
+      "reelId": "pflueger-trion-25-trion25x-536",
+      "ratio": 1.4285714285714284,
+      "anchorCount": 3,
+      "braidNote": "200/4, 140/6, 110/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President 25",
+      "reelId": "pflueger-president-25-pres25x-541",
+      "ratio": 1.4285714285714284,
+      "anchorCount": 3,
+      "braidNote": "4-200, 6-140, 8-110",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President XT 25",
+      "reelId": "pflueger-president-xt-25-presxt25x-546",
+      "ratio": 1.4285714285714284,
+      "anchorCount": 3,
+      "braidNote": "200/4, 140/6, 110/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President LE 25",
+      "reelId": "pflueger-president-le-25-presle25x-550",
+      "ratio": 1.4285714285714284,
+      "anchorCount": 3,
+      "braidNote": "200/4, 140/6, 110/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Supreme 25",
+      "reelId": "pflueger-supreme-25-supsp25x-553",
+      "ratio": 1.4285714285714284,
+      "anchorCount": 3,
+      "braidNote": "200/4, 140/6, 110/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Supreme XT 25",
+      "reelId": "pflueger-supreme-xt-25-supxtsp25x-557",
+      "ratio": 1.4285714285714284,
+      "anchorCount": 3,
+      "braidNote": "200/4, 140/6, 110/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Exsence B C3000MHG",
+      "reelId": "shimano-exsence-b-c3000mhg-25exsc30mhgb-709",
+      "ratio": 1.4249999999999998,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-110, 20-95",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Exsence A C3000MHG",
+      "reelId": "shimano-exsence-a-c3000mhg-exsc3000mhga-711",
+      "ratio": 1.4249999999999998,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-110, 20-95",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Vanquish C3000MHG",
+      "reelId": "shimano-vanquish-c3000mhg-790",
+      "ratio": 1.4249999999999998,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-110, 20-95",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Vanquish 3000MHG",
+      "reelId": "shimano-vanquish-3000mhg-792",
+      "ratio": 1.4249999999999998,
+      "anchorCount": 3,
+      "braidNote": "10-150, 15-110, 20-95",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing Sharky III Spinning 2000",
+      "reelId": "kastking-sharky-iii-spinning-2000-7-250",
+      "ratio": 1.419135802469136,
+      "anchorCount": 2,
+      "braidNote": "20-200, 30-190",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Patriarch 35",
+      "reelId": "pflueger-patriarch-35-parsp35x-pfl-563",
+      "ratio": 1.408,
+      "anchorCount": 3,
+      "braidNote": "200/8, 150/10, 110/14",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Revros LT 2000D",
+      "reelId": "daiwa-revros-lt-2000d-rvslt2000d-102",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Regal LT 2000D",
+      "reelId": "daiwa-regal-lt-2000d-rglt2000d-109",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Legalis LT 2000D",
+      "reelId": "daiwa-legalis-lt-2000d-leglt2000d-116",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Exceler LT 2000D",
+      "reelId": "daiwa-exceler-lt-2000d-exelt2000d-123",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Tatula MQ LT 2000D-XH",
+      "reelId": "daiwa-tatula-mq-lt-2000d-xh-talt2000d-xh-137",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Procyon MQ LT 2000D-XH",
+      "reelId": "daiwa-procyon-mq-lt-2000d-xh-pcnmqlt2000d-xh-145",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Ballistic MQ LT 2000D-XH",
+      "reelId": "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Sol MQ 2000D-XH",
+      "reelId": "daiwa-sol-mq-2000d-xh-solmqlt2000d-xh-157",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Certate 2000D-XH",
+      "reelId": "daiwa-certate-2000d-xh-certlt2000d-xh-163",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Luvias ST 2000D-XH",
+      "reelId": "daiwa-luvias-st-2000d-xh-luvst2000d-xh-169",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Exist 2000D-XH",
+      "reelId": "daiwa-exist-2000d-xh-exist2000d-xh-172",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Kage LT 2000D-XH",
+      "reelId": "daiwa-kage-lt-2000d-xh-kglt2000d-xh-177",
+      "ratio": 1.4072727272727272,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-215",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Avenger B 1000",
+      "reelId": "okuma-avenger-b-1000-av-1000b-376",
+      "ratio": 1.4035087719298243,
+      "anchorCount": 2,
+      "braidNote": "95/10, 75/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma ROX 1000",
+      "reelId": "okuma-rox-1000-rox-1000a-395",
+      "ratio": 1.4035087719298243,
+      "anchorCount": 2,
+      "braidNote": "95/10, 75/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Bass Pro Shops Formula Spinning Reel 40",
+      "reelId": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
+      "ratio": 1.4028320312499998,
+      "anchorCount": 3,
+      "braidNote": "40-170, 50-130, 65-80",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Spinfisher VII 5500",
+      "reelId": "penn-spinfisher-vii-5500-ssvii5500-498",
+      "ratio": 1.3979012345679012,
+      "anchorCount": 3,
+      "braidNote": "20-500, 30-380, 40-335",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Slammer IV 5500",
+      "reelId": "penn-slammer-iv-5500-slaiv5500bls-516",
+      "ratio": 1.3979012345679012,
+      "anchorCount": 3,
+      "braidNote": "20-500, 30-380, 40-335",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Slammer IV 5500",
+      "reelId": "penn-slammer-iv-5500-slaiv5500-517",
+      "ratio": 1.3979012345679012,
+      "anchorCount": 3,
+      "braidNote": "20-500, 30-380, 40-335",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Authority 5500",
+      "reelId": "penn-authority-5500-ath5500-528",
+      "ratio": 1.3979012345679012,
+      "anchorCount": 3,
+      "braidNote": "20-500, 30-380, 40-335",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Baitrunner OC 6000",
+      "reelId": "shimano-baitrunner-oc-6000-btr6000oc-760",
+      "ratio": 1.388429752066116,
+      "anchorCount": 3,
+      "braidNote": "30-245, 50-210, 65-130",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Baitrunner D 6000",
+      "reelId": "shimano-baitrunner-d-6000-btr6000d-763",
+      "ratio": 1.388429752066116,
+      "anchorCount": 3,
+      "braidNote": "30-245, 50-210, 65-130",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Ceymar A 2000",
+      "reelId": "okuma-ceymar-a-2000-c-2000a-360",
+      "ratio": 1.3827160493827162,
+      "anchorCount": 2,
+      "braidNote": "180/10, 140/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Inspira ISX C2000",
+      "reelId": "okuma-inspira-isx-c2000-isx-c2000ha-366",
+      "ratio": 1.3827160493827162,
+      "anchorCount": 2,
+      "braidNote": "180/10, 140/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Acuador 1000",
+      "reelId": "okuma-acuador-1000-acu-1000a-390",
+      "ratio": 1.3827160493827162,
+      "anchorCount": 2,
+      "braidNote": "180/10, 140/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Ceymar Baitfeeder A 1000",
+      "reelId": "okuma-ceymar-baitfeeder-a-1000-chbf-1000a-408",
+      "ratio": 1.3827160493827162,
+      "anchorCount": 2,
+      "braidNote": "180/10, 140/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Aria A 1000",
+      "reelId": "okuma-aria-a-1000-aria-1000a-451",
+      "ratio": 1.3827160493827162,
+      "anchorCount": 2,
+      "braidNote": "180/10, 140/15",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa QR Ultralight 750",
+      "reelId": "daiwa-qr-ultralight-750-qr750-179",
+      "ratio": 1.375,
+      "anchorCount": 2,
+      "braidNote": "4-110, 6-80",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa QG Ultralight 750",
+      "reelId": "daiwa-qg-ultralight-750-qg750-180",
+      "ratio": 1.375,
+      "anchorCount": 2,
+      "braidNote": "4-110, 6-80",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa QZ Ultralight 750",
+      "reelId": "daiwa-qz-ultralight-750-qz750-181",
+      "ratio": 1.375,
+      "anchorCount": 2,
+      "braidNote": "4-110, 6-80",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Bass Pro Shops Formula Spinning Reel 20",
+      "reelId": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
+      "ratio": 1.369212962962963,
+      "anchorCount": 3,
+      "braidNote": "20-160, 30-125, 40-105",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Spinfisher VII 9500",
+      "reelId": "penn-spinfisher-vii-9500-ssvii9500-503",
+      "ratio": 1.364355884341566,
+      "anchorCount": 3,
+      "braidNote": "50-730, 65-670, 80-435",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Patriarch 25",
+      "reelId": "pflueger-patriarch-25-parsp25x-561",
+      "ratio": 1.3636363636363635,
+      "anchorCount": 3,
+      "braidNote": "150/4, 110/6, 90/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Patriarch 30",
+      "reelId": "pflueger-patriarch-30-parsp30x-pfl-562",
+      "ratio": 1.3500000000000003,
+      "anchorCount": 3,
+      "braidNote": "150/6, 115/8, 90/10",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing Zephyr Spinning 3000",
+      "reelId": "kastking-zephyr-spinning-3000-34-277",
+      "ratio": 1.3485714285714285,
+      "anchorCount": 3,
+      "braidNote": "15-295, 20-190, 25-140",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 14000-H",
+      "reelId": "daiwa-bg-sw-2026-14000-h-bgsw14000-h",
+      "ratio": 1.3287197231833907,
+      "anchorCount": 2,
+      "braidNote": "65-330, 80-220",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing ReKon Saltwater Spinning 2500",
+      "reelId": "kastking-rekon-saltwater-spinning-2500-41-284",
+      "ratio": 1.3223140495867773,
+      "anchorCount": 3,
+      "braidNote": "15-200, 20-120, 30-80",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Crossfire LT 1000",
+      "reelId": "daiwa-crossfire-lt-1000-crflt1000-89",
+      "ratio": 1.318359375,
+      "anchorCount": 2,
+      "braidNote": "6-160, 8-135",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Laguna LT 1000",
+      "reelId": "daiwa-laguna-lt-1000-lagunalt1000-95",
+      "ratio": 1.318359375,
+      "anchorCount": 2,
+      "braidNote": "6-160, 8-135",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Revros LT 2500D-XH",
+      "reelId": "daiwa-revros-lt-2500d-xh-rvslt2500d-xh-103",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Regal LT 2500D-XH",
+      "reelId": "daiwa-regal-lt-2500d-xh-rglt2500d-xh-110",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Legalis LT 2500D-XH",
+      "reelId": "daiwa-legalis-lt-2500d-xh-leglt2500d-xh-117",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Exceler LT 2500D-XH",
+      "reelId": "daiwa-exceler-lt-2500d-xh-exelt2500d-xh-124",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Fuego LT 2500D-XH",
+      "reelId": "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Tatula MQ LT 2500D-XH",
+      "reelId": "daiwa-tatula-mq-lt-2500d-xh-talt2500d-xh-138",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Tatula Elite Spinning 2500D-XH",
+      "reelId": "daiwa-tatula-elite-spinning-2500d-xh-tael2500d-xh-141",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Procyon MQ LT 2500D-XH",
+      "reelId": "daiwa-procyon-mq-lt-2500d-xh-pcnmqlt2500d-xh-146",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Ballistic MQ LT 2500D-XH",
+      "reelId": "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Sol MQ 2500D-XH",
+      "reelId": "daiwa-sol-mq-2500d-xh-solmqlt2500d-xh-158",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Certate 2500D-XH",
+      "reelId": "daiwa-certate-2500d-xh-certlt2500d-xh-164",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Luvias ST 2500D-XH",
+      "reelId": "daiwa-luvias-st-2500d-xh-luvst2500d-xh-170",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Exist 2500D-XH",
+      "reelId": "daiwa-exist-2500d-xh-exist2500d-xh-173",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Kage LT 2500D-XH",
+      "reelId": "daiwa-kage-lt-2500d-xh-kglt2500d-xh-178",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa BG MQ 2500D-H",
+      "reelId": "daiwa-bg-mq-2500d-h-bgmq2500d-h-192",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 2500D-XH",
+      "reelId": "daiwa-saltist-mq-2500d-xh-saltistmq2500d-xh-201",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 2500",
+      "reelId": "daiwa-eliminator-spinning-reel-2500-elt2500-212",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa BG LT 2500D-XH",
+      "reelId": "daiwa-bg-lt-2500d-xh",
+      "ratio": 1.3155555555555554,
+      "anchorCount": 2,
+      "braidNote": "10-250, 15-185",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Trion 30",
+      "reelId": "pflueger-trion-30-trion30x-537",
+      "ratio": 1.3090909090909089,
+      "anchorCount": 3,
+      "braidNote": "275/6, 190/8, 160/10",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President 30",
+      "reelId": "pflueger-president-30-pres30x-542",
+      "ratio": 1.3090909090909089,
+      "anchorCount": 3,
+      "braidNote": "6-275, 8-190, 10-160",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President XT 30",
+      "reelId": "pflueger-president-xt-30-presxt30x-547",
+      "ratio": 1.3090909090909089,
+      "anchorCount": 3,
+      "braidNote": "275/6, 190/8, 160/10",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger President LE 30",
+      "reelId": "pflueger-president-le-30-presle30x-551",
+      "ratio": 1.3090909090909089,
+      "anchorCount": 3,
+      "braidNote": "275/6, 190/8, 160/10",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Supreme 30",
+      "reelId": "pflueger-supreme-30-supsp30x-554",
+      "ratio": 1.3090909090909089,
+      "anchorCount": 3,
+      "braidNote": "275/6, 190/8, 160/10",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Pflueger Supreme XT 30",
+      "reelId": "pflueger-supreme-xt-30-supxtsp30x-558",
+      "ratio": 1.3090909090909089,
+      "anchorCount": 3,
+      "braidNote": "275/6, 190/8, 160/10",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Okuma Avenger B 500",
+      "reelId": "okuma-avenger-b-500-av-500b-375",
+      "ratio": 1.3020833333333333,
+      "anchorCount": 2,
+      "braidNote": "120/6, 100/8",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing Zephyr Spinning 500",
+      "reelId": "kastking-zephyr-spinning-500-31-274",
+      "ratio": 1.3013798111837331,
+      "anchorCount": 3,
+      "braidNote": "10-205, 15-140, 20-85",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Battle IV 10000",
+      "reelId": "penn-battle-iv-10000-btliv10000-466",
+      "ratio": 1.2835251747757925,
+      "anchorCount": 3,
+      "braidNote": "50-770, 65-710, 80-490",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Spinfisher VII 10500",
+      "reelId": "penn-spinfisher-vii-10500-ssvii10500-504",
+      "ratio": 1.279507881584006,
+      "anchorCount": 3,
+      "braidNote": "50-845, 65-780, 80-540",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Slammer IV 10500",
+      "reelId": "penn-slammer-iv-10500-slaiv10500-523",
+      "ratio": 1.279507881584006,
+      "anchorCount": 3,
+      "braidNote": "50-845, 65-780, 80-540",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "PENN Authority 10500",
+      "reelId": "penn-authority-10500-ath10500-534",
+      "ratio": 1.279507881584006,
+      "anchorCount": 3,
+      "braidNote": "50-845, 65-780, 80-540",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing Zephyr Spinning 1000",
+      "reelId": "kastking-zephyr-spinning-1000-32-275",
+      "ratio": 1.2779388083735912,
+      "anchorCount": 3,
+      "braidNote": "10-262, 15-186, 20-115",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing Sharky III Spinning 1000",
+      "reelId": "kastking-sharky-iii-spinning-1000-6-249",
+      "ratio": 1.2697530864197533,
+      "anchorCount": 2,
+      "braidNote": "20-200, 30-170",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 5000",
+      "reelId": "daiwa-eliminator-spinning-reel-5000-elt5000-216",
+      "ratio": 1.2639894667544436,
+      "anchorCount": 2,
+      "braidNote": "50-310, 65-300",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing MegaTron Spinning 2000",
+      "reelId": "kastking-megatron-spinning-2000-krlspnmt-s20gm-e-263",
+      "ratio": 1.2623376623376625,
+      "anchorCount": 2,
+      "braidNote": "20-330, 30-175",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "KastKing Royale Legend Pro Spinning 1000",
+      "reelId": "kastking-royale-legend-pro-spinning-1000-0-243",
+      "ratio": 1.2515271289974845,
+      "anchorCount": 3,
+      "braidNote": "20-215, 30-115, 40-90",
+      "reviewPriority": "review"
+    },
+    {
+      "reel": "Shimano Baitrunner OC 8000",
+      "reelId": "shimano-baitrunner-oc-8000-btr8000oc-761",
+      "ratio": 1.2335069444444446,
+      "anchorCount": 3,
+      "braidNote": "40-295, 50-290, 65-180",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Baitrunner D 8000",
+      "reelId": "shimano-baitrunner-d-8000-btr8000d-764",
+      "ratio": 1.2335069444444446,
+      "anchorCount": 3,
+      "braidNote": "40-295, 50-290, 65-180",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky Baitfeeder III 3000",
+      "reelId": "kastking-sharky-baitfeeder-iii-3000-16-259",
+      "ratio": 1.231329690346084,
+      "anchorCount": 3,
+      "braidNote": "20-305, 30-210, 40-180",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Zephyr Spinning 2000",
+      "reelId": "kastking-zephyr-spinning-2000-33-276",
+      "ratio": 1.2307692307692306,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-170, 25-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Royale Legend Pro Spinning 2000",
+      "reelId": "kastking-royale-legend-pro-spinning-2000-1-244",
+      "ratio": 1.2288401253918497,
+      "anchorCount": 3,
+      "braidNote": "30-145, 40-120, 50-110",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Offshore Angler Sea Lion Spinning Reel 7000",
+      "reelId": "offshore-angler-sea-lion-spinning-reel-7000-sls70-81",
+      "ratio": 1.2243811551770032,
+      "anchorCount": 2,
+      "braidNote": "80-260, 100-230, 150-195",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Crossfire LT 2500",
+      "reelId": "daiwa-crossfire-lt-2500-crflt2500-91",
+      "ratio": 1.224,
+      "anchorCount": 2,
+      "braidNote": "8-200, 10-170",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Laguna LT 2500",
+      "reelId": "daiwa-laguna-lt-2500-lagunalt2500-97",
+      "ratio": 1.224,
+      "anchorCount": 2,
+      "braidNote": "8-200, 10-170",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula MQ 2500-H",
+      "reelId": "daiwa-tatula-mq-2500-h",
+      "ratio": 1.224,
+      "anchorCount": 2,
+      "braidNote": "8-200, 10-170",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula Elite MQ 2500-H",
+      "reelId": "daiwa-tatula-elite-mq-2500-h",
+      "ratio": 1.224,
+      "anchorCount": 2,
+      "braidNote": "8-200, 10-170",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Centron Spinning 500",
+      "reelId": "kastking-centron-spinning-500-47-290",
+      "ratio": 1.2234169653524496,
+      "anchorCount": 2,
+      "braidNote": "15-240, 20-155",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII 4500",
+      "reelId": "penn-spinfisher-vii-4500-ssvii4500bls-496",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII 4500",
+      "reelId": "penn-spinfisher-vii-4500-ssvii4500-497",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII Live Liner 4500",
+      "reelId": "penn-spinfisher-vii-live-liner-4500-ssvii4500ll-506",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 4500",
+      "reelId": "penn-slammer-iv-4500-slaiv4500-514",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 4500",
+      "reelId": "penn-slammer-iv-4500-slaiv4500hs-515",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 4500",
+      "reelId": "penn-authority-4500-ath4500-526",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 4500",
+      "reelId": "penn-authority-4500-ath4500hs-527",
+      "ratio": 1.2119391025641024,
+      "anchorCount": 3,
+      "braidNote": "15-390, 20-320, 30-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Crossfire LT 3000-C",
+      "reelId": "daiwa-crossfire-lt-3000-c-crflt3000-c-92",
+      "ratio": 1.210909090909091,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Laguna LT 3000-C",
+      "reelId": "daiwa-laguna-lt-3000-c-lagunalt3000-c-98",
+      "ratio": 1.210909090909091,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG 2000",
+      "reelId": "daiwa-bg-2000-bg2000-183",
+      "ratio": 1.210909090909091,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula MQ 3000-XH",
+      "reelId": "daiwa-tatula-mq-3000-xh",
+      "ratio": 1.210909090909091,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula Elite MQ 3000-CXH",
+      "reelId": "daiwa-tatula-elite-mq-3000-cxh",
+      "ratio": 1.210909090909091,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula Elite MQ 3000-XH",
+      "reelId": "daiwa-tatula-elite-mq-3000-xh",
+      "ratio": 1.210909090909091,
+      "anchorCount": 2,
+      "braidNote": "8-220, 10-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII 8500",
+      "reelId": "penn-spinfisher-vii-8500-ssvii8500-502",
+      "ratio": 1.2081632653061225,
+      "anchorCount": 3,
+      "braidNote": "40-730, 50-600, 65-555",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII Live Liner 8500",
+      "reelId": "penn-spinfisher-vii-live-liner-8500-ssvii8500ll-508",
+      "ratio": 1.2081632653061225,
+      "anchorCount": 3,
+      "braidNote": "40-730, 50-600, 65-555",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 8500",
+      "reelId": "penn-slammer-iv-8500-slaiv8500-521",
+      "ratio": 1.2081632653061225,
+      "anchorCount": 3,
+      "braidNote": "40-730, 50-600, 65-555",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 8500",
+      "reelId": "penn-slammer-iv-8500-slaiv8500hs-522",
+      "ratio": 1.2081632653061225,
+      "anchorCount": 3,
+      "braidNote": "40-730, 50-600, 65-555",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 8500",
+      "reelId": "penn-authority-8500-ath8500-532",
+      "ratio": 1.2081632653061225,
+      "anchorCount": 3,
+      "braidNote": "40-730, 50-600, 65-555",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 8500",
+      "reelId": "penn-authority-8500-ath8500hs-533",
+      "ratio": 1.2081632653061225,
+      "anchorCount": 3,
+      "braidNote": "40-730, 50-600, 65-555",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII Long Cast 7500",
+      "reelId": "penn-spinfisher-vii-long-cast-7500-ssvii7500lc-511",
+      "ratio": 1.2027596223674655,
+      "anchorCount": 3,
+      "braidNote": "20-850, 30-590, 40-490",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Inspira ISX 4000",
+      "reelId": "okuma-inspira-isx-4000-isx-4000xa-369",
+      "ratio": 1.1971664698937425,
+      "anchorCount": 2,
+      "braidNote": "210/30, 180/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Avenger B 4000",
+      "reelId": "okuma-avenger-b-4000-av-4000b-380",
+      "ratio": 1.1971664698937425,
+      "anchorCount": 2,
+      "braidNote": "210/30, 180/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Rockaway SI 4000",
+      "reelId": "okuma-rockaway-si-4000-rsi-4000xa-388",
+      "ratio": 1.1971664698937425,
+      "anchorCount": 2,
+      "braidNote": "210/30, 180/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Acuador 4000",
+      "reelId": "okuma-acuador-4000-acu-4000a-393",
+      "ratio": 1.1971664698937425,
+      "anchorCount": 2,
+      "braidNote": "210/30, 180/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar Baitfeeder A 4000",
+      "reelId": "okuma-ceymar-baitfeeder-a-4000-chbf-4000a-410",
+      "ratio": 1.1971664698937425,
+      "anchorCount": 2,
+      "braidNote": "210/30, 180/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Aria A C4000",
+      "reelId": "okuma-aria-a-c4000-aria-c4000a-453",
+      "ratio": 1.1971664698937425,
+      "anchorCount": 2,
+      "braidNote": "210/30, 180/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Spheros SW A 10000PG",
+      "reelId": "shimano-spheros-sw-a-10000pg-spsw10000pga-739",
+      "ratio": 1.1948177355757623,
+      "anchorCount": 3,
+      "braidNote": "50-360, 65-290, 80-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 10000PG",
+      "reelId": "shimano-saragosa-sw-a-10000pg-srg10000swapg-746",
+      "ratio": 1.1948177355757623,
+      "anchorCount": 3,
+      "braidNote": "50-360, 65-290, 80-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Socorro SW 10000",
+      "reelId": "shimano-socorro-sw-10000-soc10000sw-754",
+      "ratio": 1.1948177355757623,
+      "anchorCount": 3,
+      "braidNote": "50-360, 65-290, 80-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 10000PG",
+      "reelId": "shimano-stella-sw-d-10000pg-stlsw10000pgd-775",
+      "ratio": 1.1948177355757623,
+      "anchorCount": 3,
+      "braidNote": "50-360, 65-290, 80-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII Long Cast 6500",
+      "reelId": "penn-spinfisher-vii-long-cast-6500-ssvii6500lc-510",
+      "ratio": 1.1946435682994825,
+      "anchorCount": 3,
+      "braidNote": "20-620, 30-430, 40-355",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 5000",
+      "reelId": "penn-battle-iv-5000-btliv5000-461",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Fierce IV 5000",
+      "reelId": "penn-fierce-iv-5000-frciv5000-472",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit V 5000",
+      "reelId": "penn-pursuit-v-5000-purv5000-478",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Wrath II 5000",
+      "reelId": "penn-wrath-ii-5000-wrthii5000c-484",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Clash II 5000",
+      "reelId": "penn-clash-ii-5000-claii5000-493",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle III 5000",
+      "reelId": "penn-battle-iii-5000",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit III 5000",
+      "reelId": "penn-pursuit-iii-5000",
+      "ratio": 1.1922398589065255,
+      "anchorCount": 3,
+      "braidNote": "20-420, 30-300, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII 7500",
+      "reelId": "penn-spinfisher-vii-7500-ssvii7500-501",
+      "ratio": 1.1873840445269017,
+      "anchorCount": 3,
+      "braidNote": "40-530, 50-440, 65-400",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 7500",
+      "reelId": "penn-slammer-iv-7500-slaiv7500-520",
+      "ratio": 1.1873840445269017,
+      "anchorCount": 3,
+      "braidNote": "40-530, 50-440, 65-400",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 7500",
+      "reelId": "penn-authority-7500-ath7500-531",
+      "ratio": 1.1873840445269017,
+      "anchorCount": 3,
+      "braidNote": "40-530, 50-440, 65-400",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG 3000",
+      "reelId": "daiwa-bg-3000-bg3000-185",
+      "ratio": 1.18261316872428,
+      "anchorCount": 2,
+      "braidNote": "20-240, 30-190",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaJaws Elite Spinning 3000",
+      "reelId": "kastking-megajaws-elite-spinning-3000-krlspnmje-s30dx-c-248",
+      "ratio": 1.1818181818181819,
+      "anchorCount": 3,
+      "braidNote": "30-130, 40-110, 50-90",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 8000",
+      "reelId": "daiwa-eliminator-spinning-reel-8000-elt8000-218",
+      "ratio": 1.1810841983852363,
+      "anchorCount": 2,
+      "braidNote": "65-440, 80-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Free Swimmer 10000",
+      "reelId": "daiwa-free-swimmer-10000-frsw10000-220",
+      "ratio": 1.1810841983852363,
+      "anchorCount": 2,
+      "braidNote": "65-440, 80-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII 6500",
+      "reelId": "penn-spinfisher-vii-6500-ssvii6500bls-499",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII 6500",
+      "reelId": "penn-spinfisher-vii-6500-ssvii6500-500",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII Live Liner 6500",
+      "reelId": "penn-spinfisher-vii-live-liner-6500-ssvii6500ll-507",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 6500",
+      "reelId": "penn-slammer-iv-6500-slaiv6500-518",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Slammer IV 6500",
+      "reelId": "penn-slammer-iv-6500-slaiv6500hs-519",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 6500",
+      "reelId": "penn-authority-6500-ath6500-529",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Authority 6500",
+      "reelId": "penn-authority-6500-ath6500hs-530",
+      "ratio": 1.180710573400358,
+      "anchorCount": 3,
+      "braidNote": "30-485, 40-410, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Royale Legend Pro Spinning 4000",
+      "reelId": "kastking-royale-legend-pro-spinning-4000-3-246",
+      "ratio": 1.1803385416666667,
+      "anchorCount": 3,
+      "braidNote": "40-205, 50-185, 65-120",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Spheros SW A 20000PG",
+      "reelId": "shimano-spheros-sw-a-20000pg-spsw20000pga-742",
+      "ratio": 1.176470588235294,
+      "anchorCount": 3,
+      "braidNote": "65-490, 80-400, 100-340",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 20000PG",
+      "reelId": "shimano-saragosa-sw-a-20000pg-srg20000swapg-749",
+      "ratio": 1.176470588235294,
+      "anchorCount": 3,
+      "braidNote": "65-490, 80-400, 100-340",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 20000PG",
+      "reelId": "shimano-stella-sw-d-20000pg-stlsw20000pgd-778",
+      "ratio": 1.176470588235294,
+      "anchorCount": 3,
+      "braidNote": "65-490, 80-400, 100-340",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Royale Legend Pro Spinning 3000",
+      "reelId": "kastking-royale-legend-pro-spinning-3000-2-245",
+      "ratio": 1.176163549369291,
+      "anchorCount": 3,
+      "braidNote": "30-190, 40-160, 50-135",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Inspira ISX C5000",
+      "reelId": "okuma-inspira-isx-c5000-isx-c5000xa-370",
+      "ratio": 1.1744928625093913,
+      "anchorCount": 2,
+      "braidNote": "220/30, 185/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Avenger B C5000",
+      "reelId": "okuma-avenger-b-c5000-av-c5000b-381",
+      "ratio": 1.1744928625093913,
+      "anchorCount": 2,
+      "braidNote": "220/30, 185/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Rockaway SI C5000",
+      "reelId": "okuma-rockaway-si-c5000-rsi-c5000xa-389",
+      "ratio": 1.1744928625093913,
+      "anchorCount": 2,
+      "braidNote": "220/30, 185/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Acuador 5000",
+      "reelId": "okuma-acuador-5000-acu-5000a-394",
+      "ratio": 1.1744928625093913,
+      "anchorCount": 2,
+      "braidNote": "220/30, 185/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Bass Pro Shops Formula Spinning Reel 10",
+      "reelId": "bass-pro-shops-formula-spinning-reel-10-fma10-47",
+      "ratio": 1.1737213403880071,
+      "anchorCount": 3,
+      "braidNote": "15-200, 20-140, 30-110",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 25000",
+      "reelId": "shimano-saragosa-sw-a-25000-srg25000swa-750",
+      "ratio": 1.1711471919084377,
+      "anchorCount": 3,
+      "braidNote": "65-630, 80-520, 100-440",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 25000PG",
+      "reelId": "shimano-stella-sw-d-25000pg-stlsw25000pgd-779",
+      "ratio": 1.1711471919084377,
+      "anchorCount": 3,
+      "braidNote": "65-630, 80-520, 100-440",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaTron Spinning 5000",
+      "reelId": "kastking-megatron-spinning-5000-23-266",
+      "ratio": 1.1697048611111114,
+      "anchorCount": 2,
+      "braidNote": "50-275, 65-180",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Spheros SW A 14000XG",
+      "reelId": "shimano-spheros-sw-a-14000xg-spsw14000xga-740",
+      "ratio": 1.1626297577854672,
+      "anchorCount": 3,
+      "braidNote": "50-400, 65-315, 80-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 14000XG",
+      "reelId": "shimano-saragosa-sw-a-14000xg-srg14000swaxg-747",
+      "ratio": 1.1626297577854672,
+      "anchorCount": 3,
+      "braidNote": "50-400, 65-315, 80-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 14000XG",
+      "reelId": "shimano-stella-sw-d-14000xg-stlsw14000xgd-776",
+      "ratio": 1.1626297577854672,
+      "anchorCount": 3,
+      "braidNote": "50-400, 65-315, 80-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Tesoro 10000",
+      "reelId": "okuma-tesoro-10000-tsr-10000ha-423",
+      "ratio": 1.160037878787879,
+      "anchorCount": 2,
+      "braidNote": "500/50, 330/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Salina 10000",
+      "reelId": "okuma-salina-10000-sa-10000a-431",
+      "ratio": 1.160037878787879,
+      "anchorCount": 2,
+      "braidNote": "500/50, 330/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cedros 10000",
+      "reelId": "okuma-cedros-10000-cj-10000-436",
+      "ratio": 1.160037878787879,
+      "anchorCount": 2,
+      "braidNote": "500/50, 330/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Offshore Angler Sea Lion Spinning Reel 5000",
+      "reelId": "offshore-angler-sea-lion-spinning-reel-5000-sls50-79",
+      "ratio": 1.158371040723982,
+      "anchorCount": 3,
+      "braidNote": "50-210, 65-170, 80-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Azores Blue 8000",
+      "reelId": "okuma-azores-blue-8000-z-8000h-blue-440",
+      "ratio": 1.15625,
+      "anchorCount": 2,
+      "braidNote": "370/50, 245/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Salina 4000",
+      "reelId": "okuma-salina-4000-sa-4000ha-427",
+      "ratio": 1.1537908731584618,
+      "anchorCount": 2,
+      "braidNote": "230/30, 190/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cedros 4000",
+      "reelId": "okuma-cedros-4000-cj-4000h-433",
+      "ratio": 1.1537908731584618,
+      "anchorCount": 2,
+      "braidNote": "230/30, 190/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky X Spinning 3000",
+      "reelId": "kastking-sharky-x-spinning-3000-12-255",
+      "ratio": 1.1495601173020529,
+      "anchorCount": 3,
+      "braidNote": "30-155, 40-125, 50-110",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaJaws Spinning 3000",
+      "reelId": "kastking-megajaws-spinning-3000-26-269",
+      "ratio": 1.1495601173020529,
+      "anchorCount": 3,
+      "braidNote": "30-155, 40-125, 50-110",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Azores Blue 6000",
+      "reelId": "okuma-azores-blue-6000-z-6000h-blue-439",
+      "ratio": 1.1484375000000002,
+      "anchorCount": 2,
+      "braidNote": "270/50, 180/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Centron Spinning 3000",
+      "reelId": "kastking-centron-spinning-3000-50-293",
+      "ratio": 1.1427498121712998,
+      "anchorCount": 2,
+      "braidNote": "30-330, 40-270",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 20000-H",
+      "reelId": "daiwa-bg-mq-20000-h-bgmq20000-h-200",
+      "ratio": 1.1418685121107264,
+      "anchorCount": 2,
+      "braidNote": "80-400, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 20000-H",
+      "reelId": "daiwa-saltist-mq-20000-h-saltistmq20000-h-209",
+      "ratio": 1.1418685121107264,
+      "anchorCount": 2,
+      "braidNote": "80-400, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 20000-H",
+      "reelId": "daiwa-certate-sw-20000-h-certsw20000-h-228",
+      "ratio": 1.1418685121107264,
+      "anchorCount": 2,
+      "braidNote": "80-400, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 20000-H",
+      "reelId": "daiwa-certate-hd-20000-h-certhd20000-h-235",
+      "ratio": 1.1418685121107264,
+      "anchorCount": 2,
+      "braidNote": "80-400, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 20000-H",
+      "reelId": "daiwa-saltiga-sw-20000-h-saltiga20000-h-242",
+      "ratio": 1.1418685121107264,
+      "anchorCount": 2,
+      "braidNote": "80-400, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar A 8000",
+      "reelId": "okuma-ceymar-a-8000-c-8000a-365",
+      "ratio": 1.1391006097560976,
+      "anchorCount": 2,
+      "braidNote": "305/50, 205/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar Baitfeeder A 8000",
+      "reelId": "okuma-ceymar-baitfeeder-a-8000-chbf-8000a-412",
+      "ratio": 1.1391006097560976,
+      "anchorCount": 2,
+      "braidNote": "305/50, 205/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 30000PG",
+      "reelId": "shimano-stella-sw-d-30000pg-stlsw30000pgd-780",
+      "ratio": 1.138902619871478,
+      "anchorCount": 3,
+      "braidNote": "65-900, 80-700, 100-570",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 20000",
+      "reelId": "daiwa-bg-sw-2026-20000-bgsw20000",
+      "ratio": 1.1363636363636365,
+      "anchorCount": 2,
+      "braidNote": "100-330, 120-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG 1500",
+      "reelId": "daiwa-bg-1500-bg1500-182",
+      "ratio": 1.1363636363636362,
+      "anchorCount": 2,
+      "braidNote": "6-220, 8-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Offshore Angler Sea Lion Spinning Reel 8000",
+      "reelId": "offshore-angler-sea-lion-spinning-reel-8000-sls80-82",
+      "ratio": 1.1344942991661466,
+      "anchorCount": 2,
+      "braidNote": "80-305, 100-250, 150-230",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Zephyr Spinning 4000",
+      "reelId": "kastking-zephyr-spinning-4000-35-278",
+      "ratio": 1.1328671328671327,
+      "anchorCount": 3,
+      "braidNote": "20-220, 25-175, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Centron Spinning 2000",
+      "reelId": "kastking-centron-spinning-2000-49-292",
+      "ratio": 1.1324173636001595,
+      "anchorCount": 2,
+      "braidNote": "20-310, 30-235",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 4000",
+      "reelId": "daiwa-eliminator-spinning-reel-4000-elt4000-214",
+      "ratio": 1.1304637971304639,
+      "anchorCount": 2,
+      "braidNote": "20-370, 30-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Spheros SW A 18000HG",
+      "reelId": "shimano-spheros-sw-a-18000hg-spsw18000hga-741",
+      "ratio": 1.130334486735871,
+      "anchorCount": 3,
+      "braidNote": "50-600, 65-440, 80-360",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 18000HG",
+      "reelId": "shimano-saragosa-sw-a-18000hg-srg18000swahg-748",
+      "ratio": 1.130334486735871,
+      "anchorCount": 3,
+      "braidNote": "50-600, 65-440, 80-360",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 18000HG",
+      "reelId": "shimano-stella-sw-d-18000hg-stlsw18000hgd-777",
+      "ratio": 1.130334486735871,
+      "anchorCount": 3,
+      "braidNote": "50-600, 65-440, 80-360",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Makaira 30000",
+      "reelId": "okuma-makaira-30000-mk-30000ls-rs-419",
+      "ratio": 1.1270390509144834,
+      "anchorCount": 2,
+      "braidNote": "700/80, 570/100",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG 5000",
+      "reelId": "daiwa-bg-5000-bg5000-189",
+      "ratio": 1.124716553287982,
+      "anchorCount": 2,
+      "braidNote": "50-360, 65-310",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 14000-H",
+      "reelId": "daiwa-bg-mq-14000-h-bgmq14000-h-199",
+      "ratio": 1.1243013042321002,
+      "anchorCount": 2,
+      "braidNote": "65-330, 80-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 14000-H",
+      "reelId": "daiwa-saltist-mq-14000-h-saltistmq14000-h-208",
+      "ratio": 1.1243013042321002,
+      "anchorCount": 2,
+      "braidNote": "65-330, 80-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 14000-XH",
+      "reelId": "daiwa-certate-sw-14000-xh-certsw14000-xh-226",
+      "ratio": 1.1243013042321002,
+      "anchorCount": 2,
+      "braidNote": "65-330, 80-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 14000-XH",
+      "reelId": "daiwa-certate-hd-14000-xh-certhd14000-xh-233",
+      "ratio": 1.1243013042321002,
+      "anchorCount": 2,
+      "braidNote": "65-330, 80-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 14000-XH",
+      "reelId": "daiwa-saltiga-sw-14000-xh-saltiga14000-xh-240",
+      "ratio": 1.1243013042321002,
+      "anchorCount": 2,
+      "braidNote": "65-330, 80-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaTron Spinning 3000",
+      "reelId": "kastking-megatron-spinning-3000-21-264",
+      "ratio": 1.124168514412417,
+      "anchorCount": 2,
+      "braidNote": "30-205, 40-165",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky Baitfeeder III 4000",
+      "reelId": "kastking-sharky-baitfeeder-iii-4000-17-260",
+      "ratio": 1.1224489795918366,
+      "anchorCount": 3,
+      "braidNote": "40-265, 50-225, 60-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky Baitfeeder III 2000",
+      "reelId": "kastking-sharky-baitfeeder-iii-2000-15-258",
+      "ratio": 1.1157024793388428,
+      "anchorCount": 3,
+      "braidNote": "20-250, 30-150, 40-110",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky X Spinning 5000",
+      "reelId": "kastking-sharky-x-spinning-5000-14-257",
+      "ratio": 1.1149825783972127,
+      "anchorCount": 3,
+      "braidNote": "40-260, 50-205, 65-175",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaJaws Spinning 5000",
+      "reelId": "kastking-megajaws-spinning-5000-28-271",
+      "ratio": 1.1149825783972127,
+      "anchorCount": 3,
+      "braidNote": "40-260, 50-205, 65-175",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaTron Spinning 6000",
+      "reelId": "kastking-megatron-spinning-6000-24-267",
+      "ratio": 1.1144100904118763,
+      "anchorCount": 2,
+      "braidNote": "65-195, 80-155",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Revros LT 3000D-C",
+      "reelId": "daiwa-revros-lt-3000d-c-rvslt3000d-c-104",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Regal LT 3000D-C",
+      "reelId": "daiwa-regal-lt-3000d-c-rglt3000d-c-111",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Legalis LT 3000D-C",
+      "reelId": "daiwa-legalis-lt-3000d-c-leglt3000d-c-118",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exceler LT 3000D-C",
+      "reelId": "daiwa-exceler-lt-3000d-c-exelt3000d-c-125",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Fuego LT 3000D-C",
+      "reelId": "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula MQ LT 3000D-CXH",
+      "reelId": "daiwa-tatula-mq-lt-3000d-cxh-talt3000d-cxh-139",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula Elite Spinning 3000D-CXH",
+      "reelId": "daiwa-tatula-elite-spinning-3000d-cxh-tael3000d-cxh-142",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Procyon MQ LT 3000D-CXH",
+      "reelId": "daiwa-procyon-mq-lt-3000d-cxh-pcnmqlt3000d-cxh-147",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Ballistic MQ LT 3000D-CXH",
+      "reelId": "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Sol MQ 3000D-CXH",
+      "reelId": "daiwa-sol-mq-3000d-cxh-solmqlt3000d-cxh-159",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate 3000D-CXH",
+      "reelId": "daiwa-certate-3000d-cxh-certlt3000d-cxh-165",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exist 3000D-CXH",
+      "reelId": "daiwa-exist-3000d-cxh-exist3000d-cxh-174",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 3000D-XH",
+      "reelId": "daiwa-bg-mq-3000d-xh-bgmq3000d-xh-193",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 3000D-XH",
+      "reelId": "daiwa-saltist-mq-3000d-xh-saltistmq3000d-xh-202",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist Back Bay LT 3000-CXH",
+      "reelId": "daiwa-saltist-back-bay-lt-3000-cxh-stblt3000-cxh-210",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 3000",
+      "reelId": "daiwa-eliminator-spinning-reel-3000-elt3000-213",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG LT 3000D-XH",
+      "reelId": "daiwa-bg-lt-3000d-xh",
+      "ratio": 1.1137499999999998,
+      "anchorCount": 2,
+      "braidNote": "15-250, 20-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Spinfisher VII Long Cast 5500",
+      "reelId": "penn-spinfisher-vii-long-cast-5500-ssvii5500lc-509",
+      "ratio": 1.1133680555555554,
+      "anchorCount": 3,
+      "braidNote": "15-450, 20-380, 30-265",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Kapstan Elite Saltwater Spinning 6000",
+      "reelId": "kastking-kapstan-elite-saltwater-spinning-6000-39-282",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing ReKon Saltwater Spinning 6000",
+      "reelId": "kastking-rekon-saltwater-spinning-6000-45-288",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 6000",
+      "reelId": "penn-battle-iv-6000-btliv6000-463",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Fierce IV 6000",
+      "reelId": "penn-fierce-iv-6000-frciv6000-473",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit V 6000",
+      "reelId": "penn-pursuit-v-6000-purv6000-479",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Wrath II 6000",
+      "reelId": "penn-wrath-ii-6000-wrthii6000c-485",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle III 6000",
+      "reelId": "penn-battle-iii-6000",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit III 6000",
+      "reelId": "penn-pursuit-iii-6000",
+      "ratio": 1.1116545791870465,
+      "anchorCount": 3,
+      "braidNote": "30-490, 40-390, 50-335",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky III Spinning 3000",
+      "reelId": "kastking-sharky-iii-spinning-3000-8-251",
+      "ratio": 1.111006761833208,
+      "anchorCount": 2,
+      "braidNote": "30-220, 40-175",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 6000",
+      "reelId": "penn-battle-iv-6000-btliv6000hs-462",
+      "ratio": 1.1095234417239515,
+      "anchorCount": 3,
+      "braidNote": "30-535, 40-425, 50-365",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 10000-H",
+      "reelId": "daiwa-bg-sw-2026-10000-h-bgsw10000-h",
+      "ratio": 1.1082251082251082,
+      "anchorCount": 2,
+      "braidNote": "50-330, 65-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 6000HG",
+      "reelId": "shimano-stella-sw-d-6000hg-stlsw6000hgd-771",
+      "ratio": 1.1077229980051297,
+      "anchorCount": 3,
+      "braidNote": "30-290, 40-230, 50-195",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 6000XG",
+      "reelId": "shimano-stella-sw-d-6000xg-stlsw6000xgd-772",
+      "ratio": 1.1077229980051297,
+      "anchorCount": 3,
+      "braidNote": "30-290, 40-230, 50-195",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Crossfire LT 5000-C",
+      "reelId": "daiwa-crossfire-lt-5000-c-crflt5000-c-94",
+      "ratio": 1.1074218749999998,
+      "anchorCount": 2,
+      "braidNote": "15-320, 20-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Laguna LT 5000-C",
+      "reelId": "daiwa-laguna-lt-5000-c-lagunalt5000-c-100",
+      "ratio": 1.1074218749999998,
+      "anchorCount": 2,
+      "braidNote": "15-320, 20-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Azores Blue 14000",
+      "reelId": "okuma-azores-blue-14000-z-14000h-blue-441",
+      "ratio": 1.107266435986159,
+      "anchorCount": 2,
+      "braidNote": "300/65, 240/80",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Spheros SW A 8000HG",
+      "reelId": "shimano-spheros-sw-a-8000hg-spsw8000hga-738",
+      "ratio": 1.1062764728532921,
+      "anchorCount": 3,
+      "braidNote": "40-340, 50-265, 65-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 8000HG",
+      "reelId": "shimano-saragosa-sw-a-8000hg-srg8000swahg-745",
+      "ratio": 1.1062764728532921,
+      "anchorCount": 3,
+      "braidNote": "40-340, 50-265, 65-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Socorro SW 8000",
+      "reelId": "shimano-socorro-sw-8000-soc8000sw-753",
+      "ratio": 1.1062764728532921,
+      "anchorCount": 3,
+      "braidNote": "40-340, 50-265, 65-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 8000PG",
+      "reelId": "shimano-stella-sw-d-8000pg-stlsw8000pgd-773",
+      "ratio": 1.1062764728532921,
+      "anchorCount": 3,
+      "braidNote": "40-340, 50-265, 65-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Stella SW D 8000HG",
+      "reelId": "shimano-stella-sw-d-8000hg-stlsw8000hgd-774",
+      "ratio": 1.1062764728532921,
+      "anchorCount": 3,
+      "braidNote": "40-340, 50-265, 65-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Fuego LT 2000D",
+      "reelId": "daiwa-fuego-lt-2000d-feglt2000d-130",
+      "ratio": 1.1057142857142856,
+      "anchorCount": 2,
+      "braidNote": "8-280, 10-215",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaJaws Elite Spinning 2000",
+      "reelId": "kastking-megajaws-elite-spinning-2000-krlspnmje-s20dx-247",
+      "ratio": 1.1044327573253194,
+      "anchorCount": 3,
+      "braidNote": "30-110, 40-85, 50-75",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky X Spinning 2000",
+      "reelId": "kastking-sharky-x-spinning-2000-11-254",
+      "ratio": 1.1020408163265305,
+      "anchorCount": 3,
+      "braidNote": "12-195, 15-155, 20-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaJaws Spinning 2000",
+      "reelId": "kastking-megajaws-spinning-2000-25-268",
+      "ratio": 1.1020408163265305,
+      "anchorCount": 3,
+      "braidNote": "12-195, 15-155, 20-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar A 6000",
+      "reelId": "okuma-ceymar-a-6000-c-6000a-364",
+      "ratio": 1.1014876033057852,
+      "anchorCount": 2,
+      "braidNote": "375/30, 255/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar Baitfeeder A 6000",
+      "reelId": "okuma-ceymar-baitfeeder-a-6000-chbf-6000a-411",
+      "ratio": 1.1014876033057852,
+      "anchorCount": 2,
+      "braidNote": "375/30, 255/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 4000",
+      "reelId": "penn-battle-iv-4000-btliv4000hs-459",
+      "ratio": 1.0981376857083074,
+      "anchorCount": 3,
+      "braidNote": "15-410, 20-295, 30-210",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Clash II 4000",
+      "reelId": "penn-clash-ii-4000-claii4000hs-492",
+      "ratio": 1.0981376857083074,
+      "anchorCount": 3,
+      "braidNote": "15-410, 20-295, 30-210",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Kapstan Elite Saltwater Spinning 3000",
+      "reelId": "kastking-kapstan-elite-saltwater-spinning-3000-36-279",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing ReKon Saltwater Spinning 3000",
+      "reelId": "kastking-rekon-saltwater-spinning-3000-42-285",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 3000",
+      "reelId": "penn-battle-iv-3000-btliv3000-458",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Fierce IV 3000",
+      "reelId": "penn-fierce-iv-3000-frciv3000-470",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit V 3000",
+      "reelId": "penn-pursuit-v-3000-purv3000-476",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Wrath II 3000",
+      "reelId": "penn-wrath-ii-3000-wrthii3000c-482",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Clash II 3000",
+      "reelId": "penn-clash-ii-3000-claii3000-489",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle III 3000",
+      "reelId": "penn-battle-iii-3000",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit III 3000",
+      "reelId": "penn-pursuit-iii-3000",
+      "ratio": 1.0973936899862828,
+      "anchorCount": 3,
+      "braidNote": "15-250, 20-180, 30-130",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Makaira 10000",
+      "reelId": "okuma-makaira-10000-mk-10000l-r-417",
+      "ratio": 1.0956357758620692,
+      "anchorCount": 2,
+      "braidNote": "415/50, 290/65",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Clash II 3000",
+      "reelId": "penn-clash-ii-3000-claii3000hs-490",
+      "ratio": 1.0940170940170943,
+      "anchorCount": 3,
+      "braidNote": "15-270, 20-195, 30-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Kapstan Elite Saltwater Spinning 4000",
+      "reelId": "kastking-kapstan-elite-saltwater-spinning-4000-37-280",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing ReKon Saltwater Spinning 4000",
+      "reelId": "kastking-rekon-saltwater-spinning-4000-43-286",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 4000",
+      "reelId": "penn-battle-iv-4000-btliv4000-460",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Fierce IV 4000",
+      "reelId": "penn-fierce-iv-4000-frciv4000-471",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit V 4000",
+      "reelId": "penn-pursuit-v-4000-purv4000-477",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Wrath II 4000",
+      "reelId": "penn-wrath-ii-4000-wrthii4000c-483",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Clash II 4000",
+      "reelId": "penn-clash-ii-4000-claii4000-491",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle III 4000",
+      "reelId": "penn-battle-iii-4000",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit III 4000",
+      "reelId": "penn-pursuit-iii-4000",
+      "ratio": 1.094017094017094,
+      "anchorCount": 3,
+      "braidNote": "15-360, 20-260, 30-185",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Kapstan Elite Saltwater Spinning 5000",
+      "reelId": "kastking-kapstan-elite-saltwater-spinning-5000-38-281",
+      "ratio": 1.0933884297520664,
+      "anchorCount": 2,
+      "braidNote": "30-400, 50-315, 50-270",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing ReKon Saltwater Spinning 5000",
+      "reelId": "kastking-rekon-saltwater-spinning-5000-44-287",
+      "ratio": 1.0933884297520664,
+      "anchorCount": 2,
+      "braidNote": "30-400, 50-315, 50-270",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Offshore Angler Sea Lion Spinning Reel 6000",
+      "reelId": "offshore-angler-sea-lion-spinning-reel-6000-sls60-80",
+      "ratio": 1.0926971407758146,
+      "anchorCount": 3,
+      "braidNote": "65-230, 80-190, 100-150",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Revros LT 6000D",
+      "reelId": "daiwa-revros-lt-6000d-rvslt6000d-107",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Regal LT 6000D",
+      "reelId": "daiwa-regal-lt-6000d-rglt6000d-114",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Legalis LT 6000D",
+      "reelId": "daiwa-legalis-lt-6000d-leglt6000d-121",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exceler LT 6000D",
+      "reelId": "daiwa-exceler-lt-6000d-exelt6000d-128",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 6000D-H",
+      "reelId": "daiwa-bg-mq-6000d-h-bgmq6000d-h-196",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 6000D-H",
+      "reelId": "daiwa-saltist-mq-6000d-h-saltistmq6000d-h-205",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 6000-H",
+      "reelId": "daiwa-certate-sw-6000-h-certsw6000-h-223",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 6000-H",
+      "reelId": "daiwa-certate-hd-6000-h-certhd6000-h-230",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 6000-H",
+      "reelId": "daiwa-saltiga-sw-6000-h-saltiga6000-h-237",
+      "ratio": 1.091167355371901,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 18000",
+      "reelId": "daiwa-bg-sw-2026-18000-bgsw18000",
+      "ratio": 1.0904896718045507,
+      "anchorCount": 2,
+      "braidNote": "80-330, 100-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar A 3000",
+      "reelId": "okuma-ceymar-a-3000-c-3000a-362",
+      "ratio": 1.0898437499999998,
+      "anchorCount": 2,
+      "braidNote": "180/15, 155/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar Baitfeeder A 3000",
+      "reelId": "okuma-ceymar-baitfeeder-a-3000-chbf-3000a-409",
+      "ratio": 1.0898437499999998,
+      "anchorCount": 2,
+      "braidNote": "180/15, 155/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Tesoro 6000",
+      "reelId": "okuma-tesoro-6000-tsr-6000xa-421",
+      "ratio": 1.0891992020518668,
+      "anchorCount": 2,
+      "braidNote": "290/30, 195/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Spheros SW A 6000HG",
+      "reelId": "shimano-spheros-sw-a-6000hg-spsw6000hga-737",
+      "ratio": 1.0891992020518668,
+      "anchorCount": 3,
+      "braidNote": "30-290, 50-195, 65-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Socorro SW 6000",
+      "reelId": "shimano-socorro-sw-6000-soc6000sw-752",
+      "ratio": 1.0891992020518668,
+      "anchorCount": 3,
+      "braidNote": "30-290, 50-195, 65-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Twin Power SW C 6000HG",
+      "reelId": "shimano-twin-power-sw-c-6000hg-tpsw6000hgc-768",
+      "ratio": 1.0891992020518668,
+      "anchorCount": 3,
+      "braidNote": "30-290, 50-195, 65-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Makaira 20000",
+      "reelId": "okuma-makaira-20000-mk-20000ls-rs-418",
+      "ratio": 1.0851211072664357,
+      "anchorCount": 2,
+      "braidNote": "490/65, 400/80",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Tesoro 20000",
+      "reelId": "okuma-tesoro-20000-tsr-20000pa-426",
+      "ratio": 1.0851211072664357,
+      "anchorCount": 2,
+      "braidNote": "490/65, 400/80",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Bass Pro Shops Formula Spinning Reel 30",
+      "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
+      "ratio": 1.0798898071625347,
+      "anchorCount": 3,
+      "braidNote": "30-150, 40-115, 50-100",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky X Spinning 4000",
+      "reelId": "kastking-sharky-x-spinning-4000-13-256",
+      "ratio": 1.0756302521008403,
+      "anchorCount": 3,
+      "braidNote": "40-210, 50-170, 65-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaJaws Spinning 4000",
+      "reelId": "kastking-megajaws-spinning-4000-27-270",
+      "ratio": 1.0756302521008403,
+      "anchorCount": 3,
+      "braidNote": "40-210, 50-170, 65-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 8000",
+      "reelId": "penn-battle-iv-8000-btliv8000hs-464",
+      "ratio": 1.073657618387161,
+      "anchorCount": 3,
+      "braidNote": "50-515, 65-420, 80-375",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Kapstan Elite Saltwater Spinning 8000",
+      "reelId": "kastking-kapstan-elite-saltwater-spinning-8000-40-283",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing ReKon Saltwater Spinning 8000",
+      "reelId": "kastking-rekon-saltwater-spinning-8000-46-289",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Battle IV 8000",
+      "reelId": "penn-battle-iv-8000-btliv8000-465",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Fierce IV 8000",
+      "reelId": "penn-fierce-iv-8000-frciv8000-474",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit V 8000",
+      "reelId": "penn-pursuit-v-8000-purv8000-480",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Wrath II 8000",
+      "reelId": "penn-wrath-ii-8000-wrthii8000c-486",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "PENN Pursuit III 8000",
+      "reelId": "penn-pursuit-iii-8000",
+      "ratio": 1.0723952738990334,
+      "anchorCount": 3,
+      "braidNote": "50-475, 65-390, 80-345",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Saragosa SW A 6000HG",
+      "reelId": "shimano-saragosa-sw-a-6000hg-srg6000swahg-744",
+      "ratio": 1.0707381986272588,
+      "anchorCount": 3,
+      "braidNote": "30-295, 50-195, 65-140",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Revros LT 4000D-C",
+      "reelId": "daiwa-revros-lt-4000d-c-rvslt4000d-c-105",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Regal LT 4000D-C",
+      "reelId": "daiwa-regal-lt-4000d-c-rglt4000d-c-112",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Legalis LT 4000D-C",
+      "reelId": "daiwa-legalis-lt-4000d-c-leglt4000d-c-119",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exceler LT 4000D-C",
+      "reelId": "daiwa-exceler-lt-4000d-c-exelt4000d-c-126",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Fuego LT 4000D-C",
+      "reelId": "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula MQ LT 4000D-CXH",
+      "reelId": "daiwa-tatula-mq-lt-4000d-cxh-talt4000d-cxh-140",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula Elite Spinning 4000D-CXH",
+      "reelId": "daiwa-tatula-elite-spinning-4000d-cxh-tael4000d-cxh-143",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Procyon MQ LT 4000D-CXH",
+      "reelId": "daiwa-procyon-mq-lt-4000d-cxh-pcnmqlt4000d-cxh-148",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Ballistic MQ LT 4000D-CXH",
+      "reelId": "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Sol MQ 4000D-CXH",
+      "reelId": "daiwa-sol-mq-4000d-cxh-solmqlt4000d-cxh-160",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate 4000D-CXH",
+      "reelId": "daiwa-certate-4000d-cxh-certlt4000d-cxh-166",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exist 4000D-CXH",
+      "reelId": "daiwa-exist-4000d-cxh-exist4000d-cxh-175",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 4000D-XH",
+      "reelId": "daiwa-bg-mq-4000d-xh-bgmq4000d-xh-194",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 4000D-XH",
+      "reelId": "daiwa-saltist-mq-4000d-xh-saltistmq4000d-xh-203",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist Back Bay LT 4000-CXH",
+      "reelId": "daiwa-saltist-back-bay-lt-4000-cxh-stblt4000-cxh-211",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG LT 4000D-CXH",
+      "reelId": "daiwa-bg-lt-4000d-cxh",
+      "ratio": 1.0670194003527336,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Crossfire LT 2000",
+      "reelId": "daiwa-crossfire-lt-2000-crflt2000-90",
+      "ratio": 1.065340909090909,
+      "anchorCount": 2,
+      "braidNote": "6-220, 8-150",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Laguna LT 2000",
+      "reelId": "daiwa-laguna-lt-2000-lagunalt2000-96",
+      "ratio": 1.065340909090909,
+      "anchorCount": 2,
+      "braidNote": "6-220, 8-150",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG 2500",
+      "reelId": "daiwa-bg-2500-bg2500-184",
+      "ratio": 1.0544662309368191,
+      "anchorCount": 2,
+      "braidNote": "20-170, 30-120",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky III Spinning 4000",
+      "reelId": "kastking-sharky-iii-spinning-4000-9-252",
+      "ratio": 1.054330285099516,
+      "anchorCount": 2,
+      "braidNote": "40-220, 50-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Fuego LT 6000D",
+      "reelId": "daiwa-fuego-lt-6000d-feglt6000d-135",
+      "ratio": 1.047520661157025,
+      "anchorCount": 2,
+      "braidNote": "30-320, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 6500",
+      "reelId": "daiwa-eliminator-spinning-reel-6500-elt6500-217",
+      "ratio": 1.0448979591836733,
+      "anchorCount": 2,
+      "braidNote": "50-550, 65-440",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Free Swimmer 8000",
+      "reelId": "daiwa-free-swimmer-8000-frsw8000-219",
+      "ratio": 1.0448979591836733,
+      "anchorCount": 2,
+      "braidNote": "50-550, 65-440",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 5000-H",
+      "reelId": "daiwa-bg-sw-2026-5000-h-bgsw5000-h",
+      "ratio": 1.0411522633744856,
+      "anchorCount": 2,
+      "braidNote": "20-330, 30-230",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 18000-H",
+      "reelId": "daiwa-certate-sw-18000-h-certsw18000-h-227",
+      "ratio": 1.0380622837370241,
+      "anchorCount": 2,
+      "braidNote": "80-440, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 18000-H",
+      "reelId": "daiwa-certate-hd-18000-h-certhd18000-h-234",
+      "ratio": 1.0380622837370241,
+      "anchorCount": 2,
+      "braidNote": "80-440, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 18000-H",
+      "reelId": "daiwa-saltiga-sw-18000-h-saltiga18000-h-241",
+      "ratio": 1.0380622837370241,
+      "anchorCount": 2,
+      "braidNote": "80-440, 100-330",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Revros LT 5000D-C",
+      "reelId": "daiwa-revros-lt-5000d-c-rvslt5000d-c-106",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Regal LT 5000D-C",
+      "reelId": "daiwa-regal-lt-5000d-c-rglt5000d-c-113",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Legalis LT 5000D-C",
+      "reelId": "daiwa-legalis-lt-5000d-c-leglt5000d-c-120",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exceler LT 5000D-C",
+      "reelId": "daiwa-exceler-lt-5000d-c-exelt5000d-c-127",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Fuego LT 5000D-C",
+      "reelId": "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Procyon MQ LT 5000D-CXH",
+      "reelId": "daiwa-procyon-mq-lt-5000d-cxh-pcnmqlt5000d-cxh-149",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Ballistic MQ LT 5000D-CXH",
+      "reelId": "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Sol MQ 5000D-CXH",
+      "reelId": "daiwa-sol-mq-5000d-cxh-solmqlt5000d-cxh-161",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate 5000D-CXH",
+      "reelId": "daiwa-certate-5000d-cxh-certlt5000d-cxh-167",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 5000D-CXH",
+      "reelId": "daiwa-bg-mq-5000d-cxh-bgmq5000d-cxh-195",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 5000D-XH",
+      "reelId": "daiwa-saltist-mq-5000d-xh-saltistmq5000d-xh-204",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 5000-H",
+      "reelId": "daiwa-certate-sw-5000-h-certsw5000-h-222",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 5000-H",
+      "reelId": "daiwa-certate-hd-5000-h-certhd5000-h-229",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 5000-H",
+      "reelId": "daiwa-saltiga-sw-5000-h-saltiga5000-h-236",
+      "ratio": 1.0292159763313609,
+      "anchorCount": 2,
+      "braidNote": "30-230, 40-160",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Centron Spinning 4000",
+      "reelId": "kastking-centron-spinning-4000-51-294",
+      "ratio": 1.0280612244897958,
+      "anchorCount": 2,
+      "braidNote": "40-310, 50-260",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Ceymar A 4000",
+      "reelId": "okuma-ceymar-a-4000-c-4000a-363",
+      "ratio": 1.026232741617357,
+      "anchorCount": 2,
+      "braidNote": "215/30, 150/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Azores Blue 4000",
+      "reelId": "okuma-azores-blue-4000-z-4000h-blue-438",
+      "ratio": 1.026232741617357,
+      "anchorCount": 2,
+      "braidNote": "215/30, 150/40",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Revros LT 1000D",
+      "reelId": "daiwa-revros-lt-1000d-rvslt1000d-101",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Regal LT 1000D",
+      "reelId": "daiwa-regal-lt-1000d-rglt1000d-108",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Legalis LT 1000D",
+      "reelId": "daiwa-legalis-lt-1000d-leglt1000d-115",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exceler LT 1000D",
+      "reelId": "daiwa-exceler-lt-1000d-exelt1000d-122",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Fuego LT 1000D",
+      "reelId": "daiwa-fuego-lt-1000d-feglt1000d-129",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Tatula MQ LT 1000D-XH",
+      "reelId": "daiwa-tatula-mq-lt-1000d-xh-talt1000d-xh-136",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Procyon MQ LT 1000D-XH",
+      "reelId": "daiwa-procyon-mq-lt-1000d-xh-pcnmqlt1000d-xh-144",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Ballistic MQ LT 1000D-XH",
+      "reelId": "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Sol MQ 1000D-XH",
+      "reelId": "daiwa-sol-mq-1000d-xh-solmqlt1000d-xh-156",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate 1000D-XH",
+      "reelId": "daiwa-certate-1000d-xh-certlt1000d-xh-162",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Luvias ST 1000D-XH",
+      "reelId": "daiwa-luvias-st-1000d-xh-luvst1000d-xh-168",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Exist 1000D-XH",
+      "reelId": "daiwa-exist-1000d-xh-exist1000d-xh-171",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Kage LT 1000D-XH",
+      "reelId": "daiwa-kage-lt-1000d-xh-kglt1000d-xh-176",
+      "ratio": 1.024,
+      "anchorCount": 2,
+      "braidNote": "6-320, 8-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Salina 6000",
+      "reelId": "okuma-salina-6000-sa-6000ha-429",
+      "ratio": 1.0219198790627362,
+      "anchorCount": 2,
+      "braidNote": "320/40, 270/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cedros 6000",
+      "reelId": "okuma-cedros-6000-cj-6000h-434",
+      "ratio": 1.0219198790627362,
+      "anchorCount": 2,
+      "braidNote": "320/40, 270/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky Baitfeeder III 5000",
+      "reelId": "kastking-sharky-baitfeeder-iii-5000-18-261",
+      "ratio": 1.0215111111111113,
+      "anchorCount": 3,
+      "braidNote": "40-340, 50-290, 60-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa DF18000 18000",
+      "reelId": "daiwa-df18000-18000-df18000-221",
+      "ratio": 1.0208333333333333,
+      "anchorCount": 2,
+      "braidNote": "50-600, 65-450",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing MegaTron Spinning 4000",
+      "reelId": "kastking-megatron-spinning-4000-22-265",
+      "ratio": 1.0205917159763314,
+      "anchorCount": 2,
+      "braidNote": "40-250, 50-220",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Surf-8K 8000",
+      "reelId": "okuma-surf-8k-8000-surf-8k-443",
+      "ratio": 1.0201207243460764,
+      "anchorCount": 2,
+      "braidNote": "840/40, 710/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Tesoro 18000",
+      "reelId": "okuma-tesoro-18000-tsr-18000pa-425",
+      "ratio": 1.0186851211072663,
+      "anchorCount": 2,
+      "braidNote": "460/65, 400/80",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Speed Demon Elite Spinning 2000",
+      "reelId": "kastking-speed-demon-elite-spinning-2000-29-272",
+      "ratio": 1.0175206611570247,
+      "anchorCount": 2,
+      "braidNote": "20-190, 30-125",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 8000-H",
+      "reelId": "daiwa-bg-mq-8000-h-bgmq8000-h-197",
+      "ratio": 1.0162172011661808,
+      "anchorCount": 2,
+      "braidNote": "40-330, 50-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 8000-H",
+      "reelId": "daiwa-saltist-mq-8000-h-saltistmq8000-h-206",
+      "ratio": 1.0162172011661808,
+      "anchorCount": 2,
+      "braidNote": "40-330, 50-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 8000-H",
+      "reelId": "daiwa-certate-sw-8000-h-certsw8000-h-224",
+      "ratio": 1.0162172011661808,
+      "anchorCount": 2,
+      "braidNote": "40-330, 50-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 8000-H",
+      "reelId": "daiwa-certate-hd-8000-h-certhd8000-h-231",
+      "ratio": 1.0162172011661808,
+      "anchorCount": 2,
+      "braidNote": "40-330, 50-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 8000-H",
+      "reelId": "daiwa-saltiga-sw-8000-h-saltiga8000-h-238",
+      "ratio": 1.0162172011661808,
+      "anchorCount": 2,
+      "braidNote": "40-330, 50-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 8000-H",
+      "reelId": "daiwa-bg-sw-2026-8000-h-bgsw8000-h",
+      "ratio": 1.0162172011661808,
+      "anchorCount": 2,
+      "braidNote": "40-330, 50-280",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG SW 2026 6000-H",
+      "reelId": "daiwa-bg-sw-2026-6000-h-bgsw6000-h",
+      "ratio": 1.0157776108189331,
+      "anchorCount": 2,
+      "braidNote": "30-330, 40-240",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Salina 5000",
+      "reelId": "okuma-salina-5000-sa-5000ha-428",
+      "ratio": 1.0147928994082842,
+      "anchorCount": 2,
+      "braidNote": "240/40, 210/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Aria A 5000",
+      "reelId": "okuma-aria-a-5000-aria-5000a-454",
+      "ratio": 1.0147928994082842,
+      "anchorCount": 2,
+      "braidNote": "240/40, 210/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Tesoro 8000",
+      "reelId": "okuma-tesoro-8000-tsr-8000ha-422",
+      "ratio": 1.0144057623049219,
+      "anchorCount": 2,
+      "braidNote": "500/40, 425/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Salina 8000",
+      "reelId": "okuma-salina-8000-sa-8000a-430",
+      "ratio": 1.0144057623049219,
+      "anchorCount": 2,
+      "braidNote": "500/40, 425/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cedros 8000",
+      "reelId": "okuma-cedros-8000-cj-8000-435",
+      "ratio": 1.0144057623049219,
+      "anchorCount": 2,
+      "braidNote": "500/40, 425/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Speed Demon Elite Spinning 3000",
+      "reelId": "kastking-speed-demon-elite-spinning-3000-30-273",
+      "ratio": 1.013668430335097,
+      "anchorCount": 2,
+      "braidNote": "20-280, 30-190",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Inspira ISX 3000",
+      "reelId": "okuma-inspira-isx-3000-isx-3000ha-368",
+      "ratio": 1.0125,
+      "anchorCount": 2,
+      "braidNote": "300/15, 240/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Avenger B 3000",
+      "reelId": "okuma-avenger-b-3000-av-3000b-379",
+      "ratio": 1.0125,
+      "anchorCount": 2,
+      "braidNote": "300/15, 240/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Rockaway SI 3000",
+      "reelId": "okuma-rockaway-si-3000-rsi-3000ha-387",
+      "ratio": 1.0125,
+      "anchorCount": 2,
+      "braidNote": "300/15, 240/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Acuador 3000",
+      "reelId": "okuma-acuador-3000-acu-3000a-392",
+      "ratio": 1.0125,
+      "anchorCount": 2,
+      "braidNote": "300/15, 240/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma ROX 3000",
+      "reelId": "okuma-rox-3000-rox-3000a-396",
+      "ratio": 1.0125,
+      "anchorCount": 2,
+      "braidNote": "300/15, 240/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Aria A 3000",
+      "reelId": "okuma-aria-a-3000-aria-3000a-452",
+      "ratio": 1.0125,
+      "anchorCount": 2,
+      "braidNote": "300/15, 240/20",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cat Slayer Custom 6000 Baitfeeder",
+      "reelId": "okuma-cat-slayer-custom-6000-baitfeeder-cscf-6000ng-449",
+      "ratio": 1.010907811400422,
+      "anchorCount": 2,
+      "braidNote": "340/40, 290/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cat Slayer Custom 6000 Baitfeeder",
+      "reelId": "okuma-cat-slayer-custom-6000-baitfeeder-cscf-6000no-450",
+      "ratio": 1.010907811400422,
+      "anchorCount": 2,
+      "braidNote": "340/40, 290/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG MQ 10000-H",
+      "reelId": "daiwa-bg-mq-10000-h-bgmq10000-h-198",
+      "ratio": 1.010625,
+      "anchorCount": 2,
+      "braidNote": "50-330, 65-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltist MQ 10000-H",
+      "reelId": "daiwa-saltist-mq-10000-h-saltistmq10000-h-207",
+      "ratio": 1.010625,
+      "anchorCount": 2,
+      "braidNote": "50-330, 65-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate SW 10000-H",
+      "reelId": "daiwa-certate-sw-10000-h-certsw10000-h-225",
+      "ratio": 1.010625,
+      "anchorCount": 2,
+      "braidNote": "50-330, 65-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Certate HD 10000-H",
+      "reelId": "daiwa-certate-hd-10000-h-certhd10000-h-232",
+      "ratio": 1.010625,
+      "anchorCount": 2,
+      "braidNote": "50-330, 65-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Saltiga SW 10000-H",
+      "reelId": "daiwa-saltiga-sw-10000-h-saltiga10000-h-239",
+      "ratio": 1.010625,
+      "anchorCount": 2,
+      "braidNote": "50-330, 65-250",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa Eliminator Spinning Reel 4500",
+      "reelId": "daiwa-eliminator-spinning-reel-4500-elt4500-215",
+      "ratio": 1.0101164344340523,
+      "anchorCount": 2,
+      "braidNote": "40-310, 50-270",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky III Spinning 5000",
+      "reelId": "kastking-sharky-iii-spinning-5000-10-253",
+      "ratio": 1.008654970760234,
+      "anchorCount": 2,
+      "braidNote": "50-220, 60-190",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cat Slayer Custom 6000",
+      "reelId": "okuma-cat-slayer-custom-6000-csc-6000ng-447",
+      "ratio": 1.0051282051282053,
+      "anchorCount": 2,
+      "braidNote": "300/40, 260/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Okuma Cat Slayer Custom 6000",
+      "reelId": "okuma-cat-slayer-custom-6000-csc-6000no-448",
+      "ratio": 1.0051282051282053,
+      "anchorCount": 2,
+      "braidNote": "300/40, 260/50",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Daiwa BG 4000",
+      "reelId": "daiwa-bg-4000-bg4000-187",
+      "ratio": 1.0023668639053254,
+      "anchorCount": 2,
+      "braidNote": "30-280, 40-200",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "KastKing Sharky Baitfeeder III 6000",
+      "reelId": "kastking-sharky-baitfeeder-iii-6000-19-262",
+      "ratio": 1.0017777777777777,
+      "anchorCount": 2,
+      "braidNote": "50-345, 60-300, 70-230",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Vanquish 1000SSSPG",
+      "reelId": "shimano-vanquish-1000ssspg-781",
+      "ratio": 1.0000000000000002,
+      "anchorCount": 2,
+      "braidNote": "PE 0.3-120, 0.4-90",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Vanquish CE 1000SSS",
+      "reelId": "shimano-vanquish-ce-1000sss-796",
+      "ratio": 1.0000000000000002,
+      "anchorCount": 2,
+      "braidNote": "PE 0.3-120, 0.4-90",
+      "reviewPriority": "normal"
+    },
+    {
+      "reel": "Shimano Vanquish CE 1000SSSPG",
+      "reelId": "shimano-vanquish-ce-1000ssspg-797",
+      "ratio": 1.0000000000000002,
+      "anchorCount": 2,
+      "braidNote": "PE 0.3-120, 0.4-90",
+      "reviewPriority": "normal"
+    }
+  ]
+}

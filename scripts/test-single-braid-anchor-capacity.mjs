@@ -20,8 +20,8 @@ const kvd300 = reels.find((reel) => reel.id === "lew-s-kvd-spinning-reel-300-kvd
 assert.ok(kvd300, "Lew's KVD Spinning Reel 300 fixture is missing");
 assert.deepEqual(
   JSON.parse(JSON.stringify(core.publishedBraidCapacityOptions(kvd300))),
-  [{ lb: 40, yards: 180 }],
-  "KVD 300 should retain its single published 40 lb / 180 yd braid anchor"
+  [{ lb: 15, yards: 250 }],
+  "KVD 300 should retain its manufacturer-listed 15 lb / 250 yd braid anchor"
 );
 
 const setups = engine.recommendSetups({
@@ -80,13 +80,14 @@ for (const setup of [ten, fifteen, thirty]) {
 const visibleBraidSetups = setups.filter((setup) => /braid/i.test(String(setup.line.type)));
 assert.ok(visibleBraidSetups.length > 0, "KVD 300 should retain realistic bass braid recommendations");
 assert.ok(
-  visibleBraidSetups.every((setup) => Number(setup.line.lb) >= 20),
-  "KVD 300 recommendations must not fall below half of its lightest published braid rating"
+  visibleBraidSetups.every((setup) => Number(setup.line.lb) >= 10),
+  "KVD 300 recommendations must remain within its manufacturer-backed practical guidance"
 );
-assert.equal(Number(setups[0].line.lb), 20, "KVD 300 Best Pick should use 20 lb braid after the published-rating guard");
+assert.equal(Number(setups[0].line.lb), 15, "KVD 300 Best Pick should use its exact 15 lb published braid anchor");
+assert.ok(Math.abs(Number(setups[0].capacityYards) - 250) < 0.001, "KVD 300 exact-anchor Best Pick should center on 250 yards");
 
 const legacyTen = core.publishedBraidCapacityEstimate(kvd300, ten.line);
-assert.ok(legacyTen.yards > 180, "The no-catalog fallback must not freeze 10 lb braid at 180 yards");
+assert.ok(legacyTen.yards > 250, "The no-catalog fallback must not freeze thinner 10 lb braid at 250 yards");
 
 console.log("Single braid-anchor regression passed.");
 console.log(

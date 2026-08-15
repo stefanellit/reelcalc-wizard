@@ -1,0 +1,246 @@
+{
+  "applied_at": "2026-08-15T12:56:18.536Z",
+  "checked_date": "2026-08-15",
+  "changed_records": 26,
+  "changes": [
+    {
+      "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
+      "name": "Lew's KVD Spinning Reel 200",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
+      "name": "Lew's KVD Spinning Reel 300",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
+      "name": "Lew's KVD Spinning Reel 400",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-100-kvd100g2-335",
+      "name": "Lew's KVD Elite Spinning Reel 100",
+      "fields": [
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-200-kvd200g2-336",
+      "name": "Lew's KVD Elite Spinning Reel 200",
+      "fields": [
+        "source_conflict",
+        "verification"
+      ]
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-300-kvd300g2-337",
+      "name": "Lew's KVD Elite Spinning Reel 300",
+      "fields": [
+        "source_conflict",
+        "verification"
+      ]
+    },
+    {
+      "id": "lew-s-kvd-elite-spinning-reel-300-shallow-kvd300ssg2-338",
+      "name": "Lew's KVD Elite Spinning Reel 300 Shallow",
+      "fields": [
+        "sku",
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source_conflict"
+      ]
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-10-fma10-47",
+      "name": "Bass Pro Shops Formula Spinning Reel 10",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
+      "name": "Bass Pro Shops Formula Spinning Reel 20",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
+      "name": "Bass Pro Shops Formula Spinning Reel 30",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
+      "name": "Bass Pro Shops Formula Spinning Reel 40",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "offshore-angler-sea-lion-spinning-reel-5000-sls50-79",
+      "name": "Offshore Angler Sea Lion Spinning Reel 5000",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "offshore-angler-sea-lion-spinning-reel-6000-sls60-80",
+      "name": "Offshore Angler Sea Lion Spinning Reel 6000",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "offshore-angler-sea-lion-spinning-reel-7000-sls70-81",
+      "name": "Offshore Angler Sea Lion Spinning Reel 7000",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "offshore-angler-sea-lion-spinning-reel-8000-sls80-82",
+      "name": "Offshore Angler Sea Lion Spinning Reel 8000",
+      "fields": [
+        "mono_capacity",
+        "braid_capacity",
+        "mechanical_specs",
+        "source",
+        "verification"
+      ]
+    },
+    {
+      "id": "okuma-makaira-10000-mk-10000l-r-417",
+      "name": "Okuma Makaira 10000",
+      "fields": [
+        "source_url"
+      ]
+    },
+    {
+      "id": "okuma-makaira-20000-mk-20000ls-rs-418",
+      "name": "Okuma Makaira 20000",
+      "fields": [
+        "source_url"
+      ]
+    },
+    {
+      "id": "okuma-makaira-30000-mk-30000ls-rs-419",
+      "name": "Okuma Makaira 30000",
+      "fields": [
+        "source_url"
+      ]
+    },
+    {
+      "id": "okuma-rox-4000-rox-4000a-397",
+      "name": "Okuma ROX 4000",
+      "fields": [
+        "braid_capacity",
+        "source_conflict"
+      ]
+    },
+    {
+      "id": "okuma-avenger-b-6000-av-6000b-382",
+      "name": "Okuma Avenger B 6000",
+      "fields": [
+        "placeholder_cleanup",
+        "verification"
+      ]
+    },
+    {
+      "id": "okuma-avenger-b-8000-av-8000b-383",
+      "name": "Okuma Avenger B 8000",
+      "fields": [
+        "placeholder_cleanup",
+        "verification"
+      ]
+    },
+    {
+      "id": "okuma-avenger-b-10000-av-10000b-384",
+      "name": "Okuma Avenger B 10000",
+      "fields": [
+        "placeholder_cleanup",
+        "verification"
+      ]
+    },
+    {
+      "id": "okuma-avenger-b-14000-av-14000b-385",
+      "name": "Okuma Avenger B 14000",
+      "fields": [
+        "placeholder_cleanup",
+        "verification"
+      ]
+    },
+    {
+      "id": "quantum-optix-20-op20-594",
+      "name": "Quantum Optix 20",
+      "fields": [
+        "source",
+        "identity_review"
+      ]
+    },
+    {
+      "id": "quantum-optix-40-op40-596",
+      "name": "Quantum Optix 40",
+      "fields": [
+        "source",
+        "identity_review"
+      ]
+    },
+    {
+      "id": "quantum-smoke-x-25-smx25xpt-bx3-608",
+      "name": "Quantum Smoke X 25",
+      "fields": [
+        "source",
+        "weight",
+        "verification"
+      ]
+    }
+  ]
+}

@@ -2880,22 +2880,34 @@
     "spool_space": 0.012635,
     "capacity_options": [
       {
+        "lb": 4,
+        "yards": 200,
+        "diameter_in": 0.008,
+        "spool_space": 0.0128,
+        "raw": "4-200"
+      },
+      {
         "lb": 6,
         "yards": 140,
         "diameter_in": 0.0095,
         "spool_space": 0.012635,
-        "raw": "6/140"
+        "raw": "6-140"
+      },
+      {
+        "lb": 8,
+        "yards": 110,
+        "diameter_in": 0.011,
+        "spool_space": 0.01331,
+        "raw": "8-110"
       }
     ],
-    "capacity_note": "6/140",
-    "braid_capacity_note": "20/140",
+    "capacity_note": "4-200, 6-140, 8-110",
+    "braid_capacity_note": "15-200, 20-140, 30-110",
     "capacity_status": "ready",
-    "capacity_data_source": "official_product_table_partial",
-    "source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
+    "capacity_data_source": "Official Bass Pro Shops Formula owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "5.1:1",
     "max_drag_lb": 11,
     "weight_oz": 8.2,
@@ -2910,12 +2922,16 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 18,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_product_table_partial",
-    "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 1000
+    "ipt_source_name": "Official Bass Pro Shops Formula owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 1000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact FMA10/FMA20/FMA30/FMA40 family table lists complete mono, braid, retrieve, weight, drag, ratio, and bearing specifications.",
+    "source_conflicts": []
   },
   {
     "id": "bass-pro-shops-formula-spinning-reel-20-fma20-48",
@@ -2931,22 +2947,34 @@
     "spool_space": 0.015125,
     "capacity_options": [
       {
+        "lb": 6,
+        "yards": 160,
+        "diameter_in": 0.0095,
+        "spool_space": 0.01444,
+        "raw": "6-160"
+      },
+      {
         "lb": 8,
         "yards": 125,
         "diameter_in": 0.011,
         "spool_space": 0.015125,
-        "raw": "8/125"
+        "raw": "8-125"
+      },
+      {
+        "lb": 10,
+        "yards": 105,
+        "diameter_in": 0.012,
+        "spool_space": 0.01512,
+        "raw": "10-105"
       }
     ],
-    "capacity_note": "8/125",
-    "braid_capacity_note": "30/125",
+    "capacity_note": "6-160, 8-125, 10-105",
+    "braid_capacity_note": "20-160, 30-125, 40-105",
     "capacity_status": "ready",
-    "capacity_data_source": "official_product_table_partial",
-    "source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
+    "capacity_data_source": "Official Bass Pro Shops Formula owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "5.1:1",
     "max_drag_lb": 11,
     "weight_oz": 8.2,
@@ -2961,12 +2989,16 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 21,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_product_table_partial",
-    "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 2000
+    "ipt_source_name": "Official Bass Pro Shops Formula owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 2000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact FMA10/FMA20/FMA30/FMA40 family table lists complete mono, braid, retrieve, weight, drag, ratio, and bearing specifications.",
+    "source_conflicts": []
   },
   {
     "id": "bass-pro-shops-formula-spinning-reel-30-fma30-49",
@@ -2976,41 +3008,64 @@
     "size_label": "30",
     "size_class": "30",
     "reel_type": "",
-    "capacity_yards": null,
-    "rated_line_lb": null,
-    "rated_line_diameter_in": null,
-    "spool_space": null,
-    "capacity_options": [],
-    "capacity_note": "",
-    "braid_capacity_note": "",
-    "capacity_status": "manual_required",
-    "capacity_data_source": "needs_official_audit",
-    "source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
-    "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Missing mono capacity; manual entry required for calculations.",
-      "Source/spec should be verified before public use."
+    "capacity_yards": 115,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.01656,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 150,
+        "diameter_in": 0.011,
+        "spool_space": 0.01815,
+        "raw": "8-150"
+      },
+      {
+        "lb": 10,
+        "yards": 115,
+        "diameter_in": 0.012,
+        "spool_space": 0.01656,
+        "raw": "10-115"
+      },
+      {
+        "lb": 12,
+        "yards": 100,
+        "diameter_in": 0.014,
+        "spool_space": 0.0196,
+        "raw": "12-100"
+      }
     ],
-    "gear_ratio": "",
-    "max_drag_lb": null,
-    "weight_oz": null,
-    "line_retrieve_in": null,
-    "bearings": "",
+    "capacity_note": "8-150, 10-115, 12-100",
+    "braid_capacity_note": "30-150, 40-115, 50-100",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official Bass Pro Shops Formula owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+    "source_file": "bass_pro_reel_database_master.json",
+    "data_warnings": [],
+    "gear_ratio": "5.0:1",
+    "max_drag_lb": 11,
+    "weight_oz": 9.3,
+    "line_retrieve_in": 22,
+    "bearings": "9+1",
     "msrp_usd": null,
     "reelcalc_recommended_braid": "10-20 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-10 lb mono/fluoro",
     "reelcalc_use_case": "bass, walleye, general freshwater",
     "notes": "Model/size included as likely family row; specs intentionally blank until verified.",
     "search_text": "bass pro shops formula spinning reel fma30 30 30 bass, walleye, general freshwater",
-    "ipt_verification_status": "missing",
-    "ipt_original_value": null,
-    "ipt_original_unit": "",
-    "ipt_source_name": "",
-    "ipt_source_url": "",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
-    "recommendation_size_class": 3000
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 22,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official Bass Pro Shops Formula owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 3000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact FMA10/FMA20/FMA30/FMA40 family table lists complete mono, braid, retrieve, weight, drag, ratio, and bearing specifications.",
+    "source_conflicts": []
   },
   {
     "id": "bass-pro-shops-formula-spinning-reel-40-fma40-50",
@@ -3026,22 +3081,34 @@
     "spool_space": 0.02548,
     "capacity_options": [
       {
+        "lb": 10,
+        "yards": 170,
+        "diameter_in": 0.012,
+        "spool_space": 0.02448,
+        "raw": "10-170"
+      },
+      {
         "lb": 12,
         "yards": 130,
         "diameter_in": 0.014,
         "spool_space": 0.02548,
-        "raw": "12/130"
+        "raw": "12-130"
+      },
+      {
+        "lb": 14,
+        "yards": 115,
+        "diameter_in": 0.015,
+        "spool_space": 0.025875,
+        "raw": "14-115"
       }
     ],
-    "capacity_note": "12/130",
-    "braid_capacity_note": "50/130",
+    "capacity_note": "10-170, 12-130, 14-115",
+    "braid_capacity_note": "40-170, 50-130, 65-80",
     "capacity_status": "ready",
-    "capacity_data_source": "official_product_table_partial",
-    "source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
+    "capacity_data_source": "Official Bass Pro Shops Formula owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "5.0:1",
     "max_drag_lb": 11,
     "weight_oz": 9.5,
@@ -3056,12 +3123,16 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 24,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_product_table_partial",
-    "ipt_source_url": "https://www.basspro.com/shop/en/bass-pro-shops-formula-spinning-reel-fma10-2910832",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 4000
+    "ipt_source_name": "Official Bass Pro Shops Formula owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 4000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact FMA10/FMA20/FMA30/FMA40 family table lists complete mono, braid, retrieve, weight, drag, ratio, and bearing specifications.",
+    "source_conflicts": []
   },
   {
     "id": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -4431,26 +4502,38 @@
     "spool_space": 0.0495,
     "capacity_options": [
       {
+        "lb": 12,
+        "yards": 240,
+        "diameter_in": 0.014,
+        "spool_space": 0.04704,
+        "raw": "12-240"
+      },
+      {
         "lb": 14,
         "yards": 220,
         "diameter_in": 0.015,
         "spool_space": 0.0495,
-        "raw": "14/220"
+        "raw": "14-220"
+      },
+      {
+        "lb": 17,
+        "yards": 170,
+        "diameter_in": 0.018,
+        "spool_space": 0.05508,
+        "raw": "17-170"
       }
     ],
-    "capacity_note": "14/220",
-    "braid_capacity_note": "50/210",
+    "capacity_note": "12-240, 14-220, 17-170",
+    "braid_capacity_note": "50-210, 65-170, 80-130",
     "capacity_status": "ready",
-    "capacity_data_source": "official_product_table_partial",
-    "source_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
+    "capacity_data_source": "Official Offshore Angler owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "4.9:1",
     "max_drag_lb": 35,
     "weight_oz": 14.5,
-    "line_retrieve_in": 34.5,
+    "line_retrieve_in": 34,
     "bearings": "4+1",
     "msrp_usd": 69.99,
     "reelcalc_recommended_braid": "30-50 lb braid",
@@ -4459,13 +4542,17 @@
     "notes": "Bass Pro product table exposed 5000 and 6000 rows from search result; audit 7000/8000 before public launch.",
     "search_text": "offshore angler sea lion spinning reel sls50 5000 5000 surf, pier, inshore, catfish, saltwater bait",
     "ipt_verification_status": "verified",
-    "ipt_original_value": 34.5,
+    "ipt_original_value": 34,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_product_table_partial",
-    "ipt_source_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_source_name": "Official Offshore Angler owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact SLS50/SLS60/SLS70/SLS80 family table lists mono, braid, retrieve, weight, drag, ratio, and bearings.",
+    "source_conflicts": []
   },
   {
     "id": "offshore-angler-sea-lion-spinning-reel-6000-sls60-80",
@@ -4481,26 +4568,38 @@
     "spool_space": 0.07452,
     "capacity_options": [
       {
+        "lb": 14,
+        "yards": 255,
+        "diameter_in": 0.015,
+        "spool_space": 0.057375,
+        "raw": "14-255"
+      },
+      {
         "lb": 17,
         "yards": 230,
         "diameter_in": 0.018,
         "spool_space": 0.07452,
-        "raw": "17/230"
+        "raw": "17-230"
+      },
+      {
+        "lb": 20,
+        "yards": 190,
+        "diameter_in": 0.018,
+        "spool_space": 0.06156,
+        "raw": "20-190"
       }
     ],
-    "capacity_note": "17/230",
-    "braid_capacity_note": "80/190",
+    "capacity_note": "14-255, 17-230, 20-190",
+    "braid_capacity_note": "65-230, 80-190, 100-150",
     "capacity_status": "ready",
-    "capacity_data_source": "official_product_table_partial",
-    "source_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
+    "capacity_data_source": "Official Offshore Angler owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "4.9:1",
     "max_drag_lb": 35,
     "weight_oz": 14.5,
-    "line_retrieve_in": 37.3,
+    "line_retrieve_in": 37,
     "bearings": "4+1",
     "msrp_usd": 69.99,
     "reelcalc_recommended_braid": "30-50 lb braid",
@@ -4509,13 +4608,17 @@
     "notes": "Bass Pro product table exposed 5000 and 6000 rows from search result; audit 7000/8000 before public launch.",
     "search_text": "offshore angler sea lion spinning reel sls60 6000 6000 surf, pier, inshore, catfish, saltwater bait",
     "ipt_verification_status": "verified",
-    "ipt_original_value": 37.3,
+    "ipt_original_value": 37,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_product_table_partial",
-    "ipt_source_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_source_name": "Official Offshore Angler owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact SLS50/SLS60/SLS70/SLS80 family table lists mono, braid, retrieve, weight, drag, ratio, and bearings.",
+    "source_conflicts": []
   },
   {
     "id": "offshore-angler-sea-lion-spinning-reel-7000-sls70-81",
@@ -4531,41 +4634,57 @@
     "spool_space": 0.10164,
     "capacity_options": [
       {
+        "lb": 25,
+        "yards": 240,
+        "diameter_in": 0.019,
+        "spool_space": 0.08664,
+        "raw": "25-240"
+      },
+      {
         "lb": 30,
         "yards": 210,
         "diameter_in": 0.022,
         "spool_space": 0.10164,
-        "raw": "30/210"
+        "raw": "30-210"
+      },
+      {
+        "lb": 40,
+        "yards": 135,
+        "diameter_in": 0.025,
+        "spool_space": 0.084375,
+        "raw": "40-135"
       }
     ],
-    "capacity_note": "30/210",
-    "braid_capacity_note": "unknown",
+    "capacity_note": "25-240, 30-210, 40-135",
+    "braid_capacity_note": "80-260, 100-230, 150-195",
     "capacity_status": "ready",
-    "capacity_data_source": "qa_snippet_verify",
-    "source_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
+    "capacity_data_source": "Official Offshore Angler owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
-    "gear_ratio": "",
-    "max_drag_lb": null,
-    "weight_oz": null,
-    "line_retrieve_in": null,
-    "bearings": "",
+    "data_warnings": [],
+    "gear_ratio": "4.6:1",
+    "max_drag_lb": 40,
+    "weight_oz": 25,
+    "line_retrieve_in": 37,
+    "bearings": "4+1",
     "msrp_usd": null,
     "reelcalc_recommended_braid": "50-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-30 lb mono",
     "reelcalc_use_case": "surf, pier, heavy saltwater, big catfish",
     "notes": "Q&A/product snippet references line capacity 30/210; braid capacity not cleanly exposed in retrieved source.",
     "search_text": "offshore angler sea lion spinning reel sls70 7000 7000 surf, pier, heavy saltwater, big catfish",
-    "ipt_verification_status": "missing",
-    "ipt_original_value": null,
-    "ipt_original_unit": "",
-    "ipt_source_name": "",
-    "ipt_source_url": "",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 37,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official Offshore Angler owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact SLS50/SLS60/SLS70/SLS80 family table lists mono, braid, retrieve, weight, drag, ratio, and bearings.",
+    "source_conflicts": []
   },
   {
     "id": "offshore-angler-sea-lion-spinning-reel-8000-sls80-82",
@@ -4581,41 +4700,57 @@
     "spool_space": 0.1125,
     "capacity_options": [
       {
+        "lb": 30,
+        "yards": 270,
+        "diameter_in": 0.022,
+        "spool_space": 0.13068,
+        "raw": "30-270"
+      },
+      {
         "lb": 40,
         "yards": 180,
         "diameter_in": 0.025,
         "spool_space": 0.1125,
-        "raw": "40/180"
+        "raw": "40-180"
+      },
+      {
+        "lb": 50,
+        "yards": 140,
+        "diameter_in": 0.025,
+        "spool_space": 0.0875,
+        "raw": "50-140"
       }
     ],
-    "capacity_note": "40/180",
-    "braid_capacity_note": "unknown",
+    "capacity_note": "30-270, 40-180, 50-140",
+    "braid_capacity_note": "80-305, 100-250, 150-230",
     "capacity_status": "ready",
-    "capacity_data_source": "qa_snippet_verify",
-    "source_url": "https://www.basspro.com/shop/en/offshore-angler-sea-lion-spinning-reel-49%3A1-6000-size-2128105",
+    "capacity_data_source": "Official Offshore Angler owner manual",
+    "source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
     "source_file": "bass_pro_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
-    "gear_ratio": "",
-    "max_drag_lb": null,
-    "weight_oz": null,
-    "line_retrieve_in": null,
-    "bearings": "",
+    "data_warnings": [],
+    "gear_ratio": "4.6:1",
+    "max_drag_lb": 40,
+    "weight_oz": 25.5,
+    "line_retrieve_in": 41,
+    "bearings": "4+1",
     "msrp_usd": null,
     "reelcalc_recommended_braid": "50-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-30 lb mono",
     "reelcalc_use_case": "surf, pier, heavy saltwater, big catfish",
     "notes": "Q&A/product snippet references line capacity 40/180; braid capacity not cleanly exposed in retrieved source.",
     "search_text": "offshore angler sea lion spinning reel sls80 8000 8000 surf, pier, heavy saltwater, big catfish",
-    "ipt_verification_status": "missing",
-    "ipt_original_value": null,
-    "ipt_original_unit": "",
-    "ipt_source_name": "",
-    "ipt_source_url": "",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored."
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 41,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official Offshore Angler owner manual",
+    "ipt_source_url": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact SLS50/SLS60/SLS70/SLS80 family table lists mono, braid, retrieve, weight, drag, ratio, and bearings.",
+    "source_conflicts": []
   },
   {
     "id": "offshore-angler-tightline-ii-spinning-reel-3000-tlb3000-83",
@@ -19532,12 +19667,10 @@
     "capacity_note": "4-110",
     "braid_capacity_note": "8-100",
     "capacity_status": "ready",
-    "capacity_data_source": "official_current_seed",
+    "capacity_data_source": "Official current Lew's product table",
     "source_url": "https://www.lews.com/en/shop/reels/kvdes",
     "source_file": "lews_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "5.6",
     "max_drag_lb": 8,
     "weight_oz": 5.8,
@@ -19552,12 +19685,16 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 24,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_current_seed",
+    "ipt_source_name": "Official current Lew's product table",
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvdes",
-    "ipt_date_checked": "2026-07-15",
+    "ipt_date_checked": "2026-08-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 1000
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 1000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Current product table and 2026 manufacturer guide agree on the exact model specifications.",
+    "source_conflicts": []
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-200-kvd200g2-336",
@@ -19583,11 +19720,11 @@
     "capacity_note": "6-230",
     "braid_capacity_note": "8-280",
     "capacity_status": "ready",
-    "capacity_data_source": "official_current_seed",
+    "capacity_data_source": "Official current Lew's product table",
     "source_url": "https://www.lews.com/en/shop/reels/kvdes",
     "source_file": "lews_reel_database_master.json",
     "data_warnings": [
-      "Source/spec should be verified before public use."
+      "Lew's current product table and 2026 manufacturer guide disagree on mono capacity; current product-page value retained pending manufacturer clarification."
     ],
     "gear_ratio": "6.2",
     "max_drag_lb": 16,
@@ -19603,12 +19740,24 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 31,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_current_seed",
+    "ipt_source_name": "Official current Lew's product table",
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvdes",
-    "ipt_date_checked": "2026-07-15",
+    "ipt_date_checked": "2026-08-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 2000
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 2000,
+    "spec_verification_status": "source_conflict",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact SKU is confirmed, but two current Lew's sources publish different mono capacities.",
+    "source_conflicts": [
+      {
+        "field": "mono_capacity",
+        "selected_value": "6 lb / 230 yd",
+        "selected_source": "https://www.lews.com/en/shop/reels/kvdes",
+        "conflicting_value": "6 lb / 190 yd",
+        "conflicting_source": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf"
+      }
+    ]
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-300-kvd300g2-337",
@@ -19634,11 +19783,11 @@
     "capacity_note": "8-200",
     "braid_capacity_note": "10-300",
     "capacity_status": "ready",
-    "capacity_data_source": "official_current_seed",
+    "capacity_data_source": "Official current Lew's product table",
     "source_url": "https://www.lews.com/en/shop/reels/kvdes",
     "source_file": "lews_reel_database_master.json",
     "data_warnings": [
-      "Source/spec should be verified before public use."
+      "Lew's current product table and 2026 manufacturer guide disagree on mono capacity; current product-page value retained pending manufacturer clarification."
     ],
     "gear_ratio": "6.2",
     "max_drag_lb": 18,
@@ -19654,63 +19803,90 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 32,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "official_current_seed",
+    "ipt_source_name": "Official current Lew's product table",
     "ipt_source_url": "https://www.lews.com/en/shop/reels/kvdes",
-    "ipt_date_checked": "2026-07-15",
+    "ipt_date_checked": "2026-08-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 3000
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 3000,
+    "spec_verification_status": "source_conflict",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The exact SKU is confirmed, but two current Lew's sources publish different mono capacities.",
+    "source_conflicts": [
+      {
+        "field": "mono_capacity",
+        "selected_value": "8 lb / 200 yd",
+        "selected_source": "https://www.lews.com/en/shop/reels/kvdes",
+        "conflicting_value": "8 lb / 205 yd",
+        "conflicting_source": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf"
+      }
+    ]
   },
   {
     "id": "lew-s-kvd-elite-spinning-reel-300-shallow-kvd300ssg2-338",
     "brand": "Lew's",
     "model": "KVD Elite Spinning Reel",
-    "sku": "KVD300SSG2",
+    "sku": "KVDSS300G2",
     "size_label": "300 Shallow",
     "size_class": "300",
     "reel_type": "",
-    "capacity_yards": 90,
+    "capacity_yards": 120,
     "rated_line_lb": 8,
     "rated_line_diameter_in": 0.011,
-    "spool_space": 0.01089,
+    "spool_space": 0.01452,
     "capacity_options": [
       {
         "lb": 8,
-        "yards": 90,
+        "yards": 120,
         "diameter_in": 0.011,
-        "spool_space": 0.01089,
-        "raw": "8-90"
+        "spool_space": 0.01452,
+        "raw": "8-120"
       }
     ],
-    "capacity_note": "8-90",
-    "braid_capacity_note": "15-110",
+    "capacity_note": "8-120",
+    "braid_capacity_note": "10-180",
     "capacity_status": "ready",
-    "capacity_data_source": "retailer_verified_extra",
-    "source_url": "https://www.lews.com/en/shop/reels/kvdes",
+    "capacity_data_source": "Official Lew's 2026 new-product guide",
+    "source_url": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf",
     "source_file": "lews_reel_database_master.json",
     "data_warnings": [
-      "Source/spec should be verified before public use."
+      "Lew's 2026 manufacturer guide and current retailer tables disagree on shallow-spool mono capacity; manufacturer-guide value retained."
     ],
-    "gear_ratio": "6.2",
-    "max_drag_lb": null,
-    "weight_oz": null,
-    "line_retrieve_in": null,
-    "bearings": "",
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 18,
+    "weight_oz": 7.7,
+    "line_retrieve_in": 32,
+    "bearings": "6+1",
     "msrp_usd": null,
     "reelcalc_recommended_braid": "10-20 lb braid",
     "reelcalc_recommended_mono_fluoro": "6-10 lb mono/fluoro",
     "reelcalc_use_case": "bass, walleye, finesse spinning, all-around freshwater",
     "notes": "Useful shallow-spool KVD Elite row; verify against Lews table before public use.",
-    "search_text": "lew's kvd elite spinning reel kvd300ssg2 300 shallow 300 bass, walleye, finesse spinning, all-around freshwater",
-    "ipt_verification_status": "missing",
-    "ipt_original_value": null,
-    "ipt_original_unit": "",
-    "ipt_source_name": "",
-    "ipt_source_url": "",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "unverified",
-    "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
-    "recommendation_size_class": 3000
+    "search_text": "lew's kvd elite spinning reel kvdss300g2 kvd300ssg2 300 shallow 300 bass, walleye, finesse spinning, all-around freshwater",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 32,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official Lew's 2026 new-product guide",
+    "ipt_source_url": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 3000,
+    "aliases": [
+      "KVD300SSG2"
+    ],
+    "spec_verification_status": "source_conflict",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The 2026 Lew's guide confirms SKU KVDSS300G2, 8/120 mono, 10/180 braid, and the mechanical specifications.",
+    "source_conflicts": [
+      {
+        "field": "mono_capacity",
+        "selected_value": "8 lb / 120 yd",
+        "selected_source": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf",
+        "conflicting_value": "8 lb / 160 yd",
+        "conflicting_source": "https://www.basspro.com/shop/en/lews-kvd-elite-spinning-reel-62%3A1-300-size-4488157"
+      }
+    ]
   },
   {
     "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
@@ -19720,42 +19896,26 @@
     "size_label": "200",
     "size_class": "200",
     "reel_type": "",
-    "capacity_yards": 100,
-    "rated_line_lb": 10,
-    "rated_line_diameter_in": 0.012,
-    "spool_space": 0.0144,
+    "capacity_yards": 120,
+    "rated_line_lb": 8,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.01452,
     "capacity_options": [
-      {
-        "lb": 6,
-        "yards": 140,
-        "diameter_in": 0.0095,
-        "spool_space": 0.012635,
-        "raw": "6-140"
-      },
       {
         "lb": 8,
         "yards": 120,
         "diameter_in": 0.011,
         "spool_space": 0.01452,
         "raw": "8-120"
-      },
-      {
-        "lb": 10,
-        "yards": 100,
-        "diameter_in": 0.012,
-        "spool_space": 0.0144,
-        "raw": "10-100"
       }
     ],
-    "capacity_note": "6-140, 8-120, 10-100",
-    "braid_capacity_note": "30-120",
+    "capacity_note": "8-120",
+    "braid_capacity_note": "10-180",
     "capacity_status": "ready",
-    "capacity_data_source": "retailer_verified_extra",
-    "source_url": "https://www.lews.com/en/shop/reels/kvds",
+    "capacity_data_source": "Official Lew's 2023 catalog",
+    "source_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
     "source_file": "lews_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.2",
     "max_drag_lb": 14,
     "weight_oz": 8.6,
@@ -19765,17 +19925,21 @@
     "reelcalc_recommended_braid": "8-15 lb braid",
     "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
     "reelcalc_use_case": "trout, panfish, finesse bass, light freshwater",
-    "notes": "Older/popular KVD series row; useful for search and wizard seed, verify against Lews archive before public calculator use.",
+    "notes": "Exact manufacturer-listed KVD series specifications; ReelCalc ID preserved.",
     "search_text": "lew's kvd spinning reel kvd200 200 200 trout, panfish, finesse bass, light freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 31,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "retailer_verified_extra",
-    "ipt_source_url": "https://www.lews.com/en/shop/reels/kvds",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 2000
+    "ipt_source_name": "Official Lew's 2023 catalog",
+    "ipt_source_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 2000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Exact KVD200/KVD300/KVD400 mono and braid capacities are listed in the Lew's 2023 catalog.",
+    "source_conflicts": []
   },
   {
     "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
@@ -19791,20 +19955,6 @@
     "spool_space": 0.02592,
     "capacity_options": [
       {
-        "lb": 6,
-        "yards": 260,
-        "diameter_in": 0.0095,
-        "spool_space": 0.023465,
-        "raw": "6-260"
-      },
-      {
-        "lb": 8,
-        "yards": 215,
-        "diameter_in": 0.011,
-        "spool_space": 0.026015,
-        "raw": "8-215"
-      },
-      {
         "lb": 10,
         "yards": 180,
         "diameter_in": 0.012,
@@ -19812,15 +19962,13 @@
         "raw": "10-180"
       }
     ],
-    "capacity_note": "6-260, 8-215, 10-180",
-    "braid_capacity_note": "40-180",
+    "capacity_note": "10-180",
+    "braid_capacity_note": "15-250",
     "capacity_status": "ready",
-    "capacity_data_source": "retailer_verified_extra",
-    "source_url": "https://www.lews.com/en/shop/reels/kvds",
+    "capacity_data_source": "Official Lew's 2023 catalog",
+    "source_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
     "source_file": "lews_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.2",
     "max_drag_lb": 14,
     "weight_oz": 8.8,
@@ -19830,17 +19978,21 @@
     "reelcalc_recommended_braid": "10-20 lb braid",
     "reelcalc_recommended_mono_fluoro": "6-10 lb mono/fluoro",
     "reelcalc_use_case": "bass, walleye, finesse spinning, all-around freshwater",
-    "notes": "Older/popular KVD series row; useful for search and wizard seed, verify against Lews archive before public calculator use.",
+    "notes": "Exact manufacturer-listed KVD series specifications; ReelCalc ID preserved.",
     "search_text": "lew's kvd spinning reel kvd300 300 300 bass, walleye, finesse spinning, all-around freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 32,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "retailer_verified_extra",
-    "ipt_source_url": "https://www.lews.com/en/shop/reels/kvds",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 3000
+    "ipt_source_name": "Official Lew's 2023 catalog",
+    "ipt_source_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 3000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Exact KVD200/KVD300/KVD400 mono and braid capacities are listed in the Lew's 2023 catalog.",
+    "source_conflicts": []
   },
   {
     "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
@@ -19850,25 +20002,11 @@
     "size_label": "400",
     "size_class": "400",
     "reel_type": "",
-    "capacity_yards": 230,
-    "rated_line_lb": 10,
-    "rated_line_diameter_in": 0.012,
-    "spool_space": 0.03312,
+    "capacity_yards": 190,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.03724,
     "capacity_options": [
-      {
-        "lb": 8,
-        "yards": 275,
-        "diameter_in": 0.011,
-        "spool_space": 0.033275,
-        "raw": "8-275"
-      },
-      {
-        "lb": 10,
-        "yards": 230,
-        "diameter_in": 0.012,
-        "spool_space": 0.03312,
-        "raw": "10-230"
-      },
       {
         "lb": 12,
         "yards": 190,
@@ -19877,15 +20015,13 @@
         "raw": "12-190"
       }
     ],
-    "capacity_note": "8-275, 10-230, 12-190",
-    "braid_capacity_note": "50-190",
+    "capacity_note": "12-190",
+    "braid_capacity_note": "20-300",
     "capacity_status": "ready",
-    "capacity_data_source": "retailer_verified_extra",
-    "source_url": "https://www.lews.com/en/shop/reels/kvds",
+    "capacity_data_source": "Official Lew's 2023 catalog",
+    "source_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
     "source_file": "lews_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.2",
     "max_drag_lb": 18,
     "weight_oz": 9.8,
@@ -19895,17 +20031,21 @@
     "reelcalc_recommended_braid": "15-30 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-12 lb mono/fluoro",
     "reelcalc_use_case": "larger bass, walleye, light pike, heavier freshwater",
-    "notes": "Older/popular KVD series row; useful for search and wizard seed, verify against Lews archive before public calculator use.",
+    "notes": "Exact manufacturer-listed KVD series specifications; ReelCalc ID preserved.",
     "search_text": "lew's kvd spinning reel kvd400 400 400 larger bass, walleye, light pike, heavier freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 35,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "retailer_verified_extra",
-    "ipt_source_url": "https://www.lews.com/en/shop/reels/kvds",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 4000
+    "ipt_source_name": "Official Lew's 2023 catalog",
+    "ipt_source_url": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 4000,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Exact KVD200/KVD300/KVD400 mono and braid capacities are listed in the Lew's 2023 catalog.",
+    "source_conflicts": []
   },
   {
     "id": "lew-s-hypermag-spinning-reel-200-hms200-342",
@@ -22236,7 +22376,7 @@
       }
     ],
     "capacity_note": "320/12, 215/16, 175/20",
-    "braid_capacity_note": "TBD",
+    "braid_capacity_note": "",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
     "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
@@ -22251,7 +22391,7 @@
     "reelcalc_recommended_braid": "30-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "12-20 lb mono",
     "reelcalc_use_case": "surf, catfish, inshore, larger freshwater",
-    "notes": "Official table lists braid capacity as TBD.",
+    "notes": "Official table lists Braid capacity is not available from the stored manufacturer table.",
     "search_text": "okuma avenger b av-6000b 6000 6000 surf, catfish, inshore, larger freshwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 35,
@@ -22260,7 +22400,10 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_verification_status": "manufacturer_mono_only",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "No dependable braid-capacity row is stored; mono capacity remains the calculator fallback."
   },
   {
     "id": "okuma-avenger-b-8000-av-8000b-383",
@@ -22298,7 +22441,7 @@
       }
     ],
     "capacity_note": "440/12, 300/16, 245/20",
-    "braid_capacity_note": "TBD",
+    "braid_capacity_note": "",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
     "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
@@ -22313,7 +22456,7 @@
     "reelcalc_recommended_braid": "40-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "16-25 lb mono",
     "reelcalc_use_case": "surf, catfish, heavy bait fishing",
-    "notes": "Official table lists braid capacity as TBD.",
+    "notes": "Official table lists Braid capacity is not available from the stored manufacturer table.",
     "search_text": "okuma avenger b av-8000b 8000 8000 surf, catfish, heavy bait fishing",
     "ipt_verification_status": "verified",
     "ipt_original_value": 37,
@@ -22322,7 +22465,10 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_verification_status": "manufacturer_mono_only",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "No dependable braid-capacity row is stored; mono capacity remains the calculator fallback."
   },
   {
     "id": "okuma-avenger-b-10000-av-10000b-384",
@@ -22360,7 +22506,7 @@
       }
     ],
     "capacity_note": "550/12, 375/16, 305/20",
-    "braid_capacity_note": "TBD",
+    "braid_capacity_note": "",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
     "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
@@ -22375,7 +22521,7 @@
     "reelcalc_recommended_braid": "50-80 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-30 lb mono",
     "reelcalc_use_case": "surf, offshore, heavy saltwater",
-    "notes": "Official table lists braid capacity as TBD.",
+    "notes": "Official table lists Braid capacity is not available from the stored manufacturer table.",
     "search_text": "okuma avenger b av-10000b 10000 10000 surf, offshore, heavy saltwater",
     "ipt_verification_status": "verified",
     "ipt_original_value": 37,
@@ -22384,7 +22530,10 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_verification_status": "manufacturer_mono_only",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "No dependable braid-capacity row is stored; mono capacity remains the calculator fallback."
   },
   {
     "id": "okuma-avenger-b-14000-av-14000b-385",
@@ -22422,7 +22571,7 @@
       }
     ],
     "capacity_note": "710/12, 480/16, 395/20",
-    "braid_capacity_note": "TBD",
+    "braid_capacity_note": "",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
     "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
@@ -22437,7 +22586,7 @@
     "reelcalc_recommended_braid": "50-80 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-30 lb mono",
     "reelcalc_use_case": "surf, offshore, heavy saltwater",
-    "notes": "Official page appears to list 347.4 in line retrieve; check before public use.",
+    "notes": "Official page appears to list 347.4 in line retrieve; check before public use. Braid capacity is not available from the stored manufacturer table.",
     "search_text": "okuma avenger b av-14000b 14000 14000 surf, offshore, heavy saltwater",
     "ipt_verification_status": "conflict",
     "ipt_original_value": null,
@@ -22446,7 +22595,10 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "rejected",
-    "ipt_notes": "The stored 347.4 value is implausible as inches per turn and appears to be a unit/field parsing error. It is deliberately unavailable until an exact published retrieve value is confirmed."
+    "ipt_notes": "The stored 347.4 value is implausible as inches per turn and appears to be a unit/field parsing error. It is deliberately unavailable until an exact published retrieve value is confirmed.",
+    "spec_verification_status": "manufacturer_mono_only",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "No dependable braid-capacity row is stored; mono capacity remains the calculator fallback."
   },
   {
     "id": "okuma-rockaway-si-2500-rsi-2500ha-386",
@@ -23166,13 +23318,13 @@
       }
     ],
     "capacity_note": "280/8, 230/10, 190/12",
-    "braid_capacity_note": "210/30, 190/12",
+    "braid_capacity_note": "30-210",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
-    "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/rox-spinning-reels",
+    "source_url": "https://okumafishingusa.com/products/rox-spinning-reels",
     "source_file": "okuma_reel_database_master.json",
     "data_warnings": [
-      "Source/spec should be verified before public use."
+      "Official Okuma ROX 4000 braid table contains an internally inconsistent 190/12 row; that row is excluded until Okuma clarifies it."
     ],
     "gear_ratio": "5.2:1",
     "max_drag_lb": 20,
@@ -23192,7 +23344,19 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/rox-spinning-reels",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_verification_status": "source_conflict",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "The official table itself is contradictory. ReelCalc uses only its unambiguous 30/210 braid anchor.",
+    "source_conflicts": [
+      {
+        "field": "braid_capacity",
+        "selected_value": "30 lb / 210 yd",
+        "selected_source": "https://okumafishingusa.com/products/rox-spinning-reels",
+        "conflicting_value": "12 lb / 190 yd",
+        "conflicting_source": "https://okumafishingusa.com/products/rox-spinning-reels"
+      }
+    ]
   },
   {
     "id": "okuma-safyre-1000-sf-1000a-398",
@@ -24411,7 +24575,7 @@
     "braid_capacity_note": "415/50, 290/65",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
-    "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
+    "source_url": "https://okumafishingusa.com/products/makaira-spinning",
     "source_file": "okuma_reel_database_master.json",
     "data_warnings": [],
     "gear_ratio": "4.9:1",
@@ -24432,7 +24596,9 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Current official Okuma Makaira specification table; retired collection URL replaced."
   },
   {
     "id": "okuma-makaira-20000-mk-20000ls-rs-418",
@@ -24473,7 +24639,7 @@
     "braid_capacity_note": "490/65, 400/80",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
-    "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
+    "source_url": "https://okumafishingusa.com/products/makaira-spinning",
     "source_file": "okuma_reel_database_master.json",
     "data_warnings": [],
     "gear_ratio": "5.8:1",
@@ -24494,7 +24660,9 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Current official Okuma Makaira specification table; retired collection URL replaced."
   },
   {
     "id": "okuma-makaira-30000-mk-30000ls-rs-419",
@@ -24535,7 +24703,7 @@
     "braid_capacity_note": "700/80, 570/100",
     "capacity_status": "ready",
     "capacity_data_source": "official_current",
-    "source_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
+    "source_url": "https://okumafishingusa.com/products/makaira-spinning",
     "source_file": "okuma_reel_database_master.json",
     "data_warnings": [],
     "gear_ratio": "5.8:1",
@@ -24556,7 +24724,9 @@
     "ipt_source_url": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "high",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use."
+    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Current official Okuma Makaira specification table; retired collection URL replaced."
   },
   {
     "id": "okuma-tesoro-4000-tsr-4000xa-420",
@@ -35327,11 +35497,11 @@
     "capacity_note": "140/6",
     "braid_capacity_note": "",
     "capacity_status": "ready",
-    "capacity_data_source": "retailer_listing_partial",
-    "source_url": "https://www.ebay.com/b/Quantum-Right-5-2-1-Gear-Ratio-Fishing-Reels/261030/bn_112518998",
+    "capacity_data_source": "Official Quantum 2023 catalog; identity suffix review",
+    "source_url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2023_fnl.pdf",
     "source_file": "quantum_reel_database_master.json",
     "data_warnings": [
-      "Source/spec should be verified before public use."
+      "Exact Quantum model suffix requires confirmation; calculations use the manufacturer-listed OP20D capacity values."
     ],
     "gear_ratio": "5.2:1",
     "max_drag_lb": null,
@@ -35352,7 +35522,19 @@
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
     "ipt_notes": "No reliable exact-variant IPT value is currently stored.",
-    "recommendation_size_class": 2000
+    "recommendation_size_class": 2000,
+    "spec_verification_status": "identity_review",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Stored values match catalog model OP20D; existing ReelCalc ID and shorter SKU are preserved pending suffix confirmation.",
+    "source_conflicts": [
+      {
+        "field": "sku",
+        "selected_value": "OP20",
+        "selected_source": "Existing ReelCalc identity",
+        "conflicting_value": "OP20D",
+        "conflicting_source": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2023_fnl.pdf"
+      }
+    ]
   },
   {
     "id": "quantum-optix-30-op30d-cp2-595",
@@ -35429,11 +35611,11 @@
     "capacity_note": "230/10",
     "braid_capacity_note": "310/20",
     "capacity_status": "ready",
-    "capacity_data_source": "community_plus_retailer_partial",
-    "source_url": "https://www.reddit.com/r/FishingForBeginners/comments/149i2b8/reel_braid_question/",
+    "capacity_data_source": "Official Quantum 2023 catalog; identity suffix review",
+    "source_url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2023_fnl.pdf",
     "source_file": "quantum_reel_database_master.json",
     "data_warnings": [
-      "Source/spec should be verified before public use."
+      "Exact Quantum model suffix requires confirmation; calculations use the manufacturer-listed OP40D capacity values."
     ],
     "gear_ratio": "5.2:1",
     "max_drag_lb": 14,
@@ -35454,7 +35636,19 @@
     "ipt_date_checked": "2026-07-15",
     "ipt_confidence": "unverified",
     "ipt_notes": "An IPT value exists, but it is not enabled until its exact-variant source is approved.",
-    "recommendation_size_class": 4000
+    "recommendation_size_class": 4000,
+    "spec_verification_status": "identity_review",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Stored values match catalog model OP40D; existing ReelCalc ID and shorter SKU are preserved pending suffix confirmation.",
+    "source_conflicts": [
+      {
+        "field": "sku",
+        "selected_value": "OP40",
+        "selected_source": "Existing ReelCalc identity",
+        "conflicting_value": "OP40D",
+        "conflicting_source": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2023_fnl.pdf"
+      }
+    ]
   },
   {
     "id": "quantum-optix-80-op80d-cp2-597",
@@ -36041,15 +36235,13 @@
     "capacity_note": "150/8",
     "braid_capacity_note": "160/20",
     "capacity_status": "ready",
-    "capacity_data_source": "retailer_verified_discontinued",
-    "source_url": "https://www.desertcart.com.au/products/369325385-smoke-x-spinning-fishing-reel-size-25-reel-changeable-right-or-left-hand-retrieve-continuous-anti-reverse-clutch-with-niti-indestructible-bail-scr-alloy-frame-6-0-1-gear-ratio-blue",
+    "capacity_data_source": "Official Quantum 2024 catalog",
+    "source_url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf",
     "source_file": "quantum_reel_database_master.json",
-    "data_warnings": [
-      "Source/spec should be verified before public use."
-    ],
+    "data_warnings": [],
     "gear_ratio": "6.0:1",
     "max_drag_lb": 16,
-    "weight_oz": null,
+    "weight_oz": 8.3,
     "line_retrieve_in": 32,
     "bearings": "8+1",
     "msrp_usd": null,
@@ -36061,12 +36253,16 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 32,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "retailer_verified_discontinued",
-    "ipt_source_url": "https://www.desertcart.com.au/products/369325385-smoke-x-spinning-fishing-reel-size-25-reel-changeable-right-or-left-hand-retrieve-continuous-anti-reverse-clutch-with-niti-indestructible-bail-scr-alloy-frame-6-0-1-gear-ratio-blue",
-    "ipt_date_checked": "2026-07-15",
-    "ipt_confidence": "medium",
-    "ipt_notes": "Existing exact reel row retained; source label and exact model identity reviewed for handle-turn use.",
-    "recommendation_size_class": 2500
+    "ipt_source_name": "Official Quantum 2024 catalog",
+    "ipt_source_url": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf",
+    "ipt_date_checked": "2026-08-15",
+    "ipt_confidence": "high",
+    "ipt_notes": "Exact model value is listed in the manufacturer or owner-manual specification table.",
+    "recommendation_size_class": 2500,
+    "spec_verification_status": "manufacturer_listed",
+    "spec_checked_date": "2026-08-15",
+    "spec_source_note": "Official Quantum catalog exact base model SMX25XPT; .BX3 is the stored packaging suffix.",
+    "source_conflicts": []
   },
   {
     "id": "quantum-strategy-05-sr05a-609",
