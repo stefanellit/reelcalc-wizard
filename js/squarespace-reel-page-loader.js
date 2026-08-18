@@ -146,6 +146,65 @@
     }) || null;
   }
 
+  function replaceRelatedLinkList(content, headingText, links) {
+    if (!Array.isArray(links) || !links.length) return;
+    var heading = Array.from(content.querySelectorAll("h3")).find(function(candidate) {
+      return candidate.textContent.trim().toLowerCase() === headingText;
+    });
+    if (!heading) return;
+
+    var list = heading.nextElementSibling;
+    if (!list || list.tagName !== "UL") {
+      list = document.createElement("ul");
+      heading.insertAdjacentElement("afterend", list);
+    }
+    list.classList.add("reelcalc-link-list");
+    list.replaceChildren();
+
+    links.forEach(function(link) {
+      if (!link || !link.path || !link.label) return;
+      var item = document.createElement("li");
+      var anchor = document.createElement("a");
+      anchor.href = link.path;
+      anchor.textContent = link.label;
+      item.appendChild(anchor);
+      list.appendChild(item);
+    });
+  }
+
+  function prependHelpfulResource(content, link) {
+    if (!link || !link.path || !link.label) return;
+    var heading = Array.from(content.querySelectorAll("h3")).find(function(candidate) {
+      return candidate.textContent.trim().toLowerCase() === "helpful resources";
+    });
+    if (!heading) return;
+
+    var list = heading.nextElementSibling;
+    if (!list || list.tagName !== "UL") {
+      list = document.createElement("ul");
+      heading.insertAdjacentElement("afterend", list);
+    }
+    list.classList.add("reelcalc-link-list");
+    if (Array.from(list.querySelectorAll("a")).some(function(anchor) {
+      return anchor.getAttribute("href") === link.path;
+    })) return;
+
+    var item = document.createElement("li");
+    var anchor = document.createElement("a");
+    anchor.href = link.path;
+    anchor.textContent = link.label;
+    item.appendChild(anchor);
+    list.insertBefore(item, list.firstChild);
+  }
+
+  function updateRelatedResourceLinks(description, entry) {
+    var section = description.querySelector('[data-section="related-resources"]');
+    if (!section) return;
+    var content = section.querySelector(".reelcalc-page-content") || section;
+    replaceRelatedLinkList(content, "compare similar reels", entry.related);
+    prependHelpfulResource(content, entry.sizeGuide);
+  }
+
   function decorateDescription(description, entry) {
     if (description.dataset.reelcalcEnhanced === "true") return;
     description.dataset.reelcalcEnhanced = "true";
@@ -460,6 +519,7 @@
 
         detail.querySelectorAll(".product-description").forEach(function(description) {
           decorateDescription(description, entry);
+          updateRelatedResourceLinks(description, entry);
         });
 
         return Promise.all([
