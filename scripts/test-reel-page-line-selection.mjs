@@ -37,10 +37,14 @@ const bigGame12 = line("berkley-trilene-big-game-monofilament-12");
 const trilene8 = line("berkley-trilene-xl-monofilament-8");
 const trilene10 = line("berkley-trilene-xl-monofilament-10");
 const invizx8 = line("seaguar-invizx-fluorocarbon-8");
+const pex8Micro12 = line("seaguar-jdm-pex8-micro-braid-braid-12");
+const sunlineAzayaka3 = line("sunline-shooter-bms-azayaka-fc-fluorocarbon-3");
+const maxcuatro100 = line("powerpro-maxcuatro-braid-100");
 
 assert.ok(shimano && daiwa && revros && noBraidRating && centron4000 && vanquishPe1000, "required reel fixtures must exist");
 assert.ok(powerPro15 && powerPro20 && superPower6 && superPower20 && superPower40 && bigGame12 && trilene8 && trilene10 && invizx8, "required line fixtures must exist");
-assert.equal(lines.length, 852, "central spool-line database valid-record count changed unexpectedly");
+assert.ok(pex8Micro12 && sunlineAzayaka3 && maxcuatro100, "2026 line expansion must be available to the shared selector");
+assert.equal(lines.length, 903, "central spool-line database valid-record count changed unexpectedly");
 
 // 1-4: Shimano and Daiwa each use mono calibration for mono and braid calibration for braid.
 assert.equal(core.capacityBasisForLine(shimano, trilene8).type, "published-mono");
