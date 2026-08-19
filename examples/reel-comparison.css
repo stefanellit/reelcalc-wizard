@@ -19,6 +19,11 @@
   box-sizing: border-box;
 }
 
+.rc-compare,
+.rc-compare * {
+  box-sizing: border-box;
+}
+
 body {
   background: #f3f6f6;
   color: var(--rc-text);
@@ -89,6 +94,9 @@ a:focus-visible {
   border-right: 1px solid var(--rc-border);
   border-bottom: 3px solid var(--rc-blue);
   border-top: 1px solid var(--rc-border);
+  container-type: inline-size;
+  max-width: 100%;
+  min-width: 0;
   padding: 24px;
 }
 
@@ -97,6 +105,8 @@ a:focus-visible {
   display: grid;
   gap: 18px;
   grid-template-columns: minmax(0, 1fr) 44px minmax(0, 1fr);
+  min-width: 0;
+  width: 100%;
 }
 
 .rc-selector-field {
@@ -127,7 +137,10 @@ a:focus-visible {
 }
 
 .rc-reel-combobox {
+  max-width: 100%;
+  min-width: 0;
   position: relative;
+  width: 100%;
 }
 
 .rc-reel-combobox input {
@@ -769,6 +782,19 @@ a:focus-visible {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+@container (max-width: 720px) {
+  .rc-selector-grid {
+    gap: 10px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rc-swap-button {
+    justify-self: center;
+    margin: 0;
+    transform: rotate(90deg);
+  }
 }
 
 @media (max-width: 760px) {
