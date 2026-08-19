@@ -5,6 +5,7 @@
   var loaderUrl = new URL(loaderScript && loaderScript.src ? loaderScript.src : document.baseURI);
   var exampleBase = new URL("./", loaderUrl);
   var projectBase = new URL("../", loaderUrl);
+  var assetVersion = loaderUrl.searchParams.get("v");
   var mount = document.querySelector("[data-reelcalc-comparison]");
 
   if (!mount || mount.dataset.reelcalcLoaded === "true") return;
@@ -22,8 +23,11 @@
         <div class="rc-selector-grid">
           <div class="rc-selector-field">
             <label for="reel-a-input">First reel</label>
-            <input id="reel-a-input" list="reel-a-options" type="search" autocomplete="off" placeholder="Search brand, model, or size">
-            <datalist id="reel-a-options"></datalist>
+            <div class="rc-reel-combobox">
+              <input id="reel-a-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="reel-a-options" autocomplete="off" placeholder="Search brand, model, or size">
+              <button class="rc-reel-menu-toggle" id="reel-a-toggle" type="button" aria-label="Open first reel list" title="Open reel list">&#9662;</button>
+              <div class="rc-reel-options" id="reel-a-options" role="listbox" hidden></div>
+            </div>
             <p id="reel-a-selection" class="rc-selection-note"></p>
           </div>
 
@@ -31,8 +35,11 @@
 
           <div class="rc-selector-field">
             <label for="reel-b-input">Second reel</label>
-            <input id="reel-b-input" list="reel-b-options" type="search" autocomplete="off" placeholder="Search brand, model, or size">
-            <datalist id="reel-b-options"></datalist>
+            <div class="rc-reel-combobox">
+              <input id="reel-b-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="reel-b-options" autocomplete="off" placeholder="Search brand, model, or size">
+              <button class="rc-reel-menu-toggle" id="reel-b-toggle" type="button" aria-label="Open second reel list" title="Open reel list">&#9662;</button>
+              <div class="rc-reel-options" id="reel-b-options" role="listbox" hidden></div>
+            </div>
             <p id="reel-b-selection" class="rc-selection-note"></p>
           </div>
         </div>
@@ -155,6 +162,12 @@
     document.head.appendChild(link);
   }
 
+  function versionedUrl(url) {
+    var value = new URL(url);
+    if (assetVersion) value.searchParams.set("v", assetVersion);
+    return value.href;
+  }
+
   function loadScript(url, globalName, marker) {
     if (globalName && window[globalName]) return Promise.resolve();
     var existing = document.querySelector('script[data-reelcalc-script="' + marker + '"]');
@@ -175,13 +188,13 @@
     });
   }
 
-  loadStyle(new URL("reel-comparison.css", exampleBase).href);
-  loadScript(new URL("js/calculator-core.js", projectBase).href, "ReelCalcCore", "calculator-core")
+  loadStyle(versionedUrl(new URL("reel-comparison.css", exampleBase)));
+  loadScript(versionedUrl(new URL("js/calculator-core.js", projectBase)), "ReelCalcCore", "calculator-core")
     .then(function() {
-      return loadScript(new URL("js/line-selector.js", projectBase).href, "ReelCalcLineSelector", "line-selector");
+      return loadScript(versionedUrl(new URL("js/line-selector.js", projectBase)), "ReelCalcLineSelector", "line-selector");
     })
     .then(function() {
-      return loadScript(new URL("reel-comparison.js", exampleBase).href, "", "reel-comparison");
+      return loadScript(versionedUrl(new URL("reel-comparison.js", exampleBase)), "", "reel-comparison");
     })
     .catch(function() {
       var status = mount.querySelector("#comparison-status");

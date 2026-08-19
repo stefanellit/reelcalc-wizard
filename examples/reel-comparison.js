@@ -6,8 +6,6 @@
     ? document.currentScript.src
     : document.baseURI;
   var ASSET_ROOT = new URL("../", SCRIPT_URL);
-  var DEFAULT_REEL_A = "shimano-stradic-fm-c3000xg-stc3000xgfm-686";
-  var DEFAULT_REEL_B = "daiwa-fuego-lt-3000d-c-feglt3000d-c-132";
   var DEFAULT_MAIN_LINE = "seaguar-smackdown-braid-15";
   var DEFAULT_BACKING_LINE = "berkley-trilene-big-game-monofilament-10";
   var state = {
@@ -19,6 +17,10 @@
     reelB: null,
     backingEnabled: true,
     affiliateData: null,
+    combo: {
+      A: { matches: [], highlightedIndex: -1 },
+      B: { matches: [], highlightedIndex: -1 }
+    },
     lines: [],
     lineRoles: {
       main: { material: "Braid", line: null, productsByLabel: new Map() },
@@ -29,6 +31,8 @@
   var elements = {
     inputA: document.getElementById("reel-a-input"),
     inputB: document.getElementById("reel-b-input"),
+    toggleA: document.getElementById("reel-a-toggle"),
+    toggleB: document.getElementById("reel-b-toggle"),
     optionsA: document.getElementById("reel-a-options"),
     optionsB: document.getElementById("reel-b-options"),
     selectionA: document.getElementById("reel-a-selection"),
@@ -134,19 +138,67 @@
     elements.status.classList.toggle("is-error", Boolean(isError));
   }
 
-  function populateOptions() {
-    var fragmentA = document.createDocumentFragment();
-    var fragmentB = document.createDocumentFragment();
-    state.options.forEach(function(item) {
-      var optionA = document.createElement("option");
-      optionA.value = item.label;
-      fragmentA.appendChild(optionA);
-      var optionB = document.createElement("option");
-      optionB.value = item.label;
-      fragmentB.appendChild(optionB);
+  function comboElements(side) {
+    return side === "A"
+      ? { input: elements.inputA, menu: elements.optionsA, toggle: elements.toggleA, selection: elements.selectionA }
+      : { input: elements.inputB, menu: elements.optionsB, toggle: elements.toggleB, selection: elements.selectionB };
+  }
+
+  function currentReel(side) {
+    return state[side === "A" ? "reelA" : "reelB"];
+  }
+
+  function closeReelMenu(side) {
+    var controls = comboElements(side);
+    controls.menu.hidden = true;
+    controls.input.setAttribute("aria-expanded", "false");
+    state.combo[side].matches = [];
+    state.combo[side].highlightedIndex = -1;
+  }
+
+  function openReelMenu(side, showAll) {
+    var controls = comboElements(side);
+    var selectedReel = currentReel(side);
+    var selectedLabel = selectedReel ? optionLabel(selectedReel) : "";
+    var entered = controls.input.value.trim();
+    var query = showAll || entered === selectedLabel ? "" : entered.toLowerCase();
+    var matches = state.options.filter(function(item) {
+      return !query || item.label.toLowerCase().includes(query);
     });
-    elements.optionsA.replaceChildren(fragmentA);
-    elements.optionsB.replaceChildren(fragmentB);
+    state.combo[side].matches = matches;
+    state.combo[side].highlightedIndex = -1;
+    controls.menu.innerHTML = matches.length
+      ? matches.map(function(item) {
+          var reel = item.reel;
+          return '<button type="button" class="rc-reel-option" role="option" data-reel-id="' + escapeHtml(reel.id) + '" aria-selected="' +
+            String(Boolean(selectedReel && selectedReel.id === reel.id)) + '"><span>' + escapeHtml(displayName(reel)) +
+            '</span><small>' + escapeHtml(reel.sku ? "Model " + reel.sku : "") + "</small></button>";
+        }).join("")
+      : '<p class="rc-no-reel-results">No matching reels found.</p>';
+    controls.menu.hidden = false;
+    controls.input.setAttribute("aria-expanded", "true");
+  }
+
+  function highlightReelOption(side, nextIndex) {
+    var controls = comboElements(side);
+    var buttons = Array.from(controls.menu.querySelectorAll(".rc-reel-option"));
+    if (!buttons.length) return;
+    var index = Math.max(0, Math.min(nextIndex, buttons.length - 1));
+    state.combo[side].highlightedIndex = index;
+    buttons.forEach(function(button, buttonIndex) {
+      button.classList.toggle("is-highlighted", buttonIndex === index);
+    });
+    buttons[index].scrollIntoView({ block: "nearest" });
+  }
+
+  function chooseReel(side, reel) {
+    if (!reel) return;
+    var controls = comboElements(side);
+    state[side === "A" ? "reelA" : "reelB"] = reel;
+    setInputForReel(controls.input, reel);
+    controls.selection.textContent = displayName(reel);
+    closeReelMenu(side);
+    renderComparison();
   }
 
   function selectedOption(input) {
@@ -165,13 +217,17 @@
   }
 
   function updateSelection(side) {
-    var input = side === "A" ? elements.inputA : elements.inputB;
-    var selection = side === "A" ? elements.selectionA : elements.selectionB;
-    var option = selectedOption(input);
+    var controls = comboElements(side);
+    var option = selectedOption(controls.input);
     var reel = option ? state.reelById.get(option.reelId) : null;
-    state[side === "A" ? "reelA" : "reelB"] = reel;
-    selection.textContent = reel ? displayName(reel) : "Choose an exact reel from the search results.";
-    renderComparison();
+    if (reel) {
+      chooseReel(side, reel);
+      return;
+    }
+    var existing = currentReel(side);
+    setInputForReel(controls.input, existing);
+    controls.selection.textContent = existing ? displayName(existing) : "Choose an exact reel from the search results.";
+    closeReelMenu(side);
   }
 
   function reelHeading(reel, page) {
@@ -182,7 +238,7 @@
       '<p class="rc-reel-brand">', escapeHtml(reel.brand), "</p>",
       "<h3>", escapeHtml(reel.model + " " + reel.size_label), "</h3>",
       '<p class="rc-reel-sku">Model ', escapeHtml(reel.sku || "not listed"), "</p>",
-      '<p class="rc-reel-msrp"><span>Published MSRP</span><strong>', escapeHtml(formatMoney(reel.msrp_usd)), "</strong></p>"
+      '<p class="rc-reel-msrp"><span>MSRP</span><strong>', escapeHtml(formatMoney(reel.msrp_usd)), "</strong></p>"
     ].join("");
   }
 
@@ -555,6 +611,9 @@
   function renderComparison() {
     var reelA = state.reelA;
     var reelB = state.reelB;
+    var hasBothReels = Boolean(reelA && reelB);
+    elements.swap.disabled = !hasBothReels;
+    elements.copy.disabled = !hasBothReels;
     if (!reelA || !reelB) {
       elements.results.hidden = true;
       setStatus("Choose two exact reels to compare.", false);
@@ -580,7 +639,7 @@
       { label: "Retrieve", a: textValue(measurement(reelA.line_retrieve_in, 1, " in/turn")), b: textValue(measurement(reelB.line_retrieve_in, 1, " in/turn")) },
       { label: "Maximum drag", a: textValue(measurement(reelA.max_drag_lb, 1, " lb")), b: textValue(measurement(reelB.max_drag_lb, 1, " lb")) },
       { label: "Bearings", a: textValue(reelA.bearings), b: textValue(reelB.bearings) },
-      { label: "Published MSRP", a: textValue(formatMoney(reelA.msrp_usd)), b: textValue(formatMoney(reelB.msrp_usd)) }
+      { label: "MSRP", a: textValue(formatMoney(reelA.msrp_usd)), b: textValue(formatMoney(reelB.msrp_usd)) }
     ], reelA, reelB);
 
     elements.capacities.innerHTML = comparisonTable([
@@ -636,17 +695,82 @@
     }
   }
 
+  function installReelCombo(side) {
+    var controls = comboElements(side);
+
+    function openAllAndSelect() {
+      var selected = currentReel(side);
+      controls.input.focus();
+      if (selected && controls.input.value === optionLabel(selected)) controls.input.select();
+      openReelMenu(side, true);
+    }
+
+    controls.toggle.addEventListener("mousedown", function(event) {
+      event.preventDefault();
+    });
+    controls.toggle.addEventListener("click", openAllAndSelect);
+    controls.input.addEventListener("focus", function() {
+      var selected = currentReel(side);
+      if (selected && controls.input.value === optionLabel(selected)) controls.input.select();
+      openReelMenu(side, true);
+    });
+    controls.input.addEventListener("click", function() {
+      var selected = currentReel(side);
+      if (selected && controls.input.value === optionLabel(selected)) controls.input.select();
+      openReelMenu(side, true);
+    });
+    controls.input.addEventListener("input", function() {
+      openReelMenu(side, false);
+    });
+    controls.input.addEventListener("keydown", function(event) {
+      var comboState = state.combo[side];
+      if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+        event.preventDefault();
+        if (controls.menu.hidden) openReelMenu(side, false);
+        var direction = event.key === "ArrowDown" ? 1 : -1;
+        var startingIndex = comboState.highlightedIndex < 0
+          ? (direction > 0 ? 0 : comboState.matches.length - 1)
+          : comboState.highlightedIndex + direction;
+        highlightReelOption(side, startingIndex);
+        return;
+      }
+      if (event.key === "Enter") {
+        event.preventDefault();
+        var highlighted = comboState.matches[comboState.highlightedIndex];
+        if (highlighted) chooseReel(side, highlighted.reel);
+        else updateSelection(side);
+        return;
+      }
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setInputForReel(controls.input, currentReel(side));
+        closeReelMenu(side);
+      }
+    });
+    controls.input.addEventListener("blur", function() {
+      window.setTimeout(function() {
+        if (!controls.menu.contains(document.activeElement)) updateSelection(side);
+      }, 120);
+    });
+    controls.menu.addEventListener("mousedown", function(event) {
+      if (event.target.closest(".rc-reel-option")) event.preventDefault();
+    });
+    controls.menu.addEventListener("click", function(event) {
+      var button = event.target.closest(".rc-reel-option");
+      if (!button) return;
+      chooseReel(side, state.reelById.get(button.dataset.reelId));
+    });
+  }
+
   function installEvents() {
-    elements.inputA.addEventListener("change", function() { updateSelection("A"); });
-    elements.inputB.addEventListener("change", function() { updateSelection("B"); });
-    elements.inputA.addEventListener("input", function() {
-      if (state.optionByLabel.has(elements.inputA.value.trim().toLowerCase())) updateSelection("A");
+    installReelCombo("A");
+    installReelCombo("B");
+    document.addEventListener("mousedown", function(event) {
+      if (!event.target.closest(".rc-reel-combobox")) {
+        closeReelMenu("A");
+        closeReelMenu("B");
+      }
     });
-    elements.inputB.addEventListener("input", function() {
-      if (state.optionByLabel.has(elements.inputB.value.trim().toLowerCase())) updateSelection("B");
-    });
-    elements.inputA.addEventListener("blur", function() { updateSelection("A"); });
-    elements.inputB.addEventListener("blur", function() { updateSelection("B"); });
     elements.swap.addEventListener("click", function() {
       if (!state.reelA || !state.reelB) return;
       var oldA = state.reelA;
@@ -730,14 +854,14 @@
 
   function chooseInitialReels() {
     var params = new URLSearchParams(window.location.search);
-    var firstId = params.get("reel1") || DEFAULT_REEL_A;
-    var secondId = params.get("reel2") || DEFAULT_REEL_B;
-    state.reelA = state.reelById.get(firstId) || state.reelById.get(DEFAULT_REEL_A) || state.options[0]?.reel;
-    state.reelB = state.reelById.get(secondId) || state.reelById.get(DEFAULT_REEL_B) || state.options[1]?.reel;
+    var firstId = params.get("reel1") || "";
+    var secondId = params.get("reel2") || "";
+    state.reelA = firstId ? state.reelById.get(firstId) || null : null;
+    state.reelB = secondId ? state.reelById.get(secondId) || null : null;
     setInputForReel(elements.inputA, state.reelA);
     setInputForReel(elements.inputB, state.reelB);
-    elements.selectionA.textContent = displayName(state.reelA);
-    elements.selectionB.textContent = displayName(state.reelB);
+    elements.selectionA.textContent = state.reelA ? displayName(state.reelA) : "Choose a reel.";
+    elements.selectionB.textContent = state.reelB ? displayName(state.reelB) : "Choose a reel.";
     renderComparison();
   }
 
@@ -771,10 +895,7 @@
       state.optionByLabel = new Map(state.options.map(function(option) {
         return [option.label.toLowerCase(), option];
       }));
-      populateOptions();
       installEvents();
-      elements.swap.disabled = false;
-      elements.copy.disabled = false;
       chooseInitialLines();
       chooseInitialReels();
     } catch (error) {

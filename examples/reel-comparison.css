@@ -126,6 +126,108 @@ a:focus-visible {
   border-color: var(--rc-blue);
 }
 
+.rc-reel-combobox {
+  position: relative;
+}
+
+.rc-reel-combobox input {
+  padding-right: 50px;
+}
+
+.rc-reel-menu-toggle {
+  align-items: center;
+  background: #ffffff;
+  border: 0;
+  border-left: 1px solid #d0d8dc;
+  border-radius: 0 5px 5px 0;
+  color: var(--rc-blue);
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  height: 46px;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 44px;
+}
+
+.rc-reel-menu-toggle:hover,
+.rc-reel-menu-toggle:focus-visible {
+  background: #eef4f7;
+}
+
+.rc-reel-options {
+  background: #ffffff;
+  border: 1px solid #aeb8bd;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(24, 45, 56, 0.16);
+  left: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 5px);
+  z-index: 50;
+}
+
+.rc-reel-options[hidden] {
+  display: none;
+}
+
+.rc-reel-option {
+  background: #ffffff;
+  border: 0;
+  border-bottom: 1px solid var(--rc-border);
+  color: var(--rc-text);
+  cursor: pointer;
+  display: block;
+  min-height: 48px;
+  padding: 9px 11px;
+  text-align: left;
+  width: 100%;
+}
+
+.rc-reel-option:last-child {
+  border-bottom: 0;
+}
+
+.rc-reel-option span,
+.rc-reel-option small {
+  display: block;
+}
+
+.rc-reel-option span {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.rc-reel-option small {
+  color: var(--rc-muted);
+  font-size: 12px;
+  line-height: 1.3;
+  margin-top: 2px;
+}
+
+.rc-reel-option:hover,
+.rc-reel-option.is-highlighted {
+  background: #eef4f7;
+}
+
+.rc-reel-option[aria-selected="true"] {
+  border-left: 4px solid var(--rc-blue);
+  padding-left: 7px;
+}
+
+.rc-no-reel-results {
+  color: var(--rc-muted);
+  font-size: 13px;
+  margin: 0;
+  padding: 14px 12px;
+}
+
 .rc-selection-note {
   color: var(--rc-muted);
   font-size: 13px;
@@ -694,6 +796,10 @@ a:focus-visible {
   .rc-selector-grid {
     gap: 10px;
     grid-template-columns: 1fr;
+  }
+
+  .rc-reel-options {
+    max-height: 280px;
   }
 
   .rc-swap-button {
