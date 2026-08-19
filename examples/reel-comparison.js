@@ -1,0 +1,787 @@
+(function() {
+  "use strict";
+
+  var SITE_BASE = "https://www.reelcalc.com";
+  var SCRIPT_URL = document.currentScript && document.currentScript.src
+    ? document.currentScript.src
+    : document.baseURI;
+  var ASSET_ROOT = new URL("../", SCRIPT_URL);
+  var DEFAULT_REEL_A = "shimano-stradic-fm-c3000xg-stc3000xgfm-686";
+  var DEFAULT_REEL_B = "daiwa-fuego-lt-3000d-c-feglt3000d-c-132";
+  var DEFAULT_MAIN_LINE = "seaguar-smackdown-braid-15";
+  var DEFAULT_BACKING_LINE = "berkley-trilene-big-game-monofilament-10";
+  var state = {
+    options: [],
+    optionByLabel: new Map(),
+    reelById: new Map(),
+    pageByReelId: new Map(),
+    reelA: null,
+    reelB: null,
+    backingEnabled: true,
+    affiliateData: null,
+    lines: [],
+    lineRoles: {
+      main: { material: "Braid", line: null, productsByLabel: new Map() },
+      backing: { material: "Monofilament", line: null, productsByLabel: new Map() }
+    }
+  };
+
+  var elements = {
+    inputA: document.getElementById("reel-a-input"),
+    inputB: document.getElementById("reel-b-input"),
+    optionsA: document.getElementById("reel-a-options"),
+    optionsB: document.getElementById("reel-b-options"),
+    selectionA: document.getElementById("reel-a-selection"),
+    selectionB: document.getElementById("reel-b-selection"),
+    swap: document.getElementById("swap-reels"),
+    copy: document.getElementById("copy-comparison"),
+    status: document.getElementById("comparison-status"),
+    results: document.getElementById("comparison-results"),
+    headingA: document.getElementById("reel-a-heading"),
+    headingB: document.getElementById("reel-b-heading"),
+    differences: document.getElementById("quick-differences"),
+    specifications: document.getElementById("specification-comparison"),
+    capacities: document.getElementById("capacity-comparison"),
+    lineFitSummary: document.getElementById("line-fit-summary"),
+    lineFitComparison: document.getElementById("line-fit-comparison"),
+    mainLineProduct: document.getElementById("main-line-product"),
+    mainLineProducts: document.getElementById("main-line-products"),
+    mainLineStrength: document.getElementById("main-line-strength"),
+    mainLineDetail: document.getElementById("main-line-detail"),
+    backingLineProduct: document.getElementById("backing-line-product"),
+    backingLineProducts: document.getElementById("backing-line-products"),
+    backingLineStrength: document.getElementById("backing-line-strength"),
+    backingLineDetail: document.getElementById("backing-line-detail"),
+    backingModeNote: document.getElementById("backing-mode-note"),
+    mainLineYards: document.getElementById("main-line-yards"),
+    setups: document.getElementById("setup-comparison"),
+    sources: document.getElementById("source-links")
+  };
+
+  function assetUrl(path) {
+    return new URL(path, ASSET_ROOT).href;
+  }
+
+  function escapeHtml(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function displayName(reel) {
+    return [reel.brand, reel.model, reel.size_label].filter(Boolean).join(" ");
+  }
+
+  function optionLabel(reel) {
+    return displayName(reel) + (reel.sku ? " | " + reel.sku : "");
+  }
+
+  function trimNumber(value, decimals) {
+    var number = Number(value);
+    if (!Number.isFinite(number)) return "Not published";
+    return number.toFixed(decimals).replace(/(\.\d*?[1-9])0+$|\.0+$/, "$1");
+  }
+
+  function measurement(value, decimals, suffix) {
+    return Number.isFinite(Number(value))
+      ? trimNumber(value, decimals) + suffix
+      : "Not published";
+  }
+
+  function gearRatio(value) {
+    var ratio = String(value || "").trim();
+    if (!ratio) return "Not published";
+    return ratio.includes(":") ? ratio : ratio + ":1";
+  }
+
+  function formatMoney(value) {
+    var number = Number(value);
+    return Number.isFinite(number) && number > 0
+      ? new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(number)
+      : "Not published";
+  }
+
+  function humanizeReelType(value) {
+    var normalized = String(value || "").toLowerCase();
+    var water = normalized.includes("saltwater")
+      ? "Saltwater"
+      : (normalized.includes("freshwater") ? "Freshwater" : "");
+    var style = normalized.includes("spinning") || normalized.includes("front_drag")
+      ? "spinning reel"
+      : normalized.replace(/[_-]+/g, " ").trim();
+    return [water, style].filter(Boolean).join(" ") || "Fishing reel";
+  }
+
+  function monoCapacity(reel) {
+    var capacities = Array.isArray(reel.capacity_options) ? reel.capacity_options : [];
+    if (capacities.length) {
+      return capacities.map(function(item) {
+        return trimNumber(item.lb, 1) + " lb / " + trimNumber(item.yards, 0) + " yd";
+      }).join(", ");
+    }
+    return reel.capacity_note || "Not published";
+  }
+
+  function braidCapacity(reel) {
+    return String(reel.braid_capacity_note || "").trim() || "Not published";
+  }
+
+  function setStatus(message, isError) {
+    elements.status.textContent = message || "";
+    elements.status.classList.toggle("is-error", Boolean(isError));
+  }
+
+  function populateOptions() {
+    var fragmentA = document.createDocumentFragment();
+    var fragmentB = document.createDocumentFragment();
+    state.options.forEach(function(item) {
+      var optionA = document.createElement("option");
+      optionA.value = item.label;
+      fragmentA.appendChild(optionA);
+      var optionB = document.createElement("option");
+      optionB.value = item.label;
+      fragmentB.appendChild(optionB);
+    });
+    elements.optionsA.replaceChildren(fragmentA);
+    elements.optionsB.replaceChildren(fragmentB);
+  }
+
+  function selectedOption(input) {
+    var direct = state.optionByLabel.get(input.value.trim().toLowerCase());
+    if (direct) return direct;
+    var search = input.value.trim().toLowerCase();
+    if (!search) return null;
+    var matches = state.options.filter(function(item) {
+      return item.label.toLowerCase().includes(search);
+    });
+    return matches.length === 1 ? matches[0] : null;
+  }
+
+  function setInputForReel(input, reel) {
+    input.value = reel ? optionLabel(reel) : "";
+  }
+
+  function updateSelection(side) {
+    var input = side === "A" ? elements.inputA : elements.inputB;
+    var selection = side === "A" ? elements.selectionA : elements.selectionB;
+    var option = selectedOption(input);
+    var reel = option ? state.reelById.get(option.reelId) : null;
+    state[side === "A" ? "reelA" : "reelB"] = reel;
+    selection.textContent = reel ? displayName(reel) : "Choose an exact reel from the search results.";
+    renderComparison();
+  }
+
+  function reelHeading(reel, page) {
+    return [
+      '<div class="rc-reel-image-wrap">',
+      '<img class="rc-reel-image" src="', escapeHtml(page.imageUrl), '" alt="', escapeHtml(page.imageAlt), '">',
+      "</div>",
+      '<p class="rc-reel-brand">', escapeHtml(reel.brand), "</p>",
+      "<h3>", escapeHtml(reel.model + " " + reel.size_label), "</h3>",
+      '<p class="rc-reel-sku">Model ', escapeHtml(reel.sku || "not listed"), "</p>",
+      '<p class="rc-reel-msrp"><span>Published MSRP</span><strong>', escapeHtml(formatMoney(reel.msrp_usd)), "</strong></p>"
+    ].join("");
+  }
+
+  function comparisonTable(rows, reelA, reelB) {
+    var html = [
+      '<div class="rc-comparison-row is-header">',
+      "<div>Specification</div>",
+      "<div>", escapeHtml(reelA.brand + " " + reelA.size_label), "</div>",
+      "<div>", escapeHtml(reelB.brand + " " + reelB.size_label), "</div>",
+      "</div>"
+    ];
+    rows.forEach(function(row) {
+      html.push(
+        '<div class="rc-comparison-row">',
+        '<div class="rc-row-label">', escapeHtml(row.label), "</div>",
+        "<div>", row.a, "</div>",
+        "<div>", row.b, "</div>",
+        "</div>"
+      );
+    });
+    return html.join("");
+  }
+
+  function textValue(value) {
+    return escapeHtml(value || "Not published");
+  }
+
+  function lineProductLabel(line) {
+    return [line.brand, line.model].filter(Boolean).join(" ");
+  }
+
+  function lineLabel(line) {
+    return line ? lineProductLabel(line) + " " + trimNumber(line.lb, 1) + " lb" : "Choose a line";
+  }
+
+  function roleElements(role) {
+    return role === "main"
+      ? {
+          product: elements.mainLineProduct,
+          products: elements.mainLineProducts,
+          strength: elements.mainLineStrength,
+          detail: elements.mainLineDetail
+        }
+      : {
+          product: elements.backingLineProduct,
+          products: elements.backingLineProducts,
+          strength: elements.backingLineStrength,
+          detail: elements.backingLineDetail
+        };
+  }
+
+  function refreshLineRole(role, preferredLineId) {
+    var selector = window.ReelCalcLineSelector;
+    var roleState = state.lineRoles[role];
+    var controls = roleElements(role);
+    var products = selector.productsFor(state.lines, roleState.material);
+    roleState.productsByLabel = new Map(products.map(function(product) {
+      return [product.label.toLowerCase(), product];
+    }));
+
+    var productFragment = document.createDocumentFragment();
+    products.forEach(function(product) {
+      var option = document.createElement("option");
+      option.value = product.label;
+      productFragment.appendChild(option);
+    });
+    controls.products.replaceChildren(productFragment);
+
+    var selected = preferredLineId
+      ? state.lines.find(function(line) { return line.id === preferredLineId && line.material === roleState.material; })
+      : roleState.line;
+    if (!selected || selected.material !== roleState.material) {
+      var firstProduct = products[0];
+      selected = selector.strengthsFor(state.lines, firstProduct)[0] || null;
+    }
+    roleState.line = selected;
+    controls.product.value = selected ? lineProductLabel(selected) : "";
+    refreshLineStrengths(role, selected ? selector.productKey(selected) : "", selected ? selected.id : "");
+
+    document.querySelectorAll('.rc-material-button[data-line-role="' + role + '"]').forEach(function(button) {
+      button.classList.toggle("is-active", button.dataset.material === roleState.material);
+    });
+  }
+
+  function refreshLineStrengths(role, productKey, preferredLineId) {
+    var selector = window.ReelCalcLineSelector;
+    var roleState = state.lineRoles[role];
+    var controls = roleElements(role);
+    var product = selector.productsFor(state.lines, roleState.material).find(function(item) {
+      return item.key === productKey;
+    });
+    var strengths = selector.strengthsFor(state.lines, product);
+    var selected = strengths.find(function(line) { return line.id === preferredLineId; }) || strengths[0] || null;
+    roleState.line = selected;
+
+    controls.strength.innerHTML = strengths.length
+      ? strengths.map(function(line) {
+          return '<option value="' + escapeHtml(line.id) + '"' + (selected && line.id === selected.id ? " selected" : "") + ">" +
+            escapeHtml(trimNumber(line.lb, 1) + " lb") + "</option>";
+        }).join("")
+      : '<option value="">Choose a line first</option>';
+    controls.strength.disabled = !strengths.length;
+    controls.detail.textContent = selected
+      ? "Published diameter: " + trimNumber(selected.dia_in, 4) + " in (" + trimNumber(selected.dia_mm || selected.dia_in * 25.4, 3) + " mm)"
+      : "Choose an exact line and strength.";
+    renderLineFit();
+  }
+
+  function selectLineProduct(role) {
+    var roleState = state.lineRoles[role];
+    var controls = roleElements(role);
+    var product = roleState.productsByLabel.get(controls.product.value.trim().toLowerCase());
+    if (!product) return false;
+    refreshLineStrengths(role, product.key, "");
+    return true;
+  }
+
+  function setBackingMode(enabled) {
+    state.backingEnabled = Boolean(enabled);
+    document.querySelectorAll(".rc-mode-button").forEach(function(button) {
+      button.classList.toggle("is-active", button.dataset.backingMode === (state.backingEnabled ? "on" : "off"));
+    });
+    var backingChooser = document.querySelector('.rc-line-chooser[data-line-role="backing"]');
+    var amountControl = document.querySelector(".rc-line-amount");
+    backingChooser.classList.toggle("is-disabled", !state.backingEnabled);
+    amountControl.classList.toggle("is-disabled", !state.backingEnabled);
+    backingChooser.setAttribute("aria-disabled", String(!state.backingEnabled));
+    amountControl.setAttribute("aria-disabled", String(!state.backingEnabled));
+    roleElements("backing").product.disabled = !state.backingEnabled;
+    roleElements("backing").strength.disabled = !state.backingEnabled;
+    elements.mainLineYards.disabled = !state.backingEnabled;
+    document.querySelectorAll('.rc-material-button[data-line-role="backing"]').forEach(function(button) {
+      button.disabled = !state.backingEnabled;
+    });
+    elements.backingModeNote.textContent = state.backingEnabled
+      ? "Compare a chosen main-line amount with backing underneath it."
+      : "Compare how much main line fills each reel without backing.";
+    renderLineFit();
+  }
+
+  function numericDifference(config, reelA, reelB) {
+    var a = Number(reelA[config.key]);
+    var b = Number(reelB[config.key]);
+    if (!Number.isFinite(a) || !Number.isFinite(b)) {
+      return { label: config.label, value: "Published data is incomplete" };
+    }
+    if (Math.abs(a - b) < 0.001) {
+      return { label: config.label, value: "Same published " + config.equalLabel };
+    }
+    var chosen = config.lowerWins ? (a < b ? reelA : reelB) : (a > b ? reelA : reelB);
+    var difference = Math.abs(a - b);
+    return {
+      label: config.label,
+      value: displayName(chosen) + " by " + trimNumber(difference, 1) + " " + config.unit
+    };
+  }
+
+  function renderDifferences(reelA, reelB) {
+    var items = [
+      numericDifference({
+        key: "weight_oz",
+        label: "Lighter reel",
+        equalLabel: "weight",
+        unit: "oz",
+        lowerWins: true
+      }, reelA, reelB),
+      numericDifference({
+        key: "line_retrieve_in",
+        label: "More line pickup",
+        equalLabel: "retrieve rate",
+        unit: "in/turn",
+        lowerWins: false
+      }, reelA, reelB),
+      numericDifference({
+        key: "max_drag_lb",
+        label: "Higher maximum drag",
+        equalLabel: "maximum drag",
+        unit: "lb",
+        lowerWins: false
+      }, reelA, reelB)
+    ];
+    elements.differences.innerHTML = items.map(function(item) {
+      return '<div class="rc-difference-item"><span class="rc-difference-label">' +
+        escapeHtml(item.label) + '</span><span class="rc-difference-value">' +
+        escapeHtml(item.value) + "</span></div>";
+    }).join("");
+  }
+
+  function yardsLabel(value, decimals) {
+    return Number.isFinite(Number(value)) ? trimNumber(value, decimals == null ? 1 : decimals) + " yd" : "Unavailable";
+  }
+
+  function yardsRangeLabel(range) {
+    return trimNumber(range.minimumYards, 0) + "-" + trimNumber(range.maximumYards, 0) + " yd";
+  }
+
+  function turnsLabel(turns) {
+    if (!turns || !(turns.approximateTurns >= 0)) return "Not published";
+    return '<span class="rc-fit-primary">About ' + escapeHtml(trimNumber(turns.approximateTurns, 0)) +
+      ' turns</span><span class="rc-value-note">Approximate range: ' +
+      escapeHtml(trimNumber(turns.rangeMin, 0) + "-" + trimNumber(turns.rangeMax, 0) + " turns") + "</span>";
+  }
+
+  function lineFitForReel(reel, mainLine, backingLine, desiredYards) {
+    var core = window.ReelCalcCore;
+    var basis = core.capacityBasisForActualLine(reel, mainLine, state.lines);
+    var capacity = core.calculateFullSpoolCapacity(reel, mainLine, { lineCatalog: state.lines });
+    var capacityRange = mainLine.material === "Braid"
+      ? core.calculateActualLineBraidCapacityRange(reel, mainLine, state.lines)
+      : null;
+    if (!state.backingEnabled) {
+      var fullSpoolRetrieve = Number(reel.line_retrieve_in);
+      return {
+        basis: basis,
+        capacity: capacity,
+        capacityRange: capacityRange,
+        backing: null,
+        backingRange: null,
+        backingEnabled: false,
+        overCapacity: !(capacity > 0),
+        mainTurns: capacity > 0 && fullSpoolRetrieve > 0 ? core.calculateHandleTurns(capacity, fullSpoolRetrieve) : null,
+        backingTurns: null
+      };
+    }
+    var backing = core.calculateActualLineCalibratedBacking(reel, mainLine, desiredYards, backingLine, state.lines);
+    var backingRange = mainLine.material === "Braid"
+      ? core.calculateActualLineCalibratedBackingRange(reel, mainLine, desiredYards, backingLine, state.lines)
+      : null;
+    var overCapacity = !backing || backing.overCapacity || !(capacity > 0);
+    var retrieve = Number(reel.line_retrieve_in);
+    return {
+      basis: basis,
+      capacity: capacity,
+      capacityRange: capacityRange,
+      backing: backing,
+      backingRange: backingRange,
+      backingEnabled: true,
+      overCapacity: overCapacity,
+      mainTurns: !overCapacity && retrieve > 0 ? core.calculateHandleTurns(desiredYards, retrieve) : null,
+      backingTurns: !overCapacity && backing && retrieve > 0 ? core.calculateHandleTurns(backing.backingYards, retrieve) : null
+    };
+  }
+
+  function capacityFitHtml(fit) {
+    if (!(fit.capacity > 0)) return '<span class="rc-fit-warning">Capacity could not be calculated</span>';
+    var html = '<span class="rc-fit-primary">' + escapeHtml(yardsLabel(fit.capacity, 0)) + "</span>";
+    if (fit.capacityRange) {
+      html += '<span class="rc-value-note">Expected real-world range: ' + escapeHtml(yardsRangeLabel(fit.capacityRange)) + "</span>";
+    }
+    return html;
+  }
+
+  function backingFitHtml(fit, desiredYards) {
+    if (!fit.backingEnabled) {
+      return '<span class="rc-fit-primary">No backing</span><span class="rc-value-note">The full spool estimate is main line only.</span>';
+    }
+    if (fit.overCapacity) {
+      return '<span class="rc-fit-warning">' + escapeHtml(trimNumber(desiredYards, 0)) +
+        ' yd exceeds the best full-spool estimate</span><span class="rc-value-note">Reduce the main-line amount before adding backing.</span>';
+    }
+    var html = '<span class="rc-fit-primary">' + escapeHtml(yardsLabel(fit.backing.backingYards, 1)) + "</span>";
+    if (fit.backingRange) {
+      html += '<span class="rc-value-note">Expected real-world range: ' + escapeHtml(yardsRangeLabel(fit.backingRange)) + "</span>";
+    }
+    if (fit.backing.backingYards < 0.5) {
+      html += '<span class="rc-value-note">The selected main-line amount nearly fills this reel.</span>';
+    }
+    return html;
+  }
+
+  function basisHtml(fit) {
+    if (!fit.basis) return "Capacity basis unavailable";
+    var note = fit.basis.label;
+    if (fit.basis.fallback) {
+      note += ". This reel does not have a usable published braid rating, so ReelCalc is using its mono capacity as a fallback.";
+    }
+    return '<span class="rc-fit-basis">' + escapeHtml(note) + "</span>";
+  }
+
+  function backingTurnsHtml(fit) {
+    if (!fit.backingEnabled) return textValue("No backing used");
+    if (fit.overCapacity) return textValue("Not applicable");
+    if (fit.backing && fit.backing.backingYards < 0.5) return textValue("No backing needed");
+    return turnsLabel(fit.backingTurns);
+  }
+
+  function renderLineFit() {
+    var mainLine = state.lineRoles.main.line;
+    var backingLine = state.lineRoles.backing.line;
+    var desiredYards = Number(elements.mainLineYards.value);
+    if (!state.reelA || !state.reelB || !mainLine || (state.backingEnabled && (!backingLine || !(desiredYards > 0)))) {
+      elements.lineFitSummary.textContent = state.backingEnabled
+        ? "Choose both lines and enter a main-line amount to compare line fit."
+        : "Choose a main line to compare full-spool capacity.";
+      elements.lineFitComparison.innerHTML = "";
+      return;
+    }
+
+    var fitA = lineFitForReel(state.reelA, mainLine, backingLine, desiredYards);
+    var fitB = lineFitForReel(state.reelB, mainLine, backingLine, desiredYards);
+    elements.lineFitSummary.innerHTML = state.backingEnabled
+      ? "Comparing <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> over <strong>" +
+        escapeHtml(lineLabel(backingLine)) + "</strong>, with <strong>" + escapeHtml(trimNumber(desiredYards, 0)) +
+        " yards of main line</strong>."
+      : "Comparing a full spool of <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> with no backing.";
+    elements.lineFitComparison.innerHTML = comparisonTable([
+      { label: "Full spool estimate", a: capacityFitHtml(fitA), b: capacityFitHtml(fitB) },
+      { label: "Backing needed", a: backingFitHtml(fitA, desiredYards), b: backingFitHtml(fitB, desiredYards) },
+      { label: "Main-line handle turns", a: fitA.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitA.mainTurns), b: fitB.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitB.mainTurns) },
+      { label: "Backing handle turns", a: backingTurnsHtml(fitA), b: backingTurnsHtml(fitB) },
+      { label: "Capacity basis", a: basisHtml(fitA), b: basisHtml(fitB) }
+    ], state.reelA, state.reelB);
+    updateUrl();
+  }
+
+  function allowedAffiliateUrl(value, retailer) {
+    try {
+      var url = new URL(String(value || ""));
+      var host = url.hostname.toLowerCase();
+      var allowedHosts = Array.isArray(retailer && retailer.allowedHosts) ? retailer.allowedHosts : [];
+      var allowed = allowedHosts.some(function(item) {
+        var expected = String(item || "").toLowerCase();
+        return expected && (host === expected || host.endsWith("." + expected));
+      });
+      return url.protocol === "https:" && allowed ? url.href : "";
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function reelAffiliateOffer(reel) {
+    var data = state.affiliateData;
+    var mapping = data && data.reels ? data.reels[reel.id] : null;
+    var priority = data && Array.isArray(data.retailerPriority) ? data.retailerPriority : [];
+    if (!mapping) return null;
+    for (var index = 0; index < priority.length; index += 1) {
+      var retailerId = priority[index];
+      var retailer = data.retailers && data.retailers[retailerId];
+      var offer = mapping.offers && mapping.offers[retailerId] ? mapping.offers[retailerId].reel : null;
+      var url = retailer && offer ? allowedAffiliateUrl(offer.url, retailer) : "";
+      if (!url) continue;
+      var isSearch = offer.matchType === "search";
+      return {
+        url: url,
+        label: offer.label || (isSearch ? retailer.searchLabel : retailer.directLabel) || "Check Current Price on " + retailer.name,
+        disclosure: [data.genericDisclosure, retailer.disclosure].filter(Boolean).join(" ")
+      };
+    }
+    return null;
+  }
+
+  function sourceColumn(reel, page) {
+    var pageUrl = SITE_BASE + page.path;
+    var wizardUrl = SITE_BASE + "/reelcalc-wizard?reel=" + encodeURIComponent(reel.id);
+    var affiliate = reelAffiliateOffer(reel);
+    return [
+      '<article class="rc-source-column">',
+      "<h3>", escapeHtml(displayName(reel)), "</h3>",
+      "<p>See the complete line-capacity guide, continue with this reel preloaded in the Setup Wizard, or check its current price.</p>",
+      '<div class="rc-action-links">',
+      '<a class="rc-action-link" href="', escapeHtml(pageUrl), '" target="_blank" rel="noopener">View full reel guide</a>',
+      '<a class="rc-action-link is-secondary" href="', escapeHtml(wizardUrl), '" target="_blank" rel="noopener">Open in Setup Wizard</a>',
+      affiliate ? '<a class="rc-action-link is-amazon" href="' + escapeHtml(affiliate.url) + '" target="_blank" rel="sponsored nofollow noopener">' + escapeHtml(affiliate.label) + "</a>" : "",
+      "</div>",
+      affiliate ? '<p class="rc-affiliate-disclosure">' + escapeHtml(affiliate.disclosure) + "</p>" : "",
+      "</article>"
+    ].join("");
+  }
+
+  function renderComparison() {
+    var reelA = state.reelA;
+    var reelB = state.reelB;
+    if (!reelA || !reelB) {
+      elements.results.hidden = true;
+      setStatus("Choose two exact reels to compare.", false);
+      return;
+    }
+    if (reelA.id === reelB.id) {
+      elements.results.hidden = true;
+      setStatus("Choose two different reels for a side-by-side comparison.", true);
+      return;
+    }
+
+    var pageA = state.pageByReelId.get(reelA.id);
+    var pageB = state.pageByReelId.get(reelB.id);
+    elements.headingA.innerHTML = reelHeading(reelA, pageA);
+    elements.headingB.innerHTML = reelHeading(reelB, pageB);
+    renderDifferences(reelA, reelB);
+
+    elements.specifications.innerHTML = comparisonTable([
+      { label: "Reel size", a: textValue(reelA.size_label), b: textValue(reelB.size_label) },
+      { label: "Reel type", a: textValue(humanizeReelType(reelA.reel_type)), b: textValue(humanizeReelType(reelB.reel_type)) },
+      { label: "Weight", a: textValue(measurement(reelA.weight_oz, 1, " oz")), b: textValue(measurement(reelB.weight_oz, 1, " oz")) },
+      { label: "Gear ratio", a: textValue(gearRatio(reelA.gear_ratio)), b: textValue(gearRatio(reelB.gear_ratio)) },
+      { label: "Retrieve", a: textValue(measurement(reelA.line_retrieve_in, 1, " in/turn")), b: textValue(measurement(reelB.line_retrieve_in, 1, " in/turn")) },
+      { label: "Maximum drag", a: textValue(measurement(reelA.max_drag_lb, 1, " lb")), b: textValue(measurement(reelB.max_drag_lb, 1, " lb")) },
+      { label: "Bearings", a: textValue(reelA.bearings), b: textValue(reelB.bearings) },
+      { label: "Published MSRP", a: textValue(formatMoney(reelA.msrp_usd)), b: textValue(formatMoney(reelB.msrp_usd)) }
+    ], reelA, reelB);
+
+    elements.capacities.innerHTML = comparisonTable([
+      { label: "Mono capacity", a: textValue(monoCapacity(reelA)), b: textValue(monoCapacity(reelB)) },
+      { label: "Braid capacity", a: textValue(braidCapacity(reelA)), b: textValue(braidCapacity(reelB)) },
+      {
+        label: "Primary rating used",
+        a: textValue(measurement(reelA.rated_line_lb, 1, " lb") + " / " + measurement(reelA.capacity_yards, 0, " yd")),
+        b: textValue(measurement(reelB.rated_line_lb, 1, " lb") + " / " + measurement(reelB.capacity_yards, 0, " yd"))
+      }
+    ], reelA, reelB);
+    renderLineFit();
+
+    elements.setups.innerHTML = comparisonTable([
+      { label: "Recommended braid", a: textValue(reelA.reelcalc_recommended_braid), b: textValue(reelB.reelcalc_recommended_braid) },
+      { label: "Mono / fluoro", a: textValue(reelA.reelcalc_recommended_mono_fluoro), b: textValue(reelB.reelcalc_recommended_mono_fluoro) },
+      { label: "Best fit", a: textValue(reelA.reelcalc_use_case), b: textValue(reelB.reelcalc_use_case) }
+    ], reelA, reelB);
+
+    elements.sources.innerHTML = sourceColumn(reelA, pageA) + sourceColumn(reelB, pageB);
+    elements.results.hidden = false;
+    setStatus("", false);
+    updateUrl();
+  }
+
+  function updateUrl() {
+    if (!state.reelA || !state.reelB) return;
+    var url = new URL(window.location.href);
+    url.searchParams.set("reel1", state.reelA.id);
+    url.searchParams.set("reel2", state.reelB.id);
+    if (state.lineRoles.main.line) url.searchParams.set("mainLine", state.lineRoles.main.line.id);
+    if (state.lineRoles.backing.line) url.searchParams.set("backingLine", state.lineRoles.backing.line.id);
+    url.searchParams.set("backing", state.backingEnabled ? "on" : "off");
+    var desiredYards = Number(elements.mainLineYards.value);
+    if (desiredYards > 0) url.searchParams.set("mainYards", trimNumber(desiredYards, 1));
+    window.history.replaceState({}, "", url);
+  }
+
+  function copyComparisonLink() {
+    if (!state.reelA || !state.reelB || state.reelA.id === state.reelB.id) {
+      setStatus("Choose two different reels before copying the comparison link.", true);
+      return;
+    }
+    var url = window.location.href;
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(function() {
+        setStatus("Comparison link copied.", false);
+      }).catch(function() {
+        setStatus("The comparison link is ready in the address bar.", false);
+      });
+    } else {
+      setStatus("The comparison link is ready in the address bar.", false);
+    }
+  }
+
+  function installEvents() {
+    elements.inputA.addEventListener("change", function() { updateSelection("A"); });
+    elements.inputB.addEventListener("change", function() { updateSelection("B"); });
+    elements.inputA.addEventListener("input", function() {
+      if (state.optionByLabel.has(elements.inputA.value.trim().toLowerCase())) updateSelection("A");
+    });
+    elements.inputB.addEventListener("input", function() {
+      if (state.optionByLabel.has(elements.inputB.value.trim().toLowerCase())) updateSelection("B");
+    });
+    elements.inputA.addEventListener("blur", function() { updateSelection("A"); });
+    elements.inputB.addEventListener("blur", function() { updateSelection("B"); });
+    elements.swap.addEventListener("click", function() {
+      if (!state.reelA || !state.reelB) return;
+      var oldA = state.reelA;
+      state.reelA = state.reelB;
+      state.reelB = oldA;
+      setInputForReel(elements.inputA, state.reelA);
+      setInputForReel(elements.inputB, state.reelB);
+      elements.selectionA.textContent = displayName(state.reelA);
+      elements.selectionB.textContent = displayName(state.reelB);
+      renderComparison();
+    });
+    elements.copy.addEventListener("click", copyComparisonLink);
+
+    document.querySelectorAll(".rc-mode-button").forEach(function(button) {
+      button.addEventListener("click", function() {
+        setBackingMode(button.dataset.backingMode === "on");
+      });
+    });
+
+    document.querySelectorAll(".rc-material-button").forEach(function(button) {
+      button.addEventListener("click", function() {
+        var role = button.dataset.lineRole;
+        var material = button.dataset.material;
+        var previous = state.lineRoles[role].line;
+        state.lineRoles[role].material = material;
+        var closest = window.ReelCalcLineSelector.closestLine(state.lines, {
+          material: material,
+          lb: previous ? previous.lb : 0,
+          dia_in: previous ? previous.dia_in : 0
+        });
+        refreshLineRole(role, closest ? closest.id : "");
+      });
+    });
+
+    ["main", "backing"].forEach(function(role) {
+      var controls = roleElements(role);
+      controls.product.addEventListener("input", function() {
+        selectLineProduct(role);
+      });
+      controls.product.addEventListener("change", function() {
+        if (!selectLineProduct(role) && state.lineRoles[role].line) {
+          controls.product.value = lineProductLabel(state.lineRoles[role].line);
+        }
+      });
+      controls.product.addEventListener("blur", function() {
+        if (!state.lineRoles[role].productsByLabel.has(controls.product.value.trim().toLowerCase()) && state.lineRoles[role].line) {
+          controls.product.value = lineProductLabel(state.lineRoles[role].line);
+        }
+      });
+      controls.strength.addEventListener("change", function() {
+        var line = state.lines.find(function(item) { return item.id === controls.strength.value; }) || null;
+        state.lineRoles[role].line = line;
+        controls.detail.textContent = line
+          ? "Published diameter: " + trimNumber(line.dia_in, 4) + " in (" + trimNumber(line.dia_mm || line.dia_in * 25.4, 3) + " mm)"
+          : "Choose an exact line and strength.";
+        renderLineFit();
+      });
+    });
+
+    elements.mainLineYards.addEventListener("input", renderLineFit);
+    elements.mainLineYards.addEventListener("change", renderLineFit);
+  }
+
+  function chooseInitialLines() {
+    var params = new URLSearchParams(window.location.search);
+    var mainLineId = params.get("mainLine") || DEFAULT_MAIN_LINE;
+    var backingLineId = params.get("backingLine") || DEFAULT_BACKING_LINE;
+    var backingEnabled = params.get("backing") !== "off";
+    var desiredYards = Number(params.get("mainYards"));
+    var mainLine = state.lines.find(function(line) { return line.id === mainLineId; }) ||
+      state.lines.find(function(line) { return line.id === DEFAULT_MAIN_LINE; });
+    var backingLine = state.lines.find(function(line) { return line.id === backingLineId; }) ||
+      state.lines.find(function(line) { return line.id === DEFAULT_BACKING_LINE; });
+    if (mainLine) state.lineRoles.main.material = mainLine.material;
+    if (backingLine) state.lineRoles.backing.material = backingLine.material === "Braid" ? "Braid" : "Monofilament";
+    if (desiredYards > 0) elements.mainLineYards.value = trimNumber(desiredYards, 1);
+    refreshLineRole("main", mainLine ? mainLine.id : "");
+    refreshLineRole("backing", backingLine ? backingLine.id : "");
+    setBackingMode(backingEnabled);
+  }
+
+  function chooseInitialReels() {
+    var params = new URLSearchParams(window.location.search);
+    var firstId = params.get("reel1") || DEFAULT_REEL_A;
+    var secondId = params.get("reel2") || DEFAULT_REEL_B;
+    state.reelA = state.reelById.get(firstId) || state.reelById.get(DEFAULT_REEL_A) || state.options[0]?.reel;
+    state.reelB = state.reelById.get(secondId) || state.reelById.get(DEFAULT_REEL_B) || state.options[1]?.reel;
+    setInputForReel(elements.inputA, state.reelA);
+    setInputForReel(elements.inputB, state.reelB);
+    elements.selectionA.textContent = displayName(state.reelA);
+    elements.selectionB.textContent = displayName(state.reelB);
+    renderComparison();
+  }
+
+  async function initialize() {
+    try {
+      if (!window.ReelCalcCore || !window.ReelCalcLineSelector) {
+        throw new Error("The ReelCalc calculation engine could not be loaded.");
+      }
+      var responses = await Promise.all([
+        fetch(assetUrl("data/reels.json"), { credentials: "omit" }),
+        fetch(assetUrl("data/reel-pages.json"), { credentials: "omit" }),
+        fetch(assetUrl("data/lines.json"), { credentials: "omit" }),
+        fetch(assetUrl("data/reel-affiliates.json"), { credentials: "omit" })
+      ]);
+      if (!responses[0].ok || !responses[1].ok || !responses[2].ok || !responses[3].ok) {
+        throw new Error("The verified reel, line, or purchase-link data could not be loaded.");
+      }
+      var data = await Promise.all(responses.map(function(response) { return response.json(); }));
+      var reels = data[0];
+      var registry = data[1];
+      state.lines = window.ReelCalcLineSelector.prepareLines(data[2]);
+      state.affiliateData = data[3];
+      state.reelById = new Map(reels.map(function(reel) { return [reel.id, reel]; }));
+      state.pageByReelId = new Map(registry.pages.map(function(page) { return [page.reelId, page]; }));
+      state.options = registry.pages.map(function(page) {
+        var reel = state.reelById.get(page.reelId);
+        return reel ? { reelId: reel.id, reel: reel, label: optionLabel(reel) } : null;
+      }).filter(Boolean).sort(function(a, b) {
+        return a.label.localeCompare(b.label, undefined, { numeric: true });
+      });
+      state.optionByLabel = new Map(state.options.map(function(option) {
+        return [option.label.toLowerCase(), option];
+      }));
+      populateOptions();
+      installEvents();
+      elements.swap.disabled = false;
+      elements.copy.disabled = false;
+      chooseInitialLines();
+      chooseInitialReels();
+    } catch (error) {
+      elements.results.hidden = true;
+      setStatus(error.message || "The comparison tool could not load.", true);
+    }
+  }
+
+  initialize();
+})();
