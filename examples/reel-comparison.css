@@ -105,6 +105,7 @@ a:focus-visible {
   border-right: 1px solid var(--rc-border);
   border-bottom: 3px solid var(--rc-blue);
   border-top: 1px solid var(--rc-border);
+  box-sizing: border-box !important;
   container-type: inline-size;
   max-width: 100%;
   min-width: 0;
@@ -113,6 +114,7 @@ a:focus-visible {
 
 .rc-selector-grid {
   align-items: end;
+  box-sizing: border-box !important;
   display: flex;
   gap: 18px;
   max-width: 100%;
@@ -121,6 +123,7 @@ a:focus-visible {
 }
 
 .rc-selector-field {
+  box-sizing: border-box !important;
   flex: 1 1 0;
   inline-size: 0 !important;
   max-width: 100%;
@@ -151,6 +154,7 @@ a:focus-visible {
 }
 
 .rc-reel-combobox {
+  box-sizing: border-box !important;
   max-width: 100%;
   min-width: 0;
   position: relative;
@@ -158,6 +162,7 @@ a:focus-visible {
 }
 
 .rc-reel-combobox input {
+  box-sizing: border-box !important;
   display: block;
   inline-size: 100% !important;
   max-inline-size: 100% !important;
@@ -171,6 +176,7 @@ a:focus-visible {
   border: 0;
   border-left: 1px solid #d0d8dc;
   border-radius: 0 5px 5px 0;
+  box-sizing: border-box !important;
   color: var(--rc-blue);
   cursor: pointer;
   display: flex;
