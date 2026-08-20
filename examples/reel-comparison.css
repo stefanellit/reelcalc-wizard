@@ -47,10 +47,21 @@ a:focus-visible {
 .rc-compare {
   background: #ffffff;
   border-top: 6px solid var(--rc-green);
+  container-type: inline-size;
   margin: 0 auto;
   max-width: 1160px;
   min-height: 100vh;
+  min-width: 0;
+  overflow-x: clip;
   padding: 28px 30px 70px;
+  width: 100%;
+}
+
+.rc-compare > *,
+.rc-compare main,
+.rc-compare section {
+  max-width: 100%;
+  min-width: 0;
 }
 
 .rc-page-header {
@@ -110,7 +121,9 @@ a:focus-visible {
 }
 
 .rc-selector-field {
+  max-width: 100%;
   min-width: 0;
+  width: 100%;
 }
 
 .rc-selector-field label {
@@ -144,6 +157,9 @@ a:focus-visible {
 }
 
 .rc-reel-combobox input {
+  display: block;
+  max-width: 100%;
+  min-width: 0;
   padding-right: 50px;
 }
 
@@ -795,6 +811,33 @@ a:focus-visible {
     margin: 0;
     transform: rotate(90deg);
   }
+
+  .rc-difference-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rc-backing-mode {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .rc-mode-switch {
+    flex-basis: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .rc-line-amount {
+    grid-column: auto;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rc-line-amount label,
+  .rc-number-field,
+  .rc-line-amount p {
+    grid-column: 1;
+    grid-row: auto;
+  }
 }
 
 @media (max-width: 760px) {
@@ -910,5 +953,59 @@ a:focus-visible {
   .rc-comparison-row > div {
     font-size: 12px;
     padding: 9px 6px;
+  }
+}
+
+/* Squarespace content areas can be narrower than the browser viewport. Keep
+   the final responsive rules container-based and last in the cascade. */
+@container (max-width: 720px) {
+  .rc-reel-headings,
+  .rc-source-grid {
+    gap: 20px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rc-reel-heading,
+  .rc-reel-heading + .rc-reel-heading {
+    border-left: 0;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .rc-reel-heading + .rc-reel-heading {
+    border-top: 1px solid var(--rc-border);
+    margin-top: 8px;
+    padding-top: 24px;
+  }
+}
+
+@container (max-width: 520px) {
+  .rc-comparison-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .rc-comparison-row > div:first-child {
+    background: #f3f6f6;
+    border-left: 0;
+    font-size: 12px;
+    grid-column: 1 / -1;
+    padding: 9px 10px 7px;
+  }
+
+  .rc-comparison-row > div:nth-child(2) {
+    border-left: 0;
+  }
+
+  .rc-comparison-row.is-header > div:first-child {
+    display: none;
+  }
+
+  .rc-comparison-row.is-header > div:nth-child(2),
+  .rc-comparison-row.is-header > div:nth-child(3) {
+    min-height: 54px;
+  }
+
+  .rc-material-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
