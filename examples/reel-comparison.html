@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fishing Reel Comparison | ReelCalc Prototype</title>
   <meta name="description" content="Compare fishing reel specifications, line capacities, retrieve rates, drag, weight, and ReelCalc line guidance side by side.">
+  <link rel="canonical" href="https://www.reelcalc.com/reel-comparison">
   <link rel="stylesheet" href="reel-comparison.css?v=layout-flex-3">
 </head>
 <body>
@@ -48,6 +49,7 @@
       </div>
 
       <div class="rc-selector-actions">
+        <button class="rc-reset-button" id="reset-comparison" type="button" disabled>Clear comparison</button>
         <button class="rc-copy-button" id="copy-comparison" type="button" disabled>Copy comparison link</button>
       </div>
     </section>
@@ -73,6 +75,7 @@
       <section class="rc-section" aria-labelledby="specs-heading">
         <h2 id="specs-heading">Specifications</h2>
         <div class="rc-comparison-table" id="specification-comparison"></div>
+        <div class="rc-comparison-summary" id="comparison-summary" aria-live="polite"></div>
       </section>
 
       <section class="rc-section" aria-labelledby="capacity-heading">
@@ -159,6 +162,8 @@
 
   <script src="../js/calculator-core.js"></script>
   <script src="../js/line-selector.js"></script>
+  <script src="../js/comparison-data.js"></script>
+  <script src="../js/analytics.js"></script>
   <script src="reel-comparison.js"></script>
 </body>
 </html>

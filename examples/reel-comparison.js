@@ -17,6 +17,8 @@
     reelB: null,
     backingEnabled: true,
     affiliateData: null,
+    completedPairIds: new Set(),
+    restoringHistory: false,
     combo: {
       A: { matches: [], highlightedIndex: -1 },
       B: { matches: [], highlightedIndex: -1 }
@@ -39,12 +41,14 @@
     selectionB: document.getElementById("reel-b-selection"),
     swap: document.getElementById("swap-reels"),
     copy: document.getElementById("copy-comparison"),
+    reset: document.getElementById("reset-comparison"),
     status: document.getElementById("comparison-status"),
     results: document.getElementById("comparison-results"),
     headingA: document.getElementById("reel-a-heading"),
     headingB: document.getElementById("reel-b-heading"),
     differences: document.getElementById("quick-differences"),
     specifications: document.getElementById("specification-comparison"),
+    summary: document.getElementById("comparison-summary"),
     capacities: document.getElementById("capacity-comparison"),
     lineFitSummary: document.getElementById("line-fit-summary"),
     lineFitComparison: document.getElementById("line-fit-comparison"),
@@ -138,6 +142,62 @@
     elements.status.classList.toggle("is-error", Boolean(isError));
   }
 
+  function comparisonData() {
+    return window.ReelCalcComparisonData;
+  }
+
+  function trackEvent(name, parameters, options) {
+    if (window.ReelCalcAnalytics && typeof window.ReelCalcAnalytics.track === "function") {
+      return window.ReelCalcAnalytics.track(name, parameters, options);
+    }
+    window.ReelCalcAnalyticsQueue = Array.isArray(window.ReelCalcAnalyticsQueue)
+      ? window.ReelCalcAnalyticsQueue
+      : [];
+    window.ReelCalcAnalyticsQueue.push({
+      name: name,
+      parameters: parameters || {},
+      options: options || {}
+    });
+    return true;
+  }
+
+  function pageForReel(reel) {
+    return reel ? state.pageByReelId.get(reel.id) || null : null;
+  }
+
+  function pairId() {
+    return state.reelA && state.reelB
+      ? comparisonData().normalizedPairId(state.reelA.id, state.reelB.id)
+      : "";
+  }
+
+  function comparisonClickParameters(clickedReel, position) {
+    var otherReel = position === "left" ? state.reelB : state.reelA;
+    return {
+      comparison_pair_id: pairId(),
+      clicked_reel_id: clickedReel ? clickedReel.id : "",
+      other_reel_id: otherReel ? otherReel.id : "",
+      clicked_position: position
+    };
+  }
+
+  function trackCompletedComparison(source) {
+    var normalizedId = pairId();
+    if (!normalizedId || state.completedPairIds.has(normalizedId)) return;
+    state.completedPairIds.add(normalizedId);
+    trackEvent(
+      "reel_comparison_completed",
+      comparisonData().comparisonParameters(
+        state.reelA,
+        state.reelB,
+        pageForReel(state.reelA),
+        pageForReel(state.reelB),
+        source
+      ),
+      { onceKey: normalizedId }
+    );
+  }
+
   function comboElements(side) {
     return side === "A"
       ? { input: elements.inputA, menu: elements.optionsA, toggle: elements.toggleA, selection: elements.selectionA }
@@ -194,11 +254,24 @@
   function chooseReel(side, reel) {
     if (!reel) return;
     var controls = comboElements(side);
+    var current = currentReel(side);
+    if (current && current.id === reel.id) {
+      setInputForReel(controls.input, reel);
+      closeReelMenu(side);
+      return;
+    }
     state[side === "A" ? "reelA" : "reelB"] = reel;
     setInputForReel(controls.input, reel);
     controls.selection.textContent = displayName(reel);
     closeReelMenu(side);
-    renderComparison();
+    trackEvent(
+      side === "A" ? "reel_comparison_reel_1_selected" : "reel_comparison_reel_2_selected",
+      comparisonData().selectorParameters(reel, pageForReel(reel), side === "A" ? "left" : "right")
+    );
+    renderComparison({
+      historyMode: "push",
+      comparisonSource: "manual_selection"
+    });
   }
 
   function selectedOption(input) {
@@ -551,7 +624,6 @@
       { label: "Backing handle turns", a: backingTurnsHtml(fitA), b: backingTurnsHtml(fitB) },
       { label: "Capacity basis", a: basisHtml(fitA), b: basisHtml(fitB) }
     ], state.reelA, state.reelB);
-    updateUrl();
   }
 
   function allowedAffiliateUrl(value, retailer) {
@@ -584,36 +656,40 @@
       return {
         url: url,
         label: offer.label || (isSearch ? retailer.searchLabel : retailer.directLabel) || "Check Current Price on " + retailer.name,
-        disclosure: [data.genericDisclosure, retailer.disclosure].filter(Boolean).join(" ")
+        disclosure: [data.genericDisclosure, retailer.disclosure].filter(Boolean).join(" "),
+        matchType: isSearch ? "search" : "exact"
       };
     }
     return null;
   }
 
-  function sourceColumn(reel, page) {
+  function sourceColumn(reel, page, position) {
     var pageUrl = SITE_BASE + page.path;
     var wizardUrl = SITE_BASE + "/reelcalc-wizard?reel=" + encodeURIComponent(reel.id);
     var affiliate = reelAffiliateOffer(reel);
+    var attributes = ' data-reel-id="' + escapeHtml(reel.id) + '" data-position="' + position + '"';
     return [
       '<article class="rc-source-column">',
       "<h3>", escapeHtml(displayName(reel)), "</h3>",
       "<p>See the complete line-capacity guide, continue with this reel preloaded in the Setup Wizard, or check its current price.</p>",
       '<div class="rc-action-links">',
-      '<a class="rc-action-link" href="', escapeHtml(pageUrl), '" target="_blank" rel="noopener">View full reel guide</a>',
-      '<a class="rc-action-link is-secondary" href="', escapeHtml(wizardUrl), '" target="_blank" rel="noopener">Open in Setup Wizard</a>',
-      affiliate ? '<a class="rc-action-link is-amazon" href="' + escapeHtml(affiliate.url) + '" target="_blank" rel="sponsored nofollow noopener">' + escapeHtml(affiliate.label) + "</a>" : "",
+      '<a class="rc-action-link" data-comparison-action="reel-page"', attributes, ' href="', escapeHtml(pageUrl), '" target="_blank" rel="noopener">View full reel guide</a>',
+      '<a class="rc-action-link is-secondary" data-comparison-action="wizard"', attributes, ' href="', escapeHtml(wizardUrl), '" target="_blank" rel="noopener">Open in Setup Wizard</a>',
+      affiliate ? '<a class="rc-action-link is-amazon" data-comparison-action="amazon"' + attributes + ' data-link-type="' + affiliate.matchType + '" href="' + escapeHtml(affiliate.url) + '" target="_blank" rel="sponsored nofollow noopener">' + escapeHtml(affiliate.label) + "</a>" : "",
       "</div>",
       affiliate ? '<p class="rc-affiliate-disclosure">' + escapeHtml(affiliate.disclosure) + "</p>" : "",
       "</article>"
     ].join("");
   }
 
-  function renderComparison() {
+  function renderComparison(options) {
+    var settings = options || {};
     var reelA = state.reelA;
     var reelB = state.reelB;
     var hasBothReels = Boolean(reelA && reelB);
     elements.swap.disabled = !hasBothReels;
     elements.copy.disabled = !hasBothReels;
+    elements.reset.disabled = !reelA && !reelB;
     if (!reelA || !reelB) {
       elements.results.hidden = true;
       setStatus("Choose two exact reels to compare.", false);
@@ -641,6 +717,10 @@
       { label: "Bearings", a: textValue(reelA.bearings), b: textValue(reelB.bearings) },
       { label: "MSRP", a: textValue(formatMoney(reelA.msrp_usd)), b: textValue(formatMoney(reelB.msrp_usd)) }
     ], reelA, reelB);
+    if (elements.summary) {
+      elements.summary.innerHTML = '<h3>What the Specs Show</h3><p>' +
+        escapeHtml(comparisonData().comparisonSummary(reelA, reelB)) + "</p>";
+    }
 
     elements.capacities.innerHTML = comparisonTable([
       { label: "Mono capacity", a: textValue(monoCapacity(reelA)), b: textValue(monoCapacity(reelB)) },
@@ -659,15 +739,17 @@
       { label: "Best fit", a: textValue(reelA.reelcalc_use_case), b: textValue(reelB.reelcalc_use_case) }
     ], reelA, reelB);
 
-    elements.sources.innerHTML = sourceColumn(reelA, pageA) + sourceColumn(reelB, pageB);
+    elements.sources.innerHTML = sourceColumn(reelA, pageA, "left") + sourceColumn(reelB, pageB, "right");
     elements.results.hidden = false;
     setStatus("", false);
-    updateUrl();
+    if (settings.historyMode && settings.historyMode !== "none") {
+      updateUrl(settings.historyMode);
+    }
+    trackCompletedComparison(settings.comparisonSource || "other");
   }
 
-  function updateUrl() {
+  function applyComparisonParameters(url) {
     if (!state.reelA || !state.reelB) return;
-    var url = new URL(window.location.href);
     url.searchParams.set("reel1", state.reelA.id);
     url.searchParams.set("reel2", state.reelB.id);
     if (state.lineRoles.main.line) url.searchParams.set("mainLine", state.lineRoles.main.line.id);
@@ -675,7 +757,48 @@
     url.searchParams.set("backing", state.backingEnabled ? "on" : "off");
     var desiredYards = Number(elements.mainLineYards.value);
     if (desiredYards > 0) url.searchParams.set("mainYards", trimNumber(desiredYards, 1));
-    window.history.replaceState({}, "", url);
+  }
+
+  function updateUrl(mode) {
+    if (!state.reelA || !state.reelB || state.reelA.id === state.reelB.id || state.restoringHistory) return;
+    var url = new URL(window.location.href);
+    applyComparisonParameters(url);
+    if (url.href === window.location.href) return;
+    var method = mode === "push" ? "pushState" : "replaceState";
+    window.history[method]({ reelcalcComparison: true }, "", url);
+  }
+
+  function comparisonShareUrl() {
+    var url = new URL(SITE_BASE + "/reel-comparison");
+    applyComparisonParameters(url);
+    return url.href;
+  }
+
+  function legacyCopy(text) {
+    var area = document.createElement("textarea");
+    area.value = text;
+    area.setAttribute("readonly", "");
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
+    var copied = false;
+    try {
+      copied = Boolean(document.execCommand && document.execCommand("copy"));
+    } catch (error) {
+      copied = false;
+    }
+    document.body.removeChild(area);
+    return copied;
+  }
+
+  function markComparisonCopied() {
+    setStatus("Comparison link copied.", false);
+    trackEvent("reel_comparison_link_copied", {
+      comparison_pair_id: pairId(),
+      reel_1_id: state.reelA.id,
+      reel_2_id: state.reelB.id
+    });
   }
 
   function copyComparisonLink() {
@@ -683,15 +806,47 @@
       setStatus("Choose two different reels before copying the comparison link.", true);
       return;
     }
-    var url = window.location.href;
+    updateUrl("replace");
+    var url = comparisonShareUrl();
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(url).then(function() {
-        setStatus("Comparison link copied.", false);
+        markComparisonCopied();
       }).catch(function() {
-        setStatus("The comparison link is ready in the address bar.", false);
+        if (legacyCopy(url)) markComparisonCopied();
+        else setStatus("Copy was unavailable. Use the link in the address bar.", true);
       });
+    } else if (legacyCopy(url)) {
+      markComparisonCopied();
     } else {
-      setStatus("The comparison link is ready in the address bar.", false);
+      setStatus("Copy was unavailable. Use the link in the address bar.", true);
+    }
+  }
+
+  function resetComparison() {
+    var previousPairId = pairId();
+    var previousA = state.reelA;
+    var previousB = state.reelB;
+    state.reelA = null;
+    state.reelB = null;
+    setInputForReel(elements.inputA, null);
+    setInputForReel(elements.inputB, null);
+    elements.selectionA.textContent = "Choose a reel.";
+    elements.selectionB.textContent = "Choose a reel.";
+    closeReelMenu("A");
+    closeReelMenu("B");
+
+    var url = new URL(window.location.href);
+    ["reel1", "reel2", "mainLine", "backingLine", "backing", "mainYards"].forEach(function(key) {
+      url.searchParams.delete(key);
+    });
+    window.history.pushState({ reelcalcComparison: true }, "", url);
+    renderComparison({ historyMode: "none", comparisonSource: "other" });
+    if (previousA || previousB) {
+      trackEvent("reel_comparison_reset", {
+        comparison_pair_id: previousPairId,
+        reel_1_id: previousA ? previousA.id : "",
+        reel_2_id: previousB ? previousB.id : ""
+      });
     }
   }
 
@@ -780,13 +935,37 @@
       setInputForReel(elements.inputB, state.reelB);
       elements.selectionA.textContent = displayName(state.reelA);
       elements.selectionB.textContent = displayName(state.reelB);
-      renderComparison();
+      renderComparison({ historyMode: "push", comparisonSource: "other" });
     });
     elements.copy.addEventListener("click", copyComparisonLink);
+    elements.reset.addEventListener("click", resetComparison);
+
+    elements.sources.addEventListener("click", function(event) {
+      var link = event.target.closest("[data-comparison-action]");
+      if (!link) return;
+      var clickedReel = state.reelById.get(link.dataset.reelId) || null;
+      var position = link.dataset.position === "left" ? "left" : "right";
+      var action = link.dataset.comparisonAction;
+      if (action === "reel-page") {
+        trackEvent("reel_comparison_reel_page_clicked", comparisonClickParameters(clickedReel, position));
+      } else if (action === "wizard") {
+        trackEvent("reel_comparison_wizard_clicked", {
+          comparison_pair_id: pairId(),
+          reel_id: clickedReel ? clickedReel.id : ""
+        });
+      } else if (action === "amazon") {
+        trackEvent("reel_comparison_amazon_clicked", {
+          comparison_pair_id: pairId(),
+          reel_id: clickedReel ? clickedReel.id : "",
+          link_type: link.dataset.linkType === "search" ? "search" : "exact"
+        });
+      }
+    });
 
     document.querySelectorAll(".rc-mode-button").forEach(function(button) {
       button.addEventListener("click", function() {
         setBackingMode(button.dataset.backingMode === "on");
+        updateUrl("replace");
       });
     });
 
@@ -802,18 +981,21 @@
           dia_in: previous ? previous.dia_in : 0
         });
         refreshLineRole(role, closest ? closest.id : "");
+        updateUrl("replace");
       });
     });
 
     ["main", "backing"].forEach(function(role) {
       var controls = roleElements(role);
       controls.product.addEventListener("input", function() {
-        selectLineProduct(role);
+        if (selectLineProduct(role)) updateUrl("replace");
       });
       controls.product.addEventListener("change", function() {
-        if (!selectLineProduct(role) && state.lineRoles[role].line) {
+        var selected = selectLineProduct(role);
+        if (!selected && state.lineRoles[role].line) {
           controls.product.value = lineProductLabel(state.lineRoles[role].line);
         }
+        if (selected) updateUrl("replace");
       });
       controls.product.addEventListener("blur", function() {
         if (!state.lineRoles[role].productsByLabel.has(controls.product.value.trim().toLowerCase()) && state.lineRoles[role].line) {
@@ -827,15 +1009,24 @@
           ? "Published diameter: " + trimNumber(line.dia_in, 4) + " in (" + trimNumber(line.dia_mm || line.dia_in * 25.4, 3) + " mm)"
           : "Choose an exact line and strength.";
         renderLineFit();
+        updateUrl("replace");
       });
     });
 
-    elements.mainLineYards.addEventListener("input", renderLineFit);
-    elements.mainLineYards.addEventListener("change", renderLineFit);
+    elements.mainLineYards.addEventListener("input", function() {
+      renderLineFit();
+      updateUrl("replace");
+    });
+    elements.mainLineYards.addEventListener("change", function() {
+      renderLineFit();
+      updateUrl("replace");
+    });
+    window.addEventListener("popstate", function() {
+      restoreFromUrl("other");
+    });
   }
 
-  function chooseInitialLines() {
-    var params = new URLSearchParams(window.location.search);
+  function chooseLinesFromParams(params) {
     var mainLineId = params.get("mainLine") || DEFAULT_MAIN_LINE;
     var backingLineId = params.get("backingLine") || DEFAULT_BACKING_LINE;
     var backingEnabled = params.get("backing") !== "off";
@@ -852,8 +1043,7 @@
     setBackingMode(backingEnabled);
   }
 
-  function chooseInitialReels() {
-    var params = new URLSearchParams(window.location.search);
+  function chooseReelsFromParams(params, source) {
     var firstId = params.get("reel1") || "";
     var secondId = params.get("reel2") || "";
     state.reelA = firstId ? state.reelById.get(firstId) || null : null;
@@ -862,12 +1052,26 @@
     setInputForReel(elements.inputB, state.reelB);
     elements.selectionA.textContent = state.reelA ? displayName(state.reelA) : "Choose a reel.";
     elements.selectionB.textContent = state.reelB ? displayName(state.reelB) : "Choose a reel.";
-    renderComparison();
+    renderComparison({ historyMode: "none", comparisonSource: source || "other" });
+    if ((firstId && !state.reelA) || (secondId && !state.reelB)) {
+      setStatus("One reel in this shared comparison is unavailable. Choose a replacement reel to continue.", true);
+    }
+  }
+
+  function restoreFromUrl(source) {
+    state.restoringHistory = true;
+    try {
+      var params = new URLSearchParams(window.location.search);
+      chooseLinesFromParams(params);
+      chooseReelsFromParams(params, source || "other");
+    } finally {
+      state.restoringHistory = false;
+    }
   }
 
   async function initialize() {
     try {
-      if (!window.ReelCalcCore || !window.ReelCalcLineSelector) {
+      if (!window.ReelCalcCore || !window.ReelCalcLineSelector || !window.ReelCalcComparisonData) {
         throw new Error("The ReelCalc calculation engine could not be loaded.");
       }
       var responses = await Promise.all([
@@ -896,8 +1100,11 @@
         return [option.label.toLowerCase(), option];
       }));
       installEvents();
-      chooseInitialLines();
-      chooseInitialReels();
+      var initialParams = new URLSearchParams(window.location.search);
+      var initialSource = initialParams.get("reel1") && initialParams.get("reel2")
+        ? "shared_url"
+        : "other";
+      restoreFromUrl(initialSource);
     } catch (error) {
       elements.results.hidden = true;
       setStatus(error.message || "The comparison tool could not load.", true);

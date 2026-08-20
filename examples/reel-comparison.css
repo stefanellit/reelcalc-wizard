@@ -296,11 +296,13 @@ a:focus-visible {
 
 .rc-selector-actions {
   display: flex;
+  gap: 18px;
   justify-content: flex-end;
   margin-top: 14px;
 }
 
-.rc-copy-button {
+.rc-copy-button,
+.rc-reset-button {
   background: transparent;
   border: 0;
   color: var(--rc-blue);
@@ -313,6 +315,7 @@ a:focus-visible {
 }
 
 .rc-copy-button:disabled,
+.rc-reset-button:disabled,
 .rc-swap-button:disabled {
   cursor: not-allowed;
   opacity: 0.45;
@@ -481,6 +484,30 @@ a:focus-visible {
 .rc-row-label {
   background: var(--rc-soft);
   font-weight: 800;
+}
+
+.rc-comparison-summary {
+  background: #f7fafb;
+  border-left: 4px solid var(--rc-blue);
+  margin-top: 18px;
+  padding: 14px 16px;
+}
+
+.rc-comparison-summary:empty {
+  display: none;
+}
+
+.rc-comparison-summary h3 {
+  font-size: 16px;
+  letter-spacing: 0;
+  margin: 0 0 5px;
+}
+
+.rc-comparison-summary p {
+  color: var(--rc-muted);
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0;
 }
 
 .rc-value-note {

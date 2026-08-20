@@ -7,8 +7,20 @@
   var projectBase = new URL("../", loaderUrl);
   var assetVersion = loaderUrl.searchParams.get("v");
   var mount = document.querySelector("[data-reelcalc-comparison]");
+  var canonicalUrl = "https://www.reelcalc.com/reel-comparison";
+
+  function ensureCanonical() {
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.rel = "canonical";
+      document.head.appendChild(canonical);
+    }
+    canonical.href = canonicalUrl;
+  }
 
   if (!mount || mount.dataset.reelcalcLoaded === "true") return;
+  ensureCanonical();
   mount.dataset.reelcalcLoaded = "true";
   mount.innerHTML = `
     <div class="rc-compare" id="reel-comparison">
@@ -45,6 +57,7 @@
         </div>
 
         <div class="rc-selector-actions">
+          <button class="rc-reset-button" id="reset-comparison" type="button" disabled>Clear comparison</button>
           <button class="rc-copy-button" id="copy-comparison" type="button" disabled>Copy comparison link</button>
         </div>
       </section>
@@ -68,6 +81,7 @@
         <section class="rc-section" aria-labelledby="specs-heading">
           <h2 id="specs-heading">Specifications</h2>
           <div class="rc-comparison-table" id="specification-comparison"></div>
+          <div class="rc-comparison-summary" id="comparison-summary" aria-live="polite"></div>
         </section>
 
         <section class="rc-section" aria-labelledby="capacity-heading">
@@ -192,6 +206,14 @@
   loadScript(versionedUrl(new URL("js/calculator-core.js", projectBase)), "ReelCalcCore", "calculator-core")
     .then(function() {
       return loadScript(versionedUrl(new URL("js/line-selector.js", projectBase)), "ReelCalcLineSelector", "line-selector");
+    })
+    .then(function() {
+      return loadScript(versionedUrl(new URL("js/comparison-data.js", projectBase)), "ReelCalcComparisonData", "comparison-data");
+    })
+    .then(function() {
+      return loadScript(versionedUrl(new URL("js/analytics.js", projectBase)), "ReelCalcAnalytics", "analytics").catch(function() {
+        return undefined;
+      });
     })
     .then(function() {
       return loadScript(versionedUrl(new URL("reel-comparison.js", exampleBase)), "", "reel-comparison");
