@@ -515,6 +515,19 @@
       escapeHtml(trimNumber(turns.rangeMin, 0) + "-" + trimNumber(turns.rangeMax, 0) + " turns") + "</span>";
   }
 
+  function lineStrengthWarning(reel, line) {
+    if (!line || line.material !== "Braid") return "";
+    var options = window.ReelCalcCore.publishedBraidCapacityOptions(reel);
+    var strength = Number(line.lb);
+    if (!options.length || !(strength > 0)) return "";
+    var strengths = options.map(function(option) { return Number(option.lb); }).filter(function(value) { return value > 0; });
+    if (!strengths.length) return "";
+    var minimum = Math.min.apply(Math, strengths);
+    var maximum = Math.max.apply(Math, strengths);
+    if (strength >= minimum && strength <= maximum) return "";
+    return "This line strength is outside this reel's published braid ratings. Treat the capacity as an estimate, not a line recommendation.";
+  }
+
   function lineFitForReel(reel, mainLine, backingLine, desiredYards) {
     var core = window.ReelCalcCore;
     var basis = core.capacityBasisForActualLine(reel, mainLine, state.lines);
@@ -528,6 +541,7 @@
         basis: basis,
         capacity: capacity,
         capacityRange: capacityRange,
+        lineStrengthWarning: lineStrengthWarning(reel, mainLine),
         backing: null,
         backingRange: null,
         backingEnabled: false,
@@ -546,6 +560,7 @@
       basis: basis,
       capacity: capacity,
       capacityRange: capacityRange,
+      lineStrengthWarning: lineStrengthWarning(reel, mainLine),
       backing: backing,
       backingRange: backingRange,
       backingEnabled: true,
@@ -560,6 +575,9 @@
     var html = '<span class="rc-fit-primary">' + escapeHtml(yardsLabel(fit.capacity, 0)) + "</span>";
     if (fit.capacityRange) {
       html += '<span class="rc-value-note">Expected real-world range: ' + escapeHtml(yardsRangeLabel(fit.capacityRange)) + "</span>";
+    }
+    if (fit.lineStrengthWarning) {
+      html += '<span class="rc-value-note rc-fit-warning">' + escapeHtml(fit.lineStrengthWarning) + "</span>";
     }
     return html;
   }

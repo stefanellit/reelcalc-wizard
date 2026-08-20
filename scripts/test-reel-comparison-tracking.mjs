@@ -109,6 +109,7 @@ assert.match(comparisonSource, /document\.execCommand\("copy"\)/, "copy should h
 assert.match(comparisonSource, /\/reelcalc-wizard\?reel=/, "wizard links should preload stable reel IDs");
 assert.doesNotMatch(comparisonSource, /DEFAULT_(?:MAIN|BACKING)_LINE/, "comparison should not preload default lines");
 assert.match(comparisonSource, />Choose strength<\/option>/, "line strength should wait for the user");
+assert.match(comparisonSource, /outside this reel's published braid ratings/, "out-of-range braid choices need an honesty warning");
 
 const loaderSource = read("examples/reel-comparison-loader.js");
 const htmlSource = read("examples/reel-comparison.html");
