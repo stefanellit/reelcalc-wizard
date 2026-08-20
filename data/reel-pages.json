@@ -2,6 +2,7 @@
   "version": 2,
   "siteBaseUrl": "https://www.reelcalc.com",
   "wizardPath": "/reelcalc-wizard",
+  "comparisonPath": "/reel-comparison",
   "assetBaseUrl": "https://stefanellit.github.io/reelcalc-wizard",
   "resources": [
     {

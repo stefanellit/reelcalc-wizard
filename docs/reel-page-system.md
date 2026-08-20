@@ -45,7 +45,7 @@ Shared live-page files:
 - `js/line-selector.js`: shared line validation, filtering, sorting, and preload helpers.
 - `js/affiliate-links.js`: shared Amazon search, tagging, and retail-spool sizing.
 - `js/calculator-core.js`: existing shared formulas.
-- `js/reel-page-runtime.js`: data-driven affiliate rendering and privacy-safe interaction analytics.
+- `js/reel-page-runtime.js`: data-driven affiliate rendering, reel-specific comparison links, and privacy-safe interaction analytics.
 - `data/reel-affiliates.json`: centralized optional affiliate mapping.
 - `data/reel-pages.json`: verified page URLs, resource URLs, and family relationships.
 
@@ -74,7 +74,7 @@ Every future reel page follows a database-first process:
 2. If the exact reel is missing, research it before creating the page. Use the manufacturer's current U.S. product page or U.S. specification chart first. Use an archived manufacturer page or reputable retailer only when an official source is unavailable.
 3. Add one canonical record to `data/reels.json` with a stable unique ID. Do not create a separate page-only copy of the reel specs.
 4. Record only verified specifications, including published capacity, line diameter, retrieve/IPT, gear ratio, weight, drag, bearings, and supported mono/braid capacities when available. Never infer missing values from a similar reel.
-5. Confirm that the reel appears in the wizard and that `/reelcalc-wizard?reel=REEL-ID` preselects the exact record.
+5. Confirm that the reel appears in the wizard, that `/reelcalc-wizard?reel=REEL-ID` preselects the exact record, and that `/reel-comparison?reel1=REEL-ID` loads it in the first comparison field while leaving the second field empty.
 6. Verify an exact Amazon listing for that model and size when possible. If no exact listing can be confirmed, use a tagged Amazon search for the exact brand, family, size, and SKU and label it as a search. Never substitute a nearby size or generation.
 7. Add the offer under the reel's canonical ID in `data/reel-affiliates.json`. Confirm that the reel page and the preloaded wizard resolve the same preferred retailer offer. The wizard must hide the link for manual reel entries and reels without a usable mapping.
 8. Generate the reel page from that same canonical record, then run the page validator and desktop/mobile browser tests.
@@ -117,7 +117,7 @@ Before pasting a generated block into Squarespace, upload these shared files to 
 
 The existing `data/reels.json` must remain at its current path.
 
-Existing direct-embed reel pages and Squarespace-imported reel pages both load `js/reel-page-calculator.js`. Updating these shared files upgrades current pages automatically. The generator already emits the same shared calculator mount and script, so future pages inherit the same behavior without regenerating old page HTML.
+Existing direct-embed reel pages and Squarespace-imported reel pages both load the shared calculator and runtime. Updating these shared files upgrades current pages automatically, including the preloaded `Compare This Reel` button. The generator also emits that button directly, so future pages inherit the same behavior without regenerating old page HTML.
 
 After the shared files are live, replace the content on the registered existing Squarespace URL with the generated `*-squarespace.html` block. Do not create a second URL for an existing reel.
 

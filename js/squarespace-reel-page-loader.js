@@ -15,7 +15,7 @@
   }
 
   function loadStylesheet() {
-    var href = assetUrl("css/reel-page.css");
+    var href = assetUrl("css/reel-page.css?v=3");
     if (document.querySelector('link[data-reelcalc-reel-page-css]')) return;
     var link = document.createElement("link");
     link.rel = "stylesheet";
@@ -56,6 +56,7 @@
     document.documentElement.dataset.reelcalcAnalyticsBridge = "true";
     var allowedEvents = new Set([
       "reelcalc_page_view",
+      "reel_comparison_opened",
       "wizard_viewed",
       "wizard_reel_selected",
       "wizard_line_selected",
@@ -98,7 +99,7 @@
       "main_line_id", "main_line_brand", "main_line_model", "main_line_yards",
       "main_line_diameter_mm", "backing_line_brand", "backing_line_model",
       "backing_line_type", "backing_line_lb", "backing_yards",
-      "custom_main_line", "custom_backing_line"
+      "custom_main_line", "custom_backing_line", "link_placement"
     ]);
 
     window.addEventListener("message", function(event) {
@@ -524,7 +525,7 @@
 
         return Promise.all([
           loadScript("js/reel-page-calculator.js?v=6", "ReelCalcReelPageCalculator"),
-          loadScript("js/reel-page-runtime.js", "ReelCalcReelPageRuntime")
+          loadScript("js/reel-page-runtime.js?v=2", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();
           if (services[1] && services[1].initialize) services[1].initialize();

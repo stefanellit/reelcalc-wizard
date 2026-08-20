@@ -72,6 +72,47 @@
     };
   }
 
+  function comparisonUrl(reelId) {
+    var url = new URL("/reel-comparison", window.location.origin);
+    url.searchParams.set("reel1", reelId);
+    return url.pathname + url.search;
+  }
+
+  function initializeComparisonLinks() {
+    document.querySelectorAll(".reelcalc-reel-page[data-reel-id]").forEach(function(page) {
+      var reelId = page.dataset.reelId || "";
+      if (!reelId) return;
+
+      var cta = page.querySelector('[data-section="wizard-cta"], [data-section="cta"]');
+      var content = cta ? cta.querySelector(".reelcalc-page-content") || cta : null;
+      if (!content) return;
+
+      var link = content.querySelector(".reelcalc-comparison-link");
+      if (!link) {
+        link = document.createElement("a");
+        link.className = "reelcalc-page-button reelcalc-page-button--secondary reelcalc-comparison-link";
+        link.textContent = "Compare This Reel";
+        link.dataset.linkPlacement = "page_cta";
+      }
+      link.href = comparisonUrl(reelId);
+      link.dataset.reelId = reelId;
+
+      var actions = content.querySelector(".reelcalc-page-actions");
+      if (!actions) {
+        actions = document.createElement("div");
+        actions.className = "reelcalc-page-actions";
+        var wizardButton = content.querySelector('a[href*="reelcalc-wizard"]');
+        if (wizardButton) {
+          wizardButton.insertAdjacentElement("beforebegin", actions);
+          actions.appendChild(wizardButton);
+        } else {
+          content.appendChild(actions);
+        }
+      }
+      if (!actions.contains(link)) actions.appendChild(link);
+    });
+  }
+
   function trackReelPageViews() {
     document.querySelectorAll(".reelcalc-reel-page[data-reel-id]").forEach(function(page) {
       var reelId = page.dataset.reelId || "";
@@ -223,6 +264,15 @@
         return;
       }
 
+      if (target.classList.contains("reelcalc-comparison-link")) {
+        track("reel_comparison_opened", {
+          page_type: "reel_guide",
+          reel_id: target.dataset.reelId || "",
+          link_placement: target.dataset.linkPlacement || "page_cta"
+        });
+        return;
+      }
+
       if (target.href && target.href.indexOf("reelcalc-wizard") >= 0) {
         var reelId = "";
         try {
@@ -349,10 +399,12 @@
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function() {
+      initializeComparisonLinks();
       initializeAnalytics();
       initializeAffiliates();
     }, { once: true });
   } else {
+    initializeComparisonLinks();
     initializeAnalytics();
     initializeAffiliates();
   }
@@ -363,6 +415,7 @@
 
   window.ReelCalcReelPageRuntime = {
     initialize: function() {
+      initializeComparisonLinks();
       initializeAnalytics();
       initializeAffiliates();
     }

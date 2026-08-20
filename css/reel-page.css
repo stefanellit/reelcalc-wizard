@@ -193,6 +193,22 @@
   background: var(--rc-page-accent-hover);
 }
 
+.reelcalc-page-actions {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.reelcalc-page-button--secondary {
+  background: #174e75;
+}
+
+.reelcalc-page-button--secondary:hover {
+  background: #103c5d;
+}
+
 .reelcalc-page-cta {
   text-align: center;
 }
@@ -201,6 +217,16 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 720px;
+}
+
+@media (max-width: 560px) {
+  .reelcalc-page-actions {
+    flex-direction: column;
+  }
+
+  .reelcalc-page-actions .reelcalc-page-button {
+    width: 100%;
+  }
 }
 
 .reelcalc-page-status {
