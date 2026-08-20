@@ -107,6 +107,8 @@ assert.match(comparisonSource, /history\[method\]/, "pair changes should use the
 assert.match(comparisonSource, /addEventListener\("popstate"/, "back and forward should restore state");
 assert.match(comparisonSource, /document\.execCommand\("copy"\)/, "copy should have a clipboard fallback");
 assert.match(comparisonSource, /\/reelcalc-wizard\?reel=/, "wizard links should preload stable reel IDs");
+assert.doesNotMatch(comparisonSource, /DEFAULT_(?:MAIN|BACKING)_LINE/, "comparison should not preload default lines");
+assert.match(comparisonSource, />Choose strength<\/option>/, "line strength should wait for the user");
 
 const loaderSource = read("examples/reel-comparison-loader.js");
 const htmlSource = read("examples/reel-comparison.html");

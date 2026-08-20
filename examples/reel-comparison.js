@@ -6,8 +6,6 @@
     ? document.currentScript.src
     : document.baseURI;
   var ASSET_ROOT = new URL("../", SCRIPT_URL);
-  var DEFAULT_MAIN_LINE = "seaguar-smackdown-braid-15";
-  var DEFAULT_BACKING_LINE = "berkley-trilene-big-game-monofilament-10";
   var state = {
     options: [],
     optionByLabel: new Map(),
@@ -384,8 +382,7 @@
       ? state.lines.find(function(line) { return line.id === preferredLineId && line.material === roleState.material; })
       : roleState.line;
     if (!selected || selected.material !== roleState.material) {
-      var firstProduct = products[0];
-      selected = selector.strengthsFor(state.lines, firstProduct)[0] || null;
+      selected = null;
     }
     roleState.line = selected;
     controls.product.value = selected ? lineProductLabel(selected) : "";
@@ -404,11 +401,11 @@
       return item.key === productKey;
     });
     var strengths = selector.strengthsFor(state.lines, product);
-    var selected = strengths.find(function(line) { return line.id === preferredLineId; }) || strengths[0] || null;
+    var selected = strengths.find(function(line) { return line.id === preferredLineId; }) || null;
     roleState.line = selected;
 
     controls.strength.innerHTML = strengths.length
-      ? strengths.map(function(line) {
+      ? '<option value=""' + (selected ? "" : " selected") + '>Choose strength</option>' + strengths.map(function(line) {
           return '<option value="' + escapeHtml(line.id) + '"' + (selected && line.id === selected.id ? " selected" : "") + ">" +
             escapeHtml(trimNumber(line.lb, 1) + " lb") + "</option>";
         }).join("")
@@ -425,7 +422,10 @@
     var controls = roleElements(role);
     var product = roleState.productsByLabel.get(controls.product.value.trim().toLowerCase());
     if (!product) return false;
-    refreshLineStrengths(role, product.key, "");
+    var selectedLineId = roleState.line && window.ReelCalcLineSelector.productKey(roleState.line) === product.key
+      ? roleState.line.id
+      : "";
+    refreshLineStrengths(role, product.key, selectedLineId);
     return true;
   }
 
@@ -753,7 +753,9 @@
     url.searchParams.set("reel1", state.reelA.id);
     url.searchParams.set("reel2", state.reelB.id);
     if (state.lineRoles.main.line) url.searchParams.set("mainLine", state.lineRoles.main.line.id);
+    else url.searchParams.delete("mainLine");
     if (state.lineRoles.backing.line) url.searchParams.set("backingLine", state.lineRoles.backing.line.id);
+    else url.searchParams.delete("backingLine");
     url.searchParams.set("backing", state.backingEnabled ? "on" : "off");
     var desiredYards = Number(elements.mainLineYards.value);
     if (desiredYards > 0) url.searchParams.set("mainYards", trimNumber(desiredYards, 1));
@@ -840,6 +842,7 @@
       url.searchParams.delete(key);
     });
     window.history.pushState({ reelcalcComparison: true }, "", url);
+    chooseLinesFromParams(url.searchParams);
     renderComparison({ historyMode: "none", comparisonSource: "other" });
     if (previousA || previousB) {
       trackEvent("reel_comparison_reset", {
@@ -975,11 +978,13 @@
         var material = button.dataset.material;
         var previous = state.lineRoles[role].line;
         state.lineRoles[role].material = material;
-        var closest = window.ReelCalcLineSelector.closestLine(state.lines, {
-          material: material,
-          lb: previous ? previous.lb : 0,
-          dia_in: previous ? previous.dia_in : 0
-        });
+        var closest = previous
+          ? window.ReelCalcLineSelector.closestLine(state.lines, {
+              material: material,
+              lb: previous.lb,
+              dia_in: previous.dia_in
+            })
+          : null;
         refreshLineRole(role, closest ? closest.id : "");
         updateUrl("replace");
       });
@@ -1027,17 +1032,23 @@
   }
 
   function chooseLinesFromParams(params) {
-    var mainLineId = params.get("mainLine") || DEFAULT_MAIN_LINE;
-    var backingLineId = params.get("backingLine") || DEFAULT_BACKING_LINE;
+    var mainLineId = params.get("mainLine") || "";
+    var backingLineId = params.get("backingLine") || "";
     var backingEnabled = params.get("backing") !== "off";
     var desiredYards = Number(params.get("mainYards"));
-    var mainLine = state.lines.find(function(line) { return line.id === mainLineId; }) ||
-      state.lines.find(function(line) { return line.id === DEFAULT_MAIN_LINE; });
-    var backingLine = state.lines.find(function(line) { return line.id === backingLineId; }) ||
-      state.lines.find(function(line) { return line.id === DEFAULT_BACKING_LINE; });
+    var mainLine = mainLineId
+      ? state.lines.find(function(line) { return line.id === mainLineId; }) || null
+      : null;
+    var backingLine = backingLineId
+      ? state.lines.find(function(line) { return line.id === backingLineId; }) || null
+      : null;
+    state.lineRoles.main.line = null;
+    state.lineRoles.backing.line = null;
+    state.lineRoles.main.material = "Braid";
+    state.lineRoles.backing.material = "Monofilament";
     if (mainLine) state.lineRoles.main.material = mainLine.material;
     if (backingLine) state.lineRoles.backing.material = backingLine.material === "Braid" ? "Braid" : "Monofilament";
-    if (desiredYards > 0) elements.mainLineYards.value = trimNumber(desiredYards, 1);
+    elements.mainLineYards.value = desiredYards > 0 ? trimNumber(desiredYards, 1) : "100";
     refreshLineRole("main", mainLine ? mainLine.id : "");
     refreshLineRole("backing", backingLine ? backingLine.id : "");
     setBackingMode(backingEnabled);
