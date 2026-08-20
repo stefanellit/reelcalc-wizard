@@ -113,17 +113,18 @@ a:focus-visible {
 
 .rc-selector-grid {
   align-items: end;
-  display: grid;
+  display: flex;
   gap: 18px;
-  grid-template-columns: minmax(0, 1fr) 44px minmax(0, 1fr);
+  max-width: 100%;
   min-width: 0;
   width: 100%;
 }
 
 .rc-selector-field {
+  flex: 1 1 0;
+  inline-size: 0 !important;
   max-width: 100%;
-  min-width: 0;
-  width: 100%;
+  min-inline-size: 0 !important;
 }
 
 .rc-selector-field label {
@@ -158,8 +159,9 @@ a:focus-visible {
 
 .rc-reel-combobox input {
   display: block;
-  max-width: 100%;
-  min-width: 0;
+  inline-size: 100% !important;
+  max-inline-size: 100% !important;
+  min-inline-size: 0 !important;
   padding-right: 50px;
 }
 
@@ -273,6 +275,7 @@ a:focus-visible {
   color: var(--rc-blue);
   cursor: pointer;
   display: inline-flex;
+  flex: 0 0 44px;
   font-size: 22px;
   height: 44px;
   justify-content: center;
@@ -802,12 +805,19 @@ a:focus-visible {
 
 @container (max-width: 720px) {
   .rc-selector-grid {
+    align-items: stretch;
+    flex-direction: column;
     gap: 10px;
-    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rc-selector-field {
+    flex: 0 0 auto;
+    inline-size: 100% !important;
   }
 
   .rc-swap-button {
-    justify-self: center;
+    align-self: center;
+    flex-basis: 44px;
     margin: 0;
     transform: rotate(90deg);
   }
@@ -863,8 +873,14 @@ a:focus-visible {
   }
 
   .rc-selector-grid {
+    align-items: stretch;
+    flex-direction: column;
     gap: 10px;
-    grid-template-columns: 1fr;
+  }
+
+  .rc-selector-field {
+    flex: 0 0 auto;
+    inline-size: 100% !important;
   }
 
   .rc-reel-options {
@@ -872,7 +888,8 @@ a:focus-visible {
   }
 
   .rc-swap-button {
-    justify-self: center;
+    align-self: center;
+    flex-basis: 44px;
     margin: 0;
     transform: rotate(90deg);
   }
