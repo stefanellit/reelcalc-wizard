@@ -35,6 +35,22 @@
     "saltwater_low_profile",
     "standard"
   ],
+  "squarespaceImportRuns": [
+    {
+      "viewport": "desktop",
+      "sections": 10,
+      "calculator": "passed",
+      "goldStandardClasses": "passed",
+      "horizontalOverflowPx": 0
+    },
+    {
+      "viewport": "mobile",
+      "sections": 10,
+      "calculator": "passed",
+      "goldStandardClasses": "passed",
+      "horizontalOverflowPx": 0
+    }
+  ],
   "screenshots": [
     "abu-garcia-ambassadeur-c3-6500-c3-6500-desktop.png",
     "abu-garcia-ambassadeur-c3-6500-c3-6500-mobile.png",

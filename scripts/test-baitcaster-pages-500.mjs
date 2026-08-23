@@ -17,6 +17,7 @@ const read = (relativePath) => JSON.parse(fs.readFileSync(path.join(root, relati
 const reels = read("data/reels.json");
 const lines = read("data/lines.json");
 const liveRegistry = read("data/reel-pages.json");
+const liveEmbeds = read("data/reel-page-embeds.json");
 const stagedRegistry = read("outputs/reel-page-baitcaster-500/ACTIVATE-AFTER-IMPORT-reel-pages.json");
 const stagedEmbeds = read("outputs/reel-page-baitcaster-500/ACTIVATE-AFTER-IMPORT-reel-page-embeds.json");
 const readiness = read("reports/baitcaster-page-catalog-readiness-500.json");
@@ -24,6 +25,10 @@ const imageReport = read("reports/baitcaster-page-image-candidates-500.json");
 const review = read("outputs/reel-page-baitcaster-500/baitcaster-pages-review.json");
 const featureCatalog = read("data/reel-family-features.json");
 const affiliateRegistry = normalizeAffiliateRegistry(read("data/reel-affiliates.json"));
+const importRows = parseCsv(fs.readFileSync(
+  path.join(outputDir, "UPLOAD-THIS-reelcalc-baitcaster-pages-480.csv"),
+  "utf8"
+));
 const reelById = new Map(reels.map((reel) => [reel.id, reel]));
 const canonical = readiness.pageReelIds.map((id) => reelById.get(id));
 const stagedByReel = new Map(stagedRegistry.pages.map((page) => [page.reelId, page]));
@@ -37,6 +42,49 @@ assert.ok(sampleBraidLine, "No exact braid line is available for PE calibration 
 
 function values(value) {
   return String(value || "").match(/\d+(?:\.\d+)?/g)?.map(Number) || [];
+}
+
+function parseCsv(text) {
+  const records = [];
+  let record = [];
+  let field = "";
+  let quoted = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const character = text[index];
+    if (quoted) {
+      if (character === '"' && text[index + 1] === '"') {
+        field += '"';
+        index += 1;
+      } else if (character === '"') {
+        quoted = false;
+      } else {
+        field += character;
+      }
+    } else if (character === '"') {
+      quoted = true;
+    } else if (character === ",") {
+      record.push(field);
+      field = "";
+    } else if (character === "\n") {
+      record.push(field.replace(/\r$/, ""));
+      records.push(record);
+      record = [];
+      field = "";
+    } else {
+      field += character;
+    }
+  }
+
+  if (field || record.length) {
+    record.push(field.replace(/\r$/, ""));
+    records.push(record);
+  }
+
+  const headers = records.shift() || [];
+  return records
+    .filter((row) => row.some((value) => value !== ""))
+    .map((row) => Object.fromEntries(headers.map((header, index) => [header, row[index] || ""])));
 }
 
 function visibleText(html) {
@@ -64,13 +112,36 @@ assert.equal(readiness.duplicateAliasRows.length, 2);
 assert.equal(canonical.length, 498);
 assert.ok(canonical.every(Boolean));
 assert.equal(new Set(canonical.map((reel) => reel.id)).size, 498);
-assert.equal(liveRegistry.pages.filter((page) => canonical.some((reel) => reel.id === page.reelId)).length, 18);
-assert.equal(stagedRegistry.pages.length, liveRegistry.pages.length + 480);
+assert.equal(liveRegistry.pages.filter((page) => canonical.some((reel) => reel.id === page.reelId)).length, 498);
+assert.equal(stagedRegistry.pages.length, liveRegistry.pages.length);
 assert.equal(review.newSquarespacePages, 480);
 assert.equal(review.uniqueProductUrls, 480);
 assert.equal(review.uniqueImportSkus, 480);
 assert.equal(review.stagedRegistryPages, stagedRegistry.pages.length);
-assert.equal(Object.keys(stagedEmbeds.pages).length, Object.keys(read("data/reel-page-embeds.json").pages).length + 480);
+assert.equal(importRows.length, 480);
+assert.equal(Object.keys(stagedEmbeds.pages).length, Object.keys(liveEmbeds.pages).length);
+
+const livePageBySlug = new Map(liveRegistry.pages.map((page) => [page.path.split("/").at(-1), page]));
+for (const row of importRows) {
+  const slug = row["Product URL"];
+  const description = row.Description;
+  const page = livePageBySlug.get(slug);
+  const embed = liveEmbeds.pages[slug];
+  assert.ok(page, `${slug}: imported Squarespace page is not activated in reel-pages.json.`);
+  assert.ok(embed, `${slug}: imported Squarespace page is not activated in reel-page-embeds.json.`);
+  assert.equal(embed.reelId, page.reelId, `${slug}: registry and embed reel IDs do not match.`);
+  assert.equal(embed.canonicalPath, page.path, `${slug}: registry and embed paths do not match.`);
+  assert.equal(JSON.stringify(embed), JSON.stringify(stagedEmbeds.pages[slug]), `${slug}: live embed differs from the audited staged entry.`);
+  assert.doesNotMatch(description, /<(?:script|style)\b/i, `${slug}: unsafe runtime code leaked into the CSV description.`);
+  assert.doesNotMatch(description, /\s(?:class|id|data-[\w-]+)=/i, `${slug}: Squarespace raw description was not sanitized.`);
+  assert.match(description, /<h2>Quick Answer:/i, `${slug}: quick-answer section is missing.`);
+  assert.match(description, /<h2>Who Is the /i, `${slug}: intended-use section is missing.`);
+  assert.match(description, /<h2>Use the Pre-Loaded /i, `${slug}: calculator section is missing.`);
+  assert.match(description, /<h2>Best Line Setup /i, `${slug}: setup section is missing.`);
+  assert.match(description, /<h2>Related Reel Pages and ReelCalc Resources<\/h2>/i, `${slug}: related-resource section is missing.`);
+  assert.match(description, /<h2>Build Your /i, `${slug}: CTA section is missing.`);
+  assert.ok((description.match(/<div\s*>\s*<\/div>/gi) || []).length >= 3, `${slug}: loader mount placeholders are missing.`);
+}
 
 const allPaths = stagedRegistry.pages.map((page) => page.path);
 assert.equal(new Set(allPaths).size, allPaths.length, "Staged reel-page paths are not unique.");
@@ -260,6 +331,7 @@ const report = {
   duplicateAliasesSuppressed: readiness.duplicateAliasRows.length,
   alreadyLivePilots: 18,
   newSquarespaceImports: 480,
+  activatedSquarespaceImports: importRows.length,
   stagedRegistryPages: stagedRegistry.pages.length,
   builtInValidationChecks: validationChecks,
   publishedPrimaryCapacityAnchors: publishedMonoAnchors,

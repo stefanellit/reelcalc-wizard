@@ -11,6 +11,10 @@ const reportPath = path.join(root, "reports", "baitcaster-pages-500-browser-audi
 fs.mkdirSync(artifactDir, { recursive: true });
 
 const reels = JSON.parse(fs.readFileSync(path.join(root, "data", "reels.json"), "utf8"));
+const importRows = parseCsv(fs.readFileSync(
+  path.join(root, "outputs", "reel-page-baitcaster-500", "UPLOAD-THIS-reelcalc-baitcaster-pages-480.csv"),
+  "utf8"
+));
 const reelById = new Map(reels.map((reel) => [reel.id, reel]));
 const cases = [
   "shimano-curado-150-m-150-hg-rh-cu150hgm",
@@ -59,13 +63,118 @@ function collectErrors(page) {
   return errors;
 }
 
+function parseCsv(text) {
+  const records = [];
+  let record = [];
+  let field = "";
+  let quoted = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const character = text[index];
+    if (quoted) {
+      if (character === '"' && text[index + 1] === '"') {
+        field += '"';
+        index += 1;
+      } else if (character === '"') {
+        quoted = false;
+      } else {
+        field += character;
+      }
+    } else if (character === '"') {
+      quoted = true;
+    } else if (character === ",") {
+      record.push(field);
+      field = "";
+    } else if (character === "\n") {
+      record.push(field.replace(/\r$/, ""));
+      records.push(record);
+      record = [];
+      field = "";
+    } else {
+      field += character;
+    }
+  }
+
+  if (field || record.length) {
+    record.push(field.replace(/\r$/, ""));
+    records.push(record);
+  }
+
+  const headers = records.shift() || [];
+  return records
+    .filter((row) => row.some((value) => value !== ""))
+    .map((row) => Object.fromEntries(headers.map((header, index) => [header, row[index] || ""])));
+}
+
+const importFixture = importRows.find((row) => row["Product URL"] === "daiwa-tatula-x-tatx100");
+assert.ok(importFixture, "The Squarespace integration fixture is missing from the import CSV.");
+const importFixturePath = path.join(artifactDir, "squarespace-import-fixture.html");
+fs.writeFileSync(importFixturePath, `<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body>
+  <main>
+    <div class="product-detail tag-reelcalc-baitcaster-guide">
+      <div class="product-description">${importFixture.Description}</div>
+    </div>
+  </main>
+  <script src="/js/squarespace-reel-page-loader.js" data-asset-base="/" data-page-slug="${importFixture["Product URL"]}"></script>
+</body>
+</html>
+`, "utf8");
+
 const browser = await chromium.launch({
   executablePath: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
   headless: true
 });
 const results = [];
+const squarespaceImportResults = [];
 
 try {
+  for (const viewport of viewports) {
+    const page = await browser.newPage({ viewport });
+    const errors = collectErrors(page);
+    const response = await page.goto(
+      `${baseUrl}/generated/browser-tests/baitcaster-pages-500/squarespace-import-fixture.html`,
+      { waitUntil: "networkidle" }
+    );
+    assert.equal(response?.status(), 200, `Squarespace fixture/${viewport.name}: fixture did not return 200.`);
+    await page.waitForFunction(() => {
+      const description = document.querySelector(".product-description.reelcalc-reel-page");
+      const mount = document.querySelector("[data-reelcalc-calculator]");
+      return Boolean(
+        description?.dataset.reelId === "daiwa-tatula-x-tatx100" &&
+        mount?.dataset.reelcalcReady === "true" &&
+        mount.shadowRoot?.querySelector('[data-role="main-product"]')?.options.length > 1
+      );
+    });
+    const integration = await page.evaluate(() => ({
+      sections: document.querySelectorAll(".reelcalc-page-section").length,
+      reelId: document.querySelector(".product-description")?.dataset.reelId || "",
+      calculatorReady: document.querySelector("[data-reelcalc-calculator]")?.dataset.reelcalcReady || "",
+      imageClassApplied: document.querySelector("img")?.classList.contains("reelcalc-product-image") || false,
+      ctaClassApplied: document.querySelector('[data-section="cta"] a')?.classList.contains("reelcalc-page-button") || false,
+      pageError: document.body.textContent.includes("could not finish loading"),
+      overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
+    }));
+    assert.equal(integration.sections, 10);
+    assert.equal(integration.reelId, "daiwa-tatula-x-tatx100");
+    assert.equal(integration.calculatorReady, "true");
+    assert.equal(integration.imageClassApplied, true);
+    assert.equal(integration.ctaClassApplied, true);
+    assert.equal(integration.pageError, false);
+    assert.ok(integration.overflow <= 1, `Squarespace fixture/${viewport.name}: horizontal overflow ${integration.overflow}px.`);
+    assert.deepEqual(errors, [], `Squarespace fixture/${viewport.name}: ${errors.join(" | ")}`);
+    squarespaceImportResults.push({
+      viewport: viewport.name,
+      sections: integration.sections,
+      calculator: "passed",
+      goldStandardClasses: "passed",
+      horizontalOverflowPx: integration.overflow
+    });
+    await page.close();
+  }
+
   for (const reel of cases) {
     for (const viewport of viewports) {
       const page = await browser.newPage({ viewport });
@@ -232,6 +341,7 @@ const report = {
   viewports,
   brands: [...new Set(cases.map((reel) => reel.brand))].sort(),
   baitcasterClasses: [...new Set(cases.map((reel) => reel.baitcaster_class))].sort(),
+  squarespaceImportRuns: squarespaceImportResults,
   screenshots: fs.readdirSync(artifactDir).filter((name) => name.endsWith(".png")).sort(),
   results
 };
@@ -242,5 +352,6 @@ console.log(JSON.stringify({
   viewportRuns: report.viewportRuns,
   brands: report.brands.length,
   baitcasterClasses: report.baitcasterClasses.length,
+  squarespaceImportRuns: report.squarespaceImportRuns.length,
   screenshots: report.screenshots.length
 }, null, 2));
