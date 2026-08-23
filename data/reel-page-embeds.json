@@ -26019,6 +26019,1104 @@
         }
       ],
       "sizeGuide": null
+    },
+    "shimano-slx-a-150-6-3-rh-slx150a": {
+      "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+      "pageTitle": "Shimano SLX A 150 6.3 RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano SLX A 150 6.3 RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano SLX A 150 6.3 RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
+      "imageAlt": "Shimano SLX A 150 6.3 RH low-profile baitcasting reel",
+      "intro": "The Shimano SLX A 150 6.3 RH (SLX150A) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 25-inch pickup helps recover slack around jigs and moving baits, while 12 lb of maximum drag leaves useful room for bass and walleye work.",
+      "introVariant": "freshwater-o1-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HAGANE Body",
+        "SilentTune"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "introEvidenceKey": "Shimano|SLX A",
+      "related": [
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        },
+        {
+          "label": "Shimano SLX A 151 6.3 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-151-6-3-lh-slx151a",
+          "reelId": "shimano-slx-a-151-6-3-lh-slx151a"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-slx-a-151-6-3-lh-slx151a": {
+      "reelId": "shimano-slx-a-151-6-3-lh-slx151a",
+      "pageTitle": "Shimano SLX A 151 6.3 LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano SLX A 151 6.3 LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano SLX A 151 6.3 LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-slx-a-151-6-3-lh-slx151a",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
+      "imageAlt": "Shimano SLX A 151 6.3 LH low-profile baitcasting reel",
+      "intro": "Built around a 150-size frame, the Shimano SLX A 151 6.3 LH (SLX151A) is best matched to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. The published 14 lb / 90 yard capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.",
+      "introVariant": "freshwater-o2-f3-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HAGANE Body",
+        "SilentTune"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "introEvidenceKey": "Shimano|SLX A",
+      "related": [
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-slx-a-150-hg-rh-slx150hga": {
+      "reelId": "shimano-slx-a-150-hg-rh-slx150hga",
+      "pageTitle": "Shimano SLX A 150 HG RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano SLX A 150 HG RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano SLX A 150 HG RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
+      "imageAlt": "Shimano SLX A 150 HG RH low-profile baitcasting reel",
+      "intro": "The Shimano SLX A 150 HG RH (SLX150HGA) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. A 28-inch retrieve and 11 lb maximum drag make it a useful middle ground between finesse duty and heavier freshwater setups.",
+      "introVariant": "freshwater-o1-f4-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HAGANE Body",
+        "SilentTune"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "introEvidenceKey": "Shimano|SLX A",
+      "related": [
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        },
+        {
+          "label": "Shimano SLX A 151 6.3 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-151-6-3-lh-slx151a",
+          "reelId": "shimano-slx-a-151-6-3-lh-slx151a"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-slx-a-151-hg-lh-slx151hga": {
+      "reelId": "shimano-slx-a-151-hg-lh-slx151hga",
+      "pageTitle": "Shimano SLX A 151 HG LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano SLX A 151 HG LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano SLX A 151 HG LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-slx-a-151-hg-lh-slx151hga",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
+      "imageAlt": "Shimano SLX A 151 HG LH low-profile baitcasting reel",
+      "intro": "Built around a 150-size frame, the Shimano SLX A 151 HG LH (SLX151HGA) is best matched to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. At 6.9 oz, it remains practical for repeated casting, with 28 inches of pickup per turn for common freshwater presentations.",
+      "introVariant": "freshwater-o2-f2-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HAGANE Body",
+        "SilentTune"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "introEvidenceKey": "Shimano|SLX A",
+      "related": [
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-slx-a-150-xg-rh-slx150xga": {
+      "reelId": "shimano-slx-a-150-xg-rh-slx150xga",
+      "pageTitle": "Shimano SLX A 150 XG RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano SLX A 150 XG RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano SLX A 150 XG RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
+      "imageAlt": "Shimano SLX A 150 XG RH low-profile baitcasting reel",
+      "intro": "The Shimano SLX A 150 XG RH (SLX150XGA) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 32-inch pickup helps recover slack around jigs and moving baits, while 11 lb of maximum drag leaves useful room for bass and walleye work.",
+      "introVariant": "freshwater-o1-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HAGANE Body",
+        "SilentTune"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "introEvidenceKey": "Shimano|SLX A",
+      "related": [
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 151 6.3 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-151-6-3-lh-slx151a",
+          "reelId": "shimano-slx-a-151-6-3-lh-slx151a"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-slx-a-151-xg-lh-slx151xga": {
+      "reelId": "shimano-slx-a-151-xg-lh-slx151xga",
+      "pageTitle": "Shimano SLX A 151 XG LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano SLX A 151 XG LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano SLX A 151 XG LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-slx-a-151-xg-lh-slx151xga",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
+      "imageAlt": "Shimano SLX A 151 XG LH low-profile baitcasting reel",
+      "intro": "The Shimano SLX A 151 XG LH (SLX151XGA) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. The published 14 lb / 90 yard capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.",
+      "introVariant": "freshwater-o1-f3-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HAGANE Body",
+        "SilentTune"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "introEvidenceKey": "Shimano|SLX A",
+      "related": [
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-150-m-150-6-2-rh-cu150mgm": {
+      "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm",
+      "pageTitle": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 150 M 150 6.2 RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 150 M 150 6.2 RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
+      "imageAlt": "Shimano Curado 150 M 150 6.2 RH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 150 M 150 6.2 RH (CU150MGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. At 6.7 oz, it remains practical for repeated casting, with 24 inches of pickup per turn for common freshwater presentations.",
+      "introVariant": "freshwater-o1-f2-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "introEvidenceKey": "Shimano|Curado 150 M",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 151 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-151-6-2-lh-cu151mgm",
+          "reelId": "shimano-curado-150-m-151-6-2-lh-cu151mgm"
+        },
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-150-m-151-6-2-lh-cu151mgm": {
+      "reelId": "shimano-curado-150-m-151-6-2-lh-cu151mgm",
+      "pageTitle": "Shimano Curado 150 M 151 6.2 LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 150 M 151 6.2 LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 150 M 151 6.2 LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-150-m-151-6-2-lh-cu151mgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
+      "imageAlt": "Shimano Curado 150 M 151 6.2 LH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 150 M 151 6.2 LH (CU151MGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. The published 14 lb / 90 yard capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.",
+      "introVariant": "freshwater-o1-f3-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "introEvidenceKey": "Shimano|Curado 150 M",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        },
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-150-m-150-hg-rh-cu150hgm": {
+      "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm",
+      "pageTitle": "Shimano Curado 150 M 150 HG RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 150 M 150 HG RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 150 M 150 HG RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
+      "imageAlt": "Shimano Curado 150 M 150 HG RH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 150 M 150 HG RH (CU150HGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 29-inch pickup helps recover slack around jigs and moving baits, while 13 lb of maximum drag leaves useful room for bass and walleye work.",
+      "introVariant": "freshwater-o1-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "introEvidenceKey": "Shimano|Curado 150 M",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 151 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-151-6-2-lh-cu151mgm",
+          "reelId": "shimano-curado-150-m-151-6-2-lh-cu151mgm"
+        },
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-150-m-151-hg-lh-cu151hgm": {
+      "reelId": "shimano-curado-150-m-151-hg-lh-cu151hgm",
+      "pageTitle": "Shimano Curado 150 M 151 HG LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 150 M 151 HG LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 150 M 151 HG LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-150-m-151-hg-lh-cu151hgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
+      "imageAlt": "Shimano Curado 150 M 151 HG LH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 150 M 151 HG LH (CU151HGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its weight, line pickup, and published drag are proportioned for anglers who want one reel to cover several common freshwater techniques.",
+      "introVariant": "freshwater-o1-f5-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "introEvidenceKey": "Shimano|Curado 150 M",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        },
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-150-m-150-xg-rh-cu150xgm": {
+      "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm",
+      "pageTitle": "Shimano Curado 150 M 150 XG RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 150 M 150 XG RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 150 M 150 XG RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
+      "imageAlt": "Shimano Curado 150 M 150 XG RH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 150 M 150 XG RH (CU150XGM) falls in the 150-size class and is intended for bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. At 6.7 oz, it remains practical for repeated casting, with 32 inches of pickup per turn for common freshwater presentations.",
+      "introVariant": "freshwater-o3-f2-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "introEvidenceKey": "Shimano|Curado 150 M",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 151 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-151-6-2-lh-cu151mgm",
+          "reelId": "shimano-curado-150-m-151-6-2-lh-cu151mgm"
+        },
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-150-m-151-xg-lh-cu151xgm": {
+      "reelId": "shimano-curado-150-m-151-xg-lh-cu151xgm",
+      "pageTitle": "Shimano Curado 150 M 151 XG LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 150 M 151 XG LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 150 M 151 XG LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-150-m-151-xg-lh-cu151xgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
+      "imageAlt": "Shimano Curado 150 M 151 XG LH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 150 M 151 XG LH (CU151XGM) falls in the 150-size class and is intended for bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 32-inch pickup helps recover slack around jigs and moving baits, while 13 lb of maximum drag leaves useful room for bass and walleye work.",
+      "introVariant": "freshwater-o3-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "introEvidenceKey": "Shimano|Curado 150 M",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        },
+        {
+          "label": "Shimano SLX A 150 6.3 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a"
+        },
+        {
+          "label": "Shimano SLX A 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
+          "reelId": "shimano-slx-a-150-hg-rh-slx150hga"
+        },
+        {
+          "label": "Shimano SLX A 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
+          "reelId": "shimano-slx-a-150-xg-rh-slx150xga"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-200-m-200-6-2-rh-cu200m": {
+      "reelId": "shimano-curado-200-m-200-6-2-rh-cu200m",
+      "pageTitle": "Shimano Curado 200 M 200 6.2 RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 200 M 200 6.2 RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 200 M 200 6.2 RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
+      "imageAlt": "Shimano Curado 200 M 200 6.2 RH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 200 M 200 6.2 RH (CU200M) falls in the 200-size class and is best matched to bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 27-inch pickup gathers line quickly across a large spool, while the rated capacity supports heavier working line.",
+      "introVariant": "heavy-o3-f2-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "introEvidenceKey": "Shimano|Curado 200 M",
+      "related": [
+        {
+          "label": "Shimano Curado 200 M 200 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
+          "reelId": "shimano-curado-200-m-200-xg-rh-cu200xgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 201 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-201-6-2-lh-cu201m",
+          "reelId": "shimano-curado-200-m-201-6-2-lh-cu201m"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-200-m-201-6-2-lh-cu201m": {
+      "reelId": "shimano-curado-200-m-201-6-2-lh-cu201m",
+      "pageTitle": "Shimano Curado 200 M 201 6.2 LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 200 M 201 6.2 LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 200 M 201 6.2 LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-200-m-201-6-2-lh-cu201m",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
+      "imageAlt": "Shimano Curado 200 M 201 6.2 LH low-profile baitcasting reel",
+      "intro": "Built around a 200-size frame, the Shimano Curado 200 M 201 6.2 LH (CU201M) is intended for bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. With 27 inches of pickup per turn and a 10 lb / 155 yard capacity baseline, it is built around demanding big-reel work.",
+      "introVariant": "heavy-o2-f4-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "introEvidenceKey": "Shimano|Curado 200 M",
+      "related": [
+        {
+          "label": "Shimano Curado 200 M 200 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
+          "reelId": "shimano-curado-200-m-200-6-2-rh-cu200m"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
+          "reelId": "shimano-curado-200-m-200-xg-rh-cu200xgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-200-m-200-hg-rh-cu200hgm": {
+      "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+      "pageTitle": "Shimano Curado 200 M 200 HG RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 200 M 200 HG RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 200 M 200 HG RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
+      "imageAlt": "Shimano Curado 200 M 200 HG RH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 200 M 200 HG RH (CU200HGM) is a 200-size baitcasting reel built for bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 13 lb maximum drag make line reserve and pulling margin the priorities.",
+      "introVariant": "heavy-o1-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "introEvidenceKey": "Shimano|Curado 200 M",
+      "related": [
+        {
+          "label": "Shimano Curado 200 M 200 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
+          "reelId": "shimano-curado-200-m-200-6-2-rh-cu200m"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
+          "reelId": "shimano-curado-200-m-200-xg-rh-cu200xgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 201 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-201-6-2-lh-cu201m",
+          "reelId": "shimano-curado-200-m-201-6-2-lh-cu201m"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-200-m-201-hg-lh-cu201hgm": {
+      "reelId": "shimano-curado-200-m-201-hg-lh-cu201hgm",
+      "pageTitle": "Shimano Curado 200 M 201 HG LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 200 M 201 HG LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 200 M 201 HG LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-200-m-201-hg-lh-cu201hgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
+      "imageAlt": "Shimano Curado 200 M 201 HG LH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 200 M 201 HG LH (CU201HGM) is a 200-size baitcasting reel built for bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 13 lb maximum drag make line reserve and pulling margin the priorities.",
+      "introVariant": "heavy-o1-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "introEvidenceKey": "Shimano|Curado 200 M",
+      "related": [
+        {
+          "label": "Shimano Curado 200 M 200 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
+          "reelId": "shimano-curado-200-m-200-6-2-rh-cu200m"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
+          "reelId": "shimano-curado-200-m-200-xg-rh-cu200xgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-200-m-200-xg-rh-cu200xgm": {
+      "reelId": "shimano-curado-200-m-200-xg-rh-cu200xgm",
+      "pageTitle": "Shimano Curado 200 M 200 XG RH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 200 M 200 XG RH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 200 M 200 XG RH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
+      "imageAlt": "Shimano Curado 200 M 200 XG RH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 200 M 200 XG RH (CU200XGM) falls in the 200-size class and is best matched to bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 12 lb maximum drag make line reserve and pulling margin the priorities.",
+      "introVariant": "heavy-o3-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "introEvidenceKey": "Shimano|Curado 200 M",
+      "related": [
+        {
+          "label": "Shimano Curado 200 M 200 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
+          "reelId": "shimano-curado-200-m-200-6-2-rh-cu200m"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 201 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-201-6-2-lh-cu201m",
+          "reelId": "shimano-curado-200-m-201-6-2-lh-cu201m"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
+    },
+    "shimano-curado-200-m-201-xg-lh-cu201xgm": {
+      "reelId": "shimano-curado-200-m-201-xg-lh-cu201xgm",
+      "pageTitle": "Shimano Curado 200 M 201 XG LH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Curado 200 M 201 XG LH Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Curado 200 M 201 XG LH line capacity, exact specifications, practical braid and mono sizes, backing guidance, and a preloaded ReelCalc calculator.",
+      "canonicalPath": "/reel-pages/p/shimano-curado-200-m-201-xg-lh-cu201xgm",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
+      "imageAlt": "Shimano Curado 200 M 201 XG LH low-profile baitcasting reel",
+      "intro": "The Shimano Curado 200 M 201 XG LH (CU201XGM) falls in the 200-size class and is best matched to bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 12 lb maximum drag make line reserve and pulling margin the priorities.",
+      "introVariant": "heavy-o3-f1-t2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "MGL Spool III",
+        "SVS Infinity"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "introEvidenceKey": "Shimano|Curado 200 M",
+      "related": [
+        {
+          "label": "Shimano Curado 200 M 200 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
+          "reelId": "shimano-curado-200-m-200-6-2-rh-cu200m"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm"
+        },
+        {
+          "label": "Shimano Curado 200 M 200 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
+          "reelId": "shimano-curado-200-m-200-xg-rh-cu200xgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      }
     }
   },
   "aliases": {
