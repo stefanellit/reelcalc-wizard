@@ -1,0 +1,3458 @@
+{
+  "version": 2,
+  "generatedAt": "2026-08-23T21:10:19.054Z",
+  "protocol": {
+    "exactFamilyAndGenerationRequired": true,
+    "maximumTermsPerIntroduction": 3,
+    "fallback": "Use exact published specifications and construction details; never infer a technology from a similar reel."
+  },
+  "families": {
+    "Bass Pro Shops|Johnny Morris CarbonLite 2.0 Spinning Reel": {
+      "brand": "Bass Pro Shops",
+      "model": "Johnny Morris CarbonLite 2.0 Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-20-spinning-reel-model-jct1000-2716254",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Bass Pro Shops|Johnny Morris Platinum Signature ZN-LITE Spinning Reel": {
+      "brand": "Bass Pro Shops",
+      "model": "Johnny Morris Platinum Signature ZN-LITE Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-platinum-signature-spinning-reel-3000-size-4121101",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Bass Pro Shops|Johnny Morris Signature Series Spinning Reel": {
+      "brand": "Bass Pro Shops",
+      "model": "Johnny Morris Signature Series Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-signature-series-spinning-reel-4000-size-4121109",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Bass Pro Shops|Micro Lite Elite Spinning Reel": {
+      "brand": "Bass Pro Shops",
+      "model": "Micro Lite Elite Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/bass-pro-shops-micro-lite-elite-spinning-reel-5-size-4529353",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Bass Pro Shops|Tourney Special Spinning Reel": {
+      "brand": "Bass Pro Shops",
+      "model": "Tourney Special Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/bass-pro-shops-tourney-special-spinning-reel-tsz-10-2924070",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Daiwa|BG": {
+      "brand": "Daiwa",
+      "model": "BG",
+      "sourceUrl": "https://daiwa.us/collections/saltwater-spinning-reels/products/bg-sw-spinning",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "ALUMINIUM BODY",
+          "clause": "uses a rigid aluminum housing to limit flex under load"
+        },
+        {
+          "name": "DIGIGEAR",
+          "clause": "uses digitally designed gearing for smoother power transfer"
+        },
+        {
+          "name": "ATD DRAG",
+          "clause": "is designed to apply smooth, progressive drag pressure as a fish accelerates"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|BG LT": {
+      "brand": "Daiwa",
+      "model": "BG LT",
+      "sourceUrl": "https://daiwa.us/collections/spin-reels/products/bg-copy",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "AIRDRIVE ROTOR",
+          "clause": "reduces rotating mass for lighter startup and more responsive lure control"
+        },
+        {
+          "name": "AIRDRIVE BAIL",
+          "clause": "uses a lighter, rigid bail to guide line cleanly into the roller"
+        },
+        {
+          "name": "TOUGH DIGIGEAR",
+          "clause": "uses digitally designed gearing to improve gear contact and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|BG SW 2026": {
+      "brand": "Daiwa",
+      "model": "BG SW 2026",
+      "sourceUrl": "https://daiwa.us/collections/spin-reels/products/2026-bg-lt-spinning-copy",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "ALUMINIUM BODY",
+          "clause": "uses a rigid aluminum housing to limit flex under load"
+        },
+        {
+          "name": "ATD DRAG",
+          "clause": "is designed to apply smooth, progressive drag pressure as a fish accelerates"
+        },
+        {
+          "name": "DIGIGEAR",
+          "clause": "uses digitally designed gearing for smoother power transfer"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|DF18000": {
+      "brand": "Daiwa",
+      "model": "DF18000",
+      "sourceUrl": "https://daiwa.us/products/df18000",
+      "sourceStatus": "fetched",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Daiwa|Fuego LT": {
+      "brand": "Daiwa",
+      "model": "Fuego LT",
+      "sourceUrl": "https://daiwa.us/collections/spin-reels/products/23-fuego-lt",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "ZAION V BODY",
+          "clause": "uses a carbon-composite body to reduce weight while supporting the drive train"
+        },
+        {
+          "name": "AIRDRIVE ROTOR",
+          "clause": "reduces rotating mass for lighter startup and more responsive lure control"
+        },
+        {
+          "name": "MAGSEALED BODY",
+          "clause": "uses magnetic oil sealing to reduce water and debris intrusion at the body"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|IPRIMI LT": {
+      "brand": "Daiwa",
+      "model": "IPRIMI LT",
+      "sourceUrl": "https://daiwa.us/collections/spin-reels/products/2026-iprimi-lt",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "ZAION V BODY",
+          "clause": "uses a carbon-composite body to reduce weight while supporting the drive train"
+        },
+        {
+          "name": "AIRDRIVE ROTOR",
+          "clause": "reduces rotating mass for lighter startup and more responsive lure control"
+        },
+        {
+          "name": "AIRDRIVE BAIL",
+          "clause": "uses a lighter, rigid bail to guide line cleanly into the roller"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|Legalis LT": {
+      "brand": "Daiwa",
+      "model": "Legalis LT",
+      "sourceUrl": "https://daiwa.us/collections/spin-reels/products/legalis-lt",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "ATD DRAG",
+          "clause": "is designed to apply smooth, progressive drag pressure as a fish accelerates"
+        },
+        {
+          "name": "DIGIGEAR",
+          "clause": "uses digitally designed gearing for smoother power transfer"
+        },
+        {
+          "name": "AIR ROTOR",
+          "clause": "uses a lighter, balanced rotor to improve startup response"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|Tatula Elite MQ": {
+      "brand": "Daiwa",
+      "model": "Tatula Elite MQ",
+      "sourceUrl": "https://daiwa.us/collections/tatula-reels/products/2026-tatula-mq-elite",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MQ BODY",
+          "clause": "uses Daiwa's one-piece Monocoque body to improve rigidity and gear support"
+        },
+        {
+          "name": "ZAION V BODY",
+          "clause": "uses a carbon-composite body to reduce weight while supporting the drive train"
+        },
+        {
+          "name": "AIRDRIVE ROTOR",
+          "clause": "reduces rotating mass for lighter startup and more responsive lure control"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Daiwa|Tatula MQ": {
+      "brand": "Daiwa",
+      "model": "Tatula MQ",
+      "sourceUrl": "https://daiwa.us/products/2026-tatula-mq-fc-lt",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MQ BODY",
+          "clause": "uses Daiwa's one-piece Monocoque body to improve rigidity and gear support"
+        },
+        {
+          "name": "ZAION V BODY",
+          "clause": "uses a carbon-composite body to reduce weight while supporting the drive train"
+        },
+        {
+          "name": "AIRDRIVE ROTOR",
+          "clause": "reduces rotating mass for lighter startup and more responsive lure control"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Centron Spinning": {
+      "brand": "KastKing",
+      "model": "Centron Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-summer-and-centron-spinning-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Graphite Body",
+          "clause": "uses a lightweight graphite frame to keep overall reel weight manageable"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Kapstan Elite Saltwater Spinning": {
+      "brand": "KastKing",
+      "model": "Kapstan Elite Saltwater Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-kapstan-elite-saltwater-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "IPX6",
+          "clause": "adds tested water protection for demanding saltwater use"
+        },
+        {
+          "name": "Intrusion Shield System",
+          "clause": "adds multiple sealing points to reduce water and debris intrusion"
+        },
+        {
+          "name": "ALUMINUM BODY",
+          "clause": "uses a rigid aluminum housing to limit flex under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|MegaJaws Elite Spinning": {
+      "brand": "KastKing",
+      "model": "MegaJaws Elite Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-megajaws-elite-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "ALUMINUM BODY",
+          "clause": "uses a rigid aluminum housing to limit flex under load"
+        },
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        },
+        {
+          "name": "One-Piece Bail",
+          "clause": "provides a smooth path into the line roller with fewer snag points"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|MegaJaws Spinning": {
+      "brand": "KastKing",
+      "model": "MegaJaws Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-megajaws-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        },
+        {
+          "name": "One-Piece Bail",
+          "clause": "provides a smooth path into the line roller with fewer snag points"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|MegaTron Spinning": {
+      "brand": "KastKing",
+      "model": "MegaTron Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-megatron-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|ReKon Saltwater Spinning": {
+      "brand": "KastKing",
+      "model": "ReKon Saltwater Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-rekon-saltwater-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        },
+        {
+          "name": "One-Piece Bail",
+          "clause": "provides a smooth path into the line roller with fewer snag points"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Royale Legend Pro Spinning": {
+      "brand": "KastKing",
+      "model": "Royale Legend Pro Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-royale-legend-pro-spinning-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "KastKing|Sharky Baitfeeder III": {
+      "brand": "KastKing",
+      "model": "Sharky Baitfeeder III",
+      "sourceUrl": "https://kastking.com/products/kastking-sharky-baitfeeder-iii-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Baitfeeder System",
+          "clause": "adds a secondary drag that lets a fish take bait before the main drag engages"
+        },
+        {
+          "name": "Shark Fin Braid Ready Spool",
+          "clause": "secures braid at the spool without requiring a separate backing knot"
+        },
+        {
+          "name": "CNC Aluminum Spool",
+          "clause": "uses a machined aluminum spool for rigidity and consistent line support"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Sharky III Spinning": {
+      "brand": "KastKing",
+      "model": "Sharky III Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-sharky-iii-fishing-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Intrusion Shield System",
+          "clause": "adds multiple sealing points to reduce water and debris intrusion"
+        },
+        {
+          "name": "Triple Disc Carbon Fiber Drag",
+          "clause": "uses stacked carbon washers for smooth, durable drag pressure"
+        },
+        {
+          "name": "Graphite Body",
+          "clause": "uses a lightweight graphite frame to keep overall reel weight manageable"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Sharky X Spinning": {
+      "brand": "KastKing",
+      "model": "Sharky X Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-sharky-x-spinning-fishing-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Speed Demon Elite Spinning": {
+      "brand": "KastKing",
+      "model": "Speed Demon Elite Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-speed-demon-elite-fishing-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "KastKing|Zephyr Spinning": {
+      "brand": "KastKing",
+      "model": "Zephyr Spinning",
+      "sourceUrl": "https://kastking.com/products/kastking-zephyr-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Graphite Body",
+          "clause": "uses a lightweight graphite frame to keep overall reel weight manageable"
+        },
+        {
+          "name": "Carbon Fiber Drag",
+          "clause": "uses carbon drag washers for smooth pressure and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Offshore Angler|Frigate II Spinning Reel": {
+      "brand": "Offshore Angler",
+      "model": "Frigate II Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/offshore-angler-frigate-ii-spinning-reel-7000-size-2375743",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Offshore Angler|Tightline II Spinning Reel": {
+      "brand": "Offshore Angler",
+      "model": "Tightline II Spinning Reel",
+      "sourceUrl": "https://www.basspro.com/shop/en/ProductDisplay?catalogId=3074457345616676768&categoryId=11570&langId=-1&parent_category_rn=%5BLjava.lang.String%3B%40f08865ae&productId=3074457345616934145&storeId=715838534&top_category=%5BLjava.lang.String%3B%407b144cc2&urlLangId=-1&urlRequestType=Base",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Okuma|Acuador": {
+      "brand": "Okuma",
+      "model": "Acuador",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/acuador-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Aria A": {
+      "brand": "Okuma",
+      "model": "Aria A",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/aria-a-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Avenger B": {
+      "brand": "Okuma",
+      "model": "Avenger B",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Quick-Set Anti-Reverse",
+          "clause": "provides immediate anti-reverse engagement for positive hooksets"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Cat Slayer Custom": {
+      "brand": "Okuma",
+      "model": "Cat Slayer Custom",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/cat-slayer-custom-spinning-baitfeeder-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Dual Force Drag",
+          "clause": "applies drag pressure to both sides of the spool for smoother force distribution"
+        },
+        {
+          "name": "Quick-Set Anti-Reverse",
+          "clause": "provides immediate anti-reverse engagement for positive hooksets"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Ceymar A": {
+      "brand": "Okuma",
+      "model": "Ceymar A",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/ceymar-a-spinning-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Precision Elliptical Gearing",
+          "clause": "controls spool travel to improve line lay and casting consistency"
+        },
+        {
+          "name": "Quick-Set Anti-Reverse",
+          "clause": "provides immediate anti-reverse engagement for positive hooksets"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Ceymar Baitfeeder A": {
+      "brand": "Okuma",
+      "model": "Ceymar Baitfeeder A",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/ceymar-baitfeeder-a",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "Quick-Set Anti-Reverse",
+          "clause": "provides immediate anti-reverse engagement for positive hooksets"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Coronado CDX Baitfeeder": {
+      "brand": "Okuma",
+      "model": "Coronado CDX Baitfeeder",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/coronado-cdx-baitfeeder",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "Hydro Block",
+          "clause": "uses a body seal to reduce water intrusion around the drag and drive system"
+        },
+        {
+          "name": "Dual Force Drag",
+          "clause": "applies drag pressure to both sides of the spool for smoother force distribution"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Flite Surf": {
+      "brand": "Okuma",
+      "model": "Flite Surf",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/flite-surf-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "C-40X",
+          "clause": "uses Okuma's carbon-fiber material to reduce weight while retaining rigidity"
+        },
+        {
+          "name": "Quick-Set Anti-Reverse",
+          "clause": "provides immediate anti-reverse engagement for positive hooksets"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Inspira ISX": {
+      "brand": "Okuma",
+      "model": "Inspira ISX",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/inspira-isx-spinning-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Torsion Control Armor",
+          "clause": "uses a rigid double-arm body design to reduce twisting under load"
+        },
+        {
+          "name": "HDGII",
+          "clause": "uses a high-density oversized gear system for improved strength and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|ITX-CB": {
+      "brand": "Okuma",
+      "model": "ITX-CB",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/itx-cb-carbon-bodied-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "C-40X",
+          "clause": "uses Okuma's carbon-fiber material to reduce weight while retaining rigidity"
+        },
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Makaira": {
+      "brand": "Okuma",
+      "model": "Makaira",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/makaira-spinning",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "Hydro Block",
+          "clause": "uses a body seal to reduce water intrusion around the drag and drive system"
+        },
+        {
+          "name": "Dual Force Drag",
+          "clause": "applies drag pressure to both sides of the spool for smoother force distribution"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Rockaway SI": {
+      "brand": "Okuma",
+      "model": "Rockaway SI",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/rockaway-si-surf-inshore-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "C-40X",
+          "clause": "uses Okuma's carbon-fiber material to reduce weight while retaining rigidity"
+        },
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Rockaway Surf": {
+      "brand": "Okuma",
+      "model": "Rockaway Surf",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/rockaway-surf-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "Quick-Set Anti-Reverse",
+          "clause": "provides immediate anti-reverse engagement for positive hooksets"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Safyre": {
+      "brand": "Okuma",
+      "model": "Safyre",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/safyre-spinning-reels",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "Hydro Block",
+          "clause": "uses a body seal to reduce water intrusion around the drag and drive system"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Salina": {
+      "brand": "Okuma",
+      "model": "Salina",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/salina-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "LITECAST",
+          "clause": "uses a lightweight magnesium-alloy construction to reduce body weight"
+        },
+        {
+          "name": "HDGII",
+          "clause": "uses a high-density oversized gear system for improved strength and durability"
+        },
+        {
+          "name": "CRC",
+          "clause": "adds corrosion-resistant coating to exposed reel components"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Surf-8K": {
+      "brand": "Okuma",
+      "model": "Surf-8K",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/surf-8k-spinning-reel-1",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "Hydro Block",
+          "clause": "uses a body seal to reduce water intrusion around the drag and drive system"
+        },
+        {
+          "name": "Dual Force Drag",
+          "clause": "applies drag pressure to both sides of the spool for smoother force distribution"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Okuma|Tesoro": {
+      "brand": "Okuma",
+      "model": "Tesoro",
+      "sourceUrl": "https://okumafishingusa.com/collections/spinning-reels/products/tesoro-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Flite Drive",
+          "clause": "reduces friction around the pinion and main shaft for lighter handle rotation"
+        },
+        {
+          "name": "Cyclonic Flow Rotor",
+          "clause": "moves air through the rotor to help moisture leave the spool area"
+        },
+        {
+          "name": "CRC",
+          "clause": "adds corrosion-resistant coating to exposed reel components"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "PENN|Battle III": {
+      "brand": "PENN",
+      "model": "Battle III",
+      "sourceUrl": "https://www.mysticparts.com/PennParts/ReelSpecs/PennBattleIII.aspx",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "PENN|Battle IV": {
+      "brand": "PENN",
+      "model": "Battle IV",
+      "sourceUrl": "https://www.pennfishing.com/products/battle-iv-spinning-reel-1624423",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Hydro Armor",
+          "clause": "seals critical areas to reduce water intrusion in harsh conditions"
+        },
+        {
+          "name": "CNC Gear",
+          "clause": "uses precisely machined gearing for dependable power transfer"
+        },
+        {
+          "name": "HT-100",
+          "clause": "uses carbon-fiber drag washers for smooth, durable drag pressure"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "PENN|Fierce IV": {
+      "brand": "PENN",
+      "model": "Fierce IV",
+      "sourceUrl": "https://www.pennfishing.com/products/fierce-iv-spinning-reel-1573575",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Full Metal Body",
+          "clause": "uses a rigid metal frame and sideplate to maintain gear alignment"
+        },
+        {
+          "name": "HT-100",
+          "clause": "uses carbon-fiber drag washers for smooth, durable drag pressure"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "PENN|Pursuit III": {
+      "brand": "PENN",
+      "model": "Pursuit III",
+      "sourceUrl": "https://www.mysticparts.com/PennParts/ReelSpecs/PennPursuitIII.aspx",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "PENN|Pursuit V": {
+      "brand": "PENN",
+      "model": "Pursuit V",
+      "sourceUrl": "https://www.pennfishing.com/products/pursuit-v-spinning-reel-1641576",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HT-100",
+          "clause": "uses carbon-fiber drag washers for smooth, durable drag pressure"
+        },
+        {
+          "name": "Graphite Body",
+          "clause": "uses a lightweight graphite frame to keep overall reel weight manageable"
+        },
+        {
+          "name": "Superline Spool",
+          "clause": "allows braid to be tied directly to the spool without backing for grip"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "PENN|Slammer IV": {
+      "brand": "PENN",
+      "model": "Slammer IV",
+      "sourceUrl": "https://www.pennfishing.com/products/slammer-iv-spinning-reel-1310317",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "IPX6",
+          "clause": "adds tested water protection for demanding saltwater use"
+        },
+        {
+          "name": "Full Metal Body",
+          "clause": "uses a rigid metal frame and sideplate to maintain gear alignment"
+        },
+        {
+          "name": "CNC Gear",
+          "clause": "uses precisely machined gearing for dependable power transfer"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "PENN|Spinfisher VII": {
+      "brand": "PENN",
+      "model": "Spinfisher VII",
+      "sourceUrl": "https://www.pennfishing.com/products/spinfisher-vii-spinning-reel-1595548",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Full Metal Body",
+          "clause": "uses a rigid metal frame and sideplate to maintain gear alignment"
+        },
+        {
+          "name": "CNC Gear",
+          "clause": "uses precisely machined gearing for dependable power transfer"
+        },
+        {
+          "name": "HT-100",
+          "clause": "uses carbon-fiber drag washers for smooth, durable drag pressure"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Pflueger|President": {
+      "brand": "Pflueger",
+      "model": "President",
+      "sourceUrl": "https://pfluegerfishing.com/products/president-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Graphite Body",
+          "clause": "uses a lightweight graphite frame to keep overall reel weight manageable"
+        },
+        {
+          "name": "Braid Ready Spool",
+          "clause": "is designed to hold braid securely without a separate grip layer"
+        },
+        {
+          "name": "Slow Oscillation",
+          "clause": "lays line more evenly across the spool for cleaner line management"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Baitrunner D": {
+      "brand": "Shimano",
+      "model": "Baitrunner D",
+      "sourceUrl": "https://bigdogtackle.com/products/shimano-baitrunner-d-spinning-reel",
+      "sourceStatus": "fetched",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Shimano|Baitrunner OC": {
+      "brand": "Shimano",
+      "model": "Baitrunner OC",
+      "sourceUrl": "https://www.dickssportinggoods.com/p/shimano-baitrunner-oc-spinning-reel/15shmubtrnnr4000cree",
+      "sourceStatus": "http-error",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Shimano|Catana FE": {
+      "brand": "Shimano",
+      "model": "Catana FE",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003iilfeqam.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Propulsion Line Management System",
+          "clause": "uses a shaped spool lip to improve line release and reduce line trouble"
+        },
+        {
+          "name": "G-Free Body",
+          "clause": "moves the reel's center of gravity closer to the rod for a more balanced feel"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Exsence B": {
+      "brand": "Shimano",
+      "model": "Exsence B",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f000045al1lqau.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "InfinityLoop",
+          "clause": "uses slow spool oscillation for more orderly line lay and smoother line release"
+        },
+        {
+          "name": "Anti-Twist Fin",
+          "clause": "maintains line tension near the roller to reduce slack and uneven winding"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|FX FC": {
+      "brand": "Shimano",
+      "model": "FX FC",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003hspk0qan.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "G-Free Body",
+          "clause": "moves the reel's center of gravity closer to the rod for a more balanced feel"
+        },
+        {
+          "name": "Varispeed",
+          "clause": "controls spool oscillation to promote more even line lay"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Miravel": {
+      "brand": "Shimano",
+      "model": "Miravel",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003iilj5qam.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "CI4+",
+          "clause": "uses carbon-reinforced material to reduce weight while retaining useful rigidity"
+        },
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Nasci FC": {
+      "brand": "Shimano",
+      "model": "Nasci FC",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f000035yx1uqaa.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "SilentDrive",
+          "clause": "reduces unnecessary internal play, noise, and vibration for smoother cranking"
+        },
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment and improve efficiency under load"
+        }
+      ],
+      "excludedBySize": {
+        "500": [
+          "CoreProtect",
+          "SilentDrive",
+          "X-Ship"
+        ]
+      },
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Nasci FD": {
+      "brand": "Shimano",
+      "model": "Nasci FD",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slx0xqac.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "InfinityDrive",
+          "clause": "reduces internal friction so the reel remains easier to crank under load"
+        },
+        {
+          "name": "One-Piece Bail",
+          "clause": "provides a smooth path into the line roller with fewer snag points"
+        }
+      ],
+      "excludedBySize": {
+        "500": [
+          "X-Ship",
+          "SilentDrive",
+          "Anti-Twist Fin",
+          "CoreProtect"
+        ]
+      },
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Nexave FJ": {
+      "brand": "Shimano",
+      "model": "Nexave FJ",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slx2fqas.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Anti-Twist Fin",
+          "clause": "maintains line tension near the roller to reduce slack and uneven winding"
+        },
+        {
+          "name": "SilentDrive",
+          "clause": "reduces unnecessary internal play, noise, and vibration for smoother cranking"
+        },
+        {
+          "name": "Propulsion Line Management System",
+          "clause": "uses a shaped spool lip to improve line release and reduce line trouble"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sahara FJ": {
+      "brand": "Shimano",
+      "model": "Sahara FJ",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003iili7qam.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "SilentDrive",
+          "clause": "reduces unnecessary internal play, noise, and vibration for smoother cranking"
+        },
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment and improve efficiency under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sahara Rear Drag": {
+      "brand": "Shimano",
+      "model": "Sahara Rear Drag",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002g52yjqai.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Shimano|Saragosa SW A": {
+      "brand": "Shimano",
+      "model": "Saragosa SW A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2gakqam.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "X-Protect",
+          "clause": "adds a water-resistant labyrinth structure around critical reel areas"
+        },
+        {
+          "name": "X-Tough Drag",
+          "clause": "uses reinforced carbon drag washers for sustained heavy-load performance"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sedona FJ": {
+      "brand": "Shimano",
+      "model": "Sedona FJ",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003s9eq8qai.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "SilentDrive",
+          "clause": "reduces unnecessary internal play, noise, and vibration for smoother cranking"
+        },
+        {
+          "name": "G-Free Body",
+          "clause": "moves the reel's center of gravity closer to the rod for a more balanced feel"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sienna FG": {
+      "brand": "Shimano",
+      "model": "Sienna FG",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a0710000020emhkaaw.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Propulsion Line Management System",
+          "clause": "uses a shaped spool lip to improve line release and reduce line trouble"
+        },
+        {
+          "name": "G-Free Body",
+          "clause": "moves the reel's center of gravity closer to the rod for a more balanced feel"
+        },
+        {
+          "name": "Super Stopper II",
+          "clause": "provides instant anti-reverse engagement for positive hook-setting response"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sienna RE": {
+      "brand": "Shimano",
+      "model": "Sienna RE",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002g52g5qaa.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Shimano|Socorro SW": {
+      "brand": "Shimano",
+      "model": "Socorro SW",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a071000001oaccpaaq.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment and improve efficiency under load"
+        },
+        {
+          "name": "Cross Carbon Drag",
+          "clause": "provides a broad, durable drag range for consistent pressure"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Spheros SW 3000/4000": {
+      "brand": "Shimano",
+      "model": "Spheros SW 3000/4000",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00003qx8tcqaz.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment and improve efficiency under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Spheros SW A": {
+      "brand": "Shimano",
+      "model": "Spheros SW A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fncqa2.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "X-Protect",
+          "clause": "adds a water-resistant labyrinth structure around critical reel areas"
+        },
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Spirex FG": {
+      "brand": "Shimano",
+      "model": "Spirex FG",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003fbjhwqaf.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology was approved from the available source; introductions must use verified specifications only."
+    },
+    "Shimano|Stella FK": {
+      "brand": "Shimano",
+      "model": "Stella FK",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003e22p2qaa.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "InfinityLoop",
+          "clause": "uses slow spool oscillation for more orderly line lay and smoother line release"
+        },
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        },
+        {
+          "name": "DuraCross",
+          "clause": "uses a woven drag material intended to combine smooth pressure with greater durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Stella SW D": {
+      "brand": "Shimano",
+      "model": "Stella SW D",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        },
+        {
+          "name": "InfinityLoop",
+          "clause": "uses slow spool oscillation for more orderly line lay and smoother line release"
+        },
+        {
+          "name": "X-Protect",
+          "clause": "adds a water-resistant labyrinth structure around critical reel areas"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Stradic FM": {
+      "brand": "Shimano",
+      "model": "Stradic FM",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slvodqas.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        },
+        {
+          "name": "DuraCross",
+          "clause": "uses a woven drag material intended to combine smooth pressure with greater durability"
+        },
+        {
+          "name": "Anti-Twist Fin",
+          "clause": "maintains line tension near the roller to reduce slack and uneven winding"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sustain FJ": {
+      "brand": "Shimano",
+      "model": "Sustain FJ",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwu18qah.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "Long Stroke Spool",
+          "clause": "uses a longer spool stroke to support smooth line lay and casting distance"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Sustain FK": {
+      "brand": "Shimano",
+      "model": "Sustain FK",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwyhqac.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "InfinityDrive",
+          "clause": "reduces internal friction so the reel remains easier to crank under load"
+        },
+        {
+          "name": "DuraCross",
+          "clause": "uses a woven drag material intended to combine smooth pressure with greater durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Syncopate FG": {
+      "brand": "Shimano",
+      "model": "Syncopate FG",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003dflegqan.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Propulsion Line Management System",
+          "clause": "uses a shaped spool lip to improve line release and reduce line trouble"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Thunnus CI4": {
+      "brand": "Shimano",
+      "model": "Thunnus CI4",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a071000000avte3aap.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Gear",
+          "clause": "uses a cold-forged drive gear designed to retain smoothness and durability"
+        },
+        {
+          "name": "CI4+",
+          "clause": "uses carbon-reinforced material to reduce weight while retaining useful rigidity"
+        },
+        {
+          "name": "One-Piece Bail",
+          "clause": "provides a smooth path into the line roller with fewer snag points"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Twin Power FE": {
+      "brand": "Shimano",
+      "model": "Twin Power FE",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slw5kqac.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        },
+        {
+          "name": "DuraCross",
+          "clause": "uses a woven drag material intended to combine smooth pressure with greater durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Twin Power SW C": {
+      "brand": "Shimano",
+      "model": "Twin Power SW C",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00003vfarlqap.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "X-Shield",
+          "clause": "uses sealing at critical body areas to reduce saltwater intrusion"
+        },
+        {
+          "name": "X-Tough Drag",
+          "clause": "uses reinforced carbon drag washers for sustained heavy-load performance"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Twin Power XD FA": {
+      "brand": "Shimano",
+      "model": "Twin Power XD FA",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003ehw95qaa.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "Long Stroke Spool",
+          "clause": "uses a longer spool stroke to support smooth line lay and casting distance"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Ultegra FD": {
+      "brand": "Shimano",
+      "model": "Ultegra FD",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwxfqas.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        },
+        {
+          "name": "InfinityDrive",
+          "clause": "reduces internal friction so the reel remains easier to crank under load"
+        },
+        {
+          "name": "Anti-Twist Fin",
+          "clause": "maintains line tension near the roller to reduce slack and uneven winding"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Vanford A": {
+      "brand": "Shimano",
+      "model": "Vanford A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwfsqac.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        },
+        {
+          "name": "DuraCross",
+          "clause": "uses a woven drag material intended to combine smooth pressure with greater durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Vanquish": {
+      "brand": "Shimano",
+      "model": "Vanquish",
+      "sourceUrl": "https://fish.shimano.com/en-SG/product/reels/spinning/a075f00003slvm7qac.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "InfinityLoop",
+          "clause": "uses slow spool oscillation for more orderly line lay and smoother line release"
+        },
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|Vanquish CE": {
+      "brand": "Shimano",
+      "model": "Vanquish CE",
+      "sourceUrl": "https://fish.shimano.com/en-SG/product/reels/spinning/a07f900004dgfhriar.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Rotor",
+          "clause": "uses a low-inertia rotor for quick startup and precise stop-and-go lure control"
+        },
+        {
+          "name": "InfinityLoop",
+          "clause": "uses slow spool oscillation for more orderly line lay and smoother line release"
+        },
+        {
+          "name": "InfinityXross",
+          "clause": "increases gear-tooth contact to spread load and improve gear durability"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms were detected on the cited exact-family product page and selected for concise angler-facing copy."
+    },
+    "Shimano|SLX A": {
+      "brand": "Shimano",
+      "model": "SLX A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003c623mqaa.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "SilentTune",
+          "clause": "applies light pressure to the spool bearing to reduce vibration during a cast"
+        },
+        {
+          "name": "S3D Spool",
+          "clause": "uses a balanced thin-wall aluminum spool to reduce vibration while casting and retrieving"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Technologies were verified on the cited exact US family page and selected for concise baitcaster-specific copy."
+    },
+    "Shimano|Curado 150 M": {
+      "brand": "Shimano",
+      "model": "Curado 150 M",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "uses a narrow low-inertia spool to improve startup and control with medium and lighter lures"
+        },
+        {
+          "name": "SVS Infinity",
+          "clause": "provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and translate handle input into cranking power"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Technologies were verified on the cited exact US family page and selected for concise baitcaster-specific copy."
+    },
+    "Shimano|Curado 200 M": {
+      "brand": "Shimano",
+      "model": "Curado 200 M",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
+      "sourceStatus": "fetched",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures"
+        },
+        {
+          "name": "SVS Infinity",
+          "clause": "provides adjustable centrifugal braking for controlled casts with changing lure weights"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid aluminum body to limit flex when cranking larger baits or fighting fish"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Technologies were verified on the cited exact US family page and selected for concise baitcaster-specific copy."
+    },
+    "Daiwa|Tatula X": {
+      "brand": "Daiwa",
+      "model": "Tatula X",
+      "sourceUrl": "https://daiwa.us/products/25-tatulxa-tw-100",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Curado 150M": {
+      "brand": "Shimano",
+      "model": "Curado 150 M",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045avkvqae.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|SLX DC": {
+      "brand": "Shimano",
+      "model": "SLX DC",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000032xzpjqag.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Custom Pro Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Custom Pro Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/cpbcg3",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Metanium MGL B": {
+      "brand": "Shimano",
+      "model": "Metanium MGL B",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00002xcbu7qac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Team Lew's® Pro SP Skipping & Pitching Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Team Lew's® Pro SP Skipping & Pitching Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/pspc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|SLX XT A": {
+      "brand": "Shimano",
+      "model": "SLX XT A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000042pnssqac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Bantam A": {
+      "brand": "Shimano",
+      "model": "Bantam A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003ihbm1qai.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "uses a low-inertia spool to improve startup and casting control"
+        },
+        {
+          "name": "SVS Infinity",
+          "clause": "provides externally adjustable centrifugal braking for changing lure weights and conditions"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Lew's|Custom Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Custom Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/cucg3",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Speed Spool® Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Speed Spool® Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ss1cg3",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Zillion SV TW G": {
+      "brand": "Daiwa",
+      "model": "Zillion SV TW G",
+      "sourceUrl": "https://daiwa.us/products/zillion-sv-tw-1",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Curado MGL 70 K": {
+      "brand": "Shimano",
+      "model": "Curado MGL 70 K",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003qusspqa3.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool",
+          "clause": "uses a low-inertia spool to improve startup and control with lighter presentations"
+        },
+        {
+          "name": "Cross Carbon Drag",
+          "clause": "uses carbon drag washers to provide a broad and durable range of pressure"
+        },
+        {
+          "name": "MicroModule Gear",
+          "clause": "uses fine gear teeth to increase contact and smooth the retrieve"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Lew's|BB1 Pro Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "BB1 Pro Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/proc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Accel™ RX Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Accel™ RX Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/acrxc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Curado BFS": {
+      "brand": "Shimano",
+      "model": "Curado BFS",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003mtn6tqac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|X-Series Low Profile Baitcast Reel": {
+      "brand": "Okuma",
+      "model": "X-Series Low Profile Baitcast Reel",
+      "sourceUrl": "https://okumafishingusa.com/products/x-series-baitcast-reel",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Antares B": {
+      "brand": "Shimano",
+      "model": "Antares B",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000049n3noqaq.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "MicroModule Gear",
+          "clause": "uses fine gear teeth to increase contact and smooth the retrieve"
+        },
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Daiwa|Tatula SV TW 150": {
+      "brand": "Daiwa",
+      "model": "Tatula SV TW 150",
+      "sourceUrl": "https://daiwa.us/products/24-tatula-sv-150-icast-release",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|SLX 70 A": {
+      "brand": "Shimano",
+      "model": "SLX 70 A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000042pnchqac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo STX LP": {
+      "brand": "Abu Garcia",
+      "model": "Revo STX LP",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-stx-low-profile-reel-1573491",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Team Lew's Pro-Ti Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Team Lew's Pro-Ti Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ptig2",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula SV 100": {
+      "brand": "Daiwa",
+      "model": "Tatula SV 100",
+      "sourceUrl": "https://daiwa.us/products/24-tatula-100-icast-release",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Metanium DC A": {
+      "brand": "Shimano",
+      "model": "Metanium DC A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000045zv32qag.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Steez A 100": {
+      "brand": "Daiwa",
+      "model": "Steez A 100",
+      "sourceUrl": "https://daiwa.us/products/steez-a-100",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Steez SV TW": {
+      "brand": "Daiwa",
+      "model": "Steez SV TW",
+      "sourceUrl": "https://daiwa.us/products/steez-sv",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Fuego CT": {
+      "brand": "Daiwa",
+      "model": "Fuego CT",
+      "sourceUrl": "https://daiwa.us/products/fuego-ct",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula 200": {
+      "brand": "Daiwa",
+      "model": "Tatula 200",
+      "sourceUrl": "https://daiwa.us/products/25-tatula-200",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "KastKing|Skeet Reese Icon Baitcasting Reel": {
+      "brand": "KastKing",
+      "model": "Skeet Reese Icon Baitcasting Reel",
+      "sourceUrl": "https://kastking.com/products/kastking-skeet-reese-icon-baitcasting-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Team Lew's HyperMag Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Team Lew's HyperMag Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/tlh1g2",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Curado 300 K": {
+      "brand": "Shimano",
+      "model": "Curado 300 K",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003hw4bgqat.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo X LP": {
+      "brand": "Abu Garcia",
+      "model": "Revo X LP",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-x-low-profile-reel-1573500",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula 300": {
+      "brand": "Daiwa",
+      "model": "Tatula 300",
+      "sourceUrl": "https://daiwa.us/products/tatula-300",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Curado DC 150A": {
+      "brand": "Shimano",
+      "model": "Curado DC 150A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00004dfpupqat.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo SX LP": {
+      "brand": "Abu Garcia",
+      "model": "Revo SX LP",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-sx-low-profile-reel-1573498",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Super Duty® 300 Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Super Duty® 300 Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/sd3c",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula SV TW 70": {
+      "brand": "Daiwa",
+      "model": "Tatula SV TW 70",
+      "sourceUrl": "https://daiwa.us/products/tatula-sv70",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Super Duty® Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Super Duty® Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/sdlfsc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Accel™ Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Accel™ Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/acc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "SEVIIN|GX Series": {
+      "brand": "SEVIIN",
+      "model": "GX Series",
+      "sourceUrl": "https://seviinreels.com/products/gx-casting",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "One-piece aluminum frame and gear-side cover",
+          "clause": "uses rigid connected metal structure to support the drive train under load"
+        },
+        {
+          "name": "Dual magnetic and centrifugal braking",
+          "clause": "combines two braking methods for a wider range of casting adjustments"
+        },
+        {
+          "name": "Variable-depth forged aluminum spool",
+          "clause": "matches spool depth to each model's intended line capacity and presentation range"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Abu Garcia|Revo SX VoltIQ": {
+      "brand": "Abu Garcia",
+      "model": "Revo SX VoltIQ",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-sx-voltiq-low-profile-reel-1652453",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo X BFS": {
+      "brand": "Abu Garcia",
+      "model": "Revo X BFS",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-x-bfs-low-profile-reel-1624363",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Custom Lite Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Custom Lite Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/cl1c",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Mach Crush Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Mach Crush Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/mcrac",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Mach|Mach Crush Baitcast Reel": {
+      "brand": "Mach",
+      "model": "Mach Crush Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/mcrac",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Hakai Low Profile Baitcast Reels": {
+      "brand": "Okuma",
+      "model": "Hakai Low Profile Baitcast Reels",
+      "sourceUrl": "https://okumafishingusa.com/products/hakai-baitcast-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Tranx 150": {
+      "brand": "Shimano",
+      "model": "Tranx 150",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003uqoumqaf.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "SEVIIN|GF Series": {
+      "brand": "SEVIIN",
+      "model": "GF Series",
+      "sourceUrl": "https://seviinreels.com/products/gf-series",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Reinforced composite one-piece frame",
+          "clause": "uses a one-piece structure to support alignment while keeping weight controlled"
+        },
+        {
+          "name": "Micro-adjustable magnetic cast control",
+          "clause": "provides fine external braking adjustments as lure weight and wind change"
+        },
+        {
+          "name": "Precision-hobbed brass gears",
+          "clause": "uses cut brass gearing for durable power transfer"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Caius C": {
+      "brand": "Shimano",
+      "model": "Caius C",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000042pnrvqas.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Penn|Squall® Baitcast Reel": {
+      "brand": "Penn",
+      "model": "Squall® Baitcast Reel",
+      "sourceUrl": "https://www.pennfishing.com/products/squall-baitcast-reel-1524830",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "SEVIIN|GS Series": {
+      "brand": "SEVIIN",
+      "model": "GS Series",
+      "sourceUrl": "https://seviinreels.com/products/gs-casting",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "One-piece aluminum frame",
+          "clause": "uses a rigid metal frame to support spool and gear alignment under load"
+        },
+        {
+          "name": "Dual magnetic and centrifugal braking",
+          "clause": "combines two braking methods for a wider range of casting adjustments"
+        },
+        {
+          "name": "Model-optimized spool depth",
+          "clause": "matches spool depth to the intended line capacity and casting role"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Tranx 200": {
+      "brand": "Shimano",
+      "model": "Tranx 200",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003abjtmqax.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|KVD Elite Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "KVD Elite Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/kvdec",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Speed Spool® ITB 200 Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Speed Spool® ITB 200 Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ssitbc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Eminent Low Profile Baitcast Reels": {
+      "brand": "Okuma",
+      "model": "Eminent Low Profile Baitcast Reels",
+      "sourceUrl": "https://okumafishingusa.com/products/eminent-low-profile-baitcast-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo Rocket LP": {
+      "brand": "Abu Garcia",
+      "model": "Revo Rocket LP",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-rocket-low-profile-reel-1573481",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula 150": {
+      "brand": "Daiwa",
+      "model": "Tatula 150",
+      "sourceUrl": "https://daiwa.us/products/25-tatula-150",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula Elite TW 100": {
+      "brand": "Daiwa",
+      "model": "Tatula Elite TW 100",
+      "sourceUrl": "https://daiwa.us/products/2026-tatula-elite",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Zenon LTX BFS": {
+      "brand": "Abu Garcia",
+      "model": "Zenon LTX BFS",
+      "sourceUrl": "https://www.abugarcia.com/products/zenon-ltx-bfs-low-profile-reel-1595481",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Ambassadeur C3 5500": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur C3 5500",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-c3-round-reel-1315357",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Aird 80": {
+      "brand": "Daiwa",
+      "model": "Aird 80",
+      "sourceUrl": "https://daiwa.us/products/25-aird-80h",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa 300": {
+      "brand": "Daiwa",
+      "model": "Lexa 300",
+      "sourceUrl": "https://daiwa.us/products/23-lexa",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa 300 HD": {
+      "brand": "Daiwa",
+      "model": "Lexa 300 HD",
+      "sourceUrl": "https://daiwa.us/products/lexa-type-hd",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa 500 Type-HD": {
+      "brand": "Daiwa",
+      "model": "Lexa 500 Type-HD",
+      "sourceUrl": "https://daiwa.us/products/24-lexa-500",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa TWS 300": {
+      "brand": "Daiwa",
+      "model": "Lexa TWS 300",
+      "sourceUrl": "https://daiwa.us/products/lexa-tws",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|American Hero® Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "American Hero® Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ah1cg2",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Custom Lite SS Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Custom Lite SS Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/cl1css",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Speed Spool® RX Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Speed Spool® RX Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ssrxbc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Halogen Baitcast Reels": {
+      "brand": "Okuma",
+      "model": "Halogen Baitcast Reels",
+      "sourceUrl": "https://okumafishingusa.com/products/halogen-baitcast-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Tranx 500": {
+      "brand": "Shimano",
+      "model": "Tranx 500",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a071000000oyxyiaar.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment under load"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "VBS",
+          "clause": "uses centrifugal brake weights to control spool speed during a cast"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Daiwa|Ryoga 150": {
+      "brand": "Daiwa",
+      "model": "Ryoga 150",
+      "sourceUrl": "https://daiwa.us/products/2026-ryoga",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula SV TW 60th Anniversary": {
+      "brand": "Daiwa",
+      "model": "Tatula SV TW 60th Anniversary",
+      "sourceUrl": "https://daiwa.us/products/2026-tatula-sv-tw-100-60th-anniversary",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|HyperMag® ITB 150 Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "HyperMag® ITB 150 Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/hmitbc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Ambassadeur C4 6600": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur C4 6600",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-c4-round-reel-1315358",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Zenon MG-LTX": {
+      "brand": "Abu Garcia",
+      "model": "Zenon MG-LTX",
+      "sourceUrl": "https://www.abugarcia.com/products/zenon-mg-ltx-low-profile-reel-1410173",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 SX": {
+      "brand": "Abu Garcia",
+      "model": "Max5 SX",
+      "sourceUrl": "https://www.abugarcia.com/products/max-sx-low-profile-reel-1641557",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|CA 80": {
+      "brand": "Daiwa",
+      "model": "CA 80",
+      "sourceUrl": "https://daiwa.us/products/ca80",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula 80": {
+      "brand": "Daiwa",
+      "model": "Tatula 80",
+      "sourceUrl": "https://daiwa.us/products/tatula-80",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "KastKing|MegaJaws Elite Baitcasting Reel": {
+      "brand": "KastKing",
+      "model": "MegaJaws Elite Baitcasting Reel",
+      "sourceUrl": "https://kastking.com/products/kastking-megajaws-elite-baitcasting-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "KastKing|Mg-Ti Elite Magnesium Baitcasting Reel": {
+      "brand": "KastKing",
+      "model": "Mg-Ti Elite Magnesium Baitcasting Reel",
+      "sourceUrl": "https://kastking.com/products/kastking-mgti-elite-baitcasting-reel",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|American Hero Tier 1 Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "American Hero Tier 1 Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ahtrc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Serrano Baitcast Reels": {
+      "brand": "Okuma",
+      "model": "Serrano Baitcast Reels",
+      "sourceUrl": "https://okumafishingusa.com/products/serrano-baitcast-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Pflueger|President® XT Low Profile Reel": {
+      "brand": "Pflueger",
+      "model": "President® XT Low Profile Reel",
+      "sourceUrl": "https://pfluegerfishing.com/products/president-xt-low-profile-reel-1624613",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Coastal TW 200": {
+      "brand": "Daiwa",
+      "model": "Coastal TW 200",
+      "sourceUrl": "https://daiwa.us/products/25-coastal-tw-200h",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Steez 70 CT SV TW": {
+      "brand": "Daiwa",
+      "model": "Steez 70 CT SV TW",
+      "sourceUrl": "https://daiwa.us/products/new-steez-ct-sv-tws-70",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 SX Winch": {
+      "brand": "Abu Garcia",
+      "model": "Max5 SX Winch",
+      "sourceUrl": "https://www.abugarcia.com/products/max-sx-winch-low-profile-reel-1641558",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 X": {
+      "brand": "Abu Garcia",
+      "model": "Max5 X",
+      "sourceUrl": "https://www.abugarcia.com/products/max-x-low-profile-reel-1641560",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Kage SV 150": {
+      "brand": "Daiwa",
+      "model": "Kage SV 150",
+      "sourceUrl": "https://daiwa.us/products/25-kage-150-sv",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Millionaire Classic UTD 300 Round": {
+      "brand": "Daiwa",
+      "model": "Millionaire Classic UTD 300 Round",
+      "sourceUrl": "https://daiwa.us/products/millionaire-classic-utd",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Laser® XL Round Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Laser® XL Round Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/lxl6c",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Mach|MACH 1® Baitcast Reel": {
+      "brand": "Mach",
+      "model": "MACH 1® Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/mh1cg3",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Penn|Fathom® Baitcast Reel": {
+      "brand": "Penn",
+      "model": "Fathom® Baitcast Reel",
+      "sourceUrl": "https://www.pennfishing.com/products/fathom-baitcast-reel-1524835",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Pflueger|President® Flipping Switch Low Profile Reel": {
+      "brand": "Pflueger",
+      "model": "President® Flipping Switch Low Profile Reel",
+      "sourceUrl": "https://pfluegerfishing.com/products/president-flipping-switch-low-profile-1641573",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa 500": {
+      "brand": "Daiwa",
+      "model": "Lexa 500",
+      "sourceUrl": "https://daiwa.us/products/23-lexa",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Zillion TW 150": {
+      "brand": "Daiwa",
+      "model": "Zillion TW 150",
+      "sourceUrl": "https://daiwa.us/products/zillion_tw_150",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Custom TLX 150 Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Custom TLX 150 Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ctlx150bc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|Speed Spool® RX 200 HyperSpeed® Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "Speed Spool® RX 200 HyperSpeed® Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/ssrx95bc",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Mach|MACH 1® SS Baitcast Reel": {
+      "brand": "Mach",
+      "model": "MACH 1® SS Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/mhss1",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Helios XT Low Profile Baitcast Reels": {
+      "brand": "Okuma",
+      "model": "Helios XT Low Profile Baitcast Reels",
+      "sourceUrl": "https://okumafishingusa.com/products/helios-xt-low-profile-baitcast-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Safyre Low Profile Baitcast Reels": {
+      "brand": "Okuma",
+      "model": "Safyre Low Profile Baitcast Reels",
+      "sourceUrl": "https://okumafishingusa.com/products/safyre-low-profile-baitcast-reels",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Beast 200": {
+      "brand": "Abu Garcia",
+      "model": "Beast 200",
+      "sourceUrl": "https://www.abugarcia.com/products/beast-200-low-profile-reel-1641516",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 300": {
+      "brand": "Abu Garcia",
+      "model": "Max5 300",
+      "sourceUrl": "https://www.abugarcia.com/products/max-predator-low-profile-reel-1641552",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 Elite RKT": {
+      "brand": "Abu Garcia",
+      "model": "Max5 Elite RKT",
+      "sourceUrl": "https://www.abugarcia.com/products/max-elite-low-profile-reel-1641553",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 Pro": {
+      "brand": "Abu Garcia",
+      "model": "Max5 Pro",
+      "sourceUrl": "https://www.abugarcia.com/products/max-pro-low-profile-reel-1641555",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo SX SS": {
+      "brand": "Abu Garcia",
+      "model": "Revo SX SS",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-sx-ss-low-profile-reel-1595478",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Beast 300": {
+      "brand": "Abu Garcia",
+      "model": "Beast 300",
+      "sourceUrl": "https://www.abugarcia.com/products/beast-300-low-profile-reel-1643035",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Coastal 80": {
+      "brand": "Daiwa",
+      "model": "Coastal 80",
+      "sourceUrl": "https://daiwa.us/products/coastsl-tw80",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Ambassadeur C3 6500": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur C3 6500",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-c3-round-reel-1315357",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Ambassadeur SX 6600": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur SX 6600",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-sx-round-reel-1315384",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 SX Flippin'": {
+      "brand": "Abu Garcia",
+      "model": "Max5 SX Flippin'",
+      "sourceUrl": "https://www.abugarcia.com/products/max-sx-flipping-switch-low-profile-reel-1644706",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo SX Rocket LP": {
+      "brand": "Abu Garcia",
+      "model": "Revo SX Rocket LP",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-sx-rocket-low-profile-reel-1573477",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo Winch LP": {
+      "brand": "Abu Garcia",
+      "model": "Revo Winch LP",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-winch-low-profile-reel-1573484",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Revo X VoltIQ": {
+      "brand": "Abu Garcia",
+      "model": "Revo X VoltIQ",
+      "sourceUrl": "https://www.abugarcia.com/products/revo-x-voltiq-low-profile-reel-1652454",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Zenon X": {
+      "brand": "Abu Garcia",
+      "model": "Zenon X",
+      "sourceUrl": "https://www.abugarcia.com/products/zenon-x-low-profile-reel-1310514",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa 300 Power Handle": {
+      "brand": "Daiwa",
+      "model": "Lexa 300 Power Handle",
+      "sourceUrl": "https://daiwa.us/products/23-lexa",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa 400 HD": {
+      "brand": "Daiwa",
+      "model": "Lexa 400 HD",
+      "sourceUrl": "https://daiwa.us/products/lexa-type-hd",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Lexa TWS 400": {
+      "brand": "Daiwa",
+      "model": "Lexa TWS 400",
+      "sourceUrl": "https://daiwa.us/products/lexa-tws",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Millionaire Classic UTD 250 Round": {
+      "brand": "Daiwa",
+      "model": "Millionaire Classic UTD 250 Round",
+      "sourceUrl": "https://daiwa.us/products/millionaire-classic-utd",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Prorex TWS": {
+      "brand": "Daiwa",
+      "model": "Prorex TWS",
+      "sourceUrl": "https://daiwa.us/products/prorex-tw",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Ryoga SV 100": {
+      "brand": "Daiwa",
+      "model": "Ryoga SV 100",
+      "sourceUrl": "https://daiwa.us/products/2026-ryoga",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Steez SV Light TW 100": {
+      "brand": "Daiwa",
+      "model": "Steez SV Light TW 100",
+      "sourceUrl": "https://daiwa.us/products/2026-steez-sv-light-tw",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|Tatula Elite TW Pitch/Flip 100": {
+      "brand": "Daiwa",
+      "model": "Tatula Elite TW Pitch/Flip 100",
+      "sourceUrl": "https://daiwa.us/products/2026-tatula-elite-pitch-flip",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "KastKing|Mg12 Elite Magnesium Baitcasting Reel": {
+      "brand": "KastKing",
+      "model": "Mg12 Elite Magnesium Baitcasting Reel",
+      "sourceUrl": "https://kastking.com/products/kastking-mg12-elite-magnesium-baitcasting-fishing-reel",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Lew's|HyperSpeed LFS Baitcast Reel": {
+      "brand": "Lew's",
+      "model": "HyperSpeed LFS Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/hs195c",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Mach|MACH® 2 Baitcast Reel": {
+      "brand": "Mach",
+      "model": "MACH® 2 Baitcast Reel",
+      "sourceUrl": "https://www.lews.com/en/shop/reels/casting/mh2bcg3",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Okuma|Komodo SS": {
+      "brand": "Okuma",
+      "model": "Komodo SS",
+      "sourceUrl": "https://okumafishingusa.com/products/komodo-ss",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Pflueger|President® Low Profile Reel": {
+      "brand": "Pflueger",
+      "model": "President® Low Profile Reel",
+      "sourceUrl": "https://pfluegerfishing.com/products/president-low-profile-reel-1624611",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Tranx 300 B": {
+      "brand": "Shimano",
+      "model": "Tranx 300 B",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000042pntmqac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Shimano|Tranx 400 B": {
+      "brand": "Shimano",
+      "model": "Tranx 400 B",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f000049n3puqaq.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "CoreSolid Body",
+          "clause": "integrates key frame and side-plate structure to improve rigidity under load"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        },
+        {
+          "name": "X-Ship",
+          "clause": "supports the pinion gear at both ends to maintain alignment under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Abu Garcia|Ambassadeur S 5500": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur S 5500",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-s-round-reel-1315382",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Ambassadeur S 6500": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur S 6500",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-s-round-reel-1315382",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Ambassadeur SX 5600": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur SX 5600",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-sx-round-reel-1315384",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Beast 400": {
+      "brand": "Abu Garcia",
+      "model": "Beast 400",
+      "sourceUrl": "https://www.abugarcia.com/products/beast-400-low-profile-reel-1643036",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Abu Garcia|Max5 400": {
+      "brand": "Abu Garcia",
+      "model": "Max5 400",
+      "sourceUrl": "https://www.abugarcia.com/products/max-predator-low-profile-reel-1641552",
+      "sourceStatus": "verified",
+      "verification": "exact-specification-fallback",
+      "terms": [],
+      "excludedBySize": {},
+      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+    },
+    "Daiwa|21 Zillion SV TW 1000": {
+      "brand": "Daiwa",
+      "model": "21 Zillion SV TW 1000",
+      "sourceUrl": "https://www.daiwa.com/jp/product/2023/05/09/09/34/4syb6je",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "SV Boost",
+          "clause": "uses two-stage spool braking to balance control early in the cast with freer rotation later"
+        },
+        {
+          "name": "Hyperdrive Design",
+          "clause": "coordinates the gear, housing, clutch, and pinion support to improve smoothness and durability"
+        },
+        {
+          "name": "34 mm G1 duralumin spool",
+          "clause": "uses a light, rigid spool material to reduce rotational inertia"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Daiwa|22 Zillion TW HD 1000": {
+      "brand": "Daiwa",
+      "model": "22 Zillion TW HD 1000",
+      "sourceUrl": "https://www.daiwa.com/jp/product/ux79rxa",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Magforce-Z Boost",
+          "clause": "uses magnetic braking with a two-stage response to control spool speed through the cast"
+        },
+        {
+          "name": "Hyperdrive Design",
+          "clause": "coordinates the gear, housing, clutch, and pinion support to improve smoothness and durability"
+        },
+        {
+          "name": "G1 duralumin spool",
+          "clause": "uses a light, rigid spool material to reduce rotational inertia"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Daiwa|24 Steez SV TW 100": {
+      "brand": "Daiwa",
+      "model": "24 Steez SV TW 100",
+      "sourceUrl": "https://www.daiwa.com/jp/product/n19wa9p",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "32 mm SV Boost spool",
+          "clause": "combines a compact spool with two-stage braking for controlled startup and casting"
+        },
+        {
+          "name": "Tapered T-Wing System",
+          "clause": "widens the line path during a cast to reduce line angle and friction"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Daiwa|25 Alphas BF TW": {
+      "brand": "Daiwa",
+      "model": "25 Alphas BF TW",
+      "sourceUrl": "https://www.daiwa.com/jp/product/745sh09",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "SS Magforce",
+          "clause": "uses a compact magnetic braking layout designed for controlled bait-finesse spool response"
+        },
+        {
+          "name": "30 mm G1 duralumin BF spool",
+          "clause": "uses a small, light spool to reduce startup inertia with lighter lures"
+        },
+        {
+          "name": "T-Wing System",
+          "clause": "opens the line path during a cast to reduce line angle and friction"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Daiwa|26 Ryoga": {
+      "brand": "Daiwa",
+      "model": "26 Ryoga",
+      "sourceUrl": "https://www.daiwa.com/jp/product/3ql0uqi",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "Full-aluminum Hyper Armed Housing",
+          "clause": "uses a rigid aluminum frame and side structure to support the drive train"
+        },
+        {
+          "name": "Hyperdrive Digigear",
+          "clause": "uses larger precision-cut gear teeth to improve contact and power transfer"
+        },
+        {
+          "name": "Hyper Tough Clutch",
+          "clause": "uses a reinforced clutch mechanism intended for repeated, positive engagement"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Aldebaran BFS": {
+      "brand": "Shimano",
+      "model": "Aldebaran BFS",
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00003t47foqab.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "uses a low-inertia spool to improve startup and casting control"
+        },
+        {
+          "name": "FTB",
+          "clause": "moves the braking magnets off the spool to preserve low spool inertia for bait-finesse casting"
+        },
+        {
+          "name": "Exciting Drag Sound",
+          "clause": "adds an audible signal when a fish pulls line against the drag"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Aldebaran DC": {
+      "brand": "Shimano",
+      "model": "Aldebaran DC",
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f000042pnwbqas.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool IV",
+          "clause": "reduces spool inertia to improve startup and control across changing lure weights"
+        },
+        {
+          "name": "I-DC5",
+          "clause": "uses electronic spool-speed control with selectable modes to manage braking during a cast"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Antares DC MD": {
+      "brand": "Shimano",
+      "model": "Antares DC MD",
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f000042png4qac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "uses a low-inertia spool to improve startup and casting control"
+        },
+        {
+          "name": "4x8 DC MD Tune",
+          "clause": "uses digitally controlled braking tuned for heavier lures and changing casting conditions"
+        },
+        {
+          "name": "MicroModule Gear and X-SHIP",
+          "clause": "combines fine gear teeth with supported pinion alignment for smoother power transfer under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Calcutta Conquest BFS": {
+      "brand": "Shimano",
+      "model": "Calcutta Conquest BFS",
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00003rgosxqa0.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "uses a low-inertia spool to improve startup and casting control"
+        },
+        {
+          "name": "FTB",
+          "clause": "moves the braking magnets off the spool to preserve low spool inertia for bait-finesse casting"
+        },
+        {
+          "name": "CoreSolid Body",
+          "clause": "integrates key frame and side-plate structure to improve rigidity under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Metanium DC": {
+      "brand": "Shimano",
+      "model": "Metanium DC",
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f000045zv32qag.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "MGL Spool III",
+          "clause": "uses a low-inertia spool to improve startup and casting control"
+        },
+        {
+          "name": "I-DC5",
+          "clause": "uses electronic spool-speed control with selectable modes to manage braking during a cast"
+        },
+        {
+          "name": "CoreSolid Body",
+          "clause": "integrates key frame and side-plate structure to improve rigidity under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "Shimano|Scorpion DC MD": {
+      "brand": "Shimano",
+      "model": "Scorpion DC MD",
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00004dfpu0qad.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        {
+          "name": "I-DC5",
+          "clause": "uses electronic spool-speed control with selectable modes to manage braking during a cast"
+        },
+        {
+          "name": "Silent Tune",
+          "clause": "applies light pressure to the spool bearing to reduce vibration while casting"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid metal body to limit flex and keep the gears aligned under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    }
+  }
+}

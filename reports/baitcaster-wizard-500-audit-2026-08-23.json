@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "baitcasters": 500,
+  "spinningRecordsPreserved": 836,
+  "usableLineRecords": 903,
+  "fullSpoolCapacityCases": 451500,
+  "braidRangeCases": 163792,
+  "backingCases": 8000,
+  "handleTurnCases": 451500,
+  "publishedAnchorCases": 929,
+  "recommendationScenarios": 15000,
+  "recommendationCards": 43325,
+  "maximumRecommendedBraidYards": 296.7
+}

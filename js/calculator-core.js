@@ -76,6 +76,9 @@
   function publishedBraidCapacityOptions(reel) {
     var note = String(reel && reel.braid_capacity_note || "").trim();
     if (!note || /^(unknown|tbd)$/i.test(note)) return [];
+    // PE numbers are Japanese diameter classes, not pound-test strengths.
+    // Exact-line PE calibration is handled separately by publishedPeCapacityAnchors.
+    if (/\bPE\b/i.test(note)) return [];
 
     var options = [];
     var pairPattern = /(\d+(?:\.\d+)?)\s*([\/-])\s*(\d+(?:\.\d+)?)/g;

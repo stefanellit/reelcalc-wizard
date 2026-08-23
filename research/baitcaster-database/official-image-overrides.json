@@ -1,0 +1,74 @@
+{
+  "checked_date": "2026-08-23",
+  "purpose": "Case-sensitive official manufacturer image URLs that cannot be reconstructed safely from lowercase product-page paths.",
+  "families": {
+    "Lew's|Mach Crush Baitcast Reel": {
+      "force": true,
+      "fallback": {
+        "sourceUrl": "https://rodlocker.com/products/lew-s-mach-crush-slp-series-casting-reel-7-5-1-right-hand-mcr1sha",
+        "sourceName": "The Rod Locker exact-SKU MCR1SHA product page",
+        "imageUrl": "https://rodlocker.com/cdn/shop/files/alfc-lews-mach-crush-slp-series-casting-reel-rh-1.jpg?v=1726789499&width=1946"
+      }
+    },
+    "Mach|Mach Crush Baitcast Reel": {
+      "force": true,
+      "fallback": {
+        "sourceUrl": "https://rodlocker.com/products/lew-s-mach-crush-slp-series-casting-reel-7-5-1-right-hand-mcr1sha",
+        "sourceName": "The Rod Locker exact-SKU MCR1SHA product page",
+        "imageUrl": "https://rodlocker.com/cdn/shop/files/alfc-lews-mach-crush-slp-series-casting-reel-rh-1.jpg?v=1726789499&width=1946"
+      }
+    },
+    "Shimano|Aldebaran BFS": {
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00003t47foqab.html",
+      "imageUrl": "https://dassets2.shimano.com/content/dam/Shimanofish/Common/Productsrelated/cg2SHIFGlobalREEL/cg3SHIFGlobalREELBaitReel/SICPlanningProducts/Product/PRD_a075F00003T47foQAB_main.jpg/jcr:content/renditions/cq5dam.web.481.481.jpeg",
+      "fallback": {
+        "sourceUrl": "https://tackletrap.com/products/shimano-aldebaran-bfs-casting-reels",
+        "sourceName": "The Tackle Trap exact-family product page"
+      }
+    },
+    "Shimano|Aldebaran DC": {
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f000042pnwbqas.html",
+      "imageUrl": "https://dassets2.shimano.com/content/dam/Shimanofish/Common/Productsrelated/cg2SHIFGlobalREEL/cg3SHIFGlobalREELBaitReel/SICPlanningProducts/Product/PRD_a075F000042PnwBQAS_main.jpg/jcr:content/renditions/cq5dam.web.481.481.jpeg",
+      "fallback": {
+        "sourceUrl": "https://www.pesquebrasil.com.br/carretilhas-perfil-baixo/carretilha-de-pesca-shimano-aldebaran-dc-30hg-ou-31hg",
+        "sourceName": "Pesque Brasil exact-family product page",
+        "imageUrl": "https://images.tcdn.com.br/img/img_prod/345995/carretilha_de_pesca_shimano_aldebaran_dc_30hg_ou_3_1_20260123105021_92707a85c2ec.jpg"
+      }
+    },
+    "Shimano|Antares DC MD": {
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f000042png4qac.html",
+      "imageUrl": "https://dassets2.shimano.com/content/dam/Shimanofish/Common/Productsrelated/cg2SHIFGlobalREEL/cg3SHIFGlobalREELBaitReel/SICPlanningProducts/Product/PRD_a075F000042Png4QAC_main.jpg/jcr:content/renditions/cq5dam.web.481.481.jpeg",
+      "fallback": {
+        "sourceUrl": "https://www.giantfish.ch/en/shimano-antares-dc-md-casting-reel",
+        "sourceName": "Giant Fish exact-family product page",
+        "imageUrl": "https://www.giantfish.ch/images/thumbs/0218430_moulinet-casting-shimano-antares-dc-md_510.webp"
+      }
+    },
+    "Shimano|Calcutta Conquest BFS": {
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00003rgosxqa0.html",
+      "imageUrl": "https://dassets2.shimano.com/content/dam/Shimanofish/Common/Productsrelated/cg2SHIFGlobalREEL/cg3SHIFGlobalREELBaitReel/SICPlanningProducts/Product/PRD_a075F00003rGoSXQA0_main.jpg/jcr:content/renditions/cq5dam.web.481.481.jpeg",
+      "fallback": {
+        "sourceUrl": "https://compleatanglernedlands.com.au/products/shimano-23-calcutta-conquest-bfs",
+        "sourceName": "Compleat Angler exact-family product page",
+        "imageUrl": "https://compleatanglernedlands.com.au/cdn/shop/files/Shimano_23_Calcutta_Conquest_BFS_Front.jpg?v=1718809346&width=962"
+      }
+    },
+    "Shimano|Metanium DC": {
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f000045zv32qag.html",
+      "imageUrl": "https://dassets2.shimano.com/content/dam/Shimanofish/Common/Productsrelated/cg2SHIFGlobalREEL/cg3SHIFGlobalREELBaitReel/SICPlanningProducts/Product/PRD_a075F000045ZV32QAG_main.jpg/jcr:content/renditions/cq5dam.web.481.481.jpeg",
+      "fallback": {
+        "sourceUrl": "https://jdmreelhub.com/products/24-metanium-dc-70xg",
+        "sourceName": "JDM Reel Hub exact-model product page"
+      }
+    },
+    "Shimano|Scorpion DC MD": {
+      "sourceUrl": "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00004dfpu0qad.html",
+      "imageUrl": "https://dassets2.shimano.com/content/dam/Shimanofish/Common/Productsrelated/cg2SHIFGlobalREEL/cg3SHIFGlobalREELBaitReel/SICPlanningProducts/Product/PRD_a075F00004DFpu0QAD_main.jpg/jcr:content/renditions/cq5dam.web.481.481.jpeg",
+      "fallback": {
+        "sourceUrl": "https://basstokyo.com/products/24-scorpion-md-200",
+        "sourceName": "Bass Tokyo exact-family product page",
+        "imageUrl": "https://basstokyo.com/cdn/shop/files/24-scorpion-md-200-200hg.jpg?v=1717852973"
+      }
+    }
+  }
+}

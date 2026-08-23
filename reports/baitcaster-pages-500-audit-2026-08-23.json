@@ -1,0 +1,42 @@
+{
+  "status": "PASSED",
+  "databaseRows": 500,
+  "canonicalPages": 498,
+  "duplicateAliasesSuppressed": 2,
+  "alreadyLivePilots": 18,
+  "newSquarespaceImports": 480,
+  "stagedRegistryPages": 919,
+  "builtInValidationChecks": 21414,
+  "publishedPrimaryCapacityAnchors": 498,
+  "publishedBraidAnchors": 927,
+  "affiliateOffers": 498,
+  "jdmPages": 53,
+  "braidOnlyPages": 6,
+  "peCapacityPages": 26,
+  "peExactLineCalibrations": 26,
+  "verifiedFeaturePages": 106,
+  "verifiedFeatureFamilies": 22,
+  "exactSpecificationPages": 392,
+  "classCounts": {
+    "power": 6,
+    "standard": 326,
+    "bfs": 21,
+    "deep_spool": 15,
+    "heavy_duty": 22,
+    "saltwater_low_profile": 79,
+    "round_casting": 25,
+    "finesse": 4
+  },
+  "brandCounts": {
+    "Shimano": 111,
+    "Daiwa": 169,
+    "Lew's": 73,
+    "Okuma": 37,
+    "Abu Garcia": 63,
+    "KastKing": 7,
+    "SEVIIN": 16,
+    "Penn": 9,
+    "Pflueger": 7,
+    "Mach": 6
+  }
+}
