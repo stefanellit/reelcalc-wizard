@@ -442,7 +442,20 @@
     var baseUncertainty = strongestRank === 5 ? 0.08 : strongestRank >= 4 ? 0.10 : strongestRank === 3 ? 0.12 : 0.15;
     if (line.generic_recommendation === true) baseUncertainty += 0.05;
     if (line.custom_line === true) baseUncertainty += 0.03;
-    var uncertainty = clamp(Math.max(baseUncertainty, anchorSpread + 0.03), baseUncertainty, 0.20);
+    var baitcasterReel = /baitcast|casting/i.test(String(reel && reel.reel_type || ""));
+    var exactDatabaseLine = Boolean(
+      baitcasterReel &&
+      exactOption &&
+      line.id &&
+      line.generic_recommendation !== true &&
+      line.custom_line !== true
+    );
+    var uncertaintyCeiling = exactDatabaseLine ? 0.12 : 0.20;
+    var uncertainty = clamp(
+      Math.max(baseUncertainty, anchorSpread + 0.03),
+      baseUncertainty,
+      uncertaintyCeiling
+    );
     var minimumYards = Math.min(centerYards, roundCapacityRange(centerYards * (1 - uncertainty), "down"));
     var maximumYards = Math.max(centerYards, roundCapacityRange(centerYards * (1 + uncertainty), "up"));
 

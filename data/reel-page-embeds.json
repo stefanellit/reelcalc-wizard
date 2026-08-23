@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "pages": {
     "bass-pro-shops-micro-lite-elite-spinning-reel-5": {
       "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -26028,7 +26028,7 @@
       "canonicalPath": "/reel-pages/p/shimano-slx-a-150-6-3-rh-slx150a",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
       "imageAlt": "Shimano SLX A 150 6.3 RH low-profile baitcasting reel",
-      "intro": "The Shimano SLX A 150 6.3 RH (SLX150A) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 25-inch pickup helps recover slack around jigs and moving baits, while 12 lb of maximum drag leaves useful room for bass and walleye work.",
+      "intro": "The Shimano SLX A 150 6.3 RH (SLX150A) is a 150-size baitcasting reel suited to bass, crankbaits, spinnerbaits, moving baits, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 25-inch pickup favors controlled cadence with crankbaits and steady moving presentations.",
       "introVariant": "freshwater-o1-f1-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26079,6 +26079,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, crankbaits, spinnerbaits, moving baits, and topwater. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano SLX A 150 6.3 RH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Crankbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Spinnerbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Moving Baits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano SLX A 150 6.3 RH uses a 6.3:1 gear ratio. Its 25-inch pickup favors controlled cadence with crankbaits and steady moving presentations. It weighs 6.9 oz and has a published maximum drag of 12 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-slx-a-151-6-3-lh-slx151a": {
@@ -26089,7 +26116,7 @@
       "canonicalPath": "/reel-pages/p/shimano-slx-a-151-6-3-lh-slx151a",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
       "imageAlt": "Shimano SLX A 151 6.3 LH low-profile baitcasting reel",
-      "intro": "Built around a 150-size frame, the Shimano SLX A 151 6.3 LH (SLX151A) is best matched to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. The published 14 lb / 90 yard capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.",
+      "intro": "Built around a 150-size frame, the Shimano SLX A 151 6.3 LH (SLX151A) is best matched to bass, crankbaits, spinnerbaits, moving baits, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 25-inch pickup favors controlled cadence with crankbaits and steady moving presentations.",
       "introVariant": "freshwater-o2-f3-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26140,6 +26167,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, crankbaits, spinnerbaits, moving baits, and topwater. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano SLX A 151 6.3 LH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Crankbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Spinnerbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Moving Baits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano SLX A 151 6.3 LH uses a 6.3:1 gear ratio. Its 25-inch pickup favors controlled cadence with crankbaits and steady moving presentations. It weighs 6.9 oz and has a published maximum drag of 12 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-slx-a-150-hg-rh-slx150hga": {
@@ -26150,7 +26204,7 @@
       "canonicalPath": "/reel-pages/p/shimano-slx-a-150-hg-rh-slx150hga",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
       "imageAlt": "Shimano SLX A 150 HG RH low-profile baitcasting reel",
-      "intro": "The Shimano SLX A 150 HG RH (SLX150HGA) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. A 28-inch retrieve and 11 lb maximum drag make it a useful middle ground between finesse duty and heavier freshwater setups.",
+      "intro": "The Shimano SLX A 150 HG RH (SLX150HGA) is a 150-size baitcasting reel suited to bass, jigs, Texas rigs, spinnerbaits, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 28-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits.",
       "introVariant": "freshwater-o1-f4-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26201,6 +26255,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, Texas rigs, spinnerbaits, and topwater. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano SLX A 150 HG RH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Texas Rigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Spinnerbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano SLX A 150 HG RH uses a 7.2:1 gear ratio. Its 28-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 6.9 oz and has a published maximum drag of 11 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-slx-a-151-hg-lh-slx151hga": {
@@ -26211,7 +26292,7 @@
       "canonicalPath": "/reel-pages/p/shimano-slx-a-151-hg-lh-slx151hga",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
       "imageAlt": "Shimano SLX A 151 HG LH low-profile baitcasting reel",
-      "intro": "Built around a 150-size frame, the Shimano SLX A 151 HG LH (SLX151HGA) is best matched to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. At 6.9 oz, it remains practical for repeated casting, with 28 inches of pickup per turn for common freshwater presentations.",
+      "intro": "Built around a 150-size frame, the Shimano SLX A 151 HG LH (SLX151HGA) is best matched to bass, jigs, Texas rigs, spinnerbaits, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 28-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits.",
       "introVariant": "freshwater-o2-f2-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26262,6 +26343,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, Texas rigs, spinnerbaits, and topwater. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano SLX A 151 HG LH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Texas Rigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Spinnerbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano SLX A 151 HG LH uses a 7.2:1 gear ratio. Its 28-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 6.9 oz and has a published maximum drag of 11 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-slx-a-150-xg-rh-slx150xga": {
@@ -26272,8 +26380,8 @@
       "canonicalPath": "/reel-pages/p/shimano-slx-a-150-xg-rh-slx150xga",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
       "imageAlt": "Shimano SLX A 150 XG RH low-profile baitcasting reel",
-      "intro": "The Shimano SLX A 150 XG RH (SLX150XGA) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 32-inch pickup helps recover slack around jigs and moving baits, while 11 lb of maximum drag leaves useful room for bass and walleye work.",
-      "introVariant": "freshwater-o1-f1-t2",
+      "intro": "The Shimano SLX A 150 XG RH (SLX150XGA) is a 150-size baitcasting reel suited to bass, jigs, pitching, frogs, and heavy cover. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover.",
+      "introVariant": "heavy-o1-f4-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
         "HAGANE Body",
@@ -26323,6 +26431,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, pitching, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano SLX A 150 XG RH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Pitching",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Frogs",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano SLX A 150 XG RH uses a 8.2:1 gear ratio. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover. It weighs 6.9 oz and has a published maximum drag of 11 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-slx-a-151-xg-lh-slx151xga": {
@@ -26333,8 +26468,8 @@
       "canonicalPath": "/reel-pages/p/shimano-slx-a-151-xg-lh-slx151xga",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/7245a1098dc5204063c5.avif",
       "imageAlt": "Shimano SLX A 151 XG LH low-profile baitcasting reel",
-      "intro": "The Shimano SLX A 151 XG LH (SLX151XGA) is a 150-size baitcasting reel suited to bass, general freshwater, moving baits, jigs, and topwater. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. The published 14 lb / 90 yard capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.",
-      "introVariant": "freshwater-o1-f3-t2",
+      "intro": "The Shimano SLX A 151 XG LH (SLX151XGA) is a 150-size baitcasting reel suited to bass, jigs, pitching, frogs, and heavy cover. HAGANE Body uses a rigid metal body to limit flex and keep the gears aligned under load, while SilentTune applies light pressure to the spool bearing to reduce vibration during a cast. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover.",
+      "introVariant": "heavy-o1-f2-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
         "HAGANE Body",
@@ -26384,6 +26519,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, pitching, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano SLX A 151 XG LH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Pitching",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Frogs",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano SLX A 151 XG LH uses a 8.2:1 gear ratio. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover. It weighs 6.9 oz and has a published maximum drag of 11 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-150-m-150-6-2-rh-cu150mgm": {
@@ -26394,7 +26556,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
       "imageAlt": "Shimano Curado 150 M 150 6.2 RH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 150 M 150 6.2 RH (CU150MGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. At 6.7 oz, it remains practical for repeated casting, with 24 inches of pickup per turn for common freshwater presentations.",
+      "intro": "The Shimano Curado 150 M 150 6.2 RH (CU150MGM) is a 150-size baitcasting reel suited to bass, crankbaits, moving baits, precision casting, and jerkbaits. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 24-inch pickup favors controlled cadence with crankbaits and steady moving presentations.",
       "introVariant": "freshwater-o1-f2-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26445,6 +26607,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, crankbaits, moving baits, precision casting, and jerkbaits. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 150 M 150 6.2 RH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Crankbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Moving Baits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Precision Casting",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 150 M 150 6.2 RH uses a 6.2:1 gear ratio. Its 24-inch pickup favors controlled cadence with crankbaits and steady moving presentations. It weighs 6.7 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-150-m-151-6-2-lh-cu151mgm": {
@@ -26455,7 +26644,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-150-m-151-6-2-lh-cu151mgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
       "imageAlt": "Shimano Curado 150 M 151 6.2 LH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 150 M 151 6.2 LH (CU151MGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. The published 14 lb / 90 yard capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.",
+      "intro": "The Shimano Curado 150 M 151 6.2 LH (CU151MGM) is a 150-size baitcasting reel suited to bass, crankbaits, moving baits, precision casting, and jerkbaits. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 24-inch pickup favors controlled cadence with crankbaits and steady moving presentations.",
       "introVariant": "freshwater-o1-f3-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26506,6 +26695,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, crankbaits, moving baits, precision casting, and jerkbaits. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 150 M 151 6.2 LH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Crankbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Moving Baits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Precision Casting",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 150 M 151 6.2 LH uses a 6.2:1 gear ratio. Its 24-inch pickup favors controlled cadence with crankbaits and steady moving presentations. It weighs 6.7 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-150-m-150-hg-rh-cu150hgm": {
@@ -26516,7 +26732,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
       "imageAlt": "Shimano Curado 150 M 150 HG RH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 150 M 150 HG RH (CU150HGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 29-inch pickup helps recover slack around jigs and moving baits, while 13 lb of maximum drag leaves useful room for bass and walleye work.",
+      "intro": "The Shimano Curado 150 M 150 HG RH (CU150HGM) is a 150-size baitcasting reel suited to bass, jigs, soft plastics, spinnerbaits, and topwater. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 29-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits.",
       "introVariant": "freshwater-o1-f1-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26567,6 +26783,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, soft plastics, spinnerbaits, and topwater. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 150 M 150 HG RH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Soft Plastics",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Spinnerbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 150 M 150 HG RH uses a 7.4:1 gear ratio. Its 29-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 6.7 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-150-m-151-hg-lh-cu151hgm": {
@@ -26577,7 +26820,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-150-m-151-hg-lh-cu151hgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
       "imageAlt": "Shimano Curado 150 M 151 HG LH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 150 M 151 HG LH (CU151HGM) is a 150-size baitcasting reel suited to bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its weight, line pickup, and published drag are proportioned for anglers who want one reel to cover several common freshwater techniques.",
+      "intro": "The Shimano Curado 150 M 151 HG LH (CU151HGM) is a 150-size baitcasting reel suited to bass, jigs, soft plastics, spinnerbaits, and topwater. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 29-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits.",
       "introVariant": "freshwater-o1-f5-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26628,6 +26871,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, soft plastics, spinnerbaits, and topwater. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 150 M 151 HG LH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Soft Plastics",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Spinnerbaits",
+            "setup": "10-15 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 150 M 151 HG LH uses a 7.4:1 gear ratio. Its 29-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 6.7 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-150-m-150-xg-rh-cu150xgm": {
@@ -26638,8 +26908,8 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
       "imageAlt": "Shimano Curado 150 M 150 XG RH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 150 M 150 XG RH (CU150XGM) falls in the 150-size class and is intended for bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. At 6.7 oz, it remains practical for repeated casting, with 32 inches of pickup per turn for common freshwater presentations.",
-      "introVariant": "freshwater-o3-f2-t2",
+      "intro": "The Shimano Curado 150 M 150 XG RH (CU150XGM) falls in the 150-size class and is intended for bass, jigs, pitching, frogs, and heavy cover. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover.",
+      "introVariant": "heavy-o3-f3-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
         "MGL Spool III",
@@ -26689,6 +26959,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, pitching, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 150 M 150 XG RH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Pitching",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Frogs",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 150 M 150 XG RH uses a 8.1:1 gear ratio. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover. It weighs 6.7 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-150-m-151-xg-lh-cu151xgm": {
@@ -26699,8 +26996,8 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-150-m-151-xg-lh-cu151xgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/d0c23a467164222dc6ac.avif",
       "imageAlt": "Shimano Curado 150 M 151 XG LH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 150 M 151 XG LH (CU151XGM) falls in the 150-size class and is intended for bass, general freshwater, precision casting, moving baits, and jigs. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 32-inch pickup helps recover slack around jigs and moving baits, while 13 lb of maximum drag leaves useful room for bass and walleye work.",
-      "introVariant": "freshwater-o3-f1-t2",
+      "intro": "The Shimano Curado 150 M 151 XG LH (CU151XGM) falls in the 150-size class and is intended for bass, jigs, pitching, frogs, and heavy cover. MGL Spool III uses a narrow low-inertia spool to improve startup and control with medium and lighter lures, while SVS Infinity provides adjustable centrifugal braking for consistent spool control as lure weight and conditions change. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover.",
+      "introVariant": "heavy-o3-f3-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
         "MGL Spool III",
@@ -26750,6 +27047,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, jigs, pitching, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 10-15 lb mono/fluoro for a straightforward main line, or 30-50 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 150 M 151 XG LH is 30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Jigs",
+            "setup": "30-40 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Pitching",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Frogs",
+            "setup": "40-50 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 150 M 151 XG LH uses a 8.1:1 gear ratio. Its 32-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover. It weighs 6.7 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-200-m-200-6-2-rh-cu200m": {
@@ -26760,7 +27084,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-200-m-200-6-2-rh-cu200m",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
       "imageAlt": "Shimano Curado 200 M 200 6.2 RH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 200 M 200 6.2 RH (CU200M) falls in the 200-size class and is best matched to bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 27-inch pickup gathers line quickly across a large spool, while the rated capacity supports heavier working line.",
+      "intro": "The Shimano Curado 200 M 200 6.2 RH (CU200M) falls in the 200-size class and is best matched to bass, deep cranking, swimbaits, larger moving baits, and umbrella rigs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 27-inch pickup favors controlled cadence with crankbaits and steady moving presentations.",
       "introVariant": "heavy-o3-f2-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26811,6 +27135,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, deep cranking, swimbaits, larger moving baits, and umbrella rigs. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 12-20 lb mono/fluoro for a straightforward main line, or 40-65 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 200 M 200 6.2 RH is 40 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Deep Cranking",
+            "setup": "12-20 lb mono/fluoro"
+          },
+          {
+            "use": "Swimbaits",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Larger Moving Baits",
+            "setup": "12-20 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 200 M 200 6.2 RH uses a 6.2:1 gear ratio. Its 27-inch pickup favors controlled cadence with crankbaits and steady moving presentations. It weighs 7.4 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-200-m-201-6-2-lh-cu201m": {
@@ -26821,7 +27172,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-200-m-201-6-2-lh-cu201m",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
       "imageAlt": "Shimano Curado 200 M 201 6.2 LH low-profile baitcasting reel",
-      "intro": "Built around a 200-size frame, the Shimano Curado 200 M 201 6.2 LH (CU201M) is intended for bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. With 27 inches of pickup per turn and a 10 lb / 155 yard capacity baseline, it is built around demanding big-reel work.",
+      "intro": "Built around a 200-size frame, the Shimano Curado 200 M 201 6.2 LH (CU201M) is intended for bass, deep cranking, swimbaits, larger moving baits, and umbrella rigs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 27-inch pickup favors controlled cadence with crankbaits and steady moving presentations.",
       "introVariant": "heavy-o2-f4-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26872,6 +27223,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, deep cranking, swimbaits, larger moving baits, and umbrella rigs. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 12-20 lb mono/fluoro for a straightforward main line, or 40-65 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 200 M 201 6.2 LH is 40 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Deep Cranking",
+            "setup": "12-20 lb mono/fluoro"
+          },
+          {
+            "use": "Swimbaits",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Larger Moving Baits",
+            "setup": "12-20 lb mono/fluoro"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 200 M 201 6.2 LH uses a 6.2:1 gear ratio. Its 27-inch pickup favors controlled cadence with crankbaits and steady moving presentations. It weighs 7.4 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-200-m-200-hg-rh-cu200hgm": {
@@ -26882,7 +27260,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-200-m-200-hg-rh-cu200hgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
       "imageAlt": "Shimano Curado 200 M 200 HG RH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 200 M 200 HG RH (CU200HGM) is a 200-size baitcasting reel built for bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 13 lb maximum drag make line reserve and pulling margin the priorities.",
+      "intro": "The Shimano Curado 200 M 200 HG RH (CU200HGM) is a 200-size baitcasting reel built for bass, swimbaits, jigs, frogs, and heavy cover. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 32-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits.",
       "introVariant": "heavy-o1-f1-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26933,6 +27311,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, swimbaits, jigs, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 12-20 lb mono/fluoro for a straightforward main line, or 40-65 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 200 M 200 HG RH is 40 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Swimbaits",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Jigs",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Frogs",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 200 M 200 HG RH uses a 7.4:1 gear ratio. Its 32-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 7.6 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-200-m-201-hg-lh-cu201hgm": {
@@ -26943,7 +27348,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-200-m-201-hg-lh-cu201hgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
       "imageAlt": "Shimano Curado 200 M 201 HG LH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 200 M 201 HG LH (CU201HGM) is a 200-size baitcasting reel built for bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 13 lb maximum drag make line reserve and pulling margin the priorities.",
+      "intro": "The Shimano Curado 200 M 201 HG LH (CU201HGM) is a 200-size baitcasting reel built for bass, swimbaits, jigs, frogs, and heavy cover. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 32-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits.",
       "introVariant": "heavy-o1-f1-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -26994,6 +27399,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, swimbaits, jigs, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 12-20 lb mono/fluoro for a straightforward main line, or 40-65 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 200 M 201 HG LH is 40 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Swimbaits",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Jigs",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Frogs",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 200 M 201 HG LH uses a 7.4:1 gear ratio. Its 32-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 7.6 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-200-m-200-xg-rh-cu200xgm": {
@@ -27004,7 +27436,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-200-m-200-xg-rh-cu200xgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
       "imageAlt": "Shimano Curado 200 M 200 XG RH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 200 M 200 XG RH (CU200XGM) falls in the 200-size class and is best matched to bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 12 lb maximum drag make line reserve and pulling margin the priorities.",
+      "intro": "The Shimano Curado 200 M 200 XG RH (CU200XGM) falls in the 200-size class and is best matched to bass, pitching, flipping, frogs, and heavy cover. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 37-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover.",
       "introVariant": "heavy-o3-f1-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -27055,6 +27487,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, pitching, flipping, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 12-20 lb mono/fluoro for a straightforward main line, or 40-65 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 200 M 200 XG RH is 40 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Pitching",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Flipping",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Frogs",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 200 M 200 XG RH uses a 8.5:1 gear ratio. Its 37-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover. It weighs 7.6 oz and has a published maximum drag of 12 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     },
     "shimano-curado-200-m-201-xg-lh-cu201xgm": {
@@ -27065,7 +27524,7 @@
       "canonicalPath": "/reel-pages/p/shimano-curado-200-m-201-xg-lh-cu201xgm",
       "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-images/260b9b731f30481e6277.avif",
       "imageAlt": "Shimano Curado 200 M 201 XG LH low-profile baitcasting reel",
-      "intro": "The Shimano Curado 200 M 201 XG LH (CU201XGM) falls in the 200-size class and is best matched to bass, swimbaits, heavy cover, deep cranking, and frogs. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. The published 10 lb / 155 yard capacity baseline and 12 lb maximum drag make line reserve and pulling margin the priorities.",
+      "intro": "The Shimano Curado 200 M 201 XG LH (CU201XGM) falls in the 200-size class and is best matched to bass, pitching, flipping, frogs, and heavy cover. MGL Spool III reduces spool startup inertia while preserving the capacity needed for heavier line and larger lures, while SVS Infinity provides adjustable centrifugal braking for controlled casts with changing lure weights. Its 37-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover.",
       "introVariant": "heavy-o3-f1-t2",
       "introDetailMode": "verified-features",
       "introFeatureNames": [
@@ -27116,6 +27575,33 @@
         "backingType": "monofilament",
         "backingDiameterIn": 0.013,
         "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This baitcaster makes the most sense for anglers fishing bass, pitching, flipping, frogs, and heavy cover. Its spool holds practical casting-line amounts without the bulk of a deep conventional reel. Use 12-20 lb mono/fluoro for a straightforward main line, or 40-65 lb braid when you want more strength for the same diameter and can manage braid carefully on the spool.",
+        "setupIntro": "A practical starting point for the Shimano Curado 200 M 201 XG LH is 40 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.",
+        "setupRows": [
+          {
+            "use": "Bass",
+            "setup": "40-60 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Pitching",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Flipping",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Frogs",
+            "setup": "60-65 lb braid"
+          },
+          {
+            "use": "Straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "The Shimano Curado 200 M 201 XG LH uses a 8.5:1 gear ratio. Its 37-inch pickup gathers slack quickly after pitches, frog strikes, and casts toward cover. It weighs 7.6 oz and has a published maximum drag of 12 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
       }
     }
   },
@@ -30510,5 +30996,6 @@
         "Printed capacity entries vary more than expected with the calculator diameter lookup."
       ]
     }
-  ]
+  ],
+  "generatedAt": "2026-08-23T17:07:33.745Z"
 }

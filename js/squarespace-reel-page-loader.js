@@ -210,6 +210,41 @@
     prependHelpfulResource(content, entry.sizeGuide);
   }
 
+  function updateExactPageContent(description, entry) {
+    var content = entry.content;
+    if (!content) return;
+
+    function firstParagraph(sectionName) {
+      var section = description.querySelector('[data-section="' + sectionName + '"]');
+      return section ? section.querySelector("p") : null;
+    }
+
+    var who = firstParagraph("who-is-this-reel-for");
+    if (who && content.who) who.textContent = content.who;
+
+    var setup = description.querySelector('[data-section="best-line-setup"]');
+    if (setup) {
+      var setupIntro = setup.querySelector("p");
+      if (setupIntro && content.setupIntro) setupIntro.textContent = content.setupIntro;
+      var setupBody = setup.querySelector("table tbody");
+      if (setupBody && Array.isArray(content.setupRows)) {
+        setupBody.replaceChildren();
+        content.setupRows.forEach(function(row) {
+          var tr = document.createElement("tr");
+          var use = document.createElement("td");
+          var line = document.createElement("td");
+          use.textContent = row.use || "";
+          line.textContent = row.setup || "";
+          tr.append(use, line);
+          setupBody.appendChild(tr);
+        });
+      }
+    }
+
+    var specs = firstParagraph("specifications");
+    if (specs && content.specsIntro) specs.textContent = content.specsIntro;
+  }
+
   function decorateDescription(description, entry) {
     if (description.dataset.reelcalcEnhanced === "true") return;
     description.dataset.reelcalcEnhanced = "true";
@@ -290,6 +325,7 @@
         if (entry.intro) paragraphs[1].textContent = entry.intro;
       }
     }
+    updateExactPageContent(description, entry);
   }
 
   function showLoadError(detail, message) {
@@ -508,7 +544,7 @@
 
     var slug = loaderScript.dataset.pageSlug ||
       decodeURIComponent(location.pathname.split("/").filter(Boolean).pop() || "");
-    fetch(assetUrl("data/reel-page-embeds.json"), { credentials: "omit" })
+    fetch(assetUrl("data/reel-page-embeds.json?v=5"), { credentials: "omit" })
       .then(function(response) {
         if (!response.ok) throw new Error("Reel page mapping returned HTTP " + response.status + ".");
         return response.json();
@@ -528,7 +564,7 @@
         });
 
         return Promise.all([
-          loadScript("js/reel-page-calculator.js?v=6", "ReelCalcReelPageCalculator"),
+          loadScript("js/reel-page-calculator.js?v=7", "ReelCalcReelPageCalculator"),
           loadScript("js/reel-page-runtime.js?v=3", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();
