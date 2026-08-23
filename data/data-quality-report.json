@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T02:11:36.569Z",
+  "generated_at": "2026-08-23T14:29:53.683Z",
   "source_directory": "C:/Users/Tyler/Documents/Creelcalc-wizard",
   "calculator_source": "Calc code.txt",
   "inventory": [
@@ -71,7 +71,7 @@
     }
   ],
   "reel_data": {
-    "total_rows": 825,
+    "total_rows": 854,
     "missing_mono_capacity": 17,
     "source_or_spec_needs_verification": 334,
     "exact_duplicate_keys": 0,
@@ -152,6 +152,25 @@
       "date": "2026-07-09",
       "corrected_reels": 4,
       "note": "Vanquish calculator capacity now uses exact manufacturer mono lb-yd specifications. US Shimano was checked first; UK Shimano was used only for two sizes absent from the US lineup."
+    },
+    "priority_additions_2026_08_02": {
+      "added_or_refreshed_reels": 11,
+      "added_families": [
+        "Shimano Sustain FK",
+        "Daiwa BG SW 2026"
+      ],
+      "vanquish_fc_search_aliases_updated": 15,
+      "note": "Exact official US manufacturer tables were used. Existing reel IDs were not changed."
+    },
+    "baitcaster_pilot_2026_08_23": {
+      "added_or_refreshed_reels": 18,
+      "families": [
+        "Shimano SLX A",
+        "Shimano Curado 150 M",
+        "Shimano Curado 200 M"
+      ],
+      "source": "Official Shimano US exact-family specification charts",
+      "note": "First dedicated low-profile baitcaster records. Retrieve hand and baitcaster class are stored separately so spinning-size conversions are never applied."
     }
   }
 }

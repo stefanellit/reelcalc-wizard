@@ -1,8 +1,8 @@
 const DATA_PATHS = {
-  reels: "data/reels.json?v=7",
+  reels: "data/reels.json?v=8",
   lines: "data/lines.json",
-  quality: "data/data-quality-report.json",
-  reelAffiliates: "data/reel-affiliates.json"
+  quality: "data/data-quality-report.json?v=2",
+  reelAffiliates: "data/reel-affiliates.json?v=2"
 };
 
 const {

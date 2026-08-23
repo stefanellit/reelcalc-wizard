@@ -319,6 +319,10 @@
   }
 
   function profileForReel(setupProfile, reel, lines) {
+    if (isBaitcaster(reel)) {
+      return baitcasterProfileForReel(setupProfile, reel);
+    }
+
     if (normalizeType(setupProfile.mainType) !== "Braid") {
       return setupProfile;
     }
@@ -339,6 +343,52 @@
       mainRange: [reelRange[0], adjustedMaximum],
       leaderType: setupProfile.leaderType,
       leaderRange: setupProfile.leaderRange
+    };
+  }
+
+  function strengthRange(value) {
+    var strengths = String(value || "").match(/\d+(?:\.\d+)?/g);
+    if (!strengths || !strengths.length) return null;
+    var minimum = Number(strengths[0]);
+    var maximum = Number(strengths[1] || strengths[0]);
+    return minimum > 0 && maximum >= minimum ? [minimum, maximum] : null;
+  }
+
+  function commonStrengthAtOrAbove(value, maximum) {
+    var match = COMMON_LB.find(function(lb) {
+      return lb >= value && lb <= maximum;
+    });
+    return match || maximum;
+  }
+
+  function baitcasterProfileForReel(setupProfile, reel) {
+    var braidRange = strengthRange(reel && reel.reelcalc_recommended_braid);
+    var monoRange = strengthRange(reel && reel.reelcalc_recommended_mono_fluoro);
+    var reelClass = String(reel && reel.baitcaster_class || "standard").toLowerCase();
+    var mainType = normalizeType(setupProfile.mainType);
+
+    if (setupProfile.useCase === "finesse" && reelClass !== "bait_finesse") return null;
+
+    var mainRange = setupProfile.mainRange.slice();
+    if (mainType === "Braid" && braidRange) {
+      var braidMiddle = commonStrengthAtOrAbove((braidRange[0] + braidRange[1]) / 2, braidRange[1]);
+      if (setupProfile.useCase === "heavy-cover") mainRange = [braidMiddle, braidRange[1]];
+      else if (setupProfile.useCase === "best-overall") mainRange = [braidRange[0], braidMiddle];
+      else mainRange = [braidRange[0], braidRange[0]];
+    } else if ((mainType === "Monofilament" || mainType === "Fluorocarbon") && monoRange) {
+      mainRange = monoRange.slice();
+    }
+
+    var leaderRange = setupProfile.leaderRange.slice();
+    if (setupProfile.leaderType && monoRange) leaderRange = monoRange.slice();
+
+    return {
+      useCase: setupProfile.useCase,
+      title: setupProfile.title,
+      mainType: setupProfile.mainType,
+      mainRange: mainRange,
+      leaderType: setupProfile.leaderType,
+      leaderRange: leaderRange
     };
   }
 
@@ -399,6 +449,7 @@
   }
 
   function setupFitsReelSize(setup, reel, fishingType) {
+    if (isBaitcaster(reel)) return true;
     var reelSize = reelSizeClass(reel);
     if (!reelSize) return true;
 
@@ -415,6 +466,7 @@
   }
 
   function recommendationCompatibility(reel, fishingType) {
+    if (isBaitcaster(reel)) return baitcasterCompatibility(reel, fishingType);
     var reelSize = reelSizeClass(reel);
     var reelLabel = reelDisplaySize(reel, reelSize);
     var rule = FISHING_REEL_COMPATIBILITY[fishingType];
@@ -438,6 +490,30 @@
       };
     }
 
+    return { recommend: true, message: "" };
+  }
+
+  function baitcasterCompatibility(reel, fishingType) {
+    var reelClass = String(reel && reel.baitcaster_class || "standard").toLowerCase();
+    var useCase = String(reel && reel.reelcalc_use_case || "").toLowerCase();
+    if (fishingType === "trout" && reelClass !== "bait_finesse") {
+      return {
+        recommend: false,
+        message: "This baitcaster is built around standard or heavier casting setups, not ultralight trout and panfish line. Use Bass, Walleye, or General freshwater, or choose an exact line to calculate it directly."
+      };
+    }
+    if (fishingType === "inshore" && !/inshore|saltwater|coastal/.test(useCase)) {
+      return {
+        recommend: false,
+        message: "This baitcaster is listed for freshwater use. Use Bass, Walleye, or General freshwater for a realistic recommendation, or choose an exact line to calculate it directly."
+      };
+    }
+    if (fishingType === "surf" && !/surf|offshore|saltwater|round baitcast/.test(useCase)) {
+      return {
+        recommend: false,
+        message: "This low-profile baitcaster is not a normal surf or heavy-saltwater reel. Use Bass or General freshwater, or choose an exact line to calculate it directly."
+      };
+    }
     return { recommend: true, message: "" };
   }
 
@@ -828,9 +904,9 @@
     var rated = Number(reel.rated_line_diameter_in);
     var diameter = Number(line.dia_in);
 
-    if (setupProfile.useCase === "heavy-cover" && reelSize && reelSize <= 1000) {
+    if (!isBaitcaster(reel) && setupProfile.useCase === "heavy-cover" && reelSize && reelSize <= 1000) {
       warnings.push("This is a small reel for heavy cover. Consider a 2500 to 4000 size reel before using this setup.");
-    } else if (setupProfile.useCase === "heavy-cover" && reelSize && reelSize < 2500) {
+    } else if (!isBaitcaster(reel) && setupProfile.useCase === "heavy-cover" && reelSize && reelSize < 2500) {
       warnings.push("This reel is on the small side for heavy cover, so capacity and line management may be limited.");
     }
 
@@ -867,9 +943,13 @@
   function reasonNotes(setupProfile, context, line, leaderLb, capacity) {
     var reelSize = reelSizeClass(context.reel);
     var reason = setupIntro(setupProfile, context.speciesLabel);
-    if (reelSize) reason += " It is a good match for a " + reelDisplaySize(context.reel, reelSize) + " size reel.";
+    if (reelSize) {
+      reason += isBaitcaster(context.reel)
+        ? " It is a practical match for this baitcaster's spool and intended use."
+        : " It is a good match for a " + reelDisplaySize(context.reel, reelSize) + " size reel.";
+    }
 
-    var diameterReason = lineRoleCopy(line, setupProfile);
+    var diameterReason = lineRoleCopy(line, setupProfile, context.reel);
 
     var capacityReason;
     if (capacity > 0 && normalizeType(line.type) === "Braid") {
@@ -905,11 +985,13 @@
     return copy[setupProfile.useCase] || "This setup is a practical match for " + label + ".";
   }
 
-  function lineRoleCopy(line, setupProfile) {
+  function lineRoleCopy(line, setupProfile, reel) {
     var type = normalizeType(line.type).toLowerCase();
     if (type === "braid") {
       if (setupProfile.useCase === "heavy-cover") {
-        return String(line.lb) + " lb braid gives you more pulling strength while still staying manageable on a spinning reel.";
+        return isBaitcaster(reel)
+          ? String(line.lb) + " lb braid gives this baitcaster useful pulling strength and resists digging into the spool under load."
+          : String(line.lb) + " lb braid gives you more pulling strength while still staying manageable on a spinning reel.";
       }
       if (setupProfile.useCase === "finesse" || setupProfile.useCase === "casting-distance") {
         return String(line.lb) + " lb braid keeps the main line light, sensitive, and easy to cast.";
@@ -947,6 +1029,7 @@
     var raw = reel && (reel.size_class || reel.size_label || "");
     var match = String(raw).match(/\d+/);
     var size = match ? Number(match[0]) : 0;
+    if (isBaitcaster(reel)) return baitcasterRecommendationSize(size, reel);
     var brand = String(reel && reel.brand || "").toLowerCase();
     if (brand === "pflueger" && PFLUEGER_SIZE_EQUIVALENTS[size]) {
       return PFLUEGER_SIZE_EQUIVALENTS[size];
@@ -957,6 +1040,23 @@
       return size * shortSizeSystem.multiplier;
     }
     return size;
+  }
+
+  function isBaitcaster(reel) {
+    return /baitcast|casting/.test(String(reel && reel.reel_type || "").toLowerCase());
+  }
+
+  function baitcasterRecommendationSize(size, reel) {
+    var reelClass = String(reel && reel.baitcaster_class || "").toLowerCase();
+    if (reelClass === "bait_finesse") return 1500;
+    if (reelClass === "round" || reelClass === "heavy_saltwater") return Math.max(6000, size * 20);
+    if (size <= 70) return 1800;
+    if (size <= 100) return 2800;
+    if (size <= 150) return 3500;
+    if (size <= 200) return 4500;
+    if (size <= 300) return 6000;
+    if (size <= 400) return 8000;
+    return Math.max(3500, size * 20);
   }
 
   function reelDisplaySize(reel, fallback) {
