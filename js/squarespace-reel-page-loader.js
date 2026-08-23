@@ -8,7 +8,11 @@
   var assetBase = loaderScript.dataset.assetBase
     ? new URL(loaderScript.dataset.assetBase, document.baseURI)
     : new URL("../", scriptUrl);
-  var guideTags = ["tag-reelcalc-reel-guide", "tag-reelcalc-import-test"];
+  var guideTags = [
+    "tag-reelcalc-reel-guide",
+    "tag-reelcalc-baitcaster-guide",
+    "tag-reelcalc-import-test"
+  ];
 
   function assetUrl(relativePath) {
     return new URL(relativePath, assetBase).href;
