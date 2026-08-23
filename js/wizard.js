@@ -40,6 +40,7 @@ const state = {
   lines: [],
   quality: null,
   affiliateData: null,
+  reelCategory: "spinning",
   reelFilters: { brand: "", model: "", size: "" },
   lineFilters: { brand: "", model: "", lb: "" },
   selectedReel: null,
@@ -111,6 +112,24 @@ function bindEvents() {
   document.querySelectorAll("[data-unit]").forEach(function(button) {
     button.addEventListener("click", function() {
       switchUnitSystem(button.dataset.unit);
+    });
+  });
+
+  document.querySelectorAll("[data-reel-category]").forEach(function(button) {
+    button.addEventListener("click", function() {
+      var nextCategory = button.dataset.reelCategory;
+      if (!nextCategory || nextCategory === state.reelCategory) return;
+      state.reelCategory = nextCategory;
+      state.reelFilters = { brand: "", model: "", size: "" };
+      state.selectedReel = null;
+      state.selectedSetup = null;
+      populateReelFilters();
+      resetDesiredMainLine();
+      renderAll();
+      trackWizardEvent("wizard_reel_type_selected", {
+        page_type: "setup_wizard",
+        reel_category: state.reelCategory
+      });
     });
   });
 
@@ -470,6 +489,7 @@ function renderAll() {
   el.similarPanel.classList.toggle("hidden", !reelStarted);
   el.backingFields.classList.toggle("hidden", state.backingMode !== "yes" || !lineReady);
   setActiveButtons("data-unit", state.unitSystem);
+  setActiveButtons("data-reel-category", state.reelCategory);
   setActiveButtons("data-path", state.path);
   setActiveButtons("data-backing", state.backingMode);
   renderReelSummary();
@@ -521,7 +541,10 @@ function updateManualToggleStates() {
   el.manualReelPanel.classList.toggle("hidden", !state.useManualReel);
   el.manualLinePanel.classList.toggle("hidden", !state.useManualLine);
   el.manualBackingPanel.classList.toggle("hidden", !state.useManualBacking);
-  setControlsDisabled([el.reelBrand, el.reelModel, el.reelSize], state.useManualReel);
+  setControlsDisabled(
+    Array.from(document.querySelectorAll("[data-reel-category]")).concat([el.reelBrand, el.reelModel, el.reelSize]),
+    state.useManualReel
+  );
   setControlsDisabled([el.lineBrand, el.lineModel, el.lineLb], state.useManualLine);
   setControlsDisabled([el.backingBrand, el.backingModel, el.backingLb], state.useManualBacking);
 }
@@ -666,8 +689,11 @@ function populateReelFilters() {
   var brand = state.reelFilters.brand;
   var model = state.reelFilters.model;
   var size = state.reelFilters.size;
-  var brands = uniqueSorted(state.reels.map(function(reel) { return reel.brand; }));
-  var modelPool = state.reels.filter(function(reel) {
+  var categoryPool = state.reels.filter(function(reel) {
+    return reelCategoryFor(reel) === state.reelCategory;
+  });
+  var brands = uniqueSorted(categoryPool.map(function(reel) { return reel.brand; }));
+  var modelPool = categoryPool.filter(function(reel) {
     return !brand || reel.brand === brand;
   });
   var models = uniqueSorted(modelPool.map(function(reel) { return reel.model; }));
@@ -742,7 +768,7 @@ function formatExactReelOption(reel, exactReels) {
 
 function resolveReelFromFilters() {
   var exactMatch = state.reels.find(function(reel) {
-    return reel.id === state.reelFilters.size;
+    return reel.id === state.reelFilters.size && reelCategoryFor(reel) === state.reelCategory;
   });
   if (exactMatch && exactMatch.brand === state.reelFilters.brand && exactMatch.model === state.reelFilters.model) {
     selectReel(exactMatch, false);
@@ -750,7 +776,8 @@ function resolveReelFromFilters() {
   }
   var matches = state.reels.filter(function(reel) {
     var reelSize = reel.size_label || reel.size_class;
-    return (!state.reelFilters.brand || reel.brand === state.reelFilters.brand) &&
+    return reelCategoryFor(reel) === state.reelCategory &&
+      (!state.reelFilters.brand || reel.brand === state.reelFilters.brand) &&
       (!state.reelFilters.model || reel.model === state.reelFilters.model) &&
       (!state.reelFilters.size || reelSize === state.reelFilters.size);
   });
@@ -763,6 +790,7 @@ function resolveReelFromFilters() {
 
 function selectReel(reel, updateSearch) {
   state.selectedReel = reel;
+  state.reelCategory = reelCategoryFor(reel);
   state.useManualReel = false;
   state.manualReel = null;
   state.reelFilters.brand = reel.brand || "";
@@ -775,6 +803,12 @@ function selectReel(reel, updateSearch) {
   } else {
     el.manualReelPanel.classList.add("hidden");
   }
+}
+
+function reelCategoryFor(reel) {
+  return /baitcast|casting/.test(String(reel && reel.reel_type || "").toLowerCase())
+    ? "baitcasting"
+    : "spinning";
 }
 
 function applyReelPreloadFromUrl() {

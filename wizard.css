@@ -325,6 +325,10 @@ button {
   max-width: 460px;
 }
 
+.reel-type-control {
+  margin-bottom: 16px;
+}
+
 .unit-toggle {
   display: grid;
   grid-template-columns: repeat(2, minmax(94px, 1fr));
@@ -354,6 +358,11 @@ button {
 .segment-button.active {
   background: var(--teal);
   color: #ffffff;
+}
+
+.segment-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
 }
 
 .manual-panel,

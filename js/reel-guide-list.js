@@ -55,6 +55,12 @@
     return [reel.brand, reel.model, size].filter(Boolean).join(" ").trim();
   }
 
+  function reelCategory(reel) {
+    return /baitcast|casting/.test(String(reel && reel.reel_type || "").toLowerCase())
+      ? "baitcasting"
+      : "spinning";
+  }
+
   function disambiguateLabels(entries) {
     var labels = new Map();
 
@@ -88,6 +94,7 @@
       if (!reel || !path) return null;
       return {
         brand: reel.brand,
+        category: reelCategory(reel),
         family: page.family || "",
         label: page.guideLabel || reelLabel(reel),
         sku: reel.sku || "",
@@ -113,6 +120,7 @@
       if (!path) return;
       entriesByPath.set(path, {
         brand: page.brand,
+        category: page.category || "spinning",
         family: page.family || "",
         label: page.label,
         path: path,
@@ -192,34 +200,54 @@
     mount.dataset.state = "ready";
     mount.setAttribute("aria-live", "polite");
 
-    var directory = document.createElement("div");
-    directory.className = "reelcalc-guide-directory";
-
-    groupEntries(entries).forEach(function (group) {
-      var brand = group[0];
-      var items = group[1];
-      var section = document.createElement("section");
-      section.className = "reelcalc-guide-brand";
-
-      var heading = document.createElement("h3");
-      heading.textContent = brand + " Reel Line Capacity Guides";
-      section.appendChild(heading);
-
-      var list = document.createElement("ul");
-      items.forEach(function (entry) {
-        var item = document.createElement("li");
-        var link = document.createElement("a");
-        link.href = entry.path;
-        link.textContent = entry.label;
-        if (entry.reelId) link.dataset.reelId = entry.reelId;
-        item.appendChild(link);
-        list.appendChild(item);
+    [
+      { key: "spinning", label: "Spinning Reel Guides" },
+      { key: "baitcasting", label: "Baitcaster Reel Guides" }
+    ].forEach(function (category) {
+      var categoryEntries = entries.filter(function (entry) {
+        return (entry.category || "spinning") === category.key;
       });
-      section.appendChild(list);
-      directory.appendChild(section);
-    });
+      if (!categoryEntries.length) return;
 
-    mount.appendChild(directory);
+      var categorySection = document.createElement("section");
+      categorySection.className = "reelcalc-guide-category reelcalc-guide-category--" + category.key;
+      categorySection.dataset.reelCategory = category.key;
+
+      var categoryHeading = document.createElement("h2");
+      categoryHeading.className = "reelcalc-guide-category-heading";
+      categoryHeading.textContent = category.label;
+      categorySection.appendChild(categoryHeading);
+
+      var directory = document.createElement("div");
+      directory.className = "reelcalc-guide-directory";
+
+      groupEntries(categoryEntries).forEach(function (group) {
+        var brand = group[0];
+        var items = group[1];
+        var section = document.createElement("section");
+        section.className = "reelcalc-guide-brand";
+
+        var heading = document.createElement("h3");
+        heading.textContent = brand + " Reel Line Capacity Guides";
+        section.appendChild(heading);
+
+        var list = document.createElement("ul");
+        items.forEach(function (entry) {
+          var item = document.createElement("li");
+          var link = document.createElement("a");
+          link.href = entry.path;
+          link.textContent = entry.label;
+          if (entry.reelId) link.dataset.reelId = entry.reelId;
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+        section.appendChild(list);
+        directory.appendChild(section);
+      });
+
+      categorySection.appendChild(directory);
+      mount.appendChild(categorySection);
+    });
   }
 
   async function fetchJson(url) {
@@ -284,6 +312,7 @@
     normalizePath: normalizePath,
     parseSitemapPaths: parseSitemapPaths,
     reelLabel: reelLabel,
+    reelCategory: reelCategory,
     disambiguateLabels: disambiguateLabels,
     buildRegistryEntries: buildRegistryEntries,
     mergeEntries: mergeEntries,

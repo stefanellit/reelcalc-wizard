@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ReelCalc Reel Setup Wizard</title>
-  <link rel="stylesheet" href="wizard.css?v=7">
+  <link rel="stylesheet" href="wizard.css?v=8">
   <script defer src="js/calculator-core.js?v=7"></script>
   <script defer src="js/recommendation-engine.js?v=9"></script>
   <script defer src="js/affiliate-links.js?v=1"></script>
   <script defer src="js/analytics.js?v=1"></script>
-  <script defer src="js/wizard.js?v=16"></script>
+  <script defer src="js/wizard.js?v=17"></script>
 </head>
 <body>
   <header class="site-header">
@@ -45,6 +45,11 @@
           <span class="step-label">Reel</span>
           <h2 id="reelTitle">Choose Your Reel</h2>
         </div>
+      </div>
+
+      <div class="segmented-control compact reel-type-control" role="tablist" aria-label="Reel type">
+        <button class="segment-button active" type="button" data-reel-category="spinning">Spinning reels</button>
+        <button class="segment-button" type="button" data-reel-category="baitcasting">Baitcasters</button>
       </div>
 
       <div class="form-grid three">

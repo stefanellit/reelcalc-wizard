@@ -15,6 +15,20 @@
   border-bottom: 1px solid rgba(31, 37, 40, 0.18);
 }
 
+.reelcalc-guide-category + .reelcalc-guide-category {
+  margin-top: 42px;
+}
+
+.reelcalc-guide-category-heading {
+  border-left: 4px solid #2f7d32;
+  color: #243a55;
+  font-size: 1.65rem;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0;
+  padding: 4px 0 4px 14px;
+}
+
 .reelcalc-guide-brand {
   border-top: 1px solid rgba(31, 37, 40, 0.18);
   padding: 26px 0 24px;
@@ -68,6 +82,14 @@
 }
 
 @media (max-width: 640px) {
+  .reelcalc-guide-category + .reelcalc-guide-category {
+    margin-top: 34px;
+  }
+
+  .reelcalc-guide-category-heading {
+    font-size: 1.4rem;
+  }
+
   .reelcalc-guide-brand {
     padding: 22px 0 20px;
   }
