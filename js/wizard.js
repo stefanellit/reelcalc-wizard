@@ -1,5 +1,5 @@
 const DATA_PATHS = {
-  reels: "data/reels.json?v=8",
+  reels: "data/reels.json?v=9",
   lines: "data/lines.json",
   quality: "data/data-quality-report.json?v=2",
   reelAffiliates: "data/reel-affiliates.json?v=2"
@@ -1057,7 +1057,11 @@ function renderReelSummary() {
   html += "<div class=\"selected-card-grid\">";
   if (ready) {
     html += "<div><span>Rating used</span><strong>" + formatReelRating(reel) + "</strong></div>";
-    var diameterLabel = reel.id === "manual-reel" && reel.manual_reel_entry_mode !== "metric-diameter" ? "Estimated mono diameter" : "Rated diameter";
+    var diameterLabel = reel.capacity_reference_type === "braid"
+      ? "Estimated braid diameter"
+      : reel.id === "manual-reel" && reel.manual_reel_entry_mode !== "metric-diameter"
+        ? "Estimated mono diameter"
+        : "Rated diameter";
     html += "<div><span>" + diameterLabel + "</span><strong>" + formatDiameterWithUnit(reel.rated_line_diameter_in) + "</strong></div>";
     var capacityNote = reel.id === "manual-reel" ? formatManualReelCapacityNote(reel.capacity_yards, reel.rated_line_lb, reel.rated_line_diameter_in, reel.manual_reel_entry_mode) : reel.capacity_note;
     if (capacityNote) html += "<div><span>Printed capacity</span><strong>" + escapeHtml(capacityNote) + "</strong></div>";
@@ -1797,7 +1801,8 @@ function formatReelRating(reel) {
   if (reel && reel.id === "manual-reel" && reel.manual_reel_entry_mode === "metric-diameter") {
     return formatLength(reel.capacity_yards, 0) + " / " + formatDiameterWithUnit(reel.rated_line_diameter_in);
   }
-  return formatLength(reel.capacity_yards, 0) + " / " + formatStrength(reel.rated_line_lb);
+  var material = reel && reel.capacity_reference_type === "braid" ? " braid" : "";
+  return formatLength(reel.capacity_yards, 0) + " / " + formatStrength(reel.rated_line_lb) + material;
 }
 
 function formatManualReelCapacityNote(yards, lb, diameter, entryMode) {

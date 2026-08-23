@@ -320,7 +320,7 @@
 
   function profileForReel(setupProfile, reel, lines) {
     if (isBaitcaster(reel)) {
-      return baitcasterProfileForReel(setupProfile, reel);
+      return baitcasterProfileForReel(setupProfile, reel, lines);
     }
 
     if (normalizeType(setupProfile.mainType) !== "Braid") {
@@ -361,13 +361,15 @@
     return match || maximum;
   }
 
-  function baitcasterProfileForReel(setupProfile, reel) {
-    var braidRange = strengthRange(reel && reel.reelcalc_recommended_braid);
+  function baitcasterProfileForReel(setupProfile, reel, lines) {
+    var braidRange = recommendedBraidRange(reel, lines) || strengthRange(reel && reel.reelcalc_recommended_braid);
     var monoRange = strengthRange(reel && reel.reelcalc_recommended_mono_fluoro);
     var reelClass = String(reel && reel.baitcaster_class || "standard").toLowerCase();
     var mainType = normalizeType(setupProfile.mainType);
+    var baitFinesse = reelClass === "bait_finesse" || reelClass === "bfs" || reelClass === "finesse";
 
-    if (setupProfile.useCase === "finesse" && reelClass !== "bait_finesse") return null;
+    if (setupProfile.useCase === "finesse" && !baitFinesse) return null;
+    if (setupProfile.useCase === "heavy-cover" && baitFinesse) return null;
 
     var mainRange = setupProfile.mainRange.slice();
     if (mainType === "Braid" && braidRange) {
@@ -432,6 +434,7 @@
       return recommendationCapacityFloorCache.get(cacheKey);
     }
 
+    var maximumRecommendedYards = isBaitcaster(reel) ? 300 : MAX_RECOMMENDED_FULL_SPOOL_YARDS;
     var options = COMMON_LB.filter(function(lb) {
       return lb >= startingMinimum;
     });
@@ -439,7 +442,12 @@
       var line = genericLine(lines, "Braid", options[index]);
       if (!line) continue;
       var estimate = core.actualLineBraidCapacityEstimate(reel, line, lines);
-      if (!estimate || Number(estimate.centerYards) <= MAX_RECOMMENDED_FULL_SPOOL_YARDS) {
+      var capacityYards = estimate
+        ? Number(estimate.centerYards)
+        : core.calculateFullSpoolCapacity
+          ? Number(core.calculateFullSpoolCapacity(reel, line, { lineCatalog: lines }))
+          : 0;
+      if (!(capacityYards > 0) || capacityYards <= maximumRecommendedYards) {
         recommendationCapacityFloorCache.set(cacheKey, options[index]);
         return options[index];
       }
@@ -496,19 +504,22 @@
   function baitcasterCompatibility(reel, fishingType) {
     var reelClass = String(reel && reel.baitcaster_class || "standard").toLowerCase();
     var useCase = String(reel && reel.reelcalc_use_case || "").toLowerCase();
-    if (fishingType === "trout" && reelClass !== "bait_finesse") {
+    var baitFinesse = reelClass === "bait_finesse" || reelClass === "bfs" || reelClass === "finesse";
+    var saltwaterCapable = reelClass === "saltwater_low_profile" || /inshore|saltwater|coastal/.test(useCase);
+    var heavySaltwater = reelClass === "round" || reelClass === "round_casting" || reelClass === "heavy_saltwater" || reelClass === "saltwater_low_profile";
+    if (fishingType === "trout" && !baitFinesse) {
       return {
         recommend: false,
         message: "This baitcaster is built around standard or heavier casting setups, not ultralight trout and panfish line. Use Bass, Walleye, or General freshwater, or choose an exact line to calculate it directly."
       };
     }
-    if (fishingType === "inshore" && !/inshore|saltwater|coastal/.test(useCase)) {
+    if (fishingType === "inshore" && !saltwaterCapable) {
       return {
         recommend: false,
         message: "This baitcaster is listed for freshwater use. Use Bass, Walleye, or General freshwater for a realistic recommendation, or choose an exact line to calculate it directly."
       };
     }
-    if (fishingType === "surf" && !/surf|offshore|saltwater|round baitcast/.test(useCase)) {
+    if (fishingType === "surf" && !heavySaltwater && !/surf|offshore/.test(useCase)) {
       return {
         recommend: false,
         message: "This low-profile baitcaster is not a normal surf or heavy-saltwater reel. Use Bass or General freshwater, or choose an exact line to calculate it directly."
@@ -1048,8 +1059,11 @@
 
   function baitcasterRecommendationSize(size, reel) {
     var reelClass = String(reel && reel.baitcaster_class || "").toLowerCase();
-    if (reelClass === "bait_finesse") return 1500;
-    if (reelClass === "round" || reelClass === "heavy_saltwater") return Math.max(6000, size * 20);
+    if (reelClass === "bait_finesse" || reelClass === "bfs" || reelClass === "finesse") return 1500;
+    if (reelClass === "round" || reelClass === "round_casting" || reelClass === "heavy_saltwater") return Math.max(6000, size * 20);
+    if (reelClass === "saltwater_low_profile") return Math.max(5000, size * 20);
+    if (reelClass === "heavy_duty") return Math.max(4500, size * 20);
+    if (reelClass === "deep_spool") return Math.max(4000, size * 20);
     if (size <= 70) return 1800;
     if (size <= 100) return 2800;
     if (size <= 150) return 3500;
