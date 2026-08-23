@@ -529,7 +529,7 @@
 
         return Promise.all([
           loadScript("js/reel-page-calculator.js?v=6", "ReelCalcReelPageCalculator"),
-          loadScript("js/reel-page-runtime.js?v=2", "ReelCalcReelPageRuntime")
+          loadScript("js/reel-page-runtime.js?v=3", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();
           if (services[1] && services[1].initialize) services[1].initialize();

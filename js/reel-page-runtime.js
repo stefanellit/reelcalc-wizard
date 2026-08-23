@@ -87,15 +87,23 @@
       var content = cta ? cta.querySelector(".reelcalc-page-content") || cta : null;
       if (!content) return;
 
-      var link = content.querySelector(".reelcalc-comparison-link");
+      var comparisonLinks = Array.from(content.querySelectorAll("a")).filter(function(candidate) {
+        return candidate.classList.contains("reelcalc-comparison-link") ||
+          /\/reel-comparison(?:\?|$)/.test(candidate.getAttribute("href") || "") ||
+          candidate.textContent.trim().toLowerCase() === "compare this reel";
+      });
+      var link = comparisonLinks[0];
       if (!link) {
         link = document.createElement("a");
-        link.className = "reelcalc-page-button reelcalc-page-button--secondary reelcalc-comparison-link";
         link.textContent = "Compare This Reel";
-        link.dataset.linkPlacement = "page_cta";
       }
+      link.className = "reelcalc-page-button reelcalc-page-button--secondary reelcalc-comparison-link";
+      link.dataset.linkPlacement = "page_cta";
       link.href = comparisonUrl(reelId);
       link.dataset.reelId = reelId;
+      comparisonLinks.slice(1).forEach(function(duplicate) {
+        duplicate.remove();
+      });
 
       var actions = content.querySelector(".reelcalc-page-actions");
       if (!actions) {
