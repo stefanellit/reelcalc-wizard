@@ -2615,12 +2615,12 @@
     "Daiwa|CA 80": {
       "brand": "Daiwa",
       "model": "CA 80",
-      "sourceUrl": "https://daiwa.us/products/ca80",
+      "sourceUrl": "https://www.tacklewarehouse.com/Daiwa_CA_80_Casting_Reel/descpage-CA8.html",
       "sourceStatus": "verified",
       "verification": "exact-specification-fallback",
       "terms": [],
       "excludedBySize": {},
-      "notes": "No distinctive technology with a completed plain-English verification was approved; introductions use exact published specifications instead."
+      "notes": "The discontinued exact model remains verified through its live retailer specification table and Daiwa's official schematic archive; introductions use exact published specifications instead of unsupported technology claims."
     },
     "Daiwa|Tatula 80": {
       "brand": "Daiwa",

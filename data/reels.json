@@ -8344,7 +8344,7 @@
     "braid_capacity_note": "10-250, 15-185",
     "capacity_status": "ready",
     "capacity_data_source": "shared_lt_template_verify",
-    "source_url": "https://daiwa.us/products/24-tatula-elite-spinning",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/24-tatula-elite-spinning",
     "source_file": "daiwa_reel_database_master.json",
     "data_warnings": [
       "Source/spec should be verified before public use."
@@ -8408,7 +8408,7 @@
     "braid_capacity_note": "15-250, 20-220",
     "capacity_status": "ready",
     "capacity_data_source": "shared_lt_template_verify",
-    "source_url": "https://daiwa.us/products/24-tatula-elite-spinning",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/24-tatula-elite-spinning",
     "source_file": "daiwa_reel_database_master.json",
     "data_warnings": [
       "Source/spec should be verified before public use."
@@ -8472,7 +8472,7 @@
     "braid_capacity_note": "20-280, 30-200",
     "capacity_status": "ready",
     "capacity_data_source": "shared_lt_template_verify",
-    "source_url": "https://daiwa.us/products/24-tatula-elite-spinning",
+    "source_url": "https://daiwa.us/collections/tatula-reels/products/24-tatula-elite-spinning",
     "source_file": "daiwa_reel_database_master.json",
     "data_warnings": [
       "Source/spec should be verified before public use."
@@ -71450,8 +71450,8 @@
     "capacity_note": "12-120, 14-110",
     "braid_capacity_note": "30-125, 40-95",
     "capacity_status": "ready",
-    "capacity_data_source": "Daiwa US public product specification feed",
-    "source_url": "https://daiwa.us/products/ca80",
+    "capacity_data_source": "Tackle Warehouse exact-model specification table; additional capacity rows retained from the prior Daiwa US product feed",
+    "source_url": "https://www.tacklewarehouse.com/Daiwa_CA_80_Casting_Reel/descpage-CA8.html",
     "source_file": "recommended-first-500.json",
     "data_warnings": [],
     "gear_ratio": "8.3:1",
@@ -71470,18 +71470,18 @@
     "ipt_verification_status": "verified",
     "ipt_original_value": 36.7,
     "ipt_original_unit": "in/turn",
-    "ipt_source_name": "Daiwa US public product specification feed",
-    "ipt_source_url": "https://daiwa.us/products/ca80",
-    "ipt_date_checked": "2026-08-23",
+    "ipt_source_name": "Tackle Warehouse exact-model specification table",
+    "ipt_source_url": "https://www.tacklewarehouse.com/Daiwa_CA_80_Casting_Reel/descpage-CA8.html",
+    "ipt_date_checked": "2026-08-24",
     "ipt_confidence": "high",
-    "ipt_notes": "Exact official manufacturer variant table used.",
+    "ipt_notes": "Exact CA80XSL value is listed in the current retailer specification table and the model identity remains present in Daiwa's official schematic archive.",
     "spec_verification_status": "verified_for_wizard",
-    "spec_date_checked": "2026-08-23",
+    "spec_date_checked": "2026-08-24",
     "spec_source_urls": [
       "https://www.tacklewarehouse.com/Daiwa_CA_80_Casting_Reel/descpage-CA8.html",
-      "https://daiwa.us/products/ca80"
+      "https://daiwa.us/pages/low-profile-baitcast-reel-schematics"
     ],
-    "spec_notes": "Exact official SKU and core specifications verified."
+    "spec_notes": "Exact CA80XSL identity remains listed in Daiwa US's official schematic archive. Tackle Warehouse's current exact-model table confirms 12 lb / 120 yd, 8.3:1, 36.7 IPT, 7.2 oz, and 9BB + 1RB. The additional capacity rows were retained from ReelCalc's prior capture of Daiwa's now-removed U.S. product feed."
   },
   {
     "id": "daiwa-tatula-80-ttu80xhl",
@@ -77199,12 +77199,13 @@
       }
     ],
     "capacity_note": "10-220, 12-180, 17-130",
-    "braid_capacity_note": "20-235, 30-175, 17-130",
+    "braid_capacity_note": "20-235, 30-175, 40-145",
     "capacity_status": "ready",
     "capacity_data_source": "Abu Garcia official U.S. product comparison table",
     "source_url": "https://www.abugarcia.com/products/revo-winch-low-profile-reel-1573484",
     "source_file": "recommended-first-500.json",
     "data_warnings": [],
+    "source_discrepancy_note": "Official U.S. page appears to repeat the mono 17 lb / 130 yd value in the braid row. Official Abu Garcia Australia lists 40 lb / 145 yd for this exact model; ReelCalc uses the coherent Australian manufacturer value for the third braid rating.",
     "gear_ratio": "5.4:1",
     "max_drag_lb": 25,
     "weight_oz": 7.8,
@@ -77230,9 +77231,10 @@
     "spec_date_checked": "2026-08-23",
     "spec_source_urls": [
       "https://www.tacklewarehouse.com/Abu_Garcia_Revo_Winch_LP_Casting_Reels/descpage-RWINSC.html",
-      "https://www.abugarcia.com/products/revo-winch-low-profile-reel-1573484"
+      "https://www.abugarcia.com/products/revo-winch-low-profile-reel-1573484",
+      "https://abugarcia-fishing.com.au/product/revo-winch-lp/"
     ],
-    "spec_notes": "Exact official SKU and core specifications verified."
+    "spec_notes": "Exact official SKU and core specifications verified. The U.S. braid table appears to contain a copied mono value; the 40 lb / 145 yd third braid rating is confirmed by Abu Garcia Australia for the exact REVO5 WINCH LP model."
   },
   {
     "id": "abu-garcia-revo-x-voltiq-revo5xviqlp",

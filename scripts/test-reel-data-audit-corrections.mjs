@@ -19,8 +19,12 @@ function reel(id) {
   return result;
 }
 
-assert.equal(reels.length, 836, "Audit corrections must not add or remove reel records");
-assert.equal(new Set(reels.map((item) => item.id)).size, 836, "Audit corrections must preserve unique stable IDs");
+assert.ok(reels.length >= 836, "Audit corrections must retain the original 836 spinning-reel records");
+assert.equal(
+  new Set(reels.map((item) => item.id)).size,
+  reels.length,
+  "Audit corrections and later catalog additions must preserve unique stable IDs"
+);
 
 const expectedKvd = new Map([
   ["lew-s-kvd-spinning-reel-200-kvd200-339", { mono: "8-120", braid: "10-180" }],

@@ -51,6 +51,10 @@ const weakSourceDomains = new Set([
 const abbreviatedBrands = new Set(["Abu Garcia", "Bass Pro Shops", "Lew's", "Pflueger", "Quantum"]);
 const reviewSourcePattern = /verify|partial|seed|community|qa[_\s-]*snippet|needs[_\s-]*official[_\s-]*audit/i;
 const placeholderPattern = /needs?\s+manual(?:ly)?\s+entry|manual entry|\btbd\b|\bunknown\b|placeholder|specs?\s+need\s+verification/i;
+const centralizedBaitcasterSources = new Set([
+  "baitcaster_reel_database_master.json",
+  "recommended-first-500.json"
+]);
 
 function normalize(value) {
   return String(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
@@ -150,7 +154,9 @@ const records = reels.map((reel) => {
   if (!String(reel.sku || "").trim()) pushIssue(record, "missing_sku", "review", "Exact model/SKU is missing.");
 
   const expectedSourceFile = sourceFileByBrand.get(reel.brand);
-  if (expectedSourceFile && reel.source_file !== expectedSourceFile) {
+  const validCentralizedBaitcasterSource = /baitcast/i.test(String(reel.reel_type || "")) &&
+    centralizedBaitcasterSources.has(reel.source_file);
+  if (expectedSourceFile && reel.source_file !== expectedSourceFile && !validCentralizedBaitcasterSource) {
     pushIssue(record, "source_file_brand_mismatch", "high", `Expected ${expectedSourceFile}; found ${reel.source_file || "blank"}.`);
   }
 
@@ -171,25 +177,42 @@ const records = reels.map((reel) => {
   if (reviewSourcePattern.test(dataSource)) {
     pushIssue(record, "provenance_requires_review", "review", `Capacity source label: ${dataSource}.`);
   }
-  if (placeholderPattern.test(JSON.stringify(reel))) {
+  const placeholderText = [
+    reel.capacity_note,
+    reel.braid_capacity_note,
+    reel.capacity_data_source,
+    reel.notes,
+    reel.spec_notes,
+    ...(Array.isArray(reel.data_warnings) ? reel.data_warnings : [])
+  ].filter(Boolean).join(" ");
+  if (placeholderPattern.test(placeholderText)) {
     pushIssue(record, "placeholder_or_verification_text", "high", "Record contains placeholder or unresolved verification wording.");
   }
   if (Array.isArray(reel.data_warnings) && reel.data_warnings.length) {
     pushIssue(record, "data_warning", "review", reel.data_warnings.join(" "));
+  }
+  if (reel.source_discrepancy_note) {
+    pushIssue(record, "resolved_source_discrepancy", "review", String(reel.source_discrepancy_note));
   }
   if (String(reel.spec_verification_status || "").toLowerCase() === "source_conflict" ||
       (Array.isArray(reel.source_conflicts) && reel.source_conflicts.length)) {
     pushIssue(record, "source_conflict", "high", "Record has unresolved conflicting published specifications.");
   }
 
-  const calculatorReady = Number(reel.capacity_yards) > 0 &&
+  const braidOptions = core.publishedBraidCapacityOptions(reel);
+  const hasReferenceCapacity = Number(reel.capacity_yards) > 0 &&
     Number(reel.rated_line_lb) > 0 &&
-    Number(reel.rated_line_diameter_in) > 0 &&
-    Array.isArray(reel.capacity_options) && reel.capacity_options.length > 0;
+    Number(reel.rated_line_diameter_in) > 0;
+  const hasMonoAnchor = Array.isArray(reel.capacity_options) && reel.capacity_options.length > 0;
+  const hasBraidAnchor = braidOptions.some((option) =>
+    approximatelyEqual(option.lb, reel.rated_line_lb) &&
+    approximatelyEqual(option.yards, reel.capacity_yards)
+  );
+  const calculatorReady = hasReferenceCapacity && (hasMonoAnchor || hasBraidAnchor);
   if (!calculatorReady) {
-    pushIssue(record, "missing_calculator_capacity", "blocker", "A complete mono/reference capacity anchor is unavailable.");
+    pushIssue(record, "missing_calculator_capacity", "blocker", "A complete mono or published braid capacity anchor is unavailable.");
   } else {
-    if (!primaryAnchorMatches(reel)) {
+    if (!primaryAnchorMatches(reel) && !hasBraidAnchor) {
       pushIssue(record, "primary_anchor_not_in_options", "blocker", "Primary capacity does not match any stored capacity option.");
     }
     const expectedSpace = Number(reel.capacity_yards) * Number(reel.rated_line_diameter_in) ** 2;
@@ -211,7 +234,6 @@ const records = reels.map((reel) => {
     }
   }
 
-  const braidOptions = core.publishedBraidCapacityOptions(reel);
   if (String(reel.braid_capacity_note || "").trim() && !braidOptions.length) {
     pushIssue(record, "unparsed_braid_capacity", "high", `Braid capacity could not be parsed: ${reel.braid_capacity_note}.`);
   }

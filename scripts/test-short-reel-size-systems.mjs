@@ -70,7 +70,10 @@ for (const [brand, model, displayedSize, normalizedSize] of expected) {
   assert(engine.reelSizeClass(item) === normalizedSize, `${brand} ${model} ${displayedSize}: engine class should be ${normalizedSize}`);
 }
 
-const classified = reels.filter((item) => Number(item.recommendation_size_class) > 0);
+const isBaitcaster = (item) => /baitcast/i.test(String(item.reel_type || ""));
+const classified = reels.filter((item) =>
+  !isBaitcaster(item) && Number(item.recommendation_size_class) > 0
+);
 assert(classified.length === 141, `Expected 141 explicitly classified short-size reels, found ${classified.length}`);
 const pfluegerExpected = new Map([[20, 500], [25, 1000], [30, 2000], [35, 2500], [40, 3000]]);
 for (const item of classified) {

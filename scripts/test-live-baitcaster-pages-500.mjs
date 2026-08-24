@@ -11,7 +11,17 @@ const review = JSON.parse(fs.readFileSync(
   "utf8"
 ));
 const embedManifest = JSON.parse(fs.readFileSync(path.join(root, "data", "reel-page-embeds.json"), "utf8"));
-const allCases = review.pages.filter((page) => page.status === "ready-to-import");
+const registry = JSON.parse(fs.readFileSync(path.join(root, "data", "reel-pages.json"), "utf8"));
+const reels = JSON.parse(fs.readFileSync(path.join(root, "data", "reels.json"), "utf8"));
+const reelsById = new Map(reels.map((reel) => [reel.id, reel]));
+const auditAllPages = process.env.REELCALC_AUDIT_SCOPE === "all";
+const allCases = auditAllPages
+  ? registry.pages.map((page) => ({
+      reelId: page.reelId,
+      pagePath: page.path,
+      isBaitcaster: /baitcast/i.test(String(reelsById.get(page.reelId)?.reel_type || ""))
+    }))
+  : review.pages.filter((page) => page.status === "ready-to-import").map((page) => ({ ...page, isBaitcaster: true }));
 const requestedLimit = Number.parseInt(process.env.REELCALC_AUDIT_LIMIT || "", 10);
 const cases = Number.isFinite(requestedLimit) && requestedLimit > 0
   ? allCases.slice(0, requestedLimit)
@@ -29,7 +39,8 @@ const expectedSections = [
   "cta"
 ];
 
-assert.equal(allCases.length, 480, `Expected 480 imported pages, found ${allCases.length}.`);
+if (!auditAllPages) assert.equal(allCases.length, 480, `Expected 480 imported pages, found ${allCases.length}.`);
+else assert.equal(allCases.length, registry.pages.length, "All-page audit did not include the complete registry.");
 
 const browser = await chromium.launch({
   executablePath: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
@@ -249,7 +260,7 @@ async function testCase(testCase) {
     assert.equal(desktop.visibleCommerce, 0);
     assert.equal(desktop.loaderErrors, 0);
     assert.doesNotMatch(desktop.body, /could not finish loading|undefined|\bTODO\b|\bTBD\b/i);
-    assert.doesNotMatch(desktop.body, /spinning reel|spinning setup/i);
+    if (testCase.isBaitcaster) assert.doesNotMatch(desktop.body, /spinning reel|spinning setup/i);
     assert.ok(desktop.overflow <= 1, `Desktop overflowed ${desktop.overflow}px.`);
 
     const slug = testCase.pagePath.split("/").filter(Boolean).pop();
@@ -310,7 +321,7 @@ try {
 const report = {
   generatedAt: new Date().toISOString(),
   siteBase,
-  commit: "5aa2404",
+  commit: process.env.REELCALC_AUDIT_COMMIT || "working-tree",
   spinningBaseline: "/reel-pages/p/shimano-sedona-fj-2500",
   expectedSections,
   pagesExpected: cases.length,
@@ -331,7 +342,7 @@ const report = {
   }
 };
 fs.writeFileSync(
-  path.join(root, "reports", "baitcaster-pages-500-live-audit-2026-08-23.json"),
+  path.join(root, "reports", auditAllPages ? "all-reel-pages-live-audit.json" : "baitcaster-pages-500-live-audit-2026-08-23.json"),
   `${JSON.stringify(report, null, 2)}\n`
 );
 
@@ -340,7 +351,7 @@ if (failures.length) {
   throw new Error(`${failures.length} of ${cases.length} live baitcaster pages failed.`);
 }
 
-console.log("All live imported baitcaster pages passed.");
+console.log(auditAllPages ? "All registered live reel pages passed." : "All live imported baitcaster pages passed.");
 console.log(`- ${results.length} pages matched the gold-standard spinning section structure`);
 console.log("- Every page initialized the calculator, loaded blank line selectors, and completed a backing calculation");
 console.log("- Every page passed desktop and mobile overflow checks with no visible Squarespace commerce controls");

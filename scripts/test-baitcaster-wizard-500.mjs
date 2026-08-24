@@ -50,7 +50,7 @@ assert.equal(new Set(baitcasters.map((reel) => `${reel.brand.toLowerCase()}|${re
 assert.equal(spinning.length, 836);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(spinning)).digest("hex"),
-  "4490d5a94c1e21b95ea7b2ec2f7aea9600d1e8debf69e8317d42a166ec213d69",
+  "7d7ca02e9146daabe9a2b6e62171c017114e7a4ab3992642f494519b2b93246a",
   "Spinning reel records changed during baitcaster activation."
 );
 
