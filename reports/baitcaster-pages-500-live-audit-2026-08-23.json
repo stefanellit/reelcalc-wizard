@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-24T00:09:19.161Z",
+  "siteBase": "https://www.reelcalc.com",
+  "commit": "5aa2404",
+  "spinningBaseline": "/reel-pages/p/shimano-sedona-fj-2500",
+  "expectedSections": [
+    "introduction",
+    "quick-answer",
+    "who-is-this-reel-for",
+    "calculator",
+    "best-line-setup",
+    "line-capacity",
+    "specifications",
+    "faqs",
+    "related-resources",
+    "cta"
+  ],
+  "pagesExpected": 480,
+  "pagesPassed": 480,
+  "pagesFailed": 0,
+  "failures": [],
+  "checks": {
+    "liveHttp": "all pages",
+    "goldStandardStructure": "all pages",
+    "calculatorInitialization": "all pages",
+    "calculatorBackingSmokeTest": "all pages",
+    "lineSelectorsBlankAndLoaded": "all pages",
+    "exactWizardAndComparisonLinks": "all pages",
+    "productImages": "all pages",
+    "hiddenCommerceControls": "all pages",
+    "desktopOverflow": "all pages",
+    "mobileOverflow": "all pages"
+  }
+}

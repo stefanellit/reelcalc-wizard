@@ -19,6 +19,14 @@ const core = sandbox.window.ReelCalcCore;
 const engine = sandbox.window.ReelCalcRecommendations;
 const fishingTypes = ["trout", "bass", "walleye", "freshwater", "inshore", "surf"];
 const priorities = ["all-around", "distance", "sensitivity", "simplicity", "abrasion"];
+const techniqueBraidCaps = {
+  trout: { finesse: 10, "best-overall": 12, "casting-distance": 12, "heavy-cover": 15 },
+  bass: { finesse: 15, "best-overall": 40, "casting-distance": 30, "heavy-cover": 65 },
+  walleye: { finesse: 15, "best-overall": 30, "casting-distance": 30, "heavy-cover": 40 },
+  freshwater: { finesse: 15, "best-overall": 40, "casting-distance": 30, "heavy-cover": 65 },
+  inshore: { finesse: 30, "best-overall": 50, "casting-distance": 40, "heavy-cover": 80 },
+  surf: { "best-overall": 80, "casting-distance": 65, "heavy-cover": 100 },
+};
 
 function material(line) {
   const type = String(line?.type || "").toLowerCase();
@@ -118,6 +126,10 @@ for (const reel of baitcasters) {
 
   const braidRecommendationRange = range(reel.reelcalc_recommended_braid);
   const solidRecommendationRange = range(reel.reelcalc_recommended_mono_fluoro);
+  const publishedBraidMinimum = Math.min(...core.publishedBraidCapacityOptions(reel).map((option) => Number(option.lb)));
+  const allowedBraidMinimum = Number.isFinite(publishedBraidMinimum)
+    ? Math.min(braidRecommendationRange[0], publishedBraidMinimum)
+    : braidRecommendationRange[0];
   for (const fishingType of fishingTypes) {
     for (const priority of priorities) {
       recommendationScenarios += 1;
@@ -133,7 +145,15 @@ for (const reel of baitcasters) {
         assert.equal(cards.length, 0, `${reel.id}/${fishingType}: blocked path returned recommendations.`);
         continue;
       }
-      assert.ok(cards.length >= 3, `${reel.id}/${fishingType}/${priority}: too few recommendation choices.`);
+      assert.ok(cards.length >= 2, `${reel.id}/${fishingType}/${priority}: too few honest recommendation choices (${cards.map((card) => `${card.title}: ${card.line.lb} lb ${card.line.type}`).join(" | ")}).`);
+      const bestOverall = cards.find((card) => card.useCase === "best-overall" && material(card.line) === "braid");
+      const heavyCover = cards.find((card) => card.useCase === "heavy-cover" && material(card.line) === "braid");
+      if (bestOverall && heavyCover && braidRecommendationRange[1] > braidRecommendationRange[0]) {
+        assert.ok(
+          Number(bestOverall.line.lb) < Number(heavyCover.line.lb),
+          `${reel.id}/${fishingType}: Best Overall ${bestOverall.line.lb} lb must stay lighter than Heavy Cover ${heavyCover.line.lb} lb.`
+        );
+      }
       for (const card of cards) {
         assert.ok(Number.isFinite(card.capacityYards) && card.capacityYards > 0, `${reel.id}: invalid recommendation capacity.`);
         assert.doesNotMatch(card.explanation, /spinning reel/i, `${reel.id}: spinning wording leaked into baitcaster recommendation.`);
@@ -141,7 +161,11 @@ for (const reel of baitcasters) {
         if (cardMaterial === "braid") {
           if (card.capacityYards > 325) failures.push(`${reel.id}/${fishingType}/${card.title}: ${Math.round(card.capacityYards)} yd of ${card.line.lb} lb braid`);
           maximumRecommendedBraidYards = Math.max(maximumRecommendedBraidYards, card.capacityYards);
-          assert.ok(card.line.lb >= braidRecommendationRange[0], `${reel.id}: braid recommendation below configured minimum.`);
+          assert.ok(card.line.lb >= allowedBraidMinimum, `${reel.id}: braid recommendation below the lightest configured or published anchor.`);
+          const techniqueCap = Number(techniqueBraidCaps[fishingType]?.[card.useCase]);
+          if (techniqueCap > 0) {
+            assert.ok(card.line.lb <= techniqueCap, `${reel.id}/${fishingType}/${card.title}: ${card.line.lb} lb exceeds the ${techniqueCap} lb technique cap.`);
+          }
         }
         if (["mono", "fluorocarbon"].includes(cardMaterial)) {
           assert.ok(card.line.lb >= solidRecommendationRange[0] && card.line.lb <= solidRecommendationRange[1], `${reel.id}: solid-line recommendation outside configured range.`);
@@ -150,6 +174,50 @@ for (const reel of baitcasters) {
       }
     }
   }
+}
+
+for (const reelId of ["penn-fathom-500-fth500lp", "penn-fathom-500-fth500lphs"]) {
+  const reel = baitcasters.find((item) => item.id === reelId);
+  assert.ok(reel, `${reelId}: regression reel missing.`);
+  const bassCompatibility = engine.recommendationCompatibility(reel, "bass");
+  assert.equal(bassCompatibility.recommend, false, `${reelId}: heavy saltwater 500 must not produce an everyday bass Best Pick.`);
+  assert.match(bassCompatibility.message, /will not label 50-80 lb braid as an everyday Best Pick/i);
+  const bassCards = engine.recommendSetups({
+    reel,
+    lines,
+    fishingType: "bass",
+    priority: "all-around",
+    calculateFullSpoolCapacity: core.calculateFullSpoolCapacity,
+  });
+  assert.equal(bassCards.length, 0, `${reelId}: blocked bass path returned cards.`);
+  const inshoreCards = engine.recommendSetups({
+    reel,
+    lines,
+    fishingType: "inshore",
+    priority: "all-around",
+    calculateFullSpoolCapacity: core.calculateFullSpoolCapacity,
+  });
+  assert.ok(inshoreCards.length >= 3, `${reelId}: valid inshore path needs choices.`);
+  for (const card of inshoreCards.filter((item) => material(item.line) === "braid" && Number(item.line.lb) >= 40)) {
+    assert.doesNotMatch(card.explanation, /keeps the main line thin, sensitive, and easy to cast/i);
+  }
+}
+
+{
+  const reel = baitcasters.find((item) => item.id === "lew-s-team-lew-s-pro-ti-slp-series-pt1shg2");
+  assert.ok(reel, "Lew's Pro-Ti PT1SHG2 regression reel missing.");
+  const cards = engine.recommendSetups({
+    reel,
+    lines,
+    fishingType: "bass",
+    priority: "all-around",
+    calculateFullSpoolCapacity: core.calculateFullSpoolCapacity,
+  });
+  const bestOverall = cards.find((card) => card.useCase === "best-overall");
+  const heavyCover = cards.find((card) => card.useCase === "heavy-cover");
+  assert.equal(bestOverall?.line.lb, 30, "Lew's Pro-Ti Best Overall should use its lighter 30 lb published braid anchor.");
+  assert.equal(heavyCover?.line.lb, 40, "Lew's Pro-Ti Heavy Cover should step up to 40 lb braid.");
+  assert.ok(Number(bestOverall?.leaderLb) < Number(heavyCover?.leaderLb), "Lew's Pro-Ti leader choices should also distinguish all-around and heavy cover.");
 }
 
 assert.deepEqual(failures, [], `Unrealistic baitcaster braid recommendations:\n${failures.slice(0, 30).join("\n")}`);
