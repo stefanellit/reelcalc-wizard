@@ -147,7 +147,25 @@ for (const reel of baitcasters) {
       }
       assert.ok(cards.length >= 2, `${reel.id}/${fishingType}/${priority}: too few honest recommendation choices (${cards.map((card) => `${card.title}: ${card.line.lb} lb ${card.line.type}`).join(" | ")}).`);
       const bestOverall = cards.find((card) => card.useCase === "best-overall" && material(card.line) === "braid");
+      const castingDistance = cards.find((card) => card.useCase === "casting-distance" && material(card.line) === "braid");
       const heavyCover = cards.find((card) => card.useCase === "heavy-cover" && material(card.line) === "braid");
+      const reelClass = String(reel.baitcaster_class || "standard").toLowerCase();
+      const baitFinesse = ["bait_finesse", "bfs", "finesse"].includes(reelClass);
+      if (bestOverall && !baitFinesse) {
+        assert.ok(Number(bestOverall.capacityYards) >= 60, `${reel.id}/${fishingType}: Best Overall leaves only ${Math.round(bestOverall.capacityYards)} yd.`);
+      }
+      if (castingDistance) {
+        assert.ok(
+          !castingDistance.warnings.some((warning) => /capacity is low/i.test(String(warning))),
+          `${reel.id}/${fishingType}: Casting Distance warns against its own setup.`
+        );
+      }
+      if (bestOverall && castingDistance) {
+        assert.ok(
+          Number(castingDistance.capacityYards) + 1 >= Number(bestOverall.capacityYards),
+          `${reel.id}/${fishingType}: Casting Distance holds less line than Best Overall.`
+        );
+      }
       if (bestOverall && heavyCover && braidRecommendationRange[1] > braidRecommendationRange[0]) {
         assert.ok(
           Number(bestOverall.line.lb) < Number(heavyCover.line.lb),
@@ -218,6 +236,32 @@ for (const reelId of ["penn-fathom-500-fth500lp", "penn-fathom-500-fth500lphs"])
   assert.equal(bestOverall?.line.lb, 30, "Lew's Pro-Ti Best Overall should use its lighter 30 lb published braid anchor.");
   assert.equal(heavyCover?.line.lb, 40, "Lew's Pro-Ti Heavy Cover should step up to 40 lb braid.");
   assert.ok(Number(bestOverall?.leaderLb) < Number(heavyCover?.leaderLb), "Lew's Pro-Ti leader choices should also distinguish all-around and heavy cover.");
+}
+
+for (const reelId of [
+  "daiwa-steez-sv-light-tw-100-stzsvlt100h",
+  "daiwa-steez-sv-light-tw-100-stzsvlt100hl",
+  "daiwa-steez-sv-light-tw-100-stzsvlt100xxh",
+  "daiwa-steez-sv-light-tw-100-stzsvlt100xxhl",
+]) {
+  const reel = baitcasters.find((item) => item.id === reelId);
+  assert.ok(reel, `${reelId}: Steez SV Light regression reel missing.`);
+  const cards = engine.recommendSetups({
+    reel,
+    lines,
+    fishingType: "bass",
+    priority: "all-around",
+    calculateFullSpoolCapacity: core.calculateFullSpoolCapacity,
+  });
+  const bestOverall = cards.find((card) => card.useCase === "best-overall");
+  const castingDistance = cards.find((card) => card.useCase === "casting-distance");
+  const heavyCover = cards.find((card) => card.useCase === "heavy-cover");
+  assert.equal(bestOverall?.line.lb, 10, `${reelId}: Best Overall should use the stronger practical published anchor.`);
+  assert.ok(Number(bestOverall?.capacityYards) >= 100, `${reelId}: Best Overall should retain practical capacity.`);
+  assert.equal(castingDistance?.line.lb, 8, `${reelId}: Casting Distance should use the lighter published anchor.`);
+  assert.ok(Number(castingDistance?.capacityYards) > Number(bestOverall?.capacityYards), `${reelId}: Casting Distance should hold more line than Best Overall.`);
+  assert.equal(heavyCover?.line.lb, 15, `${reelId}: Heavy Cover should stop at the strongest line that retains practical capacity.`);
+  assert.ok(!cards.some((card) => card.warnings.some((warning) => /capacity is low/i.test(String(warning)))), `${reelId}: recommendation warns against its own setup.`);
 }
 
 assert.deepEqual(failures, [], `Unrealistic baitcaster braid recommendations:\n${failures.slice(0, 30).join("\n")}`);

@@ -203,7 +203,19 @@ for (const reel of reels.filter(isReady)) {
       }
       if (isBaitcaster(reel)) {
         const heavyCover = setups.find((setup) => setup.useCase === "heavy-cover" && String(setup.line.type).toLowerCase().includes("braid"));
+        const castingDistance = setups.find((setup) => setup.useCase === "casting-distance" && String(setup.line.type).toLowerCase().includes("braid"));
         const configuredRange = recommendedBraidRange(reel);
+        const reelClass = String(reel.baitcaster_class || "standard").toLowerCase();
+        const baitFinesse = ["bait_finesse", "bfs", "finesse"].includes(reelClass);
+        if (bestOverall && !baitFinesse && Number(bestOverall.capacityYards) < 60) {
+          allReadyFailures.push(`${reelLabel(reel)} / ${fishingType}: Best Overall leaves only ${Math.round(bestOverall.capacityYards)} yd on a standard baitcaster`);
+        }
+        if (castingDistance && castingDistance.warnings.some((warning) => /capacity is low/i.test(String(warning)))) {
+          allReadyFailures.push(`${reelLabel(reel)} / ${fishingType}: Casting Distance warns that its own line capacity is too low`);
+        }
+        if (bestOverall && castingDistance && Number(castingDistance.capacityYards) + 1 < Number(bestOverall.capacityYards)) {
+          allReadyFailures.push(`${reelLabel(reel)} / ${fishingType}: Casting Distance holds less line than Best Overall`);
+        }
         if (bestOverall && heavyCover && configuredRange && configuredRange[1] > configuredRange[0] && Number(bestOverall.line.lb) >= Number(heavyCover.line.lb)) {
           allReadyFailures.push(`${reelLabel(reel)} / ${fishingType}: Best Overall ${bestOverall.line.lb} lb is not lighter than Heavy Cover ${heavyCover.line.lb} lb`);
         }

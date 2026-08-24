@@ -381,23 +381,35 @@
 
     var mainRange = setupProfile.mainRange.slice();
     if (mainType === "Braid" && braidRange) {
-      var braidMiddle = commonStrengthAtOrAbove((braidRange[0] + braidRange[1]) / 2, braidRange[1]);
-      if (setupProfile.useCase === "heavy-cover") mainRange = [braidMiddle, braidRange[1]];
-      else if (setupProfile.useCase === "best-overall") mainRange = [braidRange[0], braidRange[0]];
-      else mainRange = [braidRange[0], braidRange[0]];
-      var fishingCaps = BAITCASTER_BRAID_MAX_BY_USE[fishingType] || {};
-      var useCap = Number(fishingCaps[setupProfile.useCase]);
-      if (useCap > 0) {
-        if (mainRange[0] > useCap) {
-          var core = global.ReelCalcCore || {};
-          var published = core.publishedBraidCapacityOptions ? core.publishedBraidCapacityOptions(reel) : [];
-          var lightestPublished = published.length
-            ? Math.min.apply(Math, published.map(function(option) { return Number(option.lb); }))
-            : 0;
-          if (!(lightestPublished > 0 && lightestPublished <= useCap)) return null;
-          mainRange = [commonStrengthAtOrAbove(lightestPublished, useCap), useCap];
+      var publishedReconciliation = reconciledBaitcasterBraidRange(
+        setupProfile,
+        reel,
+        lines,
+        fishingType,
+        braidRange
+      );
+      if (publishedReconciliation === false) return null;
+      if (publishedReconciliation) {
+        mainRange = publishedReconciliation;
+      } else {
+        var braidMiddle = commonStrengthAtOrAbove((braidRange[0] + braidRange[1]) / 2, braidRange[1]);
+        if (setupProfile.useCase === "heavy-cover") mainRange = [braidMiddle, braidRange[1]];
+        else if (setupProfile.useCase === "best-overall") mainRange = [braidRange[0], braidRange[0]];
+        else mainRange = [braidRange[0], braidRange[0]];
+        var fishingCaps = BAITCASTER_BRAID_MAX_BY_USE[fishingType] || {};
+        var useCap = Number(fishingCaps[setupProfile.useCase]);
+        if (useCap > 0) {
+          if (mainRange[0] > useCap) {
+            var core = global.ReelCalcCore || {};
+            var published = core.publishedBraidCapacityOptions ? core.publishedBraidCapacityOptions(reel) : [];
+            var lightestPublished = published.length
+              ? Math.min.apply(Math, published.map(function(option) { return Number(option.lb); }))
+              : 0;
+            if (!(lightestPublished > 0 && lightestPublished <= useCap)) return null;
+            mainRange = [commonStrengthAtOrAbove(lightestPublished, useCap), useCap];
+          }
+          mainRange = [Math.min(mainRange[0], useCap), Math.min(mainRange[1], useCap)];
         }
-        mainRange = [Math.min(mainRange[0], useCap), Math.min(mainRange[1], useCap)];
       }
     } else if ((mainType === "Monofilament" || mainType === "Fluorocarbon") && monoRange) {
       mainRange = monoRange.slice();
@@ -413,6 +425,73 @@
       leaderType: setupProfile.leaderType,
       leaderRange: leaderRange
     };
+  }
+
+  function genericBraidCapacity(reel, lines, lb) {
+    var core = global.ReelCalcCore || {};
+    var line = genericLine(lines, "Braid", lb);
+    if (!line) return 0;
+    var calibrated = core.actualLineBraidCapacityEstimate
+      ? core.actualLineBraidCapacityEstimate(reel, line, lines)
+      : null;
+    if (calibrated && Number(calibrated.centerYards) > 0) {
+      return Number(calibrated.centerYards);
+    }
+    return core.calculateFullSpoolCapacity
+      ? Number(core.calculateFullSpoolCapacity(reel, line, { lineCatalog: lines })) || 0
+      : 0;
+  }
+
+  function reconciledBaitcasterBraidRange(setupProfile, reel, lines, fishingType, configuredRange) {
+    var core = global.ReelCalcCore || {};
+    var published = core.publishedBraidCapacityOptions
+      ? core.publishedBraidCapacityOptions(reel)
+      : [];
+    if (!published.length) return null;
+
+    var publishedStrengths = published.map(function(option) {
+      return Number(option.lb);
+    }).filter(function(lb) {
+      return lb > 0;
+    }).sort(function(a, b) {
+      return a - b;
+    });
+    if (!publishedStrengths.length) return null;
+
+    var lightestPublished = publishedStrengths[0];
+    var strongestPublished = publishedStrengths[publishedStrengths.length - 1];
+    var configuredMinimum = Number(configuredRange[0]) || 0;
+    var configuredCapacity = genericBraidCapacity(reel, lines, configuredMinimum);
+    var bestOverallFloor = capacityTarget({ useCase: "best-overall" }, fishingType) * 0.8;
+
+    // Some shallow-spool reels inherit a broad class guideline that is heavier
+    // than every exact published braid rating. Reconcile only when that broad
+    // minimum would also leave an impractically small amount of line.
+    if (!(configuredMinimum > strongestPublished && configuredCapacity > 0 && configuredCapacity < bestOverallFloor)) {
+      return null;
+    }
+
+    if (setupProfile.useCase === "casting-distance" || setupProfile.useCase === "finesse") {
+      return [lightestPublished, lightestPublished];
+    }
+
+    if (setupProfile.useCase === "best-overall") {
+      return [strongestPublished, strongestPublished];
+    }
+
+    if (setupProfile.useCase === "heavy-cover") {
+      var heavyFloor = capacityTarget(setupProfile, fishingType) * 0.85;
+      var heavyOptions = COMMON_LB.filter(function(lb) {
+        return lb > strongestPublished && lb <= Number(configuredRange[1]);
+      }).filter(function(lb) {
+        return genericBraidCapacity(reel, lines, lb) >= heavyFloor;
+      });
+      if (!heavyOptions.length) return false;
+      var strongestPractical = heavyOptions[heavyOptions.length - 1];
+      return [strongestPractical, strongestPractical];
+    }
+
+    return null;
   }
 
   function recommendedBraidRange(reel, lines) {
