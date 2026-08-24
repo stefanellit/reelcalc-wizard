@@ -8,7 +8,8 @@
   var ASSET_ROOT = new URL("../", SCRIPT_URL);
   var state = {
     options: [],
-    optionByLabel: new Map(),
+    optionsByType: new Map(),
+    optionByReelId: new Map(),
     reelById: new Map(),
     pageByReelId: new Map(),
     reelA: null,
@@ -17,9 +18,9 @@
     affiliateData: null,
     completedPairIds: new Set(),
     restoringHistory: false,
-    combo: {
-      A: { matches: [], highlightedIndex: -1 },
-      B: { matches: [], highlightedIndex: -1 }
+    selectors: {
+      A: { type: "", brand: "", family: "", matches: [], highlightedIndex: -1, resultLimit: 12, lastQuery: "", debounceTimer: null, controls: null },
+      B: { type: "", brand: "", family: "", matches: [], highlightedIndex: -1, resultLimit: 12, lastQuery: "", debounceTimer: null, controls: null }
     },
     lines: [],
     lineRoles: {
@@ -29,14 +30,8 @@
   };
 
   var elements = {
-    inputA: document.getElementById("reel-a-input"),
-    inputB: document.getElementById("reel-b-input"),
-    toggleA: document.getElementById("reel-a-toggle"),
-    toggleB: document.getElementById("reel-b-toggle"),
-    optionsA: document.getElementById("reel-a-options"),
-    optionsB: document.getElementById("reel-b-options"),
-    selectionA: document.getElementById("reel-a-selection"),
-    selectionB: document.getElementById("reel-b-selection"),
+    selectorMountA: document.getElementById("reel-a-selector"),
+    selectorMountB: document.getElementById("reel-b-selector"),
     swap: document.getElementById("swap-reels"),
     copy: document.getElementById("copy-comparison"),
     reset: document.getElementById("reset-comparison"),
@@ -196,109 +191,368 @@
     );
   }
 
+  function reelTypeKey(reel) {
+    return /baitcast/i.test(String(reel && reel.reel_type || "")) ? "baitcasting" : "spinning";
+  }
+
+  function reelTypeLabel(reelOrType) {
+    var type = typeof reelOrType === "string" ? reelOrType : reelTypeKey(reelOrType);
+    return type === "baitcasting" ? "Baitcasting" : "Spinning";
+  }
+
+  function reelFamilyName(reel) {
+    return String(reel && reel.model || "").trim();
+  }
+
+  function normalizeSearch(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim()
+      .replace(/\s+/g, " ");
+  }
+
+  function compactSearch(value) {
+    return normalizeSearch(value).replace(/\s+/g, "");
+  }
+
+  function exactModelLabel(reel) {
+    var size = String(reel && reel.size_label || "").trim();
+    var sku = String(reel && reel.sku || "").trim();
+    if (!sku || compactSearch(size).includes(compactSearch(sku))) return size || sku || displayName(reel);
+    return size + " | " + sku;
+  }
+
+  function selectorMarkup(side) {
+    var id = side.toLowerCase();
+    var number = side === "A" ? "1" : "2";
+    return [
+      '<div class="rc-reel-selector">',
+      '<h3 class="rc-reel-selector-title" id="reel-', id, '-title">Reel ', number, "</h3>",
+      '<fieldset class="rc-reel-type-fieldset"><legend>Reel type</legend>',
+      '<div class="rc-reel-type-switch" role="group" aria-label="Reel ', number, ' type">',
+      '<button type="button" data-reel-type="spinning" aria-pressed="false">Spinning</button>',
+      '<button type="button" data-reel-type="baitcasting" aria-pressed="false">Baitcasting</button>',
+      "</div></fieldset>",
+      '<label for="reel-', id, '-input">Search for an exact reel</label>',
+      '<div class="rc-reel-combobox">',
+      '<input id="reel-', id, '-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="reel-', id, '-options" aria-describedby="reel-', id, '-search-help" autocomplete="off" placeholder="Choose a reel type first" disabled>',
+      '<div class="rc-reel-options" id="reel-', id, '-options" role="listbox" aria-label="Reel ', number, ' search results" hidden></div>',
+      "</div>",
+      '<p class="rc-selector-help" id="reel-', id, '-search-help">Choose Spinning or Baitcasting, then search by model, family, size, or model code.</p>',
+      '<button class="rc-browse-toggle" id="reel-', id, '-browse-toggle" type="button" aria-expanded="false" aria-controls="reel-', id, '-browse" disabled>Browse by brand</button>',
+      '<div class="rc-browse-fields" id="reel-', id, '-browse" hidden>',
+      '<label for="reel-', id, '-brand">Brand</label><select id="reel-', id, '-brand" disabled><option value="">Select brand</option></select>',
+      '<label for="reel-', id, '-family">Reel family</label><select id="reel-', id, '-family" disabled><option value="">Select family</option></select>',
+      '<label for="reel-', id, '-exact">Exact model / size</label><select id="reel-', id, '-exact" disabled><option value="">Select exact model / size</option></select>',
+      "</div>",
+      '<div class="rc-selected-reel" id="reel-', id, '-selected" hidden>',
+      '<div><span>Selected Reel</span><strong id="reel-', id, '-selection"></strong><small id="reel-', id, '-selection-detail"></small></div>',
+      '<button type="button" id="reel-', id, '-clear" aria-label="Clear Reel ', number, '">Clear</button>',
+      "</div></div>"
+    ].join("");
+  }
+
+  function mountReelSelector(side) {
+    var id = side.toLowerCase();
+    var mount = side === "A" ? elements.selectorMountA : elements.selectorMountB;
+    mount.innerHTML = selectorMarkup(side);
+    var controls = {
+      root: mount.querySelector(".rc-reel-selector"),
+      input: document.getElementById("reel-" + id + "-input"),
+      menu: document.getElementById("reel-" + id + "-options"),
+      help: document.getElementById("reel-" + id + "-search-help"),
+      typeButtons: Array.from(mount.querySelectorAll("[data-reel-type]")),
+      browseToggle: document.getElementById("reel-" + id + "-browse-toggle"),
+      browse: document.getElementById("reel-" + id + "-browse"),
+      brand: document.getElementById("reel-" + id + "-brand"),
+      family: document.getElementById("reel-" + id + "-family"),
+      exact: document.getElementById("reel-" + id + "-exact"),
+      selected: document.getElementById("reel-" + id + "-selected"),
+      selection: document.getElementById("reel-" + id + "-selection"),
+      selectionDetail: document.getElementById("reel-" + id + "-selection-detail"),
+      clear: document.getElementById("reel-" + id + "-clear")
+    };
+    state.selectors[side].controls = controls;
+    elements["input" + side] = controls.input;
+    elements["options" + side] = controls.menu;
+    elements["selection" + side] = controls.selection;
+  }
+
+  function mountReelSelectors() {
+    mountReelSelector("A");
+    mountReelSelector("B");
+  }
+
   function comboElements(side) {
-    return side === "A"
-      ? { input: elements.inputA, menu: elements.optionsA, toggle: elements.toggleA, selection: elements.selectionA }
-      : { input: elements.inputB, menu: elements.optionsB, toggle: elements.toggleB, selection: elements.selectionB };
+    return state.selectors[side].controls;
   }
 
   function currentReel(side) {
     return state[side === "A" ? "reelA" : "reelB"];
   }
 
-  function closeReelMenu(side) {
+  function optionForReel(reel) {
+    return reel ? state.optionByReelId.get(reel.id) || null : null;
+  }
+
+  function optionsForType(type) {
+    return state.optionsByType.get(type) || [];
+  }
+
+  function uniqueSorted(values) {
+    return Array.from(new Set(values.filter(Boolean))).sort(function(a, b) {
+      return a.localeCompare(b, undefined, { numeric: true });
+    });
+  }
+
+  function setSelectOptions(select, values, placeholder, selectedValue) {
+    select.innerHTML = '<option value="">' + escapeHtml(placeholder) + "</option>" + values.map(function(value) {
+      return '<option value="' + escapeHtml(value) + '">' + escapeHtml(value) + "</option>";
+    }).join("");
+    select.disabled = !values.length;
+    select.value = values.includes(selectedValue) ? selectedValue : "";
+  }
+
+  function syncTypeButtons(side) {
+    var selector = state.selectors[side];
     var controls = comboElements(side);
+    controls.typeButtons.forEach(function(button) {
+      var active = button.dataset.reelType === selector.type;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    var ready = Boolean(selector.type);
+    controls.input.disabled = !ready;
+    controls.browseToggle.disabled = !ready;
+    controls.input.placeholder = ready ? "Search model, family, size, or code" : "Choose a reel type first";
+    controls.help.textContent = ready
+      ? "Search " + reelTypeLabel(selector.type).toLowerCase() + " reels, or browse by brand below."
+      : "Choose Spinning or Baitcasting, then search by model, family, size, or model code.";
+  }
+
+  function populateBrands(side, selectedValue) {
+    var selector = state.selectors[side];
+    var brands = uniqueSorted(optionsForType(selector.type).map(function(option) { return option.reel.brand; }));
+    setSelectOptions(comboElements(side).brand, brands, "Select brand", selectedValue || selector.brand);
+    selector.brand = comboElements(side).brand.value;
+  }
+
+  function populateFamilies(side, selectedValue) {
+    var selector = state.selectors[side];
+    var families = uniqueSorted(optionsForType(selector.type).filter(function(option) {
+      return option.reel.brand === selector.brand;
+    }).map(function(option) { return option.family; }));
+    setSelectOptions(comboElements(side).family, families, "Select family", selectedValue || selector.family);
+    selector.family = comboElements(side).family.value;
+  }
+
+  function populateExactModels(side, selectedReelId) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    var exactOptions = optionsForType(selector.type).filter(function(option) {
+      return option.reel.brand === selector.brand && option.family === selector.family;
+    }).sort(function(a, b) {
+      return a.exactLabel.localeCompare(b.exactLabel, undefined, { numeric: true });
+    });
+    controls.exact.innerHTML = '<option value="">Select exact model / size</option>' + exactOptions.map(function(option) {
+      return '<option value="' + escapeHtml(option.reel.id) + '">' + escapeHtml(option.exactLabel) + "</option>";
+    }).join("");
+    controls.exact.disabled = !exactOptions.length;
+    controls.exact.value = exactOptions.some(function(option) { return option.reel.id === selectedReelId; }) ? selectedReelId : "";
+  }
+
+  function setSelectedSummary(side, reel) {
+    var controls = comboElements(side);
+    controls.selected.hidden = !reel;
+    controls.selection.textContent = reel ? displayName(reel) : "";
+    controls.selectionDetail.textContent = reel
+      ? reelTypeLabel(reel) + " | " + exactModelLabel(reel)
+      : "";
+  }
+
+  function syncSelectorFromReel(side, reel) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    if (!reel) {
+      controls.input.value = "";
+      selector.brand = "";
+      selector.family = "";
+      populateBrands(side, "");
+      setSelectOptions(controls.family, [], "Select family", "");
+      controls.exact.innerHTML = '<option value="">Select exact model / size</option>';
+      controls.exact.disabled = true;
+      setSelectedSummary(side, null);
+      return;
+    }
+    var option = optionForReel(reel);
+    selector.type = option ? option.type : reelTypeKey(reel);
+    selector.brand = reel.brand;
+    selector.family = option ? option.family : reelFamilyName(reel);
+    syncTypeButtons(side);
+    populateBrands(side, selector.brand);
+    populateFamilies(side, selector.family);
+    populateExactModels(side, reel.id);
+    controls.input.value = displayName(reel);
+    setSelectedSummary(side, reel);
+  }
+
+  function resetSelector(side, clearType) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    if (clearType) selector.type = "";
+    selector.brand = "";
+    selector.family = "";
+    selector.matches = [];
+    selector.highlightedIndex = -1;
+    selector.resultLimit = 12;
+    controls.input.value = "";
+    controls.input.removeAttribute("aria-activedescendant");
+    controls.browse.hidden = true;
+    controls.browseToggle.setAttribute("aria-expanded", "false");
+    controls.browseToggle.textContent = "Browse by brand";
+    setSelectedSummary(side, null);
+    syncTypeButtons(side);
+    populateBrands(side, "");
+    setSelectOptions(controls.family, [], "Select family", "");
+    controls.exact.innerHTML = '<option value="">Select exact model / size</option>';
+    controls.exact.disabled = true;
+  }
+
+  function closeReelMenu(side) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    if (selector.debounceTimer) window.clearTimeout(selector.debounceTimer);
+    selector.debounceTimer = null;
     controls.menu.hidden = true;
     controls.input.setAttribute("aria-expanded", "false");
-    state.combo[side].matches = [];
-    state.combo[side].highlightedIndex = -1;
+    controls.input.setAttribute("aria-busy", "false");
+    controls.input.removeAttribute("aria-activedescendant");
+    selector.matches = [];
+    selector.highlightedIndex = -1;
+  }
+
+  function searchScore(option, query) {
+    if (!query.normalized) return 1;
+    var fields = option.searchFields;
+    if (fields.id === query.normalized || fields.idCompact === query.compact) return 1200;
+    if (fields.skuCompact && fields.skuCompact === query.compact) return 1150;
+    if (fields.sizeCompact && fields.sizeCompact === query.compact) return 1100;
+    if (fields.label === query.normalized) return 1050;
+    if (fields.family === query.normalized) return 1000;
+    if (fields.label.startsWith(query.normalized)) return 900;
+    if (fields.family.startsWith(query.normalized) || fields.sku.startsWith(query.normalized) || fields.size.startsWith(query.normalized)) return 850;
+    var tokens = query.normalized.split(" ").filter(Boolean);
+    if (tokens.length && tokens.every(function(token) { return fields.all.includes(token); })) {
+      return 700 - Math.min(fields.all.indexOf(tokens[0]), 100);
+    }
+    if (query.compact && fields.allCompact.includes(query.compact)) return 600;
+    return -1;
+  }
+
+  function rankedSearchResults(side, entered) {
+    var selector = state.selectors[side];
+    var query = { normalized: normalizeSearch(entered), compact: compactSearch(entered) };
+    return optionsForType(selector.type).map(function(option) {
+      return { option: option, score: searchScore(option, query) };
+    }).filter(function(item) { return item.score >= 0; }).sort(function(a, b) {
+      return b.score - a.score || a.option.label.localeCompare(b.option.label, undefined, { numeric: true });
+    }).map(function(item) { return item.option; });
+  }
+
+  function renderReelMenu(side, entered) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    if (!selector.type) {
+      closeReelMenu(side);
+      return;
+    }
+    selector.lastQuery = entered;
+    var matches = rankedSearchResults(side, entered);
+    selector.matches = matches;
+    selector.highlightedIndex = -1;
+    var visible = matches.slice(0, selector.resultLimit);
+    var selectedReel = currentReel(side);
+    controls.menu.innerHTML = visible.length ? visible.map(function(option, index) {
+      var reel = option.reel;
+      var details = [reelTypeLabel(option.type), reel.size_label, reel.sku ? "Model " + reel.sku : ""].filter(Boolean).join(" | ");
+      return '<button id="reel-' + side.toLowerCase() + '-option-' + index + '" type="button" class="rc-reel-option" role="option" data-reel-id="' + escapeHtml(reel.id) + '" aria-selected="' +
+        String(Boolean(selectedReel && selectedReel.id === reel.id)) + '"><span>' + escapeHtml(displayName(reel)) +
+        '</span><small>' + escapeHtml(details) + "</small></button>";
+    }).join("") : '<p class="rc-no-reel-results">No matching ' + escapeHtml(reelTypeLabel(selector.type).toLowerCase()) + ' reels found. Try a family, size, or model code.</p>';
+    if (matches.length > visible.length) {
+      controls.menu.insertAdjacentHTML("beforeend", '<button type="button" class="rc-show-more-reels">Show 12 more</button>');
+    }
+    controls.menu.dataset.query = entered;
+    controls.menu.hidden = false;
+    controls.input.setAttribute("aria-expanded", "true");
+    controls.input.setAttribute("aria-busy", "false");
   }
 
   function openReelMenu(side, showAll) {
     var controls = comboElements(side);
-    var selectedReel = currentReel(side);
-    var selectedLabel = selectedReel ? optionLabel(selectedReel) : "";
+    var selected = currentReel(side);
     var entered = controls.input.value.trim();
-    var query = showAll || entered === selectedLabel ? "" : entered.toLowerCase();
-    var matches = state.options.filter(function(item) {
-      return !query || item.label.toLowerCase().includes(query);
-    });
-    state.combo[side].matches = matches;
-    state.combo[side].highlightedIndex = -1;
-    controls.menu.innerHTML = matches.length
-      ? matches.map(function(item) {
-          var reel = item.reel;
-          return '<button type="button" class="rc-reel-option" role="option" data-reel-id="' + escapeHtml(reel.id) + '" aria-selected="' +
-            String(Boolean(selectedReel && selectedReel.id === reel.id)) + '"><span>' + escapeHtml(displayName(reel)) +
-            '</span><small>' + escapeHtml(reel.sku ? "Model " + reel.sku : "") + "</small></button>";
-        }).join("")
-      : '<p class="rc-no-reel-results">No matching reels found.</p>';
-    controls.menu.hidden = false;
-    controls.input.setAttribute("aria-expanded", "true");
+    var query = showAll || (selected && entered === displayName(selected)) ? "" : entered;
+    state.selectors[side].resultLimit = 12;
+    renderReelMenu(side, query);
+  }
+
+  function debounceReelSearch(side) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    if (selector.debounceTimer) window.clearTimeout(selector.debounceTimer);
+    controls.input.setAttribute("aria-busy", "true");
+    selector.debounceTimer = window.setTimeout(function() {
+      selector.debounceTimer = null;
+      selector.resultLimit = 12;
+      renderReelMenu(side, controls.input.value);
+    }, 100);
   }
 
   function highlightReelOption(side, nextIndex) {
+    var selector = state.selectors[side];
     var controls = comboElements(side);
     var buttons = Array.from(controls.menu.querySelectorAll(".rc-reel-option"));
     if (!buttons.length) return;
     var index = Math.max(0, Math.min(nextIndex, buttons.length - 1));
-    state.combo[side].highlightedIndex = index;
+    selector.highlightedIndex = index;
     buttons.forEach(function(button, buttonIndex) {
       button.classList.toggle("is-highlighted", buttonIndex === index);
     });
+    controls.input.setAttribute("aria-activedescendant", buttons[index].id);
     buttons[index].scrollIntoView({ block: "nearest" });
   }
 
-  function chooseReel(side, reel) {
+  function chooseReel(side, reel, method) {
     if (!reel) return;
-    var controls = comboElements(side);
     var current = currentReel(side);
-    if (current && current.id === reel.id) {
-      setInputForReel(controls.input, reel);
-      closeReelMenu(side);
-      return;
-    }
     state[side === "A" ? "reelA" : "reelB"] = reel;
-    setInputForReel(controls.input, reel);
-    controls.selection.textContent = displayName(reel);
+    syncSelectorFromReel(side, reel);
     closeReelMenu(side);
-    trackEvent(
-      side === "A" ? "reel_comparison_reel_1_selected" : "reel_comparison_reel_2_selected",
-      comparisonData().selectorParameters(reel, pageForReel(reel), side === "A" ? "left" : "right")
-    );
-    renderComparison({
-      historyMode: "push",
-      comparisonSource: "manual_selection"
-    });
-  }
-
-  function selectedOption(input) {
-    var direct = state.optionByLabel.get(input.value.trim().toLowerCase());
-    if (direct) return direct;
-    var search = input.value.trim().toLowerCase();
-    if (!search) return null;
-    var matches = state.options.filter(function(item) {
-      return item.label.toLowerCase().includes(search);
-    });
-    return matches.length === 1 ? matches[0] : null;
-  }
-
-  function setInputForReel(input, reel) {
-    input.value = reel ? optionLabel(reel) : "";
-  }
-
-  function updateSelection(side) {
-    var controls = comboElements(side);
-    var option = selectedOption(controls.input);
-    var reel = option ? state.reelById.get(option.reelId) : null;
-    if (reel) {
-      chooseReel(side, reel);
-      return;
+    if (!current || current.id !== reel.id) {
+      var parameters = comparisonData().selectorParameters(reel, pageForReel(reel), side === "A" ? "left" : "right");
+      parameters.selection_method = method === "browse" ? "browse" : "search";
+      trackEvent(side === "A" ? "reel_comparison_reel_1_selected" : "reel_comparison_reel_2_selected", parameters);
     }
-    var existing = currentReel(side);
-    setInputForReel(controls.input, existing);
-    controls.selection.textContent = existing ? displayName(existing) : "Choose an exact reel from the search results.";
+    renderComparison({ historyMode: "push", comparisonSource: "manual_selection" });
+  }
+
+  function clearReel(side, options) {
+    var settings = options || {};
+    var previous = currentReel(side);
+    state[side === "A" ? "reelA" : "reelB"] = null;
+    resetSelector(side, !settings.preserveType);
     closeReelMenu(side);
+    renderComparison({ historyMode: settings.historyMode || "push", comparisonSource: "other" });
+    if (previous && settings.track !== false) {
+      trackEvent("reel_comparison_reel_cleared", {
+        reel_id: previous.id,
+        selector_position: side === "A" ? "left" : "right"
+      });
+    }
   }
 
   function reelHeading(reel, page) {
@@ -708,6 +962,9 @@
     elements.swap.disabled = !hasBothReels;
     elements.copy.disabled = !hasBothReels;
     elements.reset.disabled = !reelA && !reelB;
+    if (settings.historyMode && settings.historyMode !== "none") {
+      updateUrl(settings.historyMode);
+    }
     if (!reelA || !reelB) {
       elements.results.hidden = true;
       setStatus("Choose two exact reels to compare.", false);
@@ -760,16 +1017,14 @@
     elements.sources.innerHTML = sourceColumn(reelA, pageA, "left") + sourceColumn(reelB, pageB, "right");
     elements.results.hidden = false;
     setStatus("", false);
-    if (settings.historyMode && settings.historyMode !== "none") {
-      updateUrl(settings.historyMode);
-    }
     trackCompletedComparison(settings.comparisonSource || "other");
   }
 
   function applyComparisonParameters(url) {
-    if (!state.reelA || !state.reelB) return;
-    url.searchParams.set("reel1", state.reelA.id);
-    url.searchParams.set("reel2", state.reelB.id);
+    if (state.reelA) url.searchParams.set("reel1", state.reelA.id);
+    else url.searchParams.delete("reel1");
+    if (state.reelB) url.searchParams.set("reel2", state.reelB.id);
+    else url.searchParams.delete("reel2");
     if (state.lineRoles.main.line) url.searchParams.set("mainLine", state.lineRoles.main.line.id);
     else url.searchParams.delete("mainLine");
     if (state.lineRoles.backing.line) url.searchParams.set("backingLine", state.lineRoles.backing.line.id);
@@ -780,7 +1035,7 @@
   }
 
   function updateUrl(mode) {
-    if (!state.reelA || !state.reelB || state.reelA.id === state.reelB.id || state.restoringHistory) return;
+    if (state.restoringHistory) return;
     var url = new URL(window.location.href);
     applyComparisonParameters(url);
     if (url.href === window.location.href) return;
@@ -848,10 +1103,8 @@
     var previousB = state.reelB;
     state.reelA = null;
     state.reelB = null;
-    setInputForReel(elements.inputA, null);
-    setInputForReel(elements.inputB, null);
-    elements.selectionA.textContent = "Choose a reel.";
-    elements.selectionB.textContent = "Choose a reel.";
+    resetSelector("A", true);
+    resetSelector("B", true);
     closeReelMenu("A");
     closeReelMenu("B");
 
@@ -871,70 +1124,132 @@
     }
   }
 
+  function setSelectorType(side, type) {
+    var selector = state.selectors[side];
+    var controls = comboElements(side);
+    var selected = currentReel(side);
+    var incompatible = selected && reelTypeKey(selected) !== type;
+    closeReelMenu(side);
+    selector.type = type;
+    if (incompatible) {
+      clearReel(side, { preserveType: true, historyMode: "push" });
+    } else if (selected) {
+      syncSelectorFromReel(side, selected);
+    } else {
+      resetSelector(side, false);
+    }
+    syncTypeButtons(side);
+  }
+
   function installReelCombo(side) {
+    var selector = state.selectors[side];
     var controls = comboElements(side);
 
-    function openAllAndSelect() {
-      var selected = currentReel(side);
-      controls.input.focus();
-      if (selected && controls.input.value === optionLabel(selected)) controls.input.select();
-      openReelMenu(side, true);
-    }
-
-    controls.toggle.addEventListener("mousedown", function(event) {
-      event.preventDefault();
+    controls.typeButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        setSelectorType(side, button.dataset.reelType);
+      });
     });
-    controls.toggle.addEventListener("click", openAllAndSelect);
+
     controls.input.addEventListener("focus", function() {
       var selected = currentReel(side);
-      if (selected && controls.input.value === optionLabel(selected)) controls.input.select();
+      if (selected && controls.input.value === displayName(selected)) controls.input.select();
       openReelMenu(side, true);
     });
     controls.input.addEventListener("click", function() {
       var selected = currentReel(side);
-      if (selected && controls.input.value === optionLabel(selected)) controls.input.select();
+      if (selected && controls.input.value === displayName(selected)) controls.input.select();
       openReelMenu(side, true);
     });
     controls.input.addEventListener("input", function() {
-      openReelMenu(side, false);
+      debounceReelSearch(side);
     });
     controls.input.addEventListener("keydown", function(event) {
-      var comboState = state.combo[side];
       if (event.key === "ArrowDown" || event.key === "ArrowUp") {
         event.preventDefault();
         if (controls.menu.hidden) openReelMenu(side, false);
         var direction = event.key === "ArrowDown" ? 1 : -1;
-        var startingIndex = comboState.highlightedIndex < 0
-          ? (direction > 0 ? 0 : comboState.matches.length - 1)
-          : comboState.highlightedIndex + direction;
+        var visibleCount = controls.menu.querySelectorAll(".rc-reel-option").length;
+        var startingIndex = selector.highlightedIndex < 0
+          ? (direction > 0 ? 0 : visibleCount - 1)
+          : selector.highlightedIndex + direction;
         highlightReelOption(side, startingIndex);
         return;
       }
       if (event.key === "Enter") {
         event.preventDefault();
-        var highlighted = comboState.matches[comboState.highlightedIndex];
-        if (highlighted) chooseReel(side, highlighted.reel);
-        else updateSelection(side);
+        var highlighted = selector.matches[selector.highlightedIndex];
+        if (highlighted) chooseReel(side, highlighted.reel, "search");
+        else if (selector.matches.length === 1) chooseReel(side, selector.matches[0].reel, "search");
         return;
       }
       if (event.key === "Escape") {
         event.preventDefault();
-        setInputForReel(controls.input, currentReel(side));
+        var selected = currentReel(side);
+        controls.input.value = selected ? displayName(selected) : controls.input.value;
         closeReelMenu(side);
       }
     });
     controls.input.addEventListener("blur", function() {
       window.setTimeout(function() {
-        if (!controls.menu.contains(document.activeElement)) updateSelection(side);
-      }, 120);
+        var activeElement = document.activeElement;
+        if (activeElement !== controls.input && !controls.menu.contains(activeElement)) {
+          var selected = currentReel(side);
+          if (selected) controls.input.value = displayName(selected);
+          closeReelMenu(side);
+        }
+      }, 140);
     });
     controls.menu.addEventListener("mousedown", function(event) {
-      if (event.target.closest(".rc-reel-option")) event.preventDefault();
+      if (event.target.closest("button")) event.preventDefault();
     });
     controls.menu.addEventListener("click", function(event) {
+      var showMore = event.target.closest(".rc-show-more-reels");
+      if (showMore) {
+        selector.resultLimit += 12;
+        renderReelMenu(side, selector.lastQuery);
+        controls.input.focus();
+        return;
+      }
       var button = event.target.closest(".rc-reel-option");
       if (!button) return;
-      chooseReel(side, state.reelById.get(button.dataset.reelId));
+      chooseReel(side, state.reelById.get(button.dataset.reelId), "search");
+    });
+
+    controls.browseToggle.addEventListener("click", function() {
+      var expanded = controls.browseToggle.getAttribute("aria-expanded") === "true";
+      controls.browseToggle.setAttribute("aria-expanded", String(!expanded));
+      controls.browseToggle.textContent = expanded ? "Browse by brand" : "Hide browse options";
+      controls.browse.hidden = expanded;
+      if (!expanded) controls.brand.focus();
+    });
+
+    controls.brand.addEventListener("change", function() {
+      var value = controls.brand.value;
+      var selected = currentReel(side);
+      if (selected && selected.brand !== value) clearReel(side, { preserveType: true, historyMode: "push" });
+      selector.brand = value;
+      controls.brand.value = value;
+      selector.family = "";
+      populateFamilies(side, "");
+      populateExactModels(side, "");
+    });
+    controls.family.addEventListener("change", function() {
+      var value = controls.family.value;
+      var selected = currentReel(side);
+      var selectedOption = optionForReel(selected);
+      if (selected && selectedOption && selectedOption.family !== value) clearReel(side, { preserveType: true, historyMode: "push" });
+      selector.family = value;
+      controls.family.value = value;
+      populateExactModels(side, "");
+    });
+    controls.exact.addEventListener("change", function() {
+      var reel = state.reelById.get(controls.exact.value) || null;
+      if (reel) chooseReel(side, reel, "browse");
+    });
+    controls.clear.addEventListener("click", function() {
+      clearReel(side, { preserveType: true, historyMode: "push" });
+      controls.input.focus();
     });
   }
 
@@ -952,10 +1267,8 @@
       var oldA = state.reelA;
       state.reelA = state.reelB;
       state.reelB = oldA;
-      setInputForReel(elements.inputA, state.reelA);
-      setInputForReel(elements.inputB, state.reelB);
-      elements.selectionA.textContent = displayName(state.reelA);
-      elements.selectionB.textContent = displayName(state.reelB);
+      syncSelectorFromReel("A", state.reelA);
+      syncSelectorFromReel("B", state.reelB);
       renderComparison({ historyMode: "push", comparisonSource: "other" });
     });
     elements.copy.addEventListener("click", copyComparisonLink);
@@ -1077,10 +1390,10 @@
     var secondId = params.get("reel2") || "";
     state.reelA = firstId ? state.reelById.get(firstId) || null : null;
     state.reelB = secondId ? state.reelById.get(secondId) || null : null;
-    setInputForReel(elements.inputA, state.reelA);
-    setInputForReel(elements.inputB, state.reelB);
-    elements.selectionA.textContent = state.reelA ? displayName(state.reelA) : "Choose a reel.";
-    elements.selectionB.textContent = state.reelB ? displayName(state.reelB) : "Choose a reel.";
+    if (state.reelA) syncSelectorFromReel("A", state.reelA);
+    else resetSelector("A", true);
+    if (state.reelB) syncSelectorFromReel("B", state.reelB);
+    else resetSelector("B", true);
     renderComparison({ historyMode: "none", comparisonSource: source || "other" });
     if ((firstId && !state.reelA) || (secondId && !state.reelB)) {
       setStatus("One reel in this shared comparison is unavailable. Choose a replacement reel to continue.", true);
@@ -1100,6 +1413,7 @@
 
   async function initialize() {
     try {
+      mountReelSelectors();
       if (!window.ReelCalcCore || !window.ReelCalcLineSelector || !window.ReelCalcComparisonData) {
         throw new Error("The ReelCalc calculation engine could not be loaded.");
       }
@@ -1121,13 +1435,41 @@
       state.pageByReelId = new Map(registry.pages.map(function(page) { return [page.reelId, page]; }));
       state.options = registry.pages.map(function(page) {
         var reel = state.reelById.get(page.reelId);
-        return reel ? { reelId: reel.id, reel: reel, label: optionLabel(reel) } : null;
+        if (!reel) return null;
+        var type = reelTypeKey(reel);
+        var family = reelFamilyName(reel);
+        var label = optionLabel(reel);
+        var searchable = [reel.brand, reel.model, reel.size_label, reel.sku, reel.id, reel.generation, reel.gear_ratio, reel.retrieve_hand].filter(Boolean).join(" ");
+        return {
+          reelId: reel.id,
+          reel: reel,
+          label: label,
+          type: type,
+          family: family,
+          exactLabel: exactModelLabel(reel),
+          searchFields: {
+            label: normalizeSearch(displayName(reel)),
+            family: normalizeSearch(family),
+            sku: normalizeSearch(reel.sku),
+            skuCompact: compactSearch(reel.sku),
+            size: normalizeSearch(reel.size_label),
+            sizeCompact: compactSearch(reel.size_label),
+            id: normalizeSearch(reel.id),
+            idCompact: compactSearch(reel.id),
+            all: normalizeSearch(searchable),
+            allCompact: compactSearch(searchable)
+          }
+        };
       }).filter(Boolean).sort(function(a, b) {
         return a.label.localeCompare(b.label, undefined, { numeric: true });
       });
-      state.optionByLabel = new Map(state.options.map(function(option) {
-        return [option.label.toLowerCase(), option];
+      state.optionByReelId = new Map(state.options.map(function(option) {
+        return [option.reel.id, option];
       }));
+      state.optionsByType = new Map([
+        ["spinning", state.options.filter(function(option) { return option.type === "spinning"; })],
+        ["baitcasting", state.options.filter(function(option) { return option.type === "baitcasting"; })]
+      ]);
       installEvents();
       var initialParams = new URLSearchParams(window.location.search);
       var initialSource = initialParams.get("reel1") && initialParams.get("reel2")

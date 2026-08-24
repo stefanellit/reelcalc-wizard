@@ -79,6 +79,7 @@ assert.deepEqual(
     family: pageA.family,
     model: reelA.sku,
     size: reelA.size_label,
+    reel_type: "spinning",
     selector_position: "left"
   }
 );
@@ -94,6 +95,7 @@ for (const eventName of [
   "reel_comparison_reel_1_selected",
   "reel_comparison_reel_2_selected",
   "reel_comparison_link_copied",
+  "reel_comparison_reel_cleared",
   "reel_comparison_reset",
   "reel_comparison_reel_page_clicked",
   "reel_comparison_wizard_clicked",

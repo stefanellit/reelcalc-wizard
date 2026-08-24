@@ -37,6 +37,10 @@
     return clean(reel && reel.sku) || clean(reel && reel.model);
   }
 
+  function reelType(reel) {
+    return /baitcast/i.test(clean(reel && reel.reel_type)) ? "baitcasting" : "spinning";
+  }
+
   function normalizedPairId(firstId, secondId) {
     var ids = [clean(firstId), clean(secondId)];
     if (!ids[0] || !ids[1] || ids[0] === ids[1]) return "";
@@ -51,6 +55,7 @@
     output[prefix + "_family"] = reelFamily(reel, page);
     output[prefix + "_model"] = reelModel(reel);
     output[prefix + "_size"] = clean(reel && reel.size_label);
+    output[prefix + "_type"] = reelType(reel);
     return output;
   }
 
@@ -77,6 +82,7 @@
       family: reelFamily(reel, page),
       model: reelModel(reel),
       size: clean(reel && reel.size_label),
+      reel_type: reelType(reel),
       selector_position: position === "left" ? "left" : "right"
     };
   }
@@ -138,6 +144,7 @@
     normalizedPairId: normalizedPairId,
     reelFamily: reelFamily,
     reelModel: reelModel,
+    reelType: reelType,
     reelParameters: reelParameters,
     comparisonParameters: comparisonParameters,
     selectorParameters: selectorParameters,

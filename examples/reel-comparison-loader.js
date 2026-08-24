@@ -34,25 +34,13 @@
         <h2 id="compare-heading" class="rc-visually-hidden">Choose two reels</h2>
         <div class="rc-selector-grid">
           <div class="rc-selector-field">
-            <label for="reel-a-input">First reel</label>
-            <div class="rc-reel-combobox">
-              <input id="reel-a-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="reel-a-options" autocomplete="off" placeholder="Search brand, model, or size">
-              <button class="rc-reel-menu-toggle" id="reel-a-toggle" type="button" aria-label="Open first reel list" title="Open reel list">&#9662;</button>
-              <div class="rc-reel-options" id="reel-a-options" role="listbox" hidden></div>
-            </div>
-            <p id="reel-a-selection" class="rc-selection-note"></p>
+            <div id="reel-a-selector" data-reel-selector="A"></div>
           </div>
 
           <button class="rc-swap-button" id="swap-reels" type="button" aria-label="Swap selected reels" title="Swap selected reels" disabled>&#8644;</button>
 
           <div class="rc-selector-field">
-            <label for="reel-b-input">Second reel</label>
-            <div class="rc-reel-combobox">
-              <input id="reel-b-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="reel-b-options" autocomplete="off" placeholder="Search brand, model, or size">
-              <button class="rc-reel-menu-toggle" id="reel-b-toggle" type="button" aria-label="Open second reel list" title="Open reel list">&#9662;</button>
-              <div class="rc-reel-options" id="reel-b-options" role="listbox" hidden></div>
-            </div>
-            <p id="reel-b-selection" class="rc-selection-note"></p>
+            <div id="reel-b-selector" data-reel-selector="B"></div>
           </div>
         </div>
 
