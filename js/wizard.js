@@ -11,6 +11,7 @@ const {
   LB_PER_KG,
   monoDiameter,
   estimateMonoLbFromDiameter,
+  publishedBraidCapacityOptions,
   calculatePublishedBraidCapacity,
   calculateBraidCapacityRange,
   calculateActualLineBraidCapacityRange,
@@ -1028,6 +1029,14 @@ function getVisibleReelWarnings(values) {
   }).filter(Boolean);
 }
 
+function formatPublishedBraidNote(reel) {
+  var options = publishedBraidCapacityOptions(reel);
+  if (!options.length) return String(reel && reel.braid_capacity_note || "");
+  return options.map(function(option) {
+    return formatNumber(option.lb, 0) + " lb / " + formatNumber(option.yards, 0) + " yd";
+  }).join(", ");
+}
+
 function renderReelSummary() {
   var reel = getActiveReel();
   if (state.useManualReel && !state.manualReel) {
@@ -1065,7 +1074,7 @@ function renderReelSummary() {
     html += "<div><span>" + diameterLabel + "</span><strong>" + formatDiameterWithUnit(reel.rated_line_diameter_in) + "</strong></div>";
     var capacityNote = reel.id === "manual-reel" ? formatManualReelCapacityNote(reel.capacity_yards, reel.rated_line_lb, reel.rated_line_diameter_in, reel.manual_reel_entry_mode) : reel.capacity_note;
     if (capacityNote) html += "<div><span>Printed capacity</span><strong>" + escapeHtml(capacityNote) + "</strong></div>";
-    if (reel.braid_capacity_note) html += "<div><span>Braid note</span><strong>" + escapeHtml(reel.braid_capacity_note) + "</strong></div>";
+    if (reel.braid_capacity_note) html += "<div><span>Braid capacity</span><strong>" + escapeHtml(formatPublishedBraidNote(reel)) + "</strong></div>";
   } else {
     html += "<div class=\"tiny-note\">This reel is missing required capacity data. Manual entry is required.</div>";
   }

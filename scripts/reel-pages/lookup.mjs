@@ -53,17 +53,19 @@ export function resolveReel(reels, query) {
   return { status: "not-found", matches: [] };
 }
 
-export function parseCapacityNote(value) {
+export function parseCapacityNote(value, { yardsFirstSlash = false } = {}) {
   const text = String(value || "");
   const rows = [];
-  const pattern = /(PE\s*#?\s*)?(\d+(?:\.\d+)?)\s*(?:lb\s*)?[-/]\s*(\d+(?:\.\d+)?)\s*(m|yds?|yards?)?/gi;
+  const pattern = /(PE\s*#?\s*)?(\d+(?:\.\d+)?)\s*(?:lb\s*)?([-\/])\s*(\d+(?:\.\d+)?)\s*(m|yds?|yards?)?/gi;
   let match;
   while ((match = pattern.exec(text)) !== null) {
     const ratingType = match[1] ? "PE" : "lb";
-    const sourceLength = Number(match[3]);
-    const sourceUnit = /^m$/i.test(match[4] || "") ? "m" : "yd";
+    const reverseSlashPair = ratingType === "lb" && yardsFirstSlash && match[3] === "/";
+    const strength = Number(reverseSlashPair ? match[4] : match[2]);
+    const sourceLength = Number(reverseSlashPair ? match[2] : match[4]);
+    const sourceUnit = /^m$/i.test(match[5] || "") ? "m" : "yd";
     rows.push({
-      lb: Number(match[2]),
+      lb: strength,
       yards: sourceUnit === "m" ? Math.round(sourceLength * 1.0936133 * 10) / 10 : sourceLength,
       ratingType,
       sourceLength,
@@ -83,7 +85,10 @@ export function normalizeReel(reel) {
           diameterIn: Number(item.diameter_in) || null
         }))
     : [];
-  const braidCapacities = parseCapacityNote(reel.braid_capacity_note);
+  const yardsFirstSlash = ["okuma", "pflueger", "quantum"].includes(
+    String(reel.brand || "").trim().toLowerCase()
+  );
+  const braidCapacities = parseCapacityNote(reel.braid_capacity_note, { yardsFirstSlash });
 
   return {
     id: reel.id,

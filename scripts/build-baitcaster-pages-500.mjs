@@ -189,6 +189,11 @@ for (const page of newPages) {
       who: generated.model.who,
       setupIntro: generated.model.setupIntro,
       setupRows: generated.model.recommendation.rows,
+      capacityIntro: generated.model.capacityIntro,
+      capacityRows: generated.model.capacityRows,
+      monoText: generated.model.monoText,
+      braidText: generated.model.braidText,
+      faqCapacity: generated.model.faqCapacity,
       specsIntro: generated.model.specsIntro
     }
   };

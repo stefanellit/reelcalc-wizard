@@ -241,8 +241,46 @@
       }
     }
 
+    var capacity = description.querySelector('[data-section="line-capacity"]');
+    if (capacity) {
+      var capacityIntro = capacity.querySelector("p");
+      if (capacityIntro && content.capacityIntro) capacityIntro.textContent = content.capacityIntro;
+      var capacityBody = capacity.querySelector("table tbody");
+      if (capacityBody && Array.isArray(content.capacityRows)) {
+        capacityBody.replaceChildren();
+        content.capacityRows.forEach(function(row) {
+          var tr = document.createElement("tr");
+          [row.type || "", row.ratingLabel || (row.lb ? row.lb + " lb" : ""), row.capacityLabel || (row.yards ? row.yards + " yards" : "")].forEach(function(value) {
+            var td = document.createElement("td");
+            td.textContent = value;
+            tr.appendChild(td);
+          });
+          capacityBody.appendChild(tr);
+        });
+      }
+    }
+
     var specs = firstParagraph("specifications");
     if (specs && content.specsIntro) specs.textContent = content.specsIntro;
+    var specsSection = description.querySelector('[data-section="specifications"]');
+    if (specsSection) {
+      Array.from(specsSection.querySelectorAll("table tbody tr")).forEach(function(row) {
+        var cells = row.querySelectorAll("td");
+        if (cells.length < 2) return;
+        var label = cells[0].textContent.trim().toLowerCase();
+        if (label === "mono capacity" && content.monoText) cells[1].textContent = content.monoText;
+        if (label === "braid capacity" && content.braidText) cells[1].textContent = content.braidText;
+      });
+    }
+
+    var faqSection = description.querySelector('[data-section="faqs"]');
+    if (faqSection && content.faqCapacity) {
+      Array.from(faqSection.querySelectorAll("h3")).forEach(function(heading) {
+        if (heading.textContent.trim().toLowerCase().indexOf("how much line does") !== 0) return;
+        var answer = heading.nextElementSibling;
+        if (answer && answer.tagName === "P") answer.textContent = content.faqCapacity;
+      });
+    }
   }
 
   function decorateDescription(description, entry) {
@@ -544,7 +582,7 @@
 
     var slug = loaderScript.dataset.pageSlug ||
       decodeURIComponent(location.pathname.split("/").filter(Boolean).pop() || "");
-    fetch(assetUrl("data/reel-page-embeds.json?v=5"), { credentials: "omit" })
+    fetch(assetUrl("data/reel-page-embeds.json?v=7"), { credentials: "omit" })
       .then(function(response) {
         if (!response.ok) throw new Error("Reel page mapping returned HTTP " + response.status + ".");
         return response.json();
