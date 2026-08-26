@@ -250,7 +250,11 @@
         capacityBody.replaceChildren();
         content.capacityRows.forEach(function(row) {
           var tr = document.createElement("tr");
-          [row.type || "", row.ratingLabel || (row.lb ? row.lb + " lb" : ""), row.capacityLabel || (row.yards ? row.yards + " yards" : "")].forEach(function(value) {
+          [
+            row.type || "",
+            row.ratingLabel || (row.lb ? row.lb + " lb" : ""),
+            row.capacityLabel || (row.yards ? row.yards + " yards" : "")
+          ].forEach(function(value) {
             var td = document.createElement("td");
             td.textContent = value;
             tr.appendChild(td);
@@ -582,7 +586,7 @@
 
     var slug = loaderScript.dataset.pageSlug ||
       decodeURIComponent(location.pathname.split("/").filter(Boolean).pop() || "");
-    fetch(assetUrl("data/reel-page-embeds.json?v=7"), { credentials: "omit" })
+    fetch(assetUrl("data/reel-page-embeds.json?v=8"), { credentials: "omit" })
       .then(function(response) {
         if (!response.ok) throw new Error("Reel page mapping returned HTTP " + response.status + ".");
         return response.json();
@@ -602,7 +606,7 @@
         });
 
         return Promise.all([
-          loadScript("js/reel-page-calculator.js?v=7", "ReelCalcReelPageCalculator"),
+          loadScript("js/reel-page-calculator.js?v=8", "ReelCalcReelPageCalculator"),
           loadScript("js/reel-page-runtime.js?v=3", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();
