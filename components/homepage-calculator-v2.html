@@ -1,0 +1,145 @@
+<div class="calculator-container" id="reelcalc-homepage-calculator">
+<h2>Fishing Reel Backing + Line Capacity Calculator</h2>
+
+<!--  STANDARD / METRIC (segmented toggle) -->
+<div class="toggle-row">
+  <div class="segmented" id="unitSegment" aria-label="Units">
+    <button type="button" class="seg-btn active" data-unit="standard">Standard</button>
+    <button type="button" class="seg-btn" data-unit="metric">Metric</button>
+  </div>
+</div>
+
+<!-- Calculator mode -->
+<div class="toggle-row" style="margin-top:-2px;">
+  <div class="segmented" id="modeSegment" aria-label="Calculator Mode">
+    <button type="button" class="seg-btn active" data-mode="backing">Backing Mode</button>
+    <button type="button" class="seg-btn" data-mode="capacity">Capacity Only</button>
+  </div>
+</div>
+
+<div class="toggle-subtext" id="modeSubtext">
+  <span id="modeBadge" class="mode-badge badge-backing">BACKING MODE</span>
+  Backing mode is selected: calculate backing + your chosen working line length.
+</div>
+
+<div class="calc-group group-reel">
+  <div class="step-heading">
+    <h3>Step 1: Reel Specs</h3>
+    <button type="button" class="info-btn" data-help-toggle="step1Help" aria-expanded="false" aria-controls="step1Help" aria-label="Help with reel specifications">&#9432;</button>
+  </div>
+  <p class="step-intro" id="step1Intro">Enter both Mono and Braid ratings when available for the most accurate result. One complete rating is enough to calculate.</p>
+  <div class="step-help hidden" id="step1Help">
+    <p>Find the reel's line-capacity specifications on the spool, box, manual, or manufacturer's specifications.</p>
+    <p id="step1RatingExample">Most reels list pound test and capacity, such as 10 lb / 150 yards. Enter that information normally.</p>
+    <p>If the reel lists diameter instead, select "My reel lists diameter" and enter the printed diameter. Enter both Mono and Braid ratings when both are available.</p>
+  </div>
+
+  <div class="rating-columns">
+    <div class="rating-column">
+      <h4>Mono Capacity</h4>
+      <label for="monoStrength">Rated line strength (<span class="strengthUnit">lb</span>)</label>
+      <input id="monoStrength" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="10">
+      <label for="monoCapacity">Capacity amount (<span class="lengthUnit">yards</span>)</label>
+      <input id="monoCapacity" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="130">
+      <label class="rating-diameter-toggle" for="monoUseDiameter">
+        <input id="monoUseDiameter" type="checkbox" data-rating-diameter-toggle="mono">
+        <span>My reel lists diameter</span>
+      </label>
+      <div class="rating-diameter-fields hidden" id="monoDiameterWrap">
+        <label for="monoDiameter">Printed diameter (<span class="diaUnit">in</span>)</label>
+        <input id="monoDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.012">
+        <div class="field-message" id="monoDiameterMessage" aria-live="polite"></div>
+      </div>
+      <div class="pair-message" id="monoRatingMessage" aria-live="polite"></div>
+    </div>
+
+    <div class="rating-column">
+      <h4>Braid Capacity</h4>
+      <label for="braidStrength">Rated line strength (<span class="strengthUnit">lb</span>)</label>
+      <input id="braidStrength" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="15">
+      <label for="braidCapacity">Capacity amount (<span class="lengthUnit">yards</span>)</label>
+      <input id="braidCapacity" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="170">
+      <label class="rating-diameter-toggle" for="braidUseDiameter">
+        <input id="braidUseDiameter" type="checkbox" data-rating-diameter-toggle="braid">
+        <span>My reel lists diameter</span>
+      </label>
+      <div class="rating-diameter-fields hidden" id="braidDiameterWrap">
+        <label for="braidDiameter">Printed diameter (<span class="diaUnit">in</span>)</label>
+        <input id="braidDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.008">
+        <div class="field-message" id="braidDiameterMessage" aria-live="polite"></div>
+      </div>
+      <div class="pair-message" id="braidRatingMessage" aria-live="polite"></div>
+    </div>
+  </div>
+</div>
+
+<div class="calc-group group-premium">
+  <div class="step-heading">
+    <h3>Step 2: Main Line</h3>
+    <button type="button" class="info-btn" data-help-toggle="step2Help" aria-expanded="false" aria-controls="step2Help" aria-label="Help with main line">&#9432;</button>
+  </div>
+  <p class="step-intro" id="step2Intro">Enter the line you plan to put on the reel and how much of it you want to use.</p>
+  <div class="step-help hidden" id="step2Help">
+    <p>Choose Braid for braided main line. Choose Mono / Fluoro for monofilament or fluorocarbon.</p>
+    <p id="step2DiameterHelp">Enter the line's published diameter from its package or manufacturer specifications. Example: 0.006 in.</p>
+    <p id="step2ModeHelp">Enter how much main line you want over the backing. Example: 165 yards of 0.006 in braid.</p>
+  </div>
+
+  <div class="segmented material-segment" id="workingTypeSegment" aria-label="Working line type">
+    <button type="button" class="seg-btn active" data-line-type="mono">Mono / Fluoro</button>
+    <button type="button" class="seg-btn" data-line-type="braid">Braid</button>
+  </div>
+
+  <label for="mainDiameter">Main Line Diameter (<span class="diaUnit">in</span>)</label>
+  <input id="mainDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.006">
+  <div class="field-message" id="mainDiameterMessage" aria-live="polite"></div>
+
+  <div id="mainAmountWrap">
+    <label for="mainAmount">Main Line Amount (<span class="lengthUnit">yards</span>)</label>
+    <input id="mainAmount" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="150">
+    <div class="field-message" id="mainAmountMessage" aria-live="polite"></div>
+  </div>
+</div>
+
+<div class="calc-group group-backing" id="backingGroup">
+  <div class="step-heading">
+    <h3>Step 3: Backing</h3>
+    <button type="button" class="info-btn" data-help-toggle="step3Help" aria-expanded="false" aria-controls="step3Help" aria-label="Help with backing">&#9432;</button>
+  </div>
+  <p class="step-intro" id="step3Intro">Select your backing line type and enter its diameter. ReelCalc will calculate how much backing you need underneath your chosen main-line amount.</p>
+  <div class="step-help hidden" id="step3Help">
+    <p>Backing is the line underneath the main line. Choose Mono / Fluoro when the backing is mono or fluorocarbon, or Braid when it is braided line.</p>
+    <p>Enter the backing line's published diameter. You do not enter a backing amount because ReelCalc calculates it.</p>
+    <p id="step3DiameterExample">Example: 0.012 in mono backing.</p>
+  </div>
+
+  <div class="segmented material-segment" id="backingTypeSegment" aria-label="Backing line type">
+    <button type="button" class="seg-btn active" data-line-type="mono">Mono / Fluoro</button>
+    <button type="button" class="seg-btn" data-line-type="braid">Braid</button>
+  </div>
+
+  <label for="backingDiameter">Backing Diameter (<span class="diaUnit">in</span>)</label>
+  <input id="backingDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.012">
+  <div class="field-message" id="backingDiameterMessage" aria-live="polite"></div>
+</div>
+
+<label for="reelIPT" style="margin-top:10px;">Reel <span id="iptUnitLabel">inches</span> per turn (optional)</label>
+<input id="reelIPT" type="number" inputmode="decimal" min="0" step="any" value="" placeholder="34">
+<div class="field-message" id="reelIPTMessage" aria-live="polite"></div>
+
+<div class="form-message" id="formMessage" aria-live="polite"></div>
+<button type="button" id="calculateButton">Calculate</button>
+
+<div id="output" aria-live="polite"></div>
+<div class="result-tools hidden" id="resultTools">
+  <button type="button" class="copy-results-btn" id="copyResultsButton">Copy Results</button>
+  <div class="result-feedback">
+    <p class="feedback-question">Was this result helpful?</p>
+    <div class="feedback-actions" role="group" aria-label="Rate this calculator result">
+      <button type="button" class="feedback-btn" id="feedbackHelpful" data-feedback="thumbs_up" aria-label="Yes, this result was helpful" aria-pressed="false" title="Helpful">&#128077;</button>
+      <button type="button" class="feedback-btn" id="feedbackNotHelpful" data-feedback="thumbs_down" aria-label="No, this result was not helpful" aria-pressed="false" title="Not helpful">&#128078;</button>
+    </div>
+  </div>
+  <div class="result-action-status" id="resultActionStatus" aria-live="polite"></div>
+</div>
+</div>
