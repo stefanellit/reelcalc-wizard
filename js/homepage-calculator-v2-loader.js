@@ -9,13 +9,30 @@
     if (!host || host.dataset.reelcalcLoaderStarted === "true") return;
     host.dataset.reelcalcLoaderStarted = "true";
 
-    var version = loaderScript.dataset.version || "1";
+    var forcedVersion = loaderScript.dataset.version || "";
+    var version = "1";
     var baseUrl = loaderScript.dataset.assetBase
         ? new URL(loaderScript.dataset.assetBase, loaderScript.src).href
         : new URL("../", loaderScript.src).href;
 
     function assetUrl(relativePath) {
         return new URL(relativePath, baseUrl).href + "?v=" + encodeURIComponent(version);
+    }
+
+    function loadReleaseVersion() {
+        if (forcedVersion) return Promise.resolve(forcedVersion);
+        var releaseUrl = new URL("data/homepage-calculator-release.json", baseUrl);
+        releaseUrl.searchParams.set("t", String(Date.now()));
+        return fetch(releaseUrl.href, {
+            cache: "no-store",
+            credentials: "omit"
+        }).then(function(response) {
+            if (!response.ok) throw new Error("Calculator release returned HTTP " + response.status + ".");
+            return response.json();
+        }).then(function(release) {
+            if (!release || !release.version) throw new Error("Calculator release version is missing.");
+            return String(release.version);
+        });
     }
 
     function showError() {
@@ -72,7 +89,11 @@
         });
     }
 
-    Promise.all([loadStylesheet(), loadTemplate()])
+    loadReleaseVersion()
+        .then(function(releaseVersion) {
+            version = releaseVersion;
+            return Promise.all([loadStylesheet(), loadTemplate()]);
+        })
         .then(loadCalculatorScript)
         .then(function() {
             host.dataset.reelcalcReady = "true";
