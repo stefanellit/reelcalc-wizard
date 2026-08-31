@@ -808,7 +808,7 @@
     var affiliatesUrl = mount.dataset.affiliatesUrl ? new URL(mount.dataset.affiliatesUrl, document.baseURI).href : assetUrl("data/reel-affiliates.json");
 
     Promise.all([
-      loadScript("js/calculator-core.js?v=6", "ReelCalcCore"),
+      loadScript("js/calculator-core.js?v=8", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
       loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
       loadJson(reelsUrl),

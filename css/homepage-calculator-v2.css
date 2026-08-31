@@ -181,6 +181,21 @@
     opacity: 0.75;
 }
 
+#reelcalc-homepage-calculator .setup-choice{
+    margin:10px 0 14px;
+}
+#reelcalc-homepage-calculator .setup-choice .toggle-row{
+    margin-bottom:8px;
+}
+#reelcalc-homepage-calculator .setup-description{
+    max-width:560px;
+    margin:0 auto;
+    color:rgba(0,0,0,0.72);
+    font-size:13px;
+    line-height:1.45;
+    text-align:center;
+}
+
 /* =========================================================
     SEGMENTED TOGGLES (colored like you asked)
    ========================================================= */
@@ -210,6 +225,12 @@
 }
 
 #reelcalc-homepage-calculator .seg-btn:active{ transform: scale(0.99); }
+
+#reelcalc-homepage-calculator #setupSegment .seg-btn.active{
+    background:rgba(46,125,104,0.18);
+    color:#174b3e;
+    box-shadow:0 0 0 1px rgba(46,125,104,0.16) inset;
+}
 
 /* Unit toggle: Standard (reddish), Metric (bluish) */
 #reelcalc-homepage-calculator #unitSegment .seg-btn.active[data-unit="standard"]{
@@ -292,6 +313,26 @@
     grid-template-columns:minmax(0,1fr) minmax(0,1fr);
     gap:16px;
 }
+#reelcalc-homepage-calculator .rating-columns.simple-layout{
+    grid-template-columns:minmax(0,1fr);
+}
+#reelcalc-homepage-calculator .rating-columns.simple-layout .rating-column{
+    border-left:0;
+    padding-left:0;
+}
+#reelcalc-homepage-calculator .simple-rating-choice{
+    margin:0 0 12px;
+}
+#reelcalc-homepage-calculator .simple-rating-choice > label{
+    margin:0 0 6px;
+}
+#reelcalc-homepage-calculator #simpleRatingSegment{
+    max-width:360px;
+}
+#reelcalc-homepage-calculator #simpleRatingSegment .seg-btn.active{
+    background:rgba(52,152,219,0.18);
+    color:#174b3e;
+}
 #reelcalc-homepage-calculator .rating-column + .rating-column{
     border-left:1px solid rgba(52,152,219,0.22);
     padding-left:16px;
@@ -301,6 +342,33 @@
     font-size:13px;
 }
 #reelcalc-homepage-calculator .rating-column label{ margin-top:10px; }
+#reelcalc-homepage-calculator .field-with-unit{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 88px;
+    gap:8px;
+    margin-top:5px;
+}
+#reelcalc-homepage-calculator .field-with-unit input{
+    min-width:0;
+    margin-top:0;
+}
+#reelcalc-homepage-calculator .field-unit{
+    width:100%;
+    min-width:0;
+    margin:0;
+    padding:8px 26px 8px 8px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+    background:#fff;
+    color:rgba(0,0,0,0.78);
+    font:inherit;
+    font-weight:700;
+}
+#reelcalc-homepage-calculator .field-unit:focus-visible{
+    outline:2px solid #1976a8;
+    outline-offset:1px;
+}
 #reelcalc-homepage-calculator .rating-diameter-toggle{
     align-items:center;
     color:rgba(0,0,0,0.7);

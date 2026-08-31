@@ -71,11 +71,11 @@ try {
     await page.locator("#mainLineYards").fill("150");
     await page.locator("#mainLineYards").dispatchEvent("change");
     const thinBackingText = await page.locator("#backingResult").innerText();
-    assert.match(thinBackingText, /Best backing estimate:\s*307\.8 yards/i);
+    assert.match(thinBackingText, /Best backing estimate:\s*303\.6 yards/i);
 
     await page.locator("#lineLb").selectOption("40");
     const thickBackingText = await page.locator("#backingResult").innerText();
-    assert.match(thickBackingText, /Best backing estimate:\s*182\.8 yards/i);
+    assert.match(thickBackingText, /Best backing estimate:\s*180\.3 yards/i);
 
     await page.goto(
       `http://127.0.0.1:4173/?reel=lew-s-kvd-spinning-reel-300-kvd300-340&browser-test=kvd-${viewport.name}`,

@@ -166,7 +166,7 @@
 
   function versionedUrl(url) {
     var value = new URL(url);
-    if (assetVersion) value.searchParams.set("v", assetVersion);
+    value.searchParams.set("v", assetVersion || "shared-engine-8");
     return value.href;
   }
 

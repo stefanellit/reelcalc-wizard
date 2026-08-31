@@ -1,6 +1,16 @@
 <div class="calculator-container" id="reelcalc-homepage-calculator">
 <h2>Fishing Reel Backing + Line Capacity Calculator</h2>
 
+<div class="setup-choice">
+  <div class="toggle-row">
+    <div class="segmented" id="setupSegment" aria-label="Setup detail">
+      <button type="button" class="seg-btn active" data-setup="simple">Simple Setup</button>
+      <button type="button" class="seg-btn" data-setup="detailed">Detailed Setup</button>
+    </div>
+  </div>
+  <p class="setup-description" id="setupDescription">Use Simple Setup for a quick estimate when you have one line-capacity rating from your reel.</p>
+</div>
+
 <!--  STANDARD / METRIC (segmented toggle) -->
 <div class="toggle-row">
   <div class="segmented" id="unitSegment" aria-label="Units">
@@ -27,45 +37,89 @@
     <h3>Step 1: Reel Specs</h3>
     <button type="button" class="info-btn" data-help-toggle="step1Help" aria-expanded="false" aria-controls="step1Help" aria-label="Help with reel specifications">&#9432;</button>
   </div>
-  <p class="step-intro" id="step1Intro">Enter both Mono and Braid ratings when available for the most accurate result. One complete rating is enough to calculate.</p>
+  <p class="step-intro" id="step1Intro">Enter one complete Mono or Braid capacity rating from your reel.</p>
   <div class="step-help hidden" id="step1Help">
     <p>Find the reel's line-capacity specifications on the spool, box, manual, or manufacturer's specifications.</p>
-    <p id="step1RatingExample">Most reels list pound test and capacity, such as 10 lb / 150 yards. Enter that information normally.</p>
-    <p>If the reel lists diameter instead, select "My reel lists diameter" and enter the printed diameter. Enter both Mono and Braid ratings when both are available.</p>
+    <p id="step1RatingExample">Choose the unit beside each field to match the reel exactly. Mixed units are okay, such as 8 lb / 200 yards / 0.28 mm.</p>
+    <p id="step1MoreRatingHelp">If the reel lists diameter instead, select "My reel lists diameter" and enter the printed diameter.</p>
   </div>
 
-  <div class="rating-columns">
-    <div class="rating-column">
+  <div class="simple-rating-choice" id="simpleRatingChoice">
+    <label>Rating shown on your reel</label>
+    <div class="segmented" id="simpleRatingSegment" aria-label="Reel rating type">
+      <button type="button" class="seg-btn active" data-simple-rating="mono">Mono</button>
+      <button type="button" class="seg-btn" data-simple-rating="braid">Braid</button>
+    </div>
+  </div>
+
+  <div class="rating-columns simple-layout" id="ratingColumns">
+    <div class="rating-column" id="monoRatingColumn">
       <h4>Mono Capacity</h4>
-      <label for="monoStrength">Rated line strength (<span class="strengthUnit">lb</span>)</label>
-      <input id="monoStrength" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="10">
-      <label for="monoCapacity">Capacity amount (<span class="lengthUnit">yards</span>)</label>
-      <input id="monoCapacity" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="130">
+      <label for="monoStrength">Rated line strength</label>
+      <div class="field-with-unit">
+        <input id="monoStrength" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="8">
+        <select id="monoStrengthUnit" class="field-unit" data-rating-unit="mono" aria-label="Mono strength unit">
+          <option value="lb" selected>lb</option>
+          <option value="kg">kg</option>
+        </select>
+      </div>
+      <label for="monoCapacity">Capacity amount</label>
+      <div class="field-with-unit">
+        <input id="monoCapacity" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="200">
+        <select id="monoCapacityUnit" class="field-unit" data-rating-unit="mono" aria-label="Mono capacity unit">
+          <option value="yards" selected>yards</option>
+          <option value="meters">meters</option>
+        </select>
+      </div>
       <label class="rating-diameter-toggle" for="monoUseDiameter">
         <input id="monoUseDiameter" type="checkbox" data-rating-diameter-toggle="mono">
         <span>My reel lists diameter</span>
       </label>
       <div class="rating-diameter-fields hidden" id="monoDiameterWrap">
-        <label for="monoDiameter">Printed diameter (<span class="diaUnit">in</span>)</label>
-        <input id="monoDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.012">
+        <label for="monoDiameter">Printed diameter</label>
+        <div class="field-with-unit">
+          <input id="monoDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.28">
+          <select id="monoDiameterUnit" class="field-unit" data-rating-unit="mono" aria-label="Mono diameter unit">
+            <option value="mm" selected>mm</option>
+            <option value="in">in</option>
+          </select>
+        </div>
         <div class="field-message" id="monoDiameterMessage" aria-live="polite"></div>
       </div>
       <div class="pair-message" id="monoRatingMessage" aria-live="polite"></div>
     </div>
 
-    <div class="rating-column">
+    <div class="rating-column hidden" id="braidRatingColumn">
       <h4>Braid Capacity</h4>
-      <label for="braidStrength">Rated line strength (<span class="strengthUnit">lb</span>)</label>
-      <input id="braidStrength" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="15">
-      <label for="braidCapacity">Capacity amount (<span class="lengthUnit">yards</span>)</label>
-      <input id="braidCapacity" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="170">
+      <label for="braidStrength">Rated line strength</label>
+      <div class="field-with-unit">
+        <input id="braidStrength" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="15">
+        <select id="braidStrengthUnit" class="field-unit" data-rating-unit="braid" aria-label="Braid strength unit">
+          <option value="lb" selected>lb</option>
+          <option value="kg">kg</option>
+        </select>
+      </div>
+      <label for="braidCapacity">Capacity amount</label>
+      <div class="field-with-unit">
+        <input id="braidCapacity" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="250">
+        <select id="braidCapacityUnit" class="field-unit" data-rating-unit="braid" aria-label="Braid capacity unit">
+          <option value="yards" selected>yards</option>
+          <option value="meters">meters</option>
+        </select>
+      </div>
       <label class="rating-diameter-toggle" for="braidUseDiameter">
         <input id="braidUseDiameter" type="checkbox" data-rating-diameter-toggle="braid">
         <span>My reel lists diameter</span>
       </label>
       <div class="rating-diameter-fields hidden" id="braidDiameterWrap">
-        <label for="braidDiameter">Printed diameter (<span class="diaUnit">in</span>)</label>
-        <input id="braidDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.008">
+        <label for="braidDiameter">Printed diameter</label>
+        <div class="field-with-unit">
+          <input id="braidDiameter" type="number" inputmode="decimal" step="any" autocomplete="off" placeholder="0.20">
+          <select id="braidDiameterUnit" class="field-unit" data-rating-unit="braid" aria-label="Braid diameter unit">
+            <option value="mm" selected>mm</option>
+            <option value="in">in</option>
+          </select>
+        </div>
         <div class="field-message" id="braidDiameterMessage" aria-live="polite"></div>
       </div>
       <div class="pair-message" id="braidRatingMessage" aria-live="polite"></div>

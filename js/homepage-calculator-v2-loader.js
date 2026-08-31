@@ -66,6 +66,24 @@
         });
     }
 
+    function loadSharedEngine() {
+        if (window.ReelCalcCore) return Promise.resolve(window.ReelCalcCore);
+        return new Promise(function(resolve, reject) {
+            var script = document.createElement("script");
+            script.src = assetUrl("js/calculator-core.js");
+            script.async = true;
+            script.onload = function() {
+                if (!window.ReelCalcCore) {
+                    reject(new Error("Shared calculation engine did not initialize."));
+                    return;
+                }
+                resolve(window.ReelCalcCore);
+            };
+            script.onerror = reject;
+            document.head.appendChild(script);
+        });
+    }
+
     function loadCalculatorScript() {
         if (window.ReelCalcHomepageCalculator) {
             window.ReelCalcHomepageCalculator.initialize();
@@ -94,6 +112,7 @@
             version = releaseVersion;
             return Promise.all([loadStylesheet(), loadTemplate()]);
         })
+        .then(loadSharedEngine)
         .then(loadCalculatorScript)
         .then(function() {
             host.dataset.reelcalcReady = "true";

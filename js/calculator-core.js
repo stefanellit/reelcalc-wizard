@@ -4,6 +4,21 @@
   var YARDS_PER_METER = 1.0936132983;
   var MM_PER_INCH = 25.4;
   var LB_PER_KG = 2.2046226218;
+  var ENGINE_VERSION = "2026.08-dual-anchor-v1";
+  var LARGE_EXTRAPOLATION_MIN_RATIO = 0.75;
+  var LARGE_EXTRAPOLATION_MAX_RATIO = 1 / LARGE_EXTRAPOLATION_MIN_RATIO;
+  var MONO_RATING_DIAMETERS_IN = {
+    2: 0.006, 4: 0.008, 6: 0.0095, 8: 0.011, 10: 0.012,
+    12: 0.014, 15: 0.015, 20: 0.018, 25: 0.019, 30: 0.022,
+    40: 0.025, 50: 0.028, 60: 0.031, 80: 0.035, 100: 0.04,
+    120: 0.044
+  };
+  var BRAID_RATING_DIAMETERS_IN = {
+    2: 0.003, 3: 0.0035, 4: 0.004, 6: 0.005, 8: 0.005,
+    10: 0.006, 12: 0.007, 15: 0.008, 20: 0.009, 25: 0.01,
+    30: 0.011, 40: 0.013, 50: 0.014, 60: 0.0155, 65: 0.016,
+    80: 0.017, 100: 0.02, 120: 0.022
+  };
 
   function yardsToMeters(yards) {
     return Number(yards) / YARDS_PER_METER;
@@ -29,18 +44,39 @@
     return Number(mm) / MM_PER_INCH;
   }
 
+  function normalizedRatingType(type) {
+    return String(type || "").toLowerCase().indexOf("braid") !== -1 ? "braid" : "mono";
+  }
+
+  function assumedRatingDiameter(type, strengthLb) {
+    var table = normalizedRatingType(type) === "braid"
+      ? BRAID_RATING_DIAMETERS_IN
+      : MONO_RATING_DIAMETERS_IN;
+    var strengths = Object.keys(table).map(Number).sort(function(a, b) { return a - b; });
+    var lb = Number(strengthLb);
+    if (!(lb > 0)) return null;
+    if (table[lb]) return table[lb];
+
+    if (lb < strengths[0]) {
+      return table[strengths[0]] * Math.sqrt(lb / strengths[0]);
+    }
+    var maximum = strengths[strengths.length - 1];
+    if (lb > maximum) {
+      return table[maximum] * Math.sqrt(lb / maximum);
+    }
+
+    for (var index = 1; index < strengths.length; index += 1) {
+      var high = strengths[index];
+      if (lb > high) continue;
+      var low = strengths[index - 1];
+      var fraction = (lb - low) / (high - low);
+      return table[low] + (table[high] - table[low]) * fraction;
+    }
+    return null;
+  }
+
   function monoDiameter(lb) {
-    if (lb <= 2) return 0.006;
-    if (lb <= 4) return 0.008;
-    if (lb <= 6) return 0.0095;
-    if (lb <= 8) return 0.011;
-    if (lb <= 10) return 0.012;
-    if (lb <= 12) return 0.014;
-    if (lb <= 15) return 0.015;
-    if (lb <= 20) return 0.018;
-    if (lb <= 25) return 0.019;
-    if (lb <= 30) return 0.022;
-    return 0.025;
+    return assumedRatingDiameter("mono", lb);
   }
 
   function estimateMonoLbFromDiameter(diameterIn) {
@@ -54,6 +90,167 @@
     if (!(capacityYards > 0) || !(ratedLineDiameterIn > 0) || !(selectedLineDiameterIn > 0)) return null;
     var totalSpoolSpace = capacityYards * ratedLineDiameterIn * ratedLineDiameterIn;
     return totalSpoolSpace / (selectedLineDiameterIn * selectedLineDiameterIn);
+  }
+
+  function resolveCapacityRating(requestedType, ratings) {
+    var requested = normalizedRatingType(requestedType);
+    var available = ratings || {};
+    if (available[requested]) {
+      return {
+        rating: available[requested],
+        requestedType: requested,
+        anchorType: requested,
+        fallback: false
+      };
+    }
+    var alternate = requested === "braid" ? "mono" : "braid";
+    if (available[alternate]) {
+      return {
+        rating: available[alternate],
+        requestedType: requested,
+        anchorType: alternate,
+        fallback: true
+      };
+    }
+    return null;
+  }
+
+  function capacityFromRating(rating, lineDiameterIn) {
+    if (!rating) return null;
+    return calculateLineCapacityFromDiameter(
+      Number(rating.capacityYards),
+      Number(rating.referenceDiameterIn),
+      Number(lineDiameterIn)
+    );
+  }
+
+  function estimateSetup(options) {
+    var settings = options || {};
+    var fullWorkingCapacityYards = capacityFromRating(
+      settings.workingRating,
+      settings.workingDiameterIn
+    );
+    if (!(fullWorkingCapacityYards > 0)) return { error: "invalid_working_rating" };
+
+    if (settings.capacityOnly) {
+      return {
+        engineVersion: ENGINE_VERSION,
+        calculationMethod: "capacity-from-matching-rating",
+        fullWorkingCapacityYards: fullWorkingCapacityYards,
+        backingYards: null,
+        workingFraction: null,
+        backingFraction: null
+      };
+    }
+
+    var desired = Number(settings.workingYards);
+    if (!(desired >= 0)) return { error: "invalid_working_amount" };
+    var workingFraction = desired / fullWorkingCapacityYards;
+    if (workingFraction > 1 + 1e-10) {
+      return {
+        error: "working_exceeds_capacity",
+        engineVersion: ENGINE_VERSION,
+        calculationMethod: "dual-anchor-fraction",
+        fullWorkingCapacityYards: fullWorkingCapacityYards,
+        workingFraction: workingFraction
+      };
+    }
+
+    var fullBackingCapacityYards = capacityFromRating(
+      settings.backingRating,
+      settings.backingDiameterIn
+    );
+    if (!(fullBackingCapacityYards > 0)) return { error: "invalid_backing_rating" };
+    var backingFraction = Math.max(0, 1 - workingFraction);
+    return {
+      engineVersion: ENGINE_VERSION,
+      calculationMethod: "dual-anchor-fraction",
+      fullWorkingCapacityYards: fullWorkingCapacityYards,
+      fullBackingCapacityYards: fullBackingCapacityYards,
+      workingFraction: workingFraction,
+      backingFraction: backingFraction,
+      backingYards: fullBackingCapacityYards * backingFraction
+    };
+  }
+
+  function likelyDiameterSuggestion(value, metric) {
+    var amount = Number(value);
+    if (!(amount > 0)) return null;
+    if (metric) {
+      if (amount >= 10 && amount < 100) return amount / 100;
+      if (amount >= 100 && amount < 1000) return amount / 1000;
+      return null;
+    }
+    if (amount >= 1 && amount < 1000) return amount / 1000;
+    if (amount >= 0.25 && amount < 1) return amount / 10;
+    return null;
+  }
+
+  function formatSuggestedDiameter(value, metric) {
+    var decimals = metric
+      ? (value < 0.1 ? 3 : 2)
+      : (value < 0.01 ? 4 : 3);
+    return Number(value).toFixed(decimals);
+  }
+
+  function assessDiameter(value, metric, warningAccepted) {
+    var amount = Number(value);
+    if (!Number.isFinite(amount)) {
+      return { valid: false, kind: "missing", message: "Enter a numeric diameter." };
+    }
+    if (!(amount > 0)) {
+      return { valid: false, kind: "error", message: "Diameter must be greater than zero." };
+    }
+
+    var diameterMm = metric ? amount : amount * MM_PER_INCH;
+    var suggestion = likelyDiameterSuggestion(amount, metric);
+    if (suggestion && suggestion > 0 && suggestion * (metric ? 1 : MM_PER_INCH) <= 3) {
+      var unit = metric ? "mm" : "in";
+      var formatted = formatSuggestedDiameter(suggestion, metric);
+      if (!warningAccepted) {
+        return {
+          valid: false,
+          kind: "warning",
+          suggestion: suggestion,
+          message: "That diameter looks unusually high. Did you mean " + formatted + " " + unit + "?"
+        };
+      }
+    }
+
+    if (diameterMm > 20) {
+      return {
+        valid: false,
+        kind: "error",
+        message: "That diameter is too large to be a realistic fishing-line diameter."
+      };
+    }
+
+    if ((diameterMm > 3 || diameterMm < 0.01) && !warningAccepted) {
+      return {
+        valid: false,
+        kind: "warning",
+        message: "That diameter is unusual for fishing line. Check the decimal and unit before continuing."
+      };
+    }
+
+    return {
+      valid: true,
+      kind: (diameterMm > 3 || diameterMm < 0.01) ? "warning" : "",
+      message: (diameterMm > 3 || diameterMm < 0.01) ? "Using the unusual diameter you confirmed." : "",
+      diameterIn: diameterMm / MM_PER_INCH
+    };
+  }
+
+  function diameterExtrapolation(referenceDiameterIn, selectedDiameterIn) {
+    var reference = Number(referenceDiameterIn);
+    var selected = Number(selectedDiameterIn);
+    if (!(reference > 0) || !(selected > 0)) return { large: false, direction: "unknown", ratio: null };
+    var ratio = selected / reference;
+    return {
+      large: ratio < LARGE_EXTRAPOLATION_MIN_RATIO || ratio > LARGE_EXTRAPOLATION_MAX_RATIO,
+      direction: ratio < LARGE_EXTRAPOLATION_MIN_RATIO ? "thinner" : ratio > LARGE_EXTRAPOLATION_MAX_RATIO ? "thicker" : "similar",
+      ratio: ratio
+    };
   }
 
   function isReelReady(reel) {
@@ -184,6 +381,7 @@
   function capacityRangeIncrement(yards) {
     if (yards >= 1000) return 25;
     if (yards >= 500) return 10;
+    if (yards < 50) return 1;
     return 5;
   }
 
@@ -543,15 +741,31 @@
     };
   }
 
-  function calculateBackingForBasis(reel, basis, mainLine, desiredMainLineYards, backingLine) {
+  function ratingFromBasis(basis, line) {
+    var diameter = Number(line && line.dia_in);
+    if (!basis || !(Number(basis.capacityYards) > 0) || !(diameter > 0)) return null;
+    return {
+      capacityYards: Number(basis.capacityYards),
+      referenceDiameterIn: diameter,
+      type: normalizedRatingType(line && line.type),
+      basis: basis
+    };
+  }
+
+  function calculateBackingForBases(reel, basis, backingBasis, mainLine, desiredMainLineYards, backingLine) {
     var mainDiameter = Number(mainLine && mainLine.dia_in);
     var backingDiameter = Number(backingLine && backingLine.dia_in);
     var desired = Number(desiredMainLineYards);
-    if (!basis || !(mainDiameter > 0) || !(backingDiameter > 0) || !(desired >= 0)) return null;
+    if (!basis || !backingBasis || !(mainDiameter > 0) || !(backingDiameter > 0) || !(desired >= 0)) return null;
 
-    // A usable published braid rating is an empirical full-spool anchor. Expressing
-    // that anchor in the selected main line's diameter units preserves the rating,
-    // then lets the backing diameter divide only the remaining calibrated space.
+    var estimate = estimateSetup({
+      workingRating: ratingFromBasis(basis, mainLine),
+      backingRating: ratingFromBasis(backingBasis, backingLine),
+      workingYards: desired,
+      workingDiameterIn: mainDiameter,
+      backingDiameterIn: backingDiameter,
+      capacityOnly: false
+    });
     var totalSpoolSpace = basis.type.indexOf("published-braid") === 0
       ? basis.capacityYards * mainDiameter * mainDiameter
       : getReelSpoolSpace(reel);
@@ -561,22 +775,34 @@
     var backingSpace = totalSpoolSpace - mainLineSpace;
     var conversionTolerance = mainDiameter * mainDiameter * 0.5;
     if (backingSpace < 0 && Math.abs(backingSpace) <= conversionTolerance) backingSpace = 0;
+    var overCapacity = estimate.error === "working_exceeds_capacity";
+    if (estimate.error && !overCapacity) return null;
+    var workingFraction = Math.max(0, Math.min(1, Number(estimate.workingFraction) || 0));
+    var backingFraction = Math.max(0, 1 - workingFraction);
     return {
+      engineVersion: ENGINE_VERSION,
+      calculationMethod: "dual-anchor-fraction",
       basis: basis,
+      backingBasis: backingBasis,
       totalSpoolSpace: totalSpoolSpace,
       mainLineSpace: mainLineSpace,
       backingSpace: backingSpace,
-      backingYards: Math.max(0, backingSpace / (backingDiameter * backingDiameter)),
-      overCapacity: backingSpace < 0,
-      mainPercent: Math.min(100, mainLineSpace / totalSpoolSpace * 100),
-      backingPercent: Math.max(0, backingSpace) / totalSpoolSpace * 100
+      fullMainCapacityYards: Number(basis.capacityYards),
+      fullBackingCapacityYards: Number(backingBasis.capacityYards),
+      workingFraction: workingFraction,
+      backingFraction: backingFraction,
+      backingYards: overCapacity ? 0 : Number(estimate.backingYards),
+      overCapacity: overCapacity,
+      mainPercent: workingFraction * 100,
+      backingPercent: backingFraction * 100
     };
   }
 
   function calculateCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine) {
-    return calculateBackingForBasis(
+    return calculateBackingForBases(
       reel,
       capacityBasisForLine(reel, mainLine),
+      capacityBasisForLine(reel, backingLine),
       mainLine,
       desiredMainLineYards,
       backingLine
@@ -584,9 +810,10 @@
   }
 
   function calculateActualLineCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine, lineCatalog) {
-    return calculateBackingForBasis(
+    return calculateBackingForBases(
       reel,
       capacityBasisForActualLine(reel, mainLine, lineCatalog),
+      capacityBasisForActualLine(reel, backingLine, lineCatalog),
       mainLine,
       desiredMainLineYards,
       backingLine
@@ -596,21 +823,19 @@
   function calculateCalibratedBackingRange(reel, mainLine, desiredMainLineYards, backingLine) {
     var center = calculateCalibratedBacking(reel, mainLine, desiredMainLineYards, backingLine);
     var range = calculateBraidCapacityRange(reel, mainLine);
-    var mainDiameter = Number(mainLine && mainLine.dia_in);
-    var backingDiameter = Number(backingLine && backingLine.dia_in);
     var desired = Number(desiredMainLineYards);
-    if (!center || !range || !(mainDiameter > 0) || !(backingDiameter > 0)) return null;
+    if (!center || !range || !(center.fullBackingCapacityYards > 0)) return null;
 
     function backingAtCapacity(capacityYards) {
-      var totalSpace = Number(capacityYards) * mainDiameter * mainDiameter;
-      var remaining = totalSpace - desired * mainDiameter * mainDiameter;
-      return Math.max(0, remaining / (backingDiameter * backingDiameter));
+      return center.fullBackingCapacityYards * Math.max(0, 1 - desired / Number(capacityYards));
     }
 
+    var minimumYards = backingAtCapacity(range.minimumYards);
+    var maximumYards = backingAtCapacity(range.maximumYards);
     return {
-      minimumYards: backingAtCapacity(range.minimumYards),
+      minimumYards: Math.min(minimumYards, center.backingYards),
       centerYards: center.backingYards,
-      maximumYards: backingAtCapacity(range.maximumYards),
+      maximumYards: Math.max(maximumYards, center.backingYards),
       capacityRange: range,
       basis: center.basis
     };
@@ -625,21 +850,19 @@
       lineCatalog
     );
     var range = calculateActualLineBraidCapacityRange(reel, mainLine, lineCatalog);
-    var mainDiameter = Number(mainLine && mainLine.dia_in);
-    var backingDiameter = Number(backingLine && backingLine.dia_in);
     var desired = Number(desiredMainLineYards);
-    if (!center || !range || !(mainDiameter > 0) || !(backingDiameter > 0)) return null;
+    if (!center || !range || !(center.fullBackingCapacityYards > 0)) return null;
 
     function backingAtCapacity(capacityYards) {
-      var totalSpace = Number(capacityYards) * mainDiameter * mainDiameter;
-      var remaining = totalSpace - desired * mainDiameter * mainDiameter;
-      return Math.max(0, remaining / (backingDiameter * backingDiameter));
+      return center.fullBackingCapacityYards * Math.max(0, 1 - desired / Number(capacityYards));
     }
 
+    var minimumYards = backingAtCapacity(range.minimumYards);
+    var maximumYards = backingAtCapacity(range.maximumYards);
     return {
-      minimumYards: backingAtCapacity(range.minimumYards),
+      minimumYards: Math.min(minimumYards, center.backingYards),
       centerYards: center.backingYards,
-      maximumYards: backingAtCapacity(range.maximumYards),
+      maximumYards: Math.max(maximumYards, center.backingYards),
       capacityRange: range,
       basis: center.basis
     };
@@ -713,18 +936,30 @@
   }
 
   global.ReelCalcCore = {
+    ENGINE_VERSION: ENGINE_VERSION,
     YARDS_PER_METER: YARDS_PER_METER,
     MM_PER_INCH: MM_PER_INCH,
     LB_PER_KG: LB_PER_KG,
+    LARGE_EXTRAPOLATION_MIN_RATIO: LARGE_EXTRAPOLATION_MIN_RATIO,
+    LARGE_EXTRAPOLATION_MAX_RATIO: LARGE_EXTRAPOLATION_MAX_RATIO,
     yardsToMeters: yardsToMeters,
     metersToYards: metersToYards,
     lbToKg: lbToKg,
     kgToLb: kgToLb,
     inchesToMm: inchesToMm,
     mmToInches: mmToInches,
+    normalizedRatingType: normalizedRatingType,
+    assumedRatingDiameter: assumedRatingDiameter,
     monoDiameter: monoDiameter,
     estimateMonoLbFromDiameter: estimateMonoLbFromDiameter,
     calculateLineCapacityFromDiameter: calculateLineCapacityFromDiameter,
+    resolveCapacityRating: resolveCapacityRating,
+    capacityFromRating: capacityFromRating,
+    estimateSetup: estimateSetup,
+    likelyDiameterSuggestion: likelyDiameterSuggestion,
+    formatSuggestedDiameter: formatSuggestedDiameter,
+    assessDiameter: assessDiameter,
+    diameterExtrapolation: diameterExtrapolation,
     publishedBraidCapacityOptions: publishedBraidCapacityOptions,
     publishedBraidCapacityEstimate: publishedBraidCapacityEstimate,
     calculatePublishedBraidCapacity: calculatePublishedBraidCapacity,

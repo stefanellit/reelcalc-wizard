@@ -1,6 +1,11 @@
 (function() {
     "use strict";
 
+    const sharedEngine = window.ReelCalcCore;
+    if (!sharedEngine) {
+        throw new Error("ReelCalc shared calculation engine must load before the homepage calculator.");
+    }
+
     const PREMIUM_LINE_COST_LOW = 0.10;
     const PREMIUM_LINE_COST_HIGH = 0.16;
     const BACKING_COST_LOW = 0.01;
@@ -16,21 +21,13 @@
     const MAX_REASONABLE_LENGTH_YARDS = 100000;
     const MAX_REASONABLE_RATING_LB = 1000;
     const NO_BACKING_FRACTION = 0.995;
-    const MONO_RATING_DIAMETERS_IN = {
-        2: 0.006, 4: 0.008, 6: 0.0095, 8: 0.011, 10: 0.012,
-        12: 0.014, 15: 0.015, 20: 0.018, 25: 0.019, 30: 0.022,
-        40: 0.025, 50: 0.028, 60: 0.031, 80: 0.035, 100: 0.04,
-        120: 0.044
-    };
-    const BRAID_RATING_DIAMETERS_IN = {
-        2: 0.003, 3: 0.0035, 4: 0.004, 6: 0.005, 8: 0.005,
-        10: 0.006, 12: 0.007, 15: 0.008, 20: 0.009, 25: 0.01,
-        30: 0.011, 40: 0.013, 50: 0.014, 60: 0.0155, 65: 0.016,
-        80: 0.017, 100: 0.02, 120: 0.022
-    };
+    const LARGE_EXTRAPOLATION_MIN_RATIO = sharedEngine.LARGE_EXTRAPOLATION_MIN_RATIO;
+    const LARGE_EXTRAPOLATION_MAX_RATIO = sharedEngine.LARGE_EXTRAPOLATION_MAX_RATIO;
 
     let isMetric = false;
     let isCapacityOnly = false;
+    let setupMode = "simple";
+    let simpleRatingType = "mono";
     let currentDisplayIsMetric = false;
     let workingLineType = "mono";
     let backingLineType = "mono";
@@ -68,6 +65,7 @@
     function calculationContext(mainResolution, backingResolution) {
         return {
             calculator_mode: isCapacityOnly ? "capacity" : "backing",
+            setup_mode: setupMode,
             unit_system: isMetric ? "metric" : "standard",
             main_line_type: workingLineType,
             backing_line_type: isCapacityOnly ? "not_applicable" : backingLineType,
@@ -114,6 +112,7 @@
             button.setAttribute("aria-pressed", "false");
         });
         document.getElementById("resultTools").classList.remove("hidden");
+        trackCalculatorEvent("homepage_calculator_calculation_completed");
     }
 
     function fallbackCopy(text) {
@@ -196,32 +195,12 @@
     }
 
     function assumedRatingDiameter(type, strengthLb) {
-        const table = type === "braid" ? BRAID_RATING_DIAMETERS_IN : MONO_RATING_DIAMETERS_IN;
-        const strengths = Object.keys(table).map(Number).sort(function(a, b) { return a - b; });
-        const lb = Number(strengthLb);
-        if (!(lb > 0)) return null;
-        if (table[lb]) return table[lb];
-
-        if (lb < strengths[0]) {
-            return table[strengths[0]] * Math.sqrt(lb / strengths[0]);
-        }
-        const maximum = strengths[strengths.length - 1];
-        if (lb > maximum) {
-            return table[maximum] * Math.sqrt(lb / maximum);
-        }
-
-        for (let index = 1; index < strengths.length; index += 1) {
-            const high = strengths[index];
-            if (lb > high) continue;
-            const low = strengths[index - 1];
-            const fraction = (lb - low) / (high - low);
-            return table[low] + (table[high] - table[low]) * fraction;
-        }
-        return null;
+        return sharedEngine.assumedRatingDiameter(type, strengthLb);
     }
 
-    function strengthToLb(value) {
-        return Number(value) * (isMetric ? LB_PER_KG : 1);
+    function strengthToLb(value, unit) {
+        const metric = unit ? unit === "kg" : isMetric;
+        return Number(value) * (metric ? LB_PER_KG : 1);
     }
 
     function displayedStrength(valueLb) {
@@ -292,66 +271,26 @@
     }
 
     function likelyDiameterSuggestion(value, metric) {
-        if (!(value > 0)) return null;
-        if (metric) {
-            if (value >= 10 && value < 100) return value / 100;
-            if (value >= 100 && value < 1000) return value / 1000;
-            return null;
-        }
-        if (value >= 1 && value < 1000) return value / 1000;
-        if (value >= 0.25 && value < 1) return value / 10;
-        return null;
+        return sharedEngine.likelyDiameterSuggestion(value, metric);
     }
 
     function assessDiameter(value, metric, warningAccepted) {
-        if (!Number.isFinite(value)) {
-            return { valid: false, kind: "missing", message: "Enter a numeric diameter." };
-        }
-        if (!(value > 0)) {
-            return { valid: false, kind: "error", message: "Diameter must be greater than zero." };
-        }
-
-        const diameterMm = metric ? value : value * INCH_TO_MM;
-        const suggestion = likelyDiameterSuggestion(value, metric);
-        if (suggestion && suggestion > 0 && suggestion * (metric ? 1 : INCH_TO_MM) <= 3) {
-            const unit = metric ? "mm" : "in";
-            const formatted = formatSuggestedDiameter(suggestion, metric);
-            if (!warningAccepted) {
-                return {
-                    valid: false,
-                    kind: "warning",
-                    suggestion: suggestion,
-                    message: "That diameter looks unusually high. Did you mean " + formatted + " " + unit + "?"
-                };
-            }
-        }
-
-        if (diameterMm > 20) {
-            return {
-                valid: false,
-                kind: "error",
-                message: "That diameter is too large to be a realistic fishing-line diameter."
-            };
-        }
-
-        if ((diameterMm > 3 || diameterMm < 0.01) && !warningAccepted) {
-            return {
-                valid: false,
-                kind: "warning",
-                message: "That diameter is unusual for fishing line. Check the decimal and unit before continuing."
-            };
-        }
-
-        return {
-            valid: true,
-            kind: (diameterMm > 3 || diameterMm < 0.01) ? "warning" : "",
-            message: (diameterMm > 3 || diameterMm < 0.01) ? "Using the unusual diameter you confirmed." : "",
-            diameterIn: diameterMm * MM_TO_INCH
-        };
+        return sharedEngine.assessDiameter(value, metric, warningAccepted);
     }
 
-    function diameterWarningAccepted(inputId, value) {
-        return acceptedDiameterWarnings.get(inputId) === [isMetric ? "metric" : "standard", value].join("|");
+    function ratingUnit(type, field) {
+        const select = document.getElementById(type + field + "Unit");
+        return select ? select.value : null;
+    }
+
+    function diameterUsesMetric(inputId) {
+        if (inputId === "monoDiameter") return ratingUnit("mono", "Diameter") === "mm";
+        if (inputId === "braidDiameter") return ratingUnit("braid", "Diameter") === "mm";
+        return isMetric;
+    }
+
+    function diameterWarningAccepted(inputId, value, metric) {
+        return acceptedDiameterWarnings.get(inputId) === [metric ? "metric" : "standard", value].join("|");
     }
 
     function validateDiameterField(inputId, required) {
@@ -363,8 +302,9 @@
         }
 
         const value = safeNumber(input);
-        const accepted = diameterWarningAccepted(inputId, value);
-        const assessment = assessDiameter(value, isMetric, accepted);
+        const metric = diameterUsesMetric(inputId);
+        const accepted = diameterWarningAccepted(inputId, value, metric);
+        const assessment = assessDiameter(value, metric, accepted);
 
         if (assessment.valid) {
             setDiameterMessage(inputId, assessment.message, assessment.kind);
@@ -376,13 +316,13 @@
             return assessment;
         }
 
-        const enteredDiameterMm = isMetric ? value : value * INCH_TO_MM;
+        const enteredDiameterMm = metric ? value : value * INCH_TO_MM;
         const actions = assessment.kind === "warning"
             ? [
                 ...(assessment.suggestion != null ? [{
                     action: "suggestion",
-                    value: formatSuggestedDiameter(assessment.suggestion, isMetric),
-                    label: "Use " + formatSuggestedDiameter(assessment.suggestion, isMetric)
+                    value: formatSuggestedDiameter(assessment.suggestion, metric),
+                    label: "Use " + formatSuggestedDiameter(assessment.suggestion, metric)
                 }] : []),
                 ...(enteredDiameterMm <= 20 ? [{ action: "accept", label: "Keep entered value" }] : [])
             ]
@@ -407,7 +347,7 @@
         const diameterPresent = hasValue(diameterInput);
         const capacityDisplay = safeNumber(capacityInput);
         const strengthDisplay = safeNumber(strengthInput);
-        const strengthLb = strengthToLb(strengthDisplay);
+        const strengthLb = strengthToLb(strengthDisplay, ratingUnit(type, "Strength"));
         const strengthValid = strengthPresent && strengthLb > 0;
         const diameterResult = validateDiameterField(type + "Diameter", diameterPresent);
         const referencePresent = strengthPresent || diameterPresent;
@@ -444,7 +384,9 @@
             return { state: pairState, rating: null };
         }
 
-        const capacityYards = capacityDisplay * (isMetric ? METERS_TO_YARDS : 1);
+        const capacityYards = capacityDisplay * (
+            ratingUnit(type, "Capacity") === "meters" ? METERS_TO_YARDS : 1
+        );
         if (capacityYards > MAX_REASONABLE_LENGTH_YARDS) {
             setMessage(type + "RatingMessage", "That capacity amount looks unreasonably high. Check the number and unit.", "error");
             return { state: "invalid", rating: null };
@@ -462,8 +404,13 @@
             return { state: "invalid", rating: null };
         }
 
+        const enteredDiameterMetric = diameterUsesMetric(type + "Diameter");
+        const enteredDiameterLabel = diameterPresent
+            ? formatSuggestedDiameter(safeNumber(diameterInput), enteredDiameterMetric) +
+                (enteredDiameterMetric ? " mm" : " in")
+            : "";
         const ratingMessage = diameterPresent
-            ? ratingTypeName(type) + " rating ready using the printed " + displayedDiameter(referenceDiameterIn) + " diameter."
+            ? ratingTypeName(type) + " rating ready using the printed " + enteredDiameterLabel + " diameter."
             : ratingTypeName(type) + " rating ready.";
         setMessage(type + "RatingMessage", ratingMessage, "ready");
         return {
@@ -479,6 +426,20 @@
     }
 
     function collectRatings(showRequired) {
+        if (setupMode === "simple") {
+            const active = readRating(simpleRatingType, showRequired);
+            const inactiveType = simpleRatingType === "mono" ? "braid" : "mono";
+            setMessage(inactiveType + "RatingMessage", "", "");
+            setDiameterMessage(inactiveType + "Diameter", "", "");
+            return {
+                mono: simpleRatingType === "mono" ? active.rating : null,
+                braid: simpleRatingType === "braid" ? active.rating : null,
+                states: {
+                    mono: simpleRatingType === "mono" ? active.state : "blank",
+                    braid: simpleRatingType === "braid" ? active.state : "blank"
+                }
+            };
+        }
         const mono = readRating("mono", showRequired);
         const braid = readRating("braid", showRequired);
         return {
@@ -489,59 +450,15 @@
     }
 
     function resolveRating(requestedType, ratings) {
-        if (ratings[requestedType]) {
-            return {
-                rating: ratings[requestedType],
-                requestedType: requestedType,
-                anchorType: requestedType,
-                fallback: false
-            };
-        }
-        const alternateType = requestedType === "braid" ? "mono" : "braid";
-        if (ratings[alternateType]) {
-            return {
-                rating: ratings[alternateType],
-                requestedType: requestedType,
-                anchorType: alternateType,
-                fallback: true
-            };
-        }
-        return null;
+        return sharedEngine.resolveCapacityRating(requestedType, ratings);
     }
 
     function capacityFromRating(rating, lineDiameterIn) {
-        return rating.capacityYards * Math.pow(rating.referenceDiameterIn / lineDiameterIn, 2);
+        return sharedEngine.capacityFromRating(rating, lineDiameterIn);
     }
 
     function estimateSetup(options) {
-        const fullWorkingCapacityYards = capacityFromRating(
-            options.workingRating,
-            options.workingDiameterIn
-        );
-
-        if (options.capacityOnly) {
-            return {
-                fullWorkingCapacityYards: fullWorkingCapacityYards,
-                backingYards: null,
-                workingFraction: null
-            };
-        }
-
-        const workingFraction = options.workingYards / fullWorkingCapacityYards;
-        if (workingFraction > 1 + 1e-10) {
-            return { error: "working_exceeds_capacity", fullWorkingCapacityYards: fullWorkingCapacityYards };
-        }
-
-        const fullBackingCapacityYards = capacityFromRating(
-            options.backingRating,
-            options.backingDiameterIn
-        );
-        return {
-            fullWorkingCapacityYards: fullWorkingCapacityYards,
-            fullBackingCapacityYards: fullBackingCapacityYards,
-            workingFraction: workingFraction,
-            backingYards: fullBackingCapacityYards * Math.max(0, 1 - workingFraction)
-        };
+        return sharedEngine.estimateSetup(options);
     }
 
     function getIptInches() {
@@ -616,7 +533,35 @@
         return note + " No printed diameter was entered, so this result is estimated from the reel's listed " + labels + " " + ratingWord + ".";
     }
 
-    function resolutionNote(mainResolution, backingResolution) {
+    function extrapolationWarning(mainResolution, backingResolution, mainDiameterIn, backingDiameterIn) {
+        const comparisons = [
+            { label: "main line", resolution: mainResolution, diameterIn: mainDiameterIn },
+            { label: "backing", resolution: backingResolution, diameterIn: backingDiameterIn }
+        ];
+        const warnings = comparisons.flatMap(function(comparison) {
+            if (
+                !comparison.resolution ||
+                !(comparison.diameterIn > 0) ||
+                !(comparison.resolution.rating.referenceDiameterIn > 0)
+            ) return [];
+            const ratio = comparison.diameterIn / comparison.resolution.rating.referenceDiameterIn;
+            if (ratio < LARGE_EXTRAPOLATION_MIN_RATIO) {
+                return [comparison.label + " is much thinner than the reel rating's reference diameter"];
+            }
+            if (ratio > LARGE_EXTRAPOLATION_MAX_RATIO) {
+                return [comparison.label + " is much thicker than the reel rating's reference diameter"];
+            }
+            return [];
+        });
+        if (!warnings.length) return "";
+        const description = warnings.length === 1
+            ? warnings[0]
+            : warnings.slice(0, -1).join(", ") + " and " + warnings.at(-1);
+        return " <br><strong>Caution:</strong> The selected " + description +
+            ". This requires a large extrapolation. Treat the result as a starting estimate because winding tension, line packing, and fill level may cause a larger-than-usual difference.";
+    }
+
+    function resolutionNote(mainResolution, backingResolution, mainDiameterIn, backingDiameterIn) {
         let note;
         if (isCapacityOnly) {
             note = mainResolution.fallback
@@ -635,7 +580,13 @@
             const fallbackResolution = mainResolution.fallback ? mainResolution : backingResolution;
             note = "The available " + ratingTypeName(fallbackResolution.anchorType) + " reel rating is used as the diameter-based fallback for the " + fallbackPortion + ".";
         }
-        return appendRatingAssumption(note, mainResolution, backingResolution);
+        return appendRatingAssumption(note, mainResolution, backingResolution) +
+            extrapolationWarning(
+                mainResolution,
+                backingResolution,
+                mainDiameterIn,
+                backingDiameterIn
+            );
     }
 
     function validateMainAmount(required) {
@@ -722,7 +673,8 @@
                 "<strong>Capacity Only Result</strong><br><br>" +
                 "Estimated maximum that will fill the reel:<br>" +
                 "&bull; <strong>Main line:</strong> " + capacityOut.toFixed(1) + " " + unitLabel +
-                "<div style='margin-top:6px;font-size:13px;opacity:0.8;'>" + resolutionNote(mainResolution, null) + "</div>";
+                "<div style='margin-top:6px;font-size:13px;opacity:0.8;'>" +
+                resolutionNote(mainResolution, null, mainDiameter.diameterIn, null) + "</div>";
             appendCapacityTurns(fullWorkingCapacityYards);
             showResultTools(mainResolution, null);
             return { estimate: estimate, mainResolution: mainResolution, backingResolution: null };
@@ -740,7 +692,7 @@
             return { estimate: estimate, mainResolution: mainResolution, backingResolution: backingResolution };
         }
 
-        const noBackingRequired = estimate.workingFraction >= NO_BACKING_FRACTION;
+        const noBackingRequired = estimate.workingFraction >= NO_BACKING_FRACTION - 1e-10;
         const backingYards = noBackingRequired ? 0 : estimate.backingYards;
         const workingYards = mainAmount.value;
 
@@ -776,7 +728,13 @@
             "&bull; <strong>Main line:</strong> " + workingOut.toFixed(1) + " " + unitLabel + "<br>" +
             "&bull; <strong>Total on spool:</strong> " + totalOut.toFixed(1) + " " + unitLabel +
             fillMessage +
-            "<div style='margin-top:6px;font-size:13px;opacity:0.8;'>" + resolutionNote(mainResolution, backingResolution) + "</div>" +
+            "<div style='margin-top:6px;font-size:13px;opacity:0.8;'>" +
+            resolutionNote(
+                mainResolution,
+                backingResolution,
+                mainDiameter.diameterIn,
+                backingDiameter.diameterIn
+            ) + "</div>" +
             "<div class='savings-box'>" +
             "<strong>Estimated Line-Cost Savings</strong><br><br>" +
             "<strong>" + savingsLabel + "</strong><br>" +
@@ -793,24 +751,12 @@
     function updatePlaceholders() {
         const placeholders = isMetric
             ? {
-                monoCapacity: "130",
-                monoStrength: "4.5",
-                monoDiameter: "0.30",
-                braidCapacity: "170",
-                braidStrength: "6.8",
-                braidDiameter: "0.20",
                 mainDiameter: "0.16",
                 mainAmount: "150",
                 backingDiameter: "0.30",
                 reelIPT: "86"
             }
             : {
-                monoCapacity: "150",
-                monoStrength: "10",
-                monoDiameter: "0.012",
-                braidCapacity: "200",
-                braidStrength: "15",
-                braidDiameter: "0.008",
                 mainDiameter: "0.006",
                 mainAmount: "165",
                 backingDiameter: "0.012",
@@ -819,6 +765,17 @@
         Object.keys(placeholders).forEach(function(id) {
             document.getElementById(id).placeholder = placeholders[id];
         });
+        updateRatingPlaceholders("mono");
+        updateRatingPlaceholders("braid");
+    }
+
+    function updateRatingPlaceholders(type) {
+        const examples = type === "mono"
+            ? { lb: "8", kg: "3.6", yards: "200", meters: "183", mm: "0.28", in: "0.011" }
+            : { lb: "15", kg: "6.8", yards: "250", meters: "229", mm: "0.20", in: "0.008" };
+        document.getElementById(type + "Strength").placeholder = examples[ratingUnit(type, "Strength")];
+        document.getElementById(type + "Capacity").placeholder = examples[ratingUnit(type, "Capacity")];
+        document.getElementById(type + "Diameter").placeholder = examples[ratingUnit(type, "Diameter")];
     }
 
     function convertInputValue(id, multiplier, decimals) {
@@ -829,18 +786,15 @@
 
     function convertDisplayedValues(toMetric) {
         if (toMetric === currentDisplayIsMetric) return;
-        const lengthIds = ["monoCapacity", "braidCapacity", "mainAmount"];
-        const strengthIds = ["monoStrength", "braidStrength"];
-        const diameterIds = ["monoDiameter", "braidDiameter", "mainDiameter", "backingDiameter"];
+        const lengthIds = ["mainAmount"];
+        const diameterIds = ["mainDiameter", "backingDiameter"];
 
         if (toMetric) {
             lengthIds.forEach(function(id) { convertInputValue(id, YARDS_TO_METERS, 1); });
-            strengthIds.forEach(function(id) { convertInputValue(id, 1 / LB_PER_KG, 1); });
             diameterIds.forEach(function(id) { convertInputValue(id, INCH_TO_MM, 3); });
             convertInputValue("reelIPT", INCH_TO_CM, 1);
         } else {
             lengthIds.forEach(function(id) { convertInputValue(id, METERS_TO_YARDS, 1); });
-            strengthIds.forEach(function(id) { convertInputValue(id, LB_PER_KG, 1); });
             diameterIds.forEach(function(id) { convertInputValue(id, MM_TO_INCH, 4); });
             convertInputValue("reelIPT", CM_TO_INCH, 1);
         }
@@ -854,9 +808,6 @@
         document.querySelectorAll(".diaUnit").forEach(function(element) {
             element.textContent = isMetric ? "mm" : "in";
         });
-        document.querySelectorAll(".strengthUnit").forEach(function(element) {
-            element.textContent = isMetric ? "kg" : "lb";
-        });
         document.getElementById("iptUnitLabel").textContent = isMetric ? "cm" : "inches";
         updatePlaceholders();
         updateHelpText();
@@ -864,9 +815,11 @@
     }
 
     function updateHelpText() {
-        document.getElementById("step1RatingExample").textContent = isMetric
-            ? "Most reels list line strength and capacity, such as 4.5 kg / 137 meters. Enter that information normally."
-            : "Most reels list pound test and capacity, such as 10 lb / 150 yards. Enter that information normally.";
+        document.getElementById("step1RatingExample").textContent =
+            "Choose the unit beside each field to match the reel exactly. Mixed units are okay, such as 8 lb / 200 yards / 0.28 mm.";
+        document.getElementById("step1MoreRatingHelp").textContent = setupMode === "simple"
+            ? "If the reel lists diameter instead, select \"My reel lists diameter\" and enter the printed diameter."
+            : "If the reel lists diameter instead, select \"My reel lists diameter\" and enter the printed diameter. Enter both Mono and Braid ratings when both are available.";
         document.getElementById("step2DiameterHelp").textContent = isMetric
             ? "Enter the line's published diameter from its package or manufacturer specifications. Example: 0.16 mm."
             : "Enter the line's published diameter from its package or manufacturer specifications. Example: 0.006 in.";
@@ -895,6 +848,44 @@
         intro.innerHTML = "Select your backing line type and enter its diameter. ReelCalc will calculate how much backing you need underneath your chosen <strong>" + roundedAmount + " " + unit + "</strong> of main line.";
     }
 
+    function updateStep1Intro() {
+        document.getElementById("step1Intro").textContent = setupMode === "simple"
+            ? "Enter one complete Mono or Braid capacity rating from your reel."
+            : "Enter both Mono and Braid ratings when available for the most accurate result. One complete rating is enough to calculate.";
+    }
+
+    function ratingHasAnyValue(type) {
+        return ["Strength", "Capacity", "Diameter"].some(function(field) {
+            return hasValue(document.getElementById(type + field));
+        });
+    }
+
+    function updateSetupUI() {
+        const simple = setupMode === "simple";
+        const alternateType = simpleRatingType === "mono" ? "braid" : "mono";
+        if (simple && !ratingHasAnyValue(simpleRatingType) && ratingHasAnyValue(alternateType)) {
+            simpleRatingType = alternateType;
+        }
+
+        setSegmentActive("setupSegment", "setup", setupMode);
+        setSegmentActive("simpleRatingSegment", "simpleRating", simpleRatingType);
+        document.getElementById("setupDescription").textContent = simple
+            ? "Use Simple Setup for a quick estimate when you have one line-capacity rating from your reel."
+            : "Use Detailed Setup when you have more reel information and want ReelCalc to use it for the most informed estimate.";
+        document.getElementById("simpleRatingChoice").classList.toggle("hidden", !simple);
+        document.getElementById("ratingColumns").classList.toggle("simple-layout", simple);
+        document.getElementById("monoRatingColumn").classList.toggle(
+            "hidden",
+            simple && simpleRatingType !== "mono"
+        );
+        document.getElementById("braidRatingColumn").classList.toggle(
+            "hidden",
+            simple && simpleRatingType !== "braid"
+        );
+        updateStep1Intro();
+        updateHelpText();
+    }
+
     function updateModeUI() {
         const backingGroup = document.getElementById("backingGroup");
         const mainAmountWrap = document.getElementById("mainAmountWrap");
@@ -910,8 +901,6 @@
             modeSubtext.innerHTML =
                 '<span id="modeBadge" class="mode-badge badge-capacity">CAPACITY MODE</span>' +
                 " Calculate how much of the selected main line the reel can hold.";
-            step1Intro.textContent =
-                "Enter both Mono and Braid ratings when available for the most accurate result. One complete rating is enough to calculate.";
             step2Intro.textContent =
                 "Select your line type and enter its diameter to calculate how much the reel can hold.";
             const step3Help = document.getElementById("step3Help");
@@ -922,11 +911,10 @@
             modeSubtext.innerHTML =
                 '<span id="modeBadge" class="mode-badge badge-backing">BACKING MODE</span>' +
                 " Calculate backing for your chosen main-line amount.";
-            step1Intro.textContent =
-                "Enter both Mono and Braid ratings when available for the most accurate result. One complete rating is enough to calculate.";
             step2Intro.textContent =
                 "Enter the line you plan to put on the reel and how much of it you want to use.";
         }
+        updateStep1Intro();
         updateHelpText();
         updateStep3Intro();
     }
@@ -965,6 +953,28 @@
         const calculatorRoot = document.getElementById("reelcalc-homepage-calculator");
         if (!calculatorRoot || calculatorRoot.dataset.reelcalcInitialized === "true") return;
         calculatorRoot.dataset.reelcalcInitialized = "true";
+
+        document.getElementById("setupSegment").addEventListener("click", function(event) {
+            const button = event.target.closest(".seg-btn");
+            if (!button || !button.dataset.setup || button.dataset.setup === setupMode) return;
+            setupMode = button.dataset.setup;
+            updateSetupUI();
+            clearResult();
+            refreshInlineValidation();
+            trackCalculatorEvent(
+                setupMode === "simple" ? "simple_setup_selected" : "detailed_setup_selected",
+                { setup_mode: setupMode }
+            );
+        });
+
+        document.getElementById("simpleRatingSegment").addEventListener("click", function(event) {
+            const button = event.target.closest(".seg-btn");
+            if (!button || !button.dataset.simpleRating || button.dataset.simpleRating === simpleRatingType) return;
+            simpleRatingType = button.dataset.simpleRating;
+            updateSetupUI();
+            clearResult();
+            refreshInlineValidation();
+        });
 
         document.getElementById("unitSegment").addEventListener("click", function(event) {
             const button = event.target.closest(".seg-btn");
@@ -1014,6 +1024,16 @@
             });
         });
 
+        calculatorRoot.querySelectorAll("[data-rating-unit]").forEach(function(select) {
+            select.addEventListener("change", function() {
+                const type = select.dataset.ratingUnit;
+                acceptedDiameterWarnings.delete(type + "Diameter");
+                updateRatingPlaceholders(type);
+                clearResult();
+                refreshInlineValidation();
+            });
+        });
+
         calculatorRoot.querySelectorAll("[data-help-toggle]").forEach(function(button) {
             button.addEventListener("click", function() {
                 const panel = document.getElementById(button.dataset.helpToggle);
@@ -1033,7 +1053,10 @@
                 acceptedDiameterWarnings.delete(inputId);
             } else if (button.dataset.diameterAction === "accept") {
                 const value = safeNumber(input);
-                acceptedDiameterWarnings.set(inputId, [isMetric ? "metric" : "standard", value].join("|"));
+                acceptedDiameterWarnings.set(
+                    inputId,
+                    [diameterUsesMetric(inputId) ? "metric" : "standard", value].join("|")
+                );
             }
             clearResult();
             refreshInlineValidation();
@@ -1063,6 +1086,7 @@
             if (button) submitFeedback(button);
         });
 
+        updateSetupUI();
         setSegmentActive("unitSegment", "unit", "standard");
         setSegmentActive("modeSegment", "mode", "backing");
         setSegmentActive("workingTypeSegment", "lineType", workingLineType);
@@ -1099,6 +1123,8 @@
             return {
                 isMetric: isMetric,
                 isCapacityOnly: isCapacityOnly,
+                setupMode: setupMode,
+                simpleRatingType: simpleRatingType,
                 workingLineType: workingLineType,
                 backingLineType: backingLineType
             };
