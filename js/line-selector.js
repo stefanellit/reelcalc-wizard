@@ -37,6 +37,15 @@
     });
   }
 
+  function normalizeSearch(value) {
+    return cleanText(value)
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9.]+/g, " ")
+      .trim();
+  }
+
   function prepareLines(lines) {
     var unique = new Map();
     (Array.isArray(lines) ? lines : []).forEach(function(line) {
@@ -104,6 +113,56 @@
     });
   }
 
+  function searchLines(lines, material, query) {
+    var selectedMaterial = normalizedMaterial(material);
+    var normalizedQuery = normalizeSearch(query);
+    var tokens = normalizedQuery.split(" ").filter(Boolean);
+    return lines.filter(function(line) {
+      return !selectedMaterial || line.material === selectedMaterial;
+    }).map(function(line) {
+      var product = productLabel(line);
+      var exactLabel = product + " " + line.lb + " lb";
+      var searchable = normalizeSearch([
+        line.id,
+        product,
+        exactLabel,
+        line.material,
+        line.search_text,
+        line.lb + " lb",
+        line.dia_in + " in",
+        (line.dia_mm || line.dia_in * 25.4) + " mm",
+        line.pe,
+        line.pe_size,
+        line.pe_rating
+      ].filter(Boolean).join(" "));
+      var productSearch = normalizeSearch(product);
+      var exactSearch = normalizeSearch(exactLabel);
+      var score = 1;
+      if (normalizedQuery) {
+        if (normalizeSearch(line.id) === normalizedQuery) score = 1200;
+        else if (exactSearch === normalizedQuery) score = 1100;
+        else if (exactSearch.startsWith(normalizedQuery)) score = 950;
+        else if (productSearch === normalizedQuery) score = 900;
+        else if (productSearch.startsWith(normalizedQuery)) score = 850;
+        else if (tokens.every(function(token) { return searchable.includes(token); })) {
+          score = 700 - Math.min(searchable.indexOf(tokens[0]), 100);
+        } else {
+          score = -1;
+        }
+      }
+      return { line: line, score: score, product: product };
+    }).filter(function(result) {
+      return result.score >= 0;
+    }).sort(function(a, b) {
+      return b.score - a.score ||
+        compareText(a.product, b.product) ||
+        a.line.lb - b.line.lb ||
+        a.line.dia_in - b.line.dia_in;
+    }).map(function(result) {
+      return result.line;
+    });
+  }
+
   function findLine(lines, productKeyValue, lineId) {
     if (lineId) {
       var exactId = lines.find(function(line) { return line.id === lineId; });
@@ -157,6 +216,7 @@
     productLabel: productLabel,
     productsFor: productsFor,
     strengthsFor: strengthsFor,
+    searchLines: searchLines,
     findLine: findLine,
     closestLine: closestLine,
     parsePreload: parsePreload

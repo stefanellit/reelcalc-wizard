@@ -3,10 +3,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { chromium } from "file:///C:/Users/Tyler/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs";
 
-const BASE = "http://127.0.0.1:4173";
+const BASE = process.env.REELCALC_TEST_BASE || "http://127.0.0.1:4173";
 const A = "shimano-stradic-fm-c3000xg-stc3000xgfm-686";
 const B = "daiwa-fuego-lt-3000d-c-feglt3000d-c-132";
 const C = "penn-battle-iv-3000-btliv3000-458";
+const PENN_BATTLE_8000 = "penn-battle-iv-8000-btliv8000-465";
+const PENN_FIERCE_8000 = "penn-fierce-iv-8000-frciv8000-474";
 const expectedPairAB = [A, B].sort().join("__vs__");
 const artifactDir = path.resolve("generated", "browser-tests");
 fs.mkdirSync(artifactDir, { recursive: true });
@@ -90,22 +92,32 @@ try {
   for (const material of ["Monofilament", "Fluorocarbon", "Copolymer", "Braid"]) {
     await page.locator(`.rc-material-button[data-line-role="main"][data-material="${material}"]`).click();
     assert.equal(await page.locator("#main-line-product").inputValue(), "");
-    assert.ok(await page.locator("#main-line-products option").count() > 0, `${material} products should load`);
+    await page.locator("#main-line-product").click();
+    assert.ok(await page.locator("#main-line-options .rc-line-option").count() > 0, `${material} exact lines should load`);
+    await page.locator("#main-line-product").press("Escape");
   }
   for (const material of ["Braid", "Monofilament"]) {
     await page.locator(`.rc-material-button[data-line-role="backing"][data-material="${material}"]`).click();
     assert.equal(await page.locator("#backing-line-product").inputValue(), "");
-    assert.ok(await page.locator("#backing-line-products option").count() > 0, `${material} backing products should load`);
+    await page.locator("#backing-line-product").click();
+    assert.ok(await page.locator("#backing-line-options .rc-line-option").count() > 0, `${material} exact backing lines should load`);
+    await page.locator("#backing-line-product").press("Escape");
   }
 
-  for (const role of ["main", "backing"]) {
-    const product = await page.locator(`#${role}-line-products option`).first().getAttribute("value");
-    assert.ok(product, `${role} line database choices should be available`);
-    await page.locator(`#${role}-line-product`).fill(product);
-    assert.equal(await page.locator(`#${role}-line-strength`).inputValue(), "", `${role} strength should wait for the user`);
-    await page.locator(`#${role}-line-strength`).selectOption({ index: 1 });
-    assert.ok(await page.locator(`#${role}-line-strength`).inputValue(), `${role} line should be selectable`);
-  }
+  await page.locator('.rc-material-button[data-line-role="main"][data-material="Braid"]').click();
+  await page.locator("#main-line-product").fill("PowerPro 20");
+  await page.locator("#main-line-options .rc-line-option").first().waitFor({ state: "visible" });
+  assert.ok(await page.locator("#main-line-options .rc-line-option").count() > 1, "line search should return multiple exact records when available");
+  await page.locator("#main-line-options .rc-line-option").first().click();
+  assert.ok(await page.locator("#main-line-strength").inputValue(), "main exact line should select its strength");
+  assert.match(await page.locator("#main-line-detail").textContent(), /Published diameter:/);
+
+  await page.locator('.rc-material-button[data-line-role="backing"][data-material="Monofilament"]').click();
+  await page.locator("#backing-line-product").fill("Berkley Trilene Big Game 10");
+  await page.locator("#backing-line-options .rc-line-option").first().waitFor({ state: "visible" });
+  await page.locator("#backing-line-options .rc-line-option").first().click();
+  assert.ok(await page.locator("#backing-line-strength").inputValue(), "backing exact line should select its strength");
+  assert.match(await page.locator("#backing-line-detail").textContent(), /Published diameter:/);
   await page.waitForFunction(() => {
     const params = new URL(location.href).searchParams;
     return params.has("mainLine") && params.has("backingLine");
@@ -184,6 +196,16 @@ try {
   await page.screenshot({ path: path.join(artifactDir, "reel-comparison-tracking-desktop.png"), fullPage: true });
   await context.close();
 
+  const identityContext = await browser.newContext({ viewport: { width: 1440, height: 1000 } });
+  const identity = await newPage(identityContext);
+  await identity.page.goto(`${BASE}/examples/reel-comparison.html?reel1=${PENN_BATTLE_8000}&reel2=${PENN_FIERCE_8000}`, { waitUntil: "networkidle" });
+  await waitReady(identity.page);
+  const tableHeadings = await identity.page.locator(".rc-comparison-row.is-header").first().textContent();
+  assert.match(tableHeadings, /PENN Battle IV 8000/);
+  assert.match(tableHeadings, /PENN Fierce IV 8000/);
+  assert.equal(identity.errors.length, 0, identity.errors.join(" | "));
+  await identityContext.close();
+
   for (const [name, width, height] of [["mobile", 390, 844], ["desktop", 1440, 1000]]) {
     const viewportContext = await browser.newContext({ viewport: { width, height } });
     const tested = await newPage(viewportContext);
@@ -207,6 +229,19 @@ try {
     assert.equal(layout.canonical, "https://www.reelcalc.com/reel-comparison");
     assert.equal(await tested.page.locator("#main-line-product").inputValue(), "", `${name} shared reel URL should not preload main line`);
     assert.equal(await tested.page.locator("#backing-line-product").inputValue(), "", `${name} shared reel URL should not preload backing line`);
+    await tested.page.locator("#main-line-product").fill("Sufix 832 20");
+    await tested.page.locator("#main-line-options .rc-line-option").first().waitFor({ state: "visible" });
+    const lineMenuLayout = await tested.page.evaluate(() => {
+      const menu = document.querySelector("#main-line-options");
+      const rect = menu.getBoundingClientRect();
+      return {
+        insideViewport: rect.left >= -1 && rect.right <= document.documentElement.clientWidth + 1,
+        scrollable: menu.scrollHeight > menu.clientHeight,
+        maxHeight: getComputedStyle(menu).maxHeight
+      };
+    });
+    assert.equal(lineMenuLayout.insideViewport, true, `${name} line menu escaped the viewport`);
+    assert.ok(lineMenuLayout.maxHeight !== "none", `${name} line menu needs a bounded height`);
     const sharedEvents = await tested.page.evaluate(() => window.__comparisonEvents);
     const sharedCompleted = sharedEvents.filter((event) => event.name === "reel_comparison_completed");
     assert.equal(sharedCompleted.length, 1);
@@ -252,17 +287,19 @@ try {
     await invalidContext.close();
   }
 
-  const blockedContext = await browser.newContext({ viewport: { width: 390, height: 844 } });
-  await blockedContext.route("**/js/analytics.js*", (route) => route.abort());
-  const blocked = await newPage(blockedContext);
-  await blocked.page.goto(
-    `${BASE}/generated/browser-tests/reel-comparison-loader-fixture.html?reel1=${A}&reel2=${B}`,
-    { waitUntil: "networkidle" }
-  );
-  await waitReady(blocked.page);
-  assert.equal(await blocked.page.locator("#comparison-results").isVisible(), true, "analytics blocking must not break comparison");
-  assert.match(await blocked.page.locator("#reel-a-input").inputValue(), /Shimano Stradic FM/);
-  await blockedContext.close();
+  if (!process.env.REELCALC_TEST_BASE) {
+    const blockedContext = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    await blockedContext.route("**/js/analytics.js*", (route) => route.abort());
+    const blocked = await newPage(blockedContext);
+    await blocked.page.goto(
+      `${BASE}/generated/browser-tests/reel-comparison-loader-fixture.html?reel1=${A}&reel2=${B}`,
+      { waitUntil: "networkidle" }
+    );
+    await waitReady(blocked.page);
+    assert.equal(await blocked.page.locator("#comparison-results").isVisible(), true, "analytics blocking must not break comparison");
+    assert.match(await blocked.page.locator("#reel-a-input").inputValue(), /Shimano Stradic FM/);
+    await blockedContext.close();
+  }
 } finally {
   await browser.close();
 }

@@ -141,6 +141,7 @@
   }
 
   global.ReelCalcComparisonData = {
+    reelName: reelName,
     normalizedPairId: normalizedPairId,
     reelFamily: reelFamily,
     reelModel: reelModel,

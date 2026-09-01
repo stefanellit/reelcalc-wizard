@@ -24,8 +24,8 @@
     },
     lines: [],
     lineRoles: {
-      main: { material: "Braid", line: null, productsByLabel: new Map() },
-      backing: { material: "Monofilament", line: null, productsByLabel: new Map() }
+      main: { material: "Braid", line: null, matches: [], highlightedIndex: -1, resultLimit: 20 },
+      backing: { material: "Monofilament", line: null, matches: [], highlightedIndex: -1, resultLimit: 20 }
     }
   };
 
@@ -46,11 +46,11 @@
     lineFitSummary: document.getElementById("line-fit-summary"),
     lineFitComparison: document.getElementById("line-fit-comparison"),
     mainLineProduct: document.getElementById("main-line-product"),
-    mainLineProducts: document.getElementById("main-line-products"),
+    mainLineOptions: document.getElementById("main-line-options"),
     mainLineStrength: document.getElementById("main-line-strength"),
     mainLineDetail: document.getElementById("main-line-detail"),
     backingLineProduct: document.getElementById("backing-line-product"),
-    backingLineProducts: document.getElementById("backing-line-products"),
+    backingLineOptions: document.getElementById("backing-line-options"),
     backingLineStrength: document.getElementById("backing-line-strength"),
     backingLineDetail: document.getElementById("backing-line-detail"),
     backingModeNote: document.getElementById("backing-mode-note"),
@@ -73,7 +73,10 @@
   }
 
   function displayName(reel) {
-    return [reel.brand, reel.model, reel.size_label].filter(Boolean).join(" ");
+    var data = window.ReelCalcComparisonData;
+    return data && typeof data.reelName === "function"
+      ? data.reelName(reel)
+      : [reel && reel.brand, reel && reel.model, reel && reel.size_label].filter(Boolean).join(" ");
   }
 
   function optionLabel(reel) {
@@ -571,8 +574,8 @@
     var html = [
       '<div class="rc-comparison-row is-header">',
       "<div>Specification</div>",
-      "<div>", escapeHtml(reelA.brand + " " + reelA.size_label), "</div>",
-      "<div>", escapeHtml(reelB.brand + " " + reelB.size_label), "</div>",
+      "<div>", escapeHtml(displayName(reelA)), "</div>",
+      "<div>", escapeHtml(displayName(reelB)), "</div>",
       "</div>"
     ];
     rows.forEach(function(row) {
@@ -603,13 +606,13 @@
     return role === "main"
       ? {
           product: elements.mainLineProduct,
-          products: elements.mainLineProducts,
+          menu: elements.mainLineOptions,
           strength: elements.mainLineStrength,
           detail: elements.mainLineDetail
         }
       : {
           product: elements.backingLineProduct,
-          products: elements.backingLineProducts,
+          menu: elements.backingLineOptions,
           strength: elements.backingLineStrength,
           detail: elements.backingLineDetail
         };
@@ -619,18 +622,7 @@
     var selector = window.ReelCalcLineSelector;
     var roleState = state.lineRoles[role];
     var controls = roleElements(role);
-    var products = selector.productsFor(state.lines, roleState.material);
-    roleState.productsByLabel = new Map(products.map(function(product) {
-      return [product.label.toLowerCase(), product];
-    }));
-
-    var productFragment = document.createDocumentFragment();
-    products.forEach(function(product) {
-      var option = document.createElement("option");
-      option.value = product.label;
-      productFragment.appendChild(option);
-    });
-    controls.products.replaceChildren(productFragment);
+    closeLineMenu(role);
 
     var selected = preferredLineId
       ? state.lines.find(function(line) { return line.id === preferredLineId && line.material === roleState.material; })
@@ -671,16 +663,76 @@
     renderLineFit();
   }
 
-  function selectLineProduct(role) {
+  function closeLineMenu(role) {
     var roleState = state.lineRoles[role];
     var controls = roleElements(role);
-    var product = roleState.productsByLabel.get(controls.product.value.trim().toLowerCase());
-    if (!product) return false;
-    var selectedLineId = roleState.line && window.ReelCalcLineSelector.productKey(roleState.line) === product.key
-      ? roleState.line.id
-      : "";
-    refreshLineStrengths(role, product.key, selectedLineId);
-    return true;
+    controls.menu.hidden = true;
+    controls.product.setAttribute("aria-expanded", "false");
+    controls.product.removeAttribute("aria-activedescendant");
+    roleState.matches = [];
+    roleState.highlightedIndex = -1;
+  }
+
+  function renderLineMenu(role, entered) {
+    var selector = window.ReelCalcLineSelector;
+    var roleState = state.lineRoles[role];
+    var controls = roleElements(role);
+    if (controls.product.disabled) {
+      closeLineMenu(role);
+      return;
+    }
+    var matches = selector.searchLines(state.lines, roleState.material, entered);
+    roleState.matches = matches;
+    roleState.highlightedIndex = -1;
+    var visible = matches.slice(0, roleState.resultLimit);
+    controls.menu.innerHTML = visible.length ? visible.map(function(line, index) {
+      var selected = roleState.line && roleState.line.id === line.id;
+      var metricDiameter = line.dia_mm || line.dia_in * 25.4;
+      return '<button id="' + role + '-line-option-' + index + '" type="button" class="rc-line-option" role="option" data-line-id="' +
+        escapeHtml(line.id) + '" aria-selected="' + String(Boolean(selected)) + '"><span>' +
+        escapeHtml(lineProductLabel(line)) + '</span><small>' +
+        escapeHtml(trimNumber(line.lb, 1) + " lb | " + trimNumber(line.dia_in, 4) + " in | " + trimNumber(metricDiameter, 3) + " mm") +
+        "</small></button>";
+    }).join("") : '<p class="rc-no-line-results">No matching ' + escapeHtml(roleState.material.toLowerCase()) + ' lines found. Try a brand, model, or pound test.</p>';
+    if (matches.length > visible.length) {
+      controls.menu.insertAdjacentHTML("beforeend", '<button type="button" class="rc-show-more-lines">Show 20 more</button>');
+    }
+    controls.menu.hidden = false;
+    controls.product.setAttribute("aria-expanded", "true");
+  }
+
+  function openLineMenu(role, showAll) {
+    var roleState = state.lineRoles[role];
+    var controls = roleElements(role);
+    var selectedLabel = roleState.line ? lineProductLabel(roleState.line) : "";
+    var entered = controls.product.value.trim();
+    roleState.resultLimit = 20;
+    renderLineMenu(role, showAll || (selectedLabel && entered === selectedLabel) ? "" : entered);
+  }
+
+  function highlightLineOption(role, nextIndex) {
+    var roleState = state.lineRoles[role];
+    var controls = roleElements(role);
+    var buttons = Array.from(controls.menu.querySelectorAll(".rc-line-option"));
+    if (!buttons.length) return;
+    var index = Math.max(0, Math.min(nextIndex, buttons.length - 1));
+    roleState.highlightedIndex = index;
+    buttons.forEach(function(button, buttonIndex) {
+      button.classList.toggle("is-highlighted", buttonIndex === index);
+    });
+    controls.product.setAttribute("aria-activedescendant", buttons[index].id);
+    buttons[index].scrollIntoView({ block: "nearest" });
+  }
+
+  function chooseExactLine(role, line) {
+    if (!line) return;
+    var selector = window.ReelCalcLineSelector;
+    var controls = roleElements(role);
+    state.lineRoles[role].line = line;
+    controls.product.value = lineProductLabel(line);
+    refreshLineStrengths(role, selector.productKey(line), line.id);
+    closeLineMenu(role);
+    updateUrl("replace");
   }
 
   function setBackingMode(enabled) {
@@ -700,6 +752,7 @@
     document.querySelectorAll('.rc-material-button[data-line-role="backing"]').forEach(function(button) {
       button.disabled = !state.backingEnabled;
     });
+    if (!state.backingEnabled) closeLineMenu("backing");
     elements.backingModeNote.textContent = state.backingEnabled
       ? "Compare a chosen main-line amount with backing underneath it."
       : "Compare how much main line fills each reel without backing.";
@@ -1261,6 +1314,10 @@
         closeReelMenu("A");
         closeReelMenu("B");
       }
+      if (!event.target.closest(".rc-line-combobox")) {
+        closeLineMenu("main");
+        closeLineMenu("backing");
+      }
     });
     elements.swap.addEventListener("click", function() {
       if (!state.reelA || !state.reelB) return;
@@ -1322,21 +1379,71 @@
     });
 
     ["main", "backing"].forEach(function(role) {
+      var roleState = state.lineRoles[role];
       var controls = roleElements(role);
-      controls.product.addEventListener("input", function() {
-        if (selectLineProduct(role)) updateUrl("replace");
+      controls.product.addEventListener("focus", function() {
+        if (roleState.line && controls.product.value === lineProductLabel(roleState.line)) controls.product.select();
+        openLineMenu(role, true);
       });
-      controls.product.addEventListener("change", function() {
-        var selected = selectLineProduct(role);
-        if (!selected && state.lineRoles[role].line) {
-          controls.product.value = lineProductLabel(state.lineRoles[role].line);
+      controls.product.addEventListener("click", function() {
+        openLineMenu(role, true);
+      });
+      controls.product.addEventListener("input", function() {
+        if (roleState.line && controls.product.value !== lineProductLabel(roleState.line)) {
+          roleState.line = null;
+          refreshLineStrengths(role, "", "");
+          updateUrl("replace");
         }
-        if (selected) updateUrl("replace");
+        roleState.resultLimit = 20;
+        renderLineMenu(role, controls.product.value);
+      });
+      controls.product.addEventListener("keydown", function(event) {
+        if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+          event.preventDefault();
+          if (controls.menu.hidden) openLineMenu(role, false);
+          var direction = event.key === "ArrowDown" ? 1 : -1;
+          var count = controls.menu.querySelectorAll(".rc-line-option").length;
+          var start = roleState.highlightedIndex < 0
+            ? (direction > 0 ? 0 : count - 1)
+            : roleState.highlightedIndex + direction;
+          highlightLineOption(role, start);
+          return;
+        }
+        if (event.key === "Enter") {
+          event.preventDefault();
+          var highlighted = roleState.matches[roleState.highlightedIndex];
+          if (highlighted) chooseExactLine(role, highlighted);
+          else if (roleState.matches.length === 1) chooseExactLine(role, roleState.matches[0]);
+          return;
+        }
+        if (event.key === "Escape") {
+          event.preventDefault();
+          if (roleState.line) controls.product.value = lineProductLabel(roleState.line);
+          closeLineMenu(role);
+        }
       });
       controls.product.addEventListener("blur", function() {
-        if (!state.lineRoles[role].productsByLabel.has(controls.product.value.trim().toLowerCase()) && state.lineRoles[role].line) {
-          controls.product.value = lineProductLabel(state.lineRoles[role].line);
+        window.setTimeout(function() {
+          if (document.activeElement !== controls.product && !controls.menu.contains(document.activeElement)) {
+            if (roleState.line) controls.product.value = lineProductLabel(roleState.line);
+            closeLineMenu(role);
+          }
+        }, 140);
+      });
+      controls.menu.addEventListener("mousedown", function(event) {
+        if (event.target.closest("button")) event.preventDefault();
+      });
+      controls.menu.addEventListener("click", function(event) {
+        var showMore = event.target.closest(".rc-show-more-lines");
+        if (showMore) {
+          roleState.resultLimit += 20;
+          renderLineMenu(role, controls.product.value);
+          controls.product.focus();
+          return;
         }
+        var button = event.target.closest(".rc-line-option");
+        if (!button) return;
+        chooseExactLine(role, state.lines.find(function(line) { return line.id === button.dataset.lineId; }) || null);
       });
       controls.strength.addEventListener("change", function() {
         var line = state.lines.find(function(item) { return item.id === controls.strength.value; }) || null;

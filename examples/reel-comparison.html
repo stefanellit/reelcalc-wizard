@@ -98,8 +98,10 @@
             </div>
 
             <label for="main-line-product">Brand / line</label>
-            <input id="main-line-product" list="main-line-products" type="search" autocomplete="off" placeholder="Search line brand or model">
-            <datalist id="main-line-products"></datalist>
+              <div class="rc-line-combobox">
+                <input id="main-line-product" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="main-line-options" autocomplete="off" placeholder="Search brand, line, or strength">
+                <div class="rc-line-options" id="main-line-options" role="listbox" aria-label="Main line search results" hidden></div>
+              </div>
 
             <label for="main-line-strength">Strength</label>
             <select id="main-line-strength"></select>
@@ -123,8 +125,10 @@
             </div>
 
             <label for="backing-line-product">Brand / line</label>
-            <input id="backing-line-product" list="backing-line-products" type="search" autocomplete="off" placeholder="Search line brand or model">
-            <datalist id="backing-line-products"></datalist>
+              <div class="rc-line-combobox">
+                <input id="backing-line-product" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="backing-line-options" autocomplete="off" placeholder="Search brand, line, or strength">
+                <div class="rc-line-options" id="backing-line-options" role="listbox" aria-label="Backing line search results" hidden></div>
+              </div>
 
             <label for="backing-line-strength">Strength</label>
             <select id="backing-line-strength"></select>
