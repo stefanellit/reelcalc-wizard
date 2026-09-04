@@ -1,0 +1,17 @@
+{
+  "testId": "reelcalc-real-world-test-001",
+  "status": "passed",
+  "checksPassed": 29,
+  "checksTotal": 29,
+  "failedChecks": [],
+  "missingImages": [],
+  "arithmetic": {
+    "physicalBackingYards": 200,
+    "physicalBraidYards": 300,
+    "totalYards": 500,
+    "predictionDifferenceYards": 7.400000000000006,
+    "predictionDifferenceFeet": 22.200000000000017,
+    "predictionDifferencePercent": 3.7000000000000024,
+    "diameterYards": 250.437377
+  }
+}

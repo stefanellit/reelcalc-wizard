@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "tests": [
+    {
+      "id": "reelcalc-real-world-test-001",
+      "number": 1,
+      "slug": "penn-fierce-iv-8000-line-capacity-test",
+      "canonicalPath": "/reel-tests/penn-fierce-iv-8000-line-capacity-test",
+      "reelId": "penn-fierce-iv-8000-frciv8000-474",
+      "reel": {
+        "brand": "PENN",
+        "family": "Fierce IV",
+        "size": "8000",
+        "sku": "FRCIV8000"
+      },
+      "mainLine": {
+        "lineId": "reaction-tackle-braid-braid-30",
+        "brand": "Reaction Tackle",
+        "model": "X8 braided fishing line",
+        "type": "Braid",
+        "strengthLb": 30,
+        "color": "Moss Green",
+        "diameterIn": 0.011,
+        "diameterMm": 0.279,
+        "intendedYards": 300,
+        "measuredFeet": 900,
+        "installedYards": 300
+      },
+      "backing": {
+        "brand": "Sufix",
+        "model": "Superior monofilament",
+        "type": "Monofilament",
+        "strengthLb": 20,
+        "diameterIn": 0.018,
+        "diameterMm": 0.45,
+        "measuredFeet": 600,
+        "installedYards": 200
+      },
+      "manufacturerRatings": {
+        "monoStrength": [
+          { "strengthLb": 20, "yards": 340 },
+          { "strengthLb": 25, "yards": 310 },
+          { "strengthLb": 30, "yards": 230 }
+        ],
+        "monoDiameter": [
+          { "diameterMm": 0.46, "meters": 310 },
+          { "diameterMm": 0.48, "meters": 285 },
+          { "diameterMm": 0.56, "meters": 210 }
+        ],
+        "braidStrength": [
+          { "strengthLb": 50, "yards": 475 },
+          { "strengthLb": 65, "yards": 390 },
+          { "strengthLb": 80, "yards": 345 }
+        ],
+        "braidDiameter": [
+          { "diameterMm": 0.41, "meters": 435 },
+          { "diameterMm": 0.46, "meters": 355 },
+          { "diameterMm": 0.48, "meters": 315 }
+        ]
+      },
+      "predictions": {
+        "reelCalcBackingYards": 207.4,
+        "postTestDiameterBackingMeters": 229,
+        "postTestDiameterBackingYards": 250.4
+      },
+      "physicalResult": {
+        "backingYards": 200,
+        "mainLineYards": 300,
+        "totalLineYards": 500,
+        "connectionKnot": "Uni-to-Uni knot",
+        "fillObservation": "The full 300-yard braid spool fit over 600 feet of mono backing, and the finished spool appeared properly filled."
+      },
+      "images": [
+        { "file": "reelcalc-prediction-207-4-hd.png", "role": "calculator-prediction", "available": true },
+        { "file": "IMG_2269.jpeg", "role": "line-counter", "available": true },
+        { "file": "IMG_2270.jpeg", "role": "main-line-package", "available": true },
+        { "file": "IMG_2271.jpeg", "role": "mono-capacity-ratings", "available": true },
+        { "file": "IMG_2272.jpeg", "role": "braid-capacity-ratings", "available": true },
+        { "file": "IMG_2273.jpeg", "role": "reel-identification-empty", "available": true },
+        { "file": "IMG_2274.jpeg", "role": "backing-product", "available": true },
+        { "file": "IMG_2275.jpeg", "role": "backing-attached", "available": true },
+        { "file": "IMG_2276.jpeg", "role": "main-line-product", "available": true },
+        { "file": "IMG_2277.jpeg", "role": "backing-installed", "available": true },
+        { "file": "IMG_2278.jpeg", "role": "mono-to-braid-connection-primary", "available": true },
+        { "file": "IMG_2279.jpeg", "role": "mono-to-braid-connection-alternate", "available": true },
+        { "file": "IMG_2280.jpeg", "role": "finished-spool-primary", "available": true },
+        { "file": "IMG_2281.jpeg", "role": "finished-spool-angle", "available": true },
+        { "file": "IMG_2282.jpeg", "role": "finished-spool-detail", "available": true }
+      ],
+      "sources": {
+        "penn": "https://www.pennfishing.com/products/fierce-iv-spinning-reel-1573575",
+        "reactionTackle": "https://www.reactiontackle.com/products/reaction-tackle-x8-braided-fishing-line-no-fade-white-8-strand",
+        "sufix": "https://www.rapala.com/us_en/superior",
+        "rapalaCounter": "https://www.rapala.com/us_en/digital-line-counter"
+      }
+    },
+    {
+      "id": "reelcalc-real-world-test-002",
+      "number": 2,
+      "slug": "shimano-vanford-c3000xg-fluorocarbon-respool-test",
+      "canonicalPath": "/reel-tests/shimano-vanford-c3000xg-fluorocarbon-respool-test",
+      "reelId": "shimano-vanford-c3000xg",
+      "reel": {
+        "brand": "Shimano",
+        "family": "Vanford",
+        "size": "C3000XG",
+        "modelMarking": "C3000XG",
+        "generationNote": "Original Vanford generation shown in the test photos, not the current Vanford A C3000XGA"
+      },
+      "mainLine": {
+        "lineId": "seaguar-invizx-fluorocarbon-10",
+        "brand": "Seaguar",
+        "model": "InvizX",
+        "type": "Fluorocarbon",
+        "strengthLb": 10,
+        "retailSpoolYards": 200,
+        "plannedYardsPerFill": 65,
+        "installedYards": 65,
+        "plannedFillCount": 3,
+        "plannedTotalYards": 195
+      },
+      "backing": {
+        "lineId": "berkley-trilene-big-game-monofilament-10",
+        "brand": "Berkley",
+        "model": "Trilene Big Game",
+        "type": "Monofilament",
+        "strengthLb": 10,
+        "diameterIn": 0.012,
+        "reelCalcBackingYards": 94.9,
+        "displayBackingYards": 95,
+        "calculationEngineVersion": "2026.08-dual-anchor-v1",
+        "calculationInputs": {
+          "mainLineYards": 65,
+          "mainLineDiameterIn": 0.01,
+          "reelMonoRatingLb": 10,
+          "reelMonoRatingYards": 140,
+          "reelMonoRatingDiameterIn": 0.012
+        },
+        "status": "existing",
+        "planningMethod": "Previously calculated with ReelCalc",
+        "condition": "Still usable during this test",
+        "removed": false,
+        "replaced": false,
+        "amountMeasuredDuringTest": false
+      },
+      "measurement": {
+        "lineCounterUsed": false,
+        "method": "Known remainder from a 200-yard supply spool after two earlier planned 65-yard fills",
+        "supplySpoolEmptied": true
+      },
+      "physicalResult": {
+        "mainLineYards": 65,
+        "connectionKnot": "Uni-to-Uni knot",
+        "fillObservation": "The fresh working-line section produced a practical final fill over the existing backing."
+      },
+      "images": [
+        { "file": "IMG_2350.jpeg", "role": "existing-backing-exposed-after-main-line-removal", "available": true },
+        { "file": "IMG_2351.jpeg", "role": "main-line-package", "available": true },
+        { "file": "IMG_2352.jpeg", "role": "backing-to-fluorocarbon-connection", "available": true },
+        { "file": "IMG_2353.jpeg", "role": "finished-spool-primary", "available": true },
+        { "file": "IMG_2354.jpeg", "role": "finished-spool-angle", "available": true }
+      ],
+      "sources": {
+        "shimano": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f000035yx0xqaq.html",
+        "seaguar": "https://seaguar.com/products/invizx"
+      }
+    }
+  ]
+}
