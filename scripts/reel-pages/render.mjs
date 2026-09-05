@@ -345,6 +345,7 @@ export function buildPageModel({
     recommendation,
     calculatorDefaults,
     capacityRows,
+    realWorldTest: page.realWorldTest || null,
     related: related.map((item) => ({
       label: `${item.reel.brand} ${item.reel.model} ${item.reel.size_label || item.reel.size_class} Line Capacity & Setup Guide`,
       path: item.path,
@@ -398,6 +399,17 @@ export function renderSquarespaceBlock(model, assetBase) {
     ? `<ul class="reelcalc-link-list">${linkList(model.related)}</ul>`
     : "<p>No verified related reel-page links are registered yet.</p>";
   const resourceLinks = `<ul class="reelcalc-link-list">${linkList(model.resources)}</ul>`;
+  const realWorldTestSection = model.realWorldTest
+    ? `
+  <section class="reelcalc-page-section reelcalc-real-world-test-callout" data-section="real-world-test" data-test-id="${escapeHtml(model.realWorldTest.testId || "")}">
+    <div class="reelcalc-page-content reelcalc-page-content--narrow">
+      <h2>${escapeHtml(model.realWorldTest.heading)}</h2>
+      <p>${escapeHtml(model.realWorldTest.summary)}</p>
+      <a class="reelcalc-page-button reelcalc-page-button--secondary" data-link-placement="reel_page_after_calculator" href="${escapeHtml(model.realWorldTest.path)}">${escapeHtml(model.realWorldTest.linkLabel)}</a>
+    </div>
+  </section>
+`
+    : "";
   const setupRows = tableRows(recommendation.rows, [
     (row) => row.use,
     (row) => row.setup
@@ -422,7 +434,7 @@ export function renderSquarespaceBlock(model, assetBase) {
   const specsRows = specs.map(([label, value]) =>
     `<tr><td>${escapeHtml(label)}</td><td>${escapeHtml(value)}</td></tr>`
   ).join("\n");
-  const cssUrl = absoluteAsset(assetBase, "css/reel-page.css?v=3");
+  const cssUrl = absoluteAsset(assetBase, "css/reel-page.css?v=4");
   const calculatorUrl = absoluteAsset(assetBase, "js/reel-page-calculator.js");
   const runtimeUrl = absoluteAsset(assetBase, "js/reel-page-runtime.js?v=3");
 
@@ -483,6 +495,7 @@ export function renderSquarespaceBlock(model, assetBase) {
       ></div>
     </div>
   </section>
+${realWorldTestSection}
 
   <section class="reelcalc-page-section" data-section="best-line-setup">
     <div class="reelcalc-page-content">

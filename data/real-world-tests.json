@@ -7,6 +7,15 @@
       "slug": "penn-fierce-iv-8000-line-capacity-test",
       "canonicalPath": "/reel-tests/penn-fierce-iv-8000-line-capacity-test",
       "reelId": "penn-fierce-iv-8000-frciv8000-474",
+      "reelPageLinks": [
+        {
+          "reelId": "penn-fierce-iv-8000-frciv8000-474",
+          "relationship": "exact-reel",
+          "heading": "Real-World PENN Fierce IV 8000 Spool Test",
+          "summary": "See how 300 yards of 30 lb braid and 200 measured yards of mono backing filled an actual PENN Fierce IV 8000.",
+          "linkLabel": "See the PENN Fierce IV 8000 Real-World Spool Test"
+        }
+      ],
       "reel": {
         "brand": "PENN",
         "family": "Fierce IV",
@@ -100,6 +109,15 @@
       "slug": "shimano-vanford-c3000xg-fluorocarbon-respool-test",
       "canonicalPath": "/reel-tests/shimano-vanford-c3000xg-fluorocarbon-respool-test",
       "reelId": "shimano-vanford-c3000xg",
+      "reelPageLinks": [
+        {
+          "reelId": "shimano-vanford-fa-c3000xga-vfc3000xga-692",
+          "relationship": "related-generation",
+          "heading": "Real-World Vanford C3000XG Re-Spool Test",
+          "summary": "See a documented earlier-generation Vanford C3000XG re-spool using 65 yards of 10 lb Seaguar InvizX over reusable backing.",
+          "linkLabel": "See the Vanford C3000XG Real-World Re-Spool"
+        }
+      ],
       "reel": {
         "brand": "Shimano",
         "family": "Vanford",

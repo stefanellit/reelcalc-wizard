@@ -48,6 +48,13 @@ Shared live-page files:
 - `js/reel-page-runtime.js`: data-driven affiliate rendering, reel-specific comparison links, and privacy-safe interaction analytics.
 - `data/reel-affiliates.json`: centralized optional affiliate mapping.
 - `data/reel-pages.json`: verified page URLs, resource URLs, and family relationships.
+- `data/real-world-tests.json`: documented spool-test records and their exact or related reel-page placements.
+
+## Real-World Test Links
+
+Reel-page links to documented spool tests are maintained in `data/real-world-tests.json`. Each placement uses the canonical reel ID and records whether the test covers the exact reel or a related generation. The visible summary must state that relationship clearly so a test performed on an older model is never presented as a test of the current model.
+
+Run `node scripts/sync-real-world-test-links.mjs` after adding or changing a placement. The script copies the approved link into the reel-page registry and live Squarespace embed manifest. Existing imported reel pages then insert the test immediately after the calculator, and future generated pages include the same section automatically.
 
 ## Actual-Line Calculator Flow
 

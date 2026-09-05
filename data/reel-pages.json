@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "siteBaseUrl": "https://www.reelcalc.com",
   "wizardPath": "/reelcalc-wizard",
   "comparisonPath": "/reel-comparison",
@@ -2551,7 +2551,15 @@
       "imageSourcePage": "https://www.pennfishing.com/products/fierce-iv-spinning-reel-1573575",
       "imageMethod": "source-page-metadata",
       "verifiedLive": true,
-      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need.",
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-001",
+        "relationship": "exact-reel",
+        "heading": "Real-World PENN Fierce IV 8000 Spool Test",
+        "summary": "See how 300 yards of 30 lb braid and 200 measured yards of mono backing filled an actual PENN Fierce IV 8000.",
+        "linkLabel": "See the PENN Fierce IV 8000 Real-World Spool Test",
+        "path": "/reel-tests/penn-fierce-iv-8000-line-capacity-test"
+      }
     },
     {
       "reelId": "penn-pursuit-v-2500-purv2500-475",
@@ -3799,7 +3807,15 @@
       "imageSourcePage": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwfsqac.html",
       "imageMethod": "verified-existing-page",
       "verifiedLive": true,
-      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need.",
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-002",
+        "relationship": "related-generation",
+        "heading": "Real-World Vanford C3000XG Re-Spool Test",
+        "summary": "See a documented earlier-generation Vanford C3000XG re-spool using 65 yards of 10 lb Seaguar InvizX over reusable backing.",
+        "linkLabel": "See the Vanford C3000XG Real-World Re-Spool",
+        "path": "/reel-tests/shimano-vanford-c3000xg-fluorocarbon-respool-test"
+      }
     },
     {
       "reelId": "shimano-vanford-fa-4000xga-vf4000xga-693",

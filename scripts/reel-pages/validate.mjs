@@ -40,7 +40,8 @@ export function validateGeneratedPage({ html, reel, model, registry, projectFile
     registry.comparisonPath || "/reel-comparison",
     ...registry.pages.map((page) => page.path),
     ...registry.resources.map((resource) => resource.path),
-    ...(model.resources || []).map((resource) => resource.path)
+    ...(model.resources || []).map((resource) => resource.path),
+    ...(model.realWorldTest?.path ? [model.realWorldTest.path] : [])
   ]);
   const internalLinks = [...html.matchAll(/href=["'](\/[^"'?#]*)(?:\?[^"']*)?["']/gi)]
     .map((match) => match[1]);
@@ -60,7 +61,8 @@ export function validateGeneratedPage({ html, reel, model, registry, projectFile
     "specifications",
     "faqs",
     "related-resources",
-    "wizard-cta"
+    "wizard-cta",
+    ...(model.realWorldTest ? ["real-world-test"] : [])
   ];
   const relatedCount = model.related.length;
 

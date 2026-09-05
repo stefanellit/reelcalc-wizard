@@ -19,7 +19,7 @@
   }
 
   function loadStylesheet() {
-    var href = assetUrl("css/reel-page.css?v=3");
+    var href = assetUrl("css/reel-page.css?v=4");
     if (document.querySelector('link[data-reelcalc-reel-page-css]')) return;
     var link = document.createElement("link");
     link.rel = "stylesheet";
@@ -134,6 +134,7 @@
     if (text.indexOf("quick answer:") === 0) return "quick-answer";
     if (text.indexOf("who is the") === 0) return "who-is-this-reel-for";
     if (text.indexOf("use the pre-loaded") === 0) return "calculator";
+    if (text.indexOf("real-world") === 0) return "real-world-test";
     if (text.indexOf("best line setup") === 0) return "best-line-setup";
     if (text.indexOf("line capacity") >= 0) return "line-capacity";
     if (/ specs$/.test(text)) return "specifications";
@@ -208,6 +209,36 @@
     var content = section.querySelector(".reelcalc-page-content") || section;
     replaceRelatedLinkList(content, "compare similar reels", entry.related);
     prependHelpfulResource(content, entry.sizeGuide);
+  }
+
+  function insertRealWorldTest(description, entry) {
+    var test = entry.realWorldTest;
+    if (!test || !test.path || !test.heading || !test.summary || !test.linkLabel) return;
+    if (description.querySelector('[data-section="real-world-test"]')) return;
+
+    var calculator = description.querySelector('[data-section="calculator"]');
+    if (!calculator) return;
+
+    var section = document.createElement("section");
+    section.className = "reelcalc-page-section reelcalc-real-world-test-callout";
+    section.dataset.section = "real-world-test";
+    if (test.testId) section.dataset.testId = test.testId;
+
+    var content = document.createElement("div");
+    content.className = "reelcalc-page-content reelcalc-page-content--narrow";
+    var heading = document.createElement("h2");
+    heading.textContent = test.heading;
+    var summary = document.createElement("p");
+    summary.textContent = test.summary;
+    var link = document.createElement("a");
+    link.className = "reelcalc-page-button reelcalc-page-button--secondary";
+    link.href = test.path;
+    link.textContent = test.linkLabel;
+    link.dataset.linkPlacement = "reel_page_after_calculator";
+
+    content.append(heading, summary, link);
+    section.appendChild(content);
+    calculator.insertAdjacentElement("afterend", section);
   }
 
   function updateExactPageContent(description, entry) {
@@ -355,6 +386,8 @@
         if (button) button.classList.add("reelcalc-page-button");
       }
     });
+
+    insertRealWorldTest(description, entry);
 
     var image = description.querySelector("img");
     if (image) image.classList.add("reelcalc-product-image");
@@ -586,7 +619,7 @@
 
     var slug = loaderScript.dataset.pageSlug ||
       decodeURIComponent(location.pathname.split("/").filter(Boolean).pop() || "");
-    fetch(assetUrl("data/reel-page-embeds.json?v=8"), { credentials: "omit" })
+    fetch(assetUrl("data/reel-page-embeds.json?v=9"), { credentials: "omit" })
       .then(function(response) {
         if (!response.ok) throw new Error("Reel page mapping returned HTTP " + response.status + ".");
         return response.json();

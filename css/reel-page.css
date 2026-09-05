@@ -103,6 +103,15 @@
   color: #1a4f1c;
 }
 
+.reelcalc-real-world-test-callout .reelcalc-page-content {
+  border-left: 4px solid #b98516;
+  padding-left: 24px;
+}
+
+.reelcalc-real-world-test-callout p {
+  max-width: 760px;
+}
+
 .reelcalc-table-wrap {
   margin: 24px 0;
   overflow-x: auto;
@@ -416,6 +425,10 @@ body.reelcalc-reel-collection .sqs-add-to-cart-button-wrapper {
 
   .reelcalc-page-content {
     padding: 0 18px;
+  }
+
+  .reelcalc-real-world-test-callout .reelcalc-page-content {
+    padding-left: 18px;
   }
 
   .reelcalc-link-list {

@@ -68,12 +68,27 @@ for (const page of registry.pages) {
     generated.model.faqCapacity,
     `${page.reelId}: live capacity FAQ is stale.`
   );
+  assert.deepEqual(
+    entry.realWorldTest || null,
+    generated.model.realWorldTest || null,
+    `${page.reelId}: real-world test link differs from the generator.`
+  );
   publishedPageCount += 1;
 }
 
 const avenger = generateReelPage("okuma-avenger-b-4000-av-4000b-380");
 assert.equal(avenger.model.braidText, "30 lb / 210 yards, 40 lb / 180 yards");
 assert.doesNotMatch(avenger.productionBlock, /210 lb \/ 30 yards|180 lb \/ 40 yards/);
+
+const pennTestPage = generateReelPage("penn-fierce-iv-8000-frciv8000-474");
+assert.match(pennTestPage.productionBlock, /data-section="real-world-test"/);
+assert.match(pennTestPage.productionBlock, /penn-fierce-iv-8000-line-capacity-test/);
+assert.equal((pennTestPage.productionBlock.match(/data-section="real-world-test"/g) || []).length, 1);
+
+const vanfordTestPage = generateReelPage("shimano-vanford-fa-c3000xga-vfc3000xga-692");
+assert.match(vanfordTestPage.productionBlock, /earlier-generation Vanford C3000XG/);
+assert.match(vanfordTestPage.productionBlock, /shimano-vanford-c3000xg-fluorocarbon-respool-test/);
+assert.equal((vanfordTestPage.productionBlock.match(/data-section="real-world-test"/g) || []).length, 1);
 
 const loaderSource = fs.readFileSync(
   path.join(root, "js", "squarespace-reel-page-loader.js"),
@@ -82,7 +97,8 @@ const loaderSource = fs.readFileSync(
 assert.match(loaderSource, /line-capacity/);
 assert.match(loaderSource, /content\.capacityRows/);
 assert.match(loaderSource, /content\.braidText/);
-assert.match(loaderSource, /reel-page-embeds\.json\?v=8/);
+assert.match(loaderSource, /reel-page-embeds\.json\?v=9/);
+assert.match(loaderSource, /insertRealWorldTest/);
 
 const wizardSource = fs.readFileSync(path.join(root, "js", "wizard.js"), "utf8");
 assert.match(wizardSource, /publishedBraidCapacityOptions/);

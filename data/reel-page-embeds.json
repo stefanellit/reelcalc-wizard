@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "pages": {
     "bass-pro-shops-micro-lite-elite-spinning-reel-5": {
       "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -19847,6 +19847,14 @@
         "monoText": "20 lb / 340 yards, 25 lb / 310 yards, 30 lb / 230 yards",
         "braidText": "50 lb / 475 yards, 65 lb / 390 yards, 80 lb / 345 yards",
         "faqCapacity": "The reel is published at 20 lb / 340 yards, 25 lb / 310 yards, 30 lb / 230 yards. Its listed braid ratings are 50 lb / 475 yards, 65 lb / 390 yards, 80 lb / 345 yards. Actual capacity can vary with the diameter of the exact line selected."
+      },
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-001",
+        "relationship": "exact-reel",
+        "heading": "Real-World PENN Fierce IV 8000 Spool Test",
+        "summary": "See how 300 yards of 30 lb braid and 200 measured yards of mono backing filled an actual PENN Fierce IV 8000.",
+        "linkLabel": "See the PENN Fierce IV 8000 Real-World Spool Test",
+        "path": "/reel-tests/penn-fierce-iv-8000-line-capacity-test"
       }
     },
     "penn-pursuit-v-2500": {
@@ -30413,6 +30421,14 @@
         "monoText": "6 lb / 230 yards, 8 lb / 170 yards, 10 lb / 140 yards",
         "braidText": "10 lb / 200 yards, 20 lb / 140 yards, 40 lb / 105 yards",
         "faqCapacity": "The reel is published at 6 lb / 230 yards, 8 lb / 170 yards, 10 lb / 140 yards. Its listed braid ratings are 10 lb / 200 yards, 20 lb / 140 yards, 40 lb / 105 yards. Actual capacity can vary with the diameter of the exact line selected."
+      },
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-002",
+        "relationship": "related-generation",
+        "heading": "Real-World Vanford C3000XG Re-Spool Test",
+        "summary": "See a documented earlier-generation Vanford C3000XG re-spool using 65 yards of 10 lb Seaguar InvizX over reusable backing.",
+        "linkLabel": "See the Vanford C3000XG Real-World Re-Spool",
+        "path": "/reel-tests/shimano-vanford-c3000xg-fluorocarbon-respool-test"
       }
     },
     "shimano-vanford-4000": {
