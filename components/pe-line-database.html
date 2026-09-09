@@ -1,0 +1,119 @@
+<div id="reelcalc-pe-line-database">
+
+
+<section class="rcdb-shell" aria-labelledby="rcdb-pe-title">
+  <div class="rcdb-heading">
+    <div>
+      <h2 id="rcdb-pe-title">PE Fishing Line Diameter Database</h2>
+      <p class="rcdb-intro">Compare PE braid by brand, PE size, strength, strand count, and published diameter. PE size is not the same as pound test.</p>
+    </div>
+  </div>
+
+  <section class="rcdb-finder" aria-labelledby="rcdb-pe-finder-title">
+    <h3 id="rcdb-pe-finder-title">Find Similar Diameter Lines</h3>
+    <p class="rcdb-finder-copy">Choose a PE line to compare other lines that should occupy about the same spool space.</p>
+    <div class="rcdb-finder-controls">
+      <label class="rcdb-field">
+        <span>PE fishing line</span>
+        <select id="peLineSelect">
+          <option value="">Choose a PE line</option>
+        </select>
+      </label>
+      <button class="rcdb-command" id="peFindMatchesButton" type="button">Find Matches</button>
+    </div>
+
+    <div class="rcdb-match-results" id="peMatchResults" hidden>
+      <div class="rcdb-match-summary">
+        <div class="rcdb-match-summary-body" id="peMatchSummary"></div>
+        <a class="rcdb-browse-link" href="#rcdb-full-pe-database">Browse full database &#8595;</a>
+      </div>
+      <div class="rcdb-table-frame">
+        <div class="rcdb-table-scroll" style="max-height:300px;">
+          <table id="peCompareTable">
+            <thead>
+              <tr>
+                <th><button class="rcdb-column-button" type="button" data-pe-compare-sort="brand">Brand <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th><button class="rcdb-column-button" type="button" data-pe-compare-sort="model">Model <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-compare-sort="pe">PE Size <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-compare-sort="lb">lb <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-compare-sort="kg">kg <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th><button class="rcdb-column-button" type="button" data-pe-compare-sort="strands">Strands <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-compare-sort="dia_mm">Diameter (mm) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-compare-sort="dia_in">Diameter (in) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th><button class="rcdb-column-button" type="button" data-pe-compare-sort="notes">Notes <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rcdb-database-heading" id="rcdb-full-pe-database">
+    <h3>Browse the Full PE Line Database</h3>
+    <div class="rcdb-count" id="peLineCount">Loading lines...</div>
+  </div>
+
+  <div class="rcdb-controls">
+    <label class="rcdb-field rcdb-search-field">
+      <span>Search lines</span>
+      <input id="peLineSearch" type="search" placeholder="Brand, model, PE size, strength, or notes">
+    </label>
+
+    <label class="rcdb-field">
+      <span>Brand</span>
+      <select id="peBrandFilter"><option value="">All brands</option></select>
+    </label>
+
+    <label class="rcdb-field">
+      <span>Strand count</span>
+      <select id="peStrandFilter"><option value="">All strand counts</option></select>
+    </label>
+
+    <div class="rcdb-sort-control">
+      <label class="rcdb-field">
+        <span>Order by</span>
+        <select id="peSortBy">
+          <option value="brand" selected>Brand</option>
+          <option value="model">Model</option>
+          <option value="pe">PE size</option>
+          <option value="lb">Pound strength</option>
+          <option value="kg">Kilogram strength</option>
+          <option value="strands">Strand count</option>
+          <option value="dia_mm">Diameter (mm)</option>
+          <option value="dia_in">Diameter (in)</option>
+        </select>
+      </label>
+      <button class="rcdb-direction" id="peDirectionButton" type="button" aria-label="Sort A to Z" title="Sort A to Z">&#8593;</button>
+    </div>
+  </div>
+
+  <div class="rcdb-status-row">
+    <div id="peSortStatus"><strong>Brand</strong> &middot; A to Z</div>
+    <button class="rcdb-reset" id="peResetButton" type="button">Reset</button>
+  </div>
+
+  <div class="rcdb-table-frame">
+    <div class="rcdb-table-scroll">
+      <table id="peLineTable">
+        <thead>
+          <tr>
+            <th><button class="rcdb-column-button" type="button" data-pe-sort="brand">Brand <span class="rcdb-sort-indicator">&#8593;</span></button></th>
+            <th><button class="rcdb-column-button" type="button" data-pe-sort="model">Model <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-sort="pe">PE Size <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-sort="lb">lb <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-sort="kg">kg <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th><button class="rcdb-column-button" type="button" data-pe-sort="strands">Strands <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-sort="dia_mm">Diameter (mm) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-pe-sort="dia_in">Diameter (in) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th><button class="rcdb-column-button" type="button" data-pe-sort="notes">Notes <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+</div>

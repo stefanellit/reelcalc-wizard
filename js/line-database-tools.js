@@ -2,7 +2,7 @@
   "use strict";
   if (global.ReelCalcLineTools) return;
 
-  var VERSION = "1";
+  var VERSION = "2";
   var PE_SIZES = [0.4, 0.5, 0.6, 0.8, 1, 1.2, 1.5, 1.7, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 10, 12];
   var script = typeof document !== "undefined" ? document.currentScript : null;
   var assetBase = script && script.dataset.assetBase
@@ -315,7 +315,8 @@
     if (global.location.hash === "#reelcalc-pe-calculator") root.scrollIntoView({ block: "start" });
     return true;
   }
-  function initialize() {
+  function initialize(options) {
+    if (options && Array.isArray(options.catalog)) lineDataPromise = Promise.resolve(options.catalog);
     stylesheet();
     var regular = document.getElementById("reelcalc-line-database");
     var pe = document.getElementById("reelcalc-pe-line-database");

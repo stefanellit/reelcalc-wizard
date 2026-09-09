@@ -1,0 +1,113 @@
+<div id="reelcalc-line-database">
+
+
+<section class="rcdb-shell" aria-labelledby="rcdb-title">
+  <div class="rcdb-heading">
+    <div>
+      <h2 id="rcdb-title">Fishing Line Diameter Database</h2>
+      <p class="rcdb-intro">Compare fishing line by brand, type, pound test, and published diameter.</p>
+    </div>
+  </div>
+
+  <section class="rcdb-finder" aria-labelledby="rcdb-finder-title">
+    <h3 id="rcdb-finder-title">Find Similar Diameter Lines</h3>
+    <p class="rcdb-finder-copy">Choose a line to compare other lines with a similar published diameter.</p>
+    <div class="rcdb-finder-controls">
+      <label class="rcdb-field">
+        <span>Fishing line</span>
+        <select id="lineSelect">
+          <option value="">Choose a line</option>
+        </select>
+      </label>
+      <button class="rcdb-command" id="findMatchesButton" type="button">Find Matches</button>
+    </div>
+
+    <div class="rcdb-match-results" id="matchResults" hidden>
+      <div class="rcdb-match-summary">
+        <div class="rcdb-match-summary-body" id="matchSummary"></div>
+        <a class="rcdb-browse-link" href="#rcdb-full-line-database">Browse full database &#8595;</a>
+      </div>
+      <div class="rcdb-table-frame">
+        <div class="rcdb-table-scroll" style="max-height:300px;">
+          <table id="compareTable">
+            <thead>
+              <tr>
+                <th><button class="rcdb-column-button" type="button" data-compare-sort="brand">Brand <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th><button class="rcdb-column-button" type="button" data-compare-sort="model">Model <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th><button class="rcdb-column-button" type="button" data-compare-sort="type">Type <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-compare-sort="lb">lb <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-compare-sort="dia_in">Diameter (in) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+                <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-compare-sort="dia_mm">Diameter (mm) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rcdb-database-heading" id="rcdb-full-line-database">
+    <h3>Browse the Full Line Database</h3>
+    <div class="rcdb-count" id="lineCount">Loading lines...</div>
+  </div>
+
+  <div class="rcdb-controls">
+    <label class="rcdb-field rcdb-search-field">
+      <span>Search lines</span>
+      <input id="lineSearch" type="search" placeholder="Brand, model, type, or pound test">
+    </label>
+
+    <label class="rcdb-field">
+      <span>Brand</span>
+      <select id="brandFilter"><option value="">All brands</option></select>
+    </label>
+
+    <label class="rcdb-field">
+      <span>Type</span>
+      <select id="typeFilter"><option value="">All types</option></select>
+    </label>
+
+    <div class="rcdb-sort-control">
+      <label class="rcdb-field">
+        <span id="sortByLabel">Order by</span>
+        <select id="sortBy">
+          <option value="brand" selected>Brand</option>
+          <option value="model">Model</option>
+          <option value="type">Type</option>
+          <option value="lb">Pound test</option>
+          <option value="dia_in">Diameter (in)</option>
+          <option value="dia_mm">Diameter (mm)</option>
+        </select>
+      </label>
+      <button class="rcdb-direction" id="directionButton" type="button" aria-label="Sort A to Z" title="Sort A to Z">&#8593;</button>
+    </div>
+
+  </div>
+
+  <div class="rcdb-status-row">
+    <div id="sortStatus"><strong>Brand</strong> &middot; A to Z</div>
+    <button class="rcdb-reset" id="resetButton" type="button">Reset</button>
+  </div>
+
+  <div class="rcdb-table-frame">
+    <div class="rcdb-table-scroll">
+      <table id="lineTable">
+        <thead>
+          <tr>
+            <th><button class="rcdb-column-button" type="button" data-sort="brand">Brand <span class="rcdb-sort-indicator">&#8593;</span></button></th>
+            <th><button class="rcdb-column-button" type="button" data-sort="model">Model <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th><button class="rcdb-column-button" type="button" data-sort="type">Type <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-sort="lb">lb <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-sort="dia_in">Diameter (in) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+            <th class="rcdb-number"><button class="rcdb-column-button" type="button" data-sort="dia_mm">Diameter (mm) <span class="rcdb-sort-indicator">&#8597;</span></button></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+</div>
