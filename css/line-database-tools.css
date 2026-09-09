@@ -1,0 +1,55 @@
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-actions {
+  box-sizing: border-box; margin: 18px 0 0; padding: 16px 18px;
+  border-left: 4px solid #398344; background: #eaf3ec; min-width: 0;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-actions [hidden],
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-actions[hidden] { display: none !important; }
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-eyebrow {
+  color: #356642; font: 700 11px/1.4 Arial, sans-serif; text-transform: uppercase; margin: 0 0 7px;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-name {
+  display: block; color: #173b27; font: 700 19px/1.35 Arial, sans-serif; overflow-wrap: anywhere;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-specs {
+  color: #425a4a; font: 14px/1.5 Arial, sans-serif; margin: 6px 0 0; overflow-wrap: anywhere;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-note {
+  color: #58645d; font: 12px/1.45 Arial, sans-serif; margin: 7px 0 0; overflow-wrap: anywhere;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-buttons {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 15px;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-buttons a {
+  box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center;
+  position: static; min-height: 44px; max-width: 100%; padding: 10px 16px; border: 1px solid #2f763a;
+  border-radius: 5px; background: #327c3c; color: #fff; font: 700 14px/1.4 Arial, sans-serif;
+  text-decoration: none; white-space: normal; text-align: center; overflow-wrap: anywhere;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-buttons a.rc-line-secondary {
+  border-color: #245878; background: #fff; color: #1d5375;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-clear {
+  min-height: 44px; padding: 8px 0; margin-left: auto; color: #48634f; border: 0;
+  background: transparent; font: 14px/1.4 Arial, sans-serif; text-decoration: underline; cursor: pointer;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-pick {
+  padding: 0; color: #185777; border: 0; background: transparent; font: inherit; font-weight: 600;
+  text-align: left; text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
+}
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-selected-row td { background: #eaf3ec; }
+:is(#reelcalc-line-database, #reelcalc-pe-line-database) :is(.rc-line-buttons a, .rc-line-clear, .rc-line-pick):focus-visible {
+  outline: 3px solid #2378ad; outline-offset: 3px;
+}
+.rc-line-sr-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+:is(#reelcalc-homepage-calculator, #reelcalc-pe-calculator) .rc-line-loaded {
+  margin: 10px 0 14px; padding: 10px 12px; border-left: 3px solid #398344; background: #edf6ef;
+  font: 14px/1.5 Arial, sans-serif; color: #23452d; overflow-wrap: anywhere;
+}
+:is(#reelcalc-homepage-calculator, #reelcalc-pe-calculator) .rc-line-loaded :is(strong, span, a) { display: block; }
+:is(#reelcalc-homepage-calculator, #reelcalc-pe-calculator) .rc-line-loaded a { margin-top: 6px; color: #195775; text-decoration: underline; }
+@media (max-width: 700px) {
+  :is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-actions { padding: 14px 12px; }
+  :is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-name { font-size: 18px; }
+  :is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-buttons { display: grid; grid-template-columns: minmax(0, 1fr); gap: 9px; }
+  :is(#reelcalc-line-database, #reelcalc-pe-line-database) .rc-line-buttons :is(a, button) { width: 100%; margin-left: 0; }
+}

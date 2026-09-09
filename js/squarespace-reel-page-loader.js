@@ -601,6 +601,15 @@
 
   function initialize() {
     initializeAnalyticsBridge();
+    if (document.getElementById("reelcalc-line-database") ||
+        document.getElementById("reelcalc-pe-line-database") ||
+        new URLSearchParams(location.search).has("rcSource")) {
+      loadScript("js/line-database-tools.js?v=1", "ReelCalcLineTools").then(function(tools) {
+        if (tools && tools.initialize) tools.initialize();
+      }).catch(function(error) {
+        console.warn("ReelCalc line tool links could not load.", error);
+      });
+    }
     loadScript("js/analytics.js", "ReelCalcAnalytics").then(function(analytics) {
       if (analytics && analytics.instrumentLineDatabase) {
         analytics.instrumentLineDatabase();

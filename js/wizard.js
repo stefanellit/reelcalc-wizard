@@ -82,13 +82,16 @@ async function init() {
   populateReelFilters();
   var preloadedReel = applyReelPreloadFromUrl();
   populateLineFilters();
+  var preloadedLine = applyLinePreloadFromUrl();
   populateBackingFilters();
   renderAll();
   trackWizardEvent("wizard_viewed", {
     page_type: "setup_wizard",
-    reel_preloaded: Boolean(preloadedReel)
+    reel_preloaded: Boolean(preloadedReel),
+    line_preloaded: Boolean(preloadedLine)
   }, { onceKey: "wizard-view" });
   if (preloadedReel) trackSelectedReel("url_preload");
+  if (preloadedLine) trackSelectedLine(preloadedLine, "url_preload", "main_line");
 }
 
 function cacheElements() {
@@ -834,6 +837,33 @@ function applyReelPreloadFromUrl() {
     selection_source: "url_preload"
   });
   return null;
+}
+
+function applyLinePreloadFromUrl() {
+  var params = new URLSearchParams(window.location.search);
+  var requested = params.get("line") || params.get("mainLine");
+  if (!requested) return null;
+  var line = state.lines.find(function(item) { return item.id === requested; });
+  var requestedLb = params.get("lb");
+  var strengthMatches = requestedLb === null || requestedLb === "" ||
+    (Number.isFinite(Number(requestedLb)) && Number(requestedLb) > 0 &&
+      Math.abs(Number(line && line.lb) - Number(requestedLb)) < 0.001);
+  if (!line || !isLineReady(line) || !strengthMatches) {
+    trackWizardEvent("wizard_line_not_found", {
+      page_type: "setup_wizard", selection_source: "url_preload"
+    });
+    return null;
+  }
+  state.path = "exact";
+  setActiveButtons("data-path", state.path);
+  selectLine(line, false);
+  var requestedMainYards = Number(params.get("mainYards"));
+  if (Number.isFinite(requestedMainYards) && requestedMainYards > 0 && requestedMainYards <= 100000) {
+    state.desiredMainYards = requestedMainYards;
+  } else {
+    resetDesiredMainLine();
+  }
+  return line;
 }
 
 function populateLineFilters() {
