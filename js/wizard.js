@@ -17,8 +17,6 @@ const {
   calculateActualLineBraidCapacityRange,
   capacityBasisForActualLine,
   calculateFullSpoolCapacity: calculateCoreFullSpoolCapacity,
-  calculateCalibratedBacking,
-  calculateCalibratedBackingRange,
   calculateActualLineCalibratedBacking,
   calculateActualLineCalibratedBackingRange,
   calculateHandleTurns,
@@ -1664,12 +1662,9 @@ function renderBackingResult() {
   }
   var backing = getBackingLine();
   var desired = Number(state.desiredMainYards) || 0;
-  var result = usesActualBraidCalibration(line)
-    ? calculateActualLineCalibratedBacking(reel, line, desired, backing, state.lines)
-    : calculateCalibratedBacking(reel, line, desired, backing);
-  var backingRange = usesActualBraidCalibration(line)
-    ? calculateActualLineCalibratedBackingRange(reel, line, desired, backing, state.lines)
-    : calculateCalibratedBackingRange(reel, line, desired, backing);
+  // Resolve both line references, including braid used underneath a mono/fluoro main line.
+  var result = calculateActualLineCalibratedBacking(reel, line, desired, backing, state.lines);
+  var backingRange = calculateActualLineCalibratedBackingRange(reel, line, desired, backing, state.lines);
   if (!result) {
     el.backingResult.className = "empty-state warning-box";
     el.backingResult.textContent = "ReelCalc could not establish a usable capacity reference for this backing setup.";

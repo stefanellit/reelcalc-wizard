@@ -122,6 +122,9 @@ assert.match(read("js/reel-page-calculator.js"), /js\/calculator-core\.js\?v=8/)
 assert.match(read("index.html"), /js\/calculator-core\.js\?v=8/);
 assert.match(read("examples/reel-comparison-loader.js"), /shared-engine-8/);
 
+// Exercise the Wizard's real branch selection, not just the presence of a helper call.
+await import("./test-wizard-backing-parity.mjs");
+
 console.log("Shared ReelCalc calculation engine audit passed.");
 console.log(`- Engine: ${core.ENGINE_VERSION}`);
 console.log(`- ${readyReels.length.toLocaleString()} calculation-ready reels checked`);
