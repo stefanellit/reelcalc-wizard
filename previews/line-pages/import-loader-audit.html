@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Bulk line guide import checks</title><style>body{font:14px Arial;margin:16px}button{padding:10px}iframe{width:390px;height:760px;border:1px solid #aaa}pre{white-space:pre-wrap;max-height:180px;overflow:auto}</style></head><body>
+<button id="run">Run import checks</button><pre id="report">Ready</pre><iframe title="Imported guide test"></iframe>
+<script>
+const frame=document.querySelector('iframe'),report=document.querySelector('#report'),checks=[];
+const base=new URL('../../',location.href).href,fixtureBase=new URL('./',location.href).href;
+const pause=ms=>new Promise(r=>setTimeout(r,ms));
+const visible=n=>!!n&&n.getClientRects().length>0;
+function check(name,pass,detail){checks.push({name,pass:!!pass,...(detail?{detail}:{})});report.textContent=JSON.stringify({running:true,checks},null,2);}
+async function until(fn){for(let i=0;i<200;i++){if(fn())return;await pause(50);}throw Error('Timed out waiting for test condition');}
+async function load({id='berkley-trilene-xl',failure='',ordinary=false,sanitized=false,legacy=false}={}){
+ const run=String(Date.now())+Math.random();
+ let text=await(await fetch('./'+id+'-imported.html')).text();
+ if(ordinary)text=text.replace('product-detail tag-reelcalc-line-guide','product-detail');
+ if(sanitized)text=text.replaceAll(/ data-line-guide-fallback="[^"]*"/g,'');
+ if(legacy)text=text.replace('product-detail tag-reelcalc-line-guide','ProductItem tag-reelcalc-line-guide').replaceAll('class="product-description hidden-down-md"','class="ProductItem-details-excerpt"').replaceAll('class="product-description hidden-up-md"','class="ProductItem-details-excerpt"');
+ const mock=`<base href="${fixtureBase}"><script>window.qa={run:${JSON.stringify(run)},failure:${JSON.stringify(failure)},requests:[],errors:[]};window.addEventListener('error',e=>qa.errors.push(e.message));const originalFetch=window.fetch;window.fetch=(url,opts)=>{qa.requests.push(String(url));if(qa.failure&&String(url).includes(qa.failure))return Promise.resolve(new Response('unavailable',{status:503}));return originalFetch(url,opts)};const append=document.head.appendChild.bind(document.head);document.head.appendChild=node=>{if(qa.failure&&(node.src||node.href||'').includes(qa.failure)){setTimeout(()=>node.dispatchEvent(new Event('error')),0);return node}return append(node)};<\/script>`;
+ frame.srcdoc=text.replace('<head>','<head>'+mock);
+ await until(()=>frame.contentWindow.qa?.run===run);
+}
+document.querySelector('#run').onclick=async()=>{
+ checks.length=0;document.querySelector('#run').disabled=true;
+ try{
+  for(const id of ['powerpro-spectra','seaguar-invizx','berkley-trilene-xl']){
+   await load({id});await until(()=>frame.contentDocument.querySelector('[data-line-page-ready="true"]'));
+   const w=frame.contentWindow,d=frame.contentDocument,p=w.ReelCalcLinePage.state.product;
+   check(id+': only one live calculator',d.querySelectorAll('[data-reelcalc-line-page]').length===1&&d.querySelectorAll('#rcStrength').length===1);
+   check(id+': correct canonical and description',d.querySelector('link[rel="canonical"]').href==='https://www.reelcalc.com/lines/p/'+p.slug&&d.title===p.seoTitle&&d.querySelector('meta[name="description"]').content===p.metaDescription);
+   const schema=[...d.querySelectorAll('script[type="application/ld+json"]')].map(n=>JSON.parse(n.textContent));
+   check(id+': no $0 product schema; organization preserved',!JSON.stringify(schema).includes('"@type":"Offer"')&&JSON.stringify(schema).includes('"@type":"Organization"'));
+   check(id+': image and one H1',d.querySelectorAll('h1').length===1&&d.querySelector('.rc-product-figure img').naturalWidth>0);
+   for(const width of [320,390,768,1280]){frame.style.width=width+'px';await pause(80);check(id+': no commerce or hidden calculator at '+width,!visible(d.querySelector('.product-price'))&&!visible(d.querySelector('.product-add-to-cart'))&&!visible(d.querySelector('.product-gallery'))&&visible(d.querySelector('#rcStrength'))&&[...d.querySelectorAll('.product-description')].filter(visible).length===1);}
+   const before=w.qa.requests.length;
+   await w.ReelCalcSquarespaceLinePages.initialize({base,slug:p.slug});
+   check(id+': repeated initialization does not remount',w.qa.requests.length===before&&d.querySelectorAll('#rcStrength').length===1);
+   check(id+': host link style unchanged',w.getComputedStyle(d.querySelector('#host-header a')).color==='rgb(147, 22, 84)');
+   check(id+': no uncaught errors',w.qa.errors.length===0,w.qa.errors);
+  }
+  for(const failure of ['data/line-page-imports.json','js/line-page-loader.js','components/line-pages/']){
+   await load({failure});await until(()=>frame.contentDocument.querySelector('[role="alert"] button'));
+   const w=frame.contentWindow,d=frame.contentDocument;
+   check(failure+': static chart survives, no fabricated calculator',d.querySelectorAll('tbody tr').length===11&&!d.querySelector('#rcStrength')&&!visible(d.querySelector('.product-add-to-cart')));
+   w.qa.failure='';d.querySelector('[role="alert"] button').click();await until(()=>d.querySelector('[data-line-page-ready="true"]'));
+   check(failure+': retry recovers',d.querySelectorAll('#rcStrength').length===1);
+  }
+  await load({failure:'js/squarespace-line-page-loader.js'});await pause(1000);
+  check('Adapter outage retains static guide and hides cart',frame.contentDocument.querySelectorAll('tbody tr').length===22&&!visible(frame.contentDocument.querySelector('.product-add-to-cart')));
+  await load({sanitized:true});await until(()=>frame.contentDocument.querySelector('[data-line-page-ready="true"]'));
+  check('Importer stripping custom HTML attributes does not break routing',!!frame.contentWindow.ReelCalcLinePage);
+  await load({legacy:true});await until(()=>frame.contentDocument.querySelector('[data-line-page-ready="true"]'));
+  check('Legacy product wrapper has one guide',frame.contentDocument.querySelectorAll('#rcStrength').length===1);
+  await load({ordinary:true});await pause(1000);
+  check('Unrelated product is not transformed',!frame.contentDocument.querySelector('.reelcalc-imported-line-guide')&&!frame.contentWindow.ReelCalcLinePage&&visible(frame.contentDocument.querySelector('.product-add-to-cart')));
+  check('Unrelated product loads no line assets',!frame.contentWindow.qa.requests.some(url=>url.includes('line-page')));
+  report.textContent=JSON.stringify({passed:checks.every(c=>c.pass),count:checks.length,checks},null,2);
+ }catch(error){report.textContent=JSON.stringify({passed:false,error:String(error),checks},null,2);}
+ document.querySelector('#run').disabled=false;frame.style.width='390px';
+};
+</script></body></html>

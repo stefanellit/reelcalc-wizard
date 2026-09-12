@@ -45,7 +45,7 @@ for (const id of release.products) {
     assert.equal(attr(script, "type"), "application/ld+json");
     const json = JSON.parse(script.childNodes.map(n => n.value || "").join(""));
     const page = json["@graph"].find(n => n["@type"] === "WebPage");
-    assert.equal(page.url, "https://www.reelcalc.com/lines/" + product.slug);
+    assert.equal(page.url, "https://www.reelcalc.com/lines/p/" + product.slug);
     assert.ok(!JSON.stringify(json).includes("aggregateRating"));
   }
   const snippet = read(`generated/line-pages/${id}-squarespace-snippet.html`);

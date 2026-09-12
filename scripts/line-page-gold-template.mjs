@@ -17,7 +17,7 @@ export function buildGoldLinePage(productId, product, records, helpers) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${e(product.seoTitle)}</title>
   <meta name="description" content="${e(product.metaDescription)}">
-  <link rel="canonical" href="https://www.reelcalc.com/lines/${e(product.slug)}">
+  <link rel="canonical" href="https://www.reelcalc.com/lines/p/${e(product.slug)}">
   <link rel="stylesheet" href="../../css/line-page.css">
   <link rel="stylesheet" href="../../css/line-page-gold.css">
   <script type="application/ld+json">${jsonLd(product)}</script>

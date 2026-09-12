@@ -1,0 +1,33 @@
+{
+  "version": "2",
+  "collection": "lines",
+  "pages": {
+    "powerpro-spectra-braid-diameter-capacity-guide": {
+      "id": "powerpro-spectra",
+      "title": "PowerPro Spectra Braid",
+      "seoTitle": "PowerPro Braid Diameter Chart & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Choose a PowerPro Spectra strength and reel to estimate capacity, calculate mono backing, compare diameters, and plan the right retail spool size.",
+      "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/powerpro-spectra.webp",
+      "sku": "RCLEB8CCBDFF3FC01780"
+    },
+    "seaguar-invizx-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-invizx",
+      "title": "Seaguar InvizX Fluorocarbon",
+      "seoTitle": "Seaguar InvizX Diameter Chart & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Choose an InvizX strength and reel to estimate full-spool capacity, check whether 200 yards is enough, plan backing, and compare exact diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-invizx-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-invizx.webp",
+      "sku": "RCL3BAB294A95F91CFA4"
+    },
+    "berkley-trilene-xl-monofilament-diameter-capacity-guide": {
+      "id": "berkley-trilene-xl",
+      "title": "Berkley Trilene XL Monofilament",
+      "seoTitle": "Trilene XL Diameter Chart & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check Berkley Trilene XL diameters from 2 to 30 lb, estimate how much fits your reel, compare other mono lines, and plan a full fill or optional backing.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-trilene-xl-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/berkley-trilene-xl.jpg",
+      "sku": "RCL6FAEC99B4E6E06C56"
+    }
+  }
+}

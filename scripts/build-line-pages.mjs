@@ -76,7 +76,7 @@ function faqs(product) {
 }
 
 function jsonLd(product) {
-  const pageUrl = `https://www.reelcalc.com/lines/${product.slug}`;
+  const pageUrl = `https://www.reelcalc.com/lines/p/${product.slug}`;
   const graph = [
     {
       "@type": "WebPage",
@@ -145,7 +145,7 @@ function buildPage(productId, product) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(product.seoTitle)}</title>
   <meta name="description" content="${escapeHtml(product.metaDescription)}">
-  <link rel="canonical" href="https://www.reelcalc.com/lines/${escapeHtml(product.slug)}">
+  <link rel="canonical" href="https://www.reelcalc.com/lines/p/${escapeHtml(product.slug)}">
   <link rel="stylesheet" href="../../css/line-page.css">
   <script type="application/ld+json">${jsonLd(product)}</script>
 </head>

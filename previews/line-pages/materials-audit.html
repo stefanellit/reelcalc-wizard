@@ -14,7 +14,8 @@ async function load(url){await new Promise((resolve,reject)=>{const timer=setTim
 const change=(id,value)=>{const e=frame.contentDocument.getElementById(id);e.value=String(value);e.dispatchEvent(new frame.contentWindow.Event(e.tagName==='INPUT'?'input':'change',{bubbles:true}));};
 function layout(){const d=frame.contentDocument,visible=e=>e.getClientRects().length&&!e.closest('[hidden]');const over=[...d.querySelectorAll('main *,main')].filter(visible).filter(e=>{const r=e.getBoundingClientRect();return r.left< -1||r.right>d.documentElement.clientWidth+1;}).map(e=>e.id||e.tagName+'.'+e.className);const controls=[...d.querySelectorAll('a,button,input,select,summary')].filter(visible),overlaps=[];for(let i=0;i<controls.length;i++)for(let j=i+1;j<controls.length;j++){const a=controls[i],b=controls[j];if(a.contains(b)||b.contains(a))continue;const x=a.getBoundingClientRect(),y=b.getBoundingClientRect();if(Math.min(x.right,y.right)-Math.max(x.left,y.left)>1&&Math.min(x.bottom,y.bottom)-Math.max(x.top,y.top)>1)overlaps.push([a.id||a.textContent.slice(0,30),b.id||b.textContent.slice(0,30)]);}const img=d.querySelector('.rc-product-figure img');return{width:frame.contentWindow.innerWidth,overflow:over,overlaps,imageLoaded:!!(img.complete&&img.naturalWidth)};}
 const hosted=new URLSearchParams(location.search).has('hosted');
-const paths=id=>hosted ? './'+id+'-hosted.html?v=hosted-audit' : '../../examples/line-pages/'+id+'.html?v=gold-trio-audit';
+const imported=new URLSearchParams(location.search).has('imported');
+const paths=id=>imported ? './'+id+'-imported.html?v=import-audit' : hosted ? './'+id+'-hosted.html?v=hosted-audit' : '../../examples/line-pages/'+id+'.html?v=gold-trio-audit';
 document.getElementById('product').onchange=e=>load(paths(e.target.value));
 document.getElementById('width').onchange=e=>{frame.style.width=e.target.value+'px';};
 document.querySelectorAll('[data-section]').forEach(b=>b.onclick=()=>frame.contentDocument.getElementById(b.dataset.section).scrollIntoView({block:'start'}));
@@ -35,7 +36,7 @@ document.getElementById('run').onclick=async()=>{
    const ids=[...d.querySelectorAll('[id]')].map(n=>n.id);
    check('Unique IDs, one H1, labeled controls',new Set(ids).size===ids.length&&d.querySelectorAll('h1').length===1&&[...d.querySelectorAll('input,select')].every(n=>n.labels.length||n.getAttribute('aria-label')));
    check('Internal anchors resolve',[...d.querySelectorAll('a[href^="#"]')].every(a=>d.getElementById(a.hash.slice(1))));
-   const graph=JSON.parse(d.querySelector('script[type="application/ld+json"]').textContent)['@graph'];
+   const graph=JSON.parse(d.querySelector('[data-reelcalc-line-page] script[type="application/ld+json"]')?.textContent||d.querySelector('script[type="application/ld+json"]').textContent)['@graph'];
    const faq=graph.find(n=>n['@type']==='FAQPage').mainEntity;
    check('FAQ structured data matches visible questions and answers',faq.length===p.faqs.length&&p.faqs.every((f,i)=>faq[i].name===f.question&&faq[i].acceptedAnswer.text===f.answer&&d.querySelector('.rc-faq-list').textContent.includes(f.question)&&d.querySelector('.rc-faq-list').textContent.includes(f.answer)));
    let cardCount=0,parityCount=0;
