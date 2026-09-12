@@ -1,0 +1,611 @@
+{
+  "date": "2026-09-12",
+  "sources": [
+    {
+      "url": "https://seaguar.com/products/invizx.js",
+      "status": 200,
+      "product": "InvizX®",
+      "variants": 26
+    },
+    {
+      "url": "https://fishshop.shimano.com/products/powerpro.js",
+      "status": 200,
+      "product": "PowerPro",
+      "variants": 250
+    },
+    {
+      "url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool.js",
+      "status": 200,
+      "product": "Trilene® XL® Filler Spool",
+      "variants": 24
+    },
+    {
+      "url": "https://www.berkley-fishing.com/products/trilene-xl-bulk-spool.js",
+      "status": 200,
+      "product": "Trilene® XL® Bulk Spool",
+      "variants": 40
+    }
+  ],
+  "variants": [
+    {
+      "id": "seaguar-invizx-fluorocarbon-4",
+      "pass": true,
+      "catalog": [
+        200,
+        1000
+      ],
+      "published": [
+        200,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-6",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-8",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-10",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-12",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-15",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-17",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-20",
+      "pass": true,
+      "catalog": [
+        200,
+        600,
+        1000
+      ],
+      "published": [
+        200,
+        600,
+        1000
+      ]
+    },
+    {
+      "id": "seaguar-invizx-fluorocarbon-25",
+      "pass": true,
+      "catalog": [
+        200,
+        1000
+      ],
+      "published": [
+        200,
+        1000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-5",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-8",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-10",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-15",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-20",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-30",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-40",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-50",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-65",
+      "pass": true,
+      "catalog": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        100,
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-80",
+      "pass": true,
+      "catalog": [
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-100",
+      "pass": true,
+      "catalog": [
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        150,
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-150",
+      "pass": true,
+      "catalog": [
+        300,
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        300,
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-200",
+      "pass": true,
+      "catalog": [
+        500,
+        1500,
+        3000
+      ],
+      "published": [
+        500,
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "powerpro-spectra-braid-250",
+      "pass": true,
+      "catalog": [
+        1500,
+        3000
+      ],
+      "published": [
+        1500,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-4",
+      "pass": true,
+      "catalog": [
+        330,
+        1000,
+        3000
+      ],
+      "published": [
+        330,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-6",
+      "pass": true,
+      "catalog": [
+        330,
+        1000,
+        3000
+      ],
+      "published": [
+        330,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-8",
+      "pass": true,
+      "catalog": [
+        330,
+        1000,
+        3000
+      ],
+      "published": [
+        330,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-10",
+      "pass": true,
+      "catalog": [
+        300,
+        1000,
+        3000
+      ],
+      "published": [
+        300,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-12",
+      "pass": true,
+      "catalog": [
+        300,
+        1000,
+        3000
+      ],
+      "published": [
+        300,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-14",
+      "pass": true,
+      "catalog": [
+        300,
+        1000,
+        3000
+      ],
+      "published": [
+        300,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-17",
+      "pass": true,
+      "catalog": [
+        300,
+        1000,
+        3000
+      ],
+      "published": [
+        300,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-2",
+      "pass": true,
+      "catalog": [
+        330,
+        3000
+      ],
+      "published": [
+        330,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-20",
+      "pass": true,
+      "catalog": [
+        270,
+        1000,
+        3000
+      ],
+      "published": [
+        270,
+        1000,
+        3000
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-25",
+      "pass": true,
+      "catalog": [
+        270,
+        2600
+      ],
+      "published": [
+        270,
+        2600
+      ]
+    },
+    {
+      "id": "berkley-trilene-xl-monofilament-30",
+      "pass": true,
+      "catalog": [
+        250,
+        2300
+      ],
+      "published": [
+        250,
+        2300
+      ]
+    }
+  ],
+  "links": [
+    {
+      "url": "https://www.reelcalc.com/",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/",
+      "title": "Fishing Reel Line Capacity &amp; Backing Calculator | ReelCalc",
+      "pass": true
+    },
+    {
+      "url": "https://www.reelcalc.com/line-database",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/line-database",
+      "title": "Line Diameter Database | Compare Fishing Line Sizes Today &mdash; ReelCalc",
+      "pass": true
+    },
+    {
+      "url": "https://www.reelcalc.com/reelcalc-wizard",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/reelcalc-wizard",
+      "title": "Fishing Reel Setup Wizard | Find How Much Line Fits on a Reel &mdash; ReelCalc",
+      "pass": true
+    },
+    {
+      "url": "https://www.reelcalc.com/blog/what-size-mono-backing-should-i-use-for-braid",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/blog/what-size-mono-backing-should-i-use-for-braid",
+      "title": "What Size Mono Backing Should I Use for Braid? &mdash; ReelCalc",
+      "pass": true
+    },
+    {
+      "url": "https://www.reelcalc.com/blog/how-much-line-should-you-put-on-a-baitcaster",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/blog/how-much-line-should-you-put-on-a-baitcaster",
+      "title": "How Much Line on a Baitcaster? Fill Level &amp; Yards &mdash; ReelCalc",
+      "pass": true
+    },
+    {
+      "url": "https://www.reelcalc.com/blog/what-size-leader-should-i-use-with-braid",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/blog/what-size-leader-should-i-use-with-braid",
+      "title": "What Size Leader Should I Use With Braid? Complete Guide &mdash; ReelCalc",
+      "pass": true
+    },
+    {
+      "url": "https://www.reelcalc.com/reel-comparison",
+      "status": 200,
+      "finalUrl": "https://www.reelcalc.com/reel-comparison",
+      "title": "Fishing Reel Comparison Tool | ReelCalc &mdash; ReelCalc",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

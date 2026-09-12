@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Hosted line guide release checks</title><style>body{font:14px Arial;margin:16px}button{padding:10px}iframe{width:390px;height:740px;border:1px solid #aaa}pre{white-space:pre-wrap;max-height:160px;overflow:auto}</style></head><body>
+<button id="run">Run hosting checks</button><pre id="report">Ready</pre><iframe title="Hosted guide test"></iframe>
+<script>
+const frame=document.querySelector('iframe'),report=document.querySelector('#report');
+const pause=ms=>new Promise(r=>setTimeout(r,ms));
+const base=new URL('../../',location.href).href;
+const checks=[];
+function check(name,pass,detail){checks.push({name,pass:!!pass,...(detail?{detail}:{})});report.textContent=JSON.stringify({running:true,checks},null,2);}
+async function until(fn){for(let i=0;i<200;i++){if(fn())return;await pause(50);}throw Error('Timed out waiting for test condition');}
+async function load(failure=''){
+ frame.srcdoc=`<!doctype html><html><head><base href="${base}"><style>body{font:20px Georgia;color:rgb(40,20,50)}#host-link{color:rgb(130,20,60)}#host-heading{font-size:24px}button{font-family:Georgia}</style></head><body><header id="host"><h1 id="host-heading">Test host</h1><a id="host-link" href="/">Home</a></header><div id="reelcalc-line-page-app">Loading guide...</div><script>
+ window.qa={failure:${JSON.stringify(failure)},requests:[],errors:[]};window.addEventListener('error',e=>qa.errors.push(e.message));
+ const originalFetch=window.fetch;window.fetch=(url,options)=>{qa.requests.push({url:String(url),cache:options?.cache});if(qa.failure&&String(url).includes(qa.failure))return Promise.resolve(new Response('Unavailable',{status:503}));return originalFetch(url,options);};
+ const append=document.head.appendChild.bind(document.head);document.head.appendChild=node=>{if(qa.failure&&(node.src||node.href||'').includes(qa.failure)){setTimeout(()=>node.dispatchEvent(new Event('error')),0);return node;}return append(node);};
+ <\/script><script src="${base}js/line-page-loader.js" data-product="berkley-trilene-xl" data-asset-base="${base}"><\/script></body></html>`;
+ await until(()=>frame.contentWindow.qa?.failure===failure);
+}
+document.querySelector('#run').onclick=async()=>{
+ checks.length=0;document.querySelector('#run').disabled=true;
+ try{
+  await load();await until(()=>frame.contentDocument.querySelector('[data-line-page-ready="true"]'));
+  let w=frame.contentWindow,d=frame.contentDocument;
+  check('Late-inserted snippet initializes a calculator',!!w.ReelCalcLinePage&&d.querySelector('#rcInteractive').hidden===false);
+  check('Host header font and link color stay unchanged',w.getComputedStyle(d.querySelector('#host')).fontFamily==='Georgia'&&w.getComputedStyle(d.querySelector('#host-link')).color==='rgb(130, 20, 60)'&&w.getComputedStyle(d.querySelector('#host-heading')).fontSize==='24px');
+  check('Embedded article has no second H1 or main landmark',d.querySelectorAll('h1').length===1&&!d.querySelector('article h1,article main'));
+  check('Published catalog requests bypass stale browser caches',w.qa.requests.some(r=>r.url.includes('data/lines.json')&&r.cache==='no-store'));
+  check('All images load',Array.from(d.querySelectorAll('article img')).every(img=>img.complete&&img.naturalWidth>0));
+  const options={product:'berkley-trilene-xl',base};const before=w.qa.requests.length;
+  await w.ReelCalcLinePageLoader.mount(options);await w.ReelCalcLinePageLoader.mount(options);
+  check('Repeated loader execution creates no duplicates or repeated requests',d.querySelectorAll('[data-reelcalc-line-page]').length===1&&w.qa.requests.length===before);
+  check('No uncaught browser errors',w.qa.errors.length===0,w.qa.errors);
+  for(const failure of ['data/line-page-release.json','components/line-pages/','css/line-page-embed.css','js/calculator-core.js','js/line-page-engine.js']){
+   await load(failure);await until(()=>frame.contentDocument.querySelector('[data-line-page-error] button'));
+   w=frame.contentWindow;d=frame.contentDocument;
+   check('Failure has a retry: '+failure,d.querySelector('#reelcalc-line-page-app').getAttribute('aria-busy')==='false');
+   if(failure.startsWith('js/'))check('Guide remains readable without script: '+failure,d.querySelectorAll('[data-chart-line]').length===11);
+   w.qa.failure='';d.querySelector('[data-line-page-error] button').click();await until(()=>d.querySelector('[data-line-page-ready="true"]'));
+   check('Recovery succeeds without replacing snippet: '+failure,d.querySelectorAll('[data-reelcalc-line-page]').length===1&&!!w.ReelCalcLinePage);
+  }
+  await load('data/lines.json');await until(()=>frame.contentDocument.querySelector('#rcLoading button'));
+  w=frame.contentWindow;d=frame.contentDocument;
+  check('Catalog failure keeps static specifications and no invented result',d.querySelectorAll('[data-chart-line]').length===11&&d.querySelector('#rcInteractive').hidden&&!w.ReelCalcLinePage);
+  w.qa.failure='';d.querySelector('#rcLoading button').click();await until(()=>d.querySelector('[data-line-page-ready="true"]'));
+  check('Catalog retry succeeds',w.ReelCalcLinePage.state.lines.length===1007);
+  await load('js/analytics.js');await until(()=>frame.contentDocument.querySelector('[data-line-page-ready="true"]'));
+  check('Blocked analytics does not disable calculation',!!frame.contentWindow.ReelCalcLinePage);
+  report.textContent=JSON.stringify({passed:checks.every(c=>c.pass),checks},null,2);
+ }catch(error){report.textContent=JSON.stringify({passed:false,error:String(error),checks},null,2);}
+ document.querySelector('#run').disabled=false;
+};
+</script></body></html>

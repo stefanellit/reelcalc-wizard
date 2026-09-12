@@ -1,0 +1,2103 @@
+{
+  "hosted": {
+    "passed": true,
+    "count": 270,
+    "checks": [
+      {
+        "product": "powerpro-spectra",
+        "name": "No reel or comparison preselected",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Correct default line, spool and mode",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Comparison heading describes diameters",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Initial full-spool wording follows mode",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Heading and photograph identify exact product",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Product suitability precedes calculator",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Unique IDs, one H1, labeled controls",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Internal anchors resolve",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "FAQ structured data matches visible questions and answers",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 5 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 5 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 5 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 15 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 15 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 15 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 30 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 30 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 30 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 40 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 40 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 40 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 50 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 50 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 50 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 65 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 65 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 65 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 80 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 80 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 80 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 100 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 100 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 100 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 150 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 150 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 150 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 200 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 200 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 200 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Retail spool choices: 250 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Example capacities and exact Wizard handoff: 250 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity/backing shared-engine parity: 250 lb",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "All strengths covered",
+        "pass": true,
+        "detail": {
+          "strengths": 14,
+          "exampleCases": 42,
+          "parityCases": 42
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Backing mode restores editable amount wording",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Suggested working fill never rounds above full capacity",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Catalog 0.1 percent overfill is an error, without purchase CTA",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Near-full catalog fill still calculates remaining backing",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Short working fill is not sold as useful fishing fills",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Warning layout 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Warning layout 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Warning layout 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Warning layout 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Database reel selection produces backed plan",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Exact main and backing Amazon links",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Result Wizard uses selected line, strength and reel",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Catalog full-spool explanation names line and reel",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Full-spool replacement Wizard recalculates for new line",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Clearing reel removes stale full-spool quantity",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Saved backed plan survives reload, including mono default",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Strength change preserves working length and editorial guidance",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Invalid working length removes stale results",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Equal diameter wording names exact line and reel",
+        "pass": true,
+        "detail": {
+          "text": "Ande Braid 15 lb has the same listed diameter as PowerPro Spectra 15 lb, so the Shimano Vanford A 2500HGA should hold about the same amount. ReelCalc estimates about 145 yd of PowerPro Spectra 15 lb and 145 yd of Ande Braid 15 lb.",
+          "line": "ande-braid-braid-15"
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "thinner comparison has correct direction and names reel",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "thicker comparison has correct direction and names reel",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Heavy-line handling note uses correct material",
+        "pass": true,
+        "detail": {
+          "note": "This is a low-capacity pairing. A thinner line or larger reel may be more manageable for many applications."
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual entry starts incomplete without stale reel result",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual rating guidance matches material",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Exact printed diameter reproduces 200-yard reel rating",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Half main fill leaves correct independent backing volume",
+        "pass": true,
+        "detail": {
+          "expected": 44.44444444444444,
+          "actual": 44.44444444444444
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Printed diameter overrides pound-test assumption",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Equivalent metric inputs reproduce the same result",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Diameter-only rating works without pound test",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual Wizard explicitly transfers line only",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Invalid rcManualCapacity 0 rejected",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Invalid rcManualCapacity 100001 rejected",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Invalid rcManualDiameter 0 rejected",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Invalid rcManualDiameter -1 rejected",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual overfill is clearly warned",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual near-full rating retains small backing amount",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Capacity-only removes backing and fills exact computed capacity",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual full-spool explanation has no stale named reel",
+        "pass": true
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Responsive layout 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Responsive layout 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Responsive layout 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Responsive layout 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Narrow blog column 320 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Narrow blog column 640 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Narrow blog column 820 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "powerpro-spectra",
+        "name": "Manual capacity-only saved URL restores accurately",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "No reel or comparison preselected",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Correct default line, spool and mode",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Comparison heading describes diameters",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Initial full-spool wording follows mode",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Heading and photograph identify exact product",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Product suitability precedes calculator",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Unique IDs, one H1, labeled controls",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Internal anchors resolve",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "FAQ structured data matches visible questions and answers",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 4 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 4 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 4 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 6 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 6 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 6 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 12 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 12 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 12 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 15 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 15 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 15 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 17 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 17 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 17 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Retail spool choices: 25 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Example capacities and exact Wizard handoff: 25 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity/backing shared-engine parity: 25 lb",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "All strengths covered",
+        "pass": true,
+        "detail": {
+          "strengths": 9,
+          "exampleCases": 27,
+          "parityCases": 27
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Backing mode restores editable amount wording",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Suggested working fill never rounds above full capacity",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Catalog 0.1 percent overfill is an error, without purchase CTA",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Near-full catalog fill still calculates remaining backing",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Short working fill is not sold as useful fishing fills",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Warning layout 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Warning layout 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Warning layout 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Warning layout 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Database reel selection produces backed plan",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Exact main and backing Amazon links",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Result Wizard uses selected line, strength and reel",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Catalog full-spool explanation names line and reel",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Full-spool replacement Wizard recalculates for new line",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Clearing reel removes stale full-spool quantity",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Saved backed plan survives reload, including mono default",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Strength change preserves working length and editorial guidance",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Invalid working length removes stale results",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Equal diameter wording names exact line and reel",
+        "pass": true,
+        "detail": {
+          "text": "Berkley 100% Fluorocarbon 8 lb has the same listed diameter as Seaguar InvizX 10 lb, so the Shimano Vanford A 2500HGA should hold about the same amount. ReelCalc estimates about 173 yd of Seaguar InvizX 10 lb and 173 yd of Berkley 100% Fluorocarbon 8 lb.",
+          "line": "berkley-100-fluorocarbon-fluorocarbon-8"
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "thinner comparison has correct direction and names reel",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "thicker comparison has correct direction and names reel",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Heavy-line handling note uses correct material",
+        "pass": true,
+        "detail": {
+          "note": "This fluorocarbon fits by volume, but heavier fluorocarbon can be harder to manage on a compact spinning spool."
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual entry starts incomplete without stale reel result",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual rating guidance matches material",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Exact printed diameter reproduces 200-yard reel rating",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Half main fill leaves correct independent backing volume",
+        "pass": true,
+        "detail": {
+          "expected": 69.44444444444446,
+          "actual": 69.44444444444444
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Printed diameter overrides pound-test assumption",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Equivalent metric inputs reproduce the same result",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Diameter-only rating works without pound test",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual Wizard explicitly transfers line only",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Invalid rcManualCapacity 0 rejected",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Invalid rcManualCapacity 100001 rejected",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Invalid rcManualDiameter 0 rejected",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Invalid rcManualDiameter -1 rejected",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual overfill is clearly warned",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual near-full rating retains small backing amount",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Capacity-only removes backing and fills exact computed capacity",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual full-spool explanation has no stale named reel",
+        "pass": true
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Responsive layout 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Responsive layout 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Responsive layout 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Responsive layout 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Narrow blog column 320 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Narrow blog column 640 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Narrow blog column 820 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "seaguar-invizx",
+        "name": "Manual capacity-only saved URL restores accurately",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "No reel or comparison preselected",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Correct default line, spool and mode",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Comparison heading describes diameters",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Initial full-spool wording follows mode",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Heading and photograph identify exact product",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Product suitability precedes calculator",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Unique IDs, one H1, labeled controls",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Internal anchors resolve",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "FAQ structured data matches visible questions and answers",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 2 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 2 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 2 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 4 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 4 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 4 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 6 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 6 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 6 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 8 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 10 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 12 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 12 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 12 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 14 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 14 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 14 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 17 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 17 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 17 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 20 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 25 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 25 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 25 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Retail spool choices: 30 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Example capacities and exact Wizard handoff: 30 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity/backing shared-engine parity: 30 lb",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "All strengths covered",
+        "pass": true,
+        "detail": {
+          "strengths": 11,
+          "exampleCases": 33,
+          "parityCases": 33
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Backing mode restores editable amount wording",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Suggested working fill never rounds above full capacity",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Catalog 0.1 percent overfill is an error, without purchase CTA",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Near-full catalog fill still calculates remaining backing",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Short working fill is not sold as useful fishing fills",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Warning layout 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Warning layout 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Warning layout 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Warning layout 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Database reel selection produces backed plan",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Exact main and backing Amazon links",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Result Wizard uses selected line, strength and reel",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Catalog full-spool explanation names line and reel",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Full-spool replacement Wizard recalculates for new line",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Clearing reel removes stale full-spool quantity",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Saved backed plan survives reload, including mono default",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Strength change preserves working length and editorial guidance",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Invalid working length removes stale results",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Equal diameter wording names exact line and reel",
+        "pass": true,
+        "detail": {
+          "text": "Ande Premium Monofilament 8 lb has the same listed diameter as Berkley Trilene XL 8 lb, so the Shimano Vanford A 2500HGA should hold about the same amount. ReelCalc estimates about 173 yd of Berkley Trilene XL 8 lb and 173 yd of Ande Premium Monofilament 8 lb.",
+          "line": "ande-premium-monofilament-monofilament-8"
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "thinner comparison has correct direction and names reel",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "thicker comparison has correct direction and names reel",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Heavy-line handling note uses correct material",
+        "pass": true,
+        "detail": {
+          "note": "This mono fits by volume, but heavier mono can be harder to manage on a compact spinning spool."
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual entry starts incomplete without stale reel result",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual rating guidance matches material",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Exact printed diameter reproduces 200-yard reel rating",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Half main fill leaves correct independent backing volume",
+        "pass": true,
+        "detail": {
+          "expected": 69.44444444444446,
+          "actual": 69.44444444444444
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Printed diameter overrides pound-test assumption",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Equivalent metric inputs reproduce the same result",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Diameter-only rating works without pound test",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual Wizard explicitly transfers line only",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Invalid rcManualCapacity 0 rejected",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Invalid rcManualCapacity 100001 rejected",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Invalid rcManualDiameter 0 rejected",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Invalid rcManualDiameter -1 rejected",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual overfill is clearly warned",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual near-full rating retains small backing amount",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Capacity-only removes backing and fills exact computed capacity",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual full-spool explanation has no stale named reel",
+        "pass": true
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Responsive layout 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Responsive layout 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Responsive layout 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Responsive layout 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Narrow blog column 320 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Narrow blog column 640 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Narrow blog column 820 in desktop viewport",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "overflow": [],
+          "overlaps": [],
+          "imageLoaded": true
+        }
+      },
+      {
+        "product": "berkley-trilene-xl",
+        "name": "Manual capacity-only saved URL restores accurately",
+        "pass": true
+      }
+    ]
+  },
+  "loader": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "Late-inserted snippet initializes a calculator",
+        "pass": true
+      },
+      {
+        "name": "Host header font and link color stay unchanged",
+        "pass": true
+      },
+      {
+        "name": "Embedded article has no second H1 or main landmark",
+        "pass": true
+      },
+      {
+        "name": "Published catalog requests bypass stale browser caches",
+        "pass": true
+      },
+      {
+        "name": "All images load",
+        "pass": true
+      },
+      {
+        "name": "Repeated loader execution creates no duplicates or repeated requests",
+        "pass": true
+      },
+      {
+        "name": "No uncaught browser errors",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "Failure has a retry: data/line-page-release.json",
+        "pass": true
+      },
+      {
+        "name": "Recovery succeeds without replacing snippet: data/line-page-release.json",
+        "pass": true
+      },
+      {
+        "name": "Failure has a retry: components/line-pages/",
+        "pass": true
+      },
+      {
+        "name": "Recovery succeeds without replacing snippet: components/line-pages/",
+        "pass": true
+      },
+      {
+        "name": "Failure has a retry: css/line-page-embed.css",
+        "pass": true
+      },
+      {
+        "name": "Recovery succeeds without replacing snippet: css/line-page-embed.css",
+        "pass": true
+      },
+      {
+        "name": "Failure has a retry: js/calculator-core.js",
+        "pass": true
+      },
+      {
+        "name": "Guide remains readable without script: js/calculator-core.js",
+        "pass": true
+      },
+      {
+        "name": "Recovery succeeds without replacing snippet: js/calculator-core.js",
+        "pass": true
+      },
+      {
+        "name": "Failure has a retry: js/line-page-engine.js",
+        "pass": true
+      },
+      {
+        "name": "Guide remains readable without script: js/line-page-engine.js",
+        "pass": true
+      },
+      {
+        "name": "Recovery succeeds without replacing snippet: js/line-page-engine.js",
+        "pass": true
+      },
+      {
+        "name": "Catalog failure keeps static specifications and no invented result",
+        "pass": true
+      },
+      {
+        "name": "Catalog retry succeeds",
+        "pass": true
+      },
+      {
+        "name": "Blocked analytics does not disable calculation",
+        "pass": true
+      }
+    ]
+  },
+  "powerpro": {
+    "passed": true,
+    "count": 84,
+    "checks": [
+      {
+        "name": "Blank reel on ordinary load",
+        "pass": true
+      },
+      {
+        "name": "No unsolicited replacement selected",
+        "pass": true
+      },
+      {
+        "name": "Without a reel, comparison names the starting line but uses a generic reel",
+        "pass": true
+      },
+      {
+        "name": "Every diameter count expands to the exact catalog lines at all strengths",
+        "pass": true,
+        "detail": {
+          "rowsChecked": 313,
+          "strengths": 14
+        }
+      },
+      {
+        "name": "All example capacities, warnings and Wizard links follow all selected strengths",
+        "pass": true,
+        "detail": {
+          "cases": 42
+        }
+      },
+      {
+        "name": "Examples are compact capacity cards with no preset working or backing plan",
+        "pass": true
+      },
+      {
+        "name": "Every default card uses selected 15 lb rather than old example-specific strengths",
+        "pass": true
+      },
+      {
+        "name": "Example Wizard clicks track their own reel and current line strength exactly once",
+        "pass": true
+      },
+      {
+        "name": "Shared-engine parity: powerpro-spectra-braid-10",
+        "pass": true,
+        "detail": {
+          "capacity": 257.77777777777777,
+          "backing": 61.810344827586206
+        }
+      },
+      {
+        "name": "Capacity mode uses unrounded capacity: powerpro-spectra-braid-10",
+        "pass": true
+      },
+      {
+        "name": "Shared-engine parity: powerpro-spectra-braid-15",
+        "pass": true,
+        "detail": {
+          "capacity": 177.1875,
+          "backing": 21.481481481481488
+        }
+      },
+      {
+        "name": "Capacity mode uses unrounded capacity: powerpro-spectra-braid-15",
+        "pass": true
+      },
+      {
+        "name": "Shared-engine parity: powerpro-spectra-braid-30",
+        "pass": true,
+        "detail": {
+          "capacity": 135,
+          "backing": 36.45833333333333
+        }
+      },
+      {
+        "name": "Capacity mode uses unrounded capacity: powerpro-spectra-braid-30",
+        "pass": true
+      },
+      {
+        "name": "Cascading selectors choose exact reel",
+        "pass": true
+      },
+      {
+        "name": "Manual calculation shows result",
+        "pass": true
+      },
+      {
+        "name": "Successful backed plan offers main line and backing links",
+        "pass": true
+      },
+      {
+        "name": "Strength edit preserves entered working amount",
+        "pass": true
+      },
+      {
+        "name": "Strength guidance stays stable and has no duplicate Wizard controls",
+        "pass": true
+      },
+      {
+        "name": "Guidance Wizard link carries selected reel and line",
+        "pass": true
+      },
+      {
+        "name": "Suitability appears before calculator",
+        "pass": true
+      },
+      {
+        "name": "Invalid input removes stale result and disables calculate",
+        "pass": true
+      },
+      {
+        "name": "Valid input restores fresh results",
+        "pass": true
+      },
+      {
+        "name": "Equal diameter has plain wording",
+        "pass": true
+      },
+      {
+        "name": "Capacity comparison names both lines",
+        "pass": true
+      },
+      {
+        "name": "Equal-diameter sentence names the selected reel",
+        "pass": true
+      },
+      {
+        "name": "thicker comparison names both the starting strength and exact reel",
+        "pass": true
+      },
+      {
+        "name": "thinner comparison names both the starting strength and exact reel",
+        "pass": true
+      },
+      {
+        "name": "Changing the starting strength refreshes the named comparison line",
+        "pass": true
+      },
+      {
+        "name": "Capacity-only hides backing and disables yardage",
+        "pass": true
+      },
+      {
+        "name": "Capacity-only has no backing purchase link",
+        "pass": true
+      },
+      {
+        "name": "Backing mode restores the working amount",
+        "pass": true
+      },
+      {
+        "name": "Short retail spool is flagged",
+        "pass": true
+      },
+      {
+        "name": "Invalid plan has no affiliate purchase links",
+        "pass": true
+      },
+      {
+        "name": "No backing selection is not a false zero-backing plan",
+        "pass": true
+      },
+      {
+        "name": "Backing selection is stored in share URL",
+        "pass": true
+      },
+      {
+        "name": "Wizard preloads exact reel and line",
+        "pass": true
+      },
+      {
+        "name": "Affiliate link retains tag",
+        "pass": true
+      },
+      {
+        "name": "Calculator retains exact main-line and backing Amazon links",
+        "pass": true
+      },
+      {
+        "name": "Overcapacity has warning, not no-backing assurance",
+        "pass": true
+      },
+      {
+        "name": "Chart strength updates calculator and preserves amount",
+        "pass": true
+      },
+      {
+        "name": "Chart strength also refreshes every capacity-card handoff",
+        "pass": true
+      },
+      {
+        "name": "Reel type reset clears comparison reel and result",
+        "pass": true
+      },
+      {
+        "name": "Clearing the reel restores generic wording",
+        "pass": true
+      },
+      {
+        "name": "Baitcaster selector and calculation work",
+        "pass": true
+      },
+      {
+        "name": "Selecting a different reel refreshes its name in comparison",
+        "pass": true
+      },
+      {
+        "name": "No duplicate IDs",
+        "pass": true
+      },
+      {
+        "name": "One H1",
+        "pass": true
+      },
+      {
+        "name": "All form fields labeled",
+        "pass": true
+      },
+      {
+        "name": "Anchor targets exist",
+        "pass": true
+      },
+      {
+        "name": "FAQ schema matches visible answers",
+        "pass": true
+      },
+      {
+        "name": "Exactly 14 offered PowerPro strengths",
+        "pass": true
+      },
+      {
+        "name": "All offered strengths use unchanged core outputs",
+        "pass": true,
+        "detail": {
+          "cases": 42
+        }
+      },
+      {
+        "name": "Very thick line on compact reel warns about limited reserve",
+        "pass": true
+      },
+      {
+        "name": "Requested comparison disclaimer is removed",
+        "pass": true
+      },
+      {
+        "name": "Rounding detail is confined to sources",
+        "pass": true
+      },
+      {
+        "name": "Manual mode clears stale catalog result until specs are valid",
+        "pass": true
+      },
+      {
+        "name": "Manual guide prefers braid with mono fallback",
+        "pass": true
+      },
+      {
+        "name": "Matching braid rating reproduces 200 yards",
+        "pass": true,
+        "detail": {
+          "capacity": 200.00000000000003
+        }
+      },
+      {
+        "name": "Manual backing matches homepage Simple engine",
+        "pass": true
+      },
+      {
+        "name": "Manual Wizard handoff carries line only, never stale catalog reel",
+        "pass": true
+      },
+      {
+        "name": "Manual guide Wizard has no catalog reel",
+        "pass": true
+      },
+      {
+        "name": "Manual comparison uses entered specs, not catalog reel",
+        "pass": true
+      },
+      {
+        "name": "Printed metric diameter overrides rated lb test",
+        "pass": true
+      },
+      {
+        "name": "Equivalent inch and metric reference produce identical capacity",
+        "pass": true
+      },
+      {
+        "name": "Diameter-only reel rating works without lb test",
+        "pass": true,
+        "detail": {
+          "capacity": 200.00000000000003
+        }
+      },
+      {
+        "name": "Meter and yard capacity inputs agree",
+        "pass": true
+      },
+      {
+        "name": "Reject invalid manual input rcManualDiameter=11",
+        "pass": true
+      },
+      {
+        "name": "Reject invalid manual input rcManualDiameter=-0.008",
+        "pass": true
+      },
+      {
+        "name": "Reject invalid manual input rcManualCapacity=0",
+        "pass": true
+      },
+      {
+        "name": "Reject invalid manual input rcManualCapacity=100001",
+        "pass": true
+      },
+      {
+        "name": "Reject invalid manual input rcManualStrength=-1",
+        "pass": true
+      },
+      {
+        "name": "Mono fallback is explicit and uses mono reference",
+        "pass": true
+      },
+      {
+        "name": "Manual analytics never attributes specs to previous reel",
+        "pass": true
+      },
+      {
+        "name": "Manual braid, mono and fluoro use homepage engine outputs",
+        "pass": true,
+        "detail": {
+          "cases": 32
+        }
+      },
+      {
+        "name": "Manual capacity-only ignores backing and uses full precision",
+        "pass": true
+      },
+      {
+        "name": "Manual overfill is flagged even below old two-percent tolerance",
+        "pass": true
+      },
+      {
+        "name": "Manual rating saved without a catalog reel in URL",
+        "pass": true
+      },
+      {
+        "name": "Returning to database restores catalog calculation and link",
+        "pass": true
+      },
+      {
+        "name": "Layout bounds at 320",
+        "pass": true,
+        "detail": {
+          "width": 320,
+          "pageWidth": 305,
+          "overflow": [],
+          "controlOverlaps": [],
+          "imageLoaded": true,
+          "visibleControls": 66
+        }
+      },
+      {
+        "name": "Layout bounds at 390",
+        "pass": true,
+        "detail": {
+          "width": 390,
+          "pageWidth": 375,
+          "overflow": [],
+          "controlOverlaps": [],
+          "imageLoaded": true,
+          "visibleControls": 66
+        }
+      },
+      {
+        "name": "Layout bounds at 768",
+        "pass": true,
+        "detail": {
+          "width": 768,
+          "pageWidth": 753,
+          "overflow": [],
+          "controlOverlaps": [],
+          "imageLoaded": true,
+          "visibleControls": 66
+        }
+      },
+      {
+        "name": "Layout bounds at 1280",
+        "pass": true,
+        "detail": {
+          "width": 1280,
+          "pageWidth": 1265,
+          "overflow": [],
+          "controlOverlaps": [],
+          "imageLoaded": true,
+          "visibleControls": 66
+        }
+      },
+      {
+        "name": "Manual share URL restores rating, mode and backing result",
+        "pass": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "reelcalc-line-page-publishing",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "parse5": "7.3.0",
+    "postcss": "8.5.6"
+  }
+}

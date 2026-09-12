@@ -91,7 +91,10 @@
     var data = settings.affiliateData;
     var line = settings.line;
     var requiredYards = Number(settings.requiredYards);
-    var spoolYards = recommendedSpoolYards(requiredYards);
+    var selectedSpoolYards = Number(settings.spoolYards);
+    var spoolYards = selectedSpoolYards > 0 && selectedSpoolYards <= 100000
+      ? Math.ceil(selectedSpoolYards)
+      : recommendedSpoolYards(requiredYards);
     if (!data || !line || !(Number(line.lb) > 0) || !spoolYards) return null;
 
     var priority = Array.isArray(data.retailerPriority) ? data.retailerPriority : [];

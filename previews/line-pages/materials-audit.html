@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Three line-page review checks</title>
+<style>body{margin:12px;font:14px Arial;background:#eef1f0}nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}button,select{padding:10px}iframe{display:block;border:0;width:390px;height:800px;background:#fff}pre{white-space:pre-wrap;max-width:1100px;max-height:150px;overflow:auto}#wrap{overflow:auto}</style></head>
+<body><nav><button id="run">Run all three audits</button><select id="product" aria-label="Product preview"><option value="powerpro-spectra">PowerPro Spectra</option><option value="seaguar-invizx">Seaguar InvizX</option><option value="berkley-trilene-xl">Berkley Trilene XL</option></select><select id="width" aria-label="Preview width"><option>320</option><option selected>390</option><option>768</option><option>1280</option></select><button data-section="use-this-line">Calculator</button><button data-section="diameter-chart">Chart</button><button data-section="compare-lines">Comparison</button><button data-section="rcExamples">Examples</button></nav>
+<pre id="report">Ready to run</pre><div id="wrap"><iframe title="Line page responsive preview" src="../../examples/line-pages/powerpro-spectra.html"></iframe></div>
+<script>
+const frame=document.querySelector('iframe'),report=document.getElementById('report');
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+const near=(a,b)=>Math.abs(a-b)<1e-8;
+const checks=[];
+let current='';
+function check(name,pass,detail){checks.push({product:current,name,pass:!!pass,...(detail?{detail}: {})});report.textContent=JSON.stringify({running:true,checks},null,2);}
+async function load(url){await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Page load timeout')),20000);frame.onload=()=>{clearTimeout(timer);resolve();};frame.src=url;});for(let i=0;i<100;i++){if(frame.contentWindow.ReelCalcLinePage){await sleep(100);return;}await sleep(100);}throw Error('Page engine failed to load');}
+const change=(id,value)=>{const e=frame.contentDocument.getElementById(id);e.value=String(value);e.dispatchEvent(new frame.contentWindow.Event(e.tagName==='INPUT'?'input':'change',{bubbles:true}));};
+function layout(){const d=frame.contentDocument,visible=e=>e.getClientRects().length&&!e.closest('[hidden]');const over=[...d.querySelectorAll('main *,main')].filter(visible).filter(e=>{const r=e.getBoundingClientRect();return r.left< -1||r.right>d.documentElement.clientWidth+1;}).map(e=>e.id||e.tagName+'.'+e.className);const controls=[...d.querySelectorAll('a,button,input,select,summary')].filter(visible),overlaps=[];for(let i=0;i<controls.length;i++)for(let j=i+1;j<controls.length;j++){const a=controls[i],b=controls[j];if(a.contains(b)||b.contains(a))continue;const x=a.getBoundingClientRect(),y=b.getBoundingClientRect();if(Math.min(x.right,y.right)-Math.max(x.left,y.left)>1&&Math.min(x.bottom,y.bottom)-Math.max(x.top,y.top)>1)overlaps.push([a.id||a.textContent.slice(0,30),b.id||b.textContent.slice(0,30)]);}const img=d.querySelector('.rc-product-figure img');return{width:frame.contentWindow.innerWidth,overflow:over,overlaps,imageLoaded:!!(img.complete&&img.naturalWidth)};}
+const hosted=new URLSearchParams(location.search).has('hosted');
+const paths=id=>hosted ? './'+id+'-hosted.html?v=hosted-audit' : '../../examples/line-pages/'+id+'.html?v=gold-trio-audit';
+document.getElementById('product').onchange=e=>load(paths(e.target.value));
+document.getElementById('width').onchange=e=>{frame.style.width=e.target.value+'px';};
+document.querySelectorAll('[data-section]').forEach(b=>b.onclick=()=>frame.contentDocument.getElementById(b.dataset.section).scrollIntoView({block:'start'}));
+document.getElementById('run').onclick=async()=>{
+ checks.length=0;document.getElementById('run').disabled=true;
+ try{
+  for(const id of ['powerpro-spectra','seaguar-invizx','berkley-trilene-xl']){
+   current=id;await load(paths(id));
+   const w=frame.contentWindow,d=frame.contentDocument,api=w.ReelCalcLinePage,core=w.ReelCalcCore,p=api.state.product;
+   const get=id=>d.getElementById(id),lineBy=id=>api.state.lines.find(l=>l.id===id),reelBy=id=>api.state.reels.find(r=>r.id===id);
+   const backing=lineBy('berkley-trilene-big-game-monofilament-10'),braid=p.lineType==='Braid';
+   check('No reel or comparison preselected',!api.state.selectedReel&&!get('rcReplacement').value);
+   check('Correct default line, spool and mode',get('rcStrength').value===p.defaultLineId&&Number(get('rcSpool').value)===p.defaultSpoolYards&&api.state.capacityOnly===(p.defaultMode==='capacity'));
+   check('Comparison heading describes diameters',get('diameter-intelligence-title').textContent==='Same pound test, different diameters');
+   check('Initial full-spool wording follows mode',api.state.capacityOnly ? get('rcWorkingYardsLabel').textContent==='Estimated full-spool amount (yards)'&&!get('rcFullSpoolHelp').hidden : get('rcFullSpoolHelp').hidden);
+   check('Heading and photograph identify exact product',d.querySelector('h1').textContent===p.h1&&d.querySelector('.rc-product-figure img').alt.includes(p.model));
+   check('Product suitability precedes calculator',!!(get('product-fit-title').compareDocumentPosition(get('line-tool-title'))&4));
+   const ids=[...d.querySelectorAll('[id]')].map(n=>n.id);
+   check('Unique IDs, one H1, labeled controls',new Set(ids).size===ids.length&&d.querySelectorAll('h1').length===1&&[...d.querySelectorAll('input,select')].every(n=>n.labels.length||n.getAttribute('aria-label')));
+   check('Internal anchors resolve',[...d.querySelectorAll('a[href^="#"]')].every(a=>d.getElementById(a.hash.slice(1))));
+   const graph=JSON.parse(d.querySelector('script[type="application/ld+json"]').textContent)['@graph'];
+   const faq=graph.find(n=>n['@type']==='FAQPage').mainEntity;
+   check('FAQ structured data matches visible questions and answers',faq.length===p.faqs.length&&p.faqs.every((f,i)=>faq[i].name===f.question&&faq[i].acceptedAnswer.text===f.answer&&d.querySelector('.rc-faq-list').textContent.includes(f.question)&&d.querySelector('.rc-faq-list').textContent.includes(f.answer)));
+   let cardCount=0,parityCount=0;
+   for(const selected of api.state.productLines){
+    change('rcStrength',selected.id);
+    check('Retail spool choices: '+selected.lb+' lb',[...get('rcSpool').options].filter(o=>o.value).map(o=>Number(o.value)).join(',')===selected.spool_sizes_yd.join(','));
+    const cards=[...get('rcExamples').querySelectorAll('.rc-capacity-card')];
+    let cardsPass=cards.length===p.exampleSetups.length,parityPass=true;
+    for(const [i,entry] of p.exampleSetups.entries()){
+     const reel=reelBy(entry.reelId),expected=core.calculateFullSpoolCapacity(reel,selected,{lineCatalog:api.state.lines}),yd=expected/2;
+     const card=cards[i],url=new URL(card.querySelector('[data-example-reel]').href);
+     cardsPass=cardsPass&&Number.parseFloat(card.querySelector('.rc-example-capacity strong').textContent)===Number(expected.toFixed(expected<100?1:0))&&card.querySelector('.rc-example-line').textContent===selected.brand+' '+selected.model+' '+selected.lb+' lb'&&url.searchParams.get('reel')===reel.id&&url.searchParams.get('line')===selected.id&&url.searchParams.get('lb')===String(selected.lb)&&[...url.searchParams.keys()].sort().join(',')==='lb,line,reel'&&url.pathname==='/reelcalc-wizard'&&!!card.querySelector('.rc-example-caution')===(expected<50);
+     const actual=api.calculateSetup({reel,line:selected,spoolYards:3000,workingYards:yd,backingLine:backing});
+     const back=core.calculateActualLineCalibratedBacking(reel,selected,yd,backing,api.state.lines);
+     const full=api.calculateSetup({reel,line:selected,spoolYards:3000,workingYards:yd,capacityOnly:true});
+     parityPass=parityPass&&actual.ok&&near(actual.fullCapacity,expected)&&near(actual.backingYards,back.backingYards)&&full.ok&&near(full.workingYards,expected)&&!full.needsBacking;
+     cardCount++;parityCount++;
+    }
+    check('Example capacities and exact Wizard handoff: '+selected.lb+' lb',cardsPass);
+    check('Capacity/backing shared-engine parity: '+selected.lb+' lb',parityPass);
+   }
+   check('All strengths covered',cardCount===api.state.productLines.length*3,{strengths:api.state.productLines.length,exampleCases:cardCount,parityCases:parityCount});
+   change('rcStrength',p.defaultLineId);change('rcSpool',p.defaultSpoolYards);
+   const vanford=reelBy('shimano-vanford-fa-2500hga-vf2500hga-691');
+   change('rcReelBrand',vanford.brand);change('rcReelModel',vanford.model);change('rcReelSize',vanford.id);
+   if(api.state.capacityOnly)get('rcBackingModeButton').click();
+   check('Backing mode restores editable amount wording',get('rcWorkingYardsLabel').textContent==='Main line to put on the reel (yards)'&&get('rcFullSpoolHelp').hidden&&!get('rcWorkingYards').disabled);
+   const cap=core.calculateFullSpoolCapacity(vanford,api.state.selectedLine,{lineCatalog:api.state.lines});
+   change('rcReelSize',vanford.id);
+   check('Suggested working fill never rounds above full capacity',Number(get('rcWorkingYards').value)<=cap);
+   change('rcWorkingYards',cap*1.001);get('rcCalculate').click();
+   check('Catalog 0.1 percent overfill is an error, without purchase CTA',api.state.lastResult.overCapacity&&api.state.lastResult.assessmentTone==='error'&&get('rcResults').textContent.includes('Revise the plan')&&!get('rcAffiliateCta'));
+   change('rcWorkingYards',cap*0.995);
+   check('Near-full catalog fill still calculates remaining backing',api.state.lastResult.needsBacking&&api.state.lastResult.backingYards>0&&!get('rcResults').textContent.includes('No volume backing'));
+   change('rcWorkingYards',1);
+   check('Short working fill is not sold as useful fishing fills',api.state.lastResult.assessmentTone==='warning'&&get('rcResults').textContent.includes('limited reserve')&&!get('rcAffiliateCta')&&!/separate .* working fills/.test(api.state.lastResult.efficiencyText));
+   for(const width of [320,390,768,1280]){frame.style.width=width+'px';await sleep(100);const m=layout();check('Warning layout '+width,!m.overflow.length&&!m.overlaps.length,m);}
+   change('rcWorkingYards',75);get('rcCalculate').click();
+   check('Database reel selection produces backed plan',!!api.state.lastResult&&api.state.lastResult.needsBacking&&api.state.lastResult.backingYards>0);
+   const Amazon=[...get('rcResults').querySelectorAll('[data-affiliate-line]')];
+   check('Exact main and backing Amazon links',Amazon.length===2&&Amazon.every(a=>{const u=new URL(a.href),l=lineBy(a.dataset.affiliateLine),q=u.searchParams.get('k');return u.hostname==='www.amazon.com'&&u.searchParams.get('tag')==='reelcalc-20'&&q.includes(l.brand+' '+l.model)&&q.includes(l.lb+' lb')&&a.relList.contains('sponsored');}));
+   const wizard=new URL(get('rcWizardCta').href);
+   check('Result Wizard uses selected line, strength and reel',wizard.searchParams.get('line')===p.defaultLineId&&wizard.searchParams.get('lb')===String(api.state.selectedLine.lb)&&wizard.searchParams.get('reel')===api.state.selectedReel.id);
+   get('rcBackingModeButton').click();
+   check('Catalog full-spool explanation names line and reel',get('rcWorkingYardsLabel').textContent==='Estimated full-spool amount (yards)'&&get('rcFullSpoolHelp').textContent.includes(p.brand+' '+p.model)&&get('rcFullSpoolHelp').textContent.includes('Vanford')&&get('rcFullSpoolHelp').textContent.includes('with no backing.')&&get('rcResults').querySelector('.rc-result-head p').textContent.includes('fills this reel with the selected line and no backing.'));
+   const thicker=[...get('rcReplacement').options].map(o=>lineBy(o.value)).find(l=>l&&l.dia_in>api.state.selectedLine.dia_in);
+   change('rcReplacement',thicker.id);
+   const replacementUrl=new URL(get('rcReplacementWizard').href);
+   check('Full-spool replacement Wizard recalculates for new line',replacementUrl.searchParams.get('line')===thicker.id&&!replacementUrl.searchParams.has('mainYards'));
+   change('rcReelSize','');
+   check('Clearing reel removes stale full-spool quantity',get('rcWorkingYards').value===''&&get('rcCalculate').disabled&&!api.state.lastResult);
+   change('rcReelSize',vanford.id);get('rcCalculate').click();
+   get('rcBackingModeButton').click();
+   const saved=w.location.href,savedBacking=api.state.lastResult.backingYards;
+   await load(saved);
+   check('Saved backed plan survives reload, including mono default',!frame.contentWindow.ReelCalcLinePage.state.capacityOnly&&near(frame.contentWindow.ReelCalcLinePage.state.lastResult.backingYards,savedBacking));
+   // Continue with the reloaded document, not references to the old frame.
+   const rw=frame.contentWindow,rd=frame.contentDocument,ra=rw.ReelCalcLinePage,rg=id=>rd.getElementById(id);
+   const textBefore=rd.querySelector('.rc-strength-guide .rc-editorial-copy').textContent;
+   change('rcStrength',ra.state.productLines[0].id);
+   check('Strength change preserves working length and editorial guidance',rg('rcWorkingYards').value==='75'&&rd.querySelector('.rc-strength-guide .rc-editorial-copy').textContent===textBefore);
+   change('rcStrength',p.defaultLineId);
+   change('rcWorkingYards','');check('Invalid working length removes stale results',rg('rcCalculate').disabled&&!ra.state.lastResult&&!rg('rcWizardCta'));
+   change('rcWorkingYards',75);
+   const equal=[...rg('rcReplacement').options].map(o=>lineBy(o.value)).find(l=>l&&near(l.dia_in,ra.state.selectedLine.dia_in));
+   if(equal){change('rcReplacement',equal.id);check('Equal diameter wording names exact line and reel',rg('rcSwitchResult').textContent.includes('has the same listed diameter as')&&!/\b0%/.test(rg('rcSwitchResult').textContent)&&rg('rcSwitchResult').textContent.includes('Vanford'),{text:rg('rcSwitchResult').textContent,line:equal.id});}
+   for(const dir of ['thinner','thicker']){
+    const alt=[...rg('rcReplacement').options].map(o=>lineBy(o.value)).find(l=>l&&(dir==='thinner'?l.dia_in<ra.state.selectedLine.dia_in:l.dia_in>ra.state.selectedLine.dia_in));
+    if(alt){change('rcReplacement',alt.id);check(dir+' comparison has correct direction and names reel',rg('rcSwitchResult').textContent.includes(dir+' than '+p.brand+' '+p.model)&&rg('rcSwitchResult').textContent.includes('Vanford')&&rg('rcSwitchResult').textContent.includes('should hold '+(dir==='thinner'?'more':'less')));}
+   }
+   const heavy=ra.state.productLines.find(l=>l.lb===17)||ra.state.productLines.at(-1);change('rcStrength',heavy.id);change('rcWorkingYards',1);
+   check('Heavy-line handling note uses correct material',braid||ra.state.lastResult.practicalNote.includes(braid?'braid':p.lineType==='Monofilament'?'mono':'fluorocarbon'),{note:ra.state.lastResult.practicalNote});
+   change('rcStrength',p.defaultLineId);change('rcWorkingYards',75);
+   rd.querySelector('[data-reel-source="manual"]').click();
+   check('Manual entry starts incomplete without stale reel result',!ra.state.lastResult&&rg('rcCalculate').disabled&&!rg('rcWizardCta'));
+   check('Manual rating guidance matches material',braid?rg('rcManualType').value==='braid'&&rg('rcManualReel').textContent.includes('Use its braid capacity rating if available'):rg('rcManualType').value==='mono'&&[...rg('rcManualType').options].every(o=>o.value==='mono')&&rg('rcManualReel').textContent.includes('Use its mono capacity rating'));
+   change('rcManualCapacity',200);change('rcManualStrength',10);change('rcManualDiameterUnit','in');change('rcManualDiameter',ra.state.selectedLine.dia_in);change('rcWorkingYards',100);rg('rcCalculate').click();
+   check('Exact printed diameter reproduces 200-yard reel rating',near(ra.state.lastResult.fullCapacity,200));
+   const expectedBack=100*Math.pow(ra.state.selectedLine.dia_in/backing.dia_in,2);
+   check('Half main fill leaves correct independent backing volume',near(ra.state.lastResult.backingYards,expectedBack),{expected:expectedBack,actual:ra.state.lastResult.backingYards});
+   change('rcManualStrength',65);
+   check('Printed diameter overrides pound-test assumption',near(ra.state.lastResult.fullCapacity,200));
+   change('rcManualDiameterUnit','mm');change('rcManualDiameter',ra.state.selectedLine.dia_in*25.4);change('rcManualCapacityUnit','m');change('rcManualCapacity',182.88);
+   check('Equivalent metric inputs reproduce the same result',near(ra.state.lastResult.fullCapacity,200)&&near(ra.state.lastResult.backingYards,expectedBack));
+   change('rcManualStrength','');check('Diameter-only rating works without pound test',near(ra.state.lastResult.fullCapacity,200));
+   const mu=new URL(rg('rcWizardCta').href);
+   check('Manual Wizard explicitly transfers line only',!mu.searchParams.has('reel')&&mu.searchParams.get('line')===p.defaultLineId&&rg('rcResults').textContent.includes('manually entered reel specs are not transferred'));
+   for(const [field,value] of [['rcManualCapacity',0],['rcManualCapacity',100001],['rcManualDiameter',0],['rcManualDiameter',-1]]){const old=rg(field).value;change(field,value);check('Invalid '+field+' '+value+' rejected',!ra.state.lastResult&&rg('rcCalculate').disabled&&!!rg('rcManualError').textContent);change(field,old);}
+   change('rcWorkingYards',201);check('Manual overfill is clearly warned',ra.state.lastResult.overCapacity&&rg('rcResults').textContent.includes('Revise the plan'));
+   change('rcWorkingYards',199);check('Manual near-full rating retains small backing amount',ra.state.lastResult.needsBacking&&ra.state.lastResult.backingYards>0);
+   change('rcWorkingYards',100);rg('rcBackingModeButton').click();
+   check('Capacity-only removes backing and fills exact computed capacity',rg('rcBackingControls').hidden&&near(ra.state.lastResult.workingYards,200)&&!ra.state.lastResult.needsBacking&&!rg('rcBackingAffiliateCta'));
+   check('Manual full-spool explanation has no stale named reel',rg('rcFullSpoolHelp').textContent.includes('your reel (entered specs)')&&!rg('rcFullSpoolHelp').textContent.includes('Vanford')&&rg('rcResults').textContent.includes('Full-spool amount')&&!rg('rcResults').textContent.includes('Planned main line'));
+   for(const group of rd.querySelectorAll('[data-diameter-group]'))group.open=true;
+   for(const width of [320,390,768,1280]){frame.style.width=width+'px';await sleep(100);const measured=layout();check('Responsive layout '+width,!measured.overflow.length&&!measured.overlaps.length&&measured.imageLoaded,measured);}
+   if(hosted){
+    for(const width of [320,640,820]){
+     rd.querySelector('main').style.width=width+'px';await sleep(100);
+     const measured=layout(),fields=[...rd.querySelectorAll('.rc-control-step')].map(e=>e.getBoundingClientRect());
+     const columns=width<=720 ? fields[1].top>fields[0].bottom-1&&fields[2].top>fields[1].bottom-1 : fields[1].top===fields[0].top&&fields[2].top>fields[0].bottom-1;
+     check('Narrow blog column '+width+' in desktop viewport',columns&&!measured.overflow.length&&!measured.overlaps.length,measured);
+    }
+    rd.querySelector('main').style.width='';
+   }
+   const manualSaved=rw.location.href;await load(manualSaved);
+   check('Manual capacity-only saved URL restores accurately',frame.contentWindow.ReelCalcLinePage.state.capacityOnly&&near(frame.contentWindow.ReelCalcLinePage.state.lastResult.fullCapacity,200));
+  }
+  report.textContent=JSON.stringify({passed:checks.every(c=>c.pass),count:checks.length,checks},null,2);
+ }catch(error){check('Audit runner completed',false,error.stack);report.textContent=JSON.stringify({passed:false,count:checks.length,checks},null,2);}
+ document.getElementById('run').disabled=false;frame.style.width='390px';
+};
+</script></body></html>

@@ -402,9 +402,16 @@
     "type": "Monofilament",
     "lb": 4,
     "dia_in": 0.008,
-    "dia_mm": 0.203,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 4 lb"
+    "dia_mm": 0.2,
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths from Berkley's product variants. Inch diameter cross-checked by matching SKU at Kittery Trading Post; inch/mm pair checked against Tackle Haven's Trilene XL chart. Diameter is retailer-sourced, not a ReelCalc measurement. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 4 lb",
+    "spool_sizes_yd": [
+      330,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://www.kitterytradingpost.com/berkley-trilene-xl-fishing-line/"
   },
   {
     "id": "berkley-trilene-xl-monofilament-6",
@@ -413,9 +420,16 @@
     "type": "Monofilament",
     "lb": 6,
     "dia_in": 0.009,
-    "dia_mm": 0.229,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 6 lb"
+    "dia_mm": 0.22,
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 6 lb",
+    "spool_sizes_yd": [
+      330,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/"
   },
   {
     "id": "berkley-trilene-xl-monofilament-8",
@@ -424,9 +438,16 @@
     "type": "Monofilament",
     "lb": 8,
     "dia_in": 0.01,
-    "dia_mm": 0.254,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 8 lb"
+    "dia_mm": 0.25,
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 8 lb",
+    "spool_sizes_yd": [
+      330,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/"
   },
   {
     "id": "berkley-trilene-xl-monofilament-10",
@@ -435,9 +456,16 @@
     "type": "Monofilament",
     "lb": 10,
     "dia_in": 0.011,
-    "dia_mm": 0.279,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 10 lb"
+    "dia_mm": 0.27,
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 10 lb",
+    "spool_sizes_yd": [
+      300,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/"
   },
   {
     "id": "berkley-trilene-xl-monofilament-12",
@@ -447,8 +475,15 @@
     "lb": 12,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 12 lb"
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 12 lb",
+    "spool_sizes_yd": [
+      300,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/"
   },
   {
     "id": "berkley-trilene-xl-monofilament-14",
@@ -457,9 +492,16 @@
     "type": "Monofilament",
     "lb": 14,
     "dia_in": 0.014,
-    "dia_mm": 0.356,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 14 lb"
+    "dia_mm": 0.35,
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 14 lb",
+    "spool_sizes_yd": [
+      300,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/"
   },
   {
     "id": "berkley-trilene-xl-monofilament-17",
@@ -467,10 +509,86 @@
     "model": "Trilene XL",
     "type": "Monofilament",
     "lb": 17,
+    "dia_in": 0.015,
+    "dia_mm": 0.38,
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 17 lb",
+    "spool_sizes_yd": [
+      300,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/"
+  },
+  {
+    "id": "berkley-trilene-xl-monofilament-2",
+    "brand": "Berkley",
+    "model": "Trilene XL",
+    "type": "Monofilament",
+    "lb": 2,
+    "dia_in": 0.005,
+    "dia_mm": 0.12,
+    "spool_sizes_yd": [
+      330,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://www.kitterytradingpost.com/berkley-trilene-xl-fishing-line/",
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths from Berkley's product variants. Inch diameter cross-checked by matching SKU at Kittery Trading Post; inch/mm pair checked against Tackle Haven's Trilene XL chart. Diameter is retailer-sourced, not a ReelCalc measurement. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 2 lb"
+  },
+  {
+    "id": "berkley-trilene-xl-monofilament-20",
+    "brand": "Berkley",
+    "model": "Trilene XL",
+    "type": "Monofilament",
+    "lb": 20,
     "dia_in": 0.016,
-    "dia_mm": 0.406,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "berkley trilene xl monofilament 17 lb"
+    "dia_mm": 0.4,
+    "spool_sizes_yd": [
+      270,
+      1000,
+      3000
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/",
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 20 lb"
+  },
+  {
+    "id": "berkley-trilene-xl-monofilament-25",
+    "brand": "Berkley",
+    "model": "Trilene XL",
+    "type": "Monofilament",
+    "lb": 25,
+    "dia_in": 0.018,
+    "dia_mm": 0.45,
+    "spool_sizes_yd": [
+      270,
+      2600
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/",
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 25 lb"
+  },
+  {
+    "id": "berkley-trilene-xl-monofilament-30",
+    "brand": "Berkley",
+    "model": "Trilene XL",
+    "type": "Monofilament",
+    "lb": 30,
+    "dia_in": 0.02,
+    "dia_mm": 0.5,
+    "spool_sizes_yd": [
+      250,
+      2300
+    ],
+    "product_source_url": "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+    "diameter_source_url": "https://berkley-fishing.com.au/product/trilene-xl/",
+    "source_note": "Checked 2026-09-11. U.S. filler and bulk lengths verified from Berkley's trilene-xl-filler-spool and trilene-xl-bulk-spool product variants. Diameters for 6-30 lb verified against Berkley Australia's matching U.S. manufacturer SKUs. Published millimeter values are independently rounded, not converted from inches. Pony packages are not included.",
+    "search_text": "berkley trilene xl monofilament 30 lb"
   },
   {
     "id": "berkley-trilene-xt-monofilament-6",
@@ -3910,10 +4028,20 @@
     "model": "Spectra",
     "type": "Braid",
     "lb": 5,
-    "dia_in": 0.006,
-    "dia_mm": 0.13,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 5 lb"
+    "dia_in": 0.004,
+    "dia_mm": 0.1,
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 5 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-8",
@@ -3921,10 +4049,20 @@
     "model": "Spectra",
     "type": "Braid",
     "lb": 8,
-    "dia_in": 0.007,
-    "dia_mm": 0.18,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 8 lb"
+    "dia_in": 0.005,
+    "dia_mm": 0.13,
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 8 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-10",
@@ -3932,10 +4070,20 @@
     "model": "Spectra",
     "type": "Braid",
     "lb": 10,
-    "dia_in": 0.008,
-    "dia_mm": 0.2,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 10 lb"
+    "dia_in": 0.006,
+    "dia_mm": 0.15,
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 10 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-15",
@@ -3944,9 +4092,19 @@
     "type": "Braid",
     "lb": 15,
     "dia_in": 0.008,
-    "dia_mm": 0.2,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 15 lb"
+    "dia_mm": 0.19,
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 15 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-20",
@@ -3956,8 +4114,18 @@
     "lb": 20,
     "dia_in": 0.009,
     "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 20 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 20 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-30",
@@ -3967,8 +4135,18 @@
     "lb": 30,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 30 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 30 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-40",
@@ -3976,10 +4154,20 @@
     "model": "Spectra",
     "type": "Braid",
     "lb": 40,
-    "dia_in": 0.013,
+    "dia_in": 0.012,
     "dia_mm": 0.32,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 40 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 40 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-50",
@@ -3989,8 +4177,18 @@
     "lb": 50,
     "dia_in": 0.014,
     "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 50 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 50 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-65",
@@ -4000,8 +4198,18 @@
     "lb": 65,
     "dia_in": 0.016,
     "dia_mm": 0.41,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 65 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 65 lb",
+    "spool_sizes_yd": [
+      100,
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-80",
@@ -4011,8 +4219,17 @@
     "lb": 80,
     "dia_in": 0.017,
     "dia_mm": 0.43,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 80 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 80 lb",
+    "spool_sizes_yd": [
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
   },
   {
     "id": "powerpro-spectra-braid-100",
@@ -4022,8 +4239,71 @@
     "lb": 100,
     "dia_in": 0.018,
     "dia_mm": 0.46,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "powerpro spectra braid 100 lb"
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 100 lb",
+    "spool_sizes_yd": [
+      150,
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
+  },
+  {
+    "id": "powerpro-spectra-braid-150",
+    "brand": "PowerPro",
+    "model": "Spectra",
+    "type": "Braid",
+    "lb": 150,
+    "dia_in": 0.022,
+    "dia_mm": 0.56,
+    "spool_sizes_yd": [
+      300,
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line",
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 150 lb"
+  },
+  {
+    "id": "powerpro-spectra-braid-200",
+    "brand": "PowerPro",
+    "model": "Spectra",
+    "type": "Braid",
+    "lb": 200,
+    "dia_in": 0.03,
+    "dia_mm": 0.76,
+    "spool_sizes_yd": [
+      500,
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line",
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 200 lb"
+  },
+  {
+    "id": "powerpro-spectra-braid-250",
+    "brand": "PowerPro",
+    "model": "Spectra",
+    "type": "Braid",
+    "lb": 250,
+    "dia_in": 0.035,
+    "dia_mm": 0.89,
+    "spool_sizes_yd": [
+      1500,
+      3000
+    ],
+    "product_source_url": "https://fishshop.shimano.com/products/powerpro",
+    "diameter_source_url": "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line",
+    "source_note": "Strengths, colors, construction, and spool offerings verified against Shimano North America's official PowerPro product page and current product variant feed. Diameters verified against Fisherman's Headquarters' published PowerPro Original Spectra chart; 5-80 lb values were cross-checked against FishUSA.",
+    "search_text": "powerpro spectra braid 250 lb"
   },
   {
     "id": "powerpro-super8slick-v2-braid-8",
@@ -4614,10 +4894,16 @@
     "model": "InvizX",
     "type": "Fluorocarbon",
     "lb": 4,
-    "dia_in": 0.007,
-    "dia_mm": 0.17,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 4 lb"
+    "dia_in": 0.006,
+    "dia_mm": 0.165,
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 4 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-6",
@@ -4626,9 +4912,16 @@
     "type": "Fluorocarbon",
     "lb": 6,
     "dia_in": 0.008,
-    "dia_mm": 0.2,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 6 lb"
+    "dia_mm": 0.205,
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 6 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-8",
@@ -4637,9 +4930,16 @@
     "type": "Fluorocarbon",
     "lb": 8,
     "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 8 lb"
+    "dia_mm": 0.235,
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 8 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-10",
@@ -4649,8 +4949,15 @@
     "lb": 10,
     "dia_in": 0.01,
     "dia_mm": 0.26,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 10 lb"
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 10 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-12",
@@ -4659,9 +4966,16 @@
     "type": "Fluorocarbon",
     "lb": 12,
     "dia_in": 0.011,
-    "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 12 lb"
+    "dia_mm": 0.285,
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 12 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-15",
@@ -4671,8 +4985,15 @@
     "lb": 15,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 15 lb"
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 15 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-17",
@@ -4682,8 +5003,15 @@
     "lb": 17,
     "dia_in": 0.015,
     "dia_mm": 0.37,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 17 lb"
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 17 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-20",
@@ -4692,9 +5020,16 @@
     "type": "Fluorocarbon",
     "lb": 20,
     "dia_in": 0.016,
-    "dia_mm": 0.4,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 20 lb"
+    "dia_mm": 0.405,
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 20 lb",
+    "spool_sizes_yd": [
+      200,
+      600,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-25",
@@ -4703,9 +5038,15 @@
     "type": "Fluorocarbon",
     "lb": 25,
     "dia_in": 0.017,
-    "dia_mm": 0.43,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar invizx fluorocarbon 25 lb"
+    "dia_mm": 0.435,
+    "source_note": "Strengths, diameters, and currently offered spool lengths verified against Seaguar's official InvizX product page and product variant feed. The unavailable 25 lb / 600 yd variant was not included.",
+    "search_text": "seaguar invizx fluorocarbon 25 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "product_source_url": "https://seaguar.com/products/invizx",
+    "diameter_source_url": "https://seaguar.com/products/invizx"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-6",

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Line-page review checks</title>
+<style>body{margin:12px;font:14px Arial;background:#eef1f0}nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}button,select{padding:10px}iframe{display:block;border:0;width:390px;height:800px;background:#fff}pre{white-space:pre-wrap;max-width:1100px;max-height:100px;overflow:auto}#frame-wrap{overflow:auto}</style></head>
+<body><nav><button id="run">Run behavior checks</button><select id="width" aria-label="Preview width"><option>320</option><option selected>390</option><option>768</option><option>1280</option></select><button data-section="use-this-line">Calculator</button><button data-section="rcResults">Results</button><button data-section="diameter-chart">Chart</button><button data-section="compare-lines">Comparison</button><button data-section="examples-title">Example plans</button><button id="measure">Measure layout</button><button id="reload">Reload saved setup</button></nav>
+<button id="plan-links">Example setup links</button><pre id="report">Loading...</pre><div id="frame-wrap"><iframe title="PowerPro responsive preview" src="../../examples/line-pages/powerpro-spectra.html?v=gold-audit"></iframe></div>
+<script>
+const frame = document.querySelector('iframe');
+const report = document.getElementById('report');
+let lastChecks = [];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+async function ready() { for (let i=0;i<100;i++) { if(frame.contentWindow.ReelCalcLinePage) return; await sleep(100); } throw Error('Tool failed to load'); }
+const change = (id,value) => { const e=frame.contentDocument.getElementById(id); e.value=String(value); e.dispatchEvent(new frame.contentWindow.Event(e.tagName==='INPUT'?'input':'change',{bubbles:true})); };
+function measure() {
+  const d=frame.contentDocument, w=frame.contentWindow;
+  const visible=e=>e.getClientRects().length&&!e.closest('[hidden]');
+  const over=[...d.querySelectorAll('main *, main')].filter(visible).filter(e=>{ const r=e.getBoundingClientRect(); return r.right>d.documentElement.clientWidth+1||r.left < -1; }).map(e=>e.id||e.tagName+'.'+e.className);
+  const fields=[...d.querySelectorAll('input,select,button,a,summary')].filter(visible);
+  const overlaps=[];
+  for(let i=0;i<fields.length;i++)for(let j=i+1;j<fields.length;j++){ const a=fields[i].getBoundingClientRect(),b=fields[j].getBoundingClientRect(); if(Math.min(a.right,b.right)-Math.max(a.left,b.left)>1&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>1)overlaps.push([fields[i].id,fields[j].id]); }
+  const image=d.querySelector('.rc-product-figure img');
+  return {width:w.innerWidth,pageWidth:d.documentElement.scrollWidth,overflow:over,controlOverlaps:overlaps,imageLoaded:!!(image.complete&&image.naturalWidth),visibleControls:fields.length};
+}
+document.getElementById('width').onchange=e=>{frame.style.width=e.target.value+'px';frame.style.zoom=Number(e.target.value)>700?'0.5':'1';requestAnimationFrame(()=>report.textContent=JSON.stringify({layout:measure()},null,2));};
+document.getElementById('measure').onclick=()=>report.textContent=JSON.stringify({checks:lastChecks,layout:measure()},null,2);
+document.querySelectorAll('[data-section]').forEach(b=>b.onclick=()=>frame.contentDocument.getElementById(b.dataset.section).scrollIntoView({block:'start'}));
+document.getElementById('plan-links').onclick=()=>frame.contentDocument.querySelector('.rc-example-actions').scrollIntoView({block:'center'});
+document.getElementById('reload').onclick=async()=>{const before=frame.contentWindow.location.href;frame.src=before;await sleep(200);await ready();report.textContent=JSON.stringify({url:before,backing:frame.contentDocument.getElementById('rcBackingLb').value,result:frame.contentDocument.getElementById('rcResults').textContent,layout:measure()},null,2);};
+document.getElementById('run').onclick=async()=>{
+  lastChecks=[];
+  const check=(name,pass,detail)=>{lastChecks.push({name,pass:!!pass,...(detail?{detail}: {})});report.textContent=JSON.stringify(lastChecks,null,2);};
+  try {
+    await ready();
+    const w=frame.contentWindow,d=frame.contentDocument,api=w.ReelCalcLinePage,core=w.ReelCalcCore;
+    const get=id=>d.getElementById(id),findLine=id=>api.state.lines.find(l=>l.id===id),findReel=id=>api.state.reels.find(r=>r.id===id);
+    check('Blank reel on ordinary load',!api.state.selectedReel);
+    check('No unsolicited replacement selected',get('rcReplacement').value==='');
+    change('rcReplacement','berkley-x5-braid-braid-20');
+    check('Without a reel, comparison names the starting line but uses a generic reel',get('rcSwitchResult').textContent.includes('thicker than PowerPro Spectra 15 lb, so a reel should hold less of it')&&!get('rcSwitchResult').textContent.includes('ReelCalc estimates about'));
+    change('rcReplacement','');
+    const cases=[['shimano-vanford-fa-2500hga-vf2500hga-691','powerpro-spectra-braid-10',125],['shimano-stradic-fm-c3000xg-stc3000xgfm-686','powerpro-spectra-braid-15',150],['shimano-slx-a-150-6-3-rh-slx150a','powerpro-spectra-braid-30',100]];
+    const backing=findLine('berkley-trilene-big-game-monofilament-10');
+    let groupsCorrect=true,groupChecks=0,capacityCardsCorrect=true,capacityCardChecks=0;
+    for(const selected of api.state.productLines){
+      change('rcStrength',selected.id);
+      const capacityCards=[...get('rcExamples').querySelectorAll('.rc-capacity-card')];
+      capacityCardsCorrect=capacityCardsCorrect&&capacityCards.length===3;
+      for(const [i,card] of capacityCards.entries()){
+        const reel=findReel(cases[i][0]),expected=core.calculateFullSpoolCapacity(reel,selected,{lineCatalog:api.state.lines}),url=new URL(card.querySelector('[data-example-reel]').href);
+        capacityCardsCorrect=capacityCardsCorrect&&Number.parseFloat(card.querySelector('.rc-example-capacity strong').textContent)===Number(expected.toFixed(expected<100?1:0))&&card.querySelector('.rc-example-line').textContent===selected.brand+' '+selected.model+' '+selected.lb+' lb'&&url.origin==='https://www.reelcalc.com'&&url.pathname==='/reelcalc-wizard'&&url.searchParams.get('reel')===reel.id&&url.searchParams.get('line')===selected.id&&url.searchParams.get('lb')===String(selected.lb)&&[...url.searchParams.keys()].sort().join(',')==='lb,line,reel'&&!!card.querySelector('.rc-example-caution')===(expected<50);
+        capacityCardChecks++;
+      }
+      const seen=new Set();
+      const expected=api.state.lines.filter(l=>core.isLineReady(l)&&String(l.type).toLowerCase().includes('braid')&&Number(l.lb)===Number(selected.lb)&&!(l.brand.toLowerCase()===selected.brand.toLowerCase()&&l.model.toLowerCase()===selected.model.toLowerCase())).filter(l=>{const key=[l.brand.toLowerCase(),l.model.toLowerCase(),Number(l.lb),Number(l.dia_in)].join('|');if(seen.has(key))return false;seen.add(key);return true;});
+      const rows=[...d.querySelectorAll('[data-comparable-line]')];
+      groupsCorrect=groupsCorrect&&rows.length===expected.length&&new Set(rows.map(r=>r.dataset.comparableLine)).size===rows.length;
+      for(const group of d.querySelectorAll('[data-diameter-group]')){
+        const entries=[...group.querySelectorAll('[data-comparable-line]')];
+        groupsCorrect=groupsCorrect&&Number(group.querySelector('summary').textContent.split(' ')[0])===entries.length;
+        for(const row of entries){const l=findLine(row.dataset.comparableLine),difference=l.dia_in-selected.dia_in;const key=difference < -0.00005?'thinner':difference>0.00005?'thicker':'same';groupsCorrect=groupsCorrect&&group.dataset.diameterGroup===key&&expected.some(e=>e.id===l.id)&&row.textContent.includes(l.brand+' '+l.model);groupChecks++;}
+      }
+    }
+    change('rcStrength','powerpro-spectra-braid-15');
+    check('Every diameter count expands to the exact catalog lines at all strengths',groupsCorrect,{rowsChecked:groupChecks,strengths:api.state.productLines.length});
+    check('All example capacities, warnings and Wizard links follow all selected strengths',capacityCardsCorrect,{cases:capacityCardChecks});
+    const cards=[...d.querySelectorAll('.rc-example-card')];
+    check('Examples are compact capacity cards with no preset working or backing plan',cards.length===3&&cards.every(c=>!c.querySelector('.rc-plan-details')&&!c.querySelector('[data-affiliate-line]')&&c.querySelectorAll('a').length===1&&c.textContent.includes('With no backing underneath')&&c.querySelector('a').textContent==='Set Up This Reel'));
+    check('Every default card uses selected 15 lb rather than old example-specific strengths',cards.every(c=>c.querySelector('.rc-example-line').textContent==='PowerPro Spectra 15 lb'));
+    const captured=[],oldAnalytics=w.ReelCalcAnalytics;
+    w.ReelCalcAnalytics={track:(name,parameters)=>captured.push({name,parameters})};
+    try{for(const a of d.querySelectorAll('#rcExamples [data-example-reel]')){a.addEventListener('click',e=>e.preventDefault(),{once:true});a.click();}}finally{w.ReelCalcAnalytics=oldAnalytics;}
+    check('Example Wizard clicks track their own reel and current line strength exactly once',captured.length===3&&captured.every((event,i)=>event.name==='line_page_wizard_click'&&event.parameters.reel_id===cases[i][0]&&event.parameters.line_id==='powerpro-spectra-braid-15'&&event.parameters.selected_lb_test===15&&event.parameters.selection_source==='calculated_example'));
+    for(const [rid,lid,yd] of cases){
+      const reel=findReel(rid),line=findLine(lid),expected=core.calculateFullSpoolCapacity(reel,line,{lineCatalog:api.state.lines});
+      const result=api.calculateSetup({reel,line,spoolYards:150,workingYards:yd,backingLine:backing});
+      const expectedBacking=core.calculateActualLineCalibratedBacking(reel,line,yd,backing,api.state.lines).backingYards;
+      check('Shared-engine parity: '+lid,result.ok&&Math.abs(result.fullCapacity-expected)<1e-9&&Math.abs(result.backingYards-expectedBacking)<1e-9,{capacity:result.fullCapacity,backing:result.backingYards});
+      const full=api.calculateSetup({reel,line,spoolYards:300,workingYards:Math.round(expected),capacityOnly:true});
+      check('Capacity mode uses unrounded capacity: '+lid,full.ok&&full.workingYards===expected&&!full.needsBacking);
+    }
+    change('rcReelBrand','Shimano'); change('rcReelModel','Stradic FM');
+    change('rcReelSize','shimano-stradic-fm-c3000xg-stc3000xgfm-686');
+    check('Cascading selectors choose exact reel',api.state.selectedReel?.id==='shimano-stradic-fm-c3000xg-stc3000xgfm-686');
+    change('rcWorkingYards',125);get('rcCalculate').click();
+    check('Manual calculation shows result',!get('rcResults').hidden&&!!api.state.lastResult);
+    check('Successful backed plan offers main line and backing links',!!get('rcAffiliateCta')&&get('rcBackingAffiliateCta').dataset.affiliateLine===backing.id);
+    const guide=d.querySelector('.rc-strength-guide .rc-editorial-copy').textContent;
+    change('rcStrength','powerpro-spectra-braid-20');
+    check('Strength edit preserves entered working amount',get('rcWorkingYards').value==='125');
+    check('Strength guidance stays stable and has no duplicate Wizard controls',d.querySelector('.rc-strength-guide .rc-editorial-copy').textContent===guide&&!get('rcFishingType')&&!get('rcPriority'));
+    const strengthWizard=new URL(get('rcStrengthWizard').href);
+    check('Guidance Wizard link carries selected reel and line',strengthWizard.searchParams.get('line')==='powerpro-spectra-braid-20'&&strengthWizard.searchParams.get('reel')===api.state.selectedReel.id);
+    check('Suitability appears before calculator',[...d.querySelectorAll('h2')].findIndex(n=>n.id==='product-fit-title')<[...d.querySelectorAll('h2')].findIndex(n=>n.id==='line-tool-title'));
+    change('rcWorkingYards','');
+    check('Invalid input removes stale result and disables calculate',get('rcCalculate').disabled&&!api.state.lastResult&&!get('rcWizardCta'));
+    change('rcWorkingYards',125);
+    check('Valid input restores fresh results',!!api.state.lastResult&&!!get('rcWizardCta'));
+    change('rcReplacement','berkley-x5-braid-braid-20');
+    check('Equal diameter has plain wording',get('rcSwitchResult').textContent.includes('has the same listed diameter as')&&!get('rcSwitchResult').textContent.includes('0%'));
+    const guideResult=get('rcSwitchResult').textContent;
+    check('Capacity comparison names both lines',guideResult.includes('PowerPro Spectra 20 lb')&&guideResult.includes('Berkley X5 Braid 20 lb')&&guideResult.includes('Stradic FM'));
+    check('Equal-diameter sentence names the selected reel',guideResult.includes('so the Shimano Stradic FM C3000XG should hold about the same amount.'));
+    for(const direction of ['thicker','thinner']){
+      const candidate=[...get('rcReplacement').options].map(o=>findLine(o.value)).find(l=>l&&(direction==='thicker'?l.dia_in>api.state.selectedLine.dia_in:l.dia_in<api.state.selectedLine.dia_in));
+      change('rcReplacement',candidate.id);
+      const text=get('rcSwitchResult').textContent,percent=Number((Math.abs(candidate.dia_in-api.state.selectedLine.dia_in)/api.state.selectedLine.dia_in*100).toFixed(1));
+      check(direction+' comparison names both the starting strength and exact reel',text.includes('has a listed diameter '+percent+'% '+direction+' than PowerPro Spectra 20 lb, so the Shimano Stradic FM C3000XG should hold '+(direction==='thicker'?'less':'more')+' of it.'));
+    }
+    change('rcStrength','powerpro-spectra-braid-15');
+    check('Changing the starting strength refreshes the named comparison line',get('rcSwitchResult').textContent.includes('PowerPro Spectra 15 lb')&&!get('rcSwitchResult').textContent.includes('PowerPro Spectra 20 lb'));
+    change('rcStrength','powerpro-spectra-braid-20');
+    change('rcReplacement','berkley-x5-braid-braid-20');
+    get('rcBackingModeButton').click();
+    check('Capacity-only hides backing and disables yardage',get('rcBackingControls').hidden&&get('rcWorkingYards').disabled&&!api.state.lastResult.needsBacking);
+    check('Capacity-only has no backing purchase link',!get('rcBackingAffiliateCta'));
+    get('rcBackingModeButton').click();
+    check('Backing mode restores the working amount',!get('rcBackingControls').hidden&&get('rcWorkingYards').value==='125');
+    change('rcSpool',100);
+    check('Short retail spool is flagged',api.state.lastResult.shortfallYards===25&&api.state.lastResult.assessmentTone==='error');
+    check('Invalid plan has no affiliate purchase links',!get('rcResults').querySelector('[data-affiliate-line]'));
+    change('rcSpool',300);
+    change('rcBackingBrand','');
+    check('No backing selection is not a false zero-backing plan',get('rcResults').textContent.includes('Choose backing')&&api.state.lastResult.needsBacking);
+    change('rcBackingBrand','Berkley');change('rcBackingModel','Trilene Big Game');change('rcBackingLb','berkley-trilene-big-game-monofilament-20');
+    check('Backing selection is stored in share URL',new URL(w.location.href).searchParams.get('backingLine')==='berkley-trilene-big-game-monofilament-20');
+    const wizard=new URL(get('rcWizardCta').href);
+    check('Wizard preloads exact reel and line',wizard.searchParams.get('line')==='powerpro-spectra-braid-20'&&wizard.searchParams.get('lb')==='20'&&wizard.searchParams.get('reel')===api.state.selectedReel.id);
+    const offer=new URL(get('rcAffiliateCta').href);
+    check('Affiliate link retains tag',offer.searchParams.get('tag')==='reelcalc-20');
+    check('Calculator retains exact main-line and backing Amazon links',get('rcResults').querySelectorAll('[data-affiliate-line]').length===2&&[...get('rcResults').querySelectorAll('[data-affiliate-line]')].every(a=>{const u=new URL(a.href),line=findLine(a.dataset.affiliateLine),q=u.searchParams.get('k');return u.searchParams.get('tag')==='reelcalc-20'&&q.includes(line.brand+' '+line.model)&&q.includes(line.lb+' lb')&&a.relList.contains('sponsored')&&a.textContent.includes('Amazon');}));
+    change('rcWorkingYards',5000);
+    check('Overcapacity has warning, not no-backing assurance',api.state.lastResult.overCapacity&&get('rcResults').textContent.includes('Revise the plan'));
+    change('rcWorkingYards',100);
+    d.querySelector('[data-select-line="powerpro-spectra-braid-30"]').click();
+    check('Chart strength updates calculator and preserves amount',get('rcStrength').value==='powerpro-spectra-braid-30'&&get('rcWorkingYards').value==='100');
+    check('Chart strength also refreshes every capacity-card handoff',[...get('rcExamples').querySelectorAll('[data-example-reel]')].every(a=>new URL(a.href).searchParams.get('line')==='powerpro-spectra-braid-30'));
+    d.querySelector('[data-reel-type="baitcasting"]').click();
+    check('Reel type reset clears comparison reel and result',!api.state.selectedReel&&get('rcResults').hidden&&!get('rcSwitchResult').textContent.includes('Stradic'));
+    check('Clearing the reel restores generic wording',get('rcSwitchResult').textContent.includes('so a reel should hold'));
+    change('rcReelBrand','Shimano');change('rcReelModel','SLX A');change('rcReelSize','shimano-slx-a-150-6-3-rh-slx150a');
+    change('rcWorkingYards',100);get('rcCalculate').click();
+    check('Baitcaster selector and calculation work',!!api.state.lastResult&&api.state.selectedReel.id==='shimano-slx-a-150-6-3-rh-slx150a');
+    check('Selecting a different reel refreshes its name in comparison',get('rcSwitchResult').textContent.includes('so the Shimano SLX A 150 6.3 RH should hold')&&!get('rcSwitchResult').textContent.includes('Stradic FM'));
+    const ids=[...d.querySelectorAll('[id]')].map(n=>n.id);
+    check('No duplicate IDs',ids.length===new Set(ids).size);
+    check('One H1',d.querySelectorAll('h1').length===1);
+    check('All form fields labeled',[...d.querySelectorAll('input,select')].every(n=>n.labels?.length||n.getAttribute('aria-label')));
+    check('Anchor targets exist',[...d.querySelectorAll('a[href^="#"]')].every(a=>d.getElementById(a.hash.slice(1))));
+    const schema=JSON.parse(d.querySelector('script[type="application/ld+json"]').textContent);
+    check('FAQ schema matches visible answers',schema['@graph'].find(n=>n['@type']==='FAQPage').mainEntity.length===d.querySelectorAll('.rc-faq-list details').length);
+    check('Exactly 14 offered PowerPro strengths',d.querySelectorAll('[data-select-line]').length===14);
+    let parityCount=0,parity=true;
+    for(const entry of cases)for(const line of api.state.productLines){const reel=findReel(entry[0]),cap=core.calculateFullSpoolCapacity(reel,line,{lineCatalog:api.state.lines}),yd=cap/2;const r=api.calculateSetup({reel,line,workingYards:yd,spoolYards:300,backingLine:backing});const b=core.calculateActualLineCalibratedBacking(reel,line,yd,backing,api.state.lines);parity=parity&&r.ok&&Math.abs(r.fullCapacity-cap)<1e-9&&Math.abs(r.backingYards-b.backingYards)<1e-9;parityCount++;}
+    check('All offered strengths use unchanged core outputs',parity,{cases:parityCount});
+    const poor=api.calculateSetup({reel:findReel(cases[0][0]),line:findLine('powerpro-spectra-braid-250'),workingYards:1,spoolYards:1500,backingLine:backing});
+    check('Very thick line on compact reel warns about limited reserve',poor.ok&&poor.assessmentTone==='warning'&&poor.efficiencyText.includes('less than 50 yards'));
+    check('Requested comparison disclaimer is removed',!d.body.textContent.includes('A capacity comparison is not a strength, durability, or casting-performance test.'));
+    check('Rounding detail is confined to sources',!get('diameter-chart').textContent.includes('round')&&get('sources').textContent.includes('Published inch and millimeter'));
+    d.querySelector('[data-reel-source="manual"]').click();
+    check('Manual mode clears stale catalog result until specs are valid',get('rcCatalogReel').hidden&&!get('rcManualReel').hidden&&get('rcCalculate').disabled&&!api.state.lastResult&&!get('rcWizardCta'));
+    check('Manual guide prefers braid with mono fallback',get('rcManualReel').textContent.includes('Use its braid capacity rating if available. Otherwise, use its mono rating.')&&get('rcManualType').value==='braid');
+    change('rcStrength','powerpro-spectra-braid-15');change('rcSpool',300);
+    change('rcManualStrength',15);change('rcManualCapacity',200);change('rcWorkingYards',125);
+    change('rcBackingLb',backing.id);get('rcCalculate').click();
+    check('Matching braid rating reproduces 200 yards',Math.abs(api.state.lastResult.fullCapacity-200)<1e-8,{capacity:api.state.lastResult.fullCapacity});
+    check('Manual backing matches homepage Simple engine',Math.abs(api.state.lastResult.backingYards-core.estimateSetup({workingRating:api.state.manualReel.manualRating,backingRating:api.state.manualReel.manualRating,workingDiameterIn:.008,backingDiameterIn:.012,workingYards:125}).backingYards)<1e-9);
+    const manualWizard=new URL(get('rcWizardCta').href);
+    check('Manual Wizard handoff carries line only, never stale catalog reel',[...manualWizard.searchParams.keys()].sort().join(',')==='lb,line'&&manualWizard.searchParams.get('line')==='powerpro-spectra-braid-15'&&get('rcResults').textContent.includes('manually entered reel specs are not transferred'));
+    check('Manual guide Wizard has no catalog reel',!new URL(get('rcStrengthWizard').href).searchParams.has('reel'));
+    check('Manual comparison uses entered specs, not catalog reel',get('rcSwitchResult').textContent.includes('your reel')&&!get('rcSwitchResult').textContent.includes('Shimano')&&get('rcSwitchResult').textContent.includes('200 yd of PowerPro Spectra 15 lb'));
+    change('rcManualStrength',65);change('rcManualDiameter',.2032);
+    check('Printed metric diameter overrides rated lb test',Math.abs(api.state.lastResult.fullCapacity-200)<1e-8&&get('rcResults').textContent.includes("The reel's printed diameter is used."));
+    change('rcManualDiameterUnit','in');change('rcManualDiameter',.008);
+    check('Equivalent inch and metric reference produce identical capacity',Math.abs(api.state.lastResult.fullCapacity-200)<1e-8);
+    change('rcManualStrength','');
+    check('Diameter-only reel rating works without lb test',!!api.state.lastResult&&Math.abs(api.state.lastResult.fullCapacity-200)<1e-8,{capacity:api.state.lastResult.fullCapacity});
+    change('rcManualCapacityUnit','m');change('rcManualCapacity',core.yardsToMeters(200));
+    check('Meter and yard capacity inputs agree',Math.abs(api.state.lastResult.fullCapacity-200)<1e-8);
+    for(const [id,value] of [['rcManualDiameter',11],['rcManualDiameter',-.008],['rcManualCapacity',0],['rcManualCapacity',100001],['rcManualStrength',-1]]){
+      const previous=get(id).value;change(id,value);
+      check('Reject invalid manual input '+id+'='+value,get('rcCalculate').disabled&&!api.state.lastResult&&!!get('rcManualError').textContent&&!get('rcWizardCta'));
+      change(id,previous);
+    }
+    change('rcManualCapacityUnit','yd');change('rcManualCapacity',140);change('rcManualDiameter','');change('rcManualStrength',10);change('rcManualType','mono');
+    check('Mono fallback is explicit and uses mono reference',Math.abs(api.state.lastResult.fullCapacity-315)<1e-8&&get('rcResults').textContent.includes('mono rating is being used as a fallback for braid'));
+    const manualCaptured=[],savedAnalytics=w.ReelCalcAnalytics;
+    w.ReelCalcAnalytics={track:(name,parameters)=>manualCaptured.push({name,parameters})};
+    try{get('rcCalculate').click();}finally{w.ReelCalcAnalytics=savedAnalytics;}
+    check('Manual analytics never attributes specs to previous reel',manualCaptured.some(e=>e.name==='line_page_setup_calculated'&&e.parameters.reel_source==='manual')&&manualCaptured.every(e=>!e.parameters.reel_id));
+    let manualParity=true,manualCount=0;
+    for(const type of ['mono','braid'])for(const selected of [...api.state.productLines,findLine('seaguar-invizx-fluorocarbon-8'),backing]){
+      const reel={manualRating:{type,capacityYards:140,referenceDiameterIn:core.assumedRatingDiameter(type,10)}};
+      const full=core.capacityFromRating(reel.manualRating,selected.dia_in),yd=full/2;
+      const result=api.calculateSetup({reel,line:selected,spoolYards:1500,workingYards:yd,backingLine:backing});
+      const expected=core.estimateSetup({workingRating:reel.manualRating,backingRating:reel.manualRating,workingDiameterIn:selected.dia_in,backingDiameterIn:backing.dia_in,workingYards:yd});
+      manualParity=manualParity&&result.ok&&Math.abs(result.fullCapacity-full)<1e-8&&Math.abs(result.backingYards-expected.backingYards)<1e-8;manualCount++;
+    }
+    check('Manual braid, mono and fluoro use homepage engine outputs',manualParity,{cases:manualCount});
+    get('rcBackingModeButton').click();
+    check('Manual capacity-only ignores backing and uses full precision',api.state.lastResult.workingYards===api.state.lastResult.fullCapacity&&!api.state.lastResult.needsBacking&&!get('rcBackingAffiliateCta'));
+    get('rcBackingModeButton').click();change('rcWorkingYards',320);
+    check('Manual overfill is flagged even below old two-percent tolerance',api.state.lastResult.overCapacity&&get('rcResults').textContent.includes('Revise the plan'));
+    change('rcWorkingYards',125);
+    check('Manual rating saved without a catalog reel in URL',new URL(w.location.href).searchParams.get('reelSource')==='manual'&&!new URL(w.location.href).searchParams.has('reel'));
+    d.querySelector('[data-reel-source="database"]').click();
+    check('Returning to database restores catalog calculation and link',api.state.lastResult.reel.id==='shimano-slx-a-150-6-3-rh-slx150a'&&new URL(get('rcWizardCta').href).searchParams.get('reel')===api.state.selectedReel.id&&!new URL(w.location.href).searchParams.has('ratingCapacity'));
+    d.querySelector('[data-reel-source="manual"]').click();
+    const layouts=[];
+    for(const group of d.querySelectorAll('[data-diameter-group]'))group.open=true;
+    for(const width of [320,390,768,1280]) {frame.style.width=width+'px';await sleep(100);const layout=measure();layouts.push(layout);check('Layout bounds at '+width,!layout.overflow.length&&!layout.controlOverlaps.length&&layout.imageLoaded,layout);}
+    frame.style.width='390px';document.getElementById('width').value='390';
+    frame.contentWindow.scrollTo(0,0);
+    const savedUrl=w.location.href,savedBacking=api.state.lastResult.backingYards;
+    frame.src=savedUrl;await sleep(300);await ready();
+    const reloaded=frame.contentWindow.ReelCalcLinePage;
+    check('Manual share URL restores rating, mode and backing result',reloaded.state.reelSource==='manual'&&reloaded.state.lastResult&&Math.abs(reloaded.state.lastResult.backingYards-savedBacking)<1e-8&&!reloaded.state.selectedReel);
+    report.textContent=JSON.stringify({passed:lastChecks.every(c=>c.pass),count:lastChecks.length,checks:lastChecks},null,2);
+  } catch(error) {check('Audit runner completed',false,error.message);}
+};
+frame.onload=async()=>{await ready();report.textContent=JSON.stringify({ready:true,layout:measure()},null,2);};
+</script></body></html>
