@@ -1,0 +1,4533 @@
+{
+  "generatedAt": "2026-09-12T22:30:19.329Z",
+  "mainCatalogModels": 138,
+  "published": 3,
+  "prepared": 7,
+  "notBuilt": 128,
+  "remaining": 135,
+  "peOnlyModels": 39,
+  "entries": [
+    {
+      "id": "ande-premium-monofilament",
+      "brand": "Ande",
+      "model": "Premium Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ande-tournament-monofilament",
+      "brand": "Ande",
+      "model": "Tournament Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ande-fluorocarbon-leader",
+      "brand": "Ande",
+      "model": "Fluorocarbon Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ande-braid",
+      "brand": "Ande",
+      "model": "Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-trilene-big-game",
+      "brand": "Berkley",
+      "model": "Trilene Big Game",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-trilene-xl",
+      "brand": "Berkley",
+      "model": "Trilene XL",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 11,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        17,
+        2,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "published",
+      "page": "examples/line-pages/berkley-trilene-xl.html",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/trilene-xl-filler-spool",
+        "https://www.kitterytradingpost.com/berkley-trilene-xl-fishing-line/",
+        "https://berkley-fishing.com.au/product/trilene-xl/"
+      ],
+      "missing": [],
+      "notes": []
+    },
+    {
+      "id": "berkley-trilene-xt",
+      "brand": "Berkley",
+      "model": "Trilene XT",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-100-fluorocarbon",
+      "brand": "Berkley",
+      "model": "100% Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-vanish",
+      "brand": "Berkley",
+      "model": "Vanish",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-ginclear",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-forward-finesse-braid",
+      "brand": "Berkley",
+      "model": "Forward Finesse Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 3,
+      "strengths": [
+        6,
+        8,
+        10
+      ],
+      "role": "mainline",
+      "peRecordCount": 3,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-x9-braid",
+      "brand": "Berkley",
+      "model": "X9 Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "berkley-x5-braid",
+      "brand": "Berkley",
+      "model": "X5 Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cortland-master-braid",
+      "brand": "Cortland",
+      "model": "Master Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cortland-top-secret-fluorocarbon",
+      "brand": "Cortland",
+      "model": "Top Secret Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cortland-fluorocarbon-leader",
+      "brand": "Cortland",
+      "model": "Fluorocarbon Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cortland-precision-mono",
+      "brand": "Cortland",
+      "model": "Precision Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "daiwa-j-braid-x4",
+      "brand": "Daiwa",
+      "model": "J-Braid X4",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "daiwa-j-braid-x8",
+      "brand": "Daiwa",
+      "model": "J-Braid X8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 9,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "daiwa-j-braid-grand-x8",
+      "brand": "Daiwa",
+      "model": "J-Braid Grand X8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 12,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "daiwa-samurai-fluorocarbon",
+      "brand": "Daiwa",
+      "model": "Samurai Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "daiwa-j-fluoro-samurai",
+      "brand": "Daiwa",
+      "model": "J-Fluoro Samurai",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "daiwa-samurai-mono",
+      "brand": "Daiwa",
+      "model": "Samurai Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "gamma-edge-fluorocarbon",
+      "brand": "Gamma",
+      "model": "Edge Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "gamma-touch-fluorocarbon",
+      "brand": "Gamma",
+      "model": "Touch Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "gamma-torque-braid",
+      "brand": "Gamma",
+      "model": "Torque Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "gamma-polyflex",
+      "brand": "Gamma",
+      "model": "Polyflex",
+      "types": [
+        "Copolymer"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "gamma-fluorocarbon-leader",
+      "brand": "Gamma",
+      "model": "Fluorocarbon Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "hi-seas-grand-slam-monofilament",
+      "brand": "Hi-Seas",
+      "model": "Grand Slam Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "brand": "Hi-Seas",
+      "model": "Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "brand": "Hi-Seas",
+      "model": "Quattro Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "hi-seas-braid",
+      "brand": "Hi-Seas",
+      "model": "Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "kastking-superpower-braid",
+      "brand": "KastKing",
+      "model": "SuperPower Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 10,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "kastking-fluorokote",
+      "brand": "KastKing",
+      "model": "FluoroKote",
+      "types": [
+        "Fluorocarbon Coated"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "kastking-fluorocarbon",
+      "brand": "KastKing",
+      "model": "Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "kastking-destron-monofilament",
+      "brand": "KastKing",
+      "model": "Destron Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "lew-s-mach-braid",
+      "brand": "Lew's",
+      "model": "Mach Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "lew-s-team-lew-s-fluorocarbon",
+      "brand": "Lew's",
+      "model": "Team Lew's Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "lew-s-team-lew-s-monofilament",
+      "brand": "Lew's",
+      "model": "Team Lew's Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maxima-ultragreen",
+      "brand": "Maxima",
+      "model": "Ultragreen",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maxima-chameleon",
+      "brand": "Maxima",
+      "model": "Chameleon",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maxima-clear",
+      "brand": "Maxima",
+      "model": "Clear",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maxima-crystal-ivory",
+      "brand": "Maxima",
+      "model": "Crystal Ivory",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maxima-fluorocarbon",
+      "brand": "Maxima",
+      "model": "Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maxima-braid-8",
+      "brand": "Maxima",
+      "model": "Braid 8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "brand": "P-Line",
+      "model": "CXX X-Tra Strong",
+      "types": [
+        "Copolymer"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-floroclear",
+      "brand": "P-Line",
+      "model": "FloroClear",
+      "types": [
+        "Copolymer"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-cx-premium",
+      "brand": "P-Line",
+      "model": "CX Premium",
+      "types": [
+        "Copolymer"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "brand": "P-Line",
+      "model": "Tactical Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "brand": "P-Line",
+      "model": "HALO Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "brand": "P-Line",
+      "model": "EndurX Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        15,
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "brand": "P-Line",
+      "model": "TCB 8 Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "powerpro-spectra",
+      "brand": "PowerPro",
+      "model": "Spectra",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 15,
+      "strengths": [
+        3,
+        5,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80,
+        100,
+        150,
+        200,
+        250
+      ],
+      "role": "mainline",
+      "peRecordCount": 12,
+      "status": "published",
+      "page": "examples/line-pages/powerpro-spectra.html",
+      "sourceUrls": [
+        "https://fishshop.shimano.com/products/powerpro",
+        "https://fishermansheadquarters.com/products/powerpro-original-spectra-braided-line"
+      ],
+      "missing": [],
+      "notes": []
+    },
+    {
+      "id": "powerpro-super8slick-v2",
+      "brand": "PowerPro",
+      "model": "Super8Slick V2",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 8,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "powerpro-maxcuatro",
+      "brand": "PowerPro",
+      "model": "Maxcuatro",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        20,
+        30,
+        40,
+        50,
+        65,
+        80,
+        100
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://fishshop.shimano.com/products/maxcuatro-metered",
+        "https://www.tackledirect.com/powerpro-maxcuatro-braided-fishing-line-metered.html"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "reaction-tackle-braid",
+      "brand": "Reaction Tackle",
+      "model": "Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 11,
+      "strengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 11,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "reaction-tackle-fluorocarbon",
+      "brand": "Reaction Tackle",
+      "model": "Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "reaction-tackle-monofilament",
+      "brand": "Reaction Tackle",
+      "model": "Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "reaction-tackle-ice-braid",
+      "brand": "Reaction Tackle",
+      "model": "Ice Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 4,
+      "strengths": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "seaguar-tatsu",
+      "brand": "Seaguar",
+      "model": "Tatsu",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-tatsu.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/tatsu",
+        "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
+      ],
+      "missing": [],
+      "notes": [
+        "Manufacturer chart and selector agree. Published 4 lb diameter corrected in the candidate catalog."
+      ]
+    },
+    {
+      "id": "seaguar-invizx",
+      "brand": "Seaguar",
+      "model": "InvizX",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "published",
+      "page": "examples/line-pages/seaguar-invizx.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/invizx"
+      ],
+      "missing": [],
+      "notes": []
+    },
+    {
+      "id": "seaguar-abrazx",
+      "brand": "Seaguar",
+      "model": "AbrazX",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25,
+        4
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-abrazx.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/abrazx",
+        "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
+      ],
+      "missing": [],
+      "notes": [
+        "Manufacturer chart and selector agree; verified 4 lb option added."
+      ]
+    },
+    {
+      "id": "seaguar-red-label",
+      "brand": "Seaguar",
+      "model": "Red Label",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        4
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-red-label.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/red-label",
+        "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
+      ],
+      "missing": [],
+      "notes": [
+        "6 lb diameter and 20 lb retail package length checked against chart and assigned SKUs."
+      ]
+    },
+    {
+      "id": "seaguar-basix",
+      "brand": "Seaguar",
+      "model": "Basix",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "source-conflict",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "manufacturer specifications conflict; clarification required",
+        "browser and calculation audit"
+      ],
+      "notes": [
+        "6 lb selector says .008/.220; chart says .009/.220. 15 lb selector says .013/.330; chart says .014/.350. Not ready to publish or automatically correct until clarified."
+      ]
+    },
+    {
+      "id": "seaguar-smackdown",
+      "brand": "Seaguar",
+      "model": "Smackdown",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-smackdown.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/smackdown",
+        "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
+      ],
+      "missing": [],
+      "notes": [
+        "Current Stealth Gray specifications; older packaging differences explicitly noted."
+      ]
+    },
+    {
+      "id": "shimano-mastiff-fc",
+      "brand": "Shimano",
+      "model": "Mastiff FC",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        4,
+        5,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "shimano-kairiki-8",
+      "brand": "Shimano",
+      "model": "Kairiki 8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "shimano-kairiki-4",
+      "brand": "Shimano",
+      "model": "Kairiki 4",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "shimano-kairiki-g5",
+      "brand": "Shimano",
+      "model": "Kairiki G5",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "shimano-ocea-8-pe",
+      "brand": "Shimano",
+      "model": "Ocea 8 PE",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 8,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "shimano-grappler-8",
+      "brand": "Shimano",
+      "model": "Grappler 8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "shimano-ocea-ex-fluorocarbon-leader",
+      "brand": "Shimano",
+      "model": "Ocea EX Fluorocarbon Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 4,
+      "strengths": [
+        20,
+        30,
+        40,
+        50
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "brand": "SpiderWire",
+      "model": "Stealth Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-stealth-smooth-8",
+      "brand": "SpiderWire",
+      "model": "Stealth Smooth 8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-ultracast-braid",
+      "brand": "SpiderWire",
+      "model": "Ultracast Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-ultracast-invisi-braid",
+      "brand": "SpiderWire",
+      "model": "Ultracast Invisi-Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-durabraid",
+      "brand": "SpiderWire",
+      "model": "DuraBraid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-ez-braid",
+      "brand": "SpiderWire",
+      "model": "EZ Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-fluorocarbon",
+      "brand": "SpiderWire",
+      "model": "Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "brand": "SpiderWire",
+      "model": "Ultracast Ultimate Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-finesse-braid-8x",
+      "brand": "SPRO",
+      "model": "Finesse Braid 8X",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-essential-bronzeye-8x",
+      "brand": "SPRO",
+      "model": "Essential Bronzeye 8X",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 4,
+      "strengths": [
+        40,
+        50,
+        60,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-cast-control-8x",
+      "brand": "SPRO",
+      "model": "Cast Control 8X",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        16,
+        18,
+        20,
+        22,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-depth-control-8x",
+      "brand": "SPRO",
+      "model": "Depth Control 8X",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        30,
+        40,
+        50,
+        60,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 5,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-gouken-flc",
+      "brand": "SPRO",
+      "model": "Gouken FLC",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        12,
+        14,
+        16,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-rai-jin-premium-fluorocarbon",
+      "brand": "SPRO",
+      "model": "Rai-Jin Premium Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "spro-finesse-fluorocarbon-leader",
+      "brand": "SPRO",
+      "model": "Finesse Fluorocarbon Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-original",
+      "brand": "Stren",
+      "model": "Original",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        17,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-high-impact",
+      "brand": "Stren",
+      "model": "High Impact",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        12,
+        15,
+        17,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-magnathin",
+      "brand": "Stren",
+      "model": "Magnathin",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-super-knot",
+      "brand": "Stren",
+      "model": "Super Knot",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-fluorocast",
+      "brand": "Stren",
+      "model": "Fluorocast",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-sonic-braid",
+      "brand": "Stren",
+      "model": "Sonic Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "stren-crappie-mono",
+      "brand": "Stren",
+      "model": "Crappie Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 3,
+      "strengths": [
+        2,
+        4,
+        6
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "strike-king-contra-braid",
+      "brand": "Strike King",
+      "model": "Contra Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-832-advanced-superline",
+      "brand": "Sufix",
+      "model": "832 Advanced Superline",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 9,
+      "strengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 9,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-promix-braid",
+      "brand": "Sufix",
+      "model": "ProMix Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-performance-braid",
+      "brand": "Sufix",
+      "model": "Performance Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-elite",
+      "brand": "Sufix",
+      "model": "Elite",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-advance-mono",
+      "brand": "Sufix",
+      "model": "Advance Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        17
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "brand": "Sufix",
+      "model": "Invisiline Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        17
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sufix-advance-fluorocarbon",
+      "brand": "Sufix",
+      "model": "Advance Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        17
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-fc-sniper",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-shooter",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        7,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-assassin-fc",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-crank-fc",
+      "brand": "Sunline",
+      "model": "Crank FC",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 3,
+      "strengths": [
+        10,
+        12,
+        14
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-super-natural-mono",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-sx1",
+      "brand": "Sunline",
+      "model": "SX1",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        16,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-xplasma-asegai",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50
+      ],
+      "role": "mainline",
+      "peRecordCount": 6,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-siglon-pe-x8",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 18,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vicious-fluorocarbon",
+      "brand": "Vicious",
+      "model": "Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vicious-pro-elite-fluorocarbon",
+      "brand": "Vicious",
+      "model": "Pro Elite Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vicious-braid",
+      "brand": "Vicious",
+      "model": "Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vicious-monofilament",
+      "brand": "Vicious",
+      "model": "Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 7,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vicious-panfish-hi-vis-mono",
+      "brand": "Vicious",
+      "model": "Panfish Hi-Vis Mono",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 4,
+      "strengths": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "xbraid-x9-fulldrag-braid",
+      "brand": "XBraid",
+      "model": "X9 Fulldrag Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 11,
+      "strengths": [
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80,
+        100,
+        120
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cast-fishing-co-x12-frog-flip-braid",
+      "brand": "CAST Fishing Co.",
+      "model": "X12 Frog & Flip Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 2,
+      "strengths": [
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-hybrid",
+      "brand": "Yo-Zuri",
+      "model": "Hybrid",
+      "types": [
+        "Copolymer"
+      ],
+      "recordCount": 15,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
+        130
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-hybrid-ice-line",
+      "brand": "Yo-Zuri",
+      "model": "Hybrid Ice Line",
+      "types": [
+        "Copolymer"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-t-7-premium-fluorocarbon",
+      "brand": "Yo-Zuri",
+      "model": "T-7 Premium Fluorocarbon",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-topknot-mainline",
+      "brand": "Yo-Zuri",
+      "model": "TopKnot MainLine",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-topknot-leader",
+      "brand": "Yo-Zuri",
+      "model": "TopKnot Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 15,
+      "strengths": [
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
+        130,
+        150,
+        200
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-superfluoro-leader",
+      "brand": "Yo-Zuri",
+      "model": "SuperFluoro Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 18,
+      "strengths": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
+        130,
+        150,
+        200,
+        300
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-h-d-carbon-leader",
+      "brand": "Yo-Zuri",
+      "model": "H.D. Carbon Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 19,
+      "strengths": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
+        130,
+        150,
+        200,
+        300
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-superbraid",
+      "brand": "Yo-Zuri",
+      "model": "SuperBraid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 7,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "yo-zuri-superbraid-9",
+      "brand": "Yo-Zuri",
+      "model": "SuperBraid 9",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80,
+        100
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "seaguar-brawlr",
+      "brand": "Seaguar",
+      "model": "BRAWLR",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 11,
+      "strengths": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        17,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-brawlr.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/brawlr"
+      ],
+      "missing": [],
+      "notes": [
+        "Launch notice disclosed. No stock, purchase availability, or independent performance guarantee."
+      ]
+    },
+    {
+      "id": "sufix-calibr8",
+      "brand": "Sufix",
+      "model": "Calibr8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://www.tacklewarehouse.com/Sufix_Calibr8_Braided_Line_Neon_Lime/descpage-SFXC8L.html"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "xbraid-olltolos-fc",
+      "brand": "XBraid",
+      "model": "OLLTOLOS FC",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        7,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://xbraid.us/products/xbraid-olitolos-leader",
+        "https://www.tacklewarehouse.com/XBraid_Olltolos_FC_Fluorocarbon_Line/descpage-XBOF.html"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rhino-hide-camo-braid",
+      "brand": "Rhino",
+      "model": "Hide Camo Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 5,
+      "strengths": [
+        10,
+        15,
+        20,
+        30,
+        50
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://www.zebco.com/en/shop/line/rhinobraid"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rhino-hide-camo-monofilament",
+      "brand": "Rhino",
+      "model": "Hide Camo Monofilament",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 8,
+      "strengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://www.zebco.com/en/shop/line/rhinomono"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-kantan-cast-braid-x8",
+      "brand": "Sunline",
+      "model": "Kantan Cast Braid X8",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 4,
+      "strengths": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://www.tacklewarehouse.com/Sunline_Kantan_Cast_Braid_X8_Braided_Line/descpage-SKX8.html"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 11,
+      "strengths": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://fishing.sunline.co.jp/line/31890/"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-ny",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka NY",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://fishing.sunline.co.jp/line/31892/"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sunline-shooter-machinegun-cast",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "types": [
+        "Monofilament"
+      ],
+      "recordCount": 13,
+      "strengths": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        25,
+        30
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://fishing.sunline.co.jp/line/31894/"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    },
+    {
+      "id": "seaguar-jdm-r18-mainline",
+      "brand": "Seaguar",
+      "model": "JDM R18 Mainline",
+      "types": [
+        "Fluorocarbon"
+      ],
+      "recordCount": 10,
+      "strengths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-jdm-r18-mainline.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/new-jdm-r18"
+      ],
+      "missing": [],
+      "notes": [
+        "100 m retail spool retained as manufacturer-rounded 109 yd; exact intermediate strengths preserved."
+      ]
+    },
+    {
+      "id": "seaguar-jdm-pex8-micro-braid",
+      "brand": "Seaguar",
+      "model": "JDM PEX8 Micro Braid",
+      "types": [
+        "Braid"
+      ],
+      "recordCount": 6,
+      "strengths": [
+        12,
+        16,
+        18,
+        21,
+        24,
+        33
+      ],
+      "role": "mainline",
+      "peRecordCount": 0,
+      "status": "audited-awaiting-bulk-release",
+      "page": "examples/line-pages/seaguar-jdm-pex8-micro-braid.html",
+      "sourceUrls": [
+        "https://seaguar.com/products/new-jdm-pex8-braid"
+      ],
+      "missing": [],
+      "notes": [
+        "200 m retail spool retained as manufacturer-rounded 219 yd; finesse-specific guidance."
+      ]
+    },
+    {
+      "id": "seaguar-jdm-grand-max-leader",
+      "brand": "Seaguar",
+      "model": "JDM Grand Max Leader",
+      "types": [
+        "Fluorocarbon Leader"
+      ],
+      "recordCount": 17,
+      "strengths": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        15,
+        17,
+        19,
+        24,
+        27,
+        30,
+        35,
+        40
+      ],
+      "role": "leader",
+      "peRecordCount": 0,
+      "status": "research-needed",
+      "page": null,
+      "sourceUrls": [
+        "https://seaguar.com/products/jdm-grand-max-fluorocarbon-leader"
+      ],
+      "missing": [
+        "product-specific gold content and image",
+        "traceable diameter/product sources",
+        "strength-specific retail spool lengths",
+        "leader-specific page flow (not full-spool mainline)",
+        "browser and calculation audit"
+      ],
+      "notes": []
+    }
+  ],
+  "peOnly": [
+    {
+      "id": "daiwa-saltiga-durasensor-x8",
+      "brand": "Daiwa",
+      "model": "Saltiga DuraSensor X8",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "daiwa-morethan-12-braid",
+      "brand": "Daiwa",
+      "model": "Morethan 12 Braid",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "daiwa-emeraldas-durasensor-x8",
+      "brand": "Daiwa",
+      "model": "Emeraldas DuraSensor X8",
+      "recordCount": 5,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "shimano-pitbull-8",
+      "brand": "Shimano",
+      "model": "Pitbull 8+",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "shimano-pitbull-12",
+      "brand": "Shimano",
+      "model": "Pitbull 12",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "shimano-tanatoru-8",
+      "brand": "Shimano",
+      "model": "Tanatoru 8",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-casting-pe-max-power-x8",
+      "brand": "VARIVAS",
+      "model": "Avani Casting PE Max Power X8",
+      "recordCount": 12,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-max-power-pe-x8-lime-green",
+      "brand": "VARIVAS",
+      "model": "Max Power PE X8 Lime Green",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-seabass-max-power-pe-x8",
+      "brand": "VARIVAS",
+      "model": "Avani SeaBass Max Power PE X8",
+      "recordCount": 4,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-eging-max-power-pe-x8",
+      "brand": "VARIVAS",
+      "model": "Avani Eging Max Power PE X8",
+      "recordCount": 3,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-casting-smp-pe-x8",
+      "brand": "VARIVAS",
+      "model": "Avani Casting SMP PE X8",
+      "recordCount": 4,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-jigging-10x10-max-power-pe-x8",
+      "brand": "VARIVAS",
+      "model": "Avani Jigging 10x10 Max Power PE X8",
+      "recordCount": 9,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-casting-pe-si-x-x8",
+      "brand": "VARIVAS",
+      "model": "Avani Casting PE Si-X X8",
+      "recordCount": 9,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "varivas-avani-saltwater-finesse-pe-x8",
+      "brand": "VARIVAS",
+      "model": "Avani Saltwater Finesse PE X8",
+      "recordCount": 3,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sunline-siglon-pe-amz-x8",
+      "brand": "Sunline",
+      "model": "Siglon PE AMZ X8",
+      "recordCount": 4,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sunline-saltimate-cast-away-pe",
+      "brand": "Sunline",
+      "model": "Saltimate Cast Away PE",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sunline-defier-d-braid",
+      "brand": "Sunline",
+      "model": "Defier D-Braid",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sunline-siglon-pe-x4",
+      "brand": "Sunline",
+      "model": "SIGLON PE X4",
+      "recordCount": 13,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sunline-siglon-pe-amz-x4",
+      "brand": "Sunline",
+      "model": "SIGLON PE AMZ X4",
+      "recordCount": 12,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sunline-basic-pe",
+      "brand": "Sunline",
+      "model": "BASIC PE",
+      "recordCount": 11,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "gosen-roots-pe-x8",
+      "brand": "GOSEN",
+      "model": "Roots PE X8",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "gosen-roots-pe-x4",
+      "brand": "GOSEN",
+      "model": "Roots PE X4",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "gosen-answer-jigging-pe-x8",
+      "brand": "GOSEN",
+      "model": "Answer Jigging PE X8",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "ygk-x-braid-upgrade-x8",
+      "brand": "YGK / X-Braid",
+      "model": "Upgrade X8",
+      "recordCount": 10,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "ygk-x-braid-super-jigman-x8",
+      "brand": "YGK / X-Braid",
+      "model": "Super Jigman X8",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "ygk-x-braid-olltolos-pe-wx8",
+      "brand": "YGK / X-Braid",
+      "model": "Olltolos PE WX8",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "ygk-x-braid-full-drag-x8",
+      "brand": "YGK / X-Braid",
+      "model": "Full Drag X8",
+      "recordCount": 7,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "momoi-jigline-mx8",
+      "brand": "Momoi",
+      "model": "Jigline MX8",
+      "recordCount": 7,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "momoi-jigline-mx8-pro",
+      "brand": "Momoi",
+      "model": "Jigline MX8 Pro",
+      "recordCount": 12,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "duel-hardcore-super-x8",
+      "brand": "DUEL",
+      "model": "Hardcore Super X8",
+      "recordCount": 5,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "duel-hardcore-x8-multicolor",
+      "brand": "DUEL",
+      "model": "Hardcore X8 Multicolor",
+      "recordCount": 7,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "major-craft-dangan-braid-x8",
+      "brand": "Major Craft",
+      "model": "Dangan Braid X8",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "major-craft-dangan-braid-x4",
+      "brand": "Major Craft",
+      "model": "Dangan Braid X4",
+      "recordCount": 7,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "seaguar-threadlock",
+      "brand": "Seaguar",
+      "model": "Threadlock",
+      "recordCount": 4,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sufix-131-g-core",
+      "brand": "Sufix",
+      "model": "131 G-Core",
+      "recordCount": 10,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "sufix-91-braid-g-core",
+      "brand": "Sufix",
+      "model": "91 Braid (G-Core)",
+      "recordCount": 11,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "nomad-design-panderra-x8",
+      "brand": "Nomad Design",
+      "model": "Panderra X8",
+      "recordCount": 6,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "tasline-elite-white",
+      "brand": "Tasline",
+      "model": "Elite White",
+      "recordCount": 8,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    },
+    {
+      "id": "tasline-hollow-core",
+      "brand": "Tasline",
+      "model": "Hollow Core",
+      "recordCount": 4,
+      "status": "separate-pe-review",
+      "note": "Keep regional/PE ratings separate until exact product identity and published diameters are verified. Do not convert PE into claimed measured diameter."
+    }
+  ]
+}

@@ -14,7 +14,9 @@ const products = JSON.parse(read("data/line-page-products.json")).products;
 const lines = JSON.parse(read("data/lines.json"));
 const release = JSON.parse(read("data/line-page-release.json"));
 assert.match(release.version, /^[a-zA-Z0-9._-]+$/);
-assert.deepEqual(release.products, ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"]);
+assert.equal(new Set(release.products).size, release.products.length);
+for (const id of ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"]) assert.ok(release.products.includes(id), `Original guide missing: ${id}`);
+for (const id of release.publishedProducts) assert.ok(release.products.includes(id), `Published guide missing: ${id}`);
 let selectors = 0;
 const unscoped = [];
 postcss.parse(read("css/line-page-embed.css")).walkRules(rule => {

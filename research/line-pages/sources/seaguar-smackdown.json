@@ -1,0 +1,184 @@
+{
+  "id": "seaguar-smackdown",
+  "model": "Smackdown",
+  "type": "Braid",
+  "url": "https://seaguar.com/products/smackdown",
+  "retrievedAt": "2026-09-12T22:11:39.145Z",
+  "dataUrl": "https://seaguar.com/products/smackdown.js",
+  "title": "Smackdown Stealth Gray",
+  "description": "<p><meta charset=\"utf-8\"><strong>Seaguar Smackdown Lo-Vis Stealth Gray 8-Strand Performance Braid — Thinner Diameter, No Stretch, Ultra Strong and Abrasion Resistant, “Super Sensitive“, Less Visible.</strong><br></p>\n<p><meta charset=\"utf-8\"><span>Made with 8 ultra-thin, micro-weave strands, woven into a perfectly round profile for quiet laser-like casts.</span></p>\n<p><span>One of the thinnest-diameter braids available for extra sensitivity - so thin that 20 lb test has the diameter of 6 lb monofilament.</span></p>\n<p><span>Provides exceptional knot and tensile strength with unparalleled abrasion resistance.</span></p>\n<p><meta charset=\"utf-8\"><span>Low Visibility Stealth Gray reduces line visibility, making presentations more natural.</span></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v3_550.png?v=1780670841\" alt=\"\"></p>",
+  "options": [
+    {
+      "name": "LB Test",
+      "position": 1,
+      "values": [
+        "10LB .008 in. /.205 mm dia.",
+        "15LB .009 in. /.235 mm dia.",
+        "20LB .010 in. /.260 mm dia.",
+        "30LB .011 in. /.285 mm dia.",
+        "40LB .013 in. /.330 mm dia.",
+        "50LB .015 in. /.370 mm dia.",
+        "65LB .016 in. /.405 mm dia."
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "150 YD",
+        "300 YD"
+      ]
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_pkg_SmackdownGray-main_1.png?v=1697687420",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/img_Braid_color_smackdown-gray.jpg?v=1697687420",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9381_cd2e8366-092c-4ec2-8254-b3c38458ef82.jpg?v=1697687420",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Pro_Smackdown_32e7578c-470f-4083-9a17-b08758c7b96e.jpg?v=1697687420",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9388_ffb8d006-152b-4f18-90c9-ed023f7e4cb3.jpg?v=1697687420",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9376_c1d8f7ab-966e-4138-acc4-9761e8efbe73.jpg?v=1697687420",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
+  ],
+  "variants": [
+    {
+      "id": 42857788735707,
+      "sku": "10SDSG150",
+      "title": "10LB .008 in. /.205 mm dia. / 150 YD",
+      "options": [
+        "10LB .008 in. /.205 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788768475,
+      "sku": "10SDSG300",
+      "title": "10LB .008 in. /.205 mm dia. / 300 YD",
+      "options": [
+        "10LB .008 in. /.205 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788801243,
+      "sku": "15SDSG150",
+      "title": "15LB .009 in. /.235 mm dia. / 150 YD",
+      "options": [
+        "15LB .009 in. /.235 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788834011,
+      "sku": "15SDSG300",
+      "title": "15LB .009 in. /.235 mm dia. / 300 YD",
+      "options": [
+        "15LB .009 in. /.235 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788866779,
+      "sku": "20SDSG150",
+      "title": "20LB .010 in. /.260 mm dia. / 150 YD",
+      "options": [
+        "20LB .010 in. /.260 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788899547,
+      "sku": "20SDSG300",
+      "title": "20LB .010 in. /.260 mm dia. / 300 YD",
+      "options": [
+        "20LB .010 in. /.260 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788932315,
+      "sku": "30SDSG150",
+      "title": "30LB .011 in. /.285 mm dia. / 150 YD",
+      "options": [
+        "30LB .011 in. /.285 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788965083,
+      "sku": "30SDSG300",
+      "title": "30LB .011 in. /.285 mm dia. / 300 YD",
+      "options": [
+        "30LB .011 in. /.285 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857788997851,
+      "sku": "40SDSG150",
+      "title": "40LB .013 in. /.330 mm dia. / 150 YD",
+      "options": [
+        "40LB .013 in. /.330 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857789030619,
+      "sku": "40SDSG300",
+      "title": "40LB .013 in. /.330 mm dia. / 300 YD",
+      "options": [
+        "40LB .013 in. /.330 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857789063387,
+      "sku": "50SDSG150",
+      "title": "50LB .015 in. /.370 mm dia. / 150 YD",
+      "options": [
+        "50LB .015 in. /.370 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857789096155,
+      "sku": "50SDSG300",
+      "title": "50LB .015 in. /.370 mm dia. / 300 YD",
+      "options": [
+        "50LB .015 in. /.370 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857789128923,
+      "sku": "65SDSG150",
+      "title": "65LB .016 in. /.405 mm dia. / 150 YD",
+      "options": [
+        "65LB .016 in. /.405 mm dia.",
+        "150 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857789161691,
+      "sku": "65SDSG300",
+      "title": "65LB .016 in. /.405 mm dia. / 300 YD",
+      "options": [
+        "65LB .016 in. /.405 mm dia.",
+        "300 YD"
+      ],
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope":"Ten prepared gold-standard guides in the simulated Squarespace service-product wrapper",
+  "runner":"previews/line-pages/materials-audit.html?all&imported",
+  "passed":true,
+  "checks":815,
+  "failures":0,
+  "responsiveWidths":[320,390,768,1280],
+  "perProduct":{
+    "powerpro-spectra":95,
+    "seaguar-invizx":80,
+    "berkley-trilene-xl":86,
+    "seaguar-tatsu":83,
+    "seaguar-abrazx":80,
+    "seaguar-red-label":77,
+    "seaguar-smackdown":74,
+    "seaguar-brawlr":86,
+    "seaguar-jdm-r18-mainline":83,
+    "seaguar-jdm-pex8-micro-braid":71
+  },
+  "coverage":["Every offered strength","Full spool and backing calculations","Independent single-rating identity and squared-diameter oracle","Shared engine parity","Small overfill and underfill boundaries","Package shortage warnings","Exact selected line/reel/strength Wizard links","Amazon search links and affiliate tag","Manual reel entry in inches/mm and yards/meters","Saved URL restoration","No overflow or overlapping controls at four widths","Product image loading","Unique IDs and labeled controls","Visible FAQ and structured data agreement"],
+  "limits":["Not a physical spooling test","Does not validate every reel's source specifications","New pages not yet imported into live Squarespace; production layout still needs verification after import"]
+}

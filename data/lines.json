@@ -4784,10 +4784,21 @@
     "model": "Tatsu",
     "type": "Fluorocarbon",
     "lb": 4,
-    "dia_in": 0.007,
+    "dia_in": 0.006,
     "dia_mm": 0.165,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 4 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 4 lb",
+    "spool_sizes_yd": [
+      200
+    ],
+    "source_variant_ids": [
+      42857779298523
+    ],
+    "source_skus": [
+      "04TS200"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-6",
@@ -4797,8 +4808,22 @@
     "lb": 6,
     "dia_in": 0.008,
     "dia_mm": 0.205,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 6 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 6 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779331291,
+      42857779626203
+    ],
+    "source_skus": [
+      "06TS200",
+      "06TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-8",
@@ -4808,8 +4833,22 @@
     "lb": 8,
     "dia_in": 0.009,
     "dia_mm": 0.235,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 8 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 8 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779364059,
+      42857779658971
+    ],
+    "source_skus": [
+      "08TS200",
+      "08TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-10",
@@ -4819,8 +4858,22 @@
     "lb": 10,
     "dia_in": 0.01,
     "dia_mm": 0.26,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 10 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 10 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779396827,
+      42857779691739
+    ],
+    "source_skus": [
+      "10TS200",
+      "10TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-12",
@@ -4830,8 +4883,22 @@
     "lb": 12,
     "dia_in": 0.011,
     "dia_mm": 0.285,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 12 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 12 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779429595,
+      42857779724507
+    ],
+    "source_skus": [
+      "12TS200",
+      "12TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-15",
@@ -4841,8 +4908,22 @@
     "lb": 15,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 15 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 15 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779462363,
+      42857779757275
+    ],
+    "source_skus": [
+      "15TS200",
+      "15TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-17",
@@ -4852,8 +4933,22 @@
     "lb": 17,
     "dia_in": 0.014,
     "dia_mm": 0.35,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 17 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 17 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779495131,
+      42857779790043
+    ],
+    "source_skus": [
+      "17TS200",
+      "17TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-20",
@@ -4863,8 +4958,22 @@
     "lb": 20,
     "dia_in": 0.015,
     "dia_mm": 0.37,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 20 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 20 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779527899,
+      42857779822811
+    ],
+    "source_skus": [
+      "20TS200",
+      "20TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-22",
@@ -4874,8 +4983,22 @@
     "lb": 22,
     "dia_in": 0.015,
     "dia_mm": 0.385,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 22 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 22 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42857779560667,
+      42857779855579
+    ],
+    "source_skus": [
+      "22TS200",
+      "22TS1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-tatsu-fluorocarbon-25",
@@ -4885,8 +5008,19 @@
     "lb": 25,
     "dia_in": 0.016,
     "dia_mm": 0.405,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar tatsu fluorocarbon 25 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). All diameter pairs and assigned package SKUs agree with the chart. Correct catalog 4 lb inch diameter from .007 to .006; preserve independently published .165 mm.",
+    "search_text": "seaguar tatsu fluorocarbon 25 lb",
+    "spool_sizes_yd": [
+      200
+    ],
+    "source_variant_ids": [
+      42857779593435
+    ],
+    "source_skus": [
+      "25TS200"
+    ],
+    "product_source_url": "https://seaguar.com/products/tatsu",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
   },
   {
     "id": "seaguar-invizx-fluorocarbon-4",
@@ -5056,8 +5190,22 @@
     "lb": 6,
     "dia_in": 0.008,
     "dia_mm": 0.205,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 6 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 6 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442032347,
+      42960442327259
+    ],
+    "source_skus": [
+      "06AX200",
+      "06AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-8",
@@ -5067,8 +5215,22 @@
     "lb": 8,
     "dia_in": 0.009,
     "dia_mm": 0.235,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 8 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 8 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442065115,
+      42960442360027
+    ],
+    "source_skus": [
+      "08AX200",
+      "08AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-10",
@@ -5078,8 +5240,22 @@
     "lb": 10,
     "dia_in": 0.01,
     "dia_mm": 0.26,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 10 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 10 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442097883,
+      42960442392795
+    ],
+    "source_skus": [
+      "10AX200",
+      "10AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-12",
@@ -5089,8 +5265,22 @@
     "lb": 12,
     "dia_in": 0.011,
     "dia_mm": 0.285,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 12 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 12 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442130651,
+      42960442425563
+    ],
+    "source_skus": [
+      "12AX200",
+      "12AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-15",
@@ -5100,8 +5290,22 @@
     "lb": 15,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 15 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 15 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442163419,
+      42960442458331
+    ],
+    "source_skus": [
+      "15AX200",
+      "15AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-17",
@@ -5111,8 +5315,22 @@
     "lb": 17,
     "dia_in": 0.015,
     "dia_mm": 0.37,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 17 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 17 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442196187,
+      42960442491099
+    ],
+    "source_skus": [
+      "17AX200",
+      "17AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-20",
@@ -5122,8 +5340,22 @@
     "lb": 20,
     "dia_in": 0.016,
     "dia_mm": 0.405,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 20 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 20 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442228955,
+      42960442523867
+    ],
+    "source_skus": [
+      "20AX200",
+      "20AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-abrazx-fluorocarbon-25",
@@ -5133,8 +5365,22 @@
     "lb": 25,
     "dia_in": 0.017,
     "dia_mm": 0.435,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar abrazx fluorocarbon 25 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 25 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42960442294491,
+      42960442589403
+    ],
+    "source_skus": [
+      "25AX200",
+      "25AX1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-6",
@@ -5142,10 +5388,24 @@
     "model": "Red Label",
     "type": "Fluorocarbon",
     "lb": 6,
-    "dia_in": 0.008,
+    "dia_in": 0.007,
     "dia_mm": 0.185,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 6 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 6 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42982437552347,
+      42982437781723
+    ],
+    "source_skus": [
+      "06RM250",
+      "06RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-8",
@@ -5155,8 +5415,22 @@
     "lb": 8,
     "dia_in": 0.009,
     "dia_mm": 0.235,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 8 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 8 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42982437585115,
+      42982437814491
+    ],
+    "source_skus": [
+      "08RM250",
+      "08RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-10",
@@ -5166,8 +5440,22 @@
     "lb": 10,
     "dia_in": 0.01,
     "dia_mm": 0.26,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 10 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 10 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42982437617883,
+      42982437847259
+    ],
+    "source_skus": [
+      "10RM250",
+      "10RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-12",
@@ -5177,8 +5465,22 @@
     "lb": 12,
     "dia_in": 0.012,
     "dia_mm": 0.31,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 12 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 12 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42982437650651,
+      42982437880027
+    ],
+    "source_skus": [
+      "12RM200",
+      "12RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-15",
@@ -5188,8 +5490,22 @@
     "lb": 15,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 15 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 15 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      42982437683419,
+      42982437912795
+    ],
+    "source_skus": [
+      "15RM200",
+      "15RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-17",
@@ -5199,8 +5515,22 @@
     "lb": 17,
     "dia_in": 0.015,
     "dia_mm": 0.37,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 17 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 17 lb",
+    "spool_sizes_yd": [
+      200,
+      1000
+    ],
+    "source_variant_ids": [
+      44196634001627,
+      44196634034395
+    ],
+    "source_skus": [
+      "17RM200",
+      "17RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-red-label-fluorocarbon-20",
@@ -5210,8 +5540,22 @@
     "lb": 20,
     "dia_in": 0.016,
     "dia_mm": 0.405,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar red label fluorocarbon 20 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 20 lb",
+    "spool_sizes_yd": [
+      175,
+      1000
+    ],
+    "source_variant_ids": [
+      42982437486811,
+      42982437945563
+    ],
+    "source_skus": [
+      "20RM175",
+      "20RM1000"
+    ],
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
   },
   {
     "id": "seaguar-basix-fluorocarbon-4",
@@ -5298,8 +5642,22 @@
     "lb": 10,
     "dia_in": 0.008,
     "dia_mm": 0.205,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 10 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 10 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857788735707,
+      42857788768475
+    ],
+    "source_skus": [
+      "10SDSG150",
+      "10SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "seaguar-smackdown-braid-15",
@@ -5309,8 +5667,22 @@
     "lb": 15,
     "dia_in": 0.009,
     "dia_mm": 0.235,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 15 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 15 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857788801243,
+      42857788834011
+    ],
+    "source_skus": [
+      "15SDSG150",
+      "15SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "seaguar-smackdown-braid-20",
@@ -5320,8 +5692,22 @@
     "lb": 20,
     "dia_in": 0.01,
     "dia_mm": 0.26,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 20 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 20 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857788866779,
+      42857788899547
+    ],
+    "source_skus": [
+      "20SDSG150",
+      "20SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "seaguar-smackdown-braid-30",
@@ -5331,8 +5717,22 @@
     "lb": 30,
     "dia_in": 0.011,
     "dia_mm": 0.285,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 30 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 30 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857788932315,
+      42857788965083
+    ],
+    "source_skus": [
+      "30SDSG150",
+      "30SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "seaguar-smackdown-braid-40",
@@ -5342,8 +5742,22 @@
     "lb": 40,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 40 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 40 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857788997851,
+      42857789030619
+    ],
+    "source_skus": [
+      "40SDSG150",
+      "40SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "seaguar-smackdown-braid-50",
@@ -5353,8 +5767,22 @@
     "lb": 50,
     "dia_in": 0.015,
     "dia_mm": 0.37,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 50 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 50 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857789063387,
+      42857789096155
+    ],
+    "source_skus": [
+      "50SDSG150",
+      "50SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "seaguar-smackdown-braid-65",
@@ -5364,8 +5792,22 @@
     "lb": 65,
     "dia_in": 0.016,
     "dia_mm": 0.405,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "seaguar smackdown braid 65 lb"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Current Stealth Gray chart agrees with all selector diameters. Older retailer references and mono-equivalent marketing copy differ; do not reuse those as diameter specifications. Explicitly scope source to Stealth Gray and ask owners to check their package.",
+    "search_text": "seaguar smackdown braid 65 lb",
+    "spool_sizes_yd": [
+      150,
+      300
+    ],
+    "source_variant_ids": [
+      42857789128923,
+      42857789161691
+    ],
+    "source_skus": [
+      "65SDSG150",
+      "65SDSG300"
+    ],
+    "product_source_url": "https://seaguar.com/products/smackdown",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"
   },
   {
     "id": "shimano-mastiff-fc-fluorocarbon-4",
@@ -10096,8 +10538,21 @@
     "lb": 2,
     "dia_in": 0.006,
     "dia_mm": 0.165,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 2 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 2 lb",
+    "spool_sizes_yd": [
+      330
+    ],
+    "source_variant_ids": [
+      48900957339867,
+      48900958748891
+    ],
+    "source_skus": [
+      "02BRCL330",
+      "02BRGR330"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-4",
@@ -10107,8 +10562,21 @@
     "lb": 4,
     "dia_in": 0.008,
     "dia_mm": 0.205,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 4 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 4 lb",
+    "spool_sizes_yd": [
+      330
+    ],
+    "source_variant_ids": [
+      48900957470939,
+      48900958879963
+    ],
+    "source_skus": [
+      "04BRCL330",
+      "04BRGR330"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-6",
@@ -10118,8 +10586,21 @@
     "lb": 6,
     "dia_in": 0.009,
     "dia_mm": 0.235,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 6 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 6 lb",
+    "spool_sizes_yd": [
+      330
+    ],
+    "source_variant_ids": [
+      48900957602011,
+      48900959011035
+    ],
+    "source_skus": [
+      "06BRCL330",
+      "06BRGR330"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-8",
@@ -10129,8 +10610,21 @@
     "lb": 8,
     "dia_in": 0.01,
     "dia_mm": 0.26,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 8 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 8 lb",
+    "spool_sizes_yd": [
+      330
+    ],
+    "source_variant_ids": [
+      48900957733083,
+      48900959142107
+    ],
+    "source_skus": [
+      "08BRCL330",
+      "08BRGR330"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-10",
@@ -10140,8 +10634,21 @@
     "lb": 10,
     "dia_in": 0.012,
     "dia_mm": 0.31,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 10 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 10 lb",
+    "spool_sizes_yd": [
+      300
+    ],
+    "source_variant_ids": [
+      48900957831387,
+      48900959240411
+    ],
+    "source_skus": [
+      "10BRCL300",
+      "10BRGR300"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-12",
@@ -10151,8 +10658,21 @@
     "lb": 12,
     "dia_in": 0.013,
     "dia_mm": 0.33,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 12 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 12 lb",
+    "spool_sizes_yd": [
+      300
+    ],
+    "source_variant_ids": [
+      48900957962459,
+      48900959371483
+    ],
+    "source_skus": [
+      "12BRCL300",
+      "12BRGR300"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-14",
@@ -10162,8 +10682,21 @@
     "lb": 14,
     "dia_in": 0.014,
     "dia_mm": 0.35,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 14 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 14 lb",
+    "spool_sizes_yd": [
+      300
+    ],
+    "source_variant_ids": [
+      48900958093531,
+      48900959502555
+    ],
+    "source_skus": [
+      "14BRCL300",
+      "14BRGR300"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-17",
@@ -10173,8 +10706,21 @@
     "lb": 17,
     "dia_in": 0.015,
     "dia_mm": 0.37,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 17 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 17 lb",
+    "spool_sizes_yd": [
+      300
+    ],
+    "source_variant_ids": [
+      48900958224603,
+      48900959633627
+    ],
+    "source_skus": [
+      "17BRCL300",
+      "17BRGR300"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-20",
@@ -10184,8 +10730,21 @@
     "lb": 20,
     "dia_in": 0.016,
     "dia_mm": 0.405,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 20 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 20 lb",
+    "spool_sizes_yd": [
+      270
+    ],
+    "source_variant_ids": [
+      48900958322907,
+      48900959731931
+    ],
+    "source_skus": [
+      "20BRCL270",
+      "20BRGR270"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-25",
@@ -10195,8 +10754,21 @@
     "lb": 25,
     "dia_in": 0.019,
     "dia_mm": 0.47,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 25 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 25 lb",
+    "spool_sizes_yd": [
+      270
+    ],
+    "source_variant_ids": [
+      48900958453979,
+      48900959863003
+    ],
+    "source_skus": [
+      "25BRCL270",
+      "25BRGR270"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "seaguar-brawlr-monofilament-30",
@@ -10206,8 +10778,21 @@
     "lb": 30,
     "dia_in": 0.02,
     "dia_mm": 0.52,
-    "source_note": "Verified against the official Seaguar U.S. BRAWLR product selector: https://seaguar.com/products/brawlr",
-    "search_text": "seaguar brawlr monofilament 30 lb brawler premium mono clear fluorescent lo-vis green low-vis icast 2026"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Assigned SKUs verify strength-specific 330/300/270/250 yd lengths, identical across Clear and Lo-Vis Green. Launch notice and unavailable variants mean do not imply current stock or independent performance testing.",
+    "search_text": "seaguar brawlr monofilament 30 lb",
+    "spool_sizes_yd": [
+      250
+    ],
+    "source_variant_ids": [
+      48900958552283,
+      48900959961307
+    ],
+    "source_skus": [
+      "30BRCL250",
+      "30BRGR250"
+    ],
+    "product_source_url": "https://seaguar.com/products/brawlr",
+    "diameter_source_url": "https://seaguar.com/products/brawlr"
   },
   {
     "id": "sufix-calibr8-braid-6",
@@ -10976,8 +11561,20 @@
     "lb": 4,
     "dia_mm": 0.165,
     "dia_in": 0.007,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 4 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 4 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089323227
+    ],
+    "source_skus": [
+      "04RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-5",
@@ -10987,8 +11584,20 @@
     "lb": 5,
     "dia_mm": 0.185,
     "dia_in": 0.007,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 5 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 5 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089355995
+    ],
+    "source_skus": [
+      "05RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-6",
@@ -10998,8 +11607,20 @@
     "lb": 6,
     "dia_mm": 0.205,
     "dia_in": 0.008,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 6 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 6 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089388763
+    ],
+    "source_skus": [
+      "06RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-7",
@@ -11009,8 +11630,20 @@
     "lb": 7,
     "dia_mm": 0.22,
     "dia_in": 0.009,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 7 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 7 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089421531
+    ],
+    "source_skus": [
+      "07RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-8",
@@ -11020,8 +11653,20 @@
     "lb": 8,
     "dia_mm": 0.235,
     "dia_in": 0.009,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 8 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 8 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089454299
+    ],
+    "source_skus": [
+      "08RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-10",
@@ -11031,8 +11676,20 @@
     "lb": 10,
     "dia_mm": 0.26,
     "dia_in": 0.01,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 10 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 10 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089487067
+    ],
+    "source_skus": [
+      "10RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-12",
@@ -11042,8 +11699,20 @@
     "lb": 12,
     "dia_mm": 0.285,
     "dia_in": 0.011,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 12 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 12 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089519835
+    ],
+    "source_skus": [
+      "12RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-14",
@@ -11053,8 +11722,20 @@
     "lb": 14,
     "dia_mm": 0.31,
     "dia_in": 0.012,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 14 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 14 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089552603
+    ],
+    "source_skus": [
+      "14RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-16",
@@ -11064,8 +11745,20 @@
     "lb": 16,
     "dia_mm": 0.33,
     "dia_in": 0.013,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 16 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 16 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089585371
+    ],
+    "source_skus": [
+      "16RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-r18-mainline-fluorocarbon-20",
@@ -11075,8 +11768,20 @@
     "lb": 20,
     "dia_mm": 0.37,
     "dia_in": 0.015,
-    "source_note": "Verified against the official Seaguar U.S. JDM R18 Mainline product selector: https://seaguar.com/products/new-jdm-r18",
-    "search_text": "seaguar jdm r18 mainline fluorocarbon 20 lb bass japan"
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 100 m / 109 yd. Preserve manufacturer-rounded yardage and source inch/mm pairs, including 5/7/14 lb variants.",
+    "search_text": "seaguar jdm r18 mainline fluorocarbon 20 lb",
+    "spool_sizes_yd": [
+      109
+    ],
+    "source_variant_ids": [
+      44897089618139
+    ],
+    "source_skus": [
+      "20RFL109"
+    ],
+    "spool_length_m": 100,
+    "product_source_url": "https://seaguar.com/products/new-jdm-r18",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-r18"
   },
   {
     "id": "seaguar-jdm-pex8-micro-braid-braid-12",
@@ -11086,9 +11791,21 @@
     "lb": 12,
     "dia_mm": 0.128,
     "dia_in": 0.005,
-    "source_note": "Verified against the official Seaguar U.S. JDM PEX8 Micro Braid product selector: https://seaguar.com/products/new-jdm-pex8-braid",
-    "search_text": "seaguar jdm pex8 micro braid 12 lb pe x8 lure edition thin passion pink",
-    "recommendation_eligible": false
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 200 m / 219 yd. Preserve 12/16/18/21/24/33 lb strengths, not neighboring generic strengths. Eight strands; finesse-oriented metered mainline.",
+    "search_text": "seaguar jdm pex8 micro braid braid 12 lb",
+    "recommendation_eligible": false,
+    "spool_sizes_yd": [
+      219
+    ],
+    "source_variant_ids": [
+      44897092534491
+    ],
+    "source_skus": [
+      "12PEX8219"
+    ],
+    "spool_length_m": 200,
+    "product_source_url": "https://seaguar.com/products/new-jdm-pex8-braid",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-pex8-braid"
   },
   {
     "id": "seaguar-jdm-pex8-micro-braid-braid-16",
@@ -11098,9 +11815,21 @@
     "lb": 16,
     "dia_mm": 0.148,
     "dia_in": 0.006,
-    "source_note": "Verified against the official Seaguar U.S. JDM PEX8 Micro Braid product selector: https://seaguar.com/products/new-jdm-pex8-braid",
-    "search_text": "seaguar jdm pex8 micro braid 16 lb pe x8 lure edition thin passion pink",
-    "recommendation_eligible": false
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 200 m / 219 yd. Preserve 12/16/18/21/24/33 lb strengths, not neighboring generic strengths. Eight strands; finesse-oriented metered mainline.",
+    "search_text": "seaguar jdm pex8 micro braid braid 16 lb",
+    "recommendation_eligible": false,
+    "spool_sizes_yd": [
+      219
+    ],
+    "source_variant_ids": [
+      44897092567259
+    ],
+    "source_skus": [
+      "16PEX8219"
+    ],
+    "spool_length_m": 200,
+    "product_source_url": "https://seaguar.com/products/new-jdm-pex8-braid",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-pex8-braid"
   },
   {
     "id": "seaguar-jdm-pex8-micro-braid-braid-18",
@@ -11110,9 +11839,21 @@
     "lb": 18,
     "dia_mm": 0.165,
     "dia_in": 0.006,
-    "source_note": "Verified against the official Seaguar U.S. JDM PEX8 Micro Braid product selector: https://seaguar.com/products/new-jdm-pex8-braid",
-    "search_text": "seaguar jdm pex8 micro braid 18 lb pe x8 lure edition thin passion pink",
-    "recommendation_eligible": false
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 200 m / 219 yd. Preserve 12/16/18/21/24/33 lb strengths, not neighboring generic strengths. Eight strands; finesse-oriented metered mainline.",
+    "search_text": "seaguar jdm pex8 micro braid braid 18 lb",
+    "recommendation_eligible": false,
+    "spool_sizes_yd": [
+      219
+    ],
+    "source_variant_ids": [
+      44897092600027
+    ],
+    "source_skus": [
+      "18PEX8219"
+    ],
+    "spool_length_m": 200,
+    "product_source_url": "https://seaguar.com/products/new-jdm-pex8-braid",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-pex8-braid"
   },
   {
     "id": "seaguar-jdm-pex8-micro-braid-braid-21",
@@ -11122,9 +11863,21 @@
     "lb": 21,
     "dia_mm": 0.185,
     "dia_in": 0.007,
-    "source_note": "Verified against the official Seaguar U.S. JDM PEX8 Micro Braid product selector: https://seaguar.com/products/new-jdm-pex8-braid",
-    "search_text": "seaguar jdm pex8 micro braid 21 lb pe x8 lure edition thin passion pink",
-    "recommendation_eligible": false
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 200 m / 219 yd. Preserve 12/16/18/21/24/33 lb strengths, not neighboring generic strengths. Eight strands; finesse-oriented metered mainline.",
+    "search_text": "seaguar jdm pex8 micro braid braid 21 lb",
+    "recommendation_eligible": false,
+    "spool_sizes_yd": [
+      219
+    ],
+    "source_variant_ids": [
+      44897092632795
+    ],
+    "source_skus": [
+      "21PEX8219"
+    ],
+    "spool_length_m": 200,
+    "product_source_url": "https://seaguar.com/products/new-jdm-pex8-braid",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-pex8-braid"
   },
   {
     "id": "seaguar-jdm-pex8-micro-braid-braid-24",
@@ -11134,9 +11887,21 @@
     "lb": 24,
     "dia_mm": 0.205,
     "dia_in": 0.008,
-    "source_note": "Verified against the official Seaguar U.S. JDM PEX8 Micro Braid product selector: https://seaguar.com/products/new-jdm-pex8-braid",
-    "search_text": "seaguar jdm pex8 micro braid 24 lb pe x8 lure edition thin passion pink",
-    "recommendation_eligible": false
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 200 m / 219 yd. Preserve 12/16/18/21/24/33 lb strengths, not neighboring generic strengths. Eight strands; finesse-oriented metered mainline.",
+    "search_text": "seaguar jdm pex8 micro braid braid 24 lb",
+    "recommendation_eligible": false,
+    "spool_sizes_yd": [
+      219
+    ],
+    "source_variant_ids": [
+      44897092665563
+    ],
+    "source_skus": [
+      "24PEX8219"
+    ],
+    "spool_length_m": 200,
+    "product_source_url": "https://seaguar.com/products/new-jdm-pex8-braid",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-pex8-braid"
   },
   {
     "id": "seaguar-jdm-pex8-micro-braid-braid-33",
@@ -11146,9 +11911,21 @@
     "lb": 33,
     "dia_mm": 0.235,
     "dia_in": 0.009,
-    "source_note": "Verified against the official Seaguar U.S. JDM PEX8 Micro Braid product selector: https://seaguar.com/products/new-jdm-pex8-braid",
-    "search_text": "seaguar jdm pex8 micro braid 33 lb pe x8 lure edition thin passion pink",
-    "recommendation_eligible": false
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Official description explicitly lists 200 m / 219 yd. Preserve 12/16/18/21/24/33 lb strengths, not neighboring generic strengths. Eight strands; finesse-oriented metered mainline.",
+    "search_text": "seaguar jdm pex8 micro braid braid 33 lb",
+    "recommendation_eligible": false,
+    "spool_sizes_yd": [
+      219
+    ],
+    "source_variant_ids": [
+      44897092698331
+    ],
+    "source_skus": [
+      "33PEX8219"
+    ],
+    "spool_length_m": 200,
+    "product_source_url": "https://seaguar.com/products/new-jdm-pex8-braid",
+    "diameter_source_url": "https://seaguar.com/products/new-jdm-pex8-braid"
   },
   {
     "id": "seaguar-jdm-grand-max-leader-fluorocarbon-leader-2",
@@ -11347,5 +12124,49 @@
     "dia_in": 0.017,
     "source_note": "100 lb availability confirmed by Shimano's official Maxcuatro Metered listing (https://fishshop.shimano.com/products/maxcuatro-metered); 0.43 mm / 0.017 in diameter verified against TackleDirect's published Maxcuatro diameter chart (https://www.tackledirect.com/powerpro-maxcuatro-braided-fishing-line-metered.html).",
     "search_text": "powerpro maxcuatro braid 100 lb max cuatro metered spectra ht four carrier"
+  },
+  {
+    "lb": 4,
+    "dia_in": 0.006,
+    "dia_mm": 0.165,
+    "spool_sizes_yd": [
+      200
+    ],
+    "source_variant_ids": [
+      42858165076187
+    ],
+    "source_skus": [
+      "04AX200"
+    ],
+    "brand": "Seaguar",
+    "model": "AbrazX",
+    "type": "Fluorocarbon",
+    "id": "seaguar-abrazx-fluorocarbon-4",
+    "product_source_url": "https://seaguar.com/products/abrazx",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026",
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart and selector agree. Add missing 4 lb variant, not a new model.",
+    "search_text": "seaguar abrazx fluorocarbon 4 lb"
+  },
+  {
+    "lb": 4,
+    "dia_in": 0.006,
+    "dia_mm": 0.165,
+    "spool_sizes_yd": [
+      200
+    ],
+    "source_variant_ids": [
+      42982437519579
+    ],
+    "source_skus": [
+      "04RM250"
+    ],
+    "brand": "Seaguar",
+    "model": "Red Label",
+    "type": "Fluorocarbon",
+    "id": "seaguar-red-label-fluorocarbon-4",
+    "product_source_url": "https://seaguar.com/products/red-label",
+    "diameter_source_url": "https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256",
+    "source_note": "Verified against Seaguar's current assigned product variants and reviewed source evidence (2026-09-12). Chart confirms .007/.185 for 6 lb and 175 yd for 20 lb. Assigned 17 lb SKUs in current selector extend the older chart. Ignore blank SKU options. Do not derive length from SKU suffix: 04RM250 is explicitly 200 yd.",
+    "search_text": "seaguar red label fluorocarbon 4 lb"
   }
 ]

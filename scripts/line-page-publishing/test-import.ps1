@@ -1,16 +1,20 @@
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
-$file = Join-Path $root 'generated/line-pages/UPLOAD-THIS-three-line-guides.csv'
+$inventory = Get-Content -LiteralPath (Join-Path $root 'generated/line-pages/import-inventory.json') -Raw | ConvertFrom-Json
+if (-not $inventory.importFile) { Write-Output 'PASS: No unpublished guides to import.'; exit 0 }
+$file = Join-Path $root $inventory.importFile
 $rows = @(Import-Csv -LiteralPath $file)
 $registry = Get-Content -LiteralPath (Join-Path $root 'data/line-page-imports.json') -Raw | ConvertFrom-Json
 function Assert-Import($condition, $message) { if (-not $condition) { throw $message } }
-Assert-Import ($rows.Count -eq 3) 'Expected exactly three import rows.'
-Assert-Import (@($rows | Select-Object -ExpandProperty SKU -Unique).Count -eq 3) 'Duplicate SKU.'
-Assert-Import (@($rows | Select-Object -ExpandProperty 'Product URL' -Unique).Count -eq 3) 'Duplicate URL.'
+Assert-Import ($rows.Count -eq $inventory.count) 'Import row count does not match inventory.'
+Assert-Import (@($rows | Select-Object -ExpandProperty SKU -Unique).Count -eq $rows.Count) 'Duplicate SKU.'
+Assert-Import (@($rows | Select-Object -ExpandProperty 'Product URL' -Unique).Count -eq $rows.Count) 'Duplicate URL.'
 foreach ($row in $rows) {
     $slug = $row.'Product URL'
     $entry = $registry.pages.$slug
     Assert-Import ($null -ne $entry) "Missing registry entry: $slug"
+    Assert-Import ($entry.id -in $inventory.includedProducts) 'Unexpected guide in import.'
+    Assert-Import ($entry.id -notin $inventory.excludedPublished) 'Published guide would be duplicated.'
     Assert-Import ($row.'Product ID [Non Editable]' -eq '' -and $row.'Variant ID [Non Editable]' -eq '') 'Create-only IDs must be blank.'
     Assert-Import ($row.'Product Type [Non Editable]' -eq 'SERVICE') 'Wrong product type.'
     Assert-Import ($row.'Product Page' -eq 'lines' -and $row.Categories -eq '/line-guides') 'Wrong collection/category.'
@@ -26,4 +30,4 @@ foreach ($row in $rows) {
     Assert-Import ($preview.Contains($row.Description)) 'CSV quoting altered HTML compared with the tested wrapper.'
     Assert-Import ($row.'Option Name 1' -eq '' -and $row.'Hosted Image URLs' -eq '') 'Unexpected variants/gallery import.'
 }
-Write-Output 'PASS: 3 hidden service guides, independent CSV parser round-trip, valid identity/URLs, complete static fallback HTML.'
+Write-Output "PASS: $($rows.Count) new hidden service guides, independent CSV parser round-trip, valid identity/URLs, complete static fallback HTML; published guides excluded."

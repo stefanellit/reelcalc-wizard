@@ -3,6 +3,7 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import * as html from "parse5";
+import { selectNewImports } from "./import-selection.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const read = name => fs.readFileSync(path.join(root, name), "utf8");
@@ -12,6 +13,16 @@ const write = (name, content) => {
 };
 const settings = JSON.parse(read("generated/line-pages/launch-settings.json"));
 const release = JSON.parse(read("data/line-page-release.json"));
+const args = process.argv.slice(2);
+if (args.length > 1 || (args.length && !args[0].startsWith("--ids="))) throw new Error("Use --ids=id-one,id-two or omit to prepare all unpublished guides.");
+const selected = selectNewImports(settings, release, args.length ? args[0].slice(6).split(",") : undefined);
+const reviews = JSON.parse(read("research/line-pages/review-status.json"));
+for (const entry of selected) {
+  if (!reviews[entry.id]?.browserAudit || reviews[entry.id].status !== "audited-awaiting-bulk-release") {
+    throw new Error(`Guide has not cleared the publication audit: ${entry.id}`);
+  }
+}
+const selectedIds = new Set(selected.map(entry => entry.id));
 const base = "https://stefanellit.github.io/reelcalc-wizard/";
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const attr = (node, name) => node.attrs?.find(a => a.name === name)?.value;
@@ -44,7 +55,7 @@ for (const entry of settings) {
   const fields = { "Product Type [Non Editable]": "SERVICE", "Product Page": "lines", "Product URL": entry.slug,
     Title: entry.title, Description: description, SKU: sku, Price: "0", "On Sale": "No", Stock: "Unlimited",
     Categories: "/line-guides", Tags: "reelcalc-line-guide", Visible: "No" };
-  rows.push(headers.map(key => fields[key] || ""));
+  if (selectedIds.has(entry.id)) rows.push(headers.map(key => fields[key] || ""));
   pages[entry.slug] = { id: entry.id, title: entry.title, seoTitle: entry.seoTitle, seoDescription: entry.seoDescription,
     url: entry.url, image: new URL(entry.thumbnail, base).href, sku };
 
@@ -57,8 +68,8 @@ for (const entry of settings) {
   write(preview, fixture + "\n"); previews.push({ id: entry.id, preview });
 }
 if (new Set(rows.map(row => row[7])).size !== rows.length || new Set(rows.map(row => row[4])).size !== rows.length) throw new Error("Duplicate import IDs.");
-const importFile = "generated/line-pages/UPLOAD-THIS-three-line-guides.csv";
-write(importFile, [headers, ...rows].map(row => row.map(csvCell).join(",")).join("\r\n") + "\r\n");
+const importFile = rows.length ? `generated/line-pages/UPLOAD-THIS-${rows.length}-new-line-guides.csv` : null;
+if (importFile) write(importFile, [headers, ...rows].map(row => row.map(csvCell).join(",")).join("\r\n") + "\r\n");
 write("data/line-page-imports.json", JSON.stringify({ version: release.version, collection: "lines", pages }, null, 2) + "\n");
-write("generated/line-pages/import-inventory.json", JSON.stringify({ importFile, count: rows.length, visibility: "hidden", previews, pages }, null, 2) + "\n");
-console.log(`Built one ${rows.length}-page Squarespace import, URL registry, and product-wrapper previews. Pages import hidden.`);
+write("generated/line-pages/import-inventory.json", JSON.stringify({ importFile, count: rows.length, visibility: "hidden", includedProducts: [...selectedIds], excludedPublished: release.publishedProducts || [], previews, pages }, null, 2) + "\n");
+console.log(`Prepared ${rows.length} new guides, excluding ${(release.publishedProducts || []).length} published guides. Registry and previews retain all ${settings.length} pages. New pages import hidden.`);

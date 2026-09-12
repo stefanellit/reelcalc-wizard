@@ -1,0 +1,215 @@
+{
+  "id": "seaguar-abrazx",
+  "model": "AbrazX",
+  "type": "Fluorocarbon",
+  "url": "https://seaguar.com/products/abrazx",
+  "retrievedAt": "2026-09-12T22:11:38.655Z",
+  "dataUrl": "https://seaguar.com/products/abrazx.js",
+  "title": "AbrazX®",
+  "description": "<p><meta charset=\"utf-8\"><strong>Abrasion Resistant, Premium, 100% Fluorocarbon Performance Fishing Line, Virtually Invisible</strong></p>\n<p>With unparalleled abrasion resistance and strength, Seaguar AbrazX is proven to deliver in the nastiest conditions including around logs, rocks, docks, and in heavy grass.</p>\n<p>100% fluorocarbon; virtually invisible; made in Japan with cutting-edge innovation; fill your spool with this main line fluorocarbon.</p>\n<p>Soft, supple and smooth casting with exceptional sensitivity, low memory, virtually no stretch, fast sinking and superior knot strength for unmatched performance even in the heaviest cover.</p>\n<p>Ideal for freshwater multi-species fishing applications <meta charset=\"utf-8\"><span>–</span> fish can't see it and rocks, stumps, docks and weeds can't break it.</p>\n<p>________________________</p>\n<p>AbrazX 200yd spools</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v1_550.png?v=1780670842\" alt=\"\"></p>\n<p>AbrazX 1000yd spools</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v3_550.png?v=1780670841\" alt=\"\"></p>",
+  "options": [
+    {
+      "name": "LB Test",
+      "position": 1,
+      "values": [
+        "4 LB .006 in. / .165 mm dia.",
+        "6 LB .008 in. / .205 mm dia.",
+        "8 LB .009 in. / .235 mm dia.",
+        "10 LB .010 in. / .260 mm dia.",
+        "12 LB .011 in. / .285 mm dia.",
+        "15 LB .013 in. / .330 mm dia.",
+        "17 LB .015 in. / .370 mm dia.",
+        "20 LB .016 in. / .405 mm dia.",
+        "25 LB .017 in. / .435 mm dia."
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "200 YDS",
+        "1000 YDS"
+      ]
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/Seaguar_pkg_AbrazX-detail_368357e3-f61b-4fab-ae1f-484349ace5b8.png?v=1707926026",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9377_04df2c8f-6f5b-4cbd-b041-f4a4420cf721.jpg?v=1707926026",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9388.jpg?v=1707926026",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9389.jpg?v=1707926026",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Pro_AbrazX.jpg?v=1707926026",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"
+  ],
+  "variants": [
+    {
+      "id": 42858165076187,
+      "sku": "04AX200",
+      "title": "4 LB .006 in. / .165 mm dia. / 200 YDS",
+      "options": [
+        "4 LB .006 in. / .165 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442032347,
+      "sku": "06AX200",
+      "title": "6 LB .008 in. / .205 mm dia. / 200 YDS",
+      "options": [
+        "6 LB .008 in. / .205 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442327259,
+      "sku": "06AX1000",
+      "title": "6 LB .008 in. / .205 mm dia. / 1000 YDS",
+      "options": [
+        "6 LB .008 in. / .205 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442065115,
+      "sku": "08AX200",
+      "title": "8 LB .009 in. / .235 mm dia. / 200 YDS",
+      "options": [
+        "8 LB .009 in. / .235 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442360027,
+      "sku": "08AX1000",
+      "title": "8 LB .009 in. / .235 mm dia. / 1000 YDS",
+      "options": [
+        "8 LB .009 in. / .235 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442097883,
+      "sku": "10AX200",
+      "title": "10 LB .010 in. / .260 mm dia. / 200 YDS",
+      "options": [
+        "10 LB .010 in. / .260 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442392795,
+      "sku": "10AX1000",
+      "title": "10 LB .010 in. / .260 mm dia. / 1000 YDS",
+      "options": [
+        "10 LB .010 in. / .260 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442130651,
+      "sku": "12AX200",
+      "title": "12 LB .011 in. / .285 mm dia. / 200 YDS",
+      "options": [
+        "12 LB .011 in. / .285 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442425563,
+      "sku": "12AX1000",
+      "title": "12 LB .011 in. / .285 mm dia. / 1000 YDS",
+      "options": [
+        "12 LB .011 in. / .285 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442163419,
+      "sku": "15AX200",
+      "title": "15 LB .013 in. / .330 mm dia. / 200 YDS",
+      "options": [
+        "15 LB .013 in. / .330 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442458331,
+      "sku": "15AX1000",
+      "title": "15 LB .013 in. / .330 mm dia. / 1000 YDS",
+      "options": [
+        "15 LB .013 in. / .330 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442196187,
+      "sku": "17AX200",
+      "title": "17 LB .015 in. / .370 mm dia. / 200 YDS",
+      "options": [
+        "17 LB .015 in. / .370 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442491099,
+      "sku": "17AX1000",
+      "title": "17 LB .015 in. / .370 mm dia. / 1000 YDS",
+      "options": [
+        "17 LB .015 in. / .370 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442228955,
+      "sku": "20AX200",
+      "title": "20 LB .016 in. / .405 mm dia. / 200 YDS",
+      "options": [
+        "20 LB .016 in. / .405 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442523867,
+      "sku": "20AX1000",
+      "title": "20 LB .016 in. / .405 mm dia. / 1000 YDS",
+      "options": [
+        "20 LB .016 in. / .405 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442294491,
+      "sku": "25AX200",
+      "title": "25 LB .017 in. / .435 mm dia. / 200 YDS",
+      "options": [
+        "25 LB .017 in. / .435 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42960442589403,
+      "sku": "25AX1000",
+      "title": "25 LB .017 in. / .435 mm dia. / 1000 YDS",
+      "options": [
+        "25 LB .017 in. / .435 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    }
+  ]
+}

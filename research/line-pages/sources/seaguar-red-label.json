@@ -1,0 +1,276 @@
+{
+  "id": "seaguar-red-label",
+  "model": "Red Label",
+  "type": "Fluorocarbon",
+  "url": "https://seaguar.com/products/red-label",
+  "retrievedAt": "2026-09-12T22:11:38.817Z",
+  "dataUrl": "https://seaguar.com/products/red-label.js",
+  "title": "Red Label®",
+  "description": "<p><meta charset=\"utf-8\"><strong>Seaguar Red Label, Strong and Highly Abrasion Resistant, Premium, 100% Fluorocarbon Performance Fishing Line, Virtually Invisible.</strong></p>\n<p><meta charset=\"utf-8\"><span>Red Label is strong and highly abrasion resistant with good knot and tensile strength.</span></p>\n<p><span>100% fluorocarbon; virtually invisible; made in Japan with cutting-edge innovation; fill your spool with this main line fluorocarbon. </span></p>\n<p><span>This is a hard working fluorocarbon line designed for bait casting reels that provides great performance and value at an economical price.</span></p>\n<p>________________________</p>\n<p>Red Label 175, 200yd spools</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v1_550.png?v=1780670842\" alt=\"\"></p>\n<p>Red Label 1000yd spools</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v3_550.png?v=1780670841\" alt=\"\"></p>",
+  "options": [
+    {
+      "name": "LB Test*",
+      "position": 1,
+      "values": [
+        "4LB .006 in. /.165 mm dia.",
+        "6LB .007 in. /.185 mm dia.",
+        "8LB .009 in. /.235 mm dia.",
+        "10LB .010 in. /.260 mm dia.",
+        "12LB .012 in. /.310 mm dia.",
+        "15LB .013 in. /.330 mm dia.",
+        "17LB .015 in. /.370 mm dia.",
+        "20LB .016 in. /.405 mm dia."
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "175 YDS",
+        "200 YDS",
+        "1000 YDS"
+      ]
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_pkg_RedLabel-detail.png?v=1655834285",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_pkg_RedLabel-preview.png?v=1657748259",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9379.jpg?v=1657748259",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9377_1748447c-5f6f-4bea-b44d-9fb2dbfa168e.jpg?v=1657748259",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9385_c561073c-3476-49bd-8c02-e32564ba0f2a.jpg?v=1657748259",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Pro_RedLabel.jpg?v=1657748259",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"
+  ],
+  "variants": [
+    {
+      "id": 42982437290203,
+      "sku": "",
+      "title": "4LB .006 in. /.165 mm dia. / 175 YDS",
+      "options": [
+        "4LB .006 in. /.165 mm dia.",
+        "175 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437519579,
+      "sku": "04RM250",
+      "title": "4LB .006 in. /.165 mm dia. / 200 YDS",
+      "options": [
+        "4LB .006 in. /.165 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437748955,
+      "sku": "",
+      "title": "4LB .006 in. /.165 mm dia. / 1000 YDS",
+      "options": [
+        "4LB .006 in. /.165 mm dia.",
+        "1000 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437322971,
+      "sku": "",
+      "title": "6LB .007 in. /.185 mm dia. / 175 YDS",
+      "options": [
+        "6LB .007 in. /.185 mm dia.",
+        "175 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437552347,
+      "sku": "06RM250",
+      "title": "6LB .007 in. /.185 mm dia. / 200 YDS",
+      "options": [
+        "6LB .007 in. /.185 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437781723,
+      "sku": "06RM1000",
+      "title": "6LB .007 in. /.185 mm dia. / 1000 YDS",
+      "options": [
+        "6LB .007 in. /.185 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437355739,
+      "sku": "",
+      "title": "8LB .009 in. /.235 mm dia. / 175 YDS",
+      "options": [
+        "8LB .009 in. /.235 mm dia.",
+        "175 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437585115,
+      "sku": "08RM250",
+      "title": "8LB .009 in. /.235 mm dia. / 200 YDS",
+      "options": [
+        "8LB .009 in. /.235 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437814491,
+      "sku": "08RM1000",
+      "title": "8LB .009 in. /.235 mm dia. / 1000 YDS",
+      "options": [
+        "8LB .009 in. /.235 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437388507,
+      "sku": "",
+      "title": "10LB .010 in. /.260 mm dia. / 175 YDS",
+      "options": [
+        "10LB .010 in. /.260 mm dia.",
+        "175 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437617883,
+      "sku": "10RM250",
+      "title": "10LB .010 in. /.260 mm dia. / 200 YDS",
+      "options": [
+        "10LB .010 in. /.260 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437847259,
+      "sku": "10RM1000",
+      "title": "10LB .010 in. /.260 mm dia. / 1000 YDS",
+      "options": [
+        "10LB .010 in. /.260 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437421275,
+      "sku": "",
+      "title": "12LB .012 in. /.310 mm dia. / 175 YDS",
+      "options": [
+        "12LB .012 in. /.310 mm dia.",
+        "175 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437650651,
+      "sku": "12RM200",
+      "title": "12LB .012 in. /.310 mm dia. / 200 YDS",
+      "options": [
+        "12LB .012 in. /.310 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437880027,
+      "sku": "12RM1000",
+      "title": "12LB .012 in. /.310 mm dia. / 1000 YDS",
+      "options": [
+        "12LB .012 in. /.310 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437454043,
+      "sku": "",
+      "title": "15LB .013 in. /.330 mm dia. / 175 YDS",
+      "options": [
+        "15LB .013 in. /.330 mm dia.",
+        "175 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437683419,
+      "sku": "15RM200",
+      "title": "15LB .013 in. /.330 mm dia. / 200 YDS",
+      "options": [
+        "15LB .013 in. /.330 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437912795,
+      "sku": "15RM1000",
+      "title": "15LB .013 in. /.330 mm dia. / 1000 YDS",
+      "options": [
+        "15LB .013 in. /.330 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 44196634001627,
+      "sku": "17RM200",
+      "title": "17LB .015 in. /.370 mm dia. / 200 YDS",
+      "options": [
+        "17LB .015 in. /.370 mm dia.",
+        "200 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 44196634034395,
+      "sku": "17RM1000",
+      "title": "17LB .015 in. /.370 mm dia. / 1000 YDS",
+      "options": [
+        "17LB .015 in. /.370 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437486811,
+      "sku": "20RM175",
+      "title": "20LB .016 in. /.405 mm dia. / 175 YDS",
+      "options": [
+        "20LB .016 in. /.405 mm dia.",
+        "175 YDS"
+      ],
+      "available": true
+    },
+    {
+      "id": 42982437716187,
+      "sku": "",
+      "title": "20LB .016 in. /.405 mm dia. / 200 YDS",
+      "options": [
+        "20LB .016 in. /.405 mm dia.",
+        "200 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 42982437945563,
+      "sku": "20RM1000",
+      "title": "20LB .016 in. /.405 mm dia. / 1000 YDS",
+      "options": [
+        "20LB .016 in. /.405 mm dia.",
+        "1000 YDS"
+      ],
+      "available": true
+    }
+  ]
+}

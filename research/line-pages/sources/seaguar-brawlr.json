@@ -1,0 +1,298 @@
+{
+  "id": "seaguar-brawlr",
+  "model": "BRAWLR",
+  "type": "Monofilament",
+  "url": "https://seaguar.com/products/brawlr",
+  "retrievedAt": "2026-09-12T22:11:39.273Z",
+  "dataUrl": "https://seaguar.com/products/brawlr.js",
+  "title": "BRAWLR",
+  "description": "<p><strong>Seaguar BRAWLR High-Performance Monofilament – Advanced Knot and Tensile Strength. Low Stretch with Enhanced Sensitivity.</strong></p>\n<p class=\"p1\">Seaguar BRAWLR monofilament fishing line is made with a unique resin recipe that requires an advanced level of temperature control during the manufacturing process. That’s why<span class=\"Apple-converted-space\">  </span>Seaguar employs an exclusive PTD process (Pinpoint Thermal Dynamics) to boost line properties and provide advanced knot &amp; tensile strength.</p>\n<h3 class=\"p1\"><span style=\"color: rgb(46, 171, 163);\">IMPORTANT BRAWLR LAUNCH UPDATE</span></h3>\n<p class=\"p1\"><strong>Seaguar BRAWLR monofilament bested all other line entries in the New Product Showcase at the 2026 I-Cast show to win the BEST in CATEGORY award for non-braided fishing lines.</strong></p>\n<p class=\"p1\">Break tests show BRAWLR delivers best-in-class knot strength and tensile strength.</p>\n<p class=\"p1\">Elongation is minimized so BRAWLR offers less stretch than typical monofilament lines.<span class=\"Apple-converted-space\">  </span>This delivers significantly improved sensitivity – it helps detects more subtle bites which is a real bonus when targeting light biting species.</p>\n<p class=\"p1\">Fluorescent qualities enhance visibility-especially at night. The Clear Fluorescent line <span class=\"s1\">will glow in the dark.</span></p>\n<p class=\"p3\">Engineered and manufactured by Seaguar, the inventor and innovator of premium fishing lines.</p>\n<p class=\"p3\"><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v1_480.png?v=1779996649\" alt=\"\"></p>",
+  "options": [
+    {
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Clear",
+        "Lo-Vis Green"
+      ]
+    },
+    {
+      "name": "LB Test*",
+      "position": 2,
+      "values": [
+        "2LB .006in/.165mm dia.",
+        "4LB .008in/.205mm dia.",
+        "6LB .009in/.235mm dia.",
+        "8LB .010in/.260mm dia.",
+        "10LB .012in/.310mm dia.",
+        "12LB .013in/.330mm dia.",
+        "14LB .014in/.350mm dia.",
+        "17LB .015in/.370mm dia.",
+        "20LB .016in/.405mm dia.",
+        "25LB .019in/.470mm dia.",
+        "30LB .020in/.520mm dia."
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 3,
+      "values": [
+        "330 YDS",
+        "300 YDS",
+        "270 YDS",
+        "250 YDS"
+      ]
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/Seaguar_Brawlr-clear_c2ca1209-2577-4ed1-bd80-af5eb6e17bff.png?v=1782595723",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/Seaguar_Brawlr-green.png?v=1782595728",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/carousel_BrawlR-KnotStrength.jpg?v=1780501483",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/carousel_BrawlR-LowStretch.jpg?v=1780501484",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/carousel_BrawlR-MultiSpecies.jpg?v=1780501484"
+  ],
+  "variants": [
+    {
+      "id": 48900957339867,
+      "sku": "02BRCL330",
+      "title": "Clear / 2LB .006in/.165mm dia. / 330 YDS",
+      "options": [
+        "Clear",
+        "2LB .006in/.165mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900957470939,
+      "sku": "04BRCL330",
+      "title": "Clear / 4LB .008in/.205mm dia. / 330 YDS",
+      "options": [
+        "Clear",
+        "4LB .008in/.205mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900957602011,
+      "sku": "06BRCL330",
+      "title": "Clear / 6LB .009in/.235mm dia. / 330 YDS",
+      "options": [
+        "Clear",
+        "6LB .009in/.235mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900957733083,
+      "sku": "08BRCL330",
+      "title": "Clear / 8LB .010in/.260mm dia. / 330 YDS",
+      "options": [
+        "Clear",
+        "8LB .010in/.260mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900957831387,
+      "sku": "10BRCL300",
+      "title": "Clear / 10LB .012in/.310mm dia. / 300 YDS",
+      "options": [
+        "Clear",
+        "10LB .012in/.310mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900957962459,
+      "sku": "12BRCL300",
+      "title": "Clear / 12LB .013in/.330mm dia. / 300 YDS",
+      "options": [
+        "Clear",
+        "12LB .013in/.330mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958093531,
+      "sku": "14BRCL300",
+      "title": "Clear / 14LB .014in/.350mm dia. / 300 YDS",
+      "options": [
+        "Clear",
+        "14LB .014in/.350mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958224603,
+      "sku": "17BRCL300",
+      "title": "Clear / 17LB .015in/.370mm dia. / 300 YDS",
+      "options": [
+        "Clear",
+        "17LB .015in/.370mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958322907,
+      "sku": "20BRCL270",
+      "title": "Clear / 20LB .016in/.405mm dia. / 270 YDS",
+      "options": [
+        "Clear",
+        "20LB .016in/.405mm dia.",
+        "270 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958453979,
+      "sku": "25BRCL270",
+      "title": "Clear / 25LB .019in/.470mm dia. / 270 YDS",
+      "options": [
+        "Clear",
+        "25LB .019in/.470mm dia.",
+        "270 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958552283,
+      "sku": "30BRCL250",
+      "title": "Clear / 30LB .020in/.520mm dia. / 250 YDS",
+      "options": [
+        "Clear",
+        "30LB .020in/.520mm dia.",
+        "250 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958748891,
+      "sku": "02BRGR330",
+      "title": "Lo-Vis Green / 2LB .006in/.165mm dia. / 330 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "2LB .006in/.165mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900958879963,
+      "sku": "04BRGR330",
+      "title": "Lo-Vis Green / 4LB .008in/.205mm dia. / 330 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "4LB .008in/.205mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959011035,
+      "sku": "06BRGR330",
+      "title": "Lo-Vis Green / 6LB .009in/.235mm dia. / 330 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "6LB .009in/.235mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959142107,
+      "sku": "08BRGR330",
+      "title": "Lo-Vis Green / 8LB .010in/.260mm dia. / 330 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "8LB .010in/.260mm dia.",
+        "330 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959240411,
+      "sku": "10BRGR300",
+      "title": "Lo-Vis Green / 10LB .012in/.310mm dia. / 300 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "10LB .012in/.310mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959371483,
+      "sku": "12BRGR300",
+      "title": "Lo-Vis Green / 12LB .013in/.330mm dia. / 300 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "12LB .013in/.330mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959502555,
+      "sku": "14BRGR300",
+      "title": "Lo-Vis Green / 14LB .014in/.350mm dia. / 300 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "14LB .014in/.350mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959633627,
+      "sku": "17BRGR300",
+      "title": "Lo-Vis Green / 17LB .015in/.370mm dia. / 300 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "17LB .015in/.370mm dia.",
+        "300 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959731931,
+      "sku": "20BRGR270",
+      "title": "Lo-Vis Green / 20LB .016in/.405mm dia. / 270 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "20LB .016in/.405mm dia.",
+        "270 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959863003,
+      "sku": "25BRGR270",
+      "title": "Lo-Vis Green / 25LB .019in/.470mm dia. / 270 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "25LB .019in/.470mm dia.",
+        "270 YDS"
+      ],
+      "available": false
+    },
+    {
+      "id": 48900959961307,
+      "sku": "30BRGR250",
+      "title": "Lo-Vis Green / 30LB .020in/.520mm dia. / 250 YDS",
+      "options": [
+        "Lo-Vis Green",
+        "30LB .020in/.520mm dia.",
+        "250 YDS"
+      ],
+      "available": false
+    }
+  ]
+}

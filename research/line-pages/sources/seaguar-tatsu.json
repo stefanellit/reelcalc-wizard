@@ -1,0 +1,227 @@
+{
+  "id": "seaguar-tatsu",
+  "model": "Tatsu",
+  "type": "Fluorocarbon",
+  "url": "https://seaguar.com/products/tatsu",
+  "retrievedAt": "2026-09-12T22:11:38.497Z",
+  "dataUrl": "https://seaguar.com/products/tatsu.js",
+  "title": "Tatsu®",
+  "description": "<p><meta charset=\"utf-8\"><strong>Strong and Supple, Premium, 100% Fluorocarbon Performance Fishing Line, Virtually Invisible</strong></p>\n<p><meta charset=\"utf-8\"><span>Seaguar Tatsu is the world's only double-structure fluorocarbon mainline delivering amazingly strong, yet supple performance. </span></p>\n<p><span>Our exclusive double-structure process fuses two 100% fluorocarbon resins into one solid line that offers the best combination of strength &amp; castability. </span></p>\n<p><span>Soft, supple and smooth casting with exceptional sensitivity, low memory, virtually no stretch, fast sinking and superior knot strength for unmatched performance-in most any conditions. </span></p>\n<p><span>Ideal for freshwater multi-species fishing applications - fish can't see it and it's very soft and sensitive. Easy to manage on a reel.</span><br></p>\n<p>________________________</p>\n<p>Tatsu 200yd spools</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v1_550.png?v=1780670842\" alt=\"\"></p>\n<p>Tatsu 1000yd spools</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v3_550.png?v=1780670841\" alt=\"\"></p>",
+  "options": [
+    {
+      "name": "LB Test",
+      "position": 1,
+      "values": [
+        "4LB .006 in. /.165 mm dia.",
+        "6LB .008 in. /.205 mm dia.",
+        "8LB .009 in. /.235 mm dia.",
+        "10LB .010 in. /.260 mm dia.",
+        "12LB .011 in. /.285 mm dia.",
+        "15LB .013 in. /.330 mm dia.",
+        "17LB .014 in. /.350 mm dia.",
+        "20LB .015 in. /.370 mm dia.",
+        "22LB .015 in. /.385 mm dia.",
+        "25LB .016 in. /.405 mm dia."
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "200 YD",
+        "1000 YD"
+      ]
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_pkg_Tatsu-detail.png?v=1655834326",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9384_bf224f25-0946-4031-adc0-148112f4f534.jpg?v=1655834341",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9388_1a0f34b9-3b98-4159-820e-0940c3243f89.jpg?v=1655834341",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/IMG_9389_0e51cec1-41d2-419f-ac89-f1c8902df260.jpg?v=1655834341",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Pro_Tatsu.jpg?v=1655834341",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_pkg_Tatsu-preview.png?v=1655834725",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"
+  ],
+  "variants": [
+    {
+      "id": 42857779298523,
+      "sku": "04TS200",
+      "title": "4LB .006 in. /.165 mm dia. / 200 YD",
+      "options": [
+        "4LB .006 in. /.165 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779331291,
+      "sku": "06TS200",
+      "title": "6LB .008 in. /.205 mm dia. / 200 YD",
+      "options": [
+        "6LB .008 in. /.205 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779626203,
+      "sku": "06TS1000",
+      "title": "6LB .008 in. /.205 mm dia. / 1000 YD",
+      "options": [
+        "6LB .008 in. /.205 mm dia.",
+        "1000 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779364059,
+      "sku": "08TS200",
+      "title": "8LB .009 in. /.235 mm dia. / 200 YD",
+      "options": [
+        "8LB .009 in. /.235 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779658971,
+      "sku": "08TS1000",
+      "title": "8LB .009 in. /.235 mm dia. / 1000 YD",
+      "options": [
+        "8LB .009 in. /.235 mm dia.",
+        "1000 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779396827,
+      "sku": "10TS200",
+      "title": "10LB .010 in. /.260 mm dia. / 200 YD",
+      "options": [
+        "10LB .010 in. /.260 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779691739,
+      "sku": "10TS1000",
+      "title": "10LB .010 in. /.260 mm dia. / 1000 YD",
+      "options": [
+        "10LB .010 in. /.260 mm dia.",
+        "1000 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779429595,
+      "sku": "12TS200",
+      "title": "12LB .011 in. /.285 mm dia. / 200 YD",
+      "options": [
+        "12LB .011 in. /.285 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779724507,
+      "sku": "12TS1000",
+      "title": "12LB .011 in. /.285 mm dia. / 1000 YD",
+      "options": [
+        "12LB .011 in. /.285 mm dia.",
+        "1000 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779462363,
+      "sku": "15TS200",
+      "title": "15LB .013 in. /.330 mm dia. / 200 YD",
+      "options": [
+        "15LB .013 in. /.330 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779757275,
+      "sku": "15TS1000",
+      "title": "15LB .013 in. /.330 mm dia. / 1000 YD",
+      "options": [
+        "15LB .013 in. /.330 mm dia.",
+        "1000 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779495131,
+      "sku": "17TS200",
+      "title": "17LB .014 in. /.350 mm dia. / 200 YD",
+      "options": [
+        "17LB .014 in. /.350 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779790043,
+      "sku": "17TS1000",
+      "title": "17LB .014 in. /.350 mm dia. / 1000 YD",
+      "options": [
+        "17LB .014 in. /.350 mm dia.",
+        "1000 YD"
+      ],
+      "available": false
+    },
+    {
+      "id": 42857779527899,
+      "sku": "20TS200",
+      "title": "20LB .015 in. /.370 mm dia. / 200 YD",
+      "options": [
+        "20LB .015 in. /.370 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42857779822811,
+      "sku": "20TS1000",
+      "title": "20LB .015 in. /.370 mm dia. / 1000 YD",
+      "options": [
+        "20LB .015 in. /.370 mm dia.",
+        "1000 YD"
+      ],
+      "available": false
+    },
+    {
+      "id": 42857779560667,
+      "sku": "22TS200",
+      "title": "22LB .015 in. /.385 mm dia. / 200 YD",
+      "options": [
+        "22LB .015 in. /.385 mm dia.",
+        "200 YD"
+      ],
+      "available": false
+    },
+    {
+      "id": 42857779855579,
+      "sku": "22TS1000",
+      "title": "22LB .015 in. /.385 mm dia. / 1000 YD",
+      "options": [
+        "22LB .015 in. /.385 mm dia.",
+        "1000 YD"
+      ],
+      "available": false
+    },
+    {
+      "id": 42857779593435,
+      "sku": "25TS200",
+      "title": "25LB .016 in. /.405 mm dia. / 200 YD",
+      "options": [
+        "25LB .016 in. /.405 mm dia.",
+        "200 YD"
+      ],
+      "available": true
+    }
+  ]
+}

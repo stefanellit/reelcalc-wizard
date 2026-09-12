@@ -1,5 +1,20 @@
 {
-  "version": "3",
-  "products": ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"],
-  "publishedProducts": ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"]
+  "version": "4",
+  "products": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl",
+    "seaguar-tatsu",
+    "seaguar-abrazx",
+    "seaguar-red-label",
+    "seaguar-smackdown",
+    "seaguar-brawlr",
+    "seaguar-jdm-r18-mainline",
+    "seaguar-jdm-pex8-micro-braid"
+  ],
+  "publishedProducts": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl"
+  ]
 }

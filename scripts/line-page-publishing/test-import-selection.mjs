@@ -1,0 +1,14 @@
+import assert from "node:assert/strict";
+import {selectNewImports} from "./import-selection.mjs";
+const settings=[{id:"live",slug:"live-guide"},{id:"next",slug:"next-guide"}];
+const release={publishedProducts:["live"]};
+assert.deepEqual(selectNewImports(settings,release),[settings[1]]);
+assert.deepEqual(selectNewImports(settings,release,["next"]),[settings[1]]);
+assert.throws(()=>selectNewImports(settings,release,["live"]),/reimport/);
+assert.throws(()=>selectNewImports(settings,release,["missing"]),/Unknown/);
+assert.throws(()=>selectNewImports(settings,release,["next","next"]),/Duplicate/);
+assert.throws(()=>selectNewImports([...settings,settings[0]],release),/Duplicate/);
+assert.throws(()=>selectNewImports([{id:"one",slug:"same"},{id:"two",slug:"same"}],{}),/Duplicate launch slugs/);
+assert.throws(()=>selectNewImports(settings,{publishedProducts:["missing"]}),/missing from settings/);
+assert.deepEqual(selectNewImports(settings,{publishedProducts:["live","next"]}),[]);
+console.log("Passed 9 incremental import safety checks.");

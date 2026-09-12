@@ -1,0 +1,700 @@
+Product ID [Non Editable],Variant ID [Non Editable],Product Type [Non Editable],Product Page,Product URL,Title,Description,SKU,GTIN,MPN,Option Name 1,Option Value 1,Option Name 2,Option Value 2,Option Name 3,Option Value 3,Price,Sale Price,On Sale,Stock,Categories,Tags,Weight,Length,Width,Height,Visible,Hosted Image URLs
+,,SERVICE,lines,seaguar-tatsu-fluorocarbon-diameter-capacity-guide,Seaguar Tatsu Fluorocarbon,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-tatsu"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar Tatsu Fluorocarbon</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-tatsu.png"" alt=""Seaguar Tatsu fluorocarbon retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">Tatsu is Seaguar's double-structure fluorocarbon main line. Two fluorocarbon resins are combined in one line, with Seaguar emphasizing suppleness and strength. This guide covers the listed 4-25 lb sizes and helps you budget a full fill or a working section over backing.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>Double-structure 100% fluorocarbon</dd></div><div><dt>Listed strengths</dt><dd>4-25 lb</dd></div><div><dt>Line type</dt><dd>Fluorocarbon main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is Tatsu right for your setup?</h2><p>Consider Tatsu when you want to cast fluorocarbon directly, especially when handling and the amount of premium line used matter to your setup. A partial fill over sound mono backing can reduce how much Tatsu is tied up below the working line. It does not remove the need to choose a manageable diameter: thick fluorocarbon can be awkward on a compact spinning spool even if the capacity number is acceptable.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar Tatsu diameter chart</h2><p>Current Seaguar Tatsu chart and assigned product variants. Package lengths vary by strength; inch and millimeter figures are independently published.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>4 lb</span></th>
+    <td>0.006</td><td>0.165</td>
+    <td>200</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>6 lb</span></th>
+    <td>0.008</td><td>0.205</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>8 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>10 lb</span></th>
+    <td>0.010</td><td>0.260</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>12 lb</span></th>
+    <td>0.011</td><td>0.285</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>15 lb</span></th>
+    <td>0.013</td><td>0.330</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>17 lb</span></th>
+    <td>0.014</td><td>0.350</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>20 lb</span></th>
+    <td>0.015</td><td>0.370</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>22 lb</span></th>
+    <td>0.015</td><td>0.385</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>25 lb</span></th>
+    <td>0.016</td><td>0.405</td>
+    <td>200</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your Tatsu strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>Start with the lighter 4-8 lb options when considering a light spinning setup, then check your rod, cover, and drag setting. Tatsu's 4 lb and 6 lb entries are not interchangeable in a capacity calculation: their listed inch diameters are .006 and .008.</p>
+<p>For baitcasting setups, compare the 10-15 lb choices with the demands of your lure and cover before moving into 17-25 lb. The heavier sizes are not simply better versions of the lighter line. Their extra spool volume can shorten the useful working length.</p>
+<p>Tatsu 20 lb and 22 lb both round to .015 inch in the manufacturer chart, although their millimeter entries differ. ReelCalc's inch-based calculation will therefore give them the same capacity. That is a limit of the rounded inputs, not proof that the lines are physically identical.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on Tatsu performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>Decide how much Tatsu you need</h3><p>For a full Tatsu spool, use the full-capacity result. For a shorter working section, allow for casts, fish runs, damaged-line removal, and repeated retying before assigning the remaining space to backing.</p></div>
+<div><h3>Keep backing below the working line</h3><p>Mono backing sits underneath the Tatsu. Choose a working length that keeps its connection below the line you normally fish, and do not reuse backing that is damaged or slipping on the arbor.</p></div>
+<div><h3>Match the retail package</h3><p>The 200-yard package is listed throughout this range. The 1,000-yard package is not listed for every strength: the current chart excludes 4 lb and 25 lb. Check your selected row before assuming a bulk spool exists.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">Tatsu questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Is Tatsu a main line or leader material?</summary>
+    <p>Seaguar sells Tatsu as fluorocarbon main line. You can use a short piece as a leader, but that does not make Tatsu the material filling a braid spool. Calculate capacity using the actual main line.</p>
+  </details>
+<details>
+    <summary>Does Tatsu have the same diameter as InvizX?</summary>
+    <p>Not at every strength. For example, the current 20 lb entries are .015 inch for Tatsu and .016 inch for InvizX. Use exact product-and-strength diameters instead of treating all Seaguar fluorocarbon as one line.</p>
+  </details>
+<details>
+    <summary>Will one 200-yard Tatsu spool fill my reel?</summary>
+    <p>Select your reel and Tatsu strength to check. A result below 200 yards means one full retail spool should cover that calculated fill; a higher result calls for more main line or an intentional backing plan. Stop at the reel's recommended fill level.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12 and its published chart. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/tatsu"" target=""_blank"" rel=""noopener"">Official Seaguar Tatsu specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li>
+<li>
+    <a href=""https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_Tatsu_SpecChart.jpg?v=1656427860"" target=""_blank"" rel=""noopener"">Seaguar Tatsu specification chart</a>
+    <small>Manufacturer chart checked alongside current product variants.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-tatsu.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCLDBD1FFA1796FC4C5E,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,
+,,SERVICE,lines,seaguar-abrazx-fluorocarbon-diameter-capacity-guide,Seaguar AbrazX Fluorocarbon,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-abrazx"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar AbrazX Fluorocarbon</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-abrazx.png"" alt=""Seaguar AbrazX fluorocarbon retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">AbrazX is Seaguar's abrasion-focused fluorocarbon main line. The manufacturer positions it for fishing around cover such as rocks, docks, and timber. Its 4-25 lb range includes very different diameters, so select a strength before checking reel capacity or buying a spool.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>100% fluorocarbon</dd></div><div><dt>Listed strengths</dt><dd>4-25 lb</dd></div><div><dt>Line type</dt><dd>Fluorocarbon main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is AbrazX right for your setup?</h2><p>AbrazX is a candidate for presentations where line contacts cover and you want fluorocarbon as the working main line. Its abrasion-focused positioning is not permission to ignore nicks or tighten the drag excessively. Check the line after contact with rough cover and retie when needed; allow spare working length for that maintenance when planning backing.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar AbrazX diameter chart</h2><p>Official AbrazX diameters, including the 4 lb size, and assigned strength-specific retail spool lengths.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>4 lb</span></th>
+    <td>0.006</td><td>0.165</td>
+    <td>200</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>6 lb</span></th>
+    <td>0.008</td><td>0.205</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>8 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>10 lb</span></th>
+    <td>0.010</td><td>0.260</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>12 lb</span></th>
+    <td>0.011</td><td>0.285</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>15 lb</span></th>
+    <td>0.013</td><td>0.330</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>17 lb</span></th>
+    <td>0.015</td><td>0.370</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>20 lb</span></th>
+    <td>0.016</td><td>0.405</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>25 lb</span></th>
+    <td>0.017</td><td>0.435</td>
+    <td>200, 1000</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your AbrazX strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>A light spinning setup and a heavier cover-oriented baitcaster should not receive the same AbrazX just because both reels list a 10 lb capacity. Use the rod, lure, cover, and fish to choose strength; the reel label is a capacity reference, not a required line choice.</p>
+<p>The 10, 12, and 15 lb entries step from .010 to .011 to .013 inch. Moving from 15 lb to 17 lb increases the listed diameter again, to .015 inch. Check the capacity change instead of assuming each two-pound increase takes the same amount of space.</p>
+<p>The 20-25 lb sizes occupy substantially more space than the lighter options and can be difficult to manage on small spinning reels. More abrasion-focused material does not make every diameter suitable for every reel.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on AbrazX performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>Allow for retying</h3><p>Fishing close to abrasive cover can consume working line as worn sections are removed. Do not use a backing plan that leaves only enough AbrazX for one maximum cast with no reserve.</p></div>
+<div><h3>A full fill or a top section</h3><p>A full AbrazX fill avoids a backing connection. A shorter working section over mono can save line on a deep spool. The calculator checks space for either plan; neither result is a guarantee of knot strength or abrasion resistance.</p></div>
+<div><h3>Inspect the contact section</h3><p>Check the line nearest the lure after rough contact. Replace nicked or weakened sections rather than relying on the product's abrasion-resistant positioning. Recheck the remaining working length as it gets shorter.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">AbrazX questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Is AbrazX the same line as InvizX?</summary>
+    <p>No. They are separate fluorocarbon products with different manufacturer positioning. Even where their published diameter entries match, a capacity match is not evidence of identical handling or abrasion performance.</p>
+  </details>
+<details>
+    <summary>Can AbrazX fill a spinning reel?</summary>
+    <p>It is main-line fluorocarbon, but choose a diameter that your spinning setup can manage. Thick line may fit by volume while still springing off a small spool. Capacity and handling are separate checks.</p>
+  </details>
+<details>
+    <summary>Does the 4 lb AbrazX come in a bulk spool?</summary>
+    <p>The current manufacturer chart and assigned variants list a 200-yard spool for 4 lb. The 1,000-yard option starts at 6 lb in the specifications used here; retail stock can change.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12 and its published chart. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/abrazx"" target=""_blank"" rel=""noopener"">Official Seaguar AbrazX specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li>
+<li>
+    <a href=""https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_AbrazX_SpecChart.jpg?v=1707926026"" target=""_blank"" rel=""noopener"">Seaguar AbrazX specification chart</a>
+    <small>Manufacturer chart checked alongside current product variants.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-abrazx.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCL7835FFFCA9C69EDB7,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,
+,,SERVICE,lines,seaguar-red-label-fluorocarbon-diameter-capacity-guide,Seaguar Red Label Fluorocarbon,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-red-label"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar Red Label Fluorocarbon</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-red-label.png"" alt=""Seaguar Red Label fluorocarbon retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">Red Label is Seaguar's value-oriented fluorocarbon main line, with manufacturer positioning aimed at baitcasting reels. The current range runs from 4 to 20 lb. Package length changes at the heavy end, so a Red Label spool is not automatically a 200-yard spool.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>100% fluorocarbon</dd></div><div><dt>Listed strengths</dt><dd>4-20 lb</dd></div><div><dt>Line type</dt><dd>Fluorocarbon main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is Red Label right for your setup?</h2><p>Consider Red Label for a fluorocarbon main-line setup when cost and regular respooling are part of the decision. Match its diameter to the baitcaster, rod, and presentation before deciding on a full fill. If you are looking for a light spinning line, do not assume every fluorocarbon marketed for baitcasting will handle the same way as a softer main line.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar Red Label diameter chart</h2><p>Current assigned Red Label variants. The older chart omits 17 lb, which is included here from the current assigned 17 lb SKUs. Unassigned package combinations are excluded.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>4 lb</span></th>
+    <td>0.006</td><td>0.165</td>
+    <td>200</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>6 lb</span></th>
+    <td>0.007</td><td>0.185</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>8 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>10 lb</span></th>
+    <td>0.010</td><td>0.260</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>12 lb</span></th>
+    <td>0.012</td><td>0.310</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>15 lb</span></th>
+    <td>0.013</td><td>0.330</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>17 lb</span></th>
+    <td>0.015</td><td>0.370</td>
+    <td>200, 1000</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>20 lb</span></th>
+    <td>0.016</td><td>0.405</td>
+    <td>175, 1000</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your Red Label strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>Use the exact Red Label entry rather than borrowing an InvizX or Tatsu diameter. Red Label 12 lb is listed at .012 inch, compared with .011 inch for both of those other models; it occupies more spool space in the inch-based calculation.</p>
+<p>The 10-15 lb options give several intermediate choices for baitcasting applications, but the correct choice still depends on lure, cover, and your rod. Moving to 17 or 20 lb reduces capacity and is not an automatic improvement for open-water fishing.</p>
+<p>For a partial fill, leave enough working Red Label to absorb retying and damaged-line removal. The backing knot should remain below the line used during normal casts and fish runs, not arrive at the lure after a few trips.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on Red Label performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>Check yards, not just pound test</h3><p>The assigned retail variant for 20 lb is 175 yards, while the lighter retail entries are 200 yards. Both the strength and the package length matter when checking whether one spool covers your plan.</p></div>
+<div><h3>Bulk line still needs a fill limit</h3><p>A 1,000-yard package can cover multiple fills, but it does not change your reel's capacity. Use the calculation as a starting point and stop at the reel manufacturer's fill level.</p></div>
+<div><h3>Main line and leader are different roles</h3><p>A short Red Label leader on braid does not use a full spool of Red Label. For that arrangement, select the braid as the main line in the Wizard and consider the leader separately.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">Red Label questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Is Red Label a fluorocarbon-coated nylon line?</summary>
+    <p>No. Seaguar identifies this product as 100% fluorocarbon main line, not fluorocarbon-coated nylon.</p>
+  </details>
+<details>
+    <summary>Why does 20 lb show 175 yards?</summary>
+    <p>That is the assigned retail package on Seaguar's current product listing and chart. Unassigned 200-yard selector combinations are not treated as verified retail packages. A 1,000-yard option is also listed.</p>
+  </details>
+<details>
+    <summary>Why is the 6 lb diameter different from my other Seaguar line?</summary>
+    <p>Seaguar's Red Label chart and selector list 6 lb at .007 inch and .185 mm. Equal pound-test labels do not require equal diameters across products. Check the package if your line is from a different generation or market.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12 and its published chart. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/red-label"" target=""_blank"" rel=""noopener"">Official Seaguar Red Label specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li>
+<li>
+    <a href=""https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_RedLabel_SpecChart.jpg?v=1657748256"" target=""_blank"" rel=""noopener"">Seaguar Red Label specification chart</a>
+    <small>Manufacturer chart checked alongside current product variants.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-red-label.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCLA543B9B91AF04D3FE,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,
+,,SERVICE,lines,seaguar-smackdown-braid-diameter-capacity-guide,Seaguar Smackdown Braid,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-smackdown"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar Smackdown Braid</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-smackdown.png"" alt=""Seaguar Smackdown braid retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">Smackdown is an eight-strand braid. This guide uses Seaguar's current Stealth Gray diameter chart and assigned 150- and 300-yard variants. Select an exact strength to compare spool capacity and plan a braid working length over mono backing.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>8-strand braid</dd></div><div><dt>Listed strengths</dt><dd>10-65 lb</dd></div><div><dt>Line type</dt><dd>Braid main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is Smackdown right for your setup?</h2><p>Smackdown makes sense to consider when braid is the line you want to cast and you will choose any leader separately. Stealth Gray is the lower-visibility color in the manufacturer's range. Diameter still matters for spool space and handling; the name or pound-test label alone does not establish how much your reel will hold.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar Smackdown diameter chart</h2><p>Seaguar's current Stealth Gray chart and selector agree on these diameter pairs. They can differ from older retail references; use your package's diameter when it differs.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>10 lb</span></th>
+    <td>0.008</td><td>0.205</td>
+    <td>150, 300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>15 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>150, 300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>20 lb</span></th>
+    <td>0.010</td><td>0.260</td>
+    <td>150, 300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>30 lb</span></th>
+    <td>0.011</td><td>0.285</td>
+    <td>150, 300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>40 lb</span></th>
+    <td>0.013</td><td>0.330</td>
+    <td>150, 300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>50 lb</span></th>
+    <td>0.015</td><td>0.370</td>
+    <td>150, 300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>65 lb</span></th>
+    <td>0.016</td><td>0.405</td>
+    <td>150, 300</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your Smackdown strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>For spinning tackle, consider the lower end of the 10-65 lb range against your rod, cover, and target fish. A 10 or 15 lb braid setup serves a different purpose from a 50 or 65 lb setup. Do not choose the heavier line solely because its breaking-strength number is larger.</p>
+<p>On a baitcaster, choose enough physical diameter for the presentation and reliable line management, then check the capacity. Thin braid under load can dig into underlying wraps, so a mathematically generous capacity is not an instruction to use the thinnest option.</p>
+<p>Older listings may show different Smackdown diameters. The current Stealth Gray chart used here lists 20 lb at .010 inch and 30 lb at .011 inch. If your package states something different, enter that actual package diameter in the homepage calculator instead of assuming the two versions will pack identically.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on Smackdown performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>Plan a useful braid length</h3><p>Choose a working length that covers casting, runs, and retying. A 150-yard package may be sufficient for that working section even when your reel's full braid capacity is much larger.</p></div>
+<div><h3>Prevent arbor slip</h3><p>Use a secure attachment appropriate to your reel. Mono backing can provide an anchor and occupy unused spool space; follow the reel manufacturer's braid-attachment guidance and do not confuse backing with a short leader.</p></div>
+<div><h3>Choose the leader separately</h3><p>A mono or fluorocarbon leader is the section nearest the lure. Choose it for the presentation and cover rather than automatically matching the braid's pound test. Its short length does not determine the reel's full braid capacity.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">Smackdown questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Is Smackdown fluorocarbon?</summary>
+    <p>No. This is eight-strand braided main line. A fluorocarbon leader may be added at the lure end, but that does not change the braid into fluorocarbon.</p>
+  </details>
+<details>
+    <summary>Why not calculate from the mono-equivalent label?</summary>
+    <p>Mono equivalence is not a universal diameter standard. ReelCalc uses the numeric diameter of the selected product rather than substituting a generic mono pound test for it.</p>
+  </details>
+<details>
+    <summary>Are these capacities for Flash Green too?</summary>
+    <p>This page's verified source is the current Stealth Gray listing. Check the numeric diameter on the exact Flash Green package before applying the same capacity, especially for older stock or a different market.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12 and its published chart. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/smackdown"" target=""_blank"" rel=""noopener"">Official Seaguar Smackdown specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li>
+<li>
+    <a href=""https://cdn.shopify.com/s/files/1/0646/6548/5531/products/Seaguar_SmackdownGray_SpecChart.jpg?v=1697687420"" target=""_blank"" rel=""noopener"">Seaguar Smackdown specification chart</a>
+    <small>Manufacturer chart checked alongside current product variants.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-smackdown.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCL655A9BA19DE83591C,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,
+,,SERVICE,lines,seaguar-brawlr-monofilament-diameter-capacity-guide,Seaguar BRAWLR Monofilament,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-brawlr"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar BRAWLR Monofilament</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-brawlr.png"" alt=""Seaguar BRAWLR monofilament retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">BRAWLR is Seaguar's announced monofilament line, listed from 2 to 30 lb. Seaguar describes a temperature-controlled manufacturing process called PTD. This is a specification-based planning guide; a listing or capacity estimate does not establish retail availability or independent performance results.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>Monofilament</dd></div><div><dt>Listed strengths</dt><dd>2-30 lb</dd></div><div><dt>Line type</dt><dd>Monofilament main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is BRAWLR right for your setup?</h2><p>Treat BRAWLR as a mono candidate to compare with other monofilament lines by actual diameter, not as a measured improvement over a line you already use. The manufacturer emphasizes strength and reduced stretch, but this guide has no independent BRAWLR test results. Check current availability and the label on the package you receive before finalizing a spool plan.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar BRAWLR diameter chart</h2><p>Assigned BRAWLR variants for Clear and Lo-Vis Green. The product was under a launch notice when checked; these specifications do not imply current retail stock.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>2 lb</span></th>
+    <td>0.006</td><td>0.165</td>
+    <td>330</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>4 lb</span></th>
+    <td>0.008</td><td>0.205</td>
+    <td>330</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>6 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>330</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>8 lb</span></th>
+    <td>0.010</td><td>0.260</td>
+    <td>330</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>10 lb</span></th>
+    <td>0.012</td><td>0.310</td>
+    <td>300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>12 lb</span></th>
+    <td>0.013</td><td>0.330</td>
+    <td>300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>14 lb</span></th>
+    <td>0.014</td><td>0.350</td>
+    <td>300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>17 lb</span></th>
+    <td>0.015</td><td>0.370</td>
+    <td>300</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>20 lb</span></th>
+    <td>0.016</td><td>0.405</td>
+    <td>270</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>25 lb</span></th>
+    <td>0.019</td><td>0.470</td>
+    <td>270</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>30 lb</span></th>
+    <td>0.020</td><td>0.520</td>
+    <td>250</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your BRAWLR strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>The range spans very light 2-6 lb entries through much heavier 20-30 lb mono. Those ends serve different tackle and fishing demands. Match the rod and presentation first; fitting a line onto a spool does not establish that the rod or reel is suited to fishing it.</p>
+<p>BRAWLR 10 lb is listed at .012 inch, while 14 lb is .014 inch. If replacing a thinner 10 lb mono with BRAWLR, the reel may hold less even though the strength label stayed the same. Use the comparison table with your existing line's exact diameter.</p>
+<p>At 25 and 30 lb, the published diameters reach .019 and .020 inch. Check handling as well as capacity before placing those sizes on a compact spinning reel. A substantial capacity result is not a recommendation for that pairing.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on BRAWLR performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>Use the length for your strength</h3><p>The assigned variants list 330 yards for 2-8 lb, 300 yards for 10-17 lb, 270 yards for 20-25 lb, and 250 yards for 30 lb. Do not carry the 330-yard figure into a heavier-line purchase.</p></div>
+<div><h3>Full mono fill</h3><p>For an all-BRAWLR spool, use capacity-only mode. It estimates the full amount of the selected mono, not an extra amount to add on top of line already on the reel.</p></div>
+<div><h3>Reusing a backing layer</h3><p>Only reuse backing that is sound, secure, and long enough to support the intended working line. An estimated backing length cannot reveal the condition of line already hidden under a spool.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">BRAWLR questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Is BRAWLR fluorocarbon?</summary>
+    <p>No. Seaguar identifies BRAWLR as monofilament. Do not substitute specifications from its fluorocarbon products simply because the brand is the same.</p>
+  </details>
+<details>
+    <summary>Has ReelCalc physically tested BRAWLR?</summary>
+    <p>No hands-on BRAWLR performance result is claimed here. The chart comes from manufacturer specifications, and reel capacities are calculated estimates.</p>
+  </details>
+<details>
+    <summary>Can I buy every size shown here now?</summary>
+    <p>Not necessarily. The manufacturer had a launch notice and unavailable variants when this source was reviewed. The table documents assigned specifications, not live stock. Check the seller's exact product, strength, and package length.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/brawlr"" target=""_blank"" rel=""noopener"">Official Seaguar BRAWLR specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-brawlr.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCL4F49B36CF5A5754EC,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,
+,,SERVICE,lines,seaguar-jdm-r18-mainline-fluorocarbon-diameter-capacity-guide,Seaguar JDM R18 Fluorocarbon,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-jdm-r18-mainline"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar JDM R18 Fluorocarbon</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-jdm-r18-mainline.png"" alt=""Seaguar JDM R18 Mainline fluorocarbon retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">JDM R18 Mainline is Seaguar's Japan-market fluorocarbon offered through its JDM collection. It uses two fluorocarbon resins and comes on 100-meter spools, labeled approximately 109 yards. The range includes intermediate strengths such as 5, 7, and 14 lb.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>Double-structure 100% fluorocarbon</dd></div><div><dt>Listed strengths</dt><dd>4-20 lb</dd></div><div><dt>Line type</dt><dd>Fluorocarbon main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is JDM R18 right for your setup?</h2><p>Consider R18 when you want fluorocarbon main line and a specific diameter between more familiar strength steps. Its 100-meter retail length is important: a deep spool may need more than one package for a full fill. A calculated backing plan can let one package supply a useful working section, but only if that section leaves enough line for your fishing.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar JDM R18 Mainline diameter chart</h2><p>Current JDM R18 Mainline variants. The 100-meter package is shown at the manufacturer's rounded 109-yard length; retain exact strength labels.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>4 lb</span></th>
+    <td>0.007</td><td>0.165</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>5 lb</span></th>
+    <td>0.007</td><td>0.185</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>6 lb</span></th>
+    <td>0.008</td><td>0.205</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>7 lb</span></th>
+    <td>0.009</td><td>0.220</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>8 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>10 lb</span></th>
+    <td>0.010</td><td>0.260</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>12 lb</span></th>
+    <td>0.011</td><td>0.285</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>14 lb</span></th>
+    <td>0.012</td><td>0.310</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>16 lb</span></th>
+    <td>0.013</td><td>0.330</td>
+    <td>109</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>20 lb</span></th>
+    <td>0.015</td><td>0.370</td>
+    <td>109</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your JDM R18 strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>For lighter spinning setups, the 4, 5, 6, 7, and 8 lb choices offer small strength steps. Do not round a 7 lb selection to a generic 8 lb entry when calculating capacity; keep the actual R18 diameter.</p>
+<p>For baitcasting or heavier presentations, compare 10, 12, 14, 16, and 20 lb against your lure, cover, and rod. The uncommon 14 and 16 lb labels are intentional product sizes, not data errors or invitations to substitute another brand's diameter.</p>
+<p>The 4 and 5 lb entries both round to .007 inch, and the 7 and 8 lb entries both round to .009 inch. Their metric entries differ. Equal estimates in ReelCalc reflect those rounded inch inputs and should not be read as identical physical lines.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on JDM R18 performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>A 100-meter package is not 150 yards</h3><p>Seaguar labels this package as 100 meters, approximately 109 yards. Use the displayed package length when budgeting working line; do not assume the familiar 150- or 200-yard fluorocarbon package.</p></div>
+<div><h3>Check working length before backing</h3><p>Using backing can make a shorter R18 package reach the desired fill level. It cannot create more working R18. Leave reserve for fish runs and retying, with the connection below the line normally in use.</p></div>
+<div><h3>Keep the product identity exact</h3><p>R18 Mainline is not the same product as a dedicated JDM Grand Max leader. If R18 is only a short leader on your setup, calculate the reel fill using the actual braid or mono main line.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">JDM R18 questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Why does R18 show 109 yards?</summary>
+    <p>The package is 100 meters; Seaguar rounds that to 109 yards. The retail-length selector follows that published yard figure. This is not a claim that a metric package contains exactly 109.000 yards.</p>
+  </details>
+<details>
+    <summary>Is 7 lb R18 a real strength?</summary>
+    <p>Yes. The current manufacturer range includes 5, 7, and 14 lb alongside more familiar strengths. The chart retains each exact option and its published diameter.</p>
+  </details>
+<details>
+    <summary>Will one package fill a 3000-size reel?</summary>
+    <p>The size label alone cannot answer that. Select the exact reel and R18 strength. If the full-capacity estimate exceeds 109 yards, use more R18 or an intentional backing plan rather than treating a short full fill as complete.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/new-jdm-r18"" target=""_blank"" rel=""noopener"">Official Seaguar JDM R18 specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-jdm-r18-mainline.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCLCD7B10BB4B7D3501E,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,
+,,SERVICE,lines,seaguar-jdm-pex8-micro-braid-braid-diameter-capacity-guide,Seaguar JDM PEX8 Braid,"<article class=""rc-line-page rc-line-gold"" data-line-guide-fallback=""seaguar-jdm-pex8-micro-braid"">
+  <header class=""rc-product-header"">
+    <div class=""rc-line-inner"">
+
+      <h2 class=""rc-product-title"">Seaguar JDM PEX8 Braid</h2>
+      <p class=""rc-product-subtitle"">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class=""rc-product-overview"">
+        <figure class=""rc-product-figure""><img src=""https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-jdm-pex8-micro-braid.png"" alt=""Seaguar JDM PEX8 Micro Braid braid retail package"" width=""160"" height=""160"" loading=""eager""></figure>
+        <div><p class=""rc-product-summary"">JDM PEX8 is Seaguar's eight-strand metered braid for finesse-oriented applications. It pairs a pink main color with contrasting green markings and is offered on 200-meter spools, labeled approximately 219 yards. Its six strengths run from 12 to 33 lb.</p><dl class=""rc-product-specs""><div><dt>Construction</dt><dd>8-strand metered braid</dd></div><div><dt>Listed strengths</dt><dd>12-33 lb</dd></div><div><dt>Line type</dt><dd>Braid main line</dd></div></dl></div>
+      </div>
+      <section class=""rc-product-fit"" aria-labelledby=""product-fit-title""><h2 id=""product-fit-title"">Is JDM PEX8 right for your setup?</h2><p>PEX8 is a candidate for anglers who want a visible, thin braid for presentations such as drop-shot fishing. Its strength labels should not be treated as direct handling equivalents to thicker conventional braids. Check diameter, knot management, and the reel as well as the breaking-strength number; 33 lb on this package does not automatically make it a heavy-cover braid setup.</p></section>
+
+    </div>
+  </header>
+
+
+
+  <section class=""rc-section"" id=""diameter-chart"" aria-labelledby=""diameter-chart-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">The numbers behind the setup</span><h2 id=""diameter-chart-title"">Seaguar JDM PEX8 Micro Braid diameter chart</h2><p>Current JDM PEX8 variants and published inch/mm values. Its 200-meter spool is listed at the manufacturer's rounded 219 yards.</p></div>
+    <div class=""rc-table-wrap rc-static-chart""><table class=""rc-table rc-diameter-chart""><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope=""col"">Strength</th><th scope=""col"">Inches</th><th scope=""col"">mm</th><th scope=""col"">Spools (yd)</th></tr></thead><tbody><tr>
+    <th scope=""row""><span>12 lb</span></th>
+    <td>0.005</td><td>0.128</td>
+    <td>219</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>16 lb</span></th>
+    <td>0.006</td><td>0.148</td>
+    <td>219</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>18 lb</span></th>
+    <td>0.006</td><td>0.165</td>
+    <td>219</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>21 lb</span></th>
+    <td>0.007</td><td>0.185</td>
+    <td>219</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>24 lb</span></th>
+    <td>0.008</td><td>0.205</td>
+    <td>219</td>
+  </tr>
+<tr>
+    <th scope=""row""><span>33 lb</span></th>
+    <td>0.009</td><td>0.235</td>
+    <td>219</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class=""rc-section rc-guide-section"" id=""line-guide"" aria-labelledby=""guide-title""><div class=""rc-line-inner"">
+    <div class=""rc-section-heading""><span class=""rc-eyebrow"">Choosing your setup</span><h2 id=""guide-title"">Choosing your JDM PEX8 strength</h2></div>
+    <div class=""rc-strength-guide""><div class=""rc-editorial-copy""><p>Retain the exact 12, 16, 18, 21, 24, or 33 lb choice. These are manufacturer-listed strengths, not rounded substitutes for 10, 15, 20, or 30 lb. The published diameter is the quantity used in the capacity calculation.</p>
+<p>The 12-18 lb entries occupy very little spool space at .005-.006 inch. A high calculated capacity can make backing useful, but do not confuse that capacity with advice to use these fine diameters on every baitcaster.</p>
+<p>Even the 33 lb entry is listed at .009 inch. Choose a leader and drag setting for the presentation rather than assuming the large pound-test label permits heavy loading. Thin braid still needs careful knots and even winding tension.</p><p class=""rc-editorial-note"">This is a specification-based setup guide, not a hands-on JDM PEX8 performance test.</p></div><div class=""rc-strength-next""><h3>Want a guided recommendation?</h3><a class=""rc-inline-link"" id=""rcStrengthWizard"" href=""https://www.reelcalc.com/reelcalc-wizard"">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""spooling-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><span class=""rc-eyebrow"">At the spooling bench</span><h2 id=""spooling-title"">Backing, working line &amp; leaders</h2></div><div class=""rc-spooling-grid""><div><h3>Budget the 200-meter spool</h3><p>The retail length is 200 meters, approximately 219 yards. Compare that with your intended working section or full-spool result, not with a guessed 200-yard package.</p></div>
+<div><h3>Use backing for unused volume</h3><p>A thin braid may leave substantial unused space when you install only the working length you need. Mono backing can occupy that space and provide an arbor anchor; choose its exact diameter rather than copying a generic backing yardage.</p></div>
+<div><h3>Metering is not a line counter</h3><p>Colored sections can help track line in use, but slack, angle, and current can separate line-out from actual lure depth. Do not present the color pattern as a precise depth measurement or a substitute for measuring backing.</p></div></div></div></section>
+
+
+
+  <section class=""rc-section rc-guide-section"" aria-labelledby=""faq-title""><div class=""rc-line-inner""><div class=""rc-section-heading""><h2 id=""faq-title"">JDM PEX8 questions, answered</h2></div><div class=""rc-faq-list""><details>
+    <summary>Is PEX8 a PE size number?</summary>
+    <p>PEX8 is the product name, and the 8 refers to its eight-strand construction in this guide. Select the listed pound-test variant and numeric diameter; do not enter 8 as a PE rating merely because it appears in the name.</p>
+  </details>
+<details>
+    <summary>Why do 16 lb and 18 lb show the same capacity?</summary>
+    <p>Both round to .006 inch in the source, though their published millimeter diameters differ. ReelCalc consistently uses the inch entries, so equal results reflect rounded source precision rather than proving equal physical diameters.</p>
+  </details>
+<details>
+    <summary>Does 33 lb PEX8 replace any other 30 lb braid?</summary>
+    <p>Not automatically. Compare actual diameter and the demands of the setup. A thinner braid may fit more line but handle differently on the spool, particularly under load on a baitcaster.</p>
+  </details></div></div></section>
+
+  <section class=""rc-section rc-sources-section"" id=""sources"" aria-labelledby=""sources-title""><div class=""rc-line-inner""><h2 id=""sources-title"">Specifications &amp; sources</h2><p>Specifications checked against Seaguar's assigned product variants on 2026-09-12. Unassigned package combinations are excluded. Stock and package design can change; use the diameter printed on your own package if it differs.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class=""rc-source-list""><li>
+    <a href=""https://seaguar.com/products/new-jdm-pex8-braid"" target=""_blank"" rel=""noopener"">Official Seaguar JDM PEX8 specifications</a>
+    <small>Product construction, diameter entries, and assigned retail package lengths.</small>
+  </li></ul><p class=""rc-footer-links""><a href=""https://www.reelcalc.com/line-database"">Browse all lines</a><a href=""https://www.reelcalc.com/reel-comparison"">Compare reels</a><a href=""https://stefanellit.github.io/reelcalc-wizard/examples/line-pages/seaguar-jdm-pex8-micro-braid.html#use-this-line"">Back to calculator</a></p></div></section>
+</article>",RCL6E078F467E8CFE447,,,,,,,,,0,,No,Unlimited,/line-guides,reelcalc-line-guide,,,,,No,

@@ -1,0 +1,10 @@
+{
+  "seaguar-tatsu":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Manufacturer chart and selector agree. Published 4 lb diameter corrected in the candidate catalog."]},
+  "seaguar-abrazx":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Manufacturer chart and selector agree; verified 4 lb option added."]},
+  "seaguar-red-label":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["6 lb diameter and 20 lb retail package length checked against chart and assigned SKUs."]},
+  "seaguar-smackdown":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Current Stealth Gray specifications; older packaging differences explicitly noted."]},
+  "seaguar-brawlr":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Launch notice disclosed. No stock, purchase availability, or independent performance guarantee."]},
+  "seaguar-jdm-r18-mainline":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["100 m retail spool retained as manufacturer-rounded 109 yd; exact intermediate strengths preserved."]},
+  "seaguar-jdm-pex8-micro-braid":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["200 m retail spool retained as manufacturer-rounded 219 yd; finesse-specific guidance."]},
+  "seaguar-basix":{"status":"source-conflict","browserAudit":false,"notes":["6 lb selector says .008/.220; chart says .009/.220. 15 lb selector says .013/.330; chart says .014/.350. Not ready to publish or automatically correct until clarified."]}
+}

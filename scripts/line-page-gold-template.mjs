@@ -91,7 +91,7 @@ export function buildGoldLinePage(productId, product, records, helpers) {
   </div></section>
 
   <section class="rc-section rc-guide-section" id="line-guide" aria-labelledby="guide-title"><div class="rc-line-inner">
-    <div class="rc-section-heading"><span class="rc-eyebrow">Choosing your setup</span><h2 id="guide-title">Choosing a ${e(shortName)} strength</h2></div>
+    <div class="rc-section-heading"><span class="rc-eyebrow">Choosing your setup</span><h2 id="guide-title">Choosing your ${e(shortName)} strength</h2></div>
     <div class="rc-strength-guide"><div class="rc-editorial-copy">${strengthGuide}<p class="rc-editorial-note">${e(product.reviewNote)}</p></div><div class="rc-strength-next"><h3>Want a guided recommendation?</h3><a class="rc-inline-link" id="rcStrengthWizard" href="https://www.reelcalc.com/reelcalc-wizard">Continue in the Setup Wizard</a></div></div>
   </div></section>
 

@@ -8,6 +8,13 @@ const frame=document.querySelector('iframe'),report=document.getElementById('rep
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const near=(a,b)=>Math.abs(a-b)<1e-8;
 const checks=[];
+const allProducts = new URLSearchParams(location.search).has('all');
+const productList = allProducts ? fetch('../../data/line-page-products.json').then(r=>r.json()).then(data=>{
+  const items=Object.entries(data.products);
+  const select=document.getElementById('product');select.replaceChildren(...items.map(([id,p])=>new Option(p.h1,id)));
+  document.getElementById('run').textContent='Run all prepared page audits';
+  return items.map(([id])=>id);
+}) : Promise.resolve(['powerpro-spectra','seaguar-invizx','berkley-trilene-xl']);
 let current='';
 function check(name,pass,detail){checks.push({product:current,name,pass:!!pass,...(detail?{detail}: {})});report.textContent=JSON.stringify({running:true,checks},null,2);}
 async function load(url){await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Page load timeout')),20000);frame.onload=()=>{clearTimeout(timer);resolve();};frame.src=url;});for(let i=0;i<100;i++){if(frame.contentWindow.ReelCalcLinePage){await sleep(100);return;}await sleep(100);}throw Error('Page engine failed to load');}
@@ -22,7 +29,7 @@ document.querySelectorAll('[data-section]').forEach(b=>b.onclick=()=>frame.conte
 document.getElementById('run').onclick=async()=>{
  checks.length=0;document.getElementById('run').disabled=true;
  try{
-  for(const id of ['powerpro-spectra','seaguar-invizx','berkley-trilene-xl']){
+  for(const id of await productList){
    current=id;await load(paths(id));
    const w=frame.contentWindow,d=frame.contentDocument,api=w.ReelCalcLinePage,core=w.ReelCalcCore,p=api.state.product;
    const get=id=>d.getElementById(id),lineBy=id=>api.state.lines.find(l=>l.id===id),reelBy=id=>api.state.reels.find(r=>r.id===id);

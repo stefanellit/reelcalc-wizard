@@ -1,0 +1,87 @@
+{
+  "id": "seaguar-jdm-pex8-micro-braid",
+  "model": "JDM PEX8 Micro Braid",
+  "type": "Braid",
+  "url": "https://seaguar.com/products/new-jdm-pex8-braid",
+  "retrievedAt": "2026-09-12T22:11:39.559Z",
+  "dataUrl": "https://seaguar.com/products/new-jdm-pex8-braid.js",
+  "title": "EXCLUSIVE JDM PEX8 Micro Braid",
+  "description": "<p><strong>Seaguar PEX8 Ultra-Sensitive, Micro-Thin, Hi-Vis 8-Strand Braid – Exceptionally Thin Diameter, No Stretch, Strong And Abrasion Resistant – Long Casting – Super Sensitive</strong></p>\n<p>Seaguar PEX8 is an 8-strand multi-colored, smooth braided line with extremely thin diameters – as much as 22% thinner than a typical braided line.</p>\n<p>The line comes in hi-vis passion pink – that’s metered with a contrasting lime green color that allows anglers to see their line more clearly and to recognize their depth when fishing drop shot, FFS, or any finesse applications.</p>\n<p>It’s an exceptional casting line and when you fish this line you need to think a little differently about pound test sizes because this line is so thin.</p>\n<p>It is very sensitive because this is a no-stretch line. This feature helps you feel every tick and light bite that touches your lure.<span class=\"s1\"> </span></p>\n<p>It’s offered in 200-meter spools which is 219 yards and comes in six unique pound test sizes including 12, 16, 18, 21, 24, and 33 lb. tests.</p>\n<p>PEX8 is part of the Seaguar JDM Collection – imported from Japan for tackle junkies, avid anglers, and professional fishermen. The JDM Collection includes fluoro mainline, fluoro leader, and braid selections.</p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0646/6548/5531/files/Prop65-warning_v3_550.png?v=1780670841\" alt=\"\"></p>",
+  "options": [
+    {
+      "name": "LB Test*",
+      "position": 1,
+      "values": [
+        "12 LB .005 in. / .128 mm dia.",
+        "16 LB .006 in. / .148 mm dia.",
+        "18 LB .006 in. / .165 mm dia.",
+        "21 LB .007 in. / .185 mm dia.",
+        "24 LB .008 in. / .205 mm dia.",
+        "33 LB .009 in. / .235 mm dia."
+      ]
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/Seaguar_pkg_jdm-pex8-main_a9b235a6-c5b0-4252-9ae8-9dc249775f84.png?v=1710519201",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/productDetail_jdm-tag_980dfa69-111d-4e00-8669-382efa569722.jpg?v=1710519201",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/IMG_9381_d8e4b4bd-15ae-4fc4-8a41-18866f5de738.jpg?v=1710519201",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/IMG_9376_458cb351-17cb-46d5-be90-550d90035c09.jpg?v=1710519201",
+    "//cdn.shopify.com/s/files/1/0646/6548/5531/files/IMG_9390.jpg?v=1710519201"
+  ],
+  "variants": [
+    {
+      "id": 44897092534491,
+      "sku": "12PEX8219",
+      "title": "12 LB .005 in. / .128 mm dia.",
+      "options": [
+        "12 LB .005 in. / .128 mm dia."
+      ],
+      "available": true
+    },
+    {
+      "id": 44897092567259,
+      "sku": "16PEX8219",
+      "title": "16 LB .006 in. / .148 mm dia.",
+      "options": [
+        "16 LB .006 in. / .148 mm dia."
+      ],
+      "available": true
+    },
+    {
+      "id": 44897092600027,
+      "sku": "18PEX8219",
+      "title": "18 LB .006 in. / .165 mm dia.",
+      "options": [
+        "18 LB .006 in. / .165 mm dia."
+      ],
+      "available": true
+    },
+    {
+      "id": 44897092632795,
+      "sku": "21PEX8219",
+      "title": "21 LB .007 in. / .185 mm dia.",
+      "options": [
+        "21 LB .007 in. / .185 mm dia."
+      ],
+      "available": true
+    },
+    {
+      "id": 44897092665563,
+      "sku": "24PEX8219",
+      "title": "24 LB .008 in. / .205 mm dia.",
+      "options": [
+        "24 LB .008 in. / .205 mm dia."
+      ],
+      "available": true
+    },
+    {
+      "id": 44897092698331,
+      "sku": "33PEX8219",
+      "title": "33 LB .009 in. / .235 mm dia.",
+      "options": [
+        "33 LB .009 in. / .235 mm dia."
+      ],
+      "available": true
+    }
+  ]
+}

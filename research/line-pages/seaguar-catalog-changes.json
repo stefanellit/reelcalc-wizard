@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "seaguar-tatsu-fluorocarbon-4",
+    "old": {
+      "dia_in": 0.007,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        200
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-6",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-8",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-10",
+    "old": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-12",
+    "old": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-15",
+    "old": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-17",
+    "old": {
+      "dia_in": 0.014,
+      "dia_mm": 0.35,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.014,
+      "dia_mm": 0.35,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-20",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-22",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.385,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.385,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-tatsu-fluorocarbon-25",
+    "old": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        200
+      ]
+    },
+    "source": "https://seaguar.com/products/tatsu"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-4",
+    "old": null,
+    "updated": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        200
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-6",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-8",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-10",
+    "old": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-12",
+    "old": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-15",
+    "old": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-17",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-20",
+    "old": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-abrazx-fluorocarbon-25",
+    "old": {
+      "dia_in": 0.017,
+      "dia_mm": 0.435,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.017,
+      "dia_mm": 0.435,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/abrazx"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-4",
+    "old": null,
+    "updated": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        200
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-6",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.185,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.007,
+      "dia_mm": 0.185,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-8",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-10",
+    "old": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-12",
+    "old": {
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-15",
+    "old": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-17",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        200,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-red-label-fluorocarbon-20",
+    "old": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        175,
+        1000
+      ]
+    },
+    "source": "https://seaguar.com/products/red-label"
+  },
+  {
+    "id": "seaguar-smackdown-braid-10",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-smackdown-braid-15",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-smackdown-braid-20",
+    "old": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-smackdown-braid-30",
+    "old": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-smackdown-braid-40",
+    "old": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-smackdown-braid-50",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-smackdown-braid-65",
+    "old": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        150,
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/smackdown"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-2",
+    "old": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        330
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-4",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": [
+        330
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-6",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        330
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-8",
+    "old": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": [
+        330
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-10",
+    "old": {
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "spool_sizes_yd": [
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-12",
+    "old": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": [
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-14",
+    "old": {
+      "dia_in": 0.014,
+      "dia_mm": 0.35,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.014,
+      "dia_mm": 0.35,
+      "spool_sizes_yd": [
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-17",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        300
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-20",
+    "old": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        270
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-25",
+    "old": {
+      "dia_in": 0.019,
+      "dia_mm": 0.47,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.019,
+      "dia_mm": 0.47,
+      "spool_sizes_yd": [
+        270
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-brawlr-monofilament-30",
+    "old": {
+      "dia_in": 0.02,
+      "dia_mm": 0.52,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.02,
+      "dia_mm": 0.52,
+      "spool_sizes_yd": [
+        250
+      ]
+    },
+    "source": "https://seaguar.com/products/brawlr"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-4",
+    "old": {
+      "dia_in": 0.007,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.007,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-5",
+    "old": {
+      "dia_in": 0.007,
+      "dia_mm": 0.185,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.007,
+      "dia_mm": 0.185,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-6",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-7",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.22,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.22,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-8",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-10",
+    "old": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-12",
+    "old": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-14",
+    "old": {
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-16",
+    "old": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline-fluorocarbon-20",
+    "old": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.015,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        109
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-r18"
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid-braid-12",
+    "old": {
+      "dia_in": 0.005,
+      "dia_mm": 0.128,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.005,
+      "dia_mm": 0.128,
+      "spool_sizes_yd": [
+        219
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-pex8-braid"
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid-braid-16",
+    "old": {
+      "dia_in": 0.006,
+      "dia_mm": 0.148,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.006,
+      "dia_mm": 0.148,
+      "spool_sizes_yd": [
+        219
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-pex8-braid"
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid-braid-18",
+    "old": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.006,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        219
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-pex8-braid"
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid-braid-21",
+    "old": {
+      "dia_in": 0.007,
+      "dia_mm": 0.185,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.007,
+      "dia_mm": 0.185,
+      "spool_sizes_yd": [
+        219
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-pex8-braid"
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid-braid-24",
+    "old": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "spool_sizes_yd": [
+        219
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-pex8-braid"
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid-braid-33",
+    "old": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": []
+    },
+    "updated": {
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "spool_sizes_yd": [
+        219
+      ]
+    },
+    "source": "https://seaguar.com/products/new-jdm-pex8-braid"
+  }
+]
