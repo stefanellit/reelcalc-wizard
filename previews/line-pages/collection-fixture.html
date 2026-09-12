@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Line collection routing fixture</title>
+<style>body{font:16px Arial;margin:24px}.product-list-item-price,button{padding:12px}</style>
+</head><body><main><h1>Guide directory fixture</h1><div data-reelcalc-guide-list><h2>Spinning Reel Guides</h2><p>Existing reel guide content remains available.</p></div><article class="tag-reelcalc-line-guide"><div class="product-list-item-price">$0.00</div><button class="sqs-add-to-cart-button">Add to cart</button></article></main>
+<script>
+const assetBase = new URL('../../', location.href).href;
+const requestedPath = new URLSearchParams(location.search).get('path') || '/lines';
+history.replaceState(null, '', requestedPath);
+const loader=document.createElement('script');
+loader.src=new URL('js/squarespace-reel-page-loader.js',assetBase).href;
+loader.dataset.assetBase=assetBase;
+document.head.appendChild(loader);
+</script></body></html>

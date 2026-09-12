@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Line guide collection checks</title><style>body{font:14px Arial}iframe{width:390px;height:650px}pre{white-space:pre-wrap}</style></head><body><button id="run">Run collection checks</button><pre id="report">Ready</pre><iframe title="Collection check"></iframe>
+<script>
+const frame=document.querySelector('iframe'),report=document.querySelector('#report'),checks=[];
+const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+function check(name,pass){checks.push({name,pass:!!pass});}
+async function until(fn){for(let i=0;i<200;i++){if(fn())return;await pause(50);}throw Error('Timed out');}
+async function load(path){frame.src='./collection-fixture.html?path='+encodeURIComponent(path);await new Promise(resolve=>frame.onload=resolve);}
+document.querySelector('#run').onclick=async()=>{
+document.querySelector('#run').disabled=true;checks.length=0;
+try {
+for(const path of ['/lines','/lines/line-guides','/lines/braid/other/']) {
+await load(path);await until(()=>frame.contentDocument.querySelector('link[data-line-guide-host-css]')?.sheet);
+const d=frame.contentDocument;
+check(path+': collection recognized',d.body.classList.contains('reelcalc-line-collection'));
+check(path+': price and cart hidden',!d.querySelector('.product-list-item-price').getClientRects().length&&!d.querySelector('.sqs-add-to-cart-button').getClientRects().length);
+}
+await load('/fishing-line-setup-guides');await until(()=>frame.contentDocument.querySelector('#reelcalc-line-guide-directory'));
+const d=frame.contentDocument;
+check('Three published line guides listed',d.querySelectorAll('#reelcalc-line-guide-directory li a').length===3);
+check('Reel directory preserved',d.querySelector('[data-reelcalc-guide-list]').textContent.includes('Existing reel guide content'));
+check('All-guide directory link exists',d.querySelector('#reelcalc-line-guide-directory > a').getAttribute('href')==='/lines');
+await frame.contentWindow.ReelCalcSquarespaceLinePages.initialize({base:new URL('../../',location.href).href});
+check('No duplicate directory on repeat initialization',d.querySelectorAll('#reelcalc-line-guide-directory').length===1);
+for(const width of [320,390,768,1280]){frame.style.width=width+'px';await pause(80);check('Directory fits '+width,d.documentElement.scrollWidth<=d.documentElement.clientWidth);}
+await load('/ordinary-shop');await pause(500);
+check('Unrelated store is unchanged',!frame.contentDocument.body.classList.contains('reelcalc-line-collection')&&frame.contentDocument.querySelector('.sqs-add-to-cart-button').getClientRects().length>0);
+report.textContent=JSON.stringify({passed:checks.every(c=>c.pass),count:checks.length,checks},null,2);
+}catch(error){report.textContent=JSON.stringify({passed:false,error:String(error),checks},null,2);}
+document.querySelector('#run').disabled=false;
+};
+</script></body></html>

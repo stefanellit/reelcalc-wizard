@@ -622,16 +622,17 @@
 
     // Line guides use the same sitewide installation, but a separate page renderer.
     var lineDetail = document.querySelector(".product-detail.tag-reelcalc-line-guide, .ProductItem.tag-reelcalc-line-guide");
-    if (lineDetail || /^\/lines(?:\/p\/[^/]+)?\/?$/.test(location.pathname)) {
+    if (lineDetail || /^\/lines(?:\/|$)/.test(location.pathname) ||
+        location.pathname.replace(/\/+$/, "") === "/fishing-line-setup-guides") {
       if (lineDetail) lineDetail.classList.add("reelcalc-imported-line-guide");
       if (!document.querySelector("link[data-line-guide-host-css]")) {
         var lineStyle = document.createElement("link");
         lineStyle.rel = "stylesheet";
-        lineStyle.href = assetUrl("css/squarespace-line-page.css?v=2");
+        lineStyle.href = assetUrl("css/squarespace-line-page.css?v=3");
         lineStyle.dataset.lineGuideHostCss = "true";
         document.head.appendChild(lineStyle);
       }
-      loadScript("js/squarespace-line-page-loader.js?v=2", "ReelCalcSquarespaceLinePages").then(function(pages) {
+      loadScript("js/squarespace-line-page-loader.js?v=3", "ReelCalcSquarespaceLinePages").then(function(pages) {
         return pages.initialize({ base: assetBase.href, slug: loaderScript.dataset.pageSlug });
       }).catch(function(error) {
         console.warn("ReelCalc line guide could not load. The imported guide remains available.", error);

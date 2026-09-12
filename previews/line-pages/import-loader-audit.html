@@ -34,6 +34,22 @@ document.querySelector('#run').onclick=async()=>{
    check(id+': repeated initialization does not remount',w.qa.requests.length===before&&d.querySelectorAll('#rcStrength').length===1);
    check(id+': host link style unchanged',w.getComputedStyle(d.querySelector('#host-header a')).color==='rgb(147, 22, 84)');
    check(id+': no uncaught errors',w.qa.errors.length===0,w.qa.errors);
+   if(id==='berkley-trilene-xl') {
+    // Use a real URL for interaction tests so history updates are exercised too.
+    frame.removeAttribute('srcdoc');
+    const loaded=new Promise(resolve=>frame.onload=resolve);
+    frame.src=new URL(id+'-imported.html',fixtureBase).href;await loaded;
+    await until(()=>frame.contentDocument.querySelector('[data-line-page-ready="true"]'));
+    const testDoc=frame.contentDocument,testWin=frame.contentWindow;
+    function select(id,label){const n=testDoc.getElementById(id);n.value=[...n.options].find(o=>o.textContent.includes(label)).value;n.dispatchEvent(new testWin.Event('change',{bubbles:true}));}
+    select('rcReelBrand','Shimano');select('rcReelModel','Vanford A');select('rcReelSize','2500HGA');
+    testDoc.getElementById('rcCalculate').click();testDoc.getElementById('rcBackingModeButton').click();
+    check('First backing-mode switch does not reuse rounded full capacity',Number(testDoc.getElementById('rcWorkingYards').value)<=172.8&&!testDoc.getElementById('rcResults').textContent.includes('Plan exceeds capacity'));
+    testDoc.getElementById('rcWorkingYards').value='100';testDoc.getElementById('rcWorkingYards').dispatchEvent(new testWin.Event('input',{bubbles:true}));
+    testDoc.getElementById('rcBackingModeButton').click();testDoc.getElementById('rcBackingModeButton').click();
+    check('User working length survives a capacity-mode round trip',testDoc.getElementById('rcWorkingYards').value==='100');
+    check('Mode-switch URL retains working length',new URL(testWin.location.href).searchParams.get('mainYards')==='100');
+   }
   }
   for(const failure of ['data/line-page-imports.json','js/line-page-loader.js','components/line-pages/']){
    await load({failure});await until(()=>frame.contentDocument.querySelector('[role="alert"] button'));

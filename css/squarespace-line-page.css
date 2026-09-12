@@ -41,3 +41,10 @@
 .reelcalc-line-collection .tag-reelcalc-line-guide .product-price,
 .reelcalc-line-collection .tag-reelcalc-line-guide .product-list-item-add-to-cart,
 .reelcalc-line-collection .tag-reelcalc-line-guide .sqs-add-to-cart-button { display: none !important; }
+
+#reelcalc-line-guide-directory { padding: 0 0 28px; margin: 0 0 28px; border-bottom: 1px solid #d8dfe1; }
+#reelcalc-line-guide-directory h2 { font-size: 26px; line-height: 1.25; letter-spacing: 0; }
+#reelcalc-line-guide-directory p { margin: 12px 0; }
+#reelcalc-line-guide-directory ul { padding-left: 22px; margin: 16px 0; }
+#reelcalc-line-guide-directory li { margin: 10px 0; overflow-wrap: anywhere; }
+#reelcalc-line-guide-directory a { color: #1b5367; text-decoration: underline; text-underline-offset: 3px; }

@@ -3,12 +3,13 @@
   if (global.ReelCalcSquarespaceLinePages) return;
   var active = new WeakMap();
   var renderer;
+  var directory;
 
   function stylesheet(base) {
     if (document.querySelector("link[data-line-guide-host-css]")) return;
     var link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = new URL("css/squarespace-line-page.css?v=2", base).href;
+    link.href = new URL("css/squarespace-line-page.css?v=3", base).href;
     link.dataset.lineGuideHostCss = "true";
     document.head.appendChild(link);
   }
@@ -76,10 +77,60 @@
     });
   }
 
+  function initializeDirectory(base) {
+    var mount = document.querySelector("[data-reelcalc-guide-list]");
+    if (!mount) return Promise.resolve(false);
+    if (directory) return directory;
+    stylesheet(base);
+    directory = (async function() {
+      try {
+        var controller = new AbortController();
+        var timeout = setTimeout(function() { controller.abort(); }, 15000);
+        var data;
+        try {
+          data = await Promise.all(["data/line-page-release.json", "data/line-page-imports.json"].map(async function(path) {
+            var response = await fetch(new URL(path, base).href, { cache: "no-cache", credentials: "omit", signal: controller.signal });
+            if (!response.ok) throw new Error("Line directory unavailable.");
+            return response.json();
+          }));
+        } finally { clearTimeout(timeout); }
+        var published = new Set(data[0].publishedProducts || []);
+        var entries = Object.values(data[1].pages || {}).filter(function(entry) { return published.has(entry.id); });
+        if (!entries.length) return false;
+        var section = document.createElement("section");
+        section.id = "reelcalc-line-guide-directory";
+        section.setAttribute("aria-labelledby", "reelcalc-line-guide-directory-title");
+        var heading = document.createElement("h2");
+        heading.id = "reelcalc-line-guide-directory-title";
+        heading.textContent = "Fishing Line Model Guides";
+        var intro = document.createElement("p");
+        intro.textContent = "Start with your line model to compare published diameters, estimate reel capacity, and plan optional backing.";
+        var list = document.createElement("ul");
+        entries.forEach(function(entry) {
+          var item = document.createElement("li"), link = document.createElement("a");
+          link.href = entry.url; link.textContent = entry.title;
+          item.appendChild(link); list.appendChild(item);
+        });
+        var more = document.createElement("a");
+        more.href = "/lines"; more.textContent = "Browse all line guides";
+        section.append(heading, intro, list, more);
+        // The existing directory grows in normal flow inside its Squarespace code block.
+        mount.insertAdjacentElement("beforebegin", section);
+        return true;
+      } catch (error) {
+        directory = null;
+        console.warn("ReelCalc line directory:", error.message);
+        return false;
+      }
+    })();
+    return directory;
+  }
+
   function initialize(options) {
     var base = new URL(options.base, document.baseURI).href;
     var pathname = location.pathname.replace(/\/+$/, "");
-    if (pathname === "/lines") {
+    if (pathname === "/fishing-line-setup-guides") return initializeDirectory(base);
+    if (/^\/lines(?:\/|$)/.test(pathname) && !/^\/lines\/p(?:\/|$)/.test(pathname)) {
       document.body.classList.add("reelcalc-line-collection"); stylesheet(base); return Promise.resolve(true);
     }
     var detail = document.querySelector(".product-detail, .ProductItem");
@@ -110,6 +161,8 @@
         var api = await loadRenderer(base);
         var result = await api.mount({ base: base, product: entry.id, target: host.id });
         if (result) {
+          var directoryLink = host.querySelector(".rc-breadcrumbs a:nth-of-type(2)");
+          if (directoryLink) directoryLink.href = "/lines";
           var title = host.querySelector(".rc-product-title");
           if (title && title.tagName !== "H1") {
             var heading = document.createElement("h1");

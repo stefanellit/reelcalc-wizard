@@ -1,4 +1,5 @@
 {
-  "version": "2",
-  "products": ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"]
+  "version": "3",
+  "products": ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"],
+  "publishedProducts": ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"]
 }

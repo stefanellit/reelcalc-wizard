@@ -218,6 +218,8 @@
           setSuggestedWorkingAmount(true);
         } else if (state.savedWorkingYards > 0) {
           el.workingYards.value = cleanNumber(state.savedWorkingYards, 1);
+        } else {
+          setSuggestedWorkingAmount(true);
         }
         updateBackingMode();
         refreshCalculationIfVisible();
