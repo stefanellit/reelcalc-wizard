@@ -2,9 +2,17 @@
 
 This replaces the earlier instructions to create three blog posts and paste snippets.
 
+## Current Status: Published September 12, 2026
+
+All three guides have been imported, reviewed in Squarespace, and made public. The `/lines` collection is enabled. Native SEO titles, descriptions, and listing images are saved. The existing Fishing Line Setup Guides directory now links to these guides automatically.
+
+**Do not import this CSV again.** The instructions below are retained as the procedure used for this first batch, not remaining work. Shared updates are deployed through GitHub. New models still require a new-pages-only import and publication before adding their IDs to `publishedProducts` in `data/line-page-release.json`.
+
+Launch checks and limitations are recorded in `reports/line-page-live-launch-2026-09-12.md`.
+
 ## Before Importing
 
-1. Have Codex publish the reviewed GitHub release first. The existing sitewide reel-page loader now recognizes line guides too. Do not install a second copy of that loader. Nothing has been pushed or imported yet.
+1. Publish the reviewed GitHub release first. The existing sitewide reel-page loader recognizes line guides too. Do not install a second copy of that loader. This step is complete for the first three guides.
 2. In Squarespace **Pages**, create a **Store** page named **Line Guides**, under **Not Linked**. Set its URL slug to **lines**. This is the same product-import method used for the reel pages; shared code makes the detail pages look like guides instead of a shop.
 3. If `/lines` already belongs to a blog or another page, stop and tell Codex. Do not delete an existing page or change its address without checking links first.
 4. In that store's product categories, add **Line Guides** with category slug **line-guides**. The CSV category is `/line-guides`. The collection and category must exist before importing.
