@@ -1,0 +1,128 @@
+[
+  {
+    "id": "seaguar-tatsu",
+    "description": "See Seaguar Tatsu diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar Tatsu Fluorocarbon"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar Tatsu fluorocarbon retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar Tatsu Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  },
+  {
+    "id": "seaguar-abrazx",
+    "description": "See Seaguar AbrazX diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar AbrazX Fluorocarbon"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar AbrazX fluorocarbon retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar AbrazX Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  },
+  {
+    "id": "seaguar-red-label",
+    "description": "See Seaguar Red Label diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar Red Label Fluorocarbon"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar Red Label fluorocarbon retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar Red Label Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  },
+  {
+    "id": "seaguar-smackdown",
+    "description": "See Seaguar Smackdown diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar Smackdown Braid"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar Smackdown braid retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar Smackdown Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  },
+  {
+    "id": "seaguar-brawlr",
+    "description": "See Seaguar BRAWLR diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar BRAWLR Monofilament"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar BRAWLR monofilament retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar BRAWLR Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  },
+  {
+    "id": "seaguar-jdm-r18-mainline",
+    "description": "See Seaguar JDM R18 diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar JDM R18 Fluorocarbon"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar JDM R18 Mainline fluorocarbon retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar JDM R18 Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  },
+  {
+    "id": "seaguar-jdm-pex8-micro-braid",
+    "description": "See Seaguar JDM PEX8 diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+    "headings": [
+      "Seaguar JDM PEX8 Braid"
+    ],
+    "images": [
+      {
+        "alt": "Seaguar JDM PEX8 Micro Braid braid retail package",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "title": "Seaguar JDM PEX8 Diameter & Reel Capacity | ReelCalc",
+    "ready": true,
+    "calculators": 1,
+    "hasCommerce": false
+  }
+]

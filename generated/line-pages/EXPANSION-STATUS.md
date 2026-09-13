@@ -3,8 +3,8 @@
 The full catalog expansion is not finished. No remaining model has been silently dropped.
 
 - Main database: 138 models, now 1,009 strength records after two source-verified additions.
-- Published: the original PowerPro Spectra, Seaguar InvizX, and Berkley Trilene XL guides.
-- Newly built and locally audited: seven Seaguar guides covering 61 strength records.
+- Published: ten guides, including the original PowerPro Spectra, Seaguar InvizX, and Berkley Trilene XL guides plus the seven Seaguar guides below.
+- Newly published: seven Seaguar guides covering 61 strength records; public pages verified after import.
 - Remaining models without a completed page: 128, including BasiX, which has conflicting manufacturer specifications.
 - Additional PE-only names: 39, tracked separately until product identity, regional ratings, and diameter sources are reconciled.
 - Nine leader-only models need leader-specific pages, not the full-spool main-line flow.
@@ -15,7 +15,7 @@ Tatsu, AbrazX, Red Label, Smackdown, BRAWLR, JDM R18 Mainline, and JDM PEX8 Micr
 
 Each has the approved layout, actual package image, model-specific guidance, diameter chart, exact selection links, and shared calculator. BRAWLR's launch status is disclosed. Smackdown uses the current Stealth Gray chart and notes that older package diameters may differ. The JDM pages preserve metric retail lengths and unusual pound-test labels.
 
-`UPLOAD-THIS-7-new-line-guides.csv` is a prepared batch, NOT the complete remaining catalog. Do not import it as though all 135 remaining models are included. Its pages are hidden on import, and the original three published guides are excluded. It can be regenerated into one larger file as subsequent verified pages are completed.
+`UPLOAD-THIS-7-new-line-guides.csv` has been imported successfully. DO NOT import it again: it is create-only and would duplicate the seven published guides. The next requested batch is ten preview-only guides for review, not the entire catalog.
 
 Keep `publishedProducts` restricted to guides that actually exist publicly in Squarespace. Hosted assets and generated CSV files alone do not publish a page.
 
@@ -28,7 +28,7 @@ Keep `publishedProducts` restricted to guides that actually exist publicly in Sq
 - Fifteen collection checks passed, including keeping the seven unpublished guides out of the directory and retaining cart/price hiding.
 - Manufacturer source snapshots and the exact catalog changes are retained under `research/line-pages/`.
 
-These checks validate calculations, interactions, and the recorded source comparison. They are not physical spool tests or proof that every underlying reel specification is correct. A live Squarespace layout/link check remains necessary after importing new guides.
+These checks validate calculations, interactions, and the recorded source comparison. They are not physical spool tests or proof that every underlying reel specification is correct. The seven imported pages have also passed public desktop checks for images, calculator loading, metadata, and removal of commerce controls.
 
 The source-backed catalog changes include Tatsu 4 lb (.007 to .006 inch), Red Label 6 lb (.008 to .007 inch), and newly added 4 lb AbrazX and Red Label entries. Both current manufacturer charts and selectors support those changes. BasiX was deliberately left unchanged because its sources conflict.
 

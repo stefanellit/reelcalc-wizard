@@ -1,8 +1,12 @@
 {
-  "importFile": "generated/line-pages/UPLOAD-THIS-7-new-line-guides.csv",
-  "count": 7,
+  "importFile": null,
+  "count": 0,
   "visibility": "hidden",
-  "includedProducts": [
+  "includedProducts": [],
+  "excludedPublished": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl",
     "seaguar-tatsu",
     "seaguar-abrazx",
     "seaguar-red-label",
@@ -10,11 +14,6 @@
     "seaguar-brawlr",
     "seaguar-jdm-r18-mainline",
     "seaguar-jdm-pex8-micro-braid"
-  ],
-  "excludedPublished": [
-    "powerpro-spectra",
-    "seaguar-invizx",
-    "berkley-trilene-xl"
   ],
   "previews": [
     {

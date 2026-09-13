@@ -1,5 +1,5 @@
 {
-  "version": "4",
+  "version": "5",
   "products": [
     "powerpro-spectra",
     "seaguar-invizx",
@@ -15,6 +15,13 @@
   "publishedProducts": [
     "powerpro-spectra",
     "seaguar-invizx",
-    "berkley-trilene-xl"
+    "berkley-trilene-xl",
+    "seaguar-tatsu",
+    "seaguar-abrazx",
+    "seaguar-red-label",
+    "seaguar-smackdown",
+    "seaguar-brawlr",
+    "seaguar-jdm-r18-mainline",
+    "seaguar-jdm-pex8-micro-braid"
   ]
 }
