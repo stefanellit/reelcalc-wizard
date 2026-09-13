@@ -1,0 +1,982 @@
+{
+  "postFix": {
+    "appliedAt": "2026-09-13T15:10:30.954Z",
+    "reviewStatus": "complete-with-enforced-row-exclusions",
+    "group": "group-d",
+    "beforePackSha256": "7337035193a5f30a5d55fe14728f58a6ac4c29bde137af85d7ebba73bd017096",
+    "afterPackSha256": "45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd",
+    "activeRows": 172,
+    "manufacturerConflictsResolved": false,
+    "remainingUnmitigatedCriticalFindings": [],
+    "heldRows": [
+      {
+        "modelId": "gamma-torque-braid",
+        "lb": 6,
+        "lineId": "gamma-torque-braid-braid-6"
+      },
+      {
+        "modelId": "cortland-fluorocarbon-leader",
+        "lb": 50,
+        "lineId": "cortland-fluorocarbon-leader-fluorocarbon-leader-50"
+      }
+    ],
+    "resolutions": [
+      {
+        "findingId": "D-SOURCE-01",
+        "status": "mitigated-by-row-exclusion",
+        "modelId": "gamma-torque-braid",
+        "note": "6 lb removed from numeric extraction and active pack rows; stable excluded ID, raw held row, original conflicting claims and explicit caption retained. Default20 lb/600 yd and examples remain supported."
+      },
+      {
+        "findingId": "D-SOURCE-02",
+        "status": "mitigated-by-row-exclusion",
+        "modelId": "cortland-fluorocarbon-leader",
+        "note": "50 lb removed from numeric extraction and active pack rows. Both50-lb and prior15-lb exclusion IDs retained. Caption/source copy state the unresolved pair;10 lb/30 yd default and empty leader examples remain."
+      },
+      {
+        "findingId": "D-IMG-03",
+        "status": "addressed-with-caption-and-source-note",
+        "modelId": "gamma-edge-fluorocarbon",
+        "note": "100-yard diameter/package retained;92M photo versus90M table discrepancy explicitly described."
+      },
+      {
+        "findingId": "D-IMG-04",
+        "status": "addressed-with-caption",
+        "modelId": "maxima-clear",
+        "note": "Leader Wheel illustration is explicitly excluded from mainline package scope."
+      },
+      {
+        "findingId": "D-ANOMALY-01",
+        "status": "advisory-clarified",
+        "modelId": "maxima-crystal-ivory",
+        "note": "Repeated original-source values remain; source copy states lack of independent label corroboration and that repetition does not prove an error."
+      },
+      {
+        "findingId": "D-ANOMALY-02",
+        "status": "advisory-clarified",
+        "modelId": "maxima-fluorocarbon",
+        "note": "Repeated original-source values remain without a guessed correction; limits of package corroboration stated."
+      }
+    ],
+    "changedModels": [
+      "cortland-fluorocarbon-leader",
+      "gamma-edge-fluorocarbon",
+      "gamma-torque-braid",
+      "maxima-clear",
+      "maxima-crystal-ivory",
+      "maxima-fluorocarbon"
+    ],
+    "reviewedModelHashes": [
+      {
+        "modelId": "cortland-fluorocarbon-leader",
+        "sha256": "34f6d05b364f63e970de1bdd3f3e942f8bf2fd9bead7b91499d5e2efef18a373"
+      },
+      {
+        "modelId": "gamma-edge-fluorocarbon",
+        "sha256": "0ff2e9b4832bde523941be8fa164d6d59de0a816fe77761031089eaddd849d27"
+      },
+      {
+        "modelId": "gamma-torque-braid",
+        "sha256": "d3343aec54c2f945be250731aa6a955eca4636ad2c75e722debb670dd85c4218"
+      },
+      {
+        "modelId": "maxima-clear",
+        "sha256": "9d58505b58b393d70b560ecfa514682dd3ceb4bd19e47935db129353f15d8199"
+      },
+      {
+        "modelId": "maxima-crystal-ivory",
+        "sha256": "a73be5c69417fac6c61b8b6e25d76cf955d38f2a314589b4469e2963538c1111"
+      },
+      {
+        "modelId": "maxima-fluorocarbon",
+        "sha256": "6d5af899bd0624bfd2572076ea60ce510c939e63fea8c47c090fcc0b06fe63ee"
+      }
+    ],
+    "validationFile": "research/line-pages/full-catalog/group-d/source-review-fix-validation.json",
+    "tests": {
+      "command": "node research/line-pages/full-catalog/group-d/source-review-holds.test.mjs",
+      "passed": 6,
+      "failed": 0,
+      "runnerNote": "node --test could not spawn its Windows child process (EPERM); the same node:test file ran successfully directly, twice."
+    },
+    "sourceBuilderFiles": [
+      "research/line-pages/full-catalog/group-d/source-review-holds.json",
+      "research/line-pages/full-catalog/group-d/source-review-holds.mjs",
+      "research/line-pages/full-catalog/group-d/extract.py",
+      "research/line-pages/full-catalog/group-d/assemble.mjs",
+      "research/line-pages/full-catalog/group-d/editorial.mjs",
+      "research/line-pages/full-catalog/group-d/finish-leaders-holds.mjs"
+    ],
+    "guardrails": "Second targeted rebuild preserved model content. All unrelated Group D models, including every P-Line object, remained unchanged. Group Main was not edited or rebuilt here; its Vanish/X5 caption changes are main-owned. No shared files, releases, commits, browser operations or publication.",
+    "historicalReviewNote": "The original review findings and pack/model hashes below remain as the pre-fix audit record. This postFix section identifies the remediated Group D packet."
+  },
+  "reviewStatus": "complete",
+  "reviewedAt": "2026-09-13T14:59:35.237Z",
+  "scope": "Independent source/identity/region/evidence/editorial/image QA. Read-only group-main and group-d packs/assets. Excludes all P-Line models and repeated numeric mechanical/engine audit. Only this JSON and companion Markdown may be written.",
+  "packs": [
+    {
+      "group": "group-main",
+      "sha256": "e1d13c81750ad95b6cc21b81ef186f21235e93af506403758e1171acb2739730",
+      "checkedAt": "2026-09-13T13:58:12.733Z",
+      "reviewedAt": "2026-09-13T14:59:35.237Z",
+      "path": "research/line-pages/full-catalog/group-main/pack.json"
+    },
+    {
+      "group": "group-d",
+      "sha256": "7337035193a5f30a5d55fe14728f58a6ac4c29bde137af85d7ebba73bd017096",
+      "checkedAt": "2026-09-13T14:50:00.872Z",
+      "reviewedAt": "2026-09-13T14:59:35.237Z",
+      "path": "research/line-pages/full-catalog/group-d/pack.json"
+    }
+  ],
+  "models": [
+    {
+      "modelId": "berkley-trilene-big-game",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US quarter-pound Big Game; exact SKU/model-code EU diameter matches, not pound-test-only regional merging.",
+      "numericAndPackageEvidence": "Sampled SKU 1068346/BGQS10C-15 agrees in US/EU identity and 1500-yard length. SKU 1068358 25-lb diameter reversal is explicitly excluded. Seven supported rows remain.",
+      "editorial": "Nylon/mainline guidance is conservative; large supply spools are not fill targets.",
+      "image": "Green quarter-spool photo names Trilene Big Game Mono; no false strength label.",
+      "evidenceFiles": [
+        "research/line-pages/sources/berkley/eu-trilene-big-game-monofilament-1285546.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-main",
+      "packPointer": "/models/0",
+      "modelSha256": "74d5bcff0191c3a4fff99a68caaec2f4010ddc43fe34ba80fcb9499569e39b34",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+        "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-bulk-spool",
+        "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/trilene-big-game-monofilament-quarter-pound-spool.json",
+        "research/line-pages/sources/berkley/trilene-big-game-monofilament-bulk-spool.json",
+        "research/line-pages/sources/berkley/eu-trilene-big-game-monofilament-1285546.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "berkley-vanish",
+      "reviewStatus": "pass-with-note",
+      "identityAndRegion": "US Vanish bulk fluorocarbon mainline, not Vanish Leader or coated nylon.",
+      "numericAndPackageEvidence": "Live US bulk choices and saved SKU 1564095,1564103,1564104 records corroborate scoped packages, including 1700-yard 60 lb. Stock status is not a catalog exclusion.",
+      "editorial": "Bulk scope prominent; no independent performance test claimed.",
+      "image": "Genuine Vanish Easy Casting 100% Fluorocarbon family image, but filler package is shown for bulk-chart scope. Caption should identify that difference.",
+      "evidenceFiles": [
+        "research/line-pages/sources/berkley/vanish-bulk-spool.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-main",
+      "packPointer": "/models/3",
+      "modelSha256": "a8b1d381b8dcaee6c97cb4986ac9f2bbf972fae12e2736603f97f9c821e05489",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/vanish-filler-spool",
+        "https://www.berkley-fishing.com/products/vanish-bulk-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/vanish-filler-spool.json",
+        "research/line-pages/sources/berkley/vanish-bulk-spool.json"
+      ],
+      "findingIds": [
+        "MAIN-IMG-01"
+      ]
+    },
+    {
+      "modelId": "berkley-x5-braid",
+      "reviewStatus": "pass-with-note",
+      "identityAndRegion": "US Low Vis Green X5 exact-SKU EU diameter evidence.",
+      "numericAndPackageEvidence": "Sampled SKU 1486712/X5BFS8-22 and1486731/X5B33080-22 match US/EU model code, strength, color and actual length. 80-lb long filler is274 yards, not an inferred330 yards from model code.",
+      "editorial": "Five-carrier identity and source scope are explicit; cover claims not generalized to light tackle.",
+      "image": "Actual X5 five-carrier package; Crystal photo differs from Low Vis Green-only numeric scope. Explicit color caption recommended.",
+      "evidenceFiles": [
+        "research/line-pages/sources/berkley/eu-x5-braid-1454441.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-main",
+      "packPointer": "/models/6",
+      "modelSha256": "04709ac69002e06a4d79e590ba280950f5b1bf2ab7dc926d80fbf25aa52ccf00",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+        "https://www.berkley-fishing.com/products/x5-braid-bulk-spool",
+        "https://berkleyfishing.eu/products/x5-braid-1454441"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/x5-braid-filler-spool.json",
+        "research/line-pages/sources/berkley/x5-braid-bulk-spool.json",
+        "research/line-pages/sources/berkley/eu-x5-braid-1454441.json"
+      ],
+      "findingIds": [
+        "MAIN-IMG-02"
+      ]
+    },
+    {
+      "modelId": "berkley-x9-braid",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US Crystal/Low Vis Green X9 exact-SKU EU diameter evidence.",
+      "numericAndPackageEvidence": "Sampled SKU 1486883/X9BFS8-CY and1486904/X9B330100-CY match US/EU identity. 100-lb package is219 yards, not an inferred330.",
+      "editorial": "Nine-carrier PE identity; no equivalence inferred from nearby regional strength labels.",
+      "image": "Actual Crystal X9 nine-carrier package, in the reviewed color scope.",
+      "evidenceFiles": [
+        "research/line-pages/sources/berkley/eu-x9-braid-1454442.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-main",
+      "packPointer": "/models/5",
+      "modelSha256": "2cf498c312a0e0a4d6666e5f8f0e9a42a6331a66ba59a8eb96083d7ee9d3eb87",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+        "https://www.berkley-fishing.com/products/x9-braid-bulk-spool",
+        "https://berkleyfishing.eu/products/x9-braid-1454442"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/x9-braid-filler-spool.json",
+        "research/line-pages/sources/berkley/x9-braid-bulk-spool.json",
+        "research/line-pages/sources/berkley/eu-x9-braid-1454442.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "cortland-master-braid",
+      "reviewStatus": "pass",
+      "identityAndRegion": "Current US White Master Braid only; excludes metered and other-color products.",
+      "numericAndPackageEvidence": "Official chart explicitly separates strength, mono-equivalent, diameter and carrier count. Live table supports4/6/8/12-carrier transitions and5-200 lb range; saved White variants tie packages to strength.",
+      "editorial": "White-only scope and construction transitions prominently explained; performance claims attributed.",
+      "image": "Actual White Master Braid package; pictured small spool30 lb/150 yd is in scope.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/cortland-master.html"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/0",
+      "modelSha256": "51d24947028e21d63884fc19113bc577db6b6f209fbc0833ca3594dc0b7b2ef1",
+      "sourceUrls": [
+        "https://www.cortlandline.com/products/master-braid-white"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/cortland-master.html",
+        "research/line-pages/full-catalog/group-d/sources/cortland-master.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/cortland-master.parsed.json",
+        "research/line-pages/full-catalog/group-d/sources/cortland-products.json",
+        "research/line-pages/full-catalog/group-d/cortland-master-braid.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/cortland-master-braid.image-evidence.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "cortland-fluorocarbon-leader",
+      "reviewStatus": "critical-row-hold",
+      "identityAndRegion": "Ordinary Cortland Fluorocarbon Leader Material, not XTR or Top Secret tippet.",
+      "numericAndPackageEvidence": "Live strength-specific table supports30/100-yard documented range even though current feed has only three strengths.50-lb-associated photo metric conflict is newly identified.",
+      "editorial": "Leader-only copy,16-lb identity and no-live-stock promise are appropriate.",
+      "image": "Actual ordinary leader photo, with a conflict on the rear spool and valid16-lb identification on front.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/cortland-leader.html"
+      ],
+      "criticalHolds": [
+        "D-SOURCE-02"
+      ],
+      "group": "group-d",
+      "packPointer": "/models/2",
+      "modelSha256": "578bccbd79eaad1bab5ecdaa05d70a59b2ab89f69fb99e1afec698a04cab72cb",
+      "sourceUrls": [
+        "https://www.cortlandline.com/products/fluorocarbon-leader-material"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/cortland-leader.html",
+        "research/line-pages/full-catalog/group-d/sources/cortland-leader.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/cortland-leader.parsed.json",
+        "research/line-pages/full-catalog/group-d/sources/cortland-products.json",
+        "research/line-pages/full-catalog/group-d/cortland-fluorocarbon-leader.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/cortland-fluorocarbon-leader.image-evidence.json"
+      ],
+      "findingIds": [
+        "D-SOURCE-02"
+      ]
+    },
+    {
+      "modelId": "gamma-edge-fluorocarbon",
+      "reviewStatus": "pass-with-note",
+      "identityAndRegion": "US Clear Edge100% fluorocarbon mainline, distinct from Touch and dedicated leader.",
+      "numericAndPackageEvidence": "Raw manufacturer table labels US Size separately from Actual Break Strength. FGE12-11 table and image agree12 lb/.013 in/.33mm/100 yd; package photograph says92 M while table says90 M.",
+      "editorial": "Practical guidance preserves14/16-lb identities and treats50-yard Pony as limited working stock, not guaranteed fill.",
+      "image": "Actual Edge FGE12-11 image. Yard length and diameter agree; note alternate printed meter label.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/gamma-edge-fluorocarbon.numeric-evidence.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/4",
+      "modelSha256": "f6c689e75ddfd1cfffe0f8e26a15347c72cb809efe1ce847461ecd1e15752daa",
+      "sourceUrls": [
+        "https://gammafishing.com/products/fluorocarbon-edge-filler-spool",
+        "https://gammafishing.com/products/fluorocarbon-edge-re-fill-spool",
+        "https://gammafishing.com/products/fluorocarbon-edge-bulk-mini-spool",
+        "https://gammafishing.com/products/fluorocarbon-edge-bulk-spool",
+        "https://gammafishing.com/products/fluorocarbon-edge-pony-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.meta.json",
+        "research/line-pages/full-catalog/group-d/gamma-edge-fluorocarbon.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/gamma-edge-fluorocarbon.image-evidence.json"
+      ],
+      "findingIds": [
+        "D-IMG-03"
+      ]
+    },
+    {
+      "modelId": "gamma-touch-fluorocarbon",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US Clear processed finesse fluorocarbon; not Edge or leader material.",
+      "numericAndPackageEvidence": "FGTF table lists2,3,4,5,7,8,9 lb; image FGTF-14 agrees7 lb/.0085 in/.22mm/100 yd. Source package variants are model-specific.",
+      "editorial": "Finesse/drop-shot positioning attributed, no6-lb substitution, no universal handling promise.",
+      "image": "Actual Touch7-lb clear filler photo agrees with chosen source family.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/gamma-touch-fluorocarbon.numeric-evidence.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/5",
+      "modelSha256": "d7ae80b708cac8bd11e9c2b8f2f3f5723e85117c11be38f335c9522aedf6f3e6",
+      "sourceUrls": [
+        "https://gammafishing.com/products/gamma-touch-filler-spool-1",
+        "https://gammafishing.com/products/gamma-touch-re-fill-spool",
+        "https://gammafishing.com/products/gamma-touch-clear-mini-bulk-spool",
+        "https://gammafishing.com/products/gamma-touch-clear-bulk-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.meta.json",
+        "research/line-pages/full-catalog/group-d/gamma-touch-fluorocarbon.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/gamma-touch-fluorocarbon.image-evidence.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "gamma-torque-braid",
+      "reviewStatus": "critical-row-hold",
+      "identityAndRegion": "US Green solid-core Torque bulk subset.60/80-lb hollow-core products are correctly excluded.",
+      "numericAndPackageEvidence": "Table heading and body explicitly identify Torque despite generic Spectra URL. Bulk FBLB package identity supports600-yard scope. Selected6-lb photo contradicts that row.",
+      "editorial": "Solid/hollow scope and conflicting filler-table exclusion are useful. Add new package-photo conflict.",
+      "image": "Actual Torque photo, but printed6-lb diameter conflicts with table.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/gamma-torque-braid.numeric-evidence.json"
+      ],
+      "criticalHolds": [
+        "D-SOURCE-01"
+      ],
+      "group": "group-d",
+      "packPointer": "/models/6",
+      "modelSha256": "e169b8df486d812eedb5597121f91ef047bbdc721afbba3e95f69363abe904b7",
+      "sourceUrls": [
+        "https://gammafishing.com/products/spectra-braid-green-bulk-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.meta.json",
+        "research/line-pages/full-catalog/group-d/gamma-torque-braid.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/gamma-torque-braid.image-evidence.json"
+      ],
+      "findingIds": [
+        "D-SOURCE-01"
+      ]
+    },
+    {
+      "modelId": "gamma-polyflex",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US Ultra Clear Polyflex copolymer monofilament; no inferred fluorocarbon coating.",
+      "numericAndPackageEvidence": "Official generic Copolymer page body explicitly names Polyflex; source table headings correctly use US size. Strength-specific filler lengths and14/17-lb identities preserved.",
+      "editorial": "Ultra Clear-only scope, decreasing spool lengths and exclusions explained; performance marketing attributed.",
+      "image": "Manufacturer photo visibly names Polyflex,Copolymer,Ultra Clear.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/gamma-polyflex.numeric-evidence.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/7",
+      "modelSha256": "60f8a67b7402226b6f5eb3a448222fde79e268c22c30e8375a9fe1a5c74527e1",
+      "sourceUrls": [
+        "https://gammafishing.com/products/copolymer-ultra-clear-filler-spool",
+        "https://gammafishing.com/products/copolymer-ultra-clear-pony-spool",
+        "https://gammafishing.com/products/copy-of-copolymer-ultra-clear-re-fill-spool",
+        "https://gammafishing.com/products/copolymer-ultra-clear-bulk-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-polyflex-current.html",
+        "research/line-pages/full-catalog/group-d/sources/gamma-polyflex-current.meta.json",
+        "research/line-pages/full-catalog/group-d/gamma-polyflex.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/gamma-polyflex.image-evidence.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "gamma-fluorocarbon-leader",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US dedicated transparent100% fluorocarbon leader, not Edge mainline.",
+      "numericAndPackageEvidence": "Consistent25 M table anchors US-size rows; table/variant SKU links support package choices.50/100 M erroneous light-size packages already excluded, not silently corrected.",
+      "editorial": "Leader-only uses and actual-break distinction clear;16-lb retained, legacy15 held. No reel-fill examples.",
+      "image": "Genuine dedicated leader package; small250x300 source image limits close inspection but identity is readable.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/gamma-fluorocarbon-leader.numeric-evidence.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/8",
+      "modelSha256": "56866dfc87c9b8922f1e61591ff550289d44360e2051041cfa394904ddde7a93",
+      "sourceUrls": [
+        "https://gammafishing.com/products/fluorocarbon-leader-clear-25m",
+        "https://gammafishing.com/products/fluorocarbon-leader-clear-50m",
+        "https://gammafishing.com/products/fluorocarbon-leader-clear-100m",
+        "https://gammafishing.com/products/fluorocarbon-leader-clear-200m"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.meta.json",
+        "research/line-pages/full-catalog/group-d/gamma-fluorocarbon-leader.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/gamma-fluorocarbon-leader.image-evidence.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "maxima-ultragreen",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US Ultragreen monofilament, not the Braid 8 color.",
+      "numericAndPackageEvidence": "Raw public WooCommerce records MOSS 6 and MOSS 10 attach inch diameter and yardage to the correct One Shot strength. Leader package types are excluded rather than treated as full-fill stock.",
+      "editorial": "Package-specific scope and material distinction are clear; manufacturer abrasion claims are attributed.",
+      "image": "Actual manufacturer One Shot Ultragreen image. Label is small; do not treat it as numeric proof.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-ultragreen.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-ultragreen.parsed.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/9",
+      "modelSha256": "f3aed214fc7097e917c347379b0b2932fb7b3469665088ec338f372a44e2253d",
+      "sourceUrls": [
+        "https://www.maximafishingline.com/product/maxima-ultragreen/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-ultragreen.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-ultragreen.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/maxima-ultragreen.parsed.json",
+        "research/line-pages/full-catalog/group-d/maxima-ultragreen.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/maxima-ultragreen.image-evidence.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "maxima-chameleon",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US Chameleon mono with separately attributed color-adapting formulation.",
+      "numericAndPackageEvidence": "Raw MOC 6 and MOC 10 One Shot records preserve product identity and selected package fields. Three incomplete Service variants already excluded with explicit reasons.",
+      "editorial": "Color claim is attributed; no handling equivalence to Ultragreen inferred from similar diameters.",
+      "image": "Actual manufacturer Chameleon One Shot image; no conflicting readable strength claim.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-chameleon.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-chameleon.parsed.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/10",
+      "modelSha256": "a0752a8df640c799a6e165d0a947149d04feebb9c46044d82f78caf5ed70859b",
+      "sourceUrls": [
+        "https://www.maximafishingline.com/product/maxima-chameleon/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-chameleon.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-chameleon.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/maxima-chameleon.parsed.json",
+        "research/line-pages/full-catalog/group-d/maxima-chameleon.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/maxima-chameleon.image-evidence.json"
+      ],
+      "findingIds": []
+    },
+    {
+      "modelId": "maxima-clear",
+      "reviewStatus": "pass-with-note",
+      "identityAndRegion": "US Clear monofilament, not Maxima Fluorocarbon.",
+      "numericAndPackageEvidence": "Raw MOP 6/MOP 10 records corroborate package-bound Dia. Inch and Yards fields. Leader wheels excluded from rows' package planning.",
+      "editorial": "Mainline/leader and mono/fluorocarbon boundaries explicit; no stock promise.",
+      "image": "Genuine Clear photo, but selected MLP-40 asset is a Leader Wheel while mainline package scope excludes it. Prefer matching mainline image or explicit caption.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-clear.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-clear.parsed.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/11",
+      "modelSha256": "7b9d07c8032b68f458ccfdd875e2de6d75cd7a85a5ccf4cb266b489f91860962",
+      "sourceUrls": [
+        "https://www.maximafishingline.com/product/clear/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-clear.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-clear.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/maxima-clear.parsed.json",
+        "research/line-pages/full-catalog/group-d/maxima-clear.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/maxima-clear.image-evidence.json"
+      ],
+      "findingIds": [
+        "D-IMG-04"
+      ]
+    },
+    {
+      "modelId": "maxima-crystal-ivory",
+      "reviewStatus": "pass-with-note",
+      "identityAndRegion": "US golden Crystal Ivory Guide Spools; no region merge.",
+      "numericAndPackageEvidence": "Raw embedded variations MQP 12/1098 and MQP 15/1099 both publish .013 inch/1176 yards. This is present in original HTML, not introduced by agent extraction. MQP 40/1103 agrees with pictured 372-yard package.",
+      "editorial": "Repeated 12/15 specifications are prominently flagged. Repetition alone does not prove an error; avoid promoting them as independently corroborated physical measurements.",
+      "image": "Actual Maxima America Crystal Ivory 40-lb/372-yard image supports that package; no readable diameter label.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-crystal-ivory.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-crystal-ivory.parsed.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/12",
+      "modelSha256": "3ae4486d69b8ab7f340820f413e35141afc93b77e1144181b5ec19ead1ef6242",
+      "sourceUrls": [
+        "https://www.maximafishingline.com/product/crystal-ivory/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-crystal-ivory.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-crystal-ivory.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/maxima-crystal-ivory.parsed.json",
+        "research/line-pages/full-catalog/group-d/maxima-crystal-ivory.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/maxima-crystal-ivory.image-evidence.json"
+      ],
+      "findingIds": [
+        "D-ANOMALY-01"
+      ]
+    },
+    {
+      "modelId": "maxima-fluorocarbon",
+      "reviewStatus": "pass-with-note",
+      "identityAndRegion": "US 200-yard Fluorocarbon One Shot mainline only; not mono, leader wheels or heavy coils.",
+      "numericAndPackageEvidence": "Raw MFCOS 6/812 and 8/811 both publish .009 inch; MFCOS 12/809 and 15/808 both publish .013 inch. Duplication exists in original HTML; no exact-SKU contrary source identified.",
+      "editorial": "Repeated pairs explicitly disclosed, UV finish attributed, leader stock excluded. Retain limited source certainty.",
+      "image": "Genuine manufacturer Fluorocarbon One Shot image; blank/small strength field cannot resolve duplicate-diameter questions.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-fluorocarbon.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-fluorocarbon.parsed.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/13",
+      "modelSha256": "bb221b7d3c5d9ea711119e2f55a23648540e1e96c14120cecf31ddc144dca81a",
+      "sourceUrls": [
+        "https://www.maximafishingline.com/product/fluorocarbon/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-fluorocarbon.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-fluorocarbon.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/maxima-fluorocarbon.parsed.json",
+        "research/line-pages/full-catalog/group-d/maxima-fluorocarbon.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/maxima-fluorocarbon.image-evidence.json"
+      ],
+      "findingIds": [
+        "D-ANOMALY-02"
+      ]
+    },
+    {
+      "modelId": "maxima-braid-8",
+      "reviewStatus": "pass",
+      "identityAndRegion": "US Braid 8 Ultragreen/HV eight-yarn product, not Ultragreen mono or an inferred regional replacement.",
+      "numericAndPackageEvidence": "Raw MOBG 65/894 record ties 65 lb, Ultragreen, 300 yards and .016 inch. Manufacturer image also prints 65 lb/300 yd/.016 inch; .40 mm is separately rounded on packaging, not a conflicting regional row.",
+      "editorial": "US scope, separate braid/mono identity, coating and heat-treatment attribution are supported.",
+      "image": "Actual Braid 8 Ultragreen photo confirms construction identity and in-scope heavy package.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-braid-8.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-braid-8.parsed.json"
+      ],
+      "criticalHolds": [],
+      "group": "group-d",
+      "packPointer": "/models/14",
+      "modelSha256": "f603c5f00c02d19befe3e2613fb959884e4dfe1dcae4e696c84ab45807c68493",
+      "sourceUrls": [
+        "https://www.maximafishingline.com/product/braid-8/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-d/sources/maxima-braid-8.html",
+        "research/line-pages/full-catalog/group-d/sources/maxima-braid-8.meta.json",
+        "research/line-pages/full-catalog/group-d/sources/maxima-braid-8.parsed.json",
+        "research/line-pages/full-catalog/group-d/maxima-braid-8.numeric-evidence.json",
+        "research/line-pages/full-catalog/group-d/maxima-braid-8.image-evidence.json"
+      ],
+      "findingIds": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "D-SOURCE-01",
+      "severity": "critical-hold",
+      "modelId": "gamma-torque-braid",
+      "affectedStrengths": [
+        6
+      ],
+      "location": "research/line-pages/full-catalog/group-d/pack.json:2744 /models/6/rows/0; /models/6/sourceConflicts; /models/6/product/imageUrl",
+      "issue": "Manufacturer bulk photo and numeric table disagree for the pictured 6 lb/600-yard Torque package.",
+      "evidence": [
+        "Selected local manufacturer image visibly prints 6 LB,600 YDS,.002 in,0.06 mm.",
+        "Official bulk table SKU FBLB-6 prints0.006 inch/.152 mm. Pack adopts the table, but does not record this photo conflict."
+      ],
+      "sourceUrls": [
+        "https://gammafishing.com/products/spectra-braid-green-bulk-spool",
+        "https://cdn.shopify.com/s/files/1/0384/0324/4163/products/Torq-Bulk-Picture_1024t.jpg?v=1587583840"
+      ],
+      "evidenceFiles": [
+        "assets/line-pages/full-catalog/group-d/gamma-torque-braid.jpg",
+        "research/line-pages/full-catalog/group-d/gamma-torque-braid.image-evidence.json",
+        "research/line-pages/full-catalog/group-d/sources/gamma-products.json"
+      ],
+      "action": "Hold the 6-lb row pending manufacturer resolution or clearly separable dated-edition evidence. Record both published claims; do not infer a correction or use the picture as corroboration. Other solid-core rows can remain candidates with the image conflict explicitly handled.",
+      "criticalHold": true,
+      "holdScope": "6-lb row and uncaveated use of selected image; not automatic rejection of other nine rows."
+    },
+    {
+      "id": "D-SOURCE-02",
+      "severity": "critical-hold",
+      "modelId": "cortland-fluorocarbon-leader",
+      "affectedStrengths": [
+        50
+      ],
+      "location": "research/line-pages/full-catalog/group-d/pack.json:1194 /models/2/rows/9; /models/2/sourceConflicts; /models/2/product/imageUrl",
+      "issue": "Selected manufacturer photo contains an internally inconsistent diameter pair on the large rear leader spool; the converted chart silently differs.",
+      "evidence": [
+        "Large rear spool visibly prints .025 in and0.66 mm; its50-lb label is partly occluded by the front16-lb spool.",
+        "Official table's50-lb row prints .025 in; pack converts to0.635 mm. The image's0.66 mm is not that conversion or normal rounding at the shown precision.",
+        "Front spool16lb/.014in/.36mm/30yd corroborates the16-lb identity, not the held legacy15-lb identity."
+      ],
+      "sourceUrls": [
+        "https://www.cortlandline.com/products/fluorocarbon-leader-material",
+        "https://cdn.shopify.com/s/files/1/1410/4056/products/FlouroDUAL.jpg?v=1530815912"
+      ],
+      "evidenceFiles": [
+        "assets/line-pages/full-catalog/group-d/cortland-fluorocarbon-leader.jpg",
+        "research/line-pages/full-catalog/group-d/cortland-fluorocarbon-leader.image-evidence.json",
+        "research/line-pages/full-catalog/group-d/sources/cortland-leader.html"
+      ],
+      "action": "Conservatively hold the50-lb row until the competing package metric claim is resolved or independently edition-scoped. Record/caption the image conflict even if other16 chart rows proceed; do not substitute0.66 or declare a manufacturer typo without evidence.",
+      "criticalHold": true,
+      "holdScope": "50-lb row/uncaveated image; ordinary leader identity and other16 table rows remain supported."
+    },
+    {
+      "id": "MAIN-IMG-01",
+      "severity": "note",
+      "modelId": "berkley-vanish",
+      "location": "group-main/pack.json model berkley-vanish /product/localImagePath,/product/sourceNote",
+      "issue": "Filler package photo accompanies an explicitly bulk-only numeric chart.",
+      "action": "Prefer a bulk package image or caption the current photo as Vanish filler-spool family illustration. No diameter row is inferred from this image.",
+      "criticalHold": false
+    },
+    {
+      "id": "MAIN-IMG-02",
+      "severity": "note",
+      "modelId": "berkley-x5-braid",
+      "location": "group-main/pack.json model berkley-x5-braid /product/localImagePath,/product/sourceNote",
+      "issue": "Crystal product photo accompanies Low Vis Green-only numeric evidence.",
+      "action": "Prefer the manufacturer's Low Vis Green image or explicitly caption Crystal as a family illustration. Do not expand color scope from the picture.",
+      "criticalHold": false
+    },
+    {
+      "id": "D-IMG-03",
+      "severity": "note",
+      "modelId": "gamma-edge-fluorocarbon",
+      "affectedStrengths": [
+        12
+      ],
+      "location": "group-d/pack.json gamma-edge-fluorocarbon /rows[lb=12]/retail_packages,publishedLength",
+      "issue": "Manufacturer image FGE12-11 prints100YD/92M, but table prints100yd/90M.",
+      "action": "Record the conflicting meter label.100-yard package is independently consistent; do not claim either meter label is an exact conversion or use it to change yardage.",
+      "criticalHold": false
+    },
+    {
+      "id": "D-IMG-04",
+      "severity": "note",
+      "modelId": "maxima-clear",
+      "location": "research/line-pages/full-catalog/group-d/pack.json:7444 /models/11/product/imageUrl",
+      "issue": "Selected official MLP-40 Clear image is a Leader Wheel, while the page's verified packages deliberately exclude Leader Wheels.",
+      "action": "Use a genuine mainline Clear spool image or label the current photo as a same-family Leader Wheel illustration. Do not add the pictured leader package to mainline choices.",
+      "criticalHold": false
+    },
+    {
+      "id": "D-ANOMALY-01",
+      "severity": "note",
+      "modelId": "maxima-crystal-ivory",
+      "affectedStrengths": [
+        12,
+        15
+      ],
+      "location": "research/line-pages/full-catalog/group-d/pack.json:7685 /models/12/rows; /models/12/sourceConflicts",
+      "issue": "12 and 15 lb Guide Spools repeat both .013-inch diameter and 1176-yard supply in original manufacturer HTML.",
+      "action": "Preserve the existing prominent anomaly disclosure and exact US-variant scope. No correction is independently justified; seek an exact-SKU manufacturer label/chart for stronger confidence. Repetition by itself is not a critical hold.",
+      "criticalHold": false
+    },
+    {
+      "id": "D-ANOMALY-02",
+      "severity": "note",
+      "modelId": "maxima-fluorocarbon",
+      "affectedStrengths": [
+        6,
+        8,
+        12,
+        15
+      ],
+      "location": "research/line-pages/full-catalog/group-d/pack.json:8152 /models/13/rows; /models/13/sourceConflicts",
+      "issue": "Original One Shot source repeats .009 inch at 6/8 lb and .013 inch at 12/15 lb.",
+      "action": "Preserve explicit source-anomaly notes. Do not substitute another Maxima product or leader diameter. No contrary exact-SKU primary source was identified; same rounded diameter at distinct strengths alone does not establish a defect.",
+      "criticalHold": false
+    }
+  ],
+  "sourceChecks": [
+    {
+      "models": [
+        "berkley-trilene-big-game",
+        "berkley-vanish",
+        "berkley-x5-braid",
+        "berkley-x9-braid"
+      ],
+      "method": "Read normalized official snapshots and exact SKU/model-code records; reopened public primary pages. Browser not used.",
+      "urls": [
+        "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+        "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+        "https://berkleyfishing.eu/products/x5-braid-1454441",
+        "https://berkleyfishing.eu/products/x9-braid-1454442"
+      ],
+      "limitation": "Berkley live page text omits unselected diameter metadata; EU variant-query reopens returned web safe-open errors. Exact-SKU numeric linkage was inspected in dated saved official metadata, not independently re-fetched live."
+    },
+    {
+      "models": [
+        "cortland-master-braid",
+        "cortland-fluorocarbon-leader"
+      ],
+      "method": "Read live official product tables and saved HTML/parsed table evidence; visually inspect downloaded manufacturer photos.",
+      "urls": [
+        "https://www.cortlandline.com/products/master-braid-white",
+        "https://www.cortlandline.com/products/fluorocarbon-leader-material"
+      ]
+    },
+    {
+      "models": [
+        "gamma-edge-fluorocarbon",
+        "gamma-touch-fluorocarbon",
+        "gamma-torque-braid",
+        "gamma-polyflex",
+        "gamma-fluorocarbon-leader"
+      ],
+      "method": "Read official raw Shopify product body HTML, US-size/SKU table headings and variant records; reopened five primary product URLs; inspect actual photos.",
+      "urls": [
+        "https://gammafishing.com/products/fluorocarbon-edge-filler-spool",
+        "https://gammafishing.com/products/gamma-touch-filler-spool-1",
+        "https://gammafishing.com/products/spectra-braid-green-bulk-spool",
+        "https://gammafishing.com/products/copolymer-ultra-clear-filler-spool",
+        "https://gammafishing.com/products/fluorocarbon-leader-clear-25m"
+      ]
+    },
+    {
+      "models": [
+        "maxima-ultragreen",
+        "maxima-chameleon",
+        "maxima-clear",
+        "maxima-crystal-ivory",
+        "maxima-fluorocarbon",
+        "maxima-braid-8"
+      ],
+      "method": "Opened all six current official US product pages; independently decoded sampled embedded WooCommerce variation JSON directly from saved raw HTML and inspected model-specific photos. No calculation-engine or full numeric conversion audit rerun.",
+      "urls": [
+        "https://www.maximafishingline.com/product/maxima-ultragreen/",
+        "https://www.maximafishingline.com/product/maxima-chameleon/",
+        "https://www.maximafishingline.com/product/clear/",
+        "https://www.maximafishingline.com/product/crystal-ivory/",
+        "https://www.maximafishingline.com/product/fluorocarbon/",
+        "https://www.maximafishingline.com/product/braid-8/"
+      ],
+      "limitation": "Web text omits selected numeric variation fields. Numeric provenance reviewed from dated raw HTML snapshots, not fresh all-variant live retrieval. Repeated values lack independent exact-SKU label corroboration."
+    }
+  ],
+  "imagesReviewed": [
+    {
+      "modelId": "berkley-trilene-big-game",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Green quarter-spool photo names Trilene Big Game Mono; no false strength label.",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-trilene-big-game.jpg",
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/Berkley_BigGame_QuarterSpool_Green_alt1.jpg?v=1713988635",
+      "sha256": "9f222e67e054fb3841adebfb72f14a063b161bcaf7b5958a710c7d8491715f96"
+    },
+    {
+      "modelId": "berkley-vanish",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Genuine Vanish Easy Casting 100% Fluorocarbon family image, but filler package is shown for bulk-chart scope. Caption should identify that difference.",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-vanish.jpg",
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyVanish_Filler_Clear_alt1.jpg?v=1713988358",
+      "sha256": "61fa89ec715c7a60995c806f227b29ee2250d6dc1977b4894319b16c3ad4b109"
+    },
+    {
+      "modelId": "berkley-x5-braid",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual X5 five-carrier package; Crystal photo differs from Low Vis Green-only numeric scope. Explicit color caption recommended.",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-x5-braid.jpg",
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyX5_FillerSpool_Crystal_1819_alt5.jpg?v=1713987932",
+      "sha256": "6bac8cc4239133be0ea602921e9035a728e494b164153cee72bb703f698966d9"
+    },
+    {
+      "modelId": "berkley-x9-braid",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual Crystal X9 nine-carrier package, in the reviewed color scope.",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-x9-braid.jpg",
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyX9_FillerSpool_Crystal_1819_alt5.jpg?v=1713987940",
+      "sha256": "f77e1b6d02b8da7a0e3a38b379d3dc8a14a6c5f164195dcb643c9d74084e3296"
+    },
+    {
+      "modelId": "cortland-master-braid",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual White Master Braid package; pictured small spool30lb/150yd is in scope.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/cortland-master-braid.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1410/4056/files/master_braid_white.jpg?v=1778162671",
+      "sha256": "dd08ce3530cb2ac17c17fa8773a1cd31567f25d6d3c78cbc10ac7562c79d64f6"
+    },
+    {
+      "modelId": "gamma-edge-fluorocarbon",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual Edge FGE12-11 image. Yard length and diameter agree; note alternate printed meter label.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/gamma-edge-fluorocarbon.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0384/0324/4163/products/edgeSpool_f58e47ed-5a7b-4afb-9828-99a12328d9ff.jpg?v=1586971555",
+      "sha256": "e8a40f0c3ba0aed8db31033d25cba1c08916e3c89f4b0c524920ab679059ff4e"
+    },
+    {
+      "modelId": "gamma-touch-fluorocarbon",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual Touch7-lb clear filler photo agrees with chosen source family.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/gamma-touch-fluorocarbon.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0384/0324/4163/products/gammaTouch.jpg?v=1587233388",
+      "sha256": "63517e68ecb95d5dea1996d13afd3f7dba8c55c203c1ecd26437c784d2d4316e"
+    },
+    {
+      "modelId": "gamma-torque-braid",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual Torque photo, but printed6-lb diameter conflicts with table.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/gamma-torque-braid.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0384/0324/4163/products/Torq-Bulk-Picture_1024t.jpg?v=1587583840",
+      "sha256": "5e14430db90d5435a547e8e326ef98d96048a54386ff07c4c053366ec1375199"
+    },
+    {
+      "modelId": "gamma-polyflex",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Manufacturer photo visibly names Polyflex,Copolymer,Ultra Clear.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/gamma-polyflex.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0384/0324/4163/products/GammaCopolyFillerClear.jpg?v=1677514475",
+      "sha256": "a9cd69b0ac6ff80c80dba2e967ca0833778b28f60e702c344cfd5a4374e4ed91"
+    },
+    {
+      "modelId": "gamma-fluorocarbon-leader",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Genuine dedicated leader package; small250x300 source image limits close inspection but identity is readable.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/gamma-fluorocarbon-leader.png",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0384/0324/4163/products/100FluroLeader250x300_leader.png?v=1587229090",
+      "sha256": "68281293bdc6bd925cc6b5c8acf8373826890c5330cba8fd3feeed8b737f9782"
+    },
+    {
+      "modelId": "cortland-fluorocarbon-leader",
+      "method": "Visual inspection of actual local manufacturer asset, repeated at original-detail request",
+      "result": "Front16lb/.014in/.36mm/30yd. Rear .025in/.66mm pair conflict;50-lb text partly occluded.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/cortland-fluorocarbon-leader.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1410/4056/products/FlouroDUAL.jpg?v=1530815912",
+      "sha256": "50eae614ad525807615f522385e0f5e72db30a18885a7233e20e080ae1989561"
+    },
+    {
+      "modelId": "maxima-ultragreen",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual manufacturer One Shot Ultragreen image. Label is small; do not treat it as numeric proof.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/maxima-ultragreen.jpg",
+      "imageUrl": "https://www.maximafishingline.com/wp-content/uploads/2022/09/MOSS-10-ONE-SHOT-SPOOLS-ULTRAGREEN-MAX-2018-B003JEUBVW.jpg",
+      "sha256": "46e4ada6fbc5679ce9d5254b8a849e578727f6ff631a46e6d4ace9abdf60e75c"
+    },
+    {
+      "modelId": "maxima-chameleon",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual manufacturer Chameleon One Shot image; no conflicting readable strength claim.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/maxima-chameleon.jpg",
+      "imageUrl": "https://www.maximafishingline.com/wp-content/uploads/2022/09/MOC-1-ONE-SHOT-SPOOLS-CHAMELEON-MAX-2018-B00CMPODHW.jpg",
+      "sha256": "8d127ed531759dd73494df6f7f03a21b9be8ed5134780842c194b30b1ec74a80"
+    },
+    {
+      "modelId": "maxima-clear",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Genuine Clear photo, but selected MLP-40 asset is a Leader Wheel while mainline package scope excludes it. Prefer matching mainline image or explicit caption.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/maxima-clear.jpg",
+      "imageUrl": "https://www.maximafishingline.com/wp-content/uploads/2022/09/MLP-40-LEADER-WHEELS-CLEAR-MAX-2018-B003FKTEWC.jpg",
+      "sha256": "d31554c7393c58f21c1610443b80f32ca04c71f61510fc19379c0006a2f9ee30"
+    },
+    {
+      "modelId": "maxima-crystal-ivory",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual Maxima America Crystal Ivory 40-lb/372-yard image supports that package; no readable diameter label.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/maxima-crystal-ivory.png",
+      "imageUrl": "https://www.maximafishingline.com/wp-content/uploads/2022/07/Maxima_Crystal_Ivory_40_Side_optimized-700x685-1-600x587.png",
+      "sha256": "b270d8993842db5d5ac43473da4a61d2169dc0dbab98836a383dd02db7206f48"
+    },
+    {
+      "modelId": "maxima-fluorocarbon",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Genuine manufacturer Fluorocarbon One Shot image; blank/small strength field cannot resolve duplicate-diameter questions.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/maxima-fluorocarbon.jpg",
+      "imageUrl": "https://www.maximafishingline.com/wp-content/uploads/2022/09/MFCOS-40-ONE-SHOT-SPOOLS-FLUOROCARBON-MAX-2018-B00144CBOO-_0001.jpg",
+      "sha256": "28d2ae4bdbe5d9dcf75ee59ed9401cff5653b616733461ee7b53ec6bd93eec94"
+    },
+    {
+      "modelId": "maxima-braid-8",
+      "method": "Visual inspection of actual local manufacturer asset",
+      "result": "Actual Braid 8 Ultragreen photo confirms construction identity and in-scope heavy package.",
+      "localImagePath": "assets/line-pages/full-catalog/group-d/maxima-braid-8.png",
+      "imageUrl": "https://www.maximafishingline.com/wp-content/uploads/2022/06/65LB_BRAID_ULTRAGREEN_274M-e1364239185838-700x896-1-600x768.png",
+      "sha256": "34e9381b4fb2d3d02a4b6a377bc4e20509e399504ac850485c2678385aa32c34"
+    }
+  ],
+  "progress": "Complete: 17/17 model decisions and 17/17 actual images reviewed. Nine pass, six pass with notes, two affected-row critical holds. Main owns correction, final validation and publication.",
+  "initialPackCheckpoint": [
+    {
+      "group": "group-main",
+      "sha256": "a46963d5be67634643b6b795a48bdffefa54e3003f394413b1b76b4335cd4efe",
+      "checkedAt": "2026-09-13T13:58:12.733Z"
+    },
+    {
+      "group": "group-d",
+      "sha256": "419e35121308c6acd2ff217374c0604f06c250fbb80827171ef6f8a898d1fc8d",
+      "checkedAt": "2026-09-13T14:37:43.149Z"
+    }
+  ],
+  "summary": {
+    "modelsReviewed": 17,
+    "pass": 9,
+    "passWithNotes": 6,
+    "criticalRowHoldModels": 2,
+    "criticalRows": [
+      {
+        "modelId": "gamma-torque-braid",
+        "lb": 6
+      },
+      {
+        "modelId": "cortland-fluorocarbon-leader",
+        "lb": 50
+      }
+    ],
+    "imagesInspected": 17,
+    "unreviewedInScope": 0
+  },
+  "limitations": [
+    "Independent semantic source QA only. No repeated all-row numeric audit, conversion sweep, engine tests, browser rendering, stock validation, integration or publication.",
+    "Berkley exact US/EU SKU and model-code linkage was inspected in official snapshots, not inferred from same pound test. EU selected-variant web reopens failed, so live per-SKU diameter metadata was not independently refreshed.",
+    "Maxima duplicate values are source anomalies, not proven errors. Published-source acceptance does not certify measured diameter or hidden product continuity.",
+    "The two critical holds are conservative affected-row recommendations for unresolved official photo/table claims. Main may keep unaffected rows as candidates, but must not silently present contradictory images as corroboration.",
+    "Pack hashes changed from the initial checkpoint. All four current Berkley candidate rows/editorial were reread and current Group D scoped candidates were reviewed; final hashes and per-model hashes identify the reviewed content.",
+    "No candidate packs, assets, shared scripts/data, Git state or releases were modified. Only the two authorized review artifacts were written."
+  ]
+}

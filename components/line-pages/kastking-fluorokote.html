@@ -1,0 +1,138 @@
+<article class="rc-line-page rc-line-gold" data-reelcalc-line-page="" data-product-id="kastking-fluorokote" data-asset-base="https://stefanellit.github.io/reelcalc-wizard/">
+  <header class="rc-product-header">
+    <div class="rc-line-inner">
+      <nav class="rc-breadcrumbs" aria-label="Breadcrumb"><a href="https://www.reelcalc.com/">ReelCalc</a><span>/</span><a href="https://www.reelcalc.com/line-database">Line guides</a><span>/</span>KastKing FluoroKote</nav>
+      <h2 class="rc-product-title">KastKing FluoroKote</h2>
+      <p class="rc-product-subtitle">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class="rc-product-overview">
+        <figure class="rc-product-figure"><img src="https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/kastking-fluorokote.jpg" alt="KastKing FluoroKote manufacturer product package" width="160" height="160" loading="eager" data-line-page-image="assets/line-pages/full-catalog/group-e/kastking-fluorokote.jpg"></figure>
+        <div><p class="rc-product-summary">FluoroKote combines a copolymer core with a fluorocarbon outer coating. It is not solid fluorocarbon. The checked current product offers 300-yard packages; its official chart provides the diameter pairs for these 6-20 lb rows.</p><dl class="rc-product-specs"><div><dt>Construction</dt><dd>Copolymer core with 100% fluorocarbon coating</dd></div><div><dt>Listed strengths</dt><dd>6-20 lb</dd></div><div><dt>Line type</dt><dd>Copolymer main line</dd></div></dl></div>
+      </div>
+      <section class="rc-product-fit" aria-labelledby="product-fit-title"><h2 id="product-fit-title">A coated-copolymer mainline</h2><p>FluoroKote is a choice for anglers seeking KastKing's coated-copolymer construction as a working line. Do not assume it has the same density, handling or diameter as a 100% fluorocarbon product simply because the box says fluorocarbon coated. For the checked 10 lb size, the manufacturer lists 0.011 in and 0.28 mm; calculate fill from that size, not another KastKing formula.</p></section>
+      <nav class="rc-page-nav" aria-label="On this page"><a href="#use-this-line">Calculator</a><a href="#diameter-chart">Diameter chart</a><a href="#line-guide">Choosing your setup</a><a href="#compare-lines">Compare lines</a></nav>
+    </div>
+  </header>
+
+  <section class="rc-section rc-calculator-section" id="use-this-line" aria-labelledby="line-tool-title">
+    <div class="rc-line-inner">
+      <div class="rc-section-heading rc-tool-heading"><div><span class="rc-eyebrow">Your line. Your reel.</span><h2 id="line-tool-title">How much FluoroKote will fit?</h2></div><span class="rc-tool-status" id="rcToolStatus" role="status">Loading line data</span></div>
+      <div class="rc-tool-shell">
+        <div class="rc-loading" id="rcLoading" role="status">Loading reel and line data...</div>
+        <div id="rcInteractive" hidden="">
+          <div class="rc-control-grid">
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">1</span>Your line</legend>
+              <label class="rc-field"><span>KastKing FluoroKote strength</span><select id="rcStrength"></select></label>
+              <div class="rc-selected-line" id="rcSelectedLine" aria-live="polite"></div>
+              <label class="rc-field"><span>Retail spool length</span><select id="rcSpool"></select></label>
+              <a class="rc-inline-link" href="#diameter-chart">Full diameter chart</a>
+            </fieldset>
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">2</span>Your reel</legend>
+              <div class="rc-segmented" id="rcReelSource" role="group" aria-label="Reel details"><button type="button" data-reel-source="database" aria-pressed="true">Find my reel</button><button type="button" data-reel-source="manual" aria-pressed="false">Enter specs</button></div>
+              <div id="rcCatalogReel">
+              <div class="rc-segmented" id="rcReelType" role="group" aria-label="Reel type"><button type="button" data-reel-type="spinning" aria-pressed="true">Spinning</button><button type="button" data-reel-type="baitcasting" aria-pressed="false">Baitcasting</button></div>
+              <label class="rc-field"><span>Brand</span><select id="rcReelBrand"></select></label>
+              <label class="rc-field"><span>Series</span><select id="rcReelModel" disabled=""></select></label>
+              <label class="rc-field"><span>Exact model / size</span><select id="rcReelSize" disabled=""></select></label>
+              </div>
+              <div id="rcManualReel" hidden="">
+                <p class="rc-manual-guide">Reel not listed? Use its mono capacity rating for this mono line.</p>
+                <label class="rc-field" hidden=""><span>Rating on the reel</span><select id="rcManualType"><option value="mono">Mono rating</option></select></label>
+                <label class="rc-field"><span>Rated strength (lb)</span><input id="rcManualStrength" type="number" min="0.1" max="1000" step="any" inputmode="decimal" placeholder="10" aria-describedby="rcManualHelp rcManualError"></label>
+                <div class="rc-unit-fields"><label class="rc-field"><span>Rated capacity</span><input id="rcManualCapacity" type="number" min="0.1" max="100000" step="any" inputmode="decimal" placeholder="200" aria-describedby="rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualCapacityUnit" aria-label="Rated capacity unit"><option value="yd">Yards</option><option value="m">Meters</option></select></label></div>
+                <div class="rc-unit-fields"><label class="rc-field"><span>Printed diameter (optional)</span><input id="rcManualDiameter" type="number" min="0" step="any" inputmode="decimal" aria-describedby="rcManualHelp rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualDiameterUnit" aria-label="Printed diameter unit"><option value="mm">mm</option><option value="in">in</option></select></label></div>
+                <p class="rc-manual-guide" id="rcManualHelp">Use one matching capacity entry from the reel. If it lists a diameter for that entry, enter it instead of, or alongside, the lb test.</p>
+                <p class="rc-manual-guide" id="rcManualError" role="status"></p>
+              </div>
+            </fieldset>
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">3</span>Your spool plan</legend>
+              <label class="rc-field"><span id="rcWorkingYardsLabel">Main line to put on the reel (yards)</span><input id="rcWorkingYards" type="number" min="0.1" max="10000" step="any" inputmode="decimal" aria-describedby="rcFullSpoolHelp"></label>
+              <p id="rcFullSpoolHelp" class="rc-manual-guide" hidden=""></p>
+              <div class="rc-backing-mode-row"><button type="button" class="rc-button rc-button-secondary rc-backing-mode-button" id="rcBackingModeButton" aria-pressed="false" aria-controls="rcBackingControls">I don't want to use backing</button><span id="rcBackingModeStatus" class="rc-backing-mode-status" hidden="">Full-spool capacity</span></div>
+              <div id="rcBackingControls"><label class="rc-field"><span>Backing brand</span><select id="rcBackingBrand"></select></label><div class="rc-inline-fields"><label class="rc-field"><span>Backing model</span><select id="rcBackingModel" disabled=""></select></label><label class="rc-field"><span>Backing strength</span><select id="rcBackingLb" disabled=""></select></label></div></div>
+            </fieldset>
+          </div>
+          <div class="rc-tool-action"><button type="button" class="rc-button rc-button-primary" id="rcCalculate">Calculate my setup</button><span id="rcCalculationHelp" role="status">Choose an exact reel to continue.</span></div>
+          <div class="rc-results" id="rcResults" aria-live="polite" hidden=""></div>
+        </div>
+        <noscript><p class="rc-error">The calculator needs JavaScript. The diameter chart and line guide below are still available.</p></noscript>
+      </div>
+      <p class="rc-tool-footnote">Calculated estimates, not measured fills. Stop at the reel manufacturer's fill level even if some line remains.</p>
+    </div>
+  </section>
+
+  <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">KastKing FluoroKote diameter chart</h2><p>Exact current 300-yard FluoroKote variants matched to the manufacturer chart. This is Copolymer, not pure Fluorocarbon; existing catalog IDs retain their historical suffix.</p></div>
+    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">Spools (yd)</th></tr></thead><tbody><tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-6">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-6" aria-label="Use KastKing FluoroKote 6 lb" aria-pressed="false" disabled="">6 lb</button></th>
+    <td>0.008</td><td>0.220</td>
+    <td>300</td>
+  </tr>
+<tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-8">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-8" aria-label="Use KastKing FluoroKote 8 lb" aria-pressed="false" disabled="">8 lb</button></th>
+    <td>0.009</td><td>0.230</td>
+    <td>300</td>
+  </tr>
+<tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-10">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-10" aria-label="Use KastKing FluoroKote 10 lb" aria-pressed="false" disabled="">10 lb</button></th>
+    <td>0.011</td><td>0.280</td>
+    <td>300</td>
+  </tr>
+<tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-12">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-12" aria-label="Use KastKing FluoroKote 12 lb" aria-pressed="false" disabled="">12 lb</button></th>
+    <td>0.012</td><td>0.300</td>
+    <td>300</td>
+  </tr>
+<tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-15">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-15" aria-label="Use KastKing FluoroKote 15 lb" aria-pressed="false" disabled="">15 lb</button></th>
+    <td>0.013</td><td>0.330</td>
+    <td>300</td>
+  </tr>
+<tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-17">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-17" aria-label="Use KastKing FluoroKote 17 lb" aria-pressed="false" disabled="">17 lb</button></th>
+    <td>0.014</td><td>0.350</td>
+    <td>300</td>
+  </tr>
+<tr data-chart-line="kastking-fluorokote-fluorocarbon-coated-20">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="kastking-fluorokote-fluorocarbon-coated-20" aria-label="Use KastKing FluoroKote 20 lb" aria-pressed="false" disabled="">20 lb</button></th>
+    <td>0.015</td><td>0.380</td>
+    <td>300</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class="rc-section rc-guide-section" id="line-guide" aria-labelledby="guide-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">Choosing your setup</span><h2 id="guide-title">Choosing your FluoroKote strength</h2></div>
+    <div class="rc-strength-guide"><div class="rc-editorial-copy"><p>Choose FluoroKote strength for your rod and presentation. The 6-8 lb sizes and 17-20 lb sizes are physically different choices, especially on a compact spinning reel.</p>
+<p>Treat the coating as a construction feature, not proof of invisibility, superior abrasion performance or an independent casting advantage.</p>
+<p>Only 300-yard variants were verified on the current product. The artwork's wider 150/300/500-yard range is not evidence that all three lengths can be selected now at each strength.</p><p class="rc-editorial-note">This is a source-based specification and setup guide, not a hands-on review or comparative performance test.</p></div><div class="rc-strength-next"><h3>Want a guided recommendation?</h3><a class="rc-inline-link" id="rcStrengthWizard" href="https://www.reelcalc.com/reelcalc-wizard">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+  <section class="rc-section" id="compare-lines" aria-labelledby="diameter-intelligence-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">Compare actual diameters</span><h2 id="diameter-intelligence-title">Same pound test, different diameters</h2></div>
+    <div class="rc-intelligence-grid"><div id="rcDiameterSummary" class="rc-intelligence-summary" aria-live="polite"><h3>At your selected strength</h3><p>Loading diameter comparisons...</p></div><div class="rc-switch-tool"><h3>What changes with another line?</h3><label class="rc-field"><span>Compare with</span><select id="rcReplacement"></select></label><div class="rc-switch-result" id="rcSwitchResult" aria-live="polite">Select a replacement line to compare.</div><a class="rc-inline-link" id="rcReplacementWizard" href="https://www.reelcalc.com/reelcalc-wizard" hidden="">Use this alternative in the Wizard</a></div></div>
+    <h3 class="rc-alternatives-title">Nearby diameters in the line database</h3><div class="rc-table-wrap"><table class="rc-table rc-alternatives-table"><thead><tr><th scope="col">Line</th><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">Difference</th></tr></thead><tbody id="rcAlternatives"><tr><td colspan="4">Loading line database...</td></tr></tbody></table></div>
+  </div></section>
+
+  <section class="rc-section rc-guide-section" aria-labelledby="spooling-title"><div class="rc-line-inner"><div class="rc-section-heading"><span class="rc-eyebrow">At the spooling bench</span><h2 id="spooling-title">Backing, working line &amp; leaders</h2></div><div class="rc-spooling-grid"><div><h3>Read the construction label</h3><p>100% fluorocarbon coated describes the coating, not the entire line. Match the FluoroKote package rather than a Kovert fluorocarbon product.</p></div>
+<div><h3>Allocate the 300-yard package</h3><p>Estimate full capacity or choose a shorter working section over backing. Allow enough working line to keep the backing junction out of routine casts and runs.</p></div>
+<div><h3>Check fill and handling</h3><p>Stop at the reel's fill clearance under even tension. A theoretical capacity fit does not guarantee that a thick coated line will handle well on a small spool.</p></div></div></div></section>
+
+  <section class="rc-section" aria-labelledby="examples-title"><div class="rc-line-inner"><div class="rc-section-heading"><span class="rc-eyebrow">Calculated examples</span><h2 id="examples-title">How Much Fits on These Reels?</h2><p>Estimated full-spool capacity for the FluoroKote strength selected above, with no backing. These are calculated examples, not physical tests or recommendations for every pairing.</p></div><div id="rcExamples" class="rc-example-grid" data-example-mode="capacity" aria-live="polite"><p>Loading capacity estimates...</p></div></div></section>
+
+  <section class="rc-section rc-guide-section" aria-labelledby="faq-title"><div class="rc-line-inner"><div class="rc-section-heading"><h2 id="faq-title">FluoroKote questions, answered</h2></div><div class="rc-faq-list"><details>
+    <summary>Is FluoroKote 100% fluorocarbon?</summary>
+    <p>No. The official construction is a polymer/copolymer core coated with 100% fluorocarbon. This guide classifies it as Copolymer.</p>
+  </details>
+<details>
+    <summary>Are 150- and 500-yard packages verified?</summary>
+    <p>Not in the current exact product variants checked here. Artwork mentions them, but these rows use only selectable 300-yard packages.</p>
+  </details>
+<details>
+    <summary>Can I use a short section as a leader?</summary>
+    <p>KastKing also markets leader use, but that does not make the coating solid fluorocarbon. Choose the section for its actual construction, diameter and your rig.</p>
+  </details></div></div></section>
+
+  <section class="rc-section rc-sources-section" id="sources" aria-labelledby="sources-title"><div class="rc-line-inner"><h2 id="sources-title">Specifications &amp; sources</h2><p>Checked September 13, 2026 against the official product information linked below. Inch and mm chart pairs are preserved as independently rounded published values. At 6 lb the coarse pair is .008 in/.22 mm, not an exact conversion. Offered specifications do not establish current stock; this is not an independent diameter measurement.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class="rc-source-list"><li>
+    <a href="https://kastking.com/products/kastking-fluorokote-fishing-line" target="_blank" rel="noopener">KastKing official product information</a>
+    <small>Current FluoroKote product and visually inspected official chart verify the exact coated-copolymer construction, all seven assigned diameters and 300-yard variants. Not 100% fluorocarbon throughout.</small>
+  </li></ul><p class="rc-footer-links"><a href="https://www.reelcalc.com/line-database" data-internal-destination="line_database">Browse all lines</a><a href="https://www.reelcalc.com/reel-comparison" data-internal-destination="reel_comparison">Compare reels</a><a href="#use-this-line">Back to calculator</a></p></div></section>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.reelcalc.com/lines/p/kastking-fluorokote-diameter-capacity-guide#webpage","url":"https://www.reelcalc.com/lines/p/kastking-fluorokote-diameter-capacity-guide","name":"KastKing FluoroKote Diameter & Reel Capacity | ReelCalc","description":"Check verified KastKing FluoroKote diameters and package lengths, choose a reel, and plan working line and backing from exact line size.","isPartOf":{"@id":"https://www.reelcalc.com/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.reelcalc.com/"},{"@type":"ListItem","position":2,"name":"Fishing Line Database","item":"https://www.reelcalc.com/line-database"},{"@type":"ListItem","position":3,"name":"KastKing FluoroKote","item":"https://www.reelcalc.com/lines/p/kastking-fluorokote-diameter-capacity-guide"}]},{"@type":"Product","name":"KastKing FluoroKote","image":"https://cdn.shopify.com/s/files/1/0415/0378/5110/files/FluoroKote1600x1600_2.jpg?v=1725439894","description":"FluoroKote combines a copolymer core with a fluorocarbon outer coating. It is not solid fluorocarbon. The checked current product offers 300-yard packages; its official chart provides the diameter pairs for these 6-20 lb rows.","category":"Copolymer fishing line","brand":{"@type":"Brand","name":"KastKing"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is FluoroKote 100% fluorocarbon?","acceptedAnswer":{"@type":"Answer","text":"No. The official construction is a polymer/copolymer core coated with 100% fluorocarbon. This guide classifies it as Copolymer."}},{"@type":"Question","name":"Are 150- and 500-yard packages verified?","acceptedAnswer":{"@type":"Answer","text":"Not in the current exact product variants checked here. Artwork mentions them, but these rows use only selectable 300-yard packages."}},{"@type":"Question","name":"Can I use a short section as a leader?","acceptedAnswer":{"@type":"Answer","text":"KastKing also markets leader use, but that does not make the coating solid fluorocarbon. Choose the section for its actual construction, diameter and your rig."}}]}]}</script></article>

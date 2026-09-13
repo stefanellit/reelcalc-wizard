@@ -41,20 +41,21 @@ for (const entry of settings) {
   if (!page) throw new Error(`Missing native guide: ${entry.id}`);
   // Import real readable content, not scripts or an empty calculator shell.
   for (const node of all(page, n => n.tagName === "script" || n.tagName === "nav" ||
-    ["use-this-line", "compare-lines"].includes(attr(n, "id")) || attr(n, "aria-labelledby") === "examples-title")) remove(node);
+    ["use-this-line", "compare-lines", "choose-leader"].includes(attr(n, "id")) || attr(n, "aria-labelledby") === "examples-title")) remove(node);
   for (const button of all(page, n => n.tagName === "button")) { button.tagName = "span"; button.attrs = []; }
   for (const node of all(page, n => n.attrs)) {
     node.attrs = node.attrs.filter(a => !a.name.startsWith("data-") && a.name !== "aria-live");
   }
   page.attrs.push({ name: "data-line-guide-fallback", value: entry.id });
   const fallbackUrl = `${base}examples/line-pages/${entry.id}.html`;
-  for (const link of all(page, n => n.tagName === "a" && attr(n, "href") === "#use-this-line")) link.attrs.find(a => a.name === "href").value = fallbackUrl + "#use-this-line";
+  for (const link of all(page, n => n.tagName === "a" && ["#use-this-line", "#choose-leader"].includes(attr(n, "href")))) link.attrs.find(a => a.name === "href").value = fallbackUrl + attr(link, "href");
   const description = html.serializeOuter(page).replace(/[\t ]+$/gm, "");
   if (/<(?:script|input|select|button|iframe|style)\b/i.test(description)) throw new Error(`Unsupported import markup: ${entry.id}`);
   const sku = "RCL" + createHash("sha256").update(entry.id).digest("hex").slice(0, 17).toUpperCase();
   const fields = { "Product Type [Non Editable]": "SERVICE", "Product Page": "lines", "Product URL": entry.slug,
     Title: entry.title, Description: description, SKU: sku, Price: "0", "On Sale": "No", Stock: "Unlimited",
-    Categories: "/line-guides", Tags: "reelcalc-line-guide", Visible: "No" };
+    Categories: "/line-guides", Tags: "reelcalc-line-guide", Visible: "No",
+    "Hosted Image URLs": new URL(entry.thumbnail, base).href };
   if (selectedIds.has(entry.id)) rows.push(headers.map(key => fields[key] || ""));
   pages[entry.slug] = { id: entry.id, title: entry.title, seoTitle: entry.seoTitle, seoDescription: entry.seoDescription,
     url: entry.url, image: new URL(entry.thumbnail, base).href, sku };

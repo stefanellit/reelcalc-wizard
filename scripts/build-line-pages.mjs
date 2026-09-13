@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildGoldLinePage } from "./line-page-gold-template.mjs";
+import { buildLeaderGoldPage } from "./line-leader-gold-template.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(fs.readFileSync(path.join(root, "data", "line-page-products.json"), "utf8"));
@@ -120,7 +121,7 @@ function buildPage(productId, product) {
     for (const field of ["h1", "seoTitle", "metaDescription", "construction", "quickSummary", "suitabilityTitle", "suitabilitySummary", "chartNote", "sourceNote", "reviewNote", "localImagePath"]) {
       if (!product[field]) throw new Error(`${productId}: missing gold-page ${field}`);
     }
-    for (const field of ["strengthGuide", "spoolingGuide", "sources", "faqs", "exampleSetups"]) {
+    for (const field of ["strengthGuide", "spoolingGuide", "sources", "faqs", ...(product.role === "leader" ? [] : ["exampleSetups"])]) {
       if (!Array.isArray(product[field]) || !product[field].length) throw new Error(`${productId}: missing ${field}`);
     }
     if (!records.length || !records.some(line => line.id === product.defaultLineId && line.spool_sizes_yd?.includes(product.defaultSpoolYards))) throw new Error(`${productId}: invalid default line/spool`);
@@ -130,6 +131,9 @@ function buildPage(productId, product) {
     if (!fs.existsSync(path.join(root, product.localImagePath))) throw new Error(`${productId}: missing product image`);
   }
   if (!records.length) throw new Error(`No verified line records found for ${productId}.`);
+  if (product.presentation === "gold" && product.role === "leader") {
+    return buildLeaderGoldPage(productId, product, records, { escapeHtml, jsonLd, sourceItems, faqs });
+  }
   if (product.presentation === "gold") {
     return buildGoldLinePage(productId, product, records, { escapeHtml, jsonLd, sourceItems, faqs });
   }

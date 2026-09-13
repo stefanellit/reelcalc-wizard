@@ -74,11 +74,12 @@
           });
           await asset(versioned("css/line-page-embed.css"), true);
           host.replaceChildren(root);
-          await asset(versioned("js/calculator-core.js"), false, "ReelCalcCore");
+          var leader = root.dataset.lineRole === "leader";
+          if (!leader) await asset(versioned("js/calculator-core.js"), false, "ReelCalcCore");
           await asset(versioned("js/affiliate-links.js"), false, "ReelCalcAffiliateLinks");
           // Analytics is optional. Blocking it must not block the guide or calculator.
           asset(versioned("js/analytics.js"), false, "ReelCalcAnalytics").catch(function() {});
-          var renderer = await asset(versioned("js/line-page-engine.js"), false, "ReelCalcLinePages");
+          var renderer = await asset(versioned(leader ? "js/line-leader-page.js" : "js/line-page-engine.js"), false, leader ? "ReelCalcLeaderPages" : "ReelCalcLinePages");
           var success = await renderer.mount(root);
           host.setAttribute("aria-busy", "false");
           return success;
@@ -100,8 +101,9 @@
           host.prepend(message);
           if (root && root.isConnected) {
             var status = root.querySelector("#rcLoading");
-            status.textContent = "The calculator is unavailable. The diameter chart and guide remain available below.";
-            root.querySelector("#rcToolStatus").textContent = "Static guide available";
+            if (status) status.textContent = "Interactive selection is unavailable. The diameter chart and guide remain available below.";
+            var toolStatus = root.querySelector("#rcToolStatus");
+            if (toolStatus) toolStatus.textContent = "Static guide available";
           }
           if (global.console) console.warn("ReelCalc line guide:", error.message);
           return false;

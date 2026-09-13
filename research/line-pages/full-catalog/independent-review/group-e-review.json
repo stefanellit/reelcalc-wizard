@@ -1,0 +1,2550 @@
+{
+  "group": "group-e",
+  "reviewStatus": "complete",
+  "reviewedAt": "2026-09-13T15:17:26.403Z",
+  "snapshot": {
+    "path": "research/line-pages/full-catalog/group-e/pack.json",
+    "sha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+    "packCheckedAt": "2026-09-13T14:30:30.307Z",
+    "sourceVerifiedModels": 19,
+    "sourceVerifiedRows": 119,
+    "assignedModels": 24,
+    "heldModels": 5
+  },
+  "scope": "Independent source/configuration review of Group E. This finalization writes only the two independent-review files; the preceding user-authorized remediation changed only Group E pack/builder/audit files. No shared data, main browser use, integration, commits or publication.",
+  "summary": {
+    "newSourceBlockersInLatestRetainedRows": 0,
+    "confirmedWholeModelSourceHold": [
+      "hi-seas-fluorocarbon"
+    ],
+    "confirmedExcludedQuattroStrengths": [
+      12,
+      15,
+      20,
+      30
+    ],
+    "openConfigurationAdvisories": 0,
+    "otherAdvisories": 0,
+    "sourceOutcome": "Independent final-pack signoff: all 19 retained candidates and 119 source-reviewed rows pass with zero open remediation advisories. E-001, E-004 and E-005 are resolved against the exact final pack hash. Five existing model holds and Quattro exclusions remain mandatory. This is not approval to publish held models or a browser/publication signoff.",
+    "resolvedFindings": [
+      "E-001",
+      "E-004",
+      "E-005"
+    ]
+  },
+  "methods": [
+    "Fresh direct public HTTP re-fetched all retained numeric/SKU evidence endpoints: Ande live HTML variant metadata plus product JSON; every Hi-Seas exact SKU title; Reaction and CAST exact product JSON; each Vicious retained-strength product JSON; Rhino public embedded ProductDetailsLoader; KastKing exact product JSON.",
+    "Independently visually read eight numeric/package chart images: three Ande, four Vicious and one KastKing. Read all 19 selected product photos plus eight Hi-Seas conflict photos.",
+    "Compared every retained numeric row and exact package scope; examined unusual thin values and independently rounded unit pairs rather than imposing generic diameter assumptions.",
+    "Reviewed construction, suitability, strength guidance, spooling guidance, FAQs and source caveats for all 19 gold configs; looked for model/formulation/role conflation and unsupported performance recommendations.",
+    "In-memory existing-engine check of 33 saved mainline examples using source-row overrides and real reel IDs found one over-capacity saved plan; current capacity-only rendering path was read to qualify actual impact.",
+    "Final-pack verification: 2,221 scoped consistency checks, 58 focused hash/builder/caption/capacity checks, and four builder syntax checks passed. All 33 saved examples fit. Full row objects and all fields outside the authorized copy/example edits have identical before/after hashes."
+  ],
+  "freshHttpReviewWindowUtc": "2026-09-13 approximately14:32-14:39UTC; no private/session endpoints",
+  "sourceAccessNote": "Web extraction incorrectly returned unrelated Beadalon content for an AFW URL. Direct public HTTP returned200 and the exact fishing SKU title; the unrelated web extraction was not used as product evidence.",
+  "numericCautions": [
+    {
+      "modelId": "kastking-fluorokote",
+      "lb": 6,
+      "published": [
+        0.008,
+        0.22
+      ],
+      "pairUnits": [
+        "in",
+        "mm"
+      ],
+      "deltaMm": 0.0168,
+      "combinedRoundingIntervalMm": 0.0177,
+      "disposition": "Within printed combined rounding tolerance but materially coarse; retain explicit disclosure. Do not silently average or infer a more precise diameter."
+    },
+    {
+      "modelId": "cast-fishing-co-x12-frog-flip-braid",
+      "publishedMmByLb": {
+        "65": 0.26,
+        "80": 0.3
+      },
+      "disposition": "Unusually thin values independently confirmed in current exact US variant titles. Manufacturer-claimed dimensions, not independent physical measurements or a universal packing guarantee."
+    },
+    {
+      "modelId": "hi-seas-braid",
+      "lb": 10,
+      "published": [
+        0.004,
+        0.1
+      ],
+      "disposition": "Fresh exact SKU title confirms thin pair; not a mono-equivalent conversion."
+    },
+    {
+      "modelId": "ande-braid",
+      "nominalLabels": [
+        "150m/165yd",
+        "300m/325yd",
+        "600m/650yd",
+        "1200m/1300yd",
+        "3000m/3250yd"
+      ],
+      "disposition": "Use published yard fields only as pack currently does; do not create false metric conversions or add runtime meters."
+    },
+    {
+      "modelId": "hi-seas-grand-slam-monofilament",
+      "disposition": "Official25/30lb SKU titles swap kg equivalents. No kg is imported, so retained lb/diameter/yard rows are unaffected."
+    }
+  ],
+  "requiredIntegrationGates": [
+    "Keep Hi-Seas CFC-F200 held and Quattro limited to 8/10/25 lb; do not stage an older pack revision.",
+    "Route Quattro and Ande fluorocarbon leader to the leader renderer. Do not expose these leaders as Wizard mainlines or full-spool recommendations.",
+    "FluoroKote must remain Copolymer with coated-core wording while legacy fluorocarbon-coated row IDs remain stable.",
+    "Preserve Ande nominal yard-only package semantics and Rhino's 2027/not-stock caveat.",
+    "Main owns integration validation, browser/responsive QA and the publication decision."
+  ],
+  "findings": [
+    {
+      "id": "E-001",
+      "severity": "P2",
+      "status": "resolved",
+      "modelId": "rhino-hide-camo-braid",
+      "category": "example-configuration",
+      "blocksCurrentSourceRows": false,
+      "blocksCurrentCapacityOnlyPage": false,
+      "title": "Resolved: Rhino saved working example reduced to 100 yards",
+      "evidence": {
+        "configPath": "models[id=rhino-hide-camo-braid].product.exampleSetups[0]",
+        "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+        "lineId": "rhino-hide-camo-braid-braid-15",
+        "publishedDiameterIn": 0.009,
+        "publishedDiameterMm": 0.22,
+        "workingYards": 100,
+        "sourcePackageYards": 200,
+        "calculatedCapacityYards": 114.56790123456791,
+        "sourceUrl": "https://www.zebco.com/en/shop/line/rhinobraid/RNB200-15OC",
+        "codeReferences": [
+          "js/calculator-core.js:876",
+          "js/line-page-engine.js:1024",
+          "js/line-page-engine.js:1040"
+        ],
+        "previousWorkingYards": 125
+      },
+      "impact": "No remaining saved-example capacity defect: 100 working yards fits the 114.56790123456791-yard estimate. All 33 saved examples were rechecked and fit. The current capacity-only page was unaffected by the original defect.",
+      "requestedAction": "None for the reviewed final pack. The pack and owned builder both contain 100 working yards.",
+      "originalFinding": {
+        "status": "open-advisory",
+        "evidence": {
+          "configPath": "models[id=rhino-hide-camo-braid].product.exampleSetups[0]",
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "rhino-hide-camo-braid-braid-15",
+          "publishedDiameterIn": 0.009,
+          "publishedDiameterMm": 0.22,
+          "workingYards": 125,
+          "sourcePackageYards": 200,
+          "calculatedCapacityYards": 114.56790123456791,
+          "sourceUrl": "https://www.zebco.com/en/shop/line/rhinobraid/RNB200-15OC",
+          "codeReferences": [
+            "js/calculator-core.js:876",
+            "js/line-page-engine.js:1024",
+            "js/line-page-engine.js:1040"
+          ]
+        },
+        "requestedAction": "Reduce stored workingYards to 100 or choose a source-appropriate larger reel before these saved working/backing examples are reused."
+      },
+      "resolvedAt": "2026-09-13T15:17:26.403Z",
+      "resolvedAgainstPackSha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+      "resolution": {
+        "workingYards": 100,
+        "capacityYards": 114.56790123456791,
+        "builderMatchesPack": true
+      }
+    },
+    {
+      "id": "E-002",
+      "severity": "P1",
+      "status": "confirmed-existing-hold",
+      "modelId": "hi-seas-fluorocarbon",
+      "category": "source-diameter-conflict",
+      "blocksModelPublication": true,
+      "title": "Exact CFC-F200 titles conflict with exact package photos",
+      "evidence": {
+        "rows": [
+          {
+            "lb": 10,
+            "title": [
+              0.013,
+              0.32
+            ],
+            "photo": [
+              0.011,
+              0.28
+            ]
+          },
+          {
+            "lb": 12,
+            "title": [
+              0.014,
+              0.35
+            ],
+            "photo": [
+              0.012,
+              0.3
+            ]
+          },
+          {
+            "lb": 15,
+            "title": [
+              0.016,
+              0.4
+            ],
+            "photo": [
+              0.014,
+              0.35
+            ]
+          },
+          {
+            "lb": 20,
+            "title": [
+              0.017,
+              0.42
+            ],
+            "photo": [
+              0.016,
+              0.4
+            ]
+          }
+        ],
+        "pairUnits": [
+          "in",
+          "mm"
+        ],
+        "titleUrls": [
+          "https://www.afwfishing.com/hi-seas_products/CFC-F200-10.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFC-F200-12.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFC-F200-15.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFC-F200-20.asp"
+        ],
+        "photoFiles": [
+          "research/line-pages/full-catalog/group-e/sources/hiseas-fluoro-10-package.jpg",
+          "research/line-pages/full-catalog/group-e/sources/hiseas-fluoro-12-package.jpg",
+          "research/line-pages/full-catalog/group-e/sources/hiseas-fluoro-15-package.jpg",
+          "assets/line-pages/full-catalog/group-e/hi-seas-fluorocarbon.jpg"
+        ]
+      },
+      "impact": "Affects source diameter, capacity and comparisons. For 10 lb alone, .011 versus .013 inch implies roughly 39.7% different diameter-squared capacity; neither source is an established tiebreaker.",
+      "requestedAction": "Keep null product and zero accepted rows until manufacturer resolves exact current formulation/specification. Do not integrate an earlier four-row pack."
+    },
+    {
+      "id": "E-003",
+      "severity": "P1",
+      "status": "confirmed-existing-exclusions",
+      "modelId": "hi-seas-quattro-fluorocarbon",
+      "category": "source-conflict-and-role",
+      "blocksExcludedRows": true,
+      "blocksLatestThreeRowSubset": false,
+      "title": "Quattro must remain leader-only with four disputed strengths excluded",
+      "evidence": {
+        "latestAcceptedLb": [
+          8,
+          10,
+          25
+        ],
+        "excluded": [
+          {
+            "lb": 12,
+            "title": [
+              0.014,
+              0.35
+            ],
+            "photo": [
+              0.012,
+              0.3
+            ]
+          },
+          {
+            "lb": 15,
+            "title": [
+              0.016,
+              0.4
+            ],
+            "photo": [
+              0.014,
+              0.35
+            ]
+          },
+          {
+            "lb": 20,
+            "title": [
+              0.017,
+              0.42
+            ],
+            "photo": [
+              0.016,
+              0.4
+            ]
+          },
+          {
+            "lb": 30,
+            "title": [
+              0.019,
+              0.5
+            ],
+            "photo": [
+              0.02,
+              0.5
+            ]
+          }
+        ],
+        "pairUnits": [
+          "in",
+          "mm"
+        ],
+        "sourceUrls": [
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-08.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-10.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-12.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-15.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-20.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-25.asp",
+          "https://www.afwfishing.com/hi-seas_products/CFQ-B25-30.asp"
+        ],
+        "photoPattern": "research/line-pages/full-catalog/group-e/sources/cfq-b25-{12,15,20,30}-package.jpg",
+        "defaultConfirmed": "CFQ-B25-25: 25 lb, .018 in/.45 mm, 25 yd, expressly Leader."
+      },
+      "impact": "An earlier seven-row import would reintroduce four conflicting diameter rows. Calling it a mainline would misrepresent its 25-yard terminal-leader product role.",
+      "requestedAction": "Use the latest 8/10/25 lb subset and role leader, valid 25 lb/25 yd defaults, and empty examples. Preserve catalog IDs/type string as directed by main; role is the rendering gate."
+    },
+    {
+      "id": "E-004",
+      "severity": "P3",
+      "status": "resolved",
+      "modelId": "reaction-tackle-fluorocarbon",
+      "category": "representative-photo",
+      "blocksModelPublication": false,
+      "title": "Resolved: Representative Reaction photo has a visible imageCaption",
+      "evidence": {
+        "imagePath": "assets/line-pages/full-catalog/group-e/reaction-tackle-fluorocarbon-clear.jpg",
+        "photoLabel": "60 LB, .70 mm, 300 YD, 100% Fluorocarbon",
+        "retainedLb": [
+          6,
+          8,
+          10,
+          12,
+          15,
+          17,
+          20,
+          25
+        ],
+        "imageCaption": "Representative Clear 100% Fluorocarbon package shown: 60 lb, 0.70 mm, 300 yd. The diameter chart covers 6-25 lb; this photo does not change with the selected strength."
+      },
+      "requestedAction": "None for the reviewed final pack. Existing actual photo retained; the real imageCaption field identifies its 60 lb / 300 yd label and the chart's 6-25 lb range.",
+      "originalFinding": {
+        "status": "advisory",
+        "evidence": {
+          "imagePath": "assets/line-pages/full-catalog/group-e/reaction-tackle-fluorocarbon-clear.jpg",
+          "photoLabel": "60 LB, .70 mm, 300 YD, 100% Fluorocarbon",
+          "retainedLb": [
+            6,
+            8,
+            10,
+            12,
+            15,
+            17,
+            20,
+            25
+          ]
+        },
+        "requestedAction": "Prefer an actual within-range package photo or clearly label image as representative; never imply photograph changes to the selected strength."
+      },
+      "resolvedAt": "2026-09-13T15:17:26.403Z",
+      "resolvedAgainstPackSha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+      "resolution": {
+        "imageCaption": "Representative Clear 100% Fluorocarbon package shown: 60 lb, 0.70 mm, 300 yd. The diameter chart covers 6-25 lb; this photo does not change with the selected strength.",
+        "goldFigcaptionVerified": true,
+        "builderAssignmentVerified": true
+      }
+    },
+    {
+      "id": "E-005",
+      "severity": "P3",
+      "status": "resolved",
+      "modelIds": [
+        "ande-braid",
+        "ande-tournament-monofilament",
+        "vicious-pro-elite-fluorocarbon"
+      ],
+      "category": "consumer-editorial",
+      "blocksModelPublication": false,
+      "title": "Resolved: Internal ID wording replaced with buying distinctions",
+      "evidence": {
+        "fields": [
+          "strengthGuide",
+          "faqs"
+        ],
+        "examples": [
+          "A new verified strength must not inherit another strength's old ID.",
+          "It receives a separate verified record; the old 15 lb ID is excluded rather than renamed."
+        ]
+      },
+      "requestedAction": "None for the reviewed final pack. Exact product/test distinctions remain; internal record-maintenance language was removed from the three flagged products.",
+      "originalFinding": {
+        "status": "advisory",
+        "evidence": {
+          "fields": [
+            "strengthGuide",
+            "faqs"
+          ],
+          "examples": [
+            "A new verified strength must not inherit another strength's old ID.",
+            "It receives a separate verified record; the old 15 lb ID is excluded rather than renamed."
+          ]
+        },
+        "requestedAction": "Keep factual current-strength differences and exclusions, but explain them as product choices rather than record-maintenance instructions. Model-specific guidance is otherwise substantive."
+      },
+      "resolvedAt": "2026-09-13T15:17:26.403Z",
+      "resolvedAgainstPackSha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+      "resolution": {
+        "fieldsVerified": {
+          "rhino-hide-camo-braid": [
+            "exampleSetups"
+          ],
+          "reaction-tackle-fluorocarbon": [
+            "imageCaption"
+          ],
+          "ande-braid": [
+            "quickSummary",
+            "strengthGuide",
+            "faqs",
+            "recommendationIntro"
+          ],
+          "ande-tournament-monofilament": [
+            "quickSummary",
+            "faqs"
+          ],
+          "vicious-pro-elite-fluorocarbon": [
+            "quickSummary",
+            "strengthGuide",
+            "chartNote",
+            "faqs",
+            "recommendationIntro",
+            "reelcalcNote",
+            "manufacturerFacts"
+          ]
+        },
+        "derivedGoldFieldsMatchBuilder": true,
+        "description": "Ande Tournament explains the actual 16 lb offering; Ande Graphite explains current 60 lb and exact diameters; Pro Elite explains actual 14 lb and distinction from standard Vicious Fluoro. No row IDs, numerical rows or exclusions changed."
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "ande-premium-monofilament",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://andemonofilament.com/products/premium-clear",
+        "https://andemonofilament.com/pages/line-specs"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.01,
+            0.25,
+            [
+              925,
+              1850
+            ]
+          ],
+          [
+            8,
+            0.011,
+            0.275,
+            [
+              787,
+              1575
+            ]
+          ],
+          [
+            10,
+            0.012,
+            0.3,
+            [
+              675,
+              1350
+            ]
+          ],
+          [
+            12,
+            0.014,
+            0.35,
+            [
+              500,
+              1000
+            ]
+          ],
+          [
+            15,
+            0.016,
+            0.4,
+            [
+              375,
+              750
+            ]
+          ],
+          [
+            20,
+            0.018,
+            0.45,
+            [
+              300,
+              600
+            ]
+          ],
+          [
+            25,
+            0.02,
+            0.5,
+            [
+              250,
+              500
+            ]
+          ],
+          [
+            30,
+            0.022,
+            0.55,
+            [
+              200,
+              400
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Original Premium Clear, PC-18/PC-14 weight-spool SKUs; not Tournament.",
+      "numericReview": "All eight retained pound tests match live variant Diameter metadata and the independently viewed Premium inch/mm chart: 6 .25/.010; 8 .275/.011; 10 .30/.012; 12 .35/.014; 15 .40/.016; 20 .45/.018; 25 .50/.020; 30 .55/.022 (mm/in).",
+      "packageReview": "All 16 accepted 1/8- and 1/4-pound package combinations match live per-variant Yardage. The conflicting 8 lb two-pound package is outside this subset.",
+      "editorialReview": "Medium-soft construction is supported by the official body. Weight-spool versus breaking-test explanation is useful and accurate; no comparative performance guarantee.",
+      "imageReview": "Viewed manufacturer Premium Clear spool, showing a 20 lb family example. Correct model/color, not a photograph of every selector combination.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/2178/8655/products/premium-clear_grande_81aecf8b-f819-484d-826a-eb9a6b18874e.png?v=1762457313",
+        "path": "assets/line-pages/full-catalog/group-e/ande-premium-monofilament.png",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/ande-premium.html",
+        "research/line-pages/full-catalog/group-e/sources/ande-premium-chart.jpg"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "ande-premium-monofilament-monofilament-10",
+        "spoolYards": 675
+      }
+    },
+    {
+      "id": "ande-tournament-monofilament",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://andemonofilament.com/products/tournament",
+        "https://andemonofilament.com/pages/line-specs"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            8,
+            0.00984252,
+            0.25,
+            [
+              750,
+              1500
+            ]
+          ],
+          [
+            10,
+            0.01181102,
+            0.3,
+            [
+              675,
+              1350
+            ]
+          ],
+          [
+            12,
+            0.01279528,
+            0.325,
+            [
+              560,
+              1125
+            ]
+          ],
+          [
+            16,
+            0.01476378,
+            0.375,
+            [
+              415,
+              835
+            ]
+          ],
+          [
+            20,
+            0.01673228,
+            0.425,
+            [
+              325,
+              650
+            ]
+          ],
+          [
+            30,
+            0.02066929,
+            0.525,
+            [
+              450
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Yellow Tournament TY SKUs. The official product identifies line-class/IGFA intent; no claim of certifying a particular spool or record.",
+      "numericReview": "Live metadata and independently viewed chart agree at 8/.25, 10/.30, 12/.325, 16/.375, 20/.425, 30/.525 (lb/mm). Six current classes, not legacy 15 or 25 lb substitutions.",
+      "packageReview": "Every accepted 1/8- and 1/4-pound length matches live metadata. 30 lb retained only at 450 yd; 22-versus-225 yd 1/8-pound conflict remains excluded.",
+      "editorialReview": "Pass after E-005 remediation. FAQ and summary now explain the actual 16 lb yellow Tournament offering as a buying distinction, without internal ID maintenance. Existing comparison with Premium and record-eligibility caution are retained.",
+      "imageReview": "Viewed yellow ANDE Tournament spool. Correct family/color, not an exact-strength photo for every selected class.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/2178/8655/products/yellow_2000x_65bf9baf-8ee5-40d2-aafa-3013bd1c31d6.png?v=1762457053",
+        "path": "assets/line-pages/full-catalog/group-e/ande-tournament-monofilament.png",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/ande-tournament.html",
+        "research/line-pages/full-catalog/group-e/sources/ande-tournament-chart.jpg"
+      ],
+      "blockers": [],
+      "findings": [
+        "E-005"
+      ],
+      "defaults": {
+        "lineId": "ande-tournament-monofilament-monofilament-12",
+        "spoolYards": 560
+      },
+      "remediationStatus": "resolved"
+    },
+    {
+      "id": "ande-fluorocarbon-leader",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "leader",
+      "lineType": "Fluorocarbon Leader",
+      "officialSources": [
+        "https://andemonofilament.com/products/fluorocarbon-leader"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            10,
+            0.01102362,
+            0.28,
+            [
+              50
+            ]
+          ],
+          [
+            12,
+            0.01181102,
+            0.3,
+            [
+              50
+            ]
+          ],
+          [
+            15,
+            0.01377953,
+            0.35,
+            [
+              50
+            ]
+          ],
+          [
+            20,
+            0.01574803,
+            0.4,
+            [
+              25,
+              50
+            ]
+          ],
+          [
+            25,
+            0.01771654,
+            0.45,
+            [
+              25,
+              50
+            ]
+          ],
+          [
+            30,
+            0.01968504,
+            0.5,
+            [
+              25,
+              50
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Original clear ANDE Fluorocarbon Leader, not Fluorocarbon 2.0; FC-50W/FC-25W wrist-skein SKUs.",
+      "numericReview": "Fresh page attributes joined to exact public product variants verify 10/.28, 12/.30, 15/.35, 20/.40, 25/.45, 30/.50 (lb/mm); converted inches are correct.",
+      "packageReview": "10/12/15 lb have 50 yd; 20/25/30 lb have 25 and 50 yd. Nine exact Clear variants verified, not page-wide cross-products.",
+      "editorialReview": "Appropriate terminal-leader guidance, replacement allowance and teeth disclaimer. Empty exampleSetups and valid 20 lb/50 yd defaults.",
+      "imageReview": "Viewed original red ANDE wrist skeins. Composite includes 15 lb and 40 lb; 40 lb is outside the retained table, so image is family illustration only.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/2178/8655/products/andefluoro_main_grande_34a88c68-6891-4961-978d-a2e4f5b4f047.png?v=1762457058",
+        "path": "assets/line-pages/full-catalog/group-e/ande-fluorocarbon-leader.png",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/ande-leader.html",
+        "research/line-pages/full-catalog/group-e/sources/ande-leader-extracted.json"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "ande-fluorocarbon-leader-fluorocarbon-leader-20",
+        "spoolYards": 50,
+        "leaderExamplesEmpty": true
+      }
+    },
+    {
+      "id": "ande-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://andemonofilament.com/products/braid",
+        "https://andemonofilament.com/pages/line-specs"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            10,
+            0.00472441,
+            0.12,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ],
+          [
+            15,
+            0.00629921,
+            0.16,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ],
+          [
+            20,
+            0.00708661,
+            0.18,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ],
+          [
+            30,
+            0.00944882,
+            0.24,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ],
+          [
+            40,
+            0.01259843,
+            0.32,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ],
+          [
+            50,
+            0.01417323,
+            0.36,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ],
+          [
+            60,
+            0.01614173,
+            0.41,
+            [
+              165,
+              325,
+              650,
+              1300,
+              3250
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Current Graphite Braid AB SKUs. Live heading explicitly Graphite Braid; Blue/Web Green not imported. Current 60 lb remains distinct from unsupported old 65 lb.",
+      "numericReview": "Independently extracted live HTML variant metafields verify all seven retained rows: 10/.12, 15/.16, 20/.18, 30/.24, 40/.32, 50/.36, 60/.41 (lb/mm). No PE-to-diameter assumption. The line-specs braid chart has packages only, not diameters.",
+      "packageReview": "All 35 retained combinations verified by current exact variant IDs, SKU, Diameter and Yardage. Nominal yard labels 165/325/650/1300/3250 retained. They are NOT exact conversions of the paired 150/300/600/1200/3000 m labels. Older chart omits some current variants; live exact variants supply current scope.",
+      "editorialReview": "Pass after E-005 remediation. Current 60 lb and exact Graphite AB diameters are explained as tackle and product choices. Nominal yard-label and leader/backing cautions are unchanged; derived recommendationIntro matches the builder.",
+      "imageReview": "Viewed Graphite ANDE Braid package/spool composite, matching original AB family.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/2178/8655/products/andebraid_grande_ca31fd75-138c-4e01-aeb5-5279b58ac563.png?v=1762457057",
+        "path": "assets/line-pages/full-catalog/group-e/ande-braid.png",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/ande-braid.html",
+        "research/line-pages/full-catalog/group-e/sources/ande-braid-extracted.json",
+        "research/line-pages/full-catalog/group-e/sources/ande-braid-chart.jpg"
+      ],
+      "blockers": [],
+      "findings": [
+        "E-005"
+      ],
+      "defaults": {
+        "lineId": "ande-braid-braid-20",
+        "spoolYards": 165
+      },
+      "remediationStatus": "resolved"
+    },
+    {
+      "id": "hi-seas-grand-slam-monofilament",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://www.afwfishing.com/products/parent_Grand_Slam_Monofilament_Line.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-06CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-08CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-10CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-12CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-15CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-20CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-25CL.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSM-Q-30CL.asp"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.01,
+            0.25,
+            [
+              2000
+            ]
+          ],
+          [
+            8,
+            0.011,
+            0.27,
+            [
+              1830
+            ]
+          ],
+          [
+            10,
+            0.012,
+            0.3,
+            [
+              1480
+            ]
+          ],
+          [
+            12,
+            0.014,
+            0.35,
+            [
+              1090
+            ]
+          ],
+          [
+            15,
+            0.016,
+            0.4,
+            [
+              860
+            ]
+          ],
+          [
+            20,
+            0.018,
+            0.45,
+            [
+              660
+            ]
+          ],
+          [
+            25,
+            0.02,
+            0.5,
+            [
+              535
+            ]
+          ],
+          [
+            30,
+            0.022,
+            0.55,
+            [
+              440
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Original Clear Grand Slam Mono GSM-Q quarter-pound, not Select or Bluewater.",
+      "numericReview": "Fresh direct HTTP verified all eight SKU titles against every retained inch/mm pair. 8 lb .011/.27 is independently rounded, not evidence for replacing either unit. Official 25/30 lb titles have swapped kg equivalents; kg is not imported.",
+      "packageReview": "Fresh title yardages exactly 2000,1830,1480,1090,860,660,535,440 for 6,8,10,12,15,20,25,30 lb. Product photograph confirms GSM-Q-10CL 10 lb/1480 yd/quarter-pound.",
+      "editorialReview": "Clear weight-versus-test explanation and original-family restriction. Do not import the source's erroneous 25/30 lb kg labels.",
+      "imageReview": "Viewed GSM-Q-10CL Clear Grand Slam Mono photo; package identity and 1480 yd match.",
+      "image": {
+        "url": "https://d2u0aogsnk9o55.cloudfront.net/images/gsm-q-10cl_l.jpg?v=3996839308",
+        "path": "assets/line-pages/full-catalog/group-e/hi-seas-grand-slam-monofilament.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/hiseas-sku-extracted.json",
+        "research/line-pages/full-catalog/group-e/sources/hiseas-sku-GSM-Q-10CL.html"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "hi-seas-grand-slam-monofilament-monofilament-10",
+        "spoolYards": 1480
+      }
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "packStatus": "unresolved",
+      "reviewVerdict": "independent-hold-confirmed",
+      "role": "mainline",
+      "lineType": "Fluorocarbon",
+      "officialSources": [
+        "https://www.afwfishing.com/products/parent_Hi-Seas_Fluorocarbon_Line.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-10.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-12.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-15.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-20.asp"
+      ],
+      "identityReview": "CFC-F200 is explicitly 100% Fluorocarbon Line mainline, not the CFQ-B25 leader.",
+      "numericReview": "Independently fetched all four current titles and visually inspected all four exact package photos. Conflicts independently confirmed; see E-002.",
+      "packageReview": "200 yd agrees between titles/photos; alternate metric titles say 182 m while photos say 183 m. Yard agreement does not resolve diameter disagreement.",
+      "editorialReview": "Correctly held with null product and zero accepted rows; do not restore the previous four-row candidate.",
+      "imageReview": "All four exact CFC-F200 package photos inspected and match their SKU/test, making the diameter conflict substantive.",
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/hiseas-sku-CFC-F200-10.html",
+        "research/line-pages/full-catalog/group-e/sources/hiseas-fluoro-10-package.jpg",
+        "research/line-pages/full-catalog/group-e/sources/hiseas-fluoro-12-package.jpg",
+        "research/line-pages/full-catalog/group-e/sources/hiseas-fluoro-15-package.jpg"
+      ],
+      "blockers": [
+        "All four current CFC-F200 mainline SKU titles conflict with their own official package images on diameter. No source establishes which specification/formulation is current. All rows held; leader diameters and legacy database values are not substitutes."
+      ],
+      "findings": [
+        "E-002"
+      ]
+    },
+    {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass-latest-three-row-subset",
+      "role": "leader",
+      "lineType": "Fluorocarbon",
+      "officialSources": [
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-08.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-10.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-12.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-15.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-20.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-25.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFQ-B25-30.asp"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            8,
+            0.012,
+            0.3,
+            [
+              25
+            ]
+          ],
+          [
+            10,
+            0.013,
+            0.32,
+            [
+              25
+            ]
+          ],
+          [
+            25,
+            0.018,
+            0.45,
+            [
+              25
+            ]
+          ]
+        ]
+      },
+      "identityReview": "All seven freshly fetched CFQ-B25 titles explicitly say Fluorocarbon Leader. Keep role leader even though legacy type string is Fluorocarbon.",
+      "numericReview": "Latest retained subset is ONLY 8 lb .012/.30, 10 lb .013/.32, 25 lb .018/.45 (in/mm). The 25 lb photo corroborates the title. 8/10 lb are exact-title evidence only, not independently photo-confirmed numeric rows. Excluded 12/15/20/30 lb title/photo conflicts were independently confirmed visually.",
+      "packageReview": "Retained three rows are Four-Color Camo 25 yd supply spools. Do not carry forward earlier seven-row versions.",
+      "editorialReview": "Latest summary and strength guide correctly describe three-row subset and leader consumption. Preserve leader routing, valid 25 lb/25 yd defaults, and empty examples.",
+      "imageReview": "Viewed selected CFQ-B25-25 product photo: 25 lb, .018 in/.45 mm, 25 yd, expressly Leader. Correct default-strength package.",
+      "image": {
+        "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfq-b25-25_l.jpg?v=3996839308",
+        "path": "assets/line-pages/full-catalog/group-e/hi-seas-quattro-fluorocarbon.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/hiseas-sku-extracted.json",
+        "research/line-pages/full-catalog/group-e/sources/cfq-b25-12-package.jpg",
+        "research/line-pages/full-catalog/group-e/sources/cfq-b25-15-package.jpg",
+        "research/line-pages/full-catalog/group-e/sources/cfq-b25-20-package.jpg",
+        "research/line-pages/full-catalog/group-e/sources/cfq-b25-30-package.jpg"
+      ],
+      "blockers": [],
+      "findings": [
+        "E-003"
+      ],
+      "defaults": {
+        "lineId": "hi-seas-quattro-fluorocarbon-fluorocarbon-25",
+        "spoolYards": 25,
+        "leaderExamplesEmpty": true
+      }
+    },
+    {
+      "id": "hi-seas-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://www.afwfishing.com/products/parent_Grand_Slam_Braid.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSB-F300-10GR.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSB-F300-15GR.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSB-F300-20GR.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSB-F300-30GR.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSB-F300-50GR.asp",
+        "https://www.afwfishing.com/hi-seas_products/GSB-F300-65GR.asp"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            10,
+            0.004,
+            0.1,
+            [
+              300
+            ]
+          ],
+          [
+            15,
+            0.006,
+            0.15,
+            [
+              300
+            ]
+          ],
+          [
+            20,
+            0.008,
+            0.2,
+            [
+              300
+            ]
+          ],
+          [
+            30,
+            0.011,
+            0.28,
+            [
+              300
+            ]
+          ],
+          [
+            50,
+            0.012,
+            0.3,
+            [
+              300
+            ]
+          ],
+          [
+            65,
+            0.016,
+            0.41,
+            [
+              300
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Grand Slam Braid Green GSB-F300, not Downrigger Braid.",
+      "numericReview": "All six exact SKU titles freshly fetched and match 10 .004/.10;15 .006/.15;20 .008/.20;30 .011/.28;50 .012/.30;65 .016/.41 (lb in/mm). Unusually thin 10 lb .004 in is the actual stated diameter, not the mono-equivalent label.",
+      "packageReview": "All six exact titles specify 300 yd. 20 lb product photo agrees at .008/.20 and 300 yd. Unsupported 40 lb remains outside scope.",
+      "editorialReview": "Reasonable working-length/backing distinction. Correctly avoids inventing carrier count or borrowing Downrigger specifications.",
+      "imageReview": "Viewed exact GSB-F300-20GR photo. The separate 6 lb mono-equivalent label is not used as the braid's test or diameter.",
+      "image": {
+        "url": "https://d2u0aogsnk9o55.cloudfront.net/images/gsb-f300-20gr_l.jpg?v=3996839308",
+        "path": "assets/line-pages/full-catalog/group-e/hi-seas-braid.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/hiseas-sku-extracted.json",
+        "research/line-pages/full-catalog/group-e/sources/hiseas-sku-GSB-F300-20GR.html"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "hi-seas-braid-braid-20",
+        "spoolYards": 300
+      }
+    },
+    {
+      "id": "kastking-superpower-braid",
+      "packStatus": "unresolved",
+      "reviewVerdict": "existing-hold-not-researched-as-candidate",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://kastking.com/products/kastking-superpower-braided-fishing-line",
+        "https://kastking.com/products.json?limit=250",
+        "https://kastking.com/products.json?limit=250&page=2"
+      ],
+      "identityReview": "Outside requested source-verified candidate set. Existing unresolved identity remains unapproved.",
+      "numericReview": "Original SuperPower product endpoint returns HTTP 404 and original standalone product is absent from the two current public product-inventory pages. Current ColorShield and lure-kit products do not prove the original 6-80 lb chart or package matrix. Hold for exact original product numeric/package evidence; do not substitute ColorShield or Silky8.",
+      "blockers": [
+        "Original SuperPower product endpoint returns HTTP 404 and original standalone product is absent from the two current public product-inventory pages. Current ColorShield and lure-kit products do not prove the original 6-80 lb chart or package matrix. Hold for exact original product numeric/package evidence; do not substitute ColorShield or Silky8."
+      ],
+      "findings": []
+    },
+    {
+      "id": "kastking-fluorokote",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Copolymer",
+      "officialSources": [
+        "https://kastking.com/products/kastking-fluorokote-fishing-line"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.008,
+            0.22,
+            [
+              300
+            ]
+          ],
+          [
+            8,
+            0.009,
+            0.23,
+            [
+              300
+            ]
+          ],
+          [
+            10,
+            0.011,
+            0.28,
+            [
+              300
+            ]
+          ],
+          [
+            12,
+            0.012,
+            0.3,
+            [
+              300
+            ]
+          ],
+          [
+            15,
+            0.013,
+            0.33,
+            [
+              300
+            ]
+          ],
+          [
+            17,
+            0.014,
+            0.35,
+            [
+              300
+            ]
+          ],
+          [
+            20,
+            0.015,
+            0.38,
+            [
+              300
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Official page identifies fluorocarbon/co-polymer combination; chart and package explicitly show a polymer core coated with fluorocarbon. Copolymer is correct; entire line must not be called 100% fluorocarbon. Preserve legacy fluorocarbon-coated IDs.",
+      "numericReview": "Independently viewed current attached chart and checked all seven retained pairs. 6 lb .008 in/.22 mm differs by .0168 mm but fits combined .001-in/.01-mm rounding bounds (.0177 mm); the difference is material for estimated capacity and is already expressly disclosed, not silently corrected.",
+      "packageReview": "Fresh public product JSON confirms all seven assigned strengths only at 300 yd. Do not add 150/500 yd merely from broader artwork.",
+      "editorialReview": "Construction and restrained coating claims are accurate. The official page also uses a leader heading, but explicitly discusses reel capacity and casting, so mainline use is supported; it is not leader-only.",
+      "imageReview": "Viewed FluoroKote box/spool image and chart. Both explicitly say fluorocarbon coated, matching current model rather than Kovert.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/FluoroKote1600x1600_2.jpg?v=1725439894",
+        "path": "assets/line-pages/full-catalog/group-e/kastking-fluorokote.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/kastking-fluorokote.html",
+        "research/line-pages/full-catalog/group-e/sources/kastking-fluorokote-chart.jpg"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "kastking-fluorokote-fluorocarbon-coated-10",
+        "spoolYards": 300
+      }
+    },
+    {
+      "id": "kastking-fluorocarbon",
+      "packStatus": "identity-conflict",
+      "reviewVerdict": "existing-hold-not-researched-as-candidate",
+      "role": "mainline",
+      "lineType": "Fluorocarbon",
+      "officialSources": [
+        "https://kastking.com/products.json?limit=250",
+        "https://kastking.com/products/kastking-kovert-essential-fluorocarbon-fishing-line",
+        "https://kastking.com/products/kastking-kovert-elite-100-fluorocarbon-fishing-line"
+      ],
+      "identityReview": "Outside requested source-verified candidate set. Existing unresolved identity remains unapproved.",
+      "numericReview": "Catalog says only Fluorocarbon without a named formula or original source. Current KastKing products include Kovert Essential, Kovert Classic, Kovert Elite and Kovert Xtreme, with distinct formulations; FluoroKote is coated copolymer. No evidence maps this generic legacy entry to one exact product. Hold; do not select a Kovert formula by matching a few old diameters.",
+      "blockers": [
+        "Catalog says only Fluorocarbon without a named formula or original source. Current KastKing products include Kovert Essential, Kovert Classic, Kovert Elite and Kovert Xtreme, with distinct formulations; FluoroKote is coated copolymer. No evidence maps this generic legacy entry to one exact product. Hold; do not select a Kovert formula by matching a few old diameters."
+      ],
+      "findings": []
+    },
+    {
+      "id": "kastking-destron-monofilament",
+      "packStatus": "identity-conflict",
+      "reviewVerdict": "existing-hold-not-researched-as-candidate",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://kastking.com/products/kastking-destron-essential-monofilament-fishing-line",
+        "https://kastking.com/products/kastking-destron-monofilament-fishing-line"
+      ],
+      "identityReview": "Outside requested source-verified candidate set. Existing unresolved identity remains unapproved.",
+      "numericReview": "Current official inventory names Destron Essential Monofilament, a polymer-coated nylon product. The old unqualified Destron endpoint returns 404, and no source establishes that the legacy model and Essential formulation are identical. Hold original entry instead of silently importing Essential specifications or Destron braid.",
+      "blockers": [
+        "Current official inventory names Destron Essential Monofilament, a polymer-coated nylon product. The old unqualified Destron endpoint returns 404, and no source establishes that the legacy model and Essential formulation are identical. Hold original entry instead of silently importing Essential specifications or Destron braid."
+      ],
+      "findings": []
+    },
+    {
+      "id": "reaction-tackle-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://reactiontackle.com/products/reaction-tackle-braided-fishing-line-moss-green"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.00393701,
+            0.1,
+            [
+              150,
+              300,
+              500,
+              1000
+            ]
+          ],
+          [
+            8,
+            0.00472441,
+            0.12,
+            [
+              150,
+              300,
+              500,
+              1000
+            ]
+          ],
+          [
+            10,
+            0.00551181,
+            0.14,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            15,
+            0.00708661,
+            0.18,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            20,
+            0.00866142,
+            0.22,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            25,
+            0.00984252,
+            0.25,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            30,
+            0.01102362,
+            0.28,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            40,
+            0.01259843,
+            0.32,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            50,
+            0.01417323,
+            0.36,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            65,
+            0.01771654,
+            0.45,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ],
+          [
+            80,
+            0.02047244,
+            0.52,
+            [
+              150,
+              300,
+              500,
+              1000,
+              1500,
+              3000
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Original Moss Green standard 4-strand UHMWPE product. Not X8, Ice, Never Fade or USA braid.",
+      "numericReview": "Fresh exact product JSON body independently confirms all eleven retained mm values: 6/.10,8/.12,10/.14,15/.18,20/.22,25/.25,30/.28,40/.32,50/.36,65/.45,80/.52. Converted inches match.",
+      "packageReview": "Each cited live variant ID/SKU/title rechecked. 6/8 lb have 150/300/500/1000 yd; 10-80 lb retained rows additionally have 1500/3000 yd. No assumed universal menu.",
+      "editorialReview": "Useful four-strand distinction and package-volume explanation; avoids repeating unsupported catch-rate/performance claims.",
+      "imageReview": "Viewed actual Moss Green braided-line spool. Correct color/product family, generic strength label.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/1696/5813/files/MOSSGREEN.jpg?v=1751392299",
+        "path": "assets/line-pages/full-catalog/group-e/reaction-tackle-braid.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/reaction-products.json"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "reaction-tackle-braid-braid-20",
+        "spoolYards": 150
+      }
+    },
+    {
+      "id": "reaction-tackle-fluorocarbon",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Fluorocarbon",
+      "officialSources": [
+        "https://reactiontackle.com/products/reaction-tackle-100-pure-fluorocarbon-fishing-line"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.00826772,
+            0.21,
+            [
+              125,
+              300
+            ]
+          ],
+          [
+            8,
+            0.00944882,
+            0.24,
+            [
+              125,
+              300
+            ]
+          ],
+          [
+            10,
+            0.01023622,
+            0.26,
+            [
+              50,
+              125,
+              300
+            ]
+          ],
+          [
+            12,
+            0.01181102,
+            0.3,
+            [
+              50,
+              125,
+              300
+            ]
+          ],
+          [
+            15,
+            0.01338583,
+            0.34,
+            [
+              50,
+              125,
+              300
+            ]
+          ],
+          [
+            17,
+            0.01574803,
+            0.4,
+            [
+              50,
+              125,
+              300
+            ]
+          ],
+          [
+            20,
+            0.01692913,
+            0.43,
+            [
+              50,
+              125,
+              300
+            ]
+          ],
+          [
+            25,
+            0.01771654,
+            0.45,
+            [
+              50,
+              125,
+              300
+            ]
+          ]
+        ]
+      },
+      "identityReview": "100% Pure Fluorocarbon, Clear. Official body explicitly supports mainline OR leader use. Not coated nylon.",
+      "numericReview": "Fresh exact body confirms all eight mm rows, including real 15/.34 to17/.40 step. No interpolation or alternate formulation substituted.",
+      "packageReview": "Live exact Clear variant IDs confirm 6/8 lb 125/300 yd; 10/12/15/17/20/25 lb 50/125/300 yd. The source supports short leaders and longer mainline fills; 50 yd alone is not a leader-only identity.",
+      "editorialReview": "Role/package guidance is accurate and model-specific. It explicitly avoids representing 50 yd as a normal complete reel fill.",
+      "imageReview": "Pass after E-004 remediation. The genuine Clear 100% Fluorocarbon photo still shows 60 lb/.70 mm/300 yd; the actual visible imageCaption explicitly identifies it as representative, notes the 6-25 lb chart, and says it does not change with selection. Gold figcaption rendering and builder retention verified.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/1696/5813/files/Clear100FC2.jpg?v=1776802305",
+        "path": "assets/line-pages/full-catalog/group-e/reaction-tackle-fluorocarbon-clear.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/reaction-products.json"
+      ],
+      "blockers": [],
+      "findings": [
+        "E-004"
+      ],
+      "defaults": {
+        "lineId": "reaction-tackle-fluorocarbon-fluorocarbon-10",
+        "spoolYards": 125
+      },
+      "imageCaption": "Representative Clear 100% Fluorocarbon package shown: 60 lb, 0.70 mm, 300 yd. The diameter chart covers 6-25 lb; this photo does not change with the selected strength.",
+      "remediationStatus": "resolved"
+    },
+    {
+      "id": "reaction-tackle-monofilament",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://reactiontackle.com/products/reaction-tackle-nylon-monofilament-fishing-line"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.0092126,
+            0.234,
+            [
+              2400
+            ]
+          ],
+          [
+            8,
+            0.01027559,
+            0.261,
+            [
+              2000
+            ]
+          ],
+          [
+            10,
+            0.01125984,
+            0.286,
+            [
+              1600
+            ]
+          ],
+          [
+            12,
+            0.01216535,
+            0.309,
+            [
+              1400
+            ]
+          ],
+          [
+            15,
+            0.0130315,
+            0.331,
+            [
+              1200
+            ]
+          ],
+          [
+            20,
+            0.01594488,
+            0.405,
+            [
+              800
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Original Nylon Monofilament Clear bulk listing, not the separate 350-yard filler or jumbo listing.",
+      "numericReview": "Fresh body confirms 6/.234,8/.261,10/.286,12/.309,15/.331,20/.405 (lb/mm); converted inches match.",
+      "packageReview": "All six exact Clear variant IDs match 2400/2000/1600/1400/1200/800 yd respectively. Package yards are individually verified, not derived from nominal weight.",
+      "editorialReview": "Accurately explains supply versus reel capacity and exact backing diameter; does not claim Clear has the UV-reactive colored-line properties.",
+      "imageReview": "Viewed clear original Monofilament spool. Correct product and clear color, generic test/package label.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/1696/5813/files/clear.jpg?v=1777495361",
+        "path": "assets/line-pages/full-catalog/group-e/reaction-tackle-monofilament-clear.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/reaction-products.json"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "reaction-tackle-monofilament-monofilament-10",
+        "spoolYards": 1600
+      }
+    },
+    {
+      "id": "reaction-tackle-ice-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://reactiontackle.com/products/reaction-tackle-ice-fishing-braided-line-8-strand"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            4,
+            0.00393701,
+            0.1,
+            [
+              150
+            ]
+          ],
+          [
+            6,
+            0.00551181,
+            0.14,
+            [
+              150
+            ]
+          ],
+          [
+            8,
+            0.00708661,
+            0.18,
+            [
+              150
+            ]
+          ],
+          [
+            10,
+            0.00787402,
+            0.2,
+            [
+              150
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Dedicated Ice Fishing Braided Line - 8 Strand. Actual H1, product JSON, ICE-IC SKUs and selected photo establish Ice identity despite generic search/SEO title.",
+      "numericReview": "Fresh exact body confirms 4/.10,6/.14,8/.18,10/.20 (lb/mm). These are Ice-specific dimensions, not standard 4-strand or generic X8. Correct inch conversions.",
+      "packageReview": "Fresh exact ICE-IC 4/6/8/10 lb variants each have 150 yd Ice Camo. 20/30 lb exist officially but are outside assigned retained subset, not evidence of a missing assigned model.",
+      "editorialReview": "Water-repelling fluoropolymer/hydrophobic coating is officially described, but copy properly avoids a no-icing guarantee. Depth/terminal guidance is useful. Vanford example is expressly volume-only, not ice-tackle approval.",
+      "imageReview": "Viewed blue/white Ice Camo package clearly labeled ICE FISHING ICE BRAID. Correct specialty product, not normal X8.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/1696/5813/files/IceBraidbox-blue.jpg?v=1751392449",
+        "path": "assets/line-pages/full-catalog/group-e/reaction-tackle-ice-braid.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/reaction-products.json"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "reaction-tackle-ice-braid-braid-6",
+        "spoolYards": 150
+      }
+    },
+    {
+      "id": "vicious-fluorocarbon",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Fluorocarbon",
+      "officialSources": [
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-6lb-test",
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-8lb-test",
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-10lb-test",
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-12lb-test",
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-15lb-test",
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-17lb-test",
+        "https://getvicious.com/products/vicious-100-japanese-fluoro-20lb-test"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.008,
+            0.2032,
+            [
+              100,
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            8,
+            0.009,
+            0.2286,
+            [
+              100,
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            10,
+            0.011,
+            0.2794,
+            [
+              100,
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            12,
+            0.013,
+            0.3302,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            15,
+            0.014,
+            0.3556,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            17,
+            0.015,
+            0.381,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            20,
+            0.016,
+            0.4064,
+            [
+              200,
+              500,
+              800
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Current standard FLO/PFLO/FLD/FLB 100% Japanese Fluoro, distinct from EFLO Pro Elite and Crystal/Tora.",
+      "numericReview": "Independently viewed attached official 100Fluoro chart. All seven in rows .008,.009,.011,.013,.014,.015,.016 at 6,8,10,12,15,17,20 lb match; converted mm correct. Small 6/8 values are genuinely printed, not inferred from old data.",
+      "packageReview": "All seven current strength endpoints fetched. 6/8/10 lb have100/200/500/800 yd;12/15/17/20 have200/500/800. Every package option matches live variants and chart.",
+      "editorialReview": "Made-in-Japan claim supported by live body. Model differences and heavy-line handling caveat are useful; no invented hands-on result.",
+      "imageReview": "Viewed green standard 100% Japanese Fluorocarbon box, not red Pro Elite. Manufacturer image has blank test/yard fields; family-only illustration.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/FLO_Right_a813eef2-a959-494a-a709-ab601ba36be3.jpg?v=1749744680",
+        "path": "assets/line-pages/full-catalog/group-e/vicious-fluorocarbon.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/vicious-products.json",
+        "research/line-pages/full-catalog/group-e/sources/vicious-fluoro-chart.png"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "vicious-fluorocarbon-fluorocarbon-10",
+        "spoolYards": 200
+      }
+    },
+    {
+      "id": "vicious-pro-elite-fluorocarbon",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Fluorocarbon",
+      "officialSources": [
+        "https://getvicious.com/products/vicious-pro-elite-100-japanese-fluorocarbon-8lb-test",
+        "https://getvicious.com/products/vicious-pro-elite-100-japanese-fluorocarbon-10lb-test",
+        "https://getvicious.com/products/vicious-pro-elite-100-japanese-fluorocarbon-12lb-test",
+        "https://getvicious.com/products/vicious-pro-elite-100-japanese-fluorocarbon-14lb-test",
+        "https://getvicious.com/products/vicious-pro-elite-100-japanese-fluorocarbon-17lb-test",
+        "https://getvicious.com/products/vicious-pro-elite-100-japanese-fluorocarbon-20lb-test"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            8,
+            0.01,
+            0.254,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            10,
+            0.011,
+            0.2794,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            12,
+            0.013,
+            0.3302,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            14,
+            0.014,
+            0.3556,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            17,
+            0.015,
+            0.381,
+            [
+              200,
+              500,
+              800
+            ]
+          ],
+          [
+            20,
+            0.016,
+            0.4064,
+            [
+              200,
+              500,
+              800
+            ]
+          ]
+        ]
+      },
+      "identityReview": "EFLO/EFLD/EFLB Pro Elite 100% Japanese Fluorocarbon, manufacturer-stated level-wound.",
+      "numericReview": "Independently viewed attached ProEliteChart. 8/.010,10/.011,12/.013,14/.014,17/.015,20/.016 (lb/in) all match. 14 lb is actual current offering, not renamed legacy15.",
+      "packageReview": "All six current strength endpoints freshly verify200/500/800 yd; chart agrees.",
+      "editorialReview": "Pass after E-005 remediation. The actual 14 lb offering and .014-inch diameter replace internal ID-inheritance wording. Standard FLO distinction and restrained level-wound interpretation are retained; derived gold fields match the builder.",
+      "imageReview": "Viewed red Pro Elite 100% Japanese Fluorocarbon pack. Correct family; manufacturer artwork leaves test and length fields blank.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/EFLO_Right_498ac594-60aa-49ba-a89b-bd7b653ec721.jpg?v=1749744670",
+        "path": "assets/line-pages/full-catalog/group-e/vicious-pro-elite-fluorocarbon.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/vicious-products.json",
+        "research/line-pages/full-catalog/group-e/sources/vicious-proelite-chart.png"
+      ],
+      "blockers": [],
+      "findings": [
+        "E-005"
+      ],
+      "defaults": {
+        "lineId": "vicious-pro-elite-fluorocarbon-fluorocarbon-12",
+        "spoolYards": 200
+      },
+      "remediationStatus": "resolved"
+    },
+    {
+      "id": "vicious-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://getvicious.com/products/vicious-standard-green-braid-10lb-test",
+        "https://getvicious.com/products/vicious-standard-green-braid-15lb-test",
+        "https://getvicious.com/products/vicious-standard-green-braid-20lb-test",
+        "https://getvicious.com/products/vicious-standard-green-braid-30lb-test",
+        "https://getvicious.com/products/vicious-standard-green-braid-40lb-test",
+        "https://getvicious.com/products/vicious-standard-green-braid-50lb-test",
+        "https://getvicious.com/products/vicious-standard-green-braid-65lb-test"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            10,
+            0.005,
+            0.127,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ],
+          [
+            15,
+            0.006,
+            0.1524,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ],
+          [
+            20,
+            0.007,
+            0.1778,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ],
+          [
+            30,
+            0.009,
+            0.2286,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ],
+          [
+            40,
+            0.013,
+            0.3302,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ],
+          [
+            50,
+            0.014,
+            0.3556,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ],
+          [
+            65,
+            0.016,
+            0.4064,
+            [
+              150,
+              300,
+              1500,
+              3000
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Standard Green Braid, explicitly described as Vicious Braid on current product. Not No-Fade/Descender/Panfish.",
+      "numericReview": "Independently viewed BraidChart:10/.005,15/.006,20/.007,30/.009,40/.013,50/.014,65/.016 (lb/in). The30-to40 lb discontinuity is printed by the manufacturer, not a transcription error.",
+      "packageReview": "All seven current endpoints freshly verify150/300/1500/3000 yd. The special5/7 lb yellow-only notes in the wider chart do not apply to retained Green rows.",
+      "editorialReview": "PE, tightly woven construction and coating are supported. Copy correctly declines to smooth the diameter step or promise No-Fade behavior.",
+      "imageReview": "Viewed current red/black Vicious BRAID USA box, matching first image on current Standard Green product endpoint. Generic strength/color representation, not a different named formula.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/BraidUSA.jpg?v=1773159072",
+        "path": "assets/line-pages/full-catalog/group-e/vicious-braid.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/vicious-products.json",
+        "research/line-pages/full-catalog/group-e/sources/vicious-braid-chart.png"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "vicious-braid-braid-20",
+        "spoolYards": 150
+      }
+    },
+    {
+      "id": "vicious-monofilament",
+      "packStatus": "identity-conflict",
+      "reviewVerdict": "existing-hold-not-researched-as-candidate",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://getvicious.com/pages/faqs",
+        "https://getvicious.com/products/vicious-ultimate-clear-mono-10lb-test"
+      ],
+      "identityReview": "Outside requested source-verified candidate set. Existing unresolved identity remains unapproved.",
+      "numericReview": "Generic legacy Monofilament has no manufacturer model/SKU provenance. Official FAQ distinguishes Ultimate, Panfish and Ice copolymer monofilaments; current broad-use product is Ultimate. Its chart includes 14 lb instead of legacy 15 lb and different diameters. Ultimate is a plausible intended model, but equivalence is not established. Hold rather than silently rename the product.",
+      "blockers": [
+        "Generic legacy Monofilament has no manufacturer model/SKU provenance. Official FAQ distinguishes Ultimate, Panfish and Ice copolymer monofilaments; current broad-use product is Ultimate. Its chart includes 14 lb instead of legacy 15 lb and different diameters. Ultimate is a plausible intended model, but equivalence is not established. Hold rather than silently rename the product."
+      ],
+      "findings": []
+    },
+    {
+      "id": "vicious-panfish-hi-vis-mono",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://getvicious.com/products/vicious-panfish-hi-vis-yellow-mono-2lbtest",
+        "https://getvicious.com/products/vicious-panfish-hi-vis-yellow-mono-4lbtest",
+        "https://getvicious.com/products/vicious-panfish-hi-vis-yellow-mono-6lbtest",
+        "https://getvicious.com/products/vicious-panfish-hi-vis-yellow-mono-8lbtest"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            2,
+            0.006,
+            0.1524,
+            [
+              330,
+              3920,
+              15000
+            ]
+          ],
+          [
+            4,
+            0.007,
+            0.1778,
+            [
+              330,
+              2960,
+              11200,
+              22400
+            ]
+          ],
+          [
+            6,
+            0.008,
+            0.2032,
+            [
+              330,
+              2360,
+              9100,
+              18200
+            ]
+          ],
+          [
+            8,
+            0.009,
+            0.2286,
+            [
+              330,
+              1700,
+              6500,
+              13000
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Hi-Vis Yellow Panfish Mono. Current official FAQ identifies Panfish as nylon copolymer monofilament; legacy Monofilament type is not a claim of pure single-polymer material.",
+      "numericReview": "Independently viewed PanfishMonoChart:2/.006,4/.007,6/.008,8/.009 (lb/in), with proper mm conversions.",
+      "packageReview": "All four fresh endpoints confirm330 yd and exact bulk yardages.2lb3920/15000;4lb2960/11200/22400;6lb2360/9100/18200;8lb1700/6500/13000. No100 yd inferred from broader chart.",
+      "editorialReview": "Panfish-specific presentation and hi-vis distinction are useful; manufacturer low-memory claim not turned into a hands-on result. Generic FAQ inventory is old, so current exact product listings are used for availability.",
+      "imageReview": "Viewed yellow Panfish package marked Hi-Vis Yellow, matching product family rather than Panfish braid.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/PYL8-1076_edit_bfd4a272-490f-4fad-bd89-c805deeef65d.jpg?v=1749745271",
+        "path": "assets/line-pages/full-catalog/group-e/vicious-panfish-hi-vis-mono.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/vicious-products.json",
+        "research/line-pages/full-catalog/group-e/sources/vicious-panfish-chart.png",
+        "research/line-pages/full-catalog/group-e/sources/vicious-faq.html"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "vicious-panfish-hi-vis-mono-monofilament-4",
+        "spoolYards": 330
+      }
+    },
+    {
+      "id": "cast-fishing-co-x12-frog-flip-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://castfishing.co/products/x12-frog-flip-150yd"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            65,
+            0.01023622,
+            0.26,
+            [
+              150
+            ]
+          ],
+          [
+            80,
+            0.01181102,
+            0.3,
+            [
+              150
+            ]
+          ]
+        ]
+      },
+      "identityReview": "US X12 Frog & Flip150yd, exact two variants; not regular X12 Casting or Australian metric packages.",
+      "numericReview": "Fresh exact product JSON identifies65LB CAMO150YDS0.26mm and80LB CAMO150YDS0.30mm. These unusually thin claimed diameters are genuine source text, not PE conversions or independently measured packing diameters.",
+      "packageReview": "Both150 yd variants independently verified; correct inch conversions.",
+      "editorialReview": "Frog/flipping focus and digging/drag cautions are suitable. Does not repeat manufacturer's15-20% longer-cast claim as tested fact. SLX baitcaster examples are technique-appropriate volume demonstrations.",
+      "imageReview": "Viewed actual CAST X12 FROG&FLIP box/spool clearly labeled65LB150YDS. Correct default variant; no readable diameter on front photo.",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0267/1417/7716/files/X12FROGFLIPSQUAREWEBTILE.jpg?v=1779225650",
+        "path": "assets/line-pages/full-catalog/group-e/cast-fishing-co-x12-frog-flip-braid.jpg",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/cast-frog.json"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "cast-fishing-co-x12-frog-and-flip-braid-braid-65",
+        "spoolYards": 150
+      }
+    },
+    {
+      "id": "rhino-hide-camo-braid",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Braid",
+      "officialSources": [
+        "https://www.zebco.com/en/shop/line/rhinobraid"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            10,
+            0.007,
+            0.18,
+            [
+              200
+            ]
+          ],
+          [
+            15,
+            0.009,
+            0.22,
+            [
+              200
+            ]
+          ],
+          [
+            20,
+            0.01,
+            0.25,
+            [
+              200
+            ]
+          ],
+          [
+            30,
+            0.011,
+            0.28,
+            [
+              200
+            ]
+          ],
+          [
+            50,
+            0.015,
+            0.39,
+            [
+              200
+            ]
+          ]
+        ]
+      },
+      "identityReview": "Fresh ProductDetailsLoader has incorrect parent name but ten RNB200 children explicitly say BRAID and ItemSubCategory=Braid. Selected20 lb package also explicitly says braid; not RNMF330 mono.",
+      "numericReview": "All ten current Green/Orange children checked against5 retained pairs. Both colors agree:10 .007/.18;15 .009/.22;20 .010/.25;30 .011/.28;50 .015/.39. Preserve independent source rounding.",
+      "packageReview": "All children200 yd; launch-year2027 and DisplayOnly state do not verify retail stock. Copy includes availability caveat.",
+      "editorialReview": "Pass after E-001 remediation. The first saved example and owned builder now use 100 working yards, within the 114.57-yard engine estimate. All 33 saved mainline examples fit. Heavy-cover use remains qualified by strength/tackle; no carrier count invented.",
+      "imageReview": "Viewed RNB200-20GC Green Camo Braid20lb200yd with .010in/.250mm, corroborating child attributes and resolving parent heading.",
+      "image": {
+        "url": "https://www.zebco.com/globalassets/media---zebco-catalog/rnb200-20gc/rnb200-20gc_rhinobraidgreencamo200yd20lb_main.png",
+        "path": "assets/line-pages/full-catalog/group-e/rhino-hide-camo-braid.png",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/rhino-braid.html",
+        "research/line-pages/full-catalog/group-e/sources/rhino-braid-extracted.json"
+      ],
+      "blockers": [],
+      "findings": [
+        "E-001"
+      ],
+      "defaults": {
+        "lineId": "rhino-hide-camo-braid-braid-20",
+        "spoolYards": 200
+      },
+      "savedExampleReview": {
+        "workingYards": 100,
+        "capacityYards": 114.56790123456791,
+        "lineId": "rhino-hide-camo-braid-braid-15",
+        "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691"
+      },
+      "remediationStatus": "resolved"
+    },
+    {
+      "id": "rhino-hide-camo-monofilament",
+      "packStatus": "source-verified",
+      "reviewVerdict": "source-pass",
+      "role": "mainline",
+      "lineType": "Monofilament",
+      "officialSources": [
+        "https://www.zebco.com/en/shop/line/rhinomono"
+      ],
+      "reviewedRows": {
+        "columns": [
+          "lb",
+          "dia_in",
+          "dia_mm",
+          "spool_sizes_yd"
+        ],
+        "values": [
+          [
+            6,
+            0.009,
+            0.2286,
+            [
+              330
+            ]
+          ],
+          [
+            8,
+            0.01,
+            0.26,
+            [
+              330
+            ]
+          ],
+          [
+            10,
+            0.011,
+            0.286,
+            [
+              330
+            ]
+          ],
+          [
+            12,
+            0.012,
+            0.3048,
+            [
+              330
+            ]
+          ],
+          [
+            15,
+            0.014,
+            0.3556,
+            [
+              330
+            ]
+          ],
+          [
+            20,
+            0.016,
+            0.4064,
+            [
+              330
+            ]
+          ],
+          [
+            25,
+            0.017,
+            0.44,
+            [
+              330
+            ]
+          ],
+          [
+            30,
+            0.02,
+            0.508,
+            [
+              330
+            ]
+          ]
+        ]
+      },
+      "identityReview": "RNMF330 Green Camo Monofilament, distinct from RNB200 braid.",
+      "numericReview": "All eight fresh children checked. Published inches .009,.010,.011,.012,.014,.016,.017,.020 at6,8,10,12,15,20,25,30 lb. Child mm supplied only8/.26 and25/.44; selected10lb photo adds.286mm. Other mm correctly marked conversions.",
+      "packageReview": "Every current child330 yd.2027 launch metadata remains an availability caveat, not a reason to invent stock.",
+      "editorialReview": "Accurate 330-versus200yd distinction, correct conversion caveat, and appropriate warning that thick-line capacity fit does not imply suitable handling.",
+      "imageReview": "Viewed RNMF330-10GC10lb330yd .011in/.286mm package, agreeing with retained published-pair row.",
+      "image": {
+        "url": "https://www.zebco.com/globalassets/media---zebco-catalog/rnmf330-10gc/rnmf330-10gc_rhinomonogreencamo330yd10lb_main.png",
+        "path": "assets/line-pages/full-catalog/group-e/rhino-hide-camo-monofilament.png",
+        "visuallyInspected": true
+      },
+      "evidenceFiles": [
+        "research/line-pages/full-catalog/group-e/sources/rhino-mono.html",
+        "research/line-pages/full-catalog/group-e/sources/rhino-mono-extracted.json"
+      ],
+      "blockers": [],
+      "findings": [],
+      "defaults": {
+        "lineId": "rhino-hide-camo-monofilament-monofilament-10",
+        "spoolYards": 330
+      }
+    }
+  ],
+  "limitations": [
+    "No physical diameter or fill measurements; source accuracy is distinct from manufacturer claim truth.",
+    "Family photos often have blank test fields or show a different strength; all were inspected for actual family/color identity, not claimed to dynamically match every selection.",
+    "Four pre-existing non-Hi-Seas holds were accounted for but not independently researched to a new resolution; this assignment prioritized the 19 source-verified candidates plus the high-risk Hi-Seas hold.",
+    "Group E changed Quattro from seven to three rows during review. Conclusions apply only to the exact recorded pack hash.",
+    "Subsequent held-model resolution research is separate and cannot alter this signoff or admit new rows without its own reviewed pack."
+  ],
+  "originalSourceReviewSnapshot": {
+    "path": "research/line-pages/full-catalog/group-e/pack.json",
+    "sha256": "825b6958709a3baa98bb60af4c66e83e88ee09fe11907ae9f1a429bc379dd27b",
+    "packCheckedAt": "2026-09-13T14:30:30.307Z",
+    "sourceVerifiedModels": 19,
+    "sourceVerifiedRows": 119,
+    "assignedModels": 24,
+    "heldModels": 5
+  },
+  "originalSourceReviewedAt": "2026-09-13T14:50:36.977Z",
+  "postFixSignoff": {
+    "status": "passed",
+    "reviewedAt": "2026-09-13T15:17:26.403Z",
+    "exactPackSha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+    "originalSourcePackSha256": "825b6958709a3baa98bb60af4c66e83e88ee09fe11907ae9f1a429bc379dd27b",
+    "resolvedFindings": [
+      "E-001",
+      "E-004",
+      "E-005"
+    ],
+    "openRemediationAdvisories": 0,
+    "retainedCandidatesApprovedForMainIntegration": 19,
+    "retainedRowsReviewed": 119,
+    "excludedCandidatesApproved": 0,
+    "reviewerDisclosure": "The original independent source reviewer also applied the user-authorized copy/example remediation, then verified the final pack. No additional separate reviewer is implied.",
+    "scope": "Source/configuration signoff for this exact Group E pack only; main retains browser, staging and publication ownership.",
+    "numericRowsUnchanged": {
+      "serialization": "JSON.stringify(pack.models.map(m => ({id:m.id, rows:m.rows})))",
+      "before": "137e5b33a60d5d3a404c0d3760793bdfc434791650c35dfcc3b2f49173a54cc5",
+      "after": "137e5b33a60d5d3a404c0d3760793bdfc434791650c35dfcc3b2f49173a54cc5",
+      "unchanged": true
+    },
+    "allNonProductModelFieldsUnchanged": {
+      "serialization": "JSON.stringify(pack.models.map(({product, ...rest}) => rest))",
+      "before": "5d3660e6c9a529afadb9a204e436e007b59f38dc1310a8db58db18dd054ded0b",
+      "after": "5d3660e6c9a529afadb9a204e436e007b59f38dc1310a8db58db18dd054ded0b",
+      "unchanged": true
+    },
+    "allFieldsOutsideRequestedRemediationUnchanged": {
+      "serialization": "JSON.stringify(pack), after deleting only the explicitly listed allowedProductFields from each corresponding product",
+      "before": "0329fe9442efc3eb8d12291b8430141e1235b5a4eeee836b10bb0b1866eddead",
+      "after": "0329fe9442efc3eb8d12291b8430141e1235b5a4eeee836b10bb0b1866eddead",
+      "unchanged": true
+    },
+    "tests": {
+      "packConsistencyChecks": 2221,
+      "focusedPostfixChecks": 58,
+      "syntaxFiles": 4,
+      "savedExamplesWithinCapacity": 33,
+      "errors": [],
+      "captionRenderedInGoldTemplate": true
+    },
+    "auditPath": "research/line-pages/full-catalog/group-e/review-postfix.json"
+  }
+}

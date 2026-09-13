@@ -1,0 +1,266 @@
+{
+  "review": "group-b-independent-source-review",
+  "status": "complete",
+  "updatedAt": "2026-09-13T15:08:39.409Z",
+  "reviewCompletedAt": "2026-09-13T14:56:04.923Z",
+  "pack": "research/line-pages/full-catalog/group-b/pack.json",
+  "packCheckedAt": "2026-09-13T14:21:09.274Z",
+  "packSha256": "79a2abe9dd11af9439cc066ceac324a74f191bd2c06f1b25d7168d52eaa1ca99",
+  "scope": {
+    "sourceVerifiedPages": 22,
+    "sourceVerifiedRows": 201,
+    "excludedUnresolvedModels": ["sufix-invisiline-fluorocarbon", "sufix-calibr8"],
+    "method": "Independent reading of saved manufacturer HTML, Shopify JSON, catalog/package-label evidence and product images; targeted official-source alternatives for conflicts. No structural validator or browser runtime used."
+  },
+  "progress": {
+    "numericTablesReviewed": 22,
+    "editorialRolesReviewed": 22,
+    "productImagesViewedOnContactSheets": 22,
+    "finalAssetsMatchedToRawManufacturerImages": 22,
+    "sufixRawPackageBindingsChecked": 490,
+    "remaining": []
+  },
+  "criticalHolds": [
+    {
+      "modelId": "sufix-advance-mono",
+      "findingId": "GB-002",
+      "remediationStatus": "applied-to-pack-and-builders; conflicting packages remain withheld",
+      "lineIds": ["sufix-advance-mono-monofilament-25"],
+      "skus": ["604-125", "604-125G", "604-125L"],
+      "scope": "25 lb filler packages currently represented as 330 yd; Clear, Lo-Vis Green and Neon Lime",
+      "releaseCondition": "Remove the ambiguous filler packages and their 330 yd option at 25 lb pending exact-SKU clarification. Keep the verified diameter and separate 1200 yd SKUs 604-1025/604-1025G/604-1025L. Qualify copy that currently offers 330/1200 yd without the 25 lb exception."
+    },
+    {
+      "modelId": "yo-zuri-topknot-leader",
+      "findingId": "GB-001",
+      "remediationStatus": "applied-to-pack-and-builders; 40/50/130 lb remain withheld",
+      "lineIds": ["yo-zuri-topknot-leader-fluorocarbon-leader-40", "yo-zuri-topknot-leader-fluorocarbon-leader-50"],
+      "scope": "40 and 50 lb; Natural Clear and Disappearing Pink; 30 and 100 yd",
+      "releaseCondition": "Withhold both strength rows and update the source/FAQ claim, or supply exact-model manufacturer clarification establishing an authoritative unit. Other verified strengths are not blocked by this finding. Retain the existing separate 130 lb hold."
+    }
+  ],
+  "findings": [
+    {
+      "id": "GB-002",
+      "priority": "P1",
+      "status": "confirmed",
+      "modelId": "sufix-advance-mono",
+      "title": "25 lb filler SKUs have unresolved 250 versus 330 yard lengths",
+      "packLocations": [
+        {"line": 7939, "selector": "models[id=sufix-advance-mono].rows[lb=25].retail_packages[sku=604-125]"},
+        {"line": 7948, "selector": "models[id=sufix-advance-mono].rows[lb=25].retail_packages[sku=604-125G]"},
+        {"line": 7957, "selector": "models[id=sufix-advance-mono].rows[lb=25].retail_packages[sku=604-125L]"}
+      ],
+      "evidence": [
+        {
+          "file": "research/line-pages/full-catalog/group-b/evidence/sufix-advance-mono.html",
+          "url": "https://www.rapala.com/us_en/advance-monofilament-ul-li-the-mono-that-thinks-it-s-a-braid-li-ul",
+          "locator": "window.__INITIAL_STATE__.product.current.configurable_children, exact sku_clean 604-125, 604-125G, 604-125L",
+          "fields": {"test_lb_value": "25", "diameter_in_value": "0.020 inches", "yard_spool_value": "330 Yd. Spools", "capacity_value": "330 Yd. Spools"},
+          "mediaLabels": {
+            "604-125": "ADVANCE MONO 250YDS 25LB CLEAR",
+            "604-125G": "ADVANCE MONO 250YDS 25LB LOW-VIS GREEN",
+            "604-125L": "ADVANCE MONO 250YDS 25LB/NEON LIME"
+          }
+        },
+        {
+          "url": "https://www.rapala.com/us_en/advance-monofilament-ul-li-the-mono-that-thinks-it-s-a-braid-li-ul",
+          "checkedAt": "2026-09-13T14:53:16.658Z",
+          "method": "Independent live ordinary HTTP fetch; status 200; parsed embedded JSON without using the main browser or writing Group B files",
+          "result": "All three exact filler SKUs repeat the 250/330 conflict. The separate 604-1025, 604-1025G and 604-1025L length fields and image labels all agree on 1200 yd."
+        }
+      ],
+      "impact": "The retained purchase option presents an unresolved length as verified. If the 250 yd image label is correct, a 330 yd recommendation overstates supply by 80 yd (32%). This is the same kind of exact-SKU package conflict already excluded for Elite's heavy fillers.",
+      "requiredAction": "Withhold only the three 25 lb filler packages and their 330 yd option until manufacturer clarification; do not substitute 250 yd solely from conflicting metadata. Keep the 25 lb diameter and verified 1200 yd bulk packages. Add the exception to package guidance and source notes."
+    },
+    {
+      "id": "GB-001",
+      "priority": "P1",
+      "status": "confirmed",
+      "modelId": "yo-zuri-topknot-leader",
+      "title": "Two retained leader diameters exceed the source's printed rounding intervals",
+      "packLocations": [
+        {"line": 10687, "selector": "models[id=yo-zuri-topknot-leader].rows[lb=40]"},
+        {"line": 10738, "selector": "models[id=yo-zuri-topknot-leader].rows[lb=50]"},
+        {"selector": "models[id=yo-zuri-topknot-leader].product.sourceNote"}
+      ],
+      "observations": [
+        {"lb": 40, "printedMm": ".570", "printedIn": ".023", "inConvertedToMm": 0.5842, "absoluteDifferenceMm": 0.0142},
+        {"lb": 50, "printedMm": ".620", "printedIn": ".025", "inConvertedToMm": 0.635, "absoluteDifferenceMm": 0.015}
+      ],
+      "maximumCombinedNearestRoundingDifferenceMm": 0.0132,
+      "calculation": "The sources print 0.001 mm and 0.001 in increments: 0.0005 mm + (0.0005 in * 25.4 mm/in) = 0.0132 mm. Removing trailing zeros after numeric parsing does not establish lower source precision.",
+      "evidence": [
+        {"file": "research/line-pages/full-catalog/group-b/evidence/yo-18.html", "url": "http://www.yo-zuri.com/products/archives/18", "line": 256, "locator": "30 yd table rows TK LD 40LB NCL and TK LD 50LB NCL; same pairs repeated in 100 yd table"},
+        {"file": "research/line-pages/full-catalog/group-b/evidence/yo-19.html", "url": "http://www.yo-zuri.com/products/archives/19", "line": 253, "locator": "30 yd table rows TK LD 40LB DP and TK LD 50LB DP; same pairs repeated in 100 yd table"},
+        {"url": "https://www.duel.co.jp/english/products/topknot-leader", "checkedAt": "2026-09-13", "locator": "Official alternative, TOPKNOT LEADER 30YDS: R1232-/40 lb and R1233-/50 lb repeat the same three-decimal pairs", "result": "Does not resolve the conflict"}
+      ],
+      "impact": "The pack describes retained pairs as within rounding tolerance while correctly holding 130 lb under that same rule. These two additional pairs are not within it. This is a source conflict, not proof that either individual diameter is the correct physical measurement.",
+      "requiredAction": "Hold the two strength rows or obtain exact-model clarification; do not silently convert one unit or infer a looser tolerance from parsed numbers. Update the source note and omission FAQ to include these holds."
+    }
+  ],
+  "modelReviews": [
+    {
+      "modelId": "spro-finesse-braid-8x", "reviewedRows": 6, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/spro-collection.json", "evidence/finesse-braid-8x-labels-0.png", "evidence/finesse-braid-8x-labels-4.png"],
+      "verified": "Visually checked the exact Lime Green labels: 6/.10, 8/.13, 10/.16, 12/.18, 14/.20, 16/.22 lb/mm. The pack retains the published 150 m/164 yd pair, whose yard label is rounded rather than an exact conversion. Flash Pink remains separate. Mainline copy and actual Lime Green product photo match."
+    },
+    {
+      "modelId": "spro-essential-bronzeye-8x", "reviewedRows": 4, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/spro-collection.json", "evidence/bronzeye-braid-8x-labels-0.png"],
+      "verified": "40/.28, 50/.315, 60/.35, 80/.42 lb/mm independently read from the 150 m labels, with matching SBB8X SKU family. No inferred 65 lb row. Heavy mainline positioning and Essential Series Bronzeye package image match."
+    },
+    {
+      "modelId": "spro-cast-control-8x", "reviewedRows": 10, "criticalHoldIds": [], "result": "pass-with-existing-exclusions",
+      "sources": ["evidence/spro-collection.json", "evidence/cast-control-8x-labels-0.png", "evidence/cast-control-8x-labels-4.png", "evidence/cast-control-8x-labels-8.png"],
+      "verified": "10-20 lb filler labels bind to 150 m; 30-80 lb to 300 m. Exact 3000 m child SKUs verified only for offered strengths. Current SCC8X-16LGN150 and its 16 lb/.18 mm label agree; the older 15 lb catalog discrepancy is disclosed. No guessed 22 lb row or unlabeled new 6/8 lb diameter. Mainline photo is Cast Control, not Depth Control."
+    },
+    {
+      "modelId": "spro-depth-control-8x", "reviewedRows": 5, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/spro-collection.json", "evidence/depth-control-8x-labels-0.png", "evidence/depth-control-8x-labels-4.png"],
+      "verified": "30/.24, 40/.28, 50/.315, 60/.35, 80/.42 lb/mm visually checked. SDC8X PTM300 retains the published 300 m/328 yd pair; PTM3000 is independently offered at 3000 m and explicitly converted to 3280.839895 yd. Copy correctly avoids equating color-metered deployed length with vertical depth. Correct Depth Control photo."
+    },
+    {
+      "modelId": "spro-gouken-flc", "reviewedRows": 8, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/spro-collection.json", "evidence/spro-2026-page-16.png"],
+      "verified": "Current SEGKNFL titles explicitly bind 6/.205 through 25/.405 lb/mm to 150 and 600 m, including the expanded current range absent from the older table. The 25 lb diameter is .405 mm, not the .435 mm used by unrelated Yo-Zuri mainlines. Correct Essential Gouken fluorocarbon image and mainline scope."
+    },
+    {
+      "modelId": "spro-rai-jin-premium-fluorocarbon", "reviewedRows": 7, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/spro-collection.json", "evidence/spro-2026-page-16.png"],
+      "verified": "Catalog SRJPFC rows give 6/.205, 8/.235, 10/.260, 12/.285, 14/.310, 16/.330, 20/.370 lb/mm. Current exact variants separately establish 150/600 m, without claiming the catalog itself proves 600 m. Rai-Jin 14 lb/600 m package image supports the model and bulk context."
+    },
+    {
+      "modelId": "spro-finesse-fluorocarbon-leader", "reviewedRows": 6, "criticalHoldIds": [], "result": "pass-with-note",
+      "sources": ["evidence/spro-collection.json", "evidence/finesse-leader-labels-0.png", "evidence/finesse-leader-labels-4.png"],
+      "verified": "6/.234, 8/.257, 10/.283, 12/.298, 14/.326, 16/.352 lb/mm independently read from package labels. The source quantity is 50 m (54.680665 yd); artwork 54Y is expressly disclosed rather than treated as an exact conversion. Model/product retain Fluorocarbon Leader, role leader, empty examples and leader-only guidance. Correct local leader photo."
+    },
+    {
+      "modelId": "sufix-832-advanced-superline", "reviewedRows": 12, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/sufix-832.html", "evidence/sufix-832-product.png"],
+      "verified": "All 308 retained package bindings checked against raw U.S. embedded variant JSON, including image-label lengths. 15 lb preserves .0085 in and converts to .2159 mm. 100/130 lb use 1200/3000 yd, not lighter-strength filler or 3500 yd assumptions. Correct 7 HMPE + 1 GORE / 32-weave mainline description and Advanced Superline photo, not lead core."
+    },
+    {
+      "modelId": "sufix-promix-braid", "reviewedRows": 9, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/sufix-promix.html", "evidence/sufix-promix-product.png"],
+      "verified": "All 52 packages checked in raw U.S. variant JSON. No 8 lb is invented; 6 lb is 150/300 yd only, bulk starts at 10 lb, and colors remain SKU-specific. .0085 in is preserved at 15 lb. Photo says ProMix Braid, and copy does not borrow ProMix monofilament properties."
+    },
+    {
+      "modelId": "sufix-performance-braid", "reviewedRows": 8, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/sufix-performance.html", "evidence/sufix-performance-product.png"],
+      "verified": "Eight exact 663-9xxG source variants all specify 100 yd with matching diameters. 6/10/20/30/40/50/65/80 lb are supported; no 15 lb interpolated. Y6 wording is retained without inventing a fixed strand count. Actual Performance Braid image, not Ice or Lead Core."
+    },
+    {
+      "modelId": "sufix-elite", "reviewedRows": 8, "criticalHoldIds": [], "result": "pass-with-existing-exclusions",
+      "sources": ["evidence/sufix-elite.html", "evidence/sufix-elite-product.png"],
+      "verified": "All 48 retained 4-20 lb color/length packages agree with exact raw variants and image-label lengths at 330/3000 yd. Existing 25/30 lb exclusions appropriately preserve the 250 versus 330 yd conflict. G2 winding scope is not generalized across conflicting description/features. Micro Resin mono wording and Elite photo match."
+    },
+    {
+      "modelId": "sufix-advance-mono", "reviewedRows": 9, "criticalHoldIds": ["GB-002"], "result": "hold-three-packages",
+      "sources": ["evidence/sufix-advance-mono.html", "evidence/sufix-advance-mono-product.png"],
+      "verified": "All 54 exact packages checked; three 25 lb filler image labels conflict with the length fields. The other 51 packages remain supported, including 25 lb/1200 yd in all three colors. Published .020 in converts to .508 mm. HMPE/Hyper Copolymer product remains Monofilament, not Braid. The product image is genuine Advance Mono; its selected source SKU is itself the ambiguous filler and is not independent proof of yardage."
+    },
+    {
+      "modelId": "sufix-advance-fluorocarbon", "reviewedRows": 10, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/sufix-advance-fluoro.html", "evidence/sufix-advance-fluoro-product.png"],
+      "verified": "All 20 exact 679-series variants support the included 4-30 lb mainline diameters and 200/1200 yd packages. Inch-to-mm conversions match multiplication by 25.4. Gel Phase / 100% fluorocarbon wording is supported; 25 yd leader packages are not imported. Actual Advance Fluorocarbon photo matches."
+    },
+    {
+      "modelId": "yo-zuri-hybrid", "reviewedRows": 10, "criticalHoldIds": [], "result": "pass-with-existing-exclusions",
+      "sources": ["evidence/yo-3.html", "evidence/yo-4.html", "evidence/yo-5.html"],
+      "verified": "Clear 275 yd covers 4-20 lb; Clear 600 yd covers 6-40 lb. Exact HB CL item codes and independent inch/mm pairs match the tables. High Visibility's differently formatted inch values and 1/3 lb mass spools are not merged or converted to invented yardage. Copolymer classification and actual Hybrid Clear 12 lb/275 yd image match."
+    },
+    {
+      "modelId": "yo-zuri-hybrid-ice-line", "reviewedRows": 6, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/yo-6.html"],
+      "verified": "Dedicated Hybrid Ice table supports 1-6 lb and 55 yd throughout. At 4 lb the .203 mm/.008 in pair differs from ordinary Hybrid's .235 mm; the correct Ice identity is retained. Copolymer, light ice-fishing scope and actual 4 lb/55 yd Ice label agree."
+    },
+    {
+      "modelId": "yo-zuri-t-7-premium-fluorocarbon", "reviewedRows": 8, "criticalHoldIds": [], "result": "pass",
+      "sources": ["evidence/yo-2.html"],
+      "verified": "200 yd item-code table and 1000 yd UPC/item-code table independently bind all 6/8/10/12/14/16/20/25 lb rows. No guessed 15 lb. Mainline heating-process claims are attributed to the manufacturer, not field-tested. Actual T7 16 lb/200 yd packaging matches; historical MSRP is not sold as current price."
+    },
+    {
+      "modelId": "yo-zuri-topknot-mainline", "reviewedRows": 8, "criticalHoldIds": [], "result": "pass-with-note",
+      "sources": ["evidence/yo-7.html", "evidence/yo-9.html"],
+      "verified": "The page explicitly pairs both 200/1000 yd lengths with the 6-25 lb range and supplies one shared strength/diameter table. Pack labels make that shared-chart join visible instead of asserting a UPC-level source. No 15 lb is inferred. MainLine role, 14 lb/200 yd photo and exclusion of separate Leader/Ice data are correct."
+    },
+    {
+      "modelId": "yo-zuri-topknot-leader", "reviewedRows": 14, "criticalHoldIds": ["GB-001"], "result": "hold-two-strengths",
+      "sources": ["evidence/yo-18.html", "evidence/yo-19.html"],
+      "verified": "Both colors and package ranges checked. 40/50 lb retained pairs require the additional hold; 130 lb is already excluded. Pink's 100 yd table heading typo is resolved by explicit SKU pound labels and matching summary/Clear context. Legacy Fluorocarbon Leader type, leader role, empty examples, no full-reel recommendation, and actual TopKnot Leader image are correct."
+    },
+    {
+      "modelId": "yo-zuri-superfluoro-leader", "reviewedRows": 17, "criticalHoldIds": [], "result": "pass-with-existing-exclusions",
+      "sources": ["evidence/yo-136.html"],
+      "verified": "Exact UPC/item-code rows support the retained 4-200 lb/30 yd range and 15/20/30/40/50/60/80 lb/100 yd selection. No 25 lb/100 yd invented. Existing 300 lb pair conflict is held. 60 lb/100 yd item's descriptive 60YD typo is outweighed by its explicit item code, table and strength column, with disclosure. Correct leader type, role, empty examples, copy and SuperFluoro photo."
+    },
+    {
+      "modelId": "yo-zuri-h-d-carbon-leader", "reviewedRows": 18, "criticalHoldIds": [], "result": "pass-with-existing-exclusions",
+      "sources": ["evidence/yo-15.html", "evidence/yo-16.html", "evidence/yo-17.html"],
+      "verified": "Clear/Pink ranges remain distinct. 2/4/6 lb are Pink only; Clear 100 yd begins at 20 lb, Pink at 15 lb. Pink bulk table explicitly gives 500 yd at 20-60 lb and 250 yd at 80 lb. Existing Pink 300 lb unit conflict is held. Correct legacy leader type, role, empty examples, supply-only copy and Pink 130 lb/30 yd product image."
+    },
+    {
+      "modelId": "yo-zuri-superbraid", "reviewedRows": 8, "criticalHoldIds": [], "result": "pass-with-rounding-note",
+      "sources": ["evidence/yo-10.html", "evidence/yo-12.html"],
+      "verified": "Original Dark Green 150/300 yd rows support 10-80 lb; exact 600 yd item codes support 20-80 lb. Four-strand 10-40 lb versus eight-strand 50-80 lb is source-specific, not generalized. The primary .32 mm/.012 in 40 lb pair is within the combined two-decimal-mm/three-decimal-inch rounding allowance; the note correctly discloses separate labels. The actual Dark Green package is original SuperBraid, not SB9."
+    },
+    {
+      "modelId": "yo-zuri-superbraid-9", "reviewedRows": 10, "criticalHoldIds": [], "result": "pass-with-rounding-note-and-existing-exclusion",
+      "sources": ["evidence/yo-154.html", "evidence/yo-146.html", "evidence/duel-superbraid9.html"],
+      "verified": "Exact solid-color codes support color-specific 150/300/3000 yd packages; Five Color 330 yd is separate. White 100 lb/3000 yd remains held for the 65 lb description conflict. DUEL's exact SB9 solid-color 150/300 yd chart repeats 40 lb as .32 mm/.012 in at lower precision, with the same DG/W restrictions and 8+1 construction; it is not a borrowed original-SuperBraid diameter. That documented lower-precision corroboration distinguishes it from unresolved TopKnot pairs. Actual White SB9 50 lb/300 yd photo matches."
+    }
+  ],
+  "imageReview": {
+    "result": "No product-identity blockers",
+    "checked": 22,
+    "method": "Visually inspected all 22 final-asset contact-sheet entries; read the contact-sheet producer to confirm it used product.localImagePath. Re-encoded each saved manufacturer source in memory using the recorded image settings and obtained byte-identical output to all 22 final WebPs. Resolved image URLs against raw primary page data, including parsed Shopify image arrays rather than escaped-string matching.",
+    "advisory": "Hybrid, TopKnot MainLine, TopKnot Leader and original SuperBraid use genuine 600x300 manufacturer canvases with large white margins. Product bounds are approximately 224-236 by 285-295 pixels. Their identities are legible, but fine print should not be treated as a high-resolution inspection image. Not a source-identity hold; presentation remains main's responsibility.",
+    "assetsChanged": false
+  },
+  "remediation": {
+    "authorization": "After completing the independent review, user expanded write scope to group-b for confirmed holds, note corrections and the source builders. No overlap with original Group B agent.",
+    "status": "complete",
+    "completedAt": "2026-09-13T15:08:39.409Z",
+    "retainedVerifiedModels": 22,
+    "retainedVerifiedRows": 199,
+    "changes": [
+      "TopKnot Leader: remove only 40/50 lb from usable rows, retain existing 130 lb hold, preserve all ten held color/package source entries, add legacy exclusions and update FAQ/source/strength copy in product and separate leader editorial.",
+      "Advance Mono: remove only three ambiguous 25 lb filler packages and their 330 yd menu option; retain 25 lb diameter and all three 1200 yd SKUs; preserve the conflicting fields in unresolvedVariants and update package/FAQ/source copy.",
+      "Patch the existing source builders/editorial data to preserve both holds on regeneration. Add a scoped, idempotent repair/check entry point; update handoff/status counts and mark the older validation result as historical.",
+      "Other 22 models (20 verified plus two already unresolved), all retained line IDs, leader types/roles and image assets preserved. No shared data, release, staging or publication changes."
+    ],
+    "verification": [
+      "Syntax checks passed for all five changed/new JavaScript modules.",
+      "Extracted and executed the actual Sufix builder's row/exclusion block against its saved source fixture; rows and held package records exactly reproduce the corrected Advance Mono model.",
+      "Extracted and executed the actual leader builder's add/table logic against saved Clear/Pink fixtures; rows and all ten held package records exactly reproduce the corrected TopKnot Leader model.",
+      "Confirmed exact Fluorocarbon Leader type, role leader, empty exampleSetups and legacy 40/50/130 exclusion IDs; checked mirrored FAQ and package guidance against editorial sources.",
+      "Repair application asserted deep equality of all other models and preserved each image path/URL. A second --check run made no changes and retained the same pack SHA-256."
+    ],
+    "beforeHashes": {
+      "group-b/pack.json": "79a2abe9dd11af9439cc066ceac324a74f191bd2c06f1b25d7168d52eaa1ca99",
+      "group-b/prepare.mjs": "90db71f06f28b5c65558e9a280462f54b099fd66d4c185bee1135c3854591b9f",
+      "group-b/prepare-leaders.mjs": "4547426c76df60e22b49cd3c71bb081a61a4964279550347abd2983a721a720a",
+      "group-b/editorial.mjs": "858c28e8612fc15241cae7a6719c9b057805507a9a7dd4612af5403fc609b9e2",
+      "group-b/editorial-leaders.mjs": "3352a62db55974c41bface79d58e8f38d63ce93122b31c6a08bfd9b226bd555e",
+      "group-b/apply-review-fixes.mjs": null,
+      "group-b/HANDOFF.md": "94e3344996b7b080ee74ef86331e8d4d28e73a57864e8f078ebd8c56fa136fda",
+      "group-b/status.md": "9214801b6e7e985d4640742c4a962f4564969db5fd9983e7a764664d70d9a5eb"
+    },
+    "afterHashes": {
+      "group-b/pack.json": "3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973",
+      "group-b/prepare.mjs": "93d7f4ab93866f7fd1fce5d196f4c89276259ceadbd8c64f7fe4482bf621aedf",
+      "group-b/prepare-leaders.mjs": "7bbe796f496287e9cceb5241dfa08a4321330207bde60ebac86c7b69e28f38a4",
+      "group-b/editorial.mjs": "6cf4d708b38de1c3a5903d71f7cfd0cd67403c3c72d60caa5fab50a9ecb8bcf2",
+      "group-b/editorial-leaders.mjs": "5db185e520ccda11075be4ea80c4eea43ce6ba1bf232476d55b5baebe47413d3",
+      "group-b/apply-review-fixes.mjs": "54b34b9936b39d47a48a63fb8eefa24ca9ea1fa3c912763920b786af177036a7",
+      "group-b/HANDOFF.md": "89abd68097345d02153904718f5668ad302ca05860d0c068aab47bfa7ef701b7",
+      "group-b/status.md": "5af16d1b257bb3d0725a2ea6130346dcc5c04e1da33ff0c67ffc82a76b09988e"
+    }
+  },
+  "limitations": [
+    "Source review is complete. Findings record the reviewed pre-remediation pack; remediation verification is recorded separately.",
+    "Official Yo-Zuri live refresh returned 502; the saved primary HTML remains available and was directly inspected.",
+    "No integration, rendering, stock, price or licensing audit. No browser/main runtime manipulated. Evidence is manufacturer specifications and product imagery, not measured physical line testing."
+  ]
+}

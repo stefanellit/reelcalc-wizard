@@ -28,6 +28,7 @@ foreach ($row in $rows) {
     Assert-Import ($row.Description -notmatch '127\.0\.0\.1|localhost|Loading .+\.\.\.') 'Local link or placeholder leaked into import.'
     $preview = Get-Content -LiteralPath (Join-Path $root "previews/line-pages/$($entry.id)-imported.html") -Raw
     Assert-Import ($preview.Contains($row.Description)) 'CSV quoting altered HTML compared with the tested wrapper.'
-    Assert-Import ($row.'Option Name 1' -eq '' -and $row.'Hosted Image URLs' -eq '') 'Unexpected variants/gallery import.'
+    Assert-Import ($row.'Option Name 1' -eq '') 'Unexpected variants.'
+    Assert-Import ($row.'Hosted Image URLs' -eq $entry.image -and $entry.image.StartsWith('https://stefanellit.github.io/reelcalc-wizard/assets/')) 'Incorrect guide thumbnail source.'
 }
 Write-Output "PASS: $($rows.Count) new hidden service guides, independent CSV parser round-trip, valid identity/URLs, complete static fallback HTML; published guides excluded."

@@ -4,11 +4,25 @@ import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 import { buildGoldLinePage } from "./line-page-gold-template.mjs";
+import { parse } from "./line-page-publishing/node_modules/parse5/dist/index.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const reels = JSON.parse(fs.readFileSync(path.join(root, "data", "reels.json"), "utf8"));
 const lines = JSON.parse(fs.readFileSync(path.join(root, "data", "lines.json"), "utf8"));
 const products = JSON.parse(fs.readFileSync(path.join(root, "data", "line-page-products.json"), "utf8")).products;
+
+function nodeText(node) {
+  return node.nodeName === "#text" ? node.value : (node.childNodes || []).map(nodeText).join("");
+}
+
+function nodeById(node, id) {
+  if (node.attrs?.some(attr => attr.name === "id" && attr.value === id)) return node;
+  for (const child of node.childNodes || []) {
+    const found = nodeById(child, id);
+    if (found) return found;
+  }
+  return null;
+}
 
 function browserModule(file) {
   const context = vm.createContext({
@@ -167,6 +181,7 @@ assert(wizard.includes('params.get("line") || params.get("mainLine")'), "Wizard 
 
 for (const productId of Object.keys(products)) {
   const html = fs.readFileSync(path.join(root, "examples", "line-pages", `${productId}.html`), "utf8");
+  if (products[productId].role === "leader") continue;
   assert(html.includes('data-reelcalc-line-page'), `${productId} page is missing the shared engine mount.`);
   assert(html.includes("js/line-page-engine.js"), `${productId} page is missing the shared engine.`);
   assert(html.includes('id="rcBackingModeButton"'), `${productId} page is missing the capacity-only button.`);
@@ -179,7 +194,9 @@ for (const productId of Object.keys(products)) {
     assert(html.includes('css/line-page-gold.css'), "Gold layout is missing its scoped stylesheet.");
     const product = products[productId];
     const shortName = product.shortName || product.brand;
-    assert(html.includes(`How much ${shortName} will fit?`), `${productId} needs a product-specific heading.`);
+    const heading = nodeById(parse(html), "line-tool-title");
+    assert(heading, `${productId} needs a calculator heading.`);
+    assert.equal(nodeText(heading).trim(), `How much ${shortName} will fit?`, `${productId} needs a product-specific heading.`);
     for (const entry of product.exampleSetups) findReel(entry.reelId);
     const expectedStrengths = lines.filter(line => line.brand === product.brand && line.model === product.model && line.type === product.lineType && !product.excludedLineIds.includes(line.id) && line.lb > 0 && line.dia_in > 0).length;
     assert.equal([...html.matchAll(/data-select-line="/g)].length, expectedStrengths, `${productId} chart must include every offered strength.`);

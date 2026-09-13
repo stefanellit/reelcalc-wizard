@@ -1,0 +1,177 @@
+{
+  "group": "group-a",
+  "reviewType": "independent-saved-primary-source-review",
+  "reviewedOn": "2026-09-13",
+  "status": "complete-a01-resolved",
+  "sourcePack": "research/line-pages/full-catalog/group-a/pack.json",
+  "sourcePackSha256": "b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c",
+  "originalReviewedPackSha256": "3a8c253b9a81a5fd03ca62b99583503459e94725a63f111830df711c88ecb0d6",
+  "scope": {
+    "candidateModels": 13,
+    "acceptedRows": 120,
+    "mainlineConfigs": 11,
+    "leaderConfigs": 2,
+    "modelLevelHoldsExcluded": 9,
+    "readOnlyRoots": ["assets/line-pages/full-catalog/group-a/"],
+    "authorizedRemediationRoot": "research/line-pages/full-catalog/group-a/",
+    "writes": ["research/line-pages/full-catalog/independent-review/group-a-review.json", "research/line-pages/full-catalog/independent-review/group-a-review.md", "research/line-pages/full-catalog/group-a/pack.json", "research/line-pages/full-catalog/group-a/build-mainlines.mjs", "research/line-pages/full-catalog/group-a/evidence/shimano-mastiff-fc.reviewed.json", "research/line-pages/full-catalog/group-a/status.md", "research/line-pages/full-catalog/group-a/HANDOFF.md"],
+    "notReviewed": ["resolution of held models or held rows", "shared catalog identity migration", "real reel catalog validation", "UI/rendering", "staging", "calculation engine", "publication", "fresh network re-fetches"]
+  },
+  "summary": {
+    "numericSourceMatches": 120,
+    "numericSourceMismatches": 0,
+    "modelSourcePasses": 13,
+    "modelsNeedingAttributionCorrection": 0,
+    "primaryProductImagesVisuallyInspected": 13,
+    "numericChartImagesVisuallyInspected": 1,
+    "leaderRoleErrors": 0,
+    "defaultLinePackageErrors": 0,
+    "mmToInchConversionsChecked": 57,
+    "metricPackageConversionsChecked": 92,
+    "publishedPairRowsReviewed": 63
+  },
+  "remediation": {
+    "findingId": "A-01",
+    "status": "resolved",
+    "checkedAt": "2026-09-13T15:03:40.535Z",
+    "beforePackSha256": "3a8c253b9a81a5fd03ca62b99583503459e94725a63f111830df711c88ecb0d6",
+    "afterPackSha256": "b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c",
+    "change": "Removed unsupported exact-version claims from the pack, source builder and authored summaries. Retained direct Shimano pt-BR MASTIFF FC 90m product identity and numeric SKU/japanAdminCode scope. Raw primary evidence and assets were not edited.",
+    "allRowsExcludingEvidenceTextUnchanged": true,
+    "allIdsRolesStatusesDefaultsAndExamplesUnchanged": true,
+    "allOtherModelsUnchanged": true,
+    "invariantBeforeAndAfterSha256": "ff761933de41e59b5cee42b566749e9a0bac39e7ff5cf117a40873446dfaf277",
+    "otherModelsBeforeAndAfterSha256": "3e0be5b9e3f187882a7ba34821ae716cebf12641de810bd8a809776105bed591",
+    "models": 22,
+    "candidates": 13,
+    "acceptedRows": 120,
+    "authoredEvidenceRowsMatchPack": true,
+    "unsupportedVersionStringRemainingInGroupA": false,
+    "sourceBuilderSyntaxCheck": "passed: node --check build-mainlines.mjs",
+    "regeneration": "Not run. Main will regenerate; early Group A builders were not executed."
+  },
+  "findings": [
+    {
+      "id": "A-01",
+      "status": "resolved",
+      "resolution": "Unsupported version attribution removed from pack, builder and authored summaries; numerical proof and all row values preserved. Historical finding below describes the original reviewed pack.",
+      "priority": 2,
+      "modelId": "shimano-mastiff-fc",
+      "category": "unsupported-exact-version-attribution",
+      "title": "Remove or substantiate the LB-B41V source-verification claim",
+      "file": "research/line-pages/full-catalog/group-a/pack.json",
+      "line": 5091,
+      "additionalLines": [4887, 4915, 5090, 5109, 5116, 5127],
+      "claim": "The config says the LB-B41V 90-meter version is explicitly identified and documented on the Brazilian source page; the code also appears in all ten numeric evidence strings.",
+      "primaryEvidence": ["research/line-pages/full-catalog/group-a/evidence/mastiff-br.html", "research/line-pages/full-catalog/group-a/evidence/mastiff-br.retrieval.json", "assets/line-pages/full-catalog/group-a/shimano-mastiff-fc.jpg"],
+      "sourceUrl": "https://fish.shimano.com/pt-BR/product/fishingline/monofilamentlines/a155f00000c6djcqan.html",
+      "observed": "The raw primary response identifies MASTIFF FC 90m, fluorocarbon, NANOARMOR, all ten lb/mm/90m rows and numeric SKU/japanAdminCode values. Its table was independently re-parsed and matches the pack. The primary image shows Mastiff FC 12lb, .285mm and 90m. None of the saved primary responses or inspected product image establishes LB-B41V. A case-insensitive B41V search of the evidence directory finds only the author-generated reviewed.json, not primary proof.",
+      "impact": "The exact formulation/version identifier is attributed to a source that does not contain it. This is a provenance gap, not a finding that the ten numeric rows or the 90m product identity are false.",
+      "requestedAction": "Before publishing the affected text, remove the unsupported LB-B41V assertions from reason, row evidence and visible gold fields, retaining the directly evidenced Shimano pt-BR MASTIFF FC 90m scope and numeric SKU codes; alternatively provide an exact primary source establishing the version mapping. Do not substitute US 200yd data or change verified numeric rows merely to address this wording issue.",
+      "blocks": "Exact-version source-verification claim as written; does not block the separately proven numeric subset after attribution correction."
+    }
+  ],
+  "method": [
+    "Read final pack, handoff and source metadata; restricted candidates to status source-verified.",
+    "Independently parsed raw Shimano and Sunline HTML tables with an HTML event parser, without running Group A builders. Six raw table extractions exactly match the supplied parsed tables.",
+    "Compared each accepted diameter/strength/package combination against raw public LINES JSON, raw Shopify variant responses, raw HTML tables and exact lineup titles. Sunline Crank numeric chart was visually read independently.",
+    "Verified Daiwa's own saved page declares DAIWA_SHEETS_PROXY and invokes the cited LINES endpoint. Matched exact color/product handles rather than treating every proxy row as the same product.",
+    "Independently found and parsed 68 embedded specification records in XBraid's own raw product page; all 41 accepted ML package combinations match directly, in addition to the Daiwa distributor response.",
+    "Visually inspected all 13 active local manufacturer images, checked their metadata and representative-versus-exact-SKU scope, and compared readable package labels against accepted or explicitly held rows.",
+    "Checked all metric diameter/package conversions, all 13 selected default line/package pairs, and both leader configs' role, exact Fluorocarbon Leader type and empty exampleSetups. No shared data or build scripts read or modified for these checks."
+  ],
+  "models": [
+    {
+      "id": "daiwa-j-braid-x4", "rows": 9, "verdict": "pass-with-existing-scope-limits",
+      "numericProof": "Raw daiwa-specs.json LINES rows, exact j-braid-braided-line-x4-dark-green handle; all 27 accepted strength/package combinations match lb, inches, mm and published yards.",
+      "primaryFiles": ["evidence/daiwa-x4.html", "evidence/daiwa-specs.json"],
+      "photo": "daiwa-j-braid-x4.jpg: actual X4 Dark Green spool, no numeric test/length label; family identity only.",
+      "caveat": "Do not restore the held 6lb pair or apply the accepted US yard lengths to other regional packages."
+    },
+    {
+      "id": "daiwa-j-braid-grand-x8", "rows": 12, "verdict": "pass-with-existing-scope-limits",
+      "numericProof": "Raw LINES handle j-braid(TM)-gray-light, exactly represented by the trademark character in the response, with JBGD8U...GL SKUs. All 29 accepted package combinations match, including 150lb/2500yd and bulk-only high tests.",
+      "primaryFiles": ["evidence/daiwa-grand-gray.html", "evidence/daiwa-specs.json"],
+      "photo": "daiwa-j-braid-grand-x8.png: actual Gray-Light Grand X8 bulk spool; no exact test label.",
+      "caveat": "Gray Light only. Existing 6lb and other-color conflicts remain excluded."
+    },
+    {
+      "id": "daiwa-j-fluoro-samurai", "rows": 3, "verdict": "pass-with-existing-scope-limits",
+      "numericProof": "Raw LINES j-fluro-samurai/JFS rows verify 2/4/6lb pairs and both 220/1000yd packages. Inch/mm differences are consistent with printed precision.",
+      "primaryFiles": ["evidence/daiwa-samurai.html", "evidence/daiwa-specs.json"],
+      "photo": "daiwa-j-fluoro-samurai.jpg: clear J-Fluoro Samurai, not Hidden Concept; representative bulk image.",
+      "caveat": "Only the accepted light subset is reviewed; do not merge the separately held generic Samurai identity or restore conflicting rows."
+    },
+    {
+      "id": "seaguar-basix", "rows": 6, "verdict": "pass-with-existing-scope-limits",
+      "numericProof": "Raw product.js response verifies six assigned xxBSX SKUs and diameter pairs: accepted 4-15lb are 200yd, 20lb is 175yd. Empty-SKU menu combinations are not used.",
+      "primaryFiles": ["evidence/seaguar-basix.html", "evidence/seaguar-basix-variants.html"],
+      "photo": "seaguar-basix.png: real BasiX 100% fluorocarbon family package, without a strength label.",
+      "caveat": "Held 6lb pair remains outside the candidate; no new resolution attempted."
+    },
+    {
+      "id": "shimano-mastiff-fc", "rows": 10, "verdict": "pass-after-a01-attribution-correction",
+      "numericProof": "Independent raw pt-BR table extraction confirms every 4-20lb/mm/90m row and SKU/japanAdminCode. Photo corroborates 12lb/.285mm/90m. Fluorocarbon and NANOARMOR are supported despite the URL category name.",
+      "primaryFiles": ["evidence/mastiff-br.html", "evidence/mastiff-br.retrieval.json"],
+      "photo": "shimano-mastiff-fc.jpg: matching 90m FC package, no readable LB-B41V code.",
+      "findingIds": ["A-01"]
+    },
+    {
+      "id": "shimano-kairiki-8", "rows": 5, "verdict": "pass-with-existing-scope-limits",
+      "numericProof": "Raw Australian table independently confirms the SKE3000 G/M bulk rows at 15/20/30/50/80lb. Every accepted diameter and 3000m length matches; no blank filler diameter imported.",
+      "primaryFiles": ["evidence/kairiki8-au.html"],
+      "photo": "shimano-kairiki-8.jpg: exact bulk image reads 20lb/.200mm/3000m, Mantis Green.",
+      "caveat": "Australian bulk only, not European/filler data or Kairiki 8+."
+    },
+    {
+      "id": "shimano-kairiki-4", "rows": 10, "verdict": "pass-with-rating-semantics-caveat",
+      "numericProof": "Raw en-GB table independently confirms ten published pound labels and 28 accepted metric package combinations. 18/25lb are direct table values, not rounded kg conversions.",
+      "primaryFiles": ["evidence/kairiki4-gb.html"],
+      "photo": "shimano-kairiki-4.jpg: matching 20lb/.200mm/150m regional package with separate strength conventions.",
+      "caveat": "Source header is AVERAGE STRENGTH (LB). Keep it distinct from higher kg title ratings and from guaranteed breaking load. Package/color availability is strength-specific."
+    },
+    {
+      "id": "shimano-grappler-8", "rows": 7, "verdict": "pass-with-existing-image-and-rating-caveats",
+      "numericProof": "Raw NZ table confirms 24.7/30/38.6/59.5/73.6/99/134 average-lb values, exact mm and 300m. No conventional-strength relabeling found.",
+      "primaryFiles": ["evidence/grappler8-nz.html"],
+      "photo": "shimano-grappler-8.jpg depicts 16.8lb/.100mm/300m, a held rather than accepted strength. Correct family, not proof that the held 16.4lb-title conflict is resolved.",
+      "caveat": "The image limitation is disclosed in pack.imageReview. Consider making that representative-image limitation visible in a caption or source note during main UI review. This is not a new numeric blocker."
+    },
+    {
+      "id": "shimano-ocea-ex-fluorocarbon-leader", "rows": 15, "verdict": "pass",
+      "numericProof": "Every exact lb label appears in the raw European lineup title and joins unambiguously to its mm/length SKU row. 50m through 100lb, 20m at 130lb. Layered fluorocarbon and fluorine coating are explicit in the primary description.",
+      "primaryFiles": ["evidence/ocea-ex.html"],
+      "photo": "shimano-ocea-ex-fluorocarbon-leader.jpg: actual EX Fluoro Leader, 10lb/50m.",
+      "roleCheck": "model/product type Fluorocarbon Leader; role leader; empty exampleSetups; verified default 20lb/50m; not Ocea 8 braid."
+    },
+    {
+      "id": "sunline-crank-fc", "rows": 5, "verdict": "pass",
+      "numericProof": "Independently visually read all five columns of the actual Dia_Crank chart: 8/.0093/.235, 10/.0102/.260, 12/.0112/.285, 14/.0122/.310, 16/.0130/.330. Raw product variants verify all ten 200/660yd SKU combinations.",
+      "primaryFiles": ["evidence/sunline-crank.html", "evidence/sunline-crank-chart.jpg"],
+      "photo": "sunline-crank-fc.jpg corroborates 14lb/200yd/.310mm/.0122in and exact Crank FC family.",
+      "caveat": "Plasma Rise and additional stretch are source-supported design claims, not independent tests."
+    },
+    {
+      "id": "xbraid-x9-fulldrag-braid", "rows": 11, "verdict": "pass-with-existing-scope-limits",
+      "numericProof": "All 41 accepted ML strength/package combinations match both raw Daiwa LINES records and the 68-record specifications array embedded directly in XBraid's own saved HTML. Explicit 8-strand-plus-core construction supported.",
+      "primaryFiles": ["evidence/xbraid-x9.html", "evidence/daiwa-specs.json"],
+      "photo": "xbraid-x9-fulldrag-braid.jpg: actual Fulldrag Multi package marked 8+1, not a color-comparison-only asset.",
+      "caveat": "US ML values only; missing-diameter Marsh Green and retailer alternate values are not primary numeric proof."
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-ny", "rows": 10, "verdict": "pass",
+      "numericProof": "Independent raw product-specific table extraction verifies all ten reference-lb/mm values and 80m. This is not the general line-size table below it. JAN suffixes and the explicitly printed common prefix 4968813 support complete JAN values. Two-meter marking cycle is explicit in the description.",
+      "primaryFiles": ["evidence/sunline-ny.html"],
+      "photo": "sunline-shooter-bms-azayaka-ny.jpg explicitly says NYLON MONOFILAMENT/BMS AZAYAKA NY.",
+      "caveat": "Reference-strength labels, not guarantees. No FC formulation or FC bulk package substituted."
+    },
+    {
+      "id": "seaguar-jdm-grand-max-leader", "rows": 17, "verdict": "pass-with-existing-image-caveat",
+      "numericProof": "Raw US JDM product.js verifies all 17 xxGM66 SKU diameter pairs and unusual lb labels. Description explicitly identifies leader/tippet, two fluorocarbon resins and 60m supplies. 65.62yd is the rounded calculation conversion, not a second 66yd package.",
+      "primaryFiles": ["evidence/seaguar-grand.html", "evidence/seaguar-grand-variants.html"],
+      "photo": "seaguar-jdm-grand-max-leader.png is the manufacturer's composite: 7lb/.205mm import package plus representative .220mm spool. They are not the same SKU; this is already disclosed in product.sourceNote.",
+      "roleCheck": "model/product type Fluorocarbon Leader; role leader; empty exampleSetups; verified default 10lb/60m."
+    }
+  ],
+  "releaseDecision": "Source review only. A-01 is resolved by removing the unsupported version attribution. All thirteen candidates now have no outstanding issue from this review within their stated subsets. Main retains regeneration, staging, UI, shared-data integration and publication authority."
+}

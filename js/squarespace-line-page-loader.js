@@ -26,7 +26,7 @@
         if (error) { script.remove(); renderer = null; reject(error); }
         else resolve(global.ReelCalcLinePageLoader);
       }
-      script.src = new URL("js/line-page-loader.js?v=2", base).href;
+      script.src = new URL("js/line-page-loader.js?v=3", base).href;
       script.onload = function() { finish(global.ReelCalcLinePageLoader ? null : new Error("Missing line guide loader.")); };
       script.onerror = function() { finish(new Error("Line guide loader unavailable.")); };
       document.head.appendChild(script);
@@ -95,7 +95,7 @@
           }));
         } finally { clearTimeout(timeout); }
         var published = new Set(data[0].publishedProducts || []);
-        var entries = Object.values(data[1].pages || {}).filter(function(entry) { return published.has(entry.id); });
+        var entries = Object.values(data[1].pages || {}).filter(function(entry) { return published.has(entry.id); }).sort(function(a, b) { return a.title.localeCompare(b.title); });
         if (!entries.length) return false;
         var section = document.createElement("section");
         section.id = "reelcalc-line-guide-directory";
@@ -104,7 +104,7 @@
         heading.id = "reelcalc-line-guide-directory-title";
         heading.textContent = "Fishing Line Model Guides";
         var intro = document.createElement("p");
-        intro.textContent = "Start with your line model to compare published diameters, estimate reel capacity, and plan optional backing.";
+        intro.textContent = "Explore published line and leader diameters. Main-line guides also estimate reel capacity and optional backing.";
         var list = document.createElement("ul");
         entries.forEach(function(entry) {
           var item = document.createElement("li"), link = document.createElement("a");

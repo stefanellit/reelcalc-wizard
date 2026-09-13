@@ -24,7 +24,7 @@ postcss.parse(read("css/line-page-embed.css")).walkRules(rule => {
 });
 assert.deepEqual(unscoped, []);
 assert.ok(read("css/line-page-embed.css").includes("@container rc-line-guide"));
-for (const file of ["js/line-page-engine.js", "js/line-page-loader.js", "js/affiliate-links.js"]) new vm.Script(read(file));
+for (const file of ["js/line-page-engine.js", "js/line-page-loader.js", "js/line-leader-page.js", "js/affiliate-links.js"]) new vm.Script(read(file));
 for (const id of release.products) {
   const product = products[id];
   const doc = parseFragment(read(`components/line-pages/${id}.html`));

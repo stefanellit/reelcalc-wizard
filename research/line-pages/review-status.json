@@ -1,20 +1,1074 @@
 {
-  "sunline-fc-sniper":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Current US chart, assigned package variants, precise diameter display. User approved; Squarespace public page verified."]},
-  "sunline-shooter":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["US size categories and package lengths preserved. User approved; Squarespace public page verified."]},
-  "sunline-assassin-fc":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Current 8-25 lb range; legacy 6 lb excluded. Assigned 12 lb 1200 yd variant included. Squarespace public page verified."]},
-  "sunline-super-natural-mono":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Retail and heavy bulk-only strengths separately verified. User approved; Squarespace public page verified."]},
-  "sunline-sx1":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["8 lb bulk-only; legacy 65 lb excluded. User approved; Squarespace public page verified."]},
-  "sunline-xplasma-asegai":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Unassigned 6 lb and unsupported 15/40 lb not offered. Current 20 lb 330 yd variants. Squarespace public page verified."]},
-  "sunline-siglon-pe-x8":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Current exact strengths and bulk-only heavy sizes. User approved; Squarespace public page verified."]},
-  "sunline-shooter-machinegun-cast":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Current JDM nylon version. 150/100 m package conversion and metric shopping links passed. Squarespace public page verified."]},
-  "sunline-shooter-bms-azayaka-fc":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["May 2026 FC version, 80/320 m not old bulk size. Metric package checks passed. Squarespace public page verified."]},
-  "berkley-ginclear":{"status":"published","publishedAt":"2026-09-13","browserAudit":true,"notes":["Assigned US variant inch diameters; mm converted. 4 lb filler-only. User approved; Squarespace public page verified."]},
-  "seaguar-tatsu":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Manufacturer chart and selector agree. Published 4 lb diameter corrected in the candidate catalog."]},
-  "seaguar-abrazx":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Manufacturer chart and selector agree; verified 4 lb option added."]},
-  "seaguar-red-label":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["6 lb diameter and 20 lb retail package length checked against chart and assigned SKUs."]},
-  "seaguar-smackdown":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Current Stealth Gray specifications; older packaging differences explicitly noted."]},
-  "seaguar-brawlr":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["Launch notice disclosed. No stock, purchase availability, or independent performance guarantee."]},
-  "seaguar-jdm-r18-mainline":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["100 m retail spool retained as manufacturer-rounded 109 yd; exact intermediate strengths preserved."]},
-  "seaguar-jdm-pex8-micro-braid":{"status":"audited-awaiting-bulk-release","browserAudit":true,"notes":["200 m retail spool retained as manufacturer-rounded 219 yd; finesse-specific guidance."]},
-  "seaguar-basix":{"status":"source-conflict","browserAudit":false,"notes":["6 lb selector says .008/.220; chart says .009/.220. 15 lb selector says .013/.330; chart says .014/.350. Not ready to publish or automatically correct until clarified."]}
+  "sunline-fc-sniper": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Current US chart, assigned package variants, precise diameter display. User approved; Squarespace public page verified."
+    ]
+  },
+  "sunline-shooter": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "US size categories and package lengths preserved. User approved; Squarespace public page verified."
+    ]
+  },
+  "sunline-assassin-fc": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Current 8-25 lb range; legacy 6 lb excluded. Assigned 12 lb 1200 yd variant included. Squarespace public page verified."
+    ]
+  },
+  "sunline-super-natural-mono": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Retail and heavy bulk-only strengths separately verified. User approved; Squarespace public page verified."
+    ]
+  },
+  "sunline-sx1": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "8 lb bulk-only; legacy 65 lb excluded. User approved; Squarespace public page verified."
+    ]
+  },
+  "sunline-xplasma-asegai": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Unassigned 6 lb and unsupported 15/40 lb not offered. Current 20 lb 330 yd variants. Squarespace public page verified."
+    ]
+  },
+  "sunline-siglon-pe-x8": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Current exact strengths and bulk-only heavy sizes. User approved; Squarespace public page verified."
+    ]
+  },
+  "sunline-shooter-machinegun-cast": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Current JDM nylon version. 150/100 m package conversion and metric shopping links passed. Squarespace public page verified."
+    ]
+  },
+  "sunline-shooter-bms-azayaka-fc": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "May 2026 FC version, 80/320 m not old bulk size. Metric package checks passed. Squarespace public page verified."
+    ]
+  },
+  "berkley-ginclear": {
+    "status": "published",
+    "publishedAt": "2026-09-13",
+    "browserAudit": true,
+    "notes": [
+      "Assigned US variant inch diameters; mm converted. 4 lb filler-only. User approved; Squarespace public page verified."
+    ]
+  },
+  "seaguar-tatsu": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "Manufacturer chart and selector agree. Published 4 lb diameter corrected in the candidate catalog."
+    ]
+  },
+  "seaguar-abrazx": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "Manufacturer chart and selector agree; verified 4 lb option added."
+    ]
+  },
+  "seaguar-red-label": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "6 lb diameter and 20 lb retail package length checked against chart and assigned SKUs."
+    ]
+  },
+  "seaguar-smackdown": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "Current Stealth Gray specifications; older packaging differences explicitly noted."
+    ]
+  },
+  "seaguar-brawlr": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "Launch notice disclosed. No stock, purchase availability, or independent performance guarantee."
+    ]
+  },
+  "seaguar-jdm-r18-mainline": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "100 m retail spool retained as manufacturer-rounded 109 yd; exact intermediate strengths preserved."
+    ]
+  },
+  "seaguar-jdm-pex8-micro-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "notes": [
+      "200 m retail spool retained as manufacturer-rounded 219 yd; finesse-specific guidance."
+    ]
+  },
+  "seaguar-basix": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d75e6a50f7dcd80456ba63877ce1a884dde0bb311bafd3392fc4180ed1e67ed9",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "daiwa-j-braid-x4": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "3bb29a869cb2ec3983e354dd5ed7a17411a3158ec77a830b9c29020885283bc3",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "daiwa-j-braid-grand-x8": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "485c40eea5fdf90a830d1eda9fdd0751e4c9f600a44101ea9bc02b25b616ad20",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sunline-crank-fc": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f52e4ec676325b77cbd45da9b939ef13aff27f2d574a2e98ee94ff3341f5228a",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "xbraid-x9-fulldrag-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "50c19c28e8c971f0d1ebfe8929b3f012fdc6223f1dcd0f8c77288cf1a95740fa",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sunline-shooter-bms-azayaka-ny": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "80ceeea8b34cea4dbc217f249e7a2667e7d2cf85e2155c7eca17c166a40dd8f0",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sufix-832-advanced-superline": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "ad4558b885fac7518075b037bdb20df48c5b669e12dd18c661eaba2fb42ccc23",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sufix-promix-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "b4714b4fb4c27a4d4aef12de0708ac76d3e8d7af849a4840fb1595ef633fc68f",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sufix-performance-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "589a502111cef59ec3bfce88e0a9d4a4d6e44b22294c61ee38026e8bd7615b71",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sufix-elite": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "2f656106f9597f78f94a1dce639a3d68fba77d6e0141e98e7d60312bbf916875",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sufix-advance-mono": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "dc56c1d8f930e66219b5b5a7cc50c25fdf80491262b89d49dba935492a3a9e29",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "sufix-advance-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "5242ab8e9d246544ed9c77fe749850e2bea2fd84a482e0bc045d95ae0508cf58",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "gamma-edge-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "0ff2e9b4832bde523941be8fa164d6d59de0a816fe77761031089eaddd849d27",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "cast-fishing-co-x12-frog-flip-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d69bce60edac711d0685f5e13cfaeca2cbfcf05f37d7c5cd69e9f389852c1396",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "rhino-hide-camo-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "217044953e3424fe73dea9fe0233cf30ff873173b1b5c7c485906d85d1d3edfc",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "rhino-hide-camo-monofilament": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "025ec88ec89743a6c76b2736f6f0e57966a4548f15dc73485f8eb6a81803dca1",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-trilene-big-game": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "74d5bcff0191c3a4fff99a68caaec2f4010ddc43fe34ba80fcb9499569e39b34",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-vanish": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "a8b1d381b8dcaee6c97cb4986ac9f2bbf972fae12e2736603f97f9c821e05489",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-x9-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "2cf498c312a0e0a4d6666e5f8f0e9a42a6331a66ba59a8eb96083d7ee9d3eb87",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-x5-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "04709ac69002e06a4d79e590ba280950f5b1bf2ab7dc926d80fbf25aa52ccf00",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "daiwa-j-fluoro-samurai": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d727bb1754b86cb8f23f5c330a3f33133eeffe8df3e084d63792527eeaff01ca",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "shimano-mastiff-fc": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "c0f85f29b07023729d33ac7ae8fd5622fa15d86d7881d23f70947daf85df7336",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "shimano-kairiki-8": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "29b0336fc43ed9f95bbe5aeff31d5f9cbd373b60ee0f9a71dcb652f03aba6614",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "shimano-kairiki-4": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f34f7a7743900ab6cf256ab638ef98627478973824ad7862f1d07fa7109e0316",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "shimano-ocea-8-pe": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "European title/SKU-image strength conflict confirmed visually: .280mm/400m title is 76lb but exact SKU_59WLDA81S1J package says 73.0lb/33kg; general .315mm image says 89lb versus European title 99lb. NZ average-kg rows align with older packaging. Regional/generation identity not resolved; draft retained but publication held."
+    ]
+  },
+  "shimano-grappler-8": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "2eb7c9272de82c6870332581c3a37896226794d118255a3b14abdbb211a25b4a",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "shimano-ocea-ex-fluorocarbon-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d4512030223176cf58a67b9f8cc556ba02b3a63dd9cba537356ed26f5d1e6c97",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "seaguar-jdm-grand-max-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "51b3e19c1bb67eace4b1732d38b53554cd94277e8965c3a783b782127f0d2982",
+    "notes": [
+      "Independent source review: group-a; exact signed packet b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-finesse-braid-8x": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "a41fe3f6434e1fde6bb73386da24ad7d49c73f86a8c71b6c624f4e7fa9aca6eb",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-essential-bronzeye-8x": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "5bd2df6a1e6799cd1f823a3ebce015733997d2ec80aaf9c11af48ce093063745",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-cast-control-8x": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "0eef45e7a310d4b35b7fed9cb30f1c63c22f2f2284e0ce3ca38fb0688f565f3d",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-depth-control-8x": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "e8ca5003cb960ccc3e328195428dc9a360fede298020950b10b28b02148e728a",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-gouken-flc": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "ab36af3e1bec7b26a3c3ed820007005be7e35709980a94ac51c7c35341420976",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-rai-jin-premium-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "61a97e54b521f03e26f53d798f9083d256e535d818843db947eee3cbd8a5c63d",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-hybrid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "e38ccffe47b43d60aa5c37c230a837d2ce39578ee8af4c79d6ec40b8310040ce",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-hybrid-ice-line": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "4930f3f363970535787cb795ee732c64f9aa1829af24a3585650bbeec0954c4c",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-t-7-premium-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "1cac6bfe5058d6c0cf4994be03924a8112a48b2165adb9ee2c67b5c6cfb46638",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-topknot-mainline": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "e82874f7340b7fe514ba6b93375826c8a342c774cde4b41a24b0af1508cd1f2f",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-superbraid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "9971ad028d2fb4ab3ffb9010555788fe545084f7da9f61d0ae6409f78535b329",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-superbraid-9": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "44996e78f55a7aa47c4d88a2647131c31df0a47752bf22da69721e4ea99ef238",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spiderwire-ultracast-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "ffc85c6e1843da45bd59d70b9ba9197303da651a3d616e3802297804874f4419",
+    "notes": [
+      "Independent source review: group-c; exact signed packet cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "cortland-master-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "51d24947028e21d63884fc19113bc577db6b6f209fbc0833ca3594dc0b7b2ef1",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "cortland-fluorocarbon-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "34f6d05b364f63e970de1bdd3f3e942f8bf2fd9bead7b91499d5e2efef18a373",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "gamma-touch-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d7ae80b708cac8bd11e9c2b8f2f3f5723e85117c11be38f335c9522aedf6f3e6",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "gamma-torque-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d3343aec54c2f945be250731aa6a955eca4636ad2c75e722debb670dd85c4218",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "gamma-polyflex": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "60f8a67b7402226b6f5eb3a448222fde79e268c22c30e8375a9fe1a5c74527e1",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "gamma-fluorocarbon-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "56866dfc87c9b8922f1e61591ff550289d44360e2051041cfa394904ddde7a93",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "maxima-ultragreen": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f3aed214fc7097e917c347379b0b2932fb7b3469665088ec338f372a44e2253d",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "maxima-chameleon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "a0752a8df640c799a6e165d0a947149d04feebb9c46044d82f78caf5ed70859b",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "maxima-clear": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "9d58505b58b393d70b560ecfa514682dd3ceb4bd19e47935db129353f15d8199",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "maxima-crystal-ivory": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "a73be5c69417fac6c61b8b6e25d76cf955d38f2a314589b4469e2963538c1111",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "maxima-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "6d5af899bd0624bfd2572076ea60ce510c939e63fea8c47c090fcc0b06fe63ee",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "maxima-braid-8": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f603c5f00c02d19befe3e2613fb959884e4dfe1dcae4e696c84ab45807c68493",
+    "notes": [
+      "Independent source review: group-d; exact signed packet 45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "p-line-cxx-x-tra-strong": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "p-line-floroclear": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "p-line-cx-premium": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "p-line-tactical-fluorocarbon": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "p-line-halo-fluorocarbon": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "p-line-endurx-braid": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "p-line-tcb-8-braid": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "Primary numeric review pending. Retailer diameter rows are not primary-verified and must not be integrated; official SKU/package identity alone does not verify diameter."
+    ]
+  },
+  "ande-premium-monofilament": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "775bc0697571763b172794711284ba9a66b955dd653fc252bcd31d0896ff7397",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "ande-tournament-monofilament": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "50f9553c88a657793ad42a63f992183c68bf7d24a93208ff0d41dfd67b1547d8",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "ande-fluorocarbon-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "cd16ee6a00b732d3b9cf4fc9efea9aed6db3bff382ddc8a2b6e489460bbe2bf4",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "hi-seas-grand-slam-monofilament": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "6aceff3ef79ee9e823bbbcec0a8a382e5ed8e0a7dbe64d97f374830ac878d3fb",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "hi-seas-fluorocarbon": {
+    "status": "source-hold",
+    "browserAudit": false,
+    "notes": [
+      "All four current CFC-F200 mainline SKU titles conflict with their own official package images on diameter. No source establishes which specification/formulation is current. All rows held; leader diameters and legacy database values are not substitutes."
+    ]
+  },
+  "hi-seas-quattro-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "676dca11ed63c6e548689c44c7966e4c8b3869b32289ec8597ebdf3ad668aced",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "hi-seas-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "dbc37289d7591ee452b244904c5a3102b6c5c052faac3c338f75d6ce6ef89509",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "kastking-fluorokote": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f4db86259a8029d7040aeee567a31bad86e2aaa137996d71af6d0f5d9a68f1dc",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "reaction-tackle-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f1e016e491b6ec17795471c5f4adfd32c49e92e4aba52e7a79b1b31100ae200c",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "reaction-tackle-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "d713de296470ee5fde0c4e9c09071bdc20226803684ac9d954e4dd48eb6a4ef4",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "reaction-tackle-monofilament": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "04877a5144da4e5b1854b6370bac9a5563f0bb4baa7f76a8476646399de1af19",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "reaction-tackle-ice-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "9b513b6cb9688a135b884737357ab550a4eb351338609c40f079534f2b8187e4",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "vicious-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "38fb422a5c070c33cf24099cb0777039cefe282faaf80529fc01cc87ecc5a29c",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "vicious-pro-elite-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "030f6bee934f49c33f17beeac7956ff61f1fa63eb09c8de1100ad33b1f1475aa",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "vicious-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "eb40811daae875d748c4a8c0a0bb8fcc4c5b92ddae6aacb9bb7cd10178113a5d",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "vicious-panfish-hi-vis-mono": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "5cc40e18cac4b78fc7401552f4de5a12195ac78d382fd9889bb71504910d5a87",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spro-finesse-fluorocarbon-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "97692e5f73b7d936c4c3722d570a951aea58766aba01d694212e2bbcdf240bad",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-topknot-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "960f3cd49239f78975f32a8c2cd97d34058995b100dd0c8ae91f97d91618c47f",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-superfluoro-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "fe817629e814435487f3d096ff896be6043ed0433ec1ffb86d53c165f4a6bbd9",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "yo-zuri-h-d-carbon-leader": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "c5dfe1c5d4e6df6754fefcb6e1a2de3d366d83537e63cfcf11bfcc8a61254546",
+    "notes": [
+      "Independent source review: group-b; exact signed packet 3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "stren-original": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "f23fb5e5ecafa87b7cc46eb719ad13654b41281ad5781ed9c227a060c5f0784e",
+    "notes": [
+      "Independent source review: group-c; exact signed packet cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "stren-magnathin": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "dbe5c0ea93b755f426f46bd75f5a1ecaf66ce650b797c7924776da06079f60ca",
+    "notes": [
+      "Independent source review: group-c; exact signed packet cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "ande-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "e4124c458cbfbcb6fad3059f2d2184790f5f305d491f30e7f2797d88e6ecd337",
+    "notes": [
+      "Independent source review: group-e; exact signed packet a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "spiderwire-ultracast-ultimate-mono": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "3b84fa40f171a93de395e36e06eea95c1a5c79a56e4d680a6d6eb79c28b24bf8",
+    "notes": [
+      "Independent source review: group-c; exact signed packet cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "stren-high-impact": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "dc457c5abddae10d33b3d84c6419b9ba1793fd154b4f040b16d38bf3ff68b284",
+    "notes": [
+      "Independent source review: group-c; exact signed packet cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "stren-crappie-mono": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "cf3d31d4a98f13af3d23729898870e1ae2ece4177e962bb5788aa2aa956de650",
+    "notes": [
+      "Independent source review: group-c; exact signed packet cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-trilene-xt": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "9acb4566771100e420a924eb7724879e6ae65fcc29a7f9483b58af6738120226",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-100-fluorocarbon": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "fa244db63546e8f51e2227b53ce10bde7157977da7a4b26097b23862e51e8930",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  },
+  "berkley-forward-finesse-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourceHash": "eb75a1462533fb140905d0265c17b6aeafa6c0a5d1bcfa1e8869386f31490cd6",
+    "notes": [
+      "Independent source review: group-main; exact signed packet 1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5.",
+      "Gold template, source-restricted variants, desktop rendering, 320px container layout, image loading, and shared calculation checks passed.",
+      "Leader products use dedicated leader selection, not a full-spool calculator. Historical charts retain edition/region labels.",
+      "Awaiting hidden Squarespace import, native SEO and live-page verification; not yet published."
+    ]
+  }
 }

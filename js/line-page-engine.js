@@ -4,6 +4,7 @@
   var mounts = new WeakMap();
 
   function mount(root) {
+    if (root.dataset.lineRole === "leader") return Promise.resolve(false);
     if (mounts.has(root)) return mounts.get(root);
 
     var assetBase = new URL(root.dataset.assetBase || "./", document.baseURI);
@@ -54,10 +55,17 @@
         state.reels = Array.isArray(payload[1]) ? payload[1] : [];
         state.lines = Array.isArray(payload[2]) ? payload[2] : [];
         // Exclude unverified legacy variants from comparisons and backing choices too.
-        var excludedIds = new Set(Object.values(payload[0].products || {}).reduce(function(ids, product) {
+        var reviewedProducts = Object.values(payload[0].products || {});
+        var reviewedFamilies = new Set(reviewedProducts.filter(function(product) { return product.role !== "leader"; }).map(function(product) {
+          return JSON.stringify([product.brand, product.model, product.lineType]);
+        }));
+        var excludedIds = new Set(reviewedProducts.reduce(function(ids, product) {
           return ids.concat(product.excludedLineIds || []);
         }, []));
-        state.lines = state.lines.filter(function(line) { return !excludedIds.has(line.id); });
+        state.lines = state.lines.filter(function(line) {
+          return reviewedFamilies.has(JSON.stringify([line.brand, line.model, line.type])) &&
+            !excludedIds.has(line.id) && line.role !== "leader" && !/leader/i.test(line.type);
+        });
         state.affiliateData = payload[3] || null;
         if (!state.product) throw new Error("The requested line-page product configuration is missing.");
         prepareData();
@@ -830,7 +838,7 @@
     }
 
     function practicalCompatibilityNote(reel, line, capacity) {
-      var material = isBraid(line) ? "braid" : normalizedType(line.type) === "monofilament" ? "mono" : "fluorocarbon";
+      var material = normalizedType(line.type);
       if (capacity < 50) return "This " + material + " leaves limited capacity on this reel. A suitable thinner line or larger reel may provide a more useful working length.";
       if (capacity > 1000) return "This is a very high-capacity pairing. A shorter working fill over backing can avoid buying unnecessary premium line.";
       if (!isBraid(line) && isSpinningReel(reel) && Number(line.lb) >= 15 && numericSizeClass(reel) <= 3000) {
@@ -1134,7 +1142,7 @@
       if (rating.type === "mono" && isBraid(line)) text += " The mono rating is being used as a fallback for braid.";
       if ([line, backingLine].some(function(item) {
         return item && global.ReelCalcCore.diameterExtrapolation(rating.referenceDiameterIn, Number(item.dia_in)).large;
-      })) text += " The selected line diameter differs substantially from this reference; line packing may cause a larger variation in the actual fill.";
+      })) text += " A selected main-line or backing diameter differs substantially from this reference; line packing may cause a larger variation in the actual fill.";
       return text;
     }
 

@@ -22,8 +22,8 @@ const { calculateSetup, state } = context.window.trustAudit;
 Object.assign(state, { lines, reels, affiliateData: read("data/reel-affiliates.json") });
 const readyReels = reels.filter(core.isReelReady);
 const backing = lines.find(x => x.id === "berkley-trilene-big-game-monofilament-10");
-const selected = Object.values(products).flatMap(p => lines.filter(l =>
-  l.brand === p.brand && l.model === p.model && !(p.excludedLineIds || []).includes(l.id)));
+const selected = Object.values(products).filter(p => p.role !== "leader").flatMap(p => lines.filter(l =>
+  l.brand === p.brand && l.model === p.model && l.type === p.lineType && !(p.excludedLineIds || []).includes(l.id)));
 let checks = 0;
 const findings = [];
 function check(condition, name) { checks++; if (!condition) findings.push(name); }
@@ -105,8 +105,8 @@ for (const line of selected) for (const spool of line.spool_sizes_yd) {
   offers++;
 }
 
-const report = { date: "2026-09-12", strengths: selected.length, readyReels: readyReels.length,
+const report = { date: new Date().toISOString().slice(0, 10), strengths: selected.length, readyReels: readyReels.length,
   pairings, offers, checks, failures: findings.length, examples: findings.slice(0, 20) };
 console.log(JSON.stringify(report, null, 2));
-if (process.argv.includes("--save")) fs.writeFileSync("reports/line-page-trust-audit-2026-09-12-evidence.json", JSON.stringify(report, null, 2) + "\n");
+if (process.argv.includes("--save")) fs.writeFileSync(`reports/line-page-trust-audit-${report.date}-evidence.json`, JSON.stringify(report, null, 2) + "\n");
 assert.equal(findings.length, 0, `${findings.length} trust audit checks failed`);

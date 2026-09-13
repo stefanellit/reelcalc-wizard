@@ -1,0 +1,103 @@
+[
+  {
+    "case": "manual:200yd at .012in,75yd of .012in main,.018in backing",
+    "expectedBacking": 55.5555556,
+    "result": "YOUR REELCALC SETUP\nBerkley Trilene Big Game 10 lb on your reel (entered specs)\n\nUsing a 1500 yd retail spool and 75 yd of working main line.\n\nESTIMATED FULL SPOOL\n200 yd\nPLANNED MAIN LINE\n75 yd\nBerkley Trilene Big Game 10 lb\nCALCULATED BACKING\n55.6 yd\nBerkley Trilene Big Game 20 lb\nRETAIL SPOOL LEFT\n1425 yd\nAfter this working fill\nYES - WITH BACKING\nIs this spool enough?\n\nThis retail spool covers the chosen working-line amount. The calculated backing fills the remaining spool volume underneath it.\n\nPractical note: Wind under firm, even tension and stop at the reel manufacturer's recommended fill level.\n\nHow far will one spool go?\n\nThis retail spool supports approximately 20 separate 75 yd working fills, with about 0 yd remaining.\n\nUse this line in the Wizard\nCheck Berkley Trilene Big Game 10 lb - 1500 yd on Amazon\nCheck Berkley Trilene Big Game 20 lb backing on Amazon\nCopy Setup\n\nThe Wizard opens with this line and strength. Choose a listed reel there; manually entered reel specs are not transferred.\n\nAs an Amazon Associate, ReelCalc earns from qualifying purchases at no extra cost to you. Check the strength and spool length before buying.\n\nBased on your entered mono rating: 200 yd at 0.012 in. The reel's printed diameter is used. The selected line diameter differs substantially from this reference; line packing may cause a larger variation in the actual fill.\n\nReelCalc estimates capacity from published reel capacity and line-diameter data. Actual capacity can vary with line packing, spool tolerances, fill level, and manufacturer specifications."
+  },
+  {
+    "case": "overfill250on200ydcapacity",
+    "result": "YOUR REELCALC SETUP\nBerkley Trilene Big Game 10 lb on your reel (entered specs)\n\nUsing a 1500 yd retail spool and 250 yd of working main line.\n\nESTIMATED FULL SPOOL\n200 yd\nPLANNED MAIN LINE\n250 yd\nBerkley Trilene Big Game 10 lb\nCALCULATED BACKING\nRevise the plan\nThe main-line amount exceeds estimated capacity.\nRETAIL SPOOL LEFT\n1250 yd\nAfter this working fill\nPLAN EXCEEDS CAPACITY\nIs this spool enough?\n\nThe chosen working-line amount is greater than this reel's estimated full-spool capacity. Reduce the amount or choose a thinner line.\n\nPractical note: Do not force the full retail spool onto the reel.\n\nHow far will one spool go?\n\nThe working-line amount must be reduced before spool efficiency can be evaluated for this reel.\n\nUse this line in the Wizard\nCopy Setup\n\nThe Wizard opens with this line and strength. Choose a listed reel there; manually entered reel specs are not transferred.\n\nAs an Amazon Associate, ReelCalc earns from qualifying purchases at no extra cost to you. Check the strength and spool length before buying.\n\nBased on your entered mono rating: 200 yd at 0.012 in. The reel's printed diameter is used.\n\nReelCalc estimates capacity from published reel capacity and line-diameter data. Actual capacity can vary with line packing, spool tolerances, fill level, and manufacturer specifications."
+  },
+  {
+    "case": "negativeCapacity",
+    "observed": {
+      "buttonDisabled": true,
+      "error": "Enter a rated capacity greater than zero (up to 100,000).",
+      "resultHidden": false
+    }
+  },
+  {
+    "case": "100metersSameDiameterFullSpool",
+    "expected": 109.36133,
+    "result": "YOUR REELCALC SETUP\nBerkley Trilene Big Game 10 lb on your reel (entered specs)\n\nAbout 109 yd fills this reel with the selected line and no backing.\n\nESTIMATED FULL SPOOL\n109 yd\nFULL-SPOOL AMOUNT\n109 yd\nBerkley Trilene Big Game 10 lb\nCALCULATED BACKING\nNo volume backing\nThis plan uses a full-mainline fill.\nRETAIL SPOOL LEFT\n1391 yd\nAfter this full-spool fill\nYES - FULL MAINLINE\nIs this spool enough?\n\nThis retail spool contains enough line for the reel's estimated full-mainline fill.\n\nPractical note: Wind under firm, even tension and stop at the reel manufacturer's recommended fill level.\n\nHow far will one spool go?\n\nThis retail spool supports approximately 13 separate 109 yd working fills, with about 78.3 yd remaining.\n\nUse this line in the Wizard\nCheck Berkley Trilene Big Game 10 lb - 1500 yd on Amazon\nCopy Setup\n\nThe Wizard opens with this line and strength. Choose a listed reel there; manually entered reel specs are not transferred.\n\nAs an Amazon Associate, ReelCalc earns from qualifying purchases at no extra cost to you. Check the strength and spool length before buying.\n\nBased on your entered mono rating: 109 yd at 0.012 in. The reel's printed diameter is used.\n\nReelCalc estimates capacity from published reel capacity and line-diameter data. Actual capacity can vary with line packing, spool tolerances, fill level, and manufacturer specifications."
+  },
+  {
+    "case": "strengthChange10to20SameManualRating",
+    "expectedCapacity": 88.8889,
+    "observed": "88.9"
+  },
+  {
+    "case": "wizardReelAndLinePreload",
+    "from": "https://www.reelcalc.com/reelcalc-wizard?reel=shimano-stradic-fm-c3000xg-stc3000xgfm-686&line=berkley-trilene-big-game-monofilament-10&lb=10&mainYards=140&spool=1500",
+    "observed": {
+      "capacity": "Capacity\nLine Capacity\nEstimated full-spool capacity\n140.0\n\nyards of Berkley Trilene Big Game Monofilament 10 lb\n\nReel used\nShimano Stradic FM C3000XG\n\nRated at 140 yd / 10 lb line.\n\nLine used\nBerkley Trilene Big Game Monofilament 10 lb\n\nDiameter: 0.012 in.\n\nESTIMATED HANDLE TURNS ONLY\nEstimated Handle Turns\n37.0 in per turn\nMAIN-LINE HANDLE TURNS\nBerkley Trilene Big Game Monofilament 10 lb\nApproximately 140 turns\nPractical range: 120-150\nESTIMATE ONLY\n\nUse this as a starting point. Line tension, packing, and spool fill can change the actual count. Watch the spool and stop at your preferred fill level.",
+      "selections": [
+        {
+          "id": "reelBrand",
+          "label": "Shimano",
+          "value": "Shimano"
+        },
+        {
+          "id": "reelModel",
+          "label": "Stradic FM",
+          "value": "Stradic FM"
+        },
+        {
+          "id": "reelSize",
+          "label": "C3000XG",
+          "value": "shimano-stradic-fm-c3000xg-stc3000xgfm-686"
+        },
+        {
+          "id": "fishingType",
+          "label": "Bass",
+          "value": "bass"
+        },
+        {
+          "id": "priority",
+          "label": "All-around setup",
+          "value": "all-around"
+        },
+        {
+          "id": "lineBrand",
+          "label": "Berkley",
+          "value": "Berkley"
+        },
+        {
+          "id": "lineModel",
+          "label": "Trilene Big Game",
+          "value": "Trilene Big Game"
+        },
+        {
+          "id": "lineLb",
+          "label": "10 lb",
+          "value": "10"
+        },
+        {
+          "id": "manualLineType",
+          "label": "Braid",
+          "value": "Braid"
+        },
+        {
+          "id": "backingBrand",
+          "label": "Select backing brand",
+          "value": ""
+        },
+        {
+          "id": "backingModel",
+          "label": "Select backing model",
+          "value": ""
+        },
+        {
+          "id": "backingLb",
+          "label": "Select lb test",
+          "value": ""
+        },
+        {
+          "id": "manualBackingType",
+          "label": "Monofilament",
+          "value": "Monofilament"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,244 @@
+{
+  "review": "Independent Group C review by Group D researcher",
+  "status": "complete-pass-remediated",
+  "updatedAt": "2026-09-13T15:10:37.719Z",
+  "reviewCompletedAt": "2026-09-13T15:10:37.719Z",
+  "pack": "research/line-pages/full-catalog/group-c/pack.json",
+  "preFixPackSha256": "e7587b6092ea34c4dc0c4c246360742185c6db6c9783efebe5619602067b0bf0",
+  "packSha256": "cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29",
+  "scope": {
+    "models": 6,
+    "rows": 38,
+    "historicalModels": 5,
+    "labelScopedModels": 1,
+    "groupCReadOnly": false,
+    "authorization": "User subsequently authorized Group C pack/build-input remediation and historical chart captions. Shared files remain read-only.",
+    "writtenFiles": [
+      "research/line-pages/full-catalog/independent-review/group-c-review.json",
+      "research/line-pages/full-catalog/independent-review/group-c-review.md",
+      "research/line-pages/full-catalog/group-c/products/stren-original.json",
+      "research/line-pages/full-catalog/group-c/products/stren-high-impact.json",
+      "research/line-pages/full-catalog/group-c/products/stren-magnathin.json",
+      "research/line-pages/full-catalog/group-c/products/stren-crappie-mono.json",
+      "research/line-pages/full-catalog/group-c/products/spiderwire-ultracast-ultimate-mono.json",
+      "research/line-pages/full-catalog/group-c/archive-ready.json",
+      "research/line-pages/full-catalog/group-c/pack.json",
+      "research/line-pages/full-catalog/group-c/validate-pack.mjs",
+      "research/line-pages/full-catalog/group-c/validation.json"
+    ],
+    "excluded": "No changes to Group C's 13 held models, raw source evidence, product images, numeric specifications or shared files. No P-Line status changes, XT work or publication."
+  },
+  "progress": {
+    "numericPrimarySourceReview": "complete: all 38 rows independently compared with visually inspected original catalog charts or manufacturer package label",
+    "historicalYearAndMarket": "pass: four Stren configs explicitly state 2016 US; Ultimate Mono explicitly states 2018 US; Ultracast is restricted to a US-page-linked label",
+    "imageFamilyReview": "pass: all six actual assets visually inspected, correctly identified, and byte-matched to source images and metadata hashes",
+    "stockAndContinuityReview": "pass: no current inventory or unchanged-formulation assertion found; all five historical captions applied and verified in rendered template output",
+    "usefulCopyReview": "pass: model-specific package limits, strength distinctions, line-family separation and practical working-length guidance",
+    "staticChecks": "pass: 38 visual-transcription comparisons, 37 exact inch-to-mm conversions, one independently rounded label pair, six defaults, 12 example selections, six image hashes and 21 source hashes",
+    "postFixChecks": "pass: all 12 examples through the shared calculation engine, in-memory gold-template rendering, five historical captions without generic retail-stock text, and exact before/after numeric/held-model preservation"
+  },
+  "criticalHolds": [],
+  "findings": [
+    {
+      "id": "GC-01",
+      "status": "resolved",
+      "priority": "P3",
+      "blocking": false,
+      "modelId": "stren-original",
+      "title": "Clarify the color scope of the 25 and 30 lb filler rows",
+      "file": "research/line-pages/full-catalog/group-c/pack.json",
+      "lineBeforeFix": 833,
+      "relatedLinesBeforeFix": [779, 791],
+      "description": "The combined Clear and Clear/Blue Fluorescent scope is numerically valid as a union, but the 2016 primary availability grid marks the 25 lb / 250 yd and 30 lb / 220 yd fillers only in Clear/Blue Fluorescent. The Clear cells are blank. Generic row evidence and chart wording could be read as supporting both colors at these strengths.",
+      "sourceFile": "research/line-pages/full-catalog/group-c/sources/stren-2016-page3.jpg",
+      "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+      "sourceLocation": "Printed page 2 / archive page 3, Original Filler Spools availability grid, 25 and 30 lb rows",
+      "recommendedChange": "State Clear and Clear/Blue Fluorescent for the listed 4-20 lb fillers, and Clear/Blue Fluorescent only at 25/30 lb. Add the specific color to those two row evidence strings or package entries. Preserve all verified diameters, yardages, strengths and IDs.",
+      "resolution": "Applied the explicit color restriction to Original's product chartNote/chartCaption and archive-ready rowContext, which regenerates the evidence strings with the exact restriction. No numeric rows changed. Added a scoped regression assertion for the 25/30 lb evidence."
+    }
+  ],
+  "modelReviews": [
+    {
+      "id": "spiderwire-ultracast-braid",
+      "decision": "pass-as-single-label-scoped-candidate",
+      "scope": "Only 8 lb Ultracast x8 Inshore Camo, 164 yd / 150 m. Current US product page links artwork whose filename includes 2019; no claim that all variants or stock are verified.",
+      "primaryNumericEvidence": {
+        "sourceUrl": "https://www.spiderwire.com/cdn/shop/files/SpiderWire_Ultracast_Braid_Inshore_Camo_Filler_2019_alt5.jpg?v=1721828317&width=1920",
+        "sourceFile": "research/line-pages/full-catalog/group-c/sources/ultracast-current-package.jpg",
+        "independentlyReadLabel": "LB-TEST 8 LB / 3.6 KG; LENGTH 164 yd / 150 m; SIZE 0.0035 in / 0.09 mm; MAX BREAK 22 LB / 10.1 KG",
+        "verifiedRows": [[8, 0.0035, 0.09, 164]],
+        "check": "8 is the test rating, not maximum break 22 or a gou conversion. The printed pair is consistent within rounding: 0.0035 in = 0.0889 mm. Yard/meter labels describe one package."
+      },
+      "marketAndDate": "US page-link identity independently rechecked with web open and image-link follow. Page lists 8 lb and 164 yd options; the package itself establishes their combination. Source note explicitly discloses the 2019 artwork filename and disclaims stock.",
+      "identityAndDefaults": "Only one numeric row. Default is spiderwire-ultracast-braid-braid-8 / 164 yd. Both examples use that row. All six legacy 10/15/20/30/40/50 lb IDs are excluded.",
+      "copy": "Useful and carefully limited: light-braid suitability, test versus maximum break, large-capacity sensitivity, backing and working reserve are explained. Does not claim all inshore fishing suits 8 lb.",
+      "findings": []
+    },
+    {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "decision": "pass-as-2018-us-clear-historical-candidate",
+      "scope": "2018 US Ultimate Mono Clear filler only; no 2020 numeric rows combined",
+      "primaryNumericEvidence": {
+        "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+        "sourceFile": "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.jpg",
+        "sourceLocation": "Bottom Ultimate Mono panel, not the top Fluoro-Braid panel",
+        "verifiedRowsLbInYd": [[4, 0.006, 330], [6, 0.008, 330], [8, 0.009, 330], [10, 0.011, 300], [12, 0.012, 300], [15, 0.014, 300], [17, 0.015, 300], [20, 0.016, 270]],
+        "check": "All eight rows match. Millimeters are exact explicit conversions. The 2018 table really prints .012 at 12 lb and 15 lb / .014; this is not a correction or merge of later rows."
+      },
+      "marketAndDate": "2018 US is explicit in quickSummary, metaDescription, chartNote and FAQ. Stock, later formulation and package continuity are expressly not established. The separately saved later HTML identifies itself as 2020 despite its 2021_spiderwire directory path.",
+      "image": "Correct green/silver Ultimate Mono asset p4_i257. The rejected p4_i153 Fluoro-Braid image is not referenced by the active product.",
+      "identityAndDefaults": "10 lb / 300 yd default and both examples match the 2018 rows. Historical 15 lb is not relabeled to later 14 lb.",
+      "copy": "Useful line-family and edition distinctions, strength-specific filler lengths, full-mono and optional-backing guidance. Manufacturer reduced-stretch/strength positioning is attributed, not presented as an independent test.",
+      "findings": []
+    },
+    {
+      "id": "stren-original",
+      "decision": "pass-color-clarification-applied",
+      "scope": "2016 US Original filler: Clear and Clear/Blue Fluorescent at listed 4-20 lb strengths; Clear/Blue Fluorescent only at 25/30 lb",
+      "primaryNumericEvidence": {
+        "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+        "sourceFile": "research/line-pages/full-catalog/group-c/sources/stren-2016-page3.jpg",
+        "sourceLocation": "Printed page 2 / archive page 3, filler columns and starred length exceptions",
+        "verifiedRowsLbInYd": [[4, 0.008, 330], [6, 0.009, 330], [8, 0.011, 330], [10, 0.012, 330], [12, 0.013, 330], [14, 0.014, 330], [17, 0.016, 330], [20, 0.018, 300], [25, 0.02, 250], [30, 0.022, 220]],
+        "check": "All ten numeric rows and footnote lengths match. No pony, economy or service yardages were imported. GC-01 is resolved in chart wording and generated row evidence."
+      },
+      "marketAndDate": "2016 US is explicit in quickSummary, metaDescription and chartNote. Source note and FAQ disclaim current stock and later package changes.",
+      "image": "Correct purple Original family artwork from the same catalog; includes several package formats, not a specific default label. Chart restricts itself to filler packages.",
+      "identityAndDefaults": "8 lb / 330 yd default and both examples match. No numerical or identity correction needed.",
+      "copy": "Practical full-mono planning, changing filler lengths and optional backing guidance. UV Guard/abrasion claims are attributed to the dated manufacturer source.",
+      "findings": ["GC-01"]
+    },
+    {
+      "id": "stren-high-impact",
+      "decision": "pass-as-2016-us-clear-historical-candidate",
+      "scope": "2016 US High Impact Clear quarter-pound packages only",
+      "primaryNumericEvidence": {
+        "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+        "sourceFile": "research/line-pages/full-catalog/group-c/sources/stren-2016-page11.jpg",
+        "sourceLocation": "Printed page 10 / archive page 11, 1/4 LB Spools Clear availability and Length column",
+        "verifiedRowsLbInYd": [[10, 0.012, 1275], [12, 0.013, 1000], [15, 0.016, 860], [20, 0.018, 650], [25, 0.02, 490], [30, 0.022, 400]],
+        "check": "All six numeric rows match; package weight was not treated as strength or fixed yardage. No 17 lb source row is present."
+      },
+      "marketAndDate": "2016 US and historical Clear scope appear in quickSummary, chartNote and metadata. No current stock or unchanged formulation is asserted.",
+      "image": "Correct High Impact family image with four colors. Alt text, chart scope, guidance and FAQ explicitly prevent the multi-color artwork from expanding the Clear-only chart.",
+      "identityAndDefaults": "15 lb / 860 yd default; 15/20 lb examples match. Unsupported legacy 17 lb is excluded.",
+      "copy": "Useful distinction between package weight, yardage and suitable fishing load. Coastal/offshore and shock-resistance descriptions are dated manufacturer positioning, not a performance guarantee.",
+      "findings": []
+    },
+    {
+      "id": "stren-magnathin",
+      "decision": "pass-as-2016-us-clear-historical-candidate",
+      "scope": "2016 US MagnaThin Clear filler packages only",
+      "primaryNumericEvidence": {
+        "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+        "sourceFile": "research/line-pages/full-catalog/group-c/sources/stren-2016-page4.jpg",
+        "sourceLocation": "Printed page 3 / archive page 4, Clear filler column and 30 lb starred length",
+        "verifiedRowsLbInYd": [[4, 0.007, 330], [6, 0.008, 330], [8, 0.009, 330], [10, 0.01, 330], [12, 0.012, 330], [16, 0.013, 330], [20, 0.016, 330], [30, 0.018, 300]],
+        "check": "All eight rows match; actual 16 lb remains distinct from unsupported legacy 14 lb. Service-spool lengths are not imported."
+      },
+      "marketAndDate": "2016 US Clear filler is explicit in summary/chart; source note and FAQ disclaim current stock and unchanged formulation.",
+      "image": "Correct MagnaThin family, but a historical service spool. This deliberate format mismatch is clearly disclosed in alt text, spoolingGuide and FAQ. It does not silently establish the filler default package.",
+      "identityAndDefaults": "8 lb / 330 yd default and both examples match. Legacy 14 lb excluded; verified 16/20/30 identities preserved separately.",
+      "copy": "Useful family-specific diameter comparisons, filler/service distinction, and separate decisions for strength versus capacity. No borrowed Original dimensions or untested performance promises.",
+      "findings": []
+    },
+    {
+      "id": "stren-crappie-mono",
+      "decision": "pass-as-2016-us-historical-candidate",
+      "scope": "2016 US Crappie Mono Clear and Hi-Vis Gold filler, 2-10 lb / 200 yd",
+      "primaryNumericEvidence": {
+        "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+        "sourceFile": "research/line-pages/full-catalog/group-c/sources/stren-2016-page7.jpg",
+        "sourceLocation": "Printed page 6 / archive page 7, both filler color columns",
+        "verifiedRowsLbInYd": [[2, 0.006, 200], [4, 0.007, 200], [6, 0.008, 200], [8, 0.009, 200], [10, 0.01, 200]],
+        "check": "All five rows and both color availability columns match. 8/10 lb additions are printed source rows, not interpolation or Original substitutions."
+      },
+      "marketAndDate": "2016 US, 200-yard archived scope and absence of current stock/formulation continuity are explicit in summary/chart/source/FAQ.",
+      "image": "Correct yellow Crappie Mono Hi-Vis Gold package and spool, with the original catalog lifestyle inset. This is genuine family artwork, not a replacement/generated package.",
+      "identityAndDefaults": "4 lb / 200 yd default and both examples match the primary table.",
+      "copy": "Useful cautions for 2 lb tackle, light-line capacity, separate visibility and strength decisions, and adequate working reserve. Does not imply every crappie rig suits the same light line.",
+      "findings": []
+    }
+  ],
+  "imageReview": {
+    "method": "Viewed each actual local product image and compared its family with the corresponding primary chart/catalog artwork; checked original source bytes, URL, HTTP 200 metadata and SHA256, normalizing hexadecimal letter case.",
+    "hashes": {
+      "spiderwire-ultracast-braid": "fa52e6056b8c1ca534ec35d66d80c8bc5d5c2d2355c1f72de6fb8e853817d7cb",
+      "spiderwire-ultracast-ultimate-mono": "10ace2753dedd125ba5cc3dddab098f6cc98bbff61e59c34268cf5b39a40f4bc",
+      "stren-original": "8c7f290af88600696ea46fb31e20214d87e47f3edee9a7fa1698d06826da6ba6",
+      "stren-high-impact": "c02211820583bc3ba85e59f456ae95a061d256afedeafe9ed779d82225abda4c",
+      "stren-magnathin": "39ac61dae342b8cea782fb710ea77b7c40e625d91581536b3ade98076499dee5",
+      "stren-crappie-mono": "fe421353172190e222a84264ca034a7b007e0467f458d80f9e8ab7ea765e009e"
+    },
+    "allSixPass": true
+  },
+  "remediation": {
+    "applied": true,
+    "owner": "Independent Group D reviewer, with subsequent explicit user authorization to edit Group C pack/build inputs",
+    "reason": "Applied historical chartCaption values to all five archived product inputs, fixed Original color wording in product/build inputs, regenerated pack using the existing builder, and reran scoped validation. Main's optional shared caption template was read and used but not edited.",
+    "productUpdates": [
+      {
+        "modelId": "stren-original",
+        "setProduct": {
+          "chartCaption": "2016 US Original filler specifications. Clear and Clear/Blue Fluorescent at the listed 4-20 lb strengths; Clear/Blue Fluorescent only at 25/30 lb. Historical packages, not current availability.",
+          "chartNote": "2016 US Original filler-spool specifications only. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only. Pony, economy and service spools are not included. Historical specifications do not establish current availability. Check the exact package label."
+        },
+        "rowEvidenceClarifications": [
+          {"lb": 25, "color": "Clear/Blue Fluorescent", "yards": 250},
+          {"lb": 30, "color": "Clear/Blue Fluorescent", "yards": 220}
+        ],
+        "numericChanges": []
+      },
+      {
+        "modelId": "stren-high-impact",
+        "setProduct": {"chartCaption": "2016 US High Impact Clear quarter-pound specifications. Historical package lengths, not current availability."},
+        "numericChanges": []
+      },
+      {
+        "modelId": "stren-magnathin",
+        "setProduct": {"chartCaption": "2016 US MagnaThin Clear filler specifications. Historical package lengths, not current availability; service spools are outside this chart."},
+        "numericChanges": []
+      },
+      {
+        "modelId": "stren-crappie-mono",
+        "setProduct": {"chartCaption": "2016 US Crappie Mono Clear and Hi-Vis Gold filler specifications. Historical 200-yard packages, not current availability."},
+        "numericChanges": []
+      },
+      {
+        "modelId": "spiderwire-ultracast-ultimate-mono",
+        "setProduct": {"chartCaption": "2018 US Ultimate Mono Clear filler specifications. Historical package lengths, not current availability; later catalog editions are not combined."},
+        "numericChanges": []
+      }
+    ],
+    "templateCaution": "Main's optional product.chartCaption support is present. Scoped tests verified the exact historical captions in generated table markup and the absence of 'Retail stock varies.' on all five historical pages. No shared template edit was made by this reviewer."
+  },
+  "postFix": {
+    "checkedAt": "2026-09-13T15:10:37.719Z",
+    "packSha256": "cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29",
+    "modelHashMethod": "SHA256 of UTF-8 JSON.stringify(model) using pack property order; no trailing newline",
+    "productHashMethod": "SHA256 of UTF-8 JSON.stringify(model.product) using pack property order; no trailing newline",
+    "numericRowsUnchanged": true,
+    "heldModelsUnchanged": true,
+    "ultracastBraidEntryUnchanged": true,
+    "imagesUnchanged": true,
+    "allowedChangesObserved": "Five product.chartCaption additions; Original product.chartNote replacement and ten regenerated row evidence strings from corrected archive-ready context. No other model fields changed; pack checkedAt refreshed.",
+    "validationFile": "research/line-pages/full-catalog/group-c/validation.json",
+    "validationPassed": true,
+    "models": [
+      {"id": "spiderwire-ultracast-braid", "status": "source-verified", "rowCount": 1, "modelSha256": "ffc85c6e1843da45bd59d70b9ba9197303da651a3d616e3802297804874f4419", "productSha256": "b9adee10498bdfc2b3314440b17b4563c0d380f949d9ab4ab8a8d23a2ab8f90e"},
+      {"id": "spiderwire-ultracast-ultimate-mono", "status": "source-verified", "rowCount": 8, "modelSha256": "3b84fa40f171a93de395e36e06eea95c1a5c79a56e4d680a6d6eb79c28b24bf8", "productSha256": "609d9b56612195ca87df723c03d65bdf4e1fd6d939b885268300c2a0c0b592fa"},
+      {"id": "stren-original", "status": "source-verified", "rowCount": 10, "modelSha256": "f23fb5e5ecafa87b7cc46eb719ad13654b41281ad5781ed9c227a060c5f0784e", "productSha256": "95200d82b236ba5789bac7ba2ccc080466369375281d29dc0e5886093864eb74"},
+      {"id": "stren-high-impact", "status": "source-verified", "rowCount": 6, "modelSha256": "dc457c5abddae10d33b3d84c6419b9ba1793fd154b4f040b16d38bf3ff68b284", "productSha256": "52493905c3c0b15af02b66eab6d2279fb9ce7b86dc7c24a6034c4ef5d635696c"},
+      {"id": "stren-magnathin", "status": "source-verified", "rowCount": 8, "modelSha256": "dbe5c0ea93b755f426f46bd75f5a1ecaf66ce650b797c7924776da06079f60ca", "productSha256": "1db7c408ccc2aa0ff02566745d4c6ab8f2a1b3364bd734849aabaff4ed539f4c"},
+      {"id": "stren-crappie-mono", "status": "source-verified", "rowCount": 5, "modelSha256": "cf3d31d4a98f13af3d23729898870e1ae2ece4177e962bb5788aa2aa956de650", "productSha256": "b1d03a4f694b3922d1ba67f4fbe4ef57a55438708a3f4f1f6b491535e7cb41ff"}
+    ]
+  },
+  "limitations": [
+    "This is an independent source/config review, not publication approval or a hands-on product test.",
+    "No browser, responsive-layout check, interactive integration or full engine sweep was run. After remediation, all 12 examples passed the current shared engine and side-effect-free gold-template rendering verified the historical captions. Main owns final live integration tests.",
+    "The Stren archive web-tool opens returned cache misses. Original saved manufacturer catalog page images/HTML and 21 source-file hashes were reviewed locally; no successful fresh Stren fetch is claimed.",
+    "Current SpiderWire US page, exact linked Inshore Camo image URL and the 2018 Ultimate Mono catalog page were independently opened with normal web research. No prices or stock claims were adopted.",
+    "Historical catalog images are manufacturer-authored primary material preserved on WesternBass, not retailer-created diameter tables. No independent evidence of current stock or unchanged formulation is asserted.",
+    "Original's nonblocking color clarification is now applied and regression-checked. No numerical specification or source row was replaced, inferred or added; all 38 active rows retain their primary sources."
+  ]
+}

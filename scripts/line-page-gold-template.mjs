@@ -30,8 +30,8 @@ export function buildGoldLinePage(productId, product, records, helpers) {
       <h1>${e(product.h1)}</h1>
       <p class="rc-product-subtitle">Diameter chart, reel capacity &amp; backing guide</p>
       <div class="rc-product-overview">
-        <figure class="rc-product-figure"><img src="../../${e(product.localImagePath)}" alt="${e(product.imageAlt)}" width="160" height="160" loading="eager"></figure>
-        <div><p class="rc-product-summary">${e(product.quickSummary)}</p><dl class="rc-product-specs"><div><dt>Construction</dt><dd>${e(product.construction)}</dd></div><div><dt>Listed strengths</dt><dd>${e(records[0].lb)}-${e(records.at(-1).lb)} lb</dd></div><div><dt>Line type</dt><dd>${e(product.lineType)} main line</dd></div></dl></div>
+        <figure class="rc-product-figure"><img src="../../${e(product.localImagePath)}" alt="${e(product.imageAlt)}" width="160" height="160" loading="eager">${product.imageCaption ? `<figcaption>${e(product.imageCaption)}</figcaption>` : ""}</figure>
+        <div><p class="rc-product-summary">${e(product.quickSummary)}</p><dl class="rc-product-specs"><div><dt>Construction</dt><dd>${e(product.construction)}</dd></div><div><dt>Listed strengths</dt><dd>${records.length === 1 ? e(records[0].lb) : `${e(records[0].lb)}-${e(records.at(-1).lb)}`} lb</dd></div><div><dt>Line type</dt><dd>${e(product.lineType)} main line</dd></div></dl></div>
       </div>
       <section class="rc-product-fit" aria-labelledby="product-fit-title"><h2 id="product-fit-title">${e(product.suitabilityTitle)}</h2><p>${e(product.suitabilitySummary)}</p></section>
       <nav class="rc-page-nav" aria-label="On this page"><a href="#use-this-line">Calculator</a><a href="#diameter-chart">Diameter chart</a><a href="#line-guide">Choosing your setup</a><a href="#compare-lines">Compare lines</a></nav>
@@ -87,7 +87,7 @@ export function buildGoldLinePage(productId, product, records, helpers) {
 
   <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
     <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">${e(name)} diameter chart</h2><p>${e(product.chartNote)}</p></div>
-    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">${records.some(line => line.retail_packages?.length) ? "Spools (m / yd)" : "Spools (yd)"}</th></tr></thead><tbody>${chart}</tbody></table></div>
+    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>${e(product.chartCaption || "Listed diameters and offered spool lengths. Retail stock varies.")}</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">${records.some(line => line.retail_packages?.length) ? "Spools (m / yd)" : "Spools (yd)"}</th></tr></thead><tbody>${chart}</tbody></table></div>
   </div></section>
 
   <section class="rc-section rc-guide-section" id="line-guide" aria-labelledby="guide-title"><div class="rc-line-inner">
