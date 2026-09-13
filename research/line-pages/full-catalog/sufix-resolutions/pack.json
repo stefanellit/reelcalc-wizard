@@ -1,0 +1,905 @@
+{
+  "group": "sufix-resolutions",
+  "checkedAt": "2026-09-13T15:34:21.753Z",
+  "researchState": "complete",
+  "scope": "Independent resolution attempt for the two held Group B Sufix models. New evidence and configs only; no integration or Group B mutations.",
+  "models": [
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "brand": "Sufix",
+      "model": "Invisiline Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "source-verified",
+      "researchState": "complete",
+      "reason": "Recovered eight exact Clear 100-yard U.S. Castable Invisiline SKUs. Current official 2026 catalog confirms 4-14 lb; manufacturer-authored 2018 catalog plus current exact-SKU fields and media labels confirms 17/20 lb. Conflicting 200-yard size_value is explicitly rejected for these SKU identities; no 200/600-yard offerings imported.",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://www.rapala.com/us_en/all-brand-catalogs",
+        "https://issuu.com/normarkcorporation/docs/2026_sufix_master_catalog",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+        "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+        "https://www.rapala.com/us_en/advance-fluorocarbon"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-us.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-us.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-us.parsed.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/catalogs-us.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/catalogs-us.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/catalogs-us.parsed.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2026-issuu.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2026-issuu.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2026-page-14.jpg",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2026-page-14.jpg.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2018-catalog.pdf",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2018-catalog.pdf.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2018-invisiline-page-10.png",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2018-copyright-page-20.png",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-product.png",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-product.png.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-resolution.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/advance-fluorocarbon-comparison.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/advance-fluorocarbon-comparison.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/advance-fluorocarbon-comparison.parsed.json"
+      ],
+      "rows": [
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+          "lb": 4,
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-904C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 4 lb / .007 inch / 680-904C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 4LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+          ],
+          "evidence": "680-904C: current manufacturer test_lb_value=4, diameter_in_value=0.007\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+          "packageResolution": "current-catalog-exact-sku"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-6",
+          "lb": 6,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-906C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 6 lb / .008 inch / 680-906C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 6LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+          ],
+          "evidence": "680-906C: current manufacturer test_lb_value=6, diameter_in_value=0.008\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+          "packageResolution": "current-catalog-exact-sku"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+          "lb": 8,
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-908C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 8 lb / .009 inch / 680-908C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 8LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+          ],
+          "evidence": "680-908C: current manufacturer test_lb_value=8, diameter_in_value=0.009\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+          "packageResolution": "current-catalog-exact-sku"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-10",
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.2794,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-910C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 10 lb / .011 inch / 680-910C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBVON 100YDS 10LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+          ],
+          "evidence": "680-910C: current manufacturer test_lb_value=10, diameter_in_value=0.011\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+          "packageResolution": "current-catalog-exact-sku"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-12",
+          "lb": 12,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-912C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 12 lb / .012 inch / 680-912C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 12LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+          ],
+          "evidence": "680-912C: current manufacturer test_lb_value=12, diameter_in_value=0.012\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+          "packageResolution": "current-catalog-exact-sku"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-14",
+          "lb": 14,
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-914C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 14 lb / .013 inch / 680-914C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 14LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+          ],
+          "evidence": "680-914C: current manufacturer test_lb_value=14, diameter_in_value=0.013\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+          "packageResolution": "current-catalog-exact-sku"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-17",
+          "lb": 17,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-917C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page: 17 lb / .016 inch / 680-917C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 17LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf"
+          ],
+          "evidence": "680-917C: current manufacturer test_lb_value=17, diameter_in_value=0.016\"; numeric diameter matches the exact catalog SKU. 2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page.",
+          "packageResolution": "historical-manufacturer-catalog-plus-current-exact-sku-labels"
+        },
+        {
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-20",
+          "lb": 20,
+          "dia_in": 0.017,
+          "dia_mm": 0.4318,
+          "diameterBasis": "published-in",
+          "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+          "spool_sizes_yd": [
+            100
+          ],
+          "retail_packages": [
+            {
+              "sku": "680-920C",
+              "length": 100,
+              "unit": "yd",
+              "yards": 100,
+              "color": "Clear",
+              "region": "US",
+              "sourceUrl": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+              "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+              "evidence": "2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page: 20 lb / .017 inch / 680-920C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 20LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+            }
+          ],
+          "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "sourceUrls": [
+            "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf"
+          ],
+          "evidence": "680-920C: current manufacturer test_lb_value=20, diameter_in_value=0.017\"; numeric diameter matches the exact catalog SKU. 2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page.",
+          "packageResolution": "historical-manufacturer-catalog-plus-current-exact-sku-labels"
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "role": "mainline",
+        "shortName": "Castable Invisiline",
+        "slug": "sufix-invisiline-fluorocarbon-diameter-capacity-guide",
+        "brand": "Sufix",
+        "model": "Invisiline Fluorocarbon",
+        "lineType": "Fluorocarbon",
+        "defaultLineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+        "defaultSpoolYards": 100,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [],
+        "eyebrow": "Castable fluorocarbon setup guide",
+        "h1": "Sufix Castable Invisiline Fluorocarbon",
+        "seoTitle": "Sufix Invisiline Fluorocarbon Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Compare verified Sufix Castable Invisiline diameters and exact 100-yard SKUs. Plan a working length over backing without confusing mainline with Invisiline Leader.",
+        "construction": "100% fluorocarbon castable mainline with G2 Precision Winding",
+        "quickSummary": "Castable Invisiline is Sufix's 100% fluorocarbon mainline for spinning and casting reels. This guide covers the Clear 100-yard 680-9xxC spools from 4 to 20 lb, with each package tied to its exact SKU. Invisiline Leader and Ice are separate products.",
+        "suitabilityTitle": "Does a 100-yard working supply fit your fishing?",
+        "suitabilitySummary": "Consider Castable Invisiline when fluorocarbon will be the line you cast, not merely a short terminal leader. Its verified 100-yard packages make working length and backing important decisions. Choose another continuous supply when your expected casts, depth or fish runs require more line than one package provides.",
+        "strengthGuide": [
+          "The 4, 6 and 8 lb sizes are listed at 0.007, 0.008 and 0.009 inch. These thinner choices use less spool volume per yard; match strength to the rod, lure and cover before comparing capacity.",
+          "The 10-14 lb sizes step from 0.011 to 0.013 inch. A 100-yard package remains 100 yards at each strength, but thicker line occupies more of the reel.",
+          "At 17 lb, Castable Invisiline is 0.016 inch, not the 0.015 inch listed for Advance Fluorocarbon. The 20 lb row is 0.017 inch. These heavier options merit a reel and rod suited to the thicker mainline."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Start with the working length",
+            "text": "A 100-yard spool is a limited supply of castable mainline. Allow for normal casts or fishing depth, fish runs, knots and trimming before deciding whether one package is enough."
+          },
+          {
+            "title": "Fill unused volume with backing",
+            "text": "Backing can occupy the part of the reel below the working fluorocarbon. Keep the connection below the line you expect to deploy; backing does not make a short working section adequate for long runs."
+          },
+          {
+            "title": "Check the exact package code",
+            "text": "This guide uses Clear 680-9xxC 100-yard spools. Do not select 200 yards from the conflicting website size field, or treat several 100-yard spools as one uninterrupted length."
+          },
+          {
+            "title": "Respect the reel fill limit",
+            "text": "Load under even tension and follow the reel maker's fill guidance. G2 Precision Winding describes the manufacturer's retail spooling process, not a guarantee of trouble-free handling on every reel."
+          }
+        ],
+        "reviewNote": "Specification-based guidance, not a ReelCalc hands-on test. Manufacturer handling and low-stretch claims have not been independently measured here. Reel capacity is an estimate.",
+        "chartNote": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+        "sourceNote": "Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+        "bestFit": "A castable fluorocarbon working section whose required length fits within a verified 100-yard package.",
+        "tradeoff": "A 100-yard supply may leave inadequate reserve for deep fishing or long runs, even when backing fills the reel to its target level.",
+        "reelcalcNote": "Choose strength for the fishing conditions first. Use the exact Invisiline diameter and a working length that leaves an appropriate reserve; neither pound test nor reel volume alone determines suitability.",
+        "imageUrl": "https://mcprod.rapala.com/media/catalog/product/4/4/44092a90cf29c9_5op91qt19l48n7rvsh14e10i0r_da39493c.png",
+        "localImagePath": "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-product.png",
+        "imageAlt": "Sufix Castable Invisiline 100% Fluorocarbon manufacturer spool image with green and white label",
+        "imageCaption": "Manufacturer product image; the spool face does not identify a specific strength or length.",
+        "manufacturerFacts": [
+          {
+            "label": "Product identity",
+            "text": "Castable Invisiline 100% fluorocarbon mainline, distinct from Invisiline Leader and Ice."
+          },
+          {
+            "label": "Verified package scope",
+            "text": "Clear 100-yard spools at 4, 6, 8, 10, 12, 14, 17 and 20 lb. Current catalog and exact-SKU historical support are distinguished in the source notes."
+          },
+          {
+            "label": "Retail winding",
+            "text": "Sufix names G2 Precision Winding for these castable fluorocarbon packages."
+          }
+        ],
+        "setupComparison": {
+          "title": "One 100-yard package or a longer continuous fill?",
+          "leftTitle": "Working line over backing",
+          "leftText": "A measured working section can use the 100-yard supply while backing fills lower spool volume. Leave enough working line to keep the join below normal deployment.",
+          "rightTitle": "Continuous mainline",
+          "rightText": "A full fill requires enough uninterrupted line for the target reel. If the estimate exceeds 100 yards, multiple retail spools do not automatically provide a continuous length."
+        },
+        "productGuidanceTitle": "Planning a Castable Invisiline fill",
+        "productGuidance": [
+          "A 100-yard spool is a limited supply of castable mainline. Allow for normal casts or fishing depth, fish runs, knots and trimming before deciding whether one package is enough.",
+          "Backing can occupy the part of the reel below the working fluorocarbon. Keep the connection below the line you expect to deploy; backing does not make a short working section adequate for long runs.",
+          "This guide uses Clear 680-9xxC 100-yard spools. Do not select 200 yards from the conflicting website size field, or treat several 100-yard spools as one uninterrupted length.",
+          "Load under even tension and follow the reel maker's fill guidance. G2 Precision Winding describes the manufacturer's retail spooling process, not a guarantee of trouble-free handling on every reel."
+        ],
+        "recommendationIntro": "Match an offered strength to the rod and fishing conditions, then check whether the 100-yard package covers the working length and reserve.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+            "workingYards": 90,
+            "spoolYards": 100
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Castable Invisiline a leader-only product?",
+            "answer": "No. Sufix identifies this 100% fluorocarbon as castable mainline for spinning and casting reels. The separately named Invisiline Leader and Invisiline Ice products are not included."
+          },
+          {
+            "question": "Why does this guide use 100 yards when a website field says 200?",
+            "answer": "The exact 680-9xxC codes are identified as 100-yard spools in manufacturer catalogs. The current product page also gives 100 yards in its package and capacity fields and exact-SKU image labels. Its contradictory 200-yard size field is not accepted for these codes; the source notes preserve the conflict."
+          },
+          {
+            "question": "Why are 17 and 20 lb supported differently from the lighter sizes?",
+            "answer": "The current 2026 catalog table lists 4-14 lb. The 17 and 20 lb rows remain on the current official product page, and their exact 680-917C and 680-920C 100-yard identities are documented in the 2018 manufacturer catalog. This supports their package specification, not a claim that they are currently in stock."
+          },
+          {
+            "question": "Is one 100-yard spool enough for my reel?",
+            "answer": "Only if it covers the required working length and reserve. Use the reel's capacity and exact diameter to plan backing, but do not rely on backing to compensate for insufficient working line on a long cast, deep drop or fish run."
+          },
+          {
+            "question": "Can I substitute Advance Fluorocarbon at the same pound test?",
+            "answer": "Not for a diameter-based calculation. For example, Castable Invisiline 17 lb is 0.016 inch while Advance Fluorocarbon 17 lb is 0.015 inch. Choose the actual model you will spool."
+          },
+          {
+            "question": "Are the millimeter diameters separately measured specifications?",
+            "answer": "No. This guide uses the published inch table and calculates millimeters as inches multiplied by 25.4. The extra converted digits do not imply greater manufacturing or measurement precision."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Official Sufix Castable Invisiline product page",
+            "url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+            "note": "Current U.S. inch table and exact 680-9xxC variants. Two 100-yard fields and manufacturer image labels conflict with size_value=200 yd; catalog SKU evidence resolves the accepted package."
+          },
+          {
+            "label": "Official Rapala catalog hub",
+            "url": "https://www.rapala.com/us_en/all-brand-catalogs",
+            "note": "Manufacturer-owned hub links the Normark 2026 Sufix Master Catalog, establishing the catalog publisher and current edition."
+          },
+          {
+            "label": "2026 Sufix Master Catalog",
+            "url": "https://issuu.com/normarkcorporation/docs/2026_sufix_master_catalog",
+            "note": "Page image 14, Castable Invisiline specifications: six exact Clear 100-yard SKUs from 4 to 14 lb; 10 lb package artwork also identifies 100 yd."
+          },
+          {
+            "label": "2018 Rapala VMC Sufix catalog, preserved PDF",
+            "url": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+            "note": "Manufacturer-authored catalog hosted as a PDF mirror, not a retailer-authored table. Page 10 identifies 680-917C and 680-920C as 100 yd and distinguishes the 200- and 600-yard SKU families. Page 20 identifies Rapala VMC copyright. Used only with current exact-SKU corroboration, not to import obsolete options."
+          },
+          {
+            "label": "Official Advance Fluorocarbon comparison",
+            "url": "https://www.rapala.com/us_en/advance-fluorocarbon",
+            "note": "Comparison only: the distinct Advance Fluorocarbon 17 lb row is 0.015 inch. No Advance numeric row or package is imported into Castable Invisiline."
+          }
+        ]
+      },
+      "unresolvedVariants": [],
+      "resolvedSourceConflicts": [
+        {
+          "sku": "680-904C",
+          "sourceSku": "us-680-904C",
+          "lb": 4,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 4LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Direct current 2026 official catalog confirmation."
+        },
+        {
+          "sku": "680-906C",
+          "sourceSku": "us-680-906C",
+          "lb": 6,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 6LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Direct current 2026 official catalog confirmation."
+        },
+        {
+          "sku": "680-908C",
+          "sourceSku": "us-680-908C",
+          "lb": 8,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 8LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Direct current 2026 official catalog confirmation."
+        },
+        {
+          "sku": "680-910C",
+          "sourceSku": "us-680-910C",
+          "lb": 10,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBVON 100YDS 10LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Direct current 2026 official catalog confirmation."
+        },
+        {
+          "sku": "680-912C",
+          "sourceSku": "us-680-912C",
+          "lb": 12,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 12LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Direct current 2026 official catalog confirmation."
+        },
+        {
+          "sku": "680-914C",
+          "sourceSku": "us-680-914C",
+          "lb": 14,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 14LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Direct current 2026 official catalog confirmation."
+        },
+        {
+          "sku": "680-917C",
+          "sourceSku": "us-680-917C",
+          "lb": 17,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 17LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Absent from 2026 catalog table; exact 2018 manufacturer catalog row is corroborated by current U.S. SKU strength, diameter, both package fields and media label. No present stock claim."
+        },
+        {
+          "sku": "680-920C",
+          "sourceSku": "us-680-920C",
+          "lb": 20,
+          "sourceFields": {
+            "yard_spool_value": "100 Yd. Spools",
+            "capacity_value": "100 Yd. Spools",
+            "size_value": "200 Yd. Spools"
+          },
+          "manufacturerMediaLabels": [
+            "INVISLINE CAST FLUOROCARBON 100YDS 20LB CLEAR"
+          ],
+          "decision": "Accept 100 yd only for this exact 680-9xxC SKU, based on manufacturer catalog identification and current exact-SKU media labels. Do not publish 200 yd from size_value.",
+          "qualification": "Absent from 2026 catalog table; exact 2018 manufacturer catalog row is corroborated by current U.S. SKU strength, diameter, both package fields and media label. No present stock claim."
+        }
+      ],
+      "imageEvidence": {
+        "url": "https://mcprod.rapala.com/media/catalog/product/4/4/44092a90cf29c9_5op91qt19l48n7rvsh14e10i0r_da39493c.png",
+        "retrievedAt": "2026-09-13T15:21:17.075Z",
+        "finalUrl": "https://mcprod.rapala.com/media/catalog/product/4/4/44092a90cf29c9_5op91qt19l48n7rvsh14e10i0r_da39493c.png",
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 617244,
+        "sha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a",
+        "sourceFile": "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-product.png",
+        "visuallyReviewed": true,
+        "role": "Actual generic model spool image, not numeric package evidence"
+      },
+      "integrationNotes": [
+        "Keep exact legacy model/type and strength IDs. The legacy catalog 6, 8 and 17 lb diameters differ from the primary source and need replacement by these verified values, not new same-strength duplicates.",
+        "Add 4 and 20 lb under the established ID pattern. No shared records or products have been modified by this resolution pack.",
+        "Image intentionally resides in this resolution folder to honor write scope. Main may copy it into a release asset path during integration.",
+        "Do not infer inventory, discontinued status, or current availability from catalog inclusion or omission."
+      ]
+    },
+    {
+      "id": "sufix-calibr8",
+      "brand": "Sufix",
+      "model": "Calibr8",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "researchState": "complete",
+      "reason": "Partial recovery: only 15 lb Neon Lime 694-015L, nominal 150 yd, using exact manufacturer-owned package photography with explicit Rapala VMC media-release attribution. No retailer-authored table imported. Other strengths, colors and lengths remain held. Paired nominal package units and source-host provenance are disclosed.",
+      "sourceUrls": [
+        "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+        "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583507-NEUZVWTOL65OGJIQII5U/694_Calibr8_L_box.jpg",
+        "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+        "https://view.news.eu.nasdaq.com/view?id=bf6b22db6ae132c360cc3e290d1464d2d&lang=en&src=micro",
+        "https://attachment.news.eu.nasdaq.com/a50bbf94790d79a8fa1743db468392e85",
+        "https://www.rapala.com/us_en/sufix-testing"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-foresight-launch.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-foresight-launch.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-launch-spool.jpg",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-launch-spool.jpg.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-694-015l.webp",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-launch-box.jpg",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-launch-box.jpg.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-company-announcement.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-company-announcement.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/rapala-half-year-2026.pdf",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/rapala-half-year-2026.pdf.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/rapala-half-year-calibr8-page-5.png",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-testing-us.html",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-testing-us.html.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-roundness.jpg",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-roundness.jpg.meta.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-resolution.json",
+        "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-source-attempts.json"
+      ],
+      "rows": [
+        {
+          "lineId": "sufix-calibr8-braid-15",
+          "lb": 15,
+          "dia_in": 0.0085,
+          "dia_mm": 0.22,
+          "diameterBasis": "published-pair",
+          "conversion": "Both diameter units are printed on the manufacturer package. 0.0085 in * 25.4 = 0.2159 mm; the 0.0041 mm difference from printed 0.22 mm is within the 0.00627 mm combined rounding tolerance.",
+          "spool_sizes_yd": [
+            150
+          ],
+          "retail_packages": [
+            {
+              "sku": "694-015L",
+              "upc": "024777742369",
+              "length": 150,
+              "unit": "yd",
+              "yards": 150,
+              "color": "Neon Lime",
+              "region": "North American ICAST 2026 launch, yard-led bilingual package",
+              "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+              "provenanceUrl": "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+              "printedMetricLength": "135 m",
+              "evidence": "Visually read on the manufacturer-owned spool photograph: 694-015L, 15 lb Test, Neon Lime, 150 Yds / 135m, 0.0085 inch / 0.22mm. The companion box matches all numeric labels. Use nominal printed yards; 135 m is not an exact conversion and is not added as a separate package."
+            }
+          ],
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+          "sourceUrls": [
+            "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+            "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583507-NEUZVWTOL65OGJIQII5U/694_Calibr8_L_box.jpg",
+            "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast"
+          ],
+          "evidence": "Exact manufacturer package label, not retailer prose: 15 lb, 0.0085 inch / 0.22 mm, 694-015L, Neon Lime, nominal 150 yd. Both photographs visually inspected; explicit manufacturer photo attribution retained."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "role": "mainline",
+        "shortName": "Calibr8",
+        "slug": "sufix-calibr8-diameter-capacity-guide",
+        "brand": "Sufix",
+        "model": "Calibr8",
+        "lineType": "Braid",
+        "defaultLineId": "sufix-calibr8-braid-15",
+        "defaultSpoolYards": 150,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [
+          "sufix-calibr8-braid-6",
+          "sufix-calibr8-braid-8",
+          "sufix-calibr8-braid-10",
+          "sufix-calibr8-braid-20",
+          "sufix-calibr8-braid-30",
+          "sufix-calibr8-braid-40",
+          "sufix-calibr8-braid-50",
+          "sufix-calibr8-braid-65",
+          "sufix-calibr8-braid-80"
+        ],
+        "eyebrow": "15 lb braid setup guide",
+        "h1": "Sufix Calibr8 15 lb",
+        "seoTitle": "Sufix Calibr8 15 lb Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Plan a Sufix Calibr8 15 lb fill using verified SKU 694-015L, Neon Lime and its nominal 150-yard package. Other strengths and spool options remain outside this guide.",
+        "construction": "8-carrier braid; IZANAS-branded fiber and ultra-thin slick coating identified on the pictured packaging",
+        "quickSummary": "This Calibr8 guide covers one source-verified offering: 15 lb Neon Lime, SKU 694-015L, in a nominal 150-yard spool. Manufacturer-owned launch photos show the exact strength, diameter, package length and SKU. Other Calibr8 strengths, colors and lengths are not included.",
+        "suitabilityTitle": "Is this 15 lb Calibr8 offering suitable?",
+        "suitabilitySummary": "Consider the verified 15 lb offering when braid will be your reel mainline and the planned working length fits the nominal 150-yard supply. Rapala describes lighter Calibr8 tests as oriented toward spinning use, but rod rating, cover, lure and expected runs still determine whether this strength fits your fishing.",
+        "strengthGuide": [
+          "The verified offering is 15 lb Calibr8, SKU 694-015L. Its manufacturer label prints 0.0085 inch and 0.22 mm; choose that exact line diameter for capacity planning.",
+          "The box also says 5 lb mono equivalent. That is a diameter comparison, not a 5 lb Calibr8 strength and not a separate catalog row.",
+          "Other strengths are not approved by this source review. Do not scale from the 15 lb row or borrow the diameter of Sufix 832, Revolve or a regional Calibr8 formulation."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Plan around the identified spool",
+            "text": "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages."
+          },
+          {
+            "title": "Keep the backing join below deployment",
+            "text": "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section."
+          },
+          {
+            "title": "Separate braid from any leader",
+            "text": "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate."
+          },
+          {
+            "title": "Use appropriate loading tension",
+            "text": "Follow the reel manufacturer's braid attachment and fill guidance, and avoid loose initial wraps. The package's coating and abrasion claims do not establish a measured casting or durability advantage here."
+          }
+        ],
+        "reviewNote": "Source-label review, not a ReelCalc hands-on test or a measured fill. Manufacturer launch photography establishes the pictured specification, not present stock or real-world breaking strength.",
+        "chartNote": "One approved row only: 15 lb Neon Lime, 694-015L. Both diameter units are printed on the manufacturer label and agree within normal printed rounding. The 5 lb mono-equivalent label is not breaking strength.",
+        "sourceNote": "Checked September 13, 2026. Numeric authority is the Rapala VMC-owned package photography, hosted with explicit media-release attribution by Foresight Fishing. The package prints nominal 150 yd / 135 m; this guide uses the printed yard unit, not a conversion of 135 m. No retailer-authored specification table is used.",
+        "bestFit": "A 15 lb braid mainline setup whose working length and reserve fit the pictured 150-yard Neon Lime supply.",
+        "tradeoff": "Source verification currently covers only one exact SKU. The wider Calibr8 range cannot be selected from this guide.",
+        "reelcalcNote": "Use the published diameter of the pictured 15 lb SKU. Capacity is not evidence that the same strength, line construction or working length suits every reel and technique.",
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+        "localImagePath": "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-694-015l.webp",
+        "imageAlt": "Sufix Calibr8 Neon Lime spool showing manufacturer SKU 694-015L, 15 lb and nominal 150-yard label",
+        "imageCaption": "Rapala VMC manufacturer launch photograph, credited by Foresight Fishing; exact 694-015L spool.",
+        "manufacturerFacts": [
+          {
+            "label": "Verified construction",
+            "text": "Rapala VMC identifies Calibr8 as an 8-carrier braid. The pictured box carries the IZANAS fiber mark and the spool names an ultra-thin slick coating."
+          },
+          {
+            "label": "Exact reviewed offering",
+            "text": "694-015L, 15 lb, Neon Lime, nominal 150 yd; the companion metric label is 135 m."
+          },
+          {
+            "label": "Published diameter pair",
+            "text": "0.0085 inch / 0.22 mm. The paired figures are rounded manufacturer labels, not new measurements."
+          }
+        ],
+        "setupComparison": {
+          "title": "How will the 150-yard supply be used?",
+          "leftTitle": "Continuous braid fill",
+          "leftText": "Use a full braid fill only when the identified supply covers the target reel volume and the required reserve. Follow the reel maker's instructions for attaching braid.",
+          "rightTitle": "Braid over backing",
+          "rightText": "A measured braid section can sit above backing when the reel holds more than the working length you need. Keep the connection below normal casts or fishing depth."
+        },
+        "productGuidanceTitle": "Planning the verified Calibr8 spool",
+        "productGuidance": [
+          "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages.",
+          "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section.",
+          "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate.",
+          "Follow the reel manufacturer's braid attachment and fill guidance, and avoid loose initial wraps. The package's coating and abrasion claims do not establish a measured casting or durability advantage here."
+        ],
+        "recommendationIntro": "Only the 15 lb offering is source-approved here. Do not interpret a broader reel recommendation as verification of another Calibr8 strength.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "sufix-calibr8-braid-15",
+            "workingYards": 100,
+            "spoolYards": 150
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Which Calibr8 SKU does this guide cover?",
+            "answer": "Only 694-015L: 15 lb Neon Lime with the manufacturer's nominal 150-yard label. The exact code and specifications are readable on the manufacturer-owned launch photograph."
+          },
+          {
+            "question": "Why are the other Calibr8 strengths missing?",
+            "answer": "An exact primary strength, diameter and package source was not located for them. Retailer tables and menus are not used to extend this single-SKU verification."
+          },
+          {
+            "question": "Does 5 lb on the box mean this is a 5 lb line?",
+            "answer": "No. The 5 lb figure is labeled mono equivalent and refers to a diameter comparison. The line itself is labeled 15 lb Test."
+          },
+          {
+            "question": "Are 150 yards and 135 meters exact equivalents?",
+            "answer": "No. The manufacturer prints both as nominal package labels, but 150 yards equals 137.16 meters mathematically. This North American launch SKU is recorded at its printed 150-yard size; the companion 135-meter label is retained as a qualification, not converted into a different yardage or treated as another offering."
+          },
+          {
+            "question": "Do 0.0085 inch and 0.22 mm conflict?",
+            "answer": "They are compatible at the displayed precision. Converting 0.0085 inch gives 0.2159 mm, which rounds to 0.22 mm. Both published values are retained rather than pretending that either is a new measurement."
+          },
+          {
+            "question": "Does the manufacturer roundness graph supply a diameter for every strength?",
+            "answer": "No. The public graph is not tied to a specific pound test, SKU and retail package, so it cannot verify additional calculator rows."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Rapala VMC Calibr8 spool photograph",
+            "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+            "note": "Primary manufacturer label: exact 694-015L SKU, UPC, 15 lb, Neon Lime, nominal 150 yd / 135 m and 0.0085 inch / 0.22 mm. Visually read from the image; not taken from a retailer table."
+          },
+          {
+            "label": "Rapala VMC Calibr8 box photograph",
+            "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583507-NEUZVWTOL65OGJIQII5U/694_Calibr8_L_box.jpg",
+            "note": "Companion manufacturer package repeats the 15 lb diameter and length labels and identifies IZANAS fiber. The 5 lb mono-equivalent marking is not a strength row."
+          },
+          {
+            "label": "Manufacturer photo attribution and launch context",
+            "url": "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+            "note": "Foresight Fishing's July 2026 launch coverage explicitly credits all photos as Rapala VMC property used with media-release permission. Article prose is not used as numeric authority."
+          },
+          {
+            "label": "Rapala VMC 2026 half-year company announcement",
+            "url": "https://view.news.eu.nasdaq.com/view?id=bf6b22db6ae132c360cc3e290d1464d2d&lang=en&src=micro",
+            "note": "Primary corporate release independently identifies Calibr8 as an 8-carrier braid introduced at ICAST 2026. It does not supply a retail numeric matrix."
+          },
+          {
+            "label": "Official Sufix testing page",
+            "url": "https://www.rapala.com/us_en/sufix-testing",
+            "note": "Confirms the model name in roundness and microscopy material. Its graph lacks SKU/strength/package binding and is not used to derive any row."
+          }
+        ]
+      },
+      "unresolvedVariants": [
+        {
+          "lineId": "sufix-calibr8-braid-6",
+          "lb": 6,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-8",
+          "lb": 8,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-10",
+          "lb": 10,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-20",
+          "lb": 20,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-30",
+          "lb": 30,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-40",
+          "lb": 40,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-50",
+          "lb": 50,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-65",
+          "lb": 65,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lineId": "sufix-calibr8-braid-80",
+          "lb": 80,
+          "status": "held",
+          "reason": "No exact manufacturer diameter and SKU/package binding located after product routes, official search, catalogs, testing page, corporate launch report and public B2B alternatives. Retailer-authored numeric tables are insufficient."
+        },
+        {
+          "lb": 15,
+          "color": "Low-Vis Green",
+          "status": "held",
+          "reason": "The manufacturer-owned label photos verify Neon Lime only. No other color SKU or package is assumed from the shared strength."
+        },
+        {
+          "lb": 15,
+          "length": 300,
+          "unit": "yd",
+          "status": "held",
+          "reason": "The exact primary photo is 150 yd. A 300 yd option in retailer menus or secondary launch prose does not establish an exact approved manufacturer SKU."
+        }
+      ],
+      "imageEvidence": {
+        "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+        "retrievedAt": "2026-09-13T15:26:39.507Z",
+        "finalUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+        "status": 200,
+        "contentType": "image/webp",
+        "bytes": 756872,
+        "sha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef",
+        "sourceFile": "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-694-015l.webp",
+        "manufacturerAttributionUrl": "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+        "visuallyReviewed": true,
+        "byteIdenticalToFetchedAsset": true
+      },
+      "scopeLimitations": [
+        "Source-verified status is limited to the single row, not the complete Calibr8 family.",
+        "Photo is manufacturer-owned but third-party hosted; explicit attribution and the package's manufacturer name/copyright provide the primary-artifact provenance. No official current product matrix was found.",
+        "150 yd / 135 m are preserved as nominal printed package labels, not exact mathematical equivalents. This does not establish a separate metric-market retail offering.",
+        "Do not merge EU Calibr8, Calibr8 Surf, Sufix 832 or PE-derived rows into this SKU."
+      ],
+      "integrationNotes": [
+        "Preserve sufix-calibr8-braid-15. Exclude the other nine legacy strength IDs from this page; do not delete shared records or create duplicate same-strength IDs.",
+        "Keep h1, SEO and page scope at 15 lb until new primary specifications clear additional rows.",
+        "Image is local to this resolution folder only. Main owns release asset placement, fresh staging, rendering and publication decisions."
+      ]
+    }
+  ]
+}

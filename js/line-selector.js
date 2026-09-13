@@ -84,6 +84,10 @@
     return [line.brand, line.model].filter(Boolean).join(" ");
   }
 
+  function scopedProductLabel(line) {
+    return productLabel(line) + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "");
+  }
+
   function productsFor(lines, material) {
     var products = new Map();
     lines.forEach(function(line) {
@@ -128,6 +132,7 @@
         exactLabel,
         line.material,
         line.search_text,
+        line.source_scope_label,
         line.lb + " lb",
         line.dia_in + " in",
         (line.dia_mm || line.dia_in * 25.4) + " mm",
@@ -214,6 +219,7 @@
     prepareLines: prepareLines,
     productKey: productKey,
     productLabel: productLabel,
+    scopedProductLabel: scopedProductLabel,
     productsFor: productsFor,
     strengthsFor: strengthsFor,
     searchLines: searchLines,

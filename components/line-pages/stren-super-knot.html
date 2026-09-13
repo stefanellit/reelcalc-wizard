@@ -1,0 +1,160 @@
+<article class="rc-line-page rc-line-gold" data-reelcalc-line-page="" data-product-id="stren-super-knot" data-asset-base="https://stefanellit.github.io/reelcalc-wizard/">
+  <header class="rc-product-header">
+    <div class="rc-line-inner">
+      <nav class="rc-breadcrumbs" aria-label="Breadcrumb"><a href="https://www.reelcalc.com/">ReelCalc</a><span>/</span><a href="https://www.reelcalc.com/line-database">Line guides</a><span>/</span>Stren Super Knot</nav>
+      <h2 class="rc-product-title">Stren Super Knot</h2>
+      <p class="rc-product-subtitle">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class="rc-product-overview">
+        <figure class="rc-product-figure"><img src="https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg" alt="Original 2014 lime-green and black Stren Super Knot package, distinct from turquoise MagnaThin" width="160" height="160" loading="eager" data-line-page-image="assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg"></figure>
+        <div><p class="rc-product-summary">This guide covers Stren Super Knot as documented in the 2014 US manufacturer catalog: eight 4-20 lb test steps, Clear and Lo-Vis Green, on 220-yard fillers. Super Knot is the named monofilament product, not later Power Knot or adjacent MagnaThin. These are historical specifications, not evidence of current stock or unchanged formulation.</p><dl class="rc-product-specs"><div><dt>Construction</dt><dd>Self-lubricating monofilament</dd></div><div><dt>Listed strengths</dt><dd>4-20 lb</dd></div><div><dt>Line type</dt><dd>Monofilament main line</dd></div></dl></div>
+      </div>
+      <section class="rc-product-fit" aria-labelledby="product-fit-title"><h2 id="product-fit-title">Plan the fill around Super Knot's own diameter</h2><p>The self-lubricating formula was Stren's knot-focused positioning, not a guarantee against knot failure. The practical starting point is the exact diameter and a suitable test rating for your tackle. Super Knot's .012-inch 8 lb row uses more reel space than a thinner 8 lb mono; a familiar strength label alone does not establish capacity.</p></section>
+      <nav class="rc-page-nav" aria-label="On this page"><a href="#use-this-line">Calculator</a><a href="#diameter-chart">Diameter chart</a><a href="#line-guide">Choosing your setup</a><a href="#compare-lines">Compare lines</a></nav>
+    </div>
+  </header>
+
+  <section class="rc-section rc-calculator-section" id="use-this-line" aria-labelledby="line-tool-title">
+    <div class="rc-line-inner">
+      <div class="rc-section-heading rc-tool-heading"><div><span class="rc-eyebrow">Your line. Your reel.</span><h2 id="line-tool-title">How much Super Knot will fit?</h2></div><span class="rc-tool-status" id="rcToolStatus" role="status">Loading line data</span></div>
+      <div class="rc-tool-shell">
+        <div class="rc-loading" id="rcLoading" role="status">Loading reel and line data...</div>
+        <div id="rcInteractive" hidden="">
+          <div class="rc-control-grid">
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">1</span>Your line</legend>
+              <label class="rc-field"><span>Stren Super Knot strength</span><select id="rcStrength"></select></label>
+              <div class="rc-selected-line" id="rcSelectedLine" aria-live="polite"></div>
+              <label class="rc-field"><span>Retail spool length</span><select id="rcSpool"></select></label>
+              <a class="rc-inline-link" href="#diameter-chart">Full diameter chart</a>
+            </fieldset>
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">2</span>Your reel</legend>
+              <div class="rc-segmented" id="rcReelSource" role="group" aria-label="Reel details"><button type="button" data-reel-source="database" aria-pressed="true">Find my reel</button><button type="button" data-reel-source="manual" aria-pressed="false">Enter specs</button></div>
+              <div id="rcCatalogReel">
+              <div class="rc-segmented" id="rcReelType" role="group" aria-label="Reel type"><button type="button" data-reel-type="spinning" aria-pressed="true">Spinning</button><button type="button" data-reel-type="baitcasting" aria-pressed="false">Baitcasting</button></div>
+              <label class="rc-field"><span>Brand</span><select id="rcReelBrand"></select></label>
+              <label class="rc-field"><span>Series</span><select id="rcReelModel" disabled=""></select></label>
+              <label class="rc-field"><span>Exact model / size</span><select id="rcReelSize" disabled=""></select></label>
+              </div>
+              <div id="rcManualReel" hidden="">
+                <p class="rc-manual-guide">Reel not listed? Use its mono capacity rating for this mono line.</p>
+                <label class="rc-field" hidden=""><span>Rating on the reel</span><select id="rcManualType"><option value="mono">Mono rating</option></select></label>
+                <label class="rc-field"><span>Rated strength (lb)</span><input id="rcManualStrength" type="number" min="0.1" max="1000" step="any" inputmode="decimal" placeholder="10" aria-describedby="rcManualHelp rcManualError"></label>
+                <div class="rc-unit-fields"><label class="rc-field"><span>Rated capacity</span><input id="rcManualCapacity" type="number" min="0.1" max="100000" step="any" inputmode="decimal" placeholder="200" aria-describedby="rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualCapacityUnit" aria-label="Rated capacity unit"><option value="yd">Yards</option><option value="m">Meters</option></select></label></div>
+                <div class="rc-unit-fields"><label class="rc-field"><span>Printed diameter (optional)</span><input id="rcManualDiameter" type="number" min="0" step="any" inputmode="decimal" aria-describedby="rcManualHelp rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualDiameterUnit" aria-label="Printed diameter unit"><option value="mm">mm</option><option value="in">in</option></select></label></div>
+                <p class="rc-manual-guide" id="rcManualHelp">Use one matching capacity entry from the reel. If it lists a diameter for that entry, enter it instead of, or alongside, the lb test.</p>
+                <p class="rc-manual-guide" id="rcManualError" role="status"></p>
+              </div>
+            </fieldset>
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">3</span>Your spool plan</legend>
+              <label class="rc-field"><span id="rcWorkingYardsLabel">Main line to put on the reel (yards)</span><input id="rcWorkingYards" type="number" min="0.1" max="10000" step="any" inputmode="decimal" aria-describedby="rcFullSpoolHelp"></label>
+              <p id="rcFullSpoolHelp" class="rc-manual-guide" hidden=""></p>
+              <div class="rc-backing-mode-row"><button type="button" class="rc-button rc-button-secondary rc-backing-mode-button" id="rcBackingModeButton" aria-pressed="false" aria-controls="rcBackingControls">I don't want to use backing</button><span id="rcBackingModeStatus" class="rc-backing-mode-status" hidden="">Full-spool capacity</span></div>
+              <div id="rcBackingControls"><label class="rc-field"><span>Backing brand</span><select id="rcBackingBrand"></select></label><div class="rc-inline-fields"><label class="rc-field"><span>Backing model</span><select id="rcBackingModel" disabled=""></select></label><label class="rc-field"><span>Backing strength</span><select id="rcBackingLb" disabled=""></select></label></div></div>
+            </fieldset>
+          </div>
+          <div class="rc-tool-action"><button type="button" class="rc-button rc-button-primary" id="rcCalculate">Calculate my setup</button><span id="rcCalculationHelp" role="status">Choose an exact reel to continue.</span></div>
+          <div class="rc-results" id="rcResults" aria-live="polite" hidden=""></div>
+        </div>
+        <noscript><p class="rc-error">The calculator needs JavaScript. The diameter chart and line guide below are still available.</p></noscript>
+      </div>
+      <p class="rc-tool-footnote">Calculated estimates, not measured fills. Stop at the reel manufacturer's fill level even if some line remains.</p>
+    </div>
+  </section>
+
+  <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">Stren Super Knot diameter chart</h2><p>2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.</p></div>
+    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>2014 US Super Knot Clear and Lo-Vis Green filler specifications. Historical 220-yard packages, not current availability.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">Spools (yd)</th></tr></thead><tbody><tr data-chart-line="stren-super-knot-monofilament-4">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-4" aria-label="Use Stren Super Knot 4 lb" aria-pressed="false" disabled="">4 lb</button></th>
+    <td>0.008</td><td>0.2032</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-6">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-6" aria-label="Use Stren Super Knot 6 lb" aria-pressed="false" disabled="">6 lb</button></th>
+    <td>0.010</td><td>0.254</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-8">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-8" aria-label="Use Stren Super Knot 8 lb" aria-pressed="false" disabled="">8 lb</button></th>
+    <td>0.012</td><td>0.3048</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-10">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-10" aria-label="Use Stren Super Knot 10 lb" aria-pressed="false" disabled="">10 lb</button></th>
+    <td>0.013</td><td>0.3302</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-12">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-12" aria-label="Use Stren Super Knot 12 lb" aria-pressed="false" disabled="">12 lb</button></th>
+    <td>0.014</td><td>0.3556</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-14">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-14" aria-label="Use Stren Super Knot 14 lb" aria-pressed="false" disabled="">14 lb</button></th>
+    <td>0.015</td><td>0.381</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-17">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-17" aria-label="Use Stren Super Knot 17 lb" aria-pressed="false" disabled="">17 lb</button></th>
+    <td>0.017</td><td>0.4318</td>
+    <td>220</td>
+  </tr>
+<tr data-chart-line="stren-super-knot-monofilament-20">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="stren-super-knot-monofilament-20" aria-label="Use Stren Super Knot 20 lb" aria-pressed="false" disabled="">20 lb</button></th>
+    <td>0.019</td><td>0.4826</td>
+    <td>220</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class="rc-section rc-guide-section" id="line-guide" aria-labelledby="guide-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">Choosing your setup</span><h2 id="guide-title">Choosing your Super Knot strength</h2></div>
+    <div class="rc-strength-guide"><div class="rc-editorial-copy"><p>The 4 and 6 lb rows are the lighter end of this edition. Choose strength for the tackle and conditions before considering how much extra line fits.</p>
+<p>The 8-12 lb rows step from .012 to .014 inch. A 220-yard filler does not imply the same number of fills at each strength.</p>
+<p>The upper steps are 14,17 and 20 lb. There is no 15 lb row in this exact chart; do not relabel 14 lb or import a later product's values.</p><p class="rc-editorial-note">No hands-on knot, casting or abrasion test was performed. Self-lubricating and knot-strength language is attributed manufacturer positioning, not a ReelCalc performance guarantee.</p></div><div class="rc-strength-next"><h3>Want a guided recommendation?</h3><a class="rc-inline-link" id="rcStrengthWizard" href="https://www.reelcalc.com/reelcalc-wizard">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+  <section class="rc-section" id="compare-lines" aria-labelledby="diameter-intelligence-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">Compare actual diameters</span><h2 id="diameter-intelligence-title">Same pound test, different diameters</h2></div>
+    <div class="rc-intelligence-grid"><div id="rcDiameterSummary" class="rc-intelligence-summary" aria-live="polite"><h3>At your selected strength</h3><p>Loading diameter comparisons...</p></div><div class="rc-switch-tool"><h3>What changes with another line?</h3><label class="rc-field"><span>Compare with</span><select id="rcReplacement"></select></label><div class="rc-switch-result" id="rcSwitchResult" aria-live="polite">Select a replacement line to compare.</div><a class="rc-inline-link" id="rcReplacementWizard" href="https://www.reelcalc.com/reelcalc-wizard" hidden="">Use this alternative in the Wizard</a></div></div>
+    <h3 class="rc-alternatives-title">Nearby diameters in the line database</h3><div class="rc-table-wrap"><table class="rc-table rc-alternatives-table"><thead><tr><th scope="col">Line</th><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">Difference</th></tr></thead><tbody id="rcAlternatives"><tr><td colspan="4">Loading line database...</td></tr></tbody></table></div>
+  </div></section>
+
+  <section class="rc-section rc-guide-section" aria-labelledby="spooling-title"><div class="rc-line-inner"><div class="rc-section-heading"><span class="rc-eyebrow">At the spooling bench</span><h2 id="spooling-title">Backing, working line &amp; leaders</h2></div><div class="rc-spooling-grid"><div><h3>Match the name and edition</h3><p>Check Super Knot on the package and compare its diameter with this 2014 reference. A Power Knot package needs a separate source even when its test rating matches.</p></div>
+<div><h3>Budget the 220-yard filler</h3><p>All eight listed strengths have the same published filler length in Clear and Lo-Vis Green. Compare that length with full-spool capacity and your planned working reserve before choosing a full fill or shorter fresh section.</p></div>
+<div><h3>Check knots under controlled load</h3><p>Wet and seat an appropriate knot carefully, then test it before fishing. The catalog's self-lubricating claim does not remove the need to inspect damage or retie.</p></div>
+<div><h3>Stop at the reel's fill limit</h3><p>Use even tension and the reel manufacturer's specified clearance. If backing is used for a short fresh section, keep the joining knot below the longest expected cast and reserve.</p></div></div></div></section>
+
+  <section class="rc-section" aria-labelledby="examples-title"><div class="rc-line-inner"><div class="rc-section-heading"><span class="rc-eyebrow">Calculated examples</span><h2 id="examples-title">How Much Fits on These Reels?</h2><p>Estimated full-spool capacity for the Super Knot strength selected above, with no backing. These are calculated examples, not physical tests or recommendations for every pairing.</p></div><div id="rcExamples" class="rc-example-grid" data-example-mode="capacity" aria-live="polite"><p>Loading capacity estimates...</p></div></div></section>
+
+  <section class="rc-section rc-guide-section" aria-labelledby="faq-title"><div class="rc-line-inner"><div class="rc-section-heading"><h2 id="faq-title">Super Knot questions, answered</h2></div><div class="rc-faq-list"><details>
+    <summary>Is Super Knot the same as Power Knot?</summary>
+    <p>This source does not establish equivalence. The chart and image explicitly name Super Knot in 2014; Power Knot specifications are not transferred.</p>
+  </details>
+<details>
+    <summary>Why is 15 lb missing?</summary>
+    <p>The 2014 Super Knot chart lists 14 lb and 17 lb around that part of the range. It does not list 15 lb, so that inventory row is excluded rather than relabeled.</p>
+  </details>
+<details>
+    <summary>Does self-lubricating mean a knot cannot fail?</summary>
+    <p>No. That is manufacturer formulation language, not an independent guarantee. Knot choice, seating, wear and loading still matter.</p>
+  </details>
+<details>
+    <summary>Are both colors on 220-yard fillers?</summary>
+    <p>Yes, the 2014 table marks Clear and Lo-Vis Green for all eight listed strengths under the 220-yard filler legend. Current stock is not established.</p>
+  </details>
+<details>
+    <summary>Can I apply this to a newer spool?</summary>
+    <p>Only after checking that its exact product identity and diameter agree. A historical chart alone does not establish current formulation or package continuity.</p>
+  </details></div></div></section>
+
+  <section class="rc-section rc-sources-section" id="sources" aria-labelledby="sources-title"><div class="rc-line-inner"><h2 id="sources-title">Specifications &amp; sources</h2><p>Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class="rc-source-list"><li>
+    <a href="https://storage.westernbass.com/brochures/2014_stren/page4/index.html" target="_blank" rel="noopener">2014 Stren manufacturer Super Knot chart</a>
+    <small>Sole numeric authority; left-hand table and 220-yard filler legend visually checked.</small>
+  </li>
+<li>
+    <a href="https://storage.westernbass.com/brochures/2014_stren/index.xml" target="_blank" rel="noopener">2014 catalog edition manifest</a>
+    <small>Identifies the manufacturer catalog edition and page assets.</small>
+  </li>
+<li>
+    <a href="https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg" target="_blank" rel="noopener">Original Super Knot package artwork</a>
+    <small>Unmodified lime-green package asset from the same catalog.</small>
+  </li></ul><p class="rc-footer-links"><a href="https://www.reelcalc.com/line-database" data-internal-destination="line_database">Browse all lines</a><a href="https://www.reelcalc.com/reel-comparison" data-internal-destination="reel_comparison">Compare reels</a><a href="#use-this-line">Back to calculator</a></p></div></section>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide#webpage","url":"https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide","name":"Stren Super Knot Diameter & Capacity Guide | ReelCalc","description":"Compare Stren Super Knot's 2014 US Clear and Lo-Vis Green diameter chart and 220-yard fillers. Historical specifications, not current availability.","isPartOf":{"@id":"https://www.reelcalc.com/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.reelcalc.com/"},{"@type":"ListItem","position":2,"name":"Fishing Line Database","item":"https://www.reelcalc.com/line-database"},{"@type":"ListItem","position":3,"name":"Stren Super Knot","item":"https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide"}]},{"@type":"Product","name":"Stren Super Knot","image":"https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg","description":"This guide covers Stren Super Knot as documented in the 2014 US manufacturer catalog: eight 4-20 lb test steps, Clear and Lo-Vis Green, on 220-yard fillers. Super Knot is the named monofilament product, not later Power Knot or adjacent MagnaThin. These are historical specifications, not evidence of current stock or unchanged formulation.","category":"Monofilament fishing line","brand":{"@type":"Brand","name":"Stren"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Super Knot the same as Power Knot?","acceptedAnswer":{"@type":"Answer","text":"This source does not establish equivalence. The chart and image explicitly name Super Knot in 2014; Power Knot specifications are not transferred."}},{"@type":"Question","name":"Why is 15 lb missing?","acceptedAnswer":{"@type":"Answer","text":"The 2014 Super Knot chart lists 14 lb and 17 lb around that part of the range. It does not list 15 lb, so that inventory row is excluded rather than relabeled."}},{"@type":"Question","name":"Does self-lubricating mean a knot cannot fail?","acceptedAnswer":{"@type":"Answer","text":"No. That is manufacturer formulation language, not an independent guarantee. Knot choice, seating, wear and loading still matter."}},{"@type":"Question","name":"Are both colors on 220-yard fillers?","acceptedAnswer":{"@type":"Answer","text":"Yes, the 2014 table marks Clear and Lo-Vis Green for all eight listed strengths under the 220-yard filler legend. Current stock is not established."}},{"@type":"Question","name":"Can I apply this to a newer spool?","acceptedAnswer":{"@type":"Answer","text":"Only after checking that its exact product identity and diameter agree. A historical chart alone does not establish current formulation or package continuity."}}]}]}</script></article>

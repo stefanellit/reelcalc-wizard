@@ -1,0 +1,1664 @@
+{
+  "group": "group-c",
+  "checkedAt": "2026-09-13T15:09:31.383Z",
+  "models": [
+    {
+      "id": "lew-s-mach-braid",
+      "brand": "Lew's",
+      "model": "Mach Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "Exact Mach Braid line identity not established. Official MACH results describe reels, combos and braid capacity, not a line SKU. Do not turn reel capacity labels into line diameters or substitute a Lew's APT/Speed line. Needs a manufacturer model/SKU and exact numeric chart.",
+      "sourceUrls": [
+        "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2024_mach_specbook_durables.pdf"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/lews-identity-search.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "lew-s-team-lew-s-fluorocarbon",
+      "brand": "Lew's",
+      "model": "Team Lew's Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "Exact Team Lew's Fluorocarbon line identity not established. Search finds Team Lew's reel fluorocarbon capacities and historical APT Fluorocarbon Speed Fishing Line, not an official equivalence to this database model. Do not relabel to APT; manufacturer SKU, diameter chart and package mappings required.",
+      "sourceUrls": [
+        "https://www.lews.com/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/lews-identity-search.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "lew-s-team-lew-s-monofilament",
+      "brand": "Lew's",
+      "model": "Team Lew's Monofilament",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "Exact Team Lew's Monofilament line identity not established. Historical Lew's Speed Line and Team Lew's reels do not prove this product identity. Manufacturer SKU and exact numeric/package chart required; legacy numbers are not evidence.",
+      "sourceUrls": [
+        "https://www.lews.com/"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/lews-identity-search.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "brand": "SpiderWire",
+      "model": "Stealth Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current US Stealth identity and manufacturer package image confirmed, but fetched product text provides option lists without physical diameters or strength/package mappings. Pure Fishing Japan's 2016-launch US-import listing explicitly gives standard actual diameters 50 lb = 0.419 mm and 65 lb = 0.447 mm with exact 125 yd SKUs; these are preserved below as REGIONAL HISTORICAL EVIDENCE ONLY. Their connection to current US packaging/advertised diameters is unproved. Do not replace generic catalog records by matching lb across regions or infer diameter from mono-equivalent test. Current official HTML/.js access was challenged; no challenge bypass attempted.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/stealth-filler-spool",
+        "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-current.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-stealth-jp-smooth-durabraid.web.json",
+        "research/line-pages/full-catalog/group-c/sources/stealth-current-package.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stealth-current-package.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 50,
+          "dia_in": 0.016496062992126,
+          "dia_mm": 0.419,
+          "diameterBasis": "published-mm",
+          "spool_sizes_yd": [
+            125
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+          "evidence": "HELD REGIONAL/HISTORICAL ONLY. Japan product page launched April 2016, describing US-labeled imports, states standard actual diameter 50 lb 0.419 mm. Table SKU 1339729, UPC 022021600830, SS50G-125, Moss Green, 50 lb / 125 yd. Inches explicitly converted from mm / 25.4; not a separately published US package diameter. Do not merge into current generic US 50 lb record without formulation/source-basis review."
+        },
+        {
+          "lb": 65,
+          "dia_in": 0.01759842519685,
+          "dia_mm": 0.447,
+          "diameterBasis": "published-mm",
+          "spool_sizes_yd": [
+            125
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+          "evidence": "HELD REGIONAL/HISTORICAL ONLY. Japan product page launched April 2016, describing US-labeled imports, states standard actual diameter 65 lb 0.447 mm. Table SKU 1339730, UPC 022021600847, SS65G-125, Moss Green, 65 lb / 125 yd. Inches explicitly converted from mm / 25.4; not a separately published US package diameter. Do not merge into current generic US 65 lb record without formulation/source-basis review."
+        }
+      ],
+      "product": null
+    },
+    {
+      "id": "spiderwire-stealth-smooth-8",
+      "brand": "SpiderWire",
+      "model": "Stealth Smooth 8",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current US Stealth Smooth page and x8 Moss Green package confirm eight PE carriers and a microcrystalline polymer coating. HOLD: no physical diameter table or per-strength package mapping was exposed. US options are 8,10,15,20,30,40,50,65,80 lb with 125/200/270/300 yd across the product, not a verified cross-product of those choices. Inspected manufacturer images have blank numeric label areas. European Stealth Smooth 8 / 8x diameter-led, breaking-strength listings must not be combined with US lb-test rows without exact regional SKU identity.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/stealth-smooth-filler-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-stealth-jp-smooth-durabraid.web.json",
+        "research/line-pages/full-catalog/group-c/sources/stealth-smooth-alt2.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stealth-smooth-alt2.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stealth-smooth-alt3.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stealth-smooth-alt3.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "spiderwire-ultracast-braid",
+      "brand": "SpiderWire",
+      "model": "Ultracast Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "LIMITED VARIANT CANDIDATE: only the 8 lb Inshore Camo / 164 yd (150 m) package is verified, from the labeled image linked directly by the current US manufacturer product page. Image filename includes 2019; current page still displays it and lists the matching 8 lb and 164 yd options. This is published package data, not a physical diameter measurement or inventory confirmation. All six legacy strengths are excluded. No other color, strength, regional formulation, old Ultimate Braid, or Invisibraid specification is transferred. Main must independently approve this deliberately single-strength page before integration/publication.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/ultracast-braid-filler-spool",
+        "https://www.spiderwire.com/cdn/shop/files/SpiderWire_Ultracast_Braid_Inshore_Camo_Filler_2019_alt5.jpg?v=1721828317&width=1920"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/ultracast-official-current.web.json",
+        "research/line-pages/full-catalog/group-c/sources/ultracast-official-image-link.web.json",
+        "research/line-pages/full-catalog/group-c/sources/ultracast-current-package.jpg",
+        "research/line-pages/full-catalog/group-c/sources/ultracast-current-package.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 8,
+          "dia_in": 0.0035,
+          "dia_mm": 0.09,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            164
+          ],
+          "retail_packages": [
+            {
+              "meters": 150,
+              "yards": 164
+            }
+          ],
+          "sourceUrl": "https://www.spiderwire.com/cdn/shop/files/SpiderWire_Ultracast_Braid_Inshore_Camo_Filler_2019_alt5.jpg?v=1721828317&width=1920",
+          "evidence": "Visually inspected current US product page's manufacturer package image. Exact front label: ULTRACAST x8; INSHORE CAMO; LB-TEST 8 LB 3.6 KG; LENGTH 164 yd 150 m; SIZE 0.0035 in 0.09 mm 1.0 gou; MAX BREAK 22 LB 10.1 KG. Use LB-TEST 8, not maximum break 22 or a gou conversion. The two diameters are independently printed: 0.0035 in converts to 0.0889 mm and rounds to 0.09 mm. Both package units are independently printed, not two separate packages. No SKU is legible. Scope is this displayed color/package, not all Ultracast variants."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "slug": "spiderwire-ultracast-braid-diameter-capacity-guide",
+        "brand": "SpiderWire",
+        "model": "Ultracast Braid",
+        "shortName": "Ultracast",
+        "lineType": "Braid",
+        "defaultLineId": "spiderwire-ultracast-braid-braid-8",
+        "defaultSpoolYards": 164,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [
+          "spiderwire-ultracast-braid-braid-10",
+          "spiderwire-ultracast-braid-braid-15",
+          "spiderwire-ultracast-braid-braid-20",
+          "spiderwire-ultracast-braid-braid-30",
+          "spiderwire-ultracast-braid-braid-40",
+          "spiderwire-ultracast-braid-braid-50"
+        ],
+        "eyebrow": "Braid setup intelligence",
+        "h1": "SpiderWire Ultracast Braid",
+        "seoTitle": "SpiderWire Ultracast 8 lb Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Plan an 8 lb SpiderWire Ultracast Inshore Camo setup using its labeled diameter and 164-yard package. Estimate reel capacity, working braid and mono backing.",
+        "quickSummary": "Ultracast is an eight-fiber PE braid. This guide is limited to the labeled 8 lb Inshore Camo package, not the full Ultracast range. Its 164-yard spool gives you a defined amount of working braid to plan around; a large capacity estimate does not mean you need to fill the entire reel with it.",
+        "construction": "8-fiber PE braid",
+        "suitabilityTitle": "A thin working line, with a specific label",
+        "suitabilitySummary": "Consider this 8 lb variant only where the rod, lure and fishing conditions suit light braid. A spinning-reel setup with a deliberately chosen working length is a sensible planning example. Inshore Camo is a color name, not proof that this strength suits every inshore fishery. The unusually small published diameter makes backing calculations sensitive to the label and to real-world packing, so finish by checking the reel's recommended fill level.",
+        "strengthGuide": [
+          "Match the 8 lb test rating to the rod, lure and likely loads first. Do not select it solely because the small published diameter produces a large capacity estimate.",
+          "The package also prints a maximum-break figure. That is a different label field, not a substitute for the 8 lb test rating and not an instruction to use a heavier drag setting.",
+          "Only this labeled variant is charted here. Use separately verified data for stronger Ultracast, another color formulation, or the older Ultimate Braid and Invisibraid products."
+        ],
+        "fitTitle": "Plan the working section first",
+        "bestFit": "A light spinning setup where the angler has already selected 8 lb braid and wants a measured working section over backing. Keep enough reserve for the longest cast, fish runs and line removed through use.",
+        "tradeoffTitle": "Published diameter is not a fill guarantee",
+        "tradeoff": "Braid can pack differently with tension and spool geometry. With such a small listed diameter, an apparent surplus of reel capacity should be handled with a backing plan, not a promise that an exact calculated length will fit in practice.",
+        "reviewNote": "This is a specification-based guide. No casting-distance, abrasion or handling performance was independently tested.",
+        "chartNote": "One verified package only: 8 lb Inshore Camo, labeled 164 yd / 150 m. Other Ultracast strengths are intentionally absent because their physical diameters and matching packages were not verified from the current manufacturer's evidence.",
+        "diameterNote": "The package independently prints 0.0035 in and 0.09 mm. These agree within rounding; the inch figure is the calculation input. They are manufacturer label values, not ReelCalc measurements.",
+        "exampleBackingLabel": "Berkley Trilene Big Game 10 lb mono (0.012 in)",
+        "sourceNote": "Checked September 13, 2026. The current US Ultracast page links the Inshore Camo package image used for this single row and lists the matching test strength and package length. The image filename dates the artwork to 2019. No claim of current stock, revised packaging or full-range verification is made.",
+        "spoolingGuide": [
+          {
+            "title": "Budget from the 164-yard package",
+            "text": "Start with your required working length, leaving room for trimming and future losses. The examples use 125 or 150 yards from one package, not a promise that either length suits every fishery."
+          },
+          {
+            "title": "Fill the remaining volume underneath",
+            "text": "Choose the exact reel before estimating mono backing. Follow its instructions for attaching braid; a smooth arbor may need an approved anti-slip attachment or a mono base. Backing length is a volume calculation, not a matching pound-test rule.",
+            "url": "https://www.reelcalc.com/blog/what-size-mono-backing-should-i-use-for-braid",
+            "linkText": "Choosing mono backing"
+          },
+          {
+            "title": "Treat the leader separately",
+            "text": "Choose any lure-end leader for the presentation and contact hazards. It is not the backing beneath the braid, and its test rating need not copy the braid label. A long topshot needs a separate allowance for spool space.",
+            "url": "https://www.reelcalc.com/blog/what-size-leader-should-i-use-with-braid",
+            "linkText": "Choosing a braid leader"
+          },
+          {
+            "title": "Check the final fill",
+            "text": "Wind with controlled, even tension and stop at the reel manufacturer's specified clearance. Correct the backing amount if the actual fill differs from the estimate; do not force all the planned line onto an overfull spool."
+          }
+        ],
+        "reelcalcNote": "Estimate capacity with the labeled inch diameter, then compare the working length with this specific retail package.",
+        "imageUrl": "https://www.spiderwire.com/cdn/shop/files/SpiderWire_Ultracast_Braid_Inshore_Camo_Filler_2019_alt5.jpg?v=1721828317&width=1920",
+        "localImagePath": "assets/line-pages/full-catalog/group-c/spiderwire-ultracast-braid-inshore-camo-8lb.jpg",
+        "imageAlt": "Manufacturer image of SpiderWire Ultracast x8 Inshore Camo, labeled 8 lb and 164 yards",
+        "manufacturerFacts": [
+          {
+            "label": "Verified package",
+            "text": "The inspected Inshore Camo label identifies an 8 lb test, 164-yard / 150-meter package."
+          },
+          {
+            "label": "Published construction",
+            "text": "SpiderWire describes Ultracast as eight tightly woven PE fibers."
+          },
+          {
+            "label": "Manufacturer claim",
+            "text": "SpiderWire attributes improved abrasion performance to its cold-fusion process. That comparison has not been independently tested here."
+          }
+        ],
+        "setupComparison": {
+          "title": "Working braid or a full braid fill?",
+          "leftTitle": "Measured braid over backing",
+          "leftText": "Useful when your chosen working length is shorter than the reel's estimated full-braid capacity. It allocates the package to fishing line above a calculated mono base.",
+          "rightTitle": "Full braid fill",
+          "rightText": "May require more than one package with this small published diameter. Choose it because the fishing needs that reserve, not because a capacity estimate suggests unused space must contain more braid."
+        },
+        "productGuidanceTitle": "Buying for this labeled variant",
+        "productGuidance": [
+          "Match Ultracast x8, Inshore Camo and the 8 lb test label before using this row.",
+          "The meter and yard labels describe one package, not two lengths to add together.",
+          "A color name and a maximum-break claim do not replace an appropriate rod, drag and working-length choice."
+        ],
+        "recommendationIntro": "Any strength recommendation outside this single verified row needs another source-checked line record. Do not round a heavier recommendation down to 8 lb simply to keep this product selected.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "spiderwire-ultracast-braid-braid-8",
+            "workingYards": 125,
+            "spoolYards": 164
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "spiderwire-ultracast-braid-braid-8",
+            "workingYards": 150,
+            "spoolYards": 164
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Why does this Ultracast chart show only 8 lb?",
+            "answer": "The currently displayed Inshore Camo package provides a readable test rating, both diameters and a matching length. Other strengths appear in the manufacturer's selector, but that alone does not verify their physical diameters or package combinations."
+          },
+          {
+            "question": "Is the 22 lb maximum-break marking another strength?",
+            "answer": "No. On the inspected package, 8 lb is the test label and 22 lb is a separate maximum-break claim. This chart uses the test label and does not create a 22 lb variant."
+          },
+          {
+            "question": "Does one package fill my reel?",
+            "answer": "That depends on the exact reel and the actual packing. Compare its estimated capacity with your required working length; use backing when a suitable working section is shorter than a full fill."
+          },
+          {
+            "question": "Can I use this diameter for Invisibraid or Ultimate Braid?",
+            "answer": "No. The evidence here identifies the Inshore Camo Ultracast x8 package. Similar names, old catalog groupings and matching pound-test labels do not establish identical physical diameters."
+          },
+          {
+            "question": "Why can the calculated capacity look unusually large?",
+            "answer": "The package lists a very small diameter. Capacity estimates depend strongly on that input, while actual braid packing also depends on winding tension and spool shape. Treat the result as a planning estimate and verify the final fill."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Official Ultracast product page",
+            "url": "https://www.spiderwire.com/products/ultracast-braid-filler-spool",
+            "note": "Current US page, construction, offered label options and the link to the inspected image. Not a full diameter table."
+          },
+          {
+            "label": "Official labeled Inshore Camo package",
+            "url": "https://www.spiderwire.com/cdn/shop/files/SpiderWire_Ultracast_Braid_Inshore_Camo_Filler_2019_alt5.jpg?v=1721828317&width=1920",
+            "note": "Visually checked numeric evidence for the sole charted variant; distinguishes test strength from maximum break."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiderwire-ultracast-invisi-braid",
+      "brand": "SpiderWire",
+      "model": "Ultracast Invisi-Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Manufacturer 2020 US catalog groups Invisibraid-Translucent under Ultracast Braid alongside Ultimate Braid-Moss Green. Its table gives lb-test / equivalent MONO pound-test, not physical diameters. The table proves historical packages but is not a diameter chart. Current US Ultracast page describes Aqua Camo/Inshore Camo, not confirmed continuity of this separately inventoried translucent product. HOLD exact historical/current SKU identity and numeric diameter rows. Do not copy the newly reviewed 8 lb Inshore Camo diameter or merge the two catalog model IDs.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2021_spiderwire/page3/index.html",
+        "https://www.spiderwire.com/products/ultracast-braid-filler-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page3.html",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page3.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page3.jpg",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page3.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/ultracast-official-current.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "spiderwire-durabraid",
+      "brand": "SpiderWire",
+      "model": "DuraBraid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current manufacturer DuraBraid page confirms identity, strength options 8 through 80 lb and product-wide 150/300/500 yd options. Four manufacturer package/spool/back-panel images inspected; the numeric labels are blank and the back panel provides no diameter chart. HOLD official strength-specific physical diameter and package mapping. Do not reuse Stealth or legacy database diameters. The 25-percent-tougher wording is a manufacturer comparison, not a measured ReelCalc result or permission to invent a carrier count.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/durabraid-filler-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-stealth-jp-smooth-durabraid.web.json",
+        "research/line-pages/full-catalog/group-c/sources/durabraid-manufacturer-package.jpg",
+        "research/line-pages/full-catalog/group-c/sources/durabraid-manufacturer-package.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/durabraid-alt2.jpg",
+        "research/line-pages/full-catalog/group-c/sources/durabraid-alt3.jpg",
+        "research/line-pages/full-catalog/group-c/sources/durabraid-alt4.jpg",
+        "research/line-pages/full-catalog/group-c/sources/durabraid-alt4.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "spiderwire-ez-braid",
+      "brand": "SpiderWire",
+      "model": "EZ Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current US EZ Braid identity and actual manufacturer package image verified. Official selector lists 10,15,20,30,50 lb and 110/300 yd options, but no strength-specific physical diameter table. Legacy 40 lb is not supported by the current selector. Historical manufacturer tables' 10/3-style fields mean braid lb-test / equivalent MONO lb-test, not inches or millimeters. Inspected package artwork has blank numeric labels. HOLD all numeric calculator rows pending an official diameter/SKU source; do not derive physical size from mono equivalents.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/ez-braid-filler-spool",
+        "https://storage.westernbass.com/brochures/2021_spiderwire/page7/index.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-current.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page7.html",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page7.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/ez-braid-current-package.jpg",
+        "research/line-pages/full-catalog/group-c/sources/ez-braid-current-package.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "spiderwire-fluorocarbon",
+      "brand": "SpiderWire",
+      "model": "Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "The generic catalog identity 'Fluorocarbon' does not establish a specific SpiderWire family, region or SKU. Research returned historical EZ fluorocarbon references, fluorocarbon-coated Stealth and Ultracast Fluoro-Braid; these are not interchangeable. Official 2018 catalog explicitly identifies Fluoro-Braid as a Gore/Dyneema blended BRAID, not this catalog's Fluorocarbon mainline. Current US line collection exposes braid products but no exact generic Fluorocarbon offering. HOLD identity before assigning material, numbers or imagery; absence from this collection is not proof of discontinuation.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/collections/fishing-line",
+        "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-line-range-contra-official.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-fluorocarbon-disambiguation.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-fluorocarbon-identity.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.html",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.jpg",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "brand": "SpiderWire",
+      "model": "Ultracast Ultimate Mono",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "DATED FORMULATION-SCOPED CANDIDATE: ONLY the visually reviewed 2018 US manufacturer Ultimate Mono Clear table is used. Includes 2018's 15 lb / .014 in, not 2020's 14 lb / .013 in. 12 lb .012 in is independently published in 2018, not an inferred correction of 2020's printed .12. Unmodified, correctly identified Ultimate Mono package artwork from the 2018 viewer. Summary/chart prominently scope edition; current stock and later formulation equivalence are not claimed.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+        "https://storage.westernbass.com/brochures/2021_spiderwire/page14/index.html",
+        "https://www.spiderwire.com/collections/fishing-line",
+        "https://storage.westernbass.com/brochures/2018_spiderwire/page4/p4_i257.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.html",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.jpg",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2018-page4.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page14.html",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page14.jpg",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-2020-page14.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-line-range-contra-official.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-ultimate-mono-resources.xml",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-ultimate-mono-resources.xml.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-ultimate-mono-2018-package.jpg",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-ultimate-mono-2018-package.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 4,
+          "dia_in": 0.006,
+          "dia_mm": 0.1524,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 4 lb / 0.006 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 6,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 6 lb / 0.008 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 8,
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 8 lb / 0.009 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.2794,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 10 lb / 0.011 in / 300 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 12 lb / 0.012 in / 300 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 15,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 15 lb / 0.014 in / 300 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 17,
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 17 lb / 0.015 in / 300 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            270
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+          "evidence": "Visually reviewed manufacturer SpiderWire 2018 US catalog page 4, Ultimate Mono Clear filler section ONLY, not adjacent Fluoro-Braid. 2018 edition retained intact, including 12 lb .012 in and 15 lb .014 in. No 2020 numeric rows were combined. Exact row: 20 lb / 0.016 in / 270 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "Ultimate Mono",
+        "slug": "spiderwire-ultracast-ultimate-mono-diameter-capacity-guide",
+        "brand": "SpiderWire",
+        "model": "Ultracast Ultimate Mono",
+        "lineType": "Monofilament",
+        "defaultLineId": "spiderwire-ultracast-ultimate-mono-monofilament-10",
+        "defaultSpoolYards": 300,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [],
+        "h1": "SpiderWire Ultracast Ultimate Mono",
+        "seoTitle": "SpiderWire Ultimate Mono Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Use the 2018 US Ultracast Ultimate Mono Clear chart to compare diameters and plan reel fills. Later catalog values and braid products are kept separate.",
+        "construction": "Copolymer monofilament",
+        "quickSummary": "This guide covers SpiderWire Ultracast Ultimate Mono's 2018 US published Clear specifications only. It is the copolymer mono family, not Ultracast Braid or Fluoro-Braid. The chart retains that edition's 15 lb size and does not infer current stock, unchanged formulation or later package continuity.",
+        "suitabilityTitle": "A mono plan with an edition-specific diameter",
+        "suitabilitySummary": "Ultimate Mono was positioned around a thinner, lower-stretch mono concept. Treat that as manufacturer positioning, then make the practical choice from the rod, lure, cover and exact diameter. A full mono fill is a simpler starting point than a braid-style backing plan. Before using these historical inputs for a package in hand, check that its identity and labeling match the 2018 scope.",
+        "strengthGuide": [
+          "The 4-8 lb rows are the light end of the 2018 table. Choose them only where the tackle and conditions suit their test ratings; extra spool capacity is not a substitute for adequate strength.",
+          "The 10,12,15 and 17 lb entries use the same published filler length in this edition, but their different diameters still produce different reel capacities.",
+          "The 20 lb entry is both thicker and supplied in a shorter filler package. Plan its working reserve independently rather than assuming one package fills every reel.",
+          "Keep the later 14 lb entry out of this chart. A changed strength label and a later diameter typo cannot be resolved by joining rows from different editions."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Identify Ultimate Mono first",
+            "text": "SpiderWire reused the Ultracast family name across different line constructions. Match Ultimate Mono on the package. Neither the neighboring Fluoro-Braid page art nor an Ultracast x8 braid label supplies this mono's capacity input."
+          },
+          {
+            "title": "Choose the edition's filler length",
+            "text": "The 2018 Clear filler chart uses 330 yards at 4-8 lb, 300 yards at 10-17 lb and 270 yards at 20 lb. These are the 2018 test steps, including 15 rather than 14 lb."
+          },
+          {
+            "title": "Start with a full mono fill",
+            "text": "A separate anti-slip backing layer is not required for the reason it may be used beneath braid. If you choose a shorter fresh mono section over backing, leave sufficient reserve above the connection."
+          },
+          {
+            "title": "Confirm the final level",
+            "text": "Wind with even tension and stop at the reel manufacturer's recommended clearance. Check a newer package's own label before substituting its line into this historical calculation."
+          }
+        ],
+        "reviewNote": "No independent stretch, strength, abrasion or casting test was performed. Manufacturer performance positioning is not treated as a measured ReelCalc result.",
+        "chartNote": "2018 US Ultimate Mono Clear filler specifications ONLY. The 12 lb diameter is printed as .012 in in this edition. The 2020 edition prints .12 in and uses 14 lb where 2018 uses 15 lb; no 2020 numbers are imported or silently corrected here.",
+        "chartCaption": "2018 US Ultimate Mono Clear filler specifications. Historical package lengths, not current availability; later catalog editions are not combined.",
+        "sourceNote": "Checked September 13, 2026 against the original 2018 manufacturer catalog preserved by WesternBass. Inch diameters and the strength-specific Clear filler lengths were visually inspected; mm are explicit conversions. Original Ultimate Mono package artwork was retrieved from that same edition's asset manifest, distinct from its Fluoro-Braid artwork. No present-day availability or equivalence to a later formulation is claimed.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/p4_i257.jpg",
+        "localImagePath": "assets/line-pages/full-catalog/group-c/spiderwire-ultracast-ultimate-mono-2018.jpg",
+        "imageAlt": "Original 2018 manufacturer green-and-silver SpiderWire Ultracast Ultimate Mono package artwork",
+        "manufacturerFacts": [
+          {
+            "label": "Published construction",
+            "text": "The 2018 catalog describes Ultimate Mono as a copolymer mono, separate from its braided Ultracast products."
+          },
+          {
+            "label": "Manufacturer positioning",
+            "text": "The catalog emphasizes strength for diameter and reduced stretch. No superiority comparison is independently verified here."
+          }
+        ],
+        "setupComparison": {
+          "title": "Mono or Ultracast braid?",
+          "leftTitle": "Ultimate Mono",
+          "leftText": "A continuous monofilament mainline plan using the specifically dated Clear diameter chart.",
+          "rightTitle": "A separate Ultracast braid setup",
+          "rightText": "Requires its own construction, diameter and package evidence. Shared branding and matching pound-test labels do not establish equal capacity."
+        },
+        "bestFit": "A mono setup planned from an identified 2018 Ultimate Mono specification, with package length checked against the reel.",
+        "tradeoff": "Later charts differ. These dated numbers should not be presented as interchangeable current specifications.",
+        "productGuidanceTitle": "Keep the 2018 scope intact",
+        "productGuidance": [
+          "Do not relabel 2018's 15 lb record as 2020's 14 lb.",
+          "Use .012 in at 12 lb only as the explicitly verified 2018 value, not a silent repair of the later typo.",
+          "Check the actual package before assuming a historical filler length is still offered."
+        ],
+        "recommendationIntro": "Choose a suitable test rating, then use the exact 2018 row. Missing or differently named strengths need separate evidence.",
+        "reelcalcNote": "Capacity mode starts with a full mono fill; backing is optional for a shorter working section.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "spiderwire-ultracast-ultimate-mono-monofilament-8",
+            "workingYards": 125,
+            "spoolYards": 330
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "spiderwire-ultracast-ultimate-mono-monofilament-12",
+            "workingYards": 100,
+            "spoolYards": 300
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Why is this guide specifically for 2018?",
+            "answer": "That official edition gives a coherent Clear diameter and package table. A later edition changes one test step and contains a conflicting 12 lb diameter, so the editions are deliberately kept separate."
+          },
+          {
+            "question": "Was the later .12-inch value corrected to .012 here?",
+            "answer": "No. The .012-inch figure is independently printed in the 2018 source used for this chart. The 2020 discrepancy is documented rather than silently repaired."
+          },
+          {
+            "question": "Are Ultimate Mono and Fluoro-Braid the same product?",
+            "answer": "No. They appear on the same historical catalog page but have different names and constructions. Only the Ultimate Mono section supplies this chart and image."
+          },
+          {
+            "question": "Why does the chart use 15 lb instead of 14 lb?",
+            "answer": "Fifteen pounds is the strength printed in the 2018 Ultimate Mono table. The later 14 lb entry is not merged into this edition-specific reference."
+          },
+          {
+            "question": "Does this establish current stock or formulation?",
+            "answer": "No. The page is a reference to 2018 US published specifications. A newer package requires its own label and formulation verification."
+          }
+        ],
+        "sources": [
+          {
+            "label": "2018 manufacturer Ultimate Mono chart",
+            "url": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/index.html",
+            "note": "Sole numeric source for this Clear filler chart; visually checked independently from the neighboring Fluoro-Braid table."
+          },
+          {
+            "label": "Original 2018 Ultimate Mono artwork",
+            "url": "https://storage.westernbass.com/brochures/2018_spiderwire/page4/p4_i257.jpg",
+            "note": "Unmodified manufacturer package-image asset from the same edition."
+          },
+          {
+            "label": "Later catalog conflict, not chart input",
+            "url": "https://storage.westernbass.com/brochures/2021_spiderwire/page14/index.html",
+            "note": "Catalog titled 2020 in this archive: documents the differing 14 lb row and printed .12-inch 12 lb value. Neither is imported into this page."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stren-original",
+      "brand": "Stren",
+      "model": "Original",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "DATED SOURCE CANDIDATE: 2016 US manufacturer Original Clear/Clear-Blue Fluorescent filler chart, 4-30 lb, verified visually. Manufacturer product artwork downloaded unchanged from that same catalog's original image assets. User explicitly accepted official archived tables with provenance; current availability is not asserted. Numeric and package scope is the 2016 edition only; no current retail package changes or other product families were merged.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+        "https://storage.westernbass.com/brochures/2016_stren/page3/p3_i30.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page3.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page3.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page3.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page3.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-original-resources.xml",
+        "research/line-pages/full-catalog/group-c/sources/stren-original-resources.xml.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-original-product.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-original-product.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 4,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 4 lb / 0.008 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 6,
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 6 lb / 0.009 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 8,
+          "dia_in": 0.011,
+          "dia_mm": 0.2794,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 8 lb / 0.011 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 10 lb / 0.012 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 12 lb / 0.013 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 14,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 14 lb / 0.014 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 17,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 17 lb / 0.016 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.018,
+          "dia_mm": 0.4572,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 20 lb / 0.018 in / 300 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 25,
+          "dia_in": 0.02,
+          "dia_mm": 0.508,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            250
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 25 lb / 0.02 in / 250 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.022,
+          "dia_mm": 0.5588,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 2 / archive page 3. Original filler columns, including starred strength-specific yardages. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only, with blank Clear cells. Exact row: 30 lb / 0.022 in / 220 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "Stren Original",
+        "slug": "stren-original-monofilament-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "Original",
+        "lineType": "Monofilament",
+        "defaultLineId": "stren-original-monofilament-8",
+        "defaultSpoolYards": 330,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [],
+        "h1": "Stren Original Monofilament",
+        "seoTitle": "Stren Original Diameter & Reel Capacity Guide | ReelCalc",
+        "metaDescription": "Compare Stren Original's published 2016 US diameters, estimate reel capacity and plan a mono fill using the strength-specific archived filler-spool lengths.",
+        "construction": "Monofilament; UV Guard treatment",
+        "quickSummary": "Stren Original is the purple-package monofilament family, distinct from MagnaThin, Crappie Mono and High Impact. This guide uses the manufacturer's 2016 US filler chart. It is a dated specification reference, not a claim that every historical package remains available today.",
+        "suitabilityTitle": "A full mono fill with clear package limits",
+        "suitabilitySummary": "Original gives anglers a broad range of mono diameters to compare for a spinning or casting setup. Start with the rod, lure and cover, then check the exact diameter against the reel. A reel labeled for 10 lb line does not require 10 lb Original. The upper end of the range occupies substantially more space, and a smaller retail package at the heavier strengths does not imply a smaller reel is suitable.",
+        "strengthGuide": [
+          "The 4-8 lb entries provide the light end of this archived range. Select them for an appropriate light-line setup, not simply to maximize the number of yards on a spool.",
+          "Compare the 10-17 lb choices by diameter as well as test. The reel's volume, rod limits, casting load and contact with cover all matter; capacity alone cannot choose strength.",
+          "The 20-30 lb entries need equipment suited to thicker mono. Keep their changing filler lengths separate from the thinner strengths rather than assuming every purple package contains the same yardage."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Use a full mono fill as the starting point",
+            "text": "Original can be the entire line on the reel. A separate anti-slip mono layer is not needed beneath another mono just because braid setups sometimes use one. Follow the reel's attachment and fill instructions."
+          },
+          {
+            "title": "Calculate from the selected package",
+            "text": "The archived filler table lists 330 yards through 17 lb, then 300, 250 and 220 yards at 20, 25 and 30 lb. Plan a full fill or multiple smaller fills from the correct entry, allowing for trimming."
+          },
+          {
+            "title": "Use backing only with a purpose",
+            "text": "A fresh working section over sound backing can reduce replacement line use, but it introduces a connection. Keep that knot below the longest expected cast and the reserve needed for fish runs."
+          }
+        ],
+        "reviewNote": "This is a manufacturer-specification guide, not a hands-on strength, casting or abrasion test.",
+        "chartCaption": "2016 US Original filler specifications. Clear and Clear/Blue Fluorescent at the listed 4-20 lb strengths; Clear/Blue Fluorescent only at 25/30 lb. Historical packages, not current availability.",
+        "chartNote": "2016 US Original filler-spool specifications only. Clear and Clear/Blue Fluorescent are documented at the listed 4-20 lb strengths; 25 lb / 250 yd and 30 lb / 220 yd are Clear/Blue Fluorescent only. Pony, economy and service spools are not included. Historical specifications do not establish current availability. Check the exact package label.",
+        "sourceNote": "Checked September 13, 2026 against the original manufacturer's 2016 catalog, preserved by WesternBass. Inch diameters and filler-spool lengths were visually checked in the page image; millimeters are explicit conversions. The genuine product artwork is from the same catalog. This source establishes historical specifications, not current stock or unchanged packaging.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2016_stren/page3/p3_i30.jpg",
+        "localImagePath": "assets/line-pages/full-catalog/group-c/stren-original-2016.jpg",
+        "imageAlt": "Original manufacturer 2016 artwork showing Stren Original monofilament package and spools",
+        "manufacturerFacts": [
+          {
+            "label": "Dated specification",
+            "text": "The reviewed 2016 filler chart spans 4-30 lb with strength-specific package lengths."
+          },
+          {
+            "label": "Manufacturer claim",
+            "text": "The catalog attributes extended line life to UV Guard and positions Original around low memory and abrasion resistance. These claims were not independently tested."
+          }
+        ],
+        "setupComparison": {
+          "title": "Full fill or a replacement working section?",
+          "leftTitle": "All Original",
+          "leftText": "A single continuous mainline avoids a backing connection and is the simplest reference capacity calculation.",
+          "rightTitle": "Fresh Original over backing",
+          "rightText": "Useful for a deliberately shorter replacement section, provided the retained base is sound and the new line leaves an adequate working reserve."
+        },
+        "bestFit": "Anglers planning an ordinary mono mainline fill from a known Original package.",
+        "tradeoff": "Historical package lengths are not a substitute for checking today's label, and thicker mono needs an appropriately sized spool.",
+        "productGuidanceTitle": "Keep the Original family separate",
+        "productGuidance": [
+          "Use Original's exact diameter, not a matching pound-test row from MagnaThin or High Impact.",
+          "Compare your actual package label with this dated chart before planning multiple reel fills."
+        ],
+        "recommendationIntro": "Choose strength for the fishing first; these archived Original rows provide capacity inputs after that decision.",
+        "reelcalcNote": "Start in capacity mode for a full Original fill. Backing remains an optional alternative.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "stren-original-monofilament-8",
+            "workingYards": 100,
+            "spoolYards": 330
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "stren-original-monofilament-12",
+            "workingYards": 75,
+            "spoolYards": 330
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Are these current Stren Original package offerings?",
+            "answer": "They are verified offerings from the 2016 US manufacturer catalog. Current availability and any later package changes were not established; match the package in hand before buying or spooling."
+          },
+          {
+            "question": "Is every Original filler spool 330 yards?",
+            "answer": "No. This edition reduces filler yardage above 17 lb. The chart preserves those strength-specific lengths rather than assigning one length to the whole family."
+          },
+          {
+            "question": "Does Original need another mono underneath it?",
+            "answer": "Not for the anti-slip reason associated with braid. A full Original fill is a normal starting plan. A shorter working section over backing is an optional volume and replacement decision."
+          },
+          {
+            "question": "Can I use MagnaThin's diameter for Original?",
+            "answer": "No. They are separate Stren products. The same strength label does not establish the same diameter, package length or capacity."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Stren 2016 manufacturer Original chart",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page3/index.html",
+            "note": "Archived official US catalog, visually verified filler columns and inch diameters; dated scope, not retailer specifications."
+          },
+          {
+            "label": "Original manufacturer artwork",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page3/p3_i30.jpg",
+            "note": "Unmodified image asset referenced by the same catalog viewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stren-high-impact",
+      "brand": "Stren",
+      "model": "High Impact",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "DATED SOURCE CANDIDATE: 2016 US manufacturer High Impact Clear quarter-pound table visually verified. Unsupported legacy 17 lb row is excluded. Numeric scope is Clear only; original catalog artwork shows several colors and is labeled accordingly. User accepts historical official specifications with explicit year/edition scope. No later/current formulation equivalence, package continuity or stock claim.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+        "https://storage.westernbass.com/brochures/2016_stren/page11/p11_i192.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page11.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page11.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page11.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page11.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-high-impact-resources.xml",
+        "research/line-pages/full-catalog/group-c/sources/stren-high-impact-resources.xml.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-high-impact-product.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-high-impact-product.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 10,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            1275
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 10 / archive page 11. High Impact Clear quarter-pound column, with per-strength yardage; 17 lb is absent. Exact row: 10 lb / 0.012 in / 1275 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            1000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 10 / archive page 11. High Impact Clear quarter-pound column, with per-strength yardage; 17 lb is absent. Exact row: 12 lb / 0.013 in / 1000 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 15,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            860
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 10 / archive page 11. High Impact Clear quarter-pound column, with per-strength yardage; 17 lb is absent. Exact row: 15 lb / 0.016 in / 860 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.018,
+          "dia_mm": 0.4572,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            650
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 10 / archive page 11. High Impact Clear quarter-pound column, with per-strength yardage; 17 lb is absent. Exact row: 20 lb / 0.018 in / 650 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 25,
+          "dia_in": 0.02,
+          "dia_mm": 0.508,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            490
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 10 / archive page 11. High Impact Clear quarter-pound column, with per-strength yardage; 17 lb is absent. Exact row: 25 lb / 0.02 in / 490 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.022,
+          "dia_mm": 0.5588,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            400
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 10 / archive page 11. High Impact Clear quarter-pound column, with per-strength yardage; 17 lb is absent. Exact row: 30 lb / 0.022 in / 400 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "High Impact",
+        "slug": "stren-high-impact-monofilament-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "High Impact",
+        "lineType": "Monofilament",
+        "defaultLineId": "stren-high-impact-monofilament-15",
+        "defaultSpoolYards": 860,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [
+          "stren-high-impact-monofilament-17"
+        ],
+        "h1": "Stren High Impact Monofilament",
+        "seoTitle": "Stren High Impact Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Use Stren High Impact's 2016 US Clear specifications to estimate reel capacity and plan fills from its strength-specific quarter-pound packages.",
+        "construction": "Monofilament",
+        "quickSummary": "High Impact is Stren's shock-resistance-focused mono family. This guide covers the 2016 US published Clear specifications and quarter-pound packages, not current stock. The package's weight is not its length: yardage changes with the selected strength.",
+        "suitabilityTitle": "Plan for the diameter and the fishing load",
+        "suitabilitySummary": "The manufacturer's historical positioning is coastal and offshore mainline use. Choose the strength for the rod, drag, rig and contact hazards, then match its diameter to the reel. A large bulk package can supply several fills, but it does not make a small reel suitable for thick mono. The High Impact name is not a substitute for checking knots and damaged line after use.",
+        "strengthGuide": [
+          "The chart starts at 10 lb. The 10 and 12 lb entries may provide more working length on a given reel than the thicker choices, but the fishing load must still suit that strength.",
+          "The verified step after 15 lb is 20 lb. An unsupported legacy 17 lb record is excluded; no diameter is interpolated to fill the gap.",
+          "At 20-30 lb, check that the reel has enough usable length for your application after allowing for the thicker diameter. Do not judge a saltwater setup by package size alone."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Treat quarter-pound as package weight",
+            "text": "The archived Clear package contains a different yardage at each strength. Use the row's length to budget fills; a quarter-pound label is neither a breaking strength nor a fixed number of yards."
+          },
+          {
+            "title": "Count complete fills conservatively",
+            "text": "Compare the estimated full capacity with the package length and allow for knots, trimming and losses. A mathematical division of yards does not guarantee that every last partial fill is useful."
+          },
+          {
+            "title": "Use a continuous mono fill first",
+            "text": "High Impact can occupy the full spool without a separate anti-slip backing layer. If retaining sound backing under a fresh section, keep the joining knot below the required working reserve."
+          },
+          {
+            "title": "Stop at the recommended clearance",
+            "text": "Wind evenly and follow the reel maker's fill instructions. Recheck the line after contact with structure; the manufacturer's shock-resistance positioning is not immunity to damage."
+          }
+        ],
+        "reviewNote": "Specification-based planning only. No independent shock, knot, abrasion or saltwater durability test was performed.",
+        "chartNote": "2016 US High Impact Clear quarter-pound specifications only. No 17 lb row is supported by this table. Other colors, later editions and current stock are not inferred from these historical packages.",
+        "chartCaption": "2016 US High Impact Clear quarter-pound specifications. Historical package lengths, not current availability.",
+        "sourceNote": "Checked September 13, 2026 against the official Stren 2016 catalog preserved by WesternBass. The Clear column, inch diameters and weight-package yardages were visually reviewed. Millimeters are explicit inch conversions. The image is original artwork from that same edition; no present-day package continuity or inventory claim is made.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2016_stren/page11/p11_i192.jpg",
+        "localImagePath": "assets/line-pages/full-catalog/group-c/stren-high-impact-2016.jpg",
+        "imageAlt": "Original 2016 Stren manufacturer artwork showing High Impact mono spools in four colors; chart scope is Clear",
+        "manufacturerFacts": [
+          {
+            "label": "Historical positioning",
+            "text": "The 2016 manufacturer catalog positions High Impact for coastal and offshore fishing and emphasizes shock resistance."
+          },
+          {
+            "label": "Dated specification",
+            "text": "The reviewed Clear quarter-pound packages decrease in yardage as diameter increases."
+          }
+        ],
+        "setupComparison": {
+          "title": "One reel fill or several?",
+          "leftTitle": "Fill one reel",
+          "leftText": "Choose the correct strength and use the estimated capacity to plan one continuous mainline fill.",
+          "rightTitle": "Budget a bulk package",
+          "rightText": "Use the exact package yardage to plan additional fills, retaining a margin for trimming and avoiding assumptions based only on spool weight."
+        },
+        "bestFit": "A mono mainline plan where bulk-package yardage and a useful working reserve both matter.",
+        "tradeoff": "Heavy mono consumes spool volume quickly. A shock-focused product name does not establish a universal strength or drag setting.",
+        "productGuidanceTitle": "Match the Clear package",
+        "productGuidance": [
+          "Choose the strength before dividing the bulk package into reel fills.",
+          "Do not apply this Clear-only table to another color or a later package without checking its label."
+        ],
+        "recommendationIntro": "Use the verified strength steps and select a reel suitable for the fishing; a missing 17 lb option is not a license to create one.",
+        "reelcalcNote": "Capacity mode estimates a full High Impact fill. A shorter working section over backing is optional.",
+        "exampleSetups": [
+          {
+            "reelId": "penn-battle-iv-4000-btliv4000-460",
+            "lineId": "stren-high-impact-monofilament-15",
+            "workingYards": 100,
+            "spoolYards": 860
+          },
+          {
+            "reelId": "penn-battle-iv-5000-btliv5000-461",
+            "lineId": "stren-high-impact-monofilament-20",
+            "workingYards": 100,
+            "spoolYards": 650
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Does quarter-pound mean the same yardage at every strength?",
+            "answer": "No. It describes a weight package. The official chart provides strength-specific lengths, which must be used to plan the number of reel fills."
+          },
+          {
+            "question": "Why is there no 17 lb High Impact row?",
+            "answer": "That strength was not present in the inspected 2016 official table. The existing unverified record is excluded rather than populated by interpolation."
+          },
+          {
+            "question": "Does the image's color range expand the chart?",
+            "answer": "No. The original manufacturer image shows multiple colors, but the reviewed numeric and package scope here is the Clear column only."
+          },
+          {
+            "question": "Are these today's High Impact packages?",
+            "answer": "They are the manufacturer's 2016 US specifications. No current stock or unchanged formulation is asserted. Check the actual package before buying or spooling."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Stren 2016 manufacturer High Impact chart",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page11/index.html",
+            "note": "Visually verified historical Clear quarter-pound lengths and inch diameters; not retailer-only data."
+          },
+          {
+            "label": "Manufacturer High Impact artwork",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page11/p11_i192.jpg",
+            "note": "Unmodified image asset from the same catalog viewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stren-magnathin",
+      "brand": "Stren",
+      "model": "Magnathin",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "DATED SOURCE CANDIDATE: 2016 US manufacturer MagnaThin Clear filler table visually verified. 14 lb legacy row explicitly excluded; 16,20,30 lb are separately verified additions, not renamed IDs. Unmodified manufacturer service-spool artwork from the same catalog is identified as such in the config; chart is filler-only. User accepts official archived tables with provenance. No current-stock or unchanged-formulation claim.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+        "https://storage.westernbass.com/brochures/2016_stren/page4/p4_i56.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page4.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page4.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page4.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page4.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-magnathin-resources.xml",
+        "research/line-pages/full-catalog/group-c/sources/stren-magnathin-resources.xml.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-magnathin-product.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-magnathin-product.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 4,
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 4 lb / 0.007 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 6,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 6 lb / 0.008 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 8,
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 8 lb / 0.009 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 10 lb / 0.01 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 12 lb / 0.012 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 16,
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 16 lb / 0.013 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 20 lb / 0.016 in / 330 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.018,
+          "dia_mm": 0.4572,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 3 / archive page 4. MagnaThin Clear filler column: 330 yd except starred 30 lb / 300 yd; do not substitute 14 for 16 lb. Exact row: 30 lb / 0.018 in / 300 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "MagnaThin",
+        "slug": "stren-magnathin-monofilament-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "Magnathin",
+        "lineType": "Monofilament",
+        "defaultLineId": "stren-magnathin-monofilament-8",
+        "defaultSpoolYards": 330,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [
+          "stren-magnathin-monofilament-14"
+        ],
+        "h1": "Stren MagnaThin Monofilament",
+        "seoTitle": "Stren MagnaThin Diameter & Reel Capacity Guide | ReelCalc",
+        "metaDescription": "Plan a MagnaThin mono fill with source-checked 2016 US diameters and filler lengths. Keep its verified 16 lb size separate from unsupported 14 lb listings.",
+        "construction": "Monofilament",
+        "quickSummary": "MagnaThin is Stren's diameter-focused mono family. This guide preserves the 2016 US Clear filler specifications, including the manufacturer's 16 lb size. It does not borrow Original diameters or turn an unsupported 14 lb entry into 16 lb.",
+        "suitabilityTitle": "Compare the diameter, not just the test label",
+        "suitabilitySummary": "MagnaThin is worth considering when you want a mono mainline and spool space matters. Its smaller published sizes can change a fill plan appreciably, but extra capacity is not itself a reason to choose lighter line. Match strength to the rod, lure and cover before comparing reels. The figures here describe a specific historical range and are not a promise of identical current stock or tested handling.",
+        "strengthGuide": [
+          "The 4-10 lb rows are the thinner part of this chart. They give you concrete diameter inputs for a light-line plan; the lowest number is not automatically the best choice for a compact reel.",
+          "At 12 and 16 lb, check both the diameter and the printed strength. The source lists 16 lb, not 14 lb. No interpolation or relabeling bridges that gap.",
+          "The 20 and 30 lb entries increase spool-volume demand substantially. Pick the rod and reel for the fishing load, then check whether the package provides your required working length."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Start with the actual MagnaThin diameter",
+            "text": "A reel's generic mono rating is only a reference capacity. Select the MagnaThin row so the calculation reflects this family rather than assuming all mono at one test strength has the same size."
+          },
+          {
+            "title": "Keep filler and service spools distinct",
+            "text": "This chart uses Clear filler packages. The manufacturer image shows a service spool from the same family; it is not the default retail package. The catalog's service offerings are outside this chart."
+          },
+          {
+            "title": "Choose a continuous fill or a measured section",
+            "text": "A full mono fill needs no separate anti-slip base. Backing is optional when you deliberately keep a shorter fresh section; allow enough line above its knot for casts, runs and retying."
+          },
+          {
+            "title": "Finish by the spool lip",
+            "text": "Use even tension and follow the reel's fill clearance. A calculated amount is a planning estimate, not permission to overfill a spool that is already at its recommended level."
+          }
+        ],
+        "reviewNote": "No casting, sinking-speed or break-strength testing was performed for this guide.",
+        "chartNote": "2016 US MagnaThin Clear filler chart. The 14 lb legacy row is excluded; 16 lb is a separately verified row. Other colors and service-spool packages are not silently combined with these offerings.",
+        "chartCaption": "2016 US MagnaThin Clear filler specifications. Historical package lengths, not current availability; service spools are outside this chart.",
+        "sourceNote": "Checked September 13, 2026 in the original Stren 2016 catalog archived by WesternBass. Inch diameters, Clear filler availability and the 30 lb length exception were visually verified. Millimeters are converted, not independently printed. Historical specifications and manufacturer artwork do not establish today's stock or unchanged formulation.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2016_stren/page4/p4_i56.jpg",
+        "localImagePath": "assets/line-pages/full-catalog/group-c/stren-magnathin-2016.jpg",
+        "imageAlt": "Original 2016 manufacturer artwork of a Stren MagnaThin service spool; chart covers filler spools",
+        "manufacturerFacts": [
+          {
+            "label": "Dated specification",
+            "text": "The catalog distinguishes a 16 lb size from the 12 and 20 lb options."
+          },
+          {
+            "label": "Manufacturer positioning",
+            "text": "Stren emphasizes thin diameter and low stretch for MagnaThin. These remain manufacturer claims, not a ReelCalc comparison test."
+          }
+        ],
+        "setupComparison": {
+          "title": "Strength selection and capacity are separate",
+          "leftTitle": "Pick the fishing strength",
+          "leftText": "Use the rod, lure, drag and cover to decide which test rating is appropriate.",
+          "rightTitle": "Plan the volume",
+          "rightText": "Use that exact row's diameter to plan the reel fill. Do not change strength solely to consume a whole package."
+        },
+        "bestFit": "A mono setup where the angler wants to compare exact family-specific diameters and package use.",
+        "tradeoff": "More calculated room does not establish greater usable strength or better handling; this is a dated specification range.",
+        "productGuidanceTitle": "Check the MagnaThin label",
+        "productGuidance": [
+          "Keep 14 and 16 lb distinct; only the latter is source-verified in this edition.",
+          "Match a present-day package to its own label before treating the archived filler lengths as current."
+        ],
+        "recommendationIntro": "A recommendation for a missing strength needs another verified record, not a relabeled MagnaThin row.",
+        "reelcalcNote": "Use capacity mode for a full mono fill; working-length and backing plans are optional.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "stren-magnathin-monofilament-8",
+            "workingYards": 125,
+            "spoolYards": 330
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "stren-magnathin-monofilament-12",
+            "workingYards": 100,
+            "spoolYards": 330
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Why is 16 lb listed instead of 14 lb?",
+            "answer": "The inspected official 2016 chart prints 16 lb. A pre-existing 14 lb record lacked matching official evidence, so it is excluded rather than renamed."
+          },
+          {
+            "question": "Can I substitute Stren Original's diameter?",
+            "answer": "No. MagnaThin is a distinct product family. Use the physical diameter verified for the chosen family and strength."
+          },
+          {
+            "question": "Does the image show the default filler package?",
+            "answer": "No. It is genuine archived manufacturer artwork of the MagnaThin service spool. The numeric chart and default length are explicitly limited to Clear filler packages."
+          },
+          {
+            "question": "Is this a current retail availability list?",
+            "answer": "No. It is a dated official specification reference. Check the label and length of the exact package being purchased."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Stren 2016 manufacturer MagnaThin chart",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page4/index.html",
+            "note": "Visually inspected historical US Clear filler table; explicit 16 lb identity and 30 lb yardage exception."
+          },
+          {
+            "label": "Manufacturer MagnaThin artwork",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page4/p4_i56.jpg",
+            "note": "Unmodified service-spool image from the same catalog's public asset manifest."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stren-super-knot",
+      "brand": "Stren",
+      "model": "Super Knot",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "2016 manufacturer catalog documents Power Knot, not Super Knot. Focused exact-name research did not establish an official Super Knot physical-diameter/package chart. This is an exact-model evidence hold, not a requirement for current retail stock; Power Knot values must not be transferred to this distinct name.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page5/index.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page5.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page5.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-super-knot-search.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "stren-fluorocast",
+      "brand": "Stren",
+      "model": "Fluorocast",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "2016 manufacturer catalog documents 100% Fluoro, not Fluorocast. Identity/formulation continuity has not been proven and its rows cannot be assigned to Fluorocast just because pound tests overlap. Exact model chart required.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page9/index.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page9.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page9.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-fluorocast-search.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "stren-sonic-braid",
+      "brand": "Stren",
+      "model": "Sonic Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "2016 manufacturer catalog names Stren Braid, not Sonic Braid. Exact Sonic Braid numeric specifications and package configurations remain unverified. Similar Dyneema descriptions are not proof that these are the same formulation.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page10/index.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page10.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page10.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-sonic-search.web.json"
+      ],
+      "rows": [],
+      "product": null
+    },
+    {
+      "id": "stren-crappie-mono",
+      "brand": "Stren",
+      "model": "Crappie Mono",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "DATED SOURCE CANDIDATE: 2016 US manufacturer Crappie Mono Clear and Hi-Vis Gold filler table visually verified. New 8 and 10 lb rows are directly sourced from that table. Original catalog image asset includes the genuine package/spool and a lifestyle inset; no recreation. Summary and chart explicitly identify the 2016 scope, with no current-stock, package-continuity or formulation-equivalence claim.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+        "https://storage.westernbass.com/brochures/2016_stren/page7/p7_i104.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page7.html",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page7.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page7.html.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-2016-page7.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-crappie-resources.xml",
+        "research/line-pages/full-catalog/group-c/sources/stren-crappie-resources.xml.meta.json",
+        "research/line-pages/full-catalog/group-c/sources/stren-crappie-product.jpg",
+        "research/line-pages/full-catalog/group-c/sources/stren-crappie-product.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "lb": 2,
+          "dia_in": 0.006,
+          "dia_mm": 0.1524,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 6 / archive page 7. Crappie Mono Clear and Hi-Vis Gold filler columns; 200 yd for each shown strength. Exact row: 2 lb / 0.006 in / 200 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 4,
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 6 / archive page 7. Crappie Mono Clear and Hi-Vis Gold filler columns; 200 yd for each shown strength. Exact row: 4 lb / 0.007 in / 200 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 6,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 6 / archive page 7. Crappie Mono Clear and Hi-Vis Gold filler columns; 200 yd for each shown strength. Exact row: 6 lb / 0.008 in / 200 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 8,
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 6 / archive page 7. Crappie Mono Clear and Hi-Vis Gold filler columns; 200 yd for each shown strength. Exact row: 8 lb / 0.009 in / 200 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+          "evidence": "Visually reviewed manufacturer Stren 2016 US catalog, printed page 6 / archive page 7. Crappie Mono Clear and Hi-Vis Gold filler columns; 200 yd for each shown strength. Exact row: 10 lb / 0.01 in / 200 yd. Millimeters explicitly converted at 25.4 mm/in. This dated catalog scope does not assert current inventory or formulation continuity."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "Crappie Mono",
+        "slug": "stren-crappie-mono-monofilament-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "Crappie Mono",
+        "lineType": "Monofilament",
+        "defaultLineId": "stren-crappie-mono-monofilament-4",
+        "defaultSpoolYards": 200,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [],
+        "h1": "Stren Crappie Mono",
+        "seoTitle": "Stren Crappie Mono Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Plan a light mono setup using Stren Crappie Mono's 2016 US 2-10 lb specifications and 200-yard packages, with exact diameters and reel-capacity estimates.",
+        "construction": "Monofilament",
+        "quickSummary": "Crappie Mono is Stren's panfish-focused mono family, offered in Clear and Hi-Vis Gold in the 2016 US catalog. This guide uses that edition's published 2-10 lb specifications and 200-yard packages only. It does not assume today's packages or formulation are unchanged.",
+        "suitabilityTitle": "Keep a light-line setup deliberate",
+        "suitabilitySummary": "Crappie Mono provides light strengths to consider for small-lure and panfish setups. Its product name does not mean one strength suits every crappie technique: heavier rigs and contact with cover can change the requirement. Choose the rod, rig and working reserve first. A small reel can hold substantial light mono, so the package length and the amount actually needed on the reel remain separate decisions.",
+        "strengthGuide": [
+          "Use 2 lb only where the rod, drag, rig and contact hazards suit very light line. Extra capacity does not compensate for an unsuitable strength.",
+          "The 4 and 6 lb entries are distinct physical sizes, not interchangeable copies of Stren Original. Select the exact family before relying on a reel-fill estimate.",
+          "The verified 8 and 10 lb rows extend beyond the earlier database inventory. They come from this same edition's table, not interpolation. Decide whether the heavier size suits the fishing rather than selecting it simply to consume more of the package."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Use the 200-yard package as a budget",
+            "text": "The reviewed table uses 200-yard filler packages across its listed strengths. On a compact reel that may leave line for another partial fill; on a deeper reel it may fall short of a complete fill."
+          },
+          {
+            "title": "Start with a full mono mainline",
+            "text": "No extra anti-slip mono layer is needed merely because the chosen line is thin. Use the reel's specified attachment and stop at its recommended fill clearance."
+          },
+          {
+            "title": "Keep any joining knot out of the working section",
+            "text": "If you intentionally retain backing, allow enough fresh line for the longest cast, runs and repeated retying. The short examples are volume-planning examples, not universal fishing-length recommendations."
+          },
+          {
+            "title": "Choose visibility separately from strength",
+            "text": "The archived Clear and Hi-Vis Gold options are color choices within this table. Select a color for the presentation and line-watching conditions, not as evidence of a stronger line."
+          }
+        ],
+        "reviewNote": "This is a specification reference, not an independent comparison of bite detection, visibility, casting or abrasion resistance.",
+        "chartNote": "2016 US Crappie Mono Clear and Hi-Vis Gold filler specifications, 2-10 lb and 200 yd. No rows from Stren Original, another Stren family or a later catalog edition are mixed into this chart.",
+        "chartCaption": "2016 US Crappie Mono Clear and Hi-Vis Gold filler specifications. Historical 200-yard packages, not current availability.",
+        "sourceNote": "Checked September 13, 2026 in the manufacturer Stren 2016 catalog archived by WesternBass. Diameter rows and both color columns were visually inspected. Millimeter values are explicit conversions from printed inches. The original same-edition image asset includes the package and catalog lifestyle artwork; no product imagery was recreated. Current stock and continuity are not claimed.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2016_stren/page7/p7_i104.jpg",
+        "localImagePath": "assets/line-pages/full-catalog/group-c/stren-crappie-mono-2016.jpg",
+        "imageAlt": "Original 2016 manufacturer artwork with Stren Crappie Mono Hi-Vis Gold package, spool and catalog lifestyle inset",
+        "manufacturerFacts": [
+          {
+            "label": "Dated specification",
+            "text": "Clear and Hi-Vis Gold appear in the inspected 2016 US filler table."
+          },
+          {
+            "label": "Product identity",
+            "text": "The yellow-package Crappie Mono is its own Stren family, not a color of Original."
+          }
+        ],
+        "setupComparison": {
+          "title": "Small reel or deeper spool?",
+          "leftTitle": "Compact light-tackle reel",
+          "leftText": "Calculate its full mono fill and allow for trimming before deciding how many fills a package supplies.",
+          "rightTitle": "Larger spool with a working section",
+          "rightText": "A deliberately shorter fresh section can be planned over backing, but keep enough reserve to suit the fishing and avoid exposing the joining knot."
+        },
+        "bestFit": "A light mono mainline plan based on a specifically identified Crappie Mono package.",
+        "tradeoff": "Very light test ratings need appropriate tackle and handling; thin diameter is not a substitute for sufficient strength.",
+        "productGuidanceTitle": "Keep the panfish package identified",
+        "productGuidance": [
+          "Match Crappie Mono on the package rather than using generic Stren mono data.",
+          "The 200-yard lengths are a dated official specification, not live availability."
+        ],
+        "recommendationIntro": "Choose a strength suited to the actual rig and conditions, then use the verified Crappie Mono diameter for capacity.",
+        "reelcalcNote": "Capacity mode plans a full mono fill; optional backing is a separate working-length choice.",
+        "exampleSetups": [
+          {
+            "reelId": "abu-garcia-max-x-spinning-750-maxxsp750-1",
+            "lineId": "stren-crappie-mono-monofilament-4",
+            "workingYards": 75,
+            "spoolYards": 200
+          },
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "stren-crappie-mono-monofilament-6",
+            "workingYards": 125,
+            "spoolYards": 200
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Crappie Mono just yellow Stren Original?",
+            "answer": "No. The manufacturer's catalog identifies a separate family with its own diameter table. Matching test labels do not make the two products interchangeable."
+          },
+          {
+            "question": "Why do 8 and 10 lb appear here?",
+            "answer": "Both are printed in the same official 2016 Crappie Mono table as the lighter strengths. They are verified additions, not estimates from the 2-6 lb rows."
+          },
+          {
+            "question": "Are Clear and Hi-Vis Gold different package lengths?",
+            "answer": "The inspected edition shows both colors in 200-yard filler packages for the charted strengths. This does not establish later retail offerings."
+          },
+          {
+            "question": "Should I choose 2 lb for maximum capacity?",
+            "answer": "No. Choose line strength for the rod, rig and conditions. Capacity helps plan the fill only after a suitable strength has been selected."
+          },
+          {
+            "question": "Are current stock and unchanged formulation verified?",
+            "answer": "No. This page is explicitly a reference to the 2016 US published specifications. Match any newer package to its own label."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Stren 2016 manufacturer Crappie Mono chart",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page7/index.html",
+            "note": "Visually reviewed historical strength, diameter and 200-yard color columns."
+          },
+          {
+            "label": "Original Crappie Mono catalog artwork",
+            "url": "https://storage.westernbass.com/brochures/2016_stren/page7/p7_i104.jpg",
+            "note": "Unmodified manufacturer image asset from the same catalog viewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "strike-king-contra-braid",
+      "brand": "Strike King",
+      "model": "Contra Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Official Contra Braid identity verified. Current product titles identify LPB150 as 150 yd and LPB300 as 300 yd, while the manufacturer's launch article explicitly says Braid is 150 and 330 yd, 8-65 lb. HOLD physical diameter table, exact strength/package combinations and 300-versus-330 contradiction. No official support for legacy 40 lb was obtained. Inspected official LPB150-8G image shows 8 lb Green / 150 yd but no readable physical diameter. Retailer diameter tables were not promoted to official evidence. Do not reuse the site's fluorocarbon testimonial on this braid page.",
+      "sourceUrls": [
+        "https://www.strikeking.com/en/shop/fishing-line/lpb150",
+        "https://www.strikeking.com/en/shop/fishing-line/lpb300",
+        "https://www.strikeking.com/en/learn/contra-a-new-fishing-line",
+        "https://www.strikeking.com/globalassets/blocks---strike-king/media-page-assets/news-and-press/article-images/lpb150-8g_contrabraid8lb_green_main.png"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c/sources/contra-current.web.json",
+        "research/line-pages/full-catalog/group-c/sources/spiderwire-line-range-contra-official.web.json",
+        "research/line-pages/full-catalog/group-c/sources/contra-official-8lb-package.png",
+        "research/line-pages/full-catalog/group-c/sources/contra-official-8lb-package.png.meta.json"
+      ],
+      "rows": [],
+      "product": null
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+[
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "daiwa-j-braid-x4",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/daiwa-j-braid-x4.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "8ebb408073bcd1d0f68c9cd5f0aad68cabd47f4e99a1fd4d55c689ce619fce46",
+    "changes": [
+      {
+        "field": "strengthGuide[0]",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "seaguar-basix",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/seaguar-basix.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "e08e157046dedc3347fb8a5d825e588a96306bc7674b3f682a0fb15ba2a800d8",
+    "changes": [
+      {
+        "field": "spoolingGuide[0].text",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "faqs[1].answer",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sourceNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "shimano-kairiki-8",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/shimano-kairiki-8.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "cc43610114214a948787c92bb01c6d989d481d4e02413a8321e10154d1d58871",
+    "changes": [
+      {
+        "field": "sourceNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "cortland-fluorocarbon-leader",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/cortland-fluorocarbon-leader.html?v=copy-final",
+    "visibleCalc": false,
+    "productHash": "192710cff85a54f06fc704e4c20bd4359c5dd5f66cc2b4903d34a6b0cb371b5f",
+    "changes": [
+      {
+        "field": "faqs[2].answer",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "gamma-fluorocarbon-leader",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/gamma-fluorocarbon-leader.html?v=copy-final",
+    "visibleCalc": false,
+    "productHash": "e1ab990430908858732019a24a7d2a0ffdfd9373ba7b7e82997748e7753be466",
+    "changes": [
+      {
+        "field": "strengthGuide[1]",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "suitabilitySummary",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "faqs[0].answer",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "kastking-fluorokote",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/kastking-fluorokote.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "160dc37a9b7517c25d89962bfdd64b19fdeb9d620b0f1aa18532c9cbd547ea72",
+    "changes": [
+      {
+        "field": "chartNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "sufix-832-advanced-superline",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/sufix-832-advanced-superline.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "198123ca056583f0dc0cbd68cf48e0a27d111c5d4be974cf736f19f2bc4ecae6",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "sufix-promix-braid",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/sufix-promix-braid.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "5af33f72305f7ad37f53c478cc234d74b18b96247f62e5e2baff2af35c8a32a9",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "sufix-performance-braid",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/sufix-performance-braid.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "5d97d0034d971f05a3ce20c60fa974f276fa75c4d6d4ebac3d639643631ad30b",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "sufix-elite",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/sufix-elite.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "6b9af0e1fa6b0791ddfa72b9c47092b090266ee6770ea21daae82283a4587e4a",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "sufix-advance-mono",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/sufix-advance-mono.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "d94a02ac9e203c34da82cf5d298fcbbb7b1bfddf12f3317131eeb6a824e84ae6",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "sufix-advance-fluorocarbon",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/sufix-advance-fluorocarbon.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "195a725cd881eec8967400b28436bb686c64193c570ea59711d58337160fddfc",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-finesse-braid-8x",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-finesse-braid-8x.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "98b3309bb4f9518a7932083f5f5dc17c3011992b478754645a7bf841e9adfb30",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-essential-bronzeye-8x",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-essential-bronzeye-8x.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "c84862605831a4edee4d7126324a16d0c731c0c34ee2fc55470faadb18a59d90",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-cast-control-8x",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-cast-control-8x.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "101c686fb9c97fb635c2a428573eb29a6b7fee7f28bc3958a26b791d3fa1707d",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-depth-control-8x",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-depth-control-8x.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "122c6a71e1662809d50087abfdaab5a57fe3e63678facccde068e665773e9e92",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-gouken-flc",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-gouken-flc.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "bd54e4d75cf723cef3b0d97c07fad68d6a740d4a805e01c8240a8cbc6f3492b1",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-rai-jin-premium-fluorocarbon",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-rai-jin-premium-fluorocarbon.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "48fae1dca1aa413cc6937c13d0c4d27093e758481a9e9bade68f55c247eaba2f",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "spro-finesse-fluorocarbon-leader",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/spro-finesse-fluorocarbon-leader.html?v=copy-final",
+    "visibleCalc": false,
+    "productHash": "1454e4b44518541cdae513d1da1b16c86030f34df2d8f4aa03a3e5af00e1c481",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "reviewNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-hybrid",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-hybrid.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "51371a0c9e1261e48b8c6fa9ef7173af7befcc09e50103557e8d06ec11f5a20e",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[2].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-hybrid-ice-line",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-hybrid-ice-line.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "b2af5608e466dc54240c58f6569d666bd4cec4550e9cbe26024b8789e1bd4ac2",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-t-7-premium-fluorocarbon",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-t-7-premium-fluorocarbon.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "aa63db39040177f40f343af31980e7db74d428e8fb324688f7a2d15063f2e33c",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-topknot-mainline",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-topknot-mainline.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "f0565b383530b2f4fa9cc79cf1dd4ed47a3fc8a35363e0061d5e2d18cc1d2681",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-topknot-leader",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-topknot-leader.html?v=copy-final",
+    "visibleCalc": false,
+    "productHash": "b597b614ba4849bed7e7352c7171ca62757caa9fc351cdb6c5ba5027e0a8a2e7",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[2].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "reviewNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-superfluoro-leader",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-superfluoro-leader.html?v=copy-final",
+    "visibleCalc": false,
+    "productHash": "76b4062d8ed6e3bf5c528cd698b774cd09d6e59cf5acd7130c089052c79d57a7",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "reviewNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-h-d-carbon-leader",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-h-d-carbon-leader.html?v=copy-final",
+    "visibleCalc": false,
+    "productHash": "2d1892df4612a7c54485ace541f9fbdf9b56d0b36759ebfcc16f49fff49c6255",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[2].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "reviewNote",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "faqs[3].question",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-superbraid",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-superbraid.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "364455cff834d2fe5cbb1665622cce6d6e71778fee548fad5dd7ce05e408feba",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[2].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[3].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[4].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[5].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "broken": [],
+    "h1": 1,
+    "id": "yo-zuri-superbraid-9",
+    "overflow": 0,
+    "ready": "true",
+    "url": "http://127.0.0.1:4183/tmp/line-page-launch-candidate/examples/line-pages/yo-zuri-superbraid-9.html?v=copy-final",
+    "visibleCalc": true,
+    "productHash": "e857d146549514ad5f6fbacf0c17b0fdcc9c573ad588a570eaade3e792aa2d8f",
+    "changes": [
+      {
+        "field": "sources[0].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[1].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      },
+      {
+        "field": "sources[2].note",
+        "afterPresent": true,
+        "beforeAbsent": true
+      }
+    ],
+    "pass": true
+  }
+]

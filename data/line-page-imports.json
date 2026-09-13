@@ -1,5 +1,5 @@
 {
-  "version": "8",
+  "version": "9",
   "collection": "lines",
   "pages": {
     "powerpro-spectra-braid-diameter-capacity-guide": {
@@ -901,6 +901,132 @@
       "url": "https://www.reelcalc.com/lines/p/berkley-forward-finesse-braid-braid-diameter-capacity-guide",
       "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/berkley-unresolved/berkley-forward-finesse-braid.jpg",
       "sku": "RCL606457CADDBDD60CA"
+    },
+    "sufix-invisiline-fluorocarbon-diameter-capacity-guide": {
+      "id": "sufix-invisiline-fluorocarbon",
+      "title": "Sufix Castable Invisiline Fluorocarbon",
+      "seoTitle": "Sufix Invisiline Fluorocarbon Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Compare verified Sufix Castable Invisiline diameters and exact 100-yard SKUs. Plan a working length over backing without confusing mainline with Invisiline Leader.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-invisiline-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "sku": "RCL894DB7015ABE42B5F"
+    },
+    "sufix-calibr8-diameter-capacity-guide": {
+      "id": "sufix-calibr8",
+      "title": "Sufix Calibr8 15 lb",
+      "seoTitle": "Sufix Calibr8 15 lb Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Plan a Sufix Calibr8 15 lb fill using verified SKU 694-015L, Neon Lime and its nominal 150-yard package. Other strengths and spool options remain outside this guide.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-calibr8-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "sku": "RCL4668DA7670038660E"
+    },
+    "spiderwire-stealth-braid-diameter-capacity-guide": {
+      "id": "spiderwire-stealth-braid",
+      "title": "SpiderWire Stealth Braid",
+      "seoTitle": "Stealth Braid 2016 Japan Diameter Guide | ReelCalc",
+      "seoDescription": "Plan from the 2016 Japan Stealth Braid listing: 50/65 lb Moss Green, published actual diameters and exact 125-yard SKUs. Not current US specifications.",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-stealth-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "sku": "RCLB52E8452C37814300"
+    },
+    "stren-super-knot-diameter-capacity-guide": {
+      "id": "stren-super-knot",
+      "title": "Stren Super Knot",
+      "seoTitle": "Stren Super Knot Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Compare Stren Super Knot's 2014 US Clear and Lo-Vis Green diameter chart and 220-yard fillers. Historical specifications, not current availability.",
+      "url": "https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "sku": "RCLCF7053770E2CEB07C"
+    },
+    "stren-fluorocast-diameter-capacity-guide": {
+      "id": "stren-fluorocast",
+      "title": "Stren Fluorocast",
+      "seoTitle": "Stren Fluorocast Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Plan reel fills from Stren FluoroCast's 2014 US Clear chart: seven verified diameters, 100-yard pony and 200-yard filler packages. Historical reference only.",
+      "url": "https://www.reelcalc.com/lines/p/stren-fluorocast-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "sku": "RCLA0F856AA7A78C9032"
+    },
+    "stren-sonic-braid-diameter-capacity-guide": {
+      "id": "stren-sonic-braid",
+      "title": "Stren Sonic Braid",
+      "seoTitle": "Sonic Braid 40 lb Legacy Label Guide | ReelCalc",
+      "seoDescription": "Plan from the original SCB30040-22 Sonic Braid label: 40 lb, .25 mm, Lo-Vis Green and 300 yards. A narrow legacy reference, not current availability.",
+      "url": "https://www.reelcalc.com/lines/p/stren-sonic-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "sku": "RCLBF1334FE2713E181D"
+    },
+    "p-line-cxx-x-tra-strong-diameter-capacity-guide": {
+      "id": "p-line-cxx-x-tra-strong",
+      "title": "P-Line CXX X-Tra Strong",
+      "seoTitle": "P-Line CXX US Package Diameters & Reel Capacity | ReelCalc",
+      "seoDescription": "Verified US Moss Green CXX 10 and 12 lb package-label diameters and 300-yard lengths, with reel-capacity estimates and backing guidance.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-cxx-x-tra-strong-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "sku": "RCLF645065FEC7097D4E"
+    },
+    "p-line-floroclear-diameter-capacity-guide": {
+      "id": "p-line-floroclear",
+      "title": "P-Line FloroClear",
+      "seoTitle": "P-Line FloroClear US Label Diameters & Capacity | ReelCalc",
+      "seoDescription": "P-Line FloroClear US label reference: historical 2021 10 lb/600 yd and pictured 12 lb/300 yd specifications, reel capacity, and package differences.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "sku": "RCL24A657A5E29D3A049"
+    },
+    "p-line-cx-premium-diameter-capacity-guide": {
+      "id": "p-line-cx-premium",
+      "title": "P-Line CX Premium",
+      "seoTitle": "P-Line CX Premium US Diameters & Reel Capacity | ReelCalc",
+      "seoDescription": "Verified US Moss Green CX Premium 6 and 8 lb carton diameters and 300-yard packages, with capacity estimates and coated-copolymer spooling guidance.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-cx-premium-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "sku": "RCL35F8875474A480DFB"
+    },
+    "p-line-tactical-fluorocarbon-diameter-capacity-guide": {
+      "id": "p-line-tactical-fluorocarbon",
+      "title": "P-Line Tactical Fluorocarbon: 2021 US Reference",
+      "seoTitle": "P-Line Tactical 2021 US Diameter & Capacity | ReelCalc",
+      "seoDescription": "Historical 2021 US Tactical 15 lb/1000 yd manufacturer-label reference, with diameter-based reel capacity and explicit limits on other strengths.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-tactical-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "sku": "RCL446BB76506FF41CBF"
+    },
+    "p-line-halo-fluorocarbon-diameter-capacity-guide": {
+      "id": "p-line-halo-fluorocarbon",
+      "title": "P-Line HALO Fluorocarbon",
+      "seoTitle": "P-Line HALO US Label Diameters & Reel Capacity | ReelCalc",
+      "seoDescription": "Verified US Mist Green HALO 6, 8 and 10 lb manufacturer-label diameters and 200-yard packages, with fluorocarbon mainline capacity guidance.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-halo-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "sku": "RCL07C1C3A521986306B"
+    },
+    "p-line-endurx-braid-diameter-capacity-guide": {
+      "id": "p-line-endurx-braid",
+      "title": "P-Line EndurX Braid",
+      "seoTitle": "P-Line EndurX 8X US Diameters & Reel Capacity | ReelCalc",
+      "seoDescription": "EndurX 8X US label reference: 20 lb Electric Green and 30 lb Midnight Black, each 300 yards, with verified diameters and braid-capacity guidance.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-endurx-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "sku": "RCL81D889FDCCBE02371"
+    },
+    "p-line-tcb-8-braid-diameter-capacity-guide": {
+      "id": "p-line-tcb-8-braid",
+      "title": "P-Line TCB 8 Braid: US Teflon-Label Reference",
+      "seoTitle": "P-Line TCB 8 Teflon-Label Diameters & Capacity | ReelCalc",
+      "seoDescription": "US Teflon-labeled TCB 8 package reference: Green 20 lb/150 yd and Yellow 50 lb/300 yd, with 2021 catalog identity and diameter-based capacity.",
+      "url": "https://www.reelcalc.com/lines/p/p-line-tcb-8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "sku": "RCL379A508156EFB3E4E"
+    },
+    "hi-seas-fluorocarbon-diameter-capacity-guide": {
+      "id": "hi-seas-fluorocarbon",
+      "title": "Hi-Seas 100% Fluorocarbon Line",
+      "seoTitle": "Hi-Seas Fluorocarbon 25 lb Diameter & Capacity | ReelCalc",
+      "seoDescription": "Check the catalog-listed Hi-Seas CFC-F200-25 mainline: 25 lb, .018 inch / .45 mm and 200 yards. Compare reel capacity with explicit source and availability limits.",
+      "url": "https://www.reelcalc.com/lines/p/hi-seas-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "sku": "RCLA3A6C83BE2E09EF4F"
     }
   }
 }

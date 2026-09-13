@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-13T17:34:15.478Z",
+  "passed": true,
+  "scopedRows": 42,
+  "unscopedFixtures": 20,
+  "crossToolHandoffs": 62,
+  "checks": [
+    "Actual database row rendering and option matching",
+    "Exact Wizard ID preload and visible historical label",
+    "Manual calculator diameter handoff with scoped name",
+    "Shared selector identity grouping unchanged and scoped search",
+    "Comparison search, strength change and selected detail",
+    "Reel-page result labels and selection detail",
+    "Line-page labels",
+    "Two retained source Stealth pairs, one selected-strength capacity card, two working-plan cards",
+    "Numerical source/data dependencies byte-unchanged"
+  ],
+  "method": "Actual production functions run in isolated Node VM with minimal DOM doubles; no browser, networking or visual-layout claim."
+}

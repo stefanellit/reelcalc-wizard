@@ -1,0 +1,1026 @@
+{
+  "checkedAt": "2026-09-13T16:31:16.961Z",
+  "verdict": "pass-local-integration-before-original80-copy-overlay",
+  "publicationReady": false,
+  "frozenProducts": [
+    {
+      "id": "powerpro-spectra",
+      "sha256": "93655c6df23cdc0ba679ff31711f0bce177cabfabcd3d1a16fc1a843e4a2e236",
+      "serializedBytesSha256": "d5f070ee8da7ab4c614992454891f6fe568f8081fb9b02ceab0154ba709f2a98"
+    },
+    {
+      "id": "seaguar-invizx",
+      "sha256": "a13a7ccec8a8f97e01ba552b13d30d2e46b27aee52f8c0a5332682855e384d18",
+      "serializedBytesSha256": "7fc7364722ee1ecd9a3a89e3b1d546af4cc06fd6f5a285813cb34723f2abd3e6"
+    },
+    {
+      "id": "berkley-trilene-xl",
+      "sha256": "0db0070c3d86ed241c982d02b70fdd0eb01ed2bf9066a099691990deec88a828",
+      "serializedBytesSha256": "18f79b5425a5097aacd6ecc90fc5e74c429e48141c2ce58a6a2439924b521a0c"
+    },
+    {
+      "id": "seaguar-tatsu",
+      "sha256": "9b9131d703fda9299974164f8432b98d413853808391236698e0fe7ed648c582",
+      "serializedBytesSha256": "3e2e3cbdff4224abc07820d000695e96b4062dbc6b95f169718f1154b165c1df"
+    },
+    {
+      "id": "seaguar-abrazx",
+      "sha256": "eb0fbde944d9e6399fb215f8fffdcda8f1b6d9c37318f5ead9303585c22acaba",
+      "serializedBytesSha256": "e926e81af8b98917d690b2ef66608b9478177afad2fec176d313aa23cc6bd0f7"
+    },
+    {
+      "id": "seaguar-red-label",
+      "sha256": "f8b27c0079a05a3c07f83dcc697eee34d3acdf07e83e5f718c266609ead232b9",
+      "serializedBytesSha256": "bd9f769b7d4da678ca4c5cc5f9e81f2f49bcfd8c4b70ec34817306a8a9fa256b"
+    },
+    {
+      "id": "seaguar-smackdown",
+      "sha256": "6fe679fe4df45f4c956967ea40d030a8b2ae44c8e7ddff77a00e0ae98946e551",
+      "serializedBytesSha256": "1cd67fcf1969a31fea3d6f008e9afc161a81450d03ac9f9083f7f75f8dd982fd"
+    },
+    {
+      "id": "seaguar-brawlr",
+      "sha256": "50206da61e4480e9779155c51603f4e60663eaa6036380d950f92c483ed42191",
+      "serializedBytesSha256": "60ef053a3a5f18ceb3df80694554e965fa642b4d4fc8a61fdefd39e73c1fc650"
+    },
+    {
+      "id": "seaguar-jdm-r18-mainline",
+      "sha256": "83992956a05b903f84df12add95a657844cd7b240b0c07cf4bf40676b122c384",
+      "serializedBytesSha256": "f4ae6992a7e83a239ee4ee9b7841ff6f917d303d75b55157b8abe458c49be579"
+    },
+    {
+      "id": "seaguar-jdm-pex8-micro-braid",
+      "sha256": "59e259c44221d05bb80510d210763fd294e334f1adc4b854c01316d4cca93f20",
+      "serializedBytesSha256": "c850cbe1b6eadfc02e8913611766c64eac9677c1b05bb3f399d4905bad1a8994"
+    },
+    {
+      "id": "sunline-fc-sniper",
+      "sha256": "4ca7b7f22e3a4a2de0e511f19bc2334474e6f36de75ac0b59dbf6b93499424e5",
+      "serializedBytesSha256": "8f975ddb5eb9f15ed368fcfa23f6b79be75ad4a0266e61921f283c28a8954911"
+    },
+    {
+      "id": "sunline-shooter",
+      "sha256": "81df0f4157352f123f0b0fd6eb62105f842bcaccee9b26058a53941eafe94aa3",
+      "serializedBytesSha256": "f98fc4261ab3daaee2f274afeaa8944cdc4e89e46fe7234c574c71ba61f8f2ee"
+    },
+    {
+      "id": "sunline-assassin-fc",
+      "sha256": "3158e96735c38cee16e8ffc562263bacc60f6cd0b3c48646f9dbccf04eabf6c9",
+      "serializedBytesSha256": "ce7e2cc785a4bd329c3d88e0bfb0b5890cb4636cef7abe8a503d2cc819481b97"
+    },
+    {
+      "id": "sunline-super-natural-mono",
+      "sha256": "f9cc42133abdbc2716dbf2799e0a9b564899132a95a6fe4e0c1b5536bdea875e",
+      "serializedBytesSha256": "708c0ef22c8aed81077e74d276b7a914a98296747a56c0894f784422019afad9"
+    },
+    {
+      "id": "sunline-sx1",
+      "sha256": "ad75a52d0e3fe81329d35c85a13c76bc9d3095b31d3af7a084be9228e03964fe",
+      "serializedBytesSha256": "b2dea657cb23df9c4b5d74786a9d93911922ec6cc0ea051cb516d048903ac39b"
+    },
+    {
+      "id": "sunline-xplasma-asegai",
+      "sha256": "fa09d0ffeec6949c163c8509d16f55711a32f3c6ada89f5328ddbf6183750ab9",
+      "serializedBytesSha256": "76f024c16f35691000570337985b3be308ba889c72f5d74976cb497687232711"
+    },
+    {
+      "id": "sunline-siglon-pe-x8",
+      "sha256": "48ce798a646b6f93576eff6e605739e40e89be682c7322186d26fa37850705d1",
+      "serializedBytesSha256": "2ff57ecc97817ea2e0ce62ffa7faa0a98126273f0d630b57089972acfa60378f"
+    },
+    {
+      "id": "sunline-shooter-machinegun-cast",
+      "sha256": "16a82f399a93247ee9b5df1b337161a6d6569600d95be5670dabac51983bcb64",
+      "serializedBytesSha256": "0d966c779973a6a0313b6677ca4981837caec4ebcea877da27a02a584b8b1c6e"
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "sha256": "70c33a861cd14b13f32480422b47f9c66ee63d887d345d6bcb1192343c6423f5",
+      "serializedBytesSha256": "1a7452c3c5e73442e88593a9c521657fbede922be6c693803185d5fa1086401d"
+    },
+    {
+      "id": "berkley-ginclear",
+      "sha256": "7dc8470c652f14f5d9a1d937e45988e0aabfbfa09f59cc7e3e5ddf7a835d2543",
+      "serializedBytesSha256": "1fa2f0a6bafab33be06092a834b924727f57fad60cd1ee567ac71ab8d0e13cf0"
+    },
+    {
+      "id": "daiwa-j-braid-x4",
+      "sha256": "7fb9cf33527149dd86d63417b497d97dc523f699e2d4beec7470224c5875e177",
+      "serializedBytesSha256": "9fcd7c55c63897158205b7de6acc2b14d5ca5ee11dac1491f1ea715b249c777f"
+    },
+    {
+      "id": "daiwa-j-braid-grand-x8",
+      "sha256": "6f8da7ff887b5290fc251df2cb75412dbe77a0b504e98eb7d87354872ff17be1",
+      "serializedBytesSha256": "3c9417ee4bbdeadc05d71cd78e5c1becf138e0353d6989043a9e8a43087fbeb5"
+    },
+    {
+      "id": "seaguar-basix",
+      "sha256": "b773d8f37f853da4a5eb2fc98edb9d96fbf0deb02e98e7a12d8c1b6a148f39a9",
+      "serializedBytesSha256": "6418c65e7b3fc63dcd279de28fb21fc3ddaff55b0e5d7b16660545541e2bcfad"
+    },
+    {
+      "id": "sunline-crank-fc",
+      "sha256": "c19ed725cb50b133fd5e2793f6bb5902e7b9dfede9534482f75bb01505ce75f0",
+      "serializedBytesSha256": "387d425b2764bbe8ca7ab7cc1e08c220b68b12217dd324c61292a295d1ca2d23"
+    },
+    {
+      "id": "xbraid-x9-fulldrag-braid",
+      "sha256": "85b3c9a65471671f1339caa572d259283a82dbeeeadb23ddbd043b47c062c5e0",
+      "serializedBytesSha256": "fc1c804a6e4780842c1bcf723366fd80d2fec3b7b00ee8a8a4562acc64741c09"
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-ny",
+      "sha256": "5ca84e245a38cd871ba531d90f606717627d3582bbdb4b9c360bdd5567c6acf2",
+      "serializedBytesSha256": "a6d071f0ddf7af0ece2946f582d6fe7ccdb18353bbbf757dfd04a58569150e05"
+    },
+    {
+      "id": "sufix-832-advanced-superline",
+      "sha256": "2075eb258ac776615382b492a37fb292656b7f9b2fd75965b2e722187cf292ef",
+      "serializedBytesSha256": "56de3c22384d096b8bc2338c495b2ec7463583913d01422279ac180edffd0306"
+    },
+    {
+      "id": "sufix-promix-braid",
+      "sha256": "b0016619ffb2ff07e938ecd5199c426a2e82eace83f8d3d102e4e0cafb84f146",
+      "serializedBytesSha256": "4428ae525a41312376c879c1ad84c86daf9d3ee21496c77e44511b51a5e4f959"
+    },
+    {
+      "id": "sufix-performance-braid",
+      "sha256": "867594a1998a1b5c50090fbc5c9da050d53b617cf6fe94264dc08ec234b0516d",
+      "serializedBytesSha256": "8c1a491bc39e323d82d6dee7f03ba25e434c96925fdcab71ee77d124b1841998"
+    },
+    {
+      "id": "sufix-elite",
+      "sha256": "3e25270924efb651fabe69ce162863003492b9674da54ed6f694b1255fdca5b4",
+      "serializedBytesSha256": "e8bf93faa37b6b052c4456dc6fba3283855942d811d5946899481cbcb7ae429a"
+    },
+    {
+      "id": "sufix-advance-mono",
+      "sha256": "030f08323282c43ca12d4bb37ca0902b97f31193b3c2fd778ec375a1685fe086",
+      "serializedBytesSha256": "0414fc21663cc20136e001551c61212ce59c29f9408e7ed58284b0499e4d6d1e"
+    },
+    {
+      "id": "sufix-advance-fluorocarbon",
+      "sha256": "ec6c0e2ee1457b8a0b8b636de7177efd2e33e6ebb9a78937a4e9b5d40ed9ecfe",
+      "serializedBytesSha256": "0f2d783df767f251fcba9a65513cb119830dea0d0bfde5858ec19b6cb74d8dde"
+    },
+    {
+      "id": "gamma-edge-fluorocarbon",
+      "sha256": "2258f876ad51cb03d33b9ccb1b58f432d2219c8656f8ca67e55fa96f888e5446",
+      "serializedBytesSha256": "c01731bd650af1c53bd79f282290282dd460f6c901d51af2ceafea7d603e5299"
+    },
+    {
+      "id": "cast-fishing-co-x12-frog-flip-braid",
+      "sha256": "ab1aa031d84e6ae1cead6b44686cf9faea499da57c2fe94367358c233fa9d431",
+      "serializedBytesSha256": "1a02e221268f04a8b25fb48167d066ff18cd5f9de5a9b8678443e4e8421db432"
+    },
+    {
+      "id": "rhino-hide-camo-braid",
+      "sha256": "b6d6ff2b80b975fded889383974469007091d1458d153454493ac0ccd756b0c0",
+      "serializedBytesSha256": "2c1e38bba97aa21f34fd1cb55d5bbfae98d8ab108b23c660ec920192fb511f4a"
+    },
+    {
+      "id": "rhino-hide-camo-monofilament",
+      "sha256": "58ce61bf2aa36804beebe7f11ef8dc163297247c4fd97f3bc156fc9ca53a83aa",
+      "serializedBytesSha256": "03c5de354c3b80e95601ec76c3719fe528fee0a7d2a3bd811015f3e96632d23f"
+    },
+    {
+      "id": "berkley-trilene-big-game",
+      "sha256": "74b5ef5f89d87d85907aa12fe4d810b75d018007a1cedfa7f4471997f5913bb9",
+      "serializedBytesSha256": "328d6a382a93c7c6f7ce640bacbdc076d0c1ad2143bb0199c4531945082f9e67"
+    },
+    {
+      "id": "berkley-vanish",
+      "sha256": "6de53d265bc7e5f929d431d46ddcda2d47c1301c7c15f48ef453719b6c8eb082",
+      "serializedBytesSha256": "711d29843aef3624940af5ce15ca3cadadf49f682c1aab1e31092b484796a58a"
+    },
+    {
+      "id": "berkley-x9-braid",
+      "sha256": "db5d7a94ba87899aecc9a11c2490da80e28a4226705c730570e9b49e0005f841",
+      "serializedBytesSha256": "429629a54fbdc651bfdf73031a36863b406dbf37ae2fccd00a36d8147db65f86"
+    },
+    {
+      "id": "berkley-x5-braid",
+      "sha256": "a85da16065cb5ccf45a09da7a995396bb482fdb2783396758ae8c47f0980ac3b",
+      "serializedBytesSha256": "f8fed1bc99d4b88386ab8215226944580987dec39e687b96e18e4163ff222660"
+    },
+    {
+      "id": "daiwa-j-fluoro-samurai",
+      "sha256": "693863a32ee8bdefe60901c66e8ad740e7ca1bf09152cd7c0906c6ed37150a83",
+      "serializedBytesSha256": "bad57e071b8493453b8ee32cd044c62f92927ced047078a6046d7e97c14d0e8c"
+    },
+    {
+      "id": "shimano-mastiff-fc",
+      "sha256": "9185642c925e0a16c60e2ae0ab4db46588e8123771a6e763480d9c671bf8f014",
+      "serializedBytesSha256": "8682feb4618d5a0bc4af6258033d6d31290b10cca6b89f0dd7dffcceeb6e9558"
+    },
+    {
+      "id": "shimano-kairiki-8",
+      "sha256": "747bd97d30b4a199a5dbe99397dd5139327ac793d91fb46ea67c929090fae56d",
+      "serializedBytesSha256": "9c1738c35236fcc0124c4b6e6036c541a58ad17860109206b4f4acd25adea555"
+    },
+    {
+      "id": "shimano-kairiki-4",
+      "sha256": "cca18dc0a808f9dcb954e7a1d0a5cd5bf69b5b30eaf3e8a98cf6539c6ec5061a",
+      "serializedBytesSha256": "51a6f6e793a7725badefce51b7729256c74f454498ac64fa98892ed5461155aa"
+    },
+    {
+      "id": "shimano-grappler-8",
+      "sha256": "fc6973098bb9ddaa97965436f50bdd9bb580004c06c878d4f8ffdbcb83827faa",
+      "serializedBytesSha256": "c89dbbf09e46c9b8c22bd642eae9acb865a3840a517fcb8ac861b865146cce11"
+    },
+    {
+      "id": "shimano-ocea-ex-fluorocarbon-leader",
+      "sha256": "64b5c641930d384e80f6adc4591abd5fbbebaac35d82f413166c8f12cde0267a",
+      "serializedBytesSha256": "505ac60c41772261aa8d1d7ab3e0e6af9f98d4fefdccdcb4bc73ac154c3c0d53"
+    },
+    {
+      "id": "seaguar-jdm-grand-max-leader",
+      "sha256": "97138e92ba235400fa83770dfaf8c3c0928161f3dbd3e199d42c2068e6291564",
+      "serializedBytesSha256": "aeb9000a893eef4ceaa377065f835f1104788155d896d8dab48b3764765b8463"
+    },
+    {
+      "id": "spro-finesse-braid-8x",
+      "sha256": "e89b1b12ef5f6b44f582572cc8866941c99f627e7555e47d5bc520287a098e02",
+      "serializedBytesSha256": "8f6a1bf1ff0df8860e77573b6120428489d1b942fbfd74f1d36109e5076fca72"
+    },
+    {
+      "id": "spro-essential-bronzeye-8x",
+      "sha256": "bdee097ce54b919a5814c8a09220ebe3afdde75aac4c3eda04f84d851981c9d4",
+      "serializedBytesSha256": "cede62a7bed00f3719db2ca8f9e28911f99952a6085804cdd157580156b9e1b8"
+    },
+    {
+      "id": "spro-cast-control-8x",
+      "sha256": "d78d181561363badf58cfd589afe15822c322d9d48d54b1427bb95c22d86327b",
+      "serializedBytesSha256": "267e0daf412cd069227f60fd50545ec30361516da654f327d93d0a78ca1ef37a"
+    },
+    {
+      "id": "spro-depth-control-8x",
+      "sha256": "53625e06a5e0e4d87d5f9b49e3260e9c61b6b13c73eea8cf4c5ddd3e8282844f",
+      "serializedBytesSha256": "131dbf0ba9a4535c35a51d88e9fc99c0c1fe927f04a71bb6cba4fc51edc7ea04"
+    },
+    {
+      "id": "spro-gouken-flc",
+      "sha256": "6e38dd8da2c7102bcf97fe8ad409735d0b276f37ed4bc54d8501a07db767fb1c",
+      "serializedBytesSha256": "dd1237a69e44bf0df78f58f4fcf1ca6b1b7249b827759e914e7816dbc3446e59"
+    },
+    {
+      "id": "spro-rai-jin-premium-fluorocarbon",
+      "sha256": "595b68dbbd33c648d8e74fc4760a5dfc5acec76c0c0237894268fec44e01bb08",
+      "serializedBytesSha256": "3144579742cde7f26ac8ff5b0a73a4e276c50738acbfbb1b73e0d6d139b10431"
+    },
+    {
+      "id": "yo-zuri-hybrid",
+      "sha256": "2d074adddf6008bf7eff3f0c2ba4d4d9aa0c8d2b6089ae56063826277f51244e",
+      "serializedBytesSha256": "fe1338d20770bb6221116d31eef2b1e24edf25f52355f51200c90f75e5a58a65"
+    },
+    {
+      "id": "yo-zuri-hybrid-ice-line",
+      "sha256": "d97fe71a4d13f97cbb14284e9bd03547d66b666af240a4324655831f83129752",
+      "serializedBytesSha256": "4aab4df374b52b9551617a2337df24f9d6f32b0cd445e60380626173ccb088bc"
+    },
+    {
+      "id": "yo-zuri-t-7-premium-fluorocarbon",
+      "sha256": "c1f256770f68e15cb646c7361f03eab55c9e0537a00b99410fd4ba5ca5f288b3",
+      "serializedBytesSha256": "03fec4066ac69cae1c417c5da55de77aad904df7e6dbf9f2a6e122557c0ac573"
+    },
+    {
+      "id": "yo-zuri-topknot-mainline",
+      "sha256": "bc8083ee96aa0543e137caf5a82bf17386a21cd8260d3d6c7abda0ecb39815eb",
+      "serializedBytesSha256": "39073e170b4af546ba092196a1b67e09c6d9698b7f75c481a7ac4538d0113673"
+    },
+    {
+      "id": "yo-zuri-superbraid",
+      "sha256": "630b5a8e5377aa0fbba78bc68db48385c55d293c5dd59e592d72689c1153104f",
+      "serializedBytesSha256": "6f056b56f61a80c6bdba1ac2cb1c2779f414283a829854f51234284d08094180"
+    },
+    {
+      "id": "yo-zuri-superbraid-9",
+      "sha256": "7291fc21e9842011d04a5efd3ffd3df694595abaec770085540c248084ad6087",
+      "serializedBytesSha256": "af958051837b6de0c8c3cf39fa5d899c4093484b754a3e942808a1aa62d46c20"
+    },
+    {
+      "id": "spiderwire-ultracast-braid",
+      "sha256": "f7299a3b5cee5fe4acfda43ba9d7ac2725dcd2bff3ae6b0ad4bb42ea85a79f7c",
+      "serializedBytesSha256": "bc6158c3d6a65218afb90eb586cbea6ce6fbdf3b3488fb1e474bfd60444e1fa8"
+    },
+    {
+      "id": "cortland-master-braid",
+      "sha256": "4e552042b0f4922c23cf06aed7076199d7bb3cacadebb912814adbe42d606a49",
+      "serializedBytesSha256": "a410973137ae70aaeaa4047e9f3c62d169ad4808ddf8a83510ab5c23acec17b1"
+    },
+    {
+      "id": "cortland-fluorocarbon-leader",
+      "sha256": "c14d548c6966e2df80ea870051356467745e037f9c2f1ff93c004f011be89071",
+      "serializedBytesSha256": "dd3c4576ea31d9bb4f3e17623012c4a363ec45fbe9c5ac17f2aa9f737bc3f7ff"
+    },
+    {
+      "id": "gamma-touch-fluorocarbon",
+      "sha256": "1c0a320c1d573ffeaedce25ca2462b965c7d777a9be8f8e0f51a3c398421519c",
+      "serializedBytesSha256": "99eca4200f3d59a587bfce1b9df13c0f4e6005caea737a5c81495073473a615c"
+    },
+    {
+      "id": "gamma-torque-braid",
+      "sha256": "39073701b606fdd7ac228f69f3848b19fd0523f23d8b597e331c14d08a710528",
+      "serializedBytesSha256": "0b3579cd3c47ed28ecc11f345f1b30e42281250760799da506309dba239a59f6"
+    },
+    {
+      "id": "gamma-polyflex",
+      "sha256": "c94370cc736fa44678cdbef1552923a1c668dcfc6d502d140a53944fab81ab77",
+      "serializedBytesSha256": "5260571cb372984a92d2ed72b17bf1869be9b96d1576f2a5d89625d709dd0c43"
+    },
+    {
+      "id": "gamma-fluorocarbon-leader",
+      "sha256": "f9915720129d970039fe43484b06dcfc93b315534dced8e381729a79c0179f77",
+      "serializedBytesSha256": "fb8f6a2ec7c6a9b5ef1255938cbd906b0296ffddd1ac34d159cec24c2a872f04"
+    },
+    {
+      "id": "maxima-ultragreen",
+      "sha256": "5b47bb0c4522b5d8966d14b9a67624a820437caf9cd1a6cb021a49cd5387e0b6",
+      "serializedBytesSha256": "ff5e915ce0a8e609a00c475931e5ff17d2698968358d1f26c7c0f55a9b1b4304"
+    },
+    {
+      "id": "maxima-chameleon",
+      "sha256": "984ae23797a73607ce6797e1eb4d834e2e6dba08623bb91dea0bdaf298de85af",
+      "serializedBytesSha256": "11e58bffe63cd97ddc10e9d30af9a6c299b152bc1d04296c3cbb38d71331cfaa"
+    },
+    {
+      "id": "maxima-clear",
+      "sha256": "3330296b425284067900158ec8ab7fcd9e60e605b56035936ada1a9bf24490b6",
+      "serializedBytesSha256": "0d878c0e5627cdac55572a589c61bbf67ab8ebb4b0e47d3bcfd4c4166979b937"
+    },
+    {
+      "id": "maxima-crystal-ivory",
+      "sha256": "af4492d79bc748e3ca48b41a4fefbaa996c80e5977f3ddf0048e0af171127a5c",
+      "serializedBytesSha256": "694e5e115630df111c6291373206bc08b7437bf431711665a16c9d2e41211fd3"
+    },
+    {
+      "id": "maxima-fluorocarbon",
+      "sha256": "230a2bdec1b91141bfd97b36c8319a5932f6288effc6ed6e52b83964ed4997b7",
+      "serializedBytesSha256": "62eb51f25c5020bda96533d991b0f7e10fb29f9a36128c8e01ad44795acac65f"
+    },
+    {
+      "id": "maxima-braid-8",
+      "sha256": "a705431007b4d61b4774f2867aeed9a248f9db73d6c2678b24a2b35a20ad15fb",
+      "serializedBytesSha256": "63580fe9bcec35f8bdcbba49bbd668cf647285efca7fdf115dc4d5589e9f0b01"
+    },
+    {
+      "id": "ande-premium-monofilament",
+      "sha256": "7c968836a393d52c62a39b48381974b7869caec68cd18ff78e5436895b45c8d5",
+      "serializedBytesSha256": "e268971618ac6f883193f0ad4ed78d7b619b4684ef217d4f9ebf58021b27195d"
+    },
+    {
+      "id": "ande-tournament-monofilament",
+      "sha256": "ac72b18955cfea0ee65d8247c718bad0be71870812264c8b8681a596cb0c72e8",
+      "serializedBytesSha256": "99225d5758f77a35c08e0e9f2c4192698e7dba596caf61394fa085c1dab228ed"
+    },
+    {
+      "id": "ande-fluorocarbon-leader",
+      "sha256": "5760924c163d3451a3c980a9abb133e7a0585d08a51f515f2761d5ade570ebf8",
+      "serializedBytesSha256": "d2ce34499e37cdf716a9d933d440a52c6fa539cafe31edf76edb9fe4388061b7"
+    },
+    {
+      "id": "hi-seas-grand-slam-monofilament",
+      "sha256": "73afb4d658df3479382896965b16609939337b4264f702deaaae00209e951db5",
+      "serializedBytesSha256": "169c3325e50eac2f6b8db52e33722ba8e13fbe05b4540071f99c144accb527a1"
+    },
+    {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "sha256": "b8526eb91b151c5251af5f40936cb9a58b4fc26c7b1a3193b6045cea3c1d73fe",
+      "serializedBytesSha256": "9f37e617ebfde1c31fe5f23b38ba78937f14ed43bd08ff1f852f37bd05c1d8e4"
+    },
+    {
+      "id": "hi-seas-braid",
+      "sha256": "7971ceee1af91e0848516fe858bc811eafb1bcbb2e52a75003c59c6a589fb7ac",
+      "serializedBytesSha256": "301762279b895c2587cb11a13651cf537dba73e36e16663eb73cb5bceca42643"
+    },
+    {
+      "id": "kastking-fluorokote",
+      "sha256": "61a0245431883966e55144f107c715e8153ae23a8640350c30b498b7dcf4fa8b",
+      "serializedBytesSha256": "129dd9f33ede0fdf03e79e1f02df033d0cdae22d93cf420ab5c8b3c3570e95da"
+    },
+    {
+      "id": "reaction-tackle-braid",
+      "sha256": "0d92f16d3afb7bed05648e86ee2f15ba059bc3b9371da431d52f4724ef100639",
+      "serializedBytesSha256": "a873396c56752bb4ea88c0afb9e8c43e073fee059f3e1ec67b885c1603603b0f"
+    },
+    {
+      "id": "reaction-tackle-fluorocarbon",
+      "sha256": "0298783b386133a952ebd28d3e27174e2f8fd9ccf19869948102ad7737801243",
+      "serializedBytesSha256": "02a53d86c11c43a3299423e81be0b44d8bac4a6bb131e5355be6bb9e0e727436"
+    },
+    {
+      "id": "reaction-tackle-monofilament",
+      "sha256": "cb8fe4fa8101549e41aec2ef9815157cdfdb5a20e4cc1abb1b34dbe54319318c",
+      "serializedBytesSha256": "5a62d46158c67010ca983efc75107d1d487ca4ecc3373a9cdbe88f9635525356"
+    },
+    {
+      "id": "reaction-tackle-ice-braid",
+      "sha256": "0ab00d7f0b53d7874bbcad46d0fbf705128de9c9b33ff41964c041a8ed84d2b2",
+      "serializedBytesSha256": "0e5f178d51336732e7bc29fd284260d7a647d95fef7fb6eb059c48d79e1db235"
+    },
+    {
+      "id": "vicious-fluorocarbon",
+      "sha256": "daa61a38387cae934dec7363d78034e3a2d416b9d621be06649c9e5122408415",
+      "serializedBytesSha256": "c4b15cd6326eb355234e889817ffac2719f0530279198f65ccaa537634d494e2"
+    },
+    {
+      "id": "vicious-pro-elite-fluorocarbon",
+      "sha256": "20b6caa3a0cc9ea7d939021e05cdebf5af91bc715a3376f995a4435fc89f4bb9",
+      "serializedBytesSha256": "a8f7ce298e721109d3d7eb45388b6ad39a4a9f6a7cbf7dc9029edc889df8c000"
+    },
+    {
+      "id": "vicious-braid",
+      "sha256": "0fd502f2aecc174676794c73b3de55d11a22f2b1d0a5999b0e49060c1a05752f",
+      "serializedBytesSha256": "7a41dd985308447166d6c5029a8873a06ca30bca68522f12e70d5dc8683587d9"
+    },
+    {
+      "id": "vicious-panfish-hi-vis-mono",
+      "sha256": "6d16acc4a071f848393e69306cd2560cc72d49ad8291bbaff36da876b33b437a",
+      "serializedBytesSha256": "e272186f81d3dadd7e4f6becdbba56663056f7e6d57f4f36d6afa7eaec3cca75"
+    },
+    {
+      "id": "spro-finesse-fluorocarbon-leader",
+      "sha256": "5f21849853bbb4cd04fa36503bfda0f6309e5408559fe86c1d4b89bcd3bcd064",
+      "serializedBytesSha256": "677739142e90f82be5394eae9d7cbf7ac2ec7ba2a508f42f0a83850aeca5cfcb"
+    },
+    {
+      "id": "yo-zuri-topknot-leader",
+      "sha256": "d95c369a4345ccd8f38a4c3189ab4f182c02c9baf5b8cd8adf3a68356f92e63f",
+      "serializedBytesSha256": "d0a91d060b71da937a49e03e4c430eb49dfe13f75b69f91bbeb7006607d081e7"
+    },
+    {
+      "id": "yo-zuri-superfluoro-leader",
+      "sha256": "40fa7f007e4dea54b536791d4884206d941150134950233c4db9f8350e176110",
+      "serializedBytesSha256": "15312b2d4dd5370776ce01b422d570a7df61148d43ee4aabbd6ab701be5b888b"
+    },
+    {
+      "id": "yo-zuri-h-d-carbon-leader",
+      "sha256": "2103350d7682a8805bfb54d0d9d038f5018b75358b01e636fff40519b03f234c",
+      "serializedBytesSha256": "db3fcfeac2d5bfee4143ba82341fd6286a20b40208834dd8ddb1691f3999ae2e"
+    },
+    {
+      "id": "stren-original",
+      "sha256": "ab3b05ddc554924eac049ce18747884bb3e7b0a06c9515e957fbf5911af7bcd6",
+      "serializedBytesSha256": "67a6b2094daf92ff285f39b3ed86a88e058610b2234712aec3180f8ed5169b7f"
+    },
+    {
+      "id": "stren-magnathin",
+      "sha256": "3a5af0d0967eaa915ae1f3ea7f0e453a357fd7289009f968914058b616c35f39",
+      "serializedBytesSha256": "0c971891934f68756bf5e4ac2aef77f6f8aff4e53a62ea2d4982d61a1fae17d7"
+    },
+    {
+      "id": "ande-braid",
+      "sha256": "869104b622c07694faa27a7df25a1f73cfd68be11c109be3a3162d3c5bb12172",
+      "serializedBytesSha256": "b7c3ed22d09a8a5e5b5749837e373751fc6fe6bffbbc0d480a6c8d4b705b4eb9"
+    },
+    {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "sha256": "ff94054458977bd2e8e103593cf4ffbb269f465a6fa19fdf807c80cdc93f0a2a",
+      "serializedBytesSha256": "7a3711ddfbfd4f4977b56f56d3e51600e26b7e394849eac3ca46cf671bac12ba"
+    },
+    {
+      "id": "stren-high-impact",
+      "sha256": "25352ce428346270c8961c724026988e7438225823f0b84287acbb1b1dbafbf9",
+      "serializedBytesSha256": "b09e64de51dc676ab6493802317951abe88b9113a625ea533972c3d5d20089ee"
+    },
+    {
+      "id": "stren-crappie-mono",
+      "sha256": "13b45d4b58e43c6429a433fa17e282aef3b05b9161e70303c1f0d099c587cc7e",
+      "serializedBytesSha256": "985f2452770a8867ea0f0d7ded0e637ccb6036f3707e01a580d51bc78b7a1848"
+    },
+    {
+      "id": "berkley-trilene-xt",
+      "sha256": "b085de7bbc7921a869d48c4e30ad9fb89a103ccbc92d7a0b567dc3383696a05f",
+      "serializedBytesSha256": "d77670c4eba10fa4940a77315510e6a65064b267854001efa89ceb638db26242"
+    },
+    {
+      "id": "berkley-100-fluorocarbon",
+      "sha256": "bf1f0386f44c937f555a77d08a3d5e0924f7e4236bc3f8d46ed42e0b9dcc2778",
+      "serializedBytesSha256": "21087a585d92cf4ed2c51c99374da856f8186990c14cb2601fad1b3648ab11b0"
+    },
+    {
+      "id": "berkley-forward-finesse-braid",
+      "sha256": "92b93934df792e8681a4beb8fc4d59093d83dca07b36735e094c5cbaf62317f7",
+      "serializedBytesSha256": "59b72f5aa8e046e0a12edafb9ba2bdfe1e3b158dc0c663ee26eae37d3363b3dc"
+    }
+  ],
+  "frozenArtifacts": 500,
+  "originalSourcePacks": [
+    {
+      "file": "research/line-pages/full-catalog/group-main/pack.json",
+      "sha256": "1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-a/pack.json",
+      "sha256": "b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-b/pack.json",
+      "sha256": "3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-c/pack.json",
+      "sha256": "cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-d/pack.json",
+      "sha256": "45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-e/pack.json",
+      "sha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+      "unchanged": true
+    }
+  ],
+  "originalLineRowsUnchanged": 1187,
+  "changedVerifiedRows": 42,
+  "newRowIds": [
+    "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+    "sufix-invisiline-fluorocarbon-fluorocarbon-20",
+    "stren-super-knot-monofilament-4",
+    "stren-super-knot-monofilament-14",
+    "stren-super-knot-monofilament-17",
+    "stren-fluorocast-fluorocarbon-4"
+  ],
+  "importedRegistryEntriesPreserved": 100,
+  "excludedImported": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl",
+    "seaguar-tatsu",
+    "seaguar-abrazx",
+    "seaguar-red-label",
+    "seaguar-smackdown",
+    "seaguar-brawlr",
+    "seaguar-jdm-r18-mainline",
+    "seaguar-jdm-pex8-micro-braid",
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear",
+    "daiwa-j-braid-x4",
+    "daiwa-j-braid-grand-x8",
+    "seaguar-basix",
+    "sunline-crank-fc",
+    "xbraid-x9-fulldrag-braid",
+    "sunline-shooter-bms-azayaka-ny",
+    "sufix-832-advanced-superline",
+    "sufix-promix-braid",
+    "sufix-performance-braid",
+    "sufix-elite",
+    "sufix-advance-mono",
+    "sufix-advance-fluorocarbon",
+    "gamma-edge-fluorocarbon",
+    "cast-fishing-co-x12-frog-flip-braid",
+    "rhino-hide-camo-braid",
+    "rhino-hide-camo-monofilament",
+    "berkley-trilene-big-game",
+    "berkley-vanish",
+    "berkley-x9-braid",
+    "berkley-x5-braid",
+    "daiwa-j-fluoro-samurai",
+    "shimano-mastiff-fc",
+    "shimano-kairiki-8",
+    "shimano-kairiki-4",
+    "shimano-grappler-8",
+    "shimano-ocea-ex-fluorocarbon-leader",
+    "seaguar-jdm-grand-max-leader",
+    "spro-finesse-braid-8x",
+    "spro-essential-bronzeye-8x",
+    "spro-cast-control-8x",
+    "spro-depth-control-8x",
+    "spro-gouken-flc",
+    "spro-rai-jin-premium-fluorocarbon",
+    "yo-zuri-hybrid",
+    "yo-zuri-hybrid-ice-line",
+    "yo-zuri-t-7-premium-fluorocarbon",
+    "yo-zuri-topknot-mainline",
+    "yo-zuri-superbraid",
+    "yo-zuri-superbraid-9",
+    "spiderwire-ultracast-braid",
+    "cortland-master-braid",
+    "cortland-fluorocarbon-leader",
+    "gamma-touch-fluorocarbon",
+    "gamma-torque-braid",
+    "gamma-polyflex",
+    "gamma-fluorocarbon-leader",
+    "maxima-ultragreen",
+    "maxima-chameleon",
+    "maxima-clear",
+    "maxima-crystal-ivory",
+    "maxima-fluorocarbon",
+    "maxima-braid-8",
+    "ande-premium-monofilament",
+    "ande-tournament-monofilament",
+    "ande-fluorocarbon-leader",
+    "hi-seas-grand-slam-monofilament",
+    "hi-seas-quattro-fluorocarbon",
+    "hi-seas-braid",
+    "kastking-fluorokote",
+    "reaction-tackle-braid",
+    "reaction-tackle-fluorocarbon",
+    "reaction-tackle-monofilament",
+    "reaction-tackle-ice-braid",
+    "vicious-fluorocarbon",
+    "vicious-pro-elite-fluorocarbon",
+    "vicious-braid",
+    "vicious-panfish-hi-vis-mono",
+    "spro-finesse-fluorocarbon-leader",
+    "yo-zuri-topknot-leader",
+    "yo-zuri-superfluoro-leader",
+    "yo-zuri-h-d-carbon-leader",
+    "stren-original",
+    "stren-magnathin",
+    "ande-braid",
+    "spiderwire-ultracast-ultimate-mono",
+    "stren-high-impact",
+    "stren-crappie-mono",
+    "berkley-trilene-xt",
+    "berkley-100-fluorocarbon",
+    "berkley-forward-finesse-braid"
+  ],
+  "publishedProductsPreserved": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl",
+    "seaguar-tatsu",
+    "seaguar-abrazx",
+    "seaguar-red-label",
+    "seaguar-smackdown",
+    "seaguar-brawlr",
+    "seaguar-jdm-r18-mainline",
+    "seaguar-jdm-pex8-micro-braid",
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear"
+  ],
+  "newProductIds": [
+    "spiderwire-stealth-braid",
+    "stren-super-knot",
+    "stren-fluorocast",
+    "stren-sonic-braid",
+    "hi-seas-fluorocarbon",
+    "sufix-invisiline-fluorocarbon",
+    "sufix-calibr8",
+    "p-line-cxx-x-tra-strong",
+    "p-line-floroclear",
+    "p-line-cx-premium",
+    "p-line-tactical-fluorocarbon",
+    "p-line-halo-fluorocarbon",
+    "p-line-endurx-braid",
+    "p-line-tcb-8-braid"
+  ],
+  "models": [
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sourcePackSha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "productSha256": "d4199951f1f66f9e3f5fbfd05df8bcbc3fb774b53606a13e59d4c8680333c73c",
+      "lineIds": [
+        "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-6",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-10",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-12",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-14",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-17",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-20"
+      ],
+      "excludedLineIds": [],
+      "image": "assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "imageSha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a"
+    },
+    {
+      "id": "sufix-calibr8",
+      "sourcePack": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sourcePackSha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "45aba9eb9f15fc145808ff2c9c02bfdcc27bc225168109b322c7459a44149c33",
+      "productSha256": "62fa522d0709a203822dab0e297362ed7667f9a1731c5f60ae9c28ac1198e499",
+      "lineIds": [
+        "sufix-calibr8-braid-15"
+      ],
+      "excludedLineIds": [
+        "sufix-calibr8-braid-6",
+        "sufix-calibr8-braid-8",
+        "sufix-calibr8-braid-10",
+        "sufix-calibr8-braid-20",
+        "sufix-calibr8-braid-30",
+        "sufix-calibr8-braid-40",
+        "sufix-calibr8-braid-50",
+        "sufix-calibr8-braid-65",
+        "sufix-calibr8-braid-80"
+      ],
+      "image": "assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "imageSha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef"
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "7c6e517f1dd50d2092eec88995cd6d91928745a596bafec3e39aa00fe9856dc0",
+      "productSha256": "8cedde141a3b0b3498cf59676a0e90875bf26319dfe729132dd525e19738aa3e",
+      "lineIds": [
+        "spiderwire-stealth-braid-braid-50",
+        "spiderwire-stealth-braid-braid-65"
+      ],
+      "excludedLineIds": [
+        "spiderwire-stealth-braid-braid-10",
+        "spiderwire-stealth-braid-braid-15",
+        "spiderwire-stealth-braid-braid-20",
+        "spiderwire-stealth-braid-braid-30"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "imageSha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea"
+    },
+    {
+      "id": "stren-super-knot",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "productSha256": "1440fb8a17ecae65432d23ebb96230d546ef5add165d044d38a9cbecd2720e4e",
+      "lineIds": [
+        "stren-super-knot-monofilament-4",
+        "stren-super-knot-monofilament-6",
+        "stren-super-knot-monofilament-8",
+        "stren-super-knot-monofilament-10",
+        "stren-super-knot-monofilament-12",
+        "stren-super-knot-monofilament-14",
+        "stren-super-knot-monofilament-17",
+        "stren-super-knot-monofilament-20"
+      ],
+      "excludedLineIds": [
+        "stren-super-knot-monofilament-15"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "imageSha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743"
+    },
+    {
+      "id": "stren-fluorocast",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "productSha256": "bc1d773ce4e6e9ea49b8d5a8a8fd0c5a5908d9c7fda4d7fb44fe56c53f5bd64d",
+      "lineIds": [
+        "stren-fluorocast-fluorocarbon-4",
+        "stren-fluorocast-fluorocarbon-6",
+        "stren-fluorocast-fluorocarbon-8",
+        "stren-fluorocast-fluorocarbon-10",
+        "stren-fluorocast-fluorocarbon-12",
+        "stren-fluorocast-fluorocarbon-15",
+        "stren-fluorocast-fluorocarbon-17"
+      ],
+      "excludedLineIds": [
+        "stren-fluorocast-fluorocarbon-20"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "imageSha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd"
+    },
+    {
+      "id": "stren-sonic-braid",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "e09655696695aa41f74fda91b749223d194b1d6b41dd1c894852ed609d8230b3",
+      "productSha256": "e11244a9532549793aa97f2aa87593cdd9f01a0895101c4e235f1467e02b5d23",
+      "lineIds": [
+        "stren-sonic-braid-braid-40"
+      ],
+      "excludedLineIds": [
+        "stren-sonic-braid-braid-10",
+        "stren-sonic-braid-braid-20",
+        "stren-sonic-braid-braid-30",
+        "stren-sonic-braid-braid-50",
+        "stren-sonic-braid-braid-65"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "imageSha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4"
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "6ddca9ef1868ff27de47cdac553b9f6afbd4f178e1c945ef19dc084b33729628",
+      "productSha256": "d0fc227bf4df141170e64c74da65dcb56bab1a858b0b558e6a326d9840f43f06",
+      "lineIds": [
+        "p-line-cxx-x-tra-strong-copolymer-10",
+        "p-line-cxx-x-tra-strong-copolymer-12"
+      ],
+      "excludedLineIds": [
+        "p-line-cxx-x-tra-strong-copolymer-6",
+        "p-line-cxx-x-tra-strong-copolymer-8",
+        "p-line-cxx-x-tra-strong-copolymer-15",
+        "p-line-cxx-x-tra-strong-copolymer-17",
+        "p-line-cxx-x-tra-strong-copolymer-20",
+        "p-line-cxx-x-tra-strong-copolymer-25",
+        "p-line-cxx-x-tra-strong-copolymer-30"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "imageSha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f"
+    },
+    {
+      "id": "p-line-floroclear",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "faacbaf869108eae2408e2f1481caf9fad7125215c543d02bbb68dadbf49783d",
+      "productSha256": "1ef9edb15266eaa3d4982803db161fb248fda82a1944de02c302ae8a299ec4f0",
+      "lineIds": [
+        "p-line-floroclear-copolymer-10",
+        "p-line-floroclear-copolymer-12"
+      ],
+      "excludedLineIds": [
+        "p-line-floroclear-copolymer-4",
+        "p-line-floroclear-copolymer-5",
+        "p-line-floroclear-copolymer-6",
+        "p-line-floroclear-copolymer-8",
+        "p-line-floroclear-copolymer-15",
+        "p-line-floroclear-copolymer-20",
+        "p-line-floroclear-copolymer-25",
+        "p-line-floroclear-copolymer-30"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "imageSha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942"
+    },
+    {
+      "id": "p-line-cx-premium",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "1f2da7f64f5815c001dba2b0515fdbf1e20d37c69c1387ee84afc33cee897334",
+      "productSha256": "08d91dcb6dce2e50fb465e8eb23ce4a2872f37b5876f1b711f763826048e6497",
+      "lineIds": [
+        "p-line-cx-premium-copolymer-6",
+        "p-line-cx-premium-copolymer-8"
+      ],
+      "excludedLineIds": [
+        "p-line-cx-premium-copolymer-10",
+        "p-line-cx-premium-copolymer-12",
+        "p-line-cx-premium-copolymer-15",
+        "p-line-cx-premium-copolymer-17"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "imageSha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61"
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "99143d666228029b5fe0107cd0744c611291983ee04d988a29d6df1c1895df09",
+      "productSha256": "14a1516d0bd4dc3199448e35dae33ed6abeddbc22667718728a7fca7415d75ae",
+      "lineIds": [
+        "p-line-tactical-fluorocarbon-fluorocarbon-15"
+      ],
+      "excludedLineIds": [
+        "p-line-tactical-fluorocarbon-fluorocarbon-6",
+        "p-line-tactical-fluorocarbon-fluorocarbon-8",
+        "p-line-tactical-fluorocarbon-fluorocarbon-10",
+        "p-line-tactical-fluorocarbon-fluorocarbon-12",
+        "p-line-tactical-fluorocarbon-fluorocarbon-17",
+        "p-line-tactical-fluorocarbon-fluorocarbon-20"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "imageSha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8"
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "8cdbe1ca7ac46e5b5140e4e5510de25f7d774d637a7a6e20bf8a98737dbfe7d2",
+      "productSha256": "f010790d79f7879d513702a3aff0289ced17bbf1628f4f7e8f3f43d1c57dc1a1",
+      "lineIds": [
+        "p-line-halo-fluorocarbon-fluorocarbon-6",
+        "p-line-halo-fluorocarbon-fluorocarbon-8",
+        "p-line-halo-fluorocarbon-fluorocarbon-10"
+      ],
+      "excludedLineIds": [
+        "p-line-halo-fluorocarbon-fluorocarbon-12",
+        "p-line-halo-fluorocarbon-fluorocarbon-15",
+        "p-line-halo-fluorocarbon-fluorocarbon-17",
+        "p-line-halo-fluorocarbon-fluorocarbon-20"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "imageSha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3"
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "193c39a561f1275693f7b68db7fee07dab67f5b8fee5792ae4d8a8ba932f13ef",
+      "productSha256": "5f2e65529f1751205e901e25b6636c4b7691e765bf839c8474e4efd5319d3a7b",
+      "lineIds": [
+        "p-line-endurx-braid-braid-20",
+        "p-line-endurx-braid-braid-30"
+      ],
+      "excludedLineIds": [
+        "p-line-endurx-braid-braid-10",
+        "p-line-endurx-braid-braid-40",
+        "p-line-endurx-braid-braid-50",
+        "p-line-endurx-braid-braid-15",
+        "p-line-endurx-braid-braid-65",
+        "p-line-endurx-braid-braid-80"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "imageSha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7"
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "4bc6b9f34d0b801c3a886c547ee01df4776c5ffb0491b3429996a81e4753fdca",
+      "productSha256": "ed82a07dc21244f9639d2f483ae24829e3f286b301b72f4b3aa6b4625f957da1",
+      "lineIds": [
+        "p-line-tcb-8-braid-braid-20",
+        "p-line-tcb-8-braid-braid-50"
+      ],
+      "excludedLineIds": [
+        "p-line-tcb-8-braid-braid-10",
+        "p-line-tcb-8-braid-braid-30",
+        "p-line-tcb-8-braid-braid-40",
+        "p-line-tcb-8-braid-braid-15",
+        "p-line-tcb-8-braid-braid-65"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "imageSha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6"
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+      "sourcePackSha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
+      "modelSha256": "fbbb8a043ab765e14859b5e93226146ec0c269021fbf12a21ccd2c05d46b2428",
+      "productSha256": "260d9329632429e6be896540b60c689708dfc8dda695cde28d714e1049c26ac2",
+      "lineIds": [
+        "hi-seas-fluorocarbon-fluorocarbon-25"
+      ],
+      "excludedLineIds": [
+        "hi-seas-fluorocarbon-fluorocarbon-10",
+        "hi-seas-fluorocarbon-fluorocarbon-12",
+        "hi-seas-fluorocarbon-fluorocarbon-15",
+        "hi-seas-fluorocarbon-fluorocarbon-20",
+        "hi-seas-fluorocarbon-fluorocarbon-30"
+      ],
+      "image": "assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "imageSha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+    }
+  ],
+  "trust": {
+    "date": "2026-09-13",
+    "strengths": 42,
+    "readyReels": 1320,
+    "productIds": [
+      "spiderwire-stealth-braid",
+      "stren-super-knot",
+      "stren-fluorocast",
+      "stren-sonic-braid",
+      "hi-seas-fluorocarbon",
+      "sufix-invisiline-fluorocarbon",
+      "sufix-calibr8",
+      "p-line-cxx-x-tra-strong",
+      "p-line-floroclear",
+      "p-line-cx-premium",
+      "p-line-tactical-fluorocarbon",
+      "p-line-halo-fluorocarbon",
+      "p-line-endurx-braid",
+      "p-line-tcb-8-braid"
+    ],
+    "pairings": 55440,
+    "offers": 49,
+    "checks": 581696,
+    "failures": 0,
+    "examples": []
+  },
+  "remainingGates": [
+    "Main-owned browser and mobile checks",
+    "Deployment",
+    "Native import and publication"
+  ],
+  "protectedFiles": [
+    {
+      "file": "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv",
+      "sha256": "c03c4ff89926995349eea2fc37a1e241e193850892967ef7904d703d72857c29"
+    },
+    {
+      "file": "generated/line-pages/import-inventory.json",
+      "sha256": "cabc5c71bb8386d14cee7eb814f6d5eb656d5efcf62a31d83aacf6e4b539c69b"
+    },
+    {
+      "file": "generated/line-pages/manual-publish-content.json",
+      "sha256": "520b478938bcba81256323d07bf575e5c5a9651422f365745cd64997543dbf4e"
+    }
+  ]
+}

@@ -11,4 +11,10 @@ assert.throws(()=>selectNewImports([...settings,settings[0]],release),/Duplicate
 assert.throws(()=>selectNewImports([{id:"one",slug:"same"},{id:"two",slug:"same"}],{}),/Duplicate launch slugs/);
 assert.throws(()=>selectNewImports(settings,{publishedProducts:["missing"]}),/missing from settings/);
 assert.deepEqual(selectNewImports(settings,{publishedProducts:["live","next"]}),[]);
-console.log("Passed 9 incremental import safety checks.");
+const expanded=[...settings,{id:"new",slug:"new-guide"}];
+assert.deepEqual(selectNewImports(expanded,release,undefined,["live","next"]),[expanded[2]]);
+assert.throws(()=>selectNewImports(expanded,release,["next"],["live","next"]),/already imported/);
+assert.throws(()=>selectNewImports(expanded,release,undefined,["missing"]),/Imported guide missing/);
+assert.throws(()=>selectNewImports(expanded,release,undefined,["next","next"]),/Duplicate imported/);
+assert.deepEqual(selectNewImports(expanded,release,[],["live","next"]),[]);
+console.log("Passed 14 incremental import safety checks, including already-imported hidden guides.");

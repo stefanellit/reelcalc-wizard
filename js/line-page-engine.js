@@ -904,7 +904,7 @@
           return '<details class="rc-diameter-group" data-diameter-group="' + group.key + '"' + (group === firstGroup && group.lines.length <= 6 ? ' open' : '') +
             '><summary>' + label + '</summary><table class="rc-table rc-diameter-matches"><caption>' + cleanNumber(selected.lb, 0) + ' lb lines compared with ' + escapeHtml(lineLabel(selected)) +
             '</caption><thead><tr><th scope="col">Line</th><th scope="col">Listed diameter</th></tr></thead><tbody>' + group.lines.map(function(line) {
-              return '<tr data-comparable-line="' + escapeHtml(line.id) + '"><td>' + escapeHtml(line.brand + " " + line.model) + '</td><td>' + cleanNumber(line.dia_in, 6) + ' in</td></tr>';
+              return '<tr data-comparable-line="' + escapeHtml(line.id) + '"><td>' + escapeHtml(line.brand + " " + line.model + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "")) + '</td><td>' + cleanNumber(line.dia_in, 6) + ' in</td></tr>';
             }).join("") + '</tbody></table></details>';
         }).join("") + '<p class="rc-table-note">Grouped by listed inch diameter, not independent measurements. Matching diameters do not guarantee identical strength or performance.</p>';
       el.diameterSummary.innerHTML = summary;
@@ -912,7 +912,7 @@
       var alternatives = nearestAlternatives(selected, 6);
       el.alternatives.innerHTML = alternatives.length ? alternatives.map(function(line) {
         var difference = Math.abs(Number(line.dia_in) - Number(selected.dia_in));
-        return "<tr><td><strong>" + escapeHtml(line.brand + " " + line.model) + '</strong></td><td class="rc-number">' + cleanNumber(line.lb, 0) + ' lb</td><td class="rc-number">' + cleanNumber(line.dia_in, 6) + ' in</td><td class="rc-number">' + (difference < 1e-10 ? "Same" : difference < 0.00005 ? "Nearly the same" : cleanNumber(difference, 6) + " in") + "</td></tr>";
+        return "<tr><td><strong>" + escapeHtml(line.brand + " " + line.model + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "")) + '</strong></td><td class="rc-number">' + cleanNumber(line.lb, 0) + ' lb</td><td class="rc-number">' + cleanNumber(line.dia_in, 6) + ' in</td><td class="rc-number">' + (difference < 1e-10 ? "Same" : difference < 0.00005 ? "Nearly the same" : cleanNumber(difference, 6) + " in") + "</td></tr>";
       }).join("") : '<tr><td colspan="4">No useful same-category diameter matches are available.</td></tr>';
     }
 
@@ -1026,7 +1026,13 @@
     function renderExamples() {
       var capacityExamples = el.examples.dataset.exampleMode === "capacity";
       var backingLine = state.lines.find(function(line) { return line.id === state.product.defaultBackingLineId; }) || null;
-      var cards = (state.product.exampleSetups || []).map(function(example) {
+      var seenReels = new Set();
+      var cards = (state.product.exampleSetups || []).filter(function(example) {
+        if (!capacityExamples) return true;
+        if (seenReels.has(example.reelId)) return false;
+        seenReels.add(example.reelId);
+        return true;
+      }).map(function(example) {
         var reel = state.reels.find(function(item) { return item.id === example.reelId; });
         var line = capacityExamples ? state.selectedLine : state.lines.find(function(item) { return item.id === example.lineId; });
         if (!reel || !line || !isReelReady(reel) || !isLineReady(line)) return "";
@@ -1090,8 +1096,9 @@
         // Backing package lengths aren't verified here; search by exact product and strength.
         var url = new URL(offer.url);
         var retailer = state.affiliateData.retailers[offer.retailerId];
-        url.searchParams.set(retailer.searchQueryParameter || "q", lineLabel(result.backingLine) + " " + normalizedType(result.backingLine.type) + " fishing line");
-        offer = Object.assign({}, offer, { url: url.href, suggestedSpoolYards: null });
+        var query = lineIdentityLabel(result.backingLine) + " " + normalizedType(result.backingLine.type) + " fishing line";
+        url.searchParams.set(retailer.searchQueryParameter || "q", query);
+        offer = Object.assign({}, offer, { url: url.href, query: query, suggestedSpoolYards: null });
       }
       return offer;
     }
@@ -1297,8 +1304,12 @@
       return [reel && reel.brand, reel && reel.model, reel && (reel.size_label || reel.size_class || reel.sku)].filter(Boolean).join(" ");
     }
 
-    function lineLabel(line) {
+    function lineIdentityLabel(line) {
       return [line && line.brand, line && line.model, line && positiveNumber(line.lb) ? cleanNumber(line.lb, 1) + " lb" : ""].filter(Boolean).join(" ");
+    }
+
+    function lineLabel(line) {
+      return lineIdentityLabel(line) + (line && line.source_scope_label ? " (" + line.source_scope_label + ")" : "");
     }
 
     function formatDiameter(line) {

@@ -1,0 +1,530 @@
+{
+  "completedAt": "2026-09-13T16:43:22.992Z",
+  "localOnly": true,
+  "publicationReady": false,
+  "releaseVersion": "9",
+  "hostedProductCount": 114,
+  "publishedProductsCount": 20,
+  "originalImportedIdsProtected": 100,
+  "newProductIds": [
+    "spiderwire-stealth-braid",
+    "stren-super-knot",
+    "stren-fluorocast",
+    "stren-sonic-braid",
+    "hi-seas-fluorocarbon",
+    "sufix-invisiline-fluorocarbon",
+    "sufix-calibr8",
+    "p-line-cxx-x-tra-strong",
+    "p-line-floroclear",
+    "p-line-cx-premium",
+    "p-line-tactical-fluorocarbon",
+    "p-line-halo-fluorocarbon",
+    "p-line-endurx-braid",
+    "p-line-tcb-8-braid"
+  ],
+  "newRowIds": [
+    "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+    "sufix-invisiline-fluorocarbon-fluorocarbon-20",
+    "stren-super-knot-monofilament-4",
+    "stren-super-knot-monofilament-14",
+    "stren-super-knot-monofilament-17",
+    "stren-fluorocast-fluorocarbon-4"
+  ],
+  "sourcePacks": [
+    {
+      "file": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    {
+      "file": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+      "sha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
+      "reviewFile": "reports/resolution-integration/group-e-final-review.json",
+      "reviewSha256": "5d2c42240f4356d25ac16c735f9256148bb2b2496683940591ebd486af9e7aee"
+    }
+  ],
+  "originalSourcePacks": [
+    {
+      "file": "research/line-pages/full-catalog/group-main/pack.json",
+      "sha256": "1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-a/pack.json",
+      "sha256": "b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-b/pack.json",
+      "sha256": "3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-c/pack.json",
+      "sha256": "cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-d/pack.json",
+      "sha256": "45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd",
+      "unchanged": true
+    },
+    {
+      "file": "research/line-pages/full-catalog/group-e/pack.json",
+      "sha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+      "unchanged": true
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sourcePackSha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "productSha256": "d4199951f1f66f9e3f5fbfd05df8bcbc3fb774b53606a13e59d4c8680333c73c",
+      "lineIds": [
+        "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-6",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-10",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-12",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-14",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-17",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-20"
+      ],
+      "excludedLineIds": [],
+      "image": "assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "imageSha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a"
+    },
+    {
+      "id": "sufix-calibr8",
+      "sourcePack": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sourcePackSha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "45aba9eb9f15fc145808ff2c9c02bfdcc27bc225168109b322c7459a44149c33",
+      "productSha256": "62fa522d0709a203822dab0e297362ed7667f9a1731c5f60ae9c28ac1198e499",
+      "lineIds": [
+        "sufix-calibr8-braid-15"
+      ],
+      "excludedLineIds": [
+        "sufix-calibr8-braid-6",
+        "sufix-calibr8-braid-8",
+        "sufix-calibr8-braid-10",
+        "sufix-calibr8-braid-20",
+        "sufix-calibr8-braid-30",
+        "sufix-calibr8-braid-40",
+        "sufix-calibr8-braid-50",
+        "sufix-calibr8-braid-65",
+        "sufix-calibr8-braid-80"
+      ],
+      "image": "assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "imageSha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef"
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "7c6e517f1dd50d2092eec88995cd6d91928745a596bafec3e39aa00fe9856dc0",
+      "productSha256": "8cedde141a3b0b3498cf59676a0e90875bf26319dfe729132dd525e19738aa3e",
+      "lineIds": [
+        "spiderwire-stealth-braid-braid-50",
+        "spiderwire-stealth-braid-braid-65"
+      ],
+      "excludedLineIds": [
+        "spiderwire-stealth-braid-braid-10",
+        "spiderwire-stealth-braid-braid-15",
+        "spiderwire-stealth-braid-braid-20",
+        "spiderwire-stealth-braid-braid-30"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "imageSha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea"
+    },
+    {
+      "id": "stren-super-knot",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "productSha256": "1440fb8a17ecae65432d23ebb96230d546ef5add165d044d38a9cbecd2720e4e",
+      "lineIds": [
+        "stren-super-knot-monofilament-4",
+        "stren-super-knot-monofilament-6",
+        "stren-super-knot-monofilament-8",
+        "stren-super-knot-monofilament-10",
+        "stren-super-knot-monofilament-12",
+        "stren-super-knot-monofilament-14",
+        "stren-super-knot-monofilament-17",
+        "stren-super-knot-monofilament-20"
+      ],
+      "excludedLineIds": [
+        "stren-super-knot-monofilament-15"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "imageSha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743"
+    },
+    {
+      "id": "stren-fluorocast",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "productSha256": "bc1d773ce4e6e9ea49b8d5a8a8fd0c5a5908d9c7fda4d7fb44fe56c53f5bd64d",
+      "lineIds": [
+        "stren-fluorocast-fluorocarbon-4",
+        "stren-fluorocast-fluorocarbon-6",
+        "stren-fluorocast-fluorocarbon-8",
+        "stren-fluorocast-fluorocarbon-10",
+        "stren-fluorocast-fluorocarbon-12",
+        "stren-fluorocast-fluorocarbon-15",
+        "stren-fluorocast-fluorocarbon-17"
+      ],
+      "excludedLineIds": [
+        "stren-fluorocast-fluorocarbon-20"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "imageSha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd"
+    },
+    {
+      "id": "stren-sonic-braid",
+      "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "e09655696695aa41f74fda91b749223d194b1d6b41dd1c894852ed609d8230b3",
+      "productSha256": "e11244a9532549793aa97f2aa87593cdd9f01a0895101c4e235f1467e02b5d23",
+      "lineIds": [
+        "stren-sonic-braid-braid-40"
+      ],
+      "excludedLineIds": [
+        "stren-sonic-braid-braid-10",
+        "stren-sonic-braid-braid-20",
+        "stren-sonic-braid-braid-30",
+        "stren-sonic-braid-braid-50",
+        "stren-sonic-braid-braid-65"
+      ],
+      "image": "assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "imageSha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4"
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "6ddca9ef1868ff27de47cdac553b9f6afbd4f178e1c945ef19dc084b33729628",
+      "productSha256": "d0fc227bf4df141170e64c74da65dcb56bab1a858b0b558e6a326d9840f43f06",
+      "lineIds": [
+        "p-line-cxx-x-tra-strong-copolymer-10",
+        "p-line-cxx-x-tra-strong-copolymer-12"
+      ],
+      "excludedLineIds": [
+        "p-line-cxx-x-tra-strong-copolymer-6",
+        "p-line-cxx-x-tra-strong-copolymer-8",
+        "p-line-cxx-x-tra-strong-copolymer-15",
+        "p-line-cxx-x-tra-strong-copolymer-17",
+        "p-line-cxx-x-tra-strong-copolymer-20",
+        "p-line-cxx-x-tra-strong-copolymer-25",
+        "p-line-cxx-x-tra-strong-copolymer-30"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "imageSha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f"
+    },
+    {
+      "id": "p-line-floroclear",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "faacbaf869108eae2408e2f1481caf9fad7125215c543d02bbb68dadbf49783d",
+      "productSha256": "1ef9edb15266eaa3d4982803db161fb248fda82a1944de02c302ae8a299ec4f0",
+      "lineIds": [
+        "p-line-floroclear-copolymer-10",
+        "p-line-floroclear-copolymer-12"
+      ],
+      "excludedLineIds": [
+        "p-line-floroclear-copolymer-4",
+        "p-line-floroclear-copolymer-5",
+        "p-line-floroclear-copolymer-6",
+        "p-line-floroclear-copolymer-8",
+        "p-line-floroclear-copolymer-15",
+        "p-line-floroclear-copolymer-20",
+        "p-line-floroclear-copolymer-25",
+        "p-line-floroclear-copolymer-30"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "imageSha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942"
+    },
+    {
+      "id": "p-line-cx-premium",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "1f2da7f64f5815c001dba2b0515fdbf1e20d37c69c1387ee84afc33cee897334",
+      "productSha256": "08d91dcb6dce2e50fb465e8eb23ce4a2872f37b5876f1b711f763826048e6497",
+      "lineIds": [
+        "p-line-cx-premium-copolymer-6",
+        "p-line-cx-premium-copolymer-8"
+      ],
+      "excludedLineIds": [
+        "p-line-cx-premium-copolymer-10",
+        "p-line-cx-premium-copolymer-12",
+        "p-line-cx-premium-copolymer-15",
+        "p-line-cx-premium-copolymer-17"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "imageSha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61"
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "99143d666228029b5fe0107cd0744c611291983ee04d988a29d6df1c1895df09",
+      "productSha256": "14a1516d0bd4dc3199448e35dae33ed6abeddbc22667718728a7fca7415d75ae",
+      "lineIds": [
+        "p-line-tactical-fluorocarbon-fluorocarbon-15"
+      ],
+      "excludedLineIds": [
+        "p-line-tactical-fluorocarbon-fluorocarbon-6",
+        "p-line-tactical-fluorocarbon-fluorocarbon-8",
+        "p-line-tactical-fluorocarbon-fluorocarbon-10",
+        "p-line-tactical-fluorocarbon-fluorocarbon-12",
+        "p-line-tactical-fluorocarbon-fluorocarbon-17",
+        "p-line-tactical-fluorocarbon-fluorocarbon-20"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "imageSha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8"
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "8cdbe1ca7ac46e5b5140e4e5510de25f7d774d637a7a6e20bf8a98737dbfe7d2",
+      "productSha256": "f010790d79f7879d513702a3aff0289ced17bbf1628f4f7e8f3f43d1c57dc1a1",
+      "lineIds": [
+        "p-line-halo-fluorocarbon-fluorocarbon-6",
+        "p-line-halo-fluorocarbon-fluorocarbon-8",
+        "p-line-halo-fluorocarbon-fluorocarbon-10"
+      ],
+      "excludedLineIds": [
+        "p-line-halo-fluorocarbon-fluorocarbon-12",
+        "p-line-halo-fluorocarbon-fluorocarbon-15",
+        "p-line-halo-fluorocarbon-fluorocarbon-17",
+        "p-line-halo-fluorocarbon-fluorocarbon-20"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "imageSha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3"
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "193c39a561f1275693f7b68db7fee07dab67f5b8fee5792ae4d8a8ba932f13ef",
+      "productSha256": "5f2e65529f1751205e901e25b6636c4b7691e765bf839c8474e4efd5319d3a7b",
+      "lineIds": [
+        "p-line-endurx-braid-braid-20",
+        "p-line-endurx-braid-braid-30"
+      ],
+      "excludedLineIds": [
+        "p-line-endurx-braid-braid-10",
+        "p-line-endurx-braid-braid-40",
+        "p-line-endurx-braid-braid-50",
+        "p-line-endurx-braid-braid-15",
+        "p-line-endurx-braid-braid-65",
+        "p-line-endurx-braid-braid-80"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "imageSha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7"
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "4bc6b9f34d0b801c3a886c547ee01df4776c5ffb0491b3429996a81e4753fdca",
+      "productSha256": "ed82a07dc21244f9639d2f483ae24829e3f286b301b72f4b3aa6b4625f957da1",
+      "lineIds": [
+        "p-line-tcb-8-braid-braid-20",
+        "p-line-tcb-8-braid-braid-50"
+      ],
+      "excludedLineIds": [
+        "p-line-tcb-8-braid-braid-10",
+        "p-line-tcb-8-braid-braid-30",
+        "p-line-tcb-8-braid-braid-40",
+        "p-line-tcb-8-braid-braid-15",
+        "p-line-tcb-8-braid-braid-65"
+      ],
+      "image": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "imageSha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6"
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "sourcePack": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+      "sourcePackSha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
+      "modelSha256": "fbbb8a043ab765e14859b5e93226146ec0c269021fbf12a21ccd2c05d46b2428",
+      "productSha256": "260d9329632429e6be896540b60c689708dfc8dda695cde28d714e1049c26ac2",
+      "lineIds": [
+        "hi-seas-fluorocarbon-fluorocarbon-25"
+      ],
+      "excludedLineIds": [
+        "hi-seas-fluorocarbon-fluorocarbon-10",
+        "hi-seas-fluorocarbon-fluorocarbon-12",
+        "hi-seas-fluorocarbon-fluorocarbon-15",
+        "hi-seas-fluorocarbon-fluorocarbon-20",
+        "hi-seas-fluorocarbon-fluorocarbon-30"
+      ],
+      "image": "assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "imageSha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+    }
+  ],
+  "phaseOneProof": {
+    "file": "reports/resolution-integration/phase-one-verification.json",
+    "sha256": "a466bd875dda3d503fe8fdfb223810a4b5212d7cad84a8ebb99be4780e83315c"
+  },
+  "copyCleanup": {
+    "models": [
+      "sufix-832-advanced-superline",
+      "sufix-promix-braid",
+      "sufix-performance-braid",
+      "sufix-elite",
+      "sufix-advance-mono",
+      "sufix-advance-fluorocarbon",
+      "spro-finesse-braid-8x",
+      "spro-essential-bronzeye-8x",
+      "spro-cast-control-8x",
+      "spro-depth-control-8x",
+      "spro-gouken-flc",
+      "spro-rai-jin-premium-fluorocarbon",
+      "yo-zuri-hybrid",
+      "yo-zuri-hybrid-ice-line",
+      "yo-zuri-t-7-premium-fluorocarbon",
+      "yo-zuri-topknot-mainline",
+      "yo-zuri-superbraid",
+      "yo-zuri-superbraid-9",
+      "spro-finesse-fluorocarbon-leader",
+      "yo-zuri-topknot-leader",
+      "yo-zuri-superfluoro-leader",
+      "yo-zuri-h-d-carbon-leader",
+      "daiwa-j-braid-x4",
+      "seaguar-basix",
+      "shimano-kairiki-8",
+      "cortland-fluorocarbon-leader",
+      "gamma-fluorocarbon-leader",
+      "kastking-fluorokote"
+    ],
+    "fields": 53,
+    "overlaySha256": "31224dc521eb9292671190a21422f32fbd6444d93259eaaa27b4329a2b9591ca",
+    "report": "reports/resolution-integration/original80-copy-cleanup.json",
+    "validation": "reports/resolution-integration/copy-cleanup-validation.json",
+    "nativePacket": "generated/line-pages/original80-copy-cleanup-native-content.json"
+  },
+  "draftImport": {
+    "file": "generated/line-pages/DRAFT-NOT-FOR-UPLOAD-14-new-line-guides.csv",
+    "sha256": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa",
+    "count": 14,
+    "importReady": false,
+    "excludesAllOriginal100": true,
+    "inventory": "generated/line-pages/resolution-import-inventory.json"
+  },
+  "runtimeChangeScope": {
+    "files": [
+      "js/line-database.js",
+      "js/line-database-tools.js",
+      "js/line-page-engine.js",
+      "js/line-selector.js",
+      "js/reel-page-calculator.js",
+      "js/wizard.js",
+      "examples/reel-comparison.js"
+    ],
+    "purpose": "Show exact historical/region/SKU context only on the 42 source-scoped rows. Keep unscoped labels, grouping identities and all numerical formulas unchanged.",
+    "comparisonAndSelector": "Shared selector adds scopedProductLabel and makes scope searchable; productKey/productLabel grouping unchanged. Comparison selection, search, strength detail and results retain scope.",
+    "databaseHandoff": "Plain model identity retained in row.dataset.lineModel; recordForRow excludes visible scope from identity, retains scope in manual calculator name, and preserves exact Wizard row ID.",
+    "examples": "Source configs preserve every reviewed reel/line/working-length pair. Gold capacity mode uses the selected strength for each reel, so duplicate reel cards are filtered at render time only. Stealth keeps two source pairs (50/65 lb on the same SLX), renders one selected-strength capacity card; working-plan mode still renders both pairs.",
+    "proof": "reports/resolution-integration/cross-tool-scope-tests.json"
+  },
+  "tests": "reports/resolution-integration/tests.json",
+  "changedFiles": "reports/resolution-integration/changed-files.json",
+  "changedFilesSha256": "f51f6c21db33a0df59d01eedc20610d54ec2760bba29366012e9ade6a7d0dd0b",
+  "requiredAssets": [
+    {
+      "file": "assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "sha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a",
+      "existedAtBaseline": false
+    },
+    {
+      "file": "assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "sha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef",
+      "existedAtBaseline": false
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "sha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea",
+      "existedAtBaseline": false
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "sha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743",
+      "existedAtBaseline": false
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "sha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd",
+      "existedAtBaseline": false
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "sha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+      "existedAtBaseline": false
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "sha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "sha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "sha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "sha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "sha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "sha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6",
+      "existedAtBaseline": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "sha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3",
+      "existedAtBaseline": false
+    }
+  ],
+  "warnings": [
+    "No browser, server, git staging, commit, push, deployment, native import or publication was performed.",
+    "All new14 and copy-edited28 require main browser checks. Existing native fallback copy has NOT been changed remotely.",
+    "Original 80 CSV, original import inventory and manual-publish-content.json are byte-unchanged. Never reimport those 100 IDs.",
+    "The prepared registry contains 114 entries but imported-products.json intentionally remains the confirmed 100. Add new IDs only after main confirms a real native import.",
+    "Two legacy regression fixtures already fail before this integration; details in tests.json. Required new-guide, trust and cross-tool checks pass.",
+    "Daiwa generic J-Braid X8 and Shimano Kairiki G5 remain held and absent from release products.",
+    "Do not include whole research folders in a web release. E catalog PDF exceeds 100 MB; only the exact candidate images belong in assets."
+  ]
+}

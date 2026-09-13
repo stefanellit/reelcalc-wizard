@@ -1,0 +1,961 @@
+{
+  "schemaVersion": 1,
+  "overlayId": "original80-copy-cleanup-2026-09-13",
+  "createdAt": "2026-09-13T16:30:56.442Z",
+  "state": "prepared-not-applied",
+  "sourceSnapshot": {
+    "path": "data/line-page-products.json",
+    "sha256": "083ff8fbaa69b7927870d52539b5ebd156b05d24f3cbaa2b2c457833b61c17a6",
+    "productCount": 114,
+    "hashPolicy": "Informational only. Exact per-field before/after and model identity guards permit unrelated integration changes."
+  },
+  "findingReport": {
+    "path": "research/line-pages/full-catalog/resolution-independent-review/original80-editorial-spotcheck.md",
+    "sha256": "a11c149559ae778acc0082dc97c6ec416a0f50c1d2a1827863e9ddfb91bce9da"
+  },
+  "original80Inventory": {
+    "path": "generated/line-pages/import-inventory.json",
+    "sha256": "cabc5c71bb8386d14cee7eb814f6d5eb656d5efcf62a31d83aacf6e4b539c69b",
+    "importFile": "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv"
+  },
+  "scope": {
+    "original80ProductIds": [
+      "daiwa-j-braid-x4",
+      "daiwa-j-braid-grand-x8",
+      "seaguar-basix",
+      "sunline-crank-fc",
+      "xbraid-x9-fulldrag-braid",
+      "sunline-shooter-bms-azayaka-ny",
+      "sufix-832-advanced-superline",
+      "sufix-promix-braid",
+      "sufix-performance-braid",
+      "sufix-elite",
+      "sufix-advance-mono",
+      "sufix-advance-fluorocarbon",
+      "gamma-edge-fluorocarbon",
+      "cast-fishing-co-x12-frog-flip-braid",
+      "rhino-hide-camo-braid",
+      "rhino-hide-camo-monofilament",
+      "berkley-trilene-big-game",
+      "berkley-vanish",
+      "berkley-x9-braid",
+      "berkley-x5-braid",
+      "daiwa-j-fluoro-samurai",
+      "shimano-mastiff-fc",
+      "shimano-kairiki-8",
+      "shimano-kairiki-4",
+      "shimano-grappler-8",
+      "shimano-ocea-ex-fluorocarbon-leader",
+      "seaguar-jdm-grand-max-leader",
+      "spro-finesse-braid-8x",
+      "spro-essential-bronzeye-8x",
+      "spro-cast-control-8x",
+      "spro-depth-control-8x",
+      "spro-gouken-flc",
+      "spro-rai-jin-premium-fluorocarbon",
+      "yo-zuri-hybrid",
+      "yo-zuri-hybrid-ice-line",
+      "yo-zuri-t-7-premium-fluorocarbon",
+      "yo-zuri-topknot-mainline",
+      "yo-zuri-superbraid",
+      "yo-zuri-superbraid-9",
+      "spiderwire-ultracast-braid",
+      "cortland-master-braid",
+      "cortland-fluorocarbon-leader",
+      "gamma-touch-fluorocarbon",
+      "gamma-torque-braid",
+      "gamma-polyflex",
+      "gamma-fluorocarbon-leader",
+      "maxima-ultragreen",
+      "maxima-chameleon",
+      "maxima-clear",
+      "maxima-crystal-ivory",
+      "maxima-fluorocarbon",
+      "maxima-braid-8",
+      "ande-premium-monofilament",
+      "ande-tournament-monofilament",
+      "ande-fluorocarbon-leader",
+      "hi-seas-grand-slam-monofilament",
+      "hi-seas-quattro-fluorocarbon",
+      "hi-seas-braid",
+      "kastking-fluorokote",
+      "reaction-tackle-braid",
+      "reaction-tackle-fluorocarbon",
+      "reaction-tackle-monofilament",
+      "reaction-tackle-ice-braid",
+      "vicious-fluorocarbon",
+      "vicious-pro-elite-fluorocarbon",
+      "vicious-braid",
+      "vicious-panfish-hi-vis-mono",
+      "spro-finesse-fluorocarbon-leader",
+      "yo-zuri-topknot-leader",
+      "yo-zuri-superfluoro-leader",
+      "yo-zuri-h-d-carbon-leader",
+      "stren-original",
+      "stren-magnathin",
+      "ande-braid",
+      "spiderwire-ultracast-ultimate-mono",
+      "stren-high-impact",
+      "stren-crappie-mono",
+      "berkley-trilene-xt",
+      "berkley-100-fluorocarbon",
+      "berkley-forward-finesse-braid"
+    ],
+    "targetProductIds": [
+      "sufix-832-advanced-superline",
+      "sufix-promix-braid",
+      "sufix-performance-braid",
+      "sufix-elite",
+      "sufix-advance-mono",
+      "sufix-advance-fluorocarbon",
+      "spro-finesse-braid-8x",
+      "spro-essential-bronzeye-8x",
+      "spro-cast-control-8x",
+      "spro-depth-control-8x",
+      "spro-gouken-flc",
+      "spro-rai-jin-premium-fluorocarbon",
+      "yo-zuri-hybrid",
+      "yo-zuri-hybrid-ice-line",
+      "yo-zuri-t-7-premium-fluorocarbon",
+      "yo-zuri-topknot-mainline",
+      "yo-zuri-superbraid",
+      "yo-zuri-superbraid-9",
+      "spro-finesse-fluorocarbon-leader",
+      "yo-zuri-topknot-leader",
+      "yo-zuri-superfluoro-leader",
+      "yo-zuri-h-d-carbon-leader",
+      "daiwa-j-braid-x4",
+      "seaguar-basix",
+      "shimano-kairiki-8",
+      "cortland-fluorocarbon-leader",
+      "gamma-fluorocarbon-leader",
+      "kastking-fluorokote"
+    ],
+    "internalDatabaseCaseIds": [
+      "daiwa-j-braid-x4",
+      "seaguar-basix",
+      "shimano-kairiki-8",
+      "cortland-fluorocarbon-leader",
+      "gamma-fluorocarbon-leader",
+      "kastking-fluorokote"
+    ],
+    "groupBProductIds": [
+      "sufix-832-advanced-superline",
+      "sufix-promix-braid",
+      "sufix-performance-braid",
+      "sufix-elite",
+      "sufix-advance-mono",
+      "sufix-advance-fluorocarbon",
+      "spro-finesse-braid-8x",
+      "spro-essential-bronzeye-8x",
+      "spro-cast-control-8x",
+      "spro-depth-control-8x",
+      "spro-gouken-flc",
+      "spro-rai-jin-premium-fluorocarbon",
+      "yo-zuri-hybrid",
+      "yo-zuri-hybrid-ice-line",
+      "yo-zuri-t-7-premium-fluorocarbon",
+      "yo-zuri-topknot-mainline",
+      "yo-zuri-superbraid",
+      "yo-zuri-superbraid-9",
+      "spro-finesse-fluorocarbon-leader",
+      "yo-zuri-topknot-leader",
+      "yo-zuri-superfluoro-leader",
+      "yo-zuri-h-d-carbon-leader"
+    ],
+    "leaderCapacityNoteIds": [
+      "spro-finesse-fluorocarbon-leader",
+      "yo-zuri-topknot-leader",
+      "yo-zuri-superfluoro-leader",
+      "yo-zuri-h-d-carbon-leader"
+    ],
+    "counts": {
+      "original80Models": 80,
+      "targetedModels": 28,
+      "changedFields": 53,
+      "categories": {
+        "group-b-source-note": {
+          "fields": 38,
+          "models": 22
+        },
+        "internal-database-copy": {
+          "fields": 10,
+          "models": 6
+        },
+        "leader-capacity-note": {
+          "fields": 4,
+          "models": 4
+        },
+        "leader-chart-question": {
+          "fields": 1,
+          "models": 1
+        }
+      }
+    },
+    "qualification": "Implements explicit spot-check findings plus the same BasiX source-note and Gamma FAQ echoes. Not a fresh full-80 review or a broad copy rewrite."
+  },
+  "preservation": [
+    "Every numeric token in each edited before/after field is identical and in the same order.",
+    "Only the listed public string leaves change; all IDs, roles, ratings, defaults, exclusions, package data, metadata and source links remain unchanged.",
+    "Historical/region scope, no-stock/no-hands-on qualifications, image captions and nominal-versus-actual-break warnings remain unchanged unless explicitly restated with the same meaning in a listed leaf.",
+    "Original packs, non-rendered fallback copies, shared scripts, CSV imports, release files and hosted/native pages are outside this overlay application."
+  ],
+  "identityGuards": {
+    "sufix-832-advanced-superline": {
+      "brand": "Sufix",
+      "model": "832 Advanced Superline",
+      "slug": "sufix-832-advanced-superline-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "sufix-promix-braid": {
+      "brand": "Sufix",
+      "model": "ProMix Braid",
+      "slug": "sufix-promix-braid-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "sufix-performance-braid": {
+      "brand": "Sufix",
+      "model": "Performance Braid",
+      "slug": "sufix-performance-braid-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "sufix-elite": {
+      "brand": "Sufix",
+      "model": "Elite",
+      "slug": "sufix-elite-diameter-capacity-guide",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "sufix-advance-mono": {
+      "brand": "Sufix",
+      "model": "Advance Mono",
+      "slug": "sufix-advance-mono-diameter-capacity-guide",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "sufix-advance-fluorocarbon": {
+      "brand": "Sufix",
+      "model": "Advance Fluorocarbon",
+      "slug": "sufix-advance-fluorocarbon-diameter-capacity-guide",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-finesse-braid-8x": {
+      "brand": "SPRO",
+      "model": "Finesse Braid 8X",
+      "slug": "spro-finesse-braid-8x-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-essential-bronzeye-8x": {
+      "brand": "SPRO",
+      "model": "Essential Bronzeye 8X",
+      "slug": "spro-essential-bronzeye-8x-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-cast-control-8x": {
+      "brand": "SPRO",
+      "model": "Cast Control 8X",
+      "slug": "spro-cast-control-8x-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-depth-control-8x": {
+      "brand": "SPRO",
+      "model": "Depth Control 8X",
+      "slug": "spro-depth-control-8x-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-gouken-flc": {
+      "brand": "SPRO",
+      "model": "Gouken FLC",
+      "slug": "spro-gouken-flc-diameter-capacity-guide",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-rai-jin-premium-fluorocarbon": {
+      "brand": "SPRO",
+      "model": "Rai-Jin Premium Fluorocarbon",
+      "slug": "spro-rai-jin-premium-fluorocarbon-diameter-capacity-guide",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "yo-zuri-hybrid": {
+      "brand": "Yo-Zuri",
+      "model": "Hybrid",
+      "slug": "yo-zuri-hybrid-diameter-capacity-guide",
+      "lineType": "Copolymer",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "yo-zuri-hybrid-ice-line": {
+      "brand": "Yo-Zuri",
+      "model": "Hybrid Ice Line",
+      "slug": "yo-zuri-hybrid-ice-line-diameter-capacity-guide",
+      "lineType": "Copolymer",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "yo-zuri-t-7-premium-fluorocarbon": {
+      "brand": "Yo-Zuri",
+      "model": "T-7 Premium Fluorocarbon",
+      "slug": "yo-zuri-t-7-premium-fluorocarbon-diameter-capacity-guide",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "yo-zuri-topknot-mainline": {
+      "brand": "Yo-Zuri",
+      "model": "TopKnot MainLine",
+      "slug": "yo-zuri-topknot-mainline-diameter-capacity-guide",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "yo-zuri-superbraid": {
+      "brand": "Yo-Zuri",
+      "model": "SuperBraid",
+      "slug": "yo-zuri-superbraid-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "yo-zuri-superbraid-9": {
+      "brand": "Yo-Zuri",
+      "model": "SuperBraid 9",
+      "slug": "yo-zuri-superbraid-9-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "spro-finesse-fluorocarbon-leader": {
+      "brand": "SPRO",
+      "model": "Finesse Fluorocarbon Leader",
+      "slug": "spro-finesse-fluorocarbon-leader-diameter-capacity-guide",
+      "lineType": "Fluorocarbon Leader",
+      "role": "leader",
+      "presentation": "gold"
+    },
+    "yo-zuri-topknot-leader": {
+      "brand": "Yo-Zuri",
+      "model": "TopKnot Leader",
+      "slug": "yo-zuri-topknot-leader-diameter-capacity-guide",
+      "lineType": "Fluorocarbon Leader",
+      "role": "leader",
+      "presentation": "gold"
+    },
+    "yo-zuri-superfluoro-leader": {
+      "brand": "Yo-Zuri",
+      "model": "SuperFluoro Leader",
+      "slug": "yo-zuri-superfluoro-leader-diameter-capacity-guide",
+      "lineType": "Fluorocarbon Leader",
+      "role": "leader",
+      "presentation": "gold"
+    },
+    "yo-zuri-h-d-carbon-leader": {
+      "brand": "Yo-Zuri",
+      "model": "H.D. Carbon Leader",
+      "slug": "yo-zuri-h-d-carbon-leader-diameter-capacity-guide",
+      "lineType": "Fluorocarbon Leader",
+      "role": "leader",
+      "presentation": "gold"
+    },
+    "daiwa-j-braid-x4": {
+      "brand": "Daiwa",
+      "model": "J-Braid X4",
+      "slug": "daiwa-j-braid-x4-braid-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "seaguar-basix": {
+      "brand": "Seaguar",
+      "model": "Basix",
+      "slug": "seaguar-basix-fluorocarbon-diameter-capacity-guide",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "shimano-kairiki-8": {
+      "brand": "Shimano",
+      "model": "Kairiki 8",
+      "slug": "shimano-kairiki-8-braid-diameter-capacity-guide",
+      "lineType": "Braid",
+      "role": "mainline",
+      "presentation": "gold"
+    },
+    "cortland-fluorocarbon-leader": {
+      "brand": "Cortland",
+      "model": "Fluorocarbon Leader",
+      "slug": "cortland-fluorocarbon-leader-diameter-leader-guide",
+      "lineType": "Fluorocarbon Leader",
+      "role": "leader",
+      "presentation": "gold"
+    },
+    "gamma-fluorocarbon-leader": {
+      "brand": "Gamma",
+      "model": "Fluorocarbon Leader",
+      "slug": "gamma-fluorocarbon-leader-diameter-leader-guide",
+      "lineType": "Fluorocarbon Leader",
+      "role": "leader",
+      "presentation": "gold"
+    },
+    "kastking-fluorokote": {
+      "brand": "KastKing",
+      "model": "FluoroKote",
+      "slug": "kastking-fluorokote-diameter-capacity-guide",
+      "lineType": "Copolymer",
+      "role": "mainline",
+      "presentation": "gold"
+    }
+  },
+  "changes": [
+    {
+      "changeId": "original80-copy-001",
+      "productId": "sufix-832-advanced-superline",
+      "path": "/products/sufix-832-advanced-superline/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-002",
+      "productId": "sufix-promix-braid",
+      "path": "/products/sufix-promix-braid/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-003",
+      "productId": "sufix-performance-braid",
+      "path": "/products/sufix-performance-braid/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-004",
+      "productId": "sufix-elite",
+      "path": "/products/sufix-elite/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-005",
+      "productId": "sufix-advance-mono",
+      "path": "/products/sufix-advance-mono/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-006",
+      "productId": "sufix-advance-fluorocarbon",
+      "path": "/products/sufix-advance-fluorocarbon/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-007",
+      "productId": "spro-finesse-braid-8x",
+      "path": "/products/spro-finesse-braid-8x/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-008",
+      "productId": "spro-essential-bronzeye-8x",
+      "path": "/products/spro-essential-bronzeye-8x/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-009",
+      "productId": "spro-cast-control-8x",
+      "path": "/products/spro-cast-control-8x/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-010",
+      "productId": "spro-cast-control-8x",
+      "path": "/products/spro-cast-control-8x/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-011",
+      "productId": "spro-depth-control-8x",
+      "path": "/products/spro-depth-control-8x/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-012",
+      "productId": "spro-gouken-flc",
+      "path": "/products/spro-gouken-flc/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-013",
+      "productId": "spro-rai-jin-premium-fluorocarbon",
+      "path": "/products/spro-rai-jin-premium-fluorocarbon/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-014",
+      "productId": "spro-rai-jin-premium-fluorocarbon",
+      "path": "/products/spro-rai-jin-premium-fluorocarbon/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-015",
+      "productId": "yo-zuri-hybrid",
+      "path": "/products/yo-zuri-hybrid/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-016",
+      "productId": "yo-zuri-hybrid",
+      "path": "/products/yo-zuri-hybrid/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-017",
+      "productId": "yo-zuri-hybrid",
+      "path": "/products/yo-zuri-hybrid/sources/2/note",
+      "fieldPath": "sources[2].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-018",
+      "productId": "yo-zuri-hybrid-ice-line",
+      "path": "/products/yo-zuri-hybrid-ice-line/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-019",
+      "productId": "yo-zuri-t-7-premium-fluorocarbon",
+      "path": "/products/yo-zuri-t-7-premium-fluorocarbon/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-020",
+      "productId": "yo-zuri-topknot-mainline",
+      "path": "/products/yo-zuri-topknot-mainline/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-021",
+      "productId": "yo-zuri-topknot-mainline",
+      "path": "/products/yo-zuri-topknot-mainline/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-022",
+      "productId": "yo-zuri-superbraid",
+      "path": "/products/yo-zuri-superbraid/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-023",
+      "productId": "yo-zuri-superbraid",
+      "path": "/products/yo-zuri-superbraid/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-024",
+      "productId": "yo-zuri-superbraid",
+      "path": "/products/yo-zuri-superbraid/sources/2/note",
+      "fieldPath": "sources[2].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-025",
+      "productId": "yo-zuri-superbraid",
+      "path": "/products/yo-zuri-superbraid/sources/3/note",
+      "fieldPath": "sources[3].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-026",
+      "productId": "yo-zuri-superbraid",
+      "path": "/products/yo-zuri-superbraid/sources/4/note",
+      "fieldPath": "sources[4].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-027",
+      "productId": "yo-zuri-superbraid",
+      "path": "/products/yo-zuri-superbraid/sources/5/note",
+      "fieldPath": "sources[5].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-028",
+      "productId": "yo-zuri-superbraid-9",
+      "path": "/products/yo-zuri-superbraid-9/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-029",
+      "productId": "yo-zuri-superbraid-9",
+      "path": "/products/yo-zuri-superbraid-9/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-030",
+      "productId": "yo-zuri-superbraid-9",
+      "path": "/products/yo-zuri-superbraid-9/sources/2/note",
+      "fieldPath": "sources[2].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-031",
+      "productId": "spro-finesse-fluorocarbon-leader",
+      "path": "/products/spro-finesse-fluorocarbon-leader/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-032",
+      "productId": "yo-zuri-topknot-leader",
+      "path": "/products/yo-zuri-topknot-leader/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-033",
+      "productId": "yo-zuri-topknot-leader",
+      "path": "/products/yo-zuri-topknot-leader/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-034",
+      "productId": "yo-zuri-topknot-leader",
+      "path": "/products/yo-zuri-topknot-leader/sources/2/note",
+      "fieldPath": "sources[2].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-035",
+      "productId": "yo-zuri-superfluoro-leader",
+      "path": "/products/yo-zuri-superfluoro-leader/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-036",
+      "productId": "yo-zuri-h-d-carbon-leader",
+      "path": "/products/yo-zuri-h-d-carbon-leader/sources/0/note",
+      "fieldPath": "sources[0].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-037",
+      "productId": "yo-zuri-h-d-carbon-leader",
+      "path": "/products/yo-zuri-h-d-carbon-leader/sources/1/note",
+      "fieldPath": "sources[1].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-038",
+      "productId": "yo-zuri-h-d-carbon-leader",
+      "path": "/products/yo-zuri-h-d-carbon-leader/sources/2/note",
+      "fieldPath": "sources[2].note",
+      "before": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack.",
+      "after": "Exact numeric rows, package identity and model positioning.",
+      "category": "group-b-source-note",
+      "reason": "Remove only the internal research-pack sentence; retain source scope, label and URL."
+    },
+    {
+      "changeId": "original80-copy-039",
+      "productId": "daiwa-j-braid-x4",
+      "path": "/products/daiwa-j-braid-x4/strengthGuide/0",
+      "fieldPath": "strengthGuide[0]",
+      "before": "The verified 10 lb X4 is .007 inch / .17 mm. The old catalog entry of .006 inch must not be reused for this model merely because it matches a different J-Braid.",
+      "after": "For a 10 lb X4 fill, use its listed .007 inch / .17 mm diameter when estimating reel capacity. A .006 inch figure from a different J-Braid model is not interchangeable.",
+      "category": "internal-database-copy",
+      "reason": "Make the opening useful for capacity planning without recommending a fishing strength; preserve all listed values and model distinction."
+    },
+    {
+      "changeId": "original80-copy-040",
+      "productId": "seaguar-basix",
+      "path": "/products/seaguar-basix/spoolingGuide/0/text",
+      "fieldPath": "spoolingGuide[0].text",
+      "before": "Use 200 yards for the verified 4, 8, 10, 12, and 15 lb SKUs, and 175 yards for 20 lb. The source also generates empty-SKU combinations; those are not offered here.",
+      "after": "The verified packages are 200 yards for 4, 8, 10, 12, and 15 lb, and 175 yards for 20 lb. Other strength-and-length combinations are not included in this guide.",
+      "category": "internal-database-copy",
+      "reason": "State exact supported packages without describing the source system; the separate six-pound exclusion is unchanged."
+    },
+    {
+      "changeId": "original80-copy-041",
+      "productId": "seaguar-basix",
+      "path": "/products/seaguar-basix/faqs/1/answer",
+      "fieldPath": "faqs[1].answer",
+      "before": "The menu has combinations, but exact assigned SKUs only substantiate 200 yards through 15 lb and 175 yards at 20 lb. Empty-SKU combinations are excluded.",
+      "after": "For the strengths included in this guide, verified packages are 200 yards through 15 lb and 175 yards at 20 lb. Other strength-and-length combinations have not been verified here.",
+      "category": "internal-database-copy",
+      "reason": "Describe the verified range without claiming every possible package is unavailable or restoring the excluded six-pound strength."
+    },
+    {
+      "changeId": "original80-copy-042",
+      "productId": "seaguar-basix",
+      "path": "/products/seaguar-basix/sourceNote",
+      "fieldPath": "sourceNote",
+      "before": "Checked 2026-09-13 against Seaguar's product and public variant response. Empty-SKU combinations excluded. Six-pound discrepancy documented; no silent diameter conversion overrides it.",
+      "after": "Checked 2026-09-13 against Seaguar's product page and listed package options. Only verified strength-and-length combinations are included. The six-pound diameter discrepancy remains unresolved; no converted value replaces either published figure.",
+      "category": "internal-database-copy",
+      "reason": "Remove the same empty-SKU wording in the source note while preserving the review date, verified-package limitation and unresolved diameter pair."
+    },
+    {
+      "changeId": "original80-copy-043",
+      "productId": "shimano-kairiki-8",
+      "path": "/products/shimano-kairiki-8/sourceNote",
+      "fieldPath": "sourceNote",
+      "before": "Checked 2026-09-13. Australian and European tables reviewed independently. This is not a cross-region diameter join; only the complete Australian bulk rows are candidates.",
+      "after": "Checked 2026-09-13. Australian and European tables were reviewed separately. This chart covers only the complete Australian bulk specifications; European specifications and shorter filler-package diameters are not substituted.",
+      "category": "internal-database-copy",
+      "reason": "Replace join/candidate language with the same regional and complete-bulk-only scope. Existing 3,000-meter identification remains unchanged elsewhere."
+    },
+    {
+      "changeId": "original80-copy-044",
+      "productId": "cortland-fluorocarbon-leader",
+      "path": "/products/cortland-fluorocarbon-leader/faqs/2/answer",
+      "fieldPath": "faqs[2].answer",
+      "before": "The official chart lists 16 lb instead. The old 15 lb record is held, and the verified 16 lb row receives its own ID.",
+      "after": "The official chart lists 16 lb instead. It does not verify a 15 lb option; the 16 lb specification must not be relabelled.",
+      "category": "internal-database-copy",
+      "reason": "Explain the source-backed strength identity, not the database ID operation. Other exclusions and stock limitations remain unchanged."
+    },
+    {
+      "changeId": "original80-copy-045",
+      "productId": "gamma-fluorocarbon-leader",
+      "path": "/products/gamma-fluorocarbon-leader/strengthGuide/1",
+      "fieldPath": "strengthGuide[1]",
+      "before": "The next steps include 12 and 16 lb. No matching 15 lb U.S.-size leader appears in the reviewed current tables, so that legacy ID is excluded rather than renamed.",
+      "after": "The next steps include 12 and 16 lb. The reviewed current tables do not list a 15 lb U.S.-size leader; a nearby strength is not an interchangeable label.",
+      "category": "internal-database-copy",
+      "reason": "Keep the reviewed-table and nominal U.S.-size limitations without legacy-ID instructions."
+    },
+    {
+      "changeId": "original80-copy-046",
+      "productId": "gamma-fluorocarbon-leader",
+      "path": "/products/gamma-fluorocarbon-leader/suitabilitySummary",
+      "fieldPath": "suitabilitySummary",
+      "before": "Choose it for the terminal section between the actual main line and the lure, bait or fly. Decide on leader diameter, connection and finished length for the presentation and cover; the main line determines spool capacity. The official range uses 16 lb, not the 15 lb legacy label.",
+      "after": "Choose it for the terminal section between the actual main line and the lure, bait or fly. Decide on leader diameter, connection and finished length for the presentation and cover; the main line determines spool capacity. The official range lists 16 lb, not 15 lb.",
+      "category": "internal-database-copy",
+      "reason": "Remove legacy-label wording only; retain terminal use and mainline/leader distinction."
+    },
+    {
+      "changeId": "original80-copy-047",
+      "productId": "gamma-fluorocarbon-leader",
+      "path": "/products/gamma-fluorocarbon-leader/faqs/0/answer",
+      "fieldPath": "faqs[0].answer",
+      "before": "The reviewed official U.S.-size table uses 16 lb, not 15 lb. The legacy 15 lb ID remains held rather than being relabeled.",
+      "after": "The reviewed official U.S.-size table uses 16 lb, not 15 lb. A 15 lb option is not verified by that table and is not included in this guide.",
+      "category": "internal-database-copy",
+      "reason": "Remove the repeated legacy-ID explanation in the same model case; do not broaden the claim beyond the reviewed U.S. table."
+    },
+    {
+      "changeId": "original80-copy-048",
+      "productId": "kastking-fluorokote",
+      "path": "/products/kastking-fluorokote/chartNote",
+      "fieldPath": "chartNote",
+      "before": "Exact current 300-yard FluoroKote variants matched to the manufacturer chart. This is Copolymer, not pure Fluorocarbon; existing catalog IDs retain their historical suffix.",
+      "after": "Exact current 300-yard FluoroKote variants matched to the manufacturer chart. This is Copolymer, not pure Fluorocarbon.",
+      "category": "internal-database-copy",
+      "reason": "Remove only the historical-ID suffix clause. Construction, source scope and all actual IDs stay unchanged."
+    },
+    {
+      "changeId": "original80-copy-049",
+      "productId": "spro-finesse-fluorocarbon-leader",
+      "path": "/products/spro-finesse-fluorocarbon-leader/reviewNote",
+      "fieldPath": "reviewNote",
+      "before": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "after": "Specification-based guidance, not a ReelCalc hands-on performance test.",
+      "category": "leader-capacity-note",
+      "reason": "Remove the capacity-results sentence from this leader-only page; preserve the not-hands-on disclaimer."
+    },
+    {
+      "changeId": "original80-copy-050",
+      "productId": "yo-zuri-topknot-leader",
+      "path": "/products/yo-zuri-topknot-leader/reviewNote",
+      "fieldPath": "reviewNote",
+      "before": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "after": "Specification-based guidance, not a ReelCalc hands-on performance test.",
+      "category": "leader-capacity-note",
+      "reason": "Remove the capacity-results sentence from this leader-only page; preserve the not-hands-on disclaimer."
+    },
+    {
+      "changeId": "original80-copy-051",
+      "productId": "yo-zuri-superfluoro-leader",
+      "path": "/products/yo-zuri-superfluoro-leader/reviewNote",
+      "fieldPath": "reviewNote",
+      "before": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "after": "Specification-based guidance, not a ReelCalc hands-on performance test.",
+      "category": "leader-capacity-note",
+      "reason": "Remove the capacity-results sentence from this leader-only page; preserve the not-hands-on disclaimer."
+    },
+    {
+      "changeId": "original80-copy-052",
+      "productId": "yo-zuri-h-d-carbon-leader",
+      "path": "/products/yo-zuri-h-d-carbon-leader/reviewNote",
+      "fieldPath": "reviewNote",
+      "before": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "after": "Specification-based guidance, not a ReelCalc hands-on performance test.",
+      "category": "leader-capacity-note",
+      "reason": "Remove the capacity-results sentence from this leader-only page; preserve the not-hands-on disclaimer."
+    },
+    {
+      "changeId": "original80-copy-053",
+      "productId": "yo-zuri-h-d-carbon-leader",
+      "path": "/products/yo-zuri-h-d-carbon-leader/faqs/3/question",
+      "fieldPath": "faqs[3].question",
+      "before": "Why is the 300 lb row not calculator-ready?",
+      "after": "Why is 300 lb omitted from the leader chart?",
+      "category": "leader-chart-question",
+      "reason": "Describe the leader chart, not a calculator. The conflicting-diameter answer and excluded strength stay unchanged."
+    }
+  ]
+}

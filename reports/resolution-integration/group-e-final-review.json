@@ -1,0 +1,32 @@
+{
+  "signedAt": "2026-09-13T16:22:37.221Z",
+  "reviewer": "Dirac, independent E source reviewer and local integrator",
+  "sourcePack": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+  "packSha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
+  "priorPackSha256": "309a4dc0fa29e6036e4f596a0c3dc205e58e34377291a263637f40f3dc12e9c9",
+  "verdict": "pass-one-candidate-final-copy",
+  "blockers": [],
+  "approvedModelIds": [
+    "hi-seas-fluorocarbon"
+  ],
+  "heldModelIds": [
+    "kastking-superpower-braid",
+    "kastking-fluorocarbon",
+    "kastking-destron-monofilament",
+    "vicious-monofilament"
+  ],
+  "modelSha256": "fbbb8a043ab765e14859b5e93226146ec0c269021fbf12a21ccd2c05d46b2428",
+  "productSha256": "0f25a33a05cc6f51d7667cfe5751dbd854ece045cba8cb7ef53a0c31d06f590a",
+  "rowsSha256": "260dbd9793ac01224c7c9471d14075accac61333d497c580a79cde6165ffcc2e",
+  "evidenceHashChecks": 33,
+  "findings": [
+    "Final FAQ independently read and matches the requested correction exactly. 200 yd = 182.88 m; 182 m remains a discrepancy, not ordinary nearest-meter rounding.",
+    "Read the full corrected gold config, photo source note and package note. Native yards, numeric evidence, default ID, exclusions, mainline identity, catalog date qualification and stock warning remain correct.",
+    "All four held model objects and all prior independently inspected source/image bytes match the prior review. Author before/after field audit is corroborating evidence, not a substitute for this review."
+  ],
+  "remainingGates": [
+    "Local integrated checks",
+    "Main-owned browser checks, deployment and native publication"
+  ],
+  "signatureMeaning": "SHA-256 content attestation, not a personal-key digital signature."
+}

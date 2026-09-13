@@ -1,0 +1,9 @@
+{
+  "purpose": "Pre-integration hashes only; sufficient for the cross-tool scope test. Not the full historical integration snapshot.",
+  "files": {
+    "js/calculator-core.js": "29f43acd3519959dfdabfbad9d35f5445acaa5688dac5da1aa1d4c057f32a305",
+    "js/recommendation-engine.js": "4a83b0d973e009dcee07e1e24e57cc5e4fd8d41bcac6dee0bf92e233b23b6cc6",
+    "data/reels.json": "60b045b95e76f12697d07662d30ef43372e87bc58c8183a0708c941671d2c9dc",
+    "data/reel-affiliates.json": "30726030c767bb6fe3d7e80512b0146d05fd354a4cd70089871c3acfef4e2c3a"
+  }
+}

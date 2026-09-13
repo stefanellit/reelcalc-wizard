@@ -1859,7 +1859,7 @@ function formatReelShort(reel) {
 }
 
 function formatLineLabel(line) {
-  return [line.brand, line.model, line.type, line.lb ? formatStrength(line.lb) : ""].filter(Boolean).join(" ");
+  return [line.brand, line.model, line.type, line.lb ? formatStrength(line.lb) : ""].filter(Boolean).join(" ") + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "");
 }
 
 function formatLineShort(line) {
@@ -1867,7 +1867,7 @@ function formatLineShort(line) {
   if (line.id === "default-backing") return formatStrength(line.lb) + " " + String(line.type || "line").toLowerCase() + " backing";
   if (line.id === "manual-line") return line.type + " " + formatStrength(line.lb) + " manual line";
   if (line.id === "manual-backing") return line.type + " " + formatStrength(line.lb) + " manual backing";
-  return [line.brand, line.model, line.type, line.lb ? formatStrength(line.lb) : ""].filter(Boolean).join(" ");
+  return formatLineLabel(line);
 }
 
 function formatActiveLineShort(line) {

@@ -1,0 +1,1407 @@
+{
+  "schemaVersion": 1,
+  "reviewId": "pline-review",
+  "reviewedAt": "2026-09-13T16:08:23Z",
+  "reviewer": "Independent Codex source/photo and gold-config review",
+  "scope": {
+    "input": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+    "inputCheckedAt": "2026-09-13T15:44:07.687Z",
+    "models": 7,
+    "rows": 14,
+    "allowedWrites": [
+      "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "research/line-pages/full-catalog/resolution-independent-review/pline-review.md"
+    ],
+    "inputReadOnly": true,
+    "sharedFilesEdited": false,
+    "browserUsed": false,
+    "published": false,
+    "committed": false
+  },
+  "decision": "pass-limited-scope",
+  "blockingFindings": [],
+  "actionableSourceOrConfigCorrections": [],
+  "decisionSummary": "All seven candidates pass source/config review only for the fourteen exact US package-label references recorded below. This is not a full-range, current-formulation, availability or publication approval.",
+  "signoff": {
+    "packSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+    "algorithm": "SHA-256",
+    "packHashBasis": "Raw input-file bytes; matched before and after substantive review.",
+    "modelHashBasis": "SHA-256 of UTF-8 JSON.stringify(model), original property order, no trailing newline.",
+    "productHashBasis": "SHA-256 of UTF-8 JSON.stringify(product), original property order, no trailing newline.",
+    "attestation": "Independent review signoff pinned to this exact pack, not a private-key digital signature. Any pack, evidence, image, package-scope or exclusion change requires review reconciliation."
+  },
+  "methods": [
+    "Read the source contract, project instructions and all seven complete gold product configurations.",
+    "Directly viewed and enlarged original manufacturer-printed product labels, including printed 2021 catalog pages 4, 6 and 9. Numeric tuples were manually transcribed and compared with all fourteen rows, not accepted from researcher prose or OCR alone.",
+    "Visually compared the excluded FloroClear 12 lb bonus carton and Tactical 17 lb label to confirm the conflicts remain isolated.",
+    "Independently parsed data-product_variations JSON from six saved raw official HTML pages using an HTML parser, matching twelve exact SKU identities; did not rely solely on the author's parsed JSON.",
+    "Visually checked exact TCB PXB/PXBY rows and Teflon/XTCB-8/X-Braid relationship on the original 2021 manufacturer catalog page.",
+    "Inspected the saved original PDF metadata and text/page identity. It has 102 pages, was created/modified March 26, 2021, and carries the US distributor address.",
+    "Reopened current public official product pages with normal web access to check construction/edition context; recorded inaccessible pages rather than treating them as fresh verification.",
+    "Hashed 85 evidence-manifest files, all visual row evidence and all seven local hero images; inspected image family and exact-package caption honesty.",
+    "Independently checked legacy brand/model/material/row-ID identity, mainline roles, exclusions, exact defaults and all fourteen example setups against the existing calculator.",
+    "Rendered all seven gold configurations in memory with the shared gold template to verify chart/image captions, numeric precision, expected rows and absence of undefined/NaN/generic stock text. No output pages or shared files were written."
+  ],
+  "primaryEvidenceAssessment": {
+    "numericAuthority": "Readable manufacturer printing on actual package photographs or official catalog package illustrations. Third-party image hosting is not itself numeric authorship; seller prose, reseller tables and the legacy database were not used as numeric authority.",
+    "identityAuthority": "Twelve official raw HTML SKU matches plus two historical manufacturer-catalog SKU matches.",
+    "catalog": {
+      "file": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021.pdf",
+      "sha256": "393bded801c3e0e0beecd316d25596a7d6be441316b2bce021f521e5e3400724",
+      "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+      "edition": 2021,
+      "market": "US",
+      "metadataCreation": "2021-03-26 14:48:54 EDT",
+      "metadataModification": "2021-03-26 15:56:16 EDT",
+      "pages": 102,
+      "reviewedPrintedPages": [
+        4,
+        6,
+        9
+      ],
+      "identityPage4Sha256": "72d35e3b86bc6c2ae0b9e78864d22702c05a07c1848175768a2aa0819fe35f7b"
+    },
+    "rawHtmlIdentityChecks": [
+      {
+        "modelId": "p-line-cxx-x-tra-strong",
+        "modelNumber": "CXXFG-10",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cxx.html",
+        "sourceSha256": "3f8ebb94d76bcad031ca11fe9031eafdf4df037d11387e10a772766ec13b0d4f",
+        "sku": "750186004",
+        "attributes": {
+          "attribute_pa_pound-test": "10lb-4-5kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-cxx-x-tra-strong",
+        "modelNumber": "CXXFG-12",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cxx.html",
+        "sourceSha256": "3f8ebb94d76bcad031ca11fe9031eafdf4df037d11387e10a772766ec13b0d4f",
+        "sku": "750186005",
+        "attributes": {
+          "attribute_pa_pound-test": "12lb-5-5kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-floroclear",
+        "modelNumber": "FCCBF-10",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-floroclear.html",
+        "sourceSha256": "afdaf62ea5f860787d0eed2ede8e0b5d3a225b719c6e829e57f3445f4e99fe35",
+        "sku": "750186602",
+        "attributes": {
+          "attribute_pa_pound-test": "10lb-4-5kg",
+          "attribute_pa_color": "clear",
+          "attribute_pa_spool-size": "600yd-549m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-floroclear",
+        "modelNumber": "FCCF-12",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-floroclear.html",
+        "sourceSha256": "afdaf62ea5f860787d0eed2ede8e0b5d3a225b719c6e829e57f3445f4e99fe35",
+        "sku": "750186507",
+        "attributes": {
+          "attribute_pa_pound-test": "12lb-5-5kg",
+          "attribute_pa_color": "clear",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-cx-premium",
+        "modelNumber": "CXFMG-6",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cx-premium.html",
+        "sourceSha256": "6d2e1d7953d062f8f38c779c5b2b465dd82029b52ff369e063efdb85bb69006b",
+        "sku": "750185512",
+        "attributes": {
+          "attribute_pa_pound-test": "6lb-2-7kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-cx-premium",
+        "modelNumber": "CXFMG-8",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cx-premium.html",
+        "sourceSha256": "6d2e1d7953d062f8f38c779c5b2b465dd82029b52ff369e063efdb85bb69006b",
+        "sku": "750185513",
+        "attributes": {
+          "attribute_pa_pound-test": "8lb-3-6kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-tactical-fluorocarbon",
+        "modelNumber": "PTB1000-15",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-tactical.html",
+        "sourceSha256": "f100ea3b3d345ff17d72b5d0aa32f3ac5faecda073d9bff78093f8fa1e7916f1",
+        "sku": "750182974",
+        "attributes": {
+          "attribute_pa_pound-test": "15lb-7kg",
+          "attribute_pa_color": "clear",
+          "attribute_pa_spool-size": "1000yd-914m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-halo-fluorocarbon",
+        "modelNumber": "HF200-6",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.html",
+        "sourceSha256": "6073538906b34f6c285154389399b12add60fed56730cefbc3a7ba2c78b58d9c",
+        "sku": "750186174",
+        "attributes": {
+          "attribute_pa_pound-test": "6lb-2-7kg",
+          "attribute_pa_color": "mist-green",
+          "attribute_pa_spool-size": "200yd-183m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-halo-fluorocarbon",
+        "modelNumber": "HF200-8",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.html",
+        "sourceSha256": "6073538906b34f6c285154389399b12add60fed56730cefbc3a7ba2c78b58d9c",
+        "sku": "750186175",
+        "attributes": {
+          "attribute_pa_pound-test": "8lb-3-6kg",
+          "attribute_pa_color": "mist-green",
+          "attribute_pa_spool-size": "200yd-183m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-halo-fluorocarbon",
+        "modelNumber": "HF200-10",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.html",
+        "sourceSha256": "6073538906b34f6c285154389399b12add60fed56730cefbc3a7ba2c78b58d9c",
+        "sku": "750186176",
+        "attributes": {
+          "attribute_pa_pound-test": "10lb-4-5kg",
+          "attribute_pa_color": "mist-green",
+          "attribute_pa_spool-size": "200yd-183m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-endurx-braid",
+        "modelNumber": "PEBFG-300-20",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-endurx.html",
+        "sourceSha256": "407b94a7bd68c9a61a21cffc57eb81d87fb40a355f28a19ecd5b2fe4d06b7bb3",
+        "sku": "750182532",
+        "attributes": {
+          "attribute_pa_color": "electric-green",
+          "attribute_pa_pound-test": "20lb-9-1kg",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      },
+      {
+        "modelId": "p-line-endurx-braid",
+        "modelNumber": "PEBB-300-30",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-endurx.html",
+        "sourceSha256": "407b94a7bd68c9a61a21cffc57eb81d87fb40a355f28a19ecd5b2fe4d06b7bb3",
+        "sku": "750182503",
+        "attributes": {
+          "attribute_pa_color": "midnight-black",
+          "attribute_pa_pound-test": "30lb-14kg",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "match": true
+      }
+    ]
+  },
+  "checks": {
+    "sourceRowsVisuallyMatched": 14,
+    "retailerOnlyNumericRows": 0,
+    "evidenceManifestFilesHashMatched": 85,
+    "heroesVisuallyMatched": 7,
+    "modelRolesMainline": 7,
+    "productRolesMainline": 7,
+    "defaultsExact": 7,
+    "legacyIdLeaks": 0,
+    "excludedIdsTotal": 40,
+    "examplesFit": 14,
+    "renderedGoldConfigs": 7,
+    "chartCaptionsRendered": 7,
+    "imageCaptionsRendered": 7,
+    "allAssertionsPassed": true
+  },
+  "models": [
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Copolymer",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "Two actual Moss Green CXXFG US cartons, not CXXQC bulk packages. The 10 and 12 lb model numbers are visible and independently match official raw HTML variants.",
+      "historicalAndMarketReview": "Undated production labels. A photo filename containing 20220409 is not proof of manufacturing year or current formulation.",
+      "editorialReview": "Cover/shock positioning is attributed to P-Line, not presented as a measured abrasion or strength advantage. Copy usefully distinguishes diameter-based capacity, working reserve, backing and package size; it does not turn a copolymer mainline into a leader.",
+      "rows": [
+        {
+          "id": "p-line-cxx-x-tra-strong-copolymer-10",
+          "lb": 10,
+          "dia_in": 0.014,
+          "dia_mm": 0.35,
+          "printedInch": "0.014",
+          "printedMm": "0.35",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "CXXFG-10",
+          "color": "Moss Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.0056,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cxx-10-photo.jpg",
+              "sha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f",
+              "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+              "contextUrl": "https://fishingaddictiongear.com/products/p-line-cxx-xtra-strong-moss-green",
+              "recordedRetrieval": "2026-09-13T15:11:44.947Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/cxx-x-tra-strong/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cxx.parsed.json",
+            "modelNumber": "CXXFG-10",
+            "sku": "750186004",
+            "variationId": 1610,
+            "attributes": {
+              "attribute_pa_pound-test": "10lb-4-5kg",
+              "attribute_pa_color": "moss-green",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "<p>300 YD</p>\n",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        },
+        {
+          "id": "p-line-cxx-x-tra-strong-copolymer-12",
+          "lb": 12,
+          "dia_in": 0.0148,
+          "dia_mm": 0.37,
+          "printedInch": "0.0148",
+          "printedMm": "0.37",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "CXXFG-12",
+          "color": "Moss Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.00592,
+            "combinedHalfUnitAllowanceMm": 0.00627,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cxx-photo-alt1.jpg",
+              "sha256": "e0a5df8b2f383e7cdabb55bf80e81db76d07d579b4343669393164750c672424",
+              "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203824782_1400x.jpg?v=1649537170",
+              "contextUrl": "https://fishingaddictiongear.com/products/p-line-cxx-xtra-strong-moss-green",
+              "recordedRetrieval": "2026-09-13T15:16:37.791Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/cxx-x-tra-strong/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cxx.parsed.json",
+            "modelNumber": "CXXFG-12",
+            "sku": "750186005",
+            "variationId": 1612,
+            "attributes": {
+              "attribute_pa_pound-test": "12lb-5-5kg",
+              "attribute_pa_color": "moss-green",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "<p>300 YD</p>\n",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+        "sha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f",
+        "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+        "exactness": "Actual US 10 lb/300 yd CXXFG carton, photographed by Fishing Addiction Gear; production year unestablished.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-cxx-x-tra-strong-copolymer-10",
+        "spoolYards": 300,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-cxx-x-tra-strong-copolymer-6",
+          "p-line-cxx-x-tra-strong-copolymer-8",
+          "p-line-cxx-x-tra-strong-copolymer-15",
+          "p-line-cxx-x-tra-strong-copolymer-17",
+          "p-line-cxx-x-tra-strong-copolymer-20",
+          "p-line-cxx-x-tra-strong-copolymer-25",
+          "p-line-cxx-x-tra-strong-copolymer-30"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Retain 300 yd only for both rows and Moss Green scope.",
+        "Keep the .0148-inch 12 lb value; do not round it to a retailer's .015-inch value.",
+        "Keep CXXQC-30 and its unresolved 400/430/600-yard claims out.",
+        "Preserve the printed 273 m/current dropdown 247 m discrepancy without converting either into another package."
+      ],
+      "chartCaption": "Pictured US CXXFG package specifications; not a complete range or current-stock list.",
+      "examples": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "p-line-cxx-x-tra-strong-copolymer-10",
+          "workingYards": 75,
+          "spoolYards": 300,
+          "capacityYards": 103.31632653061222,
+          "backingYards": 38.54166666666662
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-cxx-x-tra-strong-copolymer-12",
+          "workingYards": 75,
+          "spoolYards": 300,
+          "capacityYards": 101.8991964937911,
+          "backingYards": 40.916666666666686
+        }
+      ],
+      "modelSha256": "6ddca9ef1868ff27de47cdac553b9f6afbd4f178e1c945ef19dc084b33729628",
+      "productSha256": "d0fc227bf4df141170e64c74da65dcb56bab1a858b0b558e6a326d9840f43f06"
+    },
+    {
+      "id": "p-line-floroclear",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Copolymer",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "2021 catalog p.9 shows the 10 lb/600 yd FCCBF bonus package. The separate original carton-and-spool photograph shows 12 lb/300 yd FCCF, including UPC 015789650070. Official raw variants independently match both identities.",
+      "historicalAndMarketReview": "10 lb is explicitly a historical 2021 US catalog reference. The 12 lb filler photo is undated; the page correctly does not assign it a 2021 production year.",
+      "editorialReview": "Correctly describes coated copolymer with silicone treatment rather than 100% fluorocarbon. Practical copy explains why filler/bonus package identity matters and distinguishes purchased yards from the working line on a reel.",
+      "rows": [
+        {
+          "id": "p-line-floroclear-copolymer-10",
+          "lb": 10,
+          "dia_in": 0.0116,
+          "dia_mm": 0.29,
+          "printedInch": "0.0116",
+          "printedMm": "0.29",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            600
+          ],
+          "packageModelNumber": "FCCBF-10",
+          "color": "Clear",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.00464,
+            "combinedHalfUnitAllowanceMm": 0.00627,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p09.png",
+              "sha256": "d6806c00acbe0e22584dd77c57c40b86f128bb8b17b5fac03f3f77832b190298",
+              "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+              "contextUrl": null,
+              "recordedRetrieval": "2026-09-13T14:04:09.605Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/floroclear/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-floroclear.parsed.json",
+            "modelNumber": "FCCBF-10",
+            "sku": "750186602",
+            "variationId": 263,
+            "attributes": {
+              "attribute_pa_pound-test": "10lb-4-5kg",
+              "attribute_pa_color": "clear",
+              "attribute_pa_spool-size": "600yd-549m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        },
+        {
+          "id": "p-line-floroclear-copolymer-12",
+          "lb": 12,
+          "dia_in": 0.0124,
+          "dia_mm": 0.31,
+          "printedInch": "0.0124",
+          "printedMm": "0.31",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "FCCF-12",
+          "color": "Clear",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.00496,
+            "combinedHalfUnitAllowanceMm": 0.00627,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/floroclear-12-ebay.jpg",
+              "sha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942",
+              "sourceUrl": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+              "contextUrl": "https://www.ebay.com/itm/256131984883",
+              "recordedRetrieval": "2026-09-13T15:15:46.328Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/floroclear/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-floroclear.parsed.json",
+            "modelNumber": "FCCF-12",
+            "sku": "750186507",
+            "variationId": 256,
+            "attributes": {
+              "attribute_pa_pound-test": "12lb-5-5kg",
+              "attribute_pa_color": "clear",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+        "sha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942",
+        "sourceUrl": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+        "exactness": "Actual US FCCF 12 lb/300 yd filler package; eBay-hosted photo, production year unestablished. The 10 lb row is a separate 2021 catalog reference.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-floroclear-copolymer-12",
+        "spoolYards": 300,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-floroclear-copolymer-4",
+          "p-line-floroclear-copolymer-5",
+          "p-line-floroclear-copolymer-6",
+          "p-line-floroclear-copolymer-8",
+          "p-line-floroclear-copolymer-15",
+          "p-line-floroclear-copolymer-20",
+          "p-line-floroclear-copolymer-25",
+          "p-line-floroclear-copolymer-30"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Never union the 12 lb filler row with the separately pictured 12 lb/600 yd FCCBF bonus package.",
+        "The excluded bonus carton prints .0122 in/.31 mm; the selected filler prints .0124 in/.31 mm.",
+        "Retain 600 yd only at 10 lb, 300 yd only at 12 lb, Clear color, and the mixed historical/undated caption."
+      ],
+      "chartCaption": "2021 US 10 lb bonus label and undated US 12 lb filler label; package-specific historical/reference data.",
+      "examples": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-floroclear-copolymer-10",
+          "workingYards": 100,
+          "spoolYards": 600,
+          "capacityYards": 128.41854934601668,
+          "backingYards": 26.55555555555557
+        },
+        {
+          "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+          "lineId": "p-line-floroclear-copolymer-12",
+          "workingYards": 100,
+          "spoolYards": 300,
+          "capacityYards": 131.11342351716962,
+          "backingYards": 33.2222222222222
+        }
+      ],
+      "modelSha256": "faacbaf869108eae2408e2f1481caf9fad7125215c543d02bbb68dadbf49783d",
+      "productSha256": "1ef9edb15266eaa3d4982803db161fb248fda82a1944de02c302ae8a299ec4f0"
+    },
+    {
+      "id": "p-line-cx-premium",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Copolymer",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "Actual Moss Green CX Premium cartons show CXFMG, 6 or 8 lb, 300 yd and both diameter units. Official raw HTML establishes the exact CXFMG-6/-8 suffixes; these are not CXX cartons.",
+      "historicalAndMarketReview": "Undated US package references only. No current-edition, stock or full-range assertion.",
+      "editorialReview": "Useful lighter-mainline and reel-fill guidance; correctly differentiates CX from CXX and identifies the supported fluorocarbon-silicone coating without relabeling the material as pure fluorocarbon.",
+      "rows": [
+        {
+          "id": "p-line-cx-premium-copolymer-6",
+          "lb": 6,
+          "dia_in": 0.0084,
+          "dia_mm": 0.21,
+          "printedInch": "0.0084",
+          "printedMm": "0.21",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "CXFMG-6",
+          "color": "Moss Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.00336,
+            "combinedHalfUnitAllowanceMm": 0.00627,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cx-6-ebay.jpg",
+              "sha256": "1a00d2993e9b85fef6447f6c3da8726384c7a1768d6d1d50c198ad34b44adbe7",
+              "sourceUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yNUAAOSwF6xmDEqT/%24_57.JPG?set_id=880000500F",
+              "contextUrl": "https://www.ebay.com/itm/395312724416",
+              "recordedRetrieval": "2026-09-13T15:14:43.046Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/cx-premium/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cx-premium.parsed.json",
+            "modelNumber": "CXFMG-6",
+            "sku": "750185512",
+            "variationId": 1440,
+            "attributes": {
+              "attribute_pa_pound-test": "6lb-2-7kg",
+              "attribute_pa_color": "moss-green",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        },
+        {
+          "id": "p-line-cx-premium-copolymer-8",
+          "lb": 8,
+          "dia_in": 0.0092,
+          "dia_mm": 0.23,
+          "printedInch": "0.0092",
+          "printedMm": "0.23",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "CXFMG-8",
+          "color": "Moss Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.00368,
+            "combinedHalfUnitAllowanceMm": 0.00627,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cx-8-ebay.jpg",
+              "sha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61",
+              "sourceUrl": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+              "contextUrl": "https://www.ebay.com/itm/397227773494",
+              "recordedRetrieval": "2026-09-13T15:14:42.750Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/cx-premium/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cx-premium.parsed.json",
+            "modelNumber": "CXFMG-8",
+            "sku": "750185513",
+            "variationId": 1441,
+            "attributes": {
+              "attribute_pa_pound-test": "8lb-3-6kg",
+              "attribute_pa_color": "moss-green",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+        "sha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61",
+        "sourceUrl": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+        "exactness": "Actual US Moss Green 8 lb/300 yd CXFMG carton; eBay-hosted photo, production year unestablished.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-cx-premium-copolymer-8",
+        "spoolYards": 300,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-cx-premium-copolymer-10",
+          "p-line-cx-premium-copolymer-12",
+          "p-line-cx-premium-copolymer-15",
+          "p-line-cx-premium-copolymer-17"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Retain Moss Green 6/8 lb at 300 yd only.",
+        "Do not import the regional promotional graphic, conflicting regional length, failed image request or retailer-authored diameter table.",
+        "The unverified 20 lb mention is not presently an exclusion leak: no matching 20 lb legacy catalog record exists. Recheck exclusions if that inventory changes."
+      ],
+      "chartCaption": "Undated US CXFMG 6 and 8 lb package-label references, not a current full-range chart.",
+      "examples": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-cx-premium-copolymer-6",
+          "workingYards": 125,
+          "spoolYards": 300,
+          "capacityYards": 244.89795918367352,
+          "backingYards": 58.750000000000014
+        },
+        {
+          "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+          "lineId": "p-line-cx-premium-copolymer-8",
+          "workingYards": 125,
+          "spoolYards": 300,
+          "capacityYards": 238.1852551984877,
+          "backingYards": 66.52777777777777
+        }
+      ],
+      "modelSha256": "1f2da7f64f5815c001dba2b0515fdbf1e20d37c69c1387ee84afc33cee897334",
+      "productSha256": "08d91dcb6dce2e50fb465e8eb23ce4a2872f37b5876f1b711f763826048e6497"
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Fluorocarbon",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "The original 2021 US catalog p.6 side label is readable after enlargement/rotation: PTB1000-15, 15 lb, 1000 yd, .0138 in and .352 mm. Same-page SKU table and official raw variant corroborate exact identity.",
+      "historicalAndMarketReview": "Explicit 2021 US historical reference in the title and chart caption. The 2021 filename and March 2021 PDF metadata support the edition; today's listing does not establish formulation continuity.",
+      "editorialReview": "Useful bulk-spool versus reel-fill explanation and old-stock condition caution. Fluorocarbon mainline role is correct. Neither bulk length nor brand claims become a recommendation to spool an entire package.",
+      "rows": [
+        {
+          "id": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+          "lb": 15,
+          "dia_in": 0.0138,
+          "dia_mm": 0.352,
+          "printedInch": "0.0138",
+          "printedMm": "0.352",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            1000
+          ],
+          "packageModelNumber": "PTB1000-15",
+          "color": "Clear",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.00148,
+            "combinedHalfUnitAllowanceMm": 0.00177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p06.png",
+              "sha256": "1b31b0883c2beb311e81d67015ab126ec924306d088f2f6641db2f4863e52114",
+              "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+              "contextUrl": null,
+              "recordedRetrieval": "2026-09-13T14:04:09.605Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/tactical-fluorocarbon/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-tactical.parsed.json",
+            "modelNumber": "PTB1000-15",
+            "sku": "750182974",
+            "variationId": 137,
+            "attributes": {
+              "attribute_pa_pound-test": "15lb-7kg",
+              "attribute_pa_color": "clear",
+              "attribute_pa_spool-size": "1000yd-914m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+        "sha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8",
+        "sourceUrl": "https://p-line.com/wp-content/uploads/2021/03/P-Line-TACTICAL-Box-Spool.png",
+        "exactness": "Official family illustration, not evidence of the selected 15 lb bulk package. Chart: historical 2021 US PTB1000-15 label.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+        "spoolYards": 1000,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-tactical-fluorocarbon-fluorocarbon-6",
+          "p-line-tactical-fluorocarbon-fluorocarbon-8",
+          "p-line-tactical-fluorocarbon-fluorocarbon-10",
+          "p-line-tactical-fluorocarbon-fluorocarbon-12",
+          "p-line-tactical-fluorocarbon-fluorocarbon-17",
+          "p-line-tactical-fluorocarbon-fluorocarbon-20"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Retain only 15 lb/1000 yd; do not infer the 200 yd package.",
+        "Keep 17 lb held: the original label visibly prints .0154 in/.393 mm, outside the stated combined printed-precision rounding allowance by .00007 mm.",
+        "Keep the family-image caption visible: the hero is an official Tactical illustration, not the selected 15 lb bulk package."
+      ],
+      "chartCaption": "Historical 2021 US PTB1000-15 package-label specification; no current-edition or availability claim.",
+      "examples": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+          "workingYards": 60,
+          "spoolYards": 1000,
+          "capacityYards": 106.33270321361057,
+          "backingYards": 61.274999999999984
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+          "workingYards": 75,
+          "spoolYards": 1000,
+          "capacityYards": 117.20226843100191,
+          "backingYards": 55.81250000000003
+        }
+      ],
+      "modelSha256": "99143d666228029b5fe0107cd0744c611291983ee04d988a29d6df1c1895df09",
+      "productSha256": "14a1516d0bd4dc3199448e35dae33ed6abeddbc22667718728a7fca7415d75ae"
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Fluorocarbon",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "One photograph contains three legible authentic-looking P-Line HALO cartons: 6, 8 and 10 lb, Mist Green, 200 yd. Raw official variants independently match HF200-6/-8/-10. Printed construction is 100% fluorocarbon co-fluoride.",
+      "historicalAndMarketReview": "Undated US labels only, not EU packages or evidence of current stock.",
+      "editorialReview": "Correctly distinguishes HALO co-fluoride fluorocarbon from coated-nylon CX/FloroClear. Copy addresses coarse printed inch precision and full-spool planning without claiming laboratory measurements.",
+      "rows": [
+        {
+          "id": "p-line-halo-fluorocarbon-fluorocarbon-6",
+          "lb": 6,
+          "dia_in": 0.008,
+          "dia_mm": 0.21,
+          "printedInch": "0.008",
+          "printedMm": "0.21",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            200
+          ],
+          "packageModelNumber": "HF200-6",
+          "color": "Mist Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.0068,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png",
+              "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+              "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+              "contextUrl": "https://www.ebay.com/itm/285040455744",
+              "recordedRetrieval": "2026-09-13T15:11:45.956Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/halo-fluorocarbon/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.parsed.json",
+            "modelNumber": "HF200-6",
+            "sku": "750186174",
+            "variationId": 239,
+            "attributes": {
+              "attribute_pa_pound-test": "6lb-2-7kg",
+              "attribute_pa_color": "mist-green",
+              "attribute_pa_spool-size": "200yd-183m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        },
+        {
+          "id": "p-line-halo-fluorocarbon-fluorocarbon-8",
+          "lb": 8,
+          "dia_in": 0.01,
+          "dia_mm": 0.25,
+          "printedInch": "0.01",
+          "printedMm": "0.25",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            200
+          ],
+          "packageModelNumber": "HF200-8",
+          "color": "Mist Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.004,
+            "combinedHalfUnitAllowanceMm": 0.132,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png",
+              "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+              "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+              "contextUrl": "https://www.ebay.com/itm/285040455744",
+              "recordedRetrieval": "2026-09-13T15:11:45.956Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/halo-fluorocarbon/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.parsed.json",
+            "modelNumber": "HF200-8",
+            "sku": "750186175",
+            "variationId": 240,
+            "attributes": {
+              "attribute_pa_pound-test": "8lb-3-6kg",
+              "attribute_pa_color": "mist-green",
+              "attribute_pa_spool-size": "200yd-183m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        },
+        {
+          "id": "p-line-halo-fluorocarbon-fluorocarbon-10",
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "printedInch": "0.011",
+          "printedMm": "0.28",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            200
+          ],
+          "packageModelNumber": "HF200-10",
+          "color": "Mist Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.0006,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png",
+              "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+              "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+              "contextUrl": "https://www.ebay.com/itm/285040455744",
+              "recordedRetrieval": "2026-09-13T15:11:45.956Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/halo-fluorocarbon/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.parsed.json",
+            "modelNumber": "HF200-10",
+            "sku": "750186176",
+            "variationId": 241,
+            "attributes": {
+              "attribute_pa_pound-test": "10lb-4-5kg",
+              "attribute_pa_color": "mist-green",
+              "attribute_pa_spool-size": "200yd-183m"
+            },
+            "variationDescription": "",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+        "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+        "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+        "exactness": "Actual US HF200 cartons at 6, 8, and 10 lb; eBay-hosted photo, production years unestablished.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-halo-fluorocarbon-fluorocarbon-8",
+        "spoolYards": 200,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-halo-fluorocarbon-fluorocarbon-12",
+          "p-line-halo-fluorocarbon-fluorocarbon-15",
+          "p-line-halo-fluorocarbon-fluorocarbon-17",
+          "p-line-halo-fluorocarbon-fluorocarbon-20"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Keep the 6 lb carton value .21 mm, not a retailer/regional .22 mm.",
+        "Keep 200 yd only; exclude 225 m/250 yd, 600 m and 2000 yd extrapolation.",
+        "The pictured 8 lb label prints .01 inch; do not imply additional measurement precision."
+      ],
+      "chartCaption": "Undated US Mist Green HF200 carton labels; no current-stock or complete-range claim.",
+      "examples": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-halo-fluorocarbon-fluorocarbon-8",
+          "workingYards": 125,
+          "spoolYards": 200,
+          "capacityYards": 172.79999999999998,
+          "backingYards": 33.194444444444414
+        },
+        {
+          "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+          "lineId": "p-line-halo-fluorocarbon-fluorocarbon-10",
+          "workingYards": 125,
+          "spoolYards": 200,
+          "capacityYards": 166.6115702479339,
+          "backingYards": 34.9652777777778
+        }
+      ],
+      "modelSha256": "8cdbe1ca7ac46e5b5140e4e5510de25f7d774d637a7a6e20bf8a98737dbfe7d2",
+      "productSha256": "f010790d79f7879d513702a3aff0289ced17bbf1628f4f7e8f3f43d1c57dc1a1"
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Braid",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "Two readable 8X spool labels: Electric Green PEBFG-300-20, UPC 015789056872, and Midnight Black PEBB-300-30, UPC 015789056667. Both print 300 yd and both numeric units; official raw variants match.",
+      "historicalAndMarketReview": "Undated US 8X package references. No Orange, later-edition or stock inference.",
+      "editorialReview": "Eight-carrier construction and pre-braiding color are supported by P-Line. Fade positioning remains manufacturer-attributed rather than a reviewer guarantee. Practical copy keeps arbor backing separate from a terminal leader.",
+      "rows": [
+        {
+          "id": "p-line-endurx-braid-braid-20",
+          "lb": 20,
+          "dia_in": 0.009,
+          "dia_mm": 0.23,
+          "printedInch": "0.009",
+          "printedMm": "0.23",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "PEBFG-300-20",
+          "color": "Electric Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.0014,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/endurx-green-tw.jpg",
+              "sha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7",
+              "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+              "contextUrl": "https://www.tacklewarehouse.com/P-Line_EndurX_Electric_Green_No_Fade_Braid/descpage-PLDUX.html",
+              "recordedRetrieval": "2026-09-13T15:14:43.582Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/endurx-braid/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-endurx.parsed.json",
+            "modelNumber": "PEBFG-300-20",
+            "sku": "750182532",
+            "variationId": 7099,
+            "attributes": {
+              "attribute_pa_color": "electric-green",
+              "attribute_pa_pound-test": "20lb-9-1kg",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "<p>300 YD</p>\n",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        },
+        {
+          "id": "p-line-endurx-braid-braid-30",
+          "lb": 30,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "printedInch": "0.011",
+          "printedMm": "0.28",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "PEBB-300-30",
+          "color": "Midnight Black",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.0006,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/endurx-tw.jpg",
+              "sha256": "1dc4d85fa44fcce77c40502ce79f073a0e640a21ee836b5320f203371caaf3d3",
+              "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUXMB-1.jpg",
+              "contextUrl": "https://www.tacklewarehouse.com/P-Line_EndurX_Midnight_Black_No_Fade_Braid/descpage-PLDUXMB.html",
+              "recordedRetrieval": "2026-09-13T15:10:16.113Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/product/endurx-braid/",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-endurx.parsed.json",
+            "modelNumber": "PEBB-300-30",
+            "sku": "750182503",
+            "variationId": 7119,
+            "attributes": {
+              "attribute_pa_color": "midnight-black",
+              "attribute_pa_pound-test": "30lb-14kg",
+              "attribute_pa_spool-size": "300yd-247m"
+            },
+            "variationDescription": "<p>300 YD</p>\n",
+            "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+        "sha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7",
+        "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+        "exactness": "Actual US Electric Green 20 lb/300 yd EndurX 8X label; Tackle Warehouse-hosted photo, production year unestablished.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-endurx-braid-braid-20",
+        "spoolYards": 300,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-endurx-braid-braid-10",
+          "p-line-endurx-braid-braid-40",
+          "p-line-endurx-braid-braid-50",
+          "p-line-endurx-braid-braid-15",
+          "p-line-endurx-braid-braid-65",
+          "p-line-endurx-braid-braid-80"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Keep Electric Green paired with 20 lb and Midnight Black with 30 lb.",
+        "Preserve published .011 in/.28 mm at 30 lb; do not use the former converted-inch research value.",
+        "No shared 150/2500-yard options or additional colors; preserve the 274 m/package versus 247 m/dropdown discrepancy."
+      ],
+      "chartCaption": "Undated US EndurX 8X 300-yard label references; color and strength remain paired.",
+      "examples": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-endurx-braid-braid-20",
+          "workingYards": 100,
+          "spoolYards": 300,
+          "capacityYards": 114.56790123456791,
+          "backingYards": 15.258620689655164
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-endurx-braid-braid-30",
+          "workingYards": 125,
+          "spoolYards": 300,
+          "capacityYards": 190,
+          "backingYards": 53.026315789473685
+        }
+      ],
+      "modelSha256": "193c39a561f1275693f7b68db7fee07dab67f5b8fee5792ae4d8a8ba932f13ef",
+      "productSha256": "5f2e65529f1751205e901e25b6636c4b7691e765bf839c8474e4efd5319d3a7b"
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "status": "pass-limited-scope",
+      "blockingFindings": [],
+      "lineType": "Braid",
+      "modelRole": "mainline",
+      "productRole": "mainline",
+      "packageIdentityReview": "Actual Teflon-labeled TCB Braid 8 spools show Green PXB8150-20, 20 lb/150 yd, UPC 015789039233, and Hi Vis Yellow PXBY8300-50, 50 lb/300 yd, UPC 015789047085. Official 2021 catalog p.4 explicitly links X-Braid, XTCB-8, eight strands, Teflon and these exact SKU rows.",
+      "historicalAndMarketReview": "Undated Teflon-version photos linked to 2021 US manufacturer identity. They are not asserted to have been manufactured in 2021. Current official X-Braid page says Slick Coat; unchanged formulation is unproved and not claimed.",
+      "editorialReview": "Version-specific rather than generic braid prose. It explains the different 150/300-yard working budgets and correctly separates mainline, arbor backing and terminal leader. No unsupported promise of casting or abrasion superiority.",
+      "rows": [
+        {
+          "id": "p-line-tcb-8-braid-braid-20",
+          "lb": 20,
+          "dia_in": 0.01,
+          "dia_mm": 0.25,
+          "printedInch": "0.010",
+          "printedMm": "0.25",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            150
+          ],
+          "packageModelNumber": "PXB8150-20",
+          "color": "Green",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.004,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/tcb-tw.jpg",
+              "sha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6",
+              "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+              "contextUrl": "https://www.tacklewarehouse.com/P-Line_TCB_8_Teflon_Coated_8-Carrier_Braided_Line_Green/descpage-TE.html",
+              "recordedRetrieval": "2026-09-13T15:10:15.876Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021.pdf",
+            "visualSourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p04.png",
+            "publishedYear": 2021,
+            "region": "US",
+            "printedPage": 4,
+            "modelNumber": "PXB8150-20",
+            "color": "Green",
+            "lb": 20,
+            "yards": 150,
+            "authority": "Manufacturer catalog exact PXB8150-20 Green 20 lb/150 yd table row, with explicit Teflon/XTCB-8/X-Braid identity on the same page."
+          }
+        },
+        {
+          "id": "p-line-tcb-8-braid-braid-50",
+          "lb": 50,
+          "dia_in": 0.014,
+          "dia_mm": 0.36,
+          "printedInch": "0.014",
+          "printedMm": "0.36",
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            300
+          ],
+          "packageModelNumber": "PXBY8300-50",
+          "color": "Hi Vis Yellow",
+          "numericVerdict": "pass-direct-visual-primary-label",
+          "independentReview": "Reviewer enlarged the source image and checked the printed strength, units and package length; independently transcribed tuple matches this row. No retailer-authored numeric chart is authority.",
+          "roundingCheck": {
+            "differenceMm": 0.0044,
+            "combinedHalfUnitAllowanceMm": 0.0177,
+            "pass": true,
+            "limitation": "Printed units are independently rounded, not exact conversions or independently measured diameters."
+          },
+          "evidence": [
+            {
+              "file": "research/line-pages/full-catalog/pline-resolutions/evidence/tcb-yellow-tw.jpg",
+              "sha256": "5d5b56ef350d56cd80bb8f8dbfd83fd6348322a9edc8d6fecd6b8d268c28c13b",
+              "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=0I-1.jpg",
+              "contextUrl": "https://www.tacklewarehouse.com/P-Line_TCB_8_Teflon_Coated_Braided_Line_Yellow/descpage-0I.html",
+              "recordedRetrieval": "2026-09-13T15:14:43.310Z",
+              "independentlyVisuallyReviewed": true
+            }
+          ],
+          "identity": {
+            "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+            "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021.pdf",
+            "visualSourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p04.png",
+            "publishedYear": 2021,
+            "region": "US",
+            "printedPage": 4,
+            "modelNumber": "PXBY8300-50",
+            "color": "Hi Vis Yellow",
+            "lb": 50,
+            "yards": 300,
+            "authority": "Manufacturer catalog exact PXBY8300-50 Hi Vis Yellow 50 lb/300 yd table row, with explicit Teflon/XTCB-8/X-Braid identity on the same page."
+          }
+        }
+      ],
+      "imageReview": {
+        "pass": true,
+        "path": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+        "sha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6",
+        "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+        "exactness": "Actual US Teflon-labeled Green 20 lb/150 yd spool; undated photo hosted by Tackle Warehouse. Not a Slick Coat illustration.",
+        "byteIdenticalToEvidence": true,
+        "captionRendered": true,
+        "rights": "Source provenance is not a publication license. Main retains publication-rights gate."
+      },
+      "defaults": {
+        "lineId": "p-line-tcb-8-braid-braid-20",
+        "spoolYards": 150,
+        "matchesExactVerifiedRowAndPackage": true
+      },
+      "exclusions": {
+        "exactIds": [
+          "p-line-tcb-8-braid-braid-10",
+          "p-line-tcb-8-braid-braid-30",
+          "p-line-tcb-8-braid-braid-40",
+          "p-line-tcb-8-braid-braid-15",
+          "p-line-tcb-8-braid-braid-65"
+        ],
+        "allMatchingUnverifiedExistingCatalogIdsExcluded": true,
+        "leakedLegacyIds": [],
+        "unsupportedLegacyPackageUnionPermitted": false
+      },
+      "requiredScopeRetention": [
+        "Keep the Teflon version explicit; do not substitute a current Slick Coat image or imply equivalence.",
+        "Keep Green 20 lb/150 yd and Hi Vis Yellow 50 lb/300 yd separate.",
+        "Do not apply common 150/300/2500-yard options across strengths; retain held retailer-only strengths."
+      ],
+      "chartCaption": "US Teflon-version label references, linked to 2021 catalog identity; no current-edition or stock claim.",
+      "examples": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-tcb-8-braid-braid-20",
+          "workingYards": 75,
+          "spoolYards": 150,
+          "capacityYards": 92.8,
+          "backingYards": 23.01724137931034
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-tcb-8-braid-braid-50",
+          "workingYards": 75,
+          "spoolYards": 300,
+          "capacityYards": 117.29591836734691,
+          "backingYards": 55.891692040017396
+        }
+      ],
+      "modelSha256": "4bc6b9f34d0b801c3a886c547ee01df4776c5ffb0491b3429996a81e4753fdca",
+      "productSha256": "ed82a07dc21244f9639d2f483ae24829e3f286b301b72f4b3aa6b4625f957da1"
+    }
+  ],
+  "liveWebChecks": [
+    {
+      "url": "https://p-line.com/product/cxx-x-tra-strong/",
+      "result": "Readable official page; copolymer construction and manufacturer positioning corroborated, not numeric diameter authority."
+    },
+    {
+      "url": "https://p-line.com/product/floroclear/",
+      "result": "Readable official page; fluorocarbon-coated copolymer and silicone treatment corroborated."
+    },
+    {
+      "url": "https://p-line.com/product/endurx-braid/",
+      "result": "Readable official page; eight carriers and color introduced before braiding corroborated; broad listed options not imported into exact rows."
+    },
+    {
+      "url": "https://p-line.com/product/x-braid-green/",
+      "result": "Readable official page says Slick Coat; current formulation not equated with Teflon-labeled rows."
+    },
+    {
+      "url": "https://p-line.com/product/cx-premium/",
+      "result": "Verification challenge. Independent source inspection used saved HTTP-200 official raw HTML and original photos; no bypass attempted."
+    },
+    {
+      "url": "https://p-line.com/product/halo-fluorocarbon/",
+      "result": "Verification challenge. Independent source inspection used saved HTTP-200 official raw HTML and original photos; no bypass attempted."
+    },
+    {
+      "url": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+      "result": "Web tool returned a non-retryable safe-open error. Inspected the existing original PDF, metadata and saved page images locally; no fresh-download claim."
+    }
+  ],
+  "remainingGates": [
+    {
+      "gate": "publication-rights",
+      "owner": "main",
+      "blockingThisSourceReview": false,
+      "action": "Resolve permission or other appropriate publication basis for the third-party-hosted photographs and manufacturer artwork. Provenance alone does not grant rights."
+    },
+    {
+      "gate": "integration-scope",
+      "owner": "main",
+      "blockingThisSourceReview": false,
+      "action": "Integrate exact rows/packages without unioning unsupported legacy lengths or restoring exclusions. Preserve material, role, color/version/edition limitations and all chart/image captions; any changed scope needs another source review."
+    },
+    {
+      "gate": "integrated-browser-and-calculator",
+      "owner": "main",
+      "blockingThisSourceReview": false,
+      "action": "Run final integrated selector/default/exclusion checks and browser visual checks. This review used in-memory rendering/calculations and left the shared browser untouched."
+    }
+  ],
+  "limitations": [
+    "Source/photo identity was visually and textually corroborated, not forensically authenticated or physically measured.",
+    "Unknown production years remain unknown. A current official SKU match is not proof of unchanged historical formulation or current retail stock.",
+    "No live-byte re-download comparison for every original photo or the catalog was performed; local evidence hashes establish the exact artifacts reviewed.",
+    "No broad regression sweep, deployment, live page review or image-rights determination is claimed."
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "findingId": "RINT-01",
+  "priority": "P2",
+  "status": "fixed-locally-regression-tests-pass",
+  "checkedAt": "2026-09-13T17:07:45.832Z",
+  "priorReview": "reports/resolution-integration/independent-integration-review.json",
+  "priorBaseCommit": "045b0917ae3c2aeacede454659ec9a77a9a68592",
+  "changeScope": "One production caller and its local identity/display helper separation; one focused regression test. No shared affiliate helper, mapping, numerical data, calculation logic, source pack, product config, release, or import changes.",
+  "changes": [
+    "Added lineIdentityLabel for the existing plain brand/model/strength text. lineLabel delegates to it and retains exactly the existing source_scope_label suffix for visible UI.",
+    "backingLineOffer now uses plain identity and normalized type for generic-search queries. It still omits backing spool sizes because no backing package has been selected/verified for that offer.",
+    "The returned generic offer.query now matches the rewritten URL query, eliminating stale inferred-spool metadata. Mapped offers and their URLs are returned unchanged.",
+    "Existing mainline selected-spool handling is unchanged, including exact metric package fields and the printed-yard Calibr8 package convention."
+  ],
+  "changedFiles": [
+    {
+      "file": "js/line-page-engine.js",
+      "beforeSha256": "0e5798efe013a52d4207e7bebfdf939b593d4793867a216894d23065aea28fc1",
+      "afterSha256": "a32f3315ace86945dbc8777ebbe17ea71656cca8b64970be3254d981d76e4261"
+    },
+    {
+      "file": "scripts/test-line-page-affiliate-scope.mjs",
+      "beforeSha256": null,
+      "afterSha256": "64a631308fe1e23700d2cbc4b31d3acc3d61129f0ff5ae6c6671224fd72da42a"
+    }
+  ],
+  "reportFiles": [
+    "reports/resolution-integration/rint-01-remediation.md",
+    "reports/resolution-integration/rint-01-remediation.json"
+  ],
+  "regressionProof": {
+    "failedBeforeFix": true,
+    "failure": "Backing search leaked display scope: hi-seas-fluorocarbon-fluorocarbon-25",
+    "priorQuery": "Hi-Seas Fluorocarbon 25 lb (Catalog-listed CFC-F200-25 Clear; stock unverified) fluorocarbon fishing line",
+    "correctedQuery": "Hi-Seas Fluorocarbon 25 lb fluorocarbon fishing line",
+    "secondCorrectedQuery": "Stren Super Knot 8 lb monofilament fishing line",
+    "passedAfterFix": true,
+    "command": "node scripts/test-line-page-affiliate-scope.mjs",
+    "scopedRows": 42,
+    "unscopedCases": 1,
+    "hostileScopeCases": 1,
+    "genericBackingCases": 44,
+    "namedRegressions": 2,
+    "knownSpoolCases": 3,
+    "mappedOfferCases": 1,
+    "ineligibleOfferCases": 4,
+    "assertions": [
+      "Exact visible model, strength and source scope retained",
+      "Escaped source scope stays text, not markup",
+      "Exact IDs, brand/model metadata, strength and affiliate tags retained",
+      "Generic URL query equals offer.query and excludes provenance prose",
+      "No invented backing package size",
+      "Known mainline yard/metric spool choice retained",
+      "Mapped offer unchanged",
+      "Ineligible offer guards unchanged",
+      "No source/config/affiliate mapping mutation"
+    ]
+  },
+  "tests": [
+    {
+      "name": "scripts/test-affiliate-links.mjs",
+      "status": "pass"
+    },
+    {
+      "name": "scripts/test-line-page-engine.mjs",
+      "status": "pass"
+    },
+    {
+      "name": "scripts/test-line-database-tools.mjs",
+      "status": "pass",
+      "exactHandoffs": 1229
+    },
+    {
+      "name": "scripts/test-line-leader-pages.mjs",
+      "status": "pass",
+      "pages": 10,
+      "packageOffers": 201
+    },
+    {
+      "name": "scripts/line-page-publishing/test-import-selection.mjs",
+      "status": "pass",
+      "checks": 14
+    },
+    {
+      "name": "scripts/line-page-publishing/test.mjs",
+      "status": "pass",
+      "pages": 114,
+      "cssSelectors": 498
+    },
+    {
+      "name": "scripts/test-hosted-line-databases.mjs",
+      "status": "pass",
+      "regularRows": 1229,
+      "peRows": 586
+    },
+    {
+      "name": "scripts/test-line-resolution-scopes.mjs",
+      "status": "pass",
+      "report": {
+        "checkedAt": "2026-09-13T17:06:45.578Z",
+        "passed": true,
+        "scopedRows": 42,
+        "unscopedFixtures": 20,
+        "crossToolHandoffs": 62,
+        "checks": [
+          "Actual database row rendering and option matching",
+          "Exact Wizard ID preload and visible historical label",
+          "Manual calculator diameter handoff with scoped name",
+          "Shared selector identity grouping unchanged and scoped search",
+          "Comparison search, strength change and selected detail",
+          "Reel-page result labels and selection detail",
+          "Line-page labels",
+          "Two retained source Stealth pairs, one selected-strength capacity card, two working-plan cards",
+          "Numerical source/data dependencies byte-unchanged"
+        ],
+        "method": "Actual production functions run in isolated Node VM with minimal DOM doubles; no browser, networking or visual-layout claim."
+      },
+      "executionNote": "Final report writer removed only in memory; prior evidence file left unchanged."
+    },
+    {
+      "name": "scripts/audit-line-page-trust.mjs --ids=<new14>",
+      "status": "pass",
+      "report": {
+        "date": "2026-09-13",
+        "strengths": 42,
+        "readyReels": 1320,
+        "productIds": [
+          "spiderwire-stealth-braid",
+          "stren-super-knot",
+          "stren-fluorocast",
+          "stren-sonic-braid",
+          "hi-seas-fluorocarbon",
+          "sufix-invisiline-fluorocarbon",
+          "sufix-calibr8",
+          "p-line-cxx-x-tra-strong",
+          "p-line-floroclear",
+          "p-line-cx-premium",
+          "p-line-tactical-fluorocarbon",
+          "p-line-halo-fluorocarbon",
+          "p-line-endurx-braid",
+          "p-line-tcb-8-braid"
+        ],
+        "pairings": 55440,
+        "offers": 49,
+        "checks": 581696,
+        "failures": 0,
+        "examples": []
+      },
+      "executionNote": "No --save or --output; prior evidence files left unchanged."
+    }
+  ],
+  "preservation": {
+    "capturedBeforeAt": "2026-09-13T17:03:43.419Z",
+    "files": [
+      {
+        "file": "js/affiliate-links.js",
+        "beforeSha256": "fe26bcc2de81c68c7c645b46ea3236f3a0c11ab9a40d93d599b01520861e0d3f",
+        "afterSha256": "fe26bcc2de81c68c7c645b46ea3236f3a0c11ab9a40d93d599b01520861e0d3f",
+        "unchanged": true
+      },
+      {
+        "file": "js/calculator-core.js",
+        "beforeSha256": "29f43acd3519959dfdabfbad9d35f5445acaa5688dac5da1aa1d4c057f32a305",
+        "afterSha256": "29f43acd3519959dfdabfbad9d35f5445acaa5688dac5da1aa1d4c057f32a305",
+        "unchanged": true
+      },
+      {
+        "file": "js/recommendation-engine.js",
+        "beforeSha256": "4a83b0d973e009dcee07e1e24e57cc5e4fd8d41bcac6dee0bf92e233b23b6cc6",
+        "afterSha256": "4a83b0d973e009dcee07e1e24e57cc5e4fd8d41bcac6dee0bf92e233b23b6cc6",
+        "unchanged": true
+      },
+      {
+        "file": "data/reel-affiliates.json",
+        "beforeSha256": "30726030c767bb6fe3d7e80512b0146d05fd354a4cd70089871c3acfef4e2c3a",
+        "afterSha256": "30726030c767bb6fe3d7e80512b0146d05fd354a4cd70089871c3acfef4e2c3a",
+        "unchanged": true
+      },
+      {
+        "file": "data/reels.json",
+        "beforeSha256": "60b045b95e76f12697d07662d30ef43372e87bc58c8183a0708c941671d2c9dc",
+        "afterSha256": "60b045b95e76f12697d07662d30ef43372e87bc58c8183a0708c941671d2c9dc",
+        "unchanged": true
+      },
+      {
+        "file": "data/lines.json",
+        "beforeSha256": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+        "afterSha256": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+        "unchanged": true
+      },
+      {
+        "file": "data/line-page-products.json",
+        "beforeSha256": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+        "afterSha256": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+        "unchanged": true
+      },
+      {
+        "file": "data/line-page-release.json",
+        "beforeSha256": "f757fafea7bed8b539be2a9b0ca826c9010df3b21d8c2027fe472e9c9babeb21",
+        "afterSha256": "f757fafea7bed8b539be2a9b0ca826c9010df3b21d8c2027fe472e9c9babeb21",
+        "unchanged": true
+      },
+      {
+        "file": "generated/line-pages/imported-products.json",
+        "beforeSha256": "247278536d0afdcc9e69a44f6b06d3e3c9d6692a83bb7978686771897a8895c8",
+        "afterSha256": "247278536d0afdcc9e69a44f6b06d3e3c9d6692a83bb7978686771897a8895c8",
+        "unchanged": true
+      },
+      {
+        "file": "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv",
+        "beforeSha256": "c03c4ff89926995349eea2fc37a1e241e193850892967ef7904d703d72857c29",
+        "afterSha256": "c03c4ff89926995349eea2fc37a1e241e193850892967ef7904d703d72857c29",
+        "unchanged": true
+      },
+      {
+        "file": "generated/line-pages/import-inventory.json",
+        "beforeSha256": "cabc5c71bb8386d14cee7eb814f6d5eb656d5efcf62a31d83aacf6e4b539c69b",
+        "afterSha256": "cabc5c71bb8386d14cee7eb814f6d5eb656d5efcf62a31d83aacf6e4b539c69b",
+        "unchanged": true
+      },
+      {
+        "file": "generated/line-pages/manual-publish-content.json",
+        "beforeSha256": "520b478938bcba81256323d07bf575e5c5a9651422f365745cd64997543dbf4e",
+        "afterSha256": "520b478938bcba81256323d07bf575e5c5a9651422f365745cd64997543dbf4e",
+        "unchanged": true
+      },
+      {
+        "file": "reports/resolution-integration/handoff.json",
+        "beforeSha256": "5fd085de12daf5f1a5f1d35e9a1a7a9efb8e3ac61d767db3ff70c52ff2fb46d0",
+        "afterSha256": "5fd085de12daf5f1a5f1d35e9a1a7a9efb8e3ac61d767db3ff70c52ff2fb46d0",
+        "unchanged": true
+      },
+      {
+        "file": "reports/resolution-integration/changed-files.json",
+        "beforeSha256": "f51f6c21db33a0df59d01eedc20610d54ec2760bba29366012e9ade6a7d0dd0b",
+        "afterSha256": "f51f6c21db33a0df59d01eedc20610d54ec2760bba29366012e9ade6a7d0dd0b",
+        "unchanged": true
+      }
+    ],
+    "allUnchanged": true,
+    "original80OverlayAndNumericalRowsUnchanged": true,
+    "sourceExamplesAndDedupeUnchanged": true
+  },
+  "handoffDelta": {
+    "originalManifest": "reports/resolution-integration/changed-files.json",
+    "originalManifestSha256": "f51f6c21db33a0df59d01eedc20610d54ec2760bba29366012e9ade6a7d0dd0b",
+    "originalHandoffSha256": "5fd085de12daf5f1a5f1d35e9a1a7a9efb8e3ac61d767db3ff70c52ff2fb46d0",
+    "originalFilesEdited": false,
+    "priorManifestEntriesSuperseded": [
+      "js/line-page-engine.js"
+    ],
+    "instruction": "Apply the changedFiles before/after hashes in this addendum when preparing the next release manifest. The old manifest and independent review intentionally remain historical snapshots; their engine hash predates this fix. All other existing deliverables still match that manifest."
+  },
+  "boundaries": {
+    "browserUsed": false,
+    "nativeImportOrPublication": false,
+    "commitOrPush": false,
+    "productionDeployed": false
+  },
+  "remainingGates": [
+    "Main-owned browser/mobile/deployment verification",
+    "Main-owned native import/publication decisions"
+  ]
+}

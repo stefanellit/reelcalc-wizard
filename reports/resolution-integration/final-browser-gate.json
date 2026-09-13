@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-09-13T17:31:14.862Z",
+  "mode": "applied-local-review-and-import-build-only",
+  "verdict": "pass-proof-gates",
+  "sourceModels": 14,
+  "sourceRows": 42,
+  "sourcePacksUnchanged": true,
+  "copyFields": 53,
+  "exactReviewedHtmlHashes": 84,
+  "browserRecords": {
+    "exactRating": 14,
+    "copy": 28,
+    "viewport": 126,
+    "requiredViewports": 126
+  },
+  "proofHashes": {
+    "reports/resolution-integration/actual-browser-checks.json": "de6cc00afca57d3e22da4a0d9844a106a8db66b26044958a5ecd30a897dd4e70",
+    "reports/resolution-integration/actual-copy-browser-checks.json": "f9722e6f68391f3aefd1346192f9499865da226ac03df3a9b85465e6357c58aa",
+    "reports/resolution-integration/actual-viewport-checks.json": "410a8aa727fec87835855a6ec085cc79ce0d3879d10c2edda52804cc1d5b64c6",
+    "reports/resolution-integration/final-full-catalog-trust.json": "3e147f6e17df68bbe2a97be1fd697e75ca388f3ef57a619864f284a34200e6a3"
+  },
+  "beforeHashes": {
+    "research/line-pages/review-status.json": "2a7da882b748de3357adefb9e696045c3eb75440430daca773707c87a606289e",
+    "data/line-page-release.json": "113bb1635c0f3ebe45361cbb6d9d8103bcdf268ce4bb86dcc43dafc75160fbc5",
+    "data/lines.json": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+    "data/line-page-products.json": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+    "data/line-page-imports.json": "0134d9839ca5dc1f492522295ec30664907e4c0db6e4b60558d67235b2cb7cd1",
+    "generated/line-pages/imported-products.json": "247278536d0afdcc9e69a44f6b06d3e3c9d6692a83bb7978686771897a8895c8",
+    "generated/line-pages/import-inventory.json": "cabc5c71bb8386d14cee7eb814f6d5eb656d5efcf62a31d83aacf6e4b539c69b",
+    "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv": "c03c4ff89926995349eea2fc37a1e241e193850892967ef7904d703d72857c29"
+  },
+  "errors": [],
+  "reviewStatusChanged": true,
+  "actualImportBuilt": true,
+  "fullCatalogAudit": {
+    "file": "reports/resolution-integration/final-full-catalog-trust.json",
+    "sha256": "3e147f6e17df68bbe2a97be1fd697e75ca388f3ef57a619864f284a34200e6a3",
+    "date": "2026-09-13",
+    "strengths": 825,
+    "readyReels": 1320,
+    "productIds": null,
+    "pairings": 1089000,
+    "offers": 1774,
+    "checks": 11483423,
+    "failures": 0,
+    "examples": []
+  },
+  "nativeCopy28Complete": false,
+  "nativeCopyStatus": {
+    "pilotId": "daiwa-j-braid-x4",
+    "pilot": "User reports existing-ID update succeeded with native SEO/images unchanged; independent export verification pending.",
+    "remaining27": "Not claimed updated by this gate. Main owns remaining native work."
+  },
+  "publishedProductsUnchanged": true,
+  "browserAccessed": false,
+  "nativeImportPerformed": false,
+  "import": {
+    "file": "generated/line-pages/UPLOAD-THIS-14-new-line-guides.csv",
+    "sha256": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa",
+    "rows": 14,
+    "inventory": "generated/line-pages/import-inventory.json",
+    "inventorySha256": "7357bffc8f028fc6fc98419ce9d75e3e2e0bf19225e3c9d11041f4edc740988a",
+    "original80InventoryBackup": "reports/resolution-integration/original80-import-inventory-preserved.json",
+    "original80InventorySha256": "cabc5c71bb8386d14cee7eb814f6d5eb656d5efcf62a31d83aacf6e4b539c69b",
+    "visibility": "hidden",
+    "note": "File built locally only. Main must validate CSV and approve deployment/import. No native import performed."
+  },
+  "afterHashes": {
+    "research/line-pages/review-status.json": "1bd8095f8480cd24845cc9321823766df9ad3cf9213cdcf50b3674e21fe647af",
+    "data/line-page-release.json": "113bb1635c0f3ebe45361cbb6d9d8103bcdf268ce4bb86dcc43dafc75160fbc5",
+    "data/lines.json": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+    "data/line-page-products.json": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+    "data/line-page-imports.json": "0134d9839ca5dc1f492522295ec30664907e4c0db6e4b60558d67235b2cb7cd1",
+    "generated/line-pages/imported-products.json": "247278536d0afdcc9e69a44f6b06d3e3c9d6692a83bb7978686771897a8895c8",
+    "generated/line-pages/import-inventory.json": "7357bffc8f028fc6fc98419ce9d75e3e2e0bf19225e3c9d11041f4edc740988a",
+    "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv": "c03c4ff89926995349eea2fc37a1e241e193850892967ef7904d703d72857c29"
+  }
+}

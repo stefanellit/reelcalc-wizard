@@ -3663,9 +3663,51 @@
     "type": "Fluorocarbon",
     "lb": 25,
     "dia_in": 0.018,
-    "dia_mm": 0.46,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "hi-seas fluorocarbon fluorocarbon 25 lb"
+    "dia_mm": 0.45,
+    "source_note": "Checked 2026-09-13. Official linked full catalog page 12, 100% Fluorocarbon Line filler-spool table: CFC-F200-25 / 25 lb / 11.3 kg / .018 in / .45 mm / 200 yd / 182 m. Exact official SKU photo independently prints 25 lb / .018 in / .45 mm / 200 yd (183 m). Both establish the same physical SKU and yard length. Individual shop URL is 404; no stock claim.  Checked September 13, 2026. The 25 lb row is transcribed from page 12 of the 2025-named AFW catalog currently linked by its official download page, and visually corroborated by the exact manufacturer CFC-F200-25 package photo. The PDF metadata says Catalog 2024 and a June 2024 creation date; its filename does not establish a newer measurement. The July 2026 supplement supplies no replacement fluorocarbon table. The individual 25 lb shop URL returns 404. The 10/12/15/20/30 lb sizes are not included; this is not a statement of current stock or an independent diameter measurement.",
+    "search_text": "hi-seas fluorocarbon fluorocarbon 25 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.afwfishing.com/content/fishing_catalog_download.asp",
+    "diameter_source_url": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12",
+    "diameter_basis": "published-pair",
+    "source_scope": "One verified strength: Clear CFC-F200-25, 25 lb, .018 inch / .45 mm, 200 yards. The 10/12/15/20 lb entries remain excluded because exact shop data conflicts with catalog/photo evidence. A 30 lb CFC-F200 source is not established.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+      "sha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
+      "modelSha256": "fbbb8a043ab765e14859b5e93226146ec0c269021fbf12a21ccd2c05d46b2428",
+      "reviewFile": "reports/resolution-integration/group-e-final-review.json",
+      "reviewSha256": "5d2c42240f4356d25ac16c735f9256148bb2b2496683940591ebd486af9e7aee"
+    },
+    "source_evidence": {
+      "id": "hi-seas-fluorocarbon-fluorocarbon-25",
+      "lb": 25,
+      "dia_in": 0.018,
+      "dia_mm": 0.45,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        200
+      ],
+      "retail_packages": [],
+      "source_packages": [
+        {
+          "sku": "CFC-F200-25",
+          "color": "Clear",
+          "yards": 200,
+          "catalogPrintedMeters": 182,
+          "photoPrintedMeters": 183,
+          "note": "Preserve the different metric companion labels as evidence only. The agreed 200 yd converts to 182.88 m, approximately 183 m; the catalog instead prints 182 m. Runtime package units remain yards."
+        }
+      ],
+      "sourceUrl": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12",
+      "corroboratingSourceUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+      "evidence": "Official linked full catalog page 12, 100% Fluorocarbon Line filler-spool table: CFC-F200-25 / 25 lb / 11.3 kg / .018 in / .45 mm / 200 yd / 182 m. Exact official SKU photo independently prints 25 lb / .018 in / .45 mm / 200 yd (183 m). Both establish the same physical SKU and yard length. Individual shop URL is 404; no stock claim.",
+      "availabilityStatus": "catalog-listed-stock-unverified"
+    },
+    "source_scope_label": "Catalog-listed CFC-F200-25 Clear; stock unverified"
   },
   {
     "id": "hi-seas-fluorocarbon-fluorocarbon-30",
@@ -5384,8 +5426,100 @@
     "lb": 10,
     "dia_in": 0.014,
     "dia_mm": 0.35,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line cxx x-tra strong copolymer 10 lb"
+    "source_note": "Checked 2026-09-13. Actual front carton photo: 10 lb/4.55 kg, CXXFG-10, 300 yd/273 meters, DIA. 0.014 IN. (0.35 MM). Exact pictured US production label only; production year/current edition/availability unestablished. Manufacturer-printed carton labels were visually inspected in the original Fishing Addiction Gear photos. P-Line's US variant records independently match model number, color, strength, and yard count, but do not publish numeric diameters. The cartons print 273 m beside 300 yd; the official dropdown says 300YD/247M. This reference retains the explicit 300 yd count, not an inferred metric package.",
+    "search_text": "p-line cxx x-tra strong copolymer 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/cxx-x-tra-strong/",
+    "diameter_source_url": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Moss Green cartons only: CXXFG-10, 10 lb, .014 in/.35 mm, 300 yd; CXXFG-12, 12 lb, .0148 in/.37 mm, 300 yd. Production dates are unestablished. Both diameters are independently printed values, not measurements or retailer-authored chart entries.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "6ddca9ef1868ff27de47cdac553b9f6afbd4f178e1c945ef19dc084b33729628",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-cxx-x-tra-strong-copolymer-10",
+      "lb": 10,
+      "dia_in": 0.014,
+      "dia_mm": 0.35,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+      "evidence": "Actual front carton photo: 10 lb/4.55 kg, CXXFG-10, 300 yd/273 meters, DIA. 0.014 IN. (0.35 MM).",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "CXXFG-10",
+      "color": "Moss Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 10,
+        "diameterIn": "0.014",
+        "diameterMm": "0.35",
+        "yards": 300,
+        "meters": 273
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.005599999999999994,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/cxx-x-tra-strong/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cxx.parsed.json",
+        "modelNumber": "CXXFG-10",
+        "sku": "750186004",
+        "variationId": 1610,
+        "attributes": {
+          "attribute_pa_pound-test": "10lb-4-5kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "<p>300 YD</p>\n",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "CXXFG-10",
+          "color": "Moss Green",
+          "lb": 10,
+          "yards": 300,
+          "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/cxx-10-photo.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cxx-10-photo.jpg",
+          "sha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f",
+          "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+          "retrievedAt": "2026-09-13T15:11:44.947Z",
+          "contextUrl": "https://fishingaddictiongear.com/products/p-line-cxx-xtra-strong-moss-green",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual front carton photo: 10 lb/4.55 kg, CXXFG-10, 300 yd/273 meters, DIA. 0.014 IN. (0.35 MM)."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; CXXFG-10 Moss Green"
   },
   {
     "id": "p-line-cxx-x-tra-strong-copolymer-12",
@@ -5393,10 +5527,102 @@
     "model": "CXX X-Tra Strong",
     "type": "Copolymer",
     "lb": 12,
-    "dia_in": 0.015,
+    "dia_in": 0.0148,
     "dia_mm": 0.37,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line cxx x-tra strong copolymer 12 lb"
+    "source_note": "Checked 2026-09-13. Actual front carton photo: 12 lb/5.45 kg, CXXFG-12, 300 yd/273 meters, DIA. 0.0148 IN. (0.37 MM). Exact pictured US production label only; production year/current edition/availability unestablished. Manufacturer-printed carton labels were visually inspected in the original Fishing Addiction Gear photos. P-Line's US variant records independently match model number, color, strength, and yard count, but do not publish numeric diameters. The cartons print 273 m beside 300 yd; the official dropdown says 300YD/247M. This reference retains the explicit 300 yd count, not an inferred metric package.",
+    "search_text": "p-line cxx x-tra strong copolymer 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/cxx-x-tra-strong/",
+    "diameter_source_url": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203824782_1400x.jpg?v=1649537170",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Moss Green cartons only: CXXFG-10, 10 lb, .014 in/.35 mm, 300 yd; CXXFG-12, 12 lb, .0148 in/.37 mm, 300 yd. Production dates are unestablished. Both diameters are independently printed values, not measurements or retailer-authored chart entries.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "6ddca9ef1868ff27de47cdac553b9f6afbd4f178e1c945ef19dc084b33729628",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-cxx-x-tra-strong-copolymer-12",
+      "lb": 12,
+      "dia_in": 0.0148,
+      "dia_mm": 0.37,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203824782_1400x.jpg?v=1649537170",
+      "evidence": "Actual front carton photo: 12 lb/5.45 kg, CXXFG-12, 300 yd/273 meters, DIA. 0.0148 IN. (0.37 MM).",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "CXXFG-12",
+      "color": "Moss Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 12,
+        "diameterIn": "0.0148",
+        "diameterMm": "0.37",
+        "yards": 300,
+        "meters": 273
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.005919999999999981,
+        "allowanceMm": 0.00627,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/cxx-x-tra-strong/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cxx.parsed.json",
+        "modelNumber": "CXXFG-12",
+        "sku": "750186005",
+        "variationId": 1612,
+        "attributes": {
+          "attribute_pa_pound-test": "12lb-5-5kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "<p>300 YD</p>\n",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "CXXFG-12",
+          "color": "Moss Green",
+          "lb": 12,
+          "yards": 300,
+          "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203824782_1400x.jpg?v=1649537170",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/cxx-photo-alt1.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cxx-photo-alt1.jpg",
+          "sha256": "e0a5df8b2f383e7cdabb55bf80e81db76d07d579b4343669393164750c672424",
+          "sourceUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203824782_1400x.jpg?v=1649537170",
+          "retrievedAt": "2026-09-13T15:16:37.791Z",
+          "contextUrl": "https://fishingaddictiongear.com/products/p-line-cxx-xtra-strong-moss-green",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual front carton photo: 12 lb/5.45 kg, CXXFG-12, 300 yd/273 meters, DIA. 0.0148 IN. (0.37 MM)."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; CXXFG-12 Moss Green"
   },
   {
     "id": "p-line-cxx-x-tra-strong-copolymer-15",
@@ -5505,8 +5731,100 @@
     "lb": 10,
     "dia_in": 0.0116,
     "dia_mm": 0.29,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line floroclear copolymer 10 lb"
+    "source_note": "Checked 2026-09-13. 2021 US manufacturer catalog, printed p.9: Clear FloroClear Bonus Pack, TEST LB. 10, 600 YDS, Dia. 0.29mm (0.0116inch); FCCBF-10 in same-page SKU table. Exact pictured package in the historical 2021 US catalog only. The 10 lb numbers come from the manufacturer's official 2021 US catalog, printed page 9. The 12 lb filler values are visible on an actual P-Line carton and matching spool in an eBay-hosted photo, with UPC 015789650070. Official US variants corroborate FCCBF-10 and FCCF-12 identities. Seller prose and retailer diameter tables are not numeric authority. Neither row establishes current edition or availability.",
+    "search_text": "p-line floroclear copolymer 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      600
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/floroclear/",
+    "diameter_source_url": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Clear only: 2021 catalog p.9 FCCBF-10, 10 lb, .0116 in/.29 mm, 600 yd; undated pictured FCCF-12 filler, 12 lb, .0124 in/.31 mm, 300 yd. The separate 12 lb/600 yd FCCBF bonus label prints .0122 in and is NOT combined into the 12 lb filler row.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "faacbaf869108eae2408e2f1481caf9fad7125215c543d02bbb68dadbf49783d",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-floroclear-copolymer-10",
+      "lb": 10,
+      "dia_in": 0.0116,
+      "dia_mm": 0.29,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        600
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+      "sourcePage": 9,
+      "evidence": "2021 US manufacturer catalog, printed p.9: Clear FloroClear Bonus Pack, TEST LB. 10, 600 YDS, Dia. 0.29mm (0.0116inch); FCCBF-10 in same-page SKU table.",
+      "numericBasis": "historical-manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "FCCBF-10",
+      "color": "Clear",
+      "region": "US",
+      "publishedYear": 2021,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured package in the historical 2021 US catalog only.",
+      "printedValues": {
+        "strengthLb": 10,
+        "diameterIn": "0.0116",
+        "diameterMm": "0.29",
+        "yards": 600
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0046399999999999775,
+        "allowanceMm": 0.00627,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/floroclear/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-floroclear.parsed.json",
+        "modelNumber": "FCCBF-10",
+        "sku": "750186602",
+        "variationId": 263,
+        "attributes": {
+          "attribute_pa_pound-test": "10lb-4-5kg",
+          "attribute_pa_color": "clear",
+          "attribute_pa_spool-size": "600yd-549m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "FCCBF-10",
+          "color": "Clear",
+          "lb": 10,
+          "yards": 600,
+          "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "sourcePage": 9,
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p09.png"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p09.png",
+          "sha256": "d6806c00acbe0e22584dd77c57c40b86f128bb8b17b5fac03f3f77832b190298",
+          "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "retrievedAt": "2026-09-13T14:04:09.605Z",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "2021 US manufacturer catalog, printed p.9: Clear FloroClear Bonus Pack, TEST LB. 10, 600 YDS, Dia. 0.29mm (0.0116inch); FCCBF-10 in same-page SKU table."
+        }
+      ]
+    },
+    "source_scope_label": "2021 US catalog; FCCBF-10 Clear"
   },
   {
     "id": "p-line-floroclear-copolymer-12",
@@ -5516,8 +5834,100 @@
     "lb": 12,
     "dia_in": 0.0124,
     "dia_mm": 0.31,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line floroclear copolymer 12 lb"
+    "source_note": "Checked 2026-09-13. Actual carton and matching spool: 12 lb, 300 YDS, FCCF, Dia.0.31mm (0.0124inch); spool UPC 015789650070. Exact FCCF-12 identity matches official US 12 lb/300 yd variant. Exact pictured US production label only; production year/current edition/availability unestablished. The 10 lb numbers come from the manufacturer's official 2021 US catalog, printed page 9. The 12 lb filler values are visible on an actual P-Line carton and matching spool in an eBay-hosted photo, with UPC 015789650070. Official US variants corroborate FCCBF-10 and FCCF-12 identities. Seller prose and retailer diameter tables are not numeric authority. Neither row establishes current edition or availability.",
+    "search_text": "p-line floroclear copolymer 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/floroclear/",
+    "diameter_source_url": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Clear only: 2021 catalog p.9 FCCBF-10, 10 lb, .0116 in/.29 mm, 600 yd; undated pictured FCCF-12 filler, 12 lb, .0124 in/.31 mm, 300 yd. The separate 12 lb/600 yd FCCBF bonus label prints .0122 in and is NOT combined into the 12 lb filler row.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "faacbaf869108eae2408e2f1481caf9fad7125215c543d02bbb68dadbf49783d",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-floroclear-copolymer-12",
+      "lb": 12,
+      "dia_in": 0.0124,
+      "dia_mm": 0.31,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+      "evidence": "Actual carton and matching spool: 12 lb, 300 YDS, FCCF, Dia.0.31mm (0.0124inch); spool UPC 015789650070. Exact FCCF-12 identity matches official US 12 lb/300 yd variant.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "FCCF-12",
+      "color": "Clear",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 12,
+        "diameterIn": "0.0124",
+        "diameterMm": "0.31",
+        "yards": 300
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0049599999999999644,
+        "allowanceMm": 0.00627,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/floroclear/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-floroclear.parsed.json",
+        "modelNumber": "FCCF-12",
+        "sku": "750186507",
+        "variationId": 256,
+        "attributes": {
+          "attribute_pa_pound-test": "12lb-5-5kg",
+          "attribute_pa_color": "clear",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "FCCF-12",
+          "color": "Clear",
+          "lb": 12,
+          "yards": 300,
+          "upc": "015789650070",
+          "sourceUrl": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/floroclear-12-ebay.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/floroclear-12-ebay.jpg",
+          "sha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942",
+          "sourceUrl": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+          "retrievedAt": "2026-09-13T15:15:46.328Z",
+          "contextUrl": "https://www.ebay.com/itm/256131984883",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual carton and matching spool: 12 lb, 300 YDS, FCCF, Dia.0.31mm (0.0124inch); spool UPC 015789650070. Exact FCCF-12 identity matches official US 12 lb/300 yd variant."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; FCCF-12 Clear"
   },
   {
     "id": "p-line-floroclear-copolymer-15",
@@ -5569,10 +5979,101 @@
     "model": "CX Premium",
     "type": "Copolymer",
     "lb": 6,
-    "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line cx premium copolymer 6 lb"
+    "dia_in": 0.0084,
+    "dia_mm": 0.21,
+    "source_note": "Checked 2026-09-13. Four actual matching cartons show CX Premium, Moss Green, TEST LB.6, 300 yds, CXFMG, Dia.0.21mm (0.0084inch). Model suffix -6 established by exact official color/strength/package variant. Exact pictured US production label only; production year/current edition/availability unestablished. Actual eBay-hosted CX Premium carton photographs supply the numeric values. Official P-Line US model numbers CXFMG-6 and CXFMG-8 independently match the color, strength, and 300-yard package. The current generic 300YD/247M option contains a metric discrepancy and is not used to infer a meter-rated package. Retailer-authored diameters are excluded.",
+    "search_text": "p-line cx premium copolymer 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/cx-premium/",
+    "diameter_source_url": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yNUAAOSwF6xmDEqT/%24_57.JPG?set_id=880000500F",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Moss Green CXFMG cartons only: 6 lb, .0084 in/.21 mm, 300 yd; 8 lb, .0092 in/.23 mm, 300 yd. Manufacturer-printed labels were read directly from actual package photos. The photos have no established production year; no other strength, color, or regional package is included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "1f2da7f64f5815c001dba2b0515fdbf1e20d37c69c1387ee84afc33cee897334",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-cx-premium-copolymer-6",
+      "lb": 6,
+      "dia_in": 0.0084,
+      "dia_mm": 0.21,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yNUAAOSwF6xmDEqT/%24_57.JPG?set_id=880000500F",
+      "evidence": "Four actual matching cartons show CX Premium, Moss Green, TEST LB.6, 300 yds, CXFMG, Dia.0.21mm (0.0084inch). Model suffix -6 established by exact official color/strength/package variant.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "CXFMG-6",
+      "color": "Moss Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 6,
+        "diameterIn": "0.0084",
+        "diameterMm": "0.21",
+        "yards": 300
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.003359999999999974,
+        "allowanceMm": 0.00627,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/cx-premium/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cx-premium.parsed.json",
+        "modelNumber": "CXFMG-6",
+        "sku": "750185512",
+        "variationId": 1440,
+        "attributes": {
+          "attribute_pa_pound-test": "6lb-2-7kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "CXFMG-6",
+          "color": "Moss Green",
+          "lb": 6,
+          "yards": 300,
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yNUAAOSwF6xmDEqT/%24_57.JPG?set_id=880000500F",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/cx-6-ebay.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cx-6-ebay.jpg",
+          "sha256": "1a00d2993e9b85fef6447f6c3da8726384c7a1768d6d1d50c198ad34b44adbe7",
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yNUAAOSwF6xmDEqT/%24_57.JPG?set_id=880000500F",
+          "retrievedAt": "2026-09-13T15:14:43.046Z",
+          "contextUrl": "https://www.ebay.com/itm/395312724416",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Four actual matching cartons show CX Premium, Moss Green, TEST LB.6, 300 yds, CXFMG, Dia.0.21mm (0.0084inch). Model suffix -6 established by exact official color/strength/package variant."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; CXFMG-6 Moss Green"
   },
   {
     "id": "p-line-cx-premium-copolymer-8",
@@ -5580,10 +6081,101 @@
     "model": "CX Premium",
     "type": "Copolymer",
     "lb": 8,
-    "dia_in": 0.01,
-    "dia_mm": 0.25,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line cx premium copolymer 8 lb"
+    "dia_in": 0.0092,
+    "dia_mm": 0.23,
+    "source_note": "Checked 2026-09-13. Actual carton: CX Premium, Moss Green, TEST LB.8, 300 yds, CXFMG, Dia.0.23mm (0.0092inch). Model suffix -8 established by exact official color/strength/package variant. Exact pictured US production label only; production year/current edition/availability unestablished. Actual eBay-hosted CX Premium carton photographs supply the numeric values. Official P-Line US model numbers CXFMG-6 and CXFMG-8 independently match the color, strength, and 300-yard package. The current generic 300YD/247M option contains a metric discrepancy and is not used to infer a meter-rated package. Retailer-authored diameters are excluded.",
+    "search_text": "p-line cx premium copolymer 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/cx-premium/",
+    "diameter_source_url": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Moss Green CXFMG cartons only: 6 lb, .0084 in/.21 mm, 300 yd; 8 lb, .0092 in/.23 mm, 300 yd. Manufacturer-printed labels were read directly from actual package photos. The photos have no established production year; no other strength, color, or regional package is included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "1f2da7f64f5815c001dba2b0515fdbf1e20d37c69c1387ee84afc33cee897334",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-cx-premium-copolymer-8",
+      "lb": 8,
+      "dia_in": 0.0092,
+      "dia_mm": 0.23,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+      "evidence": "Actual carton: CX Premium, Moss Green, TEST LB.8, 300 yds, CXFMG, Dia.0.23mm (0.0092inch). Model suffix -8 established by exact official color/strength/package variant.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "CXFMG-8",
+      "color": "Moss Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 8,
+        "diameterIn": "0.0092",
+        "diameterMm": "0.23",
+        "yards": 300
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.003679999999999961,
+        "allowanceMm": 0.00627,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/cx-premium/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-cx-premium.parsed.json",
+        "modelNumber": "CXFMG-8",
+        "sku": "750185513",
+        "variationId": 1441,
+        "attributes": {
+          "attribute_pa_pound-test": "8lb-3-6kg",
+          "attribute_pa_color": "moss-green",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "CXFMG-8",
+          "color": "Moss Green",
+          "lb": 8,
+          "yards": 300,
+          "sourceUrl": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/cx-8-ebay.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/cx-8-ebay.jpg",
+          "sha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61",
+          "sourceUrl": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+          "retrievedAt": "2026-09-13T15:14:42.750Z",
+          "contextUrl": "https://www.ebay.com/itm/397227773494",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual carton: CX Premium, Moss Green, TEST LB.8, 300 yds, CXFMG, Dia.0.23mm (0.0092inch). Model suffix -8 established by exact official color/strength/package variant."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; CXFMG-8 Moss Green"
   },
   {
     "id": "p-line-cx-premium-copolymer-10",
@@ -5681,8 +6273,101 @@
     "lb": 15,
     "dia_in": 0.0138,
     "dia_mm": 0.352,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line tactical fluorocarbon fluorocarbon 15 lb"
+    "source_note": "Checked 2026-09-13. 2021 US catalog printed p.6: actual side label PTB1000-15, 15 lb/7.0 kg, 1000 YDS/914.4 meters, DIA.0.0138IN. (0.352MM). Exact pictured package in the historical 2021 US catalog only. Numeric authority is the manufacturer-printed PTB1000-15 bulk-spool label in P-Line's official 2021 US catalog, page 6. The historical year is supported by the official filename and PDF metadata, not inferred from today's listing. Current official variants corroborate the identity only. The 17 lb label remains a documented unit conflict; neither printed value was corrected or preferred.",
+    "search_text": "p-line tactical fluorocarbon fluorocarbon 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      1000
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/tactical-fluorocarbon/",
+    "diameter_source_url": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+    "diameter_basis": "published-pair",
+    "source_scope": "Historical 2021 US catalog, printed p.6: Clear PTB1000-15, 15 lb, .0138 in/.352 mm, 1000 yd. This single exact label is the entire verified chart, not the current Tactical range. The separate 17 lb/200 yd label is excluded because its printed .0154 in/.393 mm pair falls just outside the combined rounding allowance.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "99143d666228029b5fe0107cd0744c611291983ee04d988a29d6df1c1895df09",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+      "lb": 15,
+      "dia_in": 0.0138,
+      "dia_mm": 0.352,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        1000
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+      "sourcePage": 6,
+      "evidence": "2021 US catalog printed p.6: actual side label PTB1000-15, 15 lb/7.0 kg, 1000 YDS/914.4 meters, DIA.0.0138IN. (0.352MM).",
+      "numericBasis": "historical-manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "PTB1000-15",
+      "color": "Clear",
+      "region": "US",
+      "publishedYear": 2021,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured package in the historical 2021 US catalog only.",
+      "printedValues": {
+        "strengthLb": 15,
+        "diameterIn": "0.0138",
+        "diameterMm": "0.352",
+        "yards": 1000,
+        "meters": 914.4
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0014799999999999813,
+        "allowanceMm": 0.00177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/tactical-fluorocarbon/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-tactical.parsed.json",
+        "modelNumber": "PTB1000-15",
+        "sku": "750182974",
+        "variationId": 137,
+        "attributes": {
+          "attribute_pa_pound-test": "15lb-7kg",
+          "attribute_pa_color": "clear",
+          "attribute_pa_spool-size": "1000yd-914m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "PTB1000-15",
+          "color": "Clear",
+          "lb": 15,
+          "yards": 1000,
+          "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "sourcePage": 6,
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p06.png"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p06.png",
+          "sha256": "1b31b0883c2beb311e81d67015ab126ec924306d088f2f6641db2f4863e52114",
+          "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "retrievedAt": "2026-09-13T14:04:09.605Z",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "2021 US catalog printed p.6: actual side label PTB1000-15, 15 lb/7.0 kg, 1000 YDS/914.4 meters, DIA.0.0138IN. (0.352MM)."
+        }
+      ]
+    },
+    "source_scope_label": "2021 US catalog; PTB1000-15 Clear"
   },
   {
     "id": "p-line-tactical-fluorocarbon-fluorocarbon-17",
@@ -5712,10 +6397,101 @@
     "model": "HALO Fluorocarbon",
     "type": "Fluorocarbon",
     "lb": 6,
-    "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line halo fluorocarbon fluorocarbon 6 lb"
+    "dia_in": 0.008,
+    "dia_mm": 0.21,
+    "source_note": "Checked 2026-09-13. Left authentic Halo carton: TEST LB.6, HF, 200 YDS, DIA.0.21MM (0.008INCH). Product front says 100% Fluorocarbon Co-Fluoride and Mist Green. Exact pictured US production label only; production year/current edition/availability unestablished. A single actual-package photo shows legible 6, 8, and 10 lb HALO cartons together. It is hosted on eBay; the numeric authority is the P-Line printing, not the seller description. Official US variants match HF200-6, HF200-8, and HF200-10. EU package sizes and the separate 2,000-yard US family are not included.",
+    "search_text": "p-line halo fluorocarbon fluorocarbon 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/halo-fluorocarbon/",
+    "diameter_source_url": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Mist Green HF200 cartons only: 6 lb .008 in/.21 mm; 8 lb .01 in/.25 mm; 10 lb .011 in/.28 mm. Each label says 200 yd. Both printed units are retained at their original precision in the evidence; neither regional tables nor retailer-authored diameters supplied these values.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "8cdbe1ca7ac46e5b5140e4e5510de25f7d774d637a7a6e20bf8a98737dbfe7d2",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-halo-fluorocarbon-fluorocarbon-6",
+      "lb": 6,
+      "dia_in": 0.008,
+      "dia_mm": 0.21,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+      "evidence": "Left authentic Halo carton: TEST LB.6, HF, 200 YDS, DIA.0.21MM (0.008INCH). Product front says 100% Fluorocarbon Co-Fluoride and Mist Green.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "HF200-6",
+      "color": "Mist Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 6,
+        "diameterIn": "0.008",
+        "diameterMm": "0.21",
+        "yards": 200
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0068000000000000005,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/halo-fluorocarbon/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.parsed.json",
+        "modelNumber": "HF200-6",
+        "sku": "750186174",
+        "variationId": 239,
+        "attributes": {
+          "attribute_pa_pound-test": "6lb-2-7kg",
+          "attribute_pa_color": "mist-green",
+          "attribute_pa_spool-size": "200yd-183m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "HF200-6",
+          "color": "Mist Green",
+          "lb": 6,
+          "yards": 200,
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png",
+          "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "retrievedAt": "2026-09-13T15:11:45.956Z",
+          "contextUrl": "https://www.ebay.com/itm/285040455744",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Left authentic Halo carton: TEST LB.6, HF, 200 YDS, DIA.0.21MM (0.008INCH). Product front says 100% Fluorocarbon Co-Fluoride and Mist Green."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; HF200-6 Mist Green"
   },
   {
     "id": "p-line-halo-fluorocarbon-fluorocarbon-8",
@@ -5725,8 +6501,99 @@
     "lb": 8,
     "dia_in": 0.01,
     "dia_mm": 0.25,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line halo fluorocarbon fluorocarbon 8 lb"
+    "source_note": "Checked 2026-09-13. Center authentic Halo carton: TEST LB.8, HF, 200 YDS, DIA.0.25MM (0.01INCH). Exact official HF200-8 US color/strength/package identity. Exact pictured US production label only; production year/current edition/availability unestablished. A single actual-package photo shows legible 6, 8, and 10 lb HALO cartons together. It is hosted on eBay; the numeric authority is the P-Line printing, not the seller description. Official US variants match HF200-6, HF200-8, and HF200-10. EU package sizes and the separate 2,000-yard US family are not included.",
+    "search_text": "p-line halo fluorocarbon fluorocarbon 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/halo-fluorocarbon/",
+    "diameter_source_url": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Mist Green HF200 cartons only: 6 lb .008 in/.21 mm; 8 lb .01 in/.25 mm; 10 lb .011 in/.28 mm. Each label says 200 yd. Both printed units are retained at their original precision in the evidence; neither regional tables nor retailer-authored diameters supplied these values.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "8cdbe1ca7ac46e5b5140e4e5510de25f7d774d637a7a6e20bf8a98737dbfe7d2",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-halo-fluorocarbon-fluorocarbon-8",
+      "lb": 8,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+      "evidence": "Center authentic Halo carton: TEST LB.8, HF, 200 YDS, DIA.0.25MM (0.01INCH). Exact official HF200-8 US color/strength/package identity.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "HF200-8",
+      "color": "Mist Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 8,
+        "diameterIn": "0.01",
+        "diameterMm": "0.25",
+        "yards": 200
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0040000000000000036,
+        "allowanceMm": 0.132,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/halo-fluorocarbon/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.parsed.json",
+        "modelNumber": "HF200-8",
+        "sku": "750186175",
+        "variationId": 240,
+        "attributes": {
+          "attribute_pa_pound-test": "8lb-3-6kg",
+          "attribute_pa_color": "mist-green",
+          "attribute_pa_spool-size": "200yd-183m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "HF200-8",
+          "color": "Mist Green",
+          "lb": 8,
+          "yards": 200,
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png",
+          "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "retrievedAt": "2026-09-13T15:11:45.956Z",
+          "contextUrl": "https://www.ebay.com/itm/285040455744",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Center authentic Halo carton: TEST LB.8, HF, 200 YDS, DIA.0.25MM (0.01INCH). Exact official HF200-8 US color/strength/package identity."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; HF200-8 Mist Green"
   },
   {
     "id": "p-line-halo-fluorocarbon-fluorocarbon-10",
@@ -5736,8 +6603,99 @@
     "lb": 10,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line halo fluorocarbon fluorocarbon 10 lb"
+    "source_note": "Checked 2026-09-13. Right authentic Halo carton: TEST LB.10, HF, 200 YDS, DIA.0.28MM (0.011INCH). Exact official HF200-10 US color/strength/package identity. Exact pictured US production label only; production year/current edition/availability unestablished. A single actual-package photo shows legible 6, 8, and 10 lb HALO cartons together. It is hosted on eBay; the numeric authority is the P-Line printing, not the seller description. Official US variants match HF200-6, HF200-8, and HF200-10. EU package sizes and the separate 2,000-yard US family are not included.",
+    "search_text": "p-line halo fluorocarbon fluorocarbon 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/halo-fluorocarbon/",
+    "diameter_source_url": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Mist Green HF200 cartons only: 6 lb .008 in/.21 mm; 8 lb .01 in/.25 mm; 10 lb .011 in/.28 mm. Each label says 200 yd. Both printed units are retained at their original precision in the evidence; neither regional tables nor retailer-authored diameters supplied these values.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "8cdbe1ca7ac46e5b5140e4e5510de25f7d774d637a7a6e20bf8a98737dbfe7d2",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-halo-fluorocarbon-fluorocarbon-10",
+      "lb": 10,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+      "evidence": "Right authentic Halo carton: TEST LB.10, HF, 200 YDS, DIA.0.28MM (0.011INCH). Exact official HF200-10 US color/strength/package identity.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "HF200-10",
+      "color": "Mist Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 10,
+        "diameterIn": "0.011",
+        "diameterMm": "0.28",
+        "yards": 200
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0006000000000000449,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/halo-fluorocarbon/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-halo.parsed.json",
+        "modelNumber": "HF200-10",
+        "sku": "750186176",
+        "variationId": 241,
+        "attributes": {
+          "attribute_pa_pound-test": "10lb-4-5kg",
+          "attribute_pa_color": "mist-green",
+          "attribute_pa_spool-size": "200yd-183m"
+        },
+        "variationDescription": "",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "HF200-10",
+          "color": "Mist Green",
+          "lb": 10,
+          "yards": 200,
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/halo-multipack.png",
+          "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+          "sourceUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "retrievedAt": "2026-09-13T15:11:45.956Z",
+          "contextUrl": "https://www.ebay.com/itm/285040455744",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Right authentic Halo carton: TEST LB.10, HF, 200 YDS, DIA.0.28MM (0.011INCH). Exact official HF200-10 US color/strength/package identity."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; HF200-10 Mist Green"
   },
   {
     "id": "p-line-halo-fluorocarbon-fluorocarbon-12",
@@ -5780,8 +6738,101 @@
     "lb": 20,
     "dia_in": 0.009,
     "dia_mm": 0.23,
-    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
-    "search_text": "p-line endurx braid 20 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
+    "source_note": "Checked 2026-09-13. Actual Electric Green EndurX 8X label: PEBFG-300-20, 20 lb/9.1kg, 300 YDS/274 meters, DIA.0.009 IN. (0.23 MM), UPC 015789056872. Exact pictured US production label only; production year/current edition/availability unestablished. Actual P-Line spool-label photographs hosted by Tackle Warehouse supply both numeric units and exact package codes. Official US product variants corroborate the model, color, strength, and 300-yard count. Both packages print 274 meters; the official generic 300YD/247M dropdown is not treated as a separate verified metric package. Retailer-authored tables are not numeric authority.",
+    "search_text": "p-line endurx braid braid 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/endurx-braid/",
+    "diameter_source_url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "US 8X labels only: Electric Green PEBFG-300-20, 20 lb, .009 in/.23 mm, 300 yd; Midnight Black PEBB-300-30, 30 lb, .011 in/.28 mm, 300 yd. The newly legible 30 lb inch field is .011, not a retailer .010 entry or a conversion calculated from .28 mm. No four-carrier, other-color, or bulk variant is included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "193c39a561f1275693f7b68db7fee07dab67f5b8fee5792ae4d8a8ba932f13ef",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-endurx-braid-braid-20",
+      "lb": 20,
+      "dia_in": 0.009,
+      "dia_mm": 0.23,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+      "evidence": "Actual Electric Green EndurX 8X label: PEBFG-300-20, 20 lb/9.1kg, 300 YDS/274 meters, DIA.0.009 IN. (0.23 MM), UPC 015789056872.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "PEBFG-300-20",
+      "color": "Electric Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 20,
+        "diameterIn": "0.009",
+        "diameterMm": "0.23",
+        "yards": 300,
+        "meters": 274
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.00140000000000004,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/endurx-braid/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-endurx.parsed.json",
+        "modelNumber": "PEBFG-300-20",
+        "sku": "750182532",
+        "variationId": 7099,
+        "attributes": {
+          "attribute_pa_color": "electric-green",
+          "attribute_pa_pound-test": "20lb-9-1kg",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "<p>300 YD</p>\n",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "PEBFG-300-20",
+          "color": "Electric Green",
+          "lb": 20,
+          "yards": 300,
+          "upc": "015789056872",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/endurx-green-tw.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/endurx-green-tw.jpg",
+          "sha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+          "retrievedAt": "2026-09-13T15:14:43.582Z",
+          "contextUrl": "https://www.tacklewarehouse.com/P-Line_EndurX_Electric_Green_No_Fade_Braid/descpage-PLDUX.html",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual Electric Green EndurX 8X label: PEBFG-300-20, 20 lb/9.1kg, 300 YDS/274 meters, DIA.0.009 IN. (0.23 MM), UPC 015789056872."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; PEBFG-300-20 Electric Green"
   },
   {
     "id": "p-line-endurx-braid-braid-30",
@@ -5791,8 +6842,101 @@
     "lb": 30,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Verified against P-Line EndurX Braid product info and FishUSA published diameter table.",
-    "search_text": "p-line endurx braid 30 lb pline no fade monster green aqua blue midnight black electric hi-vis orange 8 carrier"
+    "source_note": "Checked 2026-09-13. Actual Midnight Black EndurX 8X label: PEBB-300-30, 30 lb/13.6kg, 300 YDS/274 meters, DIA.0.011 IN. (0.28 MM), UPC 015789056667. Both units are now legible, unlike the earlier partially occluded 2024 catalog photo. Exact pictured US production label only; production year/current edition/availability unestablished. Actual P-Line spool-label photographs hosted by Tackle Warehouse supply both numeric units and exact package codes. Official US product variants corroborate the model, color, strength, and 300-yard count. Both packages print 274 meters; the official generic 300YD/247M dropdown is not treated as a separate verified metric package. Retailer-authored tables are not numeric authority.",
+    "search_text": "p-line endurx braid braid 30 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/endurx-braid/",
+    "diameter_source_url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUXMB-1.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "US 8X labels only: Electric Green PEBFG-300-20, 20 lb, .009 in/.23 mm, 300 yd; Midnight Black PEBB-300-30, 30 lb, .011 in/.28 mm, 300 yd. The newly legible 30 lb inch field is .011, not a retailer .010 entry or a conversion calculated from .28 mm. No four-carrier, other-color, or bulk variant is included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "193c39a561f1275693f7b68db7fee07dab67f5b8fee5792ae4d8a8ba932f13ef",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-endurx-braid-braid-30",
+      "lb": 30,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUXMB-1.jpg",
+      "evidence": "Actual Midnight Black EndurX 8X label: PEBB-300-30, 30 lb/13.6kg, 300 YDS/274 meters, DIA.0.011 IN. (0.28 MM), UPC 015789056667. Both units are now legible, unlike the earlier partially occluded 2024 catalog photo.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "PEBB-300-30",
+      "color": "Midnight Black",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 30,
+        "diameterIn": "0.011",
+        "diameterMm": "0.28",
+        "yards": 300,
+        "meters": 274
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0006000000000000449,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/product/endurx-braid/",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/pline-endurx.parsed.json",
+        "modelNumber": "PEBB-300-30",
+        "sku": "750182503",
+        "variationId": 7119,
+        "attributes": {
+          "attribute_pa_color": "midnight-black",
+          "attribute_pa_pound-test": "30lb-14kg",
+          "attribute_pa_spool-size": "300yd-247m"
+        },
+        "variationDescription": "<p>300 YD</p>\n",
+        "authority": "Manufacturer-published exact SKU identity and package corroboration; NOT numeric diameter authority."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "PEBB-300-30",
+          "color": "Midnight Black",
+          "lb": 30,
+          "yards": 300,
+          "upc": "015789056667",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUXMB-1.jpg",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/endurx-tw.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/endurx-tw.jpg",
+          "sha256": "1dc4d85fa44fcce77c40502ce79f073a0e640a21ee836b5320f203371caaf3d3",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUXMB-1.jpg",
+          "retrievedAt": "2026-09-13T15:10:16.113Z",
+          "contextUrl": "https://www.tacklewarehouse.com/P-Line_EndurX_Midnight_Black_No_Fade_Braid/descpage-PLDUXMB.html",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual Midnight Black EndurX 8X label: PEBB-300-30, 30 lb/13.6kg, 300 YDS/274 meters, DIA.0.011 IN. (0.28 MM), UPC 015789056667. Both units are now legible, unlike the earlier partially occluded 2024 catalog photo."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; PEBB-300-30 Midnight Black"
   },
   {
     "id": "p-line-endurx-braid-braid-40",
@@ -5833,10 +6977,102 @@
     "model": "TCB 8 Braid",
     "type": "Braid",
     "lb": 20,
-    "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line tcb 8 braid braid 20 lb"
+    "dia_in": 0.01,
+    "dia_mm": 0.25,
+    "source_note": "Checked 2026-09-13. Actual TCB Braid 8 Teflon coated label: Green PXB8150-20, 20 lb/9.1kg, 150 YDS/137 meters, 0.010 DIA.IN./0.25 DIA.MM, UPC 015789039233. Exact model/color/package cross-check in the 2021 US manufacturer catalog printed p.4. Exact pictured US production label only; production year/current edition/availability unestablished. The numeric authority is actual P-Line TCB 8 spool printing in Tackle Warehouse-hosted photos. The official 2021 US catalog, page 4, explicitly links X-Braid/XTCB-8, eight strands, Teflon Surface Protector, and PXB/PXBY package families. The current X-Braid Green page is retained as identity context only because it now says Slick Coat. No other strengths or shared package lengths are inferred.",
+    "search_text": "p-line tcb 8 braid braid 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/x-braid-green/",
+    "diameter_source_url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Teflon-labeled packages only: Green PXB8150-20, 20 lb, .010 in/.25 mm, 150 yd; Hi Vis Yellow PXBY8300-50, 50 lb, .014 in/.36 mm, 300 yd. Official 2021 US catalog p.4 corroborates this family's names and package identities. It does not date these photographs or verify current Slick Coat specifications.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "4bc6b9f34d0b801c3a886c547ee01df4776c5ffb0491b3429996a81e4753fdca",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-tcb-8-braid-braid-20",
+      "lb": 20,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+      "evidence": "Actual TCB Braid 8 Teflon coated label: Green PXB8150-20, 20 lb/9.1kg, 150 YDS/137 meters, 0.010 DIA.IN./0.25 DIA.MM, UPC 015789039233. Exact model/color/package cross-check in the 2021 US manufacturer catalog printed p.4.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "PXB8150-20",
+      "color": "Green",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 20,
+        "diameterIn": "0.010",
+        "diameterMm": "0.25",
+        "yards": 150,
+        "meters": 137
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.0040000000000000036,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021.pdf",
+        "visualSourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p04.png",
+        "publishedYear": 2021,
+        "region": "US",
+        "printedPage": 4,
+        "modelNumber": "PXB8150-20",
+        "color": "Green",
+        "lb": 20,
+        "yards": 150,
+        "authority": "Manufacturer catalog exact PXB8150-20 Green 20 lb/150 yd table row, with explicit Teflon/XTCB-8/X-Braid identity on the same page."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "PXB8150-20",
+          "color": "Green",
+          "lb": 20,
+          "yards": 150,
+          "upc": "015789039233",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/tcb-tw.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/tcb-tw.jpg",
+          "sha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+          "retrievedAt": "2026-09-13T15:10:15.876Z",
+          "contextUrl": "https://www.tacklewarehouse.com/P-Line_TCB_8_Teflon_Coated_8-Carrier_Braided_Line_Green/descpage-TE.html",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual TCB Braid 8 Teflon coated label: Green PXB8150-20, 20 lb/9.1kg, 150 YDS/137 meters, 0.010 DIA.IN./0.25 DIA.MM, UPC 015789039233. Exact model/color/package cross-check in the 2021 US manufacturer catalog printed p.4."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; PXB8150-20 Green; Teflon edition"
   },
   {
     "id": "p-line-tcb-8-braid-braid-30",
@@ -5868,8 +7104,100 @@
     "lb": 50,
     "dia_in": 0.014,
     "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "p-line tcb 8 braid braid 50 lb"
+    "source_note": "Checked 2026-09-13. Actual TCB Braid 8 Teflon Surface Protector label: Hi Vis Yellow PXBY8300-50, 50 lb/22.7kg, 300 YDS/274 meters, 0.014 DIA.IN./0.36 DIA.MM, UPC 015789047085. Model/color/package cross-check in the 2021 US manufacturer catalog printed p.4. Exact pictured US production label only; production year/current edition/availability unestablished. The numeric authority is actual P-Line TCB 8 spool printing in Tackle Warehouse-hosted photos. The official 2021 US catalog, page 4, explicitly links X-Braid/XTCB-8, eight strands, Teflon Surface Protector, and PXB/PXBY package families. The current X-Braid Green page is retained as identity context only because it now says Slick Coat. No other strengths or shared package lengths are inferred.",
+    "search_text": "p-line tcb 8 braid braid 50 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://p-line.com/product/x-braid-green/",
+    "diameter_source_url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=0I-1.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "US Teflon-labeled packages only: Green PXB8150-20, 20 lb, .010 in/.25 mm, 150 yd; Hi Vis Yellow PXBY8300-50, 50 lb, .014 in/.36 mm, 300 yd. Official 2021 US catalog p.4 corroborates this family's names and package identities. It does not date these photographs or verify current Slick Coat specifications.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/pline-resolutions/pack.json",
+      "sha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+      "modelSha256": "4bc6b9f34d0b801c3a886c547ee01df4776c5ffb0491b3429996a81e4753fdca",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/pline-review.json",
+      "reviewSha256": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2"
+    },
+    "source_evidence": {
+      "id": "p-line-tcb-8-braid-braid-50",
+      "lb": 50,
+      "dia_in": 0.014,
+      "dia_mm": 0.36,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=0I-1.jpg",
+      "evidence": "Actual TCB Braid 8 Teflon Surface Protector label: Hi Vis Yellow PXBY8300-50, 50 lb/22.7kg, 300 YDS/274 meters, 0.014 DIA.IN./0.36 DIA.MM, UPC 015789047085. Model/color/package cross-check in the 2021 US manufacturer catalog printed p.4.",
+      "numericBasis": "manufacturer-package-label",
+      "numericSourceTier": "primary",
+      "identityExact": true,
+      "modelNumber": "PXBY8300-50",
+      "color": "Hi Vis Yellow",
+      "region": "US",
+      "publishedYear": null,
+      "productionYear": null,
+      "currentEditionVerified": false,
+      "availabilityVerified": false,
+      "verificationScope": "Exact pictured US production label only; production year/current edition/availability unestablished.",
+      "printedValues": {
+        "strengthLb": 50,
+        "diameterIn": "0.014",
+        "diameterMm": "0.36",
+        "yards": 300,
+        "meters": 274
+      },
+      "roundingReview": {
+        "rule": "Combined half-unit interval at each independently printed decimal precision",
+        "differenceMm": 0.004400000000000015,
+        "allowanceMm": 0.0177,
+        "passed": true,
+        "calculatedUnit": "in",
+        "conversionUsed": false
+      },
+      "identityEvidence": {
+        "sourceUrl": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+        "sourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021.pdf",
+        "visualSourceFile": "research/line-pages/full-catalog/pline-resolutions/evidence/catalog-2021-p04.png",
+        "publishedYear": 2021,
+        "region": "US",
+        "printedPage": 4,
+        "modelNumber": "PXBY8300-50",
+        "color": "Hi Vis Yellow",
+        "lb": 50,
+        "yards": 300,
+        "authority": "Manufacturer catalog exact PXBY8300-50 Hi Vis Yellow 50 lb/300 yd table row, with explicit Teflon/XTCB-8/X-Braid identity on the same page."
+      },
+      "verifiedPackages": [
+        {
+          "modelNumber": "PXBY8300-50",
+          "color": "Hi Vis Yellow",
+          "lb": 50,
+          "yards": 300,
+          "upc": "015789047085",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=0I-1.jpg",
+          "sourceImage": "research/line-pages/full-catalog/pline-resolutions/evidence/tcb-yellow-tw.jpg"
+        }
+      ],
+      "visualEvidence": [
+        {
+          "file": "research/line-pages/full-catalog/pline-resolutions/evidence/tcb-yellow-tw.jpg",
+          "sha256": "5d5b56ef350d56cd80bb8f8dbfd83fd6348322a9edc8d6fecd6b8d268c28c13b",
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=0I-1.jpg",
+          "retrievedAt": "2026-09-13T15:14:43.310Z",
+          "contextUrl": "https://www.tacklewarehouse.com/P-Line_TCB_8_Teflon_Coated_Braided_Line_Yellow/descpage-0I.html",
+          "inspected": true,
+          "method": "Direct visual inspection of original package photo or official catalog page render; no seller/chart/OCR-only transcription.",
+          "transcription": "Actual TCB Braid 8 Teflon Surface Protector label: Hi Vis Yellow PXBY8300-50, 50 lb/22.7kg, 300 YDS/274 meters, 0.014 DIA.IN./0.36 DIA.MM, UPC 015789047085. Model/color/package cross-check in the 2021 US manufacturer catalog printed p.4."
+        }
+      ]
+    },
+    "source_scope_label": "Undated US label; PXBY8300-50 Hi Vis Yellow; Teflon edition"
   },
   {
     "id": "powerpro-spectra-braid-3",
@@ -8853,10 +10181,40 @@
     "model": "Stealth Braid",
     "type": "Braid",
     "lb": 50,
-    "dia_in": 0.014,
-    "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire stealth braid braid 50 lb"
+    "dia_in": 0.016496062992125984,
+    "dia_mm": 0.419,
+    "source_note": "Checked 2026-09-13. 2016-launch Japan listing, US-labeled import; standard actual diameter 50 lb = 0.419 mm. Manufacturer table SKU 1339729, UPC 022021600830, SS50G-125, Moss Green, 50 lb / 125 yd. Inches converted from mm / 25.4, not independently printed. Regional actual-diameter basis is NOT current US advertised-diameter equivalence. Product-wide 300 yd prose not applied to this row.  Checked September 13, 2026 from the manufacturer's Japan product page, which states a late-April 2016 launch, US pound/yard labeling, standard actual diameters and exact SKU rows. Original red package art was retrieved unchanged from that page. The current US feed has different SKUs and supplies no physical diameters, so no current equivalence is claimed.",
+    "search_text": "spiderwire stealth braid braid 50 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      125
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+    "diameter_source_url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+    "diameter_basis": "published-mm",
+    "source_scope": "2016-launch Japan listing of US-labeled Moss Green imports ONLY. Physical diameters: 50 lb .419 mm, 65 lb .447 mm; exact 125-yard SKUs 1339729/1339730. Inches are conversions. Do not merge these regional actual-mm values with current US advertised diameters, other colors or the unmapped 300-yard mention.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "7c6e517f1dd50d2092eec88995cd6d91928745a596bafec3e39aa00fe9856dc0",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "spiderwire-stealth-braid-braid-50",
+      "lb": 50,
+      "dia_in": 0.016496062992125984,
+      "dia_mm": 0.419,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        125
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+      "evidence": "2016-launch Japan listing, US-labeled import; standard actual diameter 50 lb = 0.419 mm. Manufacturer table SKU 1339729, UPC 022021600830, SS50G-125, Moss Green, 50 lb / 125 yd. Inches converted from mm / 25.4, not independently printed. Regional actual-diameter basis is NOT current US advertised-diameter equivalence. Product-wide 300 yd prose not applied to this row."
+    },
+    "source_scope_label": "2016 Japan import; actual-mm basis; SS50G-125"
   },
   {
     "id": "spiderwire-stealth-braid-braid-65",
@@ -8864,10 +10222,40 @@
     "model": "Stealth Braid",
     "type": "Braid",
     "lb": 65,
-    "dia_in": 0.016,
-    "dia_mm": 0.41,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire stealth braid braid 65 lb"
+    "dia_in": 0.017598425196850394,
+    "dia_mm": 0.447,
+    "source_note": "Checked 2026-09-13. 2016-launch Japan listing, US-labeled import; standard actual diameter 65 lb = 0.447 mm. Manufacturer table SKU 1339730, UPC 022021600847, SS65G-125, Moss Green, 65 lb / 125 yd. Inches converted from mm / 25.4, not independently printed. Regional actual-diameter basis is NOT current US advertised-diameter equivalence. Product-wide 300 yd prose not applied to this row.  Checked September 13, 2026 from the manufacturer's Japan product page, which states a late-April 2016 launch, US pound/yard labeling, standard actual diameters and exact SKU rows. Original red package art was retrieved unchanged from that page. The current US feed has different SKUs and supplies no physical diameters, so no current equivalence is claimed.",
+    "search_text": "spiderwire stealth braid braid 65 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      125
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+    "diameter_source_url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+    "diameter_basis": "published-mm",
+    "source_scope": "2016-launch Japan listing of US-labeled Moss Green imports ONLY. Physical diameters: 50 lb .419 mm, 65 lb .447 mm; exact 125-yard SKUs 1339729/1339730. Inches are conversions. Do not merge these regional actual-mm values with current US advertised diameters, other colors or the unmapped 300-yard mention.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "7c6e517f1dd50d2092eec88995cd6d91928745a596bafec3e39aa00fe9856dc0",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "spiderwire-stealth-braid-braid-65",
+      "lb": 65,
+      "dia_in": 0.017598425196850394,
+      "dia_mm": 0.447,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        125
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+      "evidence": "2016-launch Japan listing, US-labeled import; standard actual diameter 65 lb = 0.447 mm. Manufacturer table SKU 1339730, UPC 022021600847, SS65G-125, Moss Green, 65 lb / 125 yd. Inches converted from mm / 25.4, not independently printed. Regional actual-diameter basis is NOT current US advertised-diameter equivalence. Product-wide 300 yd prose not applied to this row."
+    },
+    "source_scope_label": "2016 Japan import; actual-mm basis; SS65G-125"
   },
   {
     "id": "spiderwire-stealth-smooth-8-braid-10",
@@ -10732,10 +12120,40 @@
     "model": "Super Knot",
     "type": "Monofilament",
     "lb": 6,
-    "dia_in": 0.009,
-    "dia_mm": 0.229,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren super knot monofilament 6 lb"
+    "dia_in": 0.01,
+    "dia_mm": 0.254,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 6 lb, 0.010 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-6",
+      "lb": 6,
+      "dia_in": 0.01,
+      "dia_mm": 0.254,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 6 lb, 0.010 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
   },
   {
     "id": "stren-super-knot-monofilament-8",
@@ -10743,10 +12161,40 @@
     "model": "Super Knot",
     "type": "Monofilament",
     "lb": 8,
-    "dia_in": 0.01,
-    "dia_mm": 0.254,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren super knot monofilament 8 lb"
+    "dia_in": 0.012,
+    "dia_mm": 0.3048,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 8 lb, 0.012 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-8",
+      "lb": 8,
+      "dia_in": 0.012,
+      "dia_mm": 0.3048,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 8 lb, 0.012 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
   },
   {
     "id": "stren-super-knot-monofilament-10",
@@ -10754,10 +12202,40 @@
     "model": "Super Knot",
     "type": "Monofilament",
     "lb": 10,
-    "dia_in": 0.012,
-    "dia_mm": 0.305,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren super knot monofilament 10 lb"
+    "dia_in": 0.013,
+    "dia_mm": 0.3302,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 10 lb, 0.013 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-10",
+      "lb": 10,
+      "dia_in": 0.013,
+      "dia_mm": 0.3302,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 10 lb, 0.013 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
   },
   {
     "id": "stren-super-knot-monofilament-12",
@@ -10765,10 +12243,40 @@
     "model": "Super Knot",
     "type": "Monofilament",
     "lb": 12,
-    "dia_in": 0.013,
-    "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren super knot monofilament 12 lb"
+    "dia_in": 0.014,
+    "dia_mm": 0.3556,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 12 lb, 0.014 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-12",
+      "lb": 12,
+      "dia_in": 0.014,
+      "dia_mm": 0.3556,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 12 lb, 0.014 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
   },
   {
     "id": "stren-super-knot-monofilament-15",
@@ -10787,10 +12295,40 @@
     "model": "Super Knot",
     "type": "Monofilament",
     "lb": 20,
-    "dia_in": 0.018,
-    "dia_mm": 0.457,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren super knot monofilament 20 lb"
+    "dia_in": 0.019,
+    "dia_mm": 0.4826,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 20 lb, 0.019 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-20",
+      "lb": 20,
+      "dia_in": 0.019,
+      "dia_mm": 0.4826,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 20 lb, 0.019 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-6",
@@ -10799,9 +12337,41 @@
     "type": "Fluorocarbon",
     "lb": 6,
     "dia_in": 0.009,
-    "dia_mm": 0.229,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren fluorocast fluorocarbon 6 lb"
+    "dia_mm": 0.2286,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 6 lb, 0.009 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-6",
+      "lb": 6,
+      "dia_in": 0.009,
+      "dia_mm": 0.2286,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 6 lb, 0.009 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-8",
@@ -10811,8 +12381,40 @@
     "lb": 8,
     "dia_in": 0.01,
     "dia_mm": 0.254,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren fluorocast fluorocarbon 8 lb"
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 8 lb, 0.010 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-8",
+      "lb": 8,
+      "dia_in": 0.01,
+      "dia_mm": 0.254,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 8 lb, 0.010 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-10",
@@ -10820,10 +12422,42 @@
     "model": "Fluorocast",
     "type": "Fluorocarbon",
     "lb": 10,
-    "dia_in": 0.011,
-    "dia_mm": 0.279,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren fluorocast fluorocarbon 10 lb"
+    "dia_in": 0.012,
+    "dia_mm": 0.3048,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 10 lb, 0.012 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-10",
+      "lb": 10,
+      "dia_in": 0.012,
+      "dia_mm": 0.3048,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 10 lb, 0.012 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-12",
@@ -10831,10 +12465,42 @@
     "model": "Fluorocast",
     "type": "Fluorocarbon",
     "lb": 12,
-    "dia_in": 0.012,
-    "dia_mm": 0.305,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren fluorocast fluorocarbon 12 lb"
+    "dia_in": 0.013,
+    "dia_mm": 0.3302,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 12 lb, 0.013 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-12",
+      "lb": 12,
+      "dia_in": 0.013,
+      "dia_mm": 0.3302,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 12 lb, 0.013 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-15",
@@ -10842,10 +12508,42 @@
     "model": "Fluorocast",
     "type": "Fluorocarbon",
     "lb": 15,
-    "dia_in": 0.014,
-    "dia_mm": 0.356,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren fluorocast fluorocarbon 15 lb"
+    "dia_in": 0.015,
+    "dia_mm": 0.381,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 15 lb, 0.015 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-15",
+      "lb": 15,
+      "dia_in": 0.015,
+      "dia_mm": 0.381,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 15 lb, 0.015 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-17",
@@ -10853,10 +12551,42 @@
     "model": "Fluorocast",
     "type": "Fluorocarbon",
     "lb": 17,
-    "dia_in": 0.015,
-    "dia_mm": 0.381,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren fluorocast fluorocarbon 17 lb"
+    "dia_in": 0.016,
+    "dia_mm": 0.4064,
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 17 lb, 0.016 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 17 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-17",
+      "lb": 17,
+      "dia_in": 0.016,
+      "dia_mm": 0.4064,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 17 lb, 0.016 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   },
   {
     "id": "stren-fluorocast-fluorocarbon-20",
@@ -10908,10 +12638,40 @@
     "model": "Sonic Braid",
     "type": "Braid",
     "lb": 40,
-    "dia_in": 0.013,
-    "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "stren sonic braid braid 40 lb"
+    "dia_in": 0.00984251968503937,
+    "dia_mm": 0.25,
+    "source_note": "Checked 2026-09-13. Direct visual transcription of original Stren Sonic Braid spool label SCB30040-22, UPC 042083373053: 40LB / 18.2kg, 300YD / 274m, Lo-Vis Green, 10Lb Test Dia, .25mm. The 10Lb phrase is a mono-equivalent test, NOT the physical measurement used. Inches are .25/25.4 conversion. Preserve printed 300 yards; rounded 274 m is not re-converted. Label manufacture date unknown, US pound/yard-labeled legacy package. Retailer title says 0.16mm/15.6kg/110m and does NOT describe this photographed label; ignored. Do not transfer this number to other Sonic or later Stren Braid packages.  Checked September 13, 2026. Numeric row transcribed visually from the unmodified original spool-label photograph hosted by bol.com. Its 40 lb / .25 mm / 300 yd details conflict with that listing's 0.16 mm / 110 m title, so the title is not used. Stren's original 2014 US catalog, preserved by WesternBass, supplies independent Sonic Braid/GlideCoat family context only.",
+    "search_text": "stren sonic braid braid 40 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      300
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+    "diameter_source_url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+    "diameter_basis": "published-mm",
+    "source_scope": "Undated legacy SCB30040-22 label only: 40 lb / .25 mm / 300 yd / Lo-Vis Green, UPC 042083373053. Inches are converted from mm. The original label is photographed on a retailer host; retailer title/specification prose is excluded. The 2014 US catalog corroborates the family, not the label's date or physical diameter. No other strength/package or later Stren Braid equivalence is claimed.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "e09655696695aa41f74fda91b749223d194b1d6b41dd1c894852ed609d8230b3",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-sonic-braid-braid-40",
+      "lb": 40,
+      "dia_in": 0.00984251968503937,
+      "dia_mm": 0.25,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        300
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+      "evidence": "Direct visual transcription of original Stren Sonic Braid spool label SCB30040-22, UPC 042083373053: 40LB / 18.2kg, 300YD / 274m, Lo-Vis Green, 10Lb Test Dia, .25mm. The 10Lb phrase is a mono-equivalent test, NOT the physical measurement used. Inches are .25/25.4 conversion. Preserve printed 300 yards; rounded 274 m is not re-converted. Label manufacture date unknown, US pound/yard-labeled legacy package. Retailer title says 0.16mm/15.6kg/110m and does NOT describe this photographed label; ignored. Do not transfer this number to other Sonic or later Stren Braid packages."
+    },
+    "source_scope_label": "Undated US label; SCB30040-22; Lo-Vis Green"
   },
   {
     "id": "stren-sonic-braid-braid-50",
@@ -11827,10 +13587,58 @@
     "model": "Invisiline Fluorocarbon",
     "type": "Fluorocarbon",
     "lb": 6,
-    "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "sufix invisiline fluorocarbon fluorocarbon 6 lb"
+    "dia_in": 0.008,
+    "dia_mm": 0.2032,
+    "source_note": "Checked 2026-09-13. 680-906C: current manufacturer test_lb_value=6, diameter_in_value=0.008\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-6",
+      "lb": 6,
+      "dia_in": 0.008,
+      "dia_mm": 0.2032,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-906C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 6 lb / .008 inch / 680-906C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 6LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+      ],
+      "evidence": "680-906C: current manufacturer test_lb_value=6, diameter_in_value=0.008\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+      "packageResolution": "current-catalog-exact-sku"
+    },
+    "source_scope_label": "2026 US catalog; 680-906C Clear; 100 yd"
   },
   {
     "id": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
@@ -11838,10 +13646,58 @@
     "model": "Invisiline Fluorocarbon",
     "type": "Fluorocarbon",
     "lb": 8,
-    "dia_in": 0.01,
-    "dia_mm": 0.26,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "sufix invisiline fluorocarbon fluorocarbon 8 lb"
+    "dia_in": 0.009,
+    "dia_mm": 0.2286,
+    "source_note": "Checked 2026-09-13. 680-908C: current manufacturer test_lb_value=8, diameter_in_value=0.009\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+      "lb": 8,
+      "dia_in": 0.009,
+      "dia_mm": 0.2286,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-908C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 8 lb / .009 inch / 680-908C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 8LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+      ],
+      "evidence": "680-908C: current manufacturer test_lb_value=8, diameter_in_value=0.009\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+      "packageResolution": "current-catalog-exact-sku"
+    },
+    "source_scope_label": "2026 US catalog; 680-908C Clear; 100 yd"
   },
   {
     "id": "sufix-invisiline-fluorocarbon-fluorocarbon-10",
@@ -11850,9 +13706,57 @@
     "type": "Fluorocarbon",
     "lb": 10,
     "dia_in": 0.011,
-    "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "sufix invisiline fluorocarbon fluorocarbon 10 lb"
+    "dia_mm": 0.2794,
+    "source_note": "Checked 2026-09-13. 680-910C: current manufacturer test_lb_value=10, diameter_in_value=0.011\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-10",
+      "lb": 10,
+      "dia_in": 0.011,
+      "dia_mm": 0.2794,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-910C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 10 lb / .011 inch / 680-910C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBVON 100YDS 10LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+      ],
+      "evidence": "680-910C: current manufacturer test_lb_value=10, diameter_in_value=0.011\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+      "packageResolution": "current-catalog-exact-sku"
+    },
+    "source_scope_label": "2026 US catalog; 680-910C Clear; 100 yd"
   },
   {
     "id": "sufix-invisiline-fluorocarbon-fluorocarbon-12",
@@ -11861,9 +13765,57 @@
     "type": "Fluorocarbon",
     "lb": 12,
     "dia_in": 0.012,
-    "dia_mm": 0.31,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "sufix invisiline fluorocarbon fluorocarbon 12 lb"
+    "dia_mm": 0.3048,
+    "source_note": "Checked 2026-09-13. 680-912C: current manufacturer test_lb_value=12, diameter_in_value=0.012\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-12",
+      "lb": 12,
+      "dia_in": 0.012,
+      "dia_mm": 0.3048,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-912C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 12 lb / .012 inch / 680-912C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 12LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+      ],
+      "evidence": "680-912C: current manufacturer test_lb_value=12, diameter_in_value=0.012\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+      "packageResolution": "current-catalog-exact-sku"
+    },
+    "source_scope_label": "2026 US catalog; 680-912C Clear; 100 yd"
   },
   {
     "id": "sufix-invisiline-fluorocarbon-fluorocarbon-14",
@@ -11872,9 +13824,57 @@
     "type": "Fluorocarbon",
     "lb": 14,
     "dia_in": 0.013,
-    "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "sufix invisiline fluorocarbon fluorocarbon 14 lb"
+    "dia_mm": 0.3302,
+    "source_note": "Checked 2026-09-13. 680-914C: current manufacturer test_lb_value=14, diameter_in_value=0.013\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 14 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-14",
+      "lb": 14,
+      "dia_in": 0.013,
+      "dia_mm": 0.3302,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-914C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 14 lb / .013 inch / 680-914C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 14LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+      ],
+      "evidence": "680-914C: current manufacturer test_lb_value=14, diameter_in_value=0.013\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+      "packageResolution": "current-catalog-exact-sku"
+    },
+    "source_scope_label": "2026 US catalog; 680-914C Clear; 100 yd"
   },
   {
     "id": "sufix-invisiline-fluorocarbon-fluorocarbon-17",
@@ -11882,10 +13882,58 @@
     "model": "Invisiline Fluorocarbon",
     "type": "Fluorocarbon",
     "lb": 17,
-    "dia_in": 0.015,
-    "dia_mm": 0.38,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "sufix invisiline fluorocarbon fluorocarbon 17 lb"
+    "dia_in": 0.016,
+    "dia_mm": 0.4064,
+    "source_note": "Checked 2026-09-13. 680-917C: current manufacturer test_lb_value=17, diameter_in_value=0.016\"; numeric diameter matches the exact catalog SKU. 2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 17 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-17",
+      "lb": 17,
+      "dia_in": 0.016,
+      "dia_mm": 0.4064,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-917C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page: 17 lb / .016 inch / 680-917C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 17LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf"
+      ],
+      "evidence": "680-917C: current manufacturer test_lb_value=17, diameter_in_value=0.016\"; numeric diameter matches the exact catalog SKU. 2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page.",
+      "packageResolution": "historical-manufacturer-catalog-plus-current-exact-sku-labels"
+    },
+    "source_scope_label": "2018 catalog + current SKU; 680-917C Clear; 100 yd"
   },
   {
     "id": "sufix-advance-fluorocarbon-fluorocarbon-6",
@@ -16749,8 +18797,58 @@
     "lb": 15,
     "dia_in": 0.0085,
     "dia_mm": 0.22,
-    "source_note": "Verified against the ICAST 2026 U.S. Calibr8 diameter chart published by Tackle Warehouse: https://www.tacklewarehouse.com/Sufix_Calibr8_Braided_Line_Neon_Lime/descpage-SFXC8L.html",
-    "search_text": "sufix calibr8 braid 15 lb calibrate 8 carrier neon lime low-vis green icast 2026"
+    "source_note": "Checked 2026-09-13. Exact manufacturer package label, not retailer prose: 15 lb, 0.0085 inch / 0.22 mm, 694-015L, Neon Lime, nominal 150 yd. Both photographs visually inspected; explicit manufacturer photo attribution retained.  Checked September 13, 2026. Numeric authority is the Rapala VMC-owned package photography, hosted with explicit media-release attribution by Foresight Fishing. The package prints nominal 150 yd / 135 m; this guide uses the printed yard unit, not a conversion of 135 m. No retailer-authored specification table is used.",
+    "search_text": "sufix calibr8 braid 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+    "diameter_source_url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "One approved row only: 15 lb Neon Lime, 694-015L. Both diameter units are printed on the manufacturer label and agree within normal printed rounding. The 5 lb mono-equivalent label is not breaking strength.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "45aba9eb9f15fc145808ff2c9c02bfdcc27bc225168109b322c7459a44149c33",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-calibr8-braid-15",
+      "lb": 15,
+      "dia_in": 0.0085,
+      "dia_mm": 0.22,
+      "diameterBasis": "published-pair",
+      "conversion": "Both diameter units are printed on the manufacturer package. 0.0085 in * 25.4 = 0.2159 mm; the 0.0041 mm difference from printed 0.22 mm is within the 0.00627 mm combined rounding tolerance.",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [
+        {
+          "sku": "694-015L",
+          "upc": "024777742369",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Neon Lime",
+          "region": "North American ICAST 2026 launch, yard-led bilingual package",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+          "provenanceUrl": "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+          "printedMetricLength": "135 m",
+          "evidence": "Visually read on the manufacturer-owned spool photograph: 694-015L, 15 lb Test, Neon Lime, 150 Yds / 135m, 0.0085 inch / 0.22mm. The companion box matches all numeric labels. Use nominal printed yards; 135 m is not an exact conversion and is not added as a separate package."
+        }
+      ],
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+      "sourceUrls": [
+        "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+        "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583507-NEUZVWTOL65OGJIQII5U/694_Calibr8_L_box.jpg",
+        "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast"
+      ],
+      "evidence": "Exact manufacturer package label, not retailer prose: 15 lb, 0.0085 inch / 0.22 mm, 694-015L, Neon Lime, nominal 150 yd. Both photographs visually inspected; explicit manufacturer photo attribution retained."
+    },
+    "source_scope_label": "2026 launch label; 694-015L Neon Lime; nominal 150 yd"
   },
   {
     "id": "sufix-calibr8-braid-20",
@@ -23738,5 +25836,289 @@
     "diameter_basis": "published-pair",
     "source_note": "Checked 2026-09-13. published-pair; exact model-specific evidence retained in the source review.",
     "search_text": "berkley forward finesse braid braid 12 lb"
+  },
+  {
+    "id": "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+    "brand": "Sufix",
+    "model": "Invisiline Fluorocarbon",
+    "type": "Fluorocarbon",
+    "role": "mainline",
+    "lb": 4,
+    "dia_in": 0.007,
+    "dia_mm": 0.1778,
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_note": "Checked 2026-09-13. 680-904C: current manufacturer test_lb_value=4, diameter_in_value=0.007\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 4 lb",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+      "lb": 4,
+      "dia_in": 0.007,
+      "dia_mm": 0.1778,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-904C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR: 4 lb / .007 inch / 680-904C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 4LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg"
+      ],
+      "evidence": "680-904C: current manufacturer test_lb_value=4, diameter_in_value=0.007\"; numeric diameter matches the exact catalog SKU. 2026 Sufix Master Catalog, page image 14, SPECIFICATIONS / 100 Yd. Spools / CLEAR.",
+      "packageResolution": "current-catalog-exact-sku"
+    },
+    "source_scope_label": "2026 US catalog; 680-904C Clear; 100 yd"
+  },
+  {
+    "id": "sufix-invisiline-fluorocarbon-fluorocarbon-20",
+    "brand": "Sufix",
+    "model": "Invisiline Fluorocarbon",
+    "type": "Fluorocarbon",
+    "role": "mainline",
+    "lb": 20,
+    "dia_in": 0.017,
+    "dia_mm": 0.4318,
+    "spool_sizes_yd": [
+      100
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_source_url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+    "diameter_basis": "published-in",
+    "source_note": "Checked 2026-09-13. 680-920C: current manufacturer test_lb_value=20, diameter_in_value=0.017\"; numeric diameter matches the exact catalog SKU. 2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page.  Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+    "search_text": "sufix invisiline fluorocarbon fluorocarbon 20 lb",
+    "source_scope": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+      "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+      "modelSha256": "6ee9bd075b21020329e924cdecee0e9bdc03564ab0105958822eb0bf2ebbe60a",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json",
+      "reviewSha256": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6"
+    },
+    "source_evidence": {
+      "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-20",
+      "lb": 20,
+      "dia_in": 0.017,
+      "dia_mm": 0.4318,
+      "diameterBasis": "published-in",
+      "conversion": "dia_mm = published inch diameter * 25.4; not an independently published metric specification",
+      "spool_sizes_yd": [
+        100
+      ],
+      "retail_packages": [
+        {
+          "sku": "680-920C",
+          "length": 100,
+          "unit": "yd",
+          "yards": 100,
+          "color": "Clear",
+          "region": "US",
+          "sourceUrl": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+          "corroboratingSourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "evidence": "2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page: 20 lb / .017 inch / 680-920C. Current SKU yard_spool_value and capacity_value both 100 Yd. Spools; manufacturer media label \"INVISLINE CAST FLUOROCARBON 100YDS 20LB CLEAR\". Conflicting size_value=200 Yd. Spools is rejected for this exact SKU using the catalog, not silently discarded."
+        }
+      ],
+      "sourceUrl": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+        "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf"
+      ],
+      "evidence": "680-920C: current manufacturer test_lb_value=20, diameter_in_value=0.017\"; numeric diameter matches the exact catalog SKU. 2018 Rapala VMC-authored Sufix catalog, PDF page 10, SPECIFICATIONS / 100 Yd. Spools / CLEAR; same SKU remains on current official U.S. page.",
+      "packageResolution": "historical-manufacturer-catalog-plus-current-exact-sku-labels"
+    },
+    "source_scope_label": "2018 catalog + current SKU; 680-920C Clear; 100 yd"
+  },
+  {
+    "id": "stren-super-knot-monofilament-4",
+    "brand": "Stren",
+    "model": "Super Knot",
+    "type": "Monofilament",
+    "role": "mainline",
+    "lb": 4,
+    "dia_in": 0.008,
+    "dia_mm": 0.2032,
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 4 lb, 0.008 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 4 lb",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-4",
+      "lb": 4,
+      "dia_in": 0.008,
+      "dia_mm": 0.2032,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 4 lb, 0.008 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
+  },
+  {
+    "id": "stren-super-knot-monofilament-14",
+    "brand": "Stren",
+    "model": "Super Knot",
+    "type": "Monofilament",
+    "role": "mainline",
+    "lb": 14,
+    "dia_in": 0.015,
+    "dia_mm": 0.381,
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 14 lb, 0.015 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 14 lb",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-14",
+      "lb": 14,
+      "dia_in": 0.015,
+      "dia_mm": 0.381,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 14 lb, 0.015 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
+  },
+  {
+    "id": "stren-super-knot-monofilament-17",
+    "brand": "Stren",
+    "model": "Super Knot",
+    "type": "Monofilament",
+    "role": "mainline",
+    "lb": 17,
+    "dia_in": 0.017,
+    "dia_mm": 0.4318,
+    "spool_sizes_yd": [
+      220
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+    "diameter_basis": "published-in",
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 4, LEFT Super Knot table: 17 lb, 0.017 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot.  Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+    "search_text": "stren super knot monofilament 17 lb",
+    "source_scope": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-super-knot-monofilament-17",
+      "lb": 17,
+      "dia_in": 0.017,
+      "dia_mm": 0.4318,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        220
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+      "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 17 lb, 0.017 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+    },
+    "source_scope_label": "2014 US catalog; Clear/Lo-Vis Green; 220 yd"
+  },
+  {
+    "id": "stren-fluorocast-fluorocarbon-4",
+    "brand": "Stren",
+    "model": "Fluorocast",
+    "type": "Fluorocarbon",
+    "role": "mainline",
+    "lb": 4,
+    "dia_in": 0.007,
+    "dia_mm": 0.1778,
+    "spool_sizes_yd": [
+      100,
+      200
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_source_url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+    "diameter_basis": "published-in",
+    "source_note": "Checked 2026-09-13. Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 4 lb, 0.007 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table.  Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+    "search_text": "stren fluorocast fluorocarbon 4 lb",
+    "source_scope": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "reviewFile": "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+      "reviewSha256": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00"
+    },
+    "source_evidence": {
+      "id": "stren-fluorocast-fluorocarbon-4",
+      "lb": 4,
+      "dia_in": 0.007,
+      "dia_mm": 0.1778,
+      "diameterBasis": "published-in",
+      "spool_sizes_yd": [
+        100,
+        200
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+      "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 4 lb, 0.007 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+    },
+    "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
   }
 ]

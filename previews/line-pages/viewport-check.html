@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Line guide viewport check</title><style>html{overflow:auto}body{margin:0;background:#eee}main{width:max-content;min-width:100%}iframe{display:block;margin:0 auto;border:0;max-width:none;background:white}pre{box-sizing:border-box;width:min(1280px,calc(100% - 24px));margin:12px auto;padding:12px;white-space:pre-wrap;overflow-wrap:anywhere;background:white;font:12px/1.4 monospace}</style></head><body><main></main><pre id="viewport-audit" aria-live="polite">{"status":"waiting"}</pre><script>
+const query=new URL(location.href).searchParams, ids=["powerpro-spectra","seaguar-invizx","berkley-trilene-xl","seaguar-tatsu","seaguar-abrazx","seaguar-red-label","seaguar-smackdown","seaguar-brawlr","seaguar-jdm-r18-mainline","seaguar-jdm-pex8-micro-braid","sunline-fc-sniper","sunline-shooter","sunline-assassin-fc","sunline-super-natural-mono","sunline-sx1","sunline-xplasma-asegai","sunline-siglon-pe-x8","sunline-shooter-machinegun-cast","sunline-shooter-bms-azayaka-fc","berkley-ginclear","daiwa-j-braid-x4","daiwa-j-braid-grand-x8","seaguar-basix","sunline-crank-fc","xbraid-x9-fulldrag-braid","sunline-shooter-bms-azayaka-ny","sufix-832-advanced-superline","sufix-promix-braid","sufix-performance-braid","sufix-elite","sufix-advance-mono","sufix-advance-fluorocarbon","gamma-edge-fluorocarbon","cast-fishing-co-x12-frog-flip-braid","rhino-hide-camo-braid","rhino-hide-camo-monofilament","berkley-trilene-big-game","berkley-vanish","berkley-x9-braid","berkley-x5-braid","daiwa-j-fluoro-samurai","shimano-mastiff-fc","shimano-kairiki-8","shimano-kairiki-4","shimano-grappler-8","shimano-ocea-ex-fluorocarbon-leader","seaguar-jdm-grand-max-leader","spro-finesse-braid-8x","spro-essential-bronzeye-8x","spro-cast-control-8x","spro-depth-control-8x","spro-gouken-flc","spro-rai-jin-premium-fluorocarbon","yo-zuri-hybrid","yo-zuri-hybrid-ice-line","yo-zuri-t-7-premium-fluorocarbon","yo-zuri-topknot-mainline","yo-zuri-superbraid","yo-zuri-superbraid-9","spiderwire-ultracast-braid","cortland-master-braid","cortland-fluorocarbon-leader","gamma-touch-fluorocarbon","gamma-torque-braid","gamma-polyflex","gamma-fluorocarbon-leader","maxima-ultragreen","maxima-chameleon","maxima-clear","maxima-crystal-ivory","maxima-fluorocarbon","maxima-braid-8","ande-premium-monofilament","ande-tournament-monofilament","ande-fluorocarbon-leader","hi-seas-grand-slam-monofilament","hi-seas-quattro-fluorocarbon","hi-seas-braid","kastking-fluorokote","reaction-tackle-braid","reaction-tackle-fluorocarbon","reaction-tackle-monofilament","reaction-tackle-ice-braid","vicious-fluorocarbon","vicious-pro-elite-fluorocarbon","vicious-braid","vicious-panfish-hi-vis-mono","spro-finesse-fluorocarbon-leader","yo-zuri-topknot-leader","yo-zuri-superfluoro-leader","yo-zuri-h-d-carbon-leader","stren-original","stren-magnathin","ande-braid","spiderwire-ultracast-ultimate-mono","stren-high-impact","stren-crappie-mono","berkley-trilene-xt","berkley-100-fluorocarbon","berkley-forward-finesse-braid","sufix-invisiline-fluorocarbon","sufix-calibr8","spiderwire-stealth-braid","stren-super-knot","stren-fluorocast","stren-sonic-braid","p-line-cxx-x-tra-strong","p-line-floroclear","p-line-cx-premium","p-line-tactical-fluorocarbon","p-line-halo-fluorocarbon","p-line-endurx-braid","p-line-tcb-8-braid","hi-seas-fluorocarbon"];
+const id=query.get('id'), width=Number(query.get('width'));
+const audit=document.getElementById('viewport-audit');
+if(ids.includes(id)&&[320,390,768,1280].includes(width)){
+ const frame=document.createElement('iframe');frame.id='guide-viewport';frame.title='Line guide viewport: '+id;
+ frame.width=String(width);frame.height='1000';
+ const child=new URL('responsive-check.html',location.href);
+ child.search=new URLSearchParams({id,width:String(width),audit:'1'}).toString();child.hash='';frame.src=child.href;
+ let lastSequence=0, expired=false;
+ audit.textContent=JSON.stringify({status:'waiting',id,requestedWidth:width,childUrl:child.href},null,2);
+ const timeout=setTimeout(()=>{
+  expired=true;window.removeEventListener('message',receive);
+  audit.textContent=JSON.stringify({status:'failure',reason:'child-audit-timeout',id,requestedWidth:width},null,2);
+ },35000);
+ function receive(event){
+  if(expired||event.source!==frame.contentWindow||event.origin!==location.origin) return;
+  const data=event.data;
+  if(!data||data.type!=='reelcalc-viewport-audit'||data.version!==1||data.id!==id||data.requestedWidth!==width||
+    !['complete','failure'].includes(data.status)||!Number.isInteger(data.sequence)||data.sequence<=lastSequence) return;
+  let text;
+  try{text=JSON.stringify(data,null,2);}catch(_){return;}
+  lastSequence=data.sequence;clearTimeout(timeout);audit.textContent=text;
+ }
+ window.addEventListener('message',receive);
+ document.querySelector('main').append(frame);
+}else{
+ document.querySelector('main').textContent='Choose a known guide and width.';
+ audit.textContent=JSON.stringify({status:'failure',reason:'invalid-selection'},null,2);
+}
+</script></body></html>

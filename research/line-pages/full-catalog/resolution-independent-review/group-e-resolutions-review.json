@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "Independent resolution source reviewer (Codex); not author of these packs",
+  "signedAt": "2026-09-13T16:03:36.376Z",
+  "packSha256": "309a4dc0fa29e6036e4f596a0c3dc205e58e34377291a263637f40f3dc12e9c9",
+  "verdict": "one-candidate-passes-with-minor-copy-advisory-four-model-holds-confirmed",
+  "method": "Independent primary-source review of all five decisions, not a rerun of structural QA. Viewed original Hi-Seas catalog page12 and five exact package photographs; read PDF metadata and supplement text; independently fetched current catalog-link page, 25lb shop response and original 25lb image. Read every consumer field in the gold config. For four holds, inspected named alternative product records and original manufacturer charts/package images, including fresh SuperPower, Destron Essential and Vicious collection responses. No retailer-authored specification table accepted.",
+  "findings": [
+    {
+      "severity": "retained-critical-hold",
+      "modelId": "kastking-superpower-braid",
+      "detail": "All ten legacy strengths stay held. Current primary kit photograph explicitly says Texas Edition/SuperPower4X, 200yd; no original-model continuity source. Original public JSON still404. Kit's .007in15lb/.010in20lb/.013in30lb chart cannot replace legacy unqualified SuperPower data."
+    },
+    {
+      "severity": "retained-critical-hold",
+      "modelId": "kastking-fluorocarbon",
+      "detail": "All eight legacy strengths stay held. Generic material name lacks exact Kovert model/SKU identity. Four current named families do not establish mapping. Classic chart also has internal10lb(.010in/.28mm) and15lb(.012in/.35mm) conflicts outside .0177mm combined rounding allowance."
+    },
+    {
+      "severity": "retained-critical-hold",
+      "modelId": "kastking-destron-monofilament",
+      "detail": "All six legacy strengths stay held. Current primary product and photo identify Destron Essential, including polymer-coating construction. No manufacturer rename/formulation-continuity evidence ties it to original Destron;70current300yd offers are not legacy authority."
+    },
+    {
+      "severity": "retained-critical-hold",
+      "modelId": "vicious-monofilament",
+      "detail": "All seven legacy strengths stay held. Primary Mono collection contains distinct Ultimate/Panfish/Ice/Catfish/MonoLeader families. Ultimate chart has14lb, not15lb, and no proven generic-model mapping. Generic photo has blank strength/yard fields; no exact10lb package can be inferred from it."
+    },
+    {
+      "severity": "retained-row-holds",
+      "modelId": "hi-seas-fluorocarbon",
+      "detail": "Keep10/12/15/20lb excluded: live SKU titles .013/.32,.014/.35,.016/.40,.017/.42 conflict with exact photos and catalog .011/.28,.012/.30,.014/.35,.016/.40. Page12 itself pictures12lb .014/.35 beside a table .012/.30.30lb remains without exact CFC-F200 source. Do not use leader-family diameters."
+    },
+    {
+      "severity": "minor-copy-advisory",
+      "modelId": "hi-seas-fluorocarbon",
+      "detail": "FAQ calls catalog182m and photo183m different rounded labels.200yd is182.88m, normally rounded183m. Prefer conflicting metric companion labels and state the arithmetic; no evidence proves catalog rounding method. Numeric row remains valid at native200yd. Specific replacement wording saved in halley-feedback.md; no pack/builder edits made."
+    },
+    {
+      "severity": "availability-limit",
+      "modelId": "hi-seas-fluorocarbon",
+      "detail": "Fresh 25lb shop URL404 confirmed. The official current download page links2025-named PDF whose metadata says Catalog2024/June2024; July2026supplement supplies no replacement CFC-F200 table. Config correctly says catalog-listed, not current stock/manufacture or newly measured2025specification."
+    }
+  ],
+  "models": [
+    {
+      "id": "hi-seas-fluorocarbon",
+      "verdict": "pass-one-exact-sku-with-minor-copy-advisory",
+      "summary": "Only CFC-F200-25 Clear25lb mainline, .018in/.45mm,200yd. Direct label and original catalog agree; current manufacturer-linked catalog is dated with explicit metadata limitations. Fresh local image bytes match official download. Mainline role and optional terminal use are correctly separated; no leader product substituted. All five other assigned strengths remain excluded.",
+      "numericReview": {
+        "sku": "CFC-F200-25",
+        "lb": 25,
+        "printedIn": ".018",
+        "printedMm": ".45",
+        "inTimes25_4": 0.4572,
+        "differenceMm": 0.0072,
+        "combinedHalfUnitAllowanceMm": 0.0177,
+        "pairPass": true,
+        "diameterBasis": "published-pair",
+        "printedYards": 200,
+        "exactMetersFromYards": 182.88,
+        "catalogPrintedMeters": 182,
+        "photoPrintedMeters": 183,
+        "packageDecision": "native200ydonly; conflicting metric companion not reconverted",
+        "defaultLineId": "hi-seas-fluorocarbon-fluorocarbon-25",
+        "defaultSpoolYards": 200
+      },
+      "consumerCopyReview": {
+        "exactScopeVisible": true,
+        "mainlineRoleSupported": true,
+        "pvdfConstructionSupported": true,
+        "manufacturerAlsoMentionsTerminalLeaderUse": true,
+        "noUnqualifiedInvisibilityOrAbrasionGuarantee": true,
+        "noHandsOnClaim": true,
+        "stockUnverifiedDisclosed": true,
+        "catalogMetadataDisclosed": true,
+        "missingStrengthsNotInferred": true,
+        "capacityNotHandlingOrStrengthGuarantee": true,
+        "exampleIsIllustrativeRoundBaitcasterNotUniversalRecommendation": true,
+        "remainingAdvisory": "metric-label FAQ wording only"
+      },
+      "inspectedFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog-page12.png",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2026-supplement.pdf",
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/hiseas-download.html",
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/hiseas-25-current.html.meta.json",
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/hiseas-25-label.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20.html"
+      ],
+      "sourceStatus": "source-verified",
+      "role": "mainline",
+      "modelSha256": "a7a9e684a8055d095512695a8d68a5041538a3e6f2ea9eb76f71f4e98c85a8c9",
+      "rows": [
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-25",
+          "lb": 25,
+          "dia_in": 0.018,
+          "dia_mm": 0.45,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            200
+          ],
+          "sourceUrl": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12"
+        }
+      ],
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf",
+          "sha256": "69e044eaade5100b33180a1dc958bc6e5dc9a9c402d533eda6aed093c29a71a4"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf.meta.json",
+          "sha256": "dff2ffa435f723e7746bffc58c53d6cfeb73ddc6156d44e65f605af8f2109167"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog-page12.png",
+          "sha256": "9423af0e6020c210ca12f25f8789ddf08d9c69e6756dff05838bf4aa88df7d05"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2026-supplement.pdf",
+          "sha256": "fb8135eecf8e9c2d87b8396e92131fd0d220fbfb6681c61c5c01af013b079f94"
+        },
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/hiseas-download.html",
+          "sha256": "4aaf74f04dcd99e95b5096f1b5a7c75dcd56a9aea60f3d34e3217918d3e94a93"
+        },
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/hiseas-25-current.html.meta.json",
+          "sha256": "fd3a102b0a93f626b142130f5dd7619f7157745da1854ea60fa864a4c915a726"
+        },
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/hiseas-25-label.jpg",
+          "sha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10-photo.jpg",
+          "sha256": "d528baa5236451e16a18d2a8b839b6da1a20df0e22466d8a965dcb0175125a9e"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12-photo.jpg",
+          "sha256": "74ae98bd477f76da61a6dc75f15e231c6f82905791be9464ebc048113771b5a2"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15-photo.jpg",
+          "sha256": "3c2c9891d44f57a2b48b3832c43305152788373f4ce34d143a10f207e446051e"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20-photo.jpg",
+          "sha256": "62ce11389c268e599999d8322a25eb78c7d9bbdb29f25fd7b48d1fc1f0d347f6"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10.html",
+          "sha256": "8fc29d845bfa3243f1920923ba184b68ab0a49b1ddd521f748202a94e1c5f418"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12.html",
+          "sha256": "49e29ed4ed435d4fef68367df6c603295b79401dd225058d6a607305903fae66"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15.html",
+          "sha256": "7b66a5e913ed790620b8f5420ee133bc9bb01a6c7e312860408195c5e06f6971"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20.html",
+          "sha256": "7f6765342c119094f2d78b38612429c9a4690da61a23d10e6cfe212119f9201b"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg",
+          "sha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+        }
+      ],
+      "image": {
+        "path": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg",
+        "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+        "alt": "Actual Hi-Seas Clear 100% Fluorocarbon Line spool labeled CFC-F200-25, 25 lb, .018 inch, .45 mm and 200 yards.",
+        "sha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+      }
+    },
+    {
+      "id": "kastking-superpower-braid",
+      "verdict": "hold-confirmed",
+      "summary": "Original standalone public JSON404 freshly confirmed. Current kit is explicitly Texas Edition4X on original10lb200yd packaging, with .006/.007/.010/.013/.014/.017/.018in chart for10/15/20/30/40/50/65lb. Seven current exact kit variants are real evidence for that named edition, not authorization to relabel ten original catalog rows. Product null and no accepted rows are correct.404 alone does not prove discontinuation.",
+      "heldLegacyStrengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "inspectedFiles": [
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/superpower-original.json.meta.json",
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/superpower-kit.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-detail.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-comparison.jpg"
+      ],
+      "sourceStatus": "identity-conflict",
+      "role": "mainline",
+      "modelSha256": "c4cb787abc829872a2d71f446baf66ecd90b27a2ead8e3673faa12226541599c",
+      "rows": [],
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/superpower-original.json.meta.json",
+          "sha256": "5c9d3f8e21d76ac03849c2b1fca0e4475cfc4064a9f07550ea3cf7e115dfd2e2"
+        },
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/superpower-kit.json",
+          "sha256": "d11c4d29475479ed685b66bb6d3b5d12e7946b24edaea830f52de5986937c0a3"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-photo.jpg",
+          "sha256": "b366ea244ec58a2c1dfa7f769d7390bdd66c3192ae7fca44a7408de55d35e34d"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-detail.jpg",
+          "sha256": "ff40cb7a990f7f4225e1e3f2e0b1d1c91c9105d73a636d6a15be13afa3554ecb"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-comparison.jpg",
+          "sha256": "338eb944771f4b742dc26359186c56885d297258895000d2d75667ac31ae9848"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "kastking-fluorocarbon",
+      "verdict": "hold-confirmed",
+      "summary": "Read exact original manufacturer JSON for Kovert Classic/Xtreme/Essential/Elite; names, product codes and construction descriptions differ. No generic legacy identity is established. Directly viewed Classic chart and computed10lb .026mm and15lb .0452mm pair differences, both greater than .0177mm allowance. Even that alternative table cannot be silently accepted as a coherent generic specification. All eight original strengths remain held; no config/image substitution.",
+      "heldLegacyStrengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25
+      ],
+      "inspectedFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-classic.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-xtreme.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-essential.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-elite.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kovert-classic-photo.jpg"
+      ],
+      "sourceStatus": "identity-conflict",
+      "role": "mainline",
+      "modelSha256": "9be5c7dd738730a13aefec65ccfac4a26f75e4498bed8e30c008aa2fea6aae0b",
+      "rows": [],
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-classic.json",
+          "sha256": "17dfcf3ef22996764a74d1884da04dc4c530c5181f1eecd7ea2d156fa512208a"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-xtreme.json",
+          "sha256": "3c51add855def469bdfa832baf6d88ef098fe3390836d1455ff8d19365d60d63"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-essential.json",
+          "sha256": "b7d91f75cc57ae0d76f18cb10f03e6ef4926cbec18619c6dce6ccee8a289ec53"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-elite.json",
+          "sha256": "729ed90ef88d29720a9f0af87582a183c51d69ab312b36b3d20c05d829b218c0"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kovert-classic-photo.jpg",
+          "sha256": "1cba40b7dc37c7216ab88431caa09502b37ba5c69cc4c104a88cc055e1083d61"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "kastking-destron-monofilament",
+      "verdict": "hold-confirmed",
+      "summary": "Fresh current JSON and original package explicitly identify Destron Essential. Polymer coating bonded to nylon is manufacturer prose for Essential, not original Destron continuity proof. Recorded original endpoint404 is a retrieval result only. Six original strengths correctly retain identities with no replacement rows/config. Do not substitute braid or infer a rename from a shared Destron family name.",
+      "heldLegacyStrengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "inspectedFiles": [
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/destron-essential.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/destron-essential-package.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-original.html.meta.json"
+      ],
+      "sourceStatus": "identity-conflict",
+      "role": "mainline",
+      "modelSha256": "c17598576a3d16796a3f82f00261945d6282ad776931cd49ea6ac5d9cf424e00",
+      "rows": [],
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/destron-essential.json",
+          "sha256": "0680ab71482e6748d7db78fd370f02ae3071ba4397f8084100cbfce2815ae9c6"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/destron-essential-package.jpg",
+          "sha256": "9791b460bd028e8be86bd01e6741b2ad6a2a5b424ac9ef01794cb20f5772ead4"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-original.html.meta.json",
+          "sha256": "b67cf27fe9abba3586fe9fd270ddeb162ac173d1ad02e0217c233435aec8807f"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "vicious-monofilament",
+      "verdict": "hold-confirmed",
+      "summary": "Fresh official collection separates named mono families; read Ultimate10lb exact manufacturer offers330/1500/5960/11600yd. Viewed original Ultimate chart:4/6/8/10/12/14/17/20/25/30/50/60/80lb, not legacy15lb. It cannot establish generic Monofilament identity. Actual Ultimate family image has blank lb/yard fields. Seven legacy rows remain held; no leader/Mainline or15-to14lb relabeling.",
+      "heldLegacyStrengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "inspectedFiles": [
+        "research/line-pages/full-catalog/resolution-independent-review/evidence/vicious-mono-collection.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-10.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-chart.png",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-photo.jpg"
+      ],
+      "sourceStatus": "identity-conflict",
+      "role": "mainline",
+      "modelSha256": "60bd98ebabd2ff893806df7f2d8a118601fc6520e7e6fbb3ec5824ae62abc3f2",
+      "rows": [],
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/resolution-independent-review/evidence/vicious-mono-collection.json",
+          "sha256": "7cc545f90c56794143dc22e2e21cbf02762302be6089a6b9f663d7b3af558aa9"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-10.json",
+          "sha256": "0fc409ce933c99444b9daff3616a29f8a72024c15d0c952037be82ce22b78e7d"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-chart.png",
+          "sha256": "1bee51263c470199bb92a969ef1761f386970c9da0fe371755e181b115e02233"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-photo.jpg",
+          "sha256": "944153fef711993521eca4c567f7c4816c5c3e383b217bc0369a411d7cc53379"
+        }
+      ],
+      "image": null
+    }
+  ],
+  "sourcePack": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+  "reviewedModelIds": [
+    "hi-seas-fluorocarbon",
+    "kastking-superpower-braid",
+    "kastking-fluorocarbon",
+    "kastking-destron-monofilament",
+    "vicious-monofilament"
+  ],
+  "unreviewedModelIds": [],
+  "signatureMeaning": "SHA-256 content attestation of the exact pack bytes, not a cryptographic personal identity signature. Approval applies ONLY to explicitly reviewed models at this hash. No UI, staging, publication, licensing or current-stock approval."
+}

@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-09-13T16:43:22.941Z",
+  "localRequiredChecksPassed": true,
+  "passed": [
+    {
+      "test": "audit-full-line-packs",
+      "models": 118,
+      "sourceVerified": 94,
+      "errors": 0
+    },
+    {
+      "test": "14 individual gold builds and selective hosted build",
+      "pages": 14
+    },
+    {
+      "test": "line-page-publishing/test.mjs",
+      "pages": 114,
+      "cssSelectors": 498
+    },
+    {
+      "test": "test-line-page-engine.mjs"
+    },
+    {
+      "test": "test-line-leader-pages.mjs",
+      "pages": 10,
+      "exactOffers": 201
+    },
+    {
+      "test": "test-line-database-tools.mjs",
+      "exactIdHandoffs": 1229
+    },
+    {
+      "test": "test-hosted-line-databases.mjs",
+      "regularRows": 1229,
+      "peRows": 586
+    },
+    {
+      "test": "test-import-selection.mjs",
+      "checks": 14
+    },
+    {
+      "test": "test-import.ps1 using resolution-import-inventory.json",
+      "rows": 14
+    },
+    {
+      "test": "Actual build-import rejection: unaudited new guide and already-imported hidden guide"
+    },
+    {
+      "test": "test-line-resolution-scopes.mjs",
+      "report": "reports/resolution-integration/cross-tool-scope-tests.json"
+    },
+    {
+      "test": "test-affiliate-links.mjs"
+    },
+    {
+      "test": "test-line-page-seaguar-specs.mjs",
+      "checks": 14
+    },
+    {
+      "test": "Original80 copy-only overlay hosted/native validation",
+      "report": "reports/resolution-integration/copy-cleanup-validation.json"
+    }
+  ],
+  "trust": {
+    "date": "2026-09-13",
+    "strengths": 42,
+    "readyReels": 1320,
+    "productIds": [
+      "spiderwire-stealth-braid",
+      "stren-super-knot",
+      "stren-fluorocast",
+      "stren-sonic-braid",
+      "hi-seas-fluorocarbon",
+      "sufix-invisiline-fluorocarbon",
+      "sufix-calibr8",
+      "p-line-cxx-x-tra-strong",
+      "p-line-floroclear",
+      "p-line-cx-premium",
+      "p-line-tactical-fluorocarbon",
+      "p-line-halo-fluorocarbon",
+      "p-line-endurx-braid",
+      "p-line-tcb-8-braid"
+    ],
+    "pairings": 55440,
+    "offers": 49,
+    "checks": 581696,
+    "failures": 0,
+    "examples": []
+  },
+  "preexistingFailures": [
+    {
+      "test": "test-reel-page-line-selection.mjs",
+      "failure": "Hard-coded expected prepared-row count 903; pre-integration count already 1093, current count 1099.",
+      "baselineReproduced": true,
+      "alteredTest": false
+    },
+    {
+      "test": "test-wizard-backing-parity.mjs",
+      "failure": "Legacy fixture expects 112.77777777777777 yd, receives 181.89923533462044 yd.",
+      "baselineReproduced": true,
+      "baselineMethod": "Same test replayed read-only with pre-integration data/lines.json; identical failure. Calculator core unchanged.",
+      "alteredTest": false
+    }
+  ],
+  "browserTestsRun": false,
+  "publicationTestsRun": false
+}

@@ -1,6 +1,7 @@
+param([string]$InventoryFile = 'generated/line-pages/import-inventory.json')
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
-$inventory = Get-Content -LiteralPath (Join-Path $root 'generated/line-pages/import-inventory.json') -Raw | ConvertFrom-Json
+$inventory = Get-Content -LiteralPath (Join-Path $root $InventoryFile) -Raw | ConvertFrom-Json
 if (-not $inventory.importFile) { Write-Output 'PASS: No unpublished guides to import.'; exit 0 }
 $file = Join-Path $root $inventory.importFile
 $rows = @(Import-Csv -LiteralPath $file)
@@ -15,6 +16,7 @@ foreach ($row in $rows) {
     Assert-Import ($null -ne $entry) "Missing registry entry: $slug"
     Assert-Import ($entry.id -in $inventory.includedProducts) 'Unexpected guide in import.'
     Assert-Import ($entry.id -notin $inventory.excludedPublished) 'Published guide would be duplicated.'
+    Assert-Import ($entry.id -notin $inventory.excludedImported) 'Already-imported hidden guide would be duplicated.'
     Assert-Import ($row.'Product ID [Non Editable]' -eq '' -and $row.'Variant ID [Non Editable]' -eq '') 'Create-only IDs must be blank.'
     Assert-Import ($row.'Product Type [Non Editable]' -eq 'SERVICE') 'Wrong product type.'
     Assert-Import ($row.'Product Page' -eq 'lines' -and $row.Categories -eq '/line-guides') 'Wrong collection/category.'

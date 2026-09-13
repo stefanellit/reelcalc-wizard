@@ -1,0 +1,2847 @@
+{
+  "group": "group-main",
+  "checkedAt": "2026-09-13T13:58:12.733Z",
+  "models": [
+    {
+      "id": "berkley-trilene-big-game",
+      "brand": "Berkley",
+      "model": "Trilene Big Game",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Supported manufacturer rows and product-specific gold editorial prepared. Not integrated, browser-audited, or approved for publication.",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+        "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-bulk-spool",
+        "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/trilene-big-game-monofilament-quarter-pound-spool.json",
+        "research/line-pages/sources/berkley/trilene-big-game-monofilament-bulk-spool.json",
+        "research/line-pages/sources/berkley/eu-trilene-big-game-monofilament-1285546.json"
+      ],
+      "rows": [
+        {
+          "lb": 10,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            1500
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068346; BGQS10C-15; US 10 lb | 4.5 kg / Clear / 1500 yd | 1371 m; diameter 0.012 in; exact SKU and lb matched to official EU variant\nSKU 1068354; BGQS10C-22; US 10 lb | 4.5 kg / Green / 1500 yd | 1371 m; diameter 0.012 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068346",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "10 lb | 4.5 kg / Clear / 1500 yd | 1371 m"
+            },
+            {
+              "sku": "1068354",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "10 lb | 4.5 kg / Green / 1500 yd | 1371 m"
+            }
+          ]
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            1175
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068347; BGQS12C-15; US 12 lb | 5.4 kg / Clear / 1175 yd | 1074 m; diameter 0.014 in; exact SKU and lb matched to official EU variant\nSKU 1068355; BGQS12C-22; US 12 lb | 5.4 kg / Green / 1175 yd | 1074 m; diameter 0.014 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068347",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "12 lb | 5.4 kg / Clear / 1175 yd | 1074 m"
+            },
+            {
+              "sku": "1068355",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "12 lb | 5.4 kg / Green / 1175 yd | 1074 m"
+            }
+          ]
+        },
+        {
+          "lb": 15,
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            900
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068348; BGQS15C-15; US 15 lb | 6.8 kg / Clear / 900 yd | 822 m; diameter 0.015 in; exact SKU and lb matched to official EU variant\nSKU 1068356; BGQS15C-22; US 15 lb | 6.8 kg / Green / 900 yd | 822 m; diameter 0.015 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068348",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "15 lb | 6.8 kg / Clear / 900 yd | 822 m"
+            },
+            {
+              "sku": "1068356",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "15 lb | 6.8 kg / Green / 900 yd | 822 m"
+            }
+          ]
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.018,
+          "dia_mm": 0.4572,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            650
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068349; BGQS20C-15; US 20 lb | 9 kg / Clear / 650 yd | 594 m; diameter 0.018 in; exact SKU and lb matched to official EU variant\nSKU 1068357; BGQS20C-22; US 20 lb | 9 kg / Green / 650 yd | 594 m; diameter 0.018 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068349",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "20 lb | 9 kg / Clear / 650 yd | 594 m"
+            },
+            {
+              "sku": "1068357",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "20 lb | 9 kg / Green / 650 yd | 594 m"
+            }
+          ]
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.022,
+          "dia_mm": 0.5588,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            440
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068359; BGQS30C-22; US 30 lb | 13.6 kg / Green / 440 yd | 402 m; diameter 0.022 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068359",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "30 lb | 13.6 kg / Green / 440 yd | 402 m"
+            }
+          ]
+        },
+        {
+          "lb": 40,
+          "dia_in": 0.024,
+          "dia_mm": 0.6096,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            370
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068360; BGQS40C-22; US 40 lb | 18.1 kg / Green / 370 yd | 338 m; diameter 0.024 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068360",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "40 lb | 18.1 kg / Green / 370 yd | 338 m"
+            }
+          ]
+        },
+        {
+          "lb": 50,
+          "dia_in": 0.028,
+          "dia_mm": 0.7112,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            275
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+          "evidence": "SKU 1068361; BGQS50C-22; US 50 lb | 22.6 kg / Green / 275 yd | 251 m; diameter 0.028 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1068361",
+              "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+              "title": "50 lb | 22.6 kg / Green / 275 yd | 251 m"
+            }
+          ]
+        }
+      ],
+      "conflicts": [
+        {
+          "sku": "1068358",
+          "lb": 25,
+          "reported": "0.015 in",
+          "reason": "EU 25 lb diameter is thinner than 20 lb; not accepted without resolution."
+        },
+        {
+          "sku": "1068350",
+          "lb": 25,
+          "reported": "0.015 in",
+          "reason": "EU 25 lb diameter is thinner than 20 lb; not accepted without resolution."
+        }
+      ],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/Berkley_BigGame_QuarterSpool_Green_alt1.jpg?v=1713988635",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-trilene-big-game.jpg",
+      "features": [
+        "EXTREME FIGHTING POWER FOR BIG GAME FISH",
+        "Super Strong – Incredible strength for confidence and control",
+        "Shock Resistant – Controlled stretch adds fighting power",
+        "Extra Tough and Abrasion Resistant –Tough against rough or sharp objects",
+        "Outstanding Knot Strength –Strong and durable holding power"
+      ],
+      "product": {
+        "shortName": "Trilene Big Game",
+        "defaultSpoolYards": 1500,
+        "construction": "Nylon monofilament",
+        "quickSummary": "Trilene Big Game is Berkley's heavy-duty nylon mono for anglers who want stretch, substantial line strength, and a large supply for respooling. Its diameter matters as much as its pound-test label: the selected size can be used as a working main line or as backing beneath another line.",
+        "suitabilitySummary": "Big Game is worth considering for bait fishing, larger freshwater fish, and saltwater applications where nylon's stretch is useful. It also serves as economical backing. On smaller spinning reels, compare the actual diameter before choosing a heavy strength; a line can physically fit but still be awkward to cast.",
+        "chartNote": "These entries match official US package listings to the same product codes in Berkley's diameter data. Only resolved strengths and package sizes are shown; the conflicting 25 lb listing is omitted.",
+        "strengthGuide": [
+          "The 10 and 12 lb choices are the lighter entries in this chart. Check their diameters against the reel and lure you intend to use instead of assuming they handle like every other brand with the same strength label.",
+          "The 15 and 20 lb choices use more spool space and suit setups that can manage thicker nylon. A larger spool, heavier presentation, or bait-fishing application can make more sense than a small finesse spinning reel.",
+          "The 30-50 lb entries are substantial main lines. Choose them for a specific heavy-duty setup, not as a default upgrade for ordinary bass fishing. When Big Game is only backing, its diameter determines the length needed beneath your working line."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Big Game as the main line",
+            "text": "For a full nylon spool, select your strength and use full-spool capacity. The large retail spool is a supply of line, not an instruction to put all of it on the reel."
+          },
+          {
+            "title": "Big Game as backing",
+            "text": "This page calculates Big Game as the selected working line. To put Big Game underneath braid instead, open the braid's guide or the main calculator and select Big Game in the backing field."
+          },
+          {
+            "title": "Allow for stretch",
+            "text": "Nylon's stretch changes how a rig feels compared with braid. Set the drag for the complete rod, line, and terminal setup; filling the reel does not establish a safe fighting drag."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Can Trilene Big Game be used for braid backing?",
+            "answer": "Yes. Use the Big Game strength and diameter as the backing inputs, with your braid selected as the working main line. This page's calculator instead treats the selected Big Game as the main line."
+          },
+          {
+            "question": "Will a 1,500-yard spool fit on my reel?",
+            "answer": "Usually it is a supply for several fills, not a single fill. The calculator estimates what your selected reel holds at the chosen diameter; stop at the reel's specified fill level."
+          },
+          {
+            "question": "Why is the 25 lb size absent from this chart?",
+            "answer": "The available manufacturer diameter listing conflicts with neighboring strengths. That entry is withheld rather than used for a capacity calculation. This does not mean the product is unavailable."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "Trilene Big Game",
+        "lineType": "Monofilament",
+        "slug": "berkley-trilene-big-game-monofilament-diameter-capacity-guide",
+        "h1": "Berkley Trilene Big Game Monofilament",
+        "seoTitle": "Berkley Trilene Big Game Diameter & Reel Capacity | ReelCalc",
+        "metaDescription": "Find Berkley Trilene Big Game diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+        "suitabilityTitle": "Is Trilene Big Game right for your setup?",
+        "defaultLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [
+          "berkley-trilene-big-game-monofilament-6",
+          "berkley-trilene-big-game-monofilament-8",
+          "berkley-trilene-big-game-monofilament-25"
+        ],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/Berkley_BigGame_QuarterSpool_Green_alt1.jpg?v=1713988635",
+        "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-trilene-big-game.jpg",
+        "imageAlt": "Berkley Trilene Big Game manufacturer product package",
+        "reviewNote": "This is a specification-based setup guide, not a hands-on Trilene Big Game performance test.",
+        "sourceNote": "Specifications checked 2026-09-13. Only source-supported strength and package combinations are included. Official inch values are used for calculations. Check your own label when using older or imported stock. The product image identifies the model, not every selectable strength.",
+        "sources": [
+          {
+            "label": "Official Berkley Trilene Big Game product specifications",
+            "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-quarter-pound-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley Trilene Big Game bulk-spool specifications",
+            "url": "https://www.berkley-fishing.com/products/trilene-big-game-monofilament-bulk-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley Trilene Big Game diameter records",
+            "url": "https://berkleyfishing.eu/products/trilene-big-game-monofilament-1285546",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-trilene-big-game-monofilament-10",
+            "workingYards": 75,
+            "spoolYards": 1500
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-trilene-big-game-monofilament-10",
+            "workingYards": 75,
+            "spoolYards": 1500
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "berkley-trilene-big-game-monofilament-10",
+            "workingYards": 75,
+            "spoolYards": 1500
+          }
+        ]
+      }
+    },
+    {
+      "id": "berkley-trilene-xt",
+      "brand": "Berkley",
+      "model": "Trilene XT",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Ten Clear filler-spool rows verified in the exact 2020 US manufacturer chart; historical presentation only. Exact later 14 lb package label is independent corroboration. Full current-range numeric metadata remains blank.",
+      "numericBasis": "historical-manufacturer-chart",
+      "identityExact": true,
+      "sourceEdition": {
+        "year": 2020,
+        "region": "US",
+        "title": "2020 Berkley Product Guide",
+        "printedPage": 236,
+        "archivePage": 238,
+        "currentEditionAsserted": false
+      },
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/trilene-xt-filler-spool",
+        "https://storage.westernbass.com/brochures/2021_berkley/page1/p1.jpg",
+        "https://storage.westernbass.com/brochures/2021_berkley/",
+        "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+        "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+        "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBSXT-1.jpg",
+        "https://www.tacklewarehouse.com/Berkley_Trilene_XT_Monofilament_Line_Clear/descpage-FBSXT.html",
+        "https://www.berkley-fishing.com/cdn/shop/files/Inset_Landscape_Mono_2.jpg?v=1737570554"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-xt-filler-spool.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-cover.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-cover.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-index.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-index.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/xt-14-tw-label.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/xt-14-tw-label.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/xt-tw-page.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/xt-tw-page.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/mono-official-inset2.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/mono-official-inset2.jpg.provenance.json"
+      ],
+      "rows": [
+        {
+          "lb": 4,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS4-15",
+            "materialNumber": "1279695",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279695; XTFS4-15; 4 lb; 0.008 in; 330 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279695",
+              "modelCode": "XTFS4-15",
+              "color": "Clear",
+              "yards": 330,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 6,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS6-15",
+            "materialNumber": "1279696",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279696; XTFS6-15; 6 lb; 0.010 in; 330 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279696",
+              "modelCode": "XTFS6-15",
+              "color": "Clear",
+              "yards": 330,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 8,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS8-15",
+            "materialNumber": "1279697",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            330
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279697; XTFS8-15; 8 lb; 0.012 in; 330 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279697",
+              "modelCode": "XTFS8-15",
+              "color": "Clear",
+              "yards": 330,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS10-15",
+            "materialNumber": "1279698",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279698; XTFS10-15; 10 lb; 0.014 in; 300 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279698",
+              "modelCode": "XTFS10-15",
+              "color": "Clear",
+              "yards": 300,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS12-15",
+            "materialNumber": "1279699",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279699; XTFS12-15; 12 lb; 0.015 in; 300 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279699",
+              "modelCode": "XTFS12-15",
+              "color": "Clear",
+              "yards": 300,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 14,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS14-15",
+            "materialNumber": "1279700",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279700; XTFS14-15; 14 lb; 0.016 in; 300 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279700",
+              "modelCode": "XTFS14-15",
+              "color": "Clear",
+              "yards": 300,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ],
+          "corroboration": {
+            "sku": "1562122",
+            "modelCode": "XTFS14-15",
+            "officialTitle": "Clear / 14 lb | 6.3 kg / 300 yd | 274 m",
+            "officialUrl": "https://www.berkley-fishing.com/products/trilene-xt-filler-spool",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-xt-filler-spool.json",
+            "diameterMetadata": "",
+            "label": {
+              "lb": 14,
+              "dia_in": 0.016,
+              "dia_mm": 0.4,
+              "yards": 300,
+              "meters": 274,
+              "upc": "028632622957"
+            },
+            "visualEvidence": {
+              "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBSXT-1.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/xt-14-tw-label.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/xt-14-tw-label.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:21:37.937Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            },
+            "note": "Later exact-SKU label independently supports 14 lb/.016 in/300 yd. This does not upgrade the other archived rows to current specs. Retain historical chart conversion .4064 mm in the historical row; do not overwrite with .40 mm or older official-photo .41 mm."
+          }
+        },
+        {
+          "lb": 17,
+          "dia_in": 0.017,
+          "dia_mm": 0.4318,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS17-15",
+            "materialNumber": "1279701",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279701; XTFS17-15; 17 lb; 0.017 in; 300 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279701",
+              "modelCode": "XTFS17-15",
+              "color": "Clear",
+              "yards": 300,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.018,
+          "dia_mm": 0.4572,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS20-15",
+            "materialNumber": "1279702",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            270
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279702; XTFS20-15; 20 lb; 0.018 in; 270 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279702",
+              "modelCode": "XTFS20-15",
+              "color": "Clear",
+              "yards": 270,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 25,
+          "dia_in": 0.021,
+          "dia_mm": 0.5334,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS25-15",
+            "materialNumber": "1279703",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            250
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279703; XTFS25-15; 25 lb; 0.021 in; 250 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279703",
+              "modelCode": "XTFS25-15",
+              "color": "Clear",
+              "yards": 250,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.022,
+          "dia_mm": 0.5588,
+          "diameterBasis": "published-in",
+          "numericBasis": "historical-manufacturer-chart",
+          "identityExact": true,
+          "identityEvidence": {
+            "modelCode": "XTFS30-15",
+            "materialNumber": "1279704",
+            "color": "Clear",
+            "region": "US",
+            "editionYear": 2020,
+            "printedPage": 236,
+            "archivePage": 238,
+            "matchMethod": "Exact product heading, model code, material number, lb, inch diameter, and yard length in one manufacturer catalog table",
+            "currentSkuEquivalenceAsserted": false,
+            "versionScope": "2020 US Product Guide only; later SAP numbers and current formulation/availability are not inferred"
+          },
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html",
+          "evidence": "2020 Berkley US Product Guide, printed p.236 (archive page 238), left table Clear filler row: material 1279704; XTFS30-15; 30 lb; 0.022 in; 220 yd. Millimeters are converted, not printed.",
+          "unitNote": "Manufacturer publishes inches only in this chart; dia_mm = dia_in * 25.4.",
+          "packageSources": [
+            {
+              "materialNumber": "1279704",
+              "modelCode": "XTFS30-15",
+              "color": "Clear",
+              "yards": 220,
+              "year": 2020,
+              "region": "US",
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/index.html"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/archive-p238.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:18:32.842Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyTrileneXT_Filler_Clear_alt1.jpg?v=1713988490",
+      "localImagePath": "assets/line-pages/full-catalog/berkley-unresolved/berkley-trilene-xt.jpg",
+      "conflicts": [
+        "Archive directory says 2021_berkley, but the cover and HTML title say 2020 Product Guide. Use 2020 prominently.",
+        "Existing 15 lb inventory record is not the verified 14 lb row. Exclude 15 lb; create a separate 14 lb ID.",
+        "Current Clear filler SAP numbers differ from 2020 material numbers. Matching model names/codes alone do not establish a current formulation across the range.",
+        "The newer 14 lb label prints .40 mm; an older image hosted by Berkley prints .41 mm. Both print .016 in. Historical chart is inch-only; keep its explicit .4064 mm conversion.",
+        "Historical chart packages do not establish current stock. Do not present archived material numbers as current SKUs."
+      ],
+      "unresolvedScope": [
+        "Current-edition full-range diameters",
+        "Unpictured current color/package variants",
+        "Any 15 lb Trilene XT identity"
+      ],
+      "integration": {
+        "scope": "Not integrated or published; main merges only these rows and product configs.",
+        "rowIds": [
+          {
+            "lb": 4,
+            "id": "berkley-trilene-xt-monofilament-4",
+            "existing": false
+          },
+          {
+            "lb": 6,
+            "id": "berkley-trilene-xt-monofilament-6",
+            "existing": true
+          },
+          {
+            "lb": 8,
+            "id": "berkley-trilene-xt-monofilament-8",
+            "existing": true
+          },
+          {
+            "lb": 10,
+            "id": "berkley-trilene-xt-monofilament-10",
+            "existing": true
+          },
+          {
+            "lb": 12,
+            "id": "berkley-trilene-xt-monofilament-12",
+            "existing": true
+          },
+          {
+            "lb": 14,
+            "id": "berkley-trilene-xt-monofilament-14",
+            "existing": false
+          },
+          {
+            "lb": 17,
+            "id": "berkley-trilene-xt-monofilament-17",
+            "existing": true
+          },
+          {
+            "lb": 20,
+            "id": "berkley-trilene-xt-monofilament-20",
+            "existing": false
+          },
+          {
+            "lb": 25,
+            "id": "berkley-trilene-xt-monofilament-25",
+            "existing": false
+          },
+          {
+            "lb": 30,
+            "id": "berkley-trilene-xt-monofilament-30",
+            "existing": false
+          }
+        ],
+        "replacePackageListsRatherThanUnionWithLegacy": true,
+        "preserveUnverifiedCatalogRowsButExcludeFromThisPage": true,
+        "historicalPresentationRequired": true,
+        "historicalNote": "Keep 2020 US in H1, summary, chart note, sources, and FAQ. Shared gold table caption says offered spool lengths / Retail stock varies; main must give this historical page a historical caption or equivalent unambiguous qualification. Do not imply that these archived material numbers or specs are current.",
+        "finalIntegratedBrowserQaRequired": true
+      },
+      "product": {
+        "shortName": "Trilene XT",
+        "h1": "Berkley Trilene XT: 2020 US Reference",
+        "seoTitle": "Berkley Trilene XT 2020 US Diameter Reference | ReelCalc",
+        "metaDescription": "Historical 2020 US Trilene XT Clear filler-spool diameters and lengths, with reel-capacity estimates. Not a current-edition or availability claim.",
+        "construction": "Nylon monofilament; Trilene XT Extra Tough",
+        "quickSummary": "2020 US catalog reference, not a current-edition chart. These Trilene XT Clear filler-spool specifications come from Berkley's 2020 Product Guide. The guide records 4-30 lb options with lengths that change by strength; current formulation and availability are not established here.",
+        "suitabilityTitle": "Planning around a documented XT spool",
+        "suitabilitySummary": "XT is Berkley's abrasion-focused nylon monofilament. For a spool matching this historical reference, compare its printed diameter and model code before estimating capacity. The 10 lb entry is .014 in, so a reel marked for a different 10 lb line can hold a different amount. Do not apply this chart to unidentified older stock.",
+        "chartNote": "Historical 2020 US manufacturer chart, printed page 236: Clear XTFS filler spools only. Inches are published; millimeters are converted at 25.4 mm per inch. Lengths are historical catalog offerings, not confirmation of current stock or edition. There is a 14 lb row, not a 15 lb row.",
+        "strengthGuide": [
+          "At 4, 6, and 8 lb, the historical chart lists .008, .010, and .012 in respectively, each on a 330 yd filler spool. Check the reel's diameter-based capacity rather than assuming every 330 yd package is one reel fill.",
+          "The 10, 12, and 14 lb options use .014, .015, and .016 in line on 300 yd spools. Choose within the rod and lure ratings, then check how much that actual diameter leaves on your reel.",
+          "The 17, 20, 25, and 30 lb chart entries increase to .017, .018, .021, and .022 in. Package lengths step from 300 to 270, 250, and 220 yd; strength and package length must stay paired.",
+          "The later XTFS14-15 package photograph independently shows 14 lb, .016 in, and 300 yd. It supports that exact labelled package, not an assumption that the entire 2020 range is unchanged today."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Match the historical label first",
+            "text": "Confirm Trilene XT, strength, diameter, and the XTFS model code on your own package. A modern product image identifies the family but does not date your spool or validate its condition."
+          },
+          {
+            "title": "Keep package length with strength",
+            "text": "The archived 8 lb package contains 330 yd; the 10 lb package contains 300 yd. Plan working line and any backing from the selected diameter and the exact length printed on your package."
+          },
+          {
+            "title": "Condition matters with old stock",
+            "text": "A catalog reference is not a statement that an old spool is fit to fish. Inspect stored line and test your knots before use; stop filling at the reel maker's specified level."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Are these current Trilene XT specifications?",
+            "answer": "No. This is an explicitly historical 2020 US Clear filler-spool chart. Current product pages identify the family but omit numeric diameter metadata. The chart does not establish current formulation or stock."
+          },
+          {
+            "question": "Why does the archive address contain 2021?",
+            "answer": "The hosting directory is named 2021_berkley, but the actual catalog cover says 2020 Product Guide and the page title identifies the 2020 catalog. The document itself determines the year."
+          },
+          {
+            "question": "Is the chart entry 14 lb or 15 lb?",
+            "answer": "14 lb. The manufacturer lists XTFS14-15, where the final -15 is part of the model code, not a 15 lb strength. No 15 lb entry is established by this source."
+          },
+          {
+            "question": "Why does 14 lb show .4064 mm rather than .40 or .41?",
+            "answer": "The historical chart publishes .016 in only. Its metric value here is an explicit conversion. Separately pictured Berkley labels round their metric fields differently; those fields are not substituted into the historical chart."
+          },
+          {
+            "question": "Does a 300 yd filler spool mean my reel holds 300 yd?",
+            "answer": "No. It is the packaged line length. Reel fill depends on the reel's spool capacity, actual line diameter, fill level, and any backing."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "Trilene XT",
+        "lineType": "Monofilament",
+        "slug": "berkley-trilene-xt-monofilament-diameter-capacity-guide",
+        "defaultLineId": "berkley-trilene-xt-monofilament-10",
+        "defaultSpoolYards": 300,
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [
+          "berkley-trilene-xt-monofilament-15"
+        ],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyTrileneXT_Filler_Clear_alt1.jpg?v=1713988490",
+        "localImagePath": "assets/line-pages/full-catalog/berkley-unresolved/berkley-trilene-xt.jpg",
+        "imageAlt": "Berkley Trilene XT manufacturer product-family package; not a strength-specific or historical label",
+        "reviewNote": "This is a source-based specification and setup guide, not a hands-on performance or aging test.",
+        "sourceNote": "Sources reviewed 2026-09-13. Historical 2020 US manufacturer chart, printed page 236: Clear XTFS filler spools only. Inches are published; millimeters are converted at 25.4 mm per inch. Lengths are historical catalog offerings, not confirmation of current stock or edition. There is a 14 lb row, not a 15 lb row. The product image identifies the family, not every selectable strength or the source edition. Match your own package before applying these estimates.",
+        "sources": [
+          {
+            "label": "Berkley US Trilene XT Filler Spool",
+            "url": "https://www.berkley-fishing.com/products/trilene-xt-filler-spool",
+            "note": "Manufacturer product identity, construction, and SKU/model matching. Numeric diameter metadata is blank; not the numeric source."
+          },
+          {
+            "label": "2020 Berkley Product Guide cover (archived by WesternBass)",
+            "url": "https://storage.westernbass.com/brochures/2021_berkley/page1/p1.jpg",
+            "note": "Original manufacturer publication, third-party archive. Historical 2020 US reference; not current availability."
+          },
+          {
+            "label": "2020 US Berkley manufacturer XT chart, printed page 236",
+            "url": "https://storage.westernbass.com/brochures/2021_berkley/page238/p238.jpg",
+            "note": "Original manufacturer publication, third-party archive. Historical 2020 US reference; not current availability."
+          },
+          {
+            "label": "Manufacturer package photograph: xt 14 tw label",
+            "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBSXT-1.jpg",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-trilene-xt-monofilament-6",
+            "workingYards": 75,
+            "spoolYards": 330
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-trilene-xt-monofilament-8",
+            "workingYards": 75,
+            "spoolYards": 330
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "berkley-trilene-xt-monofilament-10",
+            "workingYards": 75,
+            "spoolYards": 300
+          }
+        ],
+        "chartCaption": "Historical 2020 US Clear filler-spool specifications. Match your package label; current stock and other editions may differ."
+      }
+    },
+    {
+      "id": "berkley-100-fluorocarbon",
+      "brand": "Berkley",
+      "model": "100% Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Manufacturer label numbers verified for 10 lb/2000 yd, 15 lb/200 yd, and 20 lb/200 yd, with exact model codes and SAP numbers matching official US metadata. Other strength/package combinations remain withheld.",
+      "numericBasis": "manufacturer-package-label",
+      "identityExact": true,
+      "sourceEdition": {
+        "region": "US",
+        "scope": "Pictured packages matched to official currently listed SKUs; production year not asserted"
+      },
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-filler-spool",
+        "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-bulk-spool",
+        "https://www.berkley-fishing.com/blogs/news/berkley-freshwater-line-guide-fluorocarbon",
+        "https://www.berkley-fishing.com/cdn/shop/files/Inset_Landscape_Fluoro_2.jpg?v=1737572069",
+        "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBTR-1.jpg",
+        "https://www.tacklewarehouse.com/Berkley_Trilene_100_Fluorocarbon_Line_Clear/descpage-FBTR.html",
+        "https://cdn.shopify.com/s/files/1/0749/1846/1673/files/Trilene_fluorocarbon_20lb_resized-1024x683_26447dfb-7e6e-4928-8465-5f4e50a1f9be.jpg?v=1759262385"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-100-fluorocarbon-filler-spool.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-100-fluorocarbon-bulk-spool.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-official-guide.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-official-guide.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-official-10-bulk-label.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-official-10-bulk-label.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-15-tw-label.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-15-tw-label.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-tw-page.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-tw-page.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-20-trident-label.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-20-trident-label.jpg.provenance.json"
+      ],
+      "rows": [
+        {
+          "lb": 10,
+          "dia_in": 0.012,
+          "dia_mm": 0.3,
+          "diameterBasis": "published-pair",
+          "numericBasis": "manufacturer-package-label",
+          "identityExact": true,
+          "identityEvidence": {
+            "sku": "1564072",
+            "modelCode": "TF2010-15",
+            "officialTitle": "10 lb | 4.5 kg",
+            "officialUrl": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-bulk-spool",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-100-fluorocarbon-bulk-spool.json",
+            "diameterMetadata": "",
+            "color": "Clear",
+            "region": "US",
+            "skuVisibleOnLabel": true,
+            "matchMethod": "Label SAP and model code match official US SKU metadata",
+            "upc": "028632232828",
+            "versionScope": "Pictured US package label matched to a currently listed variant; no assertion that every production run is unchanged"
+          },
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/cdn/shop/files/Inset_Landscape_Fluoro_2.jpg?v=1737572069",
+          "evidence": "Actual label photographed on the official Berkley fluorocarbon guide: Trilene 100% Fluorocarbon; TF2010-15; SAP 1564072; 10 LB/4.5 kg; .012 in avg dia/0.30 mm; 2000 YD/1828 m. Only this bulk package is included at 10 lb.",
+          "unitNote": "Both diameter units are independently printed on the label, not computed from one another. Calculations use the published inch diameter.",
+          "packageSources": [
+            {
+              "sku": "1564072",
+              "modelCode": "TF2010-15",
+              "color": "Clear",
+              "yards": 2000,
+              "publishedMeters": 1828,
+              "url": "https://www.berkley-fishing.com/cdn/shop/files/Inset_Landscape_Fluoro_2.jpg?v=1737572069",
+              "officialIdentityUrl": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-bulk-spool"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://www.berkley-fishing.com/cdn/shop/files/Inset_Landscape_Fluoro_2.jpg?v=1737572069",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-official-10-bulk-label.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-official-10-bulk-label.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:20:57.422Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 15,
+          "dia_in": 0.015,
+          "dia_mm": 0.38,
+          "diameterBasis": "published-pair",
+          "numericBasis": "manufacturer-package-label",
+          "identityExact": true,
+          "identityEvidence": {
+            "sku": "1562623",
+            "modelCode": "TLFFS15-15",
+            "officialTitle": "15 lb",
+            "officialUrl": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-filler-spool",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-100-fluorocarbon-filler-spool.json",
+            "diameterMetadata": "",
+            "color": "Clear",
+            "region": "US",
+            "skuVisibleOnLabel": true,
+            "matchMethod": "Label SAP and model code match official US SKU metadata",
+            "upc": "028632701355",
+            "versionScope": "Pictured US package label matched to a currently listed variant; no assertion that every production run is unchanged"
+          },
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBTR-1.jpg",
+          "evidence": "Manufacturer label in Tackle Warehouse photo FBTR-1: TLFFS15-15; SAP 1562623; 15 lb/6.8 kg; 0.015 in/0.38 mm; 200 yd/182 m. Numeric authority is the printed Berkley label, not the retailer table.",
+          "unitNote": "Both diameter units are independently printed on the label, not computed from one another. Calculations use the published inch diameter.",
+          "packageSources": [
+            {
+              "sku": "1562623",
+              "modelCode": "TLFFS15-15",
+              "color": "Clear",
+              "yards": 200,
+              "publishedMeters": 182,
+              "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBTR-1.jpg",
+              "officialIdentityUrl": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-filler-spool"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBTR-1.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-15-tw-label.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-15-tw-label.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:20:13.271Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.017,
+          "dia_mm": 0.43,
+          "diameterBasis": "published-pair",
+          "numericBasis": "manufacturer-package-label",
+          "identityExact": true,
+          "identityEvidence": {
+            "sku": "1562625",
+            "modelCode": "TLFFS20-15",
+            "officialTitle": "20 lb",
+            "officialUrl": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-filler-spool",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-trilene-100-fluorocarbon-filler-spool.json",
+            "diameterMetadata": "",
+            "color": "Clear",
+            "region": "US",
+            "skuVisibleOnLabel": true,
+            "matchMethod": "Label SAP and model code match official US SKU metadata",
+            "upc": "028632701379",
+            "versionScope": "Pictured US package label matched to a currently listed variant; no assertion that every production run is unchanged"
+          },
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0749/1846/1673/files/Trilene_fluorocarbon_20lb_resized-1024x683_26447dfb-7e6e-4928-8465-5f4e50a1f9be.jpg?v=1759262385",
+          "evidence": "Manufacturer label in Trident photo: TLFFS20-15; SAP 1562625; 20 lb/9.0 kg; 0.017 in/0.43 mm; 200 yd/182 m. No Trident breaking/diameter-test result is used.",
+          "unitNote": "Both diameter units are independently printed on the label, not computed from one another. Calculations use the published inch diameter.",
+          "packageSources": [
+            {
+              "sku": "1562625",
+              "modelCode": "TLFFS20-15",
+              "color": "Clear",
+              "yards": 200,
+              "publishedMeters": 182,
+              "url": "https://cdn.shopify.com/s/files/1/0749/1846/1673/files/Trilene_fluorocarbon_20lb_resized-1024x683_26447dfb-7e6e-4928-8465-5f4e50a1f9be.jpg?v=1759262385",
+              "officialIdentityUrl": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-filler-spool"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://cdn.shopify.com/s/files/1/0749/1846/1673/files/Trilene_fluorocarbon_20lb_resized-1024x683_26447dfb-7e6e-4928-8465-5f4e50a1f9be.jpg?v=1759262385",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-20-trident-label.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/fluoro-20-trident-label.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:20:14.652Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyTrilene100Fluorocarbon_Filler_Clear_alt1.jpg?v=1713987843",
+      "localImagePath": "assets/line-pages/full-catalog/berkley-unresolved/berkley-100-fluorocarbon.jpg",
+      "conflicts": [
+        "Use catalog ID berkley-100-fluorocarbon and catalog model 100% Fluorocarbon; marketing name includes Trilene. Do not create the initially mistyped inventory ID.",
+        "Official ProductJSON has blank diameter fields. Exact SAP/model-code matching validates label identity, not missing numbers.",
+        "The 10 lb numeric label is a 2000 yd bulk package; do not add a 200 yd filler option without its own accepted evidence.",
+        "Retailer diameter tables and Trident physical-test results are not accepted numeric sources. Only the actual Berkley labels in their photographs are used.",
+        "Trident HTML retrieval returned HTTP 403 in the local fetch. The original label image downloaded successfully and was visually verified; the page was readable through web retrieval."
+      ],
+      "unresolvedScope": [
+        "4, 6, 8, 12, 17, and 25 lb numeric package evidence",
+        "10 lb filler and unpictured bulk combinations"
+      ],
+      "integration": {
+        "scope": "Not integrated or published; main merges only these rows and product configs.",
+        "rowIds": [
+          {
+            "lb": 10,
+            "id": "berkley-100-fluorocarbon-fluorocarbon-10",
+            "existing": true
+          },
+          {
+            "lb": 15,
+            "id": "berkley-100-fluorocarbon-fluorocarbon-15",
+            "existing": true
+          },
+          {
+            "lb": 20,
+            "id": "berkley-100-fluorocarbon-fluorocarbon-20",
+            "existing": true
+          }
+        ],
+        "replacePackageListsRatherThanUnionWithLegacy": true,
+        "preserveUnverifiedCatalogRowsButExcludeFromThisPage": true,
+        "historicalPresentationRequired": false,
+        "historicalNote": null,
+        "finalIntegratedBrowserQaRequired": true
+      },
+      "product": {
+        "shortName": "Trilene 100% Fluorocarbon",
+        "h1": "Berkley Trilene 100% Fluorocarbon",
+        "seoTitle": "Berkley Trilene 100% Fluorocarbon Diameter & Capacity | ReelCalc",
+        "metaDescription": "Label-verified US Trilene 100% Fluorocarbon: 10 lb bulk and 15/20 lb filler specifications, reel-capacity estimates, and working-line planning.",
+        "construction": "100% PVDF fluorocarbon main line",
+        "quickSummary": "US package-label reference for 10, 15, and 20 lb Trilene 100% Fluorocarbon. The 10 lb evidence is a 2000 yd bulk spool; the 15 and 20 lb evidence is for 200 yd filler spools. These are exact pictured packages, not a complete strength range or a guarantee about every production run.",
+        "suitabilityTitle": "Full-spool fluorocarbon or a measured working length?",
+        "suitabilitySummary": "Berkley identifies this as 100% PVDF main line, distinct from fluorocarbon-coated nylon and its separate leader products. The verified 15 and 20 lb filler options are .015 and .017 in; check reel capacity before choosing them for a small spool. Backing can reserve the documented fluorocarbon for the working portion, provided the connection stays beyond the line you need to fish.",
+        "chartNote": "US manufacturer-label evidence only: TF2010-15 at 10 lb/2000 yd, TLFFS15-15 at 15 lb/200 yd, and TLFFS20-15 at 20 lb/200 yd. Both diameter units are printed independently on each label. Other strengths and package combinations are intentionally omitted; these photographs do not establish stock availability.",
+        "strengthGuide": [
+          "The documented 10 lb bulk spool is .012 in/.30 mm and contains 2000 yd. That is a bulk supply for planned fills, not an instruction to put the whole package on one reel.",
+          "The 15 lb filler label prints .015 in/.38 mm and 200 yd. Compare that diameter with the reel's rating when planning a baitcasting fill or a shorter working length over backing.",
+          "The 20 lb filler label prints .017 in/.43 mm and 200 yd. Its larger cross-section leaves less line on a given spool than the .015 in option; choose within the rod, lure, and reel requirements.",
+          "No numeric estimate is offered here for the remaining strengths simply because they appear in a store selector. The exact diameter and package must both be documented."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Separate bulk supply from reel fill",
+            "text": "The 10 lb row documents 2000 yd, while the 15 and 20 lb rows document 200 yd. Measure each working length and keep the remaining line with its original strength and model identification."
+          },
+          {
+            "title": "Budget the working length",
+            "text": "Leave enough fluorocarbon for casting, fish movement, and later trimming. When using backing, account for that working length before filling the remaining spool space."
+          },
+          {
+            "title": "Keep main line and leader identities separate",
+            "text": "A short section used as a leader does not turn this product into Berkley's dedicated leader formulation. Do not substitute ProSpec, Vanish, Trilene XL Fluorocarbon, or a coated line's numbers into this chart."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is this 100% fluorocarbon or coated nylon?",
+            "answer": "Berkley specifies a proprietary 100% PVDF formula for Trilene 100% Fluorocarbon. This page is for that mainline product, not fluorocarbon-coated nylon."
+          },
+          {
+            "question": "Why are only 10, 15, and 20 lb included?",
+            "answer": "Those are the strengths for which the inspected manufacturer package labels provide exact diameters and lengths. The current official selector lists more strengths but leaves diameter metadata blank."
+          },
+          {
+            "question": "Why is the 10 lb package 2000 yd?",
+            "answer": "The verified photograph is the TF2010-15 bulk spool, SAP 1564072. A 200 yd filler package is a separate package identity and is not inferred from that bulk label."
+          },
+          {
+            "question": "Are the retailer diameter tables being used as the source?",
+            "answer": "No. For 15 and 20 lb, the source is the manufacturer's printing on the actual spool pictured by the retailer. The printed model codes and SAP numbers match official Berkley US records."
+          },
+          {
+            "question": "Why do the inch and metric numbers not convert perfectly?",
+            "answer": "Both are separately printed rounded label values. This chart preserves them; capacity calculations use the published inch diameter rather than replacing it with a conversion of the rounded metric field."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "100% Fluorocarbon",
+        "lineType": "Fluorocarbon",
+        "slug": "berkley-100-fluorocarbon-fluorocarbon-diameter-capacity-guide",
+        "defaultLineId": "berkley-100-fluorocarbon-fluorocarbon-15",
+        "defaultSpoolYards": 200,
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [
+          "berkley-100-fluorocarbon-fluorocarbon-6",
+          "berkley-100-fluorocarbon-fluorocarbon-8",
+          "berkley-100-fluorocarbon-fluorocarbon-12",
+          "berkley-100-fluorocarbon-fluorocarbon-17"
+        ],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyTrilene100Fluorocarbon_Filler_Clear_alt1.jpg?v=1713987843",
+        "localImagePath": "assets/line-pages/full-catalog/berkley-unresolved/berkley-100-fluorocarbon.jpg",
+        "imageAlt": "Berkley Trilene 100% Fluorocarbon manufacturer product-family package; not a strength-specific or historical label",
+        "reviewNote": "This is a source-based specification and setup guide, not a hands-on performance or aging test.",
+        "sourceNote": "Sources reviewed 2026-09-13. US manufacturer-label evidence only: TF2010-15 at 10 lb/2000 yd, TLFFS15-15 at 15 lb/200 yd, and TLFFS20-15 at 20 lb/200 yd. Both diameter units are printed independently on each label. Other strengths and package combinations are intentionally omitted; these photographs do not establish stock availability. The product image identifies the family, not every selectable strength or the source edition. Match your own package before applying these estimates.",
+        "sources": [
+          {
+            "label": "Berkley US Trilene 100% Fluorocarbon Filler Spool",
+            "url": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-filler-spool",
+            "note": "Manufacturer product identity, construction, and SKU/model matching. Numeric diameter metadata is blank; not the numeric source."
+          },
+          {
+            "label": "Berkley US Trilene 100% Fluorocarbon Bulk Spool",
+            "url": "https://www.berkley-fishing.com/products/trilene-100-fluorocarbon-bulk-spool",
+            "note": "Manufacturer product identity, construction, and SKU/model matching. Numeric diameter metadata is blank; not the numeric source."
+          },
+          {
+            "label": "Manufacturer package photograph: fluoro official 10 bulk label",
+            "url": "https://www.berkley-fishing.com/cdn/shop/files/Inset_Landscape_Fluoro_2.jpg?v=1737572069",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          },
+          {
+            "label": "Manufacturer package photograph: fluoro 15 tw label",
+            "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=FBTR-1.jpg",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          },
+          {
+            "label": "Manufacturer package photograph: fluoro 20 trident label",
+            "url": "https://cdn.shopify.com/s/files/1/0749/1846/1673/files/Trilene_fluorocarbon_20lb_resized-1024x683_26447dfb-7e6e-4928-8465-5f4e50a1f9be.jpg?v=1759262385",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          },
+          {
+            "label": "Berkley manufacturer construction guide and original photograph context",
+            "url": "https://www.berkley-fishing.com/blogs/news/berkley-freshwater-line-guide-fluorocarbon",
+            "note": "Official article context; performance claims are attributed, not independently tested."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-100-fluorocarbon-fluorocarbon-10",
+            "workingYards": 75,
+            "spoolYards": 2000
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-100-fluorocarbon-fluorocarbon-10",
+            "workingYards": 75,
+            "spoolYards": 2000
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "berkley-100-fluorocarbon-fluorocarbon-15",
+            "workingYards": 75,
+            "spoolYards": 200
+          }
+        ]
+      }
+    },
+    {
+      "id": "berkley-vanish",
+      "brand": "Berkley",
+      "model": "Vanish",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Supported manufacturer rows and product-specific gold editorial prepared. Not integrated, browser-audited, or approved for publication.",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/vanish-filler-spool",
+        "https://www.berkley-fishing.com/products/vanish-bulk-spool"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/vanish-filler-spool.json",
+        "research/line-pages/sources/berkley/vanish-bulk-spool.json"
+      ],
+      "rows": [
+        {
+          "lb": 6,
+          "dia_in": 0.009,
+          "dia_mm": 0.22,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564094; V206-15; US 6 lb | 2.7 kg / 2000 yd | 1828 m / 0.009 in | 0.22 mm; diameter 0.009 in | 0.22 mm",
+          "packageSources": [
+            {
+              "sku": "1564094",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "6 lb | 2.7 kg / 2000 yd | 1828 m / 0.009 in | 0.22 mm"
+            }
+          ]
+        },
+        {
+          "lb": 8,
+          "dia_in": 0.01,
+          "dia_mm": 0.25,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564095; V208-15; US 8 lb | 3.6 kg / 2000 yd | 1828 m / 0.010 in | 0.25 mm; diameter 0.010 in | 0.25 mm",
+          "packageSources": [
+            {
+              "sku": "1564095",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "8 lb | 3.6 kg / 2000 yd | 1828 m / 0.010 in | 0.25 mm"
+            }
+          ]
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.27,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564096; V2010-15; US 10 lb | 4.5 kg / 2000 yd | 1828 m / 0.011 in | 0.27 mm; diameter 0.011 in | 0.27 mm",
+          "packageSources": [
+            {
+              "sku": "1564096",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "10 lb | 4.5 kg / 2000 yd | 1828 m / 0.011 in | 0.27 mm"
+            }
+          ]
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.012,
+          "dia_mm": 0.3,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564097; V2012-15; US 12 lb | 5.4 kg / 2000 yd | 1828 m / 0.012 in | 0.30 mm; diameter 0.012 in | 0.30 mm",
+          "packageSources": [
+            {
+              "sku": "1564097",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "12 lb | 5.4 kg / 2000 yd | 1828 m / 0.012 in | 0.30 mm"
+            }
+          ]
+        },
+        {
+          "lb": 14,
+          "dia_in": 0.013,
+          "dia_mm": 0.33,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564098; V2014-15; US 14 lb | 6.3 kg / 2000 yd | 1828 m / 0.013 in | 0.33 mm; diameter 0.013 in | 0.33 mm",
+          "packageSources": [
+            {
+              "sku": "1564098",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "14 lb | 6.3 kg / 2000 yd | 1828 m / 0.013 in | 0.33 mm"
+            }
+          ]
+        },
+        {
+          "lb": 17,
+          "dia_in": 0.015,
+          "dia_mm": 0.38,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564099; V2017-15; US 17 lb | 7.7 kg / 2000 yd | 1828 m / 0.015 in | 0.38 mm; diameter 0.015 in | 0.38 mm",
+          "packageSources": [
+            {
+              "sku": "1564099",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "17 lb | 7.7 kg / 2000 yd | 1828 m / 0.015 in | 0.38 mm"
+            }
+          ]
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.4,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564100; V2020-15; US 20 lb | 9 kg / 2000 yd | 1828 m / 0.016 in | 0.40 mm; diameter 0.016 in | 0.40 mm",
+          "packageSources": [
+            {
+              "sku": "1564100",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "20 lb | 9 kg / 2000 yd | 1828 m / 0.016 in | 0.40 mm"
+            }
+          ]
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.02,
+          "dia_mm": 0.5,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564101; V2030-15; US 30 lb | 13.6 kg / 2000 yd | 1828 m / 0.020 in | 0.50 mm; diameter 0.020 in | 0.50 mm",
+          "packageSources": [
+            {
+              "sku": "1564101",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "30 lb | 13.6 kg / 2000 yd | 1828 m / 0.020 in | 0.50 mm"
+            }
+          ]
+        },
+        {
+          "lb": 40,
+          "dia_in": 0.022,
+          "dia_mm": 0.55,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564102; V2040-15; US 40 lb | 18.1 kg / 2000 yd | 1828 m / 0.022 in | 0.55 mm; diameter 0.022 in | 0.55 mm",
+          "packageSources": [
+            {
+              "sku": "1564102",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "40 lb | 18.1 kg / 2000 yd | 1828 m / 0.022 in | 0.55 mm"
+            }
+          ]
+        },
+        {
+          "lb": 50,
+          "dia_in": 0.029,
+          "dia_mm": 0.73,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            2000
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564103; V2050-15; US 50 lb | 22.6 kg / 2000 yd | 1828 m / 0.029 in | 0.73 mm; diameter 0.029 in | 0.73 mm",
+          "packageSources": [
+            {
+              "sku": "1564103",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "50 lb | 22.6 kg / 2000 yd | 1828 m / 0.029 in | 0.73 mm"
+            }
+          ]
+        },
+        {
+          "lb": 60,
+          "dia_in": 0.032,
+          "dia_mm": 0.81,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            1700
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+          "evidence": "SKU 1564104; V2060-15; US 60 lb | 27.2 kg / 1700 yd | 1554 m / 0.032 in | 0.81 mm; diameter 0.032 in | 0.81 mm",
+          "packageSources": [
+            {
+              "sku": "1564104",
+              "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+              "title": "60 lb | 27.2 kg / 1700 yd | 1554 m / 0.032 in | 0.81 mm"
+            }
+          ]
+        }
+      ],
+      "conflicts": [],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyVanish_Filler_Clear_alt1.jpg?v=1713988358",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-vanish.jpg",
+      "features": [
+        "THE EASY CASTING FLUOROCARBON",
+        "Remains clear under water - 100% fluorocarbon refracts light similar to water",
+        "Sinks under water - more sensitive and a more direct profile from rod tip to lure",
+        "Optimal Wet Strength - Non-absorbing fluorocarbon maintains strength and abrasion resistance under water",
+        "Flexible - Traditional fluorocarbons are stiff, Vanish is designed to be more flexible"
+      ],
+      "product": {
+        "imageCaption": "Vanish filler-spool package shown. The chart below covers verified bulk-spool specifications.",
+        "shortName": "Vanish",
+        "defaultSpoolYards": 2000,
+        "construction": "100% fluorocarbon main line",
+        "quickSummary": "Berkley Vanish is a fluorocarbon main line designed with casting flexibility in mind. Its sinking material makes it a different choice from nylon for a working line. This guide uses the published US bulk-spool strength and diameter pairs, with capacity estimates based on the selected diameter.",
+        "suitabilitySummary": "Vanish can suit subsurface presentations when you want a fluorocarbon working line without relying on a separate braid-to-leader connection. Lighter diameters are easier to manage on small spinning spools. The heavier entries need tackle that can handle thick fluorocarbon; they are not universal spinning-reel recommendations.",
+        "chartNote": "The chart shows the resolved strength, diameter, and package combinations from Berkley's US Vanish bulk-spool listing. The 2,000- and 1,700-yard amounts are retail supplies, not recommended single-reel fills. Filler-spool and leader packages are not implied by this chart.",
+        "strengthGuide": [
+          "The 6-10 lb entries are the lighter diameters shown here. Start with the rod's line rating, your lure, and the cover you fish. Filling a small spinning reel with fluorocarbon requires attention to line twist and the manufacturer's fill level.",
+          "The 12-20 lb choices give you a thicker working line for tackle and presentations that can manage it. For the same reel, increasing diameter reduces the available yardage; the calculator makes that tradeoff visible.",
+          "The 30-60 lb entries are heavy fluorocarbon choices. They are included because they have published specifications, not because they are recommended for everyday casting on every reel. A short leader and a full working spool are different jobs."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "A supply spool is not a fill target",
+            "text": "A bulk Vanish spool can supply multiple reel fills. Use the estimated full-spool amount as a starting point, then stop at the reel maker's fill level rather than trying to use the whole retail spool."
+          },
+          {
+            "title": "Replacing only the working section",
+            "text": "Backing can let you replace a worn working section without discarding every yard on the spool. Leave enough usable Vanish above the backing connection for the casts and runs you expect."
+          },
+          {
+            "title": "Keep the main line and leader distinct",
+            "text": "This guide covers Vanish main line. A leader sold in a short spool should be checked against its own label, not assumed to share every diameter or package option shown here."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Vanish nylon with a fluorocarbon coating?",
+            "answer": "No. Berkley describes this Vanish main line as 100% fluorocarbon. It should not be confused with a fluorocarbon-coated nylon or copolymer line."
+          },
+          {
+            "question": "Why does the package menu start at 2,000 yards?",
+            "answer": "These are the bulk-spool packages whose strength and diameter combinations are documented in the source used for this chart. The calculator returns the amount for your reel, not the whole package."
+          },
+          {
+            "question": "Does a capacity estimate mean this strength is a good casting choice?",
+            "answer": "Not by itself. The calculation estimates spool space. Match the line to the rod, lure, reel, and fishing conditions, especially with the thickest fluorocarbon sizes."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "Vanish",
+        "lineType": "Fluorocarbon",
+        "slug": "berkley-vanish-fluorocarbon-diameter-capacity-guide",
+        "h1": "Berkley Vanish Fluorocarbon",
+        "seoTitle": "Berkley Vanish Diameter & Reel Capacity | ReelCalc",
+        "metaDescription": "Find Berkley Vanish diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+        "suitabilityTitle": "Is Vanish right for your setup?",
+        "defaultLineId": "berkley-vanish-fluorocarbon-8",
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [
+          "berkley-vanish-fluorocarbon-15"
+        ],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyVanish_Filler_Clear_alt1.jpg?v=1713988358",
+        "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-vanish.jpg",
+        "imageAlt": "Berkley Vanish manufacturer product package",
+        "reviewNote": "This is a specification-based setup guide, not a hands-on Vanish performance test.",
+        "sourceNote": "Specifications checked 2026-09-13. Only source-supported strength and package combinations are included. Official inch values are used for calculations. Check your own label when using older or imported stock. The product image identifies the model, not every selectable strength.",
+        "sources": [
+          {
+            "label": "Official Berkley Vanish product specifications",
+            "url": "https://www.berkley-fishing.com/products/vanish-filler-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley Vanish bulk-spool specifications",
+            "url": "https://www.berkley-fishing.com/products/vanish-bulk-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-vanish-fluorocarbon-8",
+            "workingYards": 75,
+            "spoolYards": 2000
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-vanish-fluorocarbon-8",
+            "workingYards": 75,
+            "spoolYards": 2000
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "berkley-vanish-fluorocarbon-8",
+            "workingYards": 75,
+            "spoolYards": 2000
+          }
+        ]
+      }
+    },
+    {
+      "id": "berkley-forward-finesse-braid",
+      "brand": "Berkley",
+      "model": "Forward Finesse Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "10 lb/.007 in/.17 mm/150 yd verified in an official Berkley package photograph; 12 lb/.008 in/.20 mm/150 yd verified on exact-SAP Low-Vis Green and Flame Green manufacturer spool labels. No numeric extrapolation to other strengths.",
+      "numericBasis": "manufacturer-package-label",
+      "identityExact": true,
+      "sourceEdition": {
+        "region": "US",
+        "scope": "Pictured 150 yd filler packages; not EU/Japan 150 m products or bulk packages"
+      },
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/forward-braid",
+        "https://www.berkley-fishing.com/blogs/news/breaking-down-forward-braid",
+        "https://www.berkley-fishing.com/cdn/shop/articles/Hero_Forward_Mobile_Master.jpg?v=1738948868&width=1440",
+        "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBLV-1.jpg",
+        "https://www.tacklewarehouse.com/Berkley_Forward_Braid_Lo_Vis_Green/descpage-BFBLV.html",
+        "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBFG-1.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/official-forward-braid.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-official-article.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-official-article.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-official-hero.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-official-hero.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-12-tw-label.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-12-tw-label.jpg.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-tw-page.html",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-tw-page.html.provenance.json",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-tw-flame.jpg",
+        "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-tw-flame.jpg.provenance.json"
+      ],
+      "rows": [
+        {
+          "lb": 10,
+          "dia_in": 0.007,
+          "dia_mm": 0.17,
+          "diameterBasis": "published-pair",
+          "numericBasis": "manufacturer-package-label",
+          "identityExact": true,
+          "identityEvidence": {
+            "sku": "1621815",
+            "modelCode": "BFBFS10-22",
+            "officialTitle": "Low-Vis Green / 10 lb|4.5 kg",
+            "officialUrl": "https://www.berkley-fishing.com/products/forward-braid",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-forward-braid.json",
+            "diameterMetadata": "",
+            "color": "Low-Vis Green",
+            "region": "US",
+            "skuVisibleOnLabel": false,
+            "matchMethod": "Official manufacturer photo shows exact product, color, strength, and 150 yd package; unique corresponding official US variant; SKU itself is not legible in this photo",
+            "upc": null,
+            "versionScope": "Pictured US package label matched to a currently listed variant; no assertion that every production run is unchanged"
+          },
+          "spool_sizes_yd": [
+            150
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.berkley-fishing.com/cdn/shop/articles/Hero_Forward_Mobile_Master.jpg?v=1738948868&width=1440",
+          "evidence": "Official Berkley Forward article hero photograph shows actual carton: thermally fused finesse braid, Low-Vis Green, 10 LB/4.5 KG, 150 YDS/137 M, 0.007 IN/0.17 MM. The separate 4 LB MONO EQUIVALENT is not break strength. SAP is not legible; identity is exact by official product/color/strength/package.",
+          "unitNote": "Both diameter units are independently printed on the label, not computed from one another. Calculations use the published inch diameter.",
+          "packageSources": [
+            {
+              "sku": "1621815",
+              "modelCode": "BFBFS10-22",
+              "color": "Low-Vis Green",
+              "yards": 150,
+              "publishedMeters": 137,
+              "url": "https://www.berkley-fishing.com/cdn/shop/articles/Hero_Forward_Mobile_Master.jpg?v=1738948868&width=1440",
+              "officialIdentityUrl": "https://www.berkley-fishing.com/products/forward-braid"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://www.berkley-fishing.com/cdn/shop/articles/Hero_Forward_Mobile_Master.jpg?v=1738948868&width=1440",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-official-hero.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-official-hero.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:20:11.399Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ]
+        },
+        {
+          "lb": 12,
+          "dia_in": 0.008,
+          "dia_mm": 0.2,
+          "diameterBasis": "published-pair",
+          "numericBasis": "manufacturer-package-label",
+          "identityExact": true,
+          "identityEvidence": {
+            "sku": "1621816",
+            "modelCode": "BFBFS12-22",
+            "officialTitle": "Low-Vis Green / 12 lb|5.4 kg",
+            "officialUrl": "https://www.berkley-fishing.com/products/forward-braid",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-forward-braid.json",
+            "diameterMetadata": "",
+            "color": "Low-Vis Green",
+            "region": "US",
+            "skuVisibleOnLabel": true,
+            "matchMethod": "Label SAP and model code match official US SKU metadata",
+            "upc": "028632013182",
+            "versionScope": "Pictured US package label matched to a currently listed variant; no assertion that every production run is unchanged"
+          },
+          "spool_sizes_yd": [
+            150
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBLV-1.jpg",
+          "evidence": "Manufacturer label in Tackle Warehouse BFBLV-1 photo: BFBFS12-22; SAP 1621816; 12 LB/5.4 KG; 150 YDS/137 M; 0.008 IN/0.20 MM. The separate 6 LB MONO EQUIVALENT is not break strength.",
+          "unitNote": "Both diameter units are independently printed on the label, not computed from one another. Calculations use the published inch diameter.",
+          "packageSources": [
+            {
+              "sku": "1621816",
+              "modelCode": "BFBFS12-22",
+              "color": "Low-Vis Green",
+              "yards": 150,
+              "publishedMeters": 137,
+              "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBLV-1.jpg",
+              "officialIdentityUrl": "https://www.berkley-fishing.com/products/forward-braid"
+            }
+          ],
+          "visualEvidence": [
+            {
+              "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBLV-1.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-12-tw-label.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-12-tw-label.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:22:48.805Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            }
+          ],
+          "corroboration": {
+            "sku": "1621809",
+            "modelCode": "BFBFS12-GG",
+            "officialTitle": "Flame Green / 12 lb|5.4 kg",
+            "officialUrl": "https://www.berkley-fishing.com/products/forward-braid",
+            "officialFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/official-forward-braid.json",
+            "diameterMetadata": "",
+            "label": {
+              "lb": 12,
+              "dia_in": 0.008,
+              "dia_mm": 0.2,
+              "yards": 150,
+              "meters": 137,
+              "color": "Flame Green",
+              "upc": "028632013069"
+            },
+            "visualEvidence": {
+              "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBFG-1.jpg",
+              "file": "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-tw-flame.jpg",
+              "provenanceFile": "research/line-pages/full-catalog/berkley-unresolved/evidence/forward-tw-flame.jpg.provenance.json",
+              "retrievedAt": "2026-09-13T14:27:47.880Z",
+              "method": "Original source image downloaded unchanged and visually inspected; not a browser screenshot or generated reconstruction"
+            },
+            "note": "Second actual manufacturer label confirms the same numbers for the 12 lb Flame Green filler SKU. Not extrapolated to other strengths or bulk packages."
+          }
+        }
+      ],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/Berkley_ForwardBraid_Filler_LowVisGreen_alt1.jpg?v=1737473407",
+      "localImagePath": "assets/line-pages/full-catalog/berkley-unresolved/berkley-forward-finesse-braid.jpg",
+      "conflicts": [
+        "10 lb label also prints 4 LB MONO EQUIVALENT; 12 lb label prints 6 LB MONO EQUIVALENT. Those are not break strengths and cannot populate a 4 or 6 lb row.",
+        "Official 10 lb hero has an exact product/color/strength/length match; the SAP number itself is not legible. This limitation is recorded rather than claiming a visible SKU.",
+        "US filler package is 150 yd/137 m. EU/Japan 150 m variants are not identical SKUs and are not merged.",
+        "Retailer mm chart uses converted-looking values such as .178/.203; actual inspected manufacturer labels print .17/.20. Preserve manufacturer inch/mm pairs.",
+        "A Walmart 14 lb listing image actually shows a 10 lb carton without readable diameter; rejected for 14 lb evidence. Trade-show 8 lb photograph lacks numeric diameter.",
+        "Thermally fused longitudinal construction is not evidence of an X5/X9-style carrier count, and no PE class is inferred."
+      ],
+      "unresolvedScope": [
+        "4, 6, 8, 14, and 17 lb numeric package evidence",
+        "1500 yd bulk combinations",
+        "Other colors at unpictured strengths"
+      ],
+      "integration": {
+        "scope": "Not integrated or published; main merges only these rows and product configs.",
+        "rowIds": [
+          {
+            "lb": 10,
+            "id": "berkley-forward-finesse-braid-braid-10",
+            "existing": true
+          },
+          {
+            "lb": 12,
+            "id": "berkley-forward-finesse-braid-braid-12",
+            "existing": false
+          }
+        ],
+        "replacePackageListsRatherThanUnionWithLegacy": true,
+        "preserveUnverifiedCatalogRowsButExcludeFromThisPage": true,
+        "historicalPresentationRequired": false,
+        "historicalNote": null,
+        "finalIntegratedBrowserQaRequired": true
+      },
+      "product": {
+        "shortName": "Forward Finesse Braid",
+        "h1": "Berkley Forward Finesse Braid",
+        "seoTitle": "Berkley Forward Finesse Braid Diameter & Capacity | ReelCalc",
+        "metaDescription": "Verified US Forward Finesse Braid 10 and 12 lb package-label diameters, 150 yd filler spools, capacity estimates, and backing considerations.",
+        "construction": "Longitudinally twisted, thermally fused finesse line",
+        "quickSummary": "US 150 yd filler-spool reference for the label-verified 10 and 12 lb Forward Finesse Braid options. Berkley describes a longitudinally twisted, thermally fused construction. The chart uses the actual diameter printed on each package, not the separate mono-equivalent pound rating.",
+        "suitabilityTitle": "A documented finesse mainline setup",
+        "suitabilitySummary": "Forward is positioned by Berkley for finesse presentations, including forward-facing-sonar fishing. The verified 10 and 12 lb packages are .007 and .008 in, so backing can be important when a 150 yd package is shorter than a reel's calculated full-spool amount. These are label-based capacity estimates, not measured casting, sink-rate, or abrasion comparisons.",
+        "chartNote": "US 150 yd/137 m filler packages only. The official 10 lb carton prints .007 in/.17 mm; exact-SAP 12 lb spool labels print .008 in/.20 mm. Inch/mm pairs are independently published. Mono-equivalent ratings are not breaking strength. Other strengths, 1500 yd bulk spools, and overseas 150 m products are not inferred.",
+        "strengthGuide": [
+          "The 10 lb Low-Vis Green carton gives .007 in/.17 mm and 150 yd. Its additional 4 lb mono-equivalent text describes a comparison rating, not a 4 lb Forward strength.",
+          "The 12 lb Low-Vis Green and Flame Green spool labels give .008 in/.20 mm and 150 yd. Their 6 lb mono-equivalent text does not establish the diameter of the separate 6 lb Forward product.",
+          "Choose the required breaking strength within the rod and lure ratings, then use Forward's own printed diameter for capacity. Do not substitute the diameter of another braid carrying the same pound rating.",
+          "Treat these two verified strengths as a limited reference. No carrier count, PE rating, or numeric diameter for 6 or 8 lb is derived from the product name or retailer table."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Plan around 150 yards",
+            "text": "A 150 yd filler package can leave unfilled space on a larger spool. Estimate backing using the working length you intend to keep, and stop at the reel maker's fill level."
+          },
+          {
+            "title": "Use the real diameter field",
+            "text": "The .007 or .008 in printed diameter is the capacity input. The 4 or 6 lb mono-equivalent text is not an interchangeable line diameter and must not replace the 10 or 12 lb breaking-strength label."
+          },
+          {
+            "title": "Keep the leader separate",
+            "text": "Choose any leader for the presentation and contact conditions. Its strength does not change Forward's printed mainline diameter; leave enough main line that the backing connection remains beyond the fishing distance you need."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Forward a conventional X5 or X9 braid?",
+            "answer": "No. Berkley describes Forward as longitudinally twisted and thermally fused. This source does not establish a conventional five- or nine-carrier count, and those other products' diameters are not substitutes."
+          },
+          {
+            "question": "Does 4 lb mono equivalent mean this is 4 lb Forward?",
+            "answer": "No. The inspected carton is 10 lb Forward with .007 in/.17 mm diameter. The separate 4 lb mono-equivalent field is not its breaking strength. The 12 lb package similarly prints 6 lb mono equivalent."
+          },
+          {
+            "question": "Is the US filler spool 150 yards or 150 meters?",
+            "answer": "The inspected US labels say 150 yd/137 m. A regional 150 m package is a different package identity and is not included here."
+          },
+          {
+            "question": "Why are 6 and 8 lb missing?",
+            "answer": "The official US variants establish those products exist, but the inspected sources do not give a verified manufacturer diameter/package pairing for them. They remain outside this chart."
+          },
+          {
+            "question": "Will one filler spool fill my reel?",
+            "answer": "That depends on the reel and selected diameter. When the estimated full-spool amount exceeds 150 yd, plan appropriate backing or a different documented line supply; a package length is not a reel-capacity rating."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "Forward Finesse Braid",
+        "lineType": "Braid",
+        "slug": "berkley-forward-finesse-braid-braid-diameter-capacity-guide",
+        "defaultLineId": "berkley-forward-finesse-braid-braid-10",
+        "defaultSpoolYards": 150,
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [
+          "berkley-forward-finesse-braid-braid-6",
+          "berkley-forward-finesse-braid-braid-8"
+        ],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/Berkley_ForwardBraid_Filler_LowVisGreen_alt1.jpg?v=1737473407",
+        "localImagePath": "assets/line-pages/full-catalog/berkley-unresolved/berkley-forward-finesse-braid.jpg",
+        "imageAlt": "Berkley Forward Finesse Braid manufacturer product-family package; not a strength-specific or historical label",
+        "reviewNote": "This is a source-based specification and setup guide, not a hands-on performance or aging test.",
+        "sourceNote": "Sources reviewed 2026-09-13. US 150 yd/137 m filler packages only. The official 10 lb carton prints .007 in/.17 mm; exact-SAP 12 lb spool labels print .008 in/.20 mm. Inch/mm pairs are independently published. Mono-equivalent ratings are not breaking strength. Other strengths, 1500 yd bulk spools, and overseas 150 m products are not inferred. The product image identifies the family, not every selectable strength or the source edition. Match your own package before applying these estimates.",
+        "sources": [
+          {
+            "label": "Berkley US Forward Braid Filler Spool",
+            "url": "https://www.berkley-fishing.com/products/forward-braid",
+            "note": "Manufacturer product identity, construction, and SKU/model matching. Numeric diameter metadata is blank; not the numeric source."
+          },
+          {
+            "label": "Manufacturer package photograph: forward official hero",
+            "url": "https://www.berkley-fishing.com/cdn/shop/articles/Hero_Forward_Mobile_Master.jpg?v=1738948868&width=1440",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          },
+          {
+            "label": "Manufacturer package photograph: forward 12 tw label",
+            "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBLV-1.jpg",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          },
+          {
+            "label": "Manufacturer package photograph: forward tw flame",
+            "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=BFBFG-1.jpg",
+            "note": "Read the actual Berkley label in the photograph. Hosting site descriptions or test results are not the numeric authority."
+          },
+          {
+            "label": "Berkley manufacturer construction guide and original photograph context",
+            "url": "https://www.berkley-fishing.com/blogs/news/breaking-down-forward-braid",
+            "note": "Official article context; performance claims are attributed, not independently tested."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-forward-finesse-braid-braid-10",
+            "workingYards": 75,
+            "spoolYards": 150
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-forward-finesse-braid-braid-12",
+            "workingYards": 75,
+            "spoolYards": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "berkley-x9-braid",
+      "brand": "Berkley",
+      "model": "X9 Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Supported manufacturer rows and product-specific gold editorial prepared. Not integrated, browser-audited, or approved for publication.",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+        "https://www.berkley-fishing.com/products/x9-braid-bulk-spool",
+        "https://berkleyfishing.eu/products/x9-braid-1454442"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/x9-braid-filler-spool.json",
+        "research/line-pages/sources/berkley/x9-braid-bulk-spool.json",
+        "research/line-pages/sources/berkley/eu-x9-braid-1454442.json"
+      ],
+      "rows": [
+        {
+          "lb": 8,
+          "dia_in": 0.004,
+          "dia_mm": 0.1016,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486883; X9BFS8-CY; US Crystal / 8 lb | 3.6 kg / 164 yd | 150 m; diameter 0.004 in; exact SKU and lb matched to official EU variant\nSKU 1486895; X9B3308-CY; US Crystal / 8 lb | 3.6 kg / 328 yd | 300 m; diameter 0.004 in; exact SKU and lb matched to official EU variant\nSKU 1486811; X9BFS8-22; US Low-Vis Green / 8 lb | 3.6 kg / 164 yd | 150 m; diameter 0.004 in; exact SKU and lb matched to official EU variant\nSKU 1486823; X9B3308-22; US Low-Vis Green / 8 lb | 3.6 kg / 328 yd | 300 m; diameter 0.004 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486883",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 8 lb | 3.6 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486895",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 8 lb | 3.6 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486811",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 8 lb | 3.6 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486823",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 8 lb | 3.6 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.005,
+          "dia_mm": 0.127,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486884; X9BFS10-CY; US Crystal / 10 lb | 4.5 kg / 164 yd | 150 m; diameter 0.005 in; exact SKU and lb matched to official EU variant\nSKU 1486896; X9B33010-CY; US Crystal / 10 lb | 4.5 kg / 328 yd | 300 m; diameter 0.005 in; exact SKU and lb matched to official EU variant\nSKU 1486812; X9BFS10-22; US Low-Vis Green / 10 lb | 4.5 kg / 164 yd | 150 m; diameter 0.005 in; exact SKU and lb matched to official EU variant\nSKU 1486824; X9B33010-22; US Low-Vis Green / 10 lb | 4.5 kg / 328 yd | 300 m; diameter 0.005 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486884",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 10 lb | 4.5 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486896",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 10 lb | 4.5 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486812",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 10 lb | 4.5 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486824",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 10 lb | 4.5 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 15,
+          "dia_in": 0.006,
+          "dia_mm": 0.1524,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486885; X9BFS15-CY; US Crystal / 15 lb | 6.8 kg / 164 yd | 150 m; diameter 0.006 in; exact SKU and lb matched to official EU variant\nSKU 1486897; X9B33015-CY; US Crystal / 15 lb | 6.8 kg / 328 yd | 300 m; diameter 0.006 in; exact SKU and lb matched to official EU variant\nSKU 1486813; X9BFS15-22; US Low-Vis Green / 15 lb | 6.8 kg / 164 yd | 150 m; diameter 0.006 in; exact SKU and lb matched to official EU variant\nSKU 1486825; X9B33015-22; US Low-Vis Green / 15 lb | 6.8 kg / 328 yd | 300 m; diameter 0.006 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486885",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 15 lb | 6.8 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486897",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 15 lb | 6.8 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486813",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 15 lb | 6.8 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486825",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 15 lb | 6.8 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486886; X9BFS20-CY; US Crystal / 20 lb | 9.1 kg / 164 yd | 150 m; diameter 0.007 in; exact SKU and lb matched to official EU variant\nSKU 1486898; X9B33020-CY; US Crystal / 20 lb | 9.1 kg / 328 yd | 300 m; diameter 0.007 in; exact SKU and lb matched to official EU variant\nSKU 1486814; X9BFS20-22; US Low-Vis Green / 20 lb | 9.1 kg / 164 yd | 150 m; diameter 0.007 in; exact SKU and lb matched to official EU variant\nSKU 1486826; X9B33020-22; US Low-Vis Green / 20 lb | 9.1 kg / 328 yd | 300 m; diameter 0.007 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486886",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 20 lb | 9.1 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486898",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 20 lb | 9.1 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486814",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 20 lb | 9.1 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486826",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 20 lb | 9.1 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486887; X9BFS30-CY; US Crystal / 30 lb | 13.6 kg / 164 yd | 150 m; diameter 0.008 in; exact SKU and lb matched to official EU variant\nSKU 1486899; X9B33030-CY; US Crystal / 30 lb | 13.6 kg / 328 yd | 300 m; diameter 0.008 in; exact SKU and lb matched to official EU variant\nSKU 1486815; X9BFS30-22; US Low-Vis Green / 30 lb | 13.6 kg / 164 yd | 150 m; diameter 0.008 in; exact SKU and lb matched to official EU variant\nSKU 1486827; X9B33030-22; US Low-Vis Green / 30 lb | 13.6 kg / 328 yd | 300 m; diameter 0.008 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486887",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 30 lb | 13.6 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486899",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 30 lb | 13.6 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486815",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 30 lb | 13.6 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486827",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 30 lb | 13.6 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 40,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486888; X9BFS40-CY; US Crystal / 40 lb | 18.1 kg / 164 yd | 150 m; diameter 0.010 in; exact SKU and lb matched to official EU variant\nSKU 1486900; X9B33040-CY; US Crystal / 40 lb | 18.1 kg / 328 yd | 300 m; diameter 0.010 in; exact SKU and lb matched to official EU variant\nSKU 1486816; X9BFS40-22; US Low-Vis Green / 40 lb | 18.1 kg / 164 yd | 150 m; diameter 0.010 in; exact SKU and lb matched to official EU variant\nSKU 1486828; X9B33040-22; US Low-Vis Green / 40 lb | 18.1 kg / 328 yd | 300 m; diameter 0.010 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486888",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 40 lb | 18.1 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486900",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 40 lb | 18.1 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486816",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 40 lb | 18.1 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486828",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 40 lb | 18.1 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 50,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486889; X9BFS50-CY; US Crystal / 50 lb |22.7 kg / 164 yd | 150 m; diameter 0.012 in; exact SKU and lb matched to official EU variant\nSKU 1486901; X9B33050-CY; US Crystal / 50 lb |22.7 kg / 328 yd | 300 m; diameter 0.012 in; exact SKU and lb matched to official EU variant\nSKU 1486817; X9BFS50-22; US Low-Vis Green / 50 lb |22.7 kg / 164 yd | 150 m; diameter 0.012 in; exact SKU and lb matched to official EU variant\nSKU 1486829; X9B33050-22; US Low-Vis Green / 50 lb |22.7 kg / 328 yd | 300 m; diameter 0.012 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486889",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 50 lb |22.7 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486901",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 50 lb |22.7 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486817",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 50 lb |22.7 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486829",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 50 lb |22.7 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 65,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486890; X9BFS65-CY; US Crystal / 65 lb | 29.4 kg / 164 yd | 150 m; diameter 0.014 in; exact SKU and lb matched to official EU variant\nSKU 1486902; X9B33065-CY; US Crystal / 65 lb | 29.4 kg / 328 yd | 300 m; diameter 0.014 in; exact SKU and lb matched to official EU variant\nSKU 1486818; X9BFS65-22; US Low-Vis Green / 65 lb | 29.4 kg / 164 yd | 150 m; diameter 0.014 in; exact SKU and lb matched to official EU variant\nSKU 1486830; X9B33065-22; US Low-Vis Green / 65 lb | 29.4 kg / 328 yd | 300 m; diameter 0.014 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486890",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 65 lb | 29.4 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486902",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 65 lb | 29.4 kg / 328 yd | 300 m"
+            },
+            {
+              "sku": "1486818",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 65 lb | 29.4 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486830",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 65 lb | 29.4 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 80,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            295
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486891; X9BFS80-CY; US Crystal / 80 lb | 36.2 kg / 164 yd | 150 m; diameter 0.016 in; exact SKU and lb matched to official EU variant\nSKU 1486903; X9B33080-CY; US Crystal / 80 lb | 36.2 kg / 295 yd | 270 m; diameter 0.016 in; exact SKU and lb matched to official EU variant\nSKU 1486819; X9BFS80-22; US Low-Vis Green / 80 lb | 36.2 kg / 164 yd | 150 m; diameter 0.016 in; exact SKU and lb matched to official EU variant\nSKU 1486831; X9B33080-22; US Low-Vis Green / 80 lb | 36.2 kg / 295 yd | 270 m; diameter 0.016 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486891",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 80 lb | 36.2 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486903",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 80 lb | 36.2 kg / 295 yd | 270 m"
+            },
+            {
+              "sku": "1486819",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 80 lb | 36.2 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486831",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 80 lb | 36.2 kg / 295 yd | 270 m"
+            }
+          ]
+        },
+        {
+          "lb": 100,
+          "dia_in": 0.017,
+          "dia_mm": 0.4318,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            219
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x9-braid-1454442",
+          "evidence": "SKU 1486892; X9BFS100-CY; US Crystal / 100 lb | 45.3 kg / 164 yd | 150 m; diameter 0.017 in; exact SKU and lb matched to official EU variant\nSKU 1486904; X9B330100-CY; US Crystal / 100 lb | 45.3 kg / 219 yd | 200 m; diameter 0.017 in; exact SKU and lb matched to official EU variant\nSKU 1486820; X9BFS100-22; US Low-Vis Green / 100 lb | 45.3 kg / 164 yd | 150 m; diameter 0.017 in; exact SKU and lb matched to official EU variant\nSKU 1486832; X9B330100-22; US Low-Vis Green / 100 lb | 45.3 kg / 219 yd | 200 m; diameter 0.017 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486892",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 100 lb | 45.3 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486904",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Crystal / 100 lb | 45.3 kg / 219 yd | 200 m"
+            },
+            {
+              "sku": "1486820",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 100 lb | 45.3 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486832",
+              "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+              "title": "Low-Vis Green / 100 lb | 45.3 kg / 219 yd | 200 m"
+            }
+          ]
+        }
+      ],
+      "conflicts": [],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyX9_FillerSpool_Crystal_1819_alt5.jpg?v=1713987940",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-x9-braid.jpg",
+      "features": [
+        "Designed for optimal strength and casting distance",
+        "Smooth for long and quiet casts"
+      ],
+      "product": {
+        "shortName": "X9 Braid",
+        "defaultSpoolYards": 164,
+        "construction": "Nine-carrier PE braid",
+        "quickSummary": "Berkley X9 uses nine PE carriers and is positioned around a smooth casting feel. Choose the exact US pound-test label here, then compare its published diameter with your reel's capacity. The same brand's overseas strength labels are not automatically interchangeable with these entries.",
+        "suitabilitySummary": "X9 is a candidate when a smooth braid main line and sensitivity are priorities. Its lighter sizes need careful spool tension and drag use; thin braid is not automatically the best choice for a baitcaster. Use the thicker options only when the presentation, cover, and tackle call for them.",
+        "chartNote": "US strength and package options are matched by exact product code to Berkley's official diameter records. Inch diameters are published values; the millimeter figures are conversions. Retail lengths vary by strength, particularly in the heaviest sizes.",
+        "strengthGuide": [
+          "The 8-15 lb entries are thin working lines. They can make sense on suitable spinning tackle with an appropriately chosen leader, but a fine diameter calls for careful knots, drag settings, and line management.",
+          "The 20-40 lb choices cover a wider range of applications. For baitcasting, choose the line around lure weight, cover, and resistance to digging into lower wraps rather than choosing only the highest capacity number.",
+          "The 50-100 lb options are for heavier uses that justify their strength and diameter. Compare both the amount your reel can hold and the package you intend to buy; not every large spool contains the same yardage at every strength."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Secure the braid at the arbor",
+            "text": "Follow the reel maker's instructions for securing braid. Where backing is used, calculate its amount from its actual diameter instead of treating a mono pound test as a braid diameter."
+          },
+          {
+            "title": "Keep firm, even tension",
+            "text": "Wind braid under controlled tension and watch the fill level. Loose lower wraps can change the usable fill and encourage the working line to dig in; the estimate cannot measure your winding tension."
+          },
+          {
+            "title": "Match the leader to the job",
+            "text": "A leader is selected for the presentation, cover, knots, and target fish. Its pound test does not need to match the braid label, and changing a short leader does not produce a meaningful increase in spool capacity."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "What is the difference between X9 and X5?",
+            "answer": "X9 uses nine PE carriers; X5 uses five. Berkley emphasizes smooth casting for X9 and strength around cover for X5. Carrier count alone does not establish the capacity, knot strength, or abrasion performance of a particular spool."
+          },
+          {
+            "question": "Why do some imported X9 packages show different strengths?",
+            "answer": "Regional labels can use different strength descriptions. This chart follows the matched US product codes and pound-test labels rather than mapping an overseas number to a US size by name alone."
+          },
+          {
+            "question": "Will the published diameter guarantee an exact fill?",
+            "answer": "No. It provides a repeatable capacity input, but braid thickness, winding tension, and the reel's published capacity can affect the real fill. Stop at the reel manufacturer's fill level."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "X9 Braid",
+        "lineType": "Braid",
+        "slug": "berkley-x9-braid-braid-diameter-capacity-guide",
+        "h1": "Berkley X9 Braid",
+        "seoTitle": "Berkley X9 Braid Diameter & Reel Capacity | ReelCalc",
+        "metaDescription": "Find Berkley X9 Braid diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+        "suitabilityTitle": "Is X9 Braid right for your setup?",
+        "defaultLineId": "berkley-x9-braid-braid-20",
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyX9_FillerSpool_Crystal_1819_alt5.jpg?v=1713987940",
+        "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-x9-braid.jpg",
+        "imageAlt": "Berkley X9 Braid manufacturer product package",
+        "reviewNote": "This is a specification-based setup guide, not a hands-on X9 Braid performance test.",
+        "sourceNote": "Specifications checked 2026-09-13. Only source-supported strength and package combinations are included. Official inch values are used for calculations. Check your own label when using older or imported stock. The product image identifies the model, not every selectable strength.",
+        "sources": [
+          {
+            "label": "Official Berkley X9 Braid product specifications",
+            "url": "https://www.berkley-fishing.com/products/x9-braid-filler-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley X9 Braid bulk-spool specifications",
+            "url": "https://www.berkley-fishing.com/products/x9-braid-bulk-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley X9 Braid diameter records",
+            "url": "https://berkleyfishing.eu/products/x9-braid-1454442",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-x9-braid-braid-20",
+            "workingYards": 75,
+            "spoolYards": 164
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-x9-braid-braid-20",
+            "workingYards": 75,
+            "spoolYards": 164
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "berkley-x9-braid-braid-20",
+            "workingYards": 75,
+            "spoolYards": 164
+          }
+        ]
+      }
+    },
+    {
+      "id": "berkley-x5-braid",
+      "brand": "Berkley",
+      "model": "X5 Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Supported manufacturer rows and product-specific gold editorial prepared. Not integrated, browser-audited, or approved for publication.",
+      "sourceUrls": [
+        "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+        "https://www.berkley-fishing.com/products/x5-braid-bulk-spool",
+        "https://berkleyfishing.eu/products/x5-braid-1454441"
+      ],
+      "sourceFiles": [
+        "research/line-pages/sources/berkley/x5-braid-filler-spool.json",
+        "research/line-pages/sources/berkley/x5-braid-bulk-spool.json",
+        "research/line-pages/sources/berkley/eu-x5-braid-1454441.json"
+      ],
+      "rows": [
+        {
+          "lb": 8,
+          "dia_in": 0.004,
+          "dia_mm": 0.1016,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486712; X5BFS8-22; US Low Vis Green / 8 lb | 3.6 kg / 164 yd | 150 m; diameter 0.004 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486712",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 8 lb | 3.6 kg / 164 yd | 150 m"
+            }
+          ]
+        },
+        {
+          "lb": 10,
+          "dia_in": 0.005,
+          "dia_mm": 0.127,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486713; X5BFS10-22; US Low Vis Green / 10 lb | 4.5 kg / 164 yd | 150 m; diameter 0.005 in; exact SKU and lb matched to official EU variant\nSKU 1486724; X5B33010-22; US Low Vis Green / 10 lb | 4.5 kg / 328 yd | 300 m; diameter 0.005 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486713",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 10 lb | 4.5 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486724",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 10 lb | 4.5 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 15,
+          "dia_in": 0.006,
+          "dia_mm": 0.1524,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486714; X5BFS15-22; US Low Vis Green / 15 lb | 6.8 kg / 164 yd | 150 m; diameter 0.006 in; exact SKU and lb matched to official EU variant\nSKU 1486725; X5B33015-22; US Low Vis Green / 15 lb | 6.8 kg / 328 yd | 300 m; diameter 0.006 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486714",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 15 lb | 6.8 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486725",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 15 lb | 6.8 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 20,
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486715; X5BFS20-22; US Low Vis Green / 20 lb | 9.1 kg / 164 yd | 150 m; diameter 0.007 in; exact SKU and lb matched to official EU variant\nSKU 1486726; X5B33020-22; US Low Vis Green / 20 lb | 9.1 kg / 328 yd | 300 m; diameter 0.007 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486715",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 20 lb | 9.1 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486726",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 20 lb | 9.1 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 30,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486716; X5BFS30-22; US Low Vis Green / 30 lb | 13.6 kg / 164 yd | 150 m; diameter 0.008 in; exact SKU and lb matched to official EU variant\nSKU 1486727; X5B33030-22; US Low Vis Green / 30 lb | 13.6 kg / 328 yd | 300 m; diameter 0.008 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486716",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 30 lb | 13.6 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486727",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 30 lb | 13.6 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 40,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486717; X5BFS40-22; US Low Vis Green / 40 lb | 18.1 kg / 164 yd | 150 m; diameter 0.010 in; exact SKU and lb matched to official EU variant\nSKU 1486728; X5B33040-22; US Low Vis Green / 40 lb | 18.1 kg / 328 yd | 300 m; diameter 0.010 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486717",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 40 lb | 18.1 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486728",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 40 lb | 18.1 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 50,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486718; X5BFS50-22; US Low Vis Green / 50 lb |22.7 kg / 164 yd | 150 m; diameter 0.012 in; exact SKU and lb matched to official EU variant\nSKU 1486729; X5B33050-22; US Low Vis Green / 50 lb |22.7 kg / 328 yd | 300 m; diameter 0.012 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486718",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 50 lb |22.7 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486729",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 50 lb |22.7 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 65,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            328
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486719; X5BFS65-22; US Low Vis Green / 65 lb | 29.4 kg / 164 yd | 150 m; diameter 0.014 in; exact SKU and lb matched to official EU variant\nSKU 1486730; X5B33065-22; US Low Vis Green / 65 lb | 29.4 kg / 328 yd | 300 m; diameter 0.014 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486719",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 65 lb | 29.4 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486730",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 65 lb | 29.4 kg / 328 yd | 300 m"
+            }
+          ]
+        },
+        {
+          "lb": 80,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            164,
+            274
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://berkleyfishing.eu/products/x5-braid-1454441",
+          "evidence": "SKU 1486720; X5BFS80-22; US Low Vis Green / 80 lb | 36.2 kg / 164 yd | 150 m; diameter 0.016 in; exact SKU and lb matched to official EU variant\nSKU 1486731; X5B33080-22; US Low Vis Green / 80 lb | 36.2 kg / 274 yd | 250 m; diameter 0.016 in; exact SKU and lb matched to official EU variant",
+          "packageSources": [
+            {
+              "sku": "1486720",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 80 lb | 36.2 kg / 164 yd | 150 m"
+            },
+            {
+              "sku": "1486731",
+              "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+              "title": "Low Vis Green / 80 lb | 36.2 kg / 274 yd | 250 m"
+            }
+          ]
+        }
+      ],
+      "conflicts": [],
+      "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyX5_FillerSpool_Crystal_1819_alt5.jpg?v=1713987932",
+      "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-x5-braid.jpg",
+      "features": [
+        "Designed for optimal strength and abrasion resistance",
+        "Fish confidently in thick vegetation and heavy cover"
+      ],
+      "product": {
+        "imageCaption": "X5 Crystal package shown. The chart covers verified Low Vis Green product codes.",
+        "shortName": "X5 Braid",
+        "defaultSpoolYards": 164,
+        "construction": "Five-carrier PE braid",
+        "quickSummary": "Berkley X5 is a five-carrier PE braid marketed for fishing around cover. The selected pound test identifies a specific catalog entry, while its published diameter drives the capacity estimate. Use this page to plan a full braid spool or a working section above backing.",
+        "suitabilitySummary": "X5 can be considered for braid applications around vegetation and cover where the line strength, lure, and tackle are matched to the job. A cover-focused description does not make every X5 strength a heavy-cover recommendation. The lightest diameters still require a suitable reel and careful line handling.",
+        "chartNote": "Strength and retail length are taken from US product options; diameters are matched using the same official product codes. Millimeter values are converted from the published inch diameter. Only resolved combinations are included.",
+        "strengthGuide": [
+          "The 8-15 lb entries are the lightest choices shown. Treat them as fine braid, not heavy-cover line simply because the X5 family is marketed for cover. Check the rod and intended presentation before deciding on a strength.",
+          "The 20-40 lb entries span different diameters for general and stronger braid setups. A baitcaster may be easier to manage with a less delicate diameter, but lure weight, cover, and spool behavior should decide the choice.",
+          "The 50-80 lb entries belong to heavier applications that justify them. More breaking strength does not automatically improve casting or make a light rod suitable for dense cover. The capacity tool shows fit, not a blanket fishing recommendation."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Choose a useful working length",
+            "text": "Plan enough braid for your normal casts, expected runs, and a reserve for cutting back damaged line. Backing can make up the remaining spool space without buying braid for the entire spool."
+          },
+          {
+            "title": "Check the connection",
+            "text": "Use a connection appropriate to the braid and backing diameters, seat it carefully, and keep it below the normal working section. A tight, bulky knot can affect how the first braid wraps lie."
+          },
+          {
+            "title": "Inspect after contact",
+            "text": "A cover-oriented braid still needs inspection. Check for damage after rubbing vegetation stems, wood, or rough structure, and cut back compromised line instead of relying on the strength label."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is X5 a four-strand braid?",
+            "answer": "No. Berkley describes X5 as a five-carrier PE braid. It is a different construction from its nine-carrier X9 model."
+          },
+          {
+            "question": "Does X5 hold less line than X9 at the same pound test?",
+            "answer": "Use the listed diameters for the exact entries. Where two entries have the same diameter, the mathematical capacity estimate is the same; their construction or handling can still differ."
+          },
+          {
+            "question": "Can I put the whole 164-yard package on my reel?",
+            "answer": "Only if your selected reel has enough estimated space at that diameter. Use a capacity calculation first, and stop at the correct fill level. If the package does not fill the reel, the backing mode can estimate what is needed beneath it."
+          }
+        ],
+        "presentation": "gold",
+        "role": "mainline",
+        "brand": "Berkley",
+        "model": "X5 Braid",
+        "lineType": "Braid",
+        "slug": "berkley-x5-braid-braid-diameter-capacity-guide",
+        "h1": "Berkley X5 Braid",
+        "seoTitle": "Berkley X5 Braid Diameter & Reel Capacity | ReelCalc",
+        "metaDescription": "Find Berkley X5 Braid diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+        "suitabilityTitle": "Is X5 Braid right for your setup?",
+        "defaultLineId": "berkley-x5-braid-braid-30",
+        "defaultMode": "capacity",
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "excludedLineIds": [],
+        "imageUrl": "https://www.berkley-fishing.com/cdn/shop/files/BerkleyX5_FillerSpool_Crystal_1819_alt5.jpg?v=1713987932",
+        "localImagePath": "assets/line-pages/full-catalog/group-main/berkley-x5-braid.jpg",
+        "imageAlt": "Berkley X5 Braid manufacturer product package",
+        "reviewNote": "This is a specification-based setup guide, not a hands-on X5 Braid performance test.",
+        "sourceNote": "Specifications checked 2026-09-13. Only source-supported strength and package combinations are included. Official inch values are used for calculations. Check your own label when using older or imported stock. The product image identifies the model, not every selectable strength.",
+        "sources": [
+          {
+            "label": "Official Berkley X5 Braid product specifications",
+            "url": "https://www.berkley-fishing.com/products/x5-braid-filler-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley X5 Braid bulk-spool specifications",
+            "url": "https://www.berkley-fishing.com/products/x5-braid-bulk-spool",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          },
+          {
+            "label": "Official Berkley X5 Braid diameter records",
+            "url": "https://berkleyfishing.eu/products/x5-braid-1454441",
+            "note": "Manufacturer product identity, package options, or exact-SKU diameter evidence."
+          }
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "berkley-x5-braid-braid-30",
+            "workingYards": 75,
+            "spoolYards": 164
+          },
+          {
+            "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+            "lineId": "berkley-x5-braid-braid-30",
+            "workingYards": 75,
+            "spoolYards": 164
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "berkley-x5-braid-braid-30",
+            "workingYards": 75,
+            "spoolYards": 164
+          }
+        ]
+      }
+    }
+  ]
+}

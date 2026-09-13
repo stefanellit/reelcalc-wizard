@@ -6,6 +6,9 @@ const read = file => JSON.parse(fs.readFileSync(file, "utf8"));
 const lines = read("data/lines.json");
 const reels = read("data/reels.json");
 const products = read("data/line-page-products.json").products;
+const requested = process.argv.find(arg => arg.startsWith('--ids='))?.slice(6).split(',');
+if (requested) for (const id of requested) assert(products[id], `Unknown product ${id}`);
+const output = process.argv.find(arg => arg.startsWith('--output='))?.slice(9);
 const context = vm.createContext({ window: {}, URL, URLSearchParams, console,
   document: { querySelector: () => ({ dataset: {} }), baseURI: "http://localhost/" } });
 for (const file of ["js/calculator-core.js", "js/affiliate-links.js"]) {
@@ -22,7 +25,7 @@ const { calculateSetup, state } = context.window.trustAudit;
 Object.assign(state, { lines, reels, affiliateData: read("data/reel-affiliates.json") });
 const readyReels = reels.filter(core.isReelReady);
 const backing = lines.find(x => x.id === "berkley-trilene-big-game-monofilament-10");
-const selected = Object.values(products).filter(p => p.role !== "leader").flatMap(p => lines.filter(l =>
+const selected = Object.entries(products).filter(([id,p]) => p.role !== "leader" && (!requested || requested.includes(id))).flatMap(([,p]) => lines.filter(l =>
   l.brand === p.brand && l.model === p.model && l.type === p.lineType && !(p.excludedLineIds || []).includes(l.id)));
 let checks = 0;
 const findings = [];
@@ -106,7 +109,8 @@ for (const line of selected) for (const spool of line.spool_sizes_yd) {
 }
 
 const report = { date: new Date().toISOString().slice(0, 10), strengths: selected.length, readyReels: readyReels.length,
-  pairings, offers, checks, failures: findings.length, examples: findings.slice(0, 20) };
+  productIds: requested || null, pairings, offers, checks, failures: findings.length, examples: findings.slice(0, 20) };
 console.log(JSON.stringify(report, null, 2));
 if (process.argv.includes("--save")) fs.writeFileSync(`reports/line-page-trust-audit-${report.date}-evidence.json`, JSON.stringify(report, null, 2) + "\n");
+if (output) fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n');
 assert.equal(findings.length, 0, `${findings.length} trust audit checks failed`);

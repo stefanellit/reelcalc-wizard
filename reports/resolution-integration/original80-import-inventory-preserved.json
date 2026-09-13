@@ -1,0 +1,1413 @@
+{
+  "importFile": "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv",
+  "count": 80,
+  "visibility": "hidden",
+  "includedProducts": [
+    "daiwa-j-braid-x4",
+    "daiwa-j-braid-grand-x8",
+    "seaguar-basix",
+    "sunline-crank-fc",
+    "xbraid-x9-fulldrag-braid",
+    "sunline-shooter-bms-azayaka-ny",
+    "sufix-832-advanced-superline",
+    "sufix-promix-braid",
+    "sufix-performance-braid",
+    "sufix-elite",
+    "sufix-advance-mono",
+    "sufix-advance-fluorocarbon",
+    "gamma-edge-fluorocarbon",
+    "cast-fishing-co-x12-frog-flip-braid",
+    "rhino-hide-camo-braid",
+    "rhino-hide-camo-monofilament",
+    "berkley-trilene-big-game",
+    "berkley-vanish",
+    "berkley-x9-braid",
+    "berkley-x5-braid",
+    "daiwa-j-fluoro-samurai",
+    "shimano-mastiff-fc",
+    "shimano-kairiki-8",
+    "shimano-kairiki-4",
+    "shimano-grappler-8",
+    "shimano-ocea-ex-fluorocarbon-leader",
+    "seaguar-jdm-grand-max-leader",
+    "spro-finesse-braid-8x",
+    "spro-essential-bronzeye-8x",
+    "spro-cast-control-8x",
+    "spro-depth-control-8x",
+    "spro-gouken-flc",
+    "spro-rai-jin-premium-fluorocarbon",
+    "yo-zuri-hybrid",
+    "yo-zuri-hybrid-ice-line",
+    "yo-zuri-t-7-premium-fluorocarbon",
+    "yo-zuri-topknot-mainline",
+    "yo-zuri-superbraid",
+    "yo-zuri-superbraid-9",
+    "spiderwire-ultracast-braid",
+    "cortland-master-braid",
+    "cortland-fluorocarbon-leader",
+    "gamma-touch-fluorocarbon",
+    "gamma-torque-braid",
+    "gamma-polyflex",
+    "gamma-fluorocarbon-leader",
+    "maxima-ultragreen",
+    "maxima-chameleon",
+    "maxima-clear",
+    "maxima-crystal-ivory",
+    "maxima-fluorocarbon",
+    "maxima-braid-8",
+    "ande-premium-monofilament",
+    "ande-tournament-monofilament",
+    "ande-fluorocarbon-leader",
+    "hi-seas-grand-slam-monofilament",
+    "hi-seas-quattro-fluorocarbon",
+    "hi-seas-braid",
+    "kastking-fluorokote",
+    "reaction-tackle-braid",
+    "reaction-tackle-fluorocarbon",
+    "reaction-tackle-monofilament",
+    "reaction-tackle-ice-braid",
+    "vicious-fluorocarbon",
+    "vicious-pro-elite-fluorocarbon",
+    "vicious-braid",
+    "vicious-panfish-hi-vis-mono",
+    "spro-finesse-fluorocarbon-leader",
+    "yo-zuri-topknot-leader",
+    "yo-zuri-superfluoro-leader",
+    "yo-zuri-h-d-carbon-leader",
+    "stren-original",
+    "stren-magnathin",
+    "ande-braid",
+    "spiderwire-ultracast-ultimate-mono",
+    "stren-high-impact",
+    "stren-crappie-mono",
+    "berkley-trilene-xt",
+    "berkley-100-fluorocarbon",
+    "berkley-forward-finesse-braid"
+  ],
+  "excludedPublished": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl",
+    "seaguar-tatsu",
+    "seaguar-abrazx",
+    "seaguar-red-label",
+    "seaguar-smackdown",
+    "seaguar-brawlr",
+    "seaguar-jdm-r18-mainline",
+    "seaguar-jdm-pex8-micro-braid",
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear"
+  ],
+  "previews": [
+    {
+      "id": "powerpro-spectra",
+      "preview": "previews/line-pages/powerpro-spectra-imported.html"
+    },
+    {
+      "id": "seaguar-invizx",
+      "preview": "previews/line-pages/seaguar-invizx-imported.html"
+    },
+    {
+      "id": "berkley-trilene-xl",
+      "preview": "previews/line-pages/berkley-trilene-xl-imported.html"
+    },
+    {
+      "id": "seaguar-tatsu",
+      "preview": "previews/line-pages/seaguar-tatsu-imported.html"
+    },
+    {
+      "id": "seaguar-abrazx",
+      "preview": "previews/line-pages/seaguar-abrazx-imported.html"
+    },
+    {
+      "id": "seaguar-red-label",
+      "preview": "previews/line-pages/seaguar-red-label-imported.html"
+    },
+    {
+      "id": "seaguar-smackdown",
+      "preview": "previews/line-pages/seaguar-smackdown-imported.html"
+    },
+    {
+      "id": "seaguar-brawlr",
+      "preview": "previews/line-pages/seaguar-brawlr-imported.html"
+    },
+    {
+      "id": "seaguar-jdm-r18-mainline",
+      "preview": "previews/line-pages/seaguar-jdm-r18-mainline-imported.html"
+    },
+    {
+      "id": "seaguar-jdm-pex8-micro-braid",
+      "preview": "previews/line-pages/seaguar-jdm-pex8-micro-braid-imported.html"
+    },
+    {
+      "id": "sunline-fc-sniper",
+      "preview": "previews/line-pages/sunline-fc-sniper-imported.html"
+    },
+    {
+      "id": "sunline-shooter",
+      "preview": "previews/line-pages/sunline-shooter-imported.html"
+    },
+    {
+      "id": "sunline-assassin-fc",
+      "preview": "previews/line-pages/sunline-assassin-fc-imported.html"
+    },
+    {
+      "id": "sunline-super-natural-mono",
+      "preview": "previews/line-pages/sunline-super-natural-mono-imported.html"
+    },
+    {
+      "id": "sunline-sx1",
+      "preview": "previews/line-pages/sunline-sx1-imported.html"
+    },
+    {
+      "id": "sunline-xplasma-asegai",
+      "preview": "previews/line-pages/sunline-xplasma-asegai-imported.html"
+    },
+    {
+      "id": "sunline-siglon-pe-x8",
+      "preview": "previews/line-pages/sunline-siglon-pe-x8-imported.html"
+    },
+    {
+      "id": "sunline-shooter-machinegun-cast",
+      "preview": "previews/line-pages/sunline-shooter-machinegun-cast-imported.html"
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "preview": "previews/line-pages/sunline-shooter-bms-azayaka-fc-imported.html"
+    },
+    {
+      "id": "berkley-ginclear",
+      "preview": "previews/line-pages/berkley-ginclear-imported.html"
+    },
+    {
+      "id": "daiwa-j-braid-x4",
+      "preview": "previews/line-pages/daiwa-j-braid-x4-imported.html"
+    },
+    {
+      "id": "daiwa-j-braid-grand-x8",
+      "preview": "previews/line-pages/daiwa-j-braid-grand-x8-imported.html"
+    },
+    {
+      "id": "seaguar-basix",
+      "preview": "previews/line-pages/seaguar-basix-imported.html"
+    },
+    {
+      "id": "sunline-crank-fc",
+      "preview": "previews/line-pages/sunline-crank-fc-imported.html"
+    },
+    {
+      "id": "xbraid-x9-fulldrag-braid",
+      "preview": "previews/line-pages/xbraid-x9-fulldrag-braid-imported.html"
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-ny",
+      "preview": "previews/line-pages/sunline-shooter-bms-azayaka-ny-imported.html"
+    },
+    {
+      "id": "sufix-832-advanced-superline",
+      "preview": "previews/line-pages/sufix-832-advanced-superline-imported.html"
+    },
+    {
+      "id": "sufix-promix-braid",
+      "preview": "previews/line-pages/sufix-promix-braid-imported.html"
+    },
+    {
+      "id": "sufix-performance-braid",
+      "preview": "previews/line-pages/sufix-performance-braid-imported.html"
+    },
+    {
+      "id": "sufix-elite",
+      "preview": "previews/line-pages/sufix-elite-imported.html"
+    },
+    {
+      "id": "sufix-advance-mono",
+      "preview": "previews/line-pages/sufix-advance-mono-imported.html"
+    },
+    {
+      "id": "sufix-advance-fluorocarbon",
+      "preview": "previews/line-pages/sufix-advance-fluorocarbon-imported.html"
+    },
+    {
+      "id": "gamma-edge-fluorocarbon",
+      "preview": "previews/line-pages/gamma-edge-fluorocarbon-imported.html"
+    },
+    {
+      "id": "cast-fishing-co-x12-frog-flip-braid",
+      "preview": "previews/line-pages/cast-fishing-co-x12-frog-flip-braid-imported.html"
+    },
+    {
+      "id": "rhino-hide-camo-braid",
+      "preview": "previews/line-pages/rhino-hide-camo-braid-imported.html"
+    },
+    {
+      "id": "rhino-hide-camo-monofilament",
+      "preview": "previews/line-pages/rhino-hide-camo-monofilament-imported.html"
+    },
+    {
+      "id": "berkley-trilene-big-game",
+      "preview": "previews/line-pages/berkley-trilene-big-game-imported.html"
+    },
+    {
+      "id": "berkley-vanish",
+      "preview": "previews/line-pages/berkley-vanish-imported.html"
+    },
+    {
+      "id": "berkley-x9-braid",
+      "preview": "previews/line-pages/berkley-x9-braid-imported.html"
+    },
+    {
+      "id": "berkley-x5-braid",
+      "preview": "previews/line-pages/berkley-x5-braid-imported.html"
+    },
+    {
+      "id": "daiwa-j-fluoro-samurai",
+      "preview": "previews/line-pages/daiwa-j-fluoro-samurai-imported.html"
+    },
+    {
+      "id": "shimano-mastiff-fc",
+      "preview": "previews/line-pages/shimano-mastiff-fc-imported.html"
+    },
+    {
+      "id": "shimano-kairiki-8",
+      "preview": "previews/line-pages/shimano-kairiki-8-imported.html"
+    },
+    {
+      "id": "shimano-kairiki-4",
+      "preview": "previews/line-pages/shimano-kairiki-4-imported.html"
+    },
+    {
+      "id": "shimano-grappler-8",
+      "preview": "previews/line-pages/shimano-grappler-8-imported.html"
+    },
+    {
+      "id": "shimano-ocea-ex-fluorocarbon-leader",
+      "preview": "previews/line-pages/shimano-ocea-ex-fluorocarbon-leader-imported.html"
+    },
+    {
+      "id": "seaguar-jdm-grand-max-leader",
+      "preview": "previews/line-pages/seaguar-jdm-grand-max-leader-imported.html"
+    },
+    {
+      "id": "spro-finesse-braid-8x",
+      "preview": "previews/line-pages/spro-finesse-braid-8x-imported.html"
+    },
+    {
+      "id": "spro-essential-bronzeye-8x",
+      "preview": "previews/line-pages/spro-essential-bronzeye-8x-imported.html"
+    },
+    {
+      "id": "spro-cast-control-8x",
+      "preview": "previews/line-pages/spro-cast-control-8x-imported.html"
+    },
+    {
+      "id": "spro-depth-control-8x",
+      "preview": "previews/line-pages/spro-depth-control-8x-imported.html"
+    },
+    {
+      "id": "spro-gouken-flc",
+      "preview": "previews/line-pages/spro-gouken-flc-imported.html"
+    },
+    {
+      "id": "spro-rai-jin-premium-fluorocarbon",
+      "preview": "previews/line-pages/spro-rai-jin-premium-fluorocarbon-imported.html"
+    },
+    {
+      "id": "yo-zuri-hybrid",
+      "preview": "previews/line-pages/yo-zuri-hybrid-imported.html"
+    },
+    {
+      "id": "yo-zuri-hybrid-ice-line",
+      "preview": "previews/line-pages/yo-zuri-hybrid-ice-line-imported.html"
+    },
+    {
+      "id": "yo-zuri-t-7-premium-fluorocarbon",
+      "preview": "previews/line-pages/yo-zuri-t-7-premium-fluorocarbon-imported.html"
+    },
+    {
+      "id": "yo-zuri-topknot-mainline",
+      "preview": "previews/line-pages/yo-zuri-topknot-mainline-imported.html"
+    },
+    {
+      "id": "yo-zuri-superbraid",
+      "preview": "previews/line-pages/yo-zuri-superbraid-imported.html"
+    },
+    {
+      "id": "yo-zuri-superbraid-9",
+      "preview": "previews/line-pages/yo-zuri-superbraid-9-imported.html"
+    },
+    {
+      "id": "spiderwire-ultracast-braid",
+      "preview": "previews/line-pages/spiderwire-ultracast-braid-imported.html"
+    },
+    {
+      "id": "cortland-master-braid",
+      "preview": "previews/line-pages/cortland-master-braid-imported.html"
+    },
+    {
+      "id": "cortland-fluorocarbon-leader",
+      "preview": "previews/line-pages/cortland-fluorocarbon-leader-imported.html"
+    },
+    {
+      "id": "gamma-touch-fluorocarbon",
+      "preview": "previews/line-pages/gamma-touch-fluorocarbon-imported.html"
+    },
+    {
+      "id": "gamma-torque-braid",
+      "preview": "previews/line-pages/gamma-torque-braid-imported.html"
+    },
+    {
+      "id": "gamma-polyflex",
+      "preview": "previews/line-pages/gamma-polyflex-imported.html"
+    },
+    {
+      "id": "gamma-fluorocarbon-leader",
+      "preview": "previews/line-pages/gamma-fluorocarbon-leader-imported.html"
+    },
+    {
+      "id": "maxima-ultragreen",
+      "preview": "previews/line-pages/maxima-ultragreen-imported.html"
+    },
+    {
+      "id": "maxima-chameleon",
+      "preview": "previews/line-pages/maxima-chameleon-imported.html"
+    },
+    {
+      "id": "maxima-clear",
+      "preview": "previews/line-pages/maxima-clear-imported.html"
+    },
+    {
+      "id": "maxima-crystal-ivory",
+      "preview": "previews/line-pages/maxima-crystal-ivory-imported.html"
+    },
+    {
+      "id": "maxima-fluorocarbon",
+      "preview": "previews/line-pages/maxima-fluorocarbon-imported.html"
+    },
+    {
+      "id": "maxima-braid-8",
+      "preview": "previews/line-pages/maxima-braid-8-imported.html"
+    },
+    {
+      "id": "ande-premium-monofilament",
+      "preview": "previews/line-pages/ande-premium-monofilament-imported.html"
+    },
+    {
+      "id": "ande-tournament-monofilament",
+      "preview": "previews/line-pages/ande-tournament-monofilament-imported.html"
+    },
+    {
+      "id": "ande-fluorocarbon-leader",
+      "preview": "previews/line-pages/ande-fluorocarbon-leader-imported.html"
+    },
+    {
+      "id": "hi-seas-grand-slam-monofilament",
+      "preview": "previews/line-pages/hi-seas-grand-slam-monofilament-imported.html"
+    },
+    {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "preview": "previews/line-pages/hi-seas-quattro-fluorocarbon-imported.html"
+    },
+    {
+      "id": "hi-seas-braid",
+      "preview": "previews/line-pages/hi-seas-braid-imported.html"
+    },
+    {
+      "id": "kastking-fluorokote",
+      "preview": "previews/line-pages/kastking-fluorokote-imported.html"
+    },
+    {
+      "id": "reaction-tackle-braid",
+      "preview": "previews/line-pages/reaction-tackle-braid-imported.html"
+    },
+    {
+      "id": "reaction-tackle-fluorocarbon",
+      "preview": "previews/line-pages/reaction-tackle-fluorocarbon-imported.html"
+    },
+    {
+      "id": "reaction-tackle-monofilament",
+      "preview": "previews/line-pages/reaction-tackle-monofilament-imported.html"
+    },
+    {
+      "id": "reaction-tackle-ice-braid",
+      "preview": "previews/line-pages/reaction-tackle-ice-braid-imported.html"
+    },
+    {
+      "id": "vicious-fluorocarbon",
+      "preview": "previews/line-pages/vicious-fluorocarbon-imported.html"
+    },
+    {
+      "id": "vicious-pro-elite-fluorocarbon",
+      "preview": "previews/line-pages/vicious-pro-elite-fluorocarbon-imported.html"
+    },
+    {
+      "id": "vicious-braid",
+      "preview": "previews/line-pages/vicious-braid-imported.html"
+    },
+    {
+      "id": "vicious-panfish-hi-vis-mono",
+      "preview": "previews/line-pages/vicious-panfish-hi-vis-mono-imported.html"
+    },
+    {
+      "id": "spro-finesse-fluorocarbon-leader",
+      "preview": "previews/line-pages/spro-finesse-fluorocarbon-leader-imported.html"
+    },
+    {
+      "id": "yo-zuri-topknot-leader",
+      "preview": "previews/line-pages/yo-zuri-topknot-leader-imported.html"
+    },
+    {
+      "id": "yo-zuri-superfluoro-leader",
+      "preview": "previews/line-pages/yo-zuri-superfluoro-leader-imported.html"
+    },
+    {
+      "id": "yo-zuri-h-d-carbon-leader",
+      "preview": "previews/line-pages/yo-zuri-h-d-carbon-leader-imported.html"
+    },
+    {
+      "id": "stren-original",
+      "preview": "previews/line-pages/stren-original-imported.html"
+    },
+    {
+      "id": "stren-magnathin",
+      "preview": "previews/line-pages/stren-magnathin-imported.html"
+    },
+    {
+      "id": "ande-braid",
+      "preview": "previews/line-pages/ande-braid-imported.html"
+    },
+    {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "preview": "previews/line-pages/spiderwire-ultracast-ultimate-mono-imported.html"
+    },
+    {
+      "id": "stren-high-impact",
+      "preview": "previews/line-pages/stren-high-impact-imported.html"
+    },
+    {
+      "id": "stren-crappie-mono",
+      "preview": "previews/line-pages/stren-crappie-mono-imported.html"
+    },
+    {
+      "id": "berkley-trilene-xt",
+      "preview": "previews/line-pages/berkley-trilene-xt-imported.html"
+    },
+    {
+      "id": "berkley-100-fluorocarbon",
+      "preview": "previews/line-pages/berkley-100-fluorocarbon-imported.html"
+    },
+    {
+      "id": "berkley-forward-finesse-braid",
+      "preview": "previews/line-pages/berkley-forward-finesse-braid-imported.html"
+    }
+  ],
+  "pages": {
+    "powerpro-spectra-braid-diameter-capacity-guide": {
+      "id": "powerpro-spectra",
+      "title": "PowerPro Spectra Braid",
+      "seoTitle": "PowerPro Braid Diameter Chart & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Choose a PowerPro Spectra strength and reel to estimate capacity, calculate mono backing, compare diameters, and plan the right retail spool size.",
+      "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/powerpro-spectra.webp",
+      "sku": "RCLEB8CCBDFF3FC01780"
+    },
+    "seaguar-invizx-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-invizx",
+      "title": "Seaguar InvizX Fluorocarbon",
+      "seoTitle": "Seaguar InvizX Diameter Chart & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Choose an InvizX strength and reel to estimate full-spool capacity, check whether 200 yards is enough, plan backing, and compare exact diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-invizx-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-invizx.webp",
+      "sku": "RCL3BAB294A95F91CFA4"
+    },
+    "berkley-trilene-xl-monofilament-diameter-capacity-guide": {
+      "id": "berkley-trilene-xl",
+      "title": "Berkley Trilene XL Monofilament",
+      "seoTitle": "Trilene XL Diameter Chart & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check Berkley Trilene XL diameters from 2 to 30 lb, estimate how much fits your reel, compare other mono lines, and plan a full fill or optional backing.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-trilene-xl-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/berkley-trilene-xl.jpg",
+      "sku": "RCL6FAEC99B4E6E06C56"
+    },
+    "seaguar-tatsu-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-tatsu",
+      "title": "Seaguar Tatsu Fluorocarbon",
+      "seoTitle": "Seaguar Tatsu Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar Tatsu diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-tatsu-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-tatsu.png",
+      "sku": "RCLDBD1FFA1796FC4C5E"
+    },
+    "seaguar-abrazx-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-abrazx",
+      "title": "Seaguar AbrazX Fluorocarbon",
+      "seoTitle": "Seaguar AbrazX Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar AbrazX diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-abrazx-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-abrazx.png",
+      "sku": "RCL7835FFFCA9C69EDB7"
+    },
+    "seaguar-red-label-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-red-label",
+      "title": "Seaguar Red Label Fluorocarbon",
+      "seoTitle": "Seaguar Red Label Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar Red Label diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-red-label-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-red-label.png",
+      "sku": "RCLA543B9B91AF04D3FE"
+    },
+    "seaguar-smackdown-braid-diameter-capacity-guide": {
+      "id": "seaguar-smackdown",
+      "title": "Seaguar Smackdown Braid",
+      "seoTitle": "Seaguar Smackdown Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar Smackdown diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-smackdown-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-smackdown.png",
+      "sku": "RCL655A9BA19DE83591C"
+    },
+    "seaguar-brawlr-monofilament-diameter-capacity-guide": {
+      "id": "seaguar-brawlr",
+      "title": "Seaguar BRAWLR Monofilament",
+      "seoTitle": "Seaguar BRAWLR Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar BRAWLR diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-brawlr-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-brawlr.png",
+      "sku": "RCL4F49B36CF5A5754EC"
+    },
+    "seaguar-jdm-r18-mainline-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-jdm-r18-mainline",
+      "title": "Seaguar JDM R18 Fluorocarbon",
+      "seoTitle": "Seaguar JDM R18 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar JDM R18 diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-jdm-r18-mainline-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-jdm-r18-mainline.png",
+      "sku": "RCLCD7B10BB4B7D3501E"
+    },
+    "seaguar-jdm-pex8-micro-braid-braid-diameter-capacity-guide": {
+      "id": "seaguar-jdm-pex8-micro-braid",
+      "title": "Seaguar JDM PEX8 Braid",
+      "seoTitle": "Seaguar JDM PEX8 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "See Seaguar JDM PEX8 diameters by strength. Check full-spool capacity for your reel, plan backing, and compare exact line diameters.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-jdm-pex8-micro-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-jdm-pex8-micro-braid.png",
+      "sku": "RCL6E078F467E8CFE447"
+    },
+    "sunline-fc-sniper-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-fc-sniper",
+      "title": "Sunline FC Sniper Fluorocarbon",
+      "seoTitle": "Sunline FC Sniper Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline FC Sniper diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-fc-sniper-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-fc-sniper.jpg",
+      "sku": "RCL0F8BDF905F983392E"
+    },
+    "sunline-shooter-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-shooter",
+      "title": "Sunline Shooter Fluorocarbon",
+      "seoTitle": "Sunline Shooter Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Shooter diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-shooter.jpg",
+      "sku": "RCL64CE77A349BDFCCAE"
+    },
+    "sunline-assassin-fc-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-assassin-fc",
+      "title": "Sunline Assassin FC Fluorocarbon",
+      "seoTitle": "Sunline Assassin FC Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Assassin FC diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-assassin-fc-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-assassin-fc.png",
+      "sku": "RCL49D0F036F4FBF2EAC"
+    },
+    "sunline-super-natural-mono-monofilament-diameter-capacity-guide": {
+      "id": "sunline-super-natural-mono",
+      "title": "Sunline Super Natural Monofilament",
+      "seoTitle": "Sunline Super Natural Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Super Natural diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-super-natural-mono-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-super-natural-330.jpg",
+      "sku": "RCL2AD3CB1246FF1C099"
+    },
+    "sunline-sx1-braid-diameter-capacity-guide": {
+      "id": "sunline-sx1",
+      "title": "Sunline SX1 Braid",
+      "seoTitle": "Sunline SX1 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline SX1 diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-sx1-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-sx1.png",
+      "sku": "RCLAEA355EF9075CE400"
+    },
+    "sunline-xplasma-asegai-braid-diameter-capacity-guide": {
+      "id": "sunline-xplasma-asegai",
+      "title": "Sunline Xplasma Asegai Braid",
+      "seoTitle": "Sunline Xplasma Asegai Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Xplasma Asegai diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-xplasma-asegai-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-xplasma-asegai.jpg",
+      "sku": "RCL9CBBEA0C34DD20ECE"
+    },
+    "sunline-siglon-pe-x8-braid-diameter-capacity-guide": {
+      "id": "sunline-siglon-pe-x8",
+      "title": "Sunline Siglon PE X8 Braid",
+      "seoTitle": "Sunline Siglon PE X8 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Siglon PE X8 diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-siglon-pe-x8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-siglon-pe-x8.jpg",
+      "sku": "RCL964176FB0EBF00E98"
+    },
+    "sunline-shooter-machinegun-cast-monofilament-diameter-capacity-guide": {
+      "id": "sunline-shooter-machinegun-cast",
+      "title": "Sunline Machinegun Cast Monofilament",
+      "seoTitle": "Sunline Machinegun Cast Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Machinegun Cast diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-machinegun-cast-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-shooter-machinegun-cast.jpg",
+      "sku": "RCL6DA8BDC36446D3F6E"
+    },
+    "sunline-shooter-bms-azayaka-fc-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "title": "Sunline BMS Azayaka FC Fluorocarbon",
+      "seoTitle": "Sunline BMS Azayaka FC Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline BMS Azayaka FC diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-bms-azayaka-fc-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-shooter-bms-azayaka-fc.jpg",
+      "sku": "RCLA916736EC3789FCA0"
+    },
+    "berkley-ginclear-fluorocarbon-diameter-capacity-guide": {
+      "id": "berkley-ginclear",
+      "title": "Berkley GINCLEAR Fluorocarbon",
+      "seoTitle": "Berkley GINCLEAR Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Berkley GINCLEAR diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-ginclear-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/berkley-ginclear.jpg",
+      "sku": "RCL70912F1028916B750"
+    },
+    "daiwa-j-braid-x4-braid-diameter-capacity-guide": {
+      "id": "daiwa-j-braid-x4",
+      "title": "Daiwa J-Braid X4 Braid",
+      "seoTitle": "Daiwa J-Braid X4 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Daiwa J-Braid X4 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/daiwa-j-braid-x4-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/daiwa-j-braid-x4.jpg",
+      "sku": "RCLA46D8F5A7462796F6"
+    },
+    "daiwa-j-braid-grand-x8-braid-diameter-capacity-guide": {
+      "id": "daiwa-j-braid-grand-x8",
+      "title": "Daiwa J-Braid Grand X8 Braid",
+      "seoTitle": "Daiwa J-Braid Grand X8 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Daiwa J-Braid Grand X8 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/daiwa-j-braid-grand-x8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/daiwa-j-braid-grand-x8.png",
+      "sku": "RCL783A9F41AA3F385EC"
+    },
+    "seaguar-basix-fluorocarbon-diameter-capacity-guide": {
+      "id": "seaguar-basix",
+      "title": "Seaguar Basix Fluorocarbon",
+      "seoTitle": "Seaguar Basix Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Seaguar Basix diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-basix-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/seaguar-basix.png",
+      "sku": "RCLB50070235E582642B"
+    },
+    "sunline-crank-fc-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-crank-fc",
+      "title": "Sunline Crank FC Fluorocarbon",
+      "seoTitle": "Sunline Crank FC Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Sunline Crank FC diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-crank-fc-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/sunline-crank-fc.jpg",
+      "sku": "RCL593D6941AC12D487A"
+    },
+    "xbraid-x9-fulldrag-braid-braid-diameter-capacity-guide": {
+      "id": "xbraid-x9-fulldrag-braid",
+      "title": "XBraid X9 Fulldrag Braid",
+      "seoTitle": "XBraid X9 Fulldrag Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified XBraid X9 Fulldrag diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/xbraid-x9-fulldrag-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/xbraid-x9-fulldrag-braid.jpg",
+      "sku": "RCLA5AEBAEC64C6D5715"
+    },
+    "sunline-shooter-bms-azayaka-ny-monofilament-diameter-capacity-guide": {
+      "id": "sunline-shooter-bms-azayaka-ny",
+      "title": "Sunline BMS Azayaka NY Monofilament",
+      "seoTitle": "Sunline BMS Azayaka NY Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Sunline BMS Azayaka NY diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-bms-azayaka-ny-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/sunline-shooter-bms-azayaka-ny.jpg",
+      "sku": "RCL3DC2E7D4B3EE9E287"
+    },
+    "sufix-832-advanced-superline-diameter-capacity-guide": {
+      "id": "sufix-832-advanced-superline",
+      "title": "Sufix 832 Advanced Superline",
+      "seoTitle": "Sufix 832 Advanced Superline Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Sufix 832 Advanced Superline diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-832-advanced-superline-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/sufix-832-advanced-superline.webp",
+      "sku": "RCL5672EF26CCA6757CD"
+    },
+    "sufix-promix-braid-diameter-capacity-guide": {
+      "id": "sufix-promix-braid",
+      "title": "Sufix ProMix Braid",
+      "seoTitle": "Sufix ProMix Braid Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Sufix ProMix Braid diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-promix-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/sufix-promix-braid.webp",
+      "sku": "RCL62642EFB2296A14C1"
+    },
+    "sufix-performance-braid-diameter-capacity-guide": {
+      "id": "sufix-performance-braid",
+      "title": "Sufix Performance Braid",
+      "seoTitle": "Sufix Performance Braid Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Sufix Performance Braid diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-performance-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/sufix-performance-braid.webp",
+      "sku": "RCL8E47A03657AAEFCE0"
+    },
+    "sufix-elite-diameter-capacity-guide": {
+      "id": "sufix-elite",
+      "title": "Sufix Elite",
+      "seoTitle": "Sufix Elite Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Sufix Elite diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-elite-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/sufix-elite.webp",
+      "sku": "RCLF5F1C23BF17102D52"
+    },
+    "sufix-advance-mono-diameter-capacity-guide": {
+      "id": "sufix-advance-mono",
+      "title": "Sufix Advance Mono",
+      "seoTitle": "Sufix Advance Mono Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Sufix Advance Mono diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-advance-mono-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/sufix-advance-mono.webp",
+      "sku": "RCL194AAF0C1545D8450"
+    },
+    "sufix-advance-fluorocarbon-diameter-capacity-guide": {
+      "id": "sufix-advance-fluorocarbon",
+      "title": "Sufix Advance Fluorocarbon",
+      "seoTitle": "Sufix Advance Fluorocarbon Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Sufix Advance Fluorocarbon diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/sufix-advance-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/sufix-advance-fluorocarbon.webp",
+      "sku": "RCL77DFEABB0CFA2E64E"
+    },
+    "gamma-edge-fluorocarbon-fluorocarbon-diameter-capacity-guide": {
+      "id": "gamma-edge-fluorocarbon",
+      "title": "Gamma Edge Fluorocarbon",
+      "seoTitle": "Gamma Edge Fluorocarbon Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Gamma Edge Fluorocarbon diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/gamma-edge-fluorocarbon-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/gamma-edge-fluorocarbon.jpg",
+      "sku": "RCL5910181008C5097B9"
+    },
+    "cast-fishing-co-x12-frog-flip-braid-diameter-capacity-guide": {
+      "id": "cast-fishing-co-x12-frog-flip-braid",
+      "title": "CAST Fishing Co. X12 Frog & Flip Braid",
+      "seoTitle": "CAST Fishing Co. X12 Frog & Flip Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified CAST Fishing Co. X12 Frog & Flip Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/cast-fishing-co-x12-frog-flip-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/cast-fishing-co-x12-frog-flip-braid.jpg",
+      "sku": "RCLDA8D3675AE872CFBF"
+    },
+    "rhino-hide-camo-braid-diameter-capacity-guide": {
+      "id": "rhino-hide-camo-braid",
+      "title": "Rhino Hide Camo Braid",
+      "seoTitle": "Rhino Hide Camo Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Rhino Hide Camo Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/rhino-hide-camo-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/rhino-hide-camo-braid.png",
+      "sku": "RCL2DD70A51603C5F2B8"
+    },
+    "rhino-hide-camo-monofilament-diameter-capacity-guide": {
+      "id": "rhino-hide-camo-monofilament",
+      "title": "Rhino Hide Camo Monofilament",
+      "seoTitle": "Rhino Hide Camo Monofilament Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Rhino Hide Camo Monofilament diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/rhino-hide-camo-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/rhino-hide-camo-monofilament.png",
+      "sku": "RCLCC457BE31B0E7DEC9"
+    },
+    "berkley-trilene-big-game-monofilament-diameter-capacity-guide": {
+      "id": "berkley-trilene-big-game",
+      "title": "Berkley Trilene Big Game Monofilament",
+      "seoTitle": "Berkley Trilene Big Game Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Berkley Trilene Big Game diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-main/berkley-trilene-big-game.jpg",
+      "sku": "RCL0A065CDD5F7315288"
+    },
+    "berkley-vanish-fluorocarbon-diameter-capacity-guide": {
+      "id": "berkley-vanish",
+      "title": "Berkley Vanish Fluorocarbon",
+      "seoTitle": "Berkley Vanish Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Berkley Vanish diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-vanish-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-main/berkley-vanish.jpg",
+      "sku": "RCL8380060DD99DF9C2E"
+    },
+    "berkley-x9-braid-braid-diameter-capacity-guide": {
+      "id": "berkley-x9-braid",
+      "title": "Berkley X9 Braid",
+      "seoTitle": "Berkley X9 Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Berkley X9 Braid diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-x9-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-main/berkley-x9-braid.jpg",
+      "sku": "RCL14E8F8596D277492E"
+    },
+    "berkley-x5-braid-braid-diameter-capacity-guide": {
+      "id": "berkley-x5-braid",
+      "title": "Berkley X5 Braid",
+      "seoTitle": "Berkley X5 Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Berkley X5 Braid diameters by strength, estimate your reel's full-spool amount, and calculate backing using the exact line you select.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-x5-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-main/berkley-x5-braid.jpg",
+      "sku": "RCL4D84EA44BF21282A1"
+    },
+    "daiwa-j-fluoro-samurai-fluorocarbon-diameter-capacity-guide": {
+      "id": "daiwa-j-fluoro-samurai",
+      "title": "Daiwa J-Fluoro Samurai Fluorocarbon",
+      "seoTitle": "Daiwa J-Fluoro Samurai Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Daiwa J-Fluoro Samurai diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/daiwa-j-fluoro-samurai-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/daiwa-j-fluoro-samurai.jpg",
+      "sku": "RCL080913A118AE2FDE1"
+    },
+    "shimano-mastiff-fc-fluorocarbon-diameter-capacity-guide": {
+      "id": "shimano-mastiff-fc",
+      "title": "Shimano Mastiff FC Fluorocarbon",
+      "seoTitle": "Shimano Mastiff FC Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Shimano Mastiff FC diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/shimano-mastiff-fc-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/shimano-mastiff-fc.jpg",
+      "sku": "RCLE0CD8D8A938B16A8A"
+    },
+    "shimano-kairiki-8-braid-diameter-capacity-guide": {
+      "id": "shimano-kairiki-8",
+      "title": "Shimano Kairiki 8 Braid",
+      "seoTitle": "Shimano Kairiki 8 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Shimano Kairiki 8 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/shimano-kairiki-8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/shimano-kairiki-8.jpg",
+      "sku": "RCLB2F1E4E6D8BEEB8D3"
+    },
+    "shimano-kairiki-4-braid-diameter-capacity-guide": {
+      "id": "shimano-kairiki-4",
+      "title": "Shimano Kairiki 4 Braid",
+      "seoTitle": "Shimano Kairiki 4 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Shimano Kairiki 4 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/shimano-kairiki-4-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/shimano-kairiki-4.jpg",
+      "sku": "RCLE3FBF6D7FB3C12A37"
+    },
+    "shimano-grappler-8-braid-diameter-capacity-guide": {
+      "id": "shimano-grappler-8",
+      "title": "Shimano Grappler 8 Braid",
+      "seoTitle": "Shimano Grappler 8 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Shimano Grappler 8 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "url": "https://www.reelcalc.com/lines/p/shimano-grappler-8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/shimano-grappler-8.jpg",
+      "sku": "RCLD0B4CDEB9A8A4E391"
+    },
+    "shimano-ocea-ex-fluorocarbon-leader-diameter-strength-guide": {
+      "id": "shimano-ocea-ex-fluorocarbon-leader",
+      "title": "Shimano Ocea EX Fluorocarbon Leader",
+      "seoTitle": "Shimano Ocea EX Fluorocarbon Leader Diameter & Strength | ReelCalc",
+      "seoDescription": "Compare verified Shimano Ocea EX Fluorocarbon Leader diameters, strength labels and leader spool lengths. Select terminal material with exact manufacturer evidence.",
+      "url": "https://www.reelcalc.com/lines/p/shimano-ocea-ex-fluorocarbon-leader-diameter-strength-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/shimano-ocea-ex-fluorocarbon-leader.jpg",
+      "sku": "RCL5AA578AFA9E68C949"
+    },
+    "seaguar-jdm-grand-max-leader-diameter-strength-guide": {
+      "id": "seaguar-jdm-grand-max-leader",
+      "title": "Seaguar JDM Grand Max Leader",
+      "seoTitle": "Seaguar JDM Grand Max Leader Diameter & Strength | ReelCalc",
+      "seoDescription": "Compare verified Seaguar JDM Grand Max Leader diameters, strength labels and leader spool lengths. Select terminal material with exact manufacturer evidence.",
+      "url": "https://www.reelcalc.com/lines/p/seaguar-jdm-grand-max-leader-diameter-strength-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-a/seaguar-jdm-grand-max-leader.png",
+      "sku": "RCL7E807D4DA74356828"
+    },
+    "spro-finesse-braid-8x-diameter-capacity-guide": {
+      "id": "spro-finesse-braid-8x",
+      "title": "SPRO Finesse Braid 8X",
+      "seoTitle": "SPRO Finesse Braid 8X Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified SPRO Finesse Braid 8X diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/spro-finesse-braid-8x-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-finesse-braid-8x.webp",
+      "sku": "RCL1D0901A4E9EA3B739"
+    },
+    "spro-essential-bronzeye-8x-diameter-capacity-guide": {
+      "id": "spro-essential-bronzeye-8x",
+      "title": "SPRO Essential Bronzeye 8X",
+      "seoTitle": "SPRO Essential Bronzeye 8X Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified SPRO Essential Bronzeye 8X diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/spro-essential-bronzeye-8x-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-essential-bronzeye-8x.webp",
+      "sku": "RCL6A81033166B2507E2"
+    },
+    "spro-cast-control-8x-diameter-capacity-guide": {
+      "id": "spro-cast-control-8x",
+      "title": "SPRO Cast Control 8X",
+      "seoTitle": "SPRO Cast Control 8X Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified SPRO Cast Control 8X diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/spro-cast-control-8x-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-cast-control-8x.webp",
+      "sku": "RCLED64D99B494E20C29"
+    },
+    "spro-depth-control-8x-diameter-capacity-guide": {
+      "id": "spro-depth-control-8x",
+      "title": "SPRO Depth Control 8X",
+      "seoTitle": "SPRO Depth Control 8X Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified SPRO Depth Control 8X diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/spro-depth-control-8x-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-depth-control-8x.webp",
+      "sku": "RCLF2ECD9A2216BF85C9"
+    },
+    "spro-gouken-flc-diameter-capacity-guide": {
+      "id": "spro-gouken-flc",
+      "title": "SPRO Gouken FLC",
+      "seoTitle": "SPRO Gouken FLC Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified SPRO Gouken FLC diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/spro-gouken-flc-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-gouken-flc.webp",
+      "sku": "RCL291D59DE3258B7771"
+    },
+    "spro-rai-jin-premium-fluorocarbon-diameter-capacity-guide": {
+      "id": "spro-rai-jin-premium-fluorocarbon",
+      "title": "SPRO Rai-Jin Premium Fluorocarbon",
+      "seoTitle": "SPRO Rai-Jin Premium Fluorocarbon Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified SPRO Rai-Jin Premium Fluorocarbon diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/spro-rai-jin-premium-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-rai-jin-premium-fluorocarbon.webp",
+      "sku": "RCLBDE2ADD10D228B1C0"
+    },
+    "yo-zuri-hybrid-diameter-capacity-guide": {
+      "id": "yo-zuri-hybrid",
+      "title": "Yo-Zuri Hybrid",
+      "seoTitle": "Yo-Zuri Hybrid Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Yo-Zuri Hybrid diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-hybrid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-hybrid.webp",
+      "sku": "RCLF0F92D6232C48A09F"
+    },
+    "yo-zuri-hybrid-ice-line-diameter-capacity-guide": {
+      "id": "yo-zuri-hybrid-ice-line",
+      "title": "Yo-Zuri Hybrid Ice Line",
+      "seoTitle": "Yo-Zuri Hybrid Ice Line Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Yo-Zuri Hybrid Ice Line diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-hybrid-ice-line-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-hybrid-ice-line.webp",
+      "sku": "RCL45C9D8B5E69BF3CED"
+    },
+    "yo-zuri-t-7-premium-fluorocarbon-diameter-capacity-guide": {
+      "id": "yo-zuri-t-7-premium-fluorocarbon",
+      "title": "Yo-Zuri T-7 Premium Fluorocarbon",
+      "seoTitle": "Yo-Zuri T-7 Premium Fluorocarbon Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Yo-Zuri T-7 Premium Fluorocarbon diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-t-7-premium-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-t-7-premium-fluorocarbon.webp",
+      "sku": "RCLC87078ABE649276ED"
+    },
+    "yo-zuri-topknot-mainline-diameter-capacity-guide": {
+      "id": "yo-zuri-topknot-mainline",
+      "title": "Yo-Zuri TopKnot MainLine",
+      "seoTitle": "Yo-Zuri TopKnot MainLine Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Yo-Zuri TopKnot MainLine diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-topknot-mainline-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-topknot-mainline.webp",
+      "sku": "RCLEE60A3614051C080B"
+    },
+    "yo-zuri-superbraid-diameter-capacity-guide": {
+      "id": "yo-zuri-superbraid",
+      "title": "Yo-Zuri SuperBraid",
+      "seoTitle": "Yo-Zuri SuperBraid Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Yo-Zuri SuperBraid diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-superbraid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-superbraid.webp",
+      "sku": "RCL3D5141C4CA10062FE"
+    },
+    "yo-zuri-superbraid-9-diameter-capacity-guide": {
+      "id": "yo-zuri-superbraid-9",
+      "title": "Yo-Zuri SuperBraid 9",
+      "seoTitle": "Yo-Zuri SuperBraid 9 Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Check verified Yo-Zuri SuperBraid 9 diameters and strength-specific packages. Plan a full reel fill or a working length over backing with the exact line diameter.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-superbraid-9-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-superbraid-9.webp",
+      "sku": "RCL70DAC6EE99F908376"
+    },
+    "spiderwire-ultracast-braid-diameter-capacity-guide": {
+      "id": "spiderwire-ultracast-braid",
+      "title": "SpiderWire Ultracast Braid",
+      "seoTitle": "SpiderWire Ultracast 8 lb Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Plan an 8 lb SpiderWire Ultracast Inshore Camo setup using its labeled diameter and 164-yard package. Estimate reel capacity, working braid and mono backing.",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-ultracast-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c/spiderwire-ultracast-braid-inshore-camo-8lb.jpg",
+      "sku": "RCLAEA272DAB42D5AEA8"
+    },
+    "cortland-master-braid-braid-diameter-capacity-guide": {
+      "id": "cortland-master-braid",
+      "title": "Cortland Master Braid",
+      "seoTitle": "Cortland Master Braid Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Cortland Master Braid diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/cortland-master-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/cortland-master-braid.jpg",
+      "sku": "RCL344C1E7CC6D4210B2"
+    },
+    "cortland-fluorocarbon-leader-diameter-leader-guide": {
+      "id": "cortland-fluorocarbon-leader",
+      "title": "Cortland Fluorocarbon Leader",
+      "seoTitle": "Cortland Fluorocarbon Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Review Cortland Fluorocarbon Leader diameters, exact leader package lengths and terminal-material selection. Separate leader choices from mainline reel capacity.",
+      "url": "https://www.reelcalc.com/lines/p/cortland-fluorocarbon-leader-diameter-leader-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/cortland-fluorocarbon-leader.jpg",
+      "sku": "RCL6D6239E1CE6D9CD72"
+    },
+    "gamma-touch-fluorocarbon-fluorocarbon-diameter-capacity-guide": {
+      "id": "gamma-touch-fluorocarbon",
+      "title": "Gamma Touch Fluorocarbon",
+      "seoTitle": "Gamma Touch Fluorocarbon Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Gamma Touch Fluorocarbon diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/gamma-touch-fluorocarbon-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/gamma-touch-fluorocarbon.jpg",
+      "sku": "RCL7ACD6B641581FBBB5"
+    },
+    "gamma-torque-braid-braid-diameter-capacity-guide": {
+      "id": "gamma-torque-braid",
+      "title": "Gamma Torque Braid",
+      "seoTitle": "Gamma Torque Braid Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Gamma Torque Braid diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/gamma-torque-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/gamma-torque-braid.jpg",
+      "sku": "RCLFE4A427B845982060"
+    },
+    "gamma-polyflex-copolymer-diameter-capacity-guide": {
+      "id": "gamma-polyflex",
+      "title": "Gamma Polyflex",
+      "seoTitle": "Gamma Polyflex Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Gamma Polyflex diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/gamma-polyflex-copolymer-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/gamma-polyflex.jpg",
+      "sku": "RCLAE76C92AC9AA4DD42"
+    },
+    "gamma-fluorocarbon-leader-diameter-leader-guide": {
+      "id": "gamma-fluorocarbon-leader",
+      "title": "Gamma Fluorocarbon Leader",
+      "seoTitle": "Gamma Fluorocarbon Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Review Gamma Fluorocarbon Leader diameters, exact leader package lengths and terminal-material selection. Separate leader choices from mainline reel capacity.",
+      "url": "https://www.reelcalc.com/lines/p/gamma-fluorocarbon-leader-diameter-leader-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/gamma-fluorocarbon-leader.png",
+      "sku": "RCLBD7F3B4BE098D342F"
+    },
+    "maxima-ultragreen-monofilament-diameter-capacity-guide": {
+      "id": "maxima-ultragreen",
+      "title": "Maxima Ultragreen",
+      "seoTitle": "Maxima Ultragreen Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Maxima Ultragreen diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/maxima-ultragreen-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/maxima-ultragreen.jpg",
+      "sku": "RCL9DD55F8F50FB56F09"
+    },
+    "maxima-chameleon-monofilament-diameter-capacity-guide": {
+      "id": "maxima-chameleon",
+      "title": "Maxima Chameleon",
+      "seoTitle": "Maxima Chameleon Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Maxima Chameleon diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/maxima-chameleon-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/maxima-chameleon.jpg",
+      "sku": "RCLF8D969D06E0C81E24"
+    },
+    "maxima-clear-monofilament-diameter-capacity-guide": {
+      "id": "maxima-clear",
+      "title": "Maxima Clear",
+      "seoTitle": "Maxima Clear Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Maxima Clear diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/maxima-clear-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/maxima-clear.jpg",
+      "sku": "RCLEC883358B32F4AB3B"
+    },
+    "maxima-crystal-ivory-monofilament-diameter-capacity-guide": {
+      "id": "maxima-crystal-ivory",
+      "title": "Maxima Crystal Ivory",
+      "seoTitle": "Maxima Crystal Ivory Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Maxima Crystal Ivory diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/maxima-crystal-ivory-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/maxima-crystal-ivory.png",
+      "sku": "RCL0483DDCBBE46291D1"
+    },
+    "maxima-fluorocarbon-fluorocarbon-diameter-capacity-guide": {
+      "id": "maxima-fluorocarbon",
+      "title": "Maxima Fluorocarbon",
+      "seoTitle": "Maxima Fluorocarbon Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Maxima Fluorocarbon diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/maxima-fluorocarbon-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/maxima-fluorocarbon.jpg",
+      "sku": "RCLB575FA0BA045A124F"
+    },
+    "maxima-braid-8-braid-diameter-capacity-guide": {
+      "id": "maxima-braid-8",
+      "title": "Maxima Braid 8",
+      "seoTitle": "Maxima Braid 8 Diameter Chart & Reel Capacity | ReelCalc",
+      "seoDescription": "Compare verified Maxima Braid 8 diameters and strength-specific spool lengths, estimate reel capacity, and plan a full fill or a working section over backing.",
+      "url": "https://www.reelcalc.com/lines/p/maxima-braid-8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-d/maxima-braid-8.png",
+      "sku": "RCL280977FA071EFEEE9"
+    },
+    "ande-premium-monofilament-diameter-capacity-guide": {
+      "id": "ande-premium-monofilament",
+      "title": "Ande Premium Monofilament",
+      "seoTitle": "Ande Premium Monofilament Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Ande Premium Monofilament diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/ande-premium-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/ande-premium-monofilament.png",
+      "sku": "RCLB899B3EA7C3B119EF"
+    },
+    "ande-tournament-monofilament-diameter-capacity-guide": {
+      "id": "ande-tournament-monofilament",
+      "title": "Ande Tournament Monofilament",
+      "seoTitle": "Ande Tournament Monofilament Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Ande Tournament Monofilament diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/ande-tournament-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/ande-tournament-monofilament.png",
+      "sku": "RCL5B01EA0A799DFD09C"
+    },
+    "ande-fluorocarbon-leader-diameter-guide": {
+      "id": "ande-fluorocarbon-leader",
+      "title": "Ande Fluorocarbon Leader",
+      "seoTitle": "Ande Fluorocarbon Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Compare verified Ande Fluorocarbon Leader test ratings, diameters and leader-package lengths. Plan a terminal section without confusing it with mainline or backing.",
+      "url": "https://www.reelcalc.com/lines/p/ande-fluorocarbon-leader-diameter-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/ande-fluorocarbon-leader.png",
+      "sku": "RCLDA2E34D24A53D4E3A"
+    },
+    "hi-seas-grand-slam-monofilament-diameter-capacity-guide": {
+      "id": "hi-seas-grand-slam-monofilament",
+      "title": "Hi-Seas Grand Slam Monofilament",
+      "seoTitle": "Hi-Seas Grand Slam Monofilament Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Hi-Seas Grand Slam Monofilament diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/hi-seas-grand-slam-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/hi-seas-grand-slam-monofilament.jpg",
+      "sku": "RCLFBA4D3BBD97A9B788"
+    },
+    "hi-seas-quattro-fluorocarbon-leader-diameter-guide": {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "title": "Hi-Seas Quattro Fluorocarbon Leader",
+      "seoTitle": "Hi-Seas Quattro Fluorocarbon Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Compare verified Hi-Seas Quattro Fluorocarbon Leader test ratings, diameters and leader-package lengths. Plan a terminal section without confusing it with mainline or backing.",
+      "url": "https://www.reelcalc.com/lines/p/hi-seas-quattro-fluorocarbon-leader-diameter-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/hi-seas-quattro-fluorocarbon.jpg",
+      "sku": "RCLF1B11AC10CC6DC08B"
+    },
+    "hi-seas-braid-diameter-capacity-guide": {
+      "id": "hi-seas-braid",
+      "title": "Hi-Seas Grand Slam Braid",
+      "seoTitle": "Hi-Seas Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Hi-Seas Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/hi-seas-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/hi-seas-braid.jpg",
+      "sku": "RCL021607A7B011E4836"
+    },
+    "kastking-fluorokote-diameter-capacity-guide": {
+      "id": "kastking-fluorokote",
+      "title": "KastKing FluoroKote",
+      "seoTitle": "KastKing FluoroKote Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified KastKing FluoroKote diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/kastking-fluorokote-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/kastking-fluorokote.jpg",
+      "sku": "RCL52779ABE42A89274B"
+    },
+    "reaction-tackle-braid-diameter-capacity-guide": {
+      "id": "reaction-tackle-braid",
+      "title": "Reaction Tackle 4-Strand Braid",
+      "seoTitle": "Reaction Tackle Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Reaction Tackle Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/reaction-tackle-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/reaction-tackle-braid.jpg",
+      "sku": "RCLE7E93141B3D4F5752"
+    },
+    "reaction-tackle-fluorocarbon-diameter-capacity-guide": {
+      "id": "reaction-tackle-fluorocarbon",
+      "title": "Reaction Tackle 100% Pure Fluorocarbon",
+      "seoTitle": "Reaction Tackle Fluorocarbon Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Reaction Tackle Fluorocarbon diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/reaction-tackle-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/reaction-tackle-fluorocarbon-clear.jpg",
+      "sku": "RCL19A7A8448473EF612"
+    },
+    "reaction-tackle-monofilament-diameter-capacity-guide": {
+      "id": "reaction-tackle-monofilament",
+      "title": "Reaction Tackle Monofilament",
+      "seoTitle": "Reaction Tackle Monofilament Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Reaction Tackle Monofilament diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/reaction-tackle-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/reaction-tackle-monofilament-clear.jpg",
+      "sku": "RCL3B07B9E6915B7D169"
+    },
+    "reaction-tackle-ice-braid-diameter-capacity-guide": {
+      "id": "reaction-tackle-ice-braid",
+      "title": "Reaction Tackle Ice Braid",
+      "seoTitle": "Reaction Tackle Ice Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Reaction Tackle Ice Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/reaction-tackle-ice-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/reaction-tackle-ice-braid.jpg",
+      "sku": "RCLA59BF1D82FD1A7E1A"
+    },
+    "vicious-fluorocarbon-diameter-capacity-guide": {
+      "id": "vicious-fluorocarbon",
+      "title": "Vicious 100% Japanese Fluorocarbon",
+      "seoTitle": "Vicious Fluorocarbon Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Vicious Fluorocarbon diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/vicious-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/vicious-fluorocarbon.jpg",
+      "sku": "RCLDA1E1FB7335CA04B9"
+    },
+    "vicious-pro-elite-fluorocarbon-diameter-capacity-guide": {
+      "id": "vicious-pro-elite-fluorocarbon",
+      "title": "Vicious Pro Elite Fluorocarbon",
+      "seoTitle": "Vicious Pro Elite Fluorocarbon Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Vicious Pro Elite Fluorocarbon diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/vicious-pro-elite-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/vicious-pro-elite-fluorocarbon.jpg",
+      "sku": "RCLC3B5A6F1985ED3D2E"
+    },
+    "vicious-braid-diameter-capacity-guide": {
+      "id": "vicious-braid",
+      "title": "Vicious Standard Green Braid",
+      "seoTitle": "Vicious Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Vicious Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/vicious-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/vicious-braid.jpg",
+      "sku": "RCLAF99592EAFE907D41"
+    },
+    "vicious-panfish-hi-vis-mono-diameter-capacity-guide": {
+      "id": "vicious-panfish-hi-vis-mono",
+      "title": "Vicious Panfish Hi-Vis Yellow Mono",
+      "seoTitle": "Vicious Panfish Hi-Vis Mono Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Vicious Panfish Hi-Vis Mono diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/vicious-panfish-hi-vis-mono-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/vicious-panfish-hi-vis-mono.jpg",
+      "sku": "RCL77B63B0BDFAB90676"
+    },
+    "spro-finesse-fluorocarbon-leader-diameter-capacity-guide": {
+      "id": "spro-finesse-fluorocarbon-leader",
+      "title": "SPRO Finesse Fluorocarbon Leader",
+      "seoTitle": "SPRO Finesse Fluorocarbon Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Check SPRO Finesse Fluorocarbon Leader leader diameters and exact packages. Compare leader strengths, plan replacement sections and keep mainline capacity separate.",
+      "url": "https://www.reelcalc.com/lines/p/spro-finesse-fluorocarbon-leader-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/spro-finesse-fluorocarbon-leader.webp",
+      "sku": "RCL2A2DF5D58D508CEEB"
+    },
+    "yo-zuri-topknot-leader-diameter-capacity-guide": {
+      "id": "yo-zuri-topknot-leader",
+      "title": "Yo-Zuri TopKnot Leader",
+      "seoTitle": "Yo-Zuri TopKnot Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Check Yo-Zuri TopKnot Leader leader diameters and exact packages. Compare leader strengths, plan replacement sections and keep mainline capacity separate.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-topknot-leader-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-topknot-leader.webp",
+      "sku": "RCL3A1FB2F3D98BCAF30"
+    },
+    "yo-zuri-superfluoro-leader-diameter-capacity-guide": {
+      "id": "yo-zuri-superfluoro-leader",
+      "title": "Yo-Zuri SuperFluoro Leader",
+      "seoTitle": "Yo-Zuri SuperFluoro Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Check Yo-Zuri SuperFluoro Leader leader diameters and exact packages. Compare leader strengths, plan replacement sections and keep mainline capacity separate.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-superfluoro-leader-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-superfluoro-leader.webp",
+      "sku": "RCL66FB5D90E143CF2AA"
+    },
+    "yo-zuri-h-d-carbon-leader-diameter-capacity-guide": {
+      "id": "yo-zuri-h-d-carbon-leader",
+      "title": "Yo-Zuri H.D. Carbon Leader",
+      "seoTitle": "Yo-Zuri H.D. Carbon Leader Diameter & Leader Guide | ReelCalc",
+      "seoDescription": "Check Yo-Zuri H.D. Carbon Leader leader diameters and exact packages. Compare leader strengths, plan replacement sections and keep mainline capacity separate.",
+      "url": "https://www.reelcalc.com/lines/p/yo-zuri-h-d-carbon-leader-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-b/yo-zuri-h-d-carbon-leader.webp",
+      "sku": "RCL39FEB1B47307E061F"
+    },
+    "stren-original-monofilament-diameter-capacity-guide": {
+      "id": "stren-original",
+      "title": "Stren Original Monofilament",
+      "seoTitle": "Stren Original Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Compare Stren Original's published 2016 US diameters, estimate reel capacity and plan a mono fill using the strength-specific archived filler-spool lengths.",
+      "url": "https://www.reelcalc.com/lines/p/stren-original-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c/stren-original-2016.jpg",
+      "sku": "RCLA514A1372231DB7FF"
+    },
+    "stren-magnathin-monofilament-diameter-capacity-guide": {
+      "id": "stren-magnathin",
+      "title": "Stren MagnaThin Monofilament",
+      "seoTitle": "Stren MagnaThin Diameter & Reel Capacity Guide | ReelCalc",
+      "seoDescription": "Plan a MagnaThin mono fill with source-checked 2016 US diameters and filler lengths. Keep its verified 16 lb size separate from unsupported 14 lb listings.",
+      "url": "https://www.reelcalc.com/lines/p/stren-magnathin-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c/stren-magnathin-2016.jpg",
+      "sku": "RCL245198E2FCC012BD9"
+    },
+    "ande-braid-diameter-capacity-guide": {
+      "id": "ande-braid",
+      "title": "Ande Graphite Braid",
+      "seoTitle": "Ande Braid Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Check verified Ande Braid diameters and package lengths, choose a reel, and plan working line and backing from exact line size.",
+      "url": "https://www.reelcalc.com/lines/p/ande-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e/ande-braid.png",
+      "sku": "RCL9BA9B73479943D785"
+    },
+    "spiderwire-ultracast-ultimate-mono-diameter-capacity-guide": {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "title": "SpiderWire Ultracast Ultimate Mono",
+      "seoTitle": "SpiderWire Ultimate Mono Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Use the 2018 US Ultracast Ultimate Mono Clear chart to compare diameters and plan reel fills. Later catalog values and braid products are kept separate.",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-ultracast-ultimate-mono-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c/spiderwire-ultracast-ultimate-mono-2018.jpg",
+      "sku": "RCL8CE463E9DC3F8768C"
+    },
+    "stren-high-impact-monofilament-diameter-capacity-guide": {
+      "id": "stren-high-impact",
+      "title": "Stren High Impact Monofilament",
+      "seoTitle": "Stren High Impact Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Use Stren High Impact's 2016 US Clear specifications to estimate reel capacity and plan fills from its strength-specific quarter-pound packages.",
+      "url": "https://www.reelcalc.com/lines/p/stren-high-impact-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c/stren-high-impact-2016.jpg",
+      "sku": "RCL63E47E37AD3204E74"
+    },
+    "stren-crappie-mono-monofilament-diameter-capacity-guide": {
+      "id": "stren-crappie-mono",
+      "title": "Stren Crappie Mono",
+      "seoTitle": "Stren Crappie Mono Diameter & Capacity Guide | ReelCalc",
+      "seoDescription": "Plan a light mono setup using Stren Crappie Mono's 2016 US 2-10 lb specifications and 200-yard packages, with exact diameters and reel-capacity estimates.",
+      "url": "https://www.reelcalc.com/lines/p/stren-crappie-mono-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-c/stren-crappie-mono-2016.jpg",
+      "sku": "RCL03210D03DB435C819"
+    },
+    "berkley-trilene-xt-monofilament-diameter-capacity-guide": {
+      "id": "berkley-trilene-xt",
+      "title": "Berkley Trilene XT: 2020 US Reference",
+      "seoTitle": "Berkley Trilene XT 2020 US Diameter Reference | ReelCalc",
+      "seoDescription": "Historical 2020 US Trilene XT Clear filler-spool diameters and lengths, with reel-capacity estimates. Not a current-edition or availability claim.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-trilene-xt-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/berkley-unresolved/berkley-trilene-xt.jpg",
+      "sku": "RCLD936D4552C2B4EB75"
+    },
+    "berkley-100-fluorocarbon-fluorocarbon-diameter-capacity-guide": {
+      "id": "berkley-100-fluorocarbon",
+      "title": "Berkley Trilene 100% Fluorocarbon",
+      "seoTitle": "Berkley Trilene 100% Fluorocarbon Diameter & Capacity | ReelCalc",
+      "seoDescription": "Label-verified US Trilene 100% Fluorocarbon: 10 lb bulk and 15/20 lb filler specifications, reel-capacity estimates, and working-line planning.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-100-fluorocarbon-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/berkley-unresolved/berkley-100-fluorocarbon.jpg",
+      "sku": "RCLAE528CF5A180F17FC"
+    },
+    "berkley-forward-finesse-braid-braid-diameter-capacity-guide": {
+      "id": "berkley-forward-finesse-braid",
+      "title": "Berkley Forward Finesse Braid",
+      "seoTitle": "Berkley Forward Finesse Braid Diameter & Capacity | ReelCalc",
+      "seoDescription": "Verified US Forward Finesse Braid 10 and 12 lb package-label diameters, 150 yd filler spools, capacity estimates, and backing considerations.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-forward-finesse-braid-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/berkley-unresolved/berkley-forward-finesse-braid.jpg",
+      "sku": "RCL606457CADDBDD60CA"
+    }
+  }
+}

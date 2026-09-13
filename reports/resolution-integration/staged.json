@@ -1,0 +1,187 @@
+{
+  "stagedAt": "2026-09-13T16:28:17.404Z",
+  "models": [
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "rows": 8,
+      "excluded": 0
+    },
+    {
+      "id": "sufix-calibr8",
+      "rows": 1,
+      "excluded": 9
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "rows": 2,
+      "excluded": 4
+    },
+    {
+      "id": "stren-super-knot",
+      "rows": 8,
+      "excluded": 1
+    },
+    {
+      "id": "stren-fluorocast",
+      "rows": 7,
+      "excluded": 1
+    },
+    {
+      "id": "stren-sonic-braid",
+      "rows": 1,
+      "excluded": 5
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "rows": 2,
+      "excluded": 7
+    },
+    {
+      "id": "p-line-floroclear",
+      "rows": 2,
+      "excluded": 8
+    },
+    {
+      "id": "p-line-cx-premium",
+      "rows": 2,
+      "excluded": 4
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "rows": 1,
+      "excluded": 6
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "rows": 3,
+      "excluded": 4
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "rows": 2,
+      "excluded": 6
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "rows": 2,
+      "excluded": 5
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "rows": 1,
+      "excluded": 5
+    }
+  ],
+  "images": [
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "source": "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-product.png",
+      "target": "assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "sha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a"
+    },
+    {
+      "id": "sufix-calibr8",
+      "source": "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-694-015l.webp",
+      "target": "assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "sha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef"
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "source": "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg",
+      "target": "assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "sha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea"
+    },
+    {
+      "id": "stren-super-knot",
+      "source": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-super-knot-2014.jpg",
+      "target": "assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "sha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743"
+    },
+    {
+      "id": "stren-fluorocast",
+      "source": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-fluorocast-2014.jpg",
+      "target": "assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "sha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd"
+    },
+    {
+      "id": "stren-sonic-braid",
+      "source": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg",
+      "target": "assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "sha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4"
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "sha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f"
+    },
+    {
+      "id": "p-line-floroclear",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "sha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942"
+    },
+    {
+      "id": "p-line-cx-premium",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "sha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61"
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "sha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8"
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "sha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3"
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "sha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7"
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "source": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "target": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "sha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6"
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "source": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg",
+      "target": "assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "sha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+    }
+  ],
+  "originalProductsUnchanged": 100,
+  "unrelatedRowsUnchanged": 1187,
+  "publishedProductsUnchanged": [
+    "powerpro-spectra",
+    "seaguar-invizx",
+    "berkley-trilene-xl",
+    "seaguar-tatsu",
+    "seaguar-abrazx",
+    "seaguar-red-label",
+    "seaguar-smackdown",
+    "seaguar-brawlr",
+    "seaguar-jdm-r18-mainline",
+    "seaguar-jdm-pex8-micro-braid",
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear"
+  ],
+  "version": "9",
+  "publicationReady": false
+}

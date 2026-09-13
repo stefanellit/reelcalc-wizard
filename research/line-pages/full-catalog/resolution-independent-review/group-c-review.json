@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "Codex independent source/config reviewer; not author of group-c-resolutions",
+  "signedAt": "2026-09-13T16:05:05.645Z",
+  "verdict": "pass-four-candidates-only",
+  "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+  "packSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+  "sourcePackUnchangedAtSignoff": true,
+  "signatureMeaning": "SHA-256 content attestation, not a personal cryptographic identity signature. Acceptance applies only to the four named candidate model objects and their exact hashes in this pack. It is not approval of the nine held models, integrated UI behavior, current availability, image licensing, staging or publication.",
+  "reviewedModelIds": [
+    "spiderwire-stealth-braid",
+    "stren-super-knot",
+    "stren-fluorocast",
+    "stren-sonic-braid"
+  ],
+  "unreviewedModelIds": [
+    "lew-s-mach-braid",
+    "lew-s-team-lew-s-fluorocarbon",
+    "lew-s-team-lew-s-monofilament",
+    "spiderwire-stealth-smooth-8",
+    "spiderwire-ultracast-invisi-braid",
+    "spiderwire-durabraid",
+    "spiderwire-ez-braid",
+    "spiderwire-fluorocarbon",
+    "strike-king-contra-braid"
+  ],
+  "blockers": [],
+  "findings": [],
+  "summary": "No blocking source, identity, numeric, package, default-ID or gold-config defects found in the four candidates. All 18 rows match independently inspected primary charts/labels. Historical/regional/undated scopes are sufficient only if preserved during merge.",
+  "method": [
+    "Read the contract and all four full candidate objects, including gold copy, rows, defaults, examples, source URLs and exclusions.",
+    "Independently viewed the original 2014 Stren pages 4, 6 and 7, exact Sonic spool label, and all four hero assets. Used non-persistent analytical magnification for small Sonic text.",
+    "Independently read Japanese manufacturer text, including actual-diameter wording, launch date, US labeling and exact SKU table.",
+    "Fresh public HTTP retrieval of six core sources succeeded; every response is byte-identical to saved evidence. Archive web-tool cache misses were resolved by direct public retrieval, not treated as source absence.",
+    "Recomputed all 18 unit conversions and package maps from a separate transcription of the viewed sources, not from the author's validator.",
+    "Checked exact current catalog identities, four genuinely new IDs, exclusions, default packages and eight real-reel setups. Evaluated shared gold template and production calculation core in memory only.",
+    "Did not run the author's pack builder, validator or signing script, create a browser session, modify shared data, or write outside the two assigned report paths."
+  ],
+  "verification": {
+    "passed": true,
+    "checkedAt": "2026-09-13T16:03:58.163Z",
+    "candidateModels": 4,
+    "numericRows": 18,
+    "defaults": 4,
+    "newVerifiedIds": [
+      "stren-super-knot-monofilament-4",
+      "stren-super-knot-monofilament-14",
+      "stren-super-knot-monofilament-17",
+      "stren-fluorocast-fluorocarbon-4"
+    ],
+    "realReelExamples": 8,
+    "goldTemplateRenders": 4,
+    "originalImagesDecodedAndViewed": 4,
+    "machineErrors": [],
+    "engineVersion": "2026.08-dual-anchor-v1",
+    "readOnlyDependencies": [
+      {
+        "file": "data/lines.json",
+        "sha256": "bed38ed700383b84995b7bb8d42d52279096ddc2d89191a9831a97972279c8ee"
+      },
+      {
+        "file": "data/line-page-products.json",
+        "sha256": "fbcac54516cf6ae67d1fb05831c85997848616a3d494e0471410c53160fee425"
+      },
+      {
+        "file": "data/reels.json",
+        "sha256": "60b045b95e76f12697d07662d30ef43372e87bc58c8183a0708c941671d2c9dc"
+      },
+      {
+        "file": "scripts/build-line-pages.mjs",
+        "sha256": "8eee7f7cf87a9d30298664289d02c1466276dfee1eebbe6514ec263db962a2a6"
+      },
+      {
+        "file": "scripts/line-page-gold-template.mjs",
+        "sha256": "fdcd2aabd2e39c41dfa0bfd772ed4c79bc6035eb9b6cf27a9d6530165cae7b76"
+      },
+      {
+        "file": "js/calculator-core.js",
+        "sha256": "29f43acd3519959dfdabfbad9d35f5445acaa5688dac5da1aa1d4c057f32a305"
+      }
+    ]
+  },
+  "freshRetrievals": [
+    {
+      "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+      "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+      "retrievedAt": "2026-09-13T16:04:24.493Z",
+      "status": 200,
+      "contentType": "text/xml",
+      "bytes": 2942,
+      "sha256": "3b728f1412536aeaed7f348a2c544419fbc9aa9bdb012ff306a406491fdead6b",
+      "savedFile": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-index.xml",
+      "matchesSavedBytes": true
+    },
+    {
+      "url": "https://storage.westernbass.com/brochures/2014_stren/page4/p4.jpg",
+      "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/p4.jpg",
+      "retrievedAt": "2026-09-13T16:04:24.827Z",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 193603,
+      "sha256": "d6e17127a7d19aec0c8ec64025241f0999bf06d5333c2184bec3258fd43a7ef1",
+      "savedFile": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-full.jpg",
+      "matchesSavedBytes": true
+    },
+    {
+      "url": "https://storage.westernbass.com/brochures/2014_stren/page6/p6.jpg",
+      "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/p6.jpg",
+      "retrievedAt": "2026-09-13T16:04:25.333Z",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 184939,
+      "sha256": "1672b24e0430a6d0e701002eb76408dba254e087ae03855888b8223daa205729",
+      "savedFile": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-full.jpg",
+      "matchesSavedBytes": true
+    },
+    {
+      "url": "https://storage.westernbass.com/brochures/2014_stren/page7/p7.jpg",
+      "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page7/p7.jpg",
+      "retrievedAt": "2026-09-13T16:04:25.671Z",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 175383,
+      "sha256": "febb74aeeb52123a0fd21e85d05b9e31dbdfb3a6790a42b32e5f9f8f9766a93e",
+      "savedFile": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7-full.jpg",
+      "matchesSavedBytes": true
+    },
+    {
+      "url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+      "finalUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+      "retrievedAt": "2026-09-13T16:04:25.849Z",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 139343,
+      "sha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+      "savedFile": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg",
+      "matchesSavedBytes": true
+    },
+    {
+      "url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+      "finalUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+      "retrievedAt": "2026-09-13T16:04:26.029Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 23420,
+      "sha256": "fa9e77b722fb12d2b9fd238177e2baa7dc035c8872752d01630c99a282ed83da",
+      "savedFile": "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-jp-2016.html",
+      "matchesSavedBytes": true,
+      "keyStatementsPresent": [
+        {
+          "text": "2016年4月下旬発売",
+          "present": true
+        },
+        {
+          "text": "実質のラインの太さ",
+          "present": true
+        },
+        {
+          "text": "50lb: 標準直径 0.419mm",
+          "present": true
+        },
+        {
+          "text": "65lb: 標準直径 0.447mm",
+          "present": true
+        },
+        {
+          "text": "SS50G-125",
+          "present": true
+        },
+        {
+          "text": "SS65G-125",
+          "present": true
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "spiderwire-stealth-braid",
+      "modelSha256": "7c6e517f1dd50d2092eec88995cd6d91928745a596bafec3e39aa00fe9856dc0",
+      "productSha256": "12adb602964252e9041f9ab378912a0ba508c48c386aceb2dca57a51a077423c",
+      "rowsSha256": "8339924f79ce1477f2c576a530939ac39b40b79b24146f7dff3cd8900485d784",
+      "role": "mainline",
+      "rowChecks": [
+        {
+          "id": "spiderwire-stealth-braid-braid-50",
+          "lb": 50,
+          "publishedDiameter": 0.419,
+          "publishedUnit": "mm",
+          "dia_in": 0.016496062992125984,
+          "dia_mm": 0.419,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            125
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.014,
+          "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html"
+        },
+        {
+          "id": "spiderwire-stealth-braid-braid-65",
+          "lb": 65,
+          "publishedDiameter": 0.447,
+          "publishedUnit": "mm",
+          "dia_in": 0.017598425196850394,
+          "dia_mm": 0.447,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            125
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.016,
+          "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html"
+        }
+      ],
+      "defaultLineId": "spiderwire-stealth-braid-braid-50",
+      "defaultSpoolYards": 125,
+      "excludedLineIds": [
+        "spiderwire-stealth-braid-braid-10",
+        "spiderwire-stealth-braid-braid-15",
+        "spiderwire-stealth-braid-braid-20",
+        "spiderwire-stealth-braid-braid-30"
+      ],
+      "unsupportedIdLeakCount": 0,
+      "exampleChecks": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "spiderwire-stealth-braid-braid-50",
+          "workingYards": 50,
+          "spoolYards": 125,
+          "capacityYards": 60.028643035753944,
+          "backingYards": 23.493416735456037,
+          "passes": true
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "spiderwire-stealth-braid-braid-65",
+          "workingYards": 40,
+          "spoolYards": 125,
+          "capacityYards": 52.74381334174135,
+          "backingYards": 33.97742100236263,
+          "passes": true
+        }
+      ],
+      "image": {
+        "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg",
+        "url": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+        "sha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea",
+        "width": 600,
+        "height": 600,
+        "format": "jpeg",
+        "nonblank": true
+      },
+      "goldRender": {
+        "template": "scripts/line-page-gold-template.mjs",
+        "chartRows": 2,
+        "htmlBytes": 19277,
+        "scopeCopyRendered": true,
+        "publishedFilesWritten": false
+      },
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-jp-2016.html",
+          "sha256": "fa9e77b722fb12d2b9fd238177e2baa7dc035c8872752d01630c99a282ed83da",
+          "provenance": {
+            "url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+            "finalUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+            "retrievedAt": "2026-09-13T15:20:05.680Z",
+            "status": 200,
+            "recordedSha256": "fa9e77b722fb12d2b9fd238177e2baa7dc035c8872752d01630c99a282ed83da"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-jp-2016.html.meta.json",
+          "sha256": "5fdcc987be1433357646451c42cf17bc7cfce9a5ece54ea3ca1982834b7f56ab"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-japan-web.web.json",
+          "sha256": "d7793756f70cc86c3eabb95196eb9b99d521aa470fc8613029d3e6b837add78e"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg",
+          "sha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea",
+          "provenance": {
+            "url": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+            "finalUrl": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+            "retrievedAt": "2026-09-13T15:21:19.191Z",
+            "status": 200,
+            "recordedSha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg.meta.json",
+          "sha256": "b4116605f9c4d5995a6414530baca9424514f7a57b1e52b15a025c86bb027816"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-us.json",
+          "sha256": "eabecbaefdb6d9b6a40733646eef4dba1310d9f971042fef9795b62746282805",
+          "provenance": {
+            "url": "https://www.spiderwire.com/products/stealth-filler-spool.js",
+            "finalUrl": "https://www.spiderwire.com/products/stealth-filler-spool.js",
+            "retrievedAt": "2026-09-13T15:18:32.488Z",
+            "status": 200,
+            "recordedSha256": "eabecbaefdb6d9b6a40733646eef4dba1310d9f971042fef9795b62746282805"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-us.json.meta.json",
+          "sha256": "c09f92dba6a95d403c007ab6992bb7689d8250c91ee1a7908dcac4947bd95415"
+        }
+      ],
+      "verdict": "pass-historical-japan-import-scope",
+      "scope": "2016-launch Pure Fishing Japan listing of US pound/yard-labelled Moss Green imports only; SS50G-125 and SS65G-125, 125 yd.",
+      "numericBasis": "manufacturer-published-actual-mm-statements",
+      "identityExact": true,
+      "sourceAssessment": "Read the original Japanese HTML and independently retrieved the live page. It explicitly introduces actual line thickness, then gives standard diameter 50 lb 0.419 mm and 65 lb 0.447 mm. Exact table rows 1339729/1339730, UPC 022021600830/022021600847, establish the two 125-yard Moss Green SKUs. This is not a PE or mono-equivalent calculation. Dividing each published mm value by 25.4 is correct.",
+      "historicalVersionAssessment": "The page explicitly says late-April 2016 launch and US pound/yard labeling. The copy treats this as a historical regional source basis, not a current-US advertised-diameter or unchanged-formulation claim. Generic 300-yard prose correctly does not add a package.",
+      "imageAssessment": "Directly viewed the original red Stealth package/Moss Green spool asset. It matches the manufacturer's linked historical artwork and Teflon wording. The source itself says artwork may differ from actual product; it is family illustration, not an independent per-SKU numeric label.",
+      "consumerCopyAssessment": "Dyneema/Teflon construction and cover-fishing positioning are supported. Quick summary, chart note, caption, source note, FAQ and tradeoff preserve the regional actual-mm basis. No measured superiority or current-stock claim.",
+      "acceptanceConditions": [
+        "Keep 2016 Japan import and actual-mm scope attached wherever the generic legacy IDs are displayed after merge, not just in this page's hidden data.",
+        "Retain only 125 yd at both strengths. Do not substitute current-US values or infer 300 yd."
+      ],
+      "goldConfigComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "stren-super-knot",
+      "modelSha256": "8cd116317d0151b1f0c9c0f092ef6caef2f47e8168843a48be84af89abe7927c",
+      "productSha256": "7c7c61e65bad6edf23c66f21df563fdd70b39cab5c3e7ddf377de9fb555be051",
+      "rowsSha256": "dc7e5c0df1b0704c685de364a7975e456987ee80f719cba7af469e26f81cf891",
+      "role": "mainline",
+      "rowChecks": [
+        {
+          "id": "stren-super-knot-monofilament-4",
+          "lb": 4,
+          "publishedDiameter": 0.008,
+          "publishedUnit": "in",
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": true,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-6",
+          "lb": 6,
+          "publishedDiameter": 0.01,
+          "publishedUnit": "in",
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.009,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-8",
+          "lb": 8,
+          "publishedDiameter": 0.012,
+          "publishedUnit": "in",
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.01,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-10",
+          "lb": 10,
+          "publishedDiameter": 0.013,
+          "publishedUnit": "in",
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.012,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-12",
+          "lb": 12,
+          "publishedDiameter": 0.014,
+          "publishedUnit": "in",
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.013,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-14",
+          "lb": 14,
+          "publishedDiameter": 0.015,
+          "publishedUnit": "in",
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": true,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-17",
+          "lb": 17,
+          "publishedDiameter": 0.017,
+          "publishedUnit": "in",
+          "dia_in": 0.017,
+          "dia_mm": 0.4318,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": true,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        },
+        {
+          "id": "stren-super-knot-monofilament-20",
+          "lb": 20,
+          "publishedDiameter": 0.019,
+          "publishedUnit": "in",
+          "dia_in": 0.019,
+          "dia_mm": 0.4826,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            220
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.018,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
+        }
+      ],
+      "defaultLineId": "stren-super-knot-monofilament-8",
+      "defaultSpoolYards": 220,
+      "excludedLineIds": [
+        "stren-super-knot-monofilament-15"
+      ],
+      "unsupportedIdLeakCount": 0,
+      "exampleChecks": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "stren-super-knot-monofilament-6",
+          "workingYards": 100,
+          "spoolYards": 220,
+          "capacityYards": 172.79999999999998,
+          "backingYards": 50.55555555555554,
+          "passes": true
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "stren-super-knot-monofilament-10",
+          "workingYards": 75,
+          "spoolYards": 220,
+          "capacityYards": 119.82248520710058,
+          "backingYards": 52.60416666666664,
+          "passes": true
+        }
+      ],
+      "image": {
+        "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-super-knot-2014.jpg",
+        "url": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+        "sha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743",
+        "width": 306,
+        "height": 374,
+        "format": "jpeg",
+        "nonblank": true
+      },
+      "goldRender": {
+        "template": "scripts/line-page-gold-template.mjs",
+        "chartRows": 8,
+        "htmlBytes": 20247,
+        "scopeCopyRendered": true,
+        "publishedFilesWritten": false
+      },
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-index.xml",
+          "sha256": "3b728f1412536aeaed7f348a2c544419fbc9aa9bdb012ff306a406491fdead6b",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+            "retrievedAt": "2026-09-13T15:24:21.589Z",
+            "status": 200,
+            "recordedSha256": "3b728f1412536aeaed7f348a2c544419fbc9aa9bdb012ff306a406491fdead6b"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4.html",
+          "sha256": "c4c0d3290f0b2c8fc0f300c2a6f9925d3928a28075b80be940d332e2d7188e0a",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+            "retrievedAt": "2026-09-13T15:22:23.205Z",
+            "status": 200,
+            "recordedSha256": "c4c0d3290f0b2c8fc0f300c2a6f9925d3928a28075b80be940d332e2d7188e0a"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4.html.meta.json",
+          "sha256": "8b5099f85573619539badecac8c7afe4e80c96b31123df846fdbac31e261115d"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-full.jpg",
+          "sha256": "d6e17127a7d19aec0c8ec64025241f0999bf06d5333c2184bec3258fd43a7ef1",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page4/p4.jpg",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/p4.jpg",
+            "retrievedAt": "2026-09-13T15:23:14.637Z",
+            "status": 200,
+            "recordedSha256": "d6e17127a7d19aec0c8ec64025241f0999bf06d5333c2184bec3258fd43a7ef1"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-full.jpg.meta.json",
+          "sha256": "b4329a8dad638b95e2e8c378bd843c3a24fe5dcafea31e86ef15bcda59ea1109"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-resources.xml",
+          "sha256": "44c70ca36787411cdf67db91eb883fc3519ffffcac68b22b1f01ff2f8022c486",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page4/resources.xml",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/resources.xml",
+            "retrievedAt": "2026-09-13T15:24:32.207Z",
+            "status": 200,
+            "recordedSha256": "44c70ca36787411cdf67db91eb883fc3519ffffcac68b22b1f01ff2f8022c486"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p4_i48.jpg",
+          "sha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+            "retrievedAt": "2026-09-13T15:24:52.006Z",
+            "status": 200,
+            "recordedSha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p4_i48.jpg.meta.json",
+          "sha256": "32bfc31c689ba341ffcbecd46b9b65887aff48ec7b00e2c31bcf6a6d6774c5cb"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-super-knot-2014.jpg",
+          "sha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743"
+        }
+      ],
+      "verdict": "pass-2014-us-scope",
+      "scope": "Original 2014 US Super Knot, Clear and Lo-Vis Green, all eight printed strengths on 220-yard fillers.",
+      "numericBasis": "historical-manufacturer-inch-chart",
+      "identityExact": true,
+      "sourceAssessment": "Directly viewed page 4 of the original manufacturer catalog. The LEFT Super Knot table prints 4/6/8/10/12/14/17/20 lb and .008/.010/.012/.013/.014/.015/.017/.019 inch. Both color columns have availability dots and the filler legend says 4-20 lb, 220 yards. All eight mm conversions are correct.",
+      "historicalVersionAssessment": "The archive manifest explicitly names Stren 2014 Catalog and identifies the original page assets. Branded original artwork and table are manufacturer material on an archive host, not an archive-authored specification table. Super Knot is distinct from neighboring MagnaThin and unproven later Power Knot equivalence.",
+      "imageAssessment": "Directly viewed the lime-green/black Super Knot hero, matching the original page-4 package and asset identity. It is not turquoise MagnaThin.",
+      "consumerCopyAssessment": "Self-lubricating mono is source-supported and framed as manufacturer positioning, not guaranteed knot performance. Historical US/date/color/package scope appears prominently. The actual 14/17 lb steps do not inherit the unsupported legacy 15 lb ID.",
+      "acceptanceConditions": [
+        "Preserve 2014 US and both-color/220-yard scope.",
+        "Retain exclusion of stren-super-knot-monofilament-15; add the independently verified 4/14/17 lb IDs without relabeling 15 lb."
+      ],
+      "goldConfigComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "stren-fluorocast",
+      "modelSha256": "2a99640a87f8f99ffc767c7f436c865add81846c0ab940fb4bb8c9326bd098d6",
+      "productSha256": "9cdf230e007e6926a442253b9f4576c61c94cb4cbe757cc5df57f11f3338c186",
+      "rowsSha256": "7982dcad25b10044e2653462f555b169453857a931da0b636a6ae59be1eead11",
+      "role": "mainline",
+      "rowChecks": [
+        {
+          "id": "stren-fluorocast-fluorocarbon-4",
+          "lb": 4,
+          "publishedDiameter": 0.007,
+          "publishedUnit": "in",
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": true,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-6",
+          "lb": 6,
+          "publishedDiameter": 0.009,
+          "publishedUnit": "in",
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.009,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-8",
+          "lb": 8,
+          "publishedDiameter": 0.01,
+          "publishedUnit": "in",
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.01,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-10",
+          "lb": 10,
+          "publishedDiameter": 0.012,
+          "publishedUnit": "in",
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.011,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-12",
+          "lb": 12,
+          "publishedDiameter": 0.013,
+          "publishedUnit": "in",
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.012,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-15",
+          "lb": 15,
+          "publishedDiameter": 0.015,
+          "publishedUnit": "in",
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.014,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-17",
+          "lb": 17,
+          "publishedDiameter": 0.016,
+          "publishedUnit": "in",
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.015,
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
+        }
+      ],
+      "defaultLineId": "stren-fluorocast-fluorocarbon-10",
+      "defaultSpoolYards": 200,
+      "excludedLineIds": [
+        "stren-fluorocast-fluorocarbon-20"
+      ],
+      "unsupportedIdLeakCount": 0,
+      "exampleChecks": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "stren-fluorocast-fluorocarbon-6",
+          "workingYards": 100,
+          "spoolYards": 200,
+          "capacityYards": 213.33333333333337,
+          "backingYards": 63.75,
+          "passes": true
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "stren-fluorocast-fluorocarbon-10",
+          "workingYards": 75,
+          "spoolYards": 100,
+          "capacityYards": 140.62499999999997,
+          "backingYards": 65.62499999999997,
+          "passes": true
+        }
+      ],
+      "image": {
+        "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-fluorocast-2014.jpg",
+        "url": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+        "sha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd",
+        "width": 327,
+        "height": 395,
+        "format": "jpeg",
+        "nonblank": true
+      },
+      "goldRender": {
+        "template": "scripts/line-page-gold-template.mjs",
+        "chartRows": 7,
+        "htmlBytes": 20327,
+        "scopeCopyRendered": true,
+        "publishedFilesWritten": false
+      },
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-index.xml",
+          "sha256": "3b728f1412536aeaed7f348a2c544419fbc9aa9bdb012ff306a406491fdead6b",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+            "retrievedAt": "2026-09-13T15:24:21.589Z",
+            "status": 200,
+            "recordedSha256": "3b728f1412536aeaed7f348a2c544419fbc9aa9bdb012ff306a406491fdead6b"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6.html",
+          "sha256": "cc466045f72e5d917850c1da72d93644f941277ec0f1a0191abd18018e90c231",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+            "retrievedAt": "2026-09-13T15:22:24.065Z",
+            "status": 200,
+            "recordedSha256": "cc466045f72e5d917850c1da72d93644f941277ec0f1a0191abd18018e90c231"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6.html.meta.json",
+          "sha256": "75eed538acd5d9d3d7da64e99093a2d048d3abfabc574a94ce7a1c3aa6705bd0"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-full.jpg",
+          "sha256": "1672b24e0430a6d0e701002eb76408dba254e087ae03855888b8223daa205729",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page6/p6.jpg",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/p6.jpg",
+            "retrievedAt": "2026-09-13T15:23:15.426Z",
+            "status": 200,
+            "recordedSha256": "1672b24e0430a6d0e701002eb76408dba254e087ae03855888b8223daa205729"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-full.jpg.meta.json",
+          "sha256": "a4dafaaa8f785a25ed5e2217add4e43abfcc6a502499f74a343d7b3b06dd4933"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-resources.xml",
+          "sha256": "c7703d0b41fdb84bcb69b4cfe6d1d82b1c7a155476ca58686f11a75df0c6e13c",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page6/resources.xml",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/resources.xml",
+            "retrievedAt": "2026-09-13T15:24:33.270Z",
+            "status": 200,
+            "recordedSha256": "c7703d0b41fdb84bcb69b4cfe6d1d82b1c7a155476ca58686f11a75df0c6e13c"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p6_i78.jpg",
+          "sha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+            "retrievedAt": "2026-09-13T15:24:54.291Z",
+            "status": 200,
+            "recordedSha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p6_i78.jpg.meta.json",
+          "sha256": "a0146c050df7ba484e2ed2d18e3b4927ddd64894735123104b15f124e99d94ea"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-fluorocast-2014.jpg",
+          "sha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd"
+        }
+      ],
+      "verdict": "pass-2014-us-scope",
+      "scope": "Original 2014 US FluoroCast Clear only; 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler.",
+      "numericBasis": "historical-manufacturer-inch-chart",
+      "identityExact": true,
+      "sourceAssessment": "Directly viewed page 6. The LEFT FluoroCast table prints .007/.009/.010/.012/.013/.015/.016 inch for 4/6/8/10/12/15/17 lb. Clear dots and separate 4-17 lb pony 100 yd/filler 200 yd legends support both lengths for every row. All seven mm conversions are correct.",
+      "historicalVersionAssessment": "2014 edition manifest and original page assets establish the archived edition. The right-hand Stren 100% Fluoro chart is a different family with a different strength/diameter map; its 20 lb entry is not transferred.",
+      "imageAssessment": "Directly viewed the gray/black FluoroCast hero, including its 100% Fluorocarbon printing. It matches the left-hand product, not the neighboring blue 100% Fluoro package.",
+      "consumerCopyAssessment": "100% fluorocarbon mainline identity is supported. The 100-yard pony package does not misclassify it as leader-only. Copy preserves Clear/2014 US, excludes 20 lb and avoids an unchanged-formulation or current-stock claim.",
+      "acceptanceConditions": [
+        "Retain exclusion of stren-fluorocast-fluorocarbon-20 and preserve its 4 lb new ID.",
+        "Retain both 100/200-yard mappings as historical, not current availability; do not import the neighboring 100% Fluoro table."
+      ],
+      "goldConfigComplete": true,
+      "blockers": []
+    },
+    {
+      "id": "stren-sonic-braid",
+      "modelSha256": "e09655696695aa41f74fda91b749223d194b1d6b41dd1c894852ed609d8230b3",
+      "productSha256": "3c652052d4b3f45b47b79dc5eaf2621f2b8455c9fbf4bdc83ab918f2716fa9ef",
+      "rowsSha256": "ad3a89ef9179f94495a08760fb2eab23bd605915a42e6df660c9c6732e1cff1a",
+      "role": "mainline",
+      "rowChecks": [
+        {
+          "id": "stren-sonic-braid-braid-40",
+          "lb": 40,
+          "publishedDiameter": 0.25,
+          "publishedUnit": "mm",
+          "dia_in": 0.00984251968503937,
+          "dia_mm": 0.25,
+          "conversionPassed": true,
+          "spool_sizes_yd": [
+            300
+          ],
+          "identityPreserved": true,
+          "isNewId": false,
+          "priorCatalogDiameterIn": 0.013,
+          "sourceUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg"
+        }
+      ],
+      "defaultLineId": "stren-sonic-braid-braid-40",
+      "defaultSpoolYards": 300,
+      "excludedLineIds": [
+        "stren-sonic-braid-braid-10",
+        "stren-sonic-braid-braid-20",
+        "stren-sonic-braid-braid-30",
+        "stren-sonic-braid-braid-50",
+        "stren-sonic-braid-braid-65"
+      ],
+      "unsupportedIdLeakCount": 0,
+      "exampleChecks": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "stren-sonic-braid-braid-40",
+          "workingYards": 75,
+          "spoolYards": 300,
+          "capacityYards": 95.7933568,
+          "backingYards": 26.047764681736254,
+          "passes": true
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "stren-sonic-braid-braid-40",
+          "workingYards": 100,
+          "spoolYards": 300,
+          "capacityYards": 168.61901759999998,
+          "backingYards": 57.22693375483166,
+          "passes": true
+        }
+      ],
+      "image": {
+        "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg",
+        "url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+        "sha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+        "width": 1200,
+        "height": 775,
+        "format": "jpeg",
+        "nonblank": true
+      },
+      "goldRender": {
+        "template": "scripts/line-page-gold-template.mjs",
+        "chartRows": 1,
+        "htmlBytes": 19086,
+        "scopeCopyRendered": true,
+        "publishedFilesWritten": false
+      },
+      "evidenceHashes": [
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg",
+          "sha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+          "provenance": {
+            "url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+            "finalUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+            "retrievedAt": "2026-09-13T15:43:32.855Z",
+            "status": 200,
+            "recordedSha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg.meta.json",
+          "sha256": "077b358f9c51d22dae6e0b11c50dc11d3c5bc7b7806ca94d4668608e70390f72"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/sonic-label-lead.html",
+          "sha256": "e5470ac6ed9f985c2b76a71260a165a22c28004983ebbd57efe9a5f6562c0338",
+          "provenance": {
+            "url": "https://www.bol.com/be/nl/p/sonic-braid-low-vis-green-gevlochten-lijn-met-dyneema-vislijn-visdraad-0-16mm-15-60kg-110m/9300000336551478/",
+            "finalUrl": "https://www.bol.com/be/nl/p/sonic-braid-low-vis-green-gevlochten-lijn-met-dyneema-vislijn-visdraad-0-16mm-15-60kg-110m/9300000336551478/",
+            "retrievedAt": "2026-09-13T15:38:05.493Z",
+            "status": 200,
+            "recordedSha256": "e5470ac6ed9f985c2b76a71260a165a22c28004983ebbd57efe9a5f6562c0338"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/sonic-label-lead.html.meta.json",
+          "sha256": "9b12926080d05c0161cdeb986c9dc47c57b068703295386a21a9041146362584"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label.jpg",
+          "sha256": "0e7b2c6914c5431fcf6b3f1e3293720234592db6cf5bc74e1baf09fcfb6d3e13",
+          "provenance": {
+            "url": "https://media.s-bol.com/R9XGJGB8DDnL/NLEWpyv/990x1200.jpg",
+            "finalUrl": "https://media.s-bol.com/R9XGJGB8DDnL/NLEWpyv/990x1200.jpg",
+            "retrievedAt": "2026-09-13T15:39:05.172Z",
+            "status": 200,
+            "recordedSha256": "0e7b2c6914c5431fcf6b3f1e3293720234592db6cf5bc74e1baf09fcfb6d3e13"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label-3.jpg",
+          "sha256": "37dcb49a30405a5d041b3167b7339cd70f052c81e3ce11de134fba741af5cbb0",
+          "provenance": {
+            "url": "https://media.s-bol.com/rOp4o47q8xDW/NLEWpyv/1200x798.jpg",
+            "finalUrl": "https://media.s-bol.com/rOp4o47q8xDW/NLEWpyv/1200x798.jpg",
+            "retrievedAt": "2026-09-13T15:39:56.308Z",
+            "status": 200,
+            "recordedSha256": "37dcb49a30405a5d041b3167b7339cd70f052c81e3ce11de134fba741af5cbb0"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label-4.jpg",
+          "sha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+          "provenance": {
+            "url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+            "finalUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+            "retrievedAt": "2026-09-13T15:42:16.076Z",
+            "status": 200,
+            "recordedSha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label-4.jpg.meta.json",
+          "sha256": "3bdd062d5ff40c245589dc45de90f2f2369cde47ee322cc94edd62b50af2edec"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7.html",
+          "sha256": "2469c1aa6bf3e6d789af23824f7e5ee78d27bbba43455f8379bfbec7f52cbfa0",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page7/index.html",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page7/index.html",
+            "retrievedAt": "2026-09-13T15:22:24.485Z",
+            "status": 200,
+            "recordedSha256": "2469c1aa6bf3e6d789af23824f7e5ee78d27bbba43455f8379bfbec7f52cbfa0"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7.html.meta.json",
+          "sha256": "3a50b91fc53d6feaf541b596e4033db6269298f8c361686a25426e0eeb71d799"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7-full.jpg",
+          "sha256": "febb74aeeb52123a0fd21e85d05b9e31dbdfb3a6790a42b32e5f9f8f9766a93e",
+          "provenance": {
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page7/p7.jpg",
+            "finalUrl": "https://storage.westernbass.com/brochures/2014_stren/page7/p7.jpg",
+            "retrievedAt": "2026-09-13T15:23:16.262Z",
+            "status": 200,
+            "recordedSha256": "febb74aeeb52123a0fd21e85d05b9e31dbdfb3a6790a42b32e5f9f8f9766a93e"
+          }
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7-full.jpg.meta.json",
+          "sha256": "e808bfeacc702f9fc0b0c570336de9aaaa3e7d538f3e6cfd99962e3bb435e152"
+        }
+      ],
+      "verdict": "pass-exact-undated-label-scope",
+      "scope": "Undated original SCB30040-22, UPC 042083373053; 40 lb Lo-Vis Green, .25 mm, 300 yd/rounded 274 m only.",
+      "numericBasis": "authentic-manufacturer-package-label-on-third-party-host",
+      "identityExact": true,
+      "sourceAssessment": "Directly viewed the complete original spool photo and an in-memory magnification of its center label. SCB30040-22, UPC 042083373053, 40LB/18.2kg, 300YD/274m, Lo-Vis Green and .25mm are legible. The neighboring 10Lb Test Dia is a mono-equivalent test comparison, not the strength or a number converted to physical units. The accepted input is the separately printed .25 mm, divided by 25.4 for inches. Native 300 yd is retained.",
+      "historicalVersionAssessment": "The 2014 catalog page 7 independently confirms Sonic Braid, Dyneema PE and GlideCoat. Its Test/Diam. values are mono-equivalent pound-test ratios, so that catalog supplies neither the physical-mm row nor the photo date. The pack correctly labels the photo undated and does not assert continuity with later Stren Braid.",
+      "imageAssessment": "The hero is the exact inspected label photo, not an unrelated package. Fresh download is byte-identical to the saved asset. In-memory analytical magnification was used only to read existing pixels; no source image or file was altered.",
+      "consumerCopyAssessment": "The retailer title's 0.16 mm/110 m conflict is disclosed and rejected; numeric authority remains the actual manufacturer printing. Copy correctly limits all uses to the exact label, distinguishes mono equivalent, and makes no manufacture-date, current-stock or storage-condition guarantee.",
+      "acceptanceConditions": [
+        "Do not restore other Sonic strengths or 125/1500-yard family packages.",
+        "Retain the undated-label and retailer-title conflict disclosures. The 2014 family source must not be described as a 2014 physical-diameter chart or label date."
+      ],
+      "goldConfigComplete": true,
+      "blockers": []
+    }
+  ],
+  "integrationRequirements": [
+    "Replace the accepted numerical values and package arrays; do not union legacy package options or leave the old unsourced diameter under a preserved ID.",
+    "Carry historical/year/region or undated exact-SKU scope into every consumer of these generic catalog IDs. Existing IDs are preserved for strength identity, not a declaration that historical and current editions are interchangeable.",
+    "Preserve all excludedLineIds. Super Knot 15 lb and FluoroCast 20 lb remain excluded; do not delete unrelated inventory records.",
+    "The configs' research-local image paths are permitted by this task's original narrow write scope and resolve on disk. Main must include those exact assets in release output or deliberately relocate references without substituting artwork.",
+    "Keep source note, quick summary, chart note and explicit chart caption; they prevent historical/reference data being presented as current-stock specifications.",
+    "Third-party hosting of authentic original documents/labels is disclosed. Numeric acceptance does not grant permission to republish photography or archived artwork.",
+    "Integrated browser/mobile, staging asset resolution and full release checks remain main's responsibility."
+  ],
+  "writeScope": [
+    "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json",
+    "research/line-pages/full-catalog/resolution-independent-review/group-c-review.md"
+  ]
+}
+

@@ -595,7 +595,7 @@
   }
 
   function lineProductLabel(line) {
-    return [line.brand, line.model].filter(Boolean).join(" ");
+    return window.ReelCalcLineSelector.scopedProductLabel(line);
   }
 
   function lineLabel(line) {
@@ -650,6 +650,8 @@
     var selected = strengths.find(function(line) { return line.id === preferredLineId; }) || null;
     roleState.line = selected;
 
+    if (selected) controls.product.value = lineProductLabel(selected);
+
     controls.strength.innerHTML = strengths.length
       ? '<option value=""' + (selected ? "" : " selected") + '>Choose strength</option>' + strengths.map(function(line) {
           return '<option value="' + escapeHtml(line.id) + '"' + (selected && line.id === selected.id ? " selected" : "") + ">" +
@@ -658,7 +660,7 @@
       : '<option value="">Choose a line first</option>';
     controls.strength.disabled = !strengths.length;
     controls.detail.textContent = selected
-      ? "Published diameter: " + trimNumber(selected.dia_in, 4) + " in (" + trimNumber(selected.dia_mm || selected.dia_in * 25.4, 3) + " mm)"
+      ? "Published diameter: " + trimNumber(selected.dia_in, 4) + " in (" + trimNumber(selected.dia_mm || selected.dia_in * 25.4, 3) + " mm)" + (selected.source_scope_label ? ". " + selected.source_scope_label : "")
       : "Choose an exact line and strength.";
     renderLineFit();
   }

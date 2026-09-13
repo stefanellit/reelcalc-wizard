@@ -255,7 +255,7 @@
       var product = line.custom_line
         ? "Custom " + selector.normalizedMaterial(line.type).toLowerCase()
         : [line.brand, line.model].filter(Boolean).join(" ");
-      return product + " " + strengthLabel(line);
+      return product + " " + strengthLabel(line) + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "");
     }
 
     function setActiveButtons(action, attribute, value) {
@@ -309,7 +309,7 @@
       });
       q(role + "-strength").disabled = !strengths.length;
       q(role + "-detail").textContent = current
-        ? "Published diameter: " + formatNumber(inchesToDisplay(current.dia_in), state.unit === "metric" ? 3 : 4) + " " + (state.unit === "metric" ? "mm" : "in")
+        ? "Published diameter: " + formatNumber(inchesToDisplay(current.dia_in), state.unit === "metric" ? 3 : 4) + " " + (state.unit === "metric" ? "mm" : "in") + (current.source_scope_label ? ". " + current.source_scope_label : "")
         : "Choose the exact line and strength you plan to spool.";
       qa('[data-action="material"][data-line-role="' + role + '"]').forEach(function(button) {
         button.classList.toggle("active", button.dataset.material === roleState.material);

@@ -99,6 +99,13 @@
 
       appendCell(row, line.brand);
       appendCell(row, line.model);
+      if (line.source_scope_label) {
+        row.dataset.lineModel = line.model;
+        row.dataset.sourceScopeLabel = line.source_scope_label;
+        var scope = document.createElement("small");
+        scope.textContent = " (" + line.source_scope_label + ")";
+        row.cells[1].appendChild(scope);
+      }
 
       var typeCell = document.createElement("td");
       var typeLabel = document.createElement("span");
@@ -201,7 +208,7 @@
         var option = document.createElement("option");
         option.value = String(line.databaseIndex);
         option.textContent = line.brand + " " + line.model + " - " + line.lb +
-          " lb (" + formatDiameter(line.dia_in, 4) + " in)";
+          " lb (" + formatDiameter(line.dia_in, 4) + " in)" + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "");
         lineSelect.appendChild(option);
       });
     }

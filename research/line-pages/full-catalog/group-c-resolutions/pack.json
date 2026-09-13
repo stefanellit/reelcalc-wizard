@@ -1,0 +1,1203 @@
+{
+  "group": "group-c-resolutions",
+  "checkedAt": "2026-09-13T15:49:16.343Z",
+  "originalPackSha256": "cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29",
+  "models": [
+    {
+      "id": "lew-s-mach-braid",
+      "brand": "Lew's",
+      "model": "Mach Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "Exact Mach Braid fishing-line identity remains unproved after renewed exact-name, manufacturer product/resource-center and historical catalog searches. MACH results refer to reels and combos; their braid capacity is not a fishing-line specification. Historical APT-8 Speed Line is a different named family, not an established alias. Need an original manufacturer line SKU or readable original label establishing this exact inventory identity, then a physical diameter and package mapping. No proof of discontinuation is asserted.",
+      "sourceUrls": [
+        "https://www.lews.com/en/Products-en.aspx",
+        "https://www.lews.com/en/resource-center"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/lews-exact.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/discovery-7.web.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:41:45.800Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-exact-inventory-identity",
+        "note": "Do not substitute APT-8 or turn reel braid-capacity labels into diameter."
+      }
+    },
+    {
+      "id": "lew-s-team-lew-s-fluorocarbon",
+      "brand": "Lew's",
+      "model": "Team Lew's Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "Exact Team Lew's Fluorocarbon line identity remains unproved. Renewed results include Team Lew's Pro SP reel manuals mentioning fluorocarbon capacity and historical APT Fluorocarbon Speed Line, not a primary statement that APT is this inventory model. Need original manufacturer line SKU/label identity plus physical diameter and exact packages. Catalog absence/search failure is not proof of discontinuation.",
+      "sourceUrls": [
+        "https://www.lews.com/globalassets/lews-catalog/pspc/pspc_teamlewsprosp_manual.pdf",
+        "https://www.lews.com/en/resource-center"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/lews-exact.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/discovery-7.web.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:41:46.763Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-exact-inventory-identity",
+        "note": "Do not relabel APT Fluorocarbon Speed Line as Team Lew's Fluorocarbon."
+      }
+    },
+    {
+      "id": "lew-s-team-lew-s-monofilament",
+      "brand": "Lew's",
+      "model": "Team Lew's Monofilament",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "Exact Team Lew's Monofilament line identity remains unproved. Manufacturer Team Lew's search results identify reels and mono attachment/capacity guidance; historical Speed Line references do not establish this exact mainline family. Need original manufacturer line SKU or readable label, physical diameter chart and exact package mapping. Legacy database values remain inventory only; no discontinued claim is made.",
+      "sourceUrls": [
+        "https://www.lews.com/globalassets/lews-catalog/pspc/pspc_teamlewsprosp_manual.pdf",
+        "https://www.lews.com/en/resource-center"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/lews-exact.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/discovery-7.web.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:41:47.627Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-exact-inventory-identity",
+        "note": "A reel's monofilament capacity and attachment instructions do not identify a monofilament product."
+      }
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "brand": "SpiderWire",
+      "model": "Stealth Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Recovered ONLY as a 2016-launch Japan listing of US-labeled Moss Green imports. Primary manufacturer states standard actual diameter 50 lb .419 mm and 65 lb .447 mm, with exact SS50G-125 / SS65G-125 125-yard SKUs. These are not advertised current US diameters, not an equivalence to newer Stealth formulations. Preserve model/row IDs but explicitly label this historical regional source basis. No 300-yard mapping imported.",
+      "sourceUrls": [
+        "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+        "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+        "https://www.spiderwire.com/products/stealth-filler-spool.js"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-jp-2016.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-jp-2016.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-japan-web.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-us.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-us.json.meta.json"
+      ],
+      "rows": [
+        {
+          "id": "spiderwire-stealth-braid-braid-50",
+          "lb": 50,
+          "dia_in": 0.016496062992125984,
+          "dia_mm": 0.419,
+          "diameterBasis": "published-mm",
+          "spool_sizes_yd": [
+            125
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+          "evidence": "2016-launch Japan listing, US-labeled import; standard actual diameter 50 lb = 0.419 mm. Manufacturer table SKU 1339729, UPC 022021600830, SS50G-125, Moss Green, 50 lb / 125 yd. Inches converted from mm / 25.4, not independently printed. Regional actual-diameter basis is NOT current US advertised-diameter equivalence. Product-wide 300 yd prose not applied to this row."
+        },
+        {
+          "id": "spiderwire-stealth-braid-braid-65",
+          "lb": 65,
+          "dia_in": 0.017598425196850394,
+          "dia_mm": 0.447,
+          "diameterBasis": "published-mm",
+          "spool_sizes_yd": [
+            125
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+          "evidence": "2016-launch Japan listing, US-labeled import; standard actual diameter 65 lb = 0.447 mm. Manufacturer table SKU 1339730, UPC 022021600847, SS65G-125, Moss Green, 65 lb / 125 yd. Inches converted from mm / 25.4, not independently printed. Regional actual-diameter basis is NOT current US advertised-diameter equivalence. Product-wide 300 yd prose not applied to this row."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "Stealth Braid",
+        "slug": "spiderwire-stealth-braid-diameter-capacity-guide",
+        "brand": "SpiderWire",
+        "model": "Stealth Braid",
+        "lineType": "Braid",
+        "defaultLineId": "spiderwire-stealth-braid-braid-50",
+        "defaultSpoolYards": 125,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "backing",
+        "excludedLineIds": [
+          "spiderwire-stealth-braid-braid-10",
+          "spiderwire-stealth-braid-braid-15",
+          "spiderwire-stealth-braid-braid-20",
+          "spiderwire-stealth-braid-braid-30"
+        ],
+        "h1": "SpiderWire Stealth Braid",
+        "seoTitle": "Stealth Braid 2016 Japan Diameter Guide | ReelCalc",
+        "metaDescription": "Plan from the 2016 Japan Stealth Braid listing: 50/65 lb Moss Green, published actual diameters and exact 125-yard SKUs. Not current US specifications.",
+        "construction": "Dyneema PE braid with manufacturer-described Teflon treatment",
+        "quickSummary": "This is a narrow reference to Pure Fishing Japan's 2016-launch Stealth Braid listing of US-labeled imports: 50 and 65 lb Moss Green in exact 125-yard SKUs. The manufacturer gives standard actual diameters of .419 and .447 mm. These regional historical values are not interchangeable with current US advertised diameters, newer Stealth packaging or a mono-equivalent pound-test label.",
+        "suitabilityTitle": "A heavy-cover plan with a clearly identified diameter basis",
+        "suitabilitySummary": "The Japanese manufacturer positioned this Stealth listing for punching, pitching and other cover work. Use those applications as context, then check your own rod, reel and line rating. The published actual-mm basis can produce less estimated capacity than a thinner advertised number elsewhere. That is a source-basis difference to preserve, not a calculation to repair by borrowing another chart.",
+        "strengthGuide": [
+          "Only 50 and 65 lb have physical diameters in this source. Lower-test SKUs on the same page do not establish lower-test diameter rows.",
+          "The .419 mm 50 lb and .447 mm 65 lb inputs must remain paired with their own labels and IDs. Do not use a mono-equivalent test as an inch or mm measurement.",
+          "Both reviewed SKUs are 125-yard Moss Green packages. The prose also mentions 300 yards, but it does not provide the strength-specific mapping used here."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Identify the historical import",
+            "text": "Compare the package with the 2016 Japan-listed SS50G-125 or SS65G-125 SKU. The original red Stealth Braid artwork is shown; a newer green US package needs its own diameter verification."
+          },
+          {
+            "title": "Allow for the actual-mm basis",
+            "text": "These published diameters are comparatively large capacity inputs. Confirm that the chosen working section plus reserve fits your reel instead of assuming a typical 50 or 65 lb braid fill."
+          },
+          {
+            "title": "Secure the spool connection",
+            "text": "Use the reel maker's instructions for braid attachment. Where required, start with monofilament backing to prevent spool slip; its diameter also affects the amount needed."
+          },
+          {
+            "title": "Keep the connection below the cast",
+            "text": "Size the working section for cast length and reserve, wind firmly and evenly, and stop at the reel's specified clearance. The 125-yard package is not a promise that the whole package fits every reel."
+          }
+        ],
+        "reviewNote": "ReelCalc did not measure this braid or perform abrasion/casting tests. Actual-diameter terminology is the Japanese manufacturer's source wording, not an independent laboratory measurement.",
+        "chartNote": "2016-launch Japan listing of US-labeled Moss Green imports ONLY. Physical diameters: 50 lb .419 mm, 65 lb .447 mm; exact 125-yard SKUs 1339729/1339730. Inches are conversions. Do not merge these regional actual-mm values with current US advertised diameters, other colors or the unmapped 300-yard mention.",
+        "chartCaption": "2016-launch Japan Stealth Braid import specifications. Published actual-mm basis and exact 125-yard Moss Green SKUs; not current US specifications or current availability.",
+        "sourceNote": "Checked September 13, 2026 from the manufacturer's Japan product page, which states a late-April 2016 launch, US pound/yard labeling, standard actual diameters and exact SKU rows. Original red package art was retrieved unchanged from that page. The current US feed has different SKUs and supplies no physical diameters, so no current equivalence is claimed.",
+        "imageUrl": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+        "localImagePath": "research/line-pages/full-catalog/group-c-resolutions/assets/stealth-jp-2016.jpg",
+        "imageAlt": "Original red SpiderWire Stealth Braid package and Moss Green spool pictured on the 2016-launch Japan manufacturer listing",
+        "manufacturerFacts": [
+          {
+            "label": "Dated regional listing",
+            "text": "The Japanese manufacturer identifies a late-April 2016 launch of US pound/yard-labeled imports."
+          },
+          {
+            "label": "Construction description",
+            "text": "That listing describes Dyneema microfiber braid with Teflon treatment and positions it for cover fishing."
+          }
+        ],
+        "setupComparison": {
+          "title": "Historical actual diameter or a newer advertised diameter?",
+          "leftTitle": "This 2016 Japan reference",
+          "leftText": "Uses only the manufacturer's .419/.447 mm standard actual diameters and two exact 125-yard SKUs.",
+          "rightTitle": "Current US or another regional Stealth",
+          "rightText": "Needs its own physical diameter and package evidence. Matching the Stealth name and test rating does not establish equal capacity."
+        },
+        "bestFit": "A verified match to the 2016 Japan-listed 50 or 65 lb Moss Green import, with a deliberately sized working section and reserve.",
+        "tradeoff": "This is a two-strength historical regional reference, not a general current Stealth chart. Its diameter basis must remain visible wherever these rows are used.",
+        "productGuidanceTitle": "Preserve the regional source basis",
+        "productGuidance": [
+          "Do not substitute thinner current or retailer-listed diameters to increase the capacity estimate.",
+          "Keep the exact 125-yard SKU mapping; no 300-yard row is inferred.",
+          "Check package identity and condition before using historical stock."
+        ],
+        "recommendationIntro": "Select one of the two documented test ratings only after confirming the 2016 Japan import identity.",
+        "reelcalcNote": "Backing mode is available for a planned braid working section; attach and fill according to the reel manufacturer's instructions.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "spiderwire-stealth-braid-braid-50",
+            "workingYards": 50,
+            "spoolYards": 125
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "spiderwire-stealth-braid-braid-65",
+            "workingYards": 40,
+            "spoolYards": 125
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Why are these diameters larger than some Stealth charts?",
+            "answer": "This page preserves the Japanese manufacturer's standard actual-mm specification for its 2016-launch imports. It does not substitute or merge a different advertised diameter basis. No independent measurement or equivalence is claimed."
+          },
+          {
+            "question": "Can I use this chart for current US Stealth?",
+            "answer": "Not without confirming the exact formulation, SKU and diameter basis. The current US feed has different product codes and does not provide physical diameters establishing continuity."
+          },
+          {
+            "question": "Why are only 50 and 65 lb included?",
+            "answer": "They are the only strengths with stated physical diameters on the reviewed Japanese page. Lower-test SKU names and mono-equivalent labels are not enough to calculate diameter."
+          },
+          {
+            "question": "Why is 300 yards not offered in the chart?",
+            "answer": "The page mentions 300-yard packages in general prose, but the reviewed 50/65 lb table rows identify 125-yard SKUs. This guide does not infer the missing strength/package combination."
+          },
+          {
+            "question": "Is the red artwork current packaging?",
+            "answer": "It is original artwork linked by the 2016-launch Japan listing. It illustrates that historical product family and is not presented as a current-stock or current-US packaging claim."
+          }
+        ],
+        "sources": [
+          {
+            "label": "2016-launch Japan manufacturer specifications",
+            "url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+            "note": "Sole numeric authority: actual-mm statements plus 50/65 lb 125-yard SKU rows."
+          },
+          {
+            "label": "Original Japan-listing Stealth artwork",
+            "url": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+            "note": "Unmodified original red package and Moss Green spool image."
+          },
+          {
+            "label": "Current US public feed, not diameter authority",
+            "url": "https://www.spiderwire.com/products/stealth-filler-spool.js",
+            "note": "Newly retrieved exact package SKUs; no physical diameters or historical-formulation equivalence established."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiderwire-stealth-smooth-8",
+      "brand": "SpiderWire",
+      "model": "Stealth Smooth 8",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current US public feed now supplies 22 exact strength/package variants, but no physical diameter values. All seven current manufacturer image files were inspected; numeric label areas are blank and back-panel ratings are not a diameter chart. The Korean manufacturer Smooth8 chart gives PE size plus maximum/average tensile strengths and different regional KRSS8 SKUs, not physical mm/in. No PE-to-mm conversion or transfer of Korean maximum breaking loads to US lb-test rows is permitted. Exact original US physical-diameter chart or a readable matching original label is still required.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/stealth-smooth-filler-spool.js",
+        "https://www.purefishing.co.kr/m/spiderwire/product_view.php?idx=1276",
+        "https://www.purefishing.co.kr/data/editor/2405/c6fd91b2932b5bc817dd9819c0092cad_1715331564_2349.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-smooth-us.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stealth-smooth-us.json.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/smooth8-korea.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/smooth8-korea.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/smooth8-korea-chart.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/smooth8-korea-chart.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/korea-products.web.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:49:12.216Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-physical-diameter",
+        "packageProgress": "22 US public-feed variants saved; not a cross-product of selectors.",
+        "regionalContrast": "Korean KRSS8SFS4-MGRN SAP 1623329 is 150 m / PE 0.6 / maximum 15 lb, not a US 4 lb diameter row. Korean table distinguishes maximum and average tensile strength.",
+        "needed": "Exact regional original manufacturer physical-diameter chart or readable original spool label.",
+        "imageReview": "All 7 current US manufacturer images inspected in prior checkpoint; blank numeric areas. Korean physical chart inspection: PE size, max and average lb columns, no mm/in."
+      }
+    },
+    {
+      "id": "spiderwire-ultracast-invisi-braid",
+      "brand": "SpiderWire",
+      "model": "Ultracast Invisi-Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Exact historical Invisi-Braid identity is confirmed by original 2014 US catalog page 2, but its TEST/DIA ratios are mono-equivalent lb labels, not physical diameters. A 2024 SEA manufacturer catalog search extract presents a promising exact SUCFS*-IB SKU/lb/mm/length table; both original PDF URLs failed normal HTTP retrieval and one web fetch returned Bot Verification. Search snippets alone were NOT promoted to source-verified rows. Korea's official Invisi chart instead gives PE sizes and regional maximum tensile loads (for example SUCFS4-IB is SAP 1623377, 15 lb maximum), with no physical mm/in. Need the readable SEA original chart plus matching original image, or another exact original label; no transfer from the separately verified 8 lb Inshore Camo model.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2014_spiderwire/page2/index.html",
+        "https://storage.westernbass.com/brochures/2014_spiderwire/page2/p2.jpg",
+        "https://purefishingmalaysia.com/wp-content/uploads/2025/01/Pure-Fishing-SEA-Catalogue.pdf.pdf",
+        "https://purefishingmalaysia.com/wp-content/uploads/2024/09/Pure-Fishing-SEA-Catalogue.pdf",
+        "https://www.purefishing.co.kr/m/spiderwire/product_view.php?idx=1300",
+        "https://www.purefishing.co.kr/data/editor/2405/c6fd91b2932b5bc817dd9819c0092cad_1715331663_5608.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page2.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page2.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-invisibraid.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-invisibraid.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/discovery-10.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/discovery-11.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/pure-fishing-sea-2024.pdf.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/pure-fishing-sea-catalogue.pdf.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/sea-catalog-fetch.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/malaysia-access.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/invisi-korea.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/invisi-korea.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/invisi-korea-chart.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/invisi-korea-chart.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:49:12.719Z",
+        "decision": "final-hold",
+        "numericAuthority": "promising-primary-search-extract-not-directly-inspected",
+        "needed": "Readable original 2024 SEA catalog table and matching original artwork; retain explicit SEA edition, exact SAP/SKU and source basis.",
+        "unpromotedLead": "Search-indexed SEA SUCFS4-IB through SUCFS40-IB physical mm table with 150m/164yd labeling. Preserved in discovery files only; no active numeric rows.",
+        "regionalContrast": "Korea uses different SAP codes and PE/max-tensile labeling despite familiar SUCFS text. Do not infer US/SEA pound-test equivalence from a model code substring.",
+        "access": "Two normal PDF HTTP fetches failed; web also reported timeout/bot verification. No bypass attempted."
+      }
+    },
+    {
+      "id": "spiderwire-durabraid",
+      "brand": "SpiderWire",
+      "model": "DuraBraid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current US manufacturer feed now establishes 52 exact variants, but no physical diameter table. Nineteen available original image files were inspected (one further fetch failed); blank numeric label areas and performance bars do not establish diameters. Pure Fishing Korea's Dura4 is explicitly DURA4-BRAID with PE-size and maximum/average tensile-load charts, not an established alias of US DuraBraid and not an mm/in chart. Need an exact DuraBraid original diameter chart or readable original label; do not borrow Stealth, Dura4, retailer-entered or legacy database numbers.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/durabraid-filler-spool.js",
+        "https://www.purefishing.co.kr/m/spiderwire/product_view.php?idx=1303",
+        "https://www.purefishing.co.kr/data/editor/2104/1508216647431c3b243d2a8e8bb54ca9_1619061426_3112.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/durabraid-us.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/durabraid-us.json.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/dura4-korea.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/dura4-korea.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/dura4-korea-chart.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/dura4-korea-chart.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/korea-products.web.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:49:13.143Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-exact-US-product",
+        "packageProgress": "52 US public-feed variants saved with exact options.",
+        "needed": "Original DuraBraid physical-diameter chart or matching original label.",
+        "imageReview": "19 successfully retrieved current US images inspected; no usable physical specification. One image fetch failed. Korean chart visually names DURA4-BRAID and supplies PE/max/average lb, not mm/in.",
+        "notEquivalent": "Dura4 regional family not silently substituted for DuraBraid; no unsupported carrier count inferred."
+      }
+    },
+    {
+      "id": "spiderwire-ez-braid",
+      "brand": "SpiderWire",
+      "model": "EZ Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Current US public feed now verifies 20 exact variants across 10/15/20/30/50 lb and 110/300 yd, but has no physical diameters. Seven available manufacturer image files were inspected (one further fetch failed); label numeric fields are blank. Original 2014 US page 11 TEST/DIA ratios are mono-equivalent pound tests, not mm/in. Korean New EZ page/image (2017 regional introduction) lists PE size and maximum/average tensile loads for 150/270 m packages, not a physical diameter chart or an equivalence to US test labels. Hold until an exact original physical-diameter chart or readable matching label is obtained. Legacy 40 lb remains unsupported.",
+      "sourceUrls": [
+        "https://www.spiderwire.com/products/ez-braid-filler-spool.js",
+        "https://storage.westernbass.com/brochures/2014_spiderwire/page11/index.html",
+        "https://www.purefishing.co.kr/m/spiderwire/product_view.php?idx=883"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/ez-braid-us.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/ez-braid-us.json.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page11.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page11.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-ez.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-ez.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/ez-korea.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/ez-korea.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/ez-korea-chart.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/ez-korea-chart.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:49:13.502Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-physical-diameter",
+        "packageProgress": "20 exact US feed variants saved; no 40 lb variant.",
+        "needed": "Original physical mm/in plus exact labeled test and package, not a mono-equivalent or PE conversion.",
+        "regionalContrast": "Korean 150/270 m New EZ chart uses PE 0.8-5.0 and max/average tensile pounds, not the US 10/15/20/30/50 lb rows.",
+        "imageReview": "7 current US image files inspected with blank specification areas; one image fetch failed. Korean and 2014 US charts visually inspected."
+      }
+    },
+    {
+      "id": "spiderwire-fluorocarbon",
+      "brand": "SpiderWire",
+      "model": "Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "identity-conflict",
+      "reason": "The 2014 original US manufacturer catalog visibly contains two separate fluorocarbon families: Ultracast 100% Fluorocarbon on page 4 and EZ Fluoro on page 11, with different physical diameter charts. The inventory's generic Fluorocarbon name supplies no SKU, label or manufacturer alias selecting either. Fluoro-Braid on page 4 is explicitly a braid and is also not this identity. Need original label/SKU or documented alias before selecting a chart; numeric rows and product config intentionally remain empty.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2014_spiderwire/page4/index.html",
+        "https://storage.westernbass.com/brochures/2014_spiderwire/page11/index.html"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page4.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page4.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page11.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-page11.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-fluorocarbon.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-fluorocarbon.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-ez.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/spiderwire-2014-ez.jpg.meta.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:41:48.369Z",
+        "decision": "final-hold",
+        "numericAuthority": "none-for-exact-inventory-identity",
+        "note": "Visually reviewed original page art. Ultracast: 6 lb .009 in / 8 .010 / 10 .011 / 12 .012 / 15 .014, 200 yd Clear. EZ Fluoro: 2 .006 / 4 .008 / 6 .010 / 8 .011 / 10 .012 / 12 .013 / 15 .015, 200 yd Clear. These are contrasting identity evidence ONLY, not active rows or candidate configs."
+      }
+    },
+    {
+      "id": "stren-super-knot",
+      "brand": "Stren",
+      "model": "Super Knot",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Recovered from exact-name 2014 US manufacturer catalog, archive page 4, left Super Knot table. Eight Clear/Lo-Vis Green rows, all 220 yd. Not Power Knot or the neighboring MagnaThin table. This explicitly historical candidate replaces no current-formulation claim. Unverified legacy 15 lb excluded; 14/17 lb and 4 lb are independently printed, not relabeled.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+        "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+        "https://storage.westernbass.com/brochures/2014_stren/page4/p4.jpg",
+        "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-index.xml",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-full.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-full.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page4-resources.xml",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p4_i48.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p4_i48.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "id": "stren-super-knot-monofilament-4",
+          "lb": 4,
+          "dia_in": 0.008,
+          "dia_mm": 0.2032,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 4 lb, 0.008 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-6",
+          "lb": 6,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 6 lb, 0.010 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-8",
+          "lb": 8,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 8 lb, 0.012 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-10",
+          "lb": 10,
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 10 lb, 0.013 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-12",
+          "lb": 12,
+          "dia_in": 0.014,
+          "dia_mm": 0.3556,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 12 lb, 0.014 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-14",
+          "lb": 14,
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 14 lb, 0.015 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-17",
+          "lb": 17,
+          "dia_in": 0.017,
+          "dia_mm": 0.4318,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 17 lb, 0.017 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        },
+        {
+          "id": "stren-super-knot-monofilament-20",
+          "lb": 20,
+          "dia_in": 0.019,
+          "dia_mm": 0.4826,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            220
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "evidence": "Visually checked 2014 US catalog page 4, LEFT Super Knot table: 20 lb, 0.019 in, Clear and Lo-Vis Green dots; 4-20 lb / 220 yds filler legend. Millimeters converted from published inches x 25.4. Not neighboring MagnaThin or later Power Knot."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "Super Knot",
+        "slug": "stren-super-knot-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "Super Knot",
+        "lineType": "Monofilament",
+        "defaultLineId": "stren-super-knot-monofilament-8",
+        "defaultSpoolYards": 220,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [
+          "stren-super-knot-monofilament-15"
+        ],
+        "h1": "Stren Super Knot",
+        "seoTitle": "Stren Super Knot Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Compare Stren Super Knot's 2014 US Clear and Lo-Vis Green diameter chart and 220-yard fillers. Historical specifications, not current availability.",
+        "construction": "Self-lubricating monofilament",
+        "quickSummary": "This guide covers Stren Super Knot as documented in the 2014 US manufacturer catalog: eight 4-20 lb test steps, Clear and Lo-Vis Green, on 220-yard fillers. Super Knot is the named monofilament product, not later Power Knot or adjacent MagnaThin. These are historical specifications, not evidence of current stock or unchanged formulation.",
+        "suitabilityTitle": "Plan the fill around Super Knot's own diameter",
+        "suitabilitySummary": "The self-lubricating formula was Stren's knot-focused positioning, not a guarantee against knot failure. The practical starting point is the exact diameter and a suitable test rating for your tackle. Super Knot's .012-inch 8 lb row uses more reel space than a thinner 8 lb mono; a familiar strength label alone does not establish capacity.",
+        "strengthGuide": [
+          "The 4 and 6 lb rows are the lighter end of this edition. Choose strength for the tackle and conditions before considering how much extra line fits.",
+          "The 8-12 lb rows step from .012 to .014 inch. A 220-yard filler does not imply the same number of fills at each strength.",
+          "The upper steps are 14,17 and 20 lb. There is no 15 lb row in this exact chart; do not relabel 14 lb or import a later product's values."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Match the name and edition",
+            "text": "Check Super Knot on the package and compare its diameter with this 2014 reference. A Power Knot package needs a separate source even when its test rating matches."
+          },
+          {
+            "title": "Budget the 220-yard filler",
+            "text": "All eight listed strengths have the same published filler length in Clear and Lo-Vis Green. Compare that length with full-spool capacity and your planned working reserve before choosing a full fill or shorter fresh section."
+          },
+          {
+            "title": "Check knots under controlled load",
+            "text": "Wet and seat an appropriate knot carefully, then test it before fishing. The catalog's self-lubricating claim does not remove the need to inspect damage or retie."
+          },
+          {
+            "title": "Stop at the reel's fill limit",
+            "text": "Use even tension and the reel manufacturer's specified clearance. If backing is used for a short fresh section, keep the joining knot below the longest expected cast and reserve."
+          }
+        ],
+        "reviewNote": "No hands-on knot, casting or abrasion test was performed. Self-lubricating and knot-strength language is attributed manufacturer positioning, not a ReelCalc performance guarantee.",
+        "chartNote": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+        "chartCaption": "2014 US Super Knot Clear and Lo-Vis Green filler specifications. Historical 220-yard packages, not current availability.",
+        "sourceNote": "Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+        "localImagePath": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-super-knot-2014.jpg",
+        "imageAlt": "Original 2014 lime-green and black Stren Super Knot package, distinct from turquoise MagnaThin",
+        "manufacturerFacts": [
+          {
+            "label": "Named formulation",
+            "text": "Stren described this Super Knot monofilament as self-lubricating, with knot retention as its central positioning."
+          },
+          {
+            "label": "Dated color scope",
+            "text": "The 2014 chart documents Clear and Lo-Vis Green for every listed Super Knot strength."
+          }
+        ],
+        "setupComparison": {
+          "title": "Full fill or fresh working section?",
+          "leftTitle": "Full Super Knot fill",
+          "leftText": "Use the exact historical diameter to compare total reel capacity with the 220-yard filler.",
+          "rightTitle": "Super Knot over retained backing",
+          "rightText": "A shorter fresh section can conserve line, but the connection must stay below the cast and reserve. This is optional, not an anti-slip requirement specific to this mono."
+        },
+        "bestFit": "An identified Super Knot package whose diameter matches the 2014 US reference, with enough working reserve for the chosen tackle.",
+        "tradeoff": "The chart is historical and includes different strength steps from some unverified inventories. Matching pound test is not proof of an unchanged formulation.",
+        "productGuidanceTitle": "Keep the knot claim separate from the fill calculation",
+        "productGuidance": [
+          "Use the chart's physical diameter, not advertised knot performance, for reel capacity.",
+          "The verified 14 lb step must not inherit an old 15 lb ID.",
+          "Inspect the package and line condition before using a historical spool."
+        ],
+        "recommendationIntro": "Choose a suitable rating from this edition's eight verified steps, then check the 220-yard package against the reel.",
+        "reelcalcNote": "Capacity mode starts with a full monofilament fill; backing is optional for a shorter working section.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "stren-super-knot-monofilament-6",
+            "workingYards": 100,
+            "spoolYards": 220
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "stren-super-knot-monofilament-10",
+            "workingYards": 75,
+            "spoolYards": 220
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Super Knot the same as Power Knot?",
+            "answer": "This source does not establish equivalence. The chart and image explicitly name Super Knot in 2014; Power Knot specifications are not transferred."
+          },
+          {
+            "question": "Why is 15 lb missing?",
+            "answer": "The 2014 Super Knot chart lists 14 lb and 17 lb around that part of the range. It does not list 15 lb, so that inventory row is excluded rather than relabeled."
+          },
+          {
+            "question": "Does self-lubricating mean a knot cannot fail?",
+            "answer": "No. That is manufacturer formulation language, not an independent guarantee. Knot choice, seating, wear and loading still matter."
+          },
+          {
+            "question": "Are both colors on 220-yard fillers?",
+            "answer": "Yes, the 2014 table marks Clear and Lo-Vis Green for all eight listed strengths under the 220-yard filler legend. Current stock is not established."
+          },
+          {
+            "question": "Can I apply this to a newer spool?",
+            "answer": "Only after checking that its exact product identity and diameter agree. A historical chart alone does not establish current formulation or package continuity."
+          }
+        ],
+        "sources": [
+          {
+            "label": "2014 Stren manufacturer Super Knot chart",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+            "note": "Sole numeric authority; left-hand table and 220-yard filler legend visually checked."
+          },
+          {
+            "label": "2014 catalog edition manifest",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+            "note": "Identifies the manufacturer catalog edition and page assets."
+          },
+          {
+            "label": "Original Super Knot package artwork",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+            "note": "Unmodified lime-green package asset from the same catalog."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stren-fluorocast",
+      "brand": "Stren",
+      "model": "Fluorocast",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Recovered from exact FluoroCast 2014 US manufacturer chart, archive page 6 LEFT table, seven 4-17 lb Clear rows with 100 yd pony and 200 yd filler packages. Same page separately documents 100% Fluoro with different rows; no equivalence is assumed. Legacy 20 lb excluded, 4 lb newly source-verified. Explicit historical scope, not current stock/formulation.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+        "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+        "https://storage.westernbass.com/brochures/2014_stren/page6/p6.jpg",
+        "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-index.xml",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-full.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-full.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page6-resources.xml",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p6_i78.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/stren-2014-p6_i78.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "id": "stren-fluorocast-fluorocarbon-4",
+          "lb": 4,
+          "dia_in": 0.007,
+          "dia_mm": 0.1778,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 4 lb, 0.007 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-6",
+          "lb": 6,
+          "dia_in": 0.009,
+          "dia_mm": 0.2286,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 6 lb, 0.009 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-8",
+          "lb": 8,
+          "dia_in": 0.01,
+          "dia_mm": 0.254,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 8 lb, 0.010 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-10",
+          "lb": 10,
+          "dia_in": 0.012,
+          "dia_mm": 0.3048,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 10 lb, 0.012 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-12",
+          "lb": 12,
+          "dia_in": 0.013,
+          "dia_mm": 0.3302,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 12 lb, 0.013 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-15",
+          "lb": 15,
+          "dia_in": 0.015,
+          "dia_mm": 0.381,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 15 lb, 0.015 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        },
+        {
+          "id": "stren-fluorocast-fluorocarbon-17",
+          "lb": 17,
+          "dia_in": 0.016,
+          "dia_mm": 0.4064,
+          "diameterBasis": "published-in",
+          "spool_sizes_yd": [
+            100,
+            200
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 17 lb, 0.016 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "shortName": "Fluorocast",
+        "slug": "stren-fluorocast-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "Fluorocast",
+        "lineType": "Fluorocarbon",
+        "defaultLineId": "stren-fluorocast-fluorocarbon-10",
+        "defaultSpoolYards": 200,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "capacity",
+        "excludedLineIds": [
+          "stren-fluorocast-fluorocarbon-20"
+        ],
+        "h1": "Stren Fluorocast",
+        "seoTitle": "Stren Fluorocast Diameter & Capacity Guide | ReelCalc",
+        "metaDescription": "Plan reel fills from Stren FluoroCast's 2014 US Clear chart: seven verified diameters, 100-yard pony and 200-yard filler packages. Historical reference only.",
+        "construction": "100% fluorocarbon mainline",
+        "quickSummary": "This guide is limited to Stren FluoroCast's 2014 US Clear specifications. The manufacturer documented seven 4-17 lb test steps with 100-yard pony and 200-yard filler packages. FluoroCast appears separately from Stren 100% Fluoro on that same catalog page; their diameters and color scopes are not interchangeable. Historical listings do not establish current stock or unchanged formulation.",
+        "suitabilityTitle": "Choose the full mainline plan before the package",
+        "suitabilitySummary": "FluoroCast was positioned as a castable fluorocarbon mainline. Use the exact 2014 diameter to decide how much fits, then choose between a full fresh fill and a shorter working section over backing. A 100-yard pony spool can be useful for a limited working section, but package size alone says nothing about whether the remaining cast and fighting reserve is adequate.",
+        "strengthGuide": [
+          "The 4-8 lb entries are the light end of this edition. Use them only where tackle and conditions suit the strength; extra capacity cannot compensate for an undersized line.",
+          "The 10 and 12 lb entries are .012 and .013 inch respectively in the FluoroCast table. Do not borrow the neighboring 100% Fluoro chart, whose strength-to-diameter mapping differs.",
+          "The upper verified steps are 15 and 17 lb, at .015 and .016 inch. A 20 lb FluoroCast row is not in this source and remains excluded."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Read FluoroCast on the package",
+            "text": "Look for the gray-and-black FluoroCast family, not the blue 100% Fluoro package. Both contain fluorocarbon, but shared material is not proof of the same diameter or specification."
+          },
+          {
+            "title": "Compare 100 and 200 yards",
+            "text": "The 2014 chart assigns both pony and filler formats to every listed 4-17 lb strength. Use the 200-yard option for a larger fresh fill or check a 100-yard working section against the required reserve."
+          },
+          {
+            "title": "Keep backing below the working line",
+            "text": "If you retain backing, leave the connection below the longest expected cast and extra line needed during a fight. Use the calculator's exact diameter input for both sections."
+          },
+          {
+            "title": "Inspect before loading",
+            "text": "Check the package identity, line condition and a carefully seated knot. Wind evenly and follow the reel's specified fill clearance; historical packaging does not establish the condition of an old spool."
+          }
+        ],
+        "reviewNote": "No independent casting, knot, shock or underwater visibility test was performed. Manufacturer handling and visibility statements are positioning, not a ReelCalc guarantee.",
+        "chartNote": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+        "chartCaption": "2014 US FluoroCast Clear specifications. Historical 100-yard pony and 200-yard filler packages, not current availability.",
+        "sourceNote": "Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+        "imageUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+        "localImagePath": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-fluorocast-2014.jpg",
+        "imageAlt": "Original 2014 gray-and-black Stren FluoroCast 100% fluorocarbon package with yellow model lettering",
+        "manufacturerFacts": [
+          {
+            "label": "Actual fluorocarbon",
+            "text": "The 2014 catalog and package identify FluoroCast as true fluorocarbon, not merely a fluorocarbon coating."
+          },
+          {
+            "label": "Mainline formats",
+            "text": "The historical Clear chart includes 200-yard fillers and newly introduced 100-yard pony spools across its listed strength range."
+          }
+        ],
+        "setupComparison": {
+          "title": "Which historical package fits the plan?",
+          "leftTitle": "200-yard filler",
+          "leftText": "Compare the larger package with calculated reel capacity before assuming one complete fill.",
+          "rightTitle": "100-yard pony",
+          "rightText": "Plan a shorter working section only where 100 yards leaves adequate cast and fighting reserve; backing may supply the remaining spool volume."
+        },
+        "bestFit": "A matched 2014-specification FluoroCast Clear package used for a mainline fill or a deliberately sized working section.",
+        "tradeoff": "FluoroCast and 100% Fluoro coexist in the source with different charts. Material similarity and newer packaging cannot establish equivalence.",
+        "productGuidanceTitle": "Keep family, diameter and package together",
+        "productGuidance": [
+          "The 100-yard pony option does not make this a leader-only product.",
+          "Use the 2014 FluoroCast diameter for the selected test rating, not Stren 100% Fluoro or an old unsourced database value.",
+          "No current availability, condition or unchanged formulation is claimed."
+        ],
+        "recommendationIntro": "Start with a suitable test rating from the seven published steps, then size the fresh section and package.",
+        "reelcalcNote": "Capacity mode starts with a full fluorocarbon mainline fill; backing is optional when planning a shorter fresh section.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "stren-fluorocast-fluorocarbon-6",
+            "workingYards": 100,
+            "spoolYards": 200
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "stren-fluorocast-fluorocarbon-10",
+            "workingYards": 75,
+            "spoolYards": 100
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is FluoroCast the same as Stren 100% Fluoro?",
+            "answer": "No equivalence is established. The 2014 catalog presents them as separate named families with separate diameter tables and colors. This guide uses FluoroCast Clear only."
+          },
+          {
+            "question": "Why is 20 lb excluded?",
+            "answer": "FluoroCast's 2014 table ends at 17 lb. The 20 lb row belongs to the neighboring 100% Fluoro family and cannot be transferred."
+          },
+          {
+            "question": "Are 100-yard packages leader spools?",
+            "answer": "The source calls them pony spools for the FluoroCast mainline family. A shorter package can support a working section, but this chart does not recategorize the product as leader-only."
+          },
+          {
+            "question": "Do both lengths apply to each listed strength?",
+            "answer": "Yes. The 2014 Clear table explicitly covers 4-17 lb for both 100-yard pony and 200-yard filler formats. That is a historical specification, not a current stock statement."
+          },
+          {
+            "question": "Are the millimeter values also printed?",
+            "answer": "No. The chart prints inches. Millimeters here are calculated as inches multiplied by 25.4, without importing a different regional table."
+          }
+        ],
+        "sources": [
+          {
+            "label": "2014 manufacturer FluoroCast chart",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+            "note": "Sole numeric authority; left-hand table, Clear column and both package legends visually checked."
+          },
+          {
+            "label": "2014 catalog edition manifest",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+            "note": "Identifies the dated publication and original page assets."
+          },
+          {
+            "label": "Original FluoroCast artwork",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+            "note": "Unmodified 2014 gray-and-black FluoroCast package, distinct from 100% Fluoro."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stren-sonic-braid",
+      "brand": "Stren",
+      "model": "Sonic Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "source-verified",
+      "reason": "Recovered ONLY as the exact undated legacy SCB30040-22 / UPC 042083373053 original spool label: 40 lb, .25 mm, 300 yd, Lo-Vis Green. Numeric authority is the readable original manufacturer label photographed on a retailer host, NOT the retailer's conflicting title/specification prose. The 2014 US original Stren catalog independently confirms the Sonic Braid/GlideCoat family but is not the physical-diameter authority. Label date and continuity with later Stren Braid are unknown; no 2014 manufacture or current-stock claim. User explicitly permits readable original labels. Other strengths and packages remain excluded.",
+      "sourceUrls": [
+        "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+        "https://www.bol.com/be/nl/p/sonic-braid-low-vis-green-gevlochten-lijn-met-dyneema-vislijn-visdraad-0-16mm-15-60kg-110m/9300000336551478/",
+        "https://storage.westernbass.com/brochures/2014_stren/page7/index.html",
+        "https://storage.westernbass.com/brochures/2014_stren/page7/p7.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/sonic-label-lead.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/sonic-label-lead.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label-3.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label-4.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/images/sonic-bol-label-4.jpg.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7-full.jpg",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/stren-2014-page7-full.jpg.meta.json"
+      ],
+      "rows": [
+        {
+          "id": "stren-sonic-braid-braid-40",
+          "lb": 40,
+          "dia_in": 0.00984251968503937,
+          "dia_mm": 0.25,
+          "diameterBasis": "published-mm",
+          "spool_sizes_yd": [
+            300
+          ],
+          "retail_packages": [],
+          "sourceUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+          "evidence": "Direct visual transcription of original Stren Sonic Braid spool label SCB30040-22, UPC 042083373053: 40LB / 18.2kg, 300YD / 274m, Lo-Vis Green, 10Lb Test Dia, .25mm. The 10Lb phrase is a mono-equivalent test, NOT the physical measurement used. Inches are .25/25.4 conversion. Preserve printed 300 yards; rounded 274 m is not re-converted. Label manufacture date unknown, US pound/yard-labeled legacy package. Retailer title says 0.16mm/15.6kg/110m and does NOT describe this photographed label; ignored. Do not transfer this number to other Sonic or later Stren Braid packages."
+        }
+      ],
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:46:52.153Z",
+        "decision": "narrow-source-verified-candidate",
+        "numericAuthority": "readable-original-manufacturer-label-on-retailer-host",
+        "edition": "Undated legacy SCB30040-22 label; 2014 US catalog is family corroboration only",
+        "hostConflict": "Retailer listing title and hero label differ from the actual detail label; only the detail label establishes this row.",
+        "labelVisualReview": {
+          "sku": "SCB30040-22",
+          "upc": "042083373053",
+          "lb": 40,
+          "diameterMm": 0.25,
+          "lengthYd": 300,
+          "color": "Lo-Vis Green",
+          "notUsed": "10Lb Test Dia is mono-equivalent; unrelated 0.12mm/11.4kg/270m package photo supplies no exact lb row."
+        }
+      },
+      "product": {
+        "presentation": "gold",
+        "shortName": "Sonic Braid",
+        "slug": "stren-sonic-braid-diameter-capacity-guide",
+        "brand": "Stren",
+        "model": "Sonic Braid",
+        "lineType": "Braid",
+        "defaultLineId": "stren-sonic-braid-braid-40",
+        "defaultSpoolYards": 300,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "defaultMode": "backing",
+        "excludedLineIds": [
+          "stren-sonic-braid-braid-10",
+          "stren-sonic-braid-braid-20",
+          "stren-sonic-braid-braid-30",
+          "stren-sonic-braid-braid-50",
+          "stren-sonic-braid-braid-65"
+        ],
+        "h1": "Stren Sonic Braid",
+        "seoTitle": "Sonic Braid 40 lb Legacy Label Guide | ReelCalc",
+        "metaDescription": "Plan from the original SCB30040-22 Sonic Braid label: 40 lb, .25 mm, Lo-Vis Green and 300 yards. A narrow legacy reference, not current availability.",
+        "construction": "Dyneema PE braid with Stren's GlideCoat treatment",
+        "quickSummary": "This guide covers one readable legacy Sonic Braid label, SCB30040-22: 40 lb Lo-Vis Green, .25 mm and 300 yards. The label also says 10 lb test diameter, but that is a mono-equivalent comparison, not the physical diameter used here. Stren's 2014 US catalog confirms the Sonic Braid and GlideCoat family; the photographed label itself is undated.",
+        "suitabilityTitle": "Plan a 40 lb braid working section from the actual label",
+        "suitabilitySummary": "Use this reference when your spool matches SCB30040-22, its test rating, color and printed diameter. A 300-yard package can supply a long working section or more than one shorter fill, depending on reel capacity and reserve. Choose the amount around casting distance and the room needed to fight a fish; the package length does not mean every reel holds all 300 yards.",
+        "strengthGuide": [
+          "Only the photographed 40 lb label establishes a physical diameter in this review. Other Sonic Braid strengths in historical catalogs do not inherit .25 mm.",
+          "Use .25 mm for the capacity input. The adjacent 10 lb test-diameter wording describes a monofilament comparison, not a second strength or measurement.",
+          "The supported package is 300 yards of Lo-Vis Green. Its rounded 274 m label is not converted back into a different yardage.",
+          "A later spool simply labeled Stren Braid needs its own evidence. A similar fiber or coating description does not establish formulation continuity."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Match the complete label",
+            "text": "Look for SCB30040-22, 40 lb, .25 mm and 300 yards. The UPC on the reviewed photograph is 042083373053; a shop title or a generic Sonic product picture is not a substitute for that match."
+          },
+          {
+            "title": "Size the working section",
+            "text": "Allow enough braid for the longest expected cast plus reserve for a run, trimming and retying. Use the capacity estimate to choose that section before deciding how much backing is needed."
+          },
+          {
+            "title": "Prevent spool slip",
+            "text": "Follow the reel maker's braid-attachment guidance. Where required, anchor the braid over monofilament backing and keep the connection below the working section."
+          },
+          {
+            "title": "Check legacy stock before filling",
+            "text": "The source does not establish manufacture date or storage condition. Inspect the line and knots, wind evenly under suitable tension, and stop at the reel's specified fill clearance."
+          }
+        ],
+        "reviewNote": "ReelCalc transcribed the readable original label and checked the historical family source. It did not measure this braid or perform knot, abrasion or casting tests.",
+        "chartNote": "Undated legacy SCB30040-22 label only: 40 lb / .25 mm / 300 yd / Lo-Vis Green, UPC 042083373053. Inches are converted from mm. The original label is photographed on a retailer host; retailer title/specification prose is excluded. The 2014 US catalog corroborates the family, not the label's date or physical diameter. No other strength/package or later Stren Braid equivalence is claimed.",
+        "chartCaption": "Undated legacy SCB30040-22 original-label specifications, US pound/yard labeling; not current availability or a dated 2014 diameter chart.",
+        "sourceNote": "Checked September 13, 2026. Numeric row transcribed visually from the unmodified original spool-label photograph hosted by bol.com. Its 40 lb / .25 mm / 300 yd details conflict with that listing's 0.16 mm / 110 m title, so the title is not used. Stren's original 2014 US catalog, preserved by WesternBass, supplies independent Sonic Braid/GlideCoat family context only.",
+        "imageUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+        "localImagePath": "research/line-pages/full-catalog/group-c-resolutions/assets/stren-sonic-braid-scb30040-22.jpg",
+        "imageAlt": "Original legacy Stren Sonic Braid SCB30040-22 spool label showing 40 lb, 300 yd, Lo-Vis Green and .25 mm",
+        "manufacturerFacts": [
+          {
+            "label": "GlideCoat family",
+            "text": "The original 2014 Stren catalog identifies Sonic Braid as Dyneema polyethylene braid with GlideCoat treatment."
+          },
+          {
+            "label": "Exact original label",
+            "text": "The reviewed SCB30040-22 spool label prints 40 lb, .25 mm, Lo-Vis Green and 300 yards together."
+          }
+        ],
+        "setupComparison": {
+          "title": "Working section or a full 300-yard fill?",
+          "leftTitle": "Braid over backing",
+          "leftText": "Use the portion needed for casting and reserve, then calculate backing from the reel and backing-line diameter. Keep the connection below the working section.",
+          "rightTitle": "Full package",
+          "rightText": "A reel must have room for 300 yards at .25 mm before the whole package can fit. Do not wind past the reel maker's fill clearance to empty the spool."
+        },
+        "bestFit": "Matching a legacy SCB30040-22 spool to a reel and planning a measured 40 lb braid working section.",
+        "tradeoff": "Only one exact label is verified. Manufacture date, storage condition, other strengths and continuity with later Stren Braid are not established.",
+        "productGuidanceTitle": "Keep the label and capacity input together",
+        "productGuidance": [
+          "Match the .25 mm physical specification, not a generic 40 lb braid chart.",
+          "Retain the original 300-yard package mapping; 125 and 1500 yards are not added from family-wide historical catalog entries.",
+          "Check old line and knots before use. A source-verified label is not a condition or strength guarantee for a stored spool."
+        ],
+        "recommendationIntro": "The single documented choice is 40 lb Lo-Vis Green in the SCB30040-22 300-yard package.",
+        "reelcalcNote": "Backing mode starts with the intended working section. Capacity is a planning estimate from the label and reel data, not a measured fill.",
+        "exampleSetups": [
+          {
+            "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+            "lineId": "stren-sonic-braid-braid-40",
+            "workingYards": 75,
+            "spoolYards": 300
+          },
+          {
+            "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+            "lineId": "stren-sonic-braid-braid-40",
+            "workingYards": 100,
+            "spoolYards": 300
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Does 10 lb test diameter mean this is 10 lb braid?",
+            "answer": "No. The original label identifies the braid as 40 lb. Its 10 lb test-diameter phrase is a monofilament comparison; the separate .25 mm entry is the physical diameter used for capacity."
+          },
+          {
+            "question": "Is this a 2014 diameter chart?",
+            "answer": "No. The label photograph is undated. The 2014 US Stren catalog independently confirms the Sonic Braid family and construction, but its test/diameter ratios are mono-equivalent pound tests, not a physical-diameter chart."
+          },
+          {
+            "question": "Why does the linked shop title give different sizes?",
+            "answer": "That listing mixes a 0.16 mm / 110 m title with images of other Sonic packages. This guide uses only the original SCB30040-22 detail label, where 40 lb, .25 mm and 300 yards are visible together."
+          },
+          {
+            "question": "Can I use this for another Sonic strength or later Stren Braid?",
+            "answer": "Not without an exact label or manufacturer chart. Neither matching the brand nor a similar Dyneema description establishes the missing diameter or formulation."
+          },
+          {
+            "question": "Does a 300-yard package fit my reel?",
+            "answer": "That depends on the reel's usable capacity at .25 mm and any backing. Choose a working section with enough reserve, calculate the backing, and respect the reel maker's fill clearance."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Original SCB30040-22 spool-label photograph",
+            "url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+            "note": "Sole numeric authority: readable original manufacturer label on a retailer host, not a retailer-entered specification chart."
+          },
+          {
+            "label": "Photo-host listing and conflicting title",
+            "url": "https://www.bol.com/be/nl/p/sonic-braid-low-vis-green-gevlochten-lijn-met-dyneema-vislijn-visdraad-0-16mm-15-60kg-110m/9300000336551478/",
+            "note": "Retrieval provenance only. Listing title, stock status and unrelated package images are not used as specifications."
+          },
+          {
+            "label": "2014 original Stren US catalog, page 7",
+            "url": "https://storage.westernbass.com/brochures/2014_stren/page7/index.html",
+            "note": "Independent family/construction corroboration. Its mono-equivalent table is not the physical-diameter source and does not date the photographed label."
+          }
+        ]
+      }
+    },
+    {
+      "id": "strike-king-contra-braid",
+      "brand": "Strike King",
+      "model": "Contra Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "status": "unresolved",
+      "reason": "Original manufacturer 2023 US catalog PDF was retrieved and page 49 visually inspected. Contra Braid chart lists 8/10/15/20/30/50/65 lb, Green/Yellow, LPB150-* and LPB300-* SKU families, with size text 150 & 330 YD; it has NO physical-diameter column. Current product titles call LPB300 300 yards, so the larger-package discrepancy remains explicit. No support for legacy 40 lb. Original package art visible on the catalog page has no readable physical diameter. Retailer-entered tables remain excluded. Need exact original physical-diameter evidence and clarified larger-package length (or a narrow readable label for an unambiguous 150-yard SKU).",
+      "sourceUrls": [
+        "https://www.strikeking.com/contentassets/a45bec78771146f2993e5149d5d6e280/strikeking_2023_fnl.pdf",
+        "https://www.strikeking.com/en/learn/contra-a-new-fishing-line",
+        "https://www.strikeking.com/en/shop/fishing-line/lpb150",
+        "https://www.strikeking.com/en/shop/fishing-line/lpb300"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-c-resolutions/sources/strike-king-2023.pdf",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/strike-king-2023.pdf.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/strike-king-2023-p49.png",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/contra-catalog.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/contra-official.web.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/contra-150.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/contra-150.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/contra-300.html",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/contra-300.html.meta.json",
+        "research/line-pages/full-catalog/group-c-resolutions/sources/discovery-12.web.json"
+      ],
+      "rows": [],
+      "product": null,
+      "resolutionReview": {
+        "reviewedAt": "2026-09-13T15:49:14.340Z",
+        "decision": "final-hold",
+        "numericAuthority": "primary-SKU-chart-without-physical-diameters",
+        "edition": "2023 US original manufacturer catalog, printed page 49 / PDF page 49",
+        "needed": "Original diameter chart or original readable label; resolve 300/330-yard discrepancy before applying large-package options.",
+        "packageConflict": "Catalog and launch prose say 330 yd for LPB300 family; current LPB300 product title says 300 yd. Do not silently pick one.",
+        "imageReview": "Catalog page 49 rendered and visually inspected; actual Contra Braid art distinguishes braid from neighboring fluorocarbon/mono. No readable physical diameter on the shown package."
+      }
+    }
+  ]
+}

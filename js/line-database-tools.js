@@ -29,14 +29,15 @@
     return Number(value).toFixed(places).replace(/0+$/, "").replace(/\.$/, "");
   }
   function nameOf(line) { return clean(line.brand + " " + line.model); }
-  function labelOf(line) { return nameOf(line) + (line.lb ? " " + line.lb + " lb" : ""); }
+  function scopeOf(line) { return line.source_scope_label ? " (" + line.source_scope_label + ")" : ""; }
+  function labelOf(line) { return nameOf(line) + (line.lb ? " " + line.lb + " lb" : "") + scopeOf(line); }
   function material(type) {
     return /braid/i.test(type) ? "braid" : /fluoro/i.test(type) ? "fluoro" : /mono|copolymer/i.test(type) ? "mono" : null;
   }
   function optionLabel(line, isPE) {
     return nameOf(line) + (isPE
       ? " - PE " + line.pe + (line.lb ? " / " + line.lb + " lb" : "") + " / " + format(line.dia_mm, 3) + " mm"
-      : " - " + line.lb + " lb (" + format(line.dia_in, 4) + " in)");
+      : " - " + line.lb + " lb (" + format(line.dia_in, 4) + " in)") + scopeOf(line);
   }
   function rowRecord(cells, isPE) {
     if (cells.length !== (isPE ? 9 : 6)) return null;
@@ -60,10 +61,17 @@
     });
     return matches.length === 1 ? matches[0] : null;
   }
+  function recordForRow(row, isPE) {
+    var record = rowRecord(Array.from(row.cells).map(function(cell, index) {
+      return index === 1 && row.dataset.lineModel ? row.dataset.lineModel : cell.textContent;
+    }), isPE);
+    if (record && row.dataset.sourceScopeLabel) record.source_scope_label = row.dataset.sourceScopeLabel;
+    return record;
+  }
   function calculatorParams(line, isPE) {
     return {
       rcSource: isPE ? "pe_line_database" : "line_database",
-      rcLineName: nameOf(line), rcLineType: material(line.type),
+      rcLineName: nameOf(line) + scopeOf(line), rcLineType: material(line.type),
       rcDiameter: String(isPE ? line.dia_mm : line.dia_in), rcDiameterUnit: isPE ? "mm" : "in",
       rcLineLb: line.lb ? String(line.lb) : "", rcPe: isPE ? String(line.pe) : "",
       rcLineNote: isPE ? line.notes : ""
@@ -190,7 +198,7 @@
     }
     function captureRows() {
       root.querySelectorAll("tbody tr.rcdb-data-row").forEach(function(row) {
-        var record = rowRecord(Array.from(row.cells).map(function(cell) { return cell.textContent; }), isPE);
+        var record = recordForRow(row, isPE);
         if (!record) return;
         var label = key(optionLabel(record, isPE));
         records.set(label, record);
@@ -199,7 +207,7 @@
         var pick = document.createElement("button");
         pick.type = "button";
         pick.className = "rc-line-pick";
-        pick.textContent = record.model;
+        pick.textContent = record.model + scopeOf(record);
         pick.title = "Select this line";
         pick.setAttribute("aria-label", "Select " + labelOf(record) + (isPE ? " PE " + record.pe : ""));
         pick.addEventListener("click", function() {
@@ -327,7 +335,7 @@
     if (selection) handoffApplied = applyHomepage(selection) || applyPE(selection);
   }
 
-  global.ReelCalcLineTools = { initialize: initialize, rowRecord: rowRecord, optionLabel: optionLabel,
+  global.ReelCalcLineTools = { initialize: initialize, rowRecord: rowRecord, recordForRow: recordForRow, optionLabel: optionLabel,
     matchCatalogLine: matchCatalogLine, buildDestination: buildDestination, readSelectionParams: readSelectionParams };
   if (typeof document !== "undefined") {
     document.addEventListener("reelcalc:homepage-calculator-ready", initialize);

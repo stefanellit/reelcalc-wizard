@@ -1,0 +1,206 @@
+{
+  "reviewType": "independent-code-and-integration-review",
+  "reviewedAt": "2026-09-13T16:56:38.034Z",
+  "baseCommit": "045b0917ae3c2aeacede454659ec9a77a9a68592",
+  "headCommit": "045b0917ae3c2aeacede454659ec9a77a9a68592",
+  "reviewTarget": "Current candidate working-tree resolution integration, plus separately approved original80 copy overlay",
+  "verdict": "one-runtime-fix-required",
+  "findingCount": 1,
+  "findings": [
+    {
+      "id": "RINT-01",
+      "priority": "P2",
+      "title": "Keep display-only source scope out of retailer search queries",
+      "file": "js/line-page-engine.js",
+      "line": 1307,
+      "relatedLocation": {
+        "file": "js/line-page-engine.js",
+        "line": 1099,
+        "function": "backingLineOffer"
+      },
+      "introducedByReviewedChange": true,
+      "description": "Adding source_scope_label to the shared lineLabel helper changes more than displayed text. backingLineOffer uses that helper to overwrite a generic-search offer's retailer query, so historical/catalog/stock prose now becomes literal Amazon search terms. Plain row IDs are preserved, but the shopping action no longer uses only the product identity and strength described by that function's contract.",
+      "trigger": "On a line page, select a source-scoped mainline row as backing and calculate a successful plan with positive backing yards whose offer falls back to generic_search.",
+      "impact": "Provenance such as '2014 US catalog' or 'stock unverified' unnecessarily constrains a product search. This is an observable outbound-query regression, not a stylistic concern. The exact effect on live retailer search results was not tested.",
+      "reproductionMethod": "Read baseline engine with git show 045b091:js/line-page-engine.js and current engine from disk. Run each production engine in a separate Node VM with the same current catalog and affiliate mappings; expose backingLineOffer only in memory. Pass assessmentTone=success, needsBacking=true, backingYards=40 and each exact backing row, then decode the returned Amazon k parameter.",
+      "reproductions": [
+        {
+          "backingLineId": "stren-super-knot-monofilament-8",
+          "backingYards": 40,
+          "matchType": "generic_search",
+          "baselineQuery": "Stren Super Knot 8 lb monofilament fishing line",
+          "candidateQuery": "Stren Super Knot 8 lb (2014 US catalog; Clear/Lo-Vis Green; 220 yd) monofilament fishing line"
+        },
+        {
+          "backingLineId": "hi-seas-fluorocarbon-fluorocarbon-25",
+          "backingYards": 40,
+          "matchType": "generic_search",
+          "baselineQuery": "Hi-Seas Fluorocarbon 25 lb fluorocarbon fishing line",
+          "candidateQuery": "Hi-Seas Fluorocarbon 25 lb (Catalog-listed CFC-F200-25 Clear; stock unverified) fluorocarbon fishing line"
+        }
+      ],
+      "recommendedFix": "Retain the scoped helper for visible text. Construct the generic backing search from plain brand, model, strength and normalized type, without source_scope_label. Do not remove source qualifications from displays or change reviewed row identities.",
+      "regressionTest": "For scoped and unscoped backing rows, assert that visible labels include the appropriate qualification but decoded retailer queries exclude provenance prose and retain plain product identity/strength. Cover the generic_search path, which the current label-focused cross-tool fixtures do not exercise.",
+      "blocks": "Approval of the changed shared runtime until corrected or explicitly accepted by main",
+      "doesNotInvalidate": [
+        "Signed source configs and numerical rows",
+        "Original100 identity/import protections",
+        "Original80 approved 53-field copy overlay",
+        "Source example arrays or capacity-mode dedupe",
+        "The passing numerical audit"
+      ]
+    }
+  ],
+  "verified": {
+    "dataAndIdentity": {
+      "baselineProducts": 100,
+      "candidateProducts": 114,
+      "newProducts": 14,
+      "baselineRows": 1223,
+      "candidateRows": 1229,
+      "modifiedExistingRows": 36,
+      "newRows": 6,
+      "deletedRows": 0,
+      "sourceScopedRows": 42,
+      "unrelatedRowsUnchanged": 1187,
+      "idsBrandModelTypeAndRoleMatchSignedSources": true,
+      "numericValuesAndSpoolSizesMatchSignedSources": true,
+      "completeSourceEvidenceRetained": true,
+      "productConfigsMatchSourcesExceptAssetRelocation": true,
+      "relocatedAssetHashesMatchSources": true,
+      "newRowIds": [
+        "sufix-invisiline-fluorocarbon-fluorocarbon-4",
+        "sufix-invisiline-fluorocarbon-fluorocarbon-20",
+        "stren-super-knot-monofilament-4",
+        "stren-super-knot-monofilament-14",
+        "stren-super-knot-monofilament-17",
+        "stren-fluorocast-fluorocarbon-4"
+      ]
+    },
+    "original80Overlay": {
+      "approvedOverlay": "research/line-pages/full-catalog/resolution-independent-review/original80-copy-cleanup/overlay.json",
+      "changedFields": 53,
+      "changedOriginalProducts": 28,
+      "everyBeforeMatches045b091": true,
+      "everyAfterMatchesCurrent": true,
+      "noAdditionalOriginal100ProductObjectChanges": true,
+      "hostedAndNativeTextChecks": 106,
+      "nativePacketProducts": 28,
+      "nativePacketReimportPermitted": false,
+      "numericAndCoreDependenciesUnchanged": true,
+      "protectedBaselineFiles": [
+        "js/calculator-core.js",
+        "js/recommendation-engine.js",
+        "data/reels.json",
+        "data/reel-affiliates.json",
+        "generated/line-pages/UPLOAD-THIS-80-new-line-guides.csv",
+        "generated/line-pages/import-inventory.json",
+        "generated/line-pages/manual-publish-content.json"
+      ]
+    },
+    "scopeRendering": {
+      "crossToolFixtures": 62,
+      "scopedRows": 42,
+      "unscopedRows": 20,
+      "plainDatabaseModelPreserved": true,
+      "exactWizardPreloadIdsPreserved": true,
+      "selectorGroupingUnchanged": true,
+      "scopeSearchableInSharedSelector": true,
+      "scopeVisibleInReviewedTools": true,
+      "escapingAndIdentityExtraProbes": 3,
+      "hostileScopeEscapedInComparisonMenu": true,
+      "hostileScopeEscapedInLinePageCapacityCards": true,
+      "databaseUsesTextAndRetainsPlainIdentity": true,
+      "changedDisplaySinksInspected": [
+        "js/line-database.js:102",
+        "js/line-database-tools.js:64",
+        "js/line-selector.js:87",
+        "js/wizard.js:1317",
+        "js/wizard.js:1615",
+        "js/reel-page-calculator.js:312",
+        "js/reel-page-calculator.js:589",
+        "examples/reel-comparison.js:695",
+        "examples/reel-comparison.js:943",
+        "js/line-page-engine.js:907",
+        "js/line-page-engine.js:915",
+        "js/line-page-engine.js:962",
+        "js/line-page-engine.js:1043"
+      ],
+      "exception": "RINT-01: a display-label helper also changes non-display retailer query construction."
+    },
+    "importsAndPackaging": {
+      "independentParser": "PowerShell Import-Csv followed by structured field and parse5 description checks",
+      "draftRows": 14,
+      "uniqueDraftProductIds": 14,
+      "productType": "SERVICE",
+      "allVisibleNo": true,
+      "allProductAndVariantIdsEmpty": true,
+      "allOriginal100Excluded": true,
+      "all14SourceAndChartNotesInNativeDescriptions": true,
+      "all14ImagePathsResolve": true,
+      "unsupportedInteractiveNativeMarkupFound": false,
+      "importedLedgerExactlyMatchesBaseline100": true,
+      "existing100RegistryIdentitiesPreserved": true,
+      "eachImportedIdRejectedByRealSelector": 100,
+      "defaultNewImportSelectionCount": 14,
+      "registryCountIsNotImportConfirmation": true,
+      "publishedProductsUnchanged": true,
+      "publishedProductsCount": 20,
+      "draftPublicationReady": false
+    },
+    "examples": {
+      "sourceExampleArraysUnchanged": true,
+      "stealthSourcePairs": 2,
+      "stealthSourceStrengths": [50, 65],
+      "capacityModeRenderedCards": 1,
+      "capacityCardUsesSelectedStrength": true,
+      "workingPlanModeRenderedCards": 2,
+      "dedupeMutatesSourceConfigs": false
+    },
+    "handoff": {
+      "allChangedDeliverablesMatchAfterHashes": true,
+      "signedResolutionSourceAndReviewBindingsValid": true,
+      "draftHashMatchesHandoff": true,
+      "localOnlyBoundaryPreserved": true
+    }
+  },
+  "testsRun": [
+    { "name": "test-line-page-engine.mjs", "status": "pass" },
+    { "name": "test-line-database-tools.mjs", "status": "pass", "exactHandoffs": 1229 },
+    { "name": "test-line-leader-pages.mjs", "status": "pass", "pages": 10, "packageOffers": 201 },
+    { "name": "line-page-publishing/test-import-selection.mjs", "status": "pass", "checks": 14 },
+    { "name": "line-page-publishing/test.mjs", "status": "pass", "pages": 114, "cssSelectors": 498 },
+    { "name": "test-hosted-line-databases.mjs", "status": "pass", "regularRows": 1229, "peRows": 586 },
+    { "name": "test-line-resolution-scopes.mjs", "status": "pass", "fixtures": 62, "method": "Existing production-function VM harness executed with its final report writer removed in memory; no source-file changes." },
+    { "name": "Independent hostile-scope rendering and identity probes", "status": "pass", "probes": 3 },
+    { "name": "Independent actual-catalog imported-ID rejection checks", "status": "pass", "ids": 100 },
+    { "name": "Independent baseline, approved-overlay, signed-source, asset and CSV comparisons", "status": "pass" },
+    { "name": "Independent baseline/current backing-search comparison", "status": "regression-confirmed", "finding": "RINT-01", "reproductions": 2 },
+    { "name": "audit-line-page-trust.mjs for new14, without save/output options", "status": "pass", "strengths": 42, "readyReels": 1320, "pairings": 55440, "offers": 49, "checks": 581696, "failures": 0 }
+  ],
+  "snapshotHashes": {
+    "reports/resolution-integration/handoff.json": "5fd085de12daf5f1a5f1d35e9a1a7a9efb8e3ac61d767db3ff70c52ff2fb46d0",
+    "reports/resolution-integration/HANDOFF.md": "d3b70748959ed75dfb28ce2d06bf957520d52e5dc4dfb3beb8b9be690e3e947e",
+    "reports/resolution-integration/changed-files.json": "f51f6c21db33a0df59d01eedc20610d54ec2760bba29366012e9ade6a7d0dd0b",
+    "data/line-page-products.json": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+    "data/lines.json": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+    "data/line-page-release.json": "f757fafea7bed8b539be2a9b0ca826c9010df3b21d8c2027fe472e9c9babeb21",
+    "generated/line-pages/imported-products.json": "247278536d0afdcc9e69a44f6b06d3e3c9d6692a83bb7978686771897a8895c8",
+    "js/line-page-engine.js": "0e5798efe013a52d4207e7bebfdf939b593d4793867a216894d23065aea28fc1",
+    "generated/line-pages/DRAFT-NOT-FOR-UPLOAD-14-new-line-guides.csv": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa"
+  },
+  "limitations": [
+    "No browser, mobile layout, deployed cache, Squarespace import, publication, or live retailer-result testing was performed.",
+    "Source integration was compared to independently signed packs and retained evidence fields; this turn did not re-research all manufacturer sources.",
+    "The two pre-existing fixture failures described in HANDOFF.md/tests.json were not rerun here and are not asserted to be new regressions.",
+    "Successful import generation was inspected rather than executed because its normal path writes shared artifacts. The selector itself and all100 rejection cases were executed read-only.",
+    "Main owns final remediation, browser/deployment checks, and all original80 publication actions."
+  ],
+  "writeScope": [
+    "reports/resolution-integration/independent-integration-review.md",
+    "reports/resolution-integration/independent-integration-review.json"
+  ],
+  "codeOrSharedDataWritten": false,
+  "browserUsed": false,
+  "gitCommitsMade": false
+}

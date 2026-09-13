@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
+import assert from "node:assert/strict";
 import { fileURLToPath } from "node:url";
 import * as html from "parse5";
 import { selectNewImports } from "./import-selection.mjs";
@@ -14,11 +15,23 @@ const write = (name, content) => {
 const settings = JSON.parse(read("generated/line-pages/launch-settings.json"));
 const release = JSON.parse(read("data/line-page-release.json"));
 const args = process.argv.slice(2);
-if (args.length > 1 || (args.length && !args[0].startsWith("--ids="))) throw new Error("Use --ids=id-one,id-two or omit to prepare all unpublished guides.");
-const selected = selectNewImports(settings, release, args.length ? args[0].slice(6).split(",") : undefined);
+if (args.some(arg => arg !== '--draft' && !arg.startsWith('--ids=') && !arg.startsWith('--refresh-previews=')) || args.filter(arg => arg.startsWith('--ids=')).length > 1 || args.filter(arg => arg.startsWith('--refresh-previews=')).length > 1) throw new Error("Use --ids=id-one,id-two and optional --draft, or --refresh-previews=id-one,id-two for existing native content only.");
+const draft = args.includes('--draft');
+const refreshIds = args.find(arg => arg.startsWith('--refresh-previews='))?.slice(19).split(',');
+if (refreshIds && args.length !== 1) throw new Error('Native preview refresh cannot be combined with import options.');
+const importedLedger = JSON.parse(read('generated/line-pages/imported-products.json'));
+const existingRegistry = JSON.parse(read('data/line-page-imports.json'));
+const importedIds = importedLedger.importedProducts;
+if (refreshIds) {
+  assert.equal(new Set(refreshIds).size, refreshIds.length, 'Duplicate preview IDs');
+  for (const id of refreshIds) assert(importedIds.includes(id) && settings.some(entry => entry.id === id), `Preview refresh requires an existing imported ID: ${id}`);
+}
+const selected = selectNewImports(settings, release, refreshIds ? [] : args.find(arg => arg.startsWith('--ids='))?.slice(6).split(','), importedIds);
 const reviews = JSON.parse(read("research/line-pages/review-status.json"));
 for (const entry of selected) {
-  if (!reviews[entry.id]?.browserAudit || reviews[entry.id].status !== "audited-awaiting-bulk-release") {
+  if (draft) {
+    if (!reviews[entry.id]?.sourcePackSha256 || !reviews[entry.id]?.independentReviewSha256) throw new Error(`Draft lacks signed source review: ${entry.id}`);
+  } else if (!reviews[entry.id]?.browserAudit || reviews[entry.id].status !== "audited-awaiting-bulk-release") {
     throw new Error(`Guide has not cleared the publication audit: ${entry.id}`);
   }
 }
@@ -34,7 +47,7 @@ function csvCell(value) {
   const text = String(value ?? "");
   return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
 }
-const rows = [], pages = {}, previews = [];
+const rows = [], pages = {}, previews = [], refreshedContent = [];
 for (const entry of settings) {
   const doc = html.parseFragment(read(`components/line-pages/${entry.id}.html`));
   const page = doc.childNodes.find(n => n.tagName === "article");
@@ -66,11 +79,28 @@ for (const entry of settings) {
 <script src="../../js/squarespace-reel-page-loader.js" data-asset-base="../../" data-page-slug="${entry.slug}" defer></script></head>
 <body><header id="host-header"><a href="https://www.reelcalc.com/">ReelCalc</a></header><main class="product-detail tag-reelcalc-line-guide"><div data-product-detail-layout="simple"><nav class="product-nav">Line Guides</nav><div class="product-content-wrapper"><div class="product-gallery">Product gallery</div><div class="product-meta"><h1 class="product-title">${escape(entry.title)}</h1><div class="product-price">$0.00</div><div class="product-description hidden-down-md">${description}</div><div class="product-add-to-cart"><button>Add to cart</button></div><div class="product-description hidden-up-md">${description}</div></div></div></div></main><footer id="host-footer">ReelCalc</footer></body></html>`;
   const preview = `previews/line-pages/${entry.id}-imported.html`;
-  write(preview, fixture + "\n"); previews.push({ id: entry.id, preview });
+  if (refreshIds?.includes(entry.id)) {
+    write(preview, fixture + '\n');
+    refreshedContent.push({ id: entry.id, title: entry.title, slug: entry.slug, url: entry.url, description,
+      descriptionSha256: createHash('sha256').update(description).digest('hex'), preview });
+  } else if (!refreshIds && (selectedIds.has(entry.id) || !fs.existsSync(path.join(root, preview)))) write(preview, fixture + "\n");
+  previews.push({ id: entry.id, preview });
 }
 if (new Set(rows.map(row => row[7])).size !== rows.length || new Set(rows.map(row => row[4])).size !== rows.length) throw new Error("Duplicate import IDs.");
-const importFile = rows.length ? `generated/line-pages/UPLOAD-THIS-${rows.length}-new-line-guides.csv` : null;
+for (const [slug, page] of Object.entries(existingRegistry.pages)) {
+  if (importedIds.includes(page.id)) assert.deepEqual(pages[slug], page, `Already-imported registry identity changed: ${page.id}`);
+}
+const importFile = rows.length ? `generated/line-pages/${draft ? 'DRAFT-NOT-FOR-UPLOAD' : 'UPLOAD-THIS'}-${rows.length}-new-line-guides.csv` : null;
+if (refreshIds) {
+  write('generated/line-pages/original80-copy-cleanup-native-content.json', JSON.stringify({ generatedAt: new Date().toISOString(),
+    purpose: 'Updated local static descriptions for existing native guides. NOT an import or publication action.',
+    importFile: null, reimportPermitted: false, count: refreshedContent.length, pages: refreshedContent }, null, 2) + '\n');
+  console.log(`Refreshed ${refreshedContent.length} existing native previews and a separate content packet; no CSV or registry changes.`);
+} else {
 if (importFile) write(importFile, [headers, ...rows].map(row => row.map(csvCell).join(",")).join("\r\n") + "\r\n");
 write("data/line-page-imports.json", JSON.stringify({ version: release.version, collection: "lines", pages }, null, 2) + "\n");
-write("generated/line-pages/import-inventory.json", JSON.stringify({ importFile, count: rows.length, visibility: "hidden", includedProducts: [...selectedIds], excludedPublished: release.publishedProducts || [], previews, pages }, null, 2) + "\n");
-console.log(`Prepared ${rows.length} new guides, excluding ${(release.publishedProducts || []).length} published guides. Registry and previews retain all ${settings.length} pages. New pages import hidden.`);
+write(draft ? "generated/line-pages/resolution-import-inventory.json" : "generated/line-pages/import-inventory.json", JSON.stringify({ importFile, count: rows.length, publicationReady: !draft,
+  remainingGates: draft ? ['Main-owned browser audit', 'Deployment and native import approval'] : [], visibility: "hidden", includedProducts: [...selectedIds],
+  excludedPublished: release.publishedProducts || [], excludedImported: importedIds, importedLedgerSha256: createHash('sha256').update(read('generated/line-pages/imported-products.json')).digest('hex'), previews, pages }, null, 2) + "\n");
+console.log(`Prepared ${rows.length} ${draft ? 'local draft' : 'new'} guides, excluding ${importedIds.length} already imported and ${(release.publishedProducts || []).length} published guides. Registry retains all ${settings.length} pages. New pages import hidden.`);
+}

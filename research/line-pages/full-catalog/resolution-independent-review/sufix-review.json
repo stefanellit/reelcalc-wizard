@@ -1,0 +1,383 @@
+{
+  "reviewGroup": "sufix-resolutions",
+  "reviewedAt": "2026-09-13T16:06:15.308Z",
+  "reviewType": "independent-primary-evidence-and-config-review",
+  "pack": {
+    "path": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
+    "sha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+    "checkedAt": "2026-09-13T15:34:21.753Z",
+    "modelCount": 2,
+    "rowCount": 9,
+    "unchangedBetweenInitialAndFinalEvidenceChecks": true
+  },
+  "verdict": "pass-with-qualifications",
+  "blockingFindings": [],
+  "decisionSummary": "No source or gold-config blockers found for the nine proposed rows only. Invisiline is accepted as eight exact Clear U.S. 100-yard mainline SKUs, with historical support explicitly retained for 17/20 lb. Calibr8 is accepted as one exact 15 lb Neon Lime launch SKU using its printed 150-yard package designation as a nominal calculation convention, not as proof of measured length. This is not approval of a wider product range, stock availability, asset licensing, or publication readiness.",
+  "method": [
+    "Read CONTRACT.md and PROJECT.md; reviewed the frozen candidate pack and source artifacts independently of the author's checks.json verdict.",
+    "Visually inspected the actual 2026 catalog page, the 2018 Invisiline chart and copyright page, the Invisiline product photograph, both exact Calibr8 package photographs, and the corporate Calibr8 announcement page.",
+    "Extracted the manufacturer-authored 2018 PDF directly to confirm that the rendered chart and copyright evidence belong to the retained PDF.",
+    "Freshly read the current Rapala Invisiline product page and independently parsed its embedded exact-SKU state, preserving the conflicting package fields.",
+    "Checked the manufacturer catalog hub and retained Issuu document metadata to connect the official 2026 catalog to the reviewed page-image document ID.",
+    "Fresh HTTP requests for the 2026 chart and both Calibr8 photographs returned HTTP 200 with hashes identical to the visually reviewed local artifacts. These fresh response bodies were held in memory, not saved outside the two authorized review files.",
+    "Checked identity, legacy row coverage, exclusions, package and conversion arithmetic, required gold fields, local assets, default line/package/backing, and example reel references with read-only checks. No shared staging, build, test, or publication script was executed."
+  ],
+  "qualifications": [
+    {
+      "id": "SFX-Q01",
+      "severity": "non-blocking-qualification",
+      "modelId": "sufix-calibr8",
+      "title": "Printed 150 yd / 135 m does not establish physical length",
+      "locations": [
+        "models[1].rows[0].retail_packages[0]",
+        "models[1].product.sourceNote",
+        "models[1].product.faqs[3]"
+      ],
+      "judgment": "The present pack is acceptable because it selects printed yards explicitly, preserves 135 m as printedMetricLength, provides no numeric runtime meters field, and explains the mismatch in the full config. This is a nominal package-size convention selected by the pack, not a manufacturer-confirmed measurement or explanation of the discrepancy.",
+      "action": "Preserve the visible qualification during integration. Do not call these exact equivalents, normal nearest-whole-unit rounding, or two different package offerings. Do not assert which printed quantity is physically correct. Optional wording improvement: 'The package prints 150 yd / 135 m. ReelCalc uses the printed 150-yard designation as its nominal package-size input; the actual measured length is not established by these photographs.'",
+      "blockingIf": "An integrated page claims 150 measured yards, states that 135 m converts to 150 yd, silently drops the conflict, or adds meters=135 as an exact equivalent of yards=150."
+    },
+    {
+      "id": "SFX-Q02",
+      "severity": "non-blocking-qualification",
+      "modelId": "sufix-invisiline-fluorocarbon",
+      "title": "17/20 lb package support is historical plus current exact-SKU corroboration",
+      "locations": [
+        "models[0].rows[6]",
+        "models[0].rows[7]",
+        "models[0].product.sourceNote"
+      ],
+      "judgment": "The current 2026 chart only supplies 4-14 lb. The manufacturer-authored 2018 catalog identifies 680-917C and 680-920C as 100-yard packages with the same diameters and exact SKUs still present in the current manufacturer product state. The pack correctly distinguishes these evidence dates and makes no stock claim.",
+      "action": "Keep the historical qualification and current-SKU corroboration. Do not present the 2026 chart as proof of 17 or 20 lb, import historical 3/5/7 lb options, or expand into the separate 200/600-yard SKU families.",
+      "blockingIf": "Historical support is relabeled as current 2026 chart evidence, or the conflicting size_value=200 yd is imported into these 680-9xxC rows."
+    },
+    {
+      "id": "SFX-Q03",
+      "severity": "non-blocking-clarity",
+      "modelId": "sufix-invisiline-fluorocarbon",
+      "title": "Image metadata is not a visually readable numeric label",
+      "locations": [
+        "models[0].product.sourceNote",
+        "models[0].product.imageCaption"
+      ],
+      "judgment": "The included real manufacturer photograph identifies the model but has no readable strength or length. Its numeric media-gallery labels are website metadata. The pack's imageCaption correctly disclaims strength/length proof and the actual package decision rests on exact catalog SKUs, not on imagined text in the photograph.",
+      "action": "Preserve that distinction. Prefer 'manufacturer image metadata labels' over 'image labels' where clarification is useful; do not claim visual inspection of a 17/20 lb numeric spool label.",
+      "blockingIf": "The generic product image is promoted to primary numeric package proof without the catalog evidence."
+    },
+    {
+      "id": "SFX-Q04",
+      "severity": "non-blocking-qualification",
+      "modelId": "sufix-invisiline-fluorocarbon",
+      "title": "The 2026 illustrated box also uses a non-equivalent metric package label",
+      "locations": [
+        "models[0].rows[*].retail_packages",
+        "models[0].product.chartNote"
+      ],
+      "judgment": "The illustrated 10 lb box on the 2026 chart says 100 yd / 90 m; exact conversion of 100 yd is 91.44 m. The table itself identifies 100 Yd. Spools and exact 680-9xxC codes. The pack retains printed yards and has no contradictory numeric meters field, so the approved runtime values are defensible as printed-yard package designations.",
+      "action": "If displaying metric package lengths later, distinguish a mathematical conversion from the printed 90 m label. Do not describe 100 yd / 90 m as an exact conversion."
+    }
+  ],
+  "calibr8LengthJudgment": {
+    "sku": "694-015L",
+    "printedYards": 150,
+    "printedMeters": 135,
+    "exactConversionOf150YardsToMeters": 137.16,
+    "exactConversionOf135MetersToYards": 147.63779527559055,
+    "differenceMeters": 2.16,
+    "differenceYards": 2.362204724409451,
+    "compatibleWithNearestWholeUnitRounding": false,
+    "manufacturerExplanationOfDiscrepancyLocated": false,
+    "physicalLengthEstablished": false,
+    "acceptedCanonicalInput": {
+      "value": 150,
+      "unit": "yd",
+      "semantics": "printed-yard nominal retail-package designation, not verified measured contents"
+    },
+    "acceptedEvidenceOnlyField": {
+      "printedMetricLength": "135 m"
+    },
+    "numericMetersFieldPresent": false,
+    "approval": "Accept the current explicit printed-yard convention. Neither an unexplained switch to 147.6378 yards nor a claim that the spool physically contains exactly 150 yards is supported. No need to hold the nominal package-size row solely because the two labels are not exact conversions, provided the qualification survives rendering.",
+    "roundingDistinction": "The length pair fails an exact-conversion/ordinary nearest-whole-unit interpretation. Separately, the diameter pair is compatible with its printed precision: 0.0085 inch equals 0.2159 mm, which rounds to the printed 0.22 mm. These are different judgments."
+  },
+  "models": [
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "verdict": "pass-with-qualifications",
+      "identity": {
+        "brand": "Sufix",
+        "model": "Invisiline Fluorocarbon",
+        "lineType": "Fluorocarbon",
+        "role": "mainline",
+        "judgment": "Exact legacy identity retained. Castable Invisiline is the castable mainline described by the current manufacturer page and catalogs, not Invisiline Leader, Invisiline Ice, or Advance Fluorocarbon."
+      },
+      "approvedScope": "Clear U.S. 680-9xxC 100-yard packages only; eight listed strengths, not every historical strength between 4 and 20 lb.",
+      "approvedRows": [
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-4", "lb": 4, "dia_in": 0.007, "dia_mm": 0.1778, "sku": "680-904C", "yards": 100, "packageAuthority": "2026 chart" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-6", "lb": 6, "dia_in": 0.008, "dia_mm": 0.2032, "sku": "680-906C", "yards": 100, "packageAuthority": "2026 chart" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8", "lb": 8, "dia_in": 0.009, "dia_mm": 0.2286, "sku": "680-908C", "yards": 100, "packageAuthority": "2026 chart" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-10", "lb": 10, "dia_in": 0.011, "dia_mm": 0.2794, "sku": "680-910C", "yards": 100, "packageAuthority": "2026 chart" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-12", "lb": 12, "dia_in": 0.012, "dia_mm": 0.3048, "sku": "680-912C", "yards": 100, "packageAuthority": "2026 chart" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-14", "lb": 14, "dia_in": 0.013, "dia_mm": 0.3302, "sku": "680-914C", "yards": 100, "packageAuthority": "2026 chart" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-17", "lb": 17, "dia_in": 0.016, "dia_mm": 0.4064, "sku": "680-917C", "yards": 100, "packageAuthority": "2018 manufacturer chart plus current exact-SKU state" },
+        { "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-20", "lb": 20, "dia_in": 0.017, "dia_mm": 0.4318, "sku": "680-920C", "yards": 100, "packageAuthority": "2018 manufacturer chart plus current exact-SKU state" }
+      ],
+      "numericJudgment": "All eight current published inch diameters match the exact catalog rows. All pack millimeter values equal inches multiplied by 25.4; the pack explicitly labels them converted, not independently published precision.",
+      "packageConflictJudgment": "Fresh manufacturer state still gives yard_spool_value=100 Yd. Spools and capacity_value=100 Yd. Spools while size_value=200 Yd. Spools for all eight children. This is not resolved by counting fields. The exact 680-9xxC catalog SKU binding establishes the accepted 100-yard designation; the historical chart separately identifies 680-0xxC as 200 yards and 680-10xxC as 600 yards. The conflicting field is explicitly retained as rejected evidence.",
+      "photoJudgment": "Real model-specific manufacturer PNG visually inspected. It is adequate product imagery, but not an exact numeric label photograph. The caption discloses that limitation correctly.",
+      "excludedScope": [
+        "Invisiline Leader and Invisiline Ice",
+        "Advance Fluorocarbon or other regional formulations",
+        "200- and 600-yard SKU families",
+        "Historical 3, 5 and 7 lb rows not included in the candidate pack"
+      ],
+      "legacyAccounting": {
+        "existingRows": 6,
+        "existingRowsCovered": 6,
+        "unaccountedExistingRows": [],
+        "newStrengths": [4, 20],
+        "inchCorrectionsRequiredDuringIntegration": [
+          { "lb": 6, "old": 0.009, "verified": 0.008 },
+          { "lb": 8, "old": 0.01, "verified": 0.009 },
+          { "lb": 17, "old": 0.015, "verified": 0.016 }
+        ],
+        "metricAction": "Use the approved converted millimeter values for all rows, rather than retaining independently rounded legacy millimeters. Preserve existing IDs and add only the two new IDs."
+      },
+      "goldConfig": {
+        "requiredFieldsPresent": true,
+        "arrayShapesUsable": true,
+        "identityMatchesModel": true,
+        "seoAndMainlineRoleAppropriate": true,
+        "sourceAndHistoricalLimitationsVisibleInCopy": true,
+        "modelSpecificEditorialUsable": true,
+        "defaultLineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+        "defaultSpoolYards": 100,
+        "defaultRowAndPackageVerified": true,
+        "exampleReelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+        "exampleWorkingYards": 90,
+        "exampleSpoolYards": 100,
+        "exampleReferencesResolve": true,
+        "notes": "The finite 100-yard working supply, backing limitations, exact SKU field conflict, historical support, and distinct 17 lb Advance comparison provide useful model-specific guidance. No hands-on or measured-capacity claim found."
+      }
+    },
+    {
+      "id": "sufix-calibr8",
+      "verdict": "pass-with-qualifications",
+      "identity": {
+        "brand": "Sufix",
+        "model": "Calibr8",
+        "lineType": "Braid",
+        "role": "mainline",
+        "judgment": "Exact legacy mainline identity retained and bound to the North American ICAST 2026 launch photograph, not Calibr8 Surf, another regional offering, or another Sufix braid. The corporate release supports the model's eight-carrier construction but is not a numeric chart."
+      },
+      "approvedScope": "One pictured 15 lb Neon Lime launch offering, SKU 694-015L, UPC 024777742369; printed-yard nominal package size only.",
+      "approvedRows": [
+        {
+          "lineId": "sufix-calibr8-braid-15",
+          "lb": 15,
+          "dia_in": 0.0085,
+          "dia_mm": 0.22,
+          "diameterBasis": "published-pair",
+          "sku": "694-015L",
+          "upc": "024777742369",
+          "color": "Neon Lime",
+          "yards": 150,
+          "printedMetricLength": "135 m",
+          "lengthBasis": "printed-yard nominal package designation"
+        }
+      ],
+      "numericJudgment": "Spool label visibly binds SKU, UPC, strength, color, both diameter units, and both length units. The companion box repeats the strength, color, diameters, and lengths. The diameter pair is compatible at printed precision; 5 lb mono equivalent is not a strength row. No additional strength is extrapolated from a testing graph, retailer chart, or model launch prose.",
+      "photoJudgment": "Both exact photographs were visually inspected and freshly fetched with identical hashes. They are third-party-hosted manufacturer-attributed artifacts, not first-party-hosted product pages. Foresight explicitly attributes the photos to Rapala VMC and media-release permission; the spool itself bears manufacturer identity and 2026 copyright. This supports use as manufacturer label evidence, without treating article prose as numeric authority or asserting a reuse license for ReelCalc.",
+      "photoFormat": "The remote .jpg URLs and evidence filenames contain WebP bytes. The product.localImagePath uses the byte-identical .webp file, so the runtime candidate image has the correct extension.",
+      "excludedScope": [
+        "6, 8, 10, 20, 30, 40, 50, 65 and 80 lb legacy strengths",
+        "15 lb Low-Vis Green",
+        "300-yard packages",
+        "Calibr8 Surf, other regional formulations, and other Sufix braids"
+      ],
+      "legacyAccounting": {
+        "existingRows": 10,
+        "existingRowsApproved": 1,
+        "existingRowsExplicitlyExcluded": 9,
+        "unaccountedExistingRows": [],
+        "approvedLegacyIdPreserved": true,
+        "excludedLineIds": [
+          "sufix-calibr8-braid-6",
+          "sufix-calibr8-braid-8",
+          "sufix-calibr8-braid-10",
+          "sufix-calibr8-braid-20",
+          "sufix-calibr8-braid-30",
+          "sufix-calibr8-braid-40",
+          "sufix-calibr8-braid-50",
+          "sufix-calibr8-braid-65",
+          "sufix-calibr8-braid-80"
+        ]
+      },
+      "goldConfig": {
+        "requiredFieldsPresent": true,
+        "arrayShapesUsable": true,
+        "identityMatchesModel": true,
+        "seoAndMainlineRoleAppropriate": true,
+        "singleSkuAndLengthLimitationsVisibleInCopy": true,
+        "modelSpecificEditorialUsable": true,
+        "defaultLineId": "sufix-calibr8-braid-15",
+        "defaultSpoolYards": 150,
+        "defaultRowAndPackageVerified": true,
+        "exampleReelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+        "exampleWorkingYards": 100,
+        "exampleSpoolYards": 150,
+        "exampleReferencesResolve": true,
+        "notes": "H1 and SEO explicitly identify 15 lb. The exact SKU, single-color scope, mono-equivalent distinction, package-unit FAQ, label-source attribution, and unverified-strength exclusions make the config useful without claiming a complete range."
+      }
+    }
+  ],
+  "sourceChecks": [
+    {
+      "id": "SFX-S01",
+      "url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+      "authority": "current manufacturer product page and embedded exact-SKU state",
+      "freshlyFetchedAt": "2026-09-13T16:01:15.042Z",
+      "httpStatus": 200,
+      "bytes": 2149728,
+      "sha256": "25859a273e397f57f76238e278a3899c1ab4d898f045acd3dbd69b1ee21e9104",
+      "freshBodySaved": false,
+      "finding": "All eight 680-9xxC Clear children match approved strengths and inch diameters. Each has two explicit 100-yard fields, contradictory size_value=200 Yd. Spools, and manufacturer media metadata naming 100YDS. These metadata labels are not claimed to be visually readable package labels."
+    },
+    {
+      "id": "SFX-S02",
+      "url": "https://www.rapala.com/us_en/all-brand-catalogs",
+      "relatedUrl": "https://issuu.com/normarkcorporation/docs/2026_sufix_master_catalog",
+      "authority": "manufacturer catalog hub and publisher document identity",
+      "finding": "Official hub embeds e.issuu.com with d=2026_sufix_master_catalog and u=normarkcorporation. Retained Issuu DigitalDocument metadata names the 2026 Sufix Master Catalog, author normarkcorporation, publication date 2026-02-25, and image document ID 260225222322-46888b982643f9f9be97a3132b017794, matching the reviewed page 14."
+    },
+    {
+      "id": "SFX-S03",
+      "url": "https://image.isu.pub/260225222322-46888b982643f9f9be97a3132b017794/jpg/page_14.jpg",
+      "file": "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2026-page-14.jpg",
+      "authority": "2026 manufacturer catalog chart",
+      "visuallyInspected": true,
+      "freshlyFetchedAt": "2026-09-13T16:05:51.129Z",
+      "httpStatus": 200,
+      "bytes": 409285,
+      "sha256": "109db0a448cb42f5a632ee544a491847934c93134b40d1c800ff1570f4ffc835",
+      "freshHashMatchesReviewedFile": true,
+      "finding": "Six Clear 100 Yd. Spools, 4-14 lb, exact 680-904C through 680-914C rows and approved inch diameters. Does not list 17/20 lb. Illustrated 10 lb box prints 100 yd / 90 m, which must not be called an exact conversion."
+    },
+    {
+      "id": "SFX-S04",
+      "url": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+      "file": "research/line-pages/full-catalog/sufix-resolutions/evidence/sufix-2018-catalog.pdf",
+      "authority": "historical manufacturer-authored catalog on a third-party mirror",
+      "bytes": 46620402,
+      "sha256": "dd6626a3bbce67e9492a6335f5d91a20d4b90f5b49b8b189a27602614180a3ed",
+      "pdfTextReadDirectly": true,
+      "renderedPagesVisuallyInspected": [10, 20],
+      "finding": "Page 10 exact 680-917C/680-920C rows show 17/.016 and 20/.017 under 100-yard Clear spools. Separate 200- and 600-yard SKU tables prevent silent package-family substitution. Page 20 identifies 2018 Rapala VMC copyright. It is historical evidence, not a current inventory source or retailer-authored table."
+    },
+    {
+      "id": "SFX-S05",
+      "url": "https://mcprod.rapala.com/media/catalog/product/4/4/44092a90cf29c9_5op91qt19l48n7rvsh14e10i0r_da39493c.png",
+      "file": "research/line-pages/full-catalog/sufix-resolutions/evidence/invisiline-product.png",
+      "authority": "manufacturer product imagery, not numeric package evidence",
+      "visuallyInspected": true,
+      "bytes": 617244,
+      "sha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a",
+      "finding": "Real Castable Invisiline product image with no readable strength or length. Correctly qualified in the candidate caption."
+    },
+    {
+      "id": "SFX-S06",
+      "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+      "file": "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-694-015l.webp",
+      "authority": "manufacturer-attributed exact package photograph hosted by launch publisher",
+      "visuallyInspected": true,
+      "freshlyFetchedAt": "2026-09-13T16:05:51.378Z",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 756872,
+      "sha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef",
+      "freshHashMatchesReviewedFile": true,
+      "visibleLabel": {
+        "model": "Calibr8",
+        "sku": "694-015L",
+        "upc": "024777742369",
+        "color": "Neon Lime",
+        "testLb": 15,
+        "testKg": 6.8,
+        "lengthYd": 150,
+        "lengthM": 135,
+        "diameterIn": 0.0085,
+        "diameterMm": 0.22,
+        "manufacturingCountry": "Taiwan",
+        "manufacturer": "Rapala VMC Corp.",
+        "copyrightYear": 2026
+      }
+    },
+    {
+      "id": "SFX-S07",
+      "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583507-NEUZVWTOL65OGJIQII5U/694_Calibr8_L_box.jpg",
+      "file": "research/line-pages/full-catalog/sufix-resolutions/evidence/calibr8-launch-box.jpg",
+      "authority": "companion manufacturer-attributed package photograph",
+      "visuallyInspected": true,
+      "freshlyFetchedAt": "2026-09-13T16:05:52.592Z",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 1246614,
+      "sha256": "ae4b118a4a276d9ca463982fe45396b953cd4a879051fb9f10c78c57ecafae4a",
+      "freshHashMatchesReviewedFile": true,
+      "finding": "Matches 15 lb / 6.8 kg, Neon Lime, .0085 inch / .22 mm, and 150 yd / 135 m. Shows IZANAS and 5 lb mono equivalent. Exact SKU/UPC binding comes from the spool photograph, not an invented readable code on this box front."
+    },
+    {
+      "id": "SFX-S08",
+      "url": "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+      "authority": "photo-provenance attribution, not numeric authority",
+      "finding": "The July 2026 article links the two reviewed photos and explicitly attributes the photography to Rapala VMC with media-release permission. That provenance and the visible manufacturer label make these usable primary package artifacts even though their host is not the manufacturer. Article prose is not an independent manufacturer specification chart."
+    },
+    {
+      "id": "SFX-S09",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bf6b22db6ae132c360cc3e290d1464d2d&lang=en&src=micro",
+      "authority": "Rapala VMC corporate announcement",
+      "renderedPageVisuallyInspected": "Half-year report PDF page 5, printed page 4, Product Development",
+      "finding": "Supports Calibr8 ICAST 2026 introduction, eight-carrier construction, and lighter-test spinning orientation. Does not supply an exact strength/diameter/package matrix and was not used to invent one."
+    },
+    {
+      "id": "SFX-S10",
+      "url": "https://www.rapala.com/us_en/advance-fluorocarbon",
+      "authority": "manufacturer comparison only",
+      "finding": "The distinct Advance Fluorocarbon 17 lb table gives .015 inch, supporting the pack's warning against substituting it for Castable Invisiline .016 inch. No Advance specification was imported into an Invisiline row."
+    }
+  ],
+  "configChecks": {
+    "modelsChecked": 2,
+    "rowsChecked": 9,
+    "requiredStringFields": ["h1", "seoTitle", "metaDescription", "construction", "quickSummary", "suitabilityTitle", "suitabilitySummary", "chartNote", "sourceNote", "reviewNote", "localImagePath"],
+    "requiredNonemptyArrays": ["strengthGuide", "spoolingGuide", "sources", "faqs", "exampleSetups"],
+    "guideFaqAndSourceShapesValid": true,
+    "allReferencedSourceFilesExist": true,
+    "allLocalProductImagesExist": true,
+    "allLegacyRowsCoveredOrExcluded": true,
+    "defaultLinePackagePairsValid": true,
+    "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+    "defaultBackingExists": true,
+    "exampleReelsExist": true,
+    "exampleWorkingLengthsBelowPackageSizes": true,
+    "stageScriptSupportsRowLineId": true,
+    "readonlyCheckErrors": [],
+    "validationBoundary": "Read-only schema/reference and evidence checks only. Main owns rendered pages, selector exclusion behavior, asset relocation, calculator calibration, staging, integration tests, and publication."
+  },
+  "integrationConditions": [
+    "Integrate only the exact nine approved rows while preserving legacy IDs, roles, and model/type strings. Apply Invisiline numeric corrections to existing same-strength IDs; do not retain old values or create duplicates.",
+    "Ensure Calibr8's nine excluded legacy strengths cannot leak into the candidate page selector or recommendations. Do not broaden the 15 lb page to other colors, lengths, or formulations.",
+    "Preserve the visible Calibr8 printed-yard qualification and absence of a misleading numeric meters field. The review does not establish actual measured spool length.",
+    "Keep 17/20 lb Invisiline historical evidence explicitly distinguished from the six current-catalog rows; do not add 200/600-yard package options.",
+    "Keep generic Invisiline imagery separate from numeric chart proof; keep Calibr8 third-party photo-host provenance accurately described.",
+    "Relocate both local product assets through the main integration flow and verify the resulting gold pages and calculator behavior before publication."
+  ],
+  "limitations": [
+    "No physical product, actual spool length, breaking strength, line roundness, or measured capacity was tested.",
+    "Manufacturer-attributed Calibr8 launch imagery establishes the pictured SKU specification, not store availability, delivered-production consistency, or a full-range numeric chart.",
+    "Photo provenance was reviewed for evidence authority; rights to republish the images were not independently established by this review.",
+    "Historical catalog omissions are not proof of discontinuation. Current product fields are not proof of inventory.",
+    "Unapproved variants remain outside scope; their holds were not re-researched or resolved in this review.",
+    "No browser, shared data, candidate pack, source builder, release, or publication artifact was edited. Only sufix-review.json and sufix-review.md are review outputs."
+  ]
+}

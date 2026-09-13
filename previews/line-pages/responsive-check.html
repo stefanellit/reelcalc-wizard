@@ -1,0 +1,103 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Line guide container check</title><style>body{margin:0;background:#eee}main{margin:0 auto;background:white;max-width:100%}</style></head><body><main><div id="reelcalc-line-page-app">Loading guide...</div></main><script>
+const query=new URL(location.href).searchParams, ids=["powerpro-spectra","seaguar-invizx","berkley-trilene-xl","seaguar-tatsu","seaguar-abrazx","seaguar-red-label","seaguar-smackdown","seaguar-brawlr","seaguar-jdm-r18-mainline","seaguar-jdm-pex8-micro-braid","sunline-fc-sniper","sunline-shooter","sunline-assassin-fc","sunline-super-natural-mono","sunline-sx1","sunline-xplasma-asegai","sunline-siglon-pe-x8","sunline-shooter-machinegun-cast","sunline-shooter-bms-azayaka-fc","berkley-ginclear","daiwa-j-braid-x4","daiwa-j-braid-grand-x8","seaguar-basix","sunline-crank-fc","xbraid-x9-fulldrag-braid","sunline-shooter-bms-azayaka-ny","sufix-832-advanced-superline","sufix-promix-braid","sufix-performance-braid","sufix-elite","sufix-advance-mono","sufix-advance-fluorocarbon","gamma-edge-fluorocarbon","cast-fishing-co-x12-frog-flip-braid","rhino-hide-camo-braid","rhino-hide-camo-monofilament","berkley-trilene-big-game","berkley-vanish","berkley-x9-braid","berkley-x5-braid","daiwa-j-fluoro-samurai","shimano-mastiff-fc","shimano-kairiki-8","shimano-kairiki-4","shimano-grappler-8","shimano-ocea-ex-fluorocarbon-leader","seaguar-jdm-grand-max-leader","spro-finesse-braid-8x","spro-essential-bronzeye-8x","spro-cast-control-8x","spro-depth-control-8x","spro-gouken-flc","spro-rai-jin-premium-fluorocarbon","yo-zuri-hybrid","yo-zuri-hybrid-ice-line","yo-zuri-t-7-premium-fluorocarbon","yo-zuri-topknot-mainline","yo-zuri-superbraid","yo-zuri-superbraid-9","spiderwire-ultracast-braid","cortland-master-braid","cortland-fluorocarbon-leader","gamma-touch-fluorocarbon","gamma-torque-braid","gamma-polyflex","gamma-fluorocarbon-leader","maxima-ultragreen","maxima-chameleon","maxima-clear","maxima-crystal-ivory","maxima-fluorocarbon","maxima-braid-8","ande-premium-monofilament","ande-tournament-monofilament","ande-fluorocarbon-leader","hi-seas-grand-slam-monofilament","hi-seas-quattro-fluorocarbon","hi-seas-braid","kastking-fluorokote","reaction-tackle-braid","reaction-tackle-fluorocarbon","reaction-tackle-monofilament","reaction-tackle-ice-braid","vicious-fluorocarbon","vicious-pro-elite-fluorocarbon","vicious-braid","vicious-panfish-hi-vis-mono","spro-finesse-fluorocarbon-leader","yo-zuri-topknot-leader","yo-zuri-superfluoro-leader","yo-zuri-h-d-carbon-leader","stren-original","stren-magnathin","ande-braid","spiderwire-ultracast-ultimate-mono","stren-high-impact","stren-crappie-mono","berkley-trilene-xt","berkley-100-fluorocarbon","berkley-forward-finesse-braid","sufix-invisiline-fluorocarbon","sufix-calibr8","spiderwire-stealth-braid","stren-super-knot","stren-fluorocast","stren-sonic-braid","p-line-cxx-x-tra-strong","p-line-floroclear","p-line-cx-premium","p-line-tactical-fluorocarbon","p-line-halo-fluorocarbon","p-line-endurx-braid","p-line-tcb-8-braid","hi-seas-fluorocarbon"];
+const id=query.get('id'), width=Number(query.get('width'));
+if(ids.includes(id)&&[320,390,768,1280].includes(width)){
+ document.querySelector('main').style.width=width+'px';
+ if(query.get('audit')==='1') startViewportAudit();
+ const loader=document.createElement('script');loader.src='../../js/line-page-loader.js';loader.dataset.product=id;document.body.append(loader);
+}else document.querySelector('main').textContent='Choose a known guide and width.';
+
+function startViewportAudit(){
+ const host=document.getElementById('reelcalc-line-page-app'), started=Date.now();
+ let stopped=false, queued=false, frameRequest=0, deadline=null, sequence=0;
+ const observer=new MutationObserver(schedule);
+ observer.observe(host,{subtree:true,childList:true,attributes:true,characterData:true});
+ document.addEventListener('load',schedule,true);
+ document.addEventListener('error',schedule,true);
+ document.addEventListener('input',schedule,true);
+ document.addEventListener('change',schedule,true);
+ window.addEventListener('resize',schedule);
+ window.addEventListener('scroll',schedule);
+ armDeadline();
+ schedule();
+
+ function armDeadline(){
+  if(deadline===null) deadline=setTimeout(()=>{deadline=null;inspect(true);},30000);
+ }
+ function schedule(){
+  if(stopped||queued) return;
+  queued=true;
+  frameRequest=requestAnimationFrame(()=>{
+   frameRequest=requestAnimationFrame(()=>{queued=false;inspect(false);});
+  });
+ }
+ function visible(node){
+  if(!node||!node.getClientRects().length) return false;
+  const style=getComputedStyle(node), box=node.getBoundingClientRect();
+  return style.display!=='none'&&style.visibility!=='hidden'&&style.visibility!=='collapse'&&style.opacity!=='0'&&box.width>0&&box.height>0;
+ }
+ function box(node){
+  if(!node) return null;
+  const rect=node.getBoundingClientRect(), result={};
+  for(const key of ['x','y','width','height','top','right','bottom','left']) result[key]=Math.round(rect[key]*100)/100;
+  return result;
+ }
+ function dimensions(node){
+  return node?{rect:box(node),clientWidth:node.clientWidth,clientHeight:node.clientHeight,scrollWidth:node.scrollWidth,scrollHeight:node.scrollHeight}:null;
+ }
+ function snapshot(root){
+  const images=Array.from(host.querySelectorAll('img')).map(img=>({
+   src:img.currentSrc||img.src,alt:img.alt,complete:img.complete,naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight,
+   visible:visible(img),rect:box(img),broken:img.complete&&(!img.naturalWidth||!img.naturalHeight)
+  }));
+  const overflowing=[];
+  if(root) for(const node of [root,...root.querySelectorAll('*')]){
+   if(!visible(node)) continue;
+   const rect=node.getBoundingClientRect(), contentOverflow=node.clientWidth>0&&node.scrollWidth>node.clientWidth+1;
+   const viewportOverflow=rect.left < -1||rect.right > window.innerWidth+1;
+   if(!contentOverflow&&!viewportOverflow) continue;
+   const style=getComputedStyle(node);
+   overflowing.push({tag:node.tagName.toLowerCase(),id:node.id||null,className:node.getAttribute('class')||'',
+    rect:box(node),clientWidth:node.clientWidth,scrollWidth:node.scrollWidth,contentOverflow,viewportOverflow,
+    overflowX:style.overflowX,scrollContainer:['auto','scroll'].includes(style.overflowX),text:(node.innerText||'').trim().slice(0,120)});
+  }
+  const text=root&&visible(root)?root.innerText:'', nonfiniteTokens=Array.from(new Set((text||'').match(/\b(?:NaN|Infinity|undefined)\b/g)||[]));
+  return {
+   viewport:{innerWidth:window.innerWidth,innerHeight:window.innerHeight,devicePixelRatio:window.devicePixelRatio,
+    scrollX:window.scrollX,scrollY:window.scrollY,matchesRequestedWidth:window.innerWidth===width},
+   document:dimensions(document.documentElement),body:dimensions(document.body),container:dimensions(document.querySelector('main')),
+   root:root?{...dimensions(root),productId:root.dataset.productId,role:root.dataset.lineRole||'mainline',
+    ready:root.dataset.linePageReady==='true',visible:visible(root)}:null,
+   loading:{busy:host.getAttribute('aria-busy'),status:host.querySelector('#rcToolStatus')?.innerText||null},
+   images,overflow:{documentHorizontal:document.documentElement.scrollWidth>document.documentElement.clientWidth+1,
+    rootHorizontal:!!root&&root.scrollWidth>root.clientWidth+1,count:overflowing.length,elements:overflowing.slice(0,40),truncated:overflowing.length>40},
+   nonfiniteTokens,
+   selectedLine:root?.querySelector('#rcSelectedLine')?.innerText||null,
+   exampleCards:root?Array.from(root.querySelectorAll('[data-plan-reel]')).filter(visible).map(card=>({reelId:card.dataset.planReel,text:(card.innerText||'').trim().slice(0,240)})):[]
+  };
+ }
+ function send(status,reason,metrics){
+  window.parent.postMessage({type:'reelcalc-viewport-audit',version:1,id,requestedWidth:width,sequence:++sequence,
+   status,reason,elapsedMs:Date.now()-started,metrics},location.origin);
+ }
+ function stop(){
+  stopped=true;observer.disconnect();clearTimeout(deadline);deadline=null;cancelAnimationFrame(frameRequest);
+  for(const event of ['load','error','input','change']) document.removeEventListener(event,schedule,true);
+  window.removeEventListener('resize',schedule);window.removeEventListener('scroll',schedule);
+ }
+ function inspect(timedOut){
+  if(stopped) return;
+  try{
+   const root=host.querySelector('[data-reelcalc-line-page]'), metrics=snapshot(root);
+   const ready=!!root&&root.dataset.linePageReady==='true'&&visible(root)&&host.getAttribute('aria-busy')!=='true';
+   const failed=host.querySelector('[data-line-page-error]')||host.querySelector('#rcLoading.rc-error');
+   const reason=failed?'guide-load-error':metrics.images.some(img=>img.broken)?'image-load-error':ready&&!metrics.images.length?'missing-product-image':null;
+   if(reason){send('failure',reason,metrics);stop();return;}
+   if(ready&&metrics.images.length&&metrics.images.every(img=>img.complete&&img.naturalWidth>0&&img.naturalHeight>0)){
+    clearTimeout(deadline);deadline=null;send('complete','ready-and-images-loaded',metrics);
+   }else if(timedOut){send('failure','ready-or-images-timeout',metrics);stop();}
+   else armDeadline();
+  }catch(error){send('failure','audit-error',{message:String(error.message||error)});stop();}
+ }
+}
+</script></body></html>

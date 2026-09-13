@@ -1,0 +1,129 @@
+<article class="rc-line-page rc-line-gold" data-reelcalc-line-page="" data-product-id="p-line-floroclear" data-asset-base="https://stefanellit.github.io/reelcalc-wizard/">
+  <header class="rc-product-header">
+    <div class="rc-line-inner">
+      <nav class="rc-breadcrumbs" aria-label="Breadcrumb"><a href="https://www.reelcalc.com/">ReelCalc</a><span>/</span><a href="https://www.reelcalc.com/line-database">Line guides</a><span>/</span>P-Line FloroClear</nav>
+      <h2 class="rc-product-title">P-Line FloroClear</h2>
+      <p class="rc-product-subtitle">Diameter chart, reel capacity &amp; backing guide</p>
+      <div class="rc-product-overview">
+        <figure class="rc-product-figure"><img src="https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg" alt="P-Line Clear FloroClear 12 lb FCCF filler carton and matching 300 yd spool" width="160" height="160" loading="eager" data-line-page-image="assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg"><figcaption>Actual US FCCF 12 lb/300 yd filler package; eBay-hosted photo, production year unestablished. The 10 lb row is a separate 2021 catalog reference.</figcaption></figure>
+        <div><p class="rc-product-summary">FloroClear is a fluorocarbon-coated copolymer, not 100% fluorocarbon. This US reference combines a historical 2021 catalog label for Clear 10 lb/600 yd with a photographed Clear 12 lb/300 yd filler package of unestablished production year. It is not a current-edition or stock claim.</p><dl class="rc-product-specs"><div><dt>Construction</dt><dd>Fluorocarbon-coated copolymer with silicone treatment</dd></div><div><dt>Listed strengths</dt><dd>10-12 lb</dd></div><div><dt>Line type</dt><dd>Copolymer main line</dd></div></dl></div>
+      </div>
+      <section class="rc-product-fit" aria-labelledby="product-fit-title"><h2 id="product-fit-title">Coated copolymer, with package-specific numbers</h2><p>FloroClear is an option when the intended main line is a coated copolymer rather than a full fluorocarbon or braid construction. P-Line identifies a silicone treatment; no independent handling advantage is claimed here. Check the exact filler or bonus package before planning capacity, because the inspected 12 lb packages do not print identical inch diameters.</p></section>
+      <nav class="rc-page-nav" aria-label="On this page"><a href="#use-this-line">Calculator</a><a href="#diameter-chart">Diameter chart</a><a href="#line-guide">Choosing your setup</a><a href="#compare-lines">Compare lines</a></nav>
+    </div>
+  </header>
+
+  <section class="rc-section rc-calculator-section" id="use-this-line" aria-labelledby="line-tool-title">
+    <div class="rc-line-inner">
+      <div class="rc-section-heading rc-tool-heading"><div><span class="rc-eyebrow">Your line. Your reel.</span><h2 id="line-tool-title">How much FloroClear will fit?</h2></div><span class="rc-tool-status" id="rcToolStatus" role="status">Loading line data</span></div>
+      <div class="rc-tool-shell">
+        <div class="rc-loading" id="rcLoading" role="status">Loading reel and line data...</div>
+        <div id="rcInteractive" hidden="">
+          <div class="rc-control-grid">
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">1</span>Your line</legend>
+              <label class="rc-field"><span>P-Line FloroClear strength</span><select id="rcStrength"></select></label>
+              <div class="rc-selected-line" id="rcSelectedLine" aria-live="polite"></div>
+              <label class="rc-field"><span>Retail spool length</span><select id="rcSpool"></select></label>
+              <a class="rc-inline-link" href="#diameter-chart">Full diameter chart</a>
+            </fieldset>
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">2</span>Your reel</legend>
+              <div class="rc-segmented" id="rcReelSource" role="group" aria-label="Reel details"><button type="button" data-reel-source="database" aria-pressed="true">Find my reel</button><button type="button" data-reel-source="manual" aria-pressed="false">Enter specs</button></div>
+              <div id="rcCatalogReel">
+              <div class="rc-segmented" id="rcReelType" role="group" aria-label="Reel type"><button type="button" data-reel-type="spinning" aria-pressed="true">Spinning</button><button type="button" data-reel-type="baitcasting" aria-pressed="false">Baitcasting</button></div>
+              <label class="rc-field"><span>Brand</span><select id="rcReelBrand"></select></label>
+              <label class="rc-field"><span>Series</span><select id="rcReelModel" disabled=""></select></label>
+              <label class="rc-field"><span>Exact model / size</span><select id="rcReelSize" disabled=""></select></label>
+              </div>
+              <div id="rcManualReel" hidden="">
+                <p class="rc-manual-guide">Reel not listed? Use its mono capacity rating for this mono line.</p>
+                <label class="rc-field" hidden=""><span>Rating on the reel</span><select id="rcManualType"><option value="mono">Mono rating</option></select></label>
+                <label class="rc-field"><span>Rated strength (lb)</span><input id="rcManualStrength" type="number" min="0.1" max="1000" step="any" inputmode="decimal" placeholder="10" aria-describedby="rcManualHelp rcManualError"></label>
+                <div class="rc-unit-fields"><label class="rc-field"><span>Rated capacity</span><input id="rcManualCapacity" type="number" min="0.1" max="100000" step="any" inputmode="decimal" placeholder="200" aria-describedby="rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualCapacityUnit" aria-label="Rated capacity unit"><option value="yd">Yards</option><option value="m">Meters</option></select></label></div>
+                <div class="rc-unit-fields"><label class="rc-field"><span>Printed diameter (optional)</span><input id="rcManualDiameter" type="number" min="0" step="any" inputmode="decimal" aria-describedby="rcManualHelp rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualDiameterUnit" aria-label="Printed diameter unit"><option value="mm">mm</option><option value="in">in</option></select></label></div>
+                <p class="rc-manual-guide" id="rcManualHelp">Use one matching capacity entry from the reel. If it lists a diameter for that entry, enter it instead of, or alongside, the lb test.</p>
+                <p class="rc-manual-guide" id="rcManualError" role="status"></p>
+              </div>
+            </fieldset>
+            <fieldset class="rc-control-step"><legend><span class="rc-step-number">3</span>Your spool plan</legend>
+              <label class="rc-field"><span id="rcWorkingYardsLabel">Main line to put on the reel (yards)</span><input id="rcWorkingYards" type="number" min="0.1" max="10000" step="any" inputmode="decimal" aria-describedby="rcFullSpoolHelp"></label>
+              <p id="rcFullSpoolHelp" class="rc-manual-guide" hidden=""></p>
+              <div class="rc-backing-mode-row"><button type="button" class="rc-button rc-button-secondary rc-backing-mode-button" id="rcBackingModeButton" aria-pressed="false" aria-controls="rcBackingControls">I don't want to use backing</button><span id="rcBackingModeStatus" class="rc-backing-mode-status" hidden="">Full-spool capacity</span></div>
+              <div id="rcBackingControls"><label class="rc-field"><span>Backing brand</span><select id="rcBackingBrand"></select></label><div class="rc-inline-fields"><label class="rc-field"><span>Backing model</span><select id="rcBackingModel" disabled=""></select></label><label class="rc-field"><span>Backing strength</span><select id="rcBackingLb" disabled=""></select></label></div></div>
+            </fieldset>
+          </div>
+          <div class="rc-tool-action"><button type="button" class="rc-button rc-button-primary" id="rcCalculate">Calculate my setup</button><span id="rcCalculationHelp" role="status">Choose an exact reel to continue.</span></div>
+          <div class="rc-results" id="rcResults" aria-live="polite" hidden=""></div>
+        </div>
+        <noscript><p class="rc-error">The calculator needs JavaScript. The diameter chart and line guide below are still available.</p></noscript>
+      </div>
+      <p class="rc-tool-footnote">Calculated estimates, not measured fills. Stop at the reel manufacturer's fill level even if some line remains.</p>
+    </div>
+  </section>
+
+  <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">P-Line FloroClear diameter chart</h2><p>US Clear only: 2021 catalog p.9 FCCBF-10, 10 lb, .0116 in/.29 mm, 600 yd; undated pictured FCCF-12 filler, 12 lb, .0124 in/.31 mm, 300 yd. The separate 12 lb/600 yd FCCBF bonus label prints .0122 in and is NOT combined into the 12 lb filler row.</p></div>
+    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>2021 US 10 lb bonus label and undated US 12 lb filler label; package-specific historical/reference data.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">Spools (yd)</th></tr></thead><tbody><tr data-chart-line="p-line-floroclear-copolymer-10">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="p-line-floroclear-copolymer-10" aria-label="Use P-Line FloroClear 10 lb" aria-pressed="false" disabled="">10 lb</button></th>
+    <td>0.0116</td><td>0.290</td>
+    <td>600</td>
+  </tr>
+<tr data-chart-line="p-line-floroclear-copolymer-12">
+    <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="p-line-floroclear-copolymer-12" aria-label="Use P-Line FloroClear 12 lb" aria-pressed="false" disabled="">12 lb</button></th>
+    <td>0.0124</td><td>0.310</td>
+    <td>300</td>
+  </tr></tbody></table></div>
+  </div></section>
+
+  <section class="rc-section rc-guide-section" id="line-guide" aria-labelledby="guide-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">Choosing your setup</span><h2 id="guide-title">Choosing your FloroClear strength</h2></div>
+    <div class="rc-strength-guide"><div class="rc-editorial-copy"><p>The 10 lb and 12 lb entries have different verified package lengths: 600 and 300 yards respectively. Select the strength for the rod and fishing conditions, then plan the working length from that exact package.</p>
+<p>A 12 lb FCCBF bonus carton is not interchangeable with the FCCF filler for this chart. Its .0122-inch label remains separate from the filler's .0124-inch label.</p>
+<p>The historical 10 lb specification describes a labeled product, not the fitness of any old spool. Storage and physical condition require a separate check.</p><p class="rc-editorial-note">A source-based mainline reference, not a test of visibility, castability, knot strength, or the condition of older stock.</p></div><div class="rc-strength-next"><h3>Want a guided recommendation?</h3><a class="rc-inline-link" id="rcStrengthWizard" href="https://www.reelcalc.com/reelcalc-wizard">Continue in the Setup Wizard</a></div></div>
+  </div></section>
+
+  <section class="rc-section" id="compare-lines" aria-labelledby="diameter-intelligence-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><span class="rc-eyebrow">Compare actual diameters</span><h2 id="diameter-intelligence-title">Same pound test, different diameters</h2></div>
+    <div class="rc-intelligence-grid"><div id="rcDiameterSummary" class="rc-intelligence-summary" aria-live="polite"><h3>At your selected strength</h3><p>Loading diameter comparisons...</p></div><div class="rc-switch-tool"><h3>What changes with another line?</h3><label class="rc-field"><span>Compare with</span><select id="rcReplacement"></select></label><div class="rc-switch-result" id="rcSwitchResult" aria-live="polite">Select a replacement line to compare.</div><a class="rc-inline-link" id="rcReplacementWizard" href="https://www.reelcalc.com/reelcalc-wizard" hidden="">Use this alternative in the Wizard</a></div></div>
+    <h3 class="rc-alternatives-title">Nearby diameters in the line database</h3><div class="rc-table-wrap"><table class="rc-table rc-alternatives-table"><thead><tr><th scope="col">Line</th><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">Difference</th></tr></thead><tbody id="rcAlternatives"><tr><td colspan="4">Loading line database...</td></tr></tbody></table></div>
+  </div></section>
+
+  <section class="rc-section rc-guide-section" aria-labelledby="spooling-title"><div class="rc-line-inner"><div class="rc-section-heading"><span class="rc-eyebrow">At the spooling bench</span><h2 id="spooling-title">Backing, working line &amp; leaders</h2></div><div class="rc-spooling-grid"><div><h3>Keep the filler and bonus packages separate</h3><p>The supported 12 lb working-line budget starts from 300 yards; the historical 10 lb package starts from 600 yards. Do not give the 12 lb filler an extra 300 yards simply because a bonus package exists.</p></div>
+<div><h3>Plan a usable working section</h3><p>Leave sufficient FloroClear for casts, fish runs, and retying. Backing may occupy unused space below it, with the joining knot kept outside the expected working section.</p></div>
+<div><h3>Treat the coating as construction, not a leader</h3><p>The fluorocarbon coating does not make this a separate fluorocarbon leader material. Add a leader only when the presentation calls for one and account separately for a long topshot.</p></div></div></div></section>
+
+  <section class="rc-section" aria-labelledby="examples-title"><div class="rc-line-inner"><div class="rc-section-heading"><span class="rc-eyebrow">Calculated examples</span><h2 id="examples-title">How Much Fits on These Reels?</h2><p>Estimated full-spool capacity for the FloroClear strength selected above, with no backing. These are calculated examples, not physical tests or recommendations for every pairing.</p></div><div id="rcExamples" class="rc-example-grid" data-example-mode="capacity" aria-live="polite"><p>Loading capacity estimates...</p></div></div></section>
+
+  <section class="rc-section rc-guide-section" aria-labelledby="faq-title"><div class="rc-line-inner"><div class="rc-section-heading"><h2 id="faq-title">FloroClear questions, answered</h2></div><div class="rc-faq-list"><details>
+    <summary>Is FloroClear 100% fluorocarbon?</summary>
+    <p>No. P-Line identifies FloroClear as fluorocarbon-coated copolymer and describes a silicone treatment. It remains a Copolymer mainline record here.</p>
+  </details>
+<details>
+    <summary>Why is the 10 lb entry dated 2021?</summary>
+    <p>Its readable diameter and 600-yard label are in the official 2021 US catalog, printed page 9. The source is historical; the entry does not claim current production or availability.</p>
+  </details>
+<details>
+    <summary>Can I use the 12 lb row for a 600-yard bonus pack?</summary>
+    <p>Not from this evidence. The inspected FCCBF-12 bonus carton prints .0122 in/.31 mm, while the FCCF-12 300-yard filler prints .0124 in/.31 mm. This chart retains only the filler package for 12 lb.</p>
+  </details>
+<details>
+    <summary>Does the same pound test always give the same capacity?</summary>
+    <p>No. Capacity depends on diameter and how the line packs, not only the strength label. Match the exact product and package specification rather than treating all 12 lb lines as equivalent.</p>
+  </details></div></div></section>
+
+  <section class="rc-section rc-sources-section" id="sources" aria-labelledby="sources-title"><div class="rc-line-inner"><h2 id="sources-title">Specifications &amp; sources</h2><p>The 10 lb numbers come from the manufacturer's official 2021 US catalog, printed page 9. The 12 lb filler values are visible on an actual P-Line carton and matching spool in an eBay-hosted photo, with UPC 015789650070. Official US variants corroborate FCCBF-10 and FCCF-12 identities. Seller prose and retailer diameter tables are not numeric authority. Neither row establishes current edition or availability.</p><p>Calculations use the catalog's listed inch diameters. Published inch and millimeter values may differ slightly because of rounding.</p><ul class="rc-source-list"><li>
+    <a href="https://p-line.com/product/floroclear/" target="_blank" rel="noopener">P-Line official US FloroClear identity</a>
+    <small>Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels.</small>
+  </li>
+<li>
+    <a href="https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf" target="_blank" rel="noopener">P-Line official 2021 US catalog</a>
+    <small>Historical manufacturer numeric label on printed p.9. Year/US region are part of the specification scope; no current-edition or availability assertion.</small>
+  </li>
+<li>
+    <a href="https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg" target="_blank" rel="noopener">P-Line printed package label: 12 lb Clear</a>
+    <small>Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. FCCF-12, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table.</small>
+  </li>
+<li>
+    <a href="https://i5.walmartimages.com/asr/5788c3c6-7e0b-4bbc-a3d3-40c37eafa9f6.c16fe7d0d5de61d097f8f4a818732d7c.jpeg" target="_blank" rel="noopener">Excluded package evidence: FCCBF-12</a>
+    <small>Authentic separately specified bonus package; cannot combine with the selected FCCF-12 .0124-in/300-yd row without package-specific diameter support in the shared data model.</small>
+  </li></ul><p class="rc-footer-links"><a href="https://www.reelcalc.com/line-database" data-internal-destination="line_database">Browse all lines</a><a href="https://www.reelcalc.com/reel-comparison" data-internal-destination="reel_comparison">Compare reels</a><a href="#use-this-line">Back to calculator</a></p></div></section>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide#webpage","url":"https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide","name":"P-Line FloroClear US Label Diameters & Capacity | ReelCalc","description":"P-Line FloroClear US label reference: historical 2021 10 lb/600 yd and pictured 12 lb/300 yd specifications, reel capacity, and package differences.","isPartOf":{"@id":"https://www.reelcalc.com/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.reelcalc.com/"},{"@type":"ListItem","position":2,"name":"Fishing Line Database","item":"https://www.reelcalc.com/line-database"},{"@type":"ListItem","position":3,"name":"P-Line FloroClear","item":"https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide"}]},{"@type":"Product","name":"P-Line FloroClear","image":"https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg","description":"FloroClear is a fluorocarbon-coated copolymer, not 100% fluorocarbon. This US reference combines a historical 2021 catalog label for Clear 10 lb/600 yd with a photographed Clear 12 lb/300 yd filler package of unestablished production year. It is not a current-edition or stock claim.","category":"Copolymer fishing line","brand":{"@type":"Brand","name":"P-Line"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is FloroClear 100% fluorocarbon?","acceptedAnswer":{"@type":"Answer","text":"No. P-Line identifies FloroClear as fluorocarbon-coated copolymer and describes a silicone treatment. It remains a Copolymer mainline record here."}},{"@type":"Question","name":"Why is the 10 lb entry dated 2021?","acceptedAnswer":{"@type":"Answer","text":"Its readable diameter and 600-yard label are in the official 2021 US catalog, printed page 9. The source is historical; the entry does not claim current production or availability."}},{"@type":"Question","name":"Can I use the 12 lb row for a 600-yard bonus pack?","acceptedAnswer":{"@type":"Answer","text":"Not from this evidence. The inspected FCCBF-12 bonus carton prints .0122 in/.31 mm, while the FCCF-12 300-yard filler prints .0124 in/.31 mm. This chart retains only the filler package for 12 lb."}},{"@type":"Question","name":"Does the same pound test always give the same capacity?","acceptedAnswer":{"@type":"Answer","text":"No. Capacity depends on diameter and how the line packs, not only the strength label. Match the exact product and package specification rather than treating all 12 lb lines as equivalent."}}]}]}</script></article>

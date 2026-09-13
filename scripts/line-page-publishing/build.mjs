@@ -12,6 +12,11 @@ const write = (name, content) => {
 };
 const products = JSON.parse(read("data/line-page-products.json")).products;
 const release = JSON.parse(read("data/line-page-release.json"));
+const args = process.argv.slice(2);
+if (args.length > 1 || args.some(arg => !arg.startsWith('--ids='))) throw new Error('Use optional --ids=id-one,id-two.');
+const selectedIds = args[0] ? new Set(args[0].slice(6).split(',')) : null;
+if (selectedIds) for (const id of selectedIds) if (!release.products.includes(id)) throw new Error(`Unknown release guide: ${id}`);
+const existingSettings = selectedIds ? JSON.parse(read('generated/line-pages/launch-settings.json')) : [];
 const base = "https://stefanellit.github.io/reelcalc-wizard/";
 const escape = text => String(text).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const attr = (node, name) => node.attrs?.find(a => a.name === name)?.value;
@@ -57,6 +62,12 @@ const settings = [];
 for (const id of release.products) {
   const product = products[id];
   if (!product) throw new Error(`Missing launch product ${id}`);
+  if (selectedIds && !selectedIds.has(id)) {
+    const existing = existingSettings.find(entry => entry.id === id);
+    if (!existing) throw new Error(`Unselected guide lacks existing launch settings: ${id}`);
+    settings.push(existing);
+    continue;
+  }
   const document = html.parse(read(`examples/line-pages/${id}.html`));
   const page = nodes(document, n => attr(n, "data-reelcalc-line-page") !== undefined)[0];
   const schema = nodes(document, n => n.tagName === "script" && attr(n, "type") === "application/ld+json")[0];
@@ -82,4 +93,4 @@ for (const id of release.products) {
   settings.push({ id, title: product.h1, slug: product.slug, url: "https://www.reelcalc.com/lines/p/" + product.slug, seoTitle: product.seoTitle, seoDescription: product.metaDescription, excerpt: product.quickSummary, thumbnail: product.localImagePath, snippet: `generated/line-pages/${id}-squarespace-snippet.html` });
 }
 write("generated/line-pages/launch-settings.json", JSON.stringify(settings, null, 2) + "\n");
-console.log(`Built ${settings.length} hosted components, short snippets, host-theme previews, and launch settings.`);
+console.log(`Built ${selectedIds?.size || settings.length} hosted components, short snippets and host-theme previews; retained ${settings.length} launch settings.`);

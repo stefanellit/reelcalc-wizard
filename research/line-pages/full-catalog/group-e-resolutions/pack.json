@@ -1,0 +1,3422 @@
+{
+  "group": "group-e-resolutions",
+  "checkedAt": "2026-09-13T16:14:03.177Z",
+  "researchStatus": "complete",
+  "scope": "Five held Group E models. This folder only; original signed pack is frozen. Main owns audit, integration, staging and publication.",
+  "originalPackSha256": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+  "summary": {
+    "assignedModels": 5,
+    "assignedLegacyRows": 37,
+    "sourceVerifiedModels": 1,
+    "sourceVerifiedRows": 1,
+    "partiallyVerifiedModels": 1,
+    "fullyHeldModels": 4,
+    "excludedLegacyRows": 36
+  },
+  "models": [
+    {
+      "id": "hi-seas-fluorocarbon",
+      "brand": "Hi-Seas",
+      "model": "Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "assignedStrengths": [
+        10,
+        12,
+        15,
+        20,
+        25,
+        30
+      ],
+      "priorHold": "All four current CFC-F200 mainline SKU titles conflict with their own official package images on diameter. No source establishes which specification/formulation is current. All rows held; leader diameters and legacy database values are not substitutes.",
+      "legacyInventoryNotEvidence": [
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-10",
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-12",
+          "lb": 12,
+          "dia_in": 0.012,
+          "dia_mm": 0.3,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-15",
+          "lb": 15,
+          "dia_in": 0.014,
+          "dia_mm": 0.36,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-20",
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.41,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-25",
+          "lb": 25,
+          "dia_in": 0.018,
+          "dia_mm": 0.46,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-30",
+          "lb": 30,
+          "dia_in": 0.02,
+          "dia_mm": 0.5,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        }
+      ],
+      "rows": [
+        {
+          "id": "hi-seas-fluorocarbon-fluorocarbon-25",
+          "lb": 25,
+          "dia_in": 0.018,
+          "dia_mm": 0.45,
+          "diameterBasis": "published-pair",
+          "spool_sizes_yd": [
+            200
+          ],
+          "retail_packages": [],
+          "source_packages": [
+            {
+              "sku": "CFC-F200-25",
+              "color": "Clear",
+              "yards": 200,
+              "catalogPrintedMeters": 182,
+              "photoPrintedMeters": 183,
+              "note": "Preserve the different metric companion labels as evidence only. The agreed 200 yd converts to 182.88 m, approximately 183 m; the catalog instead prints 182 m. Runtime package units remain yards."
+            }
+          ],
+          "sourceUrl": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12",
+          "corroboratingSourceUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+          "evidence": "Official linked full catalog page 12, 100% Fluorocarbon Line filler-spool table: CFC-F200-25 / 25 lb / 11.3 kg / .018 in / .45 mm / 200 yd / 182 m. Exact official SKU photo independently prints 25 lb / .018 in / .45 mm / 200 yd (183 m). Both establish the same physical SKU and yard length. Individual shop URL is 404; no stock claim.",
+          "availabilityStatus": "catalog-listed-stock-unverified"
+        }
+      ],
+      "product": {
+        "presentation": "gold",
+        "brand": "Hi-Seas",
+        "model": "Fluorocarbon",
+        "lineType": "Fluorocarbon",
+        "role": "mainline",
+        "shortName": "Hi-Seas 100% Fluoro",
+        "slug": "hi-seas-fluorocarbon-diameter-capacity-guide",
+        "eyebrow": "Fluorocarbon mainline guide",
+        "h1": "Hi-Seas 100% Fluorocarbon Line",
+        "seoTitle": "Hi-Seas Fluorocarbon 25 lb Diameter & Capacity | ReelCalc",
+        "metaDescription": "Check the catalog-listed Hi-Seas CFC-F200-25 mainline: 25 lb, .018 inch / .45 mm and 200 yards. Compare reel capacity with explicit source and availability limits.",
+        "construction": "100% polyvinylidene fluoride (PVDF) fluorocarbon mainline",
+        "quickSummary": "Hi-Seas 100% Fluorocarbon Line is the CFC-F200 mainline family, distinct from the brand's leader-only and coated lines. This limited chart covers the catalog-listed 25 lb Clear filler spool: .018 inch / .45 mm and 200 yards, confirmed by its exact package photo. Retail availability is not verified.",
+        "suitabilityTitle": "A thicker fluorocarbon working line",
+        "suitabilitySummary": "The verified 25 lb size is a substantial .45 mm line, so choose it for a tackle and presentation requirement, not merely because a reel can hold it. Consider spool diameter, rod rating and lure weight before selecting a full fluorocarbon fill. The manufacturer also describes terminal-leader use, but a short leader ahead of braid and fluorocarbon carried as the working mainline are different plans.",
+        "strengthGuide": [
+          "Only 25 lb is included in this chart. Its .018-inch / .45-mm pair appears in the official mainline catalog row and on the exact CFC-F200-25 package; other pound tests must not inherit this diameter.",
+          "Choose this physical size only where the rod, hook or lure and fishing conditions justify it. A 25 lb label is not a drag setting or proof that thick fluorocarbon will handle comfortably on a small spinning spool.",
+          "The 200-yard label is supplied length. For a shorter working section, retain enough for casts, expected runs and trimming before filling unused volume with backing."
+        ],
+        "fitTitle": "When the CFC-F200 package fits the plan",
+        "bestFit": "A source-documented option when you specifically need the 25 lb Clear Hi-Seas mainline and a 200-yard filler spool. The manufacturer describes a castable running line made from pure PVDF; this page does not claim a hands-on casting or abrasion comparison.",
+        "tradeoffTitle": "Source scope and spool handling",
+        "tradeoff": "The live 25 lb shop URL is unavailable even though the linked catalog and exact package photo establish its specification. Confirm the CFC-F200-25 package and availability before buying. A capacity estimate does not establish how comfortably this diameter will handle on your reel.",
+        "chartNote": "One verified strength: Clear CFC-F200-25, 25 lb, .018 inch / .45 mm, 200 yards. The 10/12/15/20 lb entries remain excluded because exact shop data conflicts with catalog/photo evidence. A 30 lb CFC-F200 source is not established.",
+        "chartCaption": "Catalog-listed CFC-F200-25 specification and package length. Current retail availability is not verified.",
+        "diameterNote": "The catalog and exact 25 lb package independently publish .018 inch and .45 mm. These are rounded source labels, not exact arithmetic conversions. Package calculations use 200 yards only; the catalog says 182 m and the photo 183 m, so neither metric label is treated as an exact conversion.",
+        "spoolingGuide": [
+          {
+            "title": "Match the CFC-F200-25 label",
+            "text": "Confirm 25 lb Clear 100% Fluorocarbon Line and 200 yards. A Hi-Seas leader spool, Quattro product or fluorocarbon-coated Grand Slam line is not the same package."
+          },
+          {
+            "title": "Choose the useful working length",
+            "text": "Compare the reel's capacity at .018 inch with the 200-yard supply. A deliberate working section can sit over backing, with its junction below the line needed for normal casts and fish runs."
+          },
+          {
+            "title": "Check handling while filling",
+            "text": "Use steady winding tension and the reel maker's fill clearance. Stop short of overfilling and check line handling; unused supply is preferable to forcing the whole package onto a smaller spool."
+          }
+        ],
+        "reelcalcNote": "Use the specific 25 lb CFC-F200 mainline diameter for this estimate. A missing strength in this limited chart is not permission to substitute another Hi-Seas formulation.",
+        "manufacturerFacts": [
+          {
+            "label": "Exact identity",
+            "text": "The official mainline catalog lists CFC-F200-25 as Clear 100% Fluorocarbon Line in a filler spool, not leader-only stock."
+          },
+          {
+            "label": "Matching package evidence",
+            "text": "The exact manufacturer photo prints 25 lb, .018 inch, .45 mm, 200 yards and CFC-F200-25."
+          },
+          {
+            "label": "Availability limit",
+            "text": "The catalog remains linked from AFW's current download page, but the individual 25 lb shop URL returns 404. Specification evidence does not establish retail stock."
+          }
+        ],
+        "setupComparison": {
+          "title": "Working mainline or terminal section?",
+          "leftTitle": "Fluorocarbon on the reel",
+          "leftText": "Plan capacity from the .018-inch mainline diameter. A longer working fill may need most of the package; allow for trimming rather than assuming every supplied yard is usable.",
+          "rightTitle": "Short fluorocarbon leader",
+          "rightText": "The manufacturer also describes terminal-leader use. Choose that section's length and connection separately; it does not replace the reel's mainline or backing calculation."
+        },
+        "productGuidanceTitle": "Before choosing the 25 lb spool",
+        "productGuidance": [
+          "Confirm CFC-F200-25, Clear and 200 yards on the package before purchase; current retail availability has not been established.",
+          "Keep the .45 mm diameter in view when comparing line handling and capacity with thinner fluorocarbon choices.",
+          "Do not infer missing tests from this one-row chart. Conflicting specifications remain excluded until the manufacturer clarifies them."
+        ],
+        "recommendationIntro": "Evaluate this 25 lb fluorocarbon only after checking tackle and presentation needs. The example demonstrates volume on a round baitcaster, not a universal reel or technique recommendation.",
+        "faqs": [
+          {
+            "question": "Why does this chart show only 25 lb?",
+            "answer": "The exact CFC-F200-25 catalog row and package photo agree. Other strengths either have conflicting manufacturer specifications or lack an exact verified mainline source, so they are not included."
+          },
+          {
+            "question": "Is the 25 lb package available to buy now?",
+            "answer": "Stock was not verified. AFW still links the catalog containing this SKU, but its individual shop URL returns 404. Confirm the exact package with a seller before ordering."
+          },
+          {
+            "question": "Is this Hi-Seas fluorocarbon leader?",
+            "answer": "It is the 200-yard CFC-F200 mainline filler spool. The manufacturer also describes using the material for terminal leaders, but separate Hi-Seas leader products do not supply the specifications for this chart."
+          },
+          {
+            "question": "Will one 200-yard spool fill my reel?",
+            "answer": "Compare the exact reel capacity at .018 inch with the supplied length. A short working section may leave room for backing, while a larger reel may need more than one package."
+          },
+          {
+            "question": "Should I use the 182 m or 183 m label?",
+            "answer": "Use the agreed 200-yard package length. That converts to 182.88 m, approximately 183 m. The catalog instead prints 182 m; this guide preserves that discrepancy and does not use either companion label to redefine the supplied yardage."
+          }
+        ],
+        "sourceNote": "Checked September 13, 2026. The 25 lb row is transcribed from page 12 of the 2025-named AFW catalog currently linked by its official download page, and visually corroborated by the exact manufacturer CFC-F200-25 package photo. The PDF metadata says Catalog 2024 and a June 2024 creation date; its filename does not establish a newer measurement. The July 2026 supplement supplies no replacement fluorocarbon table. The individual 25 lb shop URL returns 404. The 10/12/15/20/30 lb sizes are not included; this is not a statement of current stock or an independent diameter measurement.",
+        "reviewNote": "A source-based specification and setup guide, not a hands-on review. The chart is limited to the 25 lb package with matching catalog and photo specifications; current retail stock is not verified.",
+        "sources": [
+          {
+            "label": "AFW official catalog download page",
+            "url": "https://www.afwfishing.com/content/fishing_catalog_download.asp",
+            "note": "Current public page links the 2025-named full catalog and the 2026 supplement."
+          },
+          {
+            "label": "AFW full catalog: fluorocarbon mainline, page 12",
+            "url": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12",
+            "note": "Exact CFC-F200-25 row: 25 lb, .018 inch, .45 mm, 200 yards, Clear filler spool."
+          },
+          {
+            "label": "Exact CFC-F200-25 manufacturer package photo",
+            "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+            "note": "SKU, test, diameter and yards visibly match the accepted catalog row. The photo prints 183 m, while the catalog prints 182 m; both companion labels are preserved as source evidence."
+          },
+          {
+            "label": "AFW 2026 supplement",
+            "url": "https://www.afwfishing.com/uploads/AFW_Fishing_Brands_Supplement_2026.pdf",
+            "note": "No replacement CFC-F200 fluorocarbon specification table."
+          }
+        ],
+        "imageUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+        "localImagePath": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg",
+        "imageAlt": "Actual Hi-Seas Clear 100% Fluorocarbon Line spool labeled CFC-F200-25, 25 lb, .018 inch, .45 mm and 200 yards.",
+        "imageCaption": "Exact CFC-F200-25 package shown. Catalog-listed specifications are verified; retail availability is not.",
+        "defaultLineId": "hi-seas-fluorocarbon-fluorocarbon-25",
+        "defaultSpoolYards": 200,
+        "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+        "exampleBackingLabel": "Berkley Trilene Big Game 10 lb mono (0.012 in)",
+        "excludedLineIds": [
+          "hi-seas-fluorocarbon-fluorocarbon-10",
+          "hi-seas-fluorocarbon-fluorocarbon-12",
+          "hi-seas-fluorocarbon-fluorocarbon-15",
+          "hi-seas-fluorocarbon-fluorocarbon-20",
+          "hi-seas-fluorocarbon-fluorocarbon-30"
+        ],
+        "exampleSetups": [
+          {
+            "reelId": "abu-garcia-ambassadeur-c3-6500-c3-6500",
+            "lineId": "hi-seas-fluorocarbon-fluorocarbon-25",
+            "workingYards": 150,
+            "spoolYards": 200
+          }
+        ]
+      },
+      "status": "source-verified",
+      "resolutionStatus": "partial-source-verified",
+      "reason": "Recover ONLY Clear CFC-F200-25: the official currently linked catalog, page 12, and exact manufacturer package photo independently agree on 25 lb, .018 inch / .45 mm and 200 yards. Retain the exact legacy ID and replace its unverified .46 mm with published .45 mm. This establishes the catalog-listed specification, not current stock or current manufacture. Exclude 10/12/15/20 because live SKU product data conflicts with catalog/photos; exclude 30 because no exact mainline source was found.",
+      "publicationScope": "One 25 lb row and the supplied limited-scope gold config only; no other Hi-Seas strength is approved by this pack.",
+      "excludedLegacyStrengths": [
+        10,
+        12,
+        15,
+        20,
+        30
+      ],
+      "sourceUrls": [
+        "https://www.afwfishing.com/content/fishing_catalog_download.asp",
+        "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf",
+        "https://www.afwfishing.com/uploads/AFW_Fishing_Brands_Supplement_2026.pdf",
+        "https://www.afwfishing.com/products/parent_Hi-Seas_Fluorocarbon_Line.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-06.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-08.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-10.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-12.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-15.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-20.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-25.asp",
+        "https://www.afwfishing.com/hi-seas_products/CFC-F200-30.asp",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-06_l.jpg",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-08_l.jpg",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-10_l.jpg",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-12_l.jpg",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-15_l.jpg",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-20_l.jpg",
+        "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-catalog-download.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-catalog-download.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2026-supplement.pdf",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2026-supplement.pdf.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-mainline.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-mainline.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-30.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-30.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-live-extracted.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog-page12.png",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/pdf-review-extract.json"
+      ],
+      "retrievals": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-catalog-download.html",
+          "url": "https://www.afwfishing.com/content/fishing_catalog_download.asp",
+          "fetchedAt": "2026-09-13T15:11:19.883Z",
+          "finalUrl": "https://www.afwfishing.com/content/fishing_catalog_download.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=UTF-8",
+          "bytes": 498547,
+          "sha256": "07bcb2001a7a0104ebd618cd09ca78042aefe9fd3ade1094c31396f9aceafc0a"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog.pdf",
+          "url": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf",
+          "fetchedAt": "2026-09-13T15:12:11.717Z",
+          "finalUrl": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 121366180,
+          "sha256": "69e044eaade5100b33180a1dc958bc6e5dc9a9c402d533eda6aed093c29a71a4"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2026-supplement.pdf",
+          "url": "https://www.afwfishing.com/uploads/AFW_Fishing_Brands_Supplement_2026.pdf",
+          "fetchedAt": "2026-09-13T15:12:10.772Z",
+          "finalUrl": "https://www.afwfishing.com/uploads/AFW_Fishing_Brands_Supplement_2026.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 13305592,
+          "sha256": "fb8135eecf8e9c2d87b8396e92131fd0d220fbfb6681c61c5c01af013b079f94"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-mainline.html",
+          "url": "https://www.afwfishing.com/products/parent_Hi-Seas_Fluorocarbon_Line.asp",
+          "fetchedAt": "2026-09-13T15:10:28.329Z",
+          "finalUrl": "https://www.afwfishing.com/products/parent_Hi-Seas_Fluorocarbon_Line.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 672614,
+          "sha256": "beca7efdf25d7f01d6b3ac2320928e15f6a268263b5856eb6e00606d120317f6"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-06.asp",
+          "fetchedAt": "2026-09-13T15:35:41.833Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-06.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 682638,
+          "sha256": "cceca812ec48cf2ad72d15e23893a41aac7be69c0815e9a339373fb20fe2703b"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-08.asp",
+          "fetchedAt": "2026-09-13T15:35:46.470Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-08.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 678268,
+          "sha256": "d4ed55ddc64798a907ef68bc07460138236e59b53defc3b072e03381334851c1"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-10.asp",
+          "fetchedAt": "2026-09-13T15:35:49.668Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-10.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 677863,
+          "sha256": "8fc29d845bfa3243f1920923ba184b68ab0a49b1ddd521f748202a94e1c5f418"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-12.asp",
+          "fetchedAt": "2026-09-13T15:35:53.717Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-12.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 682657,
+          "sha256": "49e29ed4ed435d4fef68367df6c603295b79401dd225058d6a607305903fae66"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-15.asp",
+          "fetchedAt": "2026-09-13T15:35:57.668Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-15.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 682641,
+          "sha256": "7b66a5e913ed790620b8f5420ee133bc9bb01a6c7e312860408195c5e06f6971"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-20.asp",
+          "fetchedAt": "2026-09-13T15:36:01.733Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-20.asp",
+          "status": 200,
+          "contentType": "text/html; Charset=ISO-8859-1",
+          "bytes": 682641,
+          "sha256": "7f6765342c119094f2d78b38612429c9a4690da61a23d10e6cfe212119f9201b"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-25.asp",
+          "fetchedAt": "2026-09-13T15:36:05.340Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-25.asp",
+          "status": 404,
+          "contentType": "text/html; Charset=UTF-8",
+          "bytes": 496351,
+          "sha256": "723a84d7be6d4901a6603038ac720a670fcec6a045f7b5c6fb66e2e37fc7cc04"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-30.html",
+          "url": "https://www.afwfishing.com/hi-seas_products/CFC-F200-30.asp",
+          "fetchedAt": "2026-09-13T15:36:07.930Z",
+          "finalUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-30.asp",
+          "status": 404,
+          "contentType": "text/html; Charset=UTF-8",
+          "bytes": 496351,
+          "sha256": "7766aac808a57b8cf9d0244ddf41615af49a73f4003e80eec0572d81900bcc76"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-06_l.jpg",
+          "fetchedAt": "2026-09-13T15:37:40.768Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-06_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 381704,
+          "sha256": "cb0aeed119d4a8c4f3ad2f49f56439f2db495cf069ed5ef80478e907cdf43707"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-08_l.jpg",
+          "fetchedAt": "2026-09-13T15:37:41.280Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-08_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 396543,
+          "sha256": "7e55c6c9e78a2dbd45ad0794caeed02257906511bf2dcd4f69d3bf05bca1d718"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-10_l.jpg",
+          "fetchedAt": "2026-09-13T15:47:24.388Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-10_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 394455,
+          "sha256": "d528baa5236451e16a18d2a8b839b6da1a20df0e22466d8a965dcb0175125a9e"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-12_l.jpg",
+          "fetchedAt": "2026-09-13T15:47:24.969Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-12_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 401652,
+          "sha256": "74ae98bd477f76da61a6dc75f15e231c6f82905791be9464ebc048113771b5a2"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-15_l.jpg",
+          "fetchedAt": "2026-09-13T15:47:25.239Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-15_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 397420,
+          "sha256": "3c2c9891d44f57a2b48b3832c43305152788373f4ce34d143a10f207e446051e"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-20_l.jpg",
+          "fetchedAt": "2026-09-13T15:47:25.404Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-20_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 406410,
+          "sha256": "62ce11389c268e599999d8322a25eb78c7d9bbdb29f25fd7b48d1fc1f0d347f6"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25-photo.jpg",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+          "fetchedAt": "2026-09-13T15:37:41.430Z",
+          "finalUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 411231,
+          "sha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3"
+        }
+      ],
+      "sourceReview": {
+        "exactIdentity": "Hi-Seas 100% Fluorocarbon Line, Clear, CFC-F200 mainline filler spool. Catalog identifies pure PVDF running line and also allows terminal-leader use; not the separate leader-only or coated product.",
+        "catalog": {
+          "url": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12",
+          "page": 12,
+          "renderedPage": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-2025-catalog-page12.png",
+          "filename": "afw_fishing_brands_catalog_2025.pdf",
+          "pdfMetadata": {
+            "title": "AFW Fishing Brands Catalog 2024",
+            "creationDate": "2024-06-18",
+            "modificationDate": "2024-06-18"
+          },
+          "freshnessLimit": "The official current download page links this file, but its 2025 filename does not prove a 2025 specification revision. The July 2026 supplement has no replacement fluorocarbon table; its only fluorocarbon mention is generic Quick Snaps compatibility text.",
+          "tableRows": [
+            {
+              "sku": "CFC-F200-06",
+              "lb": 6,
+              "dia_in": 0.008,
+              "dia_mm": 0.2,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": false
+            },
+            {
+              "sku": "CFC-F200-08",
+              "lb": 8,
+              "dia_in": 0.01,
+              "dia_mm": 0.25,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": false
+            },
+            {
+              "sku": "CFC-F200-10",
+              "lb": 10,
+              "dia_in": 0.011,
+              "dia_mm": 0.28,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": false
+            },
+            {
+              "sku": "CFC-F200-12",
+              "lb": 12,
+              "dia_in": 0.012,
+              "dia_mm": 0.3,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": false
+            },
+            {
+              "sku": "CFC-F200-15",
+              "lb": 15,
+              "dia_in": 0.014,
+              "dia_mm": 0.35,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": false
+            },
+            {
+              "sku": "CFC-F200-20",
+              "lb": 20,
+              "dia_in": 0.016,
+              "dia_mm": 0.4,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": false
+            },
+            {
+              "sku": "CFC-F200-25",
+              "lb": 25,
+              "dia_in": 0.018,
+              "dia_mm": 0.45,
+              "yards": 200,
+              "printedMeters": 182,
+              "accepted": true
+            }
+          ],
+          "internalConflict": "The same catalog page illustrates a 12 lb package marked .014 inch / .35 mm, while its numeric table says .012 inch / .30 mm. The catalog does not settle the 12 lb formulation conflict."
+        },
+        "liveSkuObservations": [
+          {
+            "sku": "CFC-F200-06",
+            "status": 200,
+            "htmlTitle": "100% Fluorocarbon Line, 6 lb (2.7 kg) test, .008 in (0.28 mm) dia, Clear, 200 yd (182 m)",
+            "productName": "100% Fluorocarbon Line, 6 lb / 2.7 kg test, .008 in / 0.20 mm dia, Clear, 200 yd / 182 m",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-06.html"
+          },
+          {
+            "sku": "CFC-F200-08",
+            "status": 200,
+            "htmlTitle": "100% Fluorocarbon Line, 8 lb (3.6 kg) test, .012 in (0.30 mm) dia, Clear, 200 yd (182 m)",
+            "productName": "100% Fluorocarbon Line, 8 lb / 3.6 kg test, .012 in / 0.30 mm dia, Clear, 200 yd / 182 m",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-08.html"
+          },
+          {
+            "sku": "CFC-F200-10",
+            "status": 200,
+            "htmlTitle": "100% Fluorocarbon Line, 10 lb (4.5 kg) test, .013 in (0.32 mm) dia, Clear, 200 yd (182 m)",
+            "productName": "100% Fluorocarbon Line, 10 lb / 4.5 kg test, .013 in / 0.32 mm dia, Clear, 200 yd / 182 m",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-10.html"
+          },
+          {
+            "sku": "CFC-F200-12",
+            "status": 200,
+            "htmlTitle": "100% Fluorocarbon Line, 12 lb (5.4 kg) test, .014 in (0.35 mm) dia, Clear, 200 yd (182 m)",
+            "productName": "100% Fluorocarbon Line, 12 lb / 5.4 kg test, .014 in / 0.35 mm dia, Clear, 200 yd / 182 m",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-12.html"
+          },
+          {
+            "sku": "CFC-F200-15",
+            "status": 200,
+            "htmlTitle": "100% Fluorocarbon Line, 15 lb (6.8 kg) test, .016 in (0.40 mm) dia, Clear, 200 yd (182 m)",
+            "productName": "100% Fluorocarbon Line, 15 lb / 6.8 kg test, .016 in / 0.40 mm dia, Clear, 200 yd / 182 m",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-15.html"
+          },
+          {
+            "sku": "CFC-F200-20",
+            "status": 200,
+            "htmlTitle": "100% Fluorocarbon Line, 20 lb (9.0 kg) test, .017 in (0.42 mm) dia, Clear, 200 yd (182 m)",
+            "productName": "100% Fluorocarbon Line, 20 lb / 9.0 kg test, .017 in / 0.42 mm dia, Clear, 200 yd / 182 m",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-20.html"
+          },
+          {
+            "sku": "CFC-F200-25",
+            "status": 404,
+            "htmlTitle": null,
+            "productName": null,
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-25.html"
+          },
+          {
+            "sku": "CFC-F200-30",
+            "status": 404,
+            "htmlTitle": null,
+            "productName": null,
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/hiseas-cfc-30.html"
+          }
+        ],
+        "diameterConflicts": [
+          {
+            "lb": 10,
+            "sku": "CFC-F200-10",
+            "accepted": false,
+            "liveProduct": {
+              "dia_in": 0.013,
+              "dia_mm": 0.32,
+              "sourceUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-10.asp"
+            },
+            "catalogTableAndExactPhoto": {
+              "dia_in": 0.011,
+              "dia_mm": 0.28,
+              "photoUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-10_l.jpg"
+            },
+            "reason": "No dated manufacturer clarification establishes which diameter/formulation is current."
+          },
+          {
+            "lb": 12,
+            "sku": "CFC-F200-12",
+            "accepted": false,
+            "liveProduct": {
+              "dia_in": 0.014,
+              "dia_mm": 0.35,
+              "sourceUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-12.asp"
+            },
+            "catalogTableAndExactPhoto": {
+              "dia_in": 0.012,
+              "dia_mm": 0.3,
+              "photoUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-12_l.jpg"
+            },
+            "reason": "No dated manufacturer clarification establishes which diameter/formulation is current."
+          },
+          {
+            "lb": 15,
+            "sku": "CFC-F200-15",
+            "accepted": false,
+            "liveProduct": {
+              "dia_in": 0.016,
+              "dia_mm": 0.4,
+              "sourceUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-15.asp"
+            },
+            "catalogTableAndExactPhoto": {
+              "dia_in": 0.014,
+              "dia_mm": 0.35,
+              "photoUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-15_l.jpg"
+            },
+            "reason": "No dated manufacturer clarification establishes which diameter/formulation is current."
+          },
+          {
+            "lb": 20,
+            "sku": "CFC-F200-20",
+            "accepted": false,
+            "liveProduct": {
+              "dia_in": 0.017,
+              "dia_mm": 0.42,
+              "sourceUrl": "https://www.afwfishing.com/hi-seas_products/CFC-F200-20.asp"
+            },
+            "catalogTableAndExactPhoto": {
+              "dia_in": 0.016,
+              "dia_mm": 0.4,
+              "photoUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-20_l.jpg"
+            },
+            "reason": "No dated manufacturer clarification establishes which diameter/formulation is current."
+          }
+        ],
+        "outOfScopeNotes": "6 and 8 lb were investigated for context, not added to the assigned range. 6 lb SEO title says .008/.28 while actual embedded product and photo say .008/.20; 8 lb live product says .012/.30 while catalog/photo say .010/.25.",
+        "availability": {
+          "sku": "CFC-F200-25",
+          "individualProductHttpStatus": 404,
+          "verifiedRetailStock": false,
+          "verifiedCurrentManufacture": false
+        },
+        "unresolved30": "CFC-F200-30 URL is 404 and no 30 lb row appears in the current linked mainline catalog table. Do not borrow Hi-Seas leader values.",
+        "visualReview": "Catalog page 12 and exact official 6/8/10/12/15/20/25 package photos inspected. The accepted photo visibly prints CFC-F200-25, Clear, 25 lb, 11.3 kg, .018 inch, .45 mm, 200 yd and 183 m.",
+        "resolveRemainingWith": "Manufacturer clarification tied to exact CFC-F200 10/12/15/20 current SKUs, plus exact 30 lb mainline numeric/package evidence if that SKU exists."
+      }
+    },
+    {
+      "id": "kastking-superpower-braid",
+      "brand": "KastKing",
+      "model": "SuperPower Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "assignedStrengths": [
+        6,
+        8,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+        65,
+        80
+      ],
+      "priorHold": "Original SuperPower product endpoint returns HTTP 404 and original standalone product is absent from the two current public product-inventory pages. Current ColorShield and lure-kit products do not prove the original 6-80 lb chart or package matrix. Hold for exact original product numeric/package evidence; do not substitute ColorShield or Silky8.",
+      "legacyInventoryNotEvidence": [
+        {
+          "id": "kastking-superpower-braid-braid-6",
+          "lb": 6,
+          "dia_in": 0.004,
+          "dia_mm": 0.1,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-8",
+          "lb": 8,
+          "dia_in": 0.005,
+          "dia_mm": 0.13,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-10",
+          "lb": 10,
+          "dia_in": 0.006,
+          "dia_mm": 0.15,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-15",
+          "lb": 15,
+          "dia_in": 0.008,
+          "dia_mm": 0.2,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-20",
+          "lb": 20,
+          "dia_in": 0.009,
+          "dia_mm": 0.23,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-30",
+          "lb": 30,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-40",
+          "lb": 40,
+          "dia_in": 0.013,
+          "dia_mm": 0.33,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-50",
+          "lb": 50,
+          "dia_in": 0.014,
+          "dia_mm": 0.36,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-65",
+          "lb": 65,
+          "dia_in": 0.016,
+          "dia_mm": 0.41,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-superpower-braid-braid-80",
+          "lb": 80,
+          "dia_in": 0.017,
+          "dia_mm": 0.43,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        }
+      ],
+      "rows": [],
+      "product": null,
+      "status": "identity-conflict",
+      "resolutionStatus": "held-after-primary-review",
+      "reason": "Exact original SuperPower standalone, previously indexed variant and JSON endpoints return 404. Current primary kit data is real but its actual package names SuperPower Braid Line Texas Edition, and its chart specifies 4X/200 yd with a different diameter set. No primary source establishes continuity with the original unqualified catalog model. Do not substitute Texas Edition, ColorShield or Silky8 under the original IDs.",
+      "sourceUrls": [
+        "https://kastking.com/products/kastking-superpower-braided-fishing-line",
+        "https://kastking.com/products/kastking-superpower-braided-fishing-line?variant=42759457013997",
+        "https://kastking.com/products/kastking-superpower-braided-fishing-line.json",
+        "https://kastking.com/products.json?limit=250&page=1",
+        "https://kastking.com/products.json?limit=250&page=2",
+        "https://kastking.com/products/kastking-superpower-braided-fishing-line-and-lure-kit.json",
+        "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandTroutyShot_1.jpg?v=1776916349",
+        "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandTroutyShot_3.jpg?v=1776916361",
+        "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandLureKit_4.jpg?v=1776917695"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-live.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-live.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-variant.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-variant.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-kit.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-kit.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-detail.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-detail.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-comparison.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-comparison.jpg.meta.json"
+      ],
+      "retrievals": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-live.html",
+          "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line",
+          "fetchedAt": "2026-09-13T15:10:25.460Z",
+          "finalUrl": "https://kastking.com/products/kastking-superpower-braided-fishing-line",
+          "status": 404,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 760629,
+          "sha256": "f1d7cd1416890b640914c5360db917cf3a8a2cdc98496235199d8d4de5803897"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-variant.html",
+          "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line?variant=42759457013997",
+          "fetchedAt": "2026-09-13T15:10:26.099Z",
+          "finalUrl": "https://kastking.com/products/kastking-superpower-braided-fishing-line?variant=42759457013997",
+          "status": 404,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 760629,
+          "sha256": "80738605041f31249d1ce37a16c0b663ccd663e7cacdc10b2dce12f04c3cec1a"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower.json",
+          "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line.json",
+          "fetchedAt": "2026-09-13T15:10:26.525Z",
+          "finalUrl": "https://kastking.com/products/kastking-superpower-braided-fishing-line.json",
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json",
+          "url": "https://kastking.com/products.json?limit=250&page=1",
+          "fetchedAt": "2026-09-13T15:11:21.153Z",
+          "finalUrl": "https://kastking.com/products.json?limit=250&page=1",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 6164382,
+          "sha256": "75d35130b3ce48a54e36022d0d9d169341480dba248b2a12efdab928dedbd9d5"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json",
+          "url": "https://kastking.com/products.json?limit=250&page=2",
+          "fetchedAt": "2026-09-13T15:11:22.605Z",
+          "finalUrl": "https://kastking.com/products.json?limit=250&page=2",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 384683,
+          "sha256": "178d23e2e8d2f01462a5bc023780a4e133a9a93264316981391080922757e6b4"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-kit.json",
+          "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line-and-lure-kit.json",
+          "fetchedAt": "2026-09-13T15:12:16.367Z",
+          "finalUrl": "https://kastking.com/products/kastking-superpower-braided-fishing-line-and-lure-kit.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 45061,
+          "sha256": "9df42159122e39951dad665e6e163e4ca609e2c587ef1761fb034b1cc0faff9b"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-photo.jpg",
+          "url": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandTroutyShot_1.jpg?v=1776916349",
+          "fetchedAt": "2026-09-13T15:12:40.542Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandTroutyShot_1.jpg?v=1776916349",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 252908,
+          "sha256": "b366ea244ec58a2c1dfa7f769d7390bdd66c3192ae7fca44a7408de55d35e34d"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-detail.jpg",
+          "url": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandTroutyShot_3.jpg?v=1776916361",
+          "fetchedAt": "2026-09-13T15:12:40.998Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandTroutyShot_3.jpg?v=1776916361",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 260482,
+          "sha256": "ff40cb7a990f7f4225e1e3f2e0b1d1c91c9105d73a636d6a15be13afa3554ecb"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-comparison.jpg",
+          "url": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandLureKit_4.jpg?v=1776917695",
+          "fetchedAt": "2026-09-13T15:12:41.957Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandLureKit_4.jpg?v=1776917695",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 188527,
+          "sha256": "338eb944771f4b742dc26359186c56885d297258895000d2d75667ac31ae9848"
+        }
+      ],
+      "sourceReview": {
+        "identityEvidence": "Current kit product 9348255875309 is explicitly SuperPower 4X in its body; exact 10 lb package photo adds Texas Edition. Seven current variants tie pound test, 200 yd and lure to exact SKU and variant IDs. This is meaningful numeric evidence for that separately identified edition, not for the original generic model.",
+        "originalEndpointResults": [
+          {
+            "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line",
+            "status": 404
+          },
+          {
+            "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line?variant=42759457013997",
+            "status": 404
+          },
+          {
+            "url": "https://kastking.com/products/kastking-superpower-braided-fishing-line.json",
+            "status": 404
+          }
+        ],
+        "inventoryScope": "Both current public products.json pages were searched; the original standalone product was not found. This is not proof of discontinuation.",
+        "observedAlternative": {
+          "acceptedForLegacyModel": false,
+          "sourceUrl": "https://kastking.com/products/kastking-superpower-braided-fishing-line-and-lure-kit.json",
+          "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-superpower-kit.json",
+          "productId": 9348255875309,
+          "title": "KastKing Superpower Braided Fishing Line and Lure Kit",
+          "handle": "kastking-superpower-braided-fishing-line-and-lure-kit",
+          "listingCreatedAt": "2026-04-22T19:45:15-07:00",
+          "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+          "options": [
+            {
+              "name": "Length",
+              "values": [
+                "200 Yds"
+              ]
+            },
+            {
+              "name": "Strength",
+              "values": [
+                "30 Lb",
+                "40 Lb",
+                "20 Lb",
+                "50 Lb",
+                "10 Lb",
+                "65 Lb",
+                "15 Lb"
+              ]
+            },
+            {
+              "name": "Lure Type",
+              "values": [
+                "Popper",
+                "Swim Jig",
+                "Jerkbait",
+                "Bladed Jig",
+                "Trouty Shot",
+                "Frog",
+                "Ned Rig + Worm"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": 49819626832109,
+              "sku": "KLIBRDSPT-200YMG30PP",
+              "title": "200 Yds / 30 Lb / Popper",
+              "option1": "200 Yds",
+              "option2": "30 Lb",
+              "option3": "Popper"
+            },
+            {
+              "id": 49819626864877,
+              "sku": "KLIBRDSPT-200YMG40SJ",
+              "title": "200 Yds / 40 Lb / Swim Jig",
+              "option1": "200 Yds",
+              "option2": "40 Lb",
+              "option3": "Swim Jig"
+            },
+            {
+              "id": 49819626799341,
+              "sku": "KLIBRDSPT-200YMG20JB",
+              "title": "200 Yds / 20 Lb / Jerkbait",
+              "option1": "200 Yds",
+              "option2": "20 Lb",
+              "option3": "Jerkbait"
+            },
+            {
+              "id": 49819626897645,
+              "sku": "KLIBRDSPT-200YMG50BJ",
+              "title": "200 Yds / 50 Lb / Bladed Jig",
+              "option1": "200 Yds",
+              "option2": "50 Lb",
+              "option3": "Bladed Jig"
+            },
+            {
+              "id": 49819626733805,
+              "sku": "KLIBRDSPT-200YMG10TS",
+              "title": "200 Yds / 10 Lb / Trouty Shot",
+              "option1": "200 Yds",
+              "option2": "10 Lb",
+              "option3": "Trouty Shot"
+            },
+            {
+              "id": 49819626930413,
+              "sku": "KLIBRDSPT-200YMG65FR",
+              "title": "200 Yds / 65 Lb / Frog",
+              "option1": "200 Yds",
+              "option2": "65 Lb",
+              "option3": "Frog"
+            },
+            {
+              "id": 49819626766573,
+              "sku": "KLIBRDSPT-200YMG15NR",
+              "title": "200 Yds / 15 Lb / Ned Rig + Worm",
+              "option1": "200 Yds",
+              "option2": "15 Lb",
+              "option3": "Ned Rig + Worm"
+            }
+          ],
+          "packageName": "SuperPower Braid Line Texas Edition",
+          "chartSourceUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingSuperpowerBraidedFishingLineandLureKit_4.jpg?v=1776917695",
+          "chartFile": "research/line-pages/full-catalog/group-e-resolutions/sources/superpower-kit-comparison.jpg",
+          "chartTranscription": [
+            {
+              "lb": 10,
+              "dia_in": 0.006,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Trouty Shot",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 15,
+              "dia_in": 0.007,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Ned Rig + Worm",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 20,
+              "dia_in": 0.01,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Jerkbait",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 30,
+              "dia_in": 0.013,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Popper",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 40,
+              "dia_in": 0.014,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Swim Jig",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 50,
+              "dia_in": 0.017,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Bladed Jig",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 65,
+              "dia_in": 0.018,
+              "publishedUnit": "inches",
+              "yards": 200,
+              "strands": 4,
+              "lure": "Frog",
+              "acceptedForLegacyModel": false
+            }
+          ],
+          "photoReview": "Exact manufacturer 10 lb/200 yd Trouty Shot kit package visibly identifies Texas Edition and SuperPower 4X. Companion chart was visually read, not inferred from legacy data."
+        },
+        "numericConflict": "Examples: current kit 15 lb .007 versus legacy .008; 20 lb .010 versus legacy .009; 30 lb .013 versus legacy .011. A single matching 10 lb value does not establish identity.",
+        "publicationHold": "All ten assigned legacy strengths remain excluded. No original-model config or accepted rows.",
+        "resolveWith": "A primary manufacturer chart/package matrix explicitly for original unqualified SuperPower, or a manufacturer statement proving exact product continuity. A separately approved Texas Edition catalog entry would be a different task, not an automatic rename."
+      }
+    },
+    {
+      "id": "kastking-fluorocarbon",
+      "brand": "KastKing",
+      "model": "Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "assignedStrengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25
+      ],
+      "priorHold": "Catalog says only Fluorocarbon without a named formula or original source. Current KastKing products include Kovert Essential, Kovert Classic, Kovert Elite and Kovert Xtreme, with distinct formulations; FluoroKote is coated copolymer. No evidence maps this generic legacy entry to one exact product. Hold; do not select a Kovert formula by matching a few old diameters.",
+      "legacyInventoryNotEvidence": [
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-6",
+          "lb": 6,
+          "dia_in": 0.009,
+          "dia_mm": 0.23,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-8",
+          "lb": 8,
+          "dia_in": 0.01,
+          "dia_mm": 0.25,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-10",
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-12",
+          "lb": 12,
+          "dia_in": 0.013,
+          "dia_mm": 0.33,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-15",
+          "lb": 15,
+          "dia_in": 0.014,
+          "dia_mm": 0.36,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-17",
+          "lb": 17,
+          "dia_in": 0.015,
+          "dia_mm": 0.38,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-20",
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.41,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-fluorocarbon-fluorocarbon-25",
+          "lb": 25,
+          "dia_in": 0.018,
+          "dia_mm": 0.46,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        }
+      ],
+      "rows": [],
+      "product": null,
+      "status": "identity-conflict",
+      "resolutionStatus": "held-after-primary-review",
+      "reason": "Legacy KastKing Fluorocarbon has only a material name and a user-code extraction source note, not a manufacturer SKU/model. Current primary records distinguish Kovert Classic, Xtreme, Essential and Elite; a manufacturer 2021 article also describes an older German-made Kovert. No primary mapping identifies which is the legacy line. Current Classic artwork additionally contains incompatible inch/mm values. No named formula may be substituted.",
+      "sourceUrls": [
+        "https://kastking.com/products/kastking-kovert-classic-100-fluorocarbon-fishing-line.json",
+        "https://kastking.com/products/kastking-kovert-xtreme-fluorocarbon-fishing-line.json",
+        "https://kastking.com/products/kastking-kovert-essential-fluorocarbon-fishing-line.json",
+        "https://kastking.com/products/kastking-kovert-elite-100-fluorocarbon-fishing-line.json",
+        "https://kastking.com/blogs/buying-guides-reviews/does-kastking-make-a-100-fluorocarbon-fishing-line",
+        "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/01_Kovert_Classic_1600x1600_7.jpg?v=1749124758",
+        "https://kastking.com/products.json?limit=250&page=1",
+        "https://kastking.com/products.json?limit=250&page=2"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-classic.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-classic.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-xtreme.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-xtreme.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-essential.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-essential.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-elite.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-elite.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-original-article.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-original-article.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kovert-classic-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kovert-classic-photo.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json.meta.json"
+      ],
+      "retrievals": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-classic.json",
+          "url": "https://kastking.com/products/kastking-kovert-classic-100-fluorocarbon-fishing-line.json",
+          "fetchedAt": "2026-09-13T15:38:59.767Z",
+          "finalUrl": "https://kastking.com/products/kastking-kovert-classic-100-fluorocarbon-fishing-line.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 13292,
+          "sha256": "17dfcf3ef22996764a74d1884da04dc4c530c5181f1eecd7ea2d156fa512208a"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-xtreme.json",
+          "url": "https://kastking.com/products/kastking-kovert-xtreme-fluorocarbon-fishing-line.json",
+          "fetchedAt": "2026-09-13T15:38:59.985Z",
+          "finalUrl": "https://kastking.com/products/kastking-kovert-xtreme-fluorocarbon-fishing-line.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 33089,
+          "sha256": "3c51add855def469bdfa832baf6d88ef098fe3390836d1455ff8d19365d60d63"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-essential.json",
+          "url": "https://kastking.com/products/kastking-kovert-essential-fluorocarbon-fishing-line.json",
+          "fetchedAt": "2026-09-13T15:39:00.142Z",
+          "finalUrl": "https://kastking.com/products/kastking-kovert-essential-fluorocarbon-fishing-line.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 26733,
+          "sha256": "b7d91f75cc57ae0d76f18cb10f03e6ef4926cbec18619c6dce6ccee8a289ec53"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-elite.json",
+          "url": "https://kastking.com/products/kastking-kovert-elite-100-fluorocarbon-fishing-line.json",
+          "fetchedAt": "2026-09-13T15:39:00.360Z",
+          "finalUrl": "https://kastking.com/products/kastking-kovert-elite-100-fluorocarbon-fishing-line.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 38636,
+          "sha256": "729ed90ef88d29720a9f0af87582a183c51d69ab312b36b3d20c05d829b218c0"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-original-article.html",
+          "url": "https://kastking.com/blogs/buying-guides-reviews/does-kastking-make-a-100-fluorocarbon-fishing-line",
+          "fetchedAt": "2026-09-13T15:12:15.762Z",
+          "finalUrl": "https://kastking.com/blogs/buying-guides-reviews/does-kastking-make-a-100-fluorocarbon-fishing-line",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 858192,
+          "sha256": "709cc0a53263c6613b12d4f1824cfdc667f078a41a586ac6f945ff1d35a6402f"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kovert-classic-photo.jpg",
+          "url": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/01_Kovert_Classic_1600x1600_7.jpg?v=1749124758",
+          "fetchedAt": "2026-09-13T15:39:38.833Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/01_Kovert_Classic_1600x1600_7.jpg?v=1749124758",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 165103,
+          "sha256": "1cba40b7dc37c7216ab88431caa09502b37ba5c69cc4c104a88cc055e1083d61"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json",
+          "url": "https://kastking.com/products.json?limit=250&page=1",
+          "fetchedAt": "2026-09-13T15:11:21.153Z",
+          "finalUrl": "https://kastking.com/products.json?limit=250&page=1",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 6164382,
+          "sha256": "75d35130b3ce48a54e36022d0d9d169341480dba248b2a12efdab928dedbd9d5"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json",
+          "url": "https://kastking.com/products.json?limit=250&page=2",
+          "fetchedAt": "2026-09-13T15:11:22.605Z",
+          "finalUrl": "https://kastking.com/products.json?limit=250&page=2",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 384683,
+          "sha256": "178d23e2e8d2f01462a5bc023780a4e133a9a93264316981391080922757e6b4"
+        }
+      ],
+      "sourceReview": {
+        "observedAlternatives": [
+          {
+            "acceptedForLegacyModel": false,
+            "sourceUrl": "https://kastking.com/products/kastking-kovert-classic-100-fluorocarbon-fishing-line.json",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-classic.json",
+            "productId": 8220058812653,
+            "title": "KastKing Kovert Classic 100% Fluorocarbon Fishing line",
+            "handle": "kastking-kovert-classic-100-fluorocarbon-fishing-line",
+            "listingCreatedAt": "2023-09-06T19:16:15-07:00",
+            "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+            "options": [
+              {
+                "name": "Length",
+                "values": [
+                  "50 Yds",
+                  "125 Yds"
+                ]
+              },
+              {
+                "name": "Strength",
+                "values": [
+                  "17 LB",
+                  "25 LB"
+                ]
+              }
+            ],
+            "variants": [
+              {
+                "id": 47828698726637,
+                "sku": "KLIFLOKOC-50YCL17",
+                "title": "50 Yds / 17 LB",
+                "option1": "50 Yds",
+                "option2": "17 LB",
+                "option3": null
+              },
+              {
+                "id": 48179139510509,
+                "sku": "KLIFLOKOC-125YCL25",
+                "title": "125 Yds / 25 LB",
+                "option1": "125 Yds",
+                "option2": "25 LB",
+                "option3": null
+              }
+            ]
+          },
+          {
+            "acceptedForLegacyModel": false,
+            "sourceUrl": "https://kastking.com/products/kastking-kovert-xtreme-fluorocarbon-fishing-line.json",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-xtreme.json",
+            "productId": 8183095525613,
+            "title": "KastKing Kovert Xtreme Fluorocarbon Fishing line",
+            "handle": "kastking-kovert-xtreme-fluorocarbon-fishing-line",
+            "listingCreatedAt": "2023-06-08T20:07:28-07:00",
+            "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+            "options": [
+              {
+                "name": "Length",
+                "values": [
+                  "25 Yds",
+                  "50 Yds",
+                  "200 Yds"
+                ]
+              },
+              {
+                "name": "Strength",
+                "values": [
+                  "25 LB",
+                  "4 LB",
+                  "6 LB",
+                  "8 LB",
+                  "10 LB",
+                  "12 LB",
+                  "15 LB",
+                  "17 LB",
+                  "20 LB",
+                  "30 LB",
+                  "40 LB",
+                  "50 LB"
+                ]
+              }
+            ],
+            "variants": [
+              {
+                "id": 44124697592045,
+                "sku": "KLIFLOKX-25YCL25",
+                "title": "25 Yds / 25 LB",
+                "option1": "25 Yds",
+                "option2": "25 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697329901,
+                "sku": "KLIFLOKX-25YCL4",
+                "title": "25 Yds / 4 LB",
+                "option1": "25 Yds",
+                "option2": "4 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697362669,
+                "sku": "KLIFLOKX-25YCL6",
+                "title": "25 Yds / 6 LB",
+                "option1": "25 Yds",
+                "option2": "6 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697395437,
+                "sku": "KLIFLOKX-25YCL8",
+                "title": "25 Yds / 8 LB",
+                "option1": "25 Yds",
+                "option2": "8 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697428205,
+                "sku": "KLIFLOKX-25YCL10",
+                "title": "25 Yds / 10 LB",
+                "option1": "25 Yds",
+                "option2": "10 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697460973,
+                "sku": "KLIFLOKX-25YCL12",
+                "title": "25 Yds / 12 LB",
+                "option1": "25 Yds",
+                "option2": "12 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697493741,
+                "sku": "KLIFLOKX-25YCL15",
+                "title": "25 Yds / 15 LB",
+                "option1": "25 Yds",
+                "option2": "15 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697526509,
+                "sku": "KLIFLOKX-25YCL17",
+                "title": "25 Yds / 17 LB",
+                "option1": "25 Yds",
+                "option2": "17 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697559277,
+                "sku": "KLIFLOKX-25YCL20",
+                "title": "25 Yds / 20 LB",
+                "option1": "25 Yds",
+                "option2": "20 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697624813,
+                "sku": "KLIFLOKX-25YCL30",
+                "title": "25 Yds / 30 LB",
+                "option1": "25 Yds",
+                "option2": "30 LB",
+                "option3": null
+              },
+              {
+                "id": 44124700016877,
+                "sku": "KLIFLOKX-25YCL40",
+                "title": "25 Yds / 40 LB",
+                "option1": "25 Yds",
+                "option2": "40 LB",
+                "option3": null
+              },
+              {
+                "id": 44124700049645,
+                "sku": "KLIFLOKX-25YCL50",
+                "title": "25 Yds / 50 LB",
+                "option1": "25 Yds",
+                "option2": "50 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697919725,
+                "sku": "KLIFLOKX-50YCL25",
+                "title": "50 Yds / 25 LB",
+                "option1": "50 Yds",
+                "option2": "25 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697657581,
+                "sku": "KLIFLOKX-50YCL4",
+                "title": "50 Yds / 4 LB",
+                "option1": "50 Yds",
+                "option2": "4 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697690349,
+                "sku": "KLIFLOKX-50YCL6",
+                "title": "50 Yds / 6 LB",
+                "option1": "50 Yds",
+                "option2": "6 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697723117,
+                "sku": "KLIFLOKX-50YCL8",
+                "title": "50 Yds / 8 LB",
+                "option1": "50 Yds",
+                "option2": "8 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697755885,
+                "sku": "KLIFLOKX-50YCL10",
+                "title": "50 Yds / 10 LB",
+                "option1": "50 Yds",
+                "option2": "10 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697788653,
+                "sku": "KLIFLOKX-50YCL12",
+                "title": "50 Yds / 12 LB",
+                "option1": "50 Yds",
+                "option2": "12 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697821421,
+                "sku": "KLIFLOKX-50YCL15",
+                "title": "50 Yds / 15 LB",
+                "option1": "50 Yds",
+                "option2": "15 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697854189,
+                "sku": "KLIFLOKX-50YCL17",
+                "title": "50 Yds / 17 LB",
+                "option1": "50 Yds",
+                "option2": "17 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697886957,
+                "sku": "KLIFLOKX-50YCL20",
+                "title": "50 Yds / 20 LB",
+                "option1": "50 Yds",
+                "option2": "20 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697952493,
+                "sku": "KLIFLOKX-50YCL30",
+                "title": "50 Yds / 30 LB",
+                "option1": "50 Yds",
+                "option2": "30 LB",
+                "option3": null
+              },
+              {
+                "id": 44124700082413,
+                "sku": "KLIFLOKX-50YCL40",
+                "title": "50 Yds / 40 LB",
+                "option1": "50 Yds",
+                "option2": "40 LB",
+                "option3": null
+              },
+              {
+                "id": 44124700115181,
+                "sku": "KLIFLOKX-50YCL50",
+                "title": "50 Yds / 50 LB",
+                "option1": "50 Yds",
+                "option2": "50 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698247405,
+                "sku": "KLIFLOKX-200YCL25",
+                "title": "200 Yds / 25 LB",
+                "option1": "200 Yds",
+                "option2": "25 LB",
+                "option3": null
+              },
+              {
+                "id": 44124697985261,
+                "sku": "KLIFLOKX-200YCL4",
+                "title": "200 Yds / 4 LB",
+                "option1": "200 Yds",
+                "option2": "4 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698018029,
+                "sku": "KLIFLOKX-200YCL6",
+                "title": "200 Yds / 6 LB",
+                "option1": "200 Yds",
+                "option2": "6 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698050797,
+                "sku": "KLIFLOKX-200YCL8",
+                "title": "200 Yds / 8 LB",
+                "option1": "200 Yds",
+                "option2": "8 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698083565,
+                "sku": "KLIFLOKX-200YCL10",
+                "title": "200 Yds / 10 LB",
+                "option1": "200 Yds",
+                "option2": "10 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698116333,
+                "sku": "KLIFLOKX-200YCL12",
+                "title": "200 Yds / 12 LB",
+                "option1": "200 Yds",
+                "option2": "12 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698149101,
+                "sku": "KLIFLOKX-200YCL15",
+                "title": "200 Yds / 15 LB",
+                "option1": "200 Yds",
+                "option2": "15 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698181869,
+                "sku": "KLIFLOKX-200YCL17",
+                "title": "200 Yds / 17 LB",
+                "option1": "200 Yds",
+                "option2": "17 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698214637,
+                "sku": "KLIFLOKX-200YCL20",
+                "title": "200 Yds / 20 LB",
+                "option1": "200 Yds",
+                "option2": "20 LB",
+                "option3": null
+              },
+              {
+                "id": 44124698280173,
+                "sku": "KLIFLOKX-200YCL30",
+                "title": "200 Yds / 30 LB",
+                "option1": "200 Yds",
+                "option2": "30 LB",
+                "option3": null
+              }
+            ]
+          },
+          {
+            "acceptedForLegacyModel": false,
+            "sourceUrl": "https://kastking.com/products/kastking-kovert-essential-fluorocarbon-fishing-line.json",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-essential.json",
+            "productId": 8438285762797,
+            "title": "KastKing Kovert Essential 100% Fluorocarbon Fishing Line",
+            "handle": "kastking-kovert-essential-fluorocarbon-fishing-line",
+            "listingCreatedAt": "2024-03-01T03:30:19-08:00",
+            "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+            "options": [
+              {
+                "name": "Length",
+                "values": [
+                  "25 Yds",
+                  "200 Yds"
+                ]
+              },
+              {
+                "name": "Strength",
+                "values": [
+                  "4 LB",
+                  "6 LB",
+                  "8 LB",
+                  "10 LB",
+                  "12 LB",
+                  "15 LB",
+                  "17 LB",
+                  "20 LB",
+                  "25 LB",
+                  "30 LB",
+                  "40 LB",
+                  "50 LB"
+                ]
+              }
+            ],
+            "variants": [
+              {
+                "id": 45297630642413,
+                "sku": "KLIFLOKOE-25YCL4",
+                "title": "25 Yds / 4 LB",
+                "option1": "25 Yds",
+                "option2": "4 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689526509,
+                "sku": "KLIFLOKOE-25YCL6",
+                "title": "25 Yds / 6 LB",
+                "option1": "25 Yds",
+                "option2": "6 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689559277,
+                "sku": "KLIFLOKOE-25YCL8",
+                "title": "25 Yds / 8 LB",
+                "option1": "25 Yds",
+                "option2": "8 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689592045,
+                "sku": "KLIFLOKOE-25YCL10",
+                "title": "25 Yds / 10 LB",
+                "option1": "25 Yds",
+                "option2": "10 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689624813,
+                "sku": "KLIFLOKOE-25YCL12",
+                "title": "25 Yds / 12 LB",
+                "option1": "25 Yds",
+                "option2": "12 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689657581,
+                "sku": "KLIFLOKOE-25YCL15",
+                "title": "25 Yds / 15 LB",
+                "option1": "25 Yds",
+                "option2": "15 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689690349,
+                "sku": "KLIFLOKOE-25YCL17",
+                "title": "25 Yds / 17 LB",
+                "option1": "25 Yds",
+                "option2": "17 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689723117,
+                "sku": "KLIFLOKOE-25YCL20",
+                "title": "25 Yds / 20 LB",
+                "option1": "25 Yds",
+                "option2": "20 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689755885,
+                "sku": "KLIFLOKOE-25YCL25",
+                "title": "25 Yds / 25 LB",
+                "option1": "25 Yds",
+                "option2": "25 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689788653,
+                "sku": "KLIFLOKOE-25YCL30",
+                "title": "25 Yds / 30 LB",
+                "option1": "25 Yds",
+                "option2": "30 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689821421,
+                "sku": "KLIFLOKOE-25YCL40",
+                "title": "25 Yds / 40 LB",
+                "option1": "25 Yds",
+                "option2": "40 LB",
+                "option3": null
+              },
+              {
+                "id": 45297689854189,
+                "sku": "KLIFLOKOE-25YCL50",
+                "title": "25 Yds / 50 LB",
+                "option1": "25 Yds",
+                "option2": "50 LB",
+                "option3": null
+              },
+              {
+                "id": 45297630707949,
+                "sku": "KLIFLOKOE-200YCL4",
+                "title": "200 Yds / 4 LB",
+                "option1": "200 Yds",
+                "option2": "4 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690247405,
+                "sku": "KLIFLOKOE-200YCL6",
+                "title": "200 Yds / 6 LB",
+                "option1": "200 Yds",
+                "option2": "6 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690280173,
+                "sku": "KLIFLOKOE-200YCL8",
+                "title": "200 Yds / 8 LB",
+                "option1": "200 Yds",
+                "option2": "8 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690312941,
+                "sku": "KLIFLOKOE-200YCL10",
+                "title": "200 Yds / 10 LB",
+                "option1": "200 Yds",
+                "option2": "10 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690345709,
+                "sku": "KLIFLOKOE-200YCL12",
+                "title": "200 Yds / 12 LB",
+                "option1": "200 Yds",
+                "option2": "12 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690378477,
+                "sku": "KLIFLOKOE-200YCL15",
+                "title": "200 Yds / 15 LB",
+                "option1": "200 Yds",
+                "option2": "15 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690411245,
+                "sku": "KLIFLOKOE-200YCL17",
+                "title": "200 Yds / 17 LB",
+                "option1": "200 Yds",
+                "option2": "17 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690444013,
+                "sku": "KLIFLOKOE-200YCL20",
+                "title": "200 Yds / 20 LB",
+                "option1": "200 Yds",
+                "option2": "20 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690476781,
+                "sku": "KLIFLOKOE-200YCL25",
+                "title": "200 Yds / 25 LB",
+                "option1": "200 Yds",
+                "option2": "25 LB",
+                "option3": null
+              },
+              {
+                "id": 45297690509549,
+                "sku": "KLIFLOKOE-200YCL30",
+                "title": "200 Yds / 30 LB",
+                "option1": "200 Yds",
+                "option2": "30 LB",
+                "option3": null
+              }
+            ]
+          },
+          {
+            "acceptedForLegacyModel": false,
+            "sourceUrl": "https://kastking.com/products/kastking-kovert-elite-100-fluorocarbon-fishing-line.json",
+            "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-kovert-elite.json",
+            "productId": 8965435719917,
+            "title": "KastKing Kovert Elite 100% Fluorocarbon Fishing line",
+            "handle": "kastking-kovert-elite-100-fluorocarbon-fishing-line",
+            "listingCreatedAt": "2025-04-03T02:59:18-07:00",
+            "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+            "options": [
+              {
+                "name": "Color",
+                "values": [
+                  "Clear"
+                ]
+              },
+              {
+                "name": "Length",
+                "values": [
+                  "25 Yds",
+                  "50 Yds",
+                  "200 Yds"
+                ]
+              },
+              {
+                "name": "Strength",
+                "values": [
+                  "4 LB",
+                  "6 LB",
+                  "8 LB",
+                  "10 LB",
+                  "12 LB",
+                  "15 LB",
+                  "17 LB",
+                  "20 LB",
+                  "25 LB",
+                  "30 LB",
+                  "40 LB",
+                  "50 LB"
+                ]
+              }
+            ],
+            "variants": [
+              {
+                "id": 47928303386861,
+                "sku": "KLIFLOKVE-25YCL4",
+                "title": "Clear / 25 Yds / 4 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "4 LB"
+              },
+              {
+                "id": 47928303419629,
+                "sku": "KLIFLOKVE-25YCL6",
+                "title": "Clear / 25 Yds / 6 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "6 LB"
+              },
+              {
+                "id": 47928303452397,
+                "sku": "KLIFLOKVE-25YCL8",
+                "title": "Clear / 25 Yds / 8 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "8 LB"
+              },
+              {
+                "id": 47928303485165,
+                "sku": "KLIFLOKVE-25YCL10",
+                "title": "Clear / 25 Yds / 10 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "10 LB"
+              },
+              {
+                "id": 47928303517933,
+                "sku": "KLIFLOKVE-25YCL12",
+                "title": "Clear / 25 Yds / 12 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "12 LB"
+              },
+              {
+                "id": 47928303550701,
+                "sku": "KLIFLOKVE-25YCL15",
+                "title": "Clear / 25 Yds / 15 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "15 LB"
+              },
+              {
+                "id": 47928303583469,
+                "sku": "KLIFLOKVE-25YCL17",
+                "title": "Clear / 25 Yds / 17 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "17 LB"
+              },
+              {
+                "id": 47928303616237,
+                "sku": "KLIFLOKVE-25YCL20",
+                "title": "Clear / 25 Yds / 20 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "20 LB"
+              },
+              {
+                "id": 47928303649005,
+                "sku": "KLIFLOKVE-25YCL25",
+                "title": "Clear / 25 Yds / 25 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "25 LB"
+              },
+              {
+                "id": 47928303681773,
+                "sku": "KLIFLOKVE-25YCL30",
+                "title": "Clear / 25 Yds / 30 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "30 LB"
+              },
+              {
+                "id": 47928303714541,
+                "sku": "KLIFLOKVE-25YCL40",
+                "title": "Clear / 25 Yds / 40 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "40 LB"
+              },
+              {
+                "id": 47928303747309,
+                "sku": "KLIFLOKVE-25YCL50",
+                "title": "Clear / 25 Yds / 50 LB",
+                "option1": "Clear",
+                "option2": "25 Yds",
+                "option3": "50 LB"
+              },
+              {
+                "id": 47928303780077,
+                "sku": "KLIFLOKVE-50YCL4",
+                "title": "Clear / 50 Yds / 4 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "4 LB"
+              },
+              {
+                "id": 47928303812845,
+                "sku": "KLIFLOKVE-50YCL6",
+                "title": "Clear / 50 Yds / 6 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "6 LB"
+              },
+              {
+                "id": 47928303845613,
+                "sku": "KLIFLOKVE-50YCL8",
+                "title": "Clear / 50 Yds / 8 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "8 LB"
+              },
+              {
+                "id": 47928303878381,
+                "sku": "KLIFLOKVE-50YCL10",
+                "title": "Clear / 50 Yds / 10 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "10 LB"
+              },
+              {
+                "id": 47928303911149,
+                "sku": "KLIFLOKVE-50YCL12",
+                "title": "Clear / 50 Yds / 12 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "12 LB"
+              },
+              {
+                "id": 47928303943917,
+                "sku": "KLIFLOKVE-50YCL15",
+                "title": "Clear / 50 Yds / 15 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "15 LB"
+              },
+              {
+                "id": 47928303976685,
+                "sku": "KLIFLOKVE-50YCL17",
+                "title": "Clear / 50 Yds / 17 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "17 LB"
+              },
+              {
+                "id": 47928304009453,
+                "sku": "KLIFLOKVE-50YCL20",
+                "title": "Clear / 50 Yds / 20 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "20 LB"
+              },
+              {
+                "id": 47928304042221,
+                "sku": "KLIFLOKVE-50YCL25",
+                "title": "Clear / 50 Yds / 25 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "25 LB"
+              },
+              {
+                "id": 47928304074989,
+                "sku": "KLIFLOKVE-50YCL30",
+                "title": "Clear / 50 Yds / 30 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "30 LB"
+              },
+              {
+                "id": 47928304107757,
+                "sku": "KLIFLOKVE-50YCL40",
+                "title": "Clear / 50 Yds / 40 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "40 LB"
+              },
+              {
+                "id": 47928304140525,
+                "sku": "KLIFLOKVE-50YCL50",
+                "title": "Clear / 50 Yds / 50 LB",
+                "option1": "Clear",
+                "option2": "50 Yds",
+                "option3": "50 LB"
+              },
+              {
+                "id": 47928304173293,
+                "sku": "KLIFLOKVE-200YCL4",
+                "title": "Clear / 200 Yds / 4 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "4 LB"
+              },
+              {
+                "id": 47928304206061,
+                "sku": "KLIFLOKVE-200YCL6",
+                "title": "Clear / 200 Yds / 6 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "6 LB"
+              },
+              {
+                "id": 47928304238829,
+                "sku": "KLIFLOKVE-200YCL8",
+                "title": "Clear / 200 Yds / 8 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "8 LB"
+              },
+              {
+                "id": 47928304271597,
+                "sku": "KLIFLOKVE-200YCL10",
+                "title": "Clear / 200 Yds / 10 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "10 LB"
+              },
+              {
+                "id": 47928304304365,
+                "sku": "KLIFLOKVE-200YCL12",
+                "title": "Clear / 200 Yds / 12 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "12 LB"
+              },
+              {
+                "id": 47928304337133,
+                "sku": "KLIFLOKVE-200YCL15",
+                "title": "Clear / 200 Yds / 15 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "15 LB"
+              },
+              {
+                "id": 47928304369901,
+                "sku": "KLIFLOKVE-200YCL17",
+                "title": "Clear / 200 Yds / 17 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "17 LB"
+              },
+              {
+                "id": 47928304402669,
+                "sku": "KLIFLOKVE-200YCL20",
+                "title": "Clear / 200 Yds / 20 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "20 LB"
+              },
+              {
+                "id": 47928304435437,
+                "sku": "KLIFLOKVE-200YCL25",
+                "title": "Clear / 200 Yds / 25 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "25 LB"
+              },
+              {
+                "id": 47928304468205,
+                "sku": "KLIFLOKVE-200YCL30",
+                "title": "Clear / 200 Yds / 30 LB",
+                "option1": "Clear",
+                "option2": "200 Yds",
+                "option3": "30 LB"
+              }
+            ]
+          }
+        ],
+        "historicalPrimaryContext": {
+          "sourceUrl": "https://kastking.com/blogs/buying-guides-reviews/does-kastking-make-a-100-fluorocarbon-fishing-line",
+          "articleDate": "2021-01-19",
+          "author": "Al Noraker",
+          "finding": "Describes original Kovert manufactured in Germany. Current Classic explicitly says extrusion in Indonesia using Japanese PVDF. This is not a documented alias or formulation-equivalence chain."
+        },
+        "currentClassicTextConflict": "Classic JSON begins with Classic identity, then includes Xtreme prose and a 25/50/200 yd claim. Exact live variants are 17 lb / 50 yd (KLIFLOKOC-50YCL17) and 25 lb / 125 yd (KLIFLOKOC-125YCL25). Do not use cross-product body copy as a per-strength package table.",
+        "classicVisualEvidence": {
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/01_Kovert_Classic_1600x1600_7.jpg?v=1749124758",
+          "acceptedForLegacyModel": false,
+          "imageIdentity": "Actual named Kovert Classic package and attached numeric table, visually inspected. Not a generic KastKing Fluorocarbon identity.",
+          "chartTranscription": [
+            {
+              "lb": 4,
+              "dia_in": 0.006,
+              "dia_mm": 0.16,
+              "accepted": false
+            },
+            {
+              "lb": 6,
+              "dia_in": 0.008,
+              "dia_mm": 0.2,
+              "accepted": false
+            },
+            {
+              "lb": 8,
+              "dia_in": 0.009,
+              "dia_mm": 0.23,
+              "accepted": false
+            },
+            {
+              "lb": 10,
+              "dia_in": 0.01,
+              "dia_mm": 0.28,
+              "accepted": false
+            },
+            {
+              "lb": 12,
+              "dia_in": 0.011,
+              "dia_mm": 0.29,
+              "accepted": false
+            },
+            {
+              "lb": 15,
+              "dia_in": 0.012,
+              "dia_mm": 0.35,
+              "accepted": false
+            },
+            {
+              "lb": 17,
+              "dia_in": 0.014,
+              "dia_mm": 0.35,
+              "accepted": false
+            },
+            {
+              "lb": 20,
+              "dia_in": 0.015,
+              "dia_mm": 0.39,
+              "accepted": false
+            },
+            {
+              "lb": 25,
+              "dia_in": 0.016,
+              "dia_mm": 0.41,
+              "accepted": false
+            }
+          ],
+          "numericBlocker": "10 lb .010 in converts to .254 mm, not artwork .28; 15 lb .012 in converts to .3048 mm, not .35. Differences exceed normal combined label rounding. No silent conversion or choice of preferred unit.",
+          "packageCaution": "Artwork shows 125/250 yd package information, but current exact variants provide only the two offers above. Do not extrapolate packages across strengths."
+        },
+        "publicationHold": "All eight assigned strengths held; FluoroKote remains the separately named coated-copolymer product and is not substituted.",
+        "resolveWith": "Original manufacturer model/SKU provenance for the legacy record, followed by an internally consistent primary numeric and exact-package table for that identified formulation."
+      }
+    },
+    {
+      "id": "kastking-destron-monofilament",
+      "brand": "KastKing",
+      "model": "Destron Monofilament",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "assignedStrengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "priorHold": "Current official inventory names Destron Essential Monofilament, a polymer-coated nylon product. The old unqualified Destron endpoint returns 404, and no source establishes that the legacy model and Essential formulation are identical. Hold original entry instead of silently importing Essential specifications or Destron braid.",
+      "legacyInventoryNotEvidence": [
+        {
+          "id": "kastking-destron-monofilament-monofilament-6",
+          "lb": 6,
+          "dia_in": 0.009,
+          "dia_mm": 0.23,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-destron-monofilament-monofilament-8",
+          "lb": 8,
+          "dia_in": 0.01,
+          "dia_mm": 0.25,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-destron-monofilament-monofilament-10",
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-destron-monofilament-monofilament-12",
+          "lb": 12,
+          "dia_in": 0.013,
+          "dia_mm": 0.33,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-destron-monofilament-monofilament-15",
+          "lb": 15,
+          "dia_in": 0.014,
+          "dia_mm": 0.36,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "kastking-destron-monofilament-monofilament-20",
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.41,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        }
+      ],
+      "rows": [],
+      "product": null,
+      "status": "identity-conflict",
+      "resolutionStatus": "held-after-primary-review",
+      "reason": "The original unqualified Destron Monofilament URL returns 404. Current manufacturer product and actual package identify Destron Essential Monofilament with a polymer coating bonded to nylon. No primary rename/equivalence statement ties this current named line to the original catalog entry. Its exact 300 yd variants cannot be substituted under original Destron IDs.",
+      "sourceUrls": [
+        "https://kastking.com/products/kastking-destron-monofilament-fishing-line",
+        "https://kastking.com/products/kastking-destron-essential-monofilament-fishing-line.json",
+        "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingDestronEssentialMonofilamentFishingLine_2.jpg?v=1770270585",
+        "https://kastking.com/products.json?limit=250&page=1",
+        "https://kastking.com/products.json?limit=250&page=2"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-original.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-original.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-essential.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-essential.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/destron-essential-package.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/destron-essential-package.jpg.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json.meta.json"
+      ],
+      "retrievals": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-original.html",
+          "url": "https://kastking.com/products/kastking-destron-monofilament-fishing-line",
+          "fetchedAt": "2026-09-13T15:10:26.644Z",
+          "finalUrl": "https://kastking.com/products/kastking-destron-monofilament-fishing-line",
+          "status": 404,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 761798,
+          "sha256": "345399fb74c33bc509357cac3610d2a0c39702e41df812ac67619ea0fa693efd"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-essential.json",
+          "url": "https://kastking.com/products/kastking-destron-essential-monofilament-fishing-line.json",
+          "fetchedAt": "2026-09-13T15:10:27.065Z",
+          "finalUrl": "https://kastking.com/products/kastking-destron-essential-monofilament-fishing-line.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 66425,
+          "sha256": "721a23f398dae114d806b87a047076c459067f72fd9ccfc3d94ff708cc46c3cb"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/destron-essential-package.jpg",
+          "url": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingDestronEssentialMonofilamentFishingLine_2.jpg?v=1770270585",
+          "fetchedAt": "2026-09-13T15:47:24.022Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/KastKingDestronEssentialMonofilamentFishingLine_2.jpg?v=1770270585",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 264420,
+          "sha256": "9791b460bd028e8be86bd01e6741b2ad6a2a5b424ac9ef01794cb20f5772ead4"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-1.json",
+          "url": "https://kastking.com/products.json?limit=250&page=1",
+          "fetchedAt": "2026-09-13T15:11:21.153Z",
+          "finalUrl": "https://kastking.com/products.json?limit=250&page=1",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 6164382,
+          "sha256": "75d35130b3ce48a54e36022d0d9d169341480dba248b2a12efdab928dedbd9d5"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-products-2.json",
+          "url": "https://kastking.com/products.json?limit=250&page=2",
+          "fetchedAt": "2026-09-13T15:11:22.605Z",
+          "finalUrl": "https://kastking.com/products.json?limit=250&page=2",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 384683,
+          "sha256": "178d23e2e8d2f01462a5bc023780a4e133a9a93264316981391080922757e6b4"
+        }
+      ],
+      "sourceReview": {
+        "originalEndpoint": {
+          "url": "https://kastking.com/products/kastking-destron-monofilament-fishing-line",
+          "status": 404
+        },
+        "observedAlternative": {
+          "acceptedForLegacyModel": false,
+          "sourceUrl": "https://kastking.com/products/kastking-destron-essential-monofilament-fishing-line.json",
+          "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/kastking-destron-essential.json",
+          "productId": 9265008869613,
+          "title": "KastKing Destron Essential Monofilament Fishing Line",
+          "handle": "kastking-destron-essential-monofilament-fishing-line",
+          "listingCreatedAt": "2026-02-04T20:16:07-08:00",
+          "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+          "options": [
+            {
+              "name": "Color",
+              "values": [
+                "BlueBird",
+                "Chaos Camo",
+                "Lava",
+                "Ghost Clear",
+                "LemonDrop",
+                "LimeWood Camo",
+                "Midnight Camo"
+              ]
+            },
+            {
+              "name": "Length",
+              "values": [
+                "300 Yds"
+              ]
+            },
+            {
+              "name": "Strength",
+              "values": [
+                "4 LB",
+                "6 LB",
+                "8 LB",
+                "10 LB",
+                "12 LB",
+                "15 LB",
+                "17 LB",
+                "20 LB",
+                "25 LB",
+                "30 LB"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": 49343699583213,
+              "sku": "KLIMONDEE-300YBL4",
+              "title": "BlueBird / 300 Yds / 4 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343699615981,
+              "sku": "KLIMONDEE-300YBL6",
+              "title": "BlueBird / 300 Yds / 6 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343699648749,
+              "sku": "KLIMONDEE-300YBL8",
+              "title": "BlueBird / 300 Yds / 8 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343699681517,
+              "sku": "KLIMONDEE-300YBL10",
+              "title": "BlueBird / 300 Yds / 10 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343699714285,
+              "sku": "KLIMONDEE-300YBL12",
+              "title": "BlueBird / 300 Yds / 12 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343699747053,
+              "sku": "KLIMONDEE-300YBL15",
+              "title": "BlueBird / 300 Yds / 15 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343699779821,
+              "sku": "KLIMONDEE-300YBL17",
+              "title": "BlueBird / 300 Yds / 17 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343699812589,
+              "sku": "KLIMONDEE-300YBL20",
+              "title": "BlueBird / 300 Yds / 20 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343699845357,
+              "sku": "KLIMONDEE-300YBL25",
+              "title": "BlueBird / 300 Yds / 25 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343699878125,
+              "sku": "KLIMONDEE-300YBL30",
+              "title": "BlueBird / 300 Yds / 30 LB",
+              "option1": "BlueBird",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            },
+            {
+              "id": 49343699910893,
+              "sku": "KLIMONDEE-300YCA4",
+              "title": "Chaos Camo / 300 Yds / 4 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343699943661,
+              "sku": "KLIMONDEE-300YCA6",
+              "title": "Chaos Camo / 300 Yds / 6 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343699976429,
+              "sku": "KLIMONDEE-300YCA8",
+              "title": "Chaos Camo / 300 Yds / 8 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343700009197,
+              "sku": "KLIMONDEE-300YCA10",
+              "title": "Chaos Camo / 300 Yds / 10 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343700041965,
+              "sku": "KLIMONDEE-300YCA12",
+              "title": "Chaos Camo / 300 Yds / 12 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343700074733,
+              "sku": "KLIMONDEE-300YCA15",
+              "title": "Chaos Camo / 300 Yds / 15 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343700107501,
+              "sku": "KLIMONDEE-300YCA17",
+              "title": "Chaos Camo / 300 Yds / 17 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343700140269,
+              "sku": "KLIMONDEE-300YCA20",
+              "title": "Chaos Camo / 300 Yds / 20 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343700173037,
+              "sku": "KLIMONDEE-300YCA25",
+              "title": "Chaos Camo / 300 Yds / 25 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343700205805,
+              "sku": "KLIMONDEE-300YCA30",
+              "title": "Chaos Camo / 300 Yds / 30 LB",
+              "option1": "Chaos Camo",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            },
+            {
+              "id": 49343699255533,
+              "sku": "KLIMONDEE-300YLV4",
+              "title": "Lava / 300 Yds / 4 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343699288301,
+              "sku": "KLIMONDEE-300YLV6",
+              "title": "Lava / 300 Yds / 6 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343699321069,
+              "sku": "KLIMONDEE-300YLV8",
+              "title": "Lava / 300 Yds / 8 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343699353837,
+              "sku": "KLIMONDEE-300YLV10",
+              "title": "Lava / 300 Yds / 10 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343699386605,
+              "sku": "KLIMONDEE-300YLV12",
+              "title": "Lava / 300 Yds / 12 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343699419373,
+              "sku": "KLIMONDEE-300YLV15",
+              "title": "Lava / 300 Yds / 15 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343699452141,
+              "sku": "KLIMONDEE-300YLV17",
+              "title": "Lava / 300 Yds / 17 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343699484909,
+              "sku": "KLIMONDEE-300YLV20",
+              "title": "Lava / 300 Yds / 20 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343699517677,
+              "sku": "KLIMONDEE-300YLV25",
+              "title": "Lava / 300 Yds / 25 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343699550445,
+              "sku": "KLIMONDEE-300YLV30",
+              "title": "Lava / 300 Yds / 30 LB",
+              "option1": "Lava",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            },
+            {
+              "id": 49343700238573,
+              "sku": "KLIMONDEE-300YCL4",
+              "title": "Ghost Clear / 300 Yds / 4 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343700271341,
+              "sku": "KLIMONDEE-300YCL6",
+              "title": "Ghost Clear / 300 Yds / 6 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343700304109,
+              "sku": "KLIMONDEE-300YCL8",
+              "title": "Ghost Clear / 300 Yds / 8 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343700336877,
+              "sku": "KLIMONDEE-300YCL10",
+              "title": "Ghost Clear / 300 Yds / 10 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343700369645,
+              "sku": "KLIMONDEE-300YCL12",
+              "title": "Ghost Clear / 300 Yds / 12 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343700402413,
+              "sku": "KLIMONDEE-300YCL15",
+              "title": "Ghost Clear / 300 Yds / 15 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343700435181,
+              "sku": "KLIMONDEE-300YCL17",
+              "title": "Ghost Clear / 300 Yds / 17 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343700467949,
+              "sku": "KLIMONDEE-300YCL20",
+              "title": "Ghost Clear / 300 Yds / 20 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343700500717,
+              "sku": "KLIMONDEE-300YCL25",
+              "title": "Ghost Clear / 300 Yds / 25 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343700533485,
+              "sku": "KLIMONDEE-300YCL30",
+              "title": "Ghost Clear / 300 Yds / 30 LB",
+              "option1": "Ghost Clear",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            },
+            {
+              "id": 49343700566253,
+              "sku": "KLIMONDEE-300YSY4",
+              "title": "LemonDrop / 300 Yds / 4 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343700599021,
+              "sku": "KLIMONDEE-300YSY6",
+              "title": "LemonDrop / 300 Yds / 6 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343700631789,
+              "sku": "KLIMONDEE-300YSY8",
+              "title": "LemonDrop / 300 Yds / 8 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343700664557,
+              "sku": "KLIMONDEE-300YSY10",
+              "title": "LemonDrop / 300 Yds / 10 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343700697325,
+              "sku": "KLIMONDEE-300YSY12",
+              "title": "LemonDrop / 300 Yds / 12 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343700730093,
+              "sku": "KLIMONDEE-300YSY15",
+              "title": "LemonDrop / 300 Yds / 15 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343700762861,
+              "sku": "KLIMONDEE-300YSY17",
+              "title": "LemonDrop / 300 Yds / 17 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343700795629,
+              "sku": "KLIMONDEE-300YSY20",
+              "title": "LemonDrop / 300 Yds / 20 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343700828397,
+              "sku": "KLIMONDEE-300YSY25",
+              "title": "LemonDrop / 300 Yds / 25 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343700861165,
+              "sku": "KLIMONDEE-300YSY30",
+              "title": "LemonDrop / 300 Yds / 30 LB",
+              "option1": "LemonDrop",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            },
+            {
+              "id": 49343700893933,
+              "sku": "KLIMONDEE-300YGRC4",
+              "title": "LimeWood Camo / 300 Yds / 4 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343700926701,
+              "sku": "KLIMONDEE-300YGRC6",
+              "title": "LimeWood Camo / 300 Yds / 6 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343700959469,
+              "sku": "KLIMONDEE-300YGRC8",
+              "title": "LimeWood Camo / 300 Yds / 8 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343700992237,
+              "sku": "KLIMONDEE-300YGRC10",
+              "title": "LimeWood Camo / 300 Yds / 10 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343701025005,
+              "sku": "KLIMONDEE-300YGRC12",
+              "title": "LimeWood Camo / 300 Yds / 12 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343701057773,
+              "sku": "KLIMONDEE-300YGRC15",
+              "title": "LimeWood Camo / 300 Yds / 15 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343701090541,
+              "sku": "KLIMONDEE-300YGRC17",
+              "title": "LimeWood Camo / 300 Yds / 17 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343701123309,
+              "sku": "KLIMONDEE-300YGRC20",
+              "title": "LimeWood Camo / 300 Yds / 20 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343701156077,
+              "sku": "KLIMONDEE-300YGRC25",
+              "title": "LimeWood Camo / 300 Yds / 25 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343701188845,
+              "sku": "KLIMONDEE-300YGRC30",
+              "title": "LimeWood Camo / 300 Yds / 30 LB",
+              "option1": "LimeWood Camo",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            },
+            {
+              "id": 49343701221613,
+              "sku": "KLIMONDEE-300YBKC4",
+              "title": "Midnight Camo / 300 Yds / 4 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "4 LB"
+            },
+            {
+              "id": 49343701254381,
+              "sku": "KLIMONDEE-300YBKC6",
+              "title": "Midnight Camo / 300 Yds / 6 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "6 LB"
+            },
+            {
+              "id": 49343701287149,
+              "sku": "KLIMONDEE-300YBKC8",
+              "title": "Midnight Camo / 300 Yds / 8 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "8 LB"
+            },
+            {
+              "id": 49343701319917,
+              "sku": "KLIMONDEE-300YBKC10",
+              "title": "Midnight Camo / 300 Yds / 10 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "10 LB"
+            },
+            {
+              "id": 49343701352685,
+              "sku": "KLIMONDEE-300YBKC12",
+              "title": "Midnight Camo / 300 Yds / 12 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "12 LB"
+            },
+            {
+              "id": 49343701385453,
+              "sku": "KLIMONDEE-300YBKC15",
+              "title": "Midnight Camo / 300 Yds / 15 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "15 LB"
+            },
+            {
+              "id": 49343701418221,
+              "sku": "KLIMONDEE-300YBKC17",
+              "title": "Midnight Camo / 300 Yds / 17 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "17 LB"
+            },
+            {
+              "id": 49343701450989,
+              "sku": "KLIMONDEE-300YBKC20",
+              "title": "Midnight Camo / 300 Yds / 20 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "20 LB"
+            },
+            {
+              "id": 49343701483757,
+              "sku": "KLIMONDEE-300YBKC25",
+              "title": "Midnight Camo / 300 Yds / 25 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "25 LB"
+            },
+            {
+              "id": 49343701516525,
+              "sku": "KLIMONDEE-300YBKC30",
+              "title": "Midnight Camo / 300 Yds / 30 LB",
+              "option1": "Midnight Camo",
+              "option2": "300 Yds",
+              "option3": "30 LB"
+            }
+          ],
+          "construction": "Manufacturer describes polymer coating bonded to nylon; performance claims are marketing, not independently measured.",
+          "packageEvidence": "All 70 exact variants are 300 yd across seven named colors and 4/6/8/10/12/15/17/20/25/30 lb. This matrix belongs only to Essential.",
+          "photoReview": "Current manufacturer package photo visibly says Destron Essential Premium Monofilament Line. It does not establish a rename from original Destron."
+        },
+        "publicationHold": "All six original assigned strengths held. No Essential numeric chart, retailer chart or Destron braid diameter imported into accepted rows.",
+        "resolveWith": "Primary statement tying original Destron to Essential without a formulation change, or exact original Destron manufacturer diameter/package evidence. A newly named Essential entry must be separately authorized."
+      }
+    },
+    {
+      "id": "vicious-monofilament",
+      "brand": "Vicious",
+      "model": "Monofilament",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "assignedStrengths": [
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "priorHold": "Generic legacy Monofilament has no manufacturer model/SKU provenance. Official FAQ distinguishes Ultimate, Panfish and Ice copolymer monofilaments; current broad-use product is Ultimate. Its chart includes 14 lb instead of legacy 15 lb and different diameters. Ultimate is a plausible intended model, but equivalence is not established. Hold rather than silently rename the product.",
+      "legacyInventoryNotEvidence": [
+        {
+          "id": "vicious-monofilament-monofilament-6",
+          "lb": 6,
+          "dia_in": 0.009,
+          "dia_mm": 0.23,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "vicious-monofilament-monofilament-8",
+          "lb": 8,
+          "dia_in": 0.01,
+          "dia_mm": 0.25,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "vicious-monofilament-monofilament-10",
+          "lb": 10,
+          "dia_in": 0.011,
+          "dia_mm": 0.28,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "vicious-monofilament-monofilament-12",
+          "lb": 12,
+          "dia_in": 0.013,
+          "dia_mm": 0.33,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "vicious-monofilament-monofilament-15",
+          "lb": 15,
+          "dia_in": 0.014,
+          "dia_mm": 0.36,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "vicious-monofilament-monofilament-17",
+          "lb": 17,
+          "dia_in": 0.015,
+          "dia_mm": 0.38,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        },
+        {
+          "id": "vicious-monofilament-monofilament-20",
+          "lb": 20,
+          "dia_in": 0.016,
+          "dia_mm": 0.41,
+          "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user"
+        }
+      ],
+      "rows": [],
+      "product": null,
+      "status": "identity-conflict",
+      "resolutionStatus": "held-after-primary-review",
+      "reason": "Generic legacy Vicious Monofilament lacks manufacturer model/SKU provenance. Official collection and FAQ distinguish Ultimate, Panfish, Ice and other mono families. Ultimate is a plausible intended broad-use line, but neither its product title, chart nor exact current packages proves the mapping. Chart includes 14 lb, not legacy 15 lb, and most overlapping diameters differ. Preserve original IDs and type; do not rename to Ultimate or relabel 15 lb as 14 lb.",
+      "sourceUrls": [
+        "https://getvicious.com/collections/mono/products.json?limit=250",
+        "https://getvicious.com/pages/faqs",
+        "https://getvicious.com/products/vicious-ultimate-clear-mono-10lb-test.json",
+        "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/UltimateChart_480x480.png?v=1687196391",
+        "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/VCL-17-1090_edit_333e1496-684e-4eb6-aeb4-485091189b13.jpg?v=1749748207"
+      ],
+      "sourceFiles": [
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-mono-collection.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-mono-collection.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-faq.html",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-faq.html.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-10.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-10.json.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-chart.png",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-chart.png.meta.json",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-photo.jpg",
+        "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-photo.jpg.meta.json"
+      ],
+      "retrievals": [
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-mono-collection.json",
+          "url": "https://getvicious.com/collections/mono/products.json?limit=250",
+          "fetchedAt": "2026-09-13T15:11:22.883Z",
+          "finalUrl": "https://getvicious.com/collections/mono/products.json?limit=250",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 397784,
+          "sha256": "188c8490b18a34bc624eea5f84e2a9bbd5968a770cace1ba1445dade28b05ae7"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-faq.html",
+          "url": "https://getvicious.com/pages/faqs",
+          "fetchedAt": "2026-09-13T15:11:23.209Z",
+          "finalUrl": "https://getvicious.com/pages/faqs",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 253428,
+          "sha256": "f6439eaaf5bd387c6cb9005a05cbe67d1970a41b0ea6dde66d93883c8b87284f"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-10.json",
+          "url": "https://getvicious.com/products/vicious-ultimate-clear-mono-10lb-test.json",
+          "fetchedAt": "2026-09-13T15:38:58.721Z",
+          "finalUrl": "https://getvicious.com/products/vicious-ultimate-clear-mono-10lb-test.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 7567,
+          "sha256": "0fc409ce933c99444b9daff3616a29f8a72024c15d0c952037be82ce22b78e7d"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-chart.png",
+          "url": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/UltimateChart_480x480.png?v=1687196391",
+          "fetchedAt": "2026-09-13T15:38:59.146Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/UltimateChart_480x480.png?v=1687196391",
+          "status": 200,
+          "contentType": "image/png",
+          "bytes": 162697,
+          "sha256": "1bee51263c470199bb92a969ef1761f386970c9da0fe371755e181b115e02233"
+        },
+        {
+          "file": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-photo.jpg",
+          "url": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/VCL-17-1090_edit_333e1496-684e-4eb6-aeb4-485091189b13.jpg?v=1749748207",
+          "fetchedAt": "2026-09-13T15:38:59.336Z",
+          "finalUrl": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/VCL-17-1090_edit_333e1496-684e-4eb6-aeb4-485091189b13.jpg?v=1749748207",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 210566,
+          "sha256": "944153fef711993521eca4c567f7c4816c5c3e383b217bc0369a411d7cc53379"
+        }
+      ],
+      "sourceReview": {
+        "familyIdentity": "Official FAQ distinguishes Ultimate, Panfish and Ice copolymer monofilaments; the live Mono collection also has Catfish and Mono Leader. A category label does not identify one product.",
+        "collectionProductTitles": [
+          "Vicious Ultimate Clear Mono - 4 Lb Test",
+          "Vicious Ultimate Clear Mono - 6 Lb Test",
+          "Vicious Ultimate Clear Mono - 8 Lb Test",
+          "Vicious Ultimate Clear Mono - 10 Lb Test",
+          "Vicious Ultimate Clear Mono - 12 Lb Test",
+          "Vicious Ultimate Clear Mono - 14 Lb Test",
+          "Vicious Ultimate Clear Mono - 17 Lb Test",
+          "Vicious Ultimate Clear Mono - 20 Lb Test",
+          "Vicious Ultimate Clear Mono - 25 Lb Test",
+          "Vicious Ultimate Clear Mono - 30 Lb Test",
+          "Vicious Ultimate Clear Mono - 50 Lb Test",
+          "Vicious Ultimate Clear Mono - 60 Lb Test",
+          "Vicious Ultimate Clear Mono -80 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 4 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 6 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 8 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 10 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 12 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 14 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 17 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 20 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 25 Lb Test",
+          "Vicious Ultimate Lo-Vis Green Mono - 30 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 4 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 6 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 8 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 12 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 14 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 17 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 20 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 25 Lb Test",
+          "Vicious Ultimate Clear-Blue Fluorescent Mono - 30 Lb Test",
+          "Vicious Panfish Hi-Vis Yellow Mono - 2 Lb Test",
+          "Vicious Panfish Hi-Vis Yellow Mono - 4 Lb Test",
+          "Vicious Panfish Hi-Vis Yellow Mono - 6 Lb Test",
+          "Vicious Panfish Hi-Vis Yellow Mono - 8 Lb Test",
+          "Vicious Panfish Hi-Vis Yellow Mono - 10 Lb Test",
+          "Vicious Panfish Clear Mono - 2 Lb Test",
+          "Vicious Panfish Clear Mono - 4 Lb Test",
+          "Vicious Panfish Clear Mono - 6 Lb Test",
+          "Vicious Panfish Clear Mono - 8 Lb Test",
+          "Vicious Panfish Clear Mono - 10 Lb Test",
+          "Vicious Catfish Hi-Vis Yellow Mono - 14 Lb Test",
+          "Vicious Catfish Hi-Vis Yellow Mono - 17 Lb Test",
+          "Vicious Catfish Hi-Vis Yellow Mono - 20 Lb Test",
+          "Vicious Catfish Hi-Vis Yellow Mono - 25 Lb Test",
+          "Vicious Catfish Hi-Vis Yellow Mono - 30 Lb Test",
+          "Vicious Catfish Hi-Vis Yellow Mono - 40 Lb Test",
+          "Vicious Catfish Clear Mono - 14 Lb Test",
+          "Vicious Catfish Clear Mono - 17 Lb Test",
+          "Vicious Catfish Clear Mono - 20 Lb Test",
+          "Vicious Catfish Clear Mono - 25 Lb Test",
+          "Vicious Mono Leader - 15 Lb Test",
+          "Vicious Mono Leader - 20 Lb Test",
+          "Vicious Mono Leader - 30 Lb Test",
+          "Vicious Mono Leader - 40 Lb Test",
+          "Vicious Mono Leader - 50 Lb Test",
+          "Vicious Mono Leader - 60 Lb Test",
+          "Vicious Mono Leader - 80 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 1 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 2 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 3 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 4 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 6 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 8 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 10 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 12 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 14 Lb Test",
+          "Vicious Ice Hi-Vis Yellow Mono - 17 Lb Test",
+          "Vicious Ice Clear Mono - 1 Lb Test",
+          "Vicious Ice Clear Mono - 2 Lb Test",
+          "Vicious Ice Clear Mono - 3 Lb Test",
+          "Vicious Ice Clear Mono - 4 Lb Test",
+          "Vicious Ice Clear Mono - 6 Lb Test",
+          "Vicious Ice Clear Mono - 8 Lb Test",
+          "Vicious Ice Clear Mono - 10 Lb Test",
+          "Vicious Ice Clear Mono - 12 Lb Test",
+          "Vicious Ice Clear Mono - 14 Lb Test",
+          "Vicious Ice Clear Mono - 17 Lb Test"
+        ],
+        "observedAlternative": {
+          "acceptedForLegacyModel": false,
+          "sourceUrl": "https://getvicious.com/products/vicious-ultimate-clear-mono-10lb-test.json",
+          "sourceFile": "research/line-pages/full-catalog/group-e-resolutions/sources/vicious-ultimate-10.json",
+          "productId": 9793296171301,
+          "title": "Vicious Ultimate Clear Mono - 10 Lb Test",
+          "handle": "vicious-ultimate-clear-mono-10lb-test",
+          "listingCreatedAt": "2025-03-12T10:25:37-05:00",
+          "dateCaution": "Listing metadata, not evidence of a release date, rename or formula continuity.",
+          "options": [
+            {
+              "name": "Yards Per Spool",
+              "values": [
+                "330",
+                "1500",
+                "5960",
+                "11600"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": 50284941869349,
+              "sku": "VCL-10 Ultimate Mono",
+              "title": "330",
+              "option1": "330",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "id": 50284941902117,
+              "sku": "VCLQP10 Ultimate Mono",
+              "title": "1500",
+              "option1": "1500",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "id": 50284941934885,
+              "sku": "VCLP10 Ultimate Mono",
+              "title": "5960",
+              "option1": "5960",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "id": 50284941967653,
+              "sku": "VCL2P10 Ultimate Mono",
+              "title": "11600",
+              "option1": "11600",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "chartSourceUrl": "https://cdn.shopify.com/s/files/1/0718/7352/8101/files/UltimateChart_480x480.png?v=1687196391",
+          "chartTranscription": [
+            {
+              "lb": 4,
+              "dia_in": 0.007,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 6,
+              "dia_in": 0.008,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 8,
+              "dia_in": 0.009,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 10,
+              "dia_in": 0.011,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 12,
+              "dia_in": 0.012,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 14,
+              "dia_in": 0.013,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 17,
+              "dia_in": 0.014,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 20,
+              "dia_in": 0.015,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 25,
+              "dia_in": 0.016,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 30,
+              "dia_in": 0.017,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 50,
+              "dia_in": 0.027,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 60,
+              "dia_in": 0.031,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            },
+            {
+              "lb": 80,
+              "dia_in": 0.035,
+              "publishedUnit": "inches",
+              "acceptedForLegacyModel": false
+            }
+          ],
+          "exact10lbPackages": "Current Vicious Ultimate Clear Mono 10lb JSON gives 330, 1500, 5960 and 11600 yards tied to its four exact variants. No 100 yd option appears. Do not infer other strengths from this one product.",
+          "photoReview": "Actual current family photo is explicitly Ultimate and Clear, with Made in India text; printed strength and yard fields are blank. It is not evidence of a 10 lb/330 yd exact package or of generic-model equivalence."
+        },
+        "numericConflict": "Legacy 6/8/12/17/20 lb are .009/.010/.013/.015/.016 inch; Ultimate chart gives .008/.009/.012/.014/.015. Matching 10 lb alone does not identify a formulation. Legacy 15 has no 15 lb Ultimate chart row.",
+        "publicationHold": "All seven assigned strengths held; no generic-model config or accepted rows.",
+        "resolveWith": "Manufacturer model/SKU provenance establishing the original catalog identity. If Ultimate is intentionally added instead, use its own name, chart and verified per-strength packages without relabeling old IDs."
+      }
+    }
+  ],
+  "integrationNotes": [
+    "Only models[].rows contains candidate numeric data. All sourceReview alternative charts and catalog context rows are evidence only, never import payloads.",
+    "Hi-Seas 25 lb is catalog-listed, not stock-verified. Keep its availability wording and exclude all other legacy strengths. Correct its .46 mm legacy value to published .45 mm; do not convert back from inches.",
+    "retail_packages is intentionally empty for this yard-labeled SKU. source_packages retains different 182/183 m metric companion labels; 200 yd converts to 182.88 m, approximately 183 m, while the catalog prints 182 m. Neither companion label redefines the supplied yardage.",
+    "The candidate photo remains in this owned research folder; main must stage it to an asset path and adjust localImagePath. No shared asset file was changed.",
+    "The raw catalog PDF exceeds 100 MB (121366180 bytes). It is research evidence, not a deployable image; do not stage the entire evidence folder as site assets.",
+    "No claim of discontinued status is inferred from a 404. No retailer-only number, assumed identity, regional substitute, PE conversion or generated product photo was accepted."
+  ]
+}

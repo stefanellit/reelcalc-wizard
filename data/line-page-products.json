@@ -1972,7 +1972,7 @@
       "suitabilityTitle": "Is J-Braid X4 right for your setup?",
       "suitabilitySummary": "Consider X4 when a four-carrier braid suits your setup and compare the exact diameter before choosing a spool. Carrier count describes construction; it does not certify abrasion performance in your conditions. Select strength around the tackle and cover, then use capacity to plan the amount.",
       "strengthGuide": [
-        "The verified 10 lb X4 is .007 inch / .17 mm. The old catalog entry of .006 inch must not be reused for this model merely because it matches a different J-Braid.",
+        "For a 10 lb X4 fill, use its listed .007 inch / .17 mm diameter when estimating reel capacity. A .006 inch figure from a different J-Braid model is not interchangeable.",
         "The US X4 20 lb and 15 lb rows both round to .008 inch, but their metric labels are .21 and .19 mm. At this display precision, equal inch labels do not mean identical physical diameters.",
         "The 6 lb pair is withheld because .003 inch and .10 mm do not reconcile within ordinary displayed rounding. The page starts at the independently coherent 8 lb row."
       ],
@@ -2165,7 +2165,7 @@
       "spoolingGuide": [
         {
           "title": "Buy the assigned package",
-          "text": "Use 200 yards for the verified 4, 8, 10, 12, and 15 lb SKUs, and 175 yards for 20 lb. The source also generates empty-SKU combinations; those are not offered here."
+          "text": "The verified packages are 200 yards for 4, 8, 10, 12, and 15 lb, and 175 yards for 20 lb. Other strength-and-length combinations are not included in this guide."
         },
         {
           "title": "Set the working length first",
@@ -2183,7 +2183,7 @@
         },
         {
           "question": "Is every strength sold in both 175 and 200 yards?",
-          "answer": "The menu has combinations, but exact assigned SKUs only substantiate 200 yards through 15 lb and 175 yards at 20 lb. Empty-SKU combinations are excluded."
+          "answer": "For the strengths included in this guide, verified packages are 200 yards through 15 lb and 175 yards at 20 lb. Other strength-and-length combinations have not been verified here."
         },
         {
           "question": "Why is 6 lb missing from this chart?",
@@ -2191,7 +2191,7 @@
         }
       ],
       "chartNote": "US assigned SKU evidence only. Published inch/mm pairs preserved; 6lb held for unit conflict. Exact package amounts are strength-specific.",
-      "sourceNote": "Checked 2026-09-13 against Seaguar's product and public variant response. Empty-SKU combinations excluded. Six-pound discrepancy documented; no silent diameter conversion overrides it.",
+      "sourceNote": "Checked 2026-09-13 against Seaguar's product page and listed package options. Only verified strength-and-length combinations are included. The six-pound diameter discrepancy remains unresolved; no converted value replaces either published figure.",
       "reviewNote": "Specification-based guidance, not a hands-on Basix test. Capacity results are estimates, not measured fills.",
       "defaultLineId": "seaguar-basix-fluorocarbon-10",
       "defaultSpoolYards": 200,
@@ -2619,7 +2619,7 @@
         {
           "label": "Official Sufix specification source",
           "url": "https://www.rapala.com/us_en/832-advanced-superline",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -2730,7 +2730,7 @@
         {
           "label": "Official Sufix specification source",
           "url": "https://www.rapala.com/us_en/promix-braid",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -2841,7 +2841,7 @@
         {
           "label": "Official Sufix specification source",
           "url": "https://www.rapala.com/us_en/performance-braid",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -2952,7 +2952,7 @@
         {
           "label": "Official Sufix specification source",
           "url": "https://www.rapala.com/us_en/elite",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -3067,7 +3067,7 @@
         {
           "label": "Official Sufix specification source",
           "url": "https://www.rapala.com/us_en/advance-monofilament-ul-li-the-mono-that-thinks-it-s-a-braid-li-ul",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -3178,7 +3178,7 @@
         {
           "label": "Official Sufix specification source",
           "url": "https://www.rapala.com/us_en/advance-fluorocarbon",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -4308,7 +4308,7 @@
         }
       ],
       "chartNote": "Australian SKE3000 bulk SKUs only; explicit lb/mm/m columns. Inches and yards converted. Filler SKUs with missing diameter and conflicting European color rows excluded.",
-      "sourceNote": "Checked 2026-09-13. Australian and European tables reviewed independently. This is not a cross-region diameter join; only the complete Australian bulk rows are candidates.",
+      "sourceNote": "Checked 2026-09-13. Australian and European tables were reviewed separately. This chart covers only the complete Australian bulk specifications; European specifications and shorter filler-package diameters are not substituted.",
       "reviewNote": "Specification-based guidance, not a hands-on Kairiki 8 test. Capacity results are estimates, not measured fills.",
       "defaultLineId": "shimano-kairiki-8-braid-20",
       "defaultSpoolYards": 3280.84,
@@ -4782,7 +4782,7 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/finesse-braid-8x",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -4893,7 +4893,7 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/bronzeye-braid-8x",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5006,12 +5006,12 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/cast-control-8x",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official SPRO specification source",
           "url": "https://cdn.shopify.com/s/files/1/0114/8098/9758/files/Spro_2026_catalog_print-compressed.pdf?v=1755098566",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5122,7 +5122,7 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/depth-control-8x",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5233,7 +5233,7 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/gouken-flc",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5344,12 +5344,12 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/rai-jin-premium-fluorocarbon",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official SPRO specification source",
           "url": "https://cdn.shopify.com/s/files/1/0114/8098/9758/files/Spro_2026_catalog_print-compressed.pdf?v=1755098566",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5466,17 +5466,17 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/3",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/4",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/5",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5587,7 +5587,7 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/6",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5698,7 +5698,7 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/2",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5809,12 +5809,12 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/7",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/9",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -5925,32 +5925,32 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/10",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/12",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/11",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/13",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/128",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/137",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -6061,17 +6061,17 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/154",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/146",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "https://www.duel.co.jp/english/products/detail.html?pid=1622",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "mainline"
@@ -6387,7 +6387,7 @@
         },
         {
           "question": "Why is 15 lb missing?",
-          "answer": "The official chart lists 16 lb instead. The old 15 lb record is held, and the verified 16 lb row receives its own ID."
+          "answer": "The official chart lists 16 lb instead. It does not verify a 15 lb option; the 16 lb specification must not be relabelled."
         },
         {
           "question": "Are all 30- and 100-yard combinations in stock?",
@@ -6866,11 +6866,11 @@
       "h1": "Gamma Fluorocarbon Leader",
       "quickSummary": "Gamma Fluorocarbon Leader is dedicated 100% fluorocarbon terminal material. Its U.S.-size labels are distinct from Gamma's reported actual-break figures. This guide preserves exact leader package lengths and does not calculate a full reel of fluorocarbon.",
       "suitabilityTitle": "Choosing this leader material",
-      "suitabilitySummary": "Choose it for the terminal section between the actual main line and the lure, bait or fly. Decide on leader diameter, connection and finished length for the presentation and cover; the main line determines spool capacity. The official range uses 16 lb, not the 15 lb legacy label.",
+      "suitabilitySummary": "Choose it for the terminal section between the actual main line and the lure, bait or fly. Decide on leader diameter, connection and finished length for the presentation and cover; the main line determines spool capacity. The official range lists 16 lb, not 15 lb.",
       "construction": "100% fluorocarbon leader material",
       "strengthGuide": [
         "The 6, 8 and 10 lb U.S. sizes are 0.008, 0.009 and 0.010 inch in the supported table. Do not relabel them with the larger manufacturer-reported actual-break numbers.",
-        "The next steps include 12 and 16 lb. No matching 15 lb U.S.-size leader appears in the reviewed current tables, so that legacy ID is excluded rather than renamed.",
+        "The next steps include 12 and 16 lb. The reviewed current tables do not list a 15 lb U.S.-size leader; a nearby strength is not an interchangeable label.",
         "Heavier 20-80 lb leader material serves a different terminal purpose from light tippet. Diameter, lure action, knots and abrasion exposure matter; a heavier rating alone does not guarantee a suitable rig."
       ],
       "spoolingGuide": [
@@ -6890,7 +6890,7 @@
       "faqs": [
         {
           "question": "Does a 15 lb Gamma leader row exist?",
-          "answer": "The reviewed official U.S.-size table uses 16 lb, not 15 lb. The legacy 15 lb ID remains held rather than being relabeled."
+          "answer": "The reviewed official U.S.-size table uses 16 lb, not 15 lb. A 15 lb option is not verified by that table and is not included in this guide."
         },
         {
           "question": "Do actual-break numbers tell me how much drag to set?",
@@ -8487,7 +8487,7 @@
         "Treat the coating as a construction feature, not proof of invisibility, superior abrasion performance or an independent casting advantage.",
         "Only 300-yard variants were verified on the current product. The artwork's wider 150/300/500-yard range is not evidence that all three lengths can be selected now at each strength."
       ],
-      "chartNote": "Exact current 300-yard FluoroKote variants matched to the manufacturer chart. This is Copolymer, not pure Fluorocarbon; existing catalog IDs retain their historical suffix.",
+      "chartNote": "Exact current 300-yard FluoroKote variants matched to the manufacturer chart. This is Copolymer, not pure Fluorocarbon.",
       "diameterNote": "Inch and mm chart pairs are preserved as independently rounded published values. At 6 lb the coarse pair is .008 in/.22 mm, not an exact conversion.",
       "spoolingGuide": [
         {
@@ -9625,7 +9625,7 @@
           "text": "A short SPRO Finesse Leader does not determine how much braid fits the reel. Keep the reel-fill calculation on the selected mainline and track leader supply separately."
         }
       ],
-      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test.",
       "chartNote": "Only the source-reviewed strengths and package combinations listed below are included. Converted measurements are identified in the source notes.",
       "sourceNote": "Official sources retrieved September 13, 2026. Millimeter diameters are published; inches are converted by dividing by 25.4. All six official package images visually reviewed. Meter length 50 m used as the source quantity; artwork says 54Y, which is a truncated rather than nearest-yard conversion. Inch diameters are converted from printed millimeters. Package options are not a stock or price guarantee.",
       "bestFit": "This is a leader option for finesse presentations where you want a short, replaceable section ahead of the mainline. The green color is an actual product choice, not proof of invisibility in all water. Select leader diameter for the hook, cover and knot connection, then calculate reel capacity from the mainline that occupies the spool.",
@@ -9685,7 +9685,7 @@
         {
           "label": "Official SPRO specification source",
           "url": "https://www.spro.com/products/finesse-leader",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "leader",
@@ -9732,7 +9732,7 @@
           "text": "After contact with cover or a fish, inspect the leader and replace damaged sections. The manufacturer's abrasion-resistance positioning is not a guarantee that it can remain in service indefinitely."
         }
       ],
-      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test.",
       "chartNote": "Only the source-reviewed strengths and package combinations listed below are included. Converted measurements are identified in the source notes.",
       "sourceNote": "Official sources retrieved September 13, 2026. Both inch and millimeter values are published independently and retained within rounding tolerance. Clear and Pink rows kept color-specific. The 40 lb 0.570 mm/0.023 in, 50 lb 0.620 mm/0.025 in and 130 lb 1.050 mm/0.042 in pairs are withheld for numerical conflicts beyond the 0.0132 mm combined rounding allowance at the printed precision. The alternate official DUEL TopKnot Leader chart repeats the 40/50 lb pairs and does not resolve them. Pink 100 yd table mislabels the strength column Length; SKU pound labels and the matching Clear table resolve the heading typo without inventing a size. Package options are not a stock or price guarantee.",
       "bestFit": "Use TopKnot Leader to plan the replaceable section ahead of a braid or mono mainline. The range spans lighter connections and much heavier leaders, so diameter and terminal tackle compatibility matter more than a single universal braid-to-leader ratio. Pick the leader for the fishing contact surfaces and presentation, and keep full-reel planning on the mainline.",
@@ -9792,17 +9792,17 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/18",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/19",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "https://www.duel.co.jp/english/products/topknot-leader",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "leader",
@@ -9847,7 +9847,7 @@
           "text": "Use the mainline diameter for the reel capacity estimate. Leader length is an independent rigging and replenishment decision."
         }
       ],
-      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test.",
       "chartNote": "Only the source-reviewed strengths and package combinations listed below are included. Converted measurements are identified in the source notes.",
       "sourceNote": "Official sources retrieved September 13, 2026. Both inch and millimeter values are published independently and retained within rounding tolerance. UPC/item-code tables retained. 300 lb 1.885 mm/0.075 in withheld for numerical conflict. 60 lb/100 yd description typo ends in 60YD; item code, table heading and pound-test column consistently identify 60LB/100YD, and are retained as evidence. Package options are not a stock or price guarantee.",
       "bestFit": "SuperFluoro spans light leaders through heavy offshore bite sections. That breadth is useful only when the leader diameter, connection and terminal tackle suit the actual fishing. Yo-Zuri emphasizes manageable tying and abrasion performance; this guide does not assign a measured abrasion lifetime or repeat its historical price comparisons as current savings.",
@@ -9907,7 +9907,7 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/136",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "leader",
@@ -9952,7 +9952,7 @@
           "text": "Check the leader after contact with structure, fish and handling. Replace damaged sections and test a newly tied connection before fishing."
         }
       ],
-      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test. Capacity results are estimates, not measured fills.",
+      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on performance test.",
       "chartNote": "Only the source-reviewed strengths and package combinations listed below are included. Converted measurements are identified in the source notes.",
       "sourceNote": "Official sources retrieved September 13, 2026. Both inch and millimeter values are published independently and retained within rounding tolerance. Separate Clear, Disappearing Pink and Pink bulk tables retained with SKU context. 300 lb Pink 1.885 mm/0.075 in withheld for numerical conflict. No color or package range is inferred from another color. Package options are not a stock or price guarantee.",
       "bestFit": "This is a bite-section material to compare for fresh- or saltwater rigs, with much heavier sizes available than a typical freshwater mainline. Pick the diameter and connection for the intended contact surfaces and fish. Treat Disappearing Pink as a named color and manufacturer positioning, not a promise that it vanishes under all water and light conditions.",
@@ -10000,7 +10000,7 @@
           "answer": "No. A marketing record anecdote is not a strength guarantee for your line, knots, rod or reel; it is not used to establish the numeric rows here."
         },
         {
-          "question": "Why is the 300 lb row not calculator-ready?",
+          "question": "Why is 300 lb omitted from the leader chart?",
           "answer": "Its printed 1.885 mm/0.075 inch values conflict beyond normal combined rounding at the displayed precision. The raw row is retained pending clarification."
         },
         {
@@ -10012,17 +10012,17 @@
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/15",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/16",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         },
         {
           "label": "Official Yo-Zuri specification source",
           "url": "http://www.yo-zuri.com/products/archives/17",
-          "note": "Exact numeric rows, package identity and model positioning. Saved source evidence is retained in the Group B research pack."
+          "note": "Exact numeric rows, package identity and model positioning."
         }
       ],
       "role": "leader",
@@ -11118,6 +11118,1718 @@
           "lineId": "berkley-forward-finesse-braid-braid-10",
           "workingYards": 75,
           "spoolYards": 150
+        }
+      ]
+    },
+    "sufix-invisiline-fluorocarbon": {
+      "presentation": "gold",
+      "role": "mainline",
+      "shortName": "Castable Invisiline",
+      "slug": "sufix-invisiline-fluorocarbon-diameter-capacity-guide",
+      "brand": "Sufix",
+      "model": "Invisiline Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "defaultLineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+      "defaultSpoolYards": 100,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "capacity",
+      "excludedLineIds": [],
+      "eyebrow": "Castable fluorocarbon setup guide",
+      "h1": "Sufix Castable Invisiline Fluorocarbon",
+      "seoTitle": "Sufix Invisiline Fluorocarbon Diameter & Capacity Guide | ReelCalc",
+      "metaDescription": "Compare verified Sufix Castable Invisiline diameters and exact 100-yard SKUs. Plan a working length over backing without confusing mainline with Invisiline Leader.",
+      "construction": "100% fluorocarbon castable mainline with G2 Precision Winding",
+      "quickSummary": "Castable Invisiline is Sufix's 100% fluorocarbon mainline for spinning and casting reels. This guide covers the Clear 100-yard 680-9xxC spools from 4 to 20 lb, with each package tied to its exact SKU. Invisiline Leader and Ice are separate products.",
+      "suitabilityTitle": "Does a 100-yard working supply fit your fishing?",
+      "suitabilitySummary": "Consider Castable Invisiline when fluorocarbon will be the line you cast, not merely a short terminal leader. Its verified 100-yard packages make working length and backing important decisions. Choose another continuous supply when your expected casts, depth or fish runs require more line than one package provides.",
+      "strengthGuide": [
+        "The 4, 6 and 8 lb sizes are listed at 0.007, 0.008 and 0.009 inch. These thinner choices use less spool volume per yard; match strength to the rod, lure and cover before comparing capacity.",
+        "The 10-14 lb sizes step from 0.011 to 0.013 inch. A 100-yard package remains 100 yards at each strength, but thicker line occupies more of the reel.",
+        "At 17 lb, Castable Invisiline is 0.016 inch, not the 0.015 inch listed for Advance Fluorocarbon. The 20 lb row is 0.017 inch. These heavier options merit a reel and rod suited to the thicker mainline."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Start with the working length",
+          "text": "A 100-yard spool is a limited supply of castable mainline. Allow for normal casts or fishing depth, fish runs, knots and trimming before deciding whether one package is enough."
+        },
+        {
+          "title": "Fill unused volume with backing",
+          "text": "Backing can occupy the part of the reel below the working fluorocarbon. Keep the connection below the line you expect to deploy; backing does not make a short working section adequate for long runs."
+        },
+        {
+          "title": "Check the exact package code",
+          "text": "This guide uses Clear 680-9xxC 100-yard spools. Do not select 200 yards from the conflicting website size field, or treat several 100-yard spools as one uninterrupted length."
+        },
+        {
+          "title": "Respect the reel fill limit",
+          "text": "Load under even tension and follow the reel maker's fill guidance. G2 Precision Winding describes the manufacturer's retail spooling process, not a guarantee of trouble-free handling on every reel."
+        }
+      ],
+      "reviewNote": "Specification-based guidance, not a ReelCalc hands-on test. Manufacturer handling and low-stretch claims have not been independently measured here. Reel capacity is an estimate.",
+      "chartNote": "Included rows cover Clear 100-yard U.S. 680-9xxC SKUs only. Inch diameters are manufacturer-published; millimeters are converted. No historical 200- or 600-yard offerings are included.",
+      "sourceNote": "Checked September 13, 2026. The current official catalog confirms 4-14 lb at 100 yd. For 17 and 20 lb, the exact 100-yard SKUs in the 2018 manufacturer catalog match current official SKU fields and image labels. These sources take precedence over a contradictory 200-yard size field on the product page. Package specifications do not imply stock availability.",
+      "bestFit": "A castable fluorocarbon working section whose required length fits within a verified 100-yard package.",
+      "tradeoff": "A 100-yard supply may leave inadequate reserve for deep fishing or long runs, even when backing fills the reel to its target level.",
+      "reelcalcNote": "Choose strength for the fishing conditions first. Use the exact Invisiline diameter and a working length that leaves an appropriate reserve; neither pound test nor reel volume alone determines suitability.",
+      "imageUrl": "https://mcprod.rapala.com/media/catalog/product/4/4/44092a90cf29c9_5op91qt19l48n7rvsh14e10i0r_da39493c.png",
+      "localImagePath": "assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "imageAlt": "Sufix Castable Invisiline 100% Fluorocarbon manufacturer spool image with green and white label",
+      "imageCaption": "Manufacturer product image; the spool face does not identify a specific strength or length.",
+      "manufacturerFacts": [
+        {
+          "label": "Product identity",
+          "text": "Castable Invisiline 100% fluorocarbon mainline, distinct from Invisiline Leader and Ice."
+        },
+        {
+          "label": "Verified package scope",
+          "text": "Clear 100-yard spools at 4, 6, 8, 10, 12, 14, 17 and 20 lb. Current catalog and exact-SKU historical support are distinguished in the source notes."
+        },
+        {
+          "label": "Retail winding",
+          "text": "Sufix names G2 Precision Winding for these castable fluorocarbon packages."
+        }
+      ],
+      "setupComparison": {
+        "title": "One 100-yard package or a longer continuous fill?",
+        "leftTitle": "Working line over backing",
+        "leftText": "A measured working section can use the 100-yard supply while backing fills lower spool volume. Leave enough working line to keep the join below normal deployment.",
+        "rightTitle": "Continuous mainline",
+        "rightText": "A full fill requires enough uninterrupted line for the target reel. If the estimate exceeds 100 yards, multiple retail spools do not automatically provide a continuous length."
+      },
+      "productGuidanceTitle": "Planning a Castable Invisiline fill",
+      "productGuidance": [
+        "A 100-yard spool is a limited supply of castable mainline. Allow for normal casts or fishing depth, fish runs, knots and trimming before deciding whether one package is enough.",
+        "Backing can occupy the part of the reel below the working fluorocarbon. Keep the connection below the line you expect to deploy; backing does not make a short working section adequate for long runs.",
+        "This guide uses Clear 680-9xxC 100-yard spools. Do not select 200 yards from the conflicting website size field, or treat several 100-yard spools as one uninterrupted length.",
+        "Load under even tension and follow the reel maker's fill guidance. G2 Precision Winding describes the manufacturer's retail spooling process, not a guarantee of trouble-free handling on every reel."
+      ],
+      "recommendationIntro": "Match an offered strength to the rod and fishing conditions, then check whether the 100-yard package covers the working length and reserve.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "sufix-invisiline-fluorocarbon-fluorocarbon-8",
+          "workingYards": 90,
+          "spoolYards": 100
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Castable Invisiline a leader-only product?",
+          "answer": "No. Sufix identifies this 100% fluorocarbon as castable mainline for spinning and casting reels. The separately named Invisiline Leader and Invisiline Ice products are not included."
+        },
+        {
+          "question": "Why does this guide use 100 yards when a website field says 200?",
+          "answer": "The exact 680-9xxC codes are identified as 100-yard spools in manufacturer catalogs. The current product page also gives 100 yards in its package and capacity fields and exact-SKU image labels. Its contradictory 200-yard size field is not accepted for these codes; the source notes preserve the conflict."
+        },
+        {
+          "question": "Why are 17 and 20 lb supported differently from the lighter sizes?",
+          "answer": "The current 2026 catalog table lists 4-14 lb. The 17 and 20 lb rows remain on the current official product page, and their exact 680-917C and 680-920C 100-yard identities are documented in the 2018 manufacturer catalog. This supports their package specification, not a claim that they are currently in stock."
+        },
+        {
+          "question": "Is one 100-yard spool enough for my reel?",
+          "answer": "Only if it covers the required working length and reserve. Use the reel's capacity and exact diameter to plan backing, but do not rely on backing to compensate for insufficient working line on a long cast, deep drop or fish run."
+        },
+        {
+          "question": "Can I substitute Advance Fluorocarbon at the same pound test?",
+          "answer": "Not for a diameter-based calculation. For example, Castable Invisiline 17 lb is 0.016 inch while Advance Fluorocarbon 17 lb is 0.015 inch. Choose the actual model you will spool."
+        },
+        {
+          "question": "Are the millimeter diameters separately measured specifications?",
+          "answer": "No. This guide uses the published inch table and calculates millimeters as inches multiplied by 25.4. The extra converted digits do not imply greater manufacturing or measurement precision."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Sufix Castable Invisiline product page",
+          "url": "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon",
+          "note": "Current U.S. inch table and exact 680-9xxC variants. Two 100-yard fields and manufacturer image labels conflict with size_value=200 yd; catalog SKU evidence resolves the accepted package."
+        },
+        {
+          "label": "Official Rapala catalog hub",
+          "url": "https://www.rapala.com/us_en/all-brand-catalogs",
+          "note": "Manufacturer-owned hub links the Normark 2026 Sufix Master Catalog, establishing the catalog publisher and current edition."
+        },
+        {
+          "label": "2026 Sufix Master Catalog",
+          "url": "https://issuu.com/normarkcorporation/docs/2026_sufix_master_catalog",
+          "note": "Page image 14, Castable Invisiline specifications: six exact Clear 100-yard SKUs from 4 to 14 lb; 10 lb package artwork also identifies 100 yd."
+        },
+        {
+          "label": "2018 Rapala VMC Sufix catalog, preserved PDF",
+          "url": "https://www.hobbymalacky.sk/sub/hobbymalacky.sk/images/katalogy_pdf/katalogy-2018_pdf/SUFIX_katalog_2018.pdf",
+          "note": "Manufacturer-authored catalog hosted as a PDF mirror, not a retailer-authored table. Page 10 identifies 680-917C and 680-920C as 100 yd and distinguishes the 200- and 600-yard SKU families. Page 20 identifies Rapala VMC copyright. Used only with current exact-SKU corroboration, not to import obsolete options."
+        },
+        {
+          "label": "Official Advance Fluorocarbon comparison",
+          "url": "https://www.rapala.com/us_en/advance-fluorocarbon",
+          "note": "Comparison only: the distinct Advance Fluorocarbon 17 lb row is 0.015 inch. No Advance numeric row or package is imported into Castable Invisiline."
+        }
+      ]
+    },
+    "sufix-calibr8": {
+      "presentation": "gold",
+      "role": "mainline",
+      "shortName": "Calibr8",
+      "slug": "sufix-calibr8-diameter-capacity-guide",
+      "brand": "Sufix",
+      "model": "Calibr8",
+      "lineType": "Braid",
+      "defaultLineId": "sufix-calibr8-braid-15",
+      "defaultSpoolYards": 150,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "capacity",
+      "excludedLineIds": [
+        "sufix-calibr8-braid-6",
+        "sufix-calibr8-braid-8",
+        "sufix-calibr8-braid-10",
+        "sufix-calibr8-braid-20",
+        "sufix-calibr8-braid-30",
+        "sufix-calibr8-braid-40",
+        "sufix-calibr8-braid-50",
+        "sufix-calibr8-braid-65",
+        "sufix-calibr8-braid-80"
+      ],
+      "eyebrow": "15 lb braid setup guide",
+      "h1": "Sufix Calibr8 15 lb",
+      "seoTitle": "Sufix Calibr8 15 lb Diameter & Capacity Guide | ReelCalc",
+      "metaDescription": "Plan a Sufix Calibr8 15 lb fill using verified SKU 694-015L, Neon Lime and its nominal 150-yard package. Other strengths and spool options remain outside this guide.",
+      "construction": "8-carrier braid; IZANAS-branded fiber and ultra-thin slick coating identified on the pictured packaging",
+      "quickSummary": "This Calibr8 guide covers one source-verified offering: 15 lb Neon Lime, SKU 694-015L, in a nominal 150-yard spool. Manufacturer-owned launch photos show the exact strength, diameter, package length and SKU. Other Calibr8 strengths, colors and lengths are not included.",
+      "suitabilityTitle": "Is this 15 lb Calibr8 offering suitable?",
+      "suitabilitySummary": "Consider the verified 15 lb offering when braid will be your reel mainline and the planned working length fits the nominal 150-yard supply. Rapala describes lighter Calibr8 tests as oriented toward spinning use, but rod rating, cover, lure and expected runs still determine whether this strength fits your fishing.",
+      "strengthGuide": [
+        "The verified offering is 15 lb Calibr8, SKU 694-015L. Its manufacturer label prints 0.0085 inch and 0.22 mm; choose that exact line diameter for capacity planning.",
+        "The box also says 5 lb mono equivalent. That is a diameter comparison, not a 5 lb Calibr8 strength and not a separate catalog row.",
+        "Other strengths are not approved by this source review. Do not scale from the 15 lb row or borrow the diameter of Sufix 832, Revolve or a regional Calibr8 formulation."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Plan around the identified spool",
+          "text": "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages."
+        },
+        {
+          "title": "Keep the backing join below deployment",
+          "text": "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section."
+        },
+        {
+          "title": "Separate braid from any leader",
+          "text": "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate."
+        },
+        {
+          "title": "Use appropriate loading tension",
+          "text": "Follow the reel manufacturer's braid attachment and fill guidance, and avoid loose initial wraps. The package's coating and abrasion claims do not establish a measured casting or durability advantage here."
+        }
+      ],
+      "reviewNote": "Source-label review, not a ReelCalc hands-on test or a measured fill. Manufacturer launch photography establishes the pictured specification, not present stock or real-world breaking strength.",
+      "chartNote": "One approved row only: 15 lb Neon Lime, 694-015L. Both diameter units are printed on the manufacturer label and agree within normal printed rounding. The 5 lb mono-equivalent label is not breaking strength.",
+      "sourceNote": "Checked September 13, 2026. Numeric authority is the Rapala VMC-owned package photography, hosted with explicit media-release attribution by Foresight Fishing. The package prints nominal 150 yd / 135 m; this guide uses the printed yard unit, not a conversion of 135 m. No retailer-authored specification table is used.",
+      "bestFit": "A 15 lb braid mainline setup whose working length and reserve fit the pictured 150-yard Neon Lime supply.",
+      "tradeoff": "Source verification currently covers only one exact SKU. The wider Calibr8 range cannot be selected from this guide.",
+      "reelcalcNote": "Use the published diameter of the pictured 15 lb SKU. Capacity is not evidence that the same strength, line construction or working length suits every reel and technique.",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "imageAlt": "Sufix Calibr8 Neon Lime spool showing manufacturer SKU 694-015L, 15 lb and nominal 150-yard label",
+      "imageCaption": "Rapala VMC manufacturer launch photograph, credited by Foresight Fishing; exact 694-015L spool.",
+      "manufacturerFacts": [
+        {
+          "label": "Verified construction",
+          "text": "Rapala VMC identifies Calibr8 as an 8-carrier braid. The pictured box carries the IZANAS fiber mark and the spool names an ultra-thin slick coating."
+        },
+        {
+          "label": "Exact reviewed offering",
+          "text": "694-015L, 15 lb, Neon Lime, nominal 150 yd; the companion metric label is 135 m."
+        },
+        {
+          "label": "Published diameter pair",
+          "text": "0.0085 inch / 0.22 mm. The paired figures are rounded manufacturer labels, not new measurements."
+        }
+      ],
+      "setupComparison": {
+        "title": "How will the 150-yard supply be used?",
+        "leftTitle": "Continuous braid fill",
+        "leftText": "Use a full braid fill only when the identified supply covers the target reel volume and the required reserve. Follow the reel maker's instructions for attaching braid.",
+        "rightTitle": "Braid over backing",
+        "rightText": "A measured braid section can sit above backing when the reel holds more than the working length you need. Keep the connection below normal casts or fishing depth."
+      },
+      "productGuidanceTitle": "Planning the verified Calibr8 spool",
+      "productGuidance": [
+        "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages.",
+        "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section.",
+        "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate.",
+        "Follow the reel manufacturer's braid attachment and fill guidance, and avoid loose initial wraps. The package's coating and abrasion claims do not establish a measured casting or durability advantage here."
+      ],
+      "recommendationIntro": "Only the 15 lb offering is source-approved here. Do not interpret a broader reel recommendation as verification of another Calibr8 strength.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "sufix-calibr8-braid-15",
+          "workingYards": 100,
+          "spoolYards": 150
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which Calibr8 SKU does this guide cover?",
+          "answer": "Only 694-015L: 15 lb Neon Lime with the manufacturer's nominal 150-yard label. The exact code and specifications are readable on the manufacturer-owned launch photograph."
+        },
+        {
+          "question": "Why are the other Calibr8 strengths missing?",
+          "answer": "An exact primary strength, diameter and package source was not located for them. Retailer tables and menus are not used to extend this single-SKU verification."
+        },
+        {
+          "question": "Does 5 lb on the box mean this is a 5 lb line?",
+          "answer": "No. The 5 lb figure is labeled mono equivalent and refers to a diameter comparison. The line itself is labeled 15 lb Test."
+        },
+        {
+          "question": "Are 150 yards and 135 meters exact equivalents?",
+          "answer": "No. The manufacturer prints both as nominal package labels, but 150 yards equals 137.16 meters mathematically. This North American launch SKU is recorded at its printed 150-yard size; the companion 135-meter label is retained as a qualification, not converted into a different yardage or treated as another offering."
+        },
+        {
+          "question": "Do 0.0085 inch and 0.22 mm conflict?",
+          "answer": "They are compatible at the displayed precision. Converting 0.0085 inch gives 0.2159 mm, which rounds to 0.22 mm. Both published values are retained rather than pretending that either is a new measurement."
+        },
+        {
+          "question": "Does the manufacturer roundness graph supply a diameter for every strength?",
+          "answer": "No. The public graph is not tied to a specific pound test, SKU and retail package, so it cannot verify additional calculator rows."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rapala VMC Calibr8 spool photograph",
+          "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583276-M06AR8JER7FAMK2DVRI2/694_Calibr8_L_Spool_wsize.jpg",
+          "note": "Primary manufacturer label: exact 694-015L SKU, UPC, 15 lb, Neon Lime, nominal 150 yd / 135 m and 0.0085 inch / 0.22 mm. Visually read from the image; not taken from a retailer table."
+        },
+        {
+          "label": "Rapala VMC Calibr8 box photograph",
+          "url": "https://images.squarespace-cdn.com/content/v1/65cd01b602a94f40a8ac9a16/1784147583507-NEUZVWTOL65OGJIQII5U/694_Calibr8_L_box.jpg",
+          "note": "Companion manufacturer package repeats the 15 lb diameter and length labels and identifies IZANAS fiber. The 5 lb mono-equivalent marking is not a strength row."
+        },
+        {
+          "label": "Manufacturer photo attribution and launch context",
+          "url": "https://www.foresight-fishing.com/column/seven-standouts-new-rapala-vmc-products-revealed-at-2026-icast",
+          "note": "Foresight Fishing's July 2026 launch coverage explicitly credits all photos as Rapala VMC property used with media-release permission. Article prose is not used as numeric authority."
+        },
+        {
+          "label": "Rapala VMC 2026 half-year company announcement",
+          "url": "https://view.news.eu.nasdaq.com/view?id=bf6b22db6ae132c360cc3e290d1464d2d&lang=en&src=micro",
+          "note": "Primary corporate release independently identifies Calibr8 as an 8-carrier braid introduced at ICAST 2026. It does not supply a retail numeric matrix."
+        },
+        {
+          "label": "Official Sufix testing page",
+          "url": "https://www.rapala.com/us_en/sufix-testing",
+          "note": "Confirms the model name in roundness and microscopy material. Its graph lacks SKU/strength/package binding and is not used to derive any row."
+        }
+      ]
+    },
+    "spiderwire-stealth-braid": {
+      "presentation": "gold",
+      "shortName": "Stealth Braid",
+      "slug": "spiderwire-stealth-braid-diameter-capacity-guide",
+      "brand": "SpiderWire",
+      "model": "Stealth Braid",
+      "lineType": "Braid",
+      "defaultLineId": "spiderwire-stealth-braid-braid-50",
+      "defaultSpoolYards": 125,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "backing",
+      "excludedLineIds": [
+        "spiderwire-stealth-braid-braid-10",
+        "spiderwire-stealth-braid-braid-15",
+        "spiderwire-stealth-braid-braid-20",
+        "spiderwire-stealth-braid-braid-30"
+      ],
+      "h1": "SpiderWire Stealth Braid",
+      "seoTitle": "Stealth Braid 2016 Japan Diameter Guide | ReelCalc",
+      "metaDescription": "Plan from the 2016 Japan Stealth Braid listing: 50/65 lb Moss Green, published actual diameters and exact 125-yard SKUs. Not current US specifications.",
+      "construction": "Dyneema PE braid with manufacturer-described Teflon treatment",
+      "quickSummary": "This is a narrow reference to Pure Fishing Japan's 2016-launch Stealth Braid listing of US-labeled imports: 50 and 65 lb Moss Green in exact 125-yard SKUs. The manufacturer gives standard actual diameters of .419 and .447 mm. These regional historical values are not interchangeable with current US advertised diameters, newer Stealth packaging or a mono-equivalent pound-test label.",
+      "suitabilityTitle": "A heavy-cover plan with a clearly identified diameter basis",
+      "suitabilitySummary": "The Japanese manufacturer positioned this Stealth listing for punching, pitching and other cover work. Use those applications as context, then check your own rod, reel and line rating. The published actual-mm basis can produce less estimated capacity than a thinner advertised number elsewhere. That is a source-basis difference to preserve, not a calculation to repair by borrowing another chart.",
+      "strengthGuide": [
+        "Only 50 and 65 lb have physical diameters in this source. Lower-test SKUs on the same page do not establish lower-test diameter rows.",
+        "The .419 mm 50 lb and .447 mm 65 lb inputs must remain paired with their own labels and IDs. Do not use a mono-equivalent test as an inch or mm measurement.",
+        "Both reviewed SKUs are 125-yard Moss Green packages. The prose also mentions 300 yards, but it does not provide the strength-specific mapping used here."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Identify the historical import",
+          "text": "Compare the package with the 2016 Japan-listed SS50G-125 or SS65G-125 SKU. The original red Stealth Braid artwork is shown; a newer green US package needs its own diameter verification."
+        },
+        {
+          "title": "Allow for the actual-mm basis",
+          "text": "These published diameters are comparatively large capacity inputs. Confirm that the chosen working section plus reserve fits your reel instead of assuming a typical 50 or 65 lb braid fill."
+        },
+        {
+          "title": "Secure the spool connection",
+          "text": "Use the reel maker's instructions for braid attachment. Where required, start with monofilament backing to prevent spool slip; its diameter also affects the amount needed."
+        },
+        {
+          "title": "Keep the connection below the cast",
+          "text": "Size the working section for cast length and reserve, wind firmly and evenly, and stop at the reel's specified clearance. The 125-yard package is not a promise that the whole package fits every reel."
+        }
+      ],
+      "reviewNote": "ReelCalc did not measure this braid or perform abrasion/casting tests. Actual-diameter terminology is the Japanese manufacturer's source wording, not an independent laboratory measurement.",
+      "chartNote": "2016-launch Japan listing of US-labeled Moss Green imports ONLY. Physical diameters: 50 lb .419 mm, 65 lb .447 mm; exact 125-yard SKUs 1339729/1339730. Inches are conversions. Do not merge these regional actual-mm values with current US advertised diameters, other colors or the unmapped 300-yard mention.",
+      "chartCaption": "2016-launch Japan Stealth Braid import specifications. Published actual-mm basis and exact 125-yard Moss Green SKUs; not current US specifications or current availability.",
+      "sourceNote": "Checked September 13, 2026 from the manufacturer's Japan product page, which states a late-April 2016 launch, US pound/yard labeling, standard actual diameters and exact SKU rows. Original red package art was retrieved unchanged from that page. The current US feed has different SKUs and supplies no physical diameters, so no current equivalence is claimed.",
+      "imageUrl": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "imageAlt": "Original red SpiderWire Stealth Braid package and Moss Green spool pictured on the 2016-launch Japan manufacturer listing",
+      "manufacturerFacts": [
+        {
+          "label": "Dated regional listing",
+          "text": "The Japanese manufacturer identifies a late-April 2016 launch of US pound/yard-labeled imports."
+        },
+        {
+          "label": "Construction description",
+          "text": "That listing describes Dyneema microfiber braid with Teflon treatment and positions it for cover fishing."
+        }
+      ],
+      "setupComparison": {
+        "title": "Historical actual diameter or a newer advertised diameter?",
+        "leftTitle": "This 2016 Japan reference",
+        "leftText": "Uses only the manufacturer's .419/.447 mm standard actual diameters and two exact 125-yard SKUs.",
+        "rightTitle": "Current US or another regional Stealth",
+        "rightText": "Needs its own physical diameter and package evidence. Matching the Stealth name and test rating does not establish equal capacity."
+      },
+      "bestFit": "A verified match to the 2016 Japan-listed 50 or 65 lb Moss Green import, with a deliberately sized working section and reserve.",
+      "tradeoff": "This is a two-strength historical regional reference, not a general current Stealth chart. Its diameter basis must remain visible wherever these rows are used.",
+      "productGuidanceTitle": "Preserve the regional source basis",
+      "productGuidance": [
+        "Do not substitute thinner current or retailer-listed diameters to increase the capacity estimate.",
+        "Keep the exact 125-yard SKU mapping; no 300-yard row is inferred.",
+        "Check package identity and condition before using historical stock."
+      ],
+      "recommendationIntro": "Select one of the two documented test ratings only after confirming the 2016 Japan import identity.",
+      "reelcalcNote": "Backing mode is available for a planned braid working section; attach and fill according to the reel manufacturer's instructions.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "spiderwire-stealth-braid-braid-50",
+          "workingYards": 50,
+          "spoolYards": 125
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "spiderwire-stealth-braid-braid-65",
+          "workingYards": 40,
+          "spoolYards": 125
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why are these diameters larger than some Stealth charts?",
+          "answer": "This page preserves the Japanese manufacturer's standard actual-mm specification for its 2016-launch imports. It does not substitute or merge a different advertised diameter basis. No independent measurement or equivalence is claimed."
+        },
+        {
+          "question": "Can I use this chart for current US Stealth?",
+          "answer": "Not without confirming the exact formulation, SKU and diameter basis. The current US feed has different product codes and does not provide physical diameters establishing continuity."
+        },
+        {
+          "question": "Why are only 50 and 65 lb included?",
+          "answer": "They are the only strengths with stated physical diameters on the reviewed Japanese page. Lower-test SKU names and mono-equivalent labels are not enough to calculate diameter."
+        },
+        {
+          "question": "Why is 300 yards not offered in the chart?",
+          "answer": "The page mentions 300-yard packages in general prose, but the reviewed 50/65 lb table rows identify 125-yard SKUs. This guide does not infer the missing strength/package combination."
+        },
+        {
+          "question": "Is the red artwork current packaging?",
+          "answer": "It is original artwork linked by the 2016-launch Japan listing. It illustrates that historical product family and is not presented as a current-stock or current-US packaging claim."
+        }
+      ],
+      "sources": [
+        {
+          "label": "2016-launch Japan manufacturer specifications",
+          "url": "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html",
+          "note": "Sole numeric authority: actual-mm statements plus 50/65 lb 125-yard SKU rows."
+        },
+        {
+          "label": "Original Japan-listing Stealth artwork",
+          "url": "https://www.purefishing.jp/product/assets/stealth_BRAID_2016.jpg",
+          "note": "Unmodified original red package and Moss Green spool image."
+        },
+        {
+          "label": "Current US public feed, not diameter authority",
+          "url": "https://www.spiderwire.com/products/stealth-filler-spool.js",
+          "note": "Newly retrieved exact package SKUs; no physical diameters or historical-formulation equivalence established."
+        }
+      ],
+      "role": "mainline"
+    },
+    "stren-super-knot": {
+      "presentation": "gold",
+      "shortName": "Super Knot",
+      "slug": "stren-super-knot-diameter-capacity-guide",
+      "brand": "Stren",
+      "model": "Super Knot",
+      "lineType": "Monofilament",
+      "defaultLineId": "stren-super-knot-monofilament-8",
+      "defaultSpoolYards": 220,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "capacity",
+      "excludedLineIds": [
+        "stren-super-knot-monofilament-15"
+      ],
+      "h1": "Stren Super Knot",
+      "seoTitle": "Stren Super Knot Diameter & Capacity Guide | ReelCalc",
+      "metaDescription": "Compare Stren Super Knot's 2014 US Clear and Lo-Vis Green diameter chart and 220-yard fillers. Historical specifications, not current availability.",
+      "construction": "Self-lubricating monofilament",
+      "quickSummary": "This guide covers Stren Super Knot as documented in the 2014 US manufacturer catalog: eight 4-20 lb test steps, Clear and Lo-Vis Green, on 220-yard fillers. Super Knot is the named monofilament product, not later Power Knot or adjacent MagnaThin. These are historical specifications, not evidence of current stock or unchanged formulation.",
+      "suitabilityTitle": "Plan the fill around Super Knot's own diameter",
+      "suitabilitySummary": "The self-lubricating formula was Stren's knot-focused positioning, not a guarantee against knot failure. The practical starting point is the exact diameter and a suitable test rating for your tackle. Super Knot's .012-inch 8 lb row uses more reel space than a thinner 8 lb mono; a familiar strength label alone does not establish capacity.",
+      "strengthGuide": [
+        "The 4 and 6 lb rows are the lighter end of this edition. Choose strength for the tackle and conditions before considering how much extra line fits.",
+        "The 8-12 lb rows step from .012 to .014 inch. A 220-yard filler does not imply the same number of fills at each strength.",
+        "The upper steps are 14,17 and 20 lb. There is no 15 lb row in this exact chart; do not relabel 14 lb or import a later product's values."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Match the name and edition",
+          "text": "Check Super Knot on the package and compare its diameter with this 2014 reference. A Power Knot package needs a separate source even when its test rating matches."
+        },
+        {
+          "title": "Budget the 220-yard filler",
+          "text": "All eight listed strengths have the same published filler length in Clear and Lo-Vis Green. Compare that length with full-spool capacity and your planned working reserve before choosing a full fill or shorter fresh section."
+        },
+        {
+          "title": "Check knots under controlled load",
+          "text": "Wet and seat an appropriate knot carefully, then test it before fishing. The catalog's self-lubricating claim does not remove the need to inspect damage or retie."
+        },
+        {
+          "title": "Stop at the reel's fill limit",
+          "text": "Use even tension and the reel manufacturer's specified clearance. If backing is used for a short fresh section, keep the joining knot below the longest expected cast and reserve."
+        }
+      ],
+      "reviewNote": "No hands-on knot, casting or abrasion test was performed. Self-lubricating and knot-strength language is attributed manufacturer positioning, not a ReelCalc performance guarantee.",
+      "chartNote": "2014 US Super Knot only: 4/6/8/10/12/14/17/20 lb, Clear and Lo-Vis Green, 220-yard fillers. Diameters are the Super Knot table at left, not MagnaThin at right. No 15 lb row is inferred.",
+      "chartCaption": "2014 US Super Knot Clear and Lo-Vis Green filler specifications. Historical 220-yard packages, not current availability.",
+      "sourceNote": "Checked September 13, 2026 against the original 2014 Stren manufacturer catalog preserved by WesternBass. The inch chart and both color columns were visually inspected; mm are explicit conversions. Original lime-green Super Knot artwork is the same edition's p4_i48 asset. No retailer chart supplies a numeric row.",
+      "imageUrl": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "imageAlt": "Original 2014 lime-green and black Stren Super Knot package, distinct from turquoise MagnaThin",
+      "manufacturerFacts": [
+        {
+          "label": "Named formulation",
+          "text": "Stren described this Super Knot monofilament as self-lubricating, with knot retention as its central positioning."
+        },
+        {
+          "label": "Dated color scope",
+          "text": "The 2014 chart documents Clear and Lo-Vis Green for every listed Super Knot strength."
+        }
+      ],
+      "setupComparison": {
+        "title": "Full fill or fresh working section?",
+        "leftTitle": "Full Super Knot fill",
+        "leftText": "Use the exact historical diameter to compare total reel capacity with the 220-yard filler.",
+        "rightTitle": "Super Knot over retained backing",
+        "rightText": "A shorter fresh section can conserve line, but the connection must stay below the cast and reserve. This is optional, not an anti-slip requirement specific to this mono."
+      },
+      "bestFit": "An identified Super Knot package whose diameter matches the 2014 US reference, with enough working reserve for the chosen tackle.",
+      "tradeoff": "The chart is historical and includes different strength steps from some unverified inventories. Matching pound test is not proof of an unchanged formulation.",
+      "productGuidanceTitle": "Keep the knot claim separate from the fill calculation",
+      "productGuidance": [
+        "Use the chart's physical diameter, not advertised knot performance, for reel capacity.",
+        "The verified 14 lb step must not inherit an old 15 lb ID.",
+        "Inspect the package and line condition before using a historical spool."
+      ],
+      "recommendationIntro": "Choose a suitable rating from this edition's eight verified steps, then check the 220-yard package against the reel.",
+      "reelcalcNote": "Capacity mode starts with a full monofilament fill; backing is optional for a shorter working section.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "stren-super-knot-monofilament-6",
+          "workingYards": 100,
+          "spoolYards": 220
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "stren-super-knot-monofilament-10",
+          "workingYards": 75,
+          "spoolYards": 220
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Super Knot the same as Power Knot?",
+          "answer": "This source does not establish equivalence. The chart and image explicitly name Super Knot in 2014; Power Knot specifications are not transferred."
+        },
+        {
+          "question": "Why is 15 lb missing?",
+          "answer": "The 2014 Super Knot chart lists 14 lb and 17 lb around that part of the range. It does not list 15 lb, so that inventory row is excluded rather than relabeled."
+        },
+        {
+          "question": "Does self-lubricating mean a knot cannot fail?",
+          "answer": "No. That is manufacturer formulation language, not an independent guarantee. Knot choice, seating, wear and loading still matter."
+        },
+        {
+          "question": "Are both colors on 220-yard fillers?",
+          "answer": "Yes, the 2014 table marks Clear and Lo-Vis Green for all eight listed strengths under the 220-yard filler legend. Current stock is not established."
+        },
+        {
+          "question": "Can I apply this to a newer spool?",
+          "answer": "Only after checking that its exact product identity and diameter agree. A historical chart alone does not establish current formulation or package continuity."
+        }
+      ],
+      "sources": [
+        {
+          "label": "2014 Stren manufacturer Super Knot chart",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/page4/index.html",
+          "note": "Sole numeric authority; left-hand table and 220-yard filler legend visually checked."
+        },
+        {
+          "label": "2014 catalog edition manifest",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+          "note": "Identifies the manufacturer catalog edition and page assets."
+        },
+        {
+          "label": "Original Super Knot package artwork",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/page4/p4_i48.jpg",
+          "note": "Unmodified lime-green package asset from the same catalog."
+        }
+      ],
+      "role": "mainline"
+    },
+    "stren-fluorocast": {
+      "presentation": "gold",
+      "shortName": "Fluorocast",
+      "slug": "stren-fluorocast-diameter-capacity-guide",
+      "brand": "Stren",
+      "model": "Fluorocast",
+      "lineType": "Fluorocarbon",
+      "defaultLineId": "stren-fluorocast-fluorocarbon-10",
+      "defaultSpoolYards": 200,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "capacity",
+      "excludedLineIds": [
+        "stren-fluorocast-fluorocarbon-20"
+      ],
+      "h1": "Stren Fluorocast",
+      "seoTitle": "Stren Fluorocast Diameter & Capacity Guide | ReelCalc",
+      "metaDescription": "Plan reel fills from Stren FluoroCast's 2014 US Clear chart: seven verified diameters, 100-yard pony and 200-yard filler packages. Historical reference only.",
+      "construction": "100% fluorocarbon mainline",
+      "quickSummary": "This guide is limited to Stren FluoroCast's 2014 US Clear specifications. The manufacturer documented seven 4-17 lb test steps with 100-yard pony and 200-yard filler packages. FluoroCast appears separately from Stren 100% Fluoro on that same catalog page; their diameters and color scopes are not interchangeable. Historical listings do not establish current stock or unchanged formulation.",
+      "suitabilityTitle": "Choose the full mainline plan before the package",
+      "suitabilitySummary": "FluoroCast was positioned as a castable fluorocarbon mainline. Use the exact 2014 diameter to decide how much fits, then choose between a full fresh fill and a shorter working section over backing. A 100-yard pony spool can be useful for a limited working section, but package size alone says nothing about whether the remaining cast and fighting reserve is adequate.",
+      "strengthGuide": [
+        "The 4-8 lb entries are the light end of this edition. Use them only where tackle and conditions suit the strength; extra capacity cannot compensate for an undersized line.",
+        "The 10 and 12 lb entries are .012 and .013 inch respectively in the FluoroCast table. Do not borrow the neighboring 100% Fluoro chart, whose strength-to-diameter mapping differs.",
+        "The upper verified steps are 15 and 17 lb, at .015 and .016 inch. A 20 lb FluoroCast row is not in this source and remains excluded."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Read FluoroCast on the package",
+          "text": "Look for the gray-and-black FluoroCast family, not the blue 100% Fluoro package. Both contain fluorocarbon, but shared material is not proof of the same diameter or specification."
+        },
+        {
+          "title": "Compare 100 and 200 yards",
+          "text": "The 2014 chart assigns both pony and filler formats to every listed 4-17 lb strength. Use the 200-yard option for a larger fresh fill or check a 100-yard working section against the required reserve."
+        },
+        {
+          "title": "Keep backing below the working line",
+          "text": "If you retain backing, leave the connection below the longest expected cast and extra line needed during a fight. Use the calculator's exact diameter input for both sections."
+        },
+        {
+          "title": "Inspect before loading",
+          "text": "Check the package identity, line condition and a carefully seated knot. Wind evenly and follow the reel's specified fill clearance; historical packaging does not establish the condition of an old spool."
+        }
+      ],
+      "reviewNote": "No independent casting, knot, shock or underwater visibility test was performed. Manufacturer handling and visibility statements are positioning, not a ReelCalc guarantee.",
+      "chartNote": "2014 US FluoroCast Clear only, LEFT table on catalog page 6: 4/6/8/10/12/15/17 lb, 100-yard pony and 200-yard filler. The separate 100% Fluoro table at right does not supply any values. No 20 lb FluoroCast row is inferred.",
+      "chartCaption": "2014 US FluoroCast Clear specifications. Historical 100-yard pony and 200-yard filler packages, not current availability.",
+      "sourceNote": "Checked September 13, 2026 against the original 2014 Stren catalog preserved by WesternBass. All inch values, Clear availability dots and both package legends were visually reviewed. Millimeters are explicit conversions. Image p6_i78 is original FluoroCast artwork from that edition, not neighboring 100% Fluoro. No retailer numbers are used.",
+      "imageUrl": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "imageAlt": "Original 2014 gray-and-black Stren FluoroCast 100% fluorocarbon package with yellow model lettering",
+      "manufacturerFacts": [
+        {
+          "label": "Actual fluorocarbon",
+          "text": "The 2014 catalog and package identify FluoroCast as true fluorocarbon, not merely a fluorocarbon coating."
+        },
+        {
+          "label": "Mainline formats",
+          "text": "The historical Clear chart includes 200-yard fillers and newly introduced 100-yard pony spools across its listed strength range."
+        }
+      ],
+      "setupComparison": {
+        "title": "Which historical package fits the plan?",
+        "leftTitle": "200-yard filler",
+        "leftText": "Compare the larger package with calculated reel capacity before assuming one complete fill.",
+        "rightTitle": "100-yard pony",
+        "rightText": "Plan a shorter working section only where 100 yards leaves adequate cast and fighting reserve; backing may supply the remaining spool volume."
+      },
+      "bestFit": "A matched 2014-specification FluoroCast Clear package used for a mainline fill or a deliberately sized working section.",
+      "tradeoff": "FluoroCast and 100% Fluoro coexist in the source with different charts. Material similarity and newer packaging cannot establish equivalence.",
+      "productGuidanceTitle": "Keep family, diameter and package together",
+      "productGuidance": [
+        "The 100-yard pony option does not make this a leader-only product.",
+        "Use the 2014 FluoroCast diameter for the selected test rating, not Stren 100% Fluoro or an old unsourced database value.",
+        "No current availability, condition or unchanged formulation is claimed."
+      ],
+      "recommendationIntro": "Start with a suitable test rating from the seven published steps, then size the fresh section and package.",
+      "reelcalcNote": "Capacity mode starts with a full fluorocarbon mainline fill; backing is optional when planning a shorter fresh section.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "stren-fluorocast-fluorocarbon-6",
+          "workingYards": 100,
+          "spoolYards": 200
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "stren-fluorocast-fluorocarbon-10",
+          "workingYards": 75,
+          "spoolYards": 100
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is FluoroCast the same as Stren 100% Fluoro?",
+          "answer": "No equivalence is established. The 2014 catalog presents them as separate named families with separate diameter tables and colors. This guide uses FluoroCast Clear only."
+        },
+        {
+          "question": "Why is 20 lb excluded?",
+          "answer": "FluoroCast's 2014 table ends at 17 lb. The 20 lb row belongs to the neighboring 100% Fluoro family and cannot be transferred."
+        },
+        {
+          "question": "Are 100-yard packages leader spools?",
+          "answer": "The source calls them pony spools for the FluoroCast mainline family. A shorter package can support a working section, but this chart does not recategorize the product as leader-only."
+        },
+        {
+          "question": "Do both lengths apply to each listed strength?",
+          "answer": "Yes. The 2014 Clear table explicitly covers 4-17 lb for both 100-yard pony and 200-yard filler formats. That is a historical specification, not a current stock statement."
+        },
+        {
+          "question": "Are the millimeter values also printed?",
+          "answer": "No. The chart prints inches. Millimeters here are calculated as inches multiplied by 25.4, without importing a different regional table."
+        }
+      ],
+      "sources": [
+        {
+          "label": "2014 manufacturer FluoroCast chart",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/page6/index.html",
+          "note": "Sole numeric authority; left-hand table, Clear column and both package legends visually checked."
+        },
+        {
+          "label": "2014 catalog edition manifest",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/index.xml",
+          "note": "Identifies the dated publication and original page assets."
+        },
+        {
+          "label": "Original FluoroCast artwork",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/page6/p6_i78.jpg",
+          "note": "Unmodified 2014 gray-and-black FluoroCast package, distinct from 100% Fluoro."
+        }
+      ],
+      "role": "mainline"
+    },
+    "stren-sonic-braid": {
+      "presentation": "gold",
+      "shortName": "Sonic Braid",
+      "slug": "stren-sonic-braid-diameter-capacity-guide",
+      "brand": "Stren",
+      "model": "Sonic Braid",
+      "lineType": "Braid",
+      "defaultLineId": "stren-sonic-braid-braid-40",
+      "defaultSpoolYards": 300,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "backing",
+      "excludedLineIds": [
+        "stren-sonic-braid-braid-10",
+        "stren-sonic-braid-braid-20",
+        "stren-sonic-braid-braid-30",
+        "stren-sonic-braid-braid-50",
+        "stren-sonic-braid-braid-65"
+      ],
+      "h1": "Stren Sonic Braid",
+      "seoTitle": "Sonic Braid 40 lb Legacy Label Guide | ReelCalc",
+      "metaDescription": "Plan from the original SCB30040-22 Sonic Braid label: 40 lb, .25 mm, Lo-Vis Green and 300 yards. A narrow legacy reference, not current availability.",
+      "construction": "Dyneema PE braid with Stren's GlideCoat treatment",
+      "quickSummary": "This guide covers one readable legacy Sonic Braid label, SCB30040-22: 40 lb Lo-Vis Green, .25 mm and 300 yards. The label also says 10 lb test diameter, but that is a mono-equivalent comparison, not the physical diameter used here. Stren's 2014 US catalog confirms the Sonic Braid and GlideCoat family; the photographed label itself is undated.",
+      "suitabilityTitle": "Plan a 40 lb braid working section from the actual label",
+      "suitabilitySummary": "Use this reference when your spool matches SCB30040-22, its test rating, color and printed diameter. A 300-yard package can supply a long working section or more than one shorter fill, depending on reel capacity and reserve. Choose the amount around casting distance and the room needed to fight a fish; the package length does not mean every reel holds all 300 yards.",
+      "strengthGuide": [
+        "Only the photographed 40 lb label establishes a physical diameter in this review. Other Sonic Braid strengths in historical catalogs do not inherit .25 mm.",
+        "Use .25 mm for the capacity input. The adjacent 10 lb test-diameter wording describes a monofilament comparison, not a second strength or measurement.",
+        "The supported package is 300 yards of Lo-Vis Green. Its rounded 274 m label is not converted back into a different yardage.",
+        "A later spool simply labeled Stren Braid needs its own evidence. A similar fiber or coating description does not establish formulation continuity."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Match the complete label",
+          "text": "Look for SCB30040-22, 40 lb, .25 mm and 300 yards. The UPC on the reviewed photograph is 042083373053; a shop title or a generic Sonic product picture is not a substitute for that match."
+        },
+        {
+          "title": "Size the working section",
+          "text": "Allow enough braid for the longest expected cast plus reserve for a run, trimming and retying. Use the capacity estimate to choose that section before deciding how much backing is needed."
+        },
+        {
+          "title": "Prevent spool slip",
+          "text": "Follow the reel maker's braid-attachment guidance. Where required, anchor the braid over monofilament backing and keep the connection below the working section."
+        },
+        {
+          "title": "Check legacy stock before filling",
+          "text": "The source does not establish manufacture date or storage condition. Inspect the line and knots, wind evenly under suitable tension, and stop at the reel's specified fill clearance."
+        }
+      ],
+      "reviewNote": "ReelCalc transcribed the readable original label and checked the historical family source. It did not measure this braid or perform knot, abrasion or casting tests.",
+      "chartNote": "Undated legacy SCB30040-22 label only: 40 lb / .25 mm / 300 yd / Lo-Vis Green, UPC 042083373053. Inches are converted from mm. The original label is photographed on a retailer host; retailer title/specification prose is excluded. The 2014 US catalog corroborates the family, not the label's date or physical diameter. No other strength/package or later Stren Braid equivalence is claimed.",
+      "chartCaption": "Undated legacy SCB30040-22 original-label specifications, US pound/yard labeling; not current availability or a dated 2014 diameter chart.",
+      "sourceNote": "Checked September 13, 2026. Numeric row transcribed visually from the unmodified original spool-label photograph hosted by bol.com. Its 40 lb / .25 mm / 300 yd details conflict with that listing's 0.16 mm / 110 m title, so the title is not used. Stren's original 2014 US catalog, preserved by WesternBass, supplies independent Sonic Braid/GlideCoat family context only.",
+      "imageUrl": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "imageAlt": "Original legacy Stren Sonic Braid SCB30040-22 spool label showing 40 lb, 300 yd, Lo-Vis Green and .25 mm",
+      "manufacturerFacts": [
+        {
+          "label": "GlideCoat family",
+          "text": "The original 2014 Stren catalog identifies Sonic Braid as Dyneema polyethylene braid with GlideCoat treatment."
+        },
+        {
+          "label": "Exact original label",
+          "text": "The reviewed SCB30040-22 spool label prints 40 lb, .25 mm, Lo-Vis Green and 300 yards together."
+        }
+      ],
+      "setupComparison": {
+        "title": "Working section or a full 300-yard fill?",
+        "leftTitle": "Braid over backing",
+        "leftText": "Use the portion needed for casting and reserve, then calculate backing from the reel and backing-line diameter. Keep the connection below the working section.",
+        "rightTitle": "Full package",
+        "rightText": "A reel must have room for 300 yards at .25 mm before the whole package can fit. Do not wind past the reel maker's fill clearance to empty the spool."
+      },
+      "bestFit": "Matching a legacy SCB30040-22 spool to a reel and planning a measured 40 lb braid working section.",
+      "tradeoff": "Only one exact label is verified. Manufacture date, storage condition, other strengths and continuity with later Stren Braid are not established.",
+      "productGuidanceTitle": "Keep the label and capacity input together",
+      "productGuidance": [
+        "Match the .25 mm physical specification, not a generic 40 lb braid chart.",
+        "Retain the original 300-yard package mapping; 125 and 1500 yards are not added from family-wide historical catalog entries.",
+        "Check old line and knots before use. A source-verified label is not a condition or strength guarantee for a stored spool."
+      ],
+      "recommendationIntro": "The single documented choice is 40 lb Lo-Vis Green in the SCB30040-22 300-yard package.",
+      "reelcalcNote": "Backing mode starts with the intended working section. Capacity is a planning estimate from the label and reel data, not a measured fill.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "stren-sonic-braid-braid-40",
+          "workingYards": 75,
+          "spoolYards": 300
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "stren-sonic-braid-braid-40",
+          "workingYards": 100,
+          "spoolYards": 300
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does 10 lb test diameter mean this is 10 lb braid?",
+          "answer": "No. The original label identifies the braid as 40 lb. Its 10 lb test-diameter phrase is a monofilament comparison; the separate .25 mm entry is the physical diameter used for capacity."
+        },
+        {
+          "question": "Is this a 2014 diameter chart?",
+          "answer": "No. The label photograph is undated. The 2014 US Stren catalog independently confirms the Sonic Braid family and construction, but its test/diameter ratios are mono-equivalent pound tests, not a physical-diameter chart."
+        },
+        {
+          "question": "Why does the linked shop title give different sizes?",
+          "answer": "That listing mixes a 0.16 mm / 110 m title with images of other Sonic packages. This guide uses only the original SCB30040-22 detail label, where 40 lb, .25 mm and 300 yards are visible together."
+        },
+        {
+          "question": "Can I use this for another Sonic strength or later Stren Braid?",
+          "answer": "Not without an exact label or manufacturer chart. Neither matching the brand nor a similar Dyneema description establishes the missing diameter or formulation."
+        },
+        {
+          "question": "Does a 300-yard package fit my reel?",
+          "answer": "That depends on the reel's usable capacity at .25 mm and any backing. Choose a working section with enough reserve, calculate the backing, and respect the reel maker's fill clearance."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Original SCB30040-22 spool-label photograph",
+          "url": "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg",
+          "note": "Sole numeric authority: readable original manufacturer label on a retailer host, not a retailer-entered specification chart."
+        },
+        {
+          "label": "Photo-host listing and conflicting title",
+          "url": "https://www.bol.com/be/nl/p/sonic-braid-low-vis-green-gevlochten-lijn-met-dyneema-vislijn-visdraad-0-16mm-15-60kg-110m/9300000336551478/",
+          "note": "Retrieval provenance only. Listing title, stock status and unrelated package images are not used as specifications."
+        },
+        {
+          "label": "2014 original Stren US catalog, page 7",
+          "url": "https://storage.westernbass.com/brochures/2014_stren/page7/index.html",
+          "note": "Independent family/construction corroboration. Its mono-equivalent table is not the physical-diameter source and does not date the photographed label."
+        }
+      ],
+      "role": "mainline"
+    },
+    "p-line-cxx-x-tra-strong": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "CXX X-Tra Strong",
+      "lineType": "Copolymer",
+      "slug": "p-line-cxx-x-tra-strong-diameter-capacity-guide",
+      "shortName": "CXX",
+      "h1": "P-Line CXX X-Tra Strong",
+      "seoTitle": "P-Line CXX US Package Diameters & Reel Capacity | ReelCalc",
+      "metaDescription": "Verified US Moss Green CXX 10 and 12 lb package-label diameters and 300-yard lengths, with reel-capacity estimates and backing guidance.",
+      "construction": "Copolymer main line",
+      "quickSummary": "CXX X-Tra Strong is P-Line's copolymer main line. This US package-label reference covers Moss Green CXXFG 10 and 12 lb in 300-yard cartons. The photos do not establish a production year or the newest edition; other CXX colors and packages are not covered.",
+      "suitabilityTitle": "CXX: check diameter as well as pound test",
+      "suitabilitySummary": "P-Line positions CXX for demanding cover and shock loading. That is manufacturer positioning, not an independent performance test. The pictured 10 lb line is .014 inch and the 12 lb is .0148 inch, so plan the reel fill with the exact label rather than a generic 10 or 12 lb mono rating. Rod range, lure weight, cover, and drag still determine an appropriate strength.",
+      "chartNote": "US Moss Green cartons only: CXXFG-10, 10 lb, .014 in/.35 mm, 300 yd; CXXFG-12, 12 lb, .0148 in/.37 mm, 300 yd. Production dates are unestablished. Both diameters are independently printed values, not measurements or retailer-authored chart entries.",
+      "chartCaption": "Pictured US CXXFG package specifications; not a complete range or current-stock list.",
+      "sourceNote": "Manufacturer-printed carton labels were visually inspected in the original Fishing Addiction Gear photos. P-Line's US variant records independently match model number, color, strength, and yard count, but do not publish numeric diameters. The cartons print 273 m beside 300 yd; the official dropdown says 300YD/247M. This reference retains the explicit 300 yd count, not an inferred metric package.",
+      "reviewNote": "Specification-based guidance for these two Moss Green packages only. No claim of measured abrasion resistance, breaking strength, or casting superiority.",
+      "strengthGuide": [
+        "The verified choices are 10 and 12 lb, not every intervening or heavier CXX strength. Use the rod and fishing conditions to choose between suitable options, then check capacity.",
+        "The .0148-inch 12 lb carton should not be rounded to a different retailer diameter. A small diameter difference changes the amount of line that fits.",
+        "Crystal Clear CXXFC and quarter-pound CXXQC packages are separate identities. A length shown for one of those packages does not extend this Moss Green filler reference."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "One 300-yard package, several possible fills",
+          "text": "First determine how much working CXX your fishing requires. A 300-yard carton may supply more than one short working fill, but reserve line for casts, runs, retying, and any damaged section you remove."
+        },
+        {
+          "title": "Backing can reduce the working fill",
+          "text": "Backing occupies the space below the CXX you intend to fish. Keep its joining knot below the working section, wind evenly, and stop at the reel maker's recommended fill level."
+        },
+        {
+          "title": "Main line is not a leader specification",
+          "text": "These are CXX mainline cartons. A separate leader is an independent tackle choice; its diameter, length, and knot should not be inferred from the CXX package."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which CXX packages do these numbers describe?",
+          "answer": "Only US Moss Green CXXFG-10 and CXXFG-12, each labeled 300 yards. Other colors, bulk lengths, and production editions are not verified by these photos."
+        },
+        {
+          "question": "Is this a current CXX availability chart?",
+          "answer": "No. These are legible, undated production-label photos with matching official US identities. The page does not establish manufacturing year, current stock, or an unchanged latest formulation."
+        },
+        {
+          "question": "Why is 12 lb shown as .0148 inch?",
+          "answer": "That is the value printed on the photographed CXXFG-12 carton, alongside .37 mm. It is preserved rather than replaced by a rounded retailer value."
+        },
+        {
+          "question": "Does 300 yards mean the reel should take all of it?",
+          "answer": "No. Package length is the amount supplied, not the reel's capacity. Match the line diameter to the reel's rating and leave the recommended clearance at the spool lip."
+        }
+      ],
+      "imageAlt": "P-Line CXX X-Tra Strong Moss Green CXXFG-10 carton with its 10 lb and 300 yd label",
+      "imageCaption": "Actual US 10 lb/300 yd CXXFG carton, photographed by Fishing Addiction Gear; production year unestablished.",
+      "sources": [
+        {
+          "label": "P-Line official US CXX X-Tra Strong identity",
+          "url": "https://p-line.com/product/cxx-x-tra-strong/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line printed package label: 10 lb Moss Green",
+          "url": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. CXXFG-10, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        },
+        {
+          "label": "P-Line printed package label: 12 lb Moss Green",
+          "url": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203824782_1400x.jpg?v=1649537170",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. CXXFG-12, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-cxx-x-tra-strong-copolymer-10",
+      "defaultSpoolYards": 300,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-cxx-x-tra-strong-copolymer-6",
+        "p-line-cxx-x-tra-strong-copolymer-8",
+        "p-line-cxx-x-tra-strong-copolymer-15",
+        "p-line-cxx-x-tra-strong-copolymer-17",
+        "p-line-cxx-x-tra-strong-copolymer-20",
+        "p-line-cxx-x-tra-strong-copolymer-25",
+        "p-line-cxx-x-tra-strong-copolymer-30"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "imageUrl": "https://fishingaddictiongear.com/cdn/shop/products/PXL_20220409_203846752_1400x.jpg?v=1649537170",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "p-line-cxx-x-tra-strong-copolymer-10",
+          "workingYards": 75,
+          "spoolYards": 300
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-cxx-x-tra-strong-copolymer-12",
+          "workingYards": 75,
+          "spoolYards": 300
+        }
+      ]
+    },
+    "p-line-floroclear": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "FloroClear",
+      "lineType": "Copolymer",
+      "slug": "p-line-floroclear-diameter-capacity-guide",
+      "shortName": "FloroClear",
+      "h1": "P-Line FloroClear",
+      "seoTitle": "P-Line FloroClear US Label Diameters & Capacity | ReelCalc",
+      "metaDescription": "P-Line FloroClear US label reference: historical 2021 10 lb/600 yd and pictured 12 lb/300 yd specifications, reel capacity, and package differences.",
+      "construction": "Fluorocarbon-coated copolymer with silicone treatment",
+      "quickSummary": "FloroClear is a fluorocarbon-coated copolymer, not 100% fluorocarbon. This US reference combines a historical 2021 catalog label for Clear 10 lb/600 yd with a photographed Clear 12 lb/300 yd filler package of unestablished production year. It is not a current-edition or stock claim.",
+      "suitabilityTitle": "Coated copolymer, with package-specific numbers",
+      "suitabilitySummary": "FloroClear is an option when the intended main line is a coated copolymer rather than a full fluorocarbon or braid construction. P-Line identifies a silicone treatment; no independent handling advantage is claimed here. Check the exact filler or bonus package before planning capacity, because the inspected 12 lb packages do not print identical inch diameters.",
+      "chartNote": "US Clear only: 2021 catalog p.9 FCCBF-10, 10 lb, .0116 in/.29 mm, 600 yd; undated pictured FCCF-12 filler, 12 lb, .0124 in/.31 mm, 300 yd. The separate 12 lb/600 yd FCCBF bonus label prints .0122 in and is NOT combined into the 12 lb filler row.",
+      "chartCaption": "2021 US 10 lb bonus label and undated US 12 lb filler label; package-specific historical/reference data.",
+      "sourceNote": "The 10 lb numbers come from the manufacturer's official 2021 US catalog, printed page 9. The 12 lb filler values are visible on an actual P-Line carton and matching spool in an eBay-hosted photo, with UPC 015789650070. Official US variants corroborate FCCBF-10 and FCCF-12 identities. Seller prose and retailer diameter tables are not numeric authority. Neither row establishes current edition or availability.",
+      "reviewNote": "A source-based mainline reference, not a test of visibility, castability, knot strength, or the condition of older stock.",
+      "strengthGuide": [
+        "The 10 lb and 12 lb entries have different verified package lengths: 600 and 300 yards respectively. Select the strength for the rod and fishing conditions, then plan the working length from that exact package.",
+        "A 12 lb FCCBF bonus carton is not interchangeable with the FCCF filler for this chart. Its .0122-inch label remains separate from the filler's .0124-inch label.",
+        "The historical 10 lb specification describes a labeled product, not the fitness of any old spool. Storage and physical condition require a separate check."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Keep the filler and bonus packages separate",
+          "text": "The supported 12 lb working-line budget starts from 300 yards; the historical 10 lb package starts from 600 yards. Do not give the 12 lb filler an extra 300 yards simply because a bonus package exists."
+        },
+        {
+          "title": "Plan a usable working section",
+          "text": "Leave sufficient FloroClear for casts, fish runs, and retying. Backing may occupy unused space below it, with the joining knot kept outside the expected working section."
+        },
+        {
+          "title": "Treat the coating as construction, not a leader",
+          "text": "The fluorocarbon coating does not make this a separate fluorocarbon leader material. Add a leader only when the presentation calls for one and account separately for a long topshot."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is FloroClear 100% fluorocarbon?",
+          "answer": "No. P-Line identifies FloroClear as fluorocarbon-coated copolymer and describes a silicone treatment. It remains a Copolymer mainline record here."
+        },
+        {
+          "question": "Why is the 10 lb entry dated 2021?",
+          "answer": "Its readable diameter and 600-yard label are in the official 2021 US catalog, printed page 9. The source is historical; the entry does not claim current production or availability."
+        },
+        {
+          "question": "Can I use the 12 lb row for a 600-yard bonus pack?",
+          "answer": "Not from this evidence. The inspected FCCBF-12 bonus carton prints .0122 in/.31 mm, while the FCCF-12 300-yard filler prints .0124 in/.31 mm. This chart retains only the filler package for 12 lb."
+        },
+        {
+          "question": "Does the same pound test always give the same capacity?",
+          "answer": "No. Capacity depends on diameter and how the line packs, not only the strength label. Match the exact product and package specification rather than treating all 12 lb lines as equivalent."
+        }
+      ],
+      "imageAlt": "P-Line Clear FloroClear 12 lb FCCF filler carton and matching 300 yd spool",
+      "imageCaption": "Actual US FCCF 12 lb/300 yd filler package; eBay-hosted photo, production year unestablished. The 10 lb row is a separate 2021 catalog reference.",
+      "sources": [
+        {
+          "label": "P-Line official US FloroClear identity",
+          "url": "https://p-line.com/product/floroclear/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line official 2021 US catalog",
+          "url": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "note": "Historical manufacturer numeric label on printed p.9. Year/US region are part of the specification scope; no current-edition or availability assertion."
+        },
+        {
+          "label": "P-Line printed package label: 12 lb Clear",
+          "url": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. FCCF-12, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        },
+        {
+          "label": "Excluded package evidence: FCCBF-12",
+          "url": "https://i5.walmartimages.com/asr/5788c3c6-7e0b-4bbc-a3d3-40c37eafa9f6.c16fe7d0d5de61d097f8f4a818732d7c.jpeg",
+          "note": "Authentic separately specified bonus package; cannot combine with the selected FCCF-12 .0124-in/300-yd row without package-specific diameter support in the shared data model."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-floroclear-copolymer-12",
+      "defaultSpoolYards": 300,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-floroclear-copolymer-4",
+        "p-line-floroclear-copolymer-5",
+        "p-line-floroclear-copolymer-6",
+        "p-line-floroclear-copolymer-8",
+        "p-line-floroclear-copolymer-15",
+        "p-line-floroclear-copolymer-20",
+        "p-line-floroclear-copolymer-25",
+        "p-line-floroclear-copolymer-30"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "imageUrl": "https://i.ebayimg.com/images/g/hA0AAOSw2O1kpabb/s-l1600.jpg",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-floroclear-copolymer-10",
+          "workingYards": 100,
+          "spoolYards": 600
+        },
+        {
+          "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+          "lineId": "p-line-floroclear-copolymer-12",
+          "workingYards": 100,
+          "spoolYards": 300
+        }
+      ]
+    },
+    "p-line-cx-premium": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "CX Premium",
+      "lineType": "Copolymer",
+      "slug": "p-line-cx-premium-diameter-capacity-guide",
+      "shortName": "CX Premium",
+      "h1": "P-Line CX Premium",
+      "seoTitle": "P-Line CX Premium US Diameters & Reel Capacity | ReelCalc",
+      "metaDescription": "Verified US Moss Green CX Premium 6 and 8 lb carton diameters and 300-yard packages, with capacity estimates and coated-copolymer spooling guidance.",
+      "construction": "Copolymer with a fluorocarbon-silicone coating",
+      "quickSummary": "CX Premium combines copolymer with a fluorocarbon-silicone coating. This US reference covers the photographed Moss Green CXFMG 6 and 8 lb, 300-yard cartons. Their production years are unestablished; the labels do not establish a current edition or stock position. CX Premium is not CXX X-Tra Strong.",
+      "suitabilityTitle": "A coated main line for a measured spool plan",
+      "suitabilitySummary": "CX Premium is a coated-copolymer mainline option, with P-Line discussing both spinning and baitcasting use. The supported 6 and 8 lb packages let you compare .0084 and .0092 inch diameters without borrowing the specifications of CXX or Clear Fluorescent CX. Choose an appropriate rod and lure combination first; a larger capacity estimate is not a reason to use a lighter line than the fishing needs.",
+      "chartNote": "US Moss Green CXFMG cartons only: 6 lb, .0084 in/.21 mm, 300 yd; 8 lb, .0092 in/.23 mm, 300 yd. Manufacturer-printed labels were read directly from actual package photos. The photos have no established production year; no other strength, color, or regional package is included.",
+      "chartCaption": "Undated US CXFMG 6 and 8 lb package-label references, not a current full-range chart.",
+      "sourceNote": "Actual eBay-hosted CX Premium carton photographs supply the numeric values. Official P-Line US model numbers CXFMG-6 and CXFMG-8 independently match the color, strength, and 300-yard package. The current generic 300YD/247M option contains a metric discrepancy and is not used to infer a meter-rated package. Retailer-authored diameters are excluded.",
+      "reviewNote": "Specification-based guidance only. P-Line's handling and stretch claims are not independently tested here.",
+      "strengthGuide": [
+        "The selected 6 lb CXFMG label prints .0084 inch; the 8 lb label prints .0092 inch. Use those actual values rather than a generic copolymer diameter for the same pound test.",
+        "Both accepted cartons contain 300 yards. No bulk or other-color package is silently added to either row.",
+        "A lighter line can increase estimated capacity while changing the demands on drag setting and handling. The capacity result does not establish that 6 lb suits the target fish or cover."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Check the exact CX carton",
+          "text": "The accepted packages say CX Premium, CXFMG, Moss Green, and 300 yards. CXX and other CX colors are separate source identities even when their packaging looks similar."
+        },
+        {
+          "title": "Use backing only below the working line",
+          "text": "For a shorter working fill, allow enough CX for the cast, reserve, and retying, then use backing for the remaining spool volume. Keep the join below the expected working section."
+        },
+        {
+          "title": "Stop at the physical fill level",
+          "text": "Wind under even tension and follow the reel maker's fill guidance. The .0084- and .0092-inch labels support calculated estimates, not a promise that every reel will accept the exact predicted yardage."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is CX Premium the same as CXX?",
+          "answer": "No. CX Premium is the coated copolymer identified by the CXFMG cartons here. CXX X-Tra Strong is a separate P-Line product and must use its own specification."
+        },
+        {
+          "question": "Which color and package are covered?",
+          "answer": "Only US Moss Green CXFMG 6 and 8 lb in 300-yard cartons. Clear Fluorescent, other strengths, and regional lengths are not established by these photos."
+        },
+        {
+          "question": "Are these verified current-production specifications?",
+          "answer": "They are verified values on readable production labels, with matching official US product identities. The photos do not establish production year, latest formulation, or present availability."
+        },
+        {
+          "question": "Is CX Premium a 100% fluorocarbon line?",
+          "answer": "No. P-Line describes a copolymer line with a fluorocarbon-silicone coating. This page preserves its Copolymer mainline classification."
+        }
+      ],
+      "imageAlt": "P-Line CX Premium Moss Green CXFMG 8 lb 300 yd carton with diameter label",
+      "imageCaption": "Actual US Moss Green 8 lb/300 yd CXFMG carton; eBay-hosted photo, production year unestablished.",
+      "sources": [
+        {
+          "label": "P-Line official US CX Premium identity",
+          "url": "https://p-line.com/product/cx-premium/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line printed package label: 6 lb Moss Green",
+          "url": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yNUAAOSwF6xmDEqT/%24_57.JPG?set_id=880000500F",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. CXFMG-6, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        },
+        {
+          "label": "P-Line printed package label: 8 lb Moss Green",
+          "url": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. CXFMG-8, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-cx-premium-copolymer-8",
+      "defaultSpoolYards": 300,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-cx-premium-copolymer-10",
+        "p-line-cx-premium-copolymer-12",
+        "p-line-cx-premium-copolymer-15",
+        "p-line-cx-premium-copolymer-17"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "imageUrl": "https://i.ebayimg.com/images/g/T3EAAeSwzv1pCh8f/s-l1600.jpg",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-cx-premium-copolymer-6",
+          "workingYards": 125,
+          "spoolYards": 300
+        },
+        {
+          "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+          "lineId": "p-line-cx-premium-copolymer-8",
+          "workingYards": 125,
+          "spoolYards": 300
+        }
+      ]
+    },
+    "p-line-tactical-fluorocarbon": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "Tactical Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "slug": "p-line-tactical-fluorocarbon-diameter-capacity-guide",
+      "shortName": "Tactical",
+      "h1": "P-Line Tactical Fluorocarbon: 2021 US Reference",
+      "seoTitle": "P-Line Tactical 2021 US Diameter & Capacity | ReelCalc",
+      "metaDescription": "Historical 2021 US Tactical 15 lb/1000 yd manufacturer-label reference, with diameter-based reel capacity and explicit limits on other strengths.",
+      "construction": "Fluorocarbon main line",
+      "quickSummary": "Historical 2021 US reference only: the official catalog depicts Clear Tactical PTB1000-15, 15 lb, .0138 in/.352 mm, on a 1,000-yard bulk spool. Tactical is a fluorocarbon main line. This page does not assert current edition, current availability, or specifications for the rest of the range.",
+      "suitabilityTitle": "A bulk-mainline reference, not a full strength range",
+      "suitabilitySummary": "Use this reference when the labeled 2021 US Tactical 15 lb specification is the one you need to evaluate. Its 1,000-yard package describes supply for multiple potential fills, not a recommendation to put that much fluorocarbon on one reel. Suitability still depends on the rod, lure, cover, and required working length. A historical specification cannot establish the condition of a particular stored spool.",
+      "chartNote": "Historical 2021 US catalog, printed p.6: Clear PTB1000-15, 15 lb, .0138 in/.352 mm, 1000 yd. This single exact label is the entire verified chart, not the current Tactical range. The separate 17 lb/200 yd label is excluded because its printed .0154 in/.393 mm pair falls just outside the combined rounding allowance.",
+      "chartCaption": "Historical 2021 US PTB1000-15 package-label specification; no current-edition or availability claim.",
+      "sourceNote": "Numeric authority is the manufacturer-printed PTB1000-15 bulk-spool label in P-Line's official 2021 US catalog, page 6. The historical year is supported by the official filename and PDF metadata, not inferred from today's listing. Current official variants corroborate the identity only. The 17 lb label remains a documented unit conflict; neither printed value was corrected or preferred.",
+      "reviewNote": "This is a historical specification reference and calculated setup guide, not a hands-on review or an endorsement of the condition of old line.",
+      "strengthGuide": [
+        "Only 15 lb is supported here. The page does not offer a lighter or heavier Tactical choice without exact primary diameter evidence.",
+        "The accepted .0138-inch diameter controls the capacity estimate. The .352 mm value is independently printed and retained within its rounding allowance.",
+        "A 200-yard Tactical filler may share a family name, but that alone does not prove the diameter or package map used here. This row remains tied to the 2021 1,000-yard PTB1000-15 label."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Separate bulk supply from a reel fill",
+          "text": "Budget enough working Tactical for your fishing, then compare it with the reel's diameter-based capacity. A 1,000-yard package can be divided into planned fills; it is not a reel-size recommendation."
+        },
+        {
+          "title": "Reserve working line above backing",
+          "text": "Backing can occupy the lower spool while Tactical remains the working main line. Keep the join below the line expected to leave the reel, allowing for runs and retying."
+        },
+        {
+          "title": "Do not turn a mainline label into a leader rating",
+          "text": "The source is a Tactical mainline bulk spool, not a leader-specific product chart. Short leader use and long topshots need their own material, length, and knot decisions."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why does this page say 2021 US reference?",
+          "answer": "The exact readable 15 lb diameter and 1,000-yard package are documented in the official 2021 US catalog. The page deliberately makes no claim that these are the current edition or available stock."
+        },
+        {
+          "question": "Why is 17 lb omitted?",
+          "answer": "The photographed 200-yard label prints .0154 inch and .393 mm. Their difference is .00184 mm, just beyond the combined .00177 mm half-unit rounding allowance. Both values are preserved in the research, but the conflicting row is not used."
+        },
+        {
+          "question": "Can I select a 200-yard spool for the 15 lb row?",
+          "answer": "Not from this reference. The verified 15 lb package is PTB1000-15 at 1,000 yards; a family-level filler option does not independently establish the same numeric specification."
+        },
+        {
+          "question": "Does this establish that an older Tactical spool is safe to fish?",
+          "answer": "No. The catalog establishes a historical label specification, not storage history or present condition. Inspect the actual line and follow appropriate tackle and reel guidance."
+        }
+      ],
+      "imageAlt": "Official P-Line Tactical retail box and spool, shown only to identify the product family",
+      "imageCaption": "Official family illustration, not evidence of the selected 15 lb bulk package. Chart: historical 2021 US PTB1000-15 label.",
+      "sources": [
+        {
+          "label": "P-Line official US Tactical Fluorocarbon identity",
+          "url": "https://p-line.com/product/tactical-fluorocarbon/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line official 2021 US catalog",
+          "url": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "note": "Historical manufacturer numeric label on printed p.6. Year/US region are part of the specification scope; no current-edition or availability assertion."
+        },
+        {
+          "label": "Excluded package evidence: PTFL200-17",
+          "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLS-1.jpg",
+          "note": "Exact authentic package is identified, but the independently printed diameter pair lies just outside combined half-unit rounding tolerance. No preferred unit or corrected value selected."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+      "defaultSpoolYards": 1000,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-tactical-fluorocarbon-fluorocarbon-6",
+        "p-line-tactical-fluorocarbon-fluorocarbon-8",
+        "p-line-tactical-fluorocarbon-fluorocarbon-10",
+        "p-line-tactical-fluorocarbon-fluorocarbon-12",
+        "p-line-tactical-fluorocarbon-fluorocarbon-17",
+        "p-line-tactical-fluorocarbon-fluorocarbon-20"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "imageUrl": "https://p-line.com/wp-content/uploads/2021/03/P-Line-TACTICAL-Box-Spool.png",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+          "workingYards": 60,
+          "spoolYards": 1000
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-tactical-fluorocarbon-fluorocarbon-15",
+          "workingYards": 75,
+          "spoolYards": 1000
+        }
+      ]
+    },
+    "p-line-halo-fluorocarbon": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "HALO Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "slug": "p-line-halo-fluorocarbon-diameter-capacity-guide",
+      "shortName": "HALO",
+      "h1": "P-Line HALO Fluorocarbon",
+      "seoTitle": "P-Line HALO US Label Diameters & Reel Capacity | ReelCalc",
+      "metaDescription": "Verified US Mist Green HALO 6, 8 and 10 lb manufacturer-label diameters and 200-yard packages, with fluorocarbon mainline capacity guidance.",
+      "construction": "100% fluorocarbon; P-Line Co-Fluoride formulation",
+      "quickSummary": "HALO is P-Line's 100% fluorocarbon Co-Fluoride main line. This US reference covers three photographed Mist Green HF 200-yard cartons: 6, 8, and 10 lb. The photos have no established production year, so this is a package-label reference, not a current-edition or availability claim.",
+      "suitabilityTitle": "HALO is full fluorocarbon, not a coated copolymer",
+      "suitabilitySummary": "HALO belongs in a full-fluorocarbon mainline comparison, separately from CX Premium and FloroClear. The three verified US carton labels offer .008, .01, and .011 inch reference diameters. Choose strength for the rod, presentation, and cover before estimating the fill. P-Line's Co-Fluoride construction name is not evidence of a measured performance advantage over another fluorocarbon.",
+      "chartNote": "US Mist Green HF200 cartons only: 6 lb .008 in/.21 mm; 8 lb .01 in/.25 mm; 10 lb .011 in/.28 mm. Each label says 200 yd. Both printed units are retained at their original precision in the evidence; neither regional tables nor retailer-authored diameters supplied these values.",
+      "chartCaption": "Undated US Mist Green HF200 carton labels; no current-stock or complete-range claim.",
+      "sourceNote": "A single actual-package photo shows legible 6, 8, and 10 lb HALO cartons together. It is hosted on eBay; the numeric authority is the P-Line printing, not the seller description. Official US variants match HF200-6, HF200-8, and HF200-10. EU package sizes and the separate 2,000-yard US family are not included.",
+      "reviewNote": "This reference does not independently test sinking rate, visibility, abrasion resistance, or the condition of photographed stock.",
+      "strengthGuide": [
+        "The supported strengths are 6, 8, and 10 lb, each paired with a pictured 200-yard US package. A missing strength is unverified here, not necessarily discontinued.",
+        "The 6 lb carton prints .21 mm and .008 inch. Do not replace it with a .22 mm retailer or regional entry.",
+        "The 8 lb inch value is printed as .01, with coarser precision than some other labels. Extra display decimals do not make it a finer physical measurement."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Start with the 200-yard package",
+          "text": "Determine the required working HALO length and reserve before deciding how much backing to add. A 200-yard carton may not fill every reel at these diameters."
+        },
+        {
+          "title": "Control the fill, not just the yard count",
+          "text": "Wind consistently and stop at the reel manufacturer's recommended level. The independently rounded label values support an estimate, not a guaranteed measured fill."
+        },
+        {
+          "title": "Keep mainline and leader roles distinct",
+          "text": "These HF cartons document HALO as main line. A leader or long topshot is a separate rigging choice, and a long section on the reel consumes its own spool volume."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is HALO fluorocarbon-coated nylon?",
+          "answer": "No. P-Line describes HALO as 100% fluorocarbon with its Co-Fluoride formulation. CX Premium and FloroClear are the coated-copolymer products, not this HALO reference."
+        },
+        {
+          "question": "Which HALO region and package are covered?",
+          "answer": "US Mist Green HF200 6, 8, and 10 lb cartons, each labeled 200 yards. EU meter-rated packages are not cross-matched by strength or column position."
+        },
+        {
+          "question": "Does the 6 lb label say .21 or .22 mm?",
+          "answer": "The actual US carton in the retained photo says .21 mm, alongside .008 inch. That primary label controls this reference."
+        },
+        {
+          "question": "Are these the latest HALO specifications?",
+          "answer": "The production years of these photographed cartons are unestablished. Official US records corroborate their identities, but the photos do not prove the latest edition, present stock, or the entire HALO range."
+        }
+      ],
+      "imageAlt": "Three authentic P-Line HALO Mist Green 200 yd cartons with 6, 8 and 10 lb diameter labels",
+      "imageCaption": "Actual US HF200 cartons at 6, 8, and 10 lb; eBay-hosted photo, production years unestablished.",
+      "sources": [
+        {
+          "label": "P-Line official US HALO Fluorocarbon identity",
+          "url": "https://p-line.com/product/halo-fluorocarbon/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line printed package label: 6 lb Mist Green; 8 lb Mist Green; 10 lb Mist Green",
+          "url": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. HF200-6, 200 yd; HF200-8, 200 yd; HF200-10, 200 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-halo-fluorocarbon-fluorocarbon-8",
+      "defaultSpoolYards": 200,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-halo-fluorocarbon-fluorocarbon-12",
+        "p-line-halo-fluorocarbon-fluorocarbon-15",
+        "p-line-halo-fluorocarbon-fluorocarbon-17",
+        "p-line-halo-fluorocarbon-fluorocarbon-20"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "imageUrl": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/hqUAAOSwO25jdFxf/%24_57.PNG?set_id=8800005007",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-halo-fluorocarbon-fluorocarbon-8",
+          "workingYards": 125,
+          "spoolYards": 200
+        },
+        {
+          "reelId": "shimano-stradic-fm-c3000xg-stc3000xgfm-686",
+          "lineId": "p-line-halo-fluorocarbon-fluorocarbon-10",
+          "workingYards": 125,
+          "spoolYards": 200
+        }
+      ]
+    },
+    "p-line-endurx-braid": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "EndurX Braid",
+      "lineType": "Braid",
+      "slug": "p-line-endurx-braid-diameter-capacity-guide",
+      "shortName": "EndurX 8X",
+      "h1": "P-Line EndurX Braid",
+      "seoTitle": "P-Line EndurX 8X US Diameters & Reel Capacity | ReelCalc",
+      "metaDescription": "EndurX 8X US label reference: 20 lb Electric Green and 30 lb Midnight Black, each 300 yards, with verified diameters and braid-capacity guidance.",
+      "construction": "8-carrier braid; color introduced before braiding",
+      "quickSummary": "This is the eight-carrier EndurX 8X mainline reference, not an EndurX four-carrier product. The exact US labels are Electric Green 20 lb/300 yd and Midnight Black 30 lb/300 yd. Production years are unestablished; the photographed Zero Fade packaging does not establish the latest edition or current availability.",
+      "suitabilityTitle": "Keep the 8X construction and exact color in view",
+      "suitabilitySummary": "P-Line describes eight-carrier EndurX as braid made from material colored before braiding. The retained labels support a .009-inch Electric Green 20 lb option and a .011-inch Midnight Black 30 lb option. They do not establish all EndurX colors at those strengths. Compare diameter for capacity while choosing strength, leader, and drag for the fishing; color-retention marketing is not a measured result here.",
+      "chartNote": "US 8X labels only: Electric Green PEBFG-300-20, 20 lb, .009 in/.23 mm, 300 yd; Midnight Black PEBB-300-30, 30 lb, .011 in/.28 mm, 300 yd. The newly legible 30 lb inch field is .011, not a retailer .010 entry or a conversion calculated from .28 mm. No four-carrier, other-color, or bulk variant is included.",
+      "chartCaption": "Undated US EndurX 8X 300-yard label references; color and strength remain paired.",
+      "sourceNote": "Actual P-Line spool-label photographs hosted by Tackle Warehouse supply both numeric units and exact package codes. Official US product variants corroborate the model, color, strength, and 300-yard count. Both packages print 274 meters; the official generic 300YD/247M dropdown is not treated as a separate verified metric package. Retailer-authored tables are not numeric authority.",
+      "reviewNote": "No independent fade, breaking-strength, abrasion, or casting test is claimed. Braid diameter and winding tension make real fills approximate.",
+      "strengthGuide": [
+        "The 20 lb entry is Electric Green; the 30 lb entry is Midnight Black. This is not proof that every color shares either label specification.",
+        "Both accepted products say 8X and contain 300 yards. A different carrier count or bulk code needs its own numeric evidence.",
+        "More estimated capacity is not automatically useful capacity. Choose enough working braid for casts, runs, and retying, without choosing a lighter strength just to maximize the yard count."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Secure the braid at the arbor",
+          "text": "Follow the reel manufacturer's braid-attachment instructions. Where appropriate, a mono base can prevent slipping on a smooth arbor, and additional backing can occupy unused volume."
+        },
+        {
+          "title": "Do not force a 300-yard fill",
+          "text": "Use the intended working length, consistent winding tension, and the reel's fill mark. One 300-yard package is supply, not a requirement that all of it fit on one spool."
+        },
+        {
+          "title": "Choose the leader separately",
+          "text": "A leader goes near the lure, while backing goes below the working braid. Leader material and strength depend on the presentation and cover; a long topshot needs its own volume allowance."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this the four-carrier EndurX?",
+          "answer": "No. The accepted labels identify EndurX 8X, and P-Line's matching description specifies eight carriers. Four-carrier EndurX is outside this reference."
+        },
+        {
+          "question": "What is the verified 30 lb Midnight Black diameter?",
+          "answer": "The actual PEBB-300-30 label prints .011 inch and .28 mm. Its 300-yard package is the only 30 lb package included here."
+        },
+        {
+          "question": "Can I choose Electric Green at 30 lb from this chart?",
+          "answer": "Not from this evidence. The verified Electric Green package is 20 lb; the verified 30 lb label is Midnight Black. Other color-strength combinations need their own primary evidence."
+        },
+        {
+          "question": "Does Zero Fade mean this page guarantees color retention?",
+          "answer": "No. That wording identifies the pictured manufacturer packaging. This reference neither independently tests the claim nor establishes warranty eligibility, production year, or present stock."
+        }
+      ],
+      "imageAlt": "P-Line EndurX 8X Electric Green PEBFG-300-20 spool showing 20 lb, 300 yd, .009 in and .23 mm",
+      "imageCaption": "Actual US Electric Green 20 lb/300 yd EndurX 8X label; Tackle Warehouse-hosted photo, production year unestablished.",
+      "sources": [
+        {
+          "label": "P-Line official US EndurX Braid identity",
+          "url": "https://p-line.com/product/endurx-braid/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line printed package label: 20 lb Electric Green",
+          "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. PEBFG-300-20, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        },
+        {
+          "label": "P-Line printed package label: 30 lb Midnight Black",
+          "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUXMB-1.jpg",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. PEBB-300-30, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-endurx-braid-braid-20",
+      "defaultSpoolYards": 300,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-endurx-braid-braid-10",
+        "p-line-endurx-braid-braid-40",
+        "p-line-endurx-braid-braid-50",
+        "p-line-endurx-braid-braid-15",
+        "p-line-endurx-braid-braid-65",
+        "p-line-endurx-braid-braid-80"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "imageUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=PLDUX-1.jpg",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-endurx-braid-braid-20",
+          "workingYards": 100,
+          "spoolYards": 300
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-endurx-braid-braid-30",
+          "workingYards": 125,
+          "spoolYards": 300
+        }
+      ]
+    },
+    "p-line-tcb-8-braid": {
+      "presentation": "gold",
+      "role": "mainline",
+      "brand": "P-Line",
+      "model": "TCB 8 Braid",
+      "lineType": "Braid",
+      "slug": "p-line-tcb-8-braid-diameter-capacity-guide",
+      "shortName": "TCB 8",
+      "h1": "P-Line TCB 8 Braid: US Teflon-Label Reference",
+      "seoTitle": "P-Line TCB 8 Teflon-Label Diameters & Capacity | ReelCalc",
+      "metaDescription": "US Teflon-labeled TCB 8 package reference: Green 20 lb/150 yd and Yellow 50 lb/300 yd, with 2021 catalog identity and diameter-based capacity.",
+      "construction": "8-strand braid; pictured Teflon Surface Protector version",
+      "quickSummary": "US Teflon-label reference: Green TCB 8 20 lb/150 yd and Hi Vis Yellow 50 lb/300 yd. The official 2021 US catalog connects X-Braid, XTCB-8, and this Teflon-labeled family. The photos have no established production year; this page does not assert the current Slick Coat formulation is identical or that these packages are available now.",
+      "suitabilityTitle": "Match the Teflon-labeled version before comparing capacity",
+      "suitabilitySummary": "The accepted TCB 8 labels document an eight-strand braid at two very different strengths and diameters: 20 lb at .010 inch and 50 lb at .014 inch. They are not a complete range or interchangeable recommendations. Choose for the rod, cover, and presentation first. A name match to today's X-Braid page does not establish unchanged coating or an equivalent current edition.",
+      "chartNote": "US Teflon-labeled packages only: Green PXB8150-20, 20 lb, .010 in/.25 mm, 150 yd; Hi Vis Yellow PXBY8300-50, 50 lb, .014 in/.36 mm, 300 yd. Official 2021 US catalog p.4 corroborates this family's names and package identities. It does not date these photographs or verify current Slick Coat specifications.",
+      "chartCaption": "US Teflon-version label references, linked to 2021 catalog identity; no current-edition or stock claim.",
+      "sourceNote": "The numeric authority is actual P-Line TCB 8 spool printing in Tackle Warehouse-hosted photos. The official 2021 US catalog, page 4, explicitly links X-Braid/XTCB-8, eight strands, Teflon Surface Protector, and PXB/PXBY package families. The current X-Braid Green page is retained as identity context only because it now says Slick Coat. No other strengths or shared package lengths are inferred.",
+      "reviewNote": "No assertion that historical Teflon-labeled TCB 8 and present Slick Coat are the same formulation. This is not a casting, abrasion, or strength test.",
+      "strengthGuide": [
+        "The verified choices are 20 and 50 lb only; the gap does not imply that intermediate strengths were discontinued or never sold.",
+        "Keep Green 20 lb paired with its 150-yard label and Hi Vis Yellow 50 lb with its 300-yard label. Neither package size is copied across strengths.",
+        "Compare the exact diameter and use an appropriate drag and rod setup. The 50 lb package is not a substitute for a 20 lb package merely because both say TCB 8."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Check a 150-yard working-line budget",
+          "text": "For the supported Green 20 lb package, leave sufficient braid for casts, runs, and retying before allocating the remaining spool space to backing. A large capacity estimate does not create more than the 150 yards supplied."
+        },
+        {
+          "title": "Treat the 300-yard Yellow package separately",
+          "text": "The verified Hi Vis Yellow 50 lb spool supplies 300 yards. Wind with consistent tension and follow the reel's fill guidance instead of assuming the full package belongs on a single reel."
+        },
+        {
+          "title": "Separate arbor attachment from the leader",
+          "text": "A reel-approved braid attachment or suitable mono base addresses spool-arbor slip. A leader is a different section near the lure; a long topshot requires a separate space allowance."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why are TCB 8, XTCB-8, and X-Braid linked here?",
+          "answer": "The official 2021 US catalog explicitly connects those names with the eight-strand Teflon Surface Protector family and the matching PXB/PXBY model codes. The identity is not inferred solely from a retailer title."
+        },
+        {
+          "question": "Is this the current Slick Coat version?",
+          "answer": "No such equivalence is established. This page is explicitly for the pictured US Teflon-labeled packages; the present official X-Braid page uses Slick Coat wording."
+        },
+        {
+          "question": "Were these exact photographs taken in 2021?",
+          "answer": "Their production and photography dates are unestablished. The 2021 US catalog supplies historical identity and package corroboration, not a date for the photos or a current availability claim."
+        },
+        {
+          "question": "Are 150 and 300 yards available for every listed strength?",
+          "answer": "That is not verified here. The accepted Green 20 lb label is 150 yards; the accepted Hi Vis Yellow 50 lb label is 300 yards. Other package combinations remain outside the chart."
+        }
+      ],
+      "imageAlt": "P-Line TCB 8 Green Teflon-labeled PXB8150-20 spool showing 20 lb and 150 yd",
+      "imageCaption": "Actual US Teflon-labeled Green 20 lb/150 yd spool; undated photo hosted by Tackle Warehouse. Not a Slick Coat illustration.",
+      "sources": [
+        {
+          "label": "P-Line official US TCB 8 Braid identity",
+          "url": "https://p-line.com/product/x-braid-green/",
+          "note": "Manufacturer construction and exact variant identity context. This page has no numeric diameter chart; its generic package options do not expand the supported labels."
+        },
+        {
+          "label": "P-Line official 2021 US catalog",
+          "url": "https://p-line.com/wp-content/uploads/2022/12/P-Line-Catalog-2021-V4.pdf",
+          "note": "Historical p.4 identity, eight-strand Teflon construction, and exact PXB/PXBY package codes. Does not date the third-party photos or establish current Slick Coat equivalence."
+        },
+        {
+          "label": "P-Line printed package label: 20 lb Green",
+          "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. PXB8150-20, 150 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        },
+        {
+          "label": "P-Line printed package label: 50 lb Hi Vis Yellow",
+          "url": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=0I-1.jpg",
+          "note": "Original third-party-hosted photo; numeric authority is the visible manufacturer's printing. PXBY8300-50, 300 yd. Photo/production year unestablished. Not a retailer-authored diameter table."
+        }
+      ],
+      "defaultMode": "capacity",
+      "defaultLineId": "p-line-tcb-8-braid-braid-20",
+      "defaultSpoolYards": 150,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "p-line-tcb-8-braid-braid-10",
+        "p-line-tcb-8-braid-braid-30",
+        "p-line-tcb-8-braid-braid-40",
+        "p-line-tcb-8-braid-braid-15",
+        "p-line-tcb-8-braid-braid-65"
+      ],
+      "localImagePath": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "imageUrl": "https://img.tacklewarehouse.com/watermark/rs.php?nw=1462&path=TE-1.jpg",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "p-line-tcb-8-braid-braid-20",
+          "workingYards": 75,
+          "spoolYards": 150
+        },
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "lineId": "p-line-tcb-8-braid-braid-50",
+          "workingYards": 75,
+          "spoolYards": 300
+        }
+      ]
+    },
+    "hi-seas-fluorocarbon": {
+      "presentation": "gold",
+      "brand": "Hi-Seas",
+      "model": "Fluorocarbon",
+      "lineType": "Fluorocarbon",
+      "role": "mainline",
+      "shortName": "Hi-Seas 100% Fluoro",
+      "slug": "hi-seas-fluorocarbon-diameter-capacity-guide",
+      "eyebrow": "Fluorocarbon mainline guide",
+      "h1": "Hi-Seas 100% Fluorocarbon Line",
+      "seoTitle": "Hi-Seas Fluorocarbon 25 lb Diameter & Capacity | ReelCalc",
+      "metaDescription": "Check the catalog-listed Hi-Seas CFC-F200-25 mainline: 25 lb, .018 inch / .45 mm and 200 yards. Compare reel capacity with explicit source and availability limits.",
+      "construction": "100% polyvinylidene fluoride (PVDF) fluorocarbon mainline",
+      "quickSummary": "Hi-Seas 100% Fluorocarbon Line is the CFC-F200 mainline family, distinct from the brand's leader-only and coated lines. This limited chart covers the catalog-listed 25 lb Clear filler spool: .018 inch / .45 mm and 200 yards, confirmed by its exact package photo. Retail availability is not verified.",
+      "suitabilityTitle": "A thicker fluorocarbon working line",
+      "suitabilitySummary": "The verified 25 lb size is a substantial .45 mm line, so choose it for a tackle and presentation requirement, not merely because a reel can hold it. Consider spool diameter, rod rating and lure weight before selecting a full fluorocarbon fill. The manufacturer also describes terminal-leader use, but a short leader ahead of braid and fluorocarbon carried as the working mainline are different plans.",
+      "strengthGuide": [
+        "Only 25 lb is included in this chart. Its .018-inch / .45-mm pair appears in the official mainline catalog row and on the exact CFC-F200-25 package; other pound tests must not inherit this diameter.",
+        "Choose this physical size only where the rod, hook or lure and fishing conditions justify it. A 25 lb label is not a drag setting or proof that thick fluorocarbon will handle comfortably on a small spinning spool.",
+        "The 200-yard label is supplied length. For a shorter working section, retain enough for casts, expected runs and trimming before filling unused volume with backing."
+      ],
+      "fitTitle": "When the CFC-F200 package fits the plan",
+      "bestFit": "A source-documented option when you specifically need the 25 lb Clear Hi-Seas mainline and a 200-yard filler spool. The manufacturer describes a castable running line made from pure PVDF; this page does not claim a hands-on casting or abrasion comparison.",
+      "tradeoffTitle": "Source scope and spool handling",
+      "tradeoff": "The live 25 lb shop URL is unavailable even though the linked catalog and exact package photo establish its specification. Confirm the CFC-F200-25 package and availability before buying. A capacity estimate does not establish how comfortably this diameter will handle on your reel.",
+      "chartNote": "One verified strength: Clear CFC-F200-25, 25 lb, .018 inch / .45 mm, 200 yards. The 10/12/15/20 lb entries remain excluded because exact shop data conflicts with catalog/photo evidence. A 30 lb CFC-F200 source is not established.",
+      "chartCaption": "Catalog-listed CFC-F200-25 specification and package length. Current retail availability is not verified.",
+      "diameterNote": "The catalog and exact 25 lb package independently publish .018 inch and .45 mm. These are rounded source labels, not exact arithmetic conversions. Package calculations use 200 yards only; the catalog says 182 m and the photo 183 m, so neither metric label is treated as an exact conversion.",
+      "spoolingGuide": [
+        {
+          "title": "Match the CFC-F200-25 label",
+          "text": "Confirm 25 lb Clear 100% Fluorocarbon Line and 200 yards. A Hi-Seas leader spool, Quattro product or fluorocarbon-coated Grand Slam line is not the same package."
+        },
+        {
+          "title": "Choose the useful working length",
+          "text": "Compare the reel's capacity at .018 inch with the 200-yard supply. A deliberate working section can sit over backing, with its junction below the line needed for normal casts and fish runs."
+        },
+        {
+          "title": "Check handling while filling",
+          "text": "Use steady winding tension and the reel maker's fill clearance. Stop short of overfilling and check line handling; unused supply is preferable to forcing the whole package onto a smaller spool."
+        }
+      ],
+      "reelcalcNote": "Use the specific 25 lb CFC-F200 mainline diameter for this estimate. A missing strength in this limited chart is not permission to substitute another Hi-Seas formulation.",
+      "manufacturerFacts": [
+        {
+          "label": "Exact identity",
+          "text": "The official mainline catalog lists CFC-F200-25 as Clear 100% Fluorocarbon Line in a filler spool, not leader-only stock."
+        },
+        {
+          "label": "Matching package evidence",
+          "text": "The exact manufacturer photo prints 25 lb, .018 inch, .45 mm, 200 yards and CFC-F200-25."
+        },
+        {
+          "label": "Availability limit",
+          "text": "The catalog remains linked from AFW's current download page, but the individual 25 lb shop URL returns 404. Specification evidence does not establish retail stock."
+        }
+      ],
+      "setupComparison": {
+        "title": "Working mainline or terminal section?",
+        "leftTitle": "Fluorocarbon on the reel",
+        "leftText": "Plan capacity from the .018-inch mainline diameter. A longer working fill may need most of the package; allow for trimming rather than assuming every supplied yard is usable.",
+        "rightTitle": "Short fluorocarbon leader",
+        "rightText": "The manufacturer also describes terminal-leader use. Choose that section's length and connection separately; it does not replace the reel's mainline or backing calculation."
+      },
+      "productGuidanceTitle": "Before choosing the 25 lb spool",
+      "productGuidance": [
+        "Confirm CFC-F200-25, Clear and 200 yards on the package before purchase; current retail availability has not been established.",
+        "Keep the .45 mm diameter in view when comparing line handling and capacity with thinner fluorocarbon choices.",
+        "Do not infer missing tests from this one-row chart. Conflicting specifications remain excluded until the manufacturer clarifies them."
+      ],
+      "recommendationIntro": "Evaluate this 25 lb fluorocarbon only after checking tackle and presentation needs. The example demonstrates volume on a round baitcaster, not a universal reel or technique recommendation.",
+      "faqs": [
+        {
+          "question": "Why does this chart show only 25 lb?",
+          "answer": "The exact CFC-F200-25 catalog row and package photo agree. Other strengths either have conflicting manufacturer specifications or lack an exact verified mainline source, so they are not included."
+        },
+        {
+          "question": "Is the 25 lb package available to buy now?",
+          "answer": "Stock was not verified. AFW still links the catalog containing this SKU, but its individual shop URL returns 404. Confirm the exact package with a seller before ordering."
+        },
+        {
+          "question": "Is this Hi-Seas fluorocarbon leader?",
+          "answer": "It is the 200-yard CFC-F200 mainline filler spool. The manufacturer also describes using the material for terminal leaders, but separate Hi-Seas leader products do not supply the specifications for this chart."
+        },
+        {
+          "question": "Will one 200-yard spool fill my reel?",
+          "answer": "Compare the exact reel capacity at .018 inch with the supplied length. A short working section may leave room for backing, while a larger reel may need more than one package."
+        },
+        {
+          "question": "Should I use the 182 m or 183 m label?",
+          "answer": "Use the agreed 200-yard package length. That converts to 182.88 m, approximately 183 m. The catalog instead prints 182 m; this guide preserves that discrepancy and does not use either companion label to redefine the supplied yardage."
+        }
+      ],
+      "sourceNote": "Checked September 13, 2026. The 25 lb row is transcribed from page 12 of the 2025-named AFW catalog currently linked by its official download page, and visually corroborated by the exact manufacturer CFC-F200-25 package photo. The PDF metadata says Catalog 2024 and a June 2024 creation date; its filename does not establish a newer measurement. The July 2026 supplement supplies no replacement fluorocarbon table. The individual 25 lb shop URL returns 404. The 10/12/15/20/30 lb sizes are not included; this is not a statement of current stock or an independent diameter measurement.",
+      "reviewNote": "A source-based specification and setup guide, not a hands-on review. The chart is limited to the 25 lb package with matching catalog and photo specifications; current retail stock is not verified.",
+      "sources": [
+        {
+          "label": "AFW official catalog download page",
+          "url": "https://www.afwfishing.com/content/fishing_catalog_download.asp",
+          "note": "Current public page links the 2025-named full catalog and the 2026 supplement."
+        },
+        {
+          "label": "AFW full catalog: fluorocarbon mainline, page 12",
+          "url": "https://www.afwfishing.com/uploads/afw_fishing_brands_catalog_2025.pdf#page=12",
+          "note": "Exact CFC-F200-25 row: 25 lb, .018 inch, .45 mm, 200 yards, Clear filler spool."
+        },
+        {
+          "label": "Exact CFC-F200-25 manufacturer package photo",
+          "url": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+          "note": "SKU, test, diameter and yards visibly match the accepted catalog row. The photo prints 183 m, while the catalog prints 182 m; both companion labels are preserved as source evidence."
+        },
+        {
+          "label": "AFW 2026 supplement",
+          "url": "https://www.afwfishing.com/uploads/AFW_Fishing_Brands_Supplement_2026.pdf",
+          "note": "No replacement CFC-F200 fluorocarbon specification table."
+        }
+      ],
+      "imageUrl": "https://d2u0aogsnk9o55.cloudfront.net/images/cfc-f200-25_l.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "imageAlt": "Actual Hi-Seas Clear 100% Fluorocarbon Line spool labeled CFC-F200-25, 25 lb, .018 inch, .45 mm and 200 yards.",
+      "imageCaption": "Exact CFC-F200-25 package shown. Catalog-listed specifications are verified; retail availability is not.",
+      "defaultLineId": "hi-seas-fluorocarbon-fluorocarbon-25",
+      "defaultSpoolYards": 200,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "exampleBackingLabel": "Berkley Trilene Big Game 10 lb mono (0.012 in)",
+      "excludedLineIds": [
+        "hi-seas-fluorocarbon-fluorocarbon-10",
+        "hi-seas-fluorocarbon-fluorocarbon-12",
+        "hi-seas-fluorocarbon-fluorocarbon-15",
+        "hi-seas-fluorocarbon-fluorocarbon-20",
+        "hi-seas-fluorocarbon-fluorocarbon-30"
+      ],
+      "exampleSetups": [
+        {
+          "reelId": "abu-garcia-ambassadeur-c3-6500-c3-6500",
+          "lineId": "hi-seas-fluorocarbon-fluorocarbon-25",
+          "workingYards": 150,
+          "spoolYards": 200
         }
       ]
     }
