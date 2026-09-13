@@ -1,0 +1,26 @@
+
+  - button "Close" [active]:
+    - generic: Close
+  - heading [level=2]
+  - heading "Import Complete" [level=1]
+  - generic: Imported (10)
+  - paragraph: Sunline FC Sniper Fluorocarbon
+  - generic: Added
+  - paragraph: Sunline Shooter Fluorocarbon
+  - generic: Added
+  - paragraph: Sunline Assassin FC Fluorocarbon
+  - generic: Added
+  - paragraph: Sunline Super Natural Monofilament
+  - generic: Added
+  - paragraph: Sunline SX1 Braid
+  - generic: Added
+  - paragraph: Sunline Xplasma Asegai Braid
+  - generic: Added
+  - paragraph: Sunline Siglon PE X8 Braid
+  - generic: Added
+  - paragraph: Sunline Machinegun Cast Monofilament
+  - generic: Added
+  - paragraph: Sunline BMS Azayaka FC Fluorocarbon
+  - generic: Added
+  - paragraph: Berkley GINCLEAR Fluorocarbon
+  - generic: Added

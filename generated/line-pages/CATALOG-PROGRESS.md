@@ -1,7 +1,7 @@
 # Line Page Expansion Tracker
 
-Main catalog: 138 models; 10 published; 128 remaining.
-Prepared and audited: 10. Still requiring page construction/research: 118. Prepared is not the same as published.
+Main catalog: 138 models; 20 published; 118 remaining.
+Prepared and audited: 0. Still requiring page construction/research: 118. Prepared is not the same as published.
 Additional PE-only model names: 39; kept separate from the main catalog until identity and regional specifications are checked.
 
 The presence of a diameter in the existing database is not, by itself, publication approval. No unknown spool size is invented.
@@ -17,7 +17,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Berkley Trilene XT | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Berkley 100% Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Berkley Vanish | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| Berkley GINCLEAR | audited-awaiting-bulk-release | None recorded |
+| Berkley GINCLEAR | published | None recorded |
 | Berkley Forward Finesse Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Berkley X9 Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Berkley X5 Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
@@ -110,14 +110,14 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Sufix Advance Mono | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Sufix Invisiline Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Sufix Advance Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| Sunline FC Sniper | audited-awaiting-bulk-release | None recorded |
-| Sunline Shooter | audited-awaiting-bulk-release | None recorded |
-| Sunline Assassin FC | audited-awaiting-bulk-release | None recorded |
+| Sunline FC Sniper | published | None recorded |
+| Sunline Shooter | published | None recorded |
+| Sunline Assassin FC | published | None recorded |
 | Sunline Crank FC | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| Sunline Super Natural Mono | audited-awaiting-bulk-release | None recorded |
-| Sunline SX1 | audited-awaiting-bulk-release | None recorded |
-| Sunline Xplasma Asegai | audited-awaiting-bulk-release | None recorded |
-| Sunline Siglon PE X8 | audited-awaiting-bulk-release | None recorded |
+| Sunline Super Natural Mono | published | None recorded |
+| Sunline SX1 | published | None recorded |
+| Sunline Xplasma Asegai | published | None recorded |
+| Sunline Siglon PE X8 | published | None recorded |
 | Vicious Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Vicious Pro Elite Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Vicious Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
@@ -140,9 +140,9 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Rhino Hide Camo Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Rhino Hide Camo Monofilament | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Sunline Kantan Cast Braid X8 | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| Sunline Shooter BMS Azayaka FC | audited-awaiting-bulk-release | None recorded |
+| Sunline Shooter BMS Azayaka FC | published | None recorded |
 | Sunline Shooter BMS Azayaka NY | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| Sunline Shooter Machinegun Cast | audited-awaiting-bulk-release | None recorded |
+| Sunline Shooter Machinegun Cast | published | None recorded |
 | Seaguar JDM R18 Mainline | published | None recorded |
 | Seaguar JDM PEX8 Micro Braid | published | None recorded |
 | Seaguar JDM Grand Max Leader | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; leader-specific page flow (not full-spool mainline); browser and calculation audit |

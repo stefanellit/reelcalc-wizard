@@ -1,19 +1,8 @@
 {
-  "importFile": "generated/line-pages/UPLOAD-THIS-10-new-line-guides.csv",
-  "count": 10,
+  "importFile": null,
+  "count": 0,
   "visibility": "hidden",
-  "includedProducts": [
-    "sunline-fc-sniper",
-    "sunline-shooter",
-    "sunline-assassin-fc",
-    "sunline-super-natural-mono",
-    "sunline-sx1",
-    "sunline-xplasma-asegai",
-    "sunline-siglon-pe-x8",
-    "sunline-shooter-machinegun-cast",
-    "sunline-shooter-bms-azayaka-fc",
-    "berkley-ginclear"
-  ],
+  "includedProducts": [],
   "excludedPublished": [
     "powerpro-spectra",
     "seaguar-invizx",
@@ -24,7 +13,17 @@
     "seaguar-smackdown",
     "seaguar-brawlr",
     "seaguar-jdm-r18-mainline",
-    "seaguar-jdm-pex8-micro-braid"
+    "seaguar-jdm-pex8-micro-braid",
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear"
   ],
   "previews": [
     {

@@ -5,6 +5,7 @@ import { parse } from './line-page-publishing/node_modules/parse5/dist/index.js'
 const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
 const lines=read('data/lines.json'),products=read('data/line-page-products.json').products;
 const batch=read('research/line-pages/batch-two-specs.json'),evidence=read('research/line-pages/batch-two-evidence.json');
+const publishedMode=process.argv.includes('--published');
 const walk=(n,p)=>[...(p(n)?[n]:[]),...(n.childNodes||[]).flatMap(c=>walk(c,p))];
 const attr=(n,key)=>n.attrs?.find(a=>a.name===key)?.value;
 const text=n=>walk(n,n=>n.nodeName==='#text').map(n=>n.value).join('');
@@ -28,7 +29,7 @@ for(const item of batch){
     }else check(line.source_skus.length>0,line.id+' assigned SKU evidence');
   }
   for(const id of p.excludedLineIds)check(!chart.some(n=>attr(n,'data-chart-line')===id),id+' excluded');
-  check(!read('data/line-page-release.json').publishedProducts.includes(item.id),item.id+' remains review-only');
+  check(read('data/line-page-release.json').publishedProducts.includes(item.id)===publishedMode,item.id+(publishedMode?' is published':' remains review-only'));
 }
 const find=(model,lb)=>lines.find(l=>l.brand==='Sunline'&&l.model===model&&l.lb===lb);
 check(find('FC Sniper',8).dia_in===.0093,'FC Sniper 8 lb primary chart');
