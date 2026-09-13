@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Line Setup Copy Review</title>
+  <style>
+    body { margin: 16px; font: 14px Arial, sans-serif; background: #eee; color: #222; }
+    header { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+    select, button { min-height: 36px; }
+    iframe { display: block; width: 320px; height: 800px; border: 1px solid #bbb; background: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <label>Page <select id="page">
+      <option value="daiwa-j-braid-grand-x8">Grand X8 braid</option>
+      <option value="sunline-assassin-fc">Assassin fluorocarbon</option>
+      <option value="maxima-chameleon">Chameleon mono</option>
+      <option value="spro-finesse-fluorocarbon-leader">SPRO leader</option>
+    </select></label>
+    <label>Width <select id="width"><option>320</option><option>390</option><option>1200</option></select></label>
+    <button id="fit" type="button">Setup section</button>
+  </header>
+  <output id="metrics"></output>
+  <iframe id="preview" title="Line page preview"></iframe>
+  <script>
+    const frame = document.getElementById('preview');
+    const page = document.getElementById('page');
+    function loadPage() { frame.src = '../../examples/line-pages/' + page.value + '.html'; }
+    page.addEventListener('change', loadPage);
+    document.getElementById('width').addEventListener('change', event => { frame.style.width = event.target.value + 'px'; });
+    document.getElementById('fit').addEventListener('click', () => {
+      const headings = [...frame.contentDocument.querySelectorAll('h2')];
+      const heading = headings.find(item => /right for your setup/i.test(item.textContent));
+      if (heading) heading.scrollIntoView();
+      window.scrollTo(0, 0);
+      const d = frame.contentDocument;
+      document.getElementById('metrics').textContent = JSON.stringify({
+        width: d.documentElement.clientWidth,
+        scrollWidth: d.documentElement.scrollWidth,
+        brokenImages: [...d.images].filter(image => !image.complete || !image.naturalWidth).length
+      });
+    });
+    loadPage();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1159 @@
+{
+  "baseline": "120b20a",
+  "productsReviewed": 120,
+  "changedPages": 65,
+  "setupSectionsRewritten": 62,
+  "protectedSpecificationsAndCalculatorLogic": "unchanged",
+  "changes": [
+    {
+      "id": "seaguar-abrazx",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "AbrazX is a candidate for presentations where line contacts cover and you want fluorocarbon as the working main line. Its abrasion-focused positioning is not permission to ignore nicks or tighten the drag excessively. Check the line after contact with rough cover and retie when needed; allow spare working length for that maintenance when planning backing."
+      },
+      "after": {
+        "suitabilitySummary": "AbrazX is aimed at fluorocarbon main-line fishing around cover. It is worth considering when the working line regularly contacts vegetation or rough surfaces and you prefer a continuous fluorocarbon setup. Choose a diameter your reel handles comfortably, and leave enough working line for retying after contact with cover."
+      }
+    },
+    {
+      "id": "seaguar-red-label",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Red Label for a fluorocarbon main-line setup when cost and regular respooling are part of the decision. Match its diameter to the baitcaster, rod, and presentation before deciding on a full fill. If you are looking for a light spinning line, do not assume every fluorocarbon marketed for baitcasting will handle the same way as a softer main line."
+      },
+      "after": {
+        "suitabilitySummary": "Red Label is a fluorocarbon main-line option for anglers who replace working line regularly and want to keep spooling costs in mind. For a baitcaster, match the strength to the lure and cover. On a small spinning reel, pay particular attention to diameter and handling; a shorter fluorocarbon section over sound mono backing can reduce the amount used at each refill."
+      }
+    },
+    {
+      "id": "seaguar-smackdown",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "quickSummary": "Smackdown is an eight-strand braid. This guide uses Seaguar's current Stealth Gray diameter chart and assigned 150- and 300-yard variants. Select an exact strength to compare spool capacity and plan a braid working length over mono backing.",
+        "suitabilitySummary": "Smackdown makes sense to consider when braid is the line you want to cast and you will choose any leader separately. Stealth Gray is the lower-visibility color in the manufacturer's range. Diameter still matters for spool space and handling; the name or pound-test label alone does not establish how much your reel will hold."
+      },
+      "after": {
+        "quickSummary": "Smackdown is Seaguar's eight-strand braid for a low-stretch main-line setup. Compare the selected strength's diameter with your reel capacity, then plan a useful working length from a 150- or 300-yard package, with mono backing underneath if needed.",
+        "suitabilitySummary": "Smackdown is an eight-strand option for anglers who want a low-stretch braid main line with a separately chosen leader. Its thin diameters make working length and backing worth planning, particularly on deeper spinning spools. For a baitcaster, choose a manageable diameter and spool under steady tension to reduce the chance of the braid digging into the wraps below."
+      }
+    },
+    {
+      "id": "seaguar-brawlr",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "quickSummary": "BRAWLR is Seaguar's announced monofilament line, listed from 2 to 30 lb. Seaguar describes a temperature-controlled manufacturing process called PTD. This is a specification-based planning guide; a listing or capacity estimate does not establish retail availability or independent performance results.",
+        "suitabilitySummary": "Treat BRAWLR as a mono candidate to compare with other monofilament lines by actual diameter, not as a measured improvement over a line you already use. The manufacturer emphasizes strength and reduced stretch, but this guide has no independent BRAWLR test results. Check current availability and the label on the package you receive before finalizing a spool plan."
+      },
+      "after": {
+        "quickSummary": "BRAWLR is Seaguar's announced monofilament line, listed from 2 to 30 lb and made with its PTD temperature-controlled process. Compare the listed diameters with your reel capacity to plan a mono working fill. Check package availability before buying line for the setup.",
+        "suitabilitySummary": "BRAWLR belongs in a mono main-line comparison when you prefer a single continuous line from reel to lure. Start with a diameter that suits the reel and enough strength for the rod, lure and cover. For regular respooling, compare the package length with the amount needed for a full fill or a fresh working section over existing backing."
+      }
+    },
+    {
+      "id": "sunline-shooter",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Shooter is worth comparing when you want fluorocarbon main line and already know the demands of your presentation. The Power Special name does not make a thick line suitable for every reel. Check handling, lure weight, and cover before using the capacity result to decide how much to buy."
+      },
+      "after": {
+        "suitabilitySummary": "Shooter is a fluorocarbon main-line option for anglers matching a dedicated setup to a particular presentation. The heavier Power Special sizes call for suitable rod power, lure weight and spool size. Choose the strength for the fishing first, then check whether a full fill or a shorter working section over backing makes better use of the package."
+      }
+    },
+    {
+      "id": "sunline-assassin-fc",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Assassin FC for a fluorocarbon main-line setup where you want to compare diameter, handling needs, and package value. Sunline attributes surface benefits to P-Ion processing; this guide does not independently measure them. Choose a manageable diameter first, then decide on a full fill or a shorter section over backing."
+      },
+      "after": {
+        "suitabilitySummary": "Assassin FC is a 100% fluorocarbon main line with Sunline's P-Ion surface treatment. Consider it when you want to cast fluorocarbon directly and are choosing between a full fill and a fresh working section over backing. Match diameter to the reel, especially on compact spinning spools, and allow enough working line for your longest casts and regular retying."
+      }
+    },
+    {
+      "id": "sunline-xplasma-asegai",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Asegai when you want braided main line and can choose diameter for the actual tackle and cover. Sunline makes surface-treatment performance claims; the capacity numbers here do not measure those claims. They estimate spool space from the published diameter, with practical variation from winding and fill level still possible."
+      },
+      "after": {
+        "suitabilitySummary": "Asegai is an eight-strand braid option for anglers who want a low-stretch main line and will choose a leader for the presentation. Lighter diameters are worth considering for appropriately matched spinning tackle; heavier choices need the rod, lure and cover to justify them. Decide how much usable braid you need before filling the rest of a deep spool with backing."
+      }
+    },
+    {
+      "id": "sunline-shooter-machinegun-cast",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Machinegun Cast when a nylon main line fits your presentation and you want to compare its physical diameter before spooling. Sunline positions this version for repeated bass casting. That positioning is not a substitute for matching your rod, lure, cover, and reel to the chosen strength."
+      },
+      "after": {
+        "suitabilitySummary": "Machinegun Cast is Sunline's nylon main line for repeated bass casting. Consider it when you prefer mono's stretch and a continuous connection to the lure. Choose a strength that suits the bait and cover, then compare the line's diameter with your reel capacity so the working section leaves room for long casts and later trimming."
+      }
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "quickSummary": "Shooter BMS Azayaka FC is marked fluorocarbon main line. This guide covers the version launched in May 2026, with 80-meter and 320-meter packages. Its color sequence helps distinguish it from clear fluorocarbon and from the separate BMS Azayaka NY nylon product.",
+        "suitabilitySummary": "Consider BMS Azayaka FC when watching the working line is part of your fishing. The markings are a product feature, not a guarantee that every bite will be visible. Choose a diameter your reel can handle and a working length with enough reserve; an 80-meter spool may be shorter than the reel's full capacity."
+      },
+      "after": {
+        "quickSummary": "Shooter BMS Azayaka FC is fluorocarbon main line with contrasting markings for watching line movement. This guide covers the version launched in May 2026, with 80-meter and 320-meter packages. Choose a strength to compare diameter, reel capacity and working length.",
+        "suitabilitySummary": "BMS Azayaka FC is useful to consider when you watch the line for movement during a retrieve or pause. Its contrasting markings provide a visual reference while retaining a fluorocarbon main-line setup. Choose a diameter your reel manages comfortably and check the package length against your working-line needs, including spare line for retying."
+      }
+    },
+    {
+      "id": "berkley-ginclear",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider GINCLEAR when fluorocarbon fits your presentation and you want to compare a full fill with a shorter working section over backing. Berkley's handling claims do not make every diameter suitable for a small spinning spool. Match the tackle and fishing conditions before using the capacity number to choose a package."
+      },
+      "after": {
+        "suitabilitySummary": "GINCLEAR is a fluorocarbon main-line option for anglers choosing between a full fresh fill and a shorter working section over backing. On smaller spinning reels, start with a diameter that handles comfortably; heavier fluorocarbon is better evaluated on tackle suited to its size. Leave enough working line for the presentation and for trimming worn sections."
+      }
+    },
+    {
+      "id": "daiwa-j-braid-x4",
+      "fields": [
+        "construction",
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "construction": "Four-strand woven braid; US Dark Green specification set",
+        "quickSummary": "J-Braid X4 is Daiwa's four-strand mainline. This guide uses the US Dark Green SKUs, keeping their 150-, 300-, and 3,000-yard packages distinct from the metric packages and rounded labels sold elsewhere. The X4 chart is not the same as the X8 or Grand X8 chart.",
+        "suitabilitySummary": "Consider X4 when a four-carrier braid suits your setup and compare the exact diameter before choosing a spool. Carrier count describes construction; it does not certify abrasion performance in your conditions. Select strength around the tackle and cover, then use capacity to plan the amount."
+      },
+      "after": {
+        "construction": "Four-strand woven braid",
+        "quickSummary": "J-Braid X4 is Daiwa's four-strand braid main line, separate from J-Braid X8 and Grand X8. Compare its strength-specific diameters and available package lengths, then plan a full fill or a working section over backing for your reel.",
+        "suitabilitySummary": "J-Braid X4 is a four-strand option for a low-stretch braid main line. Choose the strength for your lure, cover and reel rather than simply picking the thinnest available size. If you use a leader, select it for the fishing conditions; use backing beneath the braid when the working length you need is shorter than the reel's full capacity."
+      }
+    },
+    {
+      "id": "daiwa-j-braid-grand-x8",
+      "fields": [
+        "construction",
+        "quickSummary",
+        "suitabilitySummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "faqs",
+        "chartNote",
+        "sourceNote"
+      ],
+      "before": {
+        "construction": "Eight-carrier IZANAS braid; US Gray Light SKUs",
+        "quickSummary": "J-Braid Grand X8 is Daiwa's eight-carrier IZANAS mainline. This guide is anchored to the US Gray Light specification set, whose SKU rows explicitly identify pound test, diameter, and package length. It is separate from standard J-Braid X8 and the newer Expedition line.",
+        "suitabilitySummary": "Consider Grand X8 when an eight-carrier braid fits your casting or mainline needs. The Gray Light color and listed diameters help identify this version; they do not promise a measured casting-distance or abrasion advantage. Match the strength to the tackle before comparing capacity.",
+        "strengthGuide": [
+          "The 20 lb row is .009 inch / .23 mm; 30 lb is .011 inch / .28 mm. Moving up in strength uses more spool space even within the same Grand X8 family.",
+          "The verified Gray Light range here starts at 8 lb. The listed 6 lb pair, .003 inch and .10 mm, is held for clarification rather than passed through as a coherent pair.",
+          "At the heavy end, 100 and 120 lb are verified in 3,000-yard bulk spools; the 150 lb row is 2,500 yards. Package length cannot be copied across the entire strength range."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Filler lengths vary by strength",
+            "text": "The verified 8-65 lb Gray Light rows include 150- and 300-yard fillers plus 3,000-yard bulk. The 80 lb entry has 300 and 3,000 yards; heavier sizes follow their own package rows."
+          },
+          {
+            "title": "Check Gray Light on the SKU",
+            "text": "This evidence set ends in GL. Other colors have gaps or conflicting cells in the live sheet, so their missing specifications are not filled from these rows."
+          },
+          {
+            "title": "Do not equate full capacity with a working fill",
+            "text": "Bulk supplies can serve several reels. Decide how much usable braid and reserve you need, then calculate backing for the remaining volume."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Grand X8 standard J-Braid X8?",
+            "answer": "No. Grand is a separate eight-carrier product, and this page uses its own US Gray Light SKU set."
+          },
+          {
+            "question": "Does every strength come in 150 yards?",
+            "answer": "No. The verified Gray Light 150-yard range here ends at 65 lb. Use the package attached to the selected strength."
+          },
+          {
+            "question": "Why choose one color for evidence?",
+            "answer": "It preserves exact SKU context. Missing or conflicting cells in another color are not permission to assume that color has identical specifications."
+          }
+        ],
+        "chartNote": "US Gray Light only. Manufacturer-published inch/mm pairs; 6lb withheld. Strength-specific filler and bulk lengths retained, including 2500yd at 150lb.",
+        "sourceNote": "Checked 2026-09-13. Product-linked Daiwa LINES sheet and Gray Light product identity. Other-color missing labels and Dark Green 100lb diameter conflict are documented separately."
+      },
+      "after": {
+        "construction": "Eight-strand IZANAS braid",
+        "quickSummary": "J-Braid Grand X8 is Daiwa's supple, eight-strand IZANAS braid. It is a separate product from standard J-Braid X8 and Expedition. Choose a strength below to compare its diameter, estimate how much your reel holds and plan a working braid section with or without backing.",
+        "suitabilitySummary": "J-Braid Grand X8 is worth considering when you want a supple, eight-strand braid as your main line on spinning or baitcasting tackle. Start with a strength that suits your rod, lure and cover; on a baitcaster, avoid choosing an extremely thin diameter just to gain capacity. Add a leader if the presentation calls for one, then use ReelCalc to plan enough braid for casting, fish runs and retying, with backing underneath if needed.",
+        "strengthGuide": [
+          "The 20 lb row is .009 inch / .23 mm; 30 lb is .011 inch / .28 mm. Moving up in strength uses more spool space even within the same Grand X8 family.",
+          "The chart starts at 8 lb. The manufacturer's 6 lb inch and millimeter figures need clarification, so that size is not used in these estimates.",
+          "At the heavy end, 100 and 120 lb are verified in 3,000-yard bulk spools; the 150 lb row is 2,500 yards. Package length cannot be copied across the entire strength range."
+        ],
+        "spoolingGuide": [
+          {
+            "title": "Filler lengths vary by strength",
+            "text": "The chart lists 150- and 300-yard fillers plus 3,000-yard bulk for 8-65 lb. The 80 lb entry has 300 and 3,000 yards; check the selected strength for its available package lengths."
+          },
+          {
+            "title": "Secure the braid before filling",
+            "text": "Follow the reel maker's braid-attachment instructions. On a smooth arbor, a mono base can provide grip; additional backing can fill the space beneath your chosen working length."
+          },
+          {
+            "title": "Plan the braid you will actually fish",
+            "text": "Allow enough braid for your longest casts or deployments, fish runs and retying. A bulk spool can supply several reels; use backing for the remaining space below each planned working section."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "Is Grand X8 standard J-Braid X8?",
+            "answer": "No. Grand X8 uses Daiwa's eight-strand IZANAS construction and has its own diameter chart. Use the Grand X8 entry for your selected strength rather than substituting standard J-Braid X8 specifications."
+          },
+          {
+            "question": "Does every strength come in 150 yards?",
+            "answer": "No. The 150-yard options in this chart end at 65 lb. Check the package lengths shown for your selected strength before planning a full fill or a shorter working section."
+          },
+          {
+            "question": "Should I fill the reel entirely with Grand X8?",
+            "answer": "Use enough braid for the fishing you plan, including long casts or deployments, fish runs and trimming. If that is less than the full-spool estimate, mono backing can fill the space underneath. Follow the reel maker's attachment and fill-level guidance."
+          }
+        ],
+        "chartNote": "Specifications below cover Daiwa's US Gray Light range. Check the diameter and package length on your spool if you have another version. The 6 lb entry is omitted pending clarification of its diameter figures.",
+        "sourceNote": "Checked 2026-09-13 against Daiwa's product-linked LINES specification sheet. The selected US range has complete matching specification rows. Missing or conflicting entries for other colors, including the Dark Green 100 lb diameter, have not been substituted into this chart."
+      }
+    },
+    {
+      "id": "seaguar-basix",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "quickSummary": "BasiX is Seaguar's value-positioned 100% fluorocarbon mainline. The current US assigned SKUs use 200-yard spools through 15 lb and a 175-yard spool at 20 lb. The option menu alone is not the package catalog: combinations without a real SKU are excluded from this guide.",
+        "suitabilitySummary": "Consider BasiX for a fluorocarbon working fill when package amount and diameter fit your reel. Price positioning does not establish the same handling as another Seaguar line. Compare the actual diameter, particularly before putting a heavier strength on a small spinning spool."
+      },
+      "after": {
+        "quickSummary": "BasiX is Seaguar's value-positioned 100% fluorocarbon main line. The US range covered here uses 200-yard spools through 15 lb and a 175-yard spool at 20 lb. Compare the selected diameter with your reel to plan a full fill or a fresh working section over backing.",
+        "suitabilitySummary": "BasiX is a straightforward fluorocarbon main-line option when regular respooling and package cost matter. Choose a manageable diameter for the reel, particularly for a small spinning setup. A full fill keeps the line continuous; a shorter fresh section over sound backing uses less fluorocarbon while retaining the working length you need."
+      }
+    },
+    {
+      "id": "sunline-crank-fc",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Crank FC when fluorocarbon suits your crankbait, jerkbait, or other reaction-lure setup. Its intended cushioning is a design claim, not a measured stretch result here. Diameter and usable casting reserve still matter when selecting a strength for a particular reel."
+      },
+      "after": {
+        "suitabilitySummary": "Crank FC is Sunline's fluorocarbon option for crankbaits, jerkbaits and other reaction-lure presentations. Consider it when you want fluorocarbon throughout the line you cast. Match the strength and diameter to the lure, rod and cover, and keep enough working line above any backing connection for long casts and repeated retying."
+      }
+    },
+    {
+      "id": "xbraid-x9-fulldrag-braid",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Fulldrag when you want a multicolor braided mainline and a clearly identified working length. The core is a construction feature, not evidence that line can never flatten or fail. For offshore use, plan depth, current-induced line angle, fish runs, and retying reserve before choosing backing."
+      },
+      "after": {
+        "suitabilitySummary": "X9 Fulldrag is a nine-strand, multicolor main line to consider when tracking line paid out is useful to your fishing. For offshore work, plan enough braid for the intended depth, the extra line used in current and fish runs. Its larger packages can support several fills; use backing only beneath the working length and reserve your setup needs."
+      }
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-ny",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider this line when watching a marked nylon mainline is part of your reaction-bait or topwater presentation. The visibility system is a product feature; it cannot guarantee bite detection. Plan the relatively short package against casting distance and future trimming before deciding on backing."
+      },
+      "after": {
+        "suitabilitySummary": "BMS Azayaka NY combines a nylon main line with contrasting markings for anglers who watch the line during reaction-bait or topwater presentations. Its 80-meter package makes working length an important part of the choice. Check that it covers the casts you make, a fish taking line and future trimming before using backing to complete the fill."
+      }
+    },
+    {
+      "id": "sufix-promix-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "ProMix Braid suits an angler comparing a general-purpose braid for fresh or salt water who wants to plan a practical working fill. Sufix emphasizes color retention, but that is not a measured service-life promise from ReelCalc. Choose a visible or subdued color for your own line-watching needs and check the package offered in that exact strength and color.",
+        "bestFit": "ProMix Braid suits an angler comparing a general-purpose braid for fresh or salt water who wants to plan a practical working fill. Sufix emphasizes color retention, but that is not a measured service-life promise from ReelCalc. Choose a visible or subdued color for your own line-watching needs and check the package offered in that exact strength and color."
+      },
+      "after": {
+        "suitabilitySummary": "ProMix Braid is a general-purpose braid option for freshwater or saltwater setups. Choose a diameter and strength that suit the reel and presentation, then plan the working length above any backing. A visible color can be useful when watching the line, but the main setup decisions are the tackle match, any leader and the reserve needed while fishing.",
+        "bestFit": "ProMix Braid is a general-purpose braid option for freshwater or saltwater setups. Choose a diameter and strength that suit the reel and presentation, then plan the working length above any backing. A visible color can be useful when watching the line, but the main setup decisions are the tackle match, any leader and the reserve needed while fishing."
+      }
+    },
+    {
+      "id": "gamma-edge-fluorocarbon",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Edge for a full fluorocarbon setup when you want more strength choices than the finesse-only Touch range. At 0.012 inch, the 10 lb Edge is materially thicker than 9 lb Touch at 0.0105 inch; the nearby strength labels do not make them interchangeable on a small spinning spool. Gamma emphasizes castability and shock resistance, but those are manufacturer claims rather than comparative ReelCalc tests.",
+        "bestFit": "Consider Edge for a full fluorocarbon setup when you want more strength choices than the finesse-only Touch range. At 0.012 inch, the 10 lb Edge is materially thicker than 9 lb Touch at 0.0105 inch; the nearby strength labels do not make them interchangeable on a small spinning spool. Gamma emphasizes castability and shock resistance, but those are manufacturer claims rather than comparative ReelCalc tests."
+      },
+      "after": {
+        "suitabilitySummary": "Edge is Gamma's broader-strength fluorocarbon main-line option, compared with the lighter Touch range. It is worth considering when your presentation or cover calls for a heavier fluorocarbon setup. Check diameter carefully on smaller reels: 10 lb Edge is 0.012 inch, while 9 lb Touch is 0.0105 inch, so those nearby test labels occupy different amounts of spool space.",
+        "bestFit": "Edge is Gamma's broader-strength fluorocarbon main-line option, compared with the lighter Touch range. It is worth considering when your presentation or cover calls for a heavier fluorocarbon setup. Check diameter carefully on smaller reels: 10 lb Edge is 0.012 inch, while 9 lb Touch is 0.0105 inch, so those nearby test labels occupy different amounts of spool space."
+      }
+    },
+    {
+      "id": "cast-fishing-co-x12-frog-flip-braid",
+      "fields": [
+        "bestFit"
+      ],
+      "before": {
+        "bestFit": "The manufacturer targets pads, reeds, mats and other vegetation where heavy-cover presentations dictate the tackle. The camo color and coating are features of this model, not evidence that fish cannot see the line."
+      },
+      "after": {
+        "bestFit": "X12 Frog & Flip is aimed at fishing pads, reeds, mats and other vegetation. Choose the rod, hook and reel for that heavy-cover work, then check the braid's diameter and working length before spooling."
+      }
+    },
+    {
+      "id": "rhino-hide-camo-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "The green and orange camo versions give different above-water visibility choices within the same checked strength range. Rhino positions the braid for heavy cover, but a 10 lb option and a 50 lb option should not be treated as interchangeable cover tools. Match the test to the rod, lure and fishing before estimating how much of the 200-yard package to use.",
+        "bestFit": "A mainline option for anglers who want the Rhino camo pattern and a 200-yard retail package. Manufacturer heavy-cover positioning does not remove the need to size the complete tackle system."
+      },
+      "after": {
+        "suitabilitySummary": "Rhino Hide Camo Braid is a main-line option to consider for cover-oriented fishing with appropriately matched tackle. Its 10-50 lb range includes substantially different setup choices: select the strength for the lure, rod and cover, then plan how much of the 200-yard package you need above any backing. Leave reserve for retying after contact with cover.",
+        "bestFit": "A braid main-line option for cover-oriented setups. Match the strength to the rod, lure and cover, then plan a working section and reserve from the 200-yard package."
+      }
+    },
+    {
+      "id": "rhino-hide-camo-monofilament",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "quickSummary": "Rhino Hide Camo Monofilament is Zebco's Green Camo mono in 330-yard filler spools, with checked options from 6 to 30 lb. It is distinct from the 200-yard Rhino Hide braid.",
+        "suitabilitySummary": "Choose Rhino Hide mono when a single-strand mainline suits the presentation and you want the Green Camo offering. Test and diameter need to suit the reel as well as the fishing: the 30 lb option is more than twice the listed inch diameter of the 6 lb option. A line fitting by volume does not establish comfortable handling on a small spinning spool.",
+        "bestFit": "A full mono fill can keep the system simple without a separate braid-to-leader connection. The Green Camo treatment is a product feature, not a guarantee of invisible line."
+      },
+      "after": {
+        "quickSummary": "Rhino Hide Camo Monofilament is Zebco's mono main line in 330-yard filler spools, with options from 6 to 30 lb in this chart. Choose a strength to compare its diameter and full-spool amount; the 200-yard Rhino Hide braid is a separate product.",
+        "suitabilitySummary": "Rhino Hide Camo Mono is a single-strand option when you prefer mono's stretch and a continuous main line. The lighter sizes are easier to evaluate for smaller spinning setups; heavier sizes need a reel and presentation that can handle their diameter. Compare the 330-yard package with your planned fill before deciding whether to use it all or retain some for a later refill.",
+        "bestFit": "A full mono fill keeps a continuous line from the reel to the lure. Choose a diameter that handles comfortably on the spool and a strength that suits the presentation and cover."
+      }
+    },
+    {
+      "id": "berkley-x5-braid",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "X5 can be considered for braid applications around vegetation and cover where the line strength, lure, and tackle are matched to the job. A cover-focused description does not make every X5 strength a heavy-cover recommendation. The lightest diameters still require a suitable reel and careful line handling."
+      },
+      "after": {
+        "suitabilitySummary": "X5 is worth considering for a braid main line when fishing around vegetation and cover. Choose the test for the lure, rod power and cover you expect to encounter. Lighter sizes still need a carefully matched reel and steady spooling tension; keep enough working braid for retying worn sections instead of using all spare spool space as backing."
+      }
+    },
+    {
+      "id": "daiwa-j-fluoro-samurai",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "The verified light strengths suit a comparison for light-tackle fluorocarbon working fills. Consider your reel, target and knot requirements before selecting a diameter. The marker on a filler spool helps identify supplied line remaining, but does not measure the amount already wound onto an arbitrary reel."
+      },
+      "after": {
+        "suitabilitySummary": "J-Fluoro Samurai is a fluorocarbon main-line option for anglers planning a light-tackle working fill. Choose a diameter the reel handles comfortably and a strength suited to the rig and cover. A fresh working section over sound backing can make practical use of a filler spool, provided enough fluorocarbon remains for casts, fish runs and later trimming."
+      }
+    },
+    {
+      "id": "shimano-mastiff-fc",
+      "fields": [
+        "construction",
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "construction": "100% fluorocarbon; NANOARMOR surface structure; Shimano pt-BR 90m scope",
+        "quickSummary": "Mastiff FC is Shimano's NANOARMOR fluorocarbon. This guide covers MASTIFF FC 90m with exact numeric SKU and japanAdminCode values, as documented on Shimano's Brazilian product page. It does not silently combine that package with US 200-yard stock.",
+        "suitabilitySummary": "Consider this version when you are buying a 90-meter Mastiff FC package for a fluorocarbon working fill. Shimano describes the surface structure as a knot-retention feature; it is not a guarantee against knot failure. A short imported spool needs a deliberate reserve and backing plan."
+      },
+      "after": {
+        "construction": "100% fluorocarbon with NANOARMOR surface structure",
+        "quickSummary": "Mastiff FC is Shimano's NANOARMOR fluorocarbon main line. This guide covers the 90-meter version listed by Shimano Brazil, not the US 200-yard packages. Compare its diameter with your reel capacity and plan a working length with enough reserve before adding backing.",
+        "suitabilitySummary": "Mastiff FC is a fluorocarbon main-line option with Shimano's NANOARMOR surface structure. The 90-meter package covered here needs a deliberate working-length plan: check that it leaves enough line for your casts, fish runs and retying. Use backing beneath that working section if the reel holds more, or choose a longer supply when the fishing requires it."
+      }
+    },
+    {
+      "id": "shimano-kairiki-8",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider this bulk version when you maintain several reels or need repeat fills from one supply. A multicolor mainline can help track paid-out line, while Mantis Green provides a single-color choice. Carrier count and coating descriptions are not a substitute for matching strength, reserve and reel capacity to your fishing."
+      },
+      "after": {
+        "suitabilitySummary": "Kairiki 8 is an eight-strand braid to consider when you maintain several reels or want repeated fills from one supply. The 3,000-meter bulk packages covered here make most sense when divided into planned working lengths. Choose the strength for each setup and keep enough braid above the backing connection for fishing and later trimming."
+      }
+    },
+    {
+      "id": "shimano-kairiki-4",
+      "fields": [
+        "construction",
+        "quickSummary",
+        "suitabilitySummary"
+      ],
+      "before": {
+        "construction": "Four-carrier PE braid; VT Construction Method; European SKU set",
+        "quickSummary": "Kairiki 4 is Shimano's four-carrier PE braid with VT Construction. This guide uses the European table that explicitly supplies SKU, metric diameter, spool length, and pound values. Those published labels are kept intact rather than replaced by the higher kilogram figures appearing in some product titles.",
+        "suitabilitySummary": "Consider Kairiki 4 when a four-carrier mainline and its available diameters fit your tackle. The 150-, 300-, and 3,000-meter packages are not equivalent yard labels. Compare the physical diameter and usable reserve before deciding which spool to divide among reels."
+      },
+      "after": {
+        "construction": "Four-strand PE braid with VT Construction",
+        "quickSummary": "Kairiki 4 is Shimano's four-strand PE braid with VT Construction. This guide covers the European range, with package lengths listed in meters. Compare the selected diameter, choose a useful working length and calculate the backing needed underneath it.",
+        "suitabilitySummary": "Kairiki 4 is a four-strand braid main line available in filler and bulk lengths. Consider the smaller packages for an individual reel and the bulk supply for repeated fills. Choose strength for the tackle and cover, then use the listed diameter to check the working length and backing needed; the package lengths in this guide are specified in meters."
+      }
+    },
+    {
+      "id": "shimano-grappler-8",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider Grappler 8 when you want a multicolor mainline for tracking line paid out during jigging or casting. Shimano specifies VT Construction and a heat-management coating. The specifications do not establish a guaranteed breaking load or measured casting advantage for a particular setup."
+      },
+      "after": {
+        "suitabilitySummary": "Grappler 8 is a multicolor, eight-strand main line for casting and jigging. The changing colors provide a reference for how much line you have let out, which is useful when repeating a drift or fishing a depth range. Allow additional working line for current, line angle and fish runs before deciding how much backing belongs underneath."
+      }
+    },
+    {
+      "id": "spro-finesse-braid-8x",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "quickSummary": "Finesse Braid 8X is SPRO's 6-16 lb finesse braid in 150 m packages, labeled 164 yards. Lime Green and Flash Pink are separate color variants. The diameter chart here is read from the actual Lime Green package labels, not calculated from their numbered line-size labels.",
+        "suitabilitySummary": "This is a finesse-oriented mainline for anglers who want braid on a lighter setup and may add a short leader. SPRO emphasizes limp handling and offers a visible Lime Green color. The very thin 6 lb size can yield a high mathematical capacity on an ordinary spinning reel, making a planned working section and backing more useful than an automatic full-braid fill.",
+        "bestFit": "This is a finesse-oriented mainline for anglers who want braid on a lighter setup and may add a short leader. SPRO emphasizes limp handling and offers a visible Lime Green color. The very thin 6 lb size can yield a high mathematical capacity on an ordinary spinning reel, making a planned working section and backing more useful than an automatic full-braid fill."
+      },
+      "after": {
+        "quickSummary": "Finesse Braid 8X is SPRO's eight-strand braid for light-line presentations. The 6-16 lb options covered here come in 150-meter packages, labeled 164 yards. Compare the selected diameter with your reel to plan a working braid section and any backing.",
+        "suitabilitySummary": "Finesse Braid 8X is SPRO's lighter braid option for finesse presentations, with a leader chosen separately for the rig. Its thin 6-16 lb sizes can leave substantial spare space on a spinning spool. Plan a useful working section and backing rather than filling entirely with braid, and choose strength for the hook, cover and fish you expect.",
+        "bestFit": "Finesse Braid 8X is SPRO's lighter braid option for finesse presentations, with a leader chosen separately for the rig. Its thin 6-16 lb sizes can leave substantial spare space on a spinning spool. Plan a useful working section and backing rather than filling entirely with braid, and choose strength for the hook, cover and fish you expect."
+      }
+    },
+    {
+      "id": "spro-gouken-flc",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Gouken is a full-mainline option for an angler considering fluorocarbon around cover. SPRO emphasizes toughness, but ReelCalc has not measured abrasion life. The smaller package is 150 m, not 150 yards. Check the real fill need before choosing it, especially when planning a long working section on a larger reel.",
+        "bestFit": "Gouken is a full-mainline option for an angler considering fluorocarbon around cover. SPRO emphasizes toughness, but ReelCalc has not measured abrasion life. The smaller package is 150 m, not 150 yards. Check the real fill need before choosing it, especially when planning a long working section on a larger reel."
+      },
+      "after": {
+        "suitabilitySummary": "Gouken is a fluorocarbon main-line option for anglers fishing around cover. Select a manageable diameter for the reel and enough working line to allow retying after the line contacts rough surfaces. Its smaller package holds 150 meters, so compare the available length with your full-spool estimate before choosing a full fill or using backing.",
+        "bestFit": "Gouken is a fluorocarbon main-line option for anglers fishing around cover. Select a manageable diameter for the reel and enough working line to allow retying after the line contacts rough surfaces. Its smaller package holds 150 meters, so compare the available length with your full-spool estimate before choosing a full fill or using backing."
+      }
+    },
+    {
+      "id": "yo-zuri-t-7-premium-fluorocarbon",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "T7 is a candidate when fluorocarbon will form the actual working fill on spinning or casting tackle. Its printed diameter table is the same as the reviewed TopKnot MainLine table at these strengths, but that does not prove the same formulation or handling. Compare package needs, rod suitability and the intended presentation rather than assigning a capacity benefit to the premium label.",
+        "bestFit": "T7 is a candidate when fluorocarbon will form the actual working fill on spinning or casting tackle. Its printed diameter table is the same as the reviewed TopKnot MainLine table at these strengths, but that does not prove the same formulation or handling. Compare package needs, rod suitability and the intended presentation rather than assigning a capacity benefit to the premium label."
+      },
+      "after": {
+        "suitabilitySummary": "T7 is a fluorocarbon main-line option for appropriately matched spinning or casting tackle. Consider a full fill when you want one continuous line, or a shorter fresh working section over sound backing for regular respooling. Choose strength for the lure and cover, with particular attention to how thicker fluorocarbon handles on a small spinning reel.",
+        "bestFit": "T7 is a fluorocarbon main-line option for appropriately matched spinning or casting tackle. Consider a full fill when you want one continuous line, or a shorter fresh working section over sound backing for regular respooling. Choose strength for the lure and cover, with particular attention to how thicker fluorocarbon handles on a small spinning reel."
+      }
+    },
+    {
+      "id": "yo-zuri-superbraid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Original SuperBraid is a candidate for a braid working line on suitable spinning or casting tackle. Its construction changes across the strength range, so calling every size an eight-strand line would be inaccurate. Pick the diameter and working supply for the reel, then choose any leader or backing for their separate roles.",
+        "bestFit": "Original SuperBraid is a candidate for a braid working line on suitable spinning or casting tackle. Its construction changes across the strength range, so calling every size an eight-strand line would be inaccurate. Pick the diameter and working supply for the reel, then choose any leader or backing for their separate roles."
+      },
+      "after": {
+        "suitabilitySummary": "Original SuperBraid is a low-stretch main-line option for spinning or casting setups. The lighter and heavier sizes have different diameters and strand counts, so select a strength for your own tackle and fishing. Choose any leader separately, and use the capacity estimate to plan the working braid and backing underneath it.",
+        "bestFit": "Original SuperBraid is a low-stretch main-line option for spinning or casting setups. The lighter and heavier sizes have different diameters and strand counts, so select a strength for your own tackle and fishing. Choose any leader separately, and use the capacity estimate to plan the working braid and backing underneath it."
+      }
+    },
+    {
+      "id": "spiderwire-ultracast-braid",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Consider this 8 lb variant only where the rod, lure and fishing conditions suit light braid. A spinning-reel setup with a deliberately chosen working length is a sensible planning example. Inshore Camo is a color name, not proof that this strength suits every inshore fishery. The unusually small published diameter makes backing calculations sensitive to the label and to real-world packing, so finish by checking the reel's recommended fill level."
+      },
+      "after": {
+        "suitabilitySummary": "The 8 lb Ultracast option covered here belongs on appropriately matched light tackle, with spinning gear a useful starting point. Its very small listed diameter can leave plenty of spare capacity even on a compact reel. Plan a working section with reserve for fish runs and trimming, then add backing as needed and finish at the reel maker's recommended fill level."
+      }
+    },
+    {
+      "id": "cortland-master-braid",
+      "fields": [
+        "quickSummary",
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "quickSummary": "Cortland Master Braid changes construction with strength: the official chart uses four carriers through 40 lb, six at 50-65 lb, eight at 80 lb and twelve at 100-200 lb. This package evidence covers the White color only, not Premium Metered or discontinued-color stock.",
+        "suitabilitySummary": "Master Braid is a useful comparison for spinning, baitcasting or conventional setups, all of which Cortland includes in its positioning. The current white version prioritizes visible line tracking. Its carrier count and diameter both depend on the selected strength, so describing every Master Braid as an eight-carrier line would misrepresent the product.",
+        "bestFit": "Master Braid is a useful comparison for spinning, baitcasting or conventional setups, all of which Cortland includes in its positioning. The current white version prioritizes visible line tracking. Its carrier count and diameter both depend on the selected strength, so describing every Master Braid as an eight-carrier line would misrepresent the product."
+      },
+      "after": {
+        "quickSummary": "Cortland Master Braid changes construction with strength: four carriers through 40 lb, six at 50-65 lb, eight at 80 lb and twelve at 100-200 lb. Use the selected strength's own diameter and package length to plan the working braid and backing for your reel.",
+        "suitabilitySummary": "Master Braid spans light through heavy main-line setups, with construction changing across its strength range. Choose a diameter and test for the reel and the fishing rather than treating the entire range as one type of setup. For repeated spooling, divide larger packages into working lengths with enough reserve for fish runs and retying.",
+        "bestFit": "Master Braid spans light through heavy main-line setups, with construction changing across its strength range. Choose a diameter and test for the reel and the fishing rather than treating the entire range as one type of setup. For repeated spooling, divide larger packages into working lengths with enough reserve for fish runs and retying."
+      }
+    },
+    {
+      "id": "cortland-fluorocarbon-leader",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Use the ordinary Fluorocarbon Leader Material identity when choosing a bite or terminal section. It is not the XTR formulation or the X-rated Ultra Premium tippet system. Current sale-feed variants are limited, but the product's complete size/length chart remains evidence of the documented range, not a live-stock promise.",
+        "bestFit": "Use the ordinary Fluorocarbon Leader Material identity when choosing a bite or terminal section. It is not the XTR formulation or the X-rated Ultra Premium tippet system. Current sale-feed variants are limited, but the product's complete size/length chart remains evidence of the documented range, not a live-stock promise."
+      },
+      "after": {
+        "suitabilitySummary": "Cortland Fluorocarbon Leader Material is for the replaceable section between your main line and lure, bait or fly. Choose the diameter for the presentation, cover and connection knot. Plan the package around the number of leaders you expect to tie and replace; use the actual main line, rather than the short leader, to calculate reel capacity.",
+        "bestFit": "Cortland Fluorocarbon Leader Material is for the replaceable section between your main line and lure, bait or fly. Choose the diameter for the presentation, cover and connection knot. Plan the package around the number of leaders you expect to tie and replace; use the actual main line, rather than the short leader, to calculate reel capacity."
+      }
+    },
+    {
+      "id": "gamma-touch-fluorocarbon",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Touch is the relevant Gamma option when small-diameter fluorocarbon and finesse presentations drive the choice. It stops at 9 lb rather than extending into Edge's heavier strengths. That narrower range can simplify a light spinning setup, but using the thinnest option only to increase capacity can leave too little margin for cover and drag. Gamma's sensitivity and flexibility claims are not independent test results.",
+        "bestFit": "Touch is the relevant Gamma option when small-diameter fluorocarbon and finesse presentations drive the choice. It stops at 9 lb rather than extending into Edge's heavier strengths. That narrower range can simplify a light spinning setup, but using the thinnest option only to increase capacity can leave too little margin for cover and drag. Gamma's sensitivity and flexibility claims are not independent test results."
+      },
+      "after": {
+        "suitabilitySummary": "Touch is Gamma's light fluorocarbon option for finesse presentations, with strengths extending to 9 lb. Consider it for a small-diameter working line on suitably matched light tackle. Choose enough strength for the rig and cover, then plan a working section with spare line for retying; use backing if a full fresh fluorocarbon fill would use more line than you need.",
+        "bestFit": "Touch is Gamma's light fluorocarbon option for finesse presentations, with strengths extending to 9 lb. Consider it for a small-diameter working line on suitably matched light tackle. Choose enough strength for the rig and cover, then plan a working section with spare line for retying; use backing if a full fresh fluorocarbon fill would use more line than you need."
+      }
+    },
+    {
+      "id": "gamma-torque-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Torque is worth comparing when you want a braid main line and can plan multiple fills or a longer working section from a bulk spool. Do not read the catalog's 600-yard table as a requirement to put 600 yards on a small reel. The current filler listing embeds bulk-table SKUs, so this page uses the remaining table-linked bulk variants and excludes the conflicting pictured 6-lb strength.",
+        "bestFit": "Torque is worth comparing when you want a braid main line and can plan multiple fills or a longer working section from a bulk spool. Do not read the catalog's 600-yard table as a requirement to put 600 yards on a small reel. The current filler listing embeds bulk-table SKUs, so this page uses the remaining table-linked bulk variants and excludes the conflicting pictured 6-lb strength."
+      },
+      "after": {
+        "suitabilitySummary": "Torque is a braid main-line option for anglers who want a longer working section or repeated fills from a bulk supply. Choose the strength for the tackle and the amount for your longest casts or deployments, fish runs and trimming. The bulk package can serve several reels when working lengths and any backing are planned separately.",
+        "bestFit": "Torque is a braid main-line option for anglers who want a longer working section or repeated fills from a bulk supply. Choose the strength for the tackle and the amount for your longest casts or deployments, fish runs and trimming. The bulk package can serve several reels when working lengths and any backing are planned separately."
+      }
+    },
+    {
+      "id": "gamma-polyflex",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Polyflex suits anglers comparing a continuous mono-style main line with Gamma's fluorocarbon and braid options. The key purchase detail is that a filler is not always 330 yards: the source drops to 300 yards at 10 lb, 275 at 20 lb, and still shorter lengths above that. The optical-yellow Panfish product has its own positioning and is not silently merged into this Ultra Clear evidence set.",
+        "bestFit": "Polyflex suits anglers comparing a continuous mono-style main line with Gamma's fluorocarbon and braid options. The key purchase detail is that a filler is not always 330 yards: the source drops to 300 yards at 10 lb, 275 at 20 lb, and still shorter lengths above that. The optical-yellow Panfish product has its own positioning and is not silently merged into this Ultra Clear evidence set."
+      },
+      "after": {
+        "suitabilitySummary": "Polyflex is a mono-style main-line option when you prefer a continuous line from reel to lure. Check the diameter for your reel and compare the package length with the fill you need. Filler lengths decrease at heavier strengths, so a spool bought for a heavier setup may supply fewer refills than one bought for lighter tackle.",
+        "bestFit": "Polyflex is a mono-style main-line option when you prefer a continuous line from reel to lure. Check the diameter for your reel and compare the package length with the fill you need. Filler lengths decrease at heavier strengths, so a spool bought for a heavier setup may supply fewer refills than one bought for lighter tackle."
+      }
+    },
+    {
+      "id": "maxima-ultragreen",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Ultragreen is a candidate for a green mono main line across a broad range of strengths. Maxima emphasizes toughness and abrasion resistance, but that does not make the smallest diameter safe in heavy cover or the largest diameter pleasant on a compact spinning reel. Package names need attention: Mini Pack, One Shot, Maxi and Service describe families whose actual lengths vary by strength.",
+        "bestFit": "Ultragreen is a candidate for a green mono main line across a broad range of strengths. Maxima emphasizes toughness and abrasion resistance, but that does not make the smallest diameter safe in heavy cover or the largest diameter pleasant on a compact spinning reel. Package names need attention: Mini Pack, One Shot, Maxi and Service describe families whose actual lengths vary by strength."
+      },
+      "after": {
+        "suitabilitySummary": "Ultragreen is a monofilament option for anglers who want mono's stretch and a continuous working line. Its broad strength range covers very different tackle sizes, so match diameter to the reel as well as strength to the lure and cover. Check the actual yardage of the selected package when planning one fill or several refills.",
+        "bestFit": "Ultragreen is a monofilament option for anglers who want mono's stretch and a continuous working line. Its broad strength range covers very different tackle sizes, so match diameter to the reel as well as strength to the lure and cover. Check the actual yardage of the selected package when planning one fill or several refills."
+      }
+    },
+    {
+      "id": "maxima-chameleon",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Chameleon deserves comparison when Maxima's color-changing positioning is relevant to your water. That claim does not establish invisibility in every condition or superior strength to Ultragreen. The useful setup decision is still the offered strength and physical diameter: a 10 lb Chameleon fill uses the published 0.012-inch figure, not a generic 10 lb mono estimate.",
+        "bestFit": "Chameleon deserves comparison when Maxima's color-changing positioning is relevant to your water. That claim does not establish invisibility in every condition or superior strength to Ultragreen. The useful setup decision is still the offered strength and physical diameter: a 10 lb Chameleon fill uses the published 0.012-inch figure, not a generic 10 lb mono estimate."
+      },
+      "after": {
+        "suitabilitySummary": "Chameleon is worth considering for a mono main line when you prefer stretch and a straightforward reel-to-lure connection. Choose the strength for the presentation and contact with cover, then check the diameter against your reel. For example, the listed 10 lb size is 0.012 inch; that exact dimension determines the fill estimate.",
+        "bestFit": "Chameleon is worth considering for a mono main line when you prefer stretch and a straightforward reel-to-lure connection. Choose the strength for the presentation and contact with cover, then check the diameter against your reel. For example, the listed 10 lb size is 0.012 inch; that exact dimension determines the fill estimate."
+      }
+    },
+    {
+      "id": "maxima-crystal-ivory",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit",
+        "faqs"
+      ],
+      "before": {
+        "suitabilitySummary": "Crystal Ivory is relevant when watching the line is part of your fishing, particularly the casting and trolling uses emphasized by Maxima. The golden color is a product feature, not evidence that it is undetectable to fish. Its larger Guide Spools call for a multiple-fill or long-working-length plan rather than automatically filling a small reel with the entire package.",
+        "bestFit": "Crystal Ivory is relevant when watching the line is part of your fishing, particularly the casting and trolling uses emphasized by Maxima. The golden color is a product feature, not evidence that it is undetectable to fish. Its larger Guide Spools call for a multiple-fill or long-working-length plan rather than automatically filling a small reel with the entire package.",
+        "faqs": [
+          {
+            "question": "What color is Crystal Ivory?",
+            "answer": "Maxima describes it as a distinctive golden color intended to be visible above water, including low light. ReelCalc has not measured visibility against other lines."
+          },
+          {
+            "question": "Are Crystal Ivory Guide Spools all the same length?",
+            "answer": "No. The manufacturer's variant yard fields change by strength. Always use the selected row."
+          },
+          {
+            "question": "Why flag the 12 and 15 lb rows?",
+            "answer": "The current U.S. fields repeat both 0.013-inch diameter and 1176-yard length. That unusual repetition is surfaced for review; values are not replaced from another model."
+          },
+          {
+            "question": "How much Crystal Ivory fits my reel?",
+            "answer": "Use the selected Crystal Ivory diameter with your reel's published capacity. Pound test is a product strength label, not a universal diameter. Stop filling at the reel manufacturer's recommended level."
+          },
+          {
+            "question": "Does Crystal Ivory require backing?",
+            "answer": "Backing is optional for a full mainline fill. It can make sense under a shorter fresh working section, but the connection must stay below normal casting depth with enough reserve for runs and retying."
+          }
+        ]
+      },
+      "after": {
+        "suitabilitySummary": "Crystal Ivory is a mono option for anglers who watch the line above the water, including during casting or trolling. Its visible golden color is useful to consider for that purpose. Choose the strength for the rig and tackle, then plan a working length from the larger Guide Spool supply, leaving enough reserve for runs and retying.",
+        "bestFit": "Crystal Ivory is a mono option for anglers who watch the line above the water, including during casting or trolling. Its visible golden color is useful to consider for that purpose. Choose the strength for the rig and tackle, then plan a working length from the larger Guide Spool supply, leaving enough reserve for runs and retying.",
+        "faqs": [
+          {
+            "question": "What color is Crystal Ivory?",
+            "answer": "Maxima describes Crystal Ivory as golden-colored mono intended for above-water visibility, including low light. It is worth considering when watching the line is part of your fishing."
+          },
+          {
+            "question": "Are Crystal Ivory Guide Spools all the same length?",
+            "answer": "No. The manufacturer's variant yard fields change by strength. Always use the selected row."
+          },
+          {
+            "question": "Why flag the 12 and 15 lb rows?",
+            "answer": "The current U.S. fields repeat both 0.013-inch diameter and 1176-yard length. That unusual repetition is surfaced for review; values are not replaced from another model."
+          },
+          {
+            "question": "How much Crystal Ivory fits my reel?",
+            "answer": "Use the selected Crystal Ivory diameter with your reel's published capacity. Pound test is a product strength label, not a universal diameter. Stop filling at the reel manufacturer's recommended level."
+          },
+          {
+            "question": "Does Crystal Ivory require backing?",
+            "answer": "Backing is optional for a full mainline fill. It can make sense under a shorter fresh working section, but the connection must stay below normal casting depth with enough reserve for runs and retying."
+          }
+        ]
+      }
+    },
+    {
+      "id": "maxima-fluorocarbon",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Choose this chart when Maxima Fluorocarbon will be the line you cast, not merely a short terminal section. Maxima describes a special UV-protective finish and emphasizes castability, but this is not a measured longevity or handling test. A compact spinning reel can hold a heavy fluorocarbon mathematically while still being a poor handling match.",
+        "bestFit": "Choose this chart when Maxima Fluorocarbon will be the line you cast, not merely a short terminal section. Maxima describes a special UV-protective finish and emphasizes castability, but this is not a measured longevity or handling test. A compact spinning reel can hold a heavy fluorocarbon mathematically while still being a poor handling match."
+      },
+      "after": {
+        "suitabilitySummary": "Maxima Fluorocarbon is a main-line option when you want to cast fluorocarbon directly rather than use it only as a short leader. Start with a diameter that handles well on the reel, especially on a compact spinning spool. A shorter fresh section over sound backing can reduce line used per refill while preserving enough working length for the fishing.",
+        "bestFit": "Maxima Fluorocarbon is a main-line option when you want to cast fluorocarbon directly rather than use it only as a short leader. Start with a diameter that handles well on the reel, especially on a compact spinning spool. A shorter fresh section over sound backing can reduce line used per refill while preserving enough working length for the fishing."
+      }
+    },
+    {
+      "id": "maxima-braid-8",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Braid 8 is the relevant Maxima comparison when you want braid rather than Ultragreen monofilament. Choose between the U.S. Ultragreen and high-visibility variants based on your tracking preference, then decide how much working braid you need. Regional Braid Ultragreen pages are not silently merged with this U.S. product because their ranges and packaging can differ.",
+        "bestFit": "Braid 8 is the relevant Maxima comparison when you want braid rather than Ultragreen monofilament. Choose between the U.S. Ultragreen and high-visibility variants based on your tracking preference, then decide how much working braid you need. Regional Braid Ultragreen pages are not silently merged with this U.S. product because their ranges and packaging can differ."
+      },
+      "after": {
+        "suitabilitySummary": "Braid 8 is Maxima's eight-yarn main line for anglers who prefer braid's low stretch to a mono setup. Choose a suitable diameter for the reel and enough working length for casts, runs and trimming. The 150- and 300-yard options let you compare a single working fill with a larger supply; any leader and backing have separate jobs in the setup.",
+        "bestFit": "Braid 8 is Maxima's eight-yarn main line for anglers who prefer braid's low stretch to a mono setup. Choose a suitable diameter for the reel and enough working length for casts, runs and trimming. The 150- and 300-yard options let you compare a single working fill with a larger supply; any leader and backing have separate jobs in the setup."
+      }
+    },
+    {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Choose Quattro when a separate fluorocarbon terminal section and the four-color camo offering suit your rig. The verified 25 lb option is .018 in/0.45 mm; compare physical diameter as well as test. This chart is deliberately incomplete because other current official SKU titles and package photos disagree. Quattro Monofilament is a different material.",
+        "bestFit": "Choose Quattro when a separate fluorocarbon terminal section and the four-color camo offering suit your rig. The verified 25 lb option is .018 in/0.45 mm; compare physical diameter as well as test. This chart is deliberately incomplete because other current official SKU titles and package photos disagree. Quattro Monofilament is a different material."
+      },
+      "after": {
+        "suitabilitySummary": "Quattro is a fluorocarbon leader option for the replaceable section ahead of the main line. Choose its diameter for the lure, connection knot and surfaces the line may contact. The verified 25 lb option is 0.45 mm, so allow for that thickness when tying connections and checking guide clearance. The short supply spool is intended for individual leaders.",
+        "bestFit": "Quattro is a fluorocarbon leader option for the replaceable section ahead of the main line. Choose its diameter for the lure, connection knot and surfaces the line may contact. The verified 25 lb option is 0.45 mm, so allow for that thickness when tying connections and checking guide clearance. The short supply spool is intended for individual leaders."
+      }
+    },
+    {
+      "id": "hi-seas-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Use these exact Grand Slam rows when choosing braided mainline. The official 10 lb is .004 in/0.10 mm, much thinner than the catalog's unsupported old generic value. That small diameter can produce high capacity estimates; decide how much working line the fishing needs before treating a 300-yard package as mandatory reel fill.",
+        "bestFit": "Use these exact Grand Slam rows when choosing braided mainline. The official 10 lb is .004 in/0.10 mm, much thinner than the catalog's unsupported old generic value. That small diameter can produce high capacity estimates; decide how much working line the fishing needs before treating a 300-yard package as mandatory reel fill."
+      },
+      "after": {
+        "suitabilitySummary": "Grand Slam Braid is a low-stretch main-line option to consider when planning a separate working braid and leader. The lighter diameters can leave substantial unused capacity on a reel, making backing useful beneath a chosen working length. Select strength for the rod, lure and cover, and keep enough braid for fish runs and trimming.",
+        "bestFit": "Grand Slam Braid is a low-stretch main-line option to consider when planning a separate working braid and leader. The lighter diameters can leave substantial unused capacity on a reel, making backing useful beneath a chosen working length. Select strength for the rod, lure and cover, and keep enough braid for fish runs and trimming."
+      }
+    },
+    {
+      "id": "kastking-fluorokote",
+      "fields": [
+        "strengthGuide"
+      ],
+      "before": {
+        "strengthGuide": [
+          "Choose FluoroKote strength for your rod and presentation. The 6-8 lb sizes and 17-20 lb sizes are physically different choices, especially on a compact spinning reel.",
+          "Treat the coating as a construction feature, not proof of invisibility, superior abrasion performance or an independent casting advantage.",
+          "Only 300-yard variants were verified on the current product. The artwork's wider 150/300/500-yard range is not evidence that all three lengths can be selected now at each strength."
+        ]
+      },
+      "after": {
+        "strengthGuide": [
+          "Choose FluoroKote strength for your rod and presentation. The 6-8 lb sizes and 17-20 lb sizes are physically different choices, especially on a compact spinning reel.",
+          "For a compact spinning reel, consider how easily the selected diameter will handle as well as how much fits. A thicker coated line may call for a larger spool or a different tackle setup.",
+          "Only 300-yard variants were verified on the current product. The artwork's wider 150/300/500-yard range is not evidence that all three lengths can be selected now at each strength."
+        ]
+      }
+    },
+    {
+      "id": "reaction-tackle-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Use this chart for the original Moss Green product when choosing a low-stretch braided mainline. Reaction sells several other braids with overlapping tests, so identifying four strands matters before comparing capacity. The checked 20 lb is 0.22 mm and the 65 lb is 0.45 mm, not a universal braid diameter for those pound labels.",
+        "bestFit": "Use this chart for the original Moss Green product when choosing a low-stretch braided mainline. Reaction sells several other braids with overlapping tests, so identifying four strands matters before comparing capacity. The checked 20 lb is 0.22 mm and the 65 lb is 0.45 mm, not a universal braid diameter for those pound labels."
+      },
+      "after": {
+        "suitabilitySummary": "Reaction Tackle's original four-strand braid is a main-line option when you want low stretch and a separately chosen leader. Match strength and diameter to the reel, lure and cover. Its broad size range changes the amount a reel can hold considerably, so plan the working braid first and use backing to occupy any remaining space.",
+        "bestFit": "Reaction Tackle's original four-strand braid is a main-line option when you want low stretch and a separately chosen leader. Match strength and diameter to the reel, lure and cover. Its broad size range changes the amount a reel can hold considerably, so plan the working braid first and use backing to occupy any remaining space."
+      }
+    },
+    {
+      "id": "reaction-tackle-ice-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Ice Braid is intended for ice-fishing presentations, where working length starts with fishing depth and expected runs instead of casting distance. The coating is the manufacturer's water-repelling claim, not a guarantee against icing. Use a reel or tip-up suited to the technique and conditions; the sample spinning reel below only illustrates line volume.",
+        "bestFit": "Ice Braid is intended for ice-fishing presentations, where working length starts with fishing depth and expected runs instead of casting distance. The coating is the manufacturer's water-repelling claim, not a guarantee against icing. Use a reel or tip-up suited to the technique and conditions; the sample spinning reel below only illustrates line volume."
+      },
+      "after": {
+        "suitabilitySummary": "Ice Braid is intended for ice-fishing setups, where working length depends on fishing depth, fish runs and trimming rather than long casts. Use tackle suited to the technique and leave enough usable braid above any backing. Check the line and guides during cold conditions and clear ice buildup before it interferes with handling.",
+        "bestFit": "Ice Braid is intended for ice-fishing setups, where working length depends on fishing depth, fish runs and trimming rather than long casts. Use tackle suited to the technique and leave enough usable braid above any backing. Check the line and guides during cold conditions and clear ice buildup before it interferes with handling."
+      }
+    },
+    {
+      "id": "vicious-pro-elite-fluorocarbon",
+      "fields": [
+        "suitabilitySummary",
+        "faqs",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Pro Elite is worth comparing when its separately specified construction and packaging fit your mainline plan. Level-wound describes the manufacturer's packaging method, not an independently proven handling advantage. The current 8 lb is .010 inch, while 20 lb is .016 inch; select a manageable size for the reel before planning how much premium line to spool.",
+        "faqs": [
+          {
+            "question": "Does Pro Elite come in 15 lb?",
+            "answer": "The current official Pro Elite chart and variants list 14 lb, not 15 lb. Use the 14 lb rating and .014-inch diameter when deciding whether it suits your rod, lure and cover."
+          },
+          {
+            "question": "What does level-wound establish?",
+            "answer": "It is the manufacturer's stated supply-spool construction. This guide does not claim an independent casting or abrasion advantage from it."
+          },
+          {
+            "question": "Can I use standard Vicious diameters?",
+            "answer": "No. Use the specific Pro Elite chart, even at the same pound-test label."
+          }
+        ],
+        "bestFit": "Pro Elite is worth comparing when its separately specified construction and packaging fit your mainline plan. Level-wound describes the manufacturer's packaging method, not an independently proven handling advantage. The current 8 lb is .010 inch, while 20 lb is .016 inch; select a manageable size for the reel before planning how much premium line to spool."
+      },
+      "after": {
+        "suitabilitySummary": "Pro Elite is a fluorocarbon main-line option when you want a fresh working fill on appropriately matched tackle. Choose a manageable diameter for the reel: the listed 8 lb is 0.010 inch, while 20 lb is 0.016 inch. A full fill keeps the line continuous; sound backing underneath a shorter fresh section can make the package last through more refills.",
+        "faqs": [
+          {
+            "question": "Does Pro Elite come in 15 lb?",
+            "answer": "The current official Pro Elite chart and variants list 14 lb, not 15 lb. Use the 14 lb rating and .014-inch diameter when deciding whether it suits your rod, lure and cover."
+          },
+          {
+            "question": "What does level-wound mean?",
+            "answer": "The line is arranged in even layers on the supply spool. Keep steady tension as you transfer it to the reel and stop at the reel maker's recommended fill level."
+          },
+          {
+            "question": "Can I use standard Vicious diameters?",
+            "answer": "No. Use the specific Pro Elite chart, even at the same pound-test label."
+          }
+        ],
+        "bestFit": "Pro Elite is a fluorocarbon main-line option when you want a fresh working fill on appropriately matched tackle. Choose a manageable diameter for the reel: the listed 8 lb is 0.010 inch, while 20 lb is 0.016 inch. A full fill keeps the line continuous; sound backing underneath a shorter fresh section can make the package last through more refills."
+      }
+    },
+    {
+      "id": "vicious-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "Choose Standard Green when you want the ordinary Vicious braid offering as a working mainline. Its current chart includes a pronounced diameter step between 30 and 40 lb, so matching test labels to an old or generic braid table can misstate capacity. The coating is described by Vicious as resisting fading and water absorption; this is not the separate No-Fade product.",
+        "bestFit": "Choose Standard Green when you want the ordinary Vicious braid offering as a working mainline. Its current chart includes a pronounced diameter step between 30 and 40 lb, so matching test labels to an old or generic braid table can misstate capacity. The coating is described by Vicious as resisting fading and water absorption; this is not the separate No-Fade product."
+      },
+      "after": {
+        "suitabilitySummary": "Vicious Braid is a standard PE braid main-line option, with a leader selected separately for the fishing. Pay attention to the diameter step between the listed 30 and 40 lb sizes when choosing for a particular reel. Plan enough working braid for casting, runs and retying, then use backing beneath it if a full-braid fill would use more than you need.",
+        "bestFit": "Vicious Braid is a standard PE braid main-line option, with a leader selected separately for the fishing. Pay attention to the diameter step between the listed 30 and 40 lb sizes when choosing for a particular reel. Plan enough working braid for casting, runs and retying, then use backing beneath it if a full-braid fill would use more than you need."
+      }
+    },
+    {
+      "id": "spro-finesse-fluorocarbon-leader",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "This is a leader option for finesse presentations where you want a short, replaceable section ahead of the mainline. The green color is an actual product choice, not proof of invisibility in all water. Select leader diameter for the hook, cover and knot connection, then calculate reel capacity from the mainline that occupies the spool.",
+        "bestFit": "This is a leader option for finesse presentations where you want a short, replaceable section ahead of the mainline. The green color is an actual product choice, not proof of invisibility in all water. Select leader diameter for the hook, cover and knot connection, then calculate reel capacity from the mainline that occupies the spool."
+      },
+      "after": {
+        "suitabilitySummary": "SPRO Finesse Leader is for a short, replaceable fluorocarbon section ahead of the main line on a finesse rig. Choose the diameter for the small hook or lure, the cover and the connection knot. Allow enough supply for fresh leaders and retying, while using the main line that occupies the spool for capacity planning.",
+        "bestFit": "SPRO Finesse Leader is for a short, replaceable fluorocarbon section ahead of the main line on a finesse rig. Choose the diameter for the small hook or lure, the cover and the connection knot. Allow enough supply for fresh leaders and retying, while using the main line that occupies the spool for capacity planning."
+      }
+    },
+    {
+      "id": "yo-zuri-superfluoro-leader",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "SuperFluoro spans light leaders through heavy offshore bite sections. That breadth is useful only when the leader diameter, connection and terminal tackle suit the actual fishing. Yo-Zuri emphasizes manageable tying and abrasion performance; this guide does not assign a measured abrasion lifetime or repeat its historical price comparisons as current savings.",
+        "bestFit": "SuperFluoro spans light leaders through heavy offshore bite sections. That breadth is useful only when the leader diameter, connection and terminal tackle suit the actual fishing. Yo-Zuri emphasizes manageable tying and abrasion performance; this guide does not assign a measured abrasion lifetime or repeat its historical price comparisons as current savings."
+      },
+      "after": {
+        "suitabilitySummary": "SuperFluoro is a fluorocarbon leader option with sizes ranging from light connections to heavy offshore rigs. Choose diameter for the presentation, contact with cover and the knot you intend to tie. Plan the supply spool around individual leader lengths and replacements rather than the amount of main line on the reel.",
+        "bestFit": "SuperFluoro is a fluorocarbon leader option with sizes ranging from light connections to heavy offshore rigs. Choose diameter for the presentation, contact with cover and the knot you intend to tie. Plan the supply spool around individual leader lengths and replacements rather than the amount of main line on the reel."
+      }
+    },
+    {
+      "id": "yo-zuri-h-d-carbon-leader",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "This is a bite-section material to compare for fresh- or saltwater rigs, with much heavier sizes available than a typical freshwater mainline. Pick the diameter and connection for the intended contact surfaces and fish. Treat Disappearing Pink as a named color and manufacturer positioning, not a promise that it vanishes under all water and light conditions.",
+        "bestFit": "This is a bite-section material to compare for fresh- or saltwater rigs, with much heavier sizes available than a typical freshwater mainline. Pick the diameter and connection for the intended contact surfaces and fish. Treat Disappearing Pink as a named color and manufacturer positioning, not a promise that it vanishes under all water and light conditions."
+      },
+      "after": {
+        "suitabilitySummary": "H.D. Carbon is a fluorocarbon leader option for freshwater or saltwater rigs where a replaceable terminal section is useful. Select the diameter for the lure, fish and contact surfaces, then check that the connection suits your tackle. Heavier sizes require particular attention to knot size and guide clearance.",
+        "bestFit": "H.D. Carbon is a fluorocarbon leader option for freshwater or saltwater rigs where a replaceable terminal section is useful. Select the diameter for the lure, fish and contact surfaces, then check that the connection suits your tackle. Heavier sizes require particular attention to knot size and guide clearance."
+      }
+    },
+    {
+      "id": "stren-magnathin",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "MagnaThin is worth considering when you want a mono mainline and spool space matters. Its smaller published sizes can change a fill plan appreciably, but extra capacity is not itself a reason to choose lighter line. Match strength to the rod, lure and cover before comparing reels. The figures here describe a specific historical range and are not a promise of identical current stock or tested handling."
+      },
+      "after": {
+        "suitabilitySummary": "MagnaThin is a mono main-line option when you want to compare thinner diameters without switching to braid. Choose a strength suited to the rod, lure and cover, then check how much working line fits the reel. For a spool matching this historical range, use its printed diameter to plan a full fill or a fresh section over sound backing."
+      }
+    },
+    {
+      "id": "ande-braid",
+      "fields": [
+        "suitabilitySummary",
+        "bestFit"
+      ],
+      "before": {
+        "suitabilitySummary": "ANDE positions the graphite braid for freshwater and saltwater spinning or conventional reels. The checked 20 lb is 0.18 mm, which can leave substantial spare capacity on a reel. Choose a useful working section before buying a larger spool. Do not carry the graphite diameter into the newer color-named ANDE braid listings without their own evidence.",
+        "bestFit": "ANDE positions the graphite braid for freshwater and saltwater spinning or conventional reels. The checked 20 lb is 0.18 mm, which can leave substantial spare capacity on a reel. Choose a useful working section before buying a larger spool. Do not carry the graphite diameter into the newer color-named ANDE braid listings without their own evidence."
+      },
+      "after": {
+        "suitabilitySummary": "The original ANDE Braid range is a main-line option for freshwater or saltwater setups. Its thinner sizes can leave substantial spare space on a reel; choose a useful working length before adding backing. Match your package to the chart's product range, then allow enough braid for the intended fishing, fish runs and later trimming.",
+        "bestFit": "The original ANDE Braid range is a main-line option for freshwater or saltwater setups. Its thinner sizes can leave substantial spare space on a reel; choose a useful working length before adding backing. Match your package to the chart's product range, then allow enough braid for the intended fishing, fish runs and later trimming."
+      }
+    },
+    {
+      "id": "spiderwire-ultracast-ultimate-mono",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Ultimate Mono was positioned around a thinner, lower-stretch mono concept. Treat that as manufacturer positioning, then make the practical choice from the rod, lure, cover and exact diameter. A full mono fill is a simpler starting point than a braid-style backing plan. Before using these historical inputs for a package in hand, check that its identity and labeling match the 2018 scope."
+      },
+      "after": {
+        "suitabilitySummary": "Ultimate Mono is a monofilament main-line option for anglers who prefer one continuous line to the lure. For a spool matching the historical range in this guide, compare its printed diameter with the reel's capacity. Choose strength for the lure and cover, and decide whether you need a full fresh fill or a shorter working section over sound backing."
+      }
+    },
+    {
+      "id": "stren-high-impact",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "The manufacturer's historical positioning is coastal and offshore mainline use. Choose the strength for the rod, drag, rig and contact hazards, then match its diameter to the reel. A large bulk package can supply several fills, but it does not make a small reel suitable for thick mono. The High Impact name is not a substitute for checking knots and damaged line after use."
+      },
+      "after": {
+        "suitabilitySummary": "High Impact was positioned for coastal and offshore mono main-line fishing. Choose a strength that suits the rod, drag and rig, then check the diameter against the reel's capacity. The larger packages can provide multiple fills; keep enough working line for the intended deployment and runs, and replace damaged sections after use."
+      }
+    },
+    {
+      "id": "berkley-forward-finesse-braid",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Forward is positioned by Berkley for finesse presentations, including forward-facing-sonar fishing. The verified 10 and 12 lb packages are .007 and .008 in, so backing can be important when a 150 yd package is shorter than a reel's calculated full-spool amount. These are label-based capacity estimates, not measured casting, sink-rate, or abrasion comparisons."
+      },
+      "after": {
+        "suitabilitySummary": "Forward is Berkley's braid for finesse presentations, including forward-facing-sonar fishing. The verified 10 and 12 lb options are worth evaluating on appropriately matched light tackle, with a leader chosen for the rig. Plan a working section from the 150-yard package and use backing where needed, keeping reserve for fish runs and repeated retying."
+      }
+    },
+    {
+      "id": "sufix-calibr8",
+      "fields": [
+        "spoolingGuide",
+        "productGuidance"
+      ],
+      "before": {
+        "spoolingGuide": [
+          {
+            "title": "Plan around the identified spool",
+            "text": "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages."
+          },
+          {
+            "title": "Keep the backing join below deployment",
+            "text": "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section."
+          },
+          {
+            "title": "Separate braid from any leader",
+            "text": "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate."
+          },
+          {
+            "title": "Use appropriate loading tension",
+            "text": "Follow the reel manufacturer's braid attachment and fill guidance, and avoid loose initial wraps. The package's coating and abrasion claims do not establish a measured casting or durability advantage here."
+          }
+        ],
+        "productGuidance": [
+          "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages.",
+          "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section.",
+          "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate.",
+          "Follow the reel manufacturer's braid attachment and fill guidance, and avoid loose initial wraps. The package's coating and abrasion claims do not establish a measured casting or durability advantage here."
+        ]
+      },
+      "after": {
+        "spoolingGuide": [
+          {
+            "title": "Plan around the identified spool",
+            "text": "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages."
+          },
+          {
+            "title": "Keep the backing join below deployment",
+            "text": "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section."
+          },
+          {
+            "title": "Separate braid from any leader",
+            "text": "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate."
+          },
+          {
+            "title": "Use appropriate loading tension",
+            "text": "Follow the reel manufacturer's braid attachment and fill guidance. Wind under steady tension, avoid loose initial wraps and check the finished fill before fishing."
+          }
+        ],
+        "productGuidance": [
+          "Use the nominal 150-yard supply for 694-015L and leave reserve for knots, trimming and expected fish runs. The pictured spool does not verify 300-yard packages.",
+          "Use backing only to occupy unused spool volume. A working braid section must still cover the line you expect to cast or fish; the connection should remain below that section.",
+          "Calibr8 is the reel mainline in this setup. A separately chosen terminal leader has its own diameter and purpose and does not replace the braid diameter in a mainline capacity estimate.",
+          "Follow the reel manufacturer's braid attachment and fill guidance. Wind under steady tension, avoid loose initial wraps and check the finished fill before fishing."
+        ]
+      }
+    },
+    {
+      "id": "stren-super-knot",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "The self-lubricating formula was Stren's knot-focused positioning, not a guarantee against knot failure. The practical starting point is the exact diameter and a suitable test rating for your tackle. Super Knot's .012-inch 8 lb row uses more reel space than a thinner 8 lb mono; a familiar strength label alone does not establish capacity."
+      },
+      "after": {
+        "suitabilitySummary": "Super Knot is a monofilament main-line option for a straightforward, continuous connection to the lure. For a spool matching this historical range, choose a strength for the tackle and check the printed diameter before spooling. The 8 lb row is 0.012 inch, so compare its actual fill requirement with the 220-yard package rather than relying on pound test alone."
+      }
+    },
+    {
+      "id": "stren-sonic-braid",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "Use this reference when your spool matches SCB30040-22, its test rating, color and printed diameter. A 300-yard package can supply a long working section or more than one shorter fill, depending on reel capacity and reserve. Choose the amount around casting distance and the room needed to fight a fish; the package length does not mean every reel holds all 300 yards."
+      },
+      "after": {
+        "suitabilitySummary": "The 40 lb Sonic Braid package covered here is worth evaluating for a casting setup with a rod, lure and cover suited to that strength. Its 300-yard supply can provide one long working section or several shorter fills, depending on the reel. Leave enough braid above any backing for long casts, fish runs and trimming."
+      }
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "P-Line positions CXX for demanding cover and shock loading. That is manufacturer positioning, not an independent performance test. The pictured 10 lb line is .014 inch and the 12 lb is .0148 inch, so plan the reel fill with the exact label rather than a generic 10 or 12 lb mono rating. Rod range, lure weight, cover, and drag still determine an appropriate strength."
+      },
+      "after": {
+        "suitabilitySummary": "CXX is P-Line's copolymer main line for demanding cover and shock-loading applications. The 10 and 12 lb packages covered here have substantial diameters, so check handling and capacity before choosing them for a small spinning reel. Match the strength to the rod and lure, and keep spare working line for retying after contact with cover."
+      }
+    },
+    {
+      "id": "p-line-floroclear",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "FloroClear is an option when the intended main line is a coated copolymer rather than a full fluorocarbon or braid construction. P-Line identifies a silicone treatment; no independent handling advantage is claimed here. Check the exact filler or bonus package before planning capacity, because the inspected 12 lb packages do not print identical inch diameters."
+      },
+      "after": {
+        "suitabilitySummary": "FloroClear is a coated-copolymer option when you want a continuous main line rather than a braid-and-leader setup. Choose a manageable diameter for the reel and plan a full fill or a fresh working section over backing. Check the exact filler or bonus package against the chart, because the reviewed 12 lb packages print different inch diameters."
+      }
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "HALO belongs in a full-fluorocarbon mainline comparison, separately from CX Premium and FloroClear. The three verified US carton labels offer .008, .01, and .011 inch reference diameters. Choose strength for the rod, presentation, and cover before estimating the fill. P-Line's Co-Fluoride construction name is not evidence of a measured performance advantage over another fluorocarbon."
+      },
+      "after": {
+        "suitabilitySummary": "HALO is a fluorocarbon main-line option to consider for a light or moderate working fill. The verified 6, 8 and 10 lb packages give you three diameters to compare with the reel's capacity. Choose strength for the lure and cover, then decide between a continuous full fill and a shorter fresh section over sound backing."
+      }
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "fields": [
+        "suitabilitySummary",
+        "faqs"
+      ],
+      "before": {
+        "suitabilitySummary": "P-Line describes eight-carrier EndurX as braid made from material colored before braiding. The retained labels support a .009-inch Electric Green 20 lb option and a .011-inch Midnight Black 30 lb option. They do not establish all EndurX colors at those strengths. Compare diameter for capacity while choosing strength, leader, and drag for the fishing; color-retention marketing is not a measured result here.",
+        "faqs": [
+          {
+            "question": "Is this the four-carrier EndurX?",
+            "answer": "No. The accepted labels identify EndurX 8X, and P-Line's matching description specifies eight carriers. Four-carrier EndurX is outside this reference."
+          },
+          {
+            "question": "What is the verified 30 lb Midnight Black diameter?",
+            "answer": "The actual PEBB-300-30 label prints .011 inch and .28 mm. Its 300-yard package is the only 30 lb package included here."
+          },
+          {
+            "question": "Can I choose Electric Green at 30 lb from this chart?",
+            "answer": "Not from this evidence. The verified Electric Green package is 20 lb; the verified 30 lb label is Midnight Black. Other color-strength combinations need their own primary evidence."
+          },
+          {
+            "question": "Does Zero Fade mean this page guarantees color retention?",
+            "answer": "No. That wording identifies the pictured manufacturer packaging. This reference neither independently tests the claim nor establishes warranty eligibility, production year, or present stock."
+          }
+        ]
+      },
+      "after": {
+        "suitabilitySummary": "EndurX 8X is an eight-strand braid option for anglers choosing a low-stretch main line and a separate leader. The verified 20 and 30 lb packages occupy different amounts of spool space, so compare the selected diameter with your reel before planning the fill. Use enough working braid for the fishing and future trimming, with backing below it when useful.",
+        "faqs": [
+          {
+            "question": "Is this the four-carrier EndurX?",
+            "answer": "No. The accepted labels identify EndurX 8X, and P-Line's matching description specifies eight carriers. Four-carrier EndurX is outside this reference."
+          },
+          {
+            "question": "What is the verified 30 lb Midnight Black diameter?",
+            "answer": "The actual PEBB-300-30 label prints .011 inch and .28 mm. Its 300-yard package is the only 30 lb package included here."
+          },
+          {
+            "question": "Can I choose Electric Green at 30 lb from this chart?",
+            "answer": "Not from this evidence. The verified Electric Green package is 20 lb; the verified 30 lb label is Midnight Black. Other color-strength combinations need their own primary evidence."
+          },
+          {
+            "question": "Should I use backing beneath EndurX 8X?",
+            "answer": "Backing can provide a secure base on a smooth arbor and fill space below a chosen working braid section. Follow the reel maker's attachment instructions and keep enough braid above the connection for casts, runs and retying."
+          }
+        ]
+      }
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "fields": [
+        "suitabilitySummary"
+      ],
+      "before": {
+        "suitabilitySummary": "The accepted TCB 8 labels document an eight-strand braid at two very different strengths and diameters: 20 lb at .010 inch and 50 lb at .014 inch. They are not a complete range or interchangeable recommendations. Choose for the rod, cover, and presentation first. A name match to today's X-Braid page does not establish unchanged coating or an equivalent current edition."
+      },
+      "after": {
+        "suitabilitySummary": "TCB 8 is an eight-strand braid main line. The verified 20 and 50 lb options serve different tackle and cover requirements, so choose for the presentation before comparing capacity. Plan enough working line above any backing for casts, runs and retying, and match your package to the version documented in the chart."
+      }
+    }
+  ]
+}
