@@ -1,0 +1,266 @@
+{
+  "id": "sunline-shooter",
+  "url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+  "retrievedAt": "2026-09-13T01:35:11.105Z",
+  "title": "Shooter Fluorocarbon",
+  "description": "<p>The highest quality materials and the most advanced technology have produced a line which gives the sensitivity, tenacity and ruggedness under extreme stress that top professionals demand. Available in three different categories by size; Finesse Special, Marionette Special and Power Special. Each category has unique properties to help the line provide maximum performance at that specific pound test. The specific characteristics of each category allow Shooter to perform with the most desirable qualities at each pound test.</p>\n<p><strong><meta charset=\"utf-8\">Spool Length | <meta charset=\"utf-8\">LB Test</strong></p>\n<p>110 YD<strong> |</strong> 7, 8, 9, 22, 25, 30<br></p>\n<p><span>165 YD</span><strong><span> </span>|</strong><span> 10, 12, 14, 16, 18, 20</span></p>\n<p><meta charset=\"utf-8\">660 YD<strong> |</strong><span> 10, 12, 14, 16, 18, 20, 22, 25, 30</span> </p>\n<p><strong>Standard Dia. (inch / mm)</strong></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501\" alt=\"\"></p>\n<p><img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/shootercomparisonchart_480x480.jpg?v=1612902560\"></p>",
+  "descriptionText": "The highest quality materials and the most advanced technology have produced a line which gives the sensitivity, tenacity and ruggedness under extreme stress that top professionals demand. Available in three different categories by size; Finesse Special, Marionette Special and Power Special. Each category has unique properties to help the line provide maximum performance at that specific pound test. The specific characteristics of each category allow Shooter to perform with the most desirable qualities at each pound test. Spool Length | LB Test 110 YD | 7, 8, 9, 22, 25, 30 165 YD | 10, 12, 14, 16, 18, 20 660 YD | 10, 12, 14, 16, 18, 20, 22, 25, 30 Standard Dia. (inch / mm)",
+  "descriptionImages": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501",
+      "alt": ""
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/shootercomparisonchart_480x480.jpg?v=1612902560"
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Sunline-Shooter-110-25.jpg?v=1615499322",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Sunline-Shooter-110-7.jpg?v=1615499347",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Sunline-Shooter-110-10.jpg?v=1615499377",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Sunline-Shooter-110-7-2__85341.jpg?v=1615499447",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/shooter660yd__57596.1486565998.1280.1280__38050.jpg?v=1615499490"
+  ],
+  "options": [
+    {
+      "name": "Test",
+      "position": 1,
+      "values": [
+        "7 LB",
+        "8 LB",
+        "9 LB",
+        "10 LB",
+        "12 LB",
+        "14 LB",
+        "16 LB",
+        "18 LB",
+        "20 LB",
+        "22 LB",
+        "25 LB",
+        "30 LB"
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "110 YD",
+        "165 YD",
+        "660 YD"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 38126355087539,
+      "sku": "60073940",
+      "title": "7 LB / 110 YD",
+      "options": [
+        "7 LB",
+        "110 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355153075,
+      "sku": "60073942",
+      "title": "8 LB / 110 YD",
+      "options": [
+        "8 LB",
+        "110 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126364197043,
+      "sku": "60073944",
+      "title": "9 LB / 110 YD",
+      "options": [
+        "9 LB",
+        "110 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355251379,
+      "sku": "60073946",
+      "title": "10 LB / 165 YD",
+      "options": [
+        "10 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355316915,
+      "sku": "60073948",
+      "title": "12 LB / 165 YD",
+      "options": [
+        "12 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355382451,
+      "sku": "60073950",
+      "title": "14 LB / 165 YD",
+      "options": [
+        "14 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355447987,
+      "sku": "60073952",
+      "title": "16 LB / 165 YD",
+      "options": [
+        "16 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355513523,
+      "sku": "60073954",
+      "title": "18 LB / 165 YD",
+      "options": [
+        "18 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355579059,
+      "sku": "60073956",
+      "title": "20 LB / 165 YD",
+      "options": [
+        "20 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355644595,
+      "sku": "60073958",
+      "title": "22 LB / 110 YD",
+      "options": [
+        "22 LB",
+        "110 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355710131,
+      "sku": "60073960",
+      "title": "25 LB / 110 YD",
+      "options": [
+        "25 LB",
+        "110 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38126355808435,
+      "sku": "60073962",
+      "title": "30 LB / 110 YD",
+      "options": [
+        "30 LB",
+        "110 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378431692979,
+      "sku": "63042050",
+      "title": "10 LB / 660 YD",
+      "options": [
+        "10 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378433134771,
+      "sku": "63042052",
+      "title": "12 LB / 660 YD",
+      "options": [
+        "12 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378678730931,
+      "sku": "63042054",
+      "title": "14 LB / 660 YD",
+      "options": [
+        "14 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378680336563,
+      "sku": "63042056",
+      "title": "16 LB / 660 YD",
+      "options": [
+        "16 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378684072115,
+      "sku": "63042058",
+      "title": "18 LB / 660 YD",
+      "options": [
+        "18 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378693673139,
+      "sku": "63042060",
+      "title": "20 LB / 660 YD",
+      "options": [
+        "20 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378699899059,
+      "sku": "63042062",
+      "title": "22 LB / 660 YD",
+      "options": [
+        "22 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378730143923,
+      "sku": "63042064",
+      "title": "25 LB / 660 YD",
+      "options": [
+        "25 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378730406067,
+      "sku": "63042066",
+      "title": "30 LB / 660 YD",
+      "options": [
+        "30 LB",
+        "660 YD"
+      ],
+      "available": true
+    }
+  ]
+}

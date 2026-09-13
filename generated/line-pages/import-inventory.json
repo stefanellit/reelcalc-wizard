@@ -1,8 +1,19 @@
 {
-  "importFile": null,
-  "count": 0,
+  "importFile": "generated/line-pages/UPLOAD-THIS-10-new-line-guides.csv",
+  "count": 10,
   "visibility": "hidden",
-  "includedProducts": [],
+  "includedProducts": [
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear"
+  ],
   "excludedPublished": [
     "powerpro-spectra",
     "seaguar-invizx",
@@ -55,6 +66,46 @@
     {
       "id": "seaguar-jdm-pex8-micro-braid",
       "preview": "previews/line-pages/seaguar-jdm-pex8-micro-braid-imported.html"
+    },
+    {
+      "id": "sunline-fc-sniper",
+      "preview": "previews/line-pages/sunline-fc-sniper-imported.html"
+    },
+    {
+      "id": "sunline-shooter",
+      "preview": "previews/line-pages/sunline-shooter-imported.html"
+    },
+    {
+      "id": "sunline-assassin-fc",
+      "preview": "previews/line-pages/sunline-assassin-fc-imported.html"
+    },
+    {
+      "id": "sunline-super-natural-mono",
+      "preview": "previews/line-pages/sunline-super-natural-mono-imported.html"
+    },
+    {
+      "id": "sunline-sx1",
+      "preview": "previews/line-pages/sunline-sx1-imported.html"
+    },
+    {
+      "id": "sunline-xplasma-asegai",
+      "preview": "previews/line-pages/sunline-xplasma-asegai-imported.html"
+    },
+    {
+      "id": "sunline-siglon-pe-x8",
+      "preview": "previews/line-pages/sunline-siglon-pe-x8-imported.html"
+    },
+    {
+      "id": "sunline-shooter-machinegun-cast",
+      "preview": "previews/line-pages/sunline-shooter-machinegun-cast-imported.html"
+    },
+    {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "preview": "previews/line-pages/sunline-shooter-bms-azayaka-fc-imported.html"
+    },
+    {
+      "id": "berkley-ginclear",
+      "preview": "previews/line-pages/berkley-ginclear-imported.html"
     }
   ],
   "pages": {
@@ -147,6 +198,96 @@
       "url": "https://www.reelcalc.com/lines/p/seaguar-jdm-pex8-micro-braid-braid-diameter-capacity-guide",
       "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/seaguar-jdm-pex8-micro-braid.png",
       "sku": "RCL6E078F467E8CFE447"
+    },
+    "sunline-fc-sniper-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-fc-sniper",
+      "title": "Sunline FC Sniper Fluorocarbon",
+      "seoTitle": "Sunline FC Sniper Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline FC Sniper diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-fc-sniper-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-fc-sniper.jpg",
+      "sku": "RCL0F8BDF905F983392E"
+    },
+    "sunline-shooter-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-shooter",
+      "title": "Sunline Shooter Fluorocarbon",
+      "seoTitle": "Sunline Shooter Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Shooter diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-shooter.jpg",
+      "sku": "RCL64CE77A349BDFCCAE"
+    },
+    "sunline-assassin-fc-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-assassin-fc",
+      "title": "Sunline Assassin FC Fluorocarbon",
+      "seoTitle": "Sunline Assassin FC Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Assassin FC diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-assassin-fc-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-assassin-fc.png",
+      "sku": "RCL49D0F036F4FBF2EAC"
+    },
+    "sunline-super-natural-mono-monofilament-diameter-capacity-guide": {
+      "id": "sunline-super-natural-mono",
+      "title": "Sunline Super Natural Monofilament",
+      "seoTitle": "Sunline Super Natural Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Super Natural diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-super-natural-mono-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-super-natural-330.jpg",
+      "sku": "RCL2AD3CB1246FF1C099"
+    },
+    "sunline-sx1-braid-diameter-capacity-guide": {
+      "id": "sunline-sx1",
+      "title": "Sunline SX1 Braid",
+      "seoTitle": "Sunline SX1 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline SX1 diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-sx1-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-sx1.png",
+      "sku": "RCLAEA355EF9075CE400"
+    },
+    "sunline-xplasma-asegai-braid-diameter-capacity-guide": {
+      "id": "sunline-xplasma-asegai",
+      "title": "Sunline Xplasma Asegai Braid",
+      "seoTitle": "Sunline Xplasma Asegai Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Xplasma Asegai diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-xplasma-asegai-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-xplasma-asegai.jpg",
+      "sku": "RCL9CBBEA0C34DD20ECE"
+    },
+    "sunline-siglon-pe-x8-braid-diameter-capacity-guide": {
+      "id": "sunline-siglon-pe-x8",
+      "title": "Sunline Siglon PE X8 Braid",
+      "seoTitle": "Sunline Siglon PE X8 Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Siglon PE X8 diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-siglon-pe-x8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-siglon-pe-x8.jpg",
+      "sku": "RCL964176FB0EBF00E98"
+    },
+    "sunline-shooter-machinegun-cast-monofilament-diameter-capacity-guide": {
+      "id": "sunline-shooter-machinegun-cast",
+      "title": "Sunline Machinegun Cast Monofilament",
+      "seoTitle": "Sunline Machinegun Cast Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline Machinegun Cast diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-machinegun-cast-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-shooter-machinegun-cast.jpg",
+      "sku": "RCL6DA8BDC36446D3F6E"
+    },
+    "sunline-shooter-bms-azayaka-fc-fluorocarbon-diameter-capacity-guide": {
+      "id": "sunline-shooter-bms-azayaka-fc",
+      "title": "Sunline BMS Azayaka FC Fluorocarbon",
+      "seoTitle": "Sunline BMS Azayaka FC Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Sunline BMS Azayaka FC diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-shooter-bms-azayaka-fc-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/sunline-shooter-bms-azayaka-fc.jpg",
+      "sku": "RCLA916736EC3789FCA0"
+    },
+    "berkley-ginclear-fluorocarbon-diameter-capacity-guide": {
+      "id": "berkley-ginclear",
+      "title": "Berkley GINCLEAR Fluorocarbon",
+      "seoTitle": "Berkley GINCLEAR Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "Find Berkley GINCLEAR diameters by strength. Calculate your reel's full-spool amount, plan backing, and compare exact lines and package lengths.",
+      "url": "https://www.reelcalc.com/lines/p/berkley-ginclear-fluorocarbon-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/berkley-ginclear.jpg",
+      "sku": "RCL70912F1028916B750"
     }
   }
 }

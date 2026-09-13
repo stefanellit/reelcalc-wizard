@@ -1,0 +1,4900 @@
+[
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-2",
+    "old": null,
+    "updated": {
+      "lb": 2,
+      "dia_in": 0.005,
+      "dia_mm": 0.128,
+      "spool_sizes_yd": [
+        200
+      ],
+      "source_variant_ids": [
+        38108595585203
+      ],
+      "source_skus": [
+        "63038900"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "id": "sunline-fc-sniper-fluorocarbon-2",
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 2 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-3",
+    "old": null,
+    "updated": {
+      "lb": 3,
+      "dia_in": 0.0058,
+      "dia_mm": 0.148,
+      "spool_sizes_yd": [
+        200
+      ],
+      "source_variant_ids": [
+        38108595716275
+      ],
+      "source_skus": [
+        "63038902"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "id": "sunline-fc-sniper-fluorocarbon-3",
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 3 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-4",
+    "old": null,
+    "updated": {
+      "lb": 4,
+      "dia_in": 0.0065,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        200
+      ],
+      "source_variant_ids": [
+        38108595847347
+      ],
+      "source_skus": [
+        "63038904"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "id": "sunline-fc-sniper-fluorocarbon-4",
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 4 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-5",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-5",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 5,
+      "dia_in": 0.008,
+      "dia_mm": 0.205,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 5 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-5",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 5,
+      "dia_in": 0.0075,
+      "dia_mm": 0.19,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 5 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108595978419,
+        42378788470963,
+        38108596076723
+      ],
+      "source_skus": [
+        "63038906",
+        "63039814",
+        "63038936"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-6",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-6",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 6,
+      "dia_in": 0.009,
+      "dia_mm": 0.22,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 6 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-6",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 6,
+      "dia_in": 0.0081,
+      "dia_mm": 0.205,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 6 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596109491,
+        42378789355699,
+        38108596207795
+      ],
+      "source_skus": [
+        "63038908",
+        "63039816",
+        "63038938"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-7",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-7",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 7,
+      "dia_in": 0.0095,
+      "dia_mm": 0.235,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 7 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-7",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 7,
+      "dia_in": 0.0086,
+      "dia_mm": 0.219,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 7 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596240563,
+        42378789486771,
+        38108596338867
+      ],
+      "source_skus": [
+        "63038910",
+        "63039818",
+        "63038940"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-8",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 8 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.0093,
+      "dia_mm": 0.235,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 8 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596371635,
+        42378789552307,
+        38108596469939
+      ],
+      "source_skus": [
+        "63038912",
+        "63039820",
+        "63038942"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-10",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.011,
+      "dia_mm": 0.27,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 10 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.0102,
+      "dia_mm": 0.26,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 10 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596502707,
+        42378791551155,
+        38108596601011
+      ],
+      "source_skus": [
+        "63038914",
+        "63039822",
+        "63038944"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-12",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.012,
+      "dia_mm": 0.3,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 12 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.0112,
+      "dia_mm": 0.285,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 12 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596633779,
+        42378792108211,
+        38108596732083
+      ],
+      "source_skus": [
+        "63038916",
+        "63039824",
+        "63038946"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-14",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-14",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 14,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 14 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-14",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 14,
+      "dia_in": 0.0122,
+      "dia_mm": 0.31,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 14 lb",
+      "spool_sizes_yd": [
+        200,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596764851,
+        42378792435891,
+        38108596863155
+      ],
+      "source_skus": [
+        "63038918",
+        "63039826",
+        "63038948"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-16",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-16",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 16,
+      "dia_in": 0.014,
+      "dia_mm": 0.37,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 16 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-16",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 16,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 16 lb",
+      "spool_sizes_yd": [
+        165,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108596928691,
+        42378792665267,
+        38108596994227
+      ],
+      "source_skus": [
+        "63038920",
+        "63039828",
+        "63038950"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-18",
+    "old": null,
+    "updated": {
+      "lb": 18,
+      "dia_in": 0.0138,
+      "dia_mm": 0.35,
+      "spool_sizes_yd": [
+        165,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108597059763,
+        42378792861875,
+        38108597125299
+      ],
+      "source_skus": [
+        "63038921",
+        "63039829",
+        "63038951"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "id": "sunline-fc-sniper-fluorocarbon-18",
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 18 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-20",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 20 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.0146,
+      "dia_mm": 0.37,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 20 lb",
+      "spool_sizes_yd": [
+        165,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108597190835,
+        42378792960179,
+        38108597256371
+      ],
+      "source_skus": [
+        "63038922",
+        "63039830",
+        "63038952"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-25",
+    "old": {
+      "id": "sunline-fc-sniper-fluorocarbon-25",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 25,
+      "dia_in": 0.018,
+      "dia_mm": 0.435,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline fc sniper fluorocarbon 25 lb"
+    },
+    "updated": {
+      "id": "sunline-fc-sniper-fluorocarbon-25",
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "lb": 25,
+      "dia_in": 0.0159,
+      "dia_mm": 0.405,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 25 lb",
+      "spool_sizes_yd": [
+        165,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38108597321907,
+        42378793222323,
+        38108597387443
+      ],
+      "source_skus": [
+        "63038924",
+        "63039832",
+        "63038954"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-fc-sniper-fluorocarbon-30",
+    "old": null,
+    "updated": {
+      "lb": 30,
+      "dia_in": 0.0171,
+      "dia_mm": 0.435,
+      "spool_sizes_yd": [
+        165,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        42714699137203,
+        42714696941747,
+        42714699399347
+      ],
+      "source_skus": [
+        "63038926",
+        "63039834",
+        "63038956"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "FC Sniper",
+      "type": "Fluorocarbon",
+      "id": "sunline-fc-sniper-fluorocarbon-30",
+      "product_source_url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline fc sniper fluorocarbon 30 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/super-fc-sniper-1"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-7",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-7",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 7,
+      "dia_in": 0.0095,
+      "dia_mm": 0.235,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 7 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-7",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 7,
+      "dia_in": 0.0086,
+      "dia_mm": 0.219,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 7 lb",
+      "spool_sizes_yd": [
+        110
+      ],
+      "source_variant_ids": [
+        38126355087539
+      ],
+      "source_skus": [
+        "60073940"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-8",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 8 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.0093,
+      "dia_mm": 0.235,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 8 lb",
+      "spool_sizes_yd": [
+        110
+      ],
+      "source_variant_ids": [
+        38126355153075
+      ],
+      "source_skus": [
+        "60073942"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-9",
+    "old": null,
+    "updated": {
+      "lb": 9,
+      "dia_in": 0.0097,
+      "dia_mm": 0.248,
+      "spool_sizes_yd": [
+        110
+      ],
+      "source_variant_ids": [
+        38126364197043
+      ],
+      "source_skus": [
+        "60073944"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "id": "sunline-shooter-fluorocarbon-9",
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 9 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-10",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.011,
+      "dia_mm": 0.27,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 10 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.0102,
+      "dia_mm": 0.26,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 10 lb",
+      "spool_sizes_yd": [
+        165,
+        660
+      ],
+      "source_variant_ids": [
+        38126355251379,
+        42378431692979
+      ],
+      "source_skus": [
+        "60073946",
+        "63042050"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-12",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.012,
+      "dia_mm": 0.3,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 12 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.0112,
+      "dia_mm": 0.285,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 12 lb",
+      "spool_sizes_yd": [
+        165,
+        660
+      ],
+      "source_variant_ids": [
+        38126355316915,
+        42378433134771
+      ],
+      "source_skus": [
+        "60073948",
+        "63042052"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-14",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-14",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 14,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 14 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-14",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 14,
+      "dia_in": 0.0122,
+      "dia_mm": 0.31,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 14 lb",
+      "spool_sizes_yd": [
+        165,
+        660
+      ],
+      "source_variant_ids": [
+        38126355382451,
+        42378678730931
+      ],
+      "source_skus": [
+        "60073950",
+        "63042054"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-16",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-16",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 16,
+      "dia_in": 0.014,
+      "dia_mm": 0.37,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 16 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-16",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 16,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 16 lb",
+      "spool_sizes_yd": [
+        165,
+        660
+      ],
+      "source_variant_ids": [
+        38126355447987,
+        42378680336563
+      ],
+      "source_skus": [
+        "60073952",
+        "63042056"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-18",
+    "old": null,
+    "updated": {
+      "lb": 18,
+      "dia_in": 0.0138,
+      "dia_mm": 0.35,
+      "spool_sizes_yd": [
+        165,
+        660
+      ],
+      "source_variant_ids": [
+        38126355513523,
+        42378684072115
+      ],
+      "source_skus": [
+        "60073954",
+        "63042058"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "id": "sunline-shooter-fluorocarbon-18",
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 18 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-20",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 20 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.0146,
+      "dia_mm": 0.37,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 20 lb",
+      "spool_sizes_yd": [
+        165,
+        660
+      ],
+      "source_variant_ids": [
+        38126355579059,
+        42378693673139
+      ],
+      "source_skus": [
+        "60073956",
+        "63042060"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-22",
+    "old": null,
+    "updated": {
+      "lb": 22,
+      "dia_in": 0.0159,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        110,
+        660
+      ],
+      "source_variant_ids": [
+        38126355644595,
+        42378699899059
+      ],
+      "source_skus": [
+        "60073958",
+        "63042062"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "id": "sunline-shooter-fluorocarbon-22",
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 22 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-25",
+    "old": {
+      "id": "sunline-shooter-fluorocarbon-25",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 25,
+      "dia_in": 0.018,
+      "dia_mm": 0.435,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline shooter fluorocarbon 25 lb"
+    },
+    "updated": {
+      "id": "sunline-shooter-fluorocarbon-25",
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "lb": 25,
+      "dia_in": 0.0171,
+      "dia_mm": 0.435,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 25 lb",
+      "spool_sizes_yd": [
+        110,
+        660
+      ],
+      "source_variant_ids": [
+        38126355710131,
+        42378730143923
+      ],
+      "source_skus": [
+        "60073960",
+        "63042064"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-fluorocarbon-30",
+    "old": null,
+    "updated": {
+      "lb": 30,
+      "dia_in": 0.0185,
+      "dia_mm": 0.47,
+      "spool_sizes_yd": [
+        110,
+        660
+      ],
+      "source_variant_ids": [
+        38126355808435,
+        42378730406067
+      ],
+      "source_skus": [
+        "60073962",
+        "63042066"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Shooter",
+      "type": "Fluorocarbon",
+      "id": "sunline-shooter-fluorocarbon-30",
+      "product_source_url": "https://sunlineamerica.com/products/shooter-flurocarbon-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Shooter.jpg?v=1744522501",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline shooter fluorocarbon 30 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/shooter-flurocarbon-line"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-8",
+    "old": {
+      "id": "sunline-assassin-fc-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline assassin fc fluorocarbon 8 lb"
+    },
+    "updated": {
+      "id": "sunline-assassin-fc-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.0094,
+      "dia_mm": 0.24,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 8 lb",
+      "spool_sizes_yd": [
+        225,
+        660
+      ],
+      "source_variant_ids": [
+        38061464060083,
+        42378795483315
+      ],
+      "source_skus": [
+        "63042300",
+        "63042460"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-10",
+    "old": {
+      "id": "sunline-assassin-fc-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.011,
+      "dia_mm": 0.27,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline assassin fc fluorocarbon 10 lb"
+    },
+    "updated": {
+      "id": "sunline-assassin-fc-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.0104,
+      "dia_mm": 0.265,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 10 lb",
+      "spool_sizes_yd": [
+        225,
+        660
+      ],
+      "source_variant_ids": [
+        38061464158387,
+        42378796925107
+      ],
+      "source_skus": [
+        "63042302",
+        "63042462"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-12",
+    "old": {
+      "id": "sunline-assassin-fc-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.012,
+      "dia_mm": 0.3,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline assassin fc fluorocarbon 12 lb"
+    },
+    "updated": {
+      "id": "sunline-assassin-fc-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.0116,
+      "dia_mm": 0.295,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 12 lb",
+      "spool_sizes_yd": [
+        225,
+        660,
+        1200
+      ],
+      "source_variant_ids": [
+        38061464256691,
+        42378797285555,
+        45112092295347
+      ],
+      "source_skus": [
+        "63042304",
+        "63042464",
+        "63042674"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-15",
+    "old": {
+      "id": "sunline-assassin-fc-fluorocarbon-15",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 15,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline assassin fc fluorocarbon 15 lb"
+    },
+    "updated": {
+      "id": "sunline-assassin-fc-fluorocarbon-15",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 15,
+      "dia_in": 0.0134,
+      "dia_mm": 0.34,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 15 lb",
+      "spool_sizes_yd": [
+        225,
+        660
+      ],
+      "source_variant_ids": [
+        38061464354995,
+        42378797351091
+      ],
+      "source_skus": [
+        "63042306",
+        "63042466"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-17",
+    "old": {
+      "id": "sunline-assassin-fc-fluorocarbon-17",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 17,
+      "dia_in": 0.014,
+      "dia_mm": 0.37,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline assassin fc fluorocarbon 17 lb"
+    },
+    "updated": {
+      "id": "sunline-assassin-fc-fluorocarbon-17",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 17,
+      "dia_in": 0.0142,
+      "dia_mm": 0.36,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 17 lb",
+      "spool_sizes_yd": [
+        225,
+        660
+      ],
+      "source_variant_ids": [
+        38061464453299,
+        42378797646003
+      ],
+      "source_skus": [
+        "63042307",
+        "63042468"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-20",
+    "old": {
+      "id": "sunline-assassin-fc-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.016,
+      "dia_mm": 0.405,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline assassin fc fluorocarbon 20 lb"
+    },
+    "updated": {
+      "id": "sunline-assassin-fc-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.015,
+      "dia_mm": 0.38,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 20 lb",
+      "spool_sizes_yd": [
+        225,
+        660
+      ],
+      "source_variant_ids": [
+        38061464551603,
+        42378797744307
+      ],
+      "source_skus": [
+        "63042308",
+        "63042470"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-assassin-fc-fluorocarbon-25",
+    "old": null,
+    "updated": {
+      "lb": 25,
+      "dia_in": 0.0163,
+      "dia_mm": 0.415,
+      "spool_sizes_yd": [
+        225,
+        660
+      ],
+      "source_variant_ids": [
+        38061464649907,
+        42378798661811
+      ],
+      "source_skus": [
+        "63042310",
+        "63042472"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Assassin FC",
+      "type": "Fluorocarbon",
+      "id": "sunline-assassin-fc-fluorocarbon-25",
+      "product_source_url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline assassin fc fluorocarbon 25 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sunline-assassin-fc"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-4",
+    "old": null,
+    "updated": {
+      "lb": 4,
+      "dia_in": 0.0065,
+      "dia_mm": 0.165,
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813050163379,
+        41813050196147,
+        41813286715571,
+        41813040070835,
+        41813040103603,
+        42378802364595,
+        38135056105651,
+        38135056171187
+      ],
+      "source_skus": [
+        "63758740",
+        "63758770",
+        "63760710",
+        "63758860",
+        "63758890",
+        "63760740",
+        "63758920",
+        "63758960"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-4",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 4 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-6",
+    "old": {
+      "id": "sunline-super-natural-mono-monofilament-6",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 6,
+      "dia_in": 0.009,
+      "dia_mm": 0.235,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline super natural mono monofilament 6 lb"
+    },
+    "updated": {
+      "id": "sunline-super-natural-mono-monofilament-6",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 6,
+      "dia_in": 0.0081,
+      "dia_mm": 0.205,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 6 lb",
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813050359987,
+        41813050425523,
+        41813050392755,
+        41813286748339,
+        41813040300211,
+        41813040332979,
+        42378802593971,
+        42378803642547,
+        38135056400563,
+        38135056466099,
+        42378809147571
+      ],
+      "source_skus": [
+        "63758742",
+        "63758772",
+        "63758728",
+        "63760712",
+        "63758862",
+        "63758892",
+        "63760742",
+        "63760630",
+        "63758922",
+        "63758962",
+        "63760660"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-8",
+    "old": {
+      "id": "sunline-super-natural-mono-monofilament-8",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 8,
+      "dia_in": 0.01,
+      "dia_mm": 0.26,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline super natural mono monofilament 8 lb"
+    },
+    "updated": {
+      "id": "sunline-super-natural-mono-monofilament-8",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 8,
+      "dia_in": 0.0093,
+      "dia_mm": 0.235,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 8 lb",
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813050622131,
+        41813050687667,
+        41813050654899,
+        41813286781107,
+        41813040529587,
+        41813040562355,
+        42378802725043,
+        42378803970227,
+        38135056695475,
+        38135056761011,
+        42378809508019
+      ],
+      "source_skus": [
+        "63758744",
+        "63758774",
+        "63758730",
+        "63760714",
+        "63758864",
+        "63758894",
+        "63760744",
+        "63760632",
+        "63758924",
+        "63758964",
+        "63760662"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-10",
+    "old": {
+      "id": "sunline-super-natural-mono-monofilament-10",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 10,
+      "dia_in": 0.011,
+      "dia_mm": 0.285,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline super natural mono monofilament 10 lb"
+    },
+    "updated": {
+      "id": "sunline-super-natural-mono-monofilament-10",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 10,
+      "dia_in": 0.0102,
+      "dia_mm": 0.26,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 10 lb",
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813050851507,
+        41813050917043,
+        41813050884275,
+        41813286813875,
+        41813040758963,
+        41813040791731,
+        42378802757811,
+        42378804363443,
+        38135056990387,
+        38135057055923,
+        42378809901235
+      ],
+      "source_skus": [
+        "63758746",
+        "63758776",
+        "63758732",
+        "63760716",
+        "63758866",
+        "63758896",
+        "63760746",
+        "63760634",
+        "63758926",
+        "63758966",
+        "63760664"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-12",
+    "old": {
+      "id": "sunline-super-natural-mono-monofilament-12",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 12,
+      "dia_in": 0.012,
+      "dia_mm": 0.31,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline super natural mono monofilament 12 lb"
+    },
+    "updated": {
+      "id": "sunline-super-natural-mono-monofilament-12",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 12,
+      "dia_in": 0.0112,
+      "dia_mm": 0.285,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 12 lb",
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813051080883,
+        41813051146419,
+        41813051113651,
+        41813286846643,
+        41813040988339,
+        41813041021107,
+        42378802888883,
+        42378804396211,
+        38135057285299,
+        38135057350835,
+        42378811343027
+      ],
+      "source_skus": [
+        "63758748",
+        "63758778",
+        "63758734",
+        "63760718",
+        "63758868",
+        "63758898",
+        "63760748",
+        "63760636",
+        "63758928",
+        "63758968",
+        "63760666"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-14",
+    "old": {
+      "id": "sunline-super-natural-mono-monofilament-14",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 14,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline super natural mono monofilament 14 lb"
+    },
+    "updated": {
+      "id": "sunline-super-natural-mono-monofilament-14",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 14,
+      "dia_in": 0.0122,
+      "dia_mm": 0.31,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 14 lb",
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813051310259,
+        41813051375795,
+        41813051343027,
+        41813286912179,
+        41813041217715,
+        41813041250483,
+        42378803052723,
+        42378804461747,
+        38135057580211,
+        38135057678515,
+        42378811539635
+      ],
+      "source_skus": [
+        "63758750",
+        "63758780",
+        "63758736",
+        "63760720",
+        "63758870",
+        "63758900",
+        "63760750",
+        "63760638",
+        "63758930",
+        "63758970",
+        "63760668"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-16",
+    "old": {
+      "id": "sunline-super-natural-mono-monofilament-16",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 16,
+      "dia_in": 0.014,
+      "dia_mm": 0.37,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline super natural mono monofilament 16 lb"
+    },
+    "updated": {
+      "id": "sunline-super-natural-mono-monofilament-16",
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "lb": 16,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 16 lb",
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813051572403,
+        41813051637939,
+        41813051605171,
+        41813286944947,
+        41813041447091,
+        41813041479859,
+        42378803118259,
+        42378804494515,
+        38135057907891,
+        38135057973427,
+        42378811834547
+      ],
+      "source_skus": [
+        "63758752",
+        "63758782",
+        "63758738",
+        "63760722",
+        "63758872",
+        "63758902",
+        "63760752",
+        "63760640",
+        "63758932",
+        "63758972",
+        "63760670"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-20",
+    "old": null,
+    "updated": {
+      "lb": 20,
+      "dia_in": 0.0146,
+      "dia_mm": 0.37,
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813051801779,
+        41813051834547,
+        41813286977715,
+        41813041643699,
+        41813041676467,
+        42378803151027,
+        38135058202803,
+        38135058268339,
+        38136317935795,
+        38136428331187
+      ],
+      "source_skus": [
+        "63758754",
+        "63758784",
+        "63760724",
+        "63758874",
+        "63758904",
+        "63760754",
+        "63758934",
+        "63758974",
+        "63759578",
+        "63759598"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-20",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 20 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-25",
+    "old": null,
+    "updated": {
+      "lb": 25,
+      "dia_in": 0.0159,
+      "dia_mm": 0.405,
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813051998387,
+        41813052031155,
+        41813287010483,
+        41813041873075,
+        41813041905843,
+        42378803183795,
+        38135058497715,
+        38135058563251
+      ],
+      "source_skus": [
+        "63758756",
+        "63758786",
+        "63760726",
+        "63758876",
+        "63758906",
+        "63760756",
+        "63758936",
+        "63758976"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-25",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 25 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-30",
+    "old": null,
+    "updated": {
+      "lb": 30,
+      "dia_in": 0.0171,
+      "dia_mm": 0.435,
+      "spool_sizes_yd": [
+        330,
+        660,
+        3300
+      ],
+      "source_variant_ids": [
+        41813052194995,
+        41813052227763,
+        41813287043251,
+        41813042069683,
+        41813042102451,
+        42378803314867,
+        38135058825395,
+        38135058890931,
+        38136335335603,
+        38136433377459
+      ],
+      "source_skus": [
+        "63758758",
+        "63758788",
+        "63760728",
+        "63758878",
+        "63758908",
+        "63760758",
+        "63758938",
+        "63758978",
+        "63759580",
+        "63759600"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-30",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 30 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-35",
+    "old": null,
+    "updated": {
+      "lb": 35,
+      "dia_in": 0.0185,
+      "dia_mm": 0.47,
+      "spool_sizes_yd": [
+        3300
+      ],
+      "source_variant_ids": [
+        39719448248499,
+        38136195973299
+      ],
+      "source_skus": [
+        "63758940",
+        "63758980"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-35",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 35 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-40",
+    "old": null,
+    "updated": {
+      "lb": 40,
+      "dia_in": 0.0205,
+      "dia_mm": 0.52,
+      "spool_sizes_yd": [
+        3300
+      ],
+      "source_variant_ids": [
+        38136210522291,
+        38136247255219,
+        38136367153331,
+        38136436424883
+      ],
+      "source_skus": [
+        "63758942",
+        "63758982",
+        "63759582",
+        "63759602"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-40",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 40 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-50",
+    "old": null,
+    "updated": {
+      "lb": 50,
+      "dia_in": 0.0224,
+      "dia_mm": 0.57,
+      "spool_sizes_yd": [
+        3300
+      ],
+      "source_variant_ids": [
+        38136267473075,
+        39719459848371,
+        38136391041203,
+        38136439341235
+      ],
+      "source_skus": [
+        "63758944",
+        "63758984",
+        "63759584",
+        "63759604"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-50",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 50 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-60",
+    "old": null,
+    "updated": {
+      "lb": 60,
+      "dia_in": 0.0244,
+      "dia_mm": 0.62,
+      "spool_sizes_yd": [
+        3300
+      ],
+      "source_variant_ids": [
+        38136285233331,
+        38136409817267,
+        38136445239475
+      ],
+      "source_skus": [
+        "63758946",
+        "63759586",
+        "63759606"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-60",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 60 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-super-natural-mono-monofilament-80",
+    "old": null,
+    "updated": {
+      "lb": 80,
+      "dia_in": 0.028,
+      "dia_mm": 0.7,
+      "spool_sizes_yd": [
+        3300
+      ],
+      "source_variant_ids": [
+        38136423612595,
+        38136448090291
+      ],
+      "source_skus": [
+        "63759588",
+        "63759608"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Super Natural Mono",
+      "type": "Monofilament",
+      "id": "sunline-super-natural-mono-monofilament-80",
+      "product_source_url": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_21addc93-fe55-449c-981d-073e7a2a6288.jpg?v=1744602757",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline super natural mono monofilament 80 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+      "https://sunlineamerica.com/products/super-natural-monofilament"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-8",
+    "old": null,
+    "updated": {
+      "lb": 8,
+      "dia_in": 0.006,
+      "dia_mm": 0.153,
+      "spool_sizes_yd": [
+        600
+      ],
+      "source_variant_ids": [
+        38116706320563,
+        42378813309107
+      ],
+      "source_skus": [
+        "63042078",
+        "63041822"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "id": "sunline-sx1-braid-8",
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 8 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-10",
+    "old": {
+      "id": "sunline-sx1-braid-10",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 10,
+      "dia_in": 0.006,
+      "dia_mm": 0.15,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline sx1 braid 10 lb"
+    },
+    "updated": {
+      "id": "sunline-sx1-braid-10",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 10,
+      "dia_in": 0.0067,
+      "dia_mm": 0.171,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 10 lb",
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116716937395,
+        42378813702323,
+        42378815340723,
+        42378818093235
+      ],
+      "source_skus": [
+        "63042080",
+        "63041824",
+        "63041720",
+        "63041740"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-12",
+    "old": null,
+    "updated": {
+      "lb": 12,
+      "dia_in": 0.0075,
+      "dia_mm": 0.191,
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116756422835,
+        42378814030003,
+        42378815602867,
+        42378817798323,
+        42378818551987
+      ],
+      "source_skus": [
+        "63042082",
+        "63041818",
+        "63041722",
+        "63041810",
+        "63041742"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "id": "sunline-sx1-braid-12",
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 12 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-16",
+    "old": {
+      "id": "sunline-sx1-braid-16",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 16,
+      "dia_in": 0.008,
+      "dia_mm": 0.2,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline sx1 braid 16 lb"
+    },
+    "updated": {
+      "id": "sunline-sx1-braid-16",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 16,
+      "dia_in": 0.0082,
+      "dia_mm": 0.209,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 16 lb",
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116759175347,
+        42378814161075,
+        42378815930547,
+        42378817863859,
+        42378818650291
+      ],
+      "source_skus": [
+        "63042084",
+        "63041820",
+        "63041724",
+        "63041812",
+        "63041744"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-20",
+    "old": {
+      "id": "sunline-sx1-braid-20",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 20,
+      "dia_in": 0.009,
+      "dia_mm": 0.23,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline sx1 braid 20 lb"
+    },
+    "updated": {
+      "id": "sunline-sx1-braid-20",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 20,
+      "dia_in": 0.0095,
+      "dia_mm": 0.242,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 20 lb",
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116762878131,
+        42378815996083,
+        42378818683059
+      ],
+      "source_skus": [
+        "63042086",
+        "63041726",
+        "63041746"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-30",
+    "old": {
+      "id": "sunline-sx1-braid-30",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 30,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline sx1 braid 30 lb"
+    },
+    "updated": {
+      "id": "sunline-sx1-braid-30",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 30,
+      "dia_in": 0.0116,
+      "dia_mm": 0.296,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 30 lb",
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116765302963,
+        42378816290995,
+        42378819043507
+      ],
+      "source_skus": [
+        "63042088",
+        "63041728",
+        "63041748"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-40",
+    "old": {
+      "id": "sunline-sx1-braid-40",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 40,
+      "dia_in": 0.013,
+      "dia_mm": 0.32,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline sx1 braid 40 lb"
+    },
+    "updated": {
+      "id": "sunline-sx1-braid-40",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 40,
+      "dia_in": 0.0135,
+      "dia_mm": 0.342,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 40 lb",
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116767269043,
+        42378816782515,
+        42378819174579
+      ],
+      "source_skus": [
+        "63042090",
+        "63041730",
+        "63041750"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-sx1-braid-50",
+    "old": {
+      "id": "sunline-sx1-braid-50",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 50,
+      "dia_in": 0.014,
+      "dia_mm": 0.36,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline sx1 braid 50 lb"
+    },
+    "updated": {
+      "id": "sunline-sx1-braid-50",
+      "brand": "Sunline",
+      "model": "SX1",
+      "type": "Braid",
+      "lb": 50,
+      "dia_in": 0.015,
+      "dia_mm": 0.382,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline sx1 braid 50 lb",
+      "spool_sizes_yd": [
+        125,
+        250,
+        600
+      ],
+      "source_variant_ids": [
+        38116771299507,
+        42378817011891,
+        42378819207347
+      ],
+      "source_skus": [
+        "63042092",
+        "63041732",
+        "63041752"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/sx1-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_SX1.jpg?v=1744599957"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/sx1-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-8",
+    "old": null,
+    "updated": {
+      "lb": 8,
+      "dia_in": 0.006,
+      "dia_mm": 0.153,
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117563269299,
+        42378830577843,
+        38117563236531,
+        38117563334835,
+        38117563302067,
+        42714759659699
+      ],
+      "source_skus": [
+        "63043240",
+        "63043592",
+        "63043542",
+        "63043260",
+        "63043220",
+        "63043200"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "id": "sunline-xplasma-asegai-braid-8",
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 8 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-10",
+    "old": {
+      "id": "sunline-xplasma-asegai-braid-10",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 10,
+      "dia_in": 0.006,
+      "dia_mm": 0.15,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline xplasma asegai braid 10 lb"
+    },
+    "updated": {
+      "id": "sunline-xplasma-asegai-braid-10",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 10,
+      "dia_in": 0.0067,
+      "dia_mm": 0.171,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 10 lb",
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117563400371,
+        38117563367603,
+        42378830741683,
+        42378828120243,
+        38117563465907,
+        38117563433139
+      ],
+      "source_skus": [
+        "63043242",
+        "63043202",
+        "63043594",
+        "63043544",
+        "63043262",
+        "63043222"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-12",
+    "old": null,
+    "updated": {
+      "lb": 12,
+      "dia_in": 0.0074,
+      "dia_mm": 0.187,
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117563531443,
+        38117563498675,
+        42378831036595,
+        42378828284083,
+        38117563596979,
+        38117563564211
+      ],
+      "source_skus": [
+        "63043244",
+        "63043204",
+        "63043596",
+        "63043546",
+        "63043264",
+        "63043224"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "id": "sunline-xplasma-asegai-braid-12",
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 12 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-16",
+    "old": null,
+    "updated": {
+      "lb": 16,
+      "dia_in": 0.0082,
+      "dia_mm": 0.209,
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117563662515,
+        38117563629747,
+        42378831298739,
+        42378828775603,
+        38117563728051,
+        38117563695283
+      ],
+      "source_skus": [
+        "63043246",
+        "63043206",
+        "63043598",
+        "63043548",
+        "63043266",
+        "63043226"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "id": "sunline-xplasma-asegai-braid-16",
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 16 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-18",
+    "old": null,
+    "updated": {
+      "lb": 18,
+      "dia_in": 0.0088,
+      "dia_mm": 0.223,
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117563793587,
+        38117563760819,
+        42378831462579,
+        42378829562035,
+        38117563859123,
+        38117563826355
+      ],
+      "source_skus": [
+        "63043248",
+        "63043208",
+        "63043600",
+        "63043550",
+        "63043268",
+        "63043228"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "id": "sunline-xplasma-asegai-braid-18",
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 18 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-20",
+    "old": {
+      "id": "sunline-xplasma-asegai-braid-20",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 20,
+      "dia_in": 0.009,
+      "dia_mm": 0.23,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline xplasma asegai braid 20 lb"
+    },
+    "updated": {
+      "id": "sunline-xplasma-asegai-braid-20",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 20,
+      "dia_in": 0.0095,
+      "dia_mm": 0.242,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 20 lb",
+      "spool_sizes_yd": [
+        330
+      ],
+      "source_variant_ids": [
+        42378831495347,
+        42714762805427
+      ],
+      "source_skus": [
+        "63043602",
+        "63043552"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-30",
+    "old": {
+      "id": "sunline-xplasma-asegai-braid-30",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 30,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline xplasma asegai braid 30 lb"
+    },
+    "updated": {
+      "id": "sunline-xplasma-asegai-braid-30",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 30,
+      "dia_in": 0.012,
+      "dia_mm": 0.296,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 30 lb",
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117563957427,
+        42378831724723,
+        42378830086323,
+        38117564022963
+      ],
+      "source_skus": [
+        "63043250",
+        "63043606",
+        "63043556",
+        "63043270"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-50",
+    "old": {
+      "id": "sunline-xplasma-asegai-braid-50",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 50,
+      "dia_in": 0.014,
+      "dia_mm": 0.36,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline xplasma asegai braid 50 lb"
+    },
+    "updated": {
+      "id": "sunline-xplasma-asegai-braid-50",
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "lb": 50,
+      "dia_in": 0.015,
+      "dia_mm": 0.382,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 50 lb",
+      "spool_sizes_yd": [
+        165,
+        330,
+        600
+      ],
+      "source_variant_ids": [
+        38117564088499,
+        42378832052403,
+        42378830282931,
+        38117564154035
+      ],
+      "source_skus": [
+        "63043252",
+        "63043610",
+        "63043560",
+        "63043272"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-60",
+    "old": null,
+    "updated": {
+      "lb": 60,
+      "dia_in": 0.0165,
+      "dia_mm": 0.418,
+      "spool_sizes_yd": [
+        165,
+        600
+      ],
+      "source_variant_ids": [
+        38117564219571,
+        38117564285107
+      ],
+      "source_skus": [
+        "63043254",
+        "63043274"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "id": "sunline-xplasma-asegai-braid-60",
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 60 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-xplasma-asegai-braid-100",
+    "old": null,
+    "updated": {
+      "lb": 100,
+      "dia_in": 0.0213,
+      "dia_mm": 0.54,
+      "spool_sizes_yd": [
+        165,
+        1000
+      ],
+      "source_variant_ids": [
+        42551032971443,
+        42551033168051
+      ],
+      "source_skus": [
+        "63043258",
+        "63043180"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Xplasma Asegai",
+      "type": "Braid",
+      "id": "sunline-xplasma-asegai-braid-100",
+      "product_source_url": "https://sunlineamerica.com/products/xplasma-asegai-braided-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Asegai_84b712f5-dcea-4262-ba7f-0a34efc06c06.jpg?v=1744579527",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline xplasma asegai braid 100 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/xplasma-asegai-braided-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-5",
+    "old": null,
+    "updated": {
+      "lb": 5,
+      "dia_in": 0.0037,
+      "dia_mm": 0.094,
+      "spool_sizes_yd": [
+        165
+      ],
+      "source_variant_ids": [
+        44606110728371
+      ],
+      "source_skus": [
+        "63053480"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-5",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 5 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-6",
+    "old": null,
+    "updated": {
+      "lb": 6,
+      "dia_in": 0.0042,
+      "dia_mm": 0.108,
+      "spool_sizes_yd": [
+        165
+      ],
+      "source_variant_ids": [
+        44606110761139
+      ],
+      "source_skus": [
+        "63053482"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-6",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 6 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-8",
+    "old": null,
+    "updated": {
+      "lb": 8,
+      "dia_in": 0.0048,
+      "dia_mm": 0.121,
+      "spool_sizes_yd": [
+        165
+      ],
+      "source_variant_ids": [
+        44606110793907
+      ],
+      "source_skus": [
+        "63053484"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-8",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 8 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-10",
+    "old": {
+      "id": "sunline-siglon-pe-x8-braid-10",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 10,
+      "dia_in": 0.006,
+      "dia_mm": 0.15,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline siglon pe x8 braid 10 lb"
+    },
+    "updated": {
+      "id": "sunline-siglon-pe-x8-braid-10",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 10,
+      "dia_in": 0.0052,
+      "dia_mm": 0.132,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 10 lb",
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521122995,
+        38126521155763,
+        38126521188531,
+        38126521221299
+      ],
+      "source_skus": [
+        "63053446",
+        "63053486",
+        "63053796",
+        "63053846"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-12",
+    "old": null,
+    "updated": {
+      "lb": 12,
+      "dia_in": 0.006,
+      "dia_mm": 0.153,
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521254067,
+        38126521286835,
+        38126521319603,
+        38126521352371
+      ],
+      "source_skus": [
+        "63053448",
+        "63053488",
+        "63053798",
+        "63053848"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-12",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 12 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-16",
+    "old": null,
+    "updated": {
+      "lb": 16,
+      "dia_in": 0.0067,
+      "dia_mm": 0.171,
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521385139,
+        38126521417907,
+        38126521450675,
+        38126521483443
+      ],
+      "source_skus": [
+        "63053450",
+        "63053490",
+        "63053800",
+        "63053850"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-16",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 16 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-20",
+    "old": {
+      "id": "sunline-siglon-pe-x8-braid-20",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 20,
+      "dia_in": 0.009,
+      "dia_mm": 0.23,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline siglon pe x8 braid 20 lb"
+    },
+    "updated": {
+      "id": "sunline-siglon-pe-x8-braid-20",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 20,
+      "dia_in": 0.0074,
+      "dia_mm": 0.187,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 20 lb",
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521516211,
+        38126521548979,
+        38126521581747,
+        38126521614515
+      ],
+      "source_skus": [
+        "63053452",
+        "63053492",
+        "63053802",
+        "63053852"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-30",
+    "old": {
+      "id": "sunline-siglon-pe-x8-braid-30",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 30,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline siglon pe x8 braid 30 lb"
+    },
+    "updated": {
+      "id": "sunline-siglon-pe-x8-braid-30",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 30,
+      "dia_in": 0.0088,
+      "dia_mm": 0.223,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 30 lb",
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521647283,
+        38126521680051,
+        38126521712819,
+        38126521745587,
+        42550965797043
+      ],
+      "source_skus": [
+        "63053456",
+        "63053496",
+        "63053806",
+        "63053856",
+        "63053760"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-40",
+    "old": {
+      "id": "sunline-siglon-pe-x8-braid-40",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 40,
+      "dia_in": 0.013,
+      "dia_mm": 0.32,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline siglon pe x8 braid 40 lb"
+    },
+    "updated": {
+      "id": "sunline-siglon-pe-x8-braid-40",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 40,
+      "dia_in": 0.0106,
+      "dia_mm": 0.27,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 40 lb",
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521778355,
+        38126521811123,
+        38126521843891,
+        38126521876659,
+        42550965829811
+      ],
+      "source_skus": [
+        "63053460",
+        "63053500",
+        "63053810",
+        "63053860",
+        "63053762"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-50",
+    "old": {
+      "id": "sunline-siglon-pe-x8-braid-50",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 50,
+      "dia_in": 0.014,
+      "dia_mm": 0.36,
+      "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
+      "search_text": "sunline siglon pe x8 braid 50 lb"
+    },
+    "updated": {
+      "id": "sunline-siglon-pe-x8-braid-50",
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "lb": 50,
+      "dia_in": 0.0116,
+      "dia_mm": 0.296,
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 50 lb",
+      "spool_sizes_yd": [
+        165,
+        1980
+      ],
+      "source_variant_ids": [
+        38126521909427,
+        38126521942195,
+        38126521974963,
+        38126522007731,
+        42550965862579
+      ],
+      "source_skus": [
+        "63053462",
+        "63053502",
+        "63053812",
+        "63053862",
+        "63053764"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-60",
+    "old": null,
+    "updated": {
+      "lb": 60,
+      "dia_in": 0.0135,
+      "dia_mm": 0.342,
+      "spool_sizes_yd": [
+        1980
+      ],
+      "source_variant_ids": [
+        38126522106035,
+        38126522138803,
+        42550965895347
+      ],
+      "source_skus": [
+        "63053814",
+        "63053864",
+        "63053766"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-60",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 60 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-80",
+    "old": null,
+    "updated": {
+      "lb": 80,
+      "dia_in": 0.015,
+      "dia_mm": 0.382,
+      "spool_sizes_yd": [
+        1980
+      ],
+      "source_variant_ids": [
+        38126522237107,
+        38126522269875,
+        42550965928115
+      ],
+      "source_skus": [
+        "63053816",
+        "63053866",
+        "63053768"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-80",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 80 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-90",
+    "old": null,
+    "updated": {
+      "lb": 90,
+      "dia_in": 0.0165,
+      "dia_mm": 0.418,
+      "spool_sizes_yd": [
+        1980
+      ],
+      "source_variant_ids": [
+        38126522368179,
+        38126522400947,
+        42550965960883
+      ],
+      "source_skus": [
+        "63053818",
+        "63053868",
+        "63053770"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-90",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 90 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-siglon-pe-x8-braid-100",
+    "old": null,
+    "updated": {
+      "lb": 100,
+      "dia_in": 0.019,
+      "dia_mm": 0.483,
+      "spool_sizes_yd": [
+        1980
+      ],
+      "source_variant_ids": [
+        42720939180211,
+        42720939212979,
+        42720939245747
+      ],
+      "source_skus": [
+        "63053820",
+        "63053870",
+        "63053772"
+      ],
+      "retail_packages": [],
+      "brand": "Sunline",
+      "model": "Siglon PE X8",
+      "type": "Braid",
+      "id": "sunline-siglon-pe-x8-braid-100",
+      "product_source_url": "https://sunlineamerica.com/products/siglon-pex8-line",
+      "diameter_source_url": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Siglon_PE8.jpg?v=1744574064",
+      "source_note": "Verified 2026-09-13. Manufacturer chart inch/mm pairs transcribed separately; assigned SKU variants verify strength-specific package lengths.",
+      "search_text": "sunline siglon pe x8 braid 100 lb"
+    },
+    "sourceUrls": [
+      "https://sunlineamerica.com/products/siglon-pex8-line"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-4",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-4",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 4,
+      "dia_mm": 0.165,
+      "dia_in": 0.006496,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 4 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-4",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 4,
+      "dia_mm": 0.165,
+      "dia_in": 0.006496,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 4 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-5",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-5",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 5,
+      "dia_mm": 0.19,
+      "dia_in": 0.00748,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 5 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-5",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 5,
+      "dia_mm": 0.19,
+      "dia_in": 0.00748,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 5 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-6",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-6",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 6,
+      "dia_mm": 0.205,
+      "dia_in": 0.008071,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 6 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-6",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 6,
+      "dia_mm": 0.205,
+      "dia_in": 0.008071,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 6 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-8",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-8",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 8,
+      "dia_mm": 0.235,
+      "dia_in": 0.009252,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 8 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-8",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 8,
+      "dia_mm": 0.235,
+      "dia_in": 0.009252,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 8 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-10",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-10",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 10,
+      "dia_mm": 0.26,
+      "dia_in": 0.010236,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 10 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-10",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 10,
+      "dia_mm": 0.26,
+      "dia_in": 0.010236,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 10 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-12",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-12",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 12,
+      "dia_mm": 0.285,
+      "dia_in": 0.01122,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 12 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-12",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 12,
+      "dia_mm": 0.285,
+      "dia_in": 0.01122,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 12 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-14",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-14",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 14,
+      "dia_mm": 0.31,
+      "dia_in": 0.012205,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 14 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-14",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 14,
+      "dia_mm": 0.31,
+      "dia_in": 0.012205,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 14 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-16",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-16",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 16,
+      "dia_mm": 0.33,
+      "dia_in": 0.012992,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 16 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-16",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 16,
+      "dia_mm": 0.33,
+      "dia_in": 0.012992,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 16 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-18",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-18",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 18,
+      "dia_mm": 0.35,
+      "dia_in": 0.01378,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 18 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-18",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 18,
+      "dia_mm": 0.35,
+      "dia_in": 0.01378,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 18 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-20",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-20",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 20,
+      "dia_mm": 0.37,
+      "dia_in": 0.014567,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 20 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-20",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 20,
+      "dia_mm": 0.37,
+      "dia_in": 0.014567,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 20 lb",
+      "spool_sizes_yd": [
+        164.04
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 164.04,
+          "meters": 150
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-22",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-22",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 22,
+      "dia_mm": 0.388,
+      "dia_in": 0.015276,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 22 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-22",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 22,
+      "dia_mm": 0.388,
+      "dia_in": 0.015276,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 22 lb",
+      "spool_sizes_yd": [
+        109.36
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 109.36,
+          "meters": 100
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-25",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-25",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 25,
+      "dia_mm": 0.405,
+      "dia_in": 0.015945,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 25 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-25",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 25,
+      "dia_mm": 0.405,
+      "dia_in": 0.015945,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 25 lb",
+      "spool_sizes_yd": [
+        109.36
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 109.36,
+          "meters": 100
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-machinegun-cast-monofilament-30",
+    "old": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-30",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 30,
+      "dia_mm": 0.435,
+      "dia_in": 0.017126,
+      "source_note": "Verified against Sunline's official 2026 Shooter Machinegun Cast strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31894/",
+      "search_text": "sunline shooter machinegun cast monofilament 30 lb machine gun mgc 2026 nylon"
+    },
+    "updated": {
+      "id": "sunline-shooter-machinegun-cast-monofilament-30",
+      "brand": "Sunline",
+      "model": "Shooter Machinegun Cast",
+      "type": "Monofilament",
+      "lb": 30,
+      "dia_mm": 0.435,
+      "dia_in": 0.017126,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter machinegun cast monofilament 30 lb",
+      "spool_sizes_yd": [
+        109.36
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 109.36,
+          "meters": 100
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/line/31894/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/line/31894/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/line/31894/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-3",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-3",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 3,
+      "dia_mm": 0.148,
+      "dia_in": 0.005827,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 3 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-3",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 3,
+      "dia_mm": 0.148,
+      "dia_in": 0.005827,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 3 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-4",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-4",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 4,
+      "dia_mm": 0.165,
+      "dia_in": 0.006496,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 4 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-4",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 4,
+      "dia_mm": 0.165,
+      "dia_in": 0.006496,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 4 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-5",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-5",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 5,
+      "dia_mm": 0.19,
+      "dia_in": 0.00748,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 5 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-5",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 5,
+      "dia_mm": 0.19,
+      "dia_in": 0.00748,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 5 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-6",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-6",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 6,
+      "dia_mm": 0.205,
+      "dia_in": 0.008071,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 6 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-6",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 6,
+      "dia_mm": 0.205,
+      "dia_in": 0.008071,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 6 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-8",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_mm": 0.235,
+      "dia_in": 0.009252,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 8 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-8",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_mm": 0.235,
+      "dia_in": 0.009252,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 8 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-10",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_mm": 0.26,
+      "dia_in": 0.010236,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 10 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-10",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_mm": 0.26,
+      "dia_in": 0.010236,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 10 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-12",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_mm": 0.285,
+      "dia_in": 0.01122,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 12 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-12",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_mm": 0.285,
+      "dia_in": 0.01122,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 12 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-14",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-14",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 14,
+      "dia_mm": 0.31,
+      "dia_in": 0.012205,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 14 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-14",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 14,
+      "dia_mm": 0.31,
+      "dia_in": 0.012205,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 14 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-16",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-16",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 16,
+      "dia_mm": 0.33,
+      "dia_in": 0.012992,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 16 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-16",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 16,
+      "dia_mm": 0.33,
+      "dia_in": 0.012992,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 16 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-18",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-18",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 18,
+      "dia_mm": 0.35,
+      "dia_in": 0.01378,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 18 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-18",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 18,
+      "dia_mm": 0.35,
+      "dia_in": 0.01378,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 18 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-20",
+    "old": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_mm": 0.37,
+      "dia_in": 0.014567,
+      "source_note": "Verified against Sunline's official 2026 Shooter BMS Azayaka FC strength and standard-diameter chart: https://fishing.sunline.co.jp/line/31890/",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 20 lb vivid bite marker system 2026"
+    },
+    "updated": {
+      "id": "sunline-shooter-bms-azayaka-fc-fluorocarbon-20",
+      "brand": "Sunline",
+      "model": "Shooter BMS Azayaka FC",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_mm": 0.37,
+      "dia_in": 0.014567,
+      "source_note": "Verified 2026-09-13. Current JDM product. Inch diameter and yard lengths converted from published metric specifications.",
+      "search_text": "sunline shooter bms azayaka fc fluorocarbon 20 lb",
+      "spool_sizes_yd": [
+        87.49,
+        349.96
+      ],
+      "source_variant_ids": [],
+      "source_skus": [],
+      "retail_packages": [
+        {
+          "yards": 87.49,
+          "meters": 80
+        },
+        {
+          "yards": 349.96,
+          "meters": 320
+        }
+      ],
+      "product_source_url": "https://fishing.sunline.co.jp/english/line/18699/",
+      "diameter_source_url": "https://fishing.sunline.co.jp/english/line/18699/"
+    },
+    "sourceUrls": [
+      "https://fishing.sunline.co.jp/english/line/18699/"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-4",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-4",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 4,
+      "dia_in": 0.007,
+      "dia_mm": 0.18,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 4 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-4",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 4,
+      "dia_in": 0.007,
+      "dia_mm": 0.1778,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 4 lb",
+      "spool_sizes_yd": [
+        200
+      ],
+      "source_variant_ids": [
+        45504543719563
+      ],
+      "source_skus": [
+        "1637443"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-6",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-6",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 6,
+      "dia_in": 0.008,
+      "dia_mm": 0.2,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 6 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-6",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 6,
+      "dia_in": 0.008,
+      "dia_mm": 0.2032,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 6 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543752331,
+        45504544014475
+      ],
+      "source_skus": [
+        "1637444",
+        "1637405"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-8",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-8",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.009,
+      "dia_mm": 0.23,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 8 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-8",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 8,
+      "dia_in": 0.009,
+      "dia_mm": 0.2286,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 8 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543785099,
+        45504544047243
+      ],
+      "source_skus": [
+        "1637445",
+        "1637406"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-10",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-10",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 10 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-10",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 10,
+      "dia_in": 0.01,
+      "dia_mm": 0.254,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 10 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543522955,
+        45504543817867
+      ],
+      "source_skus": [
+        "1637446",
+        "1637407"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-12",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-12",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 12 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-12",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 12,
+      "dia_in": 0.011,
+      "dia_mm": 0.2794,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 12 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543555723,
+        45504543850635
+      ],
+      "source_skus": [
+        "1637447",
+        "1637408"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-15",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-15",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 15,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 15 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-15",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 15,
+      "dia_in": 0.013,
+      "dia_mm": 0.3302,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 15 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543588491,
+        45504543883403
+      ],
+      "source_skus": [
+        "1637448",
+        "1637439"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-17",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-17",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 17,
+      "dia_in": 0.015,
+      "dia_mm": 0.38,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 17 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-17",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 17,
+      "dia_in": 0.015,
+      "dia_mm": 0.381,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 17 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543621259,
+        45504543916171
+      ],
+      "source_skus": [
+        "1637449",
+        "1637440"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-20",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-20",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.016,
+      "dia_mm": 0.41,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 20 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-20",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 20,
+      "dia_in": 0.016,
+      "dia_mm": 0.4064,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 20 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543654027,
+        45504543948939
+      ],
+      "source_skus": [
+        "1637450",
+        "1637441"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  },
+  {
+    "id": "berkley-ginclear-fluorocarbon-25",
+    "old": {
+      "id": "berkley-ginclear-fluorocarbon-25",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 25,
+      "dia_in": 0.017,
+      "dia_mm": 0.43,
+      "source_note": "Official Berkley U.S. product page confirms GINCLEAR fluorocarbon; diameter table retained from existing ReelCalc verified values.",
+      "search_text": "berkley ginclear fluorocarbon 25 lb gin clear fluoro water"
+    },
+    "updated": {
+      "id": "berkley-ginclear-fluorocarbon-25",
+      "brand": "Berkley",
+      "model": "GINCLEAR",
+      "type": "Fluorocarbon",
+      "lb": 25,
+      "dia_in": 0.017,
+      "dia_mm": 0.4318,
+      "source_note": "Verified 2026-09-13. Inch diameters from assigned manufacturer variants. Millimeters converted from inches.",
+      "search_text": "berkley ginclear fluorocarbon 25 lb",
+      "spool_sizes_yd": [
+        200,
+        2000
+      ],
+      "source_variant_ids": [
+        45504543686795,
+        45504543981707
+      ],
+      "source_skus": [
+        "1637451",
+        "1637442"
+      ],
+      "retail_packages": [],
+      "product_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "diameter_source_url": "https://www.berkley-fishing.com/products/ginclear_filler_spool"
+    },
+    "sourceUrls": [
+      "https://www.berkley-fishing.com/products/ginclear_filler_spool",
+      "https://www.berkley-fishing.com/products/ginclear_bulk_spool"
+    ]
+  }
+]

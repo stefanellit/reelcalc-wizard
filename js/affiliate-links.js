@@ -96,6 +96,10 @@
       ? Math.ceil(selectedSpoolYards)
       : recommendedSpoolYards(requiredYards);
     if (!data || !line || !(Number(line.lb) > 0) || !spoolYards) return null;
+    var metricPackage = (Array.isArray(line.retail_packages) ? line.retail_packages : []).find(function(pack) {
+      return Number(pack.meters) > 0 && Math.abs(Number(pack.yards) - selectedSpoolYards) < 0.000001;
+    });
+    if (metricPackage) spoolYards = Number(metricPackage.yards);
 
     var priority = Array.isArray(data.retailerPriority) ? data.retailerPriority : [];
     var strength = Number(line.lb);
@@ -108,7 +112,7 @@
       productName,
       strengthLabel + " lb",
       searchLineType(line.type),
-      spoolYards + " yard spool"
+      metricPackage ? metricPackage.meters + " meter spool" : spoolYards + " yard spool"
     ].filter(Boolean).join(" ");
 
     for (var index = 0; index < priority.length; index += 1) {

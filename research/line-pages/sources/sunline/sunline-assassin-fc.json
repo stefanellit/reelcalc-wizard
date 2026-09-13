@@ -1,0 +1,212 @@
+{
+  "id": "sunline-assassin-fc",
+  "url": "https://sunlineamerica.com/products/sunline-assassin-fc",
+  "retrievedAt": "2026-09-13T01:35:11.262Z",
+  "title": "Assassin FC",
+  "description": "<p>A 100% fluorocarbon line featuring our patented Pion Technology. Assassin is the first product launched in the US featuring Pion Technology. Pion processing improves slickness, abrasion resistance and longevity of your line by chemically altering the line's surface to allow resin processing to bond at a molecular level. This processing increases line performance and allows the line to retain key characteristics longer.<br></p>\n<p><meta charset=\"utf-8\"><strong>LB Test:</strong> 8, 10, 12, 15, 17, 20, 25</p>\n<p><strong>Spool Length:</strong> 225 YD, 660 YD</p>\n<p><strong>Standard Dia. (inch / mm)</strong></p>\n<p><img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350\"></p>\n<p> </p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart1_480x480.jpg?v=1612560924\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart2_480x480.jpg?v=1612560955\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart3_480x480.jpg?v=1612560976\" alt=\"\"></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart4_480x480.jpg?v=1612560998\" alt=\"\"></p>",
+  "descriptionText": "A 100% fluorocarbon line featuring our patented Pion Technology. Assassin is the first product launched in the US featuring Pion Technology. Pion processing improves slickness, abrasion resistance and longevity of your line by chemically altering the line's surface to allow resin processing to bond at a molecular level. This processing increases line performance and allows the line to retain key characteristics longer. LB Test: 8, 10, 12, 15, 17, 20, 25 Spool Length: 225 YD, 660 YD Standard Dia. (inch / mm)",
+  "descriptionImages": [
+    {
+      "alt": "",
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Assassin_70d59b81-431a-4c9f-8f85-836f2f609cdf.jpg?v=1744596350"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart1_480x480.jpg?v=1612560924",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart2_480x480.jpg?v=1612560955",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart3_480x480.jpg?v=1612560976",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/assassin-chart4_480x480.jpg?v=1612560998",
+      "alt": ""
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/assasin__45945.png?v=1615492701",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/assasin2__64618.png?v=1615492701",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Sunline-Assassin-FC-660-10__15628.jpg?v=1615489784",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/AssassinFC_1200yds_10lb__11591.jpg?v=1615489784"
+  ],
+  "options": [
+    {
+      "name": "Test",
+      "position": 1,
+      "values": [
+        "8 LB",
+        "10 LB",
+        "12 LB",
+        "15 LB",
+        "17 LB",
+        "20 LB",
+        "25 LB"
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "225 YD",
+        "660 YD",
+        "1200 YD"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 38061464060083,
+      "sku": "63042300",
+      "title": "8 LB / 225 YD",
+      "options": [
+        "8 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378795483315,
+      "sku": "63042460",
+      "title": "8 LB / 660 YD",
+      "options": [
+        "8 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38061464158387,
+      "sku": "63042302",
+      "title": "10 LB / 225 YD",
+      "options": [
+        "10 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378796925107,
+      "sku": "63042462",
+      "title": "10 LB / 660 YD",
+      "options": [
+        "10 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38061464256691,
+      "sku": "63042304",
+      "title": "12 LB / 225 YD",
+      "options": [
+        "12 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378797285555,
+      "sku": "63042464",
+      "title": "12 LB / 660 YD",
+      "options": [
+        "12 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 45112092295347,
+      "sku": "63042674",
+      "title": "12 LB / 1200 YD",
+      "options": [
+        "12 LB",
+        "1200 YD"
+      ],
+      "available": false
+    },
+    {
+      "id": 38061464354995,
+      "sku": "63042306",
+      "title": "15 LB / 225 YD",
+      "options": [
+        "15 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378797351091,
+      "sku": "63042466",
+      "title": "15 LB / 660 YD",
+      "options": [
+        "15 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38061464453299,
+      "sku": "63042307",
+      "title": "17 LB / 225 YD",
+      "options": [
+        "17 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378797646003,
+      "sku": "63042468",
+      "title": "17 LB / 660 YD",
+      "options": [
+        "17 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38061464551603,
+      "sku": "63042308",
+      "title": "20 LB / 225 YD",
+      "options": [
+        "20 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378797744307,
+      "sku": "63042470",
+      "title": "20 LB / 660 YD",
+      "options": [
+        "20 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38061464649907,
+      "sku": "63042310",
+      "title": "25 LB / 225 YD",
+      "options": [
+        "25 LB",
+        "225 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378798661811,
+      "sku": "63042472",
+      "title": "25 LB / 660 YD",
+      "options": [
+        "25 LB",
+        "660 YD"
+      ],
+      "available": false
+    }
+  ]
+}

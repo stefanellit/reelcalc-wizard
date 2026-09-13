@@ -1372,7 +1372,12 @@
   .rc-line-page.rc-line-gold .rc-table { font-size: 12px; }
   .rc-line-page.rc-line-gold .rc-table th, .rc-line-page.rc-line-gold .rc-table td { padding: 8px 5px; font-size: 12px; }
   .rc-line-page.rc-line-gold .rc-table th:nth-child(1) { width: 23%; }
-  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(1) { width: 37%; }
+  .rc-line-page.rc-line-gold .rc-diameter-chart th:nth-child(2) { width: 27%; }
+  .rc-line-page.rc-line-gold .rc-diameter-chart th:nth-child(3) { width: 21%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(1) { width: 32%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(2) { width: 15%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(3) { width: 27%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(4) { width: 26%; }
   .rc-line-page.rc-line-gold .rc-diameter-matches th:nth-child(1) { width: 70%; }
   .rc-line-page .rc-chart-pick { padding: 5px 0; font-size: 13px; }
 }
@@ -1407,7 +1412,12 @@
   .rc-line-page.rc-line-gold .rc-table { font-size: 12px; }
   .rc-line-page.rc-line-gold .rc-table th, .rc-line-page.rc-line-gold .rc-table td { padding: 8px 5px; font-size: 12px; }
   .rc-line-page.rc-line-gold .rc-table th:nth-child(1) { width: 23%; }
-  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(1) { width: 37%; }
+  .rc-line-page.rc-line-gold .rc-diameter-chart th:nth-child(2) { width: 27%; }
+  .rc-line-page.rc-line-gold .rc-diameter-chart th:nth-child(3) { width: 21%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(1) { width: 32%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(2) { width: 15%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(3) { width: 27%; }
+  .rc-line-page.rc-line-gold .rc-alternatives-table th:nth-child(4) { width: 26%; }
   .rc-line-page.rc-line-gold .rc-diameter-matches th:nth-child(1) { width: 70%; }
   .rc-line-page .rc-chart-pick { padding: 5px 0; font-size: 13px; }
 }

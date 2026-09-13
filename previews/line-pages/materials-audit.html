@@ -22,6 +22,19 @@ const change=(id,value)=>{const e=frame.contentDocument.getElementById(id);e.val
 function layout(){const d=frame.contentDocument,visible=e=>e.getClientRects().length&&!e.closest('[hidden]');const over=[...d.querySelectorAll('main *,main')].filter(visible).filter(e=>{const r=e.getBoundingClientRect();return r.left< -1||r.right>d.documentElement.clientWidth+1;}).map(e=>e.id||e.tagName+'.'+e.className);const controls=[...d.querySelectorAll('a,button,input,select,summary')].filter(visible),overlaps=[];for(let i=0;i<controls.length;i++)for(let j=i+1;j<controls.length;j++){const a=controls[i],b=controls[j];if(a.contains(b)||b.contains(a))continue;const x=a.getBoundingClientRect(),y=b.getBoundingClientRect();if(Math.min(x.right,y.right)-Math.max(x.left,y.left)>1&&Math.min(x.bottom,y.bottom)-Math.max(x.top,y.top)>1)overlaps.push([a.id||a.textContent.slice(0,30),b.id||b.textContent.slice(0,30)]);}const img=d.querySelector('.rc-product-figure img');return{width:frame.contentWindow.innerWidth,overflow:over,overlaps,imageLoaded:!!(img.complete&&img.naturalWidth)};}
 const hosted=new URLSearchParams(location.search).has('hosted');
 const imported=new URLSearchParams(location.search).has('imported');
+function tableTextFits(){
+ const d=frame.contentDocument,spill=[];
+ for(const cell of d.querySelectorAll('table td,table th')){
+  if(!cell.getClientRects().length)continue;
+  const box=cell.getBoundingClientRect(),walker=d.createTreeWalker(cell,frame.contentWindow.NodeFilter.SHOW_TEXT);
+  let node;while(node=walker.nextNode()){
+   if(!node.textContent.trim())continue;
+   const range=d.createRange();range.selectNodeContents(node);
+   for(const r of range.getClientRects())if(r.left<box.left+2||r.right>box.right-2)spill.push(node.textContent.trim());
+  }
+ }
+ return spill;
+}
 const paths=id=>imported ? './'+id+'-imported.html?v=import-audit' : hosted ? './'+id+'-hosted.html?v=hosted-audit' : '../../examples/line-pages/'+id+'.html?v=gold-trio-audit';
 document.getElementById('product').onchange=e=>load(paths(e.target.value));
 document.getElementById('width').onchange=e=>{frame.style.width=e.target.value+'px';};
@@ -49,7 +62,16 @@ document.getElementById('run').onclick=async()=>{
    let cardCount=0,parityCount=0;
    for(const selected of api.state.productLines){
     change('rcStrength',selected.id);
+    const chartRow=d.querySelector('[data-chart-line="'+selected.id+'"]');
+    check('Chart preserves calculation diameter: '+selected.lb+' lb',Number(chartRow.cells[1].textContent)===Number(selected.dia_in)&&Number(chartRow.cells[2].textContent)===Number(selected.dia_mm));
+    check('Selected diameter preserves catalog precision: '+selected.lb+' lb',get('rcSelectedLine').textContent.includes(String(Number(selected.dia_in))+' in'));
     check('Retail spool choices: '+selected.lb+' lb',[...get('rcSpool').options].filter(o=>o.value).map(o=>Number(o.value)).join(',')===selected.spool_sizes_yd.join(','));
+    for(const pack of selected.retail_packages||[]){
+     change('rcSpool',pack.yards);
+     const option=get('rcSpool').selectedOptions[0].textContent;
+     const offer=w.ReelCalcAffiliateLinks.buildRecommendedLineOffer({affiliateData:api.state.affiliateData,line:selected,requiredYards:pack.yards,spoolYards:pack.yards});
+     check('Metric package label and shopping query: '+selected.lb+' lb / '+pack.meters+' m',option.includes(pack.meters+' m')&&new URL(offer.url).searchParams.get('k').includes(pack.meters+' meter spool'));
+    }
     const cards=[...get('rcExamples').querySelectorAll('.rc-capacity-card')];
     let cardsPass=cards.length===p.exampleSetups.length,parityPass=true;
     for(const [i,entry] of p.exampleSetups.entries()){
@@ -138,7 +160,7 @@ document.getElementById('run').onclick=async()=>{
    check('Capacity-only removes backing and fills exact computed capacity',rg('rcBackingControls').hidden&&near(ra.state.lastResult.workingYards,200)&&!ra.state.lastResult.needsBacking&&!rg('rcBackingAffiliateCta'));
    check('Manual full-spool explanation has no stale named reel',rg('rcFullSpoolHelp').textContent.includes('your reel (entered specs)')&&!rg('rcFullSpoolHelp').textContent.includes('Vanford')&&rg('rcResults').textContent.includes('Full-spool amount')&&!rg('rcResults').textContent.includes('Planned main line'));
    for(const group of rd.querySelectorAll('[data-diameter-group]'))group.open=true;
-   for(const width of [320,390,768,1280]){frame.style.width=width+'px';await sleep(100);const measured=layout();check('Responsive layout '+width,!measured.overflow.length&&!measured.overlaps.length&&measured.imageLoaded,measured);}
+   for(const width of [320,390,768,1280]){frame.style.width=width+'px';await sleep(100);const measured=layout();check('Responsive layout '+width,!measured.overflow.length&&!measured.overlaps.length&&measured.imageLoaded,measured);const spill=tableTextFits();check('Table text stays inside its columns '+width,!spill.length,{spill});}
    if(hosted){
     for(const width of [320,640,820]){
      rd.querySelector('main').style.width=width+'px';await sleep(100);

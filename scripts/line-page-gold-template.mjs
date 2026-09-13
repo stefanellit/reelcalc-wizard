@@ -5,8 +5,8 @@ export function buildGoldLinePage(productId, product, records, helpers) {
   const braidPage = /braid/i.test(product.lineType);
   const chart = records.map(line => `<tr data-chart-line="${e(line.id)}">
     <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="${e(line.id)}" aria-label="Use ${e(name)} ${e(line.lb)} lb" aria-pressed="false" disabled>${e(line.lb)} lb</button></th>
-    <td>${Number(line.dia_in).toFixed(3)}</td><td>${Number(line.dia_mm).toFixed(3)}</td>
-    <td>${e((line.spool_sizes_yd || []).join(", "))}</td>
+    <td>${Number(line.dia_in).toFixed(6).replace(/(\.\d{3,}?)0+$/, "$1")}</td><td>${Number(line.dia_mm).toFixed(4).replace(/(\.\d{3})0$/, "$1")}</td>
+    <td>${e((line.spool_sizes_yd || []).map(yards => { const pack = (line.retail_packages || []).find(p => p.yards === yards); return pack ? `${pack.meters} m (about ${yards} yd)` : yards; }).join(", "))}</td>
   </tr>`).join("\n");
   const notes = product.spoolingGuide.map(item => `<div><h3>${e(item.title)}</h3><p>${e(item.text)}</p>${item.url ? `<a href="${e(item.url)}" data-internal-destination="spooling_guide">${e(item.linkText)}</a>` : ""}</div>`).join("\n");
   const strengthGuide = product.strengthGuide.map(text => `<p>${e(text)}</p>`).join("\n");
@@ -87,7 +87,7 @@ export function buildGoldLinePage(productId, product, records, helpers) {
 
   <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
     <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">${e(name)} diameter chart</h2><p>${e(product.chartNote)}</p></div>
-    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">Spools (yd)</th></tr></thead><tbody>${chart}</tbody></table></div>
+    <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">${records.some(line => line.retail_packages?.length) ? "Spools (m / yd)" : "Spools (yd)"}</th></tr></thead><tbody>${chart}</tbody></table></div>
   </div></section>
 
   <section class="rc-section rc-guide-section" id="line-guide" aria-labelledby="guide-title"><div class="rc-line-inner">

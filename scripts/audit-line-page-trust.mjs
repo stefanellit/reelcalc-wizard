@@ -99,7 +99,9 @@ for (const line of selected) for (const spool of line.spool_sizes_yd) {
   const url = new URL(offer.url);
   const query = url.searchParams.get("k") || "";
   check(url.hostname === "www.amazon.com" && !!url.searchParams.get("tag"), `Affiliate tag ${line.id}/${spool}`);
-  check(query.toLowerCase().includes(line.brand.toLowerCase()) && query.includes(String(line.lb)) && query.includes(String(spool)), `Affiliate selection ${line.id}/${spool}`);
+  const pack = (line.retail_packages || []).find(p => p.yards === spool);
+  const packageLabel = pack ? `${pack.meters} meter spool` : `${spool} yard spool`;
+  check(query.toLowerCase().includes(line.brand.toLowerCase()) && query.includes(String(line.lb)) && query.includes(packageLabel), `Affiliate selection ${line.id}/${spool}`);
   offers++;
 }
 

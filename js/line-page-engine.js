@@ -53,6 +53,11 @@
         state.product = payload[0] && payload[0].products ? payload[0].products[productId] : null;
         state.reels = Array.isArray(payload[1]) ? payload[1] : [];
         state.lines = Array.isArray(payload[2]) ? payload[2] : [];
+        // Exclude unverified legacy variants from comparisons and backing choices too.
+        var excludedIds = new Set(Object.values(payload[0].products || {}).reduce(function(ids, product) {
+          return ids.concat(product.excludedLineIds || []);
+        }, []));
+        state.lines = state.lines.filter(function(line) { return !excludedIds.has(line.id); });
         state.affiliateData = payload[3] || null;
         if (!state.product) throw new Error("The requested line-page product configuration is missing.");
         prepareData();
@@ -406,7 +411,8 @@
       var spools = offeredSpools(state.selectedLine);
       if (spools.indexOf(state.selectedSpoolYards) < 0) state.selectedSpoolYards = spools[0] || 0;
       fillSelect(el.spool, spools.map(function(yards) {
-        return { value: String(yards), label: formatYards(yards) + " retail spool" };
+        var pack = (state.selectedLine.retail_packages || []).find(function(item) { return item.yards === yards; });
+        return { value: String(yards), label: (pack ? pack.meters + " m (about " + formatYards(yards) + ")" : formatYards(yards)) + " retail spool" };
       }), "No verified spool length", String(state.selectedSpoolYards || ""));
       el.spool.options[0].disabled = spools.length > 0;
     }
@@ -824,10 +830,10 @@
     }
 
     function practicalCompatibilityNote(reel, line, capacity) {
-      if (capacity < 50) return "This is a low-capacity pairing. A thinner line or larger reel may be more manageable for many applications.";
+      var material = isBraid(line) ? "braid" : normalizedType(line.type) === "monofilament" ? "mono" : "fluorocarbon";
+      if (capacity < 50) return "This " + material + " leaves limited capacity on this reel. A suitable thinner line or larger reel may provide a more useful working length.";
       if (capacity > 1000) return "This is a very high-capacity pairing. A shorter working fill over backing can avoid buying unnecessary premium line.";
       if (!isBraid(line) && isSpinningReel(reel) && Number(line.lb) >= 15 && numericSizeClass(reel) <= 3000) {
-        var material = normalizedType(line.type) === "monofilament" ? "mono" : "fluorocarbon";
         return "This " + material + " fits by volume, but heavier " + material + " can be harder to manage on a compact spinning spool.";
       }
       return "Wind under firm, even tension and stop at the reel manufacturer's recommended fill level.";
@@ -890,7 +896,7 @@
           return '<details class="rc-diameter-group" data-diameter-group="' + group.key + '"' + (group === firstGroup && group.lines.length <= 6 ? ' open' : '') +
             '><summary>' + label + '</summary><table class="rc-table rc-diameter-matches"><caption>' + cleanNumber(selected.lb, 0) + ' lb lines compared with ' + escapeHtml(lineLabel(selected)) +
             '</caption><thead><tr><th scope="col">Line</th><th scope="col">Listed diameter</th></tr></thead><tbody>' + group.lines.map(function(line) {
-              return '<tr data-comparable-line="' + escapeHtml(line.id) + '"><td>' + escapeHtml(line.brand + " " + line.model) + '</td><td>' + cleanNumber(line.dia_in, 3) + ' in</td></tr>';
+              return '<tr data-comparable-line="' + escapeHtml(line.id) + '"><td>' + escapeHtml(line.brand + " " + line.model) + '</td><td>' + cleanNumber(line.dia_in, 6) + ' in</td></tr>';
             }).join("") + '</tbody></table></details>';
         }).join("") + '<p class="rc-table-note">Grouped by listed inch diameter, not independent measurements. Matching diameters do not guarantee identical strength or performance.</p>';
       el.diameterSummary.innerHTML = summary;
@@ -898,7 +904,7 @@
       var alternatives = nearestAlternatives(selected, 6);
       el.alternatives.innerHTML = alternatives.length ? alternatives.map(function(line) {
         var difference = Math.abs(Number(line.dia_in) - Number(selected.dia_in));
-        return "<tr><td><strong>" + escapeHtml(line.brand + " " + line.model) + '</strong></td><td class="rc-number">' + cleanNumber(line.lb, 0) + ' lb</td><td class="rc-number">' + cleanNumber(line.dia_in, 3) + ' in</td><td class="rc-number">' + (difference < 1e-10 ? "Same" : difference < 0.00005 ? "Nearly the same" : cleanNumber(difference, 4) + " in") + "</td></tr>";
+        return "<tr><td><strong>" + escapeHtml(line.brand + " " + line.model) + '</strong></td><td class="rc-number">' + cleanNumber(line.lb, 0) + ' lb</td><td class="rc-number">' + cleanNumber(line.dia_in, 6) + ' in</td><td class="rc-number">' + (difference < 1e-10 ? "Same" : difference < 0.00005 ? "Nearly the same" : cleanNumber(difference, 6) + " in") + "</td></tr>";
       }).join("") : '<tr><td colspan="4">No useful same-category diameter matches are available.</td></tr>';
     }
 
@@ -1290,7 +1296,7 @@
     function formatDiameter(line) {
       var inches = Number(line && line.dia_in);
       var mm = Number(line && line.dia_mm) || inches * 25.4;
-      return cleanNumber(inches, 3) + " in / " + cleanNumber(mm, 3) + " mm";
+      return cleanNumber(inches, 6) + " in / " + cleanNumber(mm, 4) + " mm";
     }
 
     function formatYards(value) {

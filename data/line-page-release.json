@@ -1,5 +1,5 @@
 {
-  "version": "5",
+  "version": "6",
   "products": [
     "powerpro-spectra",
     "seaguar-invizx",
@@ -10,7 +10,17 @@
     "seaguar-smackdown",
     "seaguar-brawlr",
     "seaguar-jdm-r18-mainline",
-    "seaguar-jdm-pex8-micro-braid"
+    "seaguar-jdm-pex8-micro-braid",
+    "sunline-fc-sniper",
+    "sunline-shooter",
+    "sunline-assassin-fc",
+    "sunline-super-natural-mono",
+    "sunline-sx1",
+    "sunline-xplasma-asegai",
+    "sunline-siglon-pe-x8",
+    "sunline-shooter-machinegun-cast",
+    "sunline-shooter-bms-azayaka-fc",
+    "berkley-ginclear"
   ],
   "publishedProducts": [
     "powerpro-spectra",

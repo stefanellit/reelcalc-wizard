@@ -1,0 +1,408 @@
+{
+  "id": "sunline-super-natural-660",
+  "url": "https://sunlineamerica.com/products/copy-of-super-natural-monofilament",
+  "retrievedAt": "2026-09-13T01:35:11.567Z",
+  "title": "Super Natural Monofilament - 660 YD Spool",
+  "description": "<p>UV-R processing to protect nylon from harmful UV rays. Supple, easy to handle. Moderate stretch minimizes shock. Uniform line diameter. Low memory due to truly round cross section.</p>\n<p><strong></strong><strong>Spool Length | Color | LB Test</strong><br></p>\n<p>660 YD | Natural Clear | 4, 6, 8, 10, 12, 14, 16, 20, 25, 30<br>660 YD | Jungle Green |<span> 4, 6, 8, 10, 12, 14, 16, 20, 25, 30<br></span><span>660 YD | Hi-Vis Yellow | 4, 6, 8, 10, 12, 14, 16, 20, 25, 30<br></span><span>660 YD | Orange | 6, 8, 10, 12, 14, 16</span></p>\n<p><strong>Standard Dia. (inch / mm)</strong></p>\n<p><strong><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_330.jpg?v=1744525189\" alt=\"\"></strong></p>",
+  "descriptionText": "UV-R processing to protect nylon from harmful UV rays. Supple, easy to handle. Moderate stretch minimizes shock. Uniform line diameter. Low memory due to truly round cross section. Spool Length | Color | LB Test 660 YD | Natural Clear | 4, 6, 8, 10, 12, 14, 16, 20, 25, 30 660 YD | Jungle Green | 4, 6, 8, 10, 12, 14, 16, 20, 25, 30 660 YD | Hi-Vis Yellow | 4, 6, 8, 10, 12, 14, 16, 20, 25, 30 660 YD | Orange | 6, 8, 10, 12, 14, 16 Standard Dia. (inch / mm)",
+  "descriptionImages": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_Super_Natu_330.jpg?v=1744525189",
+      "alt": ""
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Super-Natural-660-12_-Clear.jpg?v=1658257686",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/products/Super-Natural-660-12_-Green.jpg?v=1658257724"
+  ],
+  "options": [
+    {
+      "name": "Test",
+      "position": 1,
+      "values": [
+        "4 LB",
+        "6 LB",
+        "8 LB",
+        "10 LB",
+        "12 LB",
+        "14 LB",
+        "16 LB",
+        "20 LB",
+        "25 LB",
+        "30 LB"
+      ]
+    },
+    {
+      "name": "Color",
+      "position": 2,
+      "values": [
+        "Natural Clear",
+        "Jungle Green",
+        "Hi-Vis Yellow",
+        "Orange"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 41813040070835,
+      "sku": "63758860",
+      "title": "4 LB / Natural Clear",
+      "options": [
+        "4 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040300211,
+      "sku": "63758862",
+      "title": "6 LB / Natural Clear",
+      "options": [
+        "6 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040529587,
+      "sku": "63758864",
+      "title": "8 LB / Natural Clear",
+      "options": [
+        "8 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040758963,
+      "sku": "63758866",
+      "title": "10 LB / Natural Clear",
+      "options": [
+        "10 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040988339,
+      "sku": "63758868",
+      "title": "12 LB / Natural Clear",
+      "options": [
+        "12 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041217715,
+      "sku": "63758870",
+      "title": "14 LB / Natural Clear",
+      "options": [
+        "14 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041447091,
+      "sku": "63758872",
+      "title": "16 LB / Natural Clear",
+      "options": [
+        "16 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041643699,
+      "sku": "63758874",
+      "title": "20 LB / Natural Clear",
+      "options": [
+        "20 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041873075,
+      "sku": "63758876",
+      "title": "25 LB / Natural Clear",
+      "options": [
+        "25 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813042069683,
+      "sku": "63758878",
+      "title": "30 LB / Natural Clear",
+      "options": [
+        "30 LB",
+        "Natural Clear"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040103603,
+      "sku": "63758890",
+      "title": "4 LB / Jungle Green",
+      "options": [
+        "4 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040332979,
+      "sku": "63758892",
+      "title": "6 LB / Jungle Green",
+      "options": [
+        "6 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040562355,
+      "sku": "63758894",
+      "title": "8 LB / Jungle Green",
+      "options": [
+        "8 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813040791731,
+      "sku": "63758896",
+      "title": "10 LB / Jungle Green",
+      "options": [
+        "10 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041021107,
+      "sku": "63758898",
+      "title": "12 LB / Jungle Green",
+      "options": [
+        "12 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041250483,
+      "sku": "63758900",
+      "title": "14 LB / Jungle Green",
+      "options": [
+        "14 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041479859,
+      "sku": "63758902",
+      "title": "16 LB / Jungle Green",
+      "options": [
+        "16 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041676467,
+      "sku": "63758904",
+      "title": "20 LB / Jungle Green",
+      "options": [
+        "20 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813041905843,
+      "sku": "63758906",
+      "title": "25 LB / Jungle Green",
+      "options": [
+        "25 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 41813042102451,
+      "sku": "63758908",
+      "title": "30 LB / Jungle Green",
+      "options": [
+        "30 LB",
+        "Jungle Green"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378802364595,
+      "sku": "63760740",
+      "title": "4 LB / Hi-Vis Yellow",
+      "options": [
+        "4 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378802593971,
+      "sku": "63760742",
+      "title": "6 LB / Hi-Vis Yellow",
+      "options": [
+        "6 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378802725043,
+      "sku": "63760744",
+      "title": "8 LB / Hi-Vis Yellow",
+      "options": [
+        "8 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378802757811,
+      "sku": "63760746",
+      "title": "10 LB / Hi-Vis Yellow",
+      "options": [
+        "10 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378802888883,
+      "sku": "63760748",
+      "title": "12 LB / Hi-Vis Yellow",
+      "options": [
+        "12 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803052723,
+      "sku": "63760750",
+      "title": "14 LB / Hi-Vis Yellow",
+      "options": [
+        "14 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803118259,
+      "sku": "63760752",
+      "title": "16 LB / Hi-Vis Yellow",
+      "options": [
+        "16 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803151027,
+      "sku": "63760754",
+      "title": "20 LB / Hi-Vis Yellow",
+      "options": [
+        "20 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803183795,
+      "sku": "63760756",
+      "title": "25 LB / Hi-Vis Yellow",
+      "options": [
+        "25 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803314867,
+      "sku": "63760758",
+      "title": "30 LB / Hi-Vis Yellow",
+      "options": [
+        "30 LB",
+        "Hi-Vis Yellow"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803642547,
+      "sku": "63760630",
+      "title": "6 LB / Orange",
+      "options": [
+        "6 LB",
+        "Orange"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378803970227,
+      "sku": "63760632",
+      "title": "8 LB / Orange",
+      "options": [
+        "8 LB",
+        "Orange"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378804363443,
+      "sku": "63760634",
+      "title": "10 LB / Orange",
+      "options": [
+        "10 LB",
+        "Orange"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378804396211,
+      "sku": "63760636",
+      "title": "12 LB / Orange",
+      "options": [
+        "12 LB",
+        "Orange"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378804461747,
+      "sku": "63760638",
+      "title": "14 LB / Orange",
+      "options": [
+        "14 LB",
+        "Orange"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378804494515,
+      "sku": "63760640",
+      "title": "16 LB / Orange",
+      "options": [
+        "16 LB",
+        "Orange"
+      ],
+      "available": true
+    }
+  ]
+}

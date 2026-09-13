@@ -1,0 +1,448 @@
+{
+  "id": "sunline-fc-sniper",
+  "url": "https://sunlineamerica.com/products/super-fc-sniper-1",
+  "retrievedAt": "2026-09-13T01:35:10.964Z",
+  "title": "FC  Sniper",
+  "description": "<p>FC Sniper is Sunline America's best selling product for a reason. Our pros love Sniper for its' versatility and manageability. Sniper is a great choice for spinning or casting tackle. It features triple resin processing to give it high abrasion resistance, low memory, suppleness, long life and uniform line diameter.  Available from 2-14 LB in 200 YD spool/16-30 LB in 165 YD spool. 2-5 LB tests are popular with light line anglers, while 5-7 LB tests are popular with finesse bass anglers particularly drop shot and shakey head anglers. 7 LB is the best selling size for spinning reels. It is a unique size and not available from most other companies. The pros favor it for its combination of strength and how well it performs on spinning reels. Larger sizes perform well for all baitcasters.</p>\n<p><strong></strong><strong>Spool Length | LB Test</strong></p>\n<p><meta charset=\"utf-8\">200 YD | <meta charset=\"utf-8\"><span>2, 3, 4, 5, 6, 7, 8, 10, 12, 14<br></span>165 YD | <meta charset=\"utf-8\"><span>16, 18, 20, 25, 30<br></span>660 YD | <meta charset=\"utf-8\"><span>5, 6, 7, 8, 10, 12, 14, 16, 18, 20, 25, 30<br></span>1200 YD | <meta charset=\"utf-8\"><span>5, 6, 7, 8, 10, 12, 14, 16, 18, 20, 25, 30</span></p>\n<p><strong>Standard Dia. (inch / mm)</strong></p>\n<p><strong><img><img src=\"https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835\" alt=\"\" width=\"597\" height=\"255\"></strong></p>\n<p> </p>\n<p> </p>\n<p> </p>",
+  "descriptionText": "FC Sniper is Sunline America's best selling product for a reason. Our pros love Sniper for its' versatility and manageability. Sniper is a great choice for spinning or casting tackle. It features triple resin processing to give it high abrasion resistance, low memory, suppleness, long life and uniform line diameter. Available from 2-14 LB in 200 YD spool/16-30 LB in 165 YD spool. 2-5 LB tests are popular with light line anglers, while 5-7 LB tests are popular with finesse bass anglers particularly drop shot and shakey head anglers. 7 LB is the best selling size for spinning reels. It is a unique size and not available from most other companies. The pros favor it for its combination of strength and how well it performs on spinning reels. Larger sizes perform well for all baitcasters. Spool Length | LB Test 200 YD | 2, 3, 4, 5, 6, 7, 8, 10, 12, 14 165 YD | 16, 18, 20, 25, 30 660 YD | 5, 6, 7, 8, 10, 12, 14, 16, 18, 20, 25, 30 1200 YD | 5, 6, 7, 8, 10, 12, 14, 16, 18, 20, 25, 30 Standard Dia. (inch / mm)",
+  "descriptionImages": [
+    {},
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0532/9777/4771/files/Dia_FC_Sniper.jpg?v=1744522835",
+      "alt": "",
+      "width": "597",
+      "height": "255"
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/files/Sniper_14lb_200yd_package.jpg?v=1775849191",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/files/FC_Sniper_14lb_660yd_box.jpg?v=1775849201",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/files/FC_Sniper_14lb_660yd_bobbin.jpg?v=1775849546",
+    "//cdn.shopify.com/s/files/1/0532/9777/4771/files/FC_Sniper_14lb_1200yd_bobbin.jpg?v=1775849546"
+  ],
+  "options": [
+    {
+      "name": "Test",
+      "position": 1,
+      "values": [
+        "2 LB",
+        "3 LB",
+        "4 LB",
+        "5 LB",
+        "6 LB",
+        "7 LB",
+        "8 LB",
+        "10 LB",
+        "12 LB",
+        "14 LB",
+        "16 LB",
+        "18 LB",
+        "20 LB",
+        "25 LB",
+        "30 LB"
+      ]
+    },
+    {
+      "name": "Spool Length",
+      "position": 2,
+      "values": [
+        "200 YD",
+        "660 YD",
+        "1200 YD",
+        "165 YD"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 38108595585203,
+      "sku": "63038900",
+      "title": "2 LB / 200 YD",
+      "options": [
+        "2 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108595716275,
+      "sku": "63038902",
+      "title": "3 LB / 200 YD",
+      "options": [
+        "3 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108595847347,
+      "sku": "63038904",
+      "title": "4 LB / 200 YD",
+      "options": [
+        "4 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108595978419,
+      "sku": "63038906",
+      "title": "5 LB / 200 YD",
+      "options": [
+        "5 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378788470963,
+      "sku": "63039814",
+      "title": "5 LB / 660 YD",
+      "options": [
+        "5 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596076723,
+      "sku": "63038936",
+      "title": "5 LB / 1200 YD",
+      "options": [
+        "5 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596109491,
+      "sku": "63038908",
+      "title": "6 LB / 200 YD",
+      "options": [
+        "6 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378789355699,
+      "sku": "63039816",
+      "title": "6 LB / 660 YD",
+      "options": [
+        "6 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596207795,
+      "sku": "63038938",
+      "title": "6 LB / 1200 YD",
+      "options": [
+        "6 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596240563,
+      "sku": "63038910",
+      "title": "7 LB / 200 YD",
+      "options": [
+        "7 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378789486771,
+      "sku": "63039818",
+      "title": "7 LB / 660 YD",
+      "options": [
+        "7 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596338867,
+      "sku": "63038940",
+      "title": "7 LB / 1200 YD",
+      "options": [
+        "7 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596371635,
+      "sku": "63038912",
+      "title": "8 LB / 200 YD",
+      "options": [
+        "8 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378789552307,
+      "sku": "63039820",
+      "title": "8 LB / 660 YD",
+      "options": [
+        "8 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596469939,
+      "sku": "63038942",
+      "title": "8 LB / 1200 YD",
+      "options": [
+        "8 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596502707,
+      "sku": "63038914",
+      "title": "10 LB / 200 YD",
+      "options": [
+        "10 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378791551155,
+      "sku": "63039822",
+      "title": "10 LB / 660 YD",
+      "options": [
+        "10 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596601011,
+      "sku": "63038944",
+      "title": "10 LB / 1200 YD",
+      "options": [
+        "10 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596633779,
+      "sku": "63038916",
+      "title": "12 LB / 200 YD",
+      "options": [
+        "12 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378792108211,
+      "sku": "63039824",
+      "title": "12 LB / 660 YD",
+      "options": [
+        "12 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596732083,
+      "sku": "63038946",
+      "title": "12 LB / 1200 YD",
+      "options": [
+        "12 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596764851,
+      "sku": "63038918",
+      "title": "14 LB / 200 YD",
+      "options": [
+        "14 LB",
+        "200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378792435891,
+      "sku": "63039826",
+      "title": "14 LB / 660 YD",
+      "options": [
+        "14 LB",
+        "660 YD"
+      ],
+      "available": false
+    },
+    {
+      "id": 38108596863155,
+      "sku": "63038948",
+      "title": "14 LB / 1200 YD",
+      "options": [
+        "14 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596928691,
+      "sku": "63038920",
+      "title": "16 LB / 165 YD",
+      "options": [
+        "16 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378792665267,
+      "sku": "63039828",
+      "title": "16 LB / 660 YD",
+      "options": [
+        "16 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108596994227,
+      "sku": "63038950",
+      "title": "16 LB / 1200 YD",
+      "options": [
+        "16 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108597059763,
+      "sku": "63038921",
+      "title": "18 LB / 165 YD",
+      "options": [
+        "18 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378792861875,
+      "sku": "63039829",
+      "title": "18 LB / 660 YD",
+      "options": [
+        "18 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108597125299,
+      "sku": "63038951",
+      "title": "18 LB / 1200 YD",
+      "options": [
+        "18 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108597190835,
+      "sku": "63038922",
+      "title": "20 LB / 165 YD",
+      "options": [
+        "20 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378792960179,
+      "sku": "63039830",
+      "title": "20 LB / 660 YD",
+      "options": [
+        "20 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108597256371,
+      "sku": "63038952",
+      "title": "20 LB / 1200 YD",
+      "options": [
+        "20 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108597321907,
+      "sku": "63038924",
+      "title": "25 LB / 165 YD",
+      "options": [
+        "25 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42378793222323,
+      "sku": "63039832",
+      "title": "25 LB / 660 YD",
+      "options": [
+        "25 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 38108597387443,
+      "sku": "63038954",
+      "title": "25 LB / 1200 YD",
+      "options": [
+        "25 LB",
+        "1200 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42714699137203,
+      "sku": "63038926",
+      "title": "30 LB / 165 YD",
+      "options": [
+        "30 LB",
+        "165 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42714696941747,
+      "sku": "63039834",
+      "title": "30 LB / 660 YD",
+      "options": [
+        "30 LB",
+        "660 YD"
+      ],
+      "available": true
+    },
+    {
+      "id": 42714699399347,
+      "sku": "63038956",
+      "title": "30 LB / 1200 YD",
+      "options": [
+        "30 LB",
+        "1200 YD"
+      ],
+      "available": true
+    }
+  ]
+}
