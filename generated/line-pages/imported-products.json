@@ -118,7 +118,13 @@
     "p-line-tactical-fluorocarbon",
     "p-line-halo-fluorocarbon",
     "p-line-endurx-braid",
-    "p-line-tcb-8-braid"
+    "p-line-tcb-8-braid",
+    "kastking-superpower-braid",
+    "kastking-destron-monofilament",
+    "spiderwire-durabraid",
+    "spiderwire-ez-braid",
+    "sunline-kantan-cast-braid-x8",
+    "strike-king-contra-braid"
   ],
   "importBatches": [
     {
@@ -229,6 +235,97 @@
           "nativeVariantId": "cd9a287c-e60d-4fb2-9d27-698c1077c79c",
           "sku": "RCL379A508156EFB3E4E",
           "url": "https://www.reelcalc.com/lines/p/p-line-tcb-8-braid-diameter-capacity-guide"
+        }
+      }
+    },
+    {
+      "id": "recovery-round2-ready",
+      "ids": [
+        "kastking-superpower-braid",
+        "kastking-destron-monofilament",
+        "spiderwire-durabraid",
+        "spiderwire-ez-braid",
+        "sunline-kantan-cast-braid-x8",
+        "strike-king-contra-braid"
+      ],
+      "proofFile": "reports/recovery-launch-operations/actual-import.json",
+      "proofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "importedAt": null,
+      "observedAt": "2026-09-13T20:19:26.736Z",
+      "importFile": "generated/line-pages/UPLOAD-THIS-6-new-line-guides.csv",
+      "importFileSha256": "5e8c2435b9d6f4f83f01107b376c282025a0ceec19e617d9f8740d06a4ca56f5",
+      "performedBy": "user",
+      "receipt": null,
+      "importObservedAt": "2026-09-13T20:12:35.076Z",
+      "importedAtBounds": {
+        "notBefore": "2026-09-13T19:09:46.000Z",
+        "noLaterThan": "2026-09-13T20:12:35.076Z"
+      },
+      "userConfirmation": {
+        "statement": "ok its done",
+        "evidence": {
+          "file": "reports/recovery-launch-operations/actual-user-import-confirmation.json",
+          "sha256": "0d77f1306f3056e3362c8db17cc02c4fea18c66446e893e688338adf2743adf1"
+        }
+      },
+      "postImportObservation": {
+        "observedBy": "main-agent",
+        "observedAt": "2026-09-13T20:12:35.076Z",
+        "productCount": 1039,
+        "hiddenProductIds": [
+          "kastking-superpower-braid",
+          "kastking-destron-monofilament",
+          "spiderwire-durabraid",
+          "spiderwire-ez-braid",
+          "sunline-kantan-cast-braid-x8",
+          "strike-king-contra-braid"
+        ],
+        "evidence": {
+          "file": "reports/recovery-launch-operations/browser/actual-native-six-readonly.json",
+          "sha256": "8df4cc349d82c05fce0f085cf09ed9a8b505737606b0334f98225ed540df4633"
+        }
+      },
+      "reconciliation": {
+        "file": "reports/recovery-launch-operations/native-reconciliation.json",
+        "sha256": "5c0f77cfca04679c2fced775622721d20339da14ae6b50ecd21a4fce7caaf55e"
+      },
+      "nativeProducts": {
+        "kastking-superpower-braid": {
+          "nativeProductId": "6aa701bfd283af45512f94a5",
+          "nativeVariantId": "f7004333-2498-4a54-9b90-3bb41607d953",
+          "sku": "RCLA637D61E649090999",
+          "url": "https://www.reelcalc.com/lines/p/kastking-superpower-braid-diameter-capacity-guide"
+        },
+        "kastking-destron-monofilament": {
+          "nativeProductId": "6aa701c149562a30b2877991",
+          "nativeVariantId": "21333be6-f7e4-4bdc-8fec-1b2dc5e83c79",
+          "sku": "RCLE4C558737BD116B05",
+          "url": "https://www.reelcalc.com/lines/p/kastking-destron-monofilament-diameter-capacity-guide"
+        },
+        "spiderwire-durabraid": {
+          "nativeProductId": "6aa701b8b820843cee91d0c5",
+          "nativeVariantId": "f96a40a8-eb44-4dae-beb2-d675e82291d5",
+          "sku": "RCLCFD9DF9B2AB168354",
+          "url": "https://www.reelcalc.com/lines/p/spiderwire-durabraid-diameter-capacity-guide"
+        },
+        "spiderwire-ez-braid": {
+          "nativeProductId": "6aa701bb49562a30b2877988",
+          "nativeVariantId": "ad934ab2-7e84-41cc-a6c3-bc219835a672",
+          "sku": "RCLAD4CB8BAA671F6D4B",
+          "url": "https://www.reelcalc.com/lines/p/spiderwire-ez-braid-diameter-capacity-guide"
+        },
+        "sunline-kantan-cast-braid-x8": {
+          "nativeProductId": "6aa701b6b820843cee91d0c3",
+          "nativeVariantId": "bfbb9aa1-bf98-4851-a33a-735690fee91c",
+          "sku": "RCL181D279F00E7B98D4",
+          "url": "https://www.reelcalc.com/lines/p/sunline-kantan-cast-braid-x8-braid-diameter-capacity-guide"
+        },
+        "strike-king-contra-braid": {
+          "nativeProductId": "6aa701bdd283af45512f94a1",
+          "nativeVariantId": "df7051ac-f5ec-4279-ae03-8ecbda337e51",
+          "sku": "RCL139C934E7AA8433D1",
+          "url": "https://www.reelcalc.com/lines/p/strike-king-contra-braid-diameter-capacity-guide"
         }
       }
     }

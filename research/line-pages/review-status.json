@@ -3867,7 +3867,7 @@
     }
   },
   "sunline-kantan-cast-braid-x8": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
     "sourcePackSha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
@@ -3893,10 +3893,27 @@
       ],
       "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
       "gate": "reports/recovery-launch-operations/browser-gate.json"
+    },
+    "publishedAt": "2026-09-13T20:33:22.035Z",
+    "publication": {
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/recovery-launch-operations/actual-live.json",
+      "proofSha256": "5def7d45ac4b60c4ce91e848288e27b704c61647592c05420c3bb3bd43b496a1",
+      "ledgerEntrySha256": "7f7860319852e9bde624d2167807ed18b768a12bcf1a0865d517c56e555a49f0",
+      "importProofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "url": "https://www.reelcalc.com/lines/p/sunline-kantan-cast-braid-x8-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa701b6b820843cee91d0c3",
+      "nativeVariantId": "bfbb9aa1-bf98-4851-a33a-735690fee91c",
+      "liveProductSha256": "2e15416dd855c062fb8994d52bd3efbff665d00abe8be2406cbd1be3fd601fc4",
+      "currentLocalProductSha256": "2e15416dd855c062fb8994d52bd3efbff665d00abe8be2406cbd1be3fd601fc4",
+      "basis": "Actual main-owned recovery native/live observations, bound to the fresh native export and exact accepted handoff."
     }
   },
   "spiderwire-durabraid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
     "sourcePackSha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
@@ -3922,10 +3939,27 @@
       ],
       "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
       "gate": "reports/recovery-launch-operations/browser-gate.json"
+    },
+    "publishedAt": "2026-09-13T20:25:47.216Z",
+    "publication": {
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/recovery-launch-operations/actual-live.json",
+      "proofSha256": "5def7d45ac4b60c4ce91e848288e27b704c61647592c05420c3bb3bd43b496a1",
+      "ledgerEntrySha256": "6763d143aceb888c7a861ad2d3372e9591b55c8c4ff865b4caaf38c4143022b4",
+      "importProofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-durabraid-diameter-capacity-guide",
+      "nativeProductId": "6aa701b8b820843cee91d0c5",
+      "nativeVariantId": "f96a40a8-eb44-4dae-beb2-d675e82291d5",
+      "liveProductSha256": "3c6c5fa618e26e52234bf3319392e6d395e041ffeed977eaf473adfaf27d40f2",
+      "currentLocalProductSha256": "3c6c5fa618e26e52234bf3319392e6d395e041ffeed977eaf473adfaf27d40f2",
+      "basis": "Actual main-owned recovery native/live observations, bound to the fresh native export and exact accepted handoff."
     }
   },
   "spiderwire-ez-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
     "sourcePackSha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
@@ -3951,10 +3985,27 @@
       ],
       "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
       "gate": "reports/recovery-launch-operations/browser-gate.json"
+    },
+    "publishedAt": "2026-09-13T20:31:18.884Z",
+    "publication": {
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/recovery-launch-operations/actual-live.json",
+      "proofSha256": "5def7d45ac4b60c4ce91e848288e27b704c61647592c05420c3bb3bd43b496a1",
+      "ledgerEntrySha256": "c8f7376b4d3cfab97c794a7d1a355d0861a4c5a4ea8203287a589584ebef6053",
+      "importProofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-ez-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa701bb49562a30b2877988",
+      "nativeVariantId": "ad934ab2-7e84-41cc-a6c3-bc219835a672",
+      "liveProductSha256": "cf78b9b7c741f8f17820d92aaa263b3b65e665232ecd1072b06284256a816452",
+      "currentLocalProductSha256": "cf78b9b7c741f8f17820d92aaa263b3b65e665232ecd1072b06284256a816452",
+      "basis": "Actual main-owned recovery native/live observations, bound to the fresh native export and exact accepted handoff."
     }
   },
   "strike-king-contra-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
     "sourcePackSha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
@@ -3980,10 +4031,27 @@
       ],
       "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
       "gate": "reports/recovery-launch-operations/browser-gate.json"
+    },
+    "publishedAt": "2026-09-13T20:28:38.938Z",
+    "publication": {
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/recovery-launch-operations/actual-live.json",
+      "proofSha256": "5def7d45ac4b60c4ce91e848288e27b704c61647592c05420c3bb3bd43b496a1",
+      "ledgerEntrySha256": "a8ed1a5e75f2db9328eb0d50b7b8249f6437bf061fee77a80dcfe7e8e36f7302",
+      "importProofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "url": "https://www.reelcalc.com/lines/p/strike-king-contra-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa701bdd283af45512f94a1",
+      "nativeVariantId": "df7051ac-f5ec-4279-ae03-8ecbda337e51",
+      "liveProductSha256": "1d0a4fdb37324e79145ba70ccc217f2edc28ff05d06b09ad01786f33d5a00711",
+      "currentLocalProductSha256": "1d0a4fdb37324e79145ba70ccc217f2edc28ff05d06b09ad01786f33d5a00711",
+      "basis": "Actual main-owned recovery native/live observations, bound to the fresh native export and exact accepted handoff."
     }
   },
   "kastking-superpower-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
     "sourcePackSha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
@@ -4013,10 +4081,27 @@
       ],
       "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
       "gate": "reports/recovery-launch-operations/browser-gate.json"
+    },
+    "publishedAt": "2026-09-13T20:23:52.666Z",
+    "publication": {
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/recovery-launch-operations/actual-live.json",
+      "proofSha256": "5def7d45ac4b60c4ce91e848288e27b704c61647592c05420c3bb3bd43b496a1",
+      "ledgerEntrySha256": "b781bfa9109764f801c520a8b52ebd2ae8ff4b558ffa00b0c646bea0abe5f40c",
+      "importProofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "url": "https://www.reelcalc.com/lines/p/kastking-superpower-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa701bfd283af45512f94a5",
+      "nativeVariantId": "f7004333-2498-4a54-9b90-3bb41607d953",
+      "liveProductSha256": "d4e6458e7e03af350d9dea29ac809e5f73a55118bc306f069dcbd016c803886e",
+      "currentLocalProductSha256": "d4e6458e7e03af350d9dea29ac809e5f73a55118bc306f069dcbd016c803886e",
+      "basis": "Actual main-owned recovery native/live observations, bound to the fresh native export and exact accepted handoff."
     }
   },
   "kastking-destron-monofilament": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
     "sourcePackSha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
@@ -4046,6 +4131,23 @@
       ],
       "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
       "gate": "reports/recovery-launch-operations/browser-gate.json"
+    },
+    "publishedAt": "2026-09-13T20:20:40.761Z",
+    "publication": {
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/recovery-launch-operations/actual-live.json",
+      "proofSha256": "5def7d45ac4b60c4ce91e848288e27b704c61647592c05420c3bb3bd43b496a1",
+      "ledgerEntrySha256": "e96877fc67495c9f23253cbb0e10a57caa813da6c88f9c8f82eb6d28fcbca840",
+      "importProofSha256": "714db83ff6ae20138da5359b8ae4e85bf21f5a73d21dc7ab33a6ab42bba08a97",
+      "url": "https://www.reelcalc.com/lines/p/kastking-destron-monofilament-diameter-capacity-guide",
+      "nativeProductId": "6aa701c149562a30b2877991",
+      "nativeVariantId": "21333be6-f7e4-4bdc-8fec-1b2dc5e83c79",
+      "liveProductSha256": "91e8604e04d98cd50e8d3a873c7a15529df230a996184fcd6d1bf59fe73f03f0",
+      "currentLocalProductSha256": "91e8604e04d98cd50e8d3a873c7a15529df230a996184fcd6d1bf59fe73f03f0",
+      "basis": "Actual main-owned recovery native/live observations, bound to the fresh native export and exact accepted handoff."
     }
   }
 }

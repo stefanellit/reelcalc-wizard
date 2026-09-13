@@ -1,7 +1,7 @@
 # Line Page Expansion Tracker
 
-Main catalog: 138 models; 114 published; 24 remaining.
-Prepared and audited: 0. Still requiring page construction/research: 24. Prepared is not the same as published.
+Main catalog: 138 models; 120 published; 18 remaining.
+Prepared and audited: 0. Still requiring page construction/research: 18. Prepared is not the same as published.
 Additional PE-only model names: 39; kept separate from the main catalog until identity and regional specifications are checked.
 
 The presence of a diameter in the existing database is not, by itself, publication approval. No unknown spool size is invented.
@@ -40,10 +40,10 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Hi-Seas Fluorocarbon | published | None recorded |
 | Hi-Seas Quattro Fluorocarbon | published | None recorded |
 | Hi-Seas Braid | published | None recorded |
-| KastKing SuperPower Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
+| KastKing SuperPower Braid | published | None recorded |
 | KastKing FluoroKote | published | None recorded |
 | KastKing Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| KastKing Destron Monofilament | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
+| KastKing Destron Monofilament | published | None recorded |
 | Lew's Mach Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Lew's Team Lew's Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Lew's Team Lew's Monofilament | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
@@ -84,8 +84,8 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | SpiderWire Stealth Smooth 8 | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | SpiderWire Ultracast Braid | published | None recorded |
 | SpiderWire Ultracast Invisi-Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| SpiderWire DuraBraid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
-| SpiderWire EZ Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
+| SpiderWire DuraBraid | published | None recorded |
+| SpiderWire EZ Braid | published | None recorded |
 | SpiderWire Fluorocarbon | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | SpiderWire Ultracast Ultimate Mono | published | None recorded |
 | SPRO Finesse Braid 8X | published | None recorded |
@@ -102,7 +102,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Stren Fluorocast | published | None recorded |
 | Stren Sonic Braid | published | None recorded |
 | Stren Crappie Mono | published | None recorded |
-| Strike King Contra Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
+| Strike King Contra Braid | published | None recorded |
 | Sufix 832 Advanced Superline | published | None recorded |
 | Sufix ProMix Braid | published | None recorded |
 | Sufix Performance Braid | published | None recorded |
@@ -139,7 +139,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | XBraid OLLTOLOS FC | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Rhino Hide Camo Braid | published | None recorded |
 | Rhino Hide Camo Monofilament | published | None recorded |
-| Sunline Kantan Cast Braid X8 | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
+| Sunline Kantan Cast Braid X8 | published | None recorded |
 | Sunline Shooter BMS Azayaka FC | published | None recorded |
 | Sunline Shooter BMS Azayaka NY | published | None recorded |
 | Sunline Shooter Machinegun Cast | published | None recorded |

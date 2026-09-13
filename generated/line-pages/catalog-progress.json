@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-13T18:08:47.143Z",
+  "generatedAt": "2026-09-13T20:41:38.001Z",
   "mainCatalogModels": 138,
-  "published": 114,
+  "published": 120,
   "prepared": 0,
-  "notBuilt": 24,
-  "remaining": 24,
+  "notBuilt": 18,
+  "remaining": 18,
   "peOnlyModels": 39,
   "entries": [
     {
@@ -1144,16 +1144,15 @@
       ],
       "role": "mainline",
       "peRecordCount": 10,
-      "status": "research-needed",
-      "page": null,
-      "sourceUrls": [],
-      "missing": [
-        "product-specific gold content and image",
-        "traceable diameter/product sources",
-        "strength-specific retail spool lengths",
-        "browser and calculation audit"
+      "status": "published",
+      "page": "examples/line-pages/kastking-superpower-braid.html",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg"
       ],
-      "notes": []
+      "missing": [],
+      "notes": [
+        "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+      ]
     },
     {
       "id": "kastking-fluorokote",
@@ -1243,16 +1242,16 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "research-needed",
-      "page": null,
-      "sourceUrls": [],
-      "missing": [
-        "product-specific gold content and image",
-        "traceable diameter/product sources",
-        "strength-specific retail spool lengths",
-        "browser and calculation audit"
+      "status": "published",
+      "page": "examples/line-pages/kastking-destron-monofilament.html",
+      "sourceUrls": [
+        "https://www.amazon.com/dp/B0BN1N4Y3S/",
+        "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg"
       ],
-      "notes": []
+      "missing": [],
+      "notes": [
+        "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+      ]
     },
     {
       "id": "lew-s-mach-braid",
@@ -2610,16 +2609,16 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "research-needed",
-      "page": null,
-      "sourceUrls": [],
-      "missing": [
-        "product-specific gold content and image",
-        "traceable diameter/product sources",
-        "strength-specific retail spool lengths",
-        "browser and calculation audit"
+      "status": "published",
+      "page": "examples/line-pages/spiderwire-durabraid.html",
+      "sourceUrls": [
+        "https://www.ebay.com/itm/305304719041",
+        "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-~4AAOSw5MVlccrb/%24_57.JPG?set_id=880000500F"
       ],
-      "notes": []
+      "missing": [],
+      "notes": [
+        "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+      ]
     },
     {
       "id": "spiderwire-ez-braid",
@@ -2638,16 +2637,19 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "research-needed",
-      "page": null,
-      "sourceUrls": [],
-      "missing": [
-        "product-specific gold content and image",
-        "traceable diameter/product sources",
-        "strength-specific retail spool lengths",
-        "browser and calculation audit"
+      "status": "published",
+      "page": "examples/line-pages/spiderwire-ez-braid.html",
+      "sourceUrls": [
+        "https://www.ebay.com/itm/296739565709",
+        "https://i.ebayimg.com/images/g/65EAAOSwnwJnBYd8/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/T60AAOSwCxNhI79G/s-l1200.jpg",
+        "https://i.ebayimg.com/images/g/CP0AAOSw6uVnSg~t/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/K3EAAOSwmBxnSg~0/s-l1600.jpg"
       ],
-      "notes": []
+      "missing": [],
+      "notes": [
+        "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+      ]
     },
     {
       "id": "spiderwire-fluorocarbon",
@@ -3203,16 +3205,15 @@
       ],
       "role": "mainline",
       "peRecordCount": 7,
-      "status": "research-needed",
-      "page": null,
-      "sourceUrls": [],
-      "missing": [
-        "product-specific gold content and image",
-        "traceable diameter/product sources",
-        "strength-specific retail spool lengths",
-        "browser and calculation audit"
+      "status": "published",
+      "page": "examples/line-pages/strike-king-contra-braid.html",
+      "sourceUrls": [
+        "https://cdn11.bigcommerce.com/s-palssl390t/images/stencil/800w/products/129708/212619/strike-king-lpb150-20g-contra-braid__99848.1697240646.1280.1280.jpg"
       ],
-      "notes": []
+      "missing": [],
+      "notes": [
+        "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+      ]
     },
     {
       "id": "sufix-832-advanced-superline",
@@ -4493,18 +4494,16 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "research-needed",
-      "page": null,
+      "status": "published",
+      "page": "examples/line-pages/sunline-kantan-cast-braid-x8.html",
       "sourceUrls": [
+        "https://sunlineamerica.com/products/kantan-cast-braid-x8",
         "https://www.tacklewarehouse.com/Sunline_Kantan_Cast_Braid_X8_Braided_Line/descpage-SKX8.html"
       ],
-      "missing": [
-        "product-specific gold content and image",
-        "traceable diameter/product sources",
-        "strength-specific retail spool lengths",
-        "browser and calculation audit"
-      ],
-      "notes": []
+      "missing": [],
+      "notes": [
+        "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+      ]
     },
     {
       "id": "sunline-shooter-bms-azayaka-fc",
