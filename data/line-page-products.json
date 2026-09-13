@@ -12832,6 +12832,719 @@
           "spoolYards": 200
         }
       ]
+    },
+    "sunline-kantan-cast-braid-x8": {
+      "presentation": "gold",
+      "brand": "Sunline",
+      "model": "Kantan Cast Braid X8",
+      "shortName": "Kantan Cast Braid X8",
+      "lineType": "Braid",
+      "role": "mainline",
+      "slug": "sunline-kantan-cast-braid-x8-braid-diameter-capacity-guide",
+      "h1": "Sunline Kantan Cast Braid X8",
+      "seoTitle": "Sunline Kantan Cast Braid X8 Diameter & Capacity | ReelCalc",
+      "metaDescription": "Compare the verified 30 and 50 lb Kantan Cast Braid X8 diameters, plan reel capacity and backing, and check the exact 150- or 600-yard package.",
+      "construction": "Eight-strand dark-green PE braid",
+      "quickSummary": "Kantan Cast Braid X8 is Sunline's braid for repeated casting and power-fishing presentations such as pitching, flipping and frogs. This guide covers the verified 30 and 50 lb US rows, each in 150- and 600-yard packages.",
+      "suitabilityTitle": "Does Kantan fit your casting setup?",
+      "suitabilitySummary": "Start with the rod, lure and cover, then compare how much working line the reel can hold. The 50 lb option needs more spool space per yard than 30 lb. A larger label is not a substitute for matching the entire setup.",
+      "strengthGuide": [
+        "30 lb is listed at .296 mm; 50 lb is .382 mm. Select the actual row before estimating the fill, especially with a shallow spool.",
+        "The 30 lb spool pictured identifies the family. It does not mean the 50 lb row has the same diameter or that every strength shares one label.",
+        "A short leader does not change the diameter of the braid occupying most of the spool. Calculate with the main line, then choose the leader for the presentation."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Choose the working section first",
+          "text": "Allow for the longest cast, fish runs and later trimming. Compare that total with the chosen package; a 150-yard supply need not fill the reel to its full braid capacity."
+        },
+        {
+          "title": "Use backing deliberately",
+          "text": "Follow the reel maker's arbor-attachment guidance. When using mono backing, leave space for the intended braid section rather than winding an arbitrary amount underneath it."
+        },
+        {
+          "title": "Treat bulk length as a budget",
+          "text": "A 600-yard spool can be divided among planned fills. Four 150-yard portions are not necessarily four suitable reel fills; account for each reel and attachment allowance."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Kantan Cast Braid X8 fluorocarbon?",
+          "answer": "No. It is braid. Sunline's handling comparison does not change its material identity."
+        },
+        {
+          "question": "Why are only 30 and 50 lb shown?",
+          "answer": "These are the coherent source-verified rows used here. The 40 and 60 lb manufacturer inch/mm entries still need clarification. No 65 lb variant was established in the checked US listing."
+        },
+        {
+          "question": "Does the photograph show every package?",
+          "answer": "No. It shows the original 30 lb, 150-yard spool. The manufacturer separately lists both included strengths in 150- and 600-yard packages."
+        }
+      ],
+      "chartCaption": "US Kantan Cast Braid X8: source-verified 30/50 lb subset; checked September 13, 2026. Package listings do not confirm current availability.",
+      "chartNote": "Official chart pairs retained at printed precision. The 30 lb photo prints .0116 inch while the chart rounds to .012 inch; both print .296 mm. The unresolved 40/60 lb pairs are excluded.",
+      "defaultLineId": "sunline-kantan-cast-braid-x8-braid-30",
+      "defaultSpoolYards": 150,
+      "defaultMode": "capacity",
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "sunline-kantan-cast-braid-x8-braid-40",
+        "sunline-kantan-cast-braid-x8-braid-60"
+      ],
+      "imageUrl": "https://img.tacklewarehouse.com/watermark/rs.php?path=SKX8-1.jpg&nw=1486",
+      "localImagePath": "assets/line-pages/full-catalog/recovery-round2/other-identities/sunline-kantan-cast-braid-x8.jpg",
+      "imageAlt": "Original Sunline Kantan Cast Braid X8 30 lb 150-yard spool label; representative family image",
+      "reviewNote": "Specification-based setup guidance, not a hands-on casting, abrasion or breaking-strength test.",
+      "sourceNote": "The Sunline America product chart and assigned variants provide the numeric evidence. The dealer-hosted original spool label supplies exact-family imagery. No retailer-authored diameter correction is used.",
+      "sources": [
+        {
+          "label": "Sunline America Kantan Cast Braid X8",
+          "url": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+          "note": "Manufacturer chart, construction and US package identities; checked September 13, 2026."
+        },
+        {
+          "label": "Original Kantan package photo at Tackle Warehouse",
+          "url": "https://www.tacklewarehouse.com/Sunline_Kantan_Cast_Braid_X8_Braided_Line/descpage-SKX8.html",
+          "note": "Visually checked 30 lb/150 yd spool label. Retailer specification text is not the numeric authority."
+        }
+      ],
+      "exampleSetups": [
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "sunline-kantan-cast-braid-x8-braid-30",
+          "workingYards": 75,
+          "spoolYards": 150
+        }
+      ]
+    },
+    "spiderwire-durabraid": {
+      "presentation": "gold",
+      "role": "mainline",
+      "shortName": "DuraBraid",
+      "slug": "spiderwire-durabraid-diameter-capacity-guide",
+      "brand": "SpiderWire",
+      "model": "DuraBraid",
+      "lineType": "Braid",
+      "defaultLineId": "spiderwire-durabraid-braid-30",
+      "defaultSpoolYards": 150,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "backing",
+      "excludedLineIds": [
+        "spiderwire-durabraid-braid-10",
+        "spiderwire-durabraid-braid-15",
+        "spiderwire-durabraid-braid-20",
+        "spiderwire-durabraid-braid-40"
+      ],
+      "h1": "SpiderWire DuraBraid",
+      "seoTitle": "DuraBraid 30 lb Label Diameter Guide | ReelCalc",
+      "metaDescription": "Plan a DuraBraid 30 lb fill from the original SDB30G-150 label: .011 in / .28 mm, Moss Green and 150 yards. Exact photographed-package reference.",
+      "construction": "Braided fishing line; Moss Green SDB30G-150 package",
+      "quickSummary": "This guide covers the photographed DuraBraid SDB30G-150 package: 30 lb Moss Green, .011 in / .28 mm and 150 yards. Its original spool label identifies SAP 1556099 and UPC 022021647286. This is an undated original-label reference, not a claim that every DuraBraid strength, color or later package has the same diameter.",
+      "suitabilityTitle": "Plan around the 30 lb package you have",
+      "suitabilitySummary": "Use this reference when your package matches SDB30G-150 and its printed size. A 150-yard spool can supply the whole braid section or leave a remainder, depending on reel capacity, backing and the reserve you need. The nominal strength is one part of the choice; check it against your rod, reel and intended fishing before filling.",
+      "strengthGuide": [
+        "The photographed package is rated 30 lb / 13.6 kg. Its physical size is printed separately as .011 in / .28 mm.",
+        "The adjacent 10 lb Test Dia phrase is a monofilament comparison, not a second braid strength and not the capacity measurement.",
+        "Only this 150-yard Moss Green package is covered. A larger spool or another DuraBraid strength needs its own matching diameter label."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Match the original package",
+          "text": "Check SDB30G-150, 30 lb and .28 mm together. The photographed spool also carries SAP 1556099 and UPC 022021647286."
+        },
+        {
+          "title": "Choose your working length",
+          "text": "Allow for your longest cast, a fish taking line, trimming and retying. A 150-yard package does not require a 150-yard fill."
+        },
+        {
+          "title": "Secure the spool connection",
+          "text": "Follow the reel maker's braid attachment instructions. Where needed, start with monofilament backing and place the connection below the braid used during a cast."
+        },
+        {
+          "title": "Check the finished fill",
+          "text": "Wind evenly under appropriate tension and stop at the reel maker's specified clearance. Inspect the line and knots before use; a legible label does not establish the condition of stored line."
+        }
+      ],
+      "reviewNote": "The diameter is manufacturer-printed, not independently measured by ReelCalc. No comparative toughness or abrasion result is asserted.",
+      "chartNote": "Undated original SDB30G-150 label only: SAP 1556099, UPC 022021647286, Moss Green, 30 lb / 13.6 kg, .011 in / .28 mm and 150 yd / 137 m. Both diameter units are independently printed. The 10 lb Test Dia comparison is not used as physical size. No other package or regional equivalence is implied.",
+      "chartCaption": "Exact SDB30G-150 original-label specifications; US pound/yard labeling, photograph undated.",
+      "sourceNote": "Checked September 13, 2026. Numeric values and package identifiers were read directly from the original box and spool photos hosted on eBay. The saved manufacturer US feed independently lists SAP 1556099 with the same UPC, strength, length and color, but supplies no diameter. Seller-entered specifications and stock claims are not used.",
+      "imageUrl": "https://i.ebayimg.com/images/g/2L0AAOSwOm5lccqp/s-l1600.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/recovery-round2/spiderwire/spiderwire-durabraid.jpg",
+      "imageAlt": "Original DuraBraid 30 lb Moss Green box and SDB30G-150 spool label showing .011 in, .28 mm and 150 yards",
+      "imageCaption": "Original box and spool photographed on a retailer host. Package date and present stock continuity are not established.",
+      "manufacturerFacts": [
+        {
+          "label": "Exact spool identity",
+          "text": "The original spool label prints SDB30G-150, SAP 1556099 and UPC 022021647286."
+        },
+        {
+          "label": "Two physical units",
+          "text": "The package prints .011 in and .28 mm together, separately from the 10 lb mono-equivalent comparison."
+        }
+      ],
+      "setupComparison": {
+        "title": "Use a working section or the whole package",
+        "leftTitle": "Braid over backing",
+        "leftText": "Choose enough braid for casting and reserve, then calculate the backing needed below it.",
+        "rightTitle": "Full 150-yard fill",
+        "rightText": "Check that 150 yards at the printed diameter fits before committing the full package to one reel."
+      },
+      "bestFit": "Planning a reel fill from an SDB30G-150 package with a matching original label.",
+      "tradeoff": "The reference covers one strength, color and package length. It does not establish diameters for the rest of the DuraBraid range.",
+      "productGuidanceTitle": "Keep the package size and reel fill separate",
+      "productGuidance": [
+        "Use the printed physical diameter for capacity, not the mono-equivalent test.",
+        "Keep enough braid above the backing connection for casting and reserve.",
+        "Inspect stored line and follow the reel maker's fill clearance."
+      ],
+      "recommendationIntro": "The documented choice here is 30 lb Moss Green in the 150-yard SDB30G-150 package.",
+      "reelcalcNote": "Capacity is an estimate from the printed diameter and reel data, not a measured fill or a test of line condition.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "spiderwire-durabraid-braid-30",
+          "workingYards": 75,
+          "spoolYards": 150
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "spiderwire-durabraid-braid-30",
+          "workingYards": 100,
+          "spoolYards": 150
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does 10 lb Test Dia mean this is 10 lb braid?",
+          "answer": "No. The package identifies the braid as 30 lb. Its 10 lb Test Dia phrase compares its size with monofilament; .011 in / .28 mm is the separate physical diameter."
+        },
+        {
+          "question": "Can I use these diameters for a different DuraBraid spool?",
+          "answer": "Only if that spool has its own matching manufacturer label or specification. This guide is limited to SDB30G-150, 30 lb Moss Green and 150 yards."
+        },
+        {
+          "question": "Are these current-stock specifications?",
+          "answer": "The original photo is undated. Its identifiers also appear in the manufacturer US feed, but that does not establish the age, condition or uninterrupted formulation of a particular spool."
+        },
+        {
+          "question": "Will the entire 150-yard package fit?",
+          "answer": "That depends on usable reel capacity and any backing. Plan the braid section first, check the estimate and leave the reel maker's specified clearance."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Original DuraBraid box and identified spool",
+          "url": "https://i.ebayimg.com/images/g/2L0AAOSwOm5lccqp/s-l1600.jpg",
+          "note": "Primary numeric and identity evidence printed on the manufacturer package; retailer-hosted photograph."
+        },
+        {
+          "label": "Original package size-label close-up",
+          "url": "https://i.ebayimg.com/images/g/gdsAAOSwBaNlccq~/s-l1600.jpg",
+          "note": "Direct reading of 30 lb, .011 in, .28 mm, 150 yd and the separate mono-equivalent phrase."
+        },
+        {
+          "label": "Photograph-host listing",
+          "url": "https://www.ebay.com/itm/305304719041",
+          "note": "Host provenance only; seller-entered specifications and availability are not numeric evidence."
+        },
+        {
+          "label": "Manufacturer DuraBraid US product data",
+          "url": "https://www.spiderwire.com/products/durabraid-filler-spool.js",
+          "note": "Exact SAP/UPC, strength, length and color corroboration. This feed does not supply the physical diameter."
+        }
+      ]
+    },
+    "spiderwire-ez-braid": {
+      "presentation": "gold",
+      "role": "mainline",
+      "shortName": "EZ Braid",
+      "slug": "spiderwire-ez-braid-diameter-capacity-guide",
+      "brand": "SpiderWire",
+      "model": "EZ Braid",
+      "lineType": "Braid",
+      "defaultLineId": "spiderwire-ez-braid-braid-15",
+      "defaultSpoolYards": 110,
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "defaultMode": "backing",
+      "excludedLineIds": [
+        "spiderwire-ez-braid-braid-40"
+      ],
+      "h1": "SpiderWire EZ Braid",
+      "seoTitle": "EZ Braid Original Label Diameter Guide | ReelCalc",
+      "metaDescription": "Compare original EZ Braid Moss Green labels: 10, 15, 20 and 30 lb with .18-.30 mm diameters and 110-yard packages. No regional chart substitution.",
+      "construction": "Braided fishing line; original Moss Green EZ Braid packages",
+      "quickSummary": "This guide follows the original blue EZ Braid Moss Green package labels for 10, 15, 20 and 30 lb. They print physical diameters of .18, .20, .23 and .30 mm respectively, each with 110 yards / 100 m. These undated package photographs are the diameter source; the different kg-rated European catalog range is not combined with them.",
+      "suitabilityTitle": "Plan a braid section from a small filler spool",
+      "suitabilitySummary": "The documented 110-yard packages suit planning one measured working section, with backing where the reel needs it. Choose a nominal strength appropriate to the rod, reel and fishing, then check that the working section leaves enough reserve for a run and later trimming. A different brand's braid diameter is not a substitute for the EZ Braid label.",
+      "strengthGuide": [
+        "The four original labels pair 10 lb with .18 mm, 15 lb with .20 mm, 20 lb with .23 mm and 30 lb with .30 mm. Use the diameter belonging to the package you choose.",
+        "The separate 3, 4, 6 and 8 lb Test Dia phrases are monofilament comparisons. They are not alternative braid strength ratings.",
+        "All four photographed packages say 110 yards / 100 m and Moss Green. No 300-yard or Hi Vis Yellow specifications are inferred from them.",
+        "The historical European catalog publishes a different kg-rated range with different SAPs. Matching a familiar pound value by conversion would not establish package identity."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Read both numbers on the label",
+          "text": "Match the nominal pound test and physical mm diameter on the blue EZ Braid package. The smaller Test Dia pound figure is a comparison with monofilament."
+        },
+        {
+          "title": "Budget the working section",
+          "text": "Start with cast distance plus reserve for a run, trimming and retying. Keep that total within the 110-yard package and the reel's usable capacity."
+        },
+        {
+          "title": "Add backing where needed",
+          "text": "Follow the reel maker's braid attachment instructions. Calculate backing below the chosen braid section, and keep the connection below the line used during casting."
+        },
+        {
+          "title": "Check before fishing",
+          "text": "Wind evenly under appropriate tension and stop at the specified spool clearance. Inspect stored line and test your knots before use."
+        }
+      ],
+      "reviewNote": "ReelCalc transcribed original manufacturer labels; it did not measure diameter or test casting, abrasion resistance or breaking strength.",
+      "chartNote": "Undated original Moss Green EZ Braid labels only: 10/.18, 15/.20, 20/.23 and 30/.30 lb/mm; each 110 yd / 100 m. Millimeters are printed; inches are conversions. The adjacent Test Dia pound figures are mono-equivalent comparisons. The photos do not expose individual SKUs or UPCs, and no formulation date or current-stock continuity is claimed.",
+      "chartCaption": "Original blue EZ Braid package-label specifications, US pound/yard format. Photographs undated; not the European kg-rated catalog chart.",
+      "sourceNote": "Checked September 13, 2026 from readable manufacturer labels photographed on an eBay host. A separate photo corroborates the 15 lb row. The saved manufacturer US feed lists corresponding strength/color/110-yard combinations but provides no diameter; its SKU numbers are not asserted to be visible on these front photos. Retailer-entered tables are excluded.",
+      "imageUrl": "https://i.ebayimg.com/images/g/T60AAOSwCxNhI79G/s-l1200.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/recovery-round2/spiderwire/spiderwire-ez-braid.jpg",
+      "imageAlt": "Original blue SpiderWire EZ Braid Moss Green package showing 15 lb, .20 mm and 110 yards",
+      "imageCaption": "Original 15 lb / .20 mm / 110-yard package photographed on a retailer host. Photo date and individual SKU are not established.",
+      "manufacturerFacts": [
+        {
+          "label": "Physical-mm labels",
+          "text": "The reviewed original packages print their nominal braid strength and a separate millimeter size."
+        },
+        {
+          "label": "110-yard packages",
+          "text": "All four photographed sizes are Moss Green and print 110 yards / 100 m."
+        }
+      ],
+      "setupComparison": {
+        "title": "Plan around 110 yards of braid",
+        "leftTitle": "A shorter working section",
+        "leftText": "Use the amount needed for casting and reserve, with backing below it where appropriate.",
+        "rightTitle": "Use the whole package",
+        "rightText": "Check that the reel has room for 110 yards at the selected diameter without exceeding its fill clearance."
+      },
+      "bestFit": "Matching the original 110-yard Moss Green EZ Braid package to a planned reel fill.",
+      "tradeoff": "The reference is limited to four undated labels. Other colors, larger packages and the European kg-rated edition are not interchangeable.",
+      "productGuidanceTitle": "Keep enough braid above the connection",
+      "productGuidance": [
+        "Choose strength for the fishing, then calculate capacity from that label's physical diameter.",
+        "Leave enough working length for a cast and reserve; do not size the section solely to empty a package.",
+        "Use the label's 110 yards directly rather than converting the rounded 100 m back into a different package length."
+      ],
+      "recommendationIntro": "The original-label choices here are 10, 15, 20 and 30 lb Moss Green, each in a 110-yard package.",
+      "reelcalcNote": "The fill calculation is a planning estimate from printed diameter and reel capacity, not an independent line test.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "spiderwire-ez-braid-braid-15",
+          "workingYards": 75,
+          "spoolYards": 110
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "spiderwire-ez-braid-braid-30",
+          "workingYards": 100,
+          "spoolYards": 110
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which label number is the braid strength?",
+          "answer": "Use the large 10, 15, 20 or 30 lb rating. The smaller 3, 4, 6 or 8 lb Test Dia figure compares diameter with monofilament; it does not rename the braid."
+        },
+        {
+          "question": "Is the inch diameter printed on the package?",
+          "answer": "The reviewed EZ Braid labels print millimeters. The inch values in this guide are calculated from those millimeter values, not separately published measurements."
+        },
+        {
+          "question": "Can I use the European kg chart instead?",
+          "answer": "Not as a direct replacement. That historical range has its own SAPs, diameters, lengths and kg strength column, without a nominal-US-pound mapping."
+        },
+        {
+          "question": "Does this cover 300-yard or yellow packages?",
+          "answer": "No. The numeric source photos show only 110-yard Moss Green packages. Other packages need matching original evidence."
+        },
+        {
+          "question": "Are these current-production specifications?",
+          "answer": "The photographs are undated and their front labels do not expose individual SKUs. This reference does not establish manufacture date, storage condition or continuity with every later package."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Original 10 lb / .18 mm package label",
+          "url": "https://i.ebayimg.com/images/g/65EAAOSwnwJnBYd8/s-l1600.jpg",
+          "note": "Manufacturer-printed numeric evidence in a retailer-hosted photograph."
+        },
+        {
+          "label": "Original 15 lb / .20 mm package label",
+          "url": "https://i.ebayimg.com/images/g/nJsAAOSwIypnBYeE/s-l1600.jpg",
+          "note": "Same gallery, separate original package; 110 yd / 100 m Moss Green."
+        },
+        {
+          "label": "Original 20 lb / .23 mm package label",
+          "url": "https://i.ebayimg.com/images/g/CP0AAOSw6uVnSg~t/s-l1600.jpg",
+          "note": "Direct reading of physical millimeters, not the 6 lb mono-equivalent figure."
+        },
+        {
+          "label": "Original 30 lb / .30 mm package label",
+          "url": "https://i.ebayimg.com/images/g/K3EAAOSwmBxnSg~0/s-l1600.jpg",
+          "note": "Direct reading of physical millimeters, not the 8 lb mono-equivalent figure."
+        },
+        {
+          "label": "Photograph-host listing",
+          "url": "https://www.ebay.com/itm/296739565709",
+          "note": "Host provenance only. Listing prose and stock status are not specification sources."
+        },
+        {
+          "label": "Manufacturer EZ Braid US product data",
+          "url": "https://www.spiderwire.com/products/ez-braid-filler-spool.js",
+          "note": "Family and strength/color/length corroboration only; no diameter or photo-SKU continuity is supplied."
+        }
+      ]
+    },
+    "strike-king-contra-braid": {
+      "presentation": "gold",
+      "brand": "Strike King",
+      "model": "Contra Braid",
+      "shortName": "Contra Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "slug": "strike-king-contra-braid-diameter-capacity-guide",
+      "h1": "Strike King Contra Braid",
+      "seoTitle": "Strike King Contra Braid 20 lb Diameter & Capacity | ReelCalc",
+      "metaDescription": "Plan capacity and backing with the label-verified Contra Braid 20 lb Green 150-yard package. Check the exact .009-inch / .22-mm diameter before filling.",
+      "construction": "Braided main line; Green package with Sidewinder spooling tool",
+      "quickSummary": "This guide covers the original Contra Braid package labeled 20 lb, Green, 150 yd. Its printed .009-inch / .22-mm diameter provides a specific basis for capacity planning without applying one package's specifications to the rest of the Contra range.",
+      "suitabilityTitle": "Is this Contra package suitable for your reel?",
+      "suitabilitySummary": "Choose 20 lb only when it suits the rod, lure and cover. Then compare the intended working length with your reel's estimated capacity. A 150-yard package may cover a working section over backing even when it will not provide a complete braid fill.",
+      "strengthGuide": [
+        "The large 20 LB mark is the line-test label. Do not enter the smaller trailing 6 LB mark as the braid's test strength.",
+        "Only the Green 20 lb package was verified here. Other Contra Braid strengths need their own diameter evidence.",
+        "Contra Fluorocarbon and Contra Monofilament are separate materials. Their packages and capacities should not be substituted for this braided line."
+      ],
+      "spoolingGuide": [
+        {
+          "title": "Plan within 150 yards",
+          "text": "Allow for attachment, the longest cast, fish runs and future trimming before deciding how much braid to put over backing."
+        },
+        {
+          "title": "Secure the supply spool",
+          "text": "The photographed package includes a Sidewinder tool. Follow its package directions to hold the supply spool while winding, and use steady tension."
+        },
+        {
+          "title": "Stop at the reel's fill level",
+          "text": "Capacity is an estimate. Follow the reel manufacturer's arbor-attachment and fill instructions rather than forcing the entire retail package onto a full spool."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does this verify every Contra Braid strength?",
+          "answer": "No. The numeric evidence is the photographed 20 lb Green label. Other strengths are excluded from this source-scoped guide."
+        },
+        {
+          "question": "Is the verified package 150 or 300 yards?",
+          "answer": "150 yards. Historical catalogs contain a 330-yard size alongside LPB300 model numbers; that larger-package discrepancy is not resolved here."
+        },
+        {
+          "question": "Can I use the fluorocarbon Contra chart?",
+          "answer": "No. Contra is a family name shared by different materials. Use the braid package's own diameter for a braid capacity estimate."
+        }
+      ],
+      "chartCaption": "20 lb Green / 150 yd original-label scope, corroborated by the 2022 US catalog. Package edition is undated; no current-availability claim.",
+      "chartNote": "Original label prints .009 inch / .22 mm. Only this package is included; larger lengths and other strengths remain outside the verified scope.",
+      "defaultLineId": "strike-king-contra-braid-braid-20",
+      "defaultSpoolYards": 150,
+      "defaultMode": "capacity",
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "excludedLineIds": [
+        "strike-king-contra-braid-braid-10",
+        "strike-king-contra-braid-braid-15",
+        "strike-king-contra-braid-braid-30",
+        "strike-king-contra-braid-braid-40",
+        "strike-king-contra-braid-braid-50",
+        "strike-king-contra-braid-braid-65"
+      ],
+      "imageUrl": "https://cdn11.bigcommerce.com/s-palssl390t/images/stencil/800w/products/129708/212619/strike-king-lpb150-20g-contra-braid__99848.1697240646.1280.1280.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/recovery-round2/other-identities/strike-king-contra-braid.webp",
+      "imageAlt": "Original Strike King Contra Braid 20 lb Green 150-yard package with printed diameter",
+      "reviewNote": "Specification-based planning guidance, not a hands-on Contra performance test.",
+      "sourceNote": "Numeric evidence comes from the readable original package label, not retailer-authored specifications. The manufacturer 2022 catalog verifies LPB150-20G identity. No current stock or package-revision equivalence is implied.",
+      "sources": [
+        {
+          "label": "Original Contra 20 lb package photograph",
+          "url": "https://www.tackledirect.com/strike-king-lpb-20g-contra-braid.html",
+          "note": "Dealer-hosted manufacturer label; only the photographed 20 lb Green 150-yard package is used."
+        },
+        {
+          "label": "Strike King 2022 manufacturer catalog",
+          "url": "https://nicklowswholesale.com/files/attachments/11386/Strike_King_2022_WEB_productguide%202.pdf",
+          "note": "Printed page 57, PDF page 29: exact Contra SKU family. Catalog is manufacturer-authored and distributor-hosted."
+        }
+      ],
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "strike-king-contra-braid-braid-20",
+          "workingYards": 75,
+          "spoolYards": 150
+        }
+      ]
+    },
+    "kastking-superpower-braid": {
+      "presentation": "gold",
+      "brand": "KastKing",
+      "model": "SuperPower Braid",
+      "lineType": "Braid",
+      "role": "mainline",
+      "shortName": "SuperPower Braid",
+      "slug": "kastking-superpower-braid-diameter-capacity-guide",
+      "h1": "KastKing SuperPower Braid",
+      "seoTitle": "KastKing SuperPower Braid Diameter & Capacity | ReelCalc",
+      "defaultMode": "capacity",
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "exampleBackingLabel": "Berkley Trilene Big Game 10 lb mono (0.012 in)",
+      "excludedLineIds": [
+        "kastking-superpower-braid-braid-65",
+        "kastking-superpower-braid-braid-80"
+      ],
+      "reviewNote": "A source-based specification and setup guide, not a hands-on review or an independent diameter test.",
+      "eyebrow": "Original-branded US 150-yard scope",
+      "construction": "4-strand braid in the accepted 6-50 lb artwork subset",
+      "quickSummary": "This guide covers the original SuperPower-branded Gray 150-yard listings and their attached manufacturer artwork. Eight checked strengths run from 6 to 50 lb. These are not Texas Edition, ColorShield or Silky8 specifications, and the chart is not a universal record of every SuperPower spool.",
+      "suitabilityTitle": "A short braid working spool",
+      "suitabilitySummary": "The verified package contains 150 yards at each listed strength. That is useful for planning one working section over backing, but it may not provide a full fill or the reserve needed for long runs. At 10 lb the artwork lists .006 inch; at 50 lb it lists .017 inch, so those two packages hold very different line volumes despite equal yardage.",
+      "strengthGuide": [
+        "Choose strength for the rod, rig and expected load, then check capacity from the selected diameter. The accepted 6/8/10/15/20/30/40/50 lb rows form an increasing diameter sequence in this specific artwork.",
+        "The chart also prints inconsistent 12 and 25 lb values. Those rows are excluded, not interpolated or corrected. The 65/80 lb listings are held because their 4X titles conflict with the 8X construction image.",
+        "Match the original blue-and-red SuperPower label and the 150-yard Gray listing. A similar name or matching breaking strength does not establish the same diameter on a Texas Edition or another braid."
+      ],
+      "chartNote": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+      "diameterNote": "Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+      "spoolingGuide": [
+        {
+          "title": "Budget the 150 yards",
+          "text": "Leave enough working braid for your longest cast, expected run and future trimming. For a 100-yard working section, a new 150-yard spool leaves 50 yards before knots and trimming; it is not a second equal fill."
+        },
+        {
+          "title": "Choose backing from the actual diameter",
+          "text": "A short braid working section can sit over mono backing. Enter the selected SuperPower strength and its artwork-scoped diameter, then fit the backing volume to the reel rather than assuming the reel label describes this braid."
+        },
+        {
+          "title": "Stop at the reel fill clearance",
+          "text": "Apply even tension and check the final fill against the reel instructions. The calculation is a volume estimate, and braid packing and the source diameter both limit its precision."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this the Texas Edition line?",
+          "answer": "No. The evidence shows the unqualified blue-and-red SuperPower Braided Line label in KastKing-linked Amazon listings. No manufacturer statement proves equivalence to Texas Edition, so its specifications are not substituted."
+        },
+        {
+          "question": "Does a 300-yard option contain 327 yards?",
+          "answer": "The separate original 30 lb listing has a 300-yard option but a 327-yard title and item-length field. The artwork also advertises extra yardage. That conflicting package is excluded; this guide accepts only separately checked 150-yard children."
+        },
+        {
+          "question": "Why are some strengths missing?",
+          "answer": "The 12/25 lb chart values reverse adjacent strength diameters. The 65/80 lb titles conflict with the strand-count image. Those sizes need exact corroborating labels before they can join this guide."
+        }
+      ],
+      "sourceNote": "Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+      "sources": [
+        {
+          "label": "KastKing SuperPower manufacturer diameter artwork",
+          "url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+          "note": "Visually inspected inch table; accepted increasing 6-50 lb subset only."
+        },
+        {
+          "label": "KastKing-linked 10 lb Gray 150-yard listing",
+          "url": "https://www.amazon.com/dp/B0D1R31H6R/",
+          "note": "Exact default package. The same chart appears on the other individually archived accepted children."
+        },
+        {
+          "label": "Original 30 lb listing with yardage conflict",
+          "url": "https://www.amazon.com/dp/B01EFQZC6G/",
+          "note": "300 selector versus 327-yard title/table; not an accepted package."
+        }
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/81SWLMsvXoL._AC_SL1500_.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/recovery-round2/kastking-vicious/kastking-superpower-braid.jpg",
+      "imageAlt": "Original KastKing SuperPower blue-and-red labeled braid spool, Low-Vis Gray",
+      "imageCaption": "Manufacturer family photo; strength and length are verified separately from the exact 150-yard listing, not printed on this photo.",
+      "defaultLineId": "kastking-superpower-braid-braid-10",
+      "defaultSpoolYards": 150,
+      "metaDescription": "Original-branded KastKing SuperPower Gray 150-yard scope: checked diameters, excluded chart conflicts, reel capacity and working-line planning.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "kastking-superpower-braid-braid-10",
+          "workingYards": 100,
+          "spoolYards": 150
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "kastking-superpower-braid-braid-30",
+          "workingYards": 100,
+          "spoolYards": 150
+        }
+      ],
+      "fitTitle": "A short braid working spool",
+      "bestFit": "The verified package contains 150 yards at each listed strength. That is useful for planning one working section over backing, but it may not provide a full fill or the reserve needed for long runs. At 10 lb the artwork lists .006 inch; at 50 lb it lists .017 inch, so those two packages hold very different line volumes despite equal yardage.",
+      "tradeoffTitle": "Scope and package limits",
+      "tradeoff": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages.",
+      "reelcalcNote": "Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+      "manufacturerFacts": [
+        {
+          "label": "Construction",
+          "text": "4-strand braid in the accepted 6-50 lb artwork subset"
+        },
+        {
+          "label": "Verified scope",
+          "text": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages."
+        }
+      ],
+      "setupComparison": {
+        "title": "Plan the working section",
+        "leftTitle": "Budget the 150 yards",
+        "leftText": "Leave enough working braid for your longest cast, expected run and future trimming. For a 100-yard working section, a new 150-yard spool leaves 50 yards before knots and trimming; it is not a second equal fill.",
+        "rightTitle": "Choose backing from the actual diameter",
+        "rightText": "A short braid working section can sit over mono backing. Enter the selected SuperPower strength and its artwork-scoped diameter, then fit the backing volume to the reel rather than assuming the reel label describes this braid."
+      },
+      "productGuidanceTitle": "Before spooling",
+      "productGuidance": [
+        "Leave enough working braid for your longest cast, expected run and future trimming. For a 100-yard working section, a new 150-yard spool leaves 50 yards before knots and trimming; it is not a second equal fill.",
+        "A short braid working section can sit over mono backing. Enter the selected SuperPower strength and its artwork-scoped diameter, then fit the backing volume to the reel rather than assuming the reel label describes this braid.",
+        "Apply even tension and check the final fill against the reel instructions. The calculation is a volume estimate, and braid packing and the source diameter both limit its precision."
+      ],
+      "recommendationIntro": "Choose strength for the rod, rig and expected load, then check capacity from the selected diameter. The accepted 6/8/10/15/20/30/40/50 lb rows form an increasing diameter sequence in this specific artwork."
+    },
+    "kastking-destron-monofilament": {
+      "presentation": "gold",
+      "brand": "KastKing",
+      "model": "Destron Monofilament",
+      "lineType": "Monofilament",
+      "role": "mainline",
+      "shortName": "Destron Monofilament",
+      "slug": "kastking-destron-monofilament-diameter-capacity-guide",
+      "h1": "KastKing Destron Monofilament",
+      "seoTitle": "KastKing Destron Monofilament Diameter & Capacity | ReelCalc",
+      "defaultMode": "capacity",
+      "defaultBackingLineId": "berkley-trilene-big-game-monofilament-10",
+      "exampleBackingLabel": "Berkley Trilene Big Game 10 lb mono (0.012 in)",
+      "excludedLineIds": [
+        "kastking-destron-monofilament-monofilament-6"
+      ],
+      "reviewNote": "A source-based specification and setup guide, not a hands-on review or an independent diameter test.",
+      "eyebrow": "Original quarter-pound artwork scope",
+      "construction": "Extruded nylon monofilament; original Destron 1/4 lb package",
+      "quickSummary": "The original Destron Monofilament artwork binds diameter and yardage to a quarter-pound spool. This guide includes the checked 8, 10, 12, 15 and 20 lb sizes. It is not the later Destron Essential 300-yard product, and the checked original listing is currently unavailable.",
+      "suitabilityTitle": "A bulk spool with strength-specific length",
+      "suitabilitySummary": "Quarter-pound describes the amount of line by weight, not a fixed reel fill or common yardage. The chart lists 3,191 yards at 8 lb and 1,172 yards at 20 lb; the thicker line supplies less length in the same nominal package weight. Plan each reel fill from the actual diameter and keep a running allowance for sections already used.",
+      "strengthGuide": [
+        "For the original chart, 8/10/12/15/20 lb corresponds to .20/.22/.25/.28/.33 mm. Select the strength for the rod and presentation before deciding whether the resulting diameter suits the reel.",
+        "Do not transfer a 300-yard Destron Essential specification or a Destron braid diameter into this nylon table. Original monofilament, Essential monofilament and braid are separately named products.",
+        "The original quarter-pound chart begins at 8 lb. This guide covers 8, 10, 12, 15 and 20 lb only; it does not infer a 6 lb size or borrow its dimensions from Destron Essential."
+      ],
+      "chartNote": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee. Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+      "diameterNote": "Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+      "spoolingGuide": [
+        {
+          "title": "Use the matching package column",
+          "text": "The chart gives 2,638 yards at 10 lb, 2,042 at 12 lb and 1,628 at 15 lb. The shared quarter-pound label does not make these equal-length spools. Subtract line already used before planning another fill."
+        },
+        {
+          "title": "Separate capacity from bulk inventory",
+          "text": "A 150-yard working section is only part of the 1,628-yard 15 lb package. The calculator estimates the reel volume for that section; it does not mean the reel holds the entire bulk package."
+        },
+        {
+          "title": "Keep the original label with the remainder",
+          "text": "Retain the product name, test and remaining-length estimate when storing a partly used spool. Check for damage and follow the reel fill clearance under even tension; nominal package length does not establish the condition of stored line."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is original Destron Monofilament the same as Essential?",
+          "answer": "No equivalence is established here. The recovered manufacturer artwork says DESTRON MONOFILAMENT and specifies quarter-pound spools. The Essential product has its own name and 300-yard variants."
+        },
+        {
+          "question": "How much line is in the 15 lb quarter-pound spool?",
+          "answer": "The inspected manufacturer chart prints 1,628 yards, .011 inch and .28 mm. The retrieved US listing title also says 15 lb/1,628 yards. A secondary search mirror carrying 1,050 yards is not used as evidence for this package."
+        },
+        {
+          "question": "Does this mean original Destron is available now?",
+          "answer": "No. The checked Amazon listing says currently unavailable. The recovered chart and package establish an original product specification scope, not present retail stock or an official discontinuation date."
+        }
+      ],
+      "sourceNote": "Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+      "sources": [
+        {
+          "label": "Original Destron quarter-pound manufacturer chart",
+          "url": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+          "note": "Same table binds each strength to printed inch/mm values and package yards."
+        },
+        {
+          "label": "KastKing-linked original Destron listing",
+          "url": "https://www.amazon.com/dp/B0BN1N4Y3S/",
+          "note": "Quarter-pound nylon product; retrieved title 15 lb/1628 yd; currently unavailable."
+        },
+        {
+          "label": "Original Destron package label",
+          "url": "https://m.media-amazon.com/images/I/71rzfiLL8QL._AC_SL1500_.jpg",
+          "note": "Destron Monofilament, Sunrise Yellow and made in Indonesia. Barcode is not proof of strength or length."
+        }
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71QvbdWGK4L._AC_SL1500_.jpg",
+      "localImagePath": "assets/line-pages/full-catalog/recovery-round2/kastking-vicious/kastking-destron-monofilament.jpg",
+      "imageAlt": "Original KastKing Destron Monofilament Sunrise Yellow spool with made-in-Indonesia label",
+      "imageCaption": "Original manufacturer package photograph. Strength-specific length and diameter come from the separate quarter-pound table.",
+      "defaultLineId": "kastking-destron-monofilament-monofilament-15",
+      "defaultSpoolYards": 1628,
+      "metaDescription": "Original KastKing Destron quarter-pound monofilament chart: checked diameters and strength-specific lengths, distinct from Destron Essential.",
+      "exampleSetups": [
+        {
+          "reelId": "shimano-vanford-fa-2500hga-vf2500hga-691",
+          "lineId": "kastking-destron-monofilament-monofilament-8",
+          "workingYards": 150,
+          "spoolYards": 3191
+        },
+        {
+          "reelId": "shimano-slx-a-150-6-3-rh-slx150a",
+          "lineId": "kastking-destron-monofilament-monofilament-15",
+          "workingYards": 100,
+          "spoolYards": 1628
+        }
+      ],
+      "fitTitle": "A bulk spool with strength-specific length",
+      "bestFit": "Quarter-pound describes the amount of line by weight, not a fixed reel fill or common yardage. The chart lists 3,191 yards at 8 lb and 1,172 yards at 20 lb; the thicker line supplies less length in the same nominal package weight. Plan each reel fill from the actual diameter and keep a running allowance for sections already used.",
+      "tradeoffTitle": "Scope and package limits",
+      "tradeoff": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee.",
+      "reelcalcNote": "Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+      "manufacturerFacts": [
+        {
+          "label": "Construction",
+          "text": "Extruded nylon monofilament; original Destron 1/4 lb package"
+        },
+        {
+          "label": "Verified scope",
+          "text": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee."
+        }
+      ],
+      "setupComparison": {
+        "title": "Plan the working section",
+        "leftTitle": "Use the matching package column",
+        "leftText": "The chart gives 2,638 yards at 10 lb, 2,042 at 12 lb and 1,628 at 15 lb. The shared quarter-pound label does not make these equal-length spools. Subtract line already used before planning another fill.",
+        "rightTitle": "Separate capacity from bulk inventory",
+        "rightText": "A 150-yard working section is only part of the 1,628-yard 15 lb package. The calculator estimates the reel volume for that section; it does not mean the reel holds the entire bulk package."
+      },
+      "productGuidanceTitle": "Before spooling",
+      "productGuidance": [
+        "The chart gives 2,638 yards at 10 lb, 2,042 at 12 lb and 1,628 at 15 lb. The shared quarter-pound label does not make these equal-length spools. Subtract line already used before planning another fill.",
+        "A 150-yard working section is only part of the 1,628-yard 15 lb package. The calculator estimates the reel volume for that section; it does not mean the reel holds the entire bulk package.",
+        "Retain the product name, test and remaining-length estimate when storing a partly used spool. Check for damage and follow the reel fill clearance under even tension; nominal package length does not establish the condition of stored line."
+      ],
+      "recommendationIntro": "For the original chart, 8/10/12/15/20 lb corresponds to .20/.22/.25/.28/.33 mm. Select the strength for the rod and presentation before deciding whether the resulting diameter suits the reel."
     }
   }
 }

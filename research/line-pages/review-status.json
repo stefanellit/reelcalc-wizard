@@ -3865,5 +3865,187 @@
       "liveProductSha256": "0db0070c3d86ed241c982d02b70fdd0eb01ed2bf9066a099691990deec88a828",
       "currentLocalProductSha256": "0db0070c3d86ed241c982d02b70fdd0eb01ed2bf9066a099691990deec88a828"
     }
+  },
+  "sunline-kantan-cast-braid-x8": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourcePack": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
+    "sourcePackSha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
+    "sourceHash": "8bba6bb94336a8edc6f9318e9e9fac8355021f9a82db0178c46070c34294ac63",
+    "independentReview": "research/line-pages/full-catalog/recovery-launch-review/kantan-contra/review.json",
+    "independentReviewSha256": "a962af27387f2237b3d561387898a83cc708e8b07782f48739dbf851fc6f0189",
+    "notes": [
+      "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+    ],
+    "browserEvidence": {
+      "proof": "reports/recovery-launch-operations/final-browser-proof.json",
+      "proofSha256": "ab39d142d0383066d33ea5b039bc49cb3610420e22ba2bceeec134c10083eec7",
+      "productSha256": "2e15416dd855c062fb8994d52bd3efbff665d00abe8be2406cbd1be3fd601fc4",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "viewportWidths": [
+        320,
+        390,
+        1280
+      ],
+      "surfaces": [
+        "hosted-component",
+        "imported-fixture"
+      ],
+      "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
+      "gate": "reports/recovery-launch-operations/browser-gate.json"
+    }
+  },
+  "spiderwire-durabraid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourcePack": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+    "sourcePackSha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+    "sourceHash": "27fb430293d8dd461854db1d70d2ae934280e4720d7d1c17fcbdb017ed1ae686",
+    "independentReview": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+    "independentReviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574",
+    "notes": [
+      "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+    ],
+    "browserEvidence": {
+      "proof": "reports/recovery-launch-operations/final-browser-proof.json",
+      "proofSha256": "ab39d142d0383066d33ea5b039bc49cb3610420e22ba2bceeec134c10083eec7",
+      "productSha256": "3c6c5fa618e26e52234bf3319392e6d395e041ffeed977eaf473adfaf27d40f2",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "viewportWidths": [
+        320,
+        390,
+        1280
+      ],
+      "surfaces": [
+        "hosted-component",
+        "imported-fixture"
+      ],
+      "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
+      "gate": "reports/recovery-launch-operations/browser-gate.json"
+    }
+  },
+  "spiderwire-ez-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourcePack": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+    "sourcePackSha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+    "sourceHash": "42dae9fe3d0c2ad9b0360beb56bcc78781c8a0cb36e6d18f399fc98fa92c0a38",
+    "independentReview": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+    "independentReviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574",
+    "notes": [
+      "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+    ],
+    "browserEvidence": {
+      "proof": "reports/recovery-launch-operations/final-browser-proof.json",
+      "proofSha256": "ab39d142d0383066d33ea5b039bc49cb3610420e22ba2bceeec134c10083eec7",
+      "productSha256": "cf78b9b7c741f8f17820d92aaa263b3b65e665232ecd1072b06284256a816452",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "viewportWidths": [
+        320,
+        390,
+        1280
+      ],
+      "surfaces": [
+        "hosted-component",
+        "imported-fixture"
+      ],
+      "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
+      "gate": "reports/recovery-launch-operations/browser-gate.json"
+    }
+  },
+  "strike-king-contra-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourcePack": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
+    "sourcePackSha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
+    "sourceHash": "fdb02efc372ce901c5e924361872e5d12db1fe8c1ec0f8e2b3cd3b5a2fbb596c",
+    "independentReview": "research/line-pages/full-catalog/recovery-launch-review/kantan-contra/review.json",
+    "independentReviewSha256": "a962af27387f2237b3d561387898a83cc708e8b07782f48739dbf851fc6f0189",
+    "notes": [
+      "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+    ],
+    "browserEvidence": {
+      "proof": "reports/recovery-launch-operations/final-browser-proof.json",
+      "proofSha256": "ab39d142d0383066d33ea5b039bc49cb3610420e22ba2bceeec134c10083eec7",
+      "productSha256": "1d0a4fdb37324e79145ba70ccc217f2edc28ff05d06b09ad01786f33d5a00711",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "viewportWidths": [
+        320,
+        390,
+        1280
+      ],
+      "surfaces": [
+        "hosted-component",
+        "imported-fixture"
+      ],
+      "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
+      "gate": "reports/recovery-launch-operations/browser-gate.json"
+    }
+  },
+  "kastking-superpower-braid": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourcePack": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+    "sourcePackSha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+    "sourceHash": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+    "independentReview": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+    "independentReviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+    "notes": [
+      "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+    ],
+    "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+    "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+    "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+    "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa",
+    "browserEvidence": {
+      "proof": "reports/recovery-launch-operations/final-browser-proof.json",
+      "proofSha256": "ab39d142d0383066d33ea5b039bc49cb3610420e22ba2bceeec134c10083eec7",
+      "productSha256": "d4e6458e7e03af350d9dea29ac809e5f73a55118bc306f069dcbd016c803886e",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "viewportWidths": [
+        320,
+        390,
+        1280
+      ],
+      "surfaces": [
+        "hosted-component",
+        "imported-fixture"
+      ],
+      "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
+      "gate": "reports/recovery-launch-operations/browser-gate.json"
+    }
+  },
+  "kastking-destron-monofilament": {
+    "status": "audited-awaiting-bulk-release",
+    "browserAudit": true,
+    "sourcePack": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+    "sourcePackSha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+    "sourceHash": "a6a30bf6aa38f0edd41632ec254f4d2596b3771c4af9497f8d53e92592acc073",
+    "independentReview": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+    "independentReviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+    "notes": [
+      "Exact independently signed resolution staged locally. Source/SKU/date scope and exclusions retained. Browser checks and publication remain main-owned."
+    ],
+    "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+    "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+    "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+    "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa",
+    "browserEvidence": {
+      "proof": "reports/recovery-launch-operations/final-browser-proof.json",
+      "proofSha256": "ab39d142d0383066d33ea5b039bc49cb3610420e22ba2bceeec134c10083eec7",
+      "productSha256": "91e8604e04d98cd50e8d3a873c7a15529df230a996184fcd6d1bf59fe73f03f0",
+      "handoffSha256": "244f6c97d3dbd5d622bb654b4dd7032ce4c2a9900f668fc53f28f9bf419ab3a3",
+      "viewportWidths": [
+        320,
+        390,
+        1280
+      ],
+      "surfaces": [
+        "hosted-component",
+        "imported-fixture"
+      ],
+      "checkedBy": "Actual main-owned browser observations; locally identity/hash validated",
+      "gate": "reports/recovery-launch-operations/browser-gate.json"
+    }
   }
 }

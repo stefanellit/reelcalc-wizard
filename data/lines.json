@@ -3985,9 +3985,62 @@
     "type": "Braid",
     "lb": 6,
     "dia_in": 0.004,
-    "dia_mm": 0.1,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 6 lb"
+    "dia_mm": 0.1016,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 6 lb / 0.004 in. Matched ASIN B0D1R3LKD6: 6 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-6",
+      "lb": 6,
+      "dia_in": 0.004,
+      "dia_mm": 0.1016,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R3LKD6/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 6 lb / 0.004 in. Matched ASIN B0D1R3LKD6: 6 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R3LKD6",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R3LKD6/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-8",
@@ -3996,9 +4049,62 @@
     "type": "Braid",
     "lb": 8,
     "dia_in": 0.005,
-    "dia_mm": 0.13,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 8 lb"
+    "dia_mm": 0.127,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 8 lb / 0.005 in. Matched ASIN B0D1R3HMZR: 8 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-8",
+      "lb": 8,
+      "dia_in": 0.005,
+      "dia_mm": 0.127,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R3HMZR/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 8 lb / 0.005 in. Matched ASIN B0D1R3HMZR: 8 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R3HMZR",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R3HMZR/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-10",
@@ -4007,9 +4113,62 @@
     "type": "Braid",
     "lb": 10,
     "dia_in": 0.006,
-    "dia_mm": 0.15,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 10 lb"
+    "dia_mm": 0.1524,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 10 lb / 0.006 in. Matched ASIN B0D1R31H6R: 10 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-10",
+      "lb": 10,
+      "dia_in": 0.006,
+      "dia_mm": 0.1524,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R31H6R/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 10 lb / 0.006 in. Matched ASIN B0D1R31H6R: 10 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R31H6R",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R31H6R/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-15",
@@ -4017,10 +4176,63 @@
     "model": "SuperPower Braid",
     "type": "Braid",
     "lb": 15,
-    "dia_in": 0.008,
-    "dia_mm": 0.2,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 15 lb"
+    "dia_in": 0.007,
+    "dia_mm": 0.1778,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 15 lb / 0.007 in. Matched ASIN B0D1R3LKCL: 15 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-15",
+      "lb": 15,
+      "dia_in": 0.007,
+      "dia_mm": 0.1778,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R3LKCL/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 15 lb / 0.007 in. Matched ASIN B0D1R3LKCL: 15 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R3LKCL",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R3LKCL/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-20",
@@ -4028,10 +4240,63 @@
     "model": "SuperPower Braid",
     "type": "Braid",
     "lb": 20,
-    "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 20 lb"
+    "dia_in": 0.01,
+    "dia_mm": 0.254,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 20 lb / 0.010 in. Matched ASIN B0D1R2JFQT: 20 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-20",
+      "lb": 20,
+      "dia_in": 0.01,
+      "dia_mm": 0.254,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R2JFQT/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 20 lb / 0.010 in. Matched ASIN B0D1R2JFQT: 20 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R2JFQT",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R2JFQT/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-30",
@@ -4039,10 +4304,63 @@
     "model": "SuperPower Braid",
     "type": "Braid",
     "lb": 30,
-    "dia_in": 0.011,
-    "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 30 lb"
+    "dia_in": 0.013,
+    "dia_mm": 0.3302,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 30 lb / 0.013 in. Matched ASIN B0D1R1YGT6: 30 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 30 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-30",
+      "lb": 30,
+      "dia_in": 0.013,
+      "dia_mm": 0.3302,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R1YGT6/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 30 lb / 0.013 in. Matched ASIN B0D1R1YGT6: 30 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R1YGT6",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R1YGT6/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-40",
@@ -4050,10 +4368,63 @@
     "model": "SuperPower Braid",
     "type": "Braid",
     "lb": 40,
-    "dia_in": 0.013,
-    "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 40 lb"
+    "dia_in": 0.014,
+    "dia_mm": 0.3556,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 40 lb / 0.014 in. Matched ASIN B0D1R2WCQG: 40 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 40 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-40",
+      "lb": 40,
+      "dia_in": 0.014,
+      "dia_mm": 0.3556,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R2WCQG/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 40 lb / 0.014 in. Matched ASIN B0D1R2WCQG: 40 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R2WCQG",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R2WCQG/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-50",
@@ -4061,10 +4432,63 @@
     "model": "SuperPower Braid",
     "type": "Braid",
     "lb": 50,
-    "dia_in": 0.014,
-    "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking superpower braid braid 50 lb"
+    "dia_in": 0.017,
+    "dia_mm": 0.4318,
+    "source_note": "Checked 2026-09-13. Visually reviewed SuperPower branded chart: 50 lb / 0.017 in. Matched ASIN B0D1R2YXPX: 50 lb / Gray / 4X / 150 yd. No Texas Edition identity.  Checked September 13, 2026. Diameters come from manufacturer-branded artwork attached to each separately fetched 150-yard US Amazon child listing. This verifies the stated artwork scope, not production date, historical formulation continuity, measured diameter or universal current specifications. Longer package labels and the excluded strength conflicts remain unresolved.",
+    "search_text": "kastking superpower braid braid 50 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+    "diameter_basis": "published-in",
+    "source_scope": "US Amazon original-branded artwork subset, Gray 150-yard child listings only. Excludes 12/25 lb chart reversals, 65/80 lb construction conflicts, and unverified longer packages. Printed inch values are the numeric source. Metric diameters are calculated at 25.4 mm per inch; no independently printed metric column was accepted.",
+    "source_scope_label": "US original-branded artwork; Gray 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "086a4d089b7e1e53f6ba3ea2eb54e01128191c4bfe583755a085b4f657b3e6c8",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-superpower-braid-braid-50",
+      "lb": 50,
+      "dia_in": 0.017,
+      "dia_mm": 0.4318,
+      "diameterBasis": "published-in",
+      "conversion": "Millimeters calculated from the printed inch diameter using 25.4 mm/in; not independently printed millimeters.",
+      "source_scope_label": "US original-branded artwork; Gray 150 yd",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71RFf9zXhTL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0D1R2YXPX/"
+      ],
+      "evidence": "Visually reviewed SuperPower branded chart: 50 lb / 0.017 in. Matched ASIN B0D1R2YXPX: 50 lb / Gray / 4X / 150 yd. No Texas Edition identity.",
+      "availabilityStatus": "listing-observed-stock-not-guaranteed",
+      "source_packages": [
+        {
+          "asin": "B0D1R2YXPX",
+          "length": 150,
+          "unit": "yd",
+          "yards": 150,
+          "color": "Low-Vis Gray",
+          "region": "US Amazon",
+          "sourceUrl": "https://www.amazon.com/dp/B0D1R2YXPX/",
+          "evidence": "Exact child listing title, size option and item-length table agree on strength and 150 yards. Same manufacturer chart image is attached to each child. No manufacturer part number claimed."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-superpower-braid-braid-65",
@@ -4326,10 +4750,62 @@
     "model": "Destron Monofilament",
     "type": "Monofilament",
     "lb": 8,
-    "dia_in": 0.01,
-    "dia_mm": 0.25,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking destron monofilament monofilament 8 lb"
+    "dia_in": 0.008,
+    "dia_mm": 0.2,
+    "source_note": "Checked 2026-09-13. Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 8 lb / 0.008 in / 0.20 mm / 3191 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.  Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+    "search_text": "kastking destron monofilament monofilament 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      3191
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.amazon.com/dp/B0BN1N4Y3S/",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee. Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+    "source_scope_label": "US original Destron 1/4 lb artwork",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "a6a30bf6aa38f0edd41632ec254f4d2596b3771c4af9497f8d53e92592acc073",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-destron-monofilament-monofilament-8",
+      "lb": 8,
+      "dia_in": 0.008,
+      "dia_mm": 0.2,
+      "diameterBasis": "published-pair",
+      "conversion": "Inches and millimeters independently printed and rounded. Neither column described as an exact conversion of the other.",
+      "source_scope_label": "US original Destron 1/4 lb artwork",
+      "spool_sizes_yd": [
+        3191
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0BN1N4Y3S/"
+      ],
+      "evidence": "Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 8 lb / 0.008 in / 0.20 mm / 3191 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.",
+      "availabilityStatus": "historical-artwork-listed-currently-unavailable-on-checked-listing",
+      "source_packages": [
+        {
+          "length": 3191,
+          "unit": "yd",
+          "yards": 3191,
+          "packageWeightLb": 0.25,
+          "region": "US listing; package says made in Indonesia",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+          "evidence": "Manufacturer chart explicitly binds 8 lb / 3191 yd under Spool Weight: 1/4 LB. No invented manufacturer SKU or child ASIN for this chart row."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-destron-monofilament-monofilament-10",
@@ -4337,10 +4813,62 @@
     "model": "Destron Monofilament",
     "type": "Monofilament",
     "lb": 10,
-    "dia_in": 0.011,
-    "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking destron monofilament monofilament 10 lb"
+    "dia_in": 0.009,
+    "dia_mm": 0.22,
+    "source_note": "Checked 2026-09-13. Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 10 lb / 0.009 in / 0.22 mm / 2638 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.  Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+    "search_text": "kastking destron monofilament monofilament 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      2638
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.amazon.com/dp/B0BN1N4Y3S/",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee. Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+    "source_scope_label": "US original Destron 1/4 lb artwork",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "a6a30bf6aa38f0edd41632ec254f4d2596b3771c4af9497f8d53e92592acc073",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-destron-monofilament-monofilament-10",
+      "lb": 10,
+      "dia_in": 0.009,
+      "dia_mm": 0.22,
+      "diameterBasis": "published-pair",
+      "conversion": "Inches and millimeters independently printed and rounded. Neither column described as an exact conversion of the other.",
+      "source_scope_label": "US original Destron 1/4 lb artwork",
+      "spool_sizes_yd": [
+        2638
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0BN1N4Y3S/"
+      ],
+      "evidence": "Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 10 lb / 0.009 in / 0.22 mm / 2638 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.",
+      "availabilityStatus": "historical-artwork-listed-currently-unavailable-on-checked-listing",
+      "source_packages": [
+        {
+          "length": 2638,
+          "unit": "yd",
+          "yards": 2638,
+          "packageWeightLb": 0.25,
+          "region": "US listing; package says made in Indonesia",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+          "evidence": "Manufacturer chart explicitly binds 10 lb / 2638 yd under Spool Weight: 1/4 LB. No invented manufacturer SKU or child ASIN for this chart row."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-destron-monofilament-monofilament-12",
@@ -4348,10 +4876,62 @@
     "model": "Destron Monofilament",
     "type": "Monofilament",
     "lb": 12,
-    "dia_in": 0.013,
-    "dia_mm": 0.33,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking destron monofilament monofilament 12 lb"
+    "dia_in": 0.01,
+    "dia_mm": 0.25,
+    "source_note": "Checked 2026-09-13. Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 12 lb / 0.010 in / 0.25 mm / 2042 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.  Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+    "search_text": "kastking destron monofilament monofilament 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      2042
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.amazon.com/dp/B0BN1N4Y3S/",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee. Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+    "source_scope_label": "US original Destron 1/4 lb artwork",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "a6a30bf6aa38f0edd41632ec254f4d2596b3771c4af9497f8d53e92592acc073",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-destron-monofilament-monofilament-12",
+      "lb": 12,
+      "dia_in": 0.01,
+      "dia_mm": 0.25,
+      "diameterBasis": "published-pair",
+      "conversion": "Inches and millimeters independently printed and rounded. Neither column described as an exact conversion of the other.",
+      "source_scope_label": "US original Destron 1/4 lb artwork",
+      "spool_sizes_yd": [
+        2042
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0BN1N4Y3S/"
+      ],
+      "evidence": "Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 12 lb / 0.010 in / 0.25 mm / 2042 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.",
+      "availabilityStatus": "historical-artwork-listed-currently-unavailable-on-checked-listing",
+      "source_packages": [
+        {
+          "length": 2042,
+          "unit": "yd",
+          "yards": 2042,
+          "packageWeightLb": 0.25,
+          "region": "US listing; package says made in Indonesia",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+          "evidence": "Manufacturer chart explicitly binds 12 lb / 2042 yd under Spool Weight: 1/4 LB. No invented manufacturer SKU or child ASIN for this chart row."
+        }
+      ]
+    }
   },
   {
     "id": "kastking-destron-monofilament-monofilament-15",
@@ -4359,10 +4939,65 @@
     "model": "Destron Monofilament",
     "type": "Monofilament",
     "lb": 15,
-    "dia_in": 0.014,
-    "dia_mm": 0.36,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking destron monofilament monofilament 15 lb"
+    "dia_in": 0.011,
+    "dia_mm": 0.28,
+    "source_note": "Checked 2026-09-13. Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 15 lb / 0.011 in / 0.28 mm / 1628 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.  Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+    "search_text": "kastking destron monofilament monofilament 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      1628
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.amazon.com/dp/B0BN1N4Y3S/",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee. Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+    "source_scope_label": "US original Destron 1/4 lb artwork",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "a6a30bf6aa38f0edd41632ec254f4d2596b3771c4af9497f8d53e92592acc073",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-destron-monofilament-monofilament-15",
+      "lb": 15,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "diameterBasis": "published-pair",
+      "conversion": "Inches and millimeters independently printed and rounded. Neither column described as an exact conversion of the other.",
+      "source_scope_label": "US original Destron 1/4 lb artwork",
+      "spool_sizes_yd": [
+        1628
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0BN1N4Y3S/"
+      ],
+      "evidence": "Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 15 lb / 0.011 in / 0.28 mm / 1628 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.",
+      "availabilityStatus": "historical-artwork-listed-currently-unavailable-on-checked-listing",
+      "source_packages": [
+        {
+          "length": 1628,
+          "unit": "yd",
+          "yards": 1628,
+          "packageWeightLb": 0.25,
+          "region": "US listing; package says made in Indonesia",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+          "evidence": "Manufacturer chart explicitly binds 15 lb / 1628 yd under Spool Weight: 1/4 LB. No invented manufacturer SKU or child ASIN for this chart row.",
+          "asin": "B0BN1N4Y3S",
+          "color": "Sunrise Yellow",
+          "corroboratingSourceUrl": "https://www.amazon.com/dp/B0BN1N4Y3S/"
+        }
+      ]
+    }
   },
   {
     "id": "kastking-destron-monofilament-monofilament-20",
@@ -4370,10 +5005,62 @@
     "model": "Destron Monofilament",
     "type": "Monofilament",
     "lb": 20,
-    "dia_in": 0.016,
-    "dia_mm": 0.41,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "kastking destron monofilament monofilament 20 lb"
+    "dia_in": 0.013,
+    "dia_mm": 0.33,
+    "source_note": "Checked 2026-09-13. Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 20 lb / 0.013 in / 0.33 mm / 1172 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.  Checked September 13, 2026 against the original DESTRON MONOFILAMENT package and 1/4 lb chart in the KastKing-linked US Amazon gallery. Package artwork says made in Indonesia; its production year is unknown. Numerical rows are manufacturer artwork transcriptions, not Essential substitutions or independent measurements. Listing unavailable. ASIN identifies the retrieved page; no unprinted manufacturer SKU is inferred.",
+    "search_text": "kastking destron monofilament monofilament 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      1172
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.amazon.com/dp/B0BN1N4Y3S/",
+    "diameter_source_url": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "Original US-listed DESTRON MONOFILAMENT manufacturer artwork, Spool Weight: 1/4 LB. Five assigned strengths only; 6 lb excluded. No current availability guarantee. Both inch and millimeter values are printed and independently rounded. The 10 lb pair is .009 inch/.22 mm, not an exact unit conversion.",
+    "source_scope_label": "US original Destron 1/4 lb artwork",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/kastking-vicious/pack.json",
+      "sha256": "0b0cb52ee3fb7fed450bdd29b71a150f27fa2144515d6904fc71bcf69b905f03",
+      "modelSha256": "a6a30bf6aa38f0edd41632ec254f4d2596b3771c4af9497f8d53e92592acc073",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kastking/review.json",
+      "reviewSha256": "894569d97734bebcce4e89b6399e51805bbbd416e776ed5f928bcdfba5f1b3bc",
+      "acceptedSubset": "research/line-pages/full-catalog/recovery-launch-review/kastking/accepted-subset.json",
+      "acceptedSubsetSha256": "b25688f444c1f053b53b20437d7cc1991c1caa9f2b3f77ec2db70301ea04f8ac",
+      "overlay": "research/line-pages/full-catalog/recovery-launch-review/kastking/minimal-overlay.json",
+      "overlaySha256": "f046345ac854650d35252c7d396a6644a1e01ed9ecf52aa0af4402463cc154aa"
+    },
+    "source_evidence": {
+      "id": "kastking-destron-monofilament-monofilament-20",
+      "lb": 20,
+      "dia_in": 0.013,
+      "dia_mm": 0.33,
+      "diameterBasis": "published-pair",
+      "conversion": "Inches and millimeters independently printed and rounded. Neither column described as an exact conversion of the other.",
+      "source_scope_label": "US original Destron 1/4 lb artwork",
+      "spool_sizes_yd": [
+        1172
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+      "sourceUrls": [
+        "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+        "https://www.amazon.com/dp/B0BN1N4Y3S/"
+      ],
+      "evidence": "Original DESTRON MONOFILAMENT manufacturer chart, 1/4 LB table: 20 lb / 0.013 in / 0.33 mm / 1172 yd. Same gallery labels original Destron and KastKing Fishing Tackle Inc.; not Essential.",
+      "availabilityStatus": "historical-artwork-listed-currently-unavailable-on-checked-listing",
+      "source_packages": [
+        {
+          "length": 1172,
+          "unit": "yd",
+          "yards": 1172,
+          "packageWeightLb": 0.25,
+          "region": "US listing; package says made in Indonesia",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71yhZT7+GcL._AC_SL1500_.jpg",
+          "evidence": "Manufacturer chart explicitly binds 20 lb / 1172 yd under Spool Weight: 1/4 LB. No invented manufacturer SKU or child ASIN for this chart row."
+        }
+      ]
+    }
   },
   {
     "id": "lews-mach-braid-braid-10",
@@ -10485,8 +11172,54 @@
     "lb": 30,
     "dia_in": 0.011,
     "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire durabraid braid 30 lb"
+    "source_note": "Checked 2026-09-13. Personally inspected original manufacturer package photograph: 30 lb, 0.28 mm, 150 yd / 137 m, Moss Green. Package also prints 0.011 in; independently printed pair retained. Retailer-entered specifications and current-stock claims are excluded.  Checked September 13, 2026. Numeric values and package identifiers were read directly from the original box and spool photos hosted on eBay. The saved manufacturer US feed independently lists SAP 1556099 with the same UPC, strength, length and color, but supplies no diameter. Seller-entered specifications and stock claims are not used.",
+    "search_text": "spiderwire durabraid braid 30 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.ebay.com/itm/305304719041",
+    "diameter_source_url": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-~4AAOSw5MVlccrb/%24_57.JPG?set_id=880000500F",
+    "diameter_basis": "published-pair",
+    "source_scope": "Undated original SDB30G-150 label only: SAP 1556099, UPC 022021647286, Moss Green, 30 lb / 13.6 kg, .011 in / .28 mm and 150 yd / 137 m. Both diameter units are independently printed. The 10 lb Test Dia comparison is not used as physical size. No other package or regional equivalence is implied.",
+    "source_scope_label": "Original SDB30G-150 label; Moss Green; 150 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+      "sha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+      "modelSha256": "27fb430293d8dd461854db1d70d2ae934280e4720d7d1c17fcbdb017ed1ae686",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+      "reviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574"
+    },
+    "source_evidence": {
+      "id": "spiderwire-durabraid-braid-30",
+      "lb": 30,
+      "dia_in": 0.011,
+      "dia_mm": 0.28,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "printedPackageMeters": 137,
+      "color": "Moss Green",
+      "strengthBasis": "published-nominal-lb-label",
+      "sourceUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/-~4AAOSw5MVlccrb/%24_57.JPG?set_id=880000500F",
+      "sourceFile": "research/line-pages/full-catalog/recovery-round2/spiderwire/evidence/dura-30-label.jpg",
+      "sourceSha256": "c6784414ef3a7533a74953db767322090f5f6f977aa02739eb82326f742e9e2b",
+      "photoHostUrl": "https://www.ebay.com/itm/305304719041",
+      "region": "US-style pound/yard original package; photograph is undated",
+      "sku": "1556099",
+      "upc": "022021647286",
+      "evidence": "Personally inspected original manufacturer package photograph: 30 lb, 0.28 mm, 150 yd / 137 m, Moss Green. Package also prints 0.011 in; independently printed pair retained. Retailer-entered specifications and current-stock claims are excluded.",
+      "publishedNominalKg": 13.6,
+      "monoEquivalentLb": 10,
+      "manufacturerModelCode": "SDB30G-150",
+      "identitySourceUrl": "https://i.ebayimg.com/images/g/2L0AAOSwOm5lccqp/s-l1600.jpg",
+      "identitySourceFile": "research/line-pages/full-catalog/recovery-round2/spiderwire/evidence/dura-30-gallery2.jpg",
+      "identitySourceSha256": "d8510aac1514e898851969b045400ad79e0d9b5825480bdce10408aba5b9e3a7",
+      "skuEvidence": "SAP, model code and UPC personally read on original spool label in gallery picture 2; not copied from seller text."
+    }
   },
   {
     "id": "spiderwire-durabraid-braid-40",
@@ -10505,10 +11238,51 @@
     "model": "EZ Braid",
     "type": "Braid",
     "lb": 10,
-    "dia_in": 0.007,
+    "dia_in": 0.007086614173228346,
     "dia_mm": 0.18,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire ez braid braid 10 lb"
+    "source_note": "Checked 2026-09-13. Personally inspected original manufacturer package photograph: 10 lb, 0.18 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.  Checked September 13, 2026 from readable manufacturer labels photographed on an eBay host. A separate photo corroborates the 15 lb row. The saved manufacturer US feed lists corresponding strength/color/110-yard combinations but provides no diameter; its SKU numbers are not asserted to be visible on these front photos. Retailer-entered tables are excluded.",
+    "search_text": "spiderwire ez braid braid 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      110
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.ebay.com/itm/296739565709",
+    "diameter_source_url": "https://i.ebayimg.com/images/g/65EAAOSwnwJnBYd8/s-l1600.jpg",
+    "diameter_basis": "published-mm",
+    "source_scope": "Undated original Moss Green EZ Braid labels only: 10/.18, 15/.20, 20/.23 and 30/.30 lb/mm; each 110 yd / 100 m. Millimeters are printed; inches are conversions. The adjacent Test Dia pound figures are mono-equivalent comparisons. The photos do not expose individual SKUs or UPCs, and no formulation date or current-stock continuity is claimed.",
+    "source_scope_label": "Original blue-package label; Moss Green; 110 yd; date/SKU unverified",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+      "sha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+      "modelSha256": "42dae9fe3d0c2ad9b0360beb56bcc78781c8a0cb36e6d18f399fc98fa92c0a38",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+      "reviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574"
+    },
+    "source_evidence": {
+      "id": "spiderwire-ez-braid-braid-10",
+      "lb": 10,
+      "dia_in": 0.007086614173228346,
+      "dia_mm": 0.18,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        110
+      ],
+      "retail_packages": [],
+      "printedPackageMeters": 100,
+      "color": "Moss Green",
+      "strengthBasis": "published-nominal-lb-label",
+      "sourceUrl": "https://i.ebayimg.com/images/g/65EAAOSwnwJnBYd8/s-l1600.jpg",
+      "sourceFile": "research/line-pages/full-catalog/recovery-round2/spiderwire/evidence/ez-10-label.jpg",
+      "sourceSha256": "5be9e43c9768d20d0daa95f4f32912ca87391a48eca8f206f9fd4d5aa65a5673",
+      "photoHostUrl": "https://www.ebay.com/itm/296739565709",
+      "region": "US-style pound/yard original package; photograph is undated",
+      "sku": null,
+      "upc": null,
+      "evidence": "Personally inspected original manufacturer package photograph: 10 lb, 0.18 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.",
+      "publishedNominalKg": 4.5,
+      "monoEquivalentLb": 3
+    }
   },
   {
     "id": "spiderwire-ez-braid-braid-15",
@@ -10516,10 +11290,51 @@
     "model": "EZ Braid",
     "type": "Braid",
     "lb": 15,
-    "dia_in": 0.008,
+    "dia_in": 0.007874015748031498,
     "dia_mm": 0.2,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire ez braid braid 15 lb"
+    "source_note": "Checked 2026-09-13. Personally inspected original manufacturer package photograph: 15 lb, 0.2 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.  Checked September 13, 2026 from readable manufacturer labels photographed on an eBay host. A separate photo corroborates the 15 lb row. The saved manufacturer US feed lists corresponding strength/color/110-yard combinations but provides no diameter; its SKU numbers are not asserted to be visible on these front photos. Retailer-entered tables are excluded.",
+    "search_text": "spiderwire ez braid braid 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      110
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.ebay.com/itm/296739565709",
+    "diameter_source_url": "https://i.ebayimg.com/images/g/T60AAOSwCxNhI79G/s-l1200.jpg",
+    "diameter_basis": "published-mm",
+    "source_scope": "Undated original Moss Green EZ Braid labels only: 10/.18, 15/.20, 20/.23 and 30/.30 lb/mm; each 110 yd / 100 m. Millimeters are printed; inches are conversions. The adjacent Test Dia pound figures are mono-equivalent comparisons. The photos do not expose individual SKUs or UPCs, and no formulation date or current-stock continuity is claimed.",
+    "source_scope_label": "Original blue-package label; Moss Green; 110 yd; date/SKU unverified",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+      "sha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+      "modelSha256": "42dae9fe3d0c2ad9b0360beb56bcc78781c8a0cb36e6d18f399fc98fa92c0a38",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+      "reviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574"
+    },
+    "source_evidence": {
+      "id": "spiderwire-ez-braid-braid-15",
+      "lb": 15,
+      "dia_in": 0.007874015748031498,
+      "dia_mm": 0.2,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        110
+      ],
+      "retail_packages": [],
+      "printedPackageMeters": 100,
+      "color": "Moss Green",
+      "strengthBasis": "published-nominal-lb-label",
+      "sourceUrl": "https://i.ebayimg.com/images/g/T60AAOSwCxNhI79G/s-l1200.jpg",
+      "sourceFile": "research/line-pages/full-catalog/recovery-round2/spiderwire/evidence/ez-15-label.jpg",
+      "sourceSha256": "38d6f187f061cf82f68a4703340dec5b4edad826ef054266035ad4d91be46a4d",
+      "photoHostUrl": "https://www.ebay.com/itm/257328170892",
+      "region": "US-style pound/yard original package; photograph is undated",
+      "sku": null,
+      "upc": null,
+      "evidence": "Personally inspected original manufacturer package photograph: 15 lb, 0.2 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.",
+      "publishedNominalKg": 6.8,
+      "monoEquivalentLb": 4
+    }
   },
   {
     "id": "spiderwire-ez-braid-braid-20",
@@ -10527,10 +11342,51 @@
     "model": "EZ Braid",
     "type": "Braid",
     "lb": 20,
-    "dia_in": 0.009,
+    "dia_in": 0.009055118110236222,
     "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire ez braid braid 20 lb"
+    "source_note": "Checked 2026-09-13. Personally inspected original manufacturer package photograph: 20 lb, 0.23 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.  Checked September 13, 2026 from readable manufacturer labels photographed on an eBay host. A separate photo corroborates the 15 lb row. The saved manufacturer US feed lists corresponding strength/color/110-yard combinations but provides no diameter; its SKU numbers are not asserted to be visible on these front photos. Retailer-entered tables are excluded.",
+    "search_text": "spiderwire ez braid braid 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      110
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.ebay.com/itm/296739565709",
+    "diameter_source_url": "https://i.ebayimg.com/images/g/CP0AAOSw6uVnSg~t/s-l1600.jpg",
+    "diameter_basis": "published-mm",
+    "source_scope": "Undated original Moss Green EZ Braid labels only: 10/.18, 15/.20, 20/.23 and 30/.30 lb/mm; each 110 yd / 100 m. Millimeters are printed; inches are conversions. The adjacent Test Dia pound figures are mono-equivalent comparisons. The photos do not expose individual SKUs or UPCs, and no formulation date or current-stock continuity is claimed.",
+    "source_scope_label": "Original blue-package label; Moss Green; 110 yd; date/SKU unverified",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+      "sha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+      "modelSha256": "42dae9fe3d0c2ad9b0360beb56bcc78781c8a0cb36e6d18f399fc98fa92c0a38",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+      "reviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574"
+    },
+    "source_evidence": {
+      "id": "spiderwire-ez-braid-braid-20",
+      "lb": 20,
+      "dia_in": 0.009055118110236222,
+      "dia_mm": 0.23,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        110
+      ],
+      "retail_packages": [],
+      "printedPackageMeters": 100,
+      "color": "Moss Green",
+      "strengthBasis": "published-nominal-lb-label",
+      "sourceUrl": "https://i.ebayimg.com/images/g/CP0AAOSw6uVnSg~t/s-l1600.jpg",
+      "sourceFile": "research/line-pages/full-catalog/recovery-round2/spiderwire/evidence/ez-gallery4.jpg",
+      "sourceSha256": "bd5cb11f29674d8c8c312d0d2a51b1173d381f766289a86b4a263caf2d5b0ce5",
+      "photoHostUrl": "https://www.ebay.com/itm/296739565709",
+      "region": "US-style pound/yard original package; photograph is undated",
+      "sku": null,
+      "upc": null,
+      "evidence": "Personally inspected original manufacturer package photograph: 20 lb, 0.23 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.",
+      "publishedNominalKg": 9,
+      "monoEquivalentLb": 6
+    }
   },
   {
     "id": "spiderwire-ez-braid-braid-30",
@@ -10538,10 +11394,51 @@
     "model": "EZ Braid",
     "type": "Braid",
     "lb": 30,
-    "dia_in": 0.011,
-    "dia_mm": 0.28,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "spiderwire ez braid braid 30 lb"
+    "dia_in": 0.011811023622047244,
+    "dia_mm": 0.3,
+    "source_note": "Checked 2026-09-13. Personally inspected original manufacturer package photograph: 30 lb, 0.3 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.  Checked September 13, 2026 from readable manufacturer labels photographed on an eBay host. A separate photo corroborates the 15 lb row. The saved manufacturer US feed lists corresponding strength/color/110-yard combinations but provides no diameter; its SKU numbers are not asserted to be visible on these front photos. Retailer-entered tables are excluded.",
+    "search_text": "spiderwire ez braid braid 30 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      110
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://www.ebay.com/itm/296739565709",
+    "diameter_source_url": "https://i.ebayimg.com/images/g/K3EAAOSwmBxnSg~0/s-l1600.jpg",
+    "diameter_basis": "published-mm",
+    "source_scope": "Undated original Moss Green EZ Braid labels only: 10/.18, 15/.20, 20/.23 and 30/.30 lb/mm; each 110 yd / 100 m. Millimeters are printed; inches are conversions. The adjacent Test Dia pound figures are mono-equivalent comparisons. The photos do not expose individual SKUs or UPCs, and no formulation date or current-stock continuity is claimed.",
+    "source_scope_label": "Original blue-package label; Moss Green; 110 yd; date/SKU unverified",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/spiderwire/pack.json",
+      "sha256": "f033e1c6b5ae8cb4ae959da38620552f6f592d2b18e69ad0e894738329ba5129",
+      "modelSha256": "42dae9fe3d0c2ad9b0360beb56bcc78781c8a0cb36e6d18f399fc98fa92c0a38",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/spiderwire/review.json",
+      "reviewSha256": "cd9701866c5b32f123b18682edabbcf2dde27e332f656db102b964f3ab7aa574"
+    },
+    "source_evidence": {
+      "id": "spiderwire-ez-braid-braid-30",
+      "lb": 30,
+      "dia_in": 0.011811023622047244,
+      "dia_mm": 0.3,
+      "diameterBasis": "published-mm",
+      "spool_sizes_yd": [
+        110
+      ],
+      "retail_packages": [],
+      "printedPackageMeters": 100,
+      "color": "Moss Green",
+      "strengthBasis": "published-nominal-lb-label",
+      "sourceUrl": "https://i.ebayimg.com/images/g/K3EAAOSwmBxnSg~0/s-l1600.jpg",
+      "sourceFile": "research/line-pages/full-catalog/recovery-round2/spiderwire/evidence/ez-gallery5.jpg",
+      "sourceSha256": "4e2a3693cf3a753b089d2bbd2458916228314ea78f19a095b5547b2814045ca5",
+      "photoHostUrl": "https://www.ebay.com/itm/296739565709",
+      "region": "US-style pound/yard original package; photograph is undated",
+      "sku": null,
+      "upc": null,
+      "evidence": "Personally inspected original manufacturer package photograph: 30 lb, 0.3 mm, 110 yd / 100 m, Moss Green. Inches are converted from printed mm. Retailer-entered specifications and current-stock claims are excluded.",
+      "publishedNominalKg": 13.6,
+      "monoEquivalentLb": 8
+    }
   },
   {
     "id": "spiderwire-ez-braid-braid-40",
@@ -12781,9 +13678,45 @@
     "type": "Braid",
     "lb": 20,
     "dia_in": 0.009,
-    "dia_mm": 0.23,
-    "source_note": "Extracted from ReelCalc fishing line diameter database code provided by user",
-    "search_text": "strike king contra braid braid 20 lb"
+    "dia_mm": 0.22,
+    "source_note": "Checked 2026-09-13. Original manufacturer's readable front label on exact family 20 lb Green 150 YDS package; .009 inch / .22 mm are independently printed and rounding-compatible. Catalog p57 assigns LPB150-20G. All other strengths/lengths excluded.  Numeric evidence comes from the readable original package label, not retailer-authored specifications. The manufacturer 2022 catalog verifies LPB150-20G identity. No current stock or package-revision equivalence is implied.",
+    "search_text": "strike king contra braid braid 20 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://cdn11.bigcommerce.com/s-palssl390t/images/stencil/800w/products/129708/212619/strike-king-lpb150-20g-contra-braid__99848.1697240646.1280.1280.jpg",
+    "diameter_source_url": "https://cdn11.bigcommerce.com/s-palssl390t/images/stencil/800w/products/129708/212619/strike-king-lpb150-20g-contra-braid__99848.1697240646.1280.1280.jpg",
+    "diameter_basis": "published-pair",
+    "source_scope": "Original label prints .009 inch / .22 mm. Only this package is included; larger lengths and other strengths remain outside the verified scope.",
+    "source_scope_label": "Undated US label; LPB150-20G Green; 150 yd; 2022 catalog identity",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
+      "sha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
+      "modelSha256": "fdb02efc372ce901c5e924361872e5d12db1fe8c1ec0f8e2b3cd3b5a2fbb596c",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kantan-contra/review.json",
+      "reviewSha256": "a962af27387f2237b3d561387898a83cc708e8b07782f48739dbf851fc6f0189"
+    },
+    "source_evidence": {
+      "id": "strike-king-contra-braid-braid-20",
+      "lb": 20,
+      "dia_in": 0.009,
+      "dia_mm": 0.22,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        150
+      ],
+      "retail_packages": [],
+      "color": "Green",
+      "sku": "LPB150-20G",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-palssl390t/images/stencil/800w/products/129708/212619/strike-king-lpb150-20g-contra-braid__99848.1697240646.1280.1280.jpg",
+      "sourceFiles": [
+        "research/line-pages/full-catalog/recovery-round2/other-identities/sources/contra-20g-package.jpg"
+      ],
+      "reviewStatus": "primary-verified-proposal",
+      "evidence": "Original manufacturer's readable front label on exact family 20 lb Green 150 YDS package; .009 inch / .22 mm are independently printed and rounding-compatible. Catalog p57 assigns LPB150-20G. All other strengths/lengths excluded."
+    }
   },
   {
     "id": "strike-king-contra-braid-braid-30",
@@ -19259,8 +20192,44 @@
     "lb": 30,
     "dia_in": 0.012,
     "dia_mm": 0.296,
-    "source_note": "Verified against the ICAST 2026 U.S. Kantan Cast Braid X8 diameter chart: https://www.tacklewarehouse.com/Sunline_Kantan_Cast_Braid_X8_Braided_Line/descpage-SKX8.html",
-    "search_text": "sunline kantan cast braid x8 30 lb 8 strand carrier dark green icast 2026"
+    "source_note": "Checked 2026-09-13. Exact official product diameter table and 63045730 30 LB / 150 YD variant 45784199200947; 63045740 30 LB / 600 YD variant 45784199233715. Numeric pair coherent; exact-family 30 lb/150 yd label photograph now inspected. Fresh 2026-09-13 official JSON rechecked.  The Sunline America product chart and assigned variants provide the numeric evidence. The dealer-hosted original spool label supplies exact-family imagery. No retailer-authored diameter correction is used.",
+    "search_text": "sunline kantan cast braid x8 braid 30 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      600
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+    "diameter_source_url": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+    "diameter_basis": "published-pair",
+    "source_scope": "Official chart pairs retained at printed precision. The 30 lb photo prints .0116 inch while the chart rounds to .012 inch; both print .296 mm. The unresolved 40/60 lb pairs are excluded.",
+    "source_scope_label": "2026 US chart; Dark Green; 150/600 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
+      "sha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
+      "modelSha256": "8bba6bb94336a8edc6f9318e9e9fac8355021f9a82db0178c46070c34294ac63",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kantan-contra/review.json",
+      "reviewSha256": "a962af27387f2237b3d561387898a83cc708e8b07782f48739dbf851fc6f0189"
+    },
+    "source_evidence": {
+      "id": "sunline-kantan-cast-braid-x8-braid-30",
+      "lb": 30,
+      "dia_mm": 0.296,
+      "dia_in": 0.012,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        150,
+        600
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+      "evidence": "Exact official product diameter table and 63045730 30 LB / 150 YD variant 45784199200947; 63045740 30 LB / 600 YD variant 45784199233715. Numeric pair coherent; exact-family 30 lb/150 yd label photograph now inspected. Fresh 2026-09-13 official JSON rechecked.",
+      "sourceFiles": [
+        "research/line-pages/full-catalog/recovery-round2/other-identities/sources/kantan-official.json"
+      ],
+      "reviewStatus": "primary-verified-proposal"
+    }
   },
   {
     "id": "sunline-kantan-cast-braid-x8-braid-40",
@@ -19281,8 +20250,44 @@
     "lb": 50,
     "dia_in": 0.015,
     "dia_mm": 0.382,
-    "source_note": "Verified against the ICAST 2026 U.S. Kantan Cast Braid X8 diameter chart: https://www.tacklewarehouse.com/Sunline_Kantan_Cast_Braid_X8_Braided_Line/descpage-SKX8.html",
-    "search_text": "sunline kantan cast braid x8 50 lb 8 strand carrier dark green icast 2026"
+    "source_note": "Checked 2026-09-13. Exact official product diameter table and 63045734 50 LB / 150 YD variant 45784199332019; 63045744 50 LB / 600 YD variant 45784199364787. Numeric pair coherent; exact-family 30 lb/150 yd label photograph now inspected. Fresh 2026-09-13 official JSON rechecked.  The Sunline America product chart and assigned variants provide the numeric evidence. The dealer-hosted original spool label supplies exact-family imagery. No retailer-authored diameter correction is used.",
+    "search_text": "sunline kantan cast braid x8 braid 50 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      600
+    ],
+    "retail_packages": [],
+    "product_source_url": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+    "diameter_source_url": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+    "diameter_basis": "published-pair",
+    "source_scope": "Official chart pairs retained at printed precision. The 30 lb photo prints .0116 inch while the chart rounds to .012 inch; both print .296 mm. The unresolved 40/60 lb pairs are excluded.",
+    "source_scope_label": "2026 US chart; Dark Green; 150/600 yd",
+    "source_pack": {
+      "path": "research/line-pages/full-catalog/recovery-round2/other-identities/pack.json",
+      "sha256": "23a0a17b3526c2cd8df6a29bb1b9fc58d7bb8c3b5ee627264502fa81ccfb6b65",
+      "modelSha256": "8bba6bb94336a8edc6f9318e9e9fac8355021f9a82db0178c46070c34294ac63",
+      "reviewFile": "research/line-pages/full-catalog/recovery-launch-review/kantan-contra/review.json",
+      "reviewSha256": "a962af27387f2237b3d561387898a83cc708e8b07782f48739dbf851fc6f0189"
+    },
+    "source_evidence": {
+      "id": "sunline-kantan-cast-braid-x8-braid-50",
+      "lb": 50,
+      "dia_mm": 0.382,
+      "dia_in": 0.015,
+      "diameterBasis": "published-pair",
+      "spool_sizes_yd": [
+        150,
+        600
+      ],
+      "retail_packages": [],
+      "sourceUrl": "https://sunlineamerica.com/products/kantan-cast-braid-x8",
+      "evidence": "Exact official product diameter table and 63045734 50 LB / 150 YD variant 45784199332019; 63045744 50 LB / 600 YD variant 45784199364787. Numeric pair coherent; exact-family 30 lb/150 yd label photograph now inspected. Fresh 2026-09-13 official JSON rechecked.",
+      "sourceFiles": [
+        "research/line-pages/full-catalog/recovery-round2/other-identities/sources/kantan-official.json"
+      ],
+      "reviewStatus": "primary-verified-proposal"
+    }
   },
   {
     "id": "sunline-kantan-cast-braid-x8-braid-60",

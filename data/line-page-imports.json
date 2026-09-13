@@ -1,5 +1,5 @@
 {
-  "version": "10",
+  "version": "11",
   "collection": "lines",
   "pages": {
     "powerpro-spectra-braid-diameter-capacity-guide": {
@@ -1027,6 +1027,60 @@
       "url": "https://www.reelcalc.com/lines/p/hi-seas-fluorocarbon-diameter-capacity-guide",
       "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
       "sku": "RCLA3A6C83BE2E09EF4F"
+    },
+    "sunline-kantan-cast-braid-x8-braid-diameter-capacity-guide": {
+      "id": "sunline-kantan-cast-braid-x8",
+      "title": "Sunline Kantan Cast Braid X8",
+      "seoTitle": "Sunline Kantan Cast Braid X8 Diameter & Capacity | ReelCalc",
+      "seoDescription": "Compare the verified 30 and 50 lb Kantan Cast Braid X8 diameters, plan reel capacity and backing, and check the exact 150- or 600-yard package.",
+      "url": "https://www.reelcalc.com/lines/p/sunline-kantan-cast-braid-x8-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/other-identities/sunline-kantan-cast-braid-x8.jpg",
+      "sku": "RCL181D279F00E7B98D4"
+    },
+    "spiderwire-durabraid-diameter-capacity-guide": {
+      "id": "spiderwire-durabraid",
+      "title": "SpiderWire DuraBraid",
+      "seoTitle": "DuraBraid 30 lb Label Diameter Guide | ReelCalc",
+      "seoDescription": "Plan a DuraBraid 30 lb fill from the original SDB30G-150 label: .011 in / .28 mm, Moss Green and 150 yards. Exact photographed-package reference.",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-durabraid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/spiderwire/spiderwire-durabraid.jpg",
+      "sku": "RCLCFD9DF9B2AB168354"
+    },
+    "spiderwire-ez-braid-diameter-capacity-guide": {
+      "id": "spiderwire-ez-braid",
+      "title": "SpiderWire EZ Braid",
+      "seoTitle": "EZ Braid Original Label Diameter Guide | ReelCalc",
+      "seoDescription": "Compare original EZ Braid Moss Green labels: 10, 15, 20 and 30 lb with .18-.30 mm diameters and 110-yard packages. No regional chart substitution.",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-ez-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/spiderwire/spiderwire-ez-braid.jpg",
+      "sku": "RCLAD4CB8BAA671F6D4B"
+    },
+    "strike-king-contra-braid-diameter-capacity-guide": {
+      "id": "strike-king-contra-braid",
+      "title": "Strike King Contra Braid",
+      "seoTitle": "Strike King Contra Braid 20 lb Diameter & Capacity | ReelCalc",
+      "seoDescription": "Plan capacity and backing with the label-verified Contra Braid 20 lb Green 150-yard package. Check the exact .009-inch / .22-mm diameter before filling.",
+      "url": "https://www.reelcalc.com/lines/p/strike-king-contra-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/other-identities/strike-king-contra-braid.webp",
+      "sku": "RCL139C934E7AA8433D1"
+    },
+    "kastking-superpower-braid-diameter-capacity-guide": {
+      "id": "kastking-superpower-braid",
+      "title": "KastKing SuperPower Braid",
+      "seoTitle": "KastKing SuperPower Braid Diameter & Capacity | ReelCalc",
+      "seoDescription": "Original-branded KastKing SuperPower Gray 150-yard scope: checked diameters, excluded chart conflicts, reel capacity and working-line planning.",
+      "url": "https://www.reelcalc.com/lines/p/kastking-superpower-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/kastking-vicious/kastking-superpower-braid.jpg",
+      "sku": "RCLA637D61E649090999"
+    },
+    "kastking-destron-monofilament-diameter-capacity-guide": {
+      "id": "kastking-destron-monofilament",
+      "title": "KastKing Destron Monofilament",
+      "seoTitle": "KastKing Destron Monofilament Diameter & Capacity | ReelCalc",
+      "seoDescription": "Original KastKing Destron quarter-pound monofilament chart: checked diameters and strength-specific lengths, distinct from Destron Essential.",
+      "url": "https://www.reelcalc.com/lines/p/kastking-destron-monofilament-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/kastking-vicious/kastking-destron-monofilament.jpg",
+      "sku": "RCLE4C558737BD116B05"
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-13T19:50:43.037Z",
+  "engine": "js/line-page-engine.js",
+  "engineSha256": "8b2018f6a7a494a124dc4ba19e586b03d1f942310a7a18f61b52c46dd0aee7b0",
+  "coreSha256": "29f43acd3519959dfdabfbad9d35f5445acaa5688dac5da1aa1d4c057f32a305",
+  "lineId": "sunline-kantan-cast-braid-x8-braid-30",
+  "spoolYards": 600,
+  "method": "Fresh read-only Node VM per fixture; real calculation and formatting. Second fixture explicitly injects tiny upstream roundoff, not a new product specification.",
+  "passed": true,
+  "cases": [
+    {
+      "capacity": 150,
+      "remaining": "0 yd",
+      "name": "Exact 150/600 identity",
+      "fullCapacity": 150,
+      "efficiencyText": "This retail spool supports approximately 4 separate 150 yd working fills, with about 0 yd remaining.",
+      "pass": true
+    },
+    {
+      "capacity": 150.00000000000006,
+      "remaining": "0 yd",
+      "name": "Upstream arithmetic roundoff near 150",
+      "fullCapacity": 150.00000000000006,
+      "efficiencyText": "This retail spool supports approximately 4 separate 150 yd working fills, with about 0 yd remaining.",
+      "pass": true
+    },
+    {
+      "capacity": 149.75,
+      "remaining": "1 yd",
+      "name": "Real one-yard remainder",
+      "fullCapacity": 149.75,
+      "efficiencyText": "This retail spool supports approximately 4 separate 150 yd working fills, with about 1 yd remaining.",
+      "pass": true
+    }
+  ]
+}

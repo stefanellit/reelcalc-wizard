@@ -1,5 +1,5 @@
 {
-  "version": "10",
+  "version": "11",
   "products": [
     "powerpro-spectra",
     "seaguar-invizx",
@@ -114,7 +114,13 @@
     "p-line-halo-fluorocarbon",
     "p-line-endurx-braid",
     "p-line-tcb-8-braid",
-    "hi-seas-fluorocarbon"
+    "hi-seas-fluorocarbon",
+    "sunline-kantan-cast-braid-x8",
+    "spiderwire-durabraid",
+    "spiderwire-ez-braid",
+    "strike-king-contra-braid",
+    "kastking-superpower-braid",
+    "kastking-destron-monofilament"
   ],
   "publishedProducts": [
     "powerpro-spectra",

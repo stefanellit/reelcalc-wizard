@@ -13,6 +13,7 @@
       product: null,
       reels: [],
       lines: [],
+      calibrationLines: null,
       productLines: [],
       affiliateData: null,
       selectedLine: null,
@@ -54,6 +55,8 @@
         state.product = payload[0] && payload[0].products ? payload[0].products[productId] : null;
         state.reels = Array.isArray(payload[1]) ? payload[1] : [];
         state.lines = Array.isArray(payload[2]) ? payload[2] : [];
+        // Choice filtering must not change the calibration medians used by other tools.
+        state.calibrationLines = state.lines;
         // Exclude unverified legacy variants from comparisons and backing choices too.
         var reviewedProducts = Object.values(payload[0].products || {});
         var reviewedFamilies = new Set(reviewedProducts.filter(function(product) { return product.role !== "leader"; }).map(function(product) {
@@ -710,7 +713,7 @@
       if (!(capacity > 0)) return { ok: false, message: "ReelCalc could not establish a usable capacity reference for this reel and line." };
       if (options.capacityOnly) workingYards = capacity;
       var capacityRange = !reel.manualRating && isBraid(line) && global.ReelCalcCore.calculateActualLineBraidCapacityRange
-        ? global.ReelCalcCore.calculateActualLineBraidCapacityRange(reel, line, state.lines)
+        ? global.ReelCalcCore.calculateActualLineBraidCapacityRange(reel, line, calibrationCatalog())
         : null;
       var needsBacking = !options.capacityOnly && workingYards < capacity * (1 - 1e-10);
       var overCapacity = workingYards > capacity * (1 + 1e-10);
@@ -724,14 +727,16 @@
             workingYards: workingYards
           });
         } else {
-          backing = global.ReelCalcCore.calculateActualLineCalibratedBacking(reel, line, workingYards, backingLine, state.lines);
-          backingRange = global.ReelCalcCore.calculateActualLineCalibratedBackingRange(reel, line, workingYards, backingLine, state.lines);
+          backing = global.ReelCalcCore.calculateActualLineCalibratedBacking(reel, line, workingYards, backingLine, calibrationCatalog());
+          backingRange = global.ReelCalcCore.calculateActualLineCalibratedBackingRange(reel, line, workingYards, backingLine, calibrationCatalog());
         }
       }
 
-      var spoolEnoughForPlan = spoolYards >= workingYards;
-      var leftoverYards = Math.max(0, spoolYards - workingYards);
-      var shortfallYards = Math.max(0, workingYards - spoolYards);
+      var spoolDifference = spoolYards - workingYards;
+      var spoolTolerance = Math.max(spoolYards, workingYards) * 1e-10;
+      var spoolEnoughForPlan = spoolDifference >= -spoolTolerance;
+      var leftoverYards = spoolDifference > spoolTolerance ? spoolDifference : 0;
+      var shortfallYards = spoolEnoughForPlan ? 0 : -spoolDifference;
       var assessment = setupAssessment({
         capacity: capacity,
         workingYards: workingYards,
@@ -743,14 +748,16 @@
         line: line,
         reel: reel
       });
-      var fullUsefulFills = Math.floor(spoolYards / workingYards);
+      var fullUsefulFills = Math.floor((spoolYards + spoolTolerance) / workingYards);
+      var multiFillRemainder = spoolYards - fullUsefulFills * workingYards;
+      var multiFillLeftoverYards = multiFillRemainder > spoolTolerance ? multiFillRemainder : 0;
       var efficiencyText = workingYards < 50
         ? "This plan uses less than 50 yards of working line. Check that it leaves enough line for your casts, fish runs, and retying before treating it as a usable fishing fill. Specialty short-line fishing may need less than general casting."
         : overCapacity
         ? "The working-line amount must be reduced before spool efficiency can be evaluated for this reel."
         : spoolEnoughForPlan
         ? fullUsefulFills >= 2
-          ? "This retail spool supports approximately " + fullUsefulFills + " separate " + formatYards(workingYards) + " working fills, with about " + formatYards(spoolYards - fullUsefulFills * workingYards) + " remaining."
+          ? "This retail spool supports approximately " + fullUsefulFills + " separate " + formatYards(workingYards) + " working fills, with about " + formatYards(multiFillLeftoverYards) + " remaining."
           : "This retail spool supports one " + formatYards(workingYards) + " working fill, with about " + formatYards(leftoverYards) + " remaining."
         : "This retail spool is about " + formatYards(shortfallYards) + " short of the chosen working-line amount. Select a larger offered spool or reduce the plan.";
       var offer = global.ReelCalcAffiliateLinks && global.ReelCalcAffiliateLinks.buildRecommendedLineOffer
@@ -1130,10 +1137,14 @@
       });
     }
 
+    function calibrationCatalog() {
+      return state.calibrationLines || state.lines;
+    }
+
     function fullCapacity(reel, line) {
       if (!global.ReelCalcCore || typeof global.ReelCalcCore.calculateFullSpoolCapacity !== "function") return null;
       if (reel && reel.manualRating) return global.ReelCalcCore.capacityFromRating(reel.manualRating, Number(line && line.dia_in));
-      return Number(global.ReelCalcCore.calculateFullSpoolCapacity(reel, line, { lineCatalog: state.lines })) || null;
+      return Number(global.ReelCalcCore.calculateFullSpoolCapacity(reel, line, { lineCatalog: calibrationCatalog() })) || null;
     }
 
     function isReelReady(reel) {
