@@ -500,6 +500,12 @@ function renderAll() {
   renderCapacityResult();
   renderBackingResult();
   renderSimilarLines();
+  if (window.ReelCalcLineGuides) {
+    window.ReelCalcLineGuides.showAfter(el.lineLb.closest("label"), state.path === "exact" && !state.useManualLine ? state.selectedLine : null,
+      { source: "setup_wizard", role: "main", reel: !state.useManualReel && reel ? reel.id : "" });
+    window.ReelCalcLineGuides.showAfter(el.backingLb.closest("label"), state.backingMode === "yes" && !state.useManualBacking ? state.backingLine : null,
+      { source: "setup_wizard", role: "backing", reel: !state.useManualReel && reel ? reel.id : "" });
+  }
 }
 
 function scrollToMainResultAfterRender() {

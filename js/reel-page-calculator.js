@@ -314,6 +314,15 @@
       qa('[data-action="material"][data-line-role="' + role + '"]').forEach(function(button) {
         button.classList.toggle("active", button.dataset.material === roleState.material);
       });
+      renderGuideLinks();
+    }
+
+    function renderGuideLinks() {
+      if (!window.ReelCalcLineGuides) return;
+      ["main", "backing"].forEach(function(role) {
+        window.ReelCalcLineGuides.showAfter(q(role + "-detail"), state[role].custom ? null : state[role].line,
+          { source: "reel_page", role: role, reel: reel.id });
+      });
     }
 
     function currentLine(role) {
@@ -355,6 +364,7 @@
           : "";
       }
       emit("reelcalc:custom-line-changed", { lineRole: role, enabled: roleState.custom });
+      renderGuideLinks();
       updateSuggestedSummary();
       calculateIfReady("custom_line_toggle");
     }
@@ -790,6 +800,7 @@
     setActiveButtons("unit", "unit", state.unit);
     updateMode();
     mount.dataset.reelcalcReady = "true";
+    loadScript("js/line-guide-links.js?v=1", "ReelCalcLineGuides").then(renderGuideLinks).catch(function() {});
     emit("reelcalc:calculator-ready", {
       lineCount: preparedLines.length,
       validLineCount: preparedLines.length

@@ -75,6 +75,7 @@
         if (!interactiveBound) { bindInteractiveEvents(); interactiveBound = true; }
         applyPreload();
         renderAll();
+        loadGuideLinks();
         el.loading.hidden = true;
         el.interactive.hidden = false;
         el.toolStatus.textContent = "Line data ready";
@@ -108,6 +109,24 @@
         if (!response.ok) throw new Error(relativePath + " returned " + response.status);
         return await response.json();
       } finally { clearTimeout(timeout); }
+    }
+
+    function renderGuideLinks() {
+      if (!global.ReelCalcLineGuides) return;
+      var reelId = state.reelSource === "database" && state.selectedReel ? state.selectedReel.id : "";
+      global.ReelCalcLineGuides.showAfter(el.backingLb.closest("label"), state.capacityOnly ? null : state.selectedBackingLine,
+        { source: "line_page", role: "backing", reel: reelId });
+      var replacement = state.lines.find(function(line) { return line.id === el.replacement.value; }) || null;
+      global.ReelCalcLineGuides.showAfter(el.replacement.closest("label"), replacement,
+        { source: "line_page", role: "comparison", reel: reelId });
+    }
+
+    function loadGuideLinks() {
+      if (global.ReelCalcLineGuides) { renderGuideLinks(); return; }
+      var script = document.createElement("script");
+      script.src = new URL("js/line-guide-links.js?v=1", assetBase).href;
+      script.addEventListener("load", renderGuideLinks, { once: true });
+      document.head.appendChild(script);
     }
 
     function cacheElements() {
@@ -581,6 +600,7 @@
     }
 
     function updateCalculateState() {
+      renderGuideLinks();
       if (state.capacityOnly && (!activeReel() || !state.selectedLine)) el.workingYards.value = "";
       if (el.workingYardsLabel) el.workingYardsLabel.textContent = state.capacityOnly
         ? "Estimated full-spool amount (yards)"
@@ -939,6 +959,7 @@
     }
 
     function renderSwitchComparison(shouldTrack) {
+      renderGuideLinks();
       var replacement = state.lines.find(function(line) { return line.id === el.replacement.value; }) || null;
       var current = state.selectedLine;
       if (!current || !replacement) {

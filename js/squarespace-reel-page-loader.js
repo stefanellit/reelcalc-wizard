@@ -604,7 +604,7 @@
     if (document.getElementById("reelcalc-line-database") ||
         document.getElementById("reelcalc-pe-line-database") ||
         new URLSearchParams(location.search).has("rcSource")) {
-      loadScript("js/line-database-tools.js?v=2", "ReelCalcLineTools").then(function(tools) {
+      loadScript("js/line-database-tools.js?v=3", "ReelCalcLineTools").then(function(tools) {
         if (tools && tools.initialize) tools.initialize();
       }).catch(function(error) {
         console.warn("ReelCalc line tool links could not load.", error);
@@ -668,7 +668,7 @@
         });
 
         return Promise.all([
-          loadScript("js/reel-page-calculator.js?v=9", "ReelCalcReelPageCalculator"),
+          loadScript("js/reel-page-calculator.js?v=10", "ReelCalcReelPageCalculator"),
           loadScript("js/reel-page-runtime.js?v=3", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();

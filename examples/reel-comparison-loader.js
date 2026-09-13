@@ -170,7 +170,7 @@
 
   function versionedUrl(url) {
     var value = new URL(url);
-    value.searchParams.set("v", assetVersion || "shared-engine-8");
+    value.searchParams.set("v", (assetVersion || "shared-engine-8") + "-guide-links-1");
     return value.href;
   }
 
@@ -206,6 +206,9 @@
       return loadScript(versionedUrl(new URL("js/analytics.js", projectBase)), "ReelCalcAnalytics", "analytics").catch(function() {
         return undefined;
       });
+    })
+    .then(function() {
+      return loadScript(versionedUrl(new URL("js/line-guide-links.js", projectBase)), "ReelCalcLineGuides", "line-guide-links").catch(function() {});
     })
     .then(function() {
       return loadScript(versionedUrl(new URL("reel-comparison.js", exampleBase)), "", "reel-comparison");

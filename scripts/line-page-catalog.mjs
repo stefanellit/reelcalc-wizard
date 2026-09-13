@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { buildLineGuideLinks } from "./build-line-guide-links.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -55,4 +56,5 @@ const markdown = ["# Line Page Expansion Tracker", "", `Main catalog: ${report.m
   ...entries.map(e => `| ${e.brand} ${e.model} | ${e.status} | ${e.missing.join("; ") || "None recorded"} |`), "",
   "## PE-Only Coverage", "", ...peOnly.map(e => `- ${e.brand} ${e.model}: ${e.status}`), ""].join("\n");
 fs.writeFileSync(path.join(root, "generated/line-pages/CATALOG-PROGRESS.md"), markdown);
+buildLineGuideLinks();
 console.log(JSON.stringify({ mainCatalogModels: report.mainCatalogModels, published: report.published, remaining: report.remaining, peOnly: peOnly.length, leaders: entries.filter(e=>e.role === "leader").length }));

@@ -142,7 +142,7 @@
           await asset(versioned("css/" + config.name + ".css"), true, null, options);
           await asset(new URL("css/line-database-tools.css?v=2", base).href, true, null, options);
           var renderer = await asset(versioned("js/" + config.name + ".js"), false, config.api, options);
-          var tools = await asset(new URL("js/line-database-tools.js?v=2", base).href, false, "ReelCalcLineTools", options);
+          var tools = await asset(new URL("js/line-database-tools.js?v=3", base).href, false, "ReelCalcLineTools", options);
           host.replaceChildren(root);
           renderer.initialize(root, data);
           tools.initialize({ catalog: catalog });

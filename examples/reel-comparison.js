@@ -926,6 +926,10 @@
   }
 
   function renderLineFit() {
+    if (window.ReelCalcLineGuides) ["main", "backing"].forEach(function(role) {
+      window.ReelCalcLineGuides.showAfter(roleElements(role).detail, role === "backing" && !state.backingEnabled ? null : state.lineRoles[role].line,
+        { source: "reel_comparison", role: role });
+    });
     var mainLine = state.lineRoles.main.line;
     var backingLine = state.lineRoles.backing.line;
     var desiredYards = Number(elements.mainLineYards.value);

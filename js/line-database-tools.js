@@ -14,6 +14,7 @@
     pe: script && script.dataset.peCalculatorUrl || "https://www.reelcalc.com/pe-line-capacity-calculator"
   };
   var lineDataPromise;
+  var guideScriptStarted = false;
   var handoffApplied = false;
 
   function clean(value, limit) {
@@ -90,6 +91,7 @@
     var usePE = isPE && PE_SIZES.includes(Number(line.pe));
     var url = new URL(usePE ? routes.pe : routes.homepage);
     var params = calculatorParams(line, isPE);
+    if (catalogLine && catalogLine.id) params.rcLineId = catalogLine.id;
     Object.keys(params).forEach(function(name) { if (params[name]) url.searchParams.set(name, params[name]); });
     url.hash = usePE ? "reelcalc-pe-calculator" : "reelcalc-homepage-calculator";
     return url.href;
@@ -108,7 +110,7 @@
     var pe = positive(params.get("rcPe"));
     var lb = positive(params.get("rcLineLb"));
     if ((pe && pe > 100) || (lb && lb > 2000) || (source === "pe_line_database" && (!pe || type !== "braid"))) return null;
-    return { source: source, name: name, type: type, unit: unit, diameter: diameter, diameterIn: diameterIn,
+    return { source: source, name: name, lineId: clean(params.get("rcLineId")), type: type, unit: unit, diameter: diameter, diameterIn: diameterIn,
       pe: pe, lb: lb, note: clean(params.get("rcLineNote"), 400) };
   }
   function track(event, line, isPE, extra) {
@@ -181,6 +183,8 @@
       current = records.get(selectedLabel()) || null;
       panel.hidden = !current;
       highlight();
+      if (global.ReelCalcLineGuides) global.ReelCalcLineGuides.showAfter(panel.querySelector(".rc-line-specs"), current,
+        { source: isPE ? "pe_line_database" : "line_database", role: "main" });
       if (!current) return;
       currentCatalogLine = matchCatalogLine(current, catalogLines);
       panel.querySelector(".rc-line-name").textContent = labelOf(current);
@@ -191,7 +195,7 @@
       wizard.hidden = !currentCatalogLine;
       if (currentCatalogLine) wizard.href = buildDestination(current, isPE, "wizard", currentCatalogLine);
       else wizard.removeAttribute("href");
-      calculator.href = buildDestination(current, isPE, "calculator");
+      calculator.href = buildDestination(current, isPE, "calculator", currentCatalogLine);
       calculator.textContent = isPE && PE_SIZES.includes(current.pe) ? "Use in PE Calculator" : "Use in Calculator";
       calculator.classList.toggle("rc-line-secondary", Boolean(currentCatalogLine));
       status.textContent = "Selected " + labelOf(current);
@@ -246,6 +250,7 @@
     root.querySelectorAll("tbody").forEach(function(body) { observer.observe(body, { childList: true }); });
     captureRows();
     catalog().then(function(data) { catalogLines = data; render(); });
+    document.addEventListener("reelcalc:line-guides-ready", render, { once: true });
   }
 
   function loadedSummary(group, selection, usesPE) {
@@ -261,7 +266,7 @@
       var link = document.createElement("a");
       var url = new URL(destinations.homepage);
       var incoming = new URLSearchParams(global.location.search);
-      ["rcSource", "rcLineName", "rcLineType", "rcDiameter", "rcDiameterUnit", "rcLineLb", "rcPe", "rcLineNote"].forEach(function(param) {
+      ["rcSource", "rcLineId", "rcLineName", "rcLineType", "rcDiameter", "rcDiameterUnit", "rcLineLb", "rcPe", "rcLineNote"].forEach(function(param) {
         if (incoming.has(param)) url.searchParams.set(param, incoming.get(param));
       });
       url.hash = "reelcalc-homepage-calculator";
@@ -270,6 +275,22 @@
       summary.appendChild(link);
     }
     (group.querySelector(".step-heading") || group.querySelector("h3")).after(summary);
+    function guide() {
+      if (!global.ReelCalcLineGuides) return;
+      catalog().then(function(lines) {
+        if (!summary.isConnected) return;
+        var matches = lines.filter(function(line) {
+          return (!selection.lineId || line.id === selection.lineId) && nameOf(line) + scopeOf(line) === selection.name &&
+            Number(line.lb) === selection.lb && material(line.type) === selection.type &&
+            (selection.unit === "mm" ? format(line.dia_mm, 3) === format(selection.diameter, 3)
+              : format(line.dia_in, 4) === format(selection.diameter, 4));
+        });
+        global.ReelCalcLineGuides.showAfter(detail, matches.length === 1 ? matches[0] : null,
+          { source: usesPE ? "pe_calculator" : "homepage_calculator", role: "main" });
+      });
+    }
+    guide();
+    document.addEventListener("reelcalc:line-guides-ready", guide, { once: true });
     return summary;
   }
   function dispatchInput(input) { input.dispatchEvent(new Event("input", { bubbles: true })); }
@@ -326,6 +347,12 @@
   function initialize(options) {
     if (options && Array.isArray(options.catalog)) lineDataPromise = Promise.resolve(options.catalog);
     stylesheet();
+    if (!global.ReelCalcLineGuides && !guideScriptStarted && assetBase) {
+      guideScriptStarted = true;
+      var guideScript = document.createElement("script");
+      guideScript.src = new URL("js/line-guide-links.js?v=1", assetBase).href;
+      document.head.appendChild(guideScript);
+    }
     var regular = document.getElementById("reelcalc-line-database");
     var pe = document.getElementById("reelcalc-pe-line-database");
     if (regular) mountDatabase(regular, false);

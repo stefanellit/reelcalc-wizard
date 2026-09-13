@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Line guide link review</title>
+<style>body{font:14px Arial,sans-serif;margin:16px}header{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:12px}label{display:flex;gap:8px;align-items:center}select{min-height:40px}iframe{display:block;background:white;border:1px solid #ccc;height:1000px}main{overflow:auto}</style></head><body>
+<header><label>Page <select id="surface"><option value="database">Line database</option><option value="pe">PE database</option><option value="wizard">Wizard</option><option value="comparison">Comparison</option><option value="reel">Reel calculator</option><option value="home">Homepage calculator</option><option value="line">Line guide</option></select></label>
+<label>Width <select id="width"><option>1280</option><option>390</option><option>320</option></select></label></header>
+<p><button id="jump" type="button">Show guide links</button></p><pre id="checks"></pre>
+<main><iframe title="Selected tool preview" id="preview" width="1280"></iframe></main>
+<script>
+const routes={database:'../../examples/line-database.html',pe:'../../examples/pe-line-database.html',
+wizard:'../../index.html?reel=penn-fierce-iv-8000-frciv8000-474&line=powerpro-spectra-braid-30&lb=30',
+comparison:'../../examples/reel-comparison.html?reel1=penn-fierce-iv-8000-frciv8000-474&reel2=penn-battle-iv-8000-btliv8000-465&mainLine=powerpro-spectra-braid-30&backingLine=berkley-trilene-big-game-monofilament-10',
+reel:'reel.html',home:'homepage.html?rcSource=line_database&rcLineId=powerpro-spectra-braid-30&rcLineName=PowerPro%20Spectra&rcLineType=braid&rcDiameter=0.011&rcDiameterUnit=in&rcLineLb=30',
+line:'../../examples/line-pages/powerpro-spectra.html?reel=penn-fierce-iv-8000-frciv8000-474&line=powerpro-spectra-braid-30&lb=30'};
+const frame=document.getElementById('preview');document.getElementById('surface').onchange=e=>frame.src=routes[e.target.value];document.getElementById('width').onchange=e=>frame.width=e.target.value;frame.src=routes.database;
+function roots(){const d=frame.contentDocument;return d?[d,...Array.from(d.querySelectorAll('[data-reelcalc-calculator]')).map(e=>e.shadowRoot).filter(Boolean)]:[];}
+function visibleLinks(){return roots().flatMap(d=>Array.from(d.querySelectorAll('[data-reelcalc-line-guide]'))).filter(a=>a.getClientRects().length);}
+document.getElementById('jump').onclick=()=>visibleLinks()[0]?.scrollIntoView({block:'center'});
+setInterval(()=>{const d=frame.contentDocument;if(!d)return;document.getElementById('checks').textContent=JSON.stringify({page:document.getElementById('surface').value,width:d.documentElement.clientWidth,overflow:d.documentElement.scrollWidth-d.documentElement.clientWidth,links:visibleLinks().map(a=>{const r=a.getBoundingClientRect(),p=a.parentElement.getBoundingClientRect();return {text:a.textContent,url:a.href,contained:r.left>=p.left-1&&r.right<=p.right+1,target:a.target};})},null,2);},500);
+</script></body></html>

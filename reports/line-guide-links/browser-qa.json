@@ -1,0 +1,215 @@
+{
+  "checkedAt": "2026-09-13T21:05:14.194Z",
+  "checks": [
+    {
+      "page": "wizard",
+      "width": 305,
+      "overflow": 0,
+      "links": [],
+      "case": "wizard-manual"
+    },
+    {
+      "page": "comparison",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-30&lb=30#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        },
+        {
+          "text": "View Berkley Trilene Big Game Monofilament guide (10 lb)",
+          "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide?line=berkley-trilene-big-game-monofilament-10&lb=10#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "comparison-320"
+    },
+    {
+      "page": "reel",
+      "width": 1265,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-30&lb=30&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        },
+        {
+          "text": "View Berkley Trilene Big Game Monofilament guide (10 lb)",
+          "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide?line=berkley-trilene-big-game-monofilament-10&lb=10&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "reel-desktop"
+    },
+    {
+      "page": "reel",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-30&lb=30&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        },
+        {
+          "text": "View Berkley Trilene Big Game Monofilament guide (10 lb)",
+          "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide?line=berkley-trilene-big-game-monofilament-10&lb=10&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "reel-320"
+    },
+    {
+      "page": "reel",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View Berkley Trilene Big Game Monofilament guide (10 lb)",
+          "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide?line=berkley-trilene-big-game-monofilament-10&lb=10&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "reel-custom"
+    },
+    {
+      "page": "home",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-30&lb=30#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "home-320"
+    },
+    {
+      "page": "home",
+      "width": 305,
+      "overflow": 0,
+      "links": [],
+      "case": "home-manual-edit"
+    },
+    {
+      "page": "line",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View Berkley Trilene Big Game Monofilament guide (10 lb)",
+          "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide?line=berkley-trilene-big-game-monofilament-10&lb=10&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        },
+        {
+          "text": "View Seaguar Smackdown Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/seaguar-smackdown-braid-diameter-capacity-guide?line=seaguar-smackdown-braid-30&lb=30&reel=penn-fierce-iv-8000-frciv8000-474#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "line-320"
+    },
+    {
+      "page": "pe",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View Daiwa J-Braid Grand X8 Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/daiwa-j-braid-grand-x8-braid-diameter-capacity-guide?line=daiwa-j-braid-grand-x8-braid-30&lb=30#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "pe-320"
+    },
+    {
+      "page": "pe",
+      "width": 305,
+      "overflow": 0,
+      "links": [],
+      "case": "pe-cleared"
+    },
+    {
+      "page": "comparison",
+      "width": 1265,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (15 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-15&lb=15#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        },
+        {
+          "text": "View Berkley Trilene Big Game Monofilament guide (10 lb)",
+          "url": "https://www.reelcalc.com/lines/p/berkley-trilene-big-game-monofilament-diameter-capacity-guide?line=berkley-trilene-big-game-monofilament-10&lb=10#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "comparison-strength-change"
+    },
+    {
+      "page": "comparison",
+      "width": 1265,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (15 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-15&lb=15#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "comparison-no-backing"
+    },
+    {
+      "page": "comparison",
+      "width": 1280,
+      "overflow": 0,
+      "links": [],
+      "case": "comparison-cleared"
+    },
+    {
+      "page": "database",
+      "width": 305,
+      "overflow": 0,
+      "links": [
+        {
+          "text": "View PowerPro Spectra Braid guide (30 lb)",
+          "url": "https://www.reelcalc.com/lines/p/powerpro-spectra-braid-diameter-capacity-guide?line=powerpro-spectra-braid-30&lb=30#diameter-chart",
+          "contained": true,
+          "target": "_blank"
+        }
+      ],
+      "case": "database-320"
+    },
+    {
+      "page": "database",
+      "width": 305,
+      "overflow": 0,
+      "links": [],
+      "case": "database-cleared"
+    }
+  ],
+  "actualNavigation": {
+    "url": "https://www.reelcalc.com/lines/p/daiwa-j-braid-grand-x8-braid-diameter-capacity-guide?line=daiwa-j-braid-grand-x8-braid-30&lb=30#diameter-chart",
+    "ready": true,
+    "selectedLine": "daiwa-j-braid-grand-x8-braid-30"
+  }
+}
