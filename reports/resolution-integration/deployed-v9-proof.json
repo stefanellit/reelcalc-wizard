@@ -1,0 +1,2873 @@
+{
+  "verifiedAt": "2026-09-13T17:47:38.780Z",
+  "startedAt": "2026-09-13T17:47:35.558Z",
+  "passed": true,
+  "status": "public-v9-required-files-verified",
+  "commit": "4a8ce4a1bcd10b58e8365ff47cb76aa6a07006ba",
+  "publicBase": "https://stefanellit.github.io/reelcalc-wizard/",
+  "userReportedPagesRun": {
+    "runId": "34772286978",
+    "conclusion": "success",
+    "source": "User supplied; no Actions or private API queried"
+  },
+  "method": {
+    "transport": "Unauthenticated ordinary public HTTP GET to GitHub Pages; credentials omitted",
+    "concurrency": 4,
+    "timeoutMs": 20000,
+    "retries": 0,
+    "commitReference": "Local git ls-tree of the exact supplied commit; compare SHA-1 git blob IDs and SHA-256 body hashes",
+    "textComparison": "UTF-8 exact text, permitting only CRLF-to-LF normalization. No trimming, HTML normalization or JSON reserialization.",
+    "binaryComparison": "Exact image bytes, matching committed git blob and local SHA-256; image signature checked",
+    "parsing": "JSON.parse; vm.Script JavaScript syntax only; existing parse5 HTML/JSON-LD and postcss CSS parsers",
+    "maxRequestsPerSweep": 200,
+    "completedSweeps": 2,
+    "totalHttpRequests": 380
+  },
+  "scope": {
+    "manifestPath": "reports/resolution-integration/deployment-files.json",
+    "manifestSha256": "196bacde965939c7d68990ac082982af0311d0effe258a44a07972d8cddd6c63",
+    "manifestCommitBlob": "99b1eff6eb53809bbf4f99fe9980ee2a135cbb89",
+    "manifestRuntimeFiles": 109,
+    "extraDependencies": 30,
+    "uniqueFiles": 139,
+    "httpRequests": 190,
+    "canonicalRequests": 139,
+    "loaderVersionedRequests": 51,
+    "new14": [
+      "spiderwire-stealth-braid",
+      "stren-super-knot",
+      "stren-fluorocast",
+      "stren-sonic-braid",
+      "hi-seas-fluorocarbon",
+      "sufix-invisiline-fluorocarbon",
+      "sufix-calibr8",
+      "p-line-cxx-x-tra-strong",
+      "p-line-floroclear",
+      "p-line-cx-premium",
+      "p-line-tactical-fluorocarbon",
+      "p-line-halo-fluorocarbon",
+      "p-line-endurx-braid",
+      "p-line-tcb-8-braid"
+    ],
+    "copy28": [
+      "sufix-832-advanced-superline",
+      "sufix-promix-braid",
+      "sufix-performance-braid",
+      "sufix-elite",
+      "sufix-advance-mono",
+      "sufix-advance-fluorocarbon",
+      "spro-finesse-braid-8x",
+      "spro-essential-bronzeye-8x",
+      "spro-cast-control-8x",
+      "spro-depth-control-8x",
+      "spro-gouken-flc",
+      "spro-rai-jin-premium-fluorocarbon",
+      "yo-zuri-hybrid",
+      "yo-zuri-hybrid-ice-line",
+      "yo-zuri-t-7-premium-fluorocarbon",
+      "yo-zuri-topknot-mainline",
+      "yo-zuri-superbraid",
+      "yo-zuri-superbraid-9",
+      "spro-finesse-fluorocarbon-leader",
+      "yo-zuri-topknot-leader",
+      "yo-zuri-superfluoro-leader",
+      "yo-zuri-h-d-carbon-leader",
+      "daiwa-j-braid-x4",
+      "seaguar-basix",
+      "shimano-kairiki-8",
+      "cortland-fluorocarbon-leader",
+      "gamma-fluorocarbon-leader",
+      "kastking-fluorokote"
+    ]
+  },
+  "summary": {
+    "http200": 190,
+    "passedResponses": 190,
+    "failedResponses": 0,
+    "exactRawMatches": 160,
+    "crlfLfOnlyDifferences": 30,
+    "jsonFiles": 10,
+    "localChangesDuringCheck": [],
+    "canonicalExactByteMatches": 111,
+    "canonicalLfOnlyMatches": 28,
+    "lastModifiedHeaderValues": [
+      "Sun, 13 Sep 2026 17:40:58 GMT",
+      "Sun, 13 Sep 2026 17:40:59 GMT"
+    ],
+    "loaderVersionedBodiesEqualCanonical": true,
+    "parseCounts": {
+      "image-signature-and-exact-bytes": 14,
+      "html": 89,
+      "css": 8,
+      "json": 10,
+      "javascript-syntax": 18
+    },
+    "all139MatchExactCommit": true
+  },
+  "domainChecks": [
+    {
+      "name": "release-v9-prepared114-published100",
+      "passed": true,
+      "version": "9",
+      "prepared": 114,
+      "published": 100,
+      "new14NotPublished": true
+    },
+    {
+      "name": "product-and-import-registry114",
+      "passed": true,
+      "configuredProducts": 114,
+      "registryProducts": 114,
+      "registryVersion": "9"
+    },
+    {
+      "name": "new14-image-references-and-guide-coverage",
+      "passed": true,
+      "components": 14,
+      "examples": 14,
+      "images": 14,
+      "allImageReferencesVerified": true
+    },
+    {
+      "name": "copy28-exact-committed-local-text",
+      "passed": true,
+      "components": 28,
+      "examples": 28,
+      "normalization": "CRLF to LF only"
+    },
+    {
+      "name": "core-runtime-data-schemas",
+      "passed": true,
+      "lineRows": 1229,
+      "reelRows": 1336,
+      "peRows": 586,
+      "uniqueLineIds": true,
+      "uniqueReelIds": true
+    }
+  ],
+  "failures": [],
+  "files": [
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/spiderwire-stealth-braid.jpg",
+      "status": 200,
+      "bytes": 43704,
+      "gitBlob": "bcaad609de3c14a8df31b61b6ec351b7d2946860",
+      "localSha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea",
+      "publicSha256": "c8fcdf9a8b8c5fa2d93d7e81e2b785a3d48236e2e85776bf1420affe7dd494ea",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/stren-fluorocast.jpg",
+      "status": 200,
+      "bytes": 68779,
+      "gitBlob": "576f25d9d2a4eb361a42cb3eef2746353bf8344b",
+      "localSha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd",
+      "publicSha256": "38594081582cc70df6e6f21989838ba57dcf5a134db57ac035ae282915572afd",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/stren-sonic-braid.jpg",
+      "status": 200,
+      "bytes": 139343,
+      "gitBlob": "3ac7e17bbfbce40e919c2ede9875f9b753c81b15",
+      "localSha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+      "publicSha256": "9eabd03a6391a7483e9d8714855dd37a2d06f47235cc3288c759303c5449cfc4",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-c-resolutions/stren-super-knot.jpg",
+      "status": 200,
+      "bytes": 60204,
+      "gitBlob": "a5888dd26f567efa49e0983b640aae431e167e6d",
+      "localSha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743",
+      "publicSha256": "3fc56953de62258defc4b149cd2d3d798aa8fb5bcf06a6a3290a4e00c953e743",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/group-e-resolutions/hi-seas-fluorocarbon.jpg",
+      "status": 200,
+      "bytes": 411231,
+      "gitBlob": "3eab3319dd12f07fb9eac8f752ba1b9f4f421594",
+      "localSha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3",
+      "publicSha256": "b2e0721f1b362c519dab99c81e53b25ce727946706d60956c5ee6c0099ce54f3",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-cx-premium.jpg",
+      "status": 200,
+      "bytes": 301183,
+      "gitBlob": "c61493def54aebb4b2c8289dcea095debb2330ab",
+      "localSha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61",
+      "publicSha256": "86973977bee6eca65c66e6e79e4680a7b40e34324130ed35b4ef405bdd183d61",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-cxx-x-tra-strong.jpg",
+      "status": 200,
+      "bytes": 217079,
+      "gitBlob": "7ad29912bdc7251e373db3864e81913375119ad1",
+      "localSha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f",
+      "publicSha256": "73c16e41e0b5293129505a2cf473d6175bbfbea25eb518cb662f53cdc1d99d0f",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-endurx-braid.jpg",
+      "status": 200,
+      "bytes": 221725,
+      "gitBlob": "90ecc7e2a702c38186a2ac6b54f9bf73fb7430cb",
+      "localSha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7",
+      "publicSha256": "bc1e5d0a64ae6d7a4316d244d53c44cd77148d0f1a5906632c1df9a64490f1d7",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-floroclear.jpg",
+      "status": 200,
+      "bytes": 1150747,
+      "gitBlob": "6ae99efff3ea957aecdccc7422678e23e788c6be",
+      "localSha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942",
+      "publicSha256": "911b4d3d03f7f2f02c9602a5b6165e4b1cd5e9a86ae91709fc9854e175788942",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-halo-fluorocarbon.png",
+      "status": 200,
+      "bytes": 2245095,
+      "gitBlob": "b56b7fc0aa5fcd88ee4c82db2877d08286dea4d5",
+      "localSha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+      "publicSha256": "0af02c2bebfc665cc4021e16eda910f4f41cf25b2ec2d9e8ab27eb3bd09754b3",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-tactical-fluorocarbon.png",
+      "status": 200,
+      "bytes": 1879483,
+      "gitBlob": "0b477383a5ae2c83ab6fc4e2d7e548f6fcba9a2b",
+      "localSha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8",
+      "publicSha256": "1c1b9f378f17250e366be09cd272b8d2516470c50989b2115a82132feb737ef8",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/pline-resolutions/p-line-tcb-8-braid.jpg",
+      "status": 200,
+      "bytes": 158952,
+      "gitBlob": "786a3ea1a74b33a86344e68189bc3da7031408e8",
+      "localSha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6",
+      "publicSha256": "5da54c71e461af1fab3de5e65b60c8aeb2fe6105484e5b63ecf0ddafe28e6be6",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/sufix-resolutions/sufix-calibr8.webp",
+      "status": 200,
+      "bytes": 756872,
+      "gitBlob": "7b2b9a3895f24a903f3fe3775dc6613e3df737a4",
+      "localSha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef",
+      "publicSha256": "d3e37aa4d9def51469ecb426c06267817c83a4731a02ae1928c933be77e74aef",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "assets/line-pages/full-catalog/sufix-resolutions/sufix-invisiline-fluorocarbon.png",
+      "status": 200,
+      "bytes": 617244,
+      "gitBlob": "dc124febd1fbf1e558c1e1d26f945f3d39886c9c",
+      "localSha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a",
+      "publicSha256": "aaefbcaa50e538d9b196b43091404454787f9c3110556aaf786c1a2b4a03d46a",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "image-signature-and-exact-bytes",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-database.html",
+      "status": 200,
+      "bytes": 5296,
+      "gitBlob": "ede4014b3084241c85c296473fffdf49cc87b123",
+      "localSha256": "4390ed3ab76145464c2edc9cebfede39013f6ab06d8164ba35314d26d7a8dd39",
+      "publicSha256": "06870ab7e638f0880ff4537b04450bde0d69bb01e6d3a1820d9882cd8cd59e23",
+      "lfSha256": "06870ab7e638f0880ff4537b04450bde0d69bb01e6d3a1820d9882cd8cd59e23",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 0
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/cortland-fluorocarbon-leader.html",
+      "status": 200,
+      "bytes": 18601,
+      "gitBlob": "d1d307dedfbd1c3dc51d02779aa46a02caeb9c02",
+      "localSha256": "e60d230faf958cf8a686d1383e762838dd10cc98c38539af082875fc8a1a2e74",
+      "publicSha256": "e60d230faf958cf8a686d1383e762838dd10cc98c38539af082875fc8a1a2e74",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "cortland-fluorocarbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/daiwa-j-braid-x4.html",
+      "status": 200,
+      "bytes": 20589,
+      "gitBlob": "e4c836361b234d10a1eb2402e7207ff089078505",
+      "localSha256": "06d360f25189e0e2aa40a3134cffc8a000db75241b8e9fac6a43ca90689a29dd",
+      "publicSha256": "06d360f25189e0e2aa40a3134cffc8a000db75241b8e9fac6a43ca90689a29dd",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "daiwa-j-braid-x4"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/gamma-fluorocarbon-leader.html",
+      "status": 200,
+      "bytes": 18431,
+      "gitBlob": "8dd11254284beadd23a9ee1318aa7d1895fe96d3",
+      "localSha256": "e26e9836c15eb31ba1b5a3531e84f535bc508ef2c60bf2acce01e9076bbb944d",
+      "publicSha256": "e26e9836c15eb31ba1b5a3531e84f535bc508ef2c60bf2acce01e9076bbb944d",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "gamma-fluorocarbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/hi-seas-fluorocarbon.html",
+      "status": 200,
+      "bytes": 21435,
+      "gitBlob": "d6601bc3afd4f81a14541999fb7b798bdfcec5b1",
+      "localSha256": "62262e84c47ced33cf0de9a5e8e0160460cf92e915a025ac6e041c770fa7922e",
+      "publicSha256": "62262e84c47ced33cf0de9a5e8e0160460cf92e915a025ac6e041c770fa7922e",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "hi-seas-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/kastking-fluorokote.html",
+      "status": 200,
+      "bytes": 20041,
+      "gitBlob": "59214f5e31e386baa996219bd69c9a1377b6cefd",
+      "localSha256": "53858b36c1b98f07a56193daa94881cf555ffc641775f75cd04d9f6a6caf03f2",
+      "publicSha256": "53858b36c1b98f07a56193daa94881cf555ffc641775f75cd04d9f6a6caf03f2",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "kastking-fluorokote"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-cx-premium.html",
+      "status": 200,
+      "bytes": 20223,
+      "gitBlob": "35aafbb5ccb77b5e1fbc34f4e780cce6c33c1300",
+      "localSha256": "3c61c514f041a4dcded418f292b38cf8d862e353ab8d54754d7962a8bcae69d3",
+      "publicSha256": "3c61c514f041a4dcded418f292b38cf8d862e353ab8d54754d7962a8bcae69d3",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-cx-premium"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-cxx-x-tra-strong.html",
+      "status": 200,
+      "bytes": 20448,
+      "gitBlob": "af6d86f07879d3da5f92b3fb1241213505c4b425",
+      "localSha256": "3d9c931c62035f8a7fe778b4fe116d7fb90f2dbf3d3af2fc6b775ef8aa789ed0",
+      "publicSha256": "3d9c931c62035f8a7fe778b4fe116d7fb90f2dbf3d3af2fc6b775ef8aa789ed0",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-cxx-x-tra-strong"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-endurx-braid.html",
+      "status": 200,
+      "bytes": 20570,
+      "gitBlob": "ad30fb6622879a415879daa5d2cf6d9675cf1000",
+      "localSha256": "1e2e515a08473b88ea7045cc7bb565803a418f5d47fabb7a72291f70bfbad26e",
+      "publicSha256": "1e2e515a08473b88ea7045cc7bb565803a418f5d47fabb7a72291f70bfbad26e",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-endurx-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-floroclear.html",
+      "status": 200,
+      "bytes": 20888,
+      "gitBlob": "37a8a979c46468cb7f46ae7f7926cd3db1ad89fa",
+      "localSha256": "2007427089f0f2147c2dd01a3b1c504a97219cdb07bab56d5df31bfe36971413",
+      "publicSha256": "2007427089f0f2147c2dd01a3b1c504a97219cdb07bab56d5df31bfe36971413",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-floroclear"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-halo-fluorocarbon.html",
+      "status": 200,
+      "bytes": 20301,
+      "gitBlob": "e231b93468de4fde1619f2fc602c90a1b9baa712",
+      "localSha256": "b6cbe1175b47590eee345d344b09e824be663589455e54ade252f9787206436b",
+      "publicSha256": "b6cbe1175b47590eee345d344b09e824be663589455e54ade252f9787206436b",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-halo-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-tactical-fluorocarbon.html",
+      "status": 200,
+      "bytes": 20588,
+      "gitBlob": "e5d3c082017e4191e9b3fe2b90360d4eeaa1a112",
+      "localSha256": "4d40b0f8f7f09ace25f3a7efcfe9e0cf21b6213137453acce3e0533ba9607955",
+      "publicSha256": "4d40b0f8f7f09ace25f3a7efcfe9e0cf21b6213137453acce3e0533ba9607955",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-tactical-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-tcb-8-braid.html",
+      "status": 200,
+      "bytes": 21222,
+      "gitBlob": "31e706821bd084859bd0d2c3534e66b0aed5e800",
+      "localSha256": "ddbc3561b6e0c52aa053afc099ad920d5665be46c01f1397cdf12972a8439a98",
+      "publicSha256": "ddbc3561b6e0c52aa053afc099ad920d5665be46c01f1397cdf12972a8439a98",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-tcb-8-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/seaguar-basix.html",
+      "status": 200,
+      "bytes": 19448,
+      "gitBlob": "ca7103985f473946989a43ee3250b4597208604a",
+      "localSha256": "539d8524422ed9e7563e50f6b6815698b1a9f6e1a9b8b27782204b6fcd4c8424",
+      "publicSha256": "539d8524422ed9e7563e50f6b6815698b1a9f6e1a9b8b27782204b6fcd4c8424",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "seaguar-basix"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/shimano-kairiki-8.html",
+      "status": 200,
+      "bytes": 19641,
+      "gitBlob": "31d8f81a1705e935e94222305bc1da0215d63fec",
+      "localSha256": "5bcc5016e9a14e128edccd760f8250ff235fca09bfec8e053d1b0d30cd63902e",
+      "publicSha256": "5bcc5016e9a14e128edccd760f8250ff235fca09bfec8e053d1b0d30cd63902e",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "shimano-kairiki-8"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spiderwire-stealth-braid.html",
+      "status": 200,
+      "bytes": 21588,
+      "gitBlob": "239f052cd986ecaad6c566c3e77733a839001101",
+      "localSha256": "deba0727fba74125d1ac5b7437ad3f46e4eea9e31f58d2d23991b9fe7befcfb5",
+      "publicSha256": "deba0727fba74125d1ac5b7437ad3f46e4eea9e31f58d2d23991b9fe7befcfb5",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spiderwire-stealth-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-cast-control-8x.html",
+      "status": 200,
+      "bytes": 22861,
+      "gitBlob": "ca4638e1566066d94f8d97277806ad73f39c30eb",
+      "localSha256": "9903973c76eef30ffa979e545b0286c9bd155e3de56aaac31eae7c35af8de138",
+      "publicSha256": "9903973c76eef30ffa979e545b0286c9bd155e3de56aaac31eae7c35af8de138",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-cast-control-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-depth-control-8x.html",
+      "status": 200,
+      "bytes": 20556,
+      "gitBlob": "ec227b522809d5f2fcb2274a1498bea847d15ee4",
+      "localSha256": "7aac59979fbbda7aaaa98d7c9ebf7eb4a9821852d651db3cc4424f0a3192eec9",
+      "publicSha256": "7aac59979fbbda7aaaa98d7c9ebf7eb4a9821852d651db3cc4424f0a3192eec9",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-depth-control-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-essential-bronzeye-8x.html",
+      "status": 200,
+      "bytes": 20166,
+      "gitBlob": "d11c74c29663c78cc09eaaf792cda172cc838a41",
+      "localSha256": "752e2a59fa39adc212556b3dce48917071ba9c13d3bd98274aaf819ac33b675c",
+      "publicSha256": "752e2a59fa39adc212556b3dce48917071ba9c13d3bd98274aaf819ac33b675c",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-essential-bronzeye-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-finesse-braid-8x.html",
+      "status": 200,
+      "bytes": 21192,
+      "gitBlob": "aeb200eec9111d8daee04e9865a61498926ab3ac",
+      "localSha256": "f6a9971a220a256d888e1d4df432dc51d4e8b5fba6366e702591c355349fea96",
+      "publicSha256": "f6a9971a220a256d888e1d4df432dc51d4e8b5fba6366e702591c355349fea96",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-finesse-braid-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-finesse-fluorocarbon-leader.html",
+      "status": 200,
+      "bytes": 14256,
+      "gitBlob": "b16eb7575a1390bb6fdf3d5895be56b1eb5dfccb",
+      "localSha256": "85b8b780939121d244d8a367782fd2625adb92163bdd9d9c045f08da795e54d9",
+      "publicSha256": "85b8b780939121d244d8a367782fd2625adb92163bdd9d9c045f08da795e54d9",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-finesse-fluorocarbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-gouken-flc.html",
+      "status": 200,
+      "bytes": 21658,
+      "gitBlob": "77d301ce9611cfe5cbe3ff1d654a83b9d4a27feb",
+      "localSha256": "825946cf9c839a665c9a34887eee9dce1a84bf7994c55f73fca03e57ae786881",
+      "publicSha256": "825946cf9c839a665c9a34887eee9dce1a84bf7994c55f73fca03e57ae786881",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-gouken-flc"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-rai-jin-premium-fluorocarbon.html",
+      "status": 200,
+      "bytes": 22387,
+      "gitBlob": "03460dab955150850b5dfb0f925c43a5220bf1c5",
+      "localSha256": "2840479c67daad884851aadee1fbed79e5a75265d1a7f290d25f0342e9322508",
+      "publicSha256": "2840479c67daad884851aadee1fbed79e5a75265d1a7f290d25f0342e9322508",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-rai-jin-premium-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/stren-fluorocast.html",
+      "status": 200,
+      "bytes": 22416,
+      "gitBlob": "eb5ca31019df54ddd1b2eea66b3e03e14002fc13",
+      "localSha256": "d2b063fcd1ac9ca7c78ab0103f59d5f833f687210a70a10232a3f0e352e332f6",
+      "publicSha256": "d2b063fcd1ac9ca7c78ab0103f59d5f833f687210a70a10232a3f0e352e332f6",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "stren-fluorocast"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/stren-sonic-braid.html",
+      "status": 200,
+      "bytes": 21317,
+      "gitBlob": "09d8a722713796377a2f1b9dabe3464873af2507",
+      "localSha256": "af651510ae5641639418ac976b34ad141a11cdc68e56bd8c1921771dff5d2196",
+      "publicSha256": "af651510ae5641639418ac976b34ad141a11cdc68e56bd8c1921771dff5d2196",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "stren-sonic-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/stren-super-knot.html",
+      "status": 200,
+      "bytes": 22262,
+      "gitBlob": "944c9ee4b11ba23394792e5f2308772b10e903c7",
+      "localSha256": "3f8c54793c8180e3ac01d1cfcd9ef5ab258ce38bd225f082e0bbb3bf36df4285",
+      "publicSha256": "3f8c54793c8180e3ac01d1cfcd9ef5ab258ce38bd225f082e0bbb3bf36df4285",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "stren-super-knot"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-832-advanced-superline.html",
+      "status": 200,
+      "bytes": 23161,
+      "gitBlob": "769004fefe3ee0e5f7ff4ffad32ca76d1736fd84",
+      "localSha256": "848efd31ba8ba44353903d60303c15b42d15d7a4a640ed075d72066b09e13f18",
+      "publicSha256": "848efd31ba8ba44353903d60303c15b42d15d7a4a640ed075d72066b09e13f18",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-832-advanced-superline"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-advance-fluorocarbon.html",
+      "status": 200,
+      "bytes": 22054,
+      "gitBlob": "ebb4f5ce5197023e9f571e783ef1af4dbb228997",
+      "localSha256": "baa091004e076e9c8e2d27f603c5acac0c3bd136c3bf224d9adbc722f412c27c",
+      "publicSha256": "baa091004e076e9c8e2d27f603c5acac0c3bd136c3bf224d9adbc722f412c27c",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-advance-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-advance-mono.html",
+      "status": 200,
+      "bytes": 22690,
+      "gitBlob": "f158a922bae66ce73ca54c3107280519273a5c1f",
+      "localSha256": "91f18b836f78a81a335c9ed93bc8d2139f2bdef1302618beaf5ddc8ece66c0fc",
+      "publicSha256": "91f18b836f78a81a335c9ed93bc8d2139f2bdef1302618beaf5ddc8ece66c0fc",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-advance-mono"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-calibr8.html",
+      "status": 200,
+      "bytes": 22414,
+      "gitBlob": "4651151bb1c562aff24052d2f015d238406bfa43",
+      "localSha256": "3243cb08fa3fa878f14fddeef30ccb93cfea29ee89bf0ca6a81eab32fcd87985",
+      "publicSha256": "3243cb08fa3fa878f14fddeef30ccb93cfea29ee89bf0ca6a81eab32fcd87985",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-calibr8"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-elite.html",
+      "status": 200,
+      "bytes": 21215,
+      "gitBlob": "00f496535c4e02861fad5cd65705042ae13952ca",
+      "localSha256": "48d622f69f511bf407d36547f7c8d3e9c954fdd2369b5813fa3f22d010827880",
+      "publicSha256": "48d622f69f511bf407d36547f7c8d3e9c954fdd2369b5813fa3f22d010827880",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-elite"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-invisiline-fluorocarbon.html",
+      "status": 200,
+      "bytes": 25794,
+      "gitBlob": "e1360cf83232c10e7abf43644651e6728a23eb96",
+      "localSha256": "30246e97fc9ce48f8e743b717f8143bca6d8b4f4e155e07565840df1e7a0a99b",
+      "publicSha256": "30246e97fc9ce48f8e743b717f8143bca6d8b4f4e155e07565840df1e7a0a99b",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-invisiline-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-performance-braid.html",
+      "status": 200,
+      "bytes": 21202,
+      "gitBlob": "3c2d1174dba150081ad97bd912359ca1583e8697",
+      "localSha256": "1140875b67902efaad8c965d978667dab5034bc19e42221609def9ef43e058b2",
+      "publicSha256": "1140875b67902efaad8c965d978667dab5034bc19e42221609def9ef43e058b2",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-performance-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-promix-braid.html",
+      "status": 200,
+      "bytes": 21572,
+      "gitBlob": "87e5763f06392ed1bf81fbbc8785579b5526c178",
+      "localSha256": "98c884bc4765d99aa0c7f87b4e96be26ee62765807f84b7d6784bd1ed1f8f965",
+      "publicSha256": "98c884bc4765d99aa0c7f87b4e96be26ee62765807f84b7d6784bd1ed1f8f965",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-promix-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-h-d-carbon-leader.html",
+      "status": 200,
+      "bytes": 18818,
+      "gitBlob": "d913ff58e8c5801e57ad028729edf7ded4486a86",
+      "localSha256": "2fc942adf881f2a33c39e1b09c9e740129617d6bfcc62b5ff07c38a648b1edbe",
+      "publicSha256": "2fc942adf881f2a33c39e1b09c9e740129617d6bfcc62b5ff07c38a648b1edbe",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-h-d-carbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-hybrid-ice-line.html",
+      "status": 200,
+      "bytes": 20607,
+      "gitBlob": "929eb16dbaaa211653662a81b48644a4702967b4",
+      "localSha256": "62668eb768a9921b14061cdad76714993adcf0d618321d478587ec12950637d7",
+      "publicSha256": "62668eb768a9921b14061cdad76714993adcf0d618321d478587ec12950637d7",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-hybrid-ice-line"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-hybrid.html",
+      "status": 200,
+      "bytes": 22378,
+      "gitBlob": "baf7f506248fe30c876608e3de34f161a33c496d",
+      "localSha256": "810bf4327853f55ecb5e1a3e7a07e08a81688e0a0d39773e29cf65ae5d6fcdbd",
+      "publicSha256": "810bf4327853f55ecb5e1a3e7a07e08a81688e0a0d39773e29cf65ae5d6fcdbd",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-hybrid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-superbraid-9.html",
+      "status": 200,
+      "bytes": 22780,
+      "gitBlob": "cfa5be2e1a577194f00d4984dbeeb19cf71be7b0",
+      "localSha256": "7694143d83a7407ae224294cd5d06075c9b90161b3eea64f364d1001bb5acc60",
+      "publicSha256": "7694143d83a7407ae224294cd5d06075c9b90161b3eea64f364d1001bb5acc60",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-superbraid-9"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-superbraid.html",
+      "status": 200,
+      "bytes": 22593,
+      "gitBlob": "0b3b389ddec33fd4c120d2d36b5599f007e7a00c",
+      "localSha256": "aa33da042531a0ff914bf06156d447d447a55088defc7cc411c4256bb4f4f9da",
+      "publicSha256": "aa33da042531a0ff914bf06156d447d447a55088defc7cc411c4256bb4f4f9da",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-superbraid"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-superfluoro-leader.html",
+      "status": 200,
+      "bytes": 17868,
+      "gitBlob": "bf8f8c68c6e8850eae6eb1e3074d041592a71ef0",
+      "localSha256": "1f84fe102d63e27a03aa411040bdee0cd5f2e3f1cab3161d3eb0aa745672a766",
+      "publicSha256": "1f84fe102d63e27a03aa411040bdee0cd5f2e3f1cab3161d3eb0aa745672a766",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-superfluoro-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-t-7-premium-fluorocarbon.html",
+      "status": 200,
+      "bytes": 22029,
+      "gitBlob": "2844d93d9626bebee57eedfac909066a5e7e1033",
+      "localSha256": "95b2e9b3d8227b51291e54c68fc7563781977cc655bc5fe34b60912cb30e2972",
+      "publicSha256": "95b2e9b3d8227b51291e54c68fc7563781977cc655bc5fe34b60912cb30e2972",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-t-7-premium-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-topknot-leader.html",
+      "status": 200,
+      "bytes": 17368,
+      "gitBlob": "2914a09c17b0daa0c31a8294f715deadbe985765",
+      "localSha256": "eb93a4753287c6d9142b9433d299e2335ef11b0753ef0762b52fe00789e6e254",
+      "publicSha256": "eb93a4753287c6d9142b9433d299e2335ef11b0753ef0762b52fe00789e6e254",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-topknot-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-topknot-mainline.html",
+      "status": 200,
+      "bytes": 21647,
+      "gitBlob": "26e80a3b03ae815a24472fab3f61fb0a12444c72",
+      "localSha256": "78825e400c30a49cd215e9f334807e82c2f5907521575a4f29df1863b1d1ba5d",
+      "publicSha256": "78825e400c30a49cd215e9f334807e82c2f5907521575a4f29df1863b1d1ba5d",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-topknot-mainline"
+      },
+      "passed": true
+    },
+    {
+      "file": "components/pe-line-database.html",
+      "status": 200,
+      "bytes": 6616,
+      "gitBlob": "8a48a5328f33c980f6842a5719b4816796cb46ae",
+      "localSha256": "049dd340c0fd77cd24e86315e98d46328835fa761172269983e4fded16ef5b28",
+      "publicSha256": "1b04bf3d1293a97102d512431a8f73d15e67932ee2533042d9d73cfdc935b0a6",
+      "lfSha256": "1b04bf3d1293a97102d512431a8f73d15e67932ee2533042d9d73cfdc935b0a6",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 0
+      },
+      "passed": true
+    },
+    {
+      "file": "css/line-database-tools.css",
+      "status": 200,
+      "bytes": 3811,
+      "gitBlob": "3bad8cd5b23b72d4ece8a7f565ac3667dc685536",
+      "localSha256": "a17099700f52e31729d740e42d6ff7d4fe7a8972b8b492b8674534b18f856f46",
+      "publicSha256": "d30631a5bcd0698bf778577aa99b61cb04f8e0242f11f0694303f7c81ca80790",
+      "lfSha256": "d30631a5bcd0698bf778577aa99b61cb04f8e0242f11f0694303f7c81ca80790",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "css/line-database.css",
+      "status": 200,
+      "bytes": 9026,
+      "gitBlob": "3d720d388cfcc2204ee2ef39549433b7506ffc86",
+      "localSha256": "5d6117f39de7cc07b72c5b80c802896ace3c83a756c5dff45d7455521de8cfc7",
+      "publicSha256": "524ac32fb2da4299842f1fd89db1092f13c44a6c1a7a854760829c81bc49f714",
+      "lfSha256": "524ac32fb2da4299842f1fd89db1092f13c44a6c1a7a854760829c81bc49f714",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "css/line-page-embed.css",
+      "status": 200,
+      "bytes": 44766,
+      "gitBlob": "b1eb2e86c5eb3be204e7e28116712794c6fba80e",
+      "localSha256": "987a1eba676795eb6a16875a6d9b5235b7c04d6f630432a6e35a754870d3e878",
+      "publicSha256": "987a1eba676795eb6a16875a6d9b5235b7c04d6f630432a6e35a754870d3e878",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "css/line-page-gold.css",
+      "status": 200,
+      "bytes": 13244,
+      "gitBlob": "ebf396f3ce064c19e3f88223e01dd460b66bec80",
+      "localSha256": "60a416c21939eda68b331be161a27c0a1088ba30be7abe3f1aff7525033dc4cd",
+      "publicSha256": "60a416c21939eda68b331be161a27c0a1088ba30be7abe3f1aff7525033dc4cd",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "css/line-page.css",
+      "status": 200,
+      "bytes": 18808,
+      "gitBlob": "4a6a54cae0cf6173ff8c46d3b718244c949b5353",
+      "localSha256": "675631b0c7daef17e9a19be0f9e3505d4ba559277b735409517ff38abf905066",
+      "publicSha256": "675631b0c7daef17e9a19be0f9e3505d4ba559277b735409517ff38abf905066",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "css/pe-line-database.css",
+      "status": 200,
+      "bytes": 9255,
+      "gitBlob": "81f62d6404a27cbda82a95d8cbcd478c90ca0bb9",
+      "localSha256": "7233f9d360238cbc40dbb794d8c3a86056329aa423fc9236825551640fed8e95",
+      "publicSha256": "956d32d2f7dfd168808b187d40cb6ae4f0c3179460d8bedcb3efcd33de4cb56d",
+      "lfSha256": "956d32d2f7dfd168808b187d40cb6ae4f0c3179460d8bedcb3efcd33de4cb56d",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "css/squarespace-line-page.css",
+      "status": 200,
+      "bytes": 3306,
+      "gitBlob": "19683cbe877989bc7ddbb54230483bcf5401bbf6",
+      "localSha256": "2efa8214df39af76f57a8ca39aedc0c0df163211ff35667e5656cf03f582d341",
+      "publicSha256": "2efa8214df39af76f57a8ca39aedc0c0df163211ff35667e5656cf03f582d341",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "data/data-quality-report.json",
+      "status": 200,
+      "bytes": 4851,
+      "gitBlob": "5761478dc515cf3412fb5787a85a9c250430fe3f",
+      "localSha256": "9c4c7974ec2ecc4587e1b48f6013b6329a689999596118e5c0ea29bba0ad681f",
+      "publicSha256": "9c53deb0ade419b5cfe37e615bb676234cf13fc9807af5d8520c27aaba0bb90a",
+      "lfSha256": "9c53deb0ade419b5cfe37e615bb676234cf13fc9807af5d8520c27aaba0bb90a",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 7
+      },
+      "passed": true
+    },
+    {
+      "file": "data/line-database-release.json",
+      "status": 200,
+      "bytes": 21,
+      "gitBlob": "16fb64037a3d62ba716bdf0023bb996fdcbb9cf2",
+      "localSha256": "9ba7350ca95472e2285b612091a3e5326a44f0fa04e8589f9fde99b378d925f8",
+      "publicSha256": "1bf21ee77f5e5699c7474c5700103ff6bf6f445f7c92556a6953dce29a3badcb",
+      "lfSha256": "1bf21ee77f5e5699c7474c5700103ff6bf6f445f7c92556a6953dce29a3badcb",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 1
+      },
+      "passed": true
+    },
+    {
+      "file": "data/line-page-imports.json",
+      "status": 200,
+      "bytes": 76707,
+      "gitBlob": "a52017037b43390da58fd20341fe497c815292a8",
+      "localSha256": "0134d9839ca5dc1f492522295ec30664907e4c0db6e4b60558d67235b2cb7cd1",
+      "publicSha256": "0134d9839ca5dc1f492522295ec30664907e4c0db6e4b60558d67235b2cb7cd1",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 3
+      },
+      "passed": true
+    },
+    {
+      "file": "data/line-page-products.json",
+      "status": 200,
+      "bytes": 923541,
+      "gitBlob": "ccb2f20d5d75851603387827592469bd050371b1",
+      "localSha256": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+      "publicSha256": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 2
+      },
+      "passed": true
+    },
+    {
+      "file": "data/line-page-release.json",
+      "status": 200,
+      "bytes": 6311,
+      "gitBlob": "cc06fc9d286fbe1d03376293c626828e1332da17",
+      "localSha256": "113bb1635c0f3ebe45361cbb6d9d8103bcdf268ce4bb86dcc43dafc75160fbc5",
+      "publicSha256": "113bb1635c0f3ebe45361cbb6d9d8103bcdf268ce4bb86dcc43dafc75160fbc5",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 3
+      },
+      "passed": true
+    },
+    {
+      "file": "data/lines.json",
+      "status": 200,
+      "bytes": 952587,
+      "gitBlob": "50ffef5a26f0d71e1790943dbc0b10d473d9055c",
+      "localSha256": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+      "publicSha256": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 1229
+      },
+      "passed": true
+    },
+    {
+      "file": "data/pe-lines.json",
+      "status": 200,
+      "bytes": 171752,
+      "gitBlob": "c871d0dd5cdeea3c793e12d750ccafb74a8b573b",
+      "localSha256": "bfd9d482ad1a0d49b465aff9a79a0a7b7c9924ce6fdc1236344ed51b46f07973",
+      "publicSha256": "61d6c480db71608b7af7c33cc3b2a7f3d4f46e299fb3069a598afe819dcfd3d7",
+      "lfSha256": "61d6c480db71608b7af7c33cc3b2a7f3d4f46e299fb3069a598afe819dcfd3d7",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 586
+      },
+      "passed": true
+    },
+    {
+      "file": "data/reel-affiliates.json",
+      "status": 200,
+      "bytes": 363728,
+      "gitBlob": "39a821f2facb6b669df6fbd276a41edf6f7fc1f5",
+      "localSha256": "30726030c767bb6fe3d7e80512b0146d05fd354a4cd70089871c3acfef4e2c3a",
+      "publicSha256": "0c7175fbdc2f8e2129e06c33a43180580aa137410fe6b55f9cf61643813fabd3",
+      "lfSha256": "0c7175fbdc2f8e2129e06c33a43180580aa137410fe6b55f9cf61643813fabd3",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 7
+      },
+      "passed": true
+    },
+    {
+      "file": "data/reel-pages.json",
+      "status": 200,
+      "bytes": 763680,
+      "gitBlob": "13d88afaba2da541910580be93bc7a553a1da0a5",
+      "localSha256": "23e49c156af6cec7f54ac86824401705c78eb3c7d03b9e839d22cb275118adab",
+      "publicSha256": "e809c024b2523b7b5dd600d5f99bc92d36563fcb2f61b4e6d416482a69de0763",
+      "lfSha256": "e809c024b2523b7b5dd600d5f99bc92d36563fcb2f61b4e6d416482a69de0763",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 10
+      },
+      "passed": true
+    },
+    {
+      "file": "data/reels.json",
+      "status": 200,
+      "bytes": 3240076,
+      "gitBlob": "384bc02576aeca97c0259d4b04911bdea098d46a",
+      "localSha256": "60b045b95e76f12697d07662d30ef43372e87bc58c8183a0708c941671d2c9dc",
+      "publicSha256": "b153444bef298a1c0ff0302b1485405fc95f84a866aa57c3ca21a545b9c6c3c4",
+      "lfSha256": "b153444bef298a1c0ff0302b1485405fc95f84a866aa57c3ca21a545b9c6c3c4",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "json",
+        "passed": true,
+        "items": 1336
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-database.html",
+      "status": 200,
+      "bytes": 382,
+      "gitBlob": "1dd65479098e6ca3b89cc3fcc9aa68a398bfb073",
+      "localSha256": "7e70daff1b6bb53ce2b8dbe56d09accb495aeba8ce564769fc71936aab2d8cac",
+      "publicSha256": "bdfbb6c5eec2ad31b60f68c9d163b13f55b3bb410c5cc3fe019ed6a5e4beb8df",
+      "lfSha256": "bdfbb6c5eec2ad31b60f68c9d163b13f55b3bb410c5cc3fe019ed6a5e4beb8df",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 0
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/cortland-fluorocarbon-leader.html",
+      "status": 200,
+      "bytes": 19198,
+      "gitBlob": "e3fab8d49b466d532f7753691b7eff9e7d8514f0",
+      "localSha256": "eece1aaddcde00204dd233e898daa347327ea0e08ea88dd4a2499388f0dc334c",
+      "publicSha256": "eece1aaddcde00204dd233e898daa347327ea0e08ea88dd4a2499388f0dc334c",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "cortland-fluorocarbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/daiwa-j-braid-x4.html",
+      "status": 200,
+      "bytes": 21243,
+      "gitBlob": "09c4343854e9ec7d93078c71078a6a8f60242615",
+      "localSha256": "4ab95cceed821e29c18b5e2c8ab001f33e7d70a826c17334a1d04018adb69baf",
+      "publicSha256": "4ab95cceed821e29c18b5e2c8ab001f33e7d70a826c17334a1d04018adb69baf",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "daiwa-j-braid-x4"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/gamma-fluorocarbon-leader.html",
+      "status": 200,
+      "bytes": 18997,
+      "gitBlob": "a76d8eec03e16860f7be7062c56626c38ca9ecb6",
+      "localSha256": "9958436222af055205854e1022abf03b5f1bd455209904334b6f0f6f82ab5228",
+      "publicSha256": "9958436222af055205854e1022abf03b5f1bd455209904334b6f0f6f82ab5228",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "gamma-fluorocarbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/hi-seas-fluorocarbon.html",
+      "status": 200,
+      "bytes": 22105,
+      "gitBlob": "dc1c844afca6d01c74c6a5489ac644509e842737",
+      "localSha256": "8757de3dc5484fc887a6e2d6a631a582368081984e73700623fdfb518698850c",
+      "publicSha256": "8757de3dc5484fc887a6e2d6a631a582368081984e73700623fdfb518698850c",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "hi-seas-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/kastking-fluorokote.html",
+      "status": 200,
+      "bytes": 20676,
+      "gitBlob": "0ff9d5ea1bfa35cfd1c38f580ed51e2cc4eb5c61",
+      "localSha256": "c27bb43b51cb878b9d3efda6bb520eba1d553be66ec6fe87b8863fb5e86644cb",
+      "publicSha256": "c27bb43b51cb878b9d3efda6bb520eba1d553be66ec6fe87b8863fb5e86644cb",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "kastking-fluorokote"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-cx-premium.html",
+      "status": 200,
+      "bytes": 20882,
+      "gitBlob": "5615e3b051e0eede0e60052aa2d2e8059377cdb2",
+      "localSha256": "1e473d301c8423f4d7753fb08cd948fc68e8668ac0ec4c1bdf276362aed9ff92",
+      "publicSha256": "1e473d301c8423f4d7753fb08cd948fc68e8668ac0ec4c1bdf276362aed9ff92",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-cx-premium"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-cxx-x-tra-strong.html",
+      "status": 200,
+      "bytes": 21111,
+      "gitBlob": "fa1d4e9f904e5b35921a56f9548d409fb29b700c",
+      "localSha256": "d2d35285b474f53a636cd1d94febe6b33c22a0f1fd0178519eeaea445f7915ce",
+      "publicSha256": "d2d35285b474f53a636cd1d94febe6b33c22a0f1fd0178519eeaea445f7915ce",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-cxx-x-tra-strong"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-endurx-braid.html",
+      "status": 200,
+      "bytes": 21233,
+      "gitBlob": "b545025e0436383a8b8d81c983c06cf17d41d98e",
+      "localSha256": "f91920bf54bd402ca29a23b3825085d5336662140d7c26a1f6c4570a75ea2147",
+      "publicSha256": "f91920bf54bd402ca29a23b3825085d5336662140d7c26a1f6c4570a75ea2147",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-endurx-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-floroclear.html",
+      "status": 200,
+      "bytes": 21543,
+      "gitBlob": "dd9bbeaa89324e9451c7b7055ed1cbc716684ff0",
+      "localSha256": "eaf8bc46634c68d70fcff7bff4f81835251789b2f58b9ffe61f3516aab35e58a",
+      "publicSha256": "eaf8bc46634c68d70fcff7bff4f81835251789b2f58b9ffe61f3516aab35e58a",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-floroclear"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-halo-fluorocarbon.html",
+      "status": 200,
+      "bytes": 20949,
+      "gitBlob": "239dab95b6bedede4f8d7a6c2945b1a11753aaa6",
+      "localSha256": "02102fc6a449544b5263e16570a3d0eabfe3f25412fb19849e0d9f0927f4935a",
+      "publicSha256": "02102fc6a449544b5263e16570a3d0eabfe3f25412fb19849e0d9f0927f4935a",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-halo-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-tactical-fluorocarbon.html",
+      "status": 200,
+      "bytes": 21239,
+      "gitBlob": "e8a9825e99f60f3ee3ea07a6dd245f267da382d9",
+      "localSha256": "ad71b6a25ae4b55f553d76ce71f05cb83c00ca2eb8ad5fd79dda7b105c265310",
+      "publicSha256": "ad71b6a25ae4b55f553d76ce71f05cb83c00ca2eb8ad5fd79dda7b105c265310",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-tactical-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/p-line-tcb-8-braid.html",
+      "status": 200,
+      "bytes": 21883,
+      "gitBlob": "2ec336ed84158155278f5f8bd640e5d39e113205",
+      "localSha256": "ac45d75a879b68a79324db80a612abbaeaa4c1b1197d59e46e166ddc5dc12c4e",
+      "publicSha256": "ac45d75a879b68a79324db80a612abbaeaa4c1b1197d59e46e166ddc5dc12c4e",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "p-line-tcb-8-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/seaguar-basix.html",
+      "status": 200,
+      "bytes": 20114,
+      "gitBlob": "964f9f2d9beb79ccb2b134875a2a8d4d359897bf",
+      "localSha256": "abc55c4439e346ad5f3658b7309bcdafc63ac36cde65ee95cbdde9762b6b68a5",
+      "publicSha256": "abc55c4439e346ad5f3658b7309bcdafc63ac36cde65ee95cbdde9762b6b68a5",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "seaguar-basix"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/shimano-kairiki-8.html",
+      "status": 200,
+      "bytes": 20299,
+      "gitBlob": "eb38dcd0992fa25352cc65e4bfbc7d0332519a60",
+      "localSha256": "8d0880cd17abec7da7c86b9e3e47c1f5e71edb183a164b17a403c39c22d50767",
+      "publicSha256": "8d0880cd17abec7da7c86b9e3e47c1f5e71edb183a164b17a403c39c22d50767",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "shimano-kairiki-8"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spiderwire-stealth-braid.html",
+      "status": 200,
+      "bytes": 22250,
+      "gitBlob": "8132212ef2e64e26667cd8ada6ef7194d9a7ec6e",
+      "localSha256": "ec5187295b319932cc16d607fcdb17c72cc7972706b8b423a21fc7379ea8423b",
+      "publicSha256": "ec5187295b319932cc16d607fcdb17c72cc7972706b8b423a21fc7379ea8423b",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spiderwire-stealth-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-cast-control-8x.html",
+      "status": 200,
+      "bytes": 23517,
+      "gitBlob": "4721edcac00f93c4d2585d0f7e5aa289b3eb4202",
+      "localSha256": "47ab90896543f11a5b67f0c6824446b2c7b8649ba6c884c2b451b9d22a12a6ba",
+      "publicSha256": "47ab90896543f11a5b67f0c6824446b2c7b8649ba6c884c2b451b9d22a12a6ba",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-cast-control-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-depth-control-8x.html",
+      "status": 200,
+      "bytes": 21234,
+      "gitBlob": "3858c3069f224fc8b4485eb297f92b9bba06a661",
+      "localSha256": "b1ae8e40f1748fe1880108b3df9442d86e2b781bd51fdcd7c14005b12c70934c",
+      "publicSha256": "b1ae8e40f1748fe1880108b3df9442d86e2b781bd51fdcd7c14005b12c70934c",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-depth-control-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-essential-bronzeye-8x.html",
+      "status": 200,
+      "bytes": 20862,
+      "gitBlob": "9bb5d83062df0fc19e4bff4e5a8b077969943598",
+      "localSha256": "c13a5ac4f463e77cbb57e53e9f8fb29db9e91d631d53024adfc22ad73605abed",
+      "publicSha256": "c13a5ac4f463e77cbb57e53e9f8fb29db9e91d631d53024adfc22ad73605abed",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-essential-bronzeye-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-finesse-braid-8x.html",
+      "status": 200,
+      "bytes": 21867,
+      "gitBlob": "4b98613197c0bc9f136acab8955117e0f85726b9",
+      "localSha256": "c6b5edf9d22daa4ee2315a917f8d928366c883e5073f408e97717f52573612a6",
+      "publicSha256": "c6b5edf9d22daa4ee2315a917f8d928366c883e5073f408e97717f52573612a6",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-finesse-braid-8x"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-finesse-fluorocarbon-leader.html",
+      "status": 200,
+      "bytes": 14861,
+      "gitBlob": "d6b1a874c8df85cbc356173ca373edaf4a655e16",
+      "localSha256": "3ebe37bd111f4fe773c11d549fdcb975119e9514a141a869b8b2bc485c2f1e21",
+      "publicSha256": "3ebe37bd111f4fe773c11d549fdcb975119e9514a141a869b8b2bc485c2f1e21",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-finesse-fluorocarbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-gouken-flc.html",
+      "status": 200,
+      "bytes": 22322,
+      "gitBlob": "bde8e6e34bbbe5e9f1f6f0c83aa52805de2931bf",
+      "localSha256": "e4b14fae6bdd58362a36e93abb6042d0211e2bc36fc7fb4261e61848c4b08ada",
+      "publicSha256": "e4b14fae6bdd58362a36e93abb6042d0211e2bc36fc7fb4261e61848c4b08ada",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-gouken-flc"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/spro-rai-jin-premium-fluorocarbon.html",
+      "status": 200,
+      "bytes": 23085,
+      "gitBlob": "9fdc599396babc99950e243f01e5e3c6887edf6a",
+      "localSha256": "119791e024e880f684ac6f92ae44bd240dd31a59daf1e524472e4bdd14594ce2",
+      "publicSha256": "119791e024e880f684ac6f92ae44bd240dd31a59daf1e524472e4bdd14594ce2",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "spro-rai-jin-premium-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/stren-fluorocast.html",
+      "status": 200,
+      "bytes": 23068,
+      "gitBlob": "7ee240f80ab2c8c99dc3a1b07c671048b1242d28",
+      "localSha256": "3bbf9c543dc96578f728388fa836f4fdb99d2858909d87ee4d5f6bbdc25c9093",
+      "publicSha256": "3bbf9c543dc96578f728388fa836f4fdb99d2858909d87ee4d5f6bbdc25c9093",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "stren-fluorocast"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/stren-sonic-braid.html",
+      "status": 200,
+      "bytes": 21992,
+      "gitBlob": "c18f312844b1d0e8dc6cc722536c23e6a6e559ff",
+      "localSha256": "67c2ba1e4787a6f92267d7f33b36ddab4f657b0cc81a6a637f4ecd087d5964d9",
+      "publicSha256": "67c2ba1e4787a6f92267d7f33b36ddab4f657b0cc81a6a637f4ecd087d5964d9",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "stren-sonic-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/stren-super-knot.html",
+      "status": 200,
+      "bytes": 22921,
+      "gitBlob": "ace0790c58a966d94f72a1c223a3e97832d48743",
+      "localSha256": "f884dfd9d53a91315574624668315c73ca7b615727b6bab1e09796dc4e88a259",
+      "publicSha256": "f884dfd9d53a91315574624668315c73ca7b615727b6bab1e09796dc4e88a259",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "stren-super-knot"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-832-advanced-superline.html",
+      "status": 200,
+      "bytes": 23822,
+      "gitBlob": "9b8d0cf0d55b6c184d6abb17dc1d1cdd610b5529",
+      "localSha256": "99148e6d72820748eb6a97ceefb575cc02f9860effa2e896efa074df19692efe",
+      "publicSha256": "99148e6d72820748eb6a97ceefb575cc02f9860effa2e896efa074df19692efe",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-832-advanced-superline"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-advance-fluorocarbon.html",
+      "status": 200,
+      "bytes": 22724,
+      "gitBlob": "b17c3861abc9ff483ea1e0e1c42720a95fed5d7c",
+      "localSha256": "9bbe7e9e7a81d16dddbfe903b8155c464398a89c277c879a73672e8c32f3e78e",
+      "publicSha256": "9bbe7e9e7a81d16dddbfe903b8155c464398a89c277c879a73672e8c32f3e78e",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-advance-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-advance-mono.html",
+      "status": 200,
+      "bytes": 23362,
+      "gitBlob": "445f8895da6f4a80350659958473d448c699a250",
+      "localSha256": "6bf6df6cef5cf05cb8c1893346ba57f1b95feaf447294f7c675e3c7268c4fe5d",
+      "publicSha256": "6bf6df6cef5cf05cb8c1893346ba57f1b95feaf447294f7c675e3c7268c4fe5d",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-advance-mono"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-calibr8.html",
+      "status": 200,
+      "bytes": 23094,
+      "gitBlob": "14a0866f5739f50258de2133c4406cd90e66c6af",
+      "localSha256": "d8bdd6fee1f8d2b9281a90b8e70a3e7623616b07b69f75e0f296d054c7b471ba",
+      "publicSha256": "d8bdd6fee1f8d2b9281a90b8e70a3e7623616b07b69f75e0f296d054c7b471ba",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-calibr8"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-elite.html",
+      "status": 200,
+      "bytes": 21866,
+      "gitBlob": "adf9e99db6e05e0b2f46aa13b5650d9daffe6346",
+      "localSha256": "fe333be60204a4db76361074012aa8be21766a86ad2eae002cbd9e120ed97bc8",
+      "publicSha256": "fe333be60204a4db76361074012aa8be21766a86ad2eae002cbd9e120ed97bc8",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-elite"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-invisiline-fluorocarbon.html",
+      "status": 200,
+      "bytes": 26459,
+      "gitBlob": "5e6e9221f1a5a63f4e5c063656f0cc358fcec4e0",
+      "localSha256": "0a9afb638160016048e25ca4f20a98ea9902ff832dfa56e26bbe776d3685b954",
+      "publicSha256": "0a9afb638160016048e25ca4f20a98ea9902ff832dfa56e26bbe776d3685b954",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-invisiline-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-performance-braid.html",
+      "status": 200,
+      "bytes": 21870,
+      "gitBlob": "e1e4de0dfb86c7de090a42172f9c2a90635b8c49",
+      "localSha256": "3419dc91a33d10b23a80aa34568d41af6c43f0e1c742dcb1460f731fae5cc5b7",
+      "publicSha256": "3419dc91a33d10b23a80aa34568d41af6c43f0e1c742dcb1460f731fae5cc5b7",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-performance-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/sufix-promix-braid.html",
+      "status": 200,
+      "bytes": 22227,
+      "gitBlob": "6d78d9005eff9e5cda94d6e7e1fc54c01636ca23",
+      "localSha256": "92c048bf9327eb2ecb712c6de998583e6901d80d0f2d7f23d98739d0893ded75",
+      "publicSha256": "92c048bf9327eb2ecb712c6de998583e6901d80d0f2d7f23d98739d0893ded75",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "sufix-promix-braid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-h-d-carbon-leader.html",
+      "status": 200,
+      "bytes": 19390,
+      "gitBlob": "8bff420690b1eda2976f975d20674a5dcdf3ccb2",
+      "localSha256": "998ac4012363212c8fc2ff513c6da6c6ec59b147bb0a4c3ac8b83302765b484f",
+      "publicSha256": "998ac4012363212c8fc2ff513c6da6c6ec59b147bb0a4c3ac8b83302765b484f",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-h-d-carbon-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-hybrid-ice-line.html",
+      "status": 200,
+      "bytes": 21283,
+      "gitBlob": "e0ac8578f88f8736e865cff220715b6af0fb345c",
+      "localSha256": "fd6d0cc444b7c5306c809f4f0b845923bb9f43f8a7659a04eb7577eb277754ea",
+      "publicSha256": "fd6d0cc444b7c5306c809f4f0b845923bb9f43f8a7659a04eb7577eb277754ea",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-hybrid-ice-line"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-hybrid.html",
+      "status": 200,
+      "bytes": 23014,
+      "gitBlob": "edd548205bc41e7695f99a0fc7512330e7bcb771",
+      "localSha256": "350c4d249f279aff41420543bd26dfe6f9afe41a278756cbb074b9444d339ba7",
+      "publicSha256": "350c4d249f279aff41420543bd26dfe6f9afe41a278756cbb074b9444d339ba7",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-hybrid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-superbraid-9.html",
+      "status": 200,
+      "bytes": 23436,
+      "gitBlob": "6c569c8bbc88e15e2fcae9bd90152c8c3c1f5510",
+      "localSha256": "82444972af78dca1af96036946b8d04a5e2514317dc8446569fb163cc8588cb1",
+      "publicSha256": "82444972af78dca1af96036946b8d04a5e2514317dc8446569fb163cc8588cb1",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-superbraid-9"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-superbraid.html",
+      "status": 200,
+      "bytes": 23256,
+      "gitBlob": "3e1c13086fd19da7b330c666b225e6dea2b59f7b",
+      "localSha256": "ffb10ae8e3a7a380f5cc9f2741b33d2419f7da5a86bb61d643bc3b2b2695962a",
+      "publicSha256": "ffb10ae8e3a7a380f5cc9f2741b33d2419f7da5a86bb61d643bc3b2b2695962a",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-superbraid"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-superfluoro-leader.html",
+      "status": 200,
+      "bytes": 18443,
+      "gitBlob": "df414fd03013d42d54fa38ca7aa19f3a29939f1b",
+      "localSha256": "03dda4b4dca65f1c79a9a9720b35b61507cd970032c4fb74bc8776dd6dd97c68",
+      "publicSha256": "03dda4b4dca65f1c79a9a9720b35b61507cd970032c4fb74bc8776dd6dd97c68",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-superfluoro-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-t-7-premium-fluorocarbon.html",
+      "status": 200,
+      "bytes": 22722,
+      "gitBlob": "fc96ce1f7afcc5c316f5155a3793a9d8e99248af",
+      "localSha256": "df7f6bb0c020c4484a4a6f9a7d72b409fc6530a3a73cf9a784d9a60b3749a5d7",
+      "publicSha256": "df7f6bb0c020c4484a4a6f9a7d72b409fc6530a3a73cf9a784d9a60b3749a5d7",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-t-7-premium-fluorocarbon"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-topknot-leader.html",
+      "status": 200,
+      "bytes": 17950,
+      "gitBlob": "61532339f74cf44505f2c746d8898b77dc90c84e",
+      "localSha256": "ae353f374cd90d25c4d5e130a43e238e18265f88d47ef3c8aef7ea3161c81eee",
+      "publicSha256": "ae353f374cd90d25c4d5e130a43e238e18265f88d47ef3c8aef7ea3161c81eee",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-topknot-leader"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/line-pages/yo-zuri-topknot-mainline.html",
+      "status": 200,
+      "bytes": 22314,
+      "gitBlob": "7b49c29cf6abba457460bbe57da2c7d8e1a37d17",
+      "localSha256": "8e0b04f6ba9c29cda25ee5068c5ce3cc5c82b754946150796c6607f54c697c82",
+      "publicSha256": "8e0b04f6ba9c29cda25ee5068c5ce3cc5c82b754946150796c6607f54c697c82",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 1,
+        "productId": "yo-zuri-topknot-mainline"
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/pe-line-database.html",
+      "status": 200,
+      "bytes": 383,
+      "gitBlob": "df17d37606f36131565c604bfbea4ababae2f05e",
+      "localSha256": "e92d258e4fdfd12c2c593197af06a552d07a72fc89c49da2477f8b8e97f2a28a",
+      "publicSha256": "116520a6ee6de37c6bb8d9854c07ef4175134c929847c925e3327b42a6f79750",
+      "lfSha256": "116520a6ee6de37c6bb8d9854c07ef4175134c929847c925e3327b42a6f79750",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 0
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/reel-comparison-loader.js",
+      "status": 200,
+      "bytes": 10691,
+      "gitBlob": "6f58418f5137198feddeaf17daa5e8179aba429f",
+      "localSha256": "cdb4c76ce551d7c05955c2dde3165f2bb2b4ba00cf89215c424d0fcbf10a9f2f",
+      "publicSha256": "f5e1e6bfca47894a0ddabd3b83773fc186ebf0eff55410c10678d28d3c3c3e96",
+      "lfSha256": "f5e1e6bfca47894a0ddabd3b83773fc186ebf0eff55410c10678d28d3c3c3e96",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/reel-comparison.css",
+      "status": 200,
+      "bytes": 23675,
+      "gitBlob": "91660e02b89b899d1493f3cce1abdcbcea61cdb7",
+      "localSha256": "832833e672358f2955780309cb9d2e5a74ff83fdd9424de34435371fb3abaedb",
+      "publicSha256": "dc4493e6fee1f9099b23aa97270a1d8f1a8bd6b1a49a0f2accd38de8a1675538",
+      "lfSha256": "dc4493e6fee1f9099b23aa97270a1d8f1a8bd6b1a49a0f2accd38de8a1675538",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "css",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/reel-comparison.html",
+      "status": 200,
+      "bytes": 8034,
+      "gitBlob": "b402307b8a8cb8b3a6543f62bb5034a038dfb884",
+      "localSha256": "f8c12adf2d09158775354dab24b432a2f2048d3ca045c83698cbd5f403a21d02",
+      "publicSha256": "61d35863154c1f6d6138bc2f93007bcf5297e89f003041c0712fec14f6eaeb31",
+      "lfSha256": "61d35863154c1f6d6138bc2f93007bcf5297e89f003041c0712fec14f6eaeb31",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "html",
+        "passed": true,
+        "jsonLdBlocksParsed": 0
+      },
+      "passed": true
+    },
+    {
+      "file": "examples/reel-comparison.js",
+      "status": 200,
+      "bytes": 69910,
+      "gitBlob": "5eab9d709524077aa4341f6a8d1142a200192d29",
+      "localSha256": "7e46b0188c5927fa8ac980221083691fefff968058227a2539852c29d511b08b",
+      "publicSha256": "a5bf16917e3c8840dc96888073aa6253863847b2faafbe4908f8a07278f26c27",
+      "lfSha256": "a5bf16917e3c8840dc96888073aa6253863847b2faafbe4908f8a07278f26c27",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/affiliate-links.js",
+      "status": 200,
+      "bytes": 6630,
+      "gitBlob": "f8202b81fa699d1ff83cbc3cc66c350089eb510f",
+      "localSha256": "fe26bcc2de81c68c7c645b46ea3236f3a0c11ab9a40d93d599b01520861e0d3f",
+      "publicSha256": "fe26bcc2de81c68c7c645b46ea3236f3a0c11ab9a40d93d599b01520861e0d3f",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/analytics.js",
+      "status": 200,
+      "bytes": 16235,
+      "gitBlob": "697301e135e19f84c4251be0ec385ac4616808cf",
+      "localSha256": "120796d00acc78a5be47cd63c82b70e63ab552b0c966282e45efc143faaaa149",
+      "publicSha256": "064be972f4678af89b9c190edfdd57ff788832f56bac83ba9f6c0b1fd581c590",
+      "lfSha256": "064be972f4678af89b9c190edfdd57ff788832f56bac83ba9f6c0b1fd581c590",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/calculator-core.js",
+      "status": 200,
+      "bytes": 36820,
+      "gitBlob": "010445f9ec0f262db261497f511039154bcd0831",
+      "localSha256": "29f43acd3519959dfdabfbad9d35f5445acaa5688dac5da1aa1d4c057f32a305",
+      "publicSha256": "4469f97665f389994012f02b54c4f9100d2ead5558c6d368eff3c9a693c1f076",
+      "lfSha256": "4469f97665f389994012f02b54c4f9100d2ead5558c6d368eff3c9a693c1f076",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-database-loader.js",
+      "status": 200,
+      "bytes": 9092,
+      "gitBlob": "a50edd4b488d1f4f7b3d9b0636381e98810438cc",
+      "localSha256": "56ee31e1c44c7389cf29254d6b78e669cecef16a1f5357471871ee1ce1b1337d",
+      "publicSha256": "49a619f3448be46f8f78b5c48509e3fc6ec25c0e27c19605fc2511e23fe720ad",
+      "lfSha256": "49a619f3448be46f8f78b5c48509e3fc6ec25c0e27c19605fc2511e23fe720ad",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-database-tools.js",
+      "status": 200,
+      "bytes": 18425,
+      "gitBlob": "d20abf450648e23ea41997c4c2e5674696431a4b",
+      "localSha256": "62517902d94b2efed2b0ad73b608c3228e1596e10609da986fb9cc063e58659e",
+      "publicSha256": "bd00f9fcbb357935e11db97a7615ba2aaef1f520dae75ec932eec095b0e4f422",
+      "lfSha256": "bd00f9fcbb357935e11db97a7615ba2aaef1f520dae75ec932eec095b0e4f422",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-database.js",
+      "status": 200,
+      "bytes": 13211,
+      "gitBlob": "b228a349ba75b53f8e7b456bb266fa52be9f801a",
+      "localSha256": "41395b70101a0f2cb7b4ca4303f014fbe48295bf392eeadf4dfa1502c45d6e91",
+      "publicSha256": "3bc804e30850ac16cd8d7159ede38aa2db3230c52ec393c005743fc67b0fc77d",
+      "lfSha256": "3bc804e30850ac16cd8d7159ede38aa2db3230c52ec393c005743fc67b0fc77d",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-leader-page.js",
+      "status": 200,
+      "bytes": 6753,
+      "gitBlob": "a05ebdfa1e5d22d3384efb6eff9030cdc9fe1edb",
+      "localSha256": "05b901eb189969d86c74ebf55242f1c33ebdb5ae3d2959320b2106fcbd5d7305",
+      "publicSha256": "05b901eb189969d86c74ebf55242f1c33ebdb5ae3d2959320b2106fcbd5d7305",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-page-engine.js",
+      "status": 200,
+      "bytes": 74589,
+      "gitBlob": "97183b13d9ffaecf9a261fff82e6d4cff40efa83",
+      "localSha256": "a32f3315ace86945dbc8777ebbe17ea71656cca8b64970be3254d981d76e4261",
+      "publicSha256": "a32f3315ace86945dbc8777ebbe17ea71656cca8b64970be3254d981d76e4261",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-page-loader.js",
+      "status": 200,
+      "bytes": 6523,
+      "gitBlob": "b5082e2b0ee541977be8f765e34bd095c4d87f95",
+      "localSha256": "08c3bc5bc0b211f7315a655331ca671b387b27dc9b39f47a9db04d2872a04cdd",
+      "publicSha256": "08c3bc5bc0b211f7315a655331ca671b387b27dc9b39f47a9db04d2872a04cdd",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/line-selector.js",
+      "status": 200,
+      "bytes": 7306,
+      "gitBlob": "7bba168c2a25a3de7b10aa93de5efee52f9ed732",
+      "localSha256": "6c1074aee41b7ea2c8803a1b6dc46b11cb614de33a5f55243e1c3c86ffdd5112",
+      "publicSha256": "ec5653eef326aaddd0c8c667bcd8abbec45d82edaa4b13f54c564c881bf1ca70",
+      "lfSha256": "ec5653eef326aaddd0c8c667bcd8abbec45d82edaa4b13f54c564c881bf1ca70",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/pe-line-database.js",
+      "status": 200,
+      "bytes": 13764,
+      "gitBlob": "8a84ec1478288fd344e005d03bd053b4ad08f72f",
+      "localSha256": "ece3b88f95cb05644665e03f088ed0182eb856c6d937f29e5a163c864ab4f4fe",
+      "publicSha256": "17460bbe699b18e5d4f1f6e2c094dddb68f646c49f50ed8fc95761468d6d84f5",
+      "lfSha256": "17460bbe699b18e5d4f1f6e2c094dddb68f646c49f50ed8fc95761468d6d84f5",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/recommendation-engine.js",
+      "status": 200,
+      "bytes": 50793,
+      "gitBlob": "b76b80b1af1fdb72441e88e35fea0337711573a2",
+      "localSha256": "4a83b0d973e009dcee07e1e24e57cc5e4fd8d41bcac6dee0bf92e233b23b6cc6",
+      "publicSha256": "06f2a47b80cbdecc9f70982bcc9f30cf992bcf463e23cd65e9e809e9c59ec159",
+      "lfSha256": "06f2a47b80cbdecc9f70982bcc9f30cf992bcf463e23cd65e9e809e9c59ec159",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/reel-page-calculator.js",
+      "status": 200,
+      "bytes": 52043,
+      "gitBlob": "1af4b415d417fa838ef4568ffd78209198b12ef6",
+      "localSha256": "1d1bdf1cd8977619750567d3013200732f5e788111eeaaa8b60a4c715314adbe",
+      "publicSha256": "df8a37c214bc37a2e55deb7529f8326fadbd1eead8a91a0180fee389ed3c3877",
+      "lfSha256": "df8a37c214bc37a2e55deb7529f8326fadbd1eead8a91a0180fee389ed3c3877",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/squarespace-line-page-loader.js",
+      "status": 200,
+      "bytes": 10230,
+      "gitBlob": "befd413419e0d9fcb6b5b6258c5b5b4ef7ef0845",
+      "localSha256": "cead6a1cbe0015187ec02553ab1689edbcbf4f8d5c5801a8af7bf6da67050559",
+      "publicSha256": "cead6a1cbe0015187ec02553ab1689edbcbf4f8d5c5801a8af7bf6da67050559",
+      "matchesCommit": true,
+      "match": "exact-bytes",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/wizard-embed-loader.js",
+      "status": 200,
+      "bytes": 1037,
+      "gitBlob": "f4d99180325499fc86ae3475eeb06a3deda4e9ad",
+      "localSha256": "344ff90ce36595ee6e9db6559e6a6453a53ca1898480e800759bcf2b00b6eb48",
+      "publicSha256": "7a5fc3c8cdd303a66f3f676b831fa2e98ebcfcfeea36ce261a77a67e099dcce3",
+      "lfSha256": "7a5fc3c8cdd303a66f3f676b831fa2e98ebcfcfeea36ce261a77a67e099dcce3",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "file": "js/wizard.js",
+      "status": 200,
+      "bytes": 82781,
+      "gitBlob": "e48b97ba3beb7ac3fb28d7762bef9604bd0b3046",
+      "localSha256": "5cb6dc3fb96282296194a0426b89251766e6565e38cf388c37df49a5cdf9c4d0",
+      "publicSha256": "0e9228d858b89bd8827d02a5fdc3a26cdfa268210c0a8706770a498000a0900e",
+      "lfSha256": "0e9228d858b89bd8827d02a5fdc3a26cdfa268210c0a8706770a498000a0900e",
+      "matchesCommit": true,
+      "match": "CRLF-LF-only",
+      "parse": {
+        "kind": "javascript-syntax",
+        "passed": true
+      },
+      "passed": true
+    }
+  ],
+  "limits": [
+    "No browser rendering, mobile or interaction tests were performed; main retains those checks.",
+    "Public hosted prepared114/published100 is not evidence of native Squarespace import completion. Main is handling new14 separately.",
+    "No production files, Git index, commits, pushes or server state were changed. Only reports/resolution-integration/deployed-v9-proof.json and deployed-v9-proof.md are written."
+  ],
+  "versionedRequests": [
+    {
+      "file": "components/line-pages/spiderwire-stealth-braid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "deba0727fba74125d1ac5b7437ad3f46e4eea9e31f58d2d23991b9fe7befcfb5",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/stren-super-knot.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "3f8c54793c8180e3ac01d1cfcd9ef5ab258ce38bd225f082e0bbb3bf36df4285",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/stren-fluorocast.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "d2b063fcd1ac9ca7c78ab0103f59d5f833f687210a70a10232a3f0e352e332f6",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/stren-sonic-braid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "af651510ae5641639418ac976b34ad141a11cdc68e56bd8c1921771dff5d2196",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/hi-seas-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "62262e84c47ced33cf0de9a5e8e0160460cf92e915a025ac6e041c770fa7922e",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-invisiline-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "30246e97fc9ce48f8e743b717f8143bca6d8b4f4e155e07565840df1e7a0a99b",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-calibr8.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "3243cb08fa3fa878f14fddeef30ccb93cfea29ee89bf0ca6a81eab32fcd87985",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-cxx-x-tra-strong.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "3d9c931c62035f8a7fe778b4fe116d7fb90f2dbf3d3af2fc6b775ef8aa789ed0",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-floroclear.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "2007427089f0f2147c2dd01a3b1c504a97219cdb07bab56d5df31bfe36971413",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-cx-premium.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "3c61c514f041a4dcded418f292b38cf8d862e353ab8d54754d7962a8bcae69d3",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-tactical-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "4d40b0f8f7f09ace25f3a7efcfe9e0cf21b6213137453acce3e0533ba9607955",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-halo-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "b6cbe1175b47590eee345d344b09e824be663589455e54ade252f9787206436b",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-endurx-braid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "1e2e515a08473b88ea7045cc7bb565803a418f5d47fabb7a72291f70bfbad26e",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/p-line-tcb-8-braid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "ddbc3561b6e0c52aa053afc099ad920d5665be46c01f1397cdf12972a8439a98",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-832-advanced-superline.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "848efd31ba8ba44353903d60303c15b42d15d7a4a640ed075d72066b09e13f18",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-promix-braid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "98c884bc4765d99aa0c7f87b4e96be26ee62765807f84b7d6784bd1ed1f8f965",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-performance-braid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "1140875b67902efaad8c965d978667dab5034bc19e42221609def9ef43e058b2",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-elite.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "48d622f69f511bf407d36547f7c8d3e9c954fdd2369b5813fa3f22d010827880",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-advance-mono.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "91f18b836f78a81a335c9ed93bc8d2139f2bdef1302618beaf5ddc8ece66c0fc",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/sufix-advance-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "baa091004e076e9c8e2d27f603c5acac0c3bd136c3bf224d9adbc722f412c27c",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-finesse-braid-8x.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "f6a9971a220a256d888e1d4df432dc51d4e8b5fba6366e702591c355349fea96",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-essential-bronzeye-8x.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "752e2a59fa39adc212556b3dce48917071ba9c13d3bd98274aaf819ac33b675c",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-cast-control-8x.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "9903973c76eef30ffa979e545b0286c9bd155e3de56aaac31eae7c35af8de138",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-depth-control-8x.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "7aac59979fbbda7aaaa98d7c9ebf7eb4a9821852d651db3cc4424f0a3192eec9",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-gouken-flc.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "825946cf9c839a665c9a34887eee9dce1a84bf7994c55f73fca03e57ae786881",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-rai-jin-premium-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "2840479c67daad884851aadee1fbed79e5a75265d1a7f290d25f0342e9322508",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-hybrid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "810bf4327853f55ecb5e1a3e7a07e08a81688e0a0d39773e29cf65ae5d6fcdbd",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-hybrid-ice-line.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "62668eb768a9921b14061cdad76714993adcf0d618321d478587ec12950637d7",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-t-7-premium-fluorocarbon.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "95b2e9b3d8227b51291e54c68fc7563781977cc655bc5fe34b60912cb30e2972",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-topknot-mainline.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "78825e400c30a49cd215e9f334807e82c2f5907521575a4f29df1863b1d1ba5d",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-superbraid.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "aa33da042531a0ff914bf06156d447d447a55088defc7cc411c4256bb4f4f9da",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-superbraid-9.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "7694143d83a7407ae224294cd5d06075c9b90161b3eea64f364d1001bb5acc60",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/spro-finesse-fluorocarbon-leader.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "85b8b780939121d244d8a367782fd2625adb92163bdd9d9c045f08da795e54d9",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-topknot-leader.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "eb93a4753287c6d9142b9433d299e2335ef11b0753ef0762b52fe00789e6e254",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-superfluoro-leader.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "1f84fe102d63e27a03aa411040bdee0cd5f2e3f1cab3161d3eb0aa745672a766",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/yo-zuri-h-d-carbon-leader.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "2fc942adf881f2a33c39e1b09c9e740129617d6bfcc62b5ff07c38a648b1edbe",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/daiwa-j-braid-x4.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "06d360f25189e0e2aa40a3134cffc8a000db75241b8e9fac6a43ca90689a29dd",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/seaguar-basix.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "539d8524422ed9e7563e50f6b6815698b1a9f6e1a9b8b27782204b6fcd4c8424",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/shimano-kairiki-8.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "5bcc5016e9a14e128edccd760f8250ff235fca09bfec8e053d1b0d30cd63902e",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/cortland-fluorocarbon-leader.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "e60d230faf958cf8a686d1383e762838dd10cc98c38539af082875fc8a1a2e74",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/gamma-fluorocarbon-leader.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "e26e9836c15eb31ba1b5a3531e84f535bc508ef2c60bf2acce01e9076bbb944d",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "components/line-pages/kastking-fluorokote.html",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "53858b36c1b98f07a56193daa94881cf555ffc641775f75cd04d9f6a6caf03f2",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "css/line-page-embed.css",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "987a1eba676795eb6a16875a6d9b5235b7c04d6f630432a6e35a754870d3e878",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/calculator-core.js",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "4469f97665f389994012f02b54c4f9100d2ead5558c6d368eff3c9a693c1f076",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/affiliate-links.js",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "fe26bcc2de81c68c7c645b46ea3236f3a0c11ab9a40d93d599b01520861e0d3f",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/analytics.js",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "064be972f4678af89b9c190edfdd57ff788832f56bac83ba9f6c0b1fd581c590",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/line-leader-page.js",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "05b901eb189969d86c74ebf55242f1c33ebdb5ae3d2959320b2106fcbd5d7305",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/line-page-engine.js",
+      "query": "?v=9",
+      "status": 200,
+      "publicSha256": "a32f3315ace86945dbc8777ebbe17ea71656cca8b64970be3254d981d76e4261",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/squarespace-line-page-loader.js",
+      "query": "?v=3",
+      "status": 200,
+      "publicSha256": "cead6a1cbe0015187ec02553ab1689edbcbf4f8d5c5801a8af7bf6da67050559",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "js/line-page-loader.js",
+      "query": "?v=3",
+      "status": 200,
+      "publicSha256": "08c3bc5bc0b211f7315a655331ca671b387b27dc9b39f47a9db04d2872a04cdd",
+      "canonicalSha256Equal": true,
+      "passed": true
+    },
+    {
+      "file": "css/squarespace-line-page.css",
+      "query": "?v=3",
+      "status": 200,
+      "publicSha256": "2efa8214df39af76f57a8ca39aedc0c0df163211ff35667e5656cf03f582d341",
+      "canonicalSha256Equal": true,
+      "passed": true
+    }
+  ],
+  "reportNotes": [
+    "Per-file records use publicBase + file for canonical URL, or publicBase + file + query for loader-versioned URL.",
+    "A first identical 190-request sweep also passed; its verbose tool output was truncated. This second sweep retains bounded per-file proofs. Total verification HTTP requests across both sweeps: 380."
+  ],
+  "firstSweep": {
+    "startedAt": "2026-09-13T17:46:23.210Z",
+    "verifiedAt": "2026-09-13T17:46:26.960Z",
+    "passed": true,
+    "httpRequests": 190,
+    "failedResponses": 0
+  }
+}

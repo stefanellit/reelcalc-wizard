@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "title": "Remaining 24 Model Holds After Resolution Integration",
+  "reconciledAt": "2026-09-13T17:02:36.822Z",
+  "status": "final-hold-census",
+  "basis": "Existing resolution evidence and accepted C4/E1/Sufix2/PLine7 integration; no new research, product changes, or publication attestation.",
+  "counts": {
+    "mainCatalogModels": 138,
+    "previousLocallyIncludedModels": 100,
+    "acceptedAdditionalModels": 14,
+    "acceptedAdditionalRows": 42,
+    "locallyIncludedModels": 114,
+    "heldModels": 24,
+    "heldByGroup": {
+      "A": 9,
+      "C": 9,
+      "D": 2,
+      "E": 4
+    },
+    "blockerDomains": {
+      "manufacturer-evidence": 22,
+      "data-model": 2
+    },
+    "primaryBlockers": {
+      "data-model-limitation": 2,
+      "manufacturer-identity-unresolved": 12,
+      "missing-manufacturer-diameter": 7,
+      "manufacturer-spec-conflict": 1,
+      "manufacturer-image-missing": 1,
+      "primary-evidence-inaccessible": 1
+    },
+    "peOnlyModelsOutsideScope": 39
+  },
+  "acceptedIntegration": {
+    "C4": [
+      "spiderwire-stealth-braid",
+      "stren-super-knot",
+      "stren-fluorocast",
+      "stren-sonic-braid"
+    ],
+    "E1": [
+      "hi-seas-fluorocarbon"
+    ],
+    "Sufix2": [
+      "sufix-invisiline-fluorocarbon",
+      "sufix-calibr8"
+    ],
+    "PLine7": [
+      "p-line-cxx-x-tra-strong",
+      "p-line-floroclear",
+      "p-line-cx-premium",
+      "p-line-tactical-fluorocarbon",
+      "p-line-halo-fluorocarbon",
+      "p-line-endurx-braid",
+      "p-line-tcb-8-braid"
+    ]
+  },
+  "publicationBoundary": "114 is the locally included/possible fully checked publication total, not proof all 114 are live. The remaining 24 stay held; the 138-model main catalog is not complete. Main owns remaining checks and publication.",
+  "classificationNotes": {
+    "manufacturer-evidence": "Missing, inaccessible or conflicting manufacturer identity, physical specifications or original imagery. Software changes alone do not resolve these 22 holds.",
+    "data-model": "The narrow accepted primary facts for G5 UK and X8 Australia are already supported. Their distinct rating/region identities have not cleared all shared integration and calculation paths; do not treat them as missing-diameter cases.",
+    "sourcePacketStatus": "Records the evidence pack's own status, not the publication decision. Two source-verified packets are deliberately still held.",
+    "catalogProgress": "Use catalog-progress.json only as the exact 138-model ID inventory. Its earlier research-needed/published counters are stale and are not used as current publication state.",
+    "priorIntegrationReview": "The Group A compatibility review records an earlier code snapshot. This report preserves the accepted A2 hold decision; it does not claim those exact code defects were freshly rerun after integration14."
+  },
+  "commonUnlockRules": [
+    "Use exact manufacturer evidence tied to model/formulation, market, edition, rating basis, physical diameter and package units. An original manufacturer label may be evidence even when hosted elsewhere if its identity and provenance are verified; retailer-entered specifications alone are not.",
+    "A narrowly verified subset can unlock a model page without validating all old database strengths. Preserve unsupported rows as exclusions rather than relabeling, silently converting PE/mono equivalents or merging regions by lb.",
+    "Historical evidence can support a prominently dated edition, with a matching original manufacturer image and no unproven current formulation, package continuity or stock claim.",
+    "Closing a listed blocker only permits a new candidate review. Complete gold configuration, independent source/identity checks, integration tests, browser checks and main's publication approval remain required.",
+    "No disappearance from a search or current storefront proves discontinuation. Do not alter global rating semantics solely to launch the already accepted 114."
+  ],
+  "models": [
+    {
+      "id": "daiwa-j-braid-x8",
+      "brand": "Daiwa",
+      "model": "J-Braid X8",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "data-model",
+      "primaryBlocker": "data-model-limitation",
+      "sourcePacketStatus": "source-verified",
+      "missingOrConflictingEvidence": "One Australian Chartreuse SKU 49100 package verifies 6 lb, 0.06 mm and 150 m, but its separate regional identity has not cleared end-to-end integration. The earlier independent review demonstrated generic 6 lb ID remapping and indistinguishable regional choices. US diameter and yard/meter conflicts remain unresolved.",
+      "safeUnlock": "Honor daiwa-j-braid-x8-braid-au-chartreuse-6, preserve SKU/barcode/region/package scope, leave the generic US row unchanged and excluded, and verify exact-ID defaults, selectors and handoffs. No new manufacturer diameter is needed for this one AU package; other rows stay held.",
+      "secondaryBlockers": [
+        "regional-identity-not-cleared",
+        "us-source-conflicts-remain"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/0"
+        },
+        {
+          "path": "research/line-pages/full-catalog/resolution-independent-review/group-a-review.json",
+          "pointer": "/modelReviews/1"
+        }
+      ]
+    },
+    {
+      "id": "daiwa-samurai-fluorocarbon",
+      "brand": "Daiwa",
+      "model": "Samurai Fluorocarbon",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "No manufacturer SKU family establishes the generic Samurai Fluorocarbon inventory identity independently of J-Fluoro Samurai or Hidden Concept.",
+      "safeUnlock": "Obtain an exact manufacturer label/catalog identity and its diameter/package mapping, or documentary alias evidence followed by a separately authorized identity decision. Do not duplicate J-Fluoro Samurai as a new model.",
+      "secondaryBlockers": [],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/1"
+        }
+      ]
+    },
+    {
+      "id": "daiwa-samurai-mono",
+      "brand": "Daiwa",
+      "model": "Samurai Mono",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "No exact manufacturer mapping establishes Samurai Mono, its material/market and the legacy 6/8/10/12/14 lb diameter/package range. Regional Samurai Trout or Green discovery is not equivalence evidence.",
+      "safeUnlock": "Obtain a dated manufacturer catalog or original package identifying the exact mono family, then coherent strength/physical-diameter/package rows and a matching image. Do not substitute the regional Trout/Green products or infer discontinuation.",
+      "secondaryBlockers": [
+        "missing-diameter-and-package-mapping"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/2"
+        }
+      ]
+    },
+    {
+      "id": "powerpro-super8slick-v2",
+      "brand": "PowerPro",
+      "model": "Super8Slick V2",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "214 current assigned variants establish product/package identity but not physical inch/mm diameter. Redirected legacy guides and inspected images do not supply it; one image's 50 lb alt text disagrees with its photographed 20 lb label.",
+      "safeUnlock": "Find a manufacturer physical-diameter chart or readable exact-SKU label for Super8Slick V2, tied to a supported package and correctly matched photo. Original Super8Slick, standard PowerPro and mono-equivalent labels cannot supply its diameter.",
+      "secondaryBlockers": [
+        "image-label-metadata-mismatch"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/3"
+        }
+      ]
+    },
+    {
+      "id": "powerpro-maxcuatro",
+      "brand": "PowerPro",
+      "model": "Maxcuatro",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "70 assigned variants establish the original Maxcuatro packages but no physical inch/mm diameter. Inspected images and redirected legacy guides do not close the gap.",
+      "safeUnlock": "Obtain an original Maxcuatro manufacturer diameter chart or readable exact-SKU label tied to the reviewed version and package. Do not calculate a diameter from the 25% claim or substitute Maxcuatro Metered.",
+      "secondaryBlockers": [],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/4"
+        }
+      ]
+    },
+    {
+      "id": "shimano-kairiki-g5",
+      "brand": "Shimano",
+      "model": "Kairiki G5",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "data-model",
+      "primaryBlocker": "data-model-limitation",
+      "sourcePacketStatus": "source-verified",
+      "missingOrConflictingEvidence": "Four UK Steel Grey 150 m packages support Actual (AVG) 9.1/12.1/15.1/28.4 lb, not nominal 10/15/20/30/40 lb identities. Exact lb/kg labels and rating basis are not safely preserved across current shared selection, recommendations and nominal reel-reference calibration. Two other SKUs also have package/table kg conflicts.",
+      "safeUnlock": "Separately approve and test rating-aware identity/display or isolate the four exact rows to compatible diameter-based paths. Preserve independently printed lb and kg, prevent average ratings from entering nominal-strength recommendation/calibration pools, and retain all legacy and conflicting-SKU exclusions. Do not change global rating semantics merely to launch the 114.",
+      "secondaryBlockers": [
+        "average-versus-nominal-basis",
+        "two-additional-package-table-conflicts"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/5"
+        },
+        {
+          "path": "research/line-pages/full-catalog/resolution-independent-review/group-a-review.json",
+          "pointer": "/modelReviews/0"
+        }
+      ]
+    },
+    {
+      "id": "shimano-ocea-8-pe",
+      "brand": "Shimano",
+      "model": "Ocea 8 PE",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-spec-conflict",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "Exact linked 400 m package images print 73/89/102/137 lb while European titles for the same LDA81SE5C SKUs use 76/99/113/151 lb. New Zealand kg agreement does not resolve regional/generation or rating-scale identity.",
+      "safeUnlock": "Obtain manufacturer clarification or a clearly dated, internally consistent exact-SKU edition tying rating basis, physical diameter and package to one market. Do not select convenient values across generations or round them into legacy labels; any average-rated subset also needs compatible identity handling.",
+      "secondaryBlockers": [
+        "region-generation-and-rating-basis-unresolved"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/6"
+        }
+      ]
+    },
+    {
+      "id": "xbraid-olltolos-fc",
+      "brand": "XBraid",
+      "model": "OLLTOLOS FC",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "US XBOTF 110 yd SKU identity is verified, but both physical-diameter columns are blank and the generic package image supplies no values. Japanese 100 m/GOU data has different strengths and no interchangeable US mapping.",
+      "safeUnlock": "Obtain exact US XBOTF inch/mm evidence on a manufacturer chart or readable label. Using regional evidence additionally requires explicit identity equivalence and physical diameter; neither GOU conversion nor treating 100 m as exactly 110 yd is acceptable.",
+      "secondaryBlockers": [
+        "cross-region-equivalence-missing"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/7"
+        }
+      ]
+    },
+    {
+      "id": "sunline-kantan-cast-braid-x8",
+      "brand": "Sunline",
+      "model": "Kantan Cast Braid X8",
+      "catalogRole": "mainline",
+      "group": "A",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-image-missing",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "Coherent 30/50 lb numeric rows and 150/600 yd packages are retained, but no traceable manufacturer product photo was recovered. The separate 40/60 lb inch/mm pairs conflict beyond displayed rounding.",
+      "safeUnlock": "A traceable actual manufacturer image tied to Kantan can unlock a narrowly scoped 30/50 lb gold candidate after normal review. Keep 40/60 lb excluded until manufacturer correction or exact readable labels reconcile those pairs; do not invent a 65 lb variant.",
+      "secondaryBlockers": [
+        "40-and-60-lb-unit-conflicts"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+          "pointer": "/models/8"
+        }
+      ]
+    },
+    {
+      "id": "lew-s-mach-braid",
+      "brand": "Lew's",
+      "model": "Mach Braid",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "Exact Mach Braid fishing-line identity is unproved. MACH reel/combo capacity specifications are not line specifications, and historical APT-8 Speed Line is not an established alias.",
+      "safeUnlock": "Obtain an original manufacturer line SKU or readable label establishing Mach Braid, then physical diameter, package mapping and matching product imagery. No APT-8 or reel-capacity substitution.",
+      "secondaryBlockers": [
+        "missing-diameter-and-package-mapping"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/0"
+        }
+      ]
+    },
+    {
+      "id": "lew-s-team-lew-s-fluorocarbon",
+      "brand": "Lew's",
+      "model": "Team Lew's Fluorocarbon",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "No primary identity links Team Lew's Fluorocarbon to an actual line SKU. Pro SP reel manuals and historical APT Fluorocarbon Speed Line do not prove the mapping.",
+      "safeUnlock": "Obtain original manufacturer SKU/label or documented alias evidence for this exact line, followed by coherent diameter/package rows and imagery. Do not use reel fluorocarbon capacities or substitute APT by name similarity.",
+      "secondaryBlockers": [
+        "missing-diameter-and-package-mapping"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/1"
+        }
+      ]
+    },
+    {
+      "id": "lew-s-team-lew-s-monofilament",
+      "brand": "Lew's",
+      "model": "Team Lew's Monofilament",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "Team Lew's search results establish reels and mono attachment/capacity guidance, not this exact monofilament family. Historical Speed Line references do not prove an alias.",
+      "safeUnlock": "Obtain an original manufacturer line SKU/label and a matching physical-diameter/package chart and image. Preserve the existing identity until that evidence exists; search absence is not proof of discontinuation.",
+      "secondaryBlockers": [
+        "missing-diameter-and-package-mapping"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/2"
+        }
+      ]
+    },
+    {
+      "id": "spiderwire-stealth-smooth-8",
+      "brand": "SpiderWire",
+      "model": "Stealth Smooth 8",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "The current US feed supplies 22 exact variants but no physical diameter. Seven inspected manufacturer images leave numeric label areas blank; Korean KRSS8 charts give PE and maximum/average tensile loads, not inch/mm.",
+      "safeUnlock": "Obtain an exact US physical-diameter chart or readable matching original label with strength and package identity. Do not convert PE to diameter or map Korean maximum breaking loads onto US lb-test labels.",
+      "secondaryBlockers": [
+        "regional-rating-scale-not-equivalent"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/4"
+        }
+      ]
+    },
+    {
+      "id": "spiderwire-ultracast-invisi-braid",
+      "brand": "SpiderWire",
+      "model": "Ultracast Invisi-Braid",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "primary-evidence-inaccessible",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "The 2014 US catalog verifies original Invisi-Braid but uses mono-equivalent TEST/DIA ratios. A promising 2024 SEA SUCFS*-IB lb/mm/length table is known only through search extracts: the original PDFs were not successfully retrieved, and one fetch met Bot Verification. Korean evidence supplies PE/max load, not physical diameter.",
+      "safeUnlock": "Recover and inspect the original SEA manufacturer table and matching original product image, then preserve its exact SKU, region and edition in any candidate; alternatively obtain another readable exact original label. Snippets alone and the separately verified Inshore Camo model cannot unlock it.",
+      "secondaryBlockers": [
+        "physical-diameter-not-directly-inspected",
+        "matching-edition-image-needed"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/5"
+        }
+      ]
+    },
+    {
+      "id": "spiderwire-durabraid",
+      "brand": "SpiderWire",
+      "model": "DuraBraid",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "The US feed verifies 52 variants, but no physical-diameter table. Nineteen inspected original images provide no readable numeric diameter. Korea's DURA4-BRAID has no proven DuraBraid equivalence and uses PE/tensile figures.",
+      "safeUnlock": "Obtain an exact DuraBraid manufacturer physical-diameter chart or readable original label tied to its package. Do not borrow Dura4, Stealth, retailer-entered or legacy database diameters.",
+      "secondaryBlockers": [
+        "regional-identity-not-established"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/6"
+        }
+      ]
+    },
+    {
+      "id": "spiderwire-ez-braid",
+      "brand": "SpiderWire",
+      "model": "EZ Braid",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "20 current US variants cover 10/15/20/30/50 lb and 110/300 yd, but not physical diameter; inspected labels are blank. The 2014 TEST/DIA ratios are mono equivalents, while Korean New EZ uses PE/tensile ratings and 150/270 m packages. Legacy 40 lb remains unsupported.",
+      "safeUnlock": "Obtain exact US manufacturer inch/mm evidence on a chart or readable matching label. Keep the unsupported 40 lb and unproven regional equivalents excluded; preserve actual package units.",
+      "secondaryBlockers": [
+        "legacy-40-lb-unsupported",
+        "regional-rating-scale-not-equivalent"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/7"
+        }
+      ]
+    },
+    {
+      "id": "spiderwire-fluorocarbon",
+      "brand": "SpiderWire",
+      "model": "Fluorocarbon",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "The original 2014 US catalog has distinct Ultracast 100% Fluorocarbon and EZ Fluoro families with different diameter charts. The generic inventory name has no SKU or alias selecting either; Fluoro-Braid is a different material.",
+      "safeUnlock": "Obtain an original label/SKU or manufacturer alias identifying the intended family, then use only that family's dated diameter/package evidence and original image. Do not choose a chart by similar strength labels.",
+      "secondaryBlockers": [],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/8"
+        }
+      ]
+    },
+    {
+      "id": "strike-king-contra-braid",
+      "brand": "Strike King",
+      "model": "Contra Braid",
+      "catalogRole": "mainline",
+      "group": "C",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "missing-manufacturer-diameter",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "The 2023 manufacturer catalog page 49 confirms LPB150/LPB300 strengths but has no physical-diameter column. Its 150 & 330 YD text conflicts with current LPB300 300-yard titles; legacy 40 lb is unsupported.",
+      "safeUnlock": "Obtain exact manufacturer physical-diameter evidence and resolve the larger-package length, or use a readable exact 150-yard label for a narrowly scoped subset. Keep conflicting larger packages and unverified 40 lb excluded.",
+      "secondaryBlockers": [
+        "300-versus-330-yard-conflict",
+        "legacy-40-lb-unsupported"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+          "pointer": "/models/12"
+        }
+      ]
+    },
+    {
+      "id": "cortland-top-secret-fluorocarbon",
+      "brand": "Cortland",
+      "model": "Top Secret Fluorocarbon",
+      "catalogRole": "mainline",
+      "group": "D",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "Historical 2018 and current primary sources identify Top Secret as Ultra Premium Fluorocarbon Tippet with fractional/X-rated strengths, not the inventory's 6/8/10/12/15/17/20 lb mainline. The historical table also lacks physical diameters.",
+      "safeUnlock": "Obtain manufacturer evidence for the exact whole-pound mainline identity, coherent diameter/package mapping and matching original image. Any separately authorized tippet model needs its own identity and workflow; do not retype or round tippet into these mainline IDs.",
+      "secondaryBlockers": [
+        "material-role-and-rating-identity-conflict",
+        "historical-diameter-missing"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/cortland-resolutions/pack.json",
+          "pointer": "/models/0"
+        }
+      ]
+    },
+    {
+      "id": "cortland-precision-mono",
+      "brand": "Cortland",
+      "model": "Precision Mono",
+      "catalogRole": "mainline",
+      "group": "D",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "unresolved",
+      "missingOrConflictingEvidence": "Recovered 2015 Precision Tippet and Precision Indicator Mono are tippet/leader products; 2014 Competition Nymph Mono is a fly line. None verifies the legacy 6/8/10/12/15/20 lb Precision Mono mainline, its diameter/package matrix or matching image.",
+      "safeUnlock": "Obtain an exact historical/current manufacturer mainline SKU or catalog/label showing name, role, strength, physical diameter and package with its original image. Do not substitute tippet, Indicator Mono, mono-core fly line, Fairplay or Nylon Leader Material.",
+      "secondaryBlockers": [
+        "missing-diameter-package-and-image"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/cortland-resolutions/pack.json",
+          "pointer": "/models/1"
+        }
+      ]
+    },
+    {
+      "id": "kastking-superpower-braid",
+      "brand": "KastKing",
+      "model": "SuperPower Braid",
+      "catalogRole": "mainline",
+      "group": "E",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "Original standalone/variant endpoints return 404. Current primary kit packaging explicitly says SuperPower Braid Line Texas Edition and presents a different 4X/200 yd diameter set; continuity with the unqualified original model is unproved.",
+      "safeUnlock": "Obtain original SuperPower manufacturer chart/labels and matching package image, or explicit manufacturer continuity evidence followed by an authorized identity decision. Do not substitute Texas Edition, ColorShield or Silky8 under original IDs.",
+      "secondaryBlockers": [
+        "original-evidence-unavailable",
+        "edition-continuity-unproven"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+          "pointer": "/models/1"
+        }
+      ]
+    },
+    {
+      "id": "kastking-fluorocarbon",
+      "brand": "KastKing",
+      "model": "Fluorocarbon",
+      "catalogRole": "mainline",
+      "group": "E",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "The generic inventory material name has no manufacturer SKU provenance selecting older Kovert or current Classic/Xtreme/Essential/Elite. Current Classic artwork also contains conflicting inch/mm pairs.",
+      "safeUnlock": "Establish the exact manufacturer formulation/SKU and edition, then obtain coherent physical-diameter/package evidence and its original image. Resolve any relevant unit conflict rather than picking a named Kovert formula or substituting coated FluoroKote.",
+      "secondaryBlockers": [
+        "formula-selection-unproven",
+        "candidate-classic-unit-conflicts"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+          "pointer": "/models/2"
+        }
+      ]
+    },
+    {
+      "id": "kastking-destron-monofilament",
+      "brand": "KastKing",
+      "model": "Destron Monofilament",
+      "catalogRole": "mainline",
+      "group": "E",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "The original Destron Monofilament URL is unavailable; current manufacturer product/package says Destron Essential Monofilament. No primary rename/equivalence statement links that coated-nylon version to the unqualified inventory model.",
+      "safeUnlock": "Obtain original Destron specifications/labels and image, or explicit manufacturer continuity evidence with exact SKU, formulation and package scope. Current Essential 300 yd variants cannot simply replace the old IDs.",
+      "secondaryBlockers": [
+        "edition-continuity-unproven"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+          "pointer": "/models/3"
+        }
+      ]
+    },
+    {
+      "id": "vicious-monofilament",
+      "brand": "Vicious",
+      "model": "Monofilament",
+      "catalogRole": "mainline",
+      "group": "E",
+      "decision": "hold",
+      "blockerDomain": "manufacturer-evidence",
+      "primaryBlocker": "manufacturer-identity-unresolved",
+      "sourcePacketStatus": "identity-conflict",
+      "missingOrConflictingEvidence": "The generic inventory lacks a manufacturer model/SKU. Official Ultimate, Panfish and Ice are separate mono families; Ultimate is only a possible match. Its chart uses 14 lb rather than legacy 15 lb and differs at overlapping diameters.",
+      "safeUnlock": "Identify the intended original family through manufacturer SKU/label or documented alias, then verify its own diameter/package rows and image. Do not rename the model to Ultimate or relabel 15 lb as 14 lb without an independently authorized identity decision.",
+      "secondaryBlockers": [
+        "candidate-strength-and-diameter-mismatch"
+      ],
+      "evidenceRefs": [
+        {
+          "path": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+          "pointer": "/models/4"
+        }
+      ]
+    }
+  ],
+  "censusChecks": {
+    "uniqueHoldIds": 24,
+    "matchesCatalogInventoryMinusRelease": true,
+    "accepted14MatchStagingRecord": true,
+    "releaseIdsMatchProductConfigIds": true,
+    "heldIdsAbsentFromReleaseAndProductConfigs": true,
+    "groupCountsMatchRequestedScope": true,
+    "accepted14DisjointFromHolds": true,
+    "exactlyTwoSourceSupportedDataModelHolds": true,
+    "productDataChangedByThisTask": false,
+    "freshResearchPerformed": false
+  },
+  "snapshots": [
+    {
+      "path": "generated/line-pages/catalog-progress.json",
+      "sha256": "5d02b10a3b08e4002a62e825a9839645a86b6e607b64b0e30c30d45f2d87edc5"
+    },
+    {
+      "path": "data/line-page-release.json",
+      "sha256": "f757fafea7bed8b539be2a9b0ca826c9010df3b21d8c2027fe472e9c9babeb21"
+    },
+    {
+      "path": "data/line-page-products.json",
+      "sha256": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc"
+    },
+    {
+      "path": "reports/resolution-integration/staged.json",
+      "sha256": "e732e3748f214e0ca149117f68cac829e5d6361cdda2ab8bec67567341c1c29e"
+    },
+    {
+      "path": "reports/resolution-integration/HANDOFF.md",
+      "sha256": "d3b70748959ed75dfb28ce2d06bf957520d52e5dc4dfb3beb8b9be690e3e947e"
+    },
+    {
+      "path": "research/line-pages/full-catalog/group-a-resolutions/pack.json",
+      "sha256": "3996a6c142fdca373cc6b7c768850a5ea246a605fb1c2d2b979bb0f549b68b26"
+    },
+    {
+      "path": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
+      "sha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262"
+    },
+    {
+      "path": "research/line-pages/full-catalog/cortland-resolutions/pack.json",
+      "sha256": "eb06db3763904213d7fb0e55c8f190ef84f11dba47829defb04376e025e00be9"
+    },
+    {
+      "path": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
+      "sha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d"
+    },
+    {
+      "path": "research/line-pages/full-catalog/resolution-independent-review/group-a-review.json",
+      "sha256": "6de47992dc88cffbff451f42acad9416b1da28328ab18c5038ad95ea04e2a83e"
+    }
+  ],
+  "deliverables": [
+    "reports/resolution-integration/remaining24-holds.md",
+    "reports/resolution-integration/remaining24-holds.json"
+  ]
+}

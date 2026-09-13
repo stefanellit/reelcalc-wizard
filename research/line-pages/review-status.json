@@ -2273,7 +2273,7 @@
     }
   },
   "p-line-cxx-x-tra-strong": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2287,11 +2287,20 @@
     "productSha256": "d0fc227bf4df141170e64c74da65dcb56bab1a858b0b558e6a326d9840f43f06",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "b587a740013d8d65c531896a65a9457b1ca840f4c2da0f260f25ed04491d9345",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-cxx-x-tra-strong-diameter-capacity-guide",
+      "nativeProductId": "6aa6e11df2549e0824da1cff",
+      "nativeVariantId": "213fc03d-4789-4185-8047-c6c830c0c772",
+      "liveProductSha256": "d0fc227bf4df141170e64c74da65dcb56bab1a858b0b558e6a326d9840f43f06",
+      "currentLocalProductSha256": "d0fc227bf4df141170e64c74da65dcb56bab1a858b0b558e6a326d9840f43f06",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2308,10 +2317,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:57:20.397Z"
   },
   "p-line-floroclear": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2325,11 +2335,20 @@
     "productSha256": "1ef9edb15266eaa3d4982803db161fb248fda82a1944de02c302ae8a299ec4f0",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "b26589102a3d3ed30d57297c555d272e4fa76dc49a6f4abc255b5014876eff12",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide",
+      "nativeProductId": "6aa6e11fd283af45512f71f4",
+      "nativeVariantId": "16715d56-9ed9-425c-a3d4-c928a1c5a924",
+      "liveProductSha256": "1ef9edb15266eaa3d4982803db161fb248fda82a1944de02c302ae8a299ec4f0",
+      "currentLocalProductSha256": "1ef9edb15266eaa3d4982803db161fb248fda82a1944de02c302ae8a299ec4f0",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2346,10 +2365,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:58:53.783Z"
   },
   "p-line-cx-premium": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2363,11 +2383,20 @@
     "productSha256": "08d91dcb6dce2e50fb465e8eb23ce4a2872f37b5876f1b711f763826048e6497",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "2a641ca187cdbd082a4173fd85e8daafd1c386e109d701745270c4b78af735fa",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-cx-premium-diameter-capacity-guide",
+      "nativeProductId": "6aa6e12249562a30b2875752",
+      "nativeVariantId": "1ecba412-05ca-4282-aeb6-807888557144",
+      "liveProductSha256": "08d91dcb6dce2e50fb465e8eb23ce4a2872f37b5876f1b711f763826048e6497",
+      "currentLocalProductSha256": "08d91dcb6dce2e50fb465e8eb23ce4a2872f37b5876f1b711f763826048e6497",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2384,10 +2413,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:59:54.662Z"
   },
   "p-line-tactical-fluorocarbon": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2401,11 +2431,20 @@
     "productSha256": "14a1516d0bd4dc3199448e35dae33ed6abeddbc22667718728a7fca7415d75ae",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "4edc3000acc744fb0118894e9e681ea1274d0dcc44166d7e1128850413f98eb9",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-tactical-fluorocarbon-diameter-capacity-guide",
+      "nativeProductId": "6aa6e124f2549e0824da1d08",
+      "nativeVariantId": "3fc4d7c4-82ee-4a1f-9b84-69d3f278d022",
+      "liveProductSha256": "14a1516d0bd4dc3199448e35dae33ed6abeddbc22667718728a7fca7415d75ae",
+      "currentLocalProductSha256": "14a1516d0bd4dc3199448e35dae33ed6abeddbc22667718728a7fca7415d75ae",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2422,10 +2461,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T18:00:39.807Z"
   },
   "p-line-halo-fluorocarbon": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2439,11 +2479,20 @@
     "productSha256": "f010790d79f7879d513702a3aff0289ced17bbf1628f4f7e8f3f43d1c57dc1a1",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "b8fc603747c339d2506a48f217ff6173af0a4a88571b8fc2c3ae924e001ff550",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-halo-fluorocarbon-diameter-capacity-guide",
+      "nativeProductId": "6aa6e126d283af45512f7203",
+      "nativeVariantId": "61c5e862-44b9-4670-9de2-8b3b0e4a8f92",
+      "liveProductSha256": "f010790d79f7879d513702a3aff0289ced17bbf1628f4f7e8f3f43d1c57dc1a1",
+      "currentLocalProductSha256": "f010790d79f7879d513702a3aff0289ced17bbf1628f4f7e8f3f43d1c57dc1a1",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2460,10 +2509,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T18:02:23.650Z"
   },
   "p-line-endurx-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2477,11 +2527,20 @@
     "productSha256": "5f2e65529f1751205e901e25b6636c4b7691e765bf839c8474e4efd5319d3a7b",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "33c3fa5d5e6afb56203b7d405c1c69a9c6c451548a0102c46cf64ff7bd73cac1",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-endurx-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa6e12849562a30b287575c",
+      "nativeVariantId": "03de39a2-ac9e-47f2-849e-cb348aa711c7",
+      "liveProductSha256": "5f2e65529f1751205e901e25b6636c4b7691e765bf839c8474e4efd5319d3a7b",
+      "currentLocalProductSha256": "5f2e65529f1751205e901e25b6636c4b7691e765bf839c8474e4efd5319d3a7b",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2498,10 +2557,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T18:03:06.370Z"
   },
   "p-line-tcb-8-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/pline-resolutions/pack.json",
     "sourcePackSha256": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
@@ -2515,11 +2575,20 @@
     "productSha256": "ed82a07dc21244f9639d2f483ae24829e3f286b301b72f4b3aa6b4625f957da1",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "a00b87eccfc84e1d4dde6d744ef46f21f741e444fdac742f6c3d74bedfc74716",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/p-line-tcb-8-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa6e12b49562a30b287575e",
+      "nativeVariantId": "cd9a287c-e60d-4fb2-9d27-698c1077c79c",
+      "liveProductSha256": "ed82a07dc21244f9639d2f483ae24829e3f286b301b72f4b3aa6b4625f957da1",
+      "currentLocalProductSha256": "ed82a07dc21244f9639d2f483ae24829e3f286b301b72f4b3aa6b4625f957da1",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2536,7 +2605,8 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T18:04:14.561Z"
   },
   "ande-premium-monofilament": {
     "status": "published",
@@ -2647,7 +2717,7 @@
     }
   },
   "hi-seas-fluorocarbon": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/group-e-resolutions/pack.json",
     "sourcePackSha256": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
@@ -2661,11 +2731,20 @@
     "productSha256": "260d9329632429e6be896540b60c689708dfc8dda695cde28d714e1049c26ac2",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "8e71a92fca46c8db5fe058ef359f84836c97053fa900cf4c49be41ce98b43faf",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/hi-seas-fluorocarbon-diameter-capacity-guide",
+      "nativeProductId": "6aa6e12db820843cee91add4",
+      "nativeVariantId": "70084786-c737-405f-9b54-ef3c20ba3ef4",
+      "liveProductSha256": "260d9329632429e6be896540b60c689708dfc8dda695cde28d714e1049c26ac2",
+      "currentLocalProductSha256": "260d9329632429e6be896540b60c689708dfc8dda695cde28d714e1049c26ac2",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -2682,7 +2761,8 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T18:04:59.819Z"
   },
   "hi-seas-quattro-fluorocarbon": {
     "status": "published",
@@ -3448,7 +3528,7 @@
     }
   },
   "sufix-invisiline-fluorocarbon": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
     "sourcePackSha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
@@ -3462,11 +3542,20 @@
     "productSha256": "d4199951f1f66f9e3f5fbfd05df8bcbc3fb774b53606a13e59d4c8680333c73c",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "70cab031dd562ecb4f0e0ea38eac0ca7b3cfd3f97d33d570b0b2709f42134674",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/sufix-invisiline-fluorocarbon-diameter-capacity-guide",
+      "nativeProductId": "6aa6e110d283af45512f71e4",
+      "nativeVariantId": "a3c4623f-f4c7-45b4-9c3f-a31147435bca",
+      "liveProductSha256": "d4199951f1f66f9e3f5fbfd05df8bcbc3fb774b53606a13e59d4c8680333c73c",
+      "currentLocalProductSha256": "d4199951f1f66f9e3f5fbfd05df8bcbc3fb774b53606a13e59d4c8680333c73c",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -3483,10 +3572,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:48:58.552Z"
   },
   "sufix-calibr8": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/sufix-resolutions/pack.json",
     "sourcePackSha256": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
@@ -3500,11 +3590,20 @@
     "productSha256": "62fa522d0709a203822dab0e297362ed7667f9a1731c5f60ae9c28ac1198e499",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "adc89cf87ef557d522194c36918901bfefc446bcd80710959a9e8ce98b18b948",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/sufix-calibr8-diameter-capacity-guide",
+      "nativeProductId": "6aa6e112b820843cee91adb0",
+      "nativeVariantId": "4936135f-4b28-474a-b005-1efbb5d37a4d",
+      "liveProductSha256": "62fa522d0709a203822dab0e297362ed7667f9a1731c5f60ae9c28ac1198e499",
+      "currentLocalProductSha256": "62fa522d0709a203822dab0e297362ed7667f9a1731c5f60ae9c28ac1198e499",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -3521,10 +3620,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:50:55.182Z"
   },
   "spiderwire-stealth-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
     "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
@@ -3538,11 +3638,20 @@
     "productSha256": "8cedde141a3b0b3498cf59676a0e90875bf26319dfe729132dd525e19738aa3e",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "bf3e1a6da9e90768a9ee90196a1f3072eef2884a2cce01c56666d1e8edb51033",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-stealth-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa6e115b820843cee91adb7",
+      "nativeVariantId": "be9fe78c-0131-4248-9583-96df8dfd99d8",
+      "liveProductSha256": "8cedde141a3b0b3498cf59676a0e90875bf26319dfe729132dd525e19738aa3e",
+      "currentLocalProductSha256": "8cedde141a3b0b3498cf59676a0e90875bf26319dfe729132dd525e19738aa3e",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -3559,10 +3668,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:52:27.738Z"
   },
   "stren-super-knot": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
     "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
@@ -3576,11 +3686,20 @@
     "productSha256": "1440fb8a17ecae65432d23ebb96230d546ef5add165d044d38a9cbecd2720e4e",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "70685a6c022fbd14a244b69d607fba97db00a93846b5b7c5ff7f78404a2369e7",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide",
+      "nativeProductId": "6aa6e116b820843cee91adba",
+      "nativeVariantId": "30072bca-014f-4f34-99b5-54a8ab369a2f",
+      "liveProductSha256": "1440fb8a17ecae65432d23ebb96230d546ef5add165d044d38a9cbecd2720e4e",
+      "currentLocalProductSha256": "1440fb8a17ecae65432d23ebb96230d546ef5add165d044d38a9cbecd2720e4e",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -3597,10 +3716,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:53:10.959Z"
   },
   "stren-fluorocast": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
     "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
@@ -3614,11 +3734,20 @@
     "productSha256": "bc1d773ce4e6e9ea49b8d5a8a8fd0c5a5908d9c7fda4d7fb44fe56c53f5bd64d",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "a4e3d1e8e9d69505dbd754ba2431398db502d77ed6b14b825b8f93639efc39b9",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/stren-fluorocast-diameter-capacity-guide",
+      "nativeProductId": "6aa6e119f2549e0824da1cf4",
+      "nativeVariantId": "4c259509-d256-480c-bf27-e054c7b6e962",
+      "liveProductSha256": "bc1d773ce4e6e9ea49b8d5a8a8fd0c5a5908d9c7fda4d7fb44fe56c53f5bd64d",
+      "currentLocalProductSha256": "bc1d773ce4e6e9ea49b8d5a8a8fd0c5a5908d9c7fda4d7fb44fe56c53f5bd64d",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -3635,10 +3764,11 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:55:31.424Z"
   },
   "stren-sonic-braid": {
-    "status": "audited-awaiting-bulk-release",
+    "status": "published",
     "browserAudit": true,
     "sourcePack": "research/line-pages/full-catalog/group-c-resolutions/pack.json",
     "sourcePackSha256": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
@@ -3652,11 +3782,20 @@
     "productSha256": "e11244a9532549793aa97f2aa87593cdd9f01a0895101c4e235f1467e02b5d23",
     "localValidation": "reports/resolution-integration/phase-one-verification.json",
     "publication": {
-      "status": "candidate",
-      "nativeImported": false,
-      "nativePublic": false,
-      "liveVerified": false,
-      "note": "Not included in original100 publication promotion. Retain separate local/browser signoff; do not infer native state from prepared registry."
+      "status": "live",
+      "nativeImported": true,
+      "nativePublic": true,
+      "liveVerified": true,
+      "proof": "reports/resolution-integration/actual-live14-proof.json",
+      "proofSha256": "563b43a372de26055774f2042eaf4ecbbcdaa3302098a7b3dac52e40cd26de7a",
+      "ledgerEntrySha256": "4171082ca052cb3f22dc5fd11600ff23e81a63dc2067dfe16259f418cf74dfcb",
+      "importProofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "url": "https://www.reelcalc.com/lines/p/stren-sonic-braid-diameter-capacity-guide",
+      "nativeProductId": "6aa6e11b49562a30b287574c",
+      "nativeVariantId": "ec0db82e-d8ee-48b0-bc72-2be15641d4e2",
+      "liveProductSha256": "e11244a9532549793aa97f2aa87593cdd9f01a0895101c4e235f1467e02b5d23",
+      "currentLocalProductSha256": "e11244a9532549793aa97f2aa87593cdd9f01a0895101c4e235f1467e02b5d23",
+      "basis": "Main-owned exact14 native/live proof, locally identity/hash-validated. No browser action by this helper."
     },
     "browserEvidence": {
       "proofHashes": {
@@ -3673,7 +3812,8 @@
       ],
       "checkedBy": "Main-owned browser observations, locally hash-validated",
       "gate": "reports/resolution-integration/final-browser-gate.json"
-    }
+    },
+    "publishedAt": "2026-09-13T17:56:12.764Z"
   },
   "powerpro-spectra": {
     "status": "published",

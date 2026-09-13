@@ -104,6 +104,133 @@
     "stren-crappie-mono",
     "berkley-trilene-xt",
     "berkley-100-fluorocarbon",
-    "berkley-forward-finesse-braid"
+    "berkley-forward-finesse-braid",
+    "spiderwire-stealth-braid",
+    "stren-super-knot",
+    "stren-fluorocast",
+    "stren-sonic-braid",
+    "hi-seas-fluorocarbon",
+    "sufix-invisiline-fluorocarbon",
+    "sufix-calibr8",
+    "p-line-cxx-x-tra-strong",
+    "p-line-floroclear",
+    "p-line-cx-premium",
+    "p-line-tactical-fluorocarbon",
+    "p-line-halo-fluorocarbon",
+    "p-line-endurx-braid",
+    "p-line-tcb-8-braid"
+  ],
+  "importBatches": [
+    {
+      "id": "independently-reviewed-resolution14",
+      "ids": [
+        "spiderwire-stealth-braid",
+        "stren-super-knot",
+        "stren-fluorocast",
+        "stren-sonic-braid",
+        "hi-seas-fluorocarbon",
+        "sufix-invisiline-fluorocarbon",
+        "sufix-calibr8",
+        "p-line-cxx-x-tra-strong",
+        "p-line-floroclear",
+        "p-line-cx-premium",
+        "p-line-tactical-fluorocarbon",
+        "p-line-halo-fluorocarbon",
+        "p-line-endurx-braid",
+        "p-line-tcb-8-braid"
+      ],
+      "proofFile": "reports/resolution-integration/actual-import14-proof.json",
+      "proofSha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302",
+      "importedAt": "2026-09-13T17:46:15.055Z",
+      "observedAt": "2026-09-13T17:55:09.579686+00:00",
+      "importFile": "generated/line-pages/UPLOAD-THIS-14-new-line-guides.csv",
+      "importFileSha256": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa",
+      "nativeProducts": {
+        "spiderwire-stealth-braid": {
+          "nativeProductId": "6aa6e115b820843cee91adb7",
+          "nativeVariantId": "be9fe78c-0131-4248-9583-96df8dfd99d8",
+          "sku": "RCLB52E8452C37814300",
+          "url": "https://www.reelcalc.com/lines/p/spiderwire-stealth-braid-diameter-capacity-guide"
+        },
+        "stren-super-knot": {
+          "nativeProductId": "6aa6e116b820843cee91adba",
+          "nativeVariantId": "30072bca-014f-4f34-99b5-54a8ab369a2f",
+          "sku": "RCLCF7053770E2CEB07C",
+          "url": "https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide"
+        },
+        "stren-fluorocast": {
+          "nativeProductId": "6aa6e119f2549e0824da1cf4",
+          "nativeVariantId": "4c259509-d256-480c-bf27-e054c7b6e962",
+          "sku": "RCLA0F856AA7A78C9032",
+          "url": "https://www.reelcalc.com/lines/p/stren-fluorocast-diameter-capacity-guide"
+        },
+        "stren-sonic-braid": {
+          "nativeProductId": "6aa6e11b49562a30b287574c",
+          "nativeVariantId": "ec0db82e-d8ee-48b0-bc72-2be15641d4e2",
+          "sku": "RCLBF1334FE2713E181D",
+          "url": "https://www.reelcalc.com/lines/p/stren-sonic-braid-diameter-capacity-guide"
+        },
+        "hi-seas-fluorocarbon": {
+          "nativeProductId": "6aa6e12db820843cee91add4",
+          "nativeVariantId": "70084786-c737-405f-9b54-ef3c20ba3ef4",
+          "sku": "RCLA3A6C83BE2E09EF4F",
+          "url": "https://www.reelcalc.com/lines/p/hi-seas-fluorocarbon-diameter-capacity-guide"
+        },
+        "sufix-invisiline-fluorocarbon": {
+          "nativeProductId": "6aa6e110d283af45512f71e4",
+          "nativeVariantId": "a3c4623f-f4c7-45b4-9c3f-a31147435bca",
+          "sku": "RCL894DB7015ABE42B5F",
+          "url": "https://www.reelcalc.com/lines/p/sufix-invisiline-fluorocarbon-diameter-capacity-guide"
+        },
+        "sufix-calibr8": {
+          "nativeProductId": "6aa6e112b820843cee91adb0",
+          "nativeVariantId": "4936135f-4b28-474a-b005-1efbb5d37a4d",
+          "sku": "RCL4668DA7670038660E",
+          "url": "https://www.reelcalc.com/lines/p/sufix-calibr8-diameter-capacity-guide"
+        },
+        "p-line-cxx-x-tra-strong": {
+          "nativeProductId": "6aa6e11df2549e0824da1cff",
+          "nativeVariantId": "213fc03d-4789-4185-8047-c6c830c0c772",
+          "sku": "RCLF645065FEC7097D4E",
+          "url": "https://www.reelcalc.com/lines/p/p-line-cxx-x-tra-strong-diameter-capacity-guide"
+        },
+        "p-line-floroclear": {
+          "nativeProductId": "6aa6e11fd283af45512f71f4",
+          "nativeVariantId": "16715d56-9ed9-425c-a3d4-c928a1c5a924",
+          "sku": "RCL24A657A5E29D3A049",
+          "url": "https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide"
+        },
+        "p-line-cx-premium": {
+          "nativeProductId": "6aa6e12249562a30b2875752",
+          "nativeVariantId": "1ecba412-05ca-4282-aeb6-807888557144",
+          "sku": "RCL35F8875474A480DFB",
+          "url": "https://www.reelcalc.com/lines/p/p-line-cx-premium-diameter-capacity-guide"
+        },
+        "p-line-tactical-fluorocarbon": {
+          "nativeProductId": "6aa6e124f2549e0824da1d08",
+          "nativeVariantId": "3fc4d7c4-82ee-4a1f-9b84-69d3f278d022",
+          "sku": "RCL446BB76506FF41CBF",
+          "url": "https://www.reelcalc.com/lines/p/p-line-tactical-fluorocarbon-diameter-capacity-guide"
+        },
+        "p-line-halo-fluorocarbon": {
+          "nativeProductId": "6aa6e126d283af45512f7203",
+          "nativeVariantId": "61c5e862-44b9-4670-9de2-8b3b0e4a8f92",
+          "sku": "RCL07C1C3A521986306B",
+          "url": "https://www.reelcalc.com/lines/p/p-line-halo-fluorocarbon-diameter-capacity-guide"
+        },
+        "p-line-endurx-braid": {
+          "nativeProductId": "6aa6e12849562a30b287575c",
+          "nativeVariantId": "03de39a2-ac9e-47f2-849e-cb348aa711c7",
+          "sku": "RCL81D889FDCCBE02371",
+          "url": "https://www.reelcalc.com/lines/p/p-line-endurx-braid-diameter-capacity-guide"
+        },
+        "p-line-tcb-8-braid": {
+          "nativeProductId": "6aa6e12b49562a30b287575e",
+          "nativeVariantId": "cd9a287c-e60d-4fb2-9d27-698c1077c79c",
+          "sku": "RCL379A508156EFB3E4E",
+          "url": "https://www.reelcalc.com/lines/p/p-line-tcb-8-braid-diameter-capacity-guide"
+        }
+      }
+    }
   ]
 }

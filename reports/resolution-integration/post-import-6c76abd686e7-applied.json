@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-09-13T18:08:33.311Z",
+  "action": "import",
+  "mode": "applied-local-metadata-only",
+  "proof": {
+    "file": "reports/resolution-integration/actual-import14-proof.json",
+    "sha256": "6c76abd686e74ce755e858b50cd02bd462689d81aecc7cefc02e2a6a95193302"
+  },
+  "ids": [
+    "spiderwire-stealth-braid",
+    "stren-super-knot",
+    "stren-fluorocast",
+    "stren-sonic-braid",
+    "hi-seas-fluorocarbon",
+    "sufix-invisiline-fluorocarbon",
+    "sufix-calibr8",
+    "p-line-cxx-x-tra-strong",
+    "p-line-floroclear",
+    "p-line-cx-premium",
+    "p-line-tactical-fluorocarbon",
+    "p-line-halo-fluorocarbon",
+    "p-line-endurx-braid",
+    "p-line-tcb-8-braid"
+  ],
+  "alreadyApplied": false,
+  "plannedFiles": [
+    "generated/line-pages/imported-products.json"
+  ],
+  "catalogOutputs": [],
+  "beforeHashes": {
+    "generated/line-pages/imported-products.json": "247278536d0afdcc9e69a44f6b06d3e3c9d6692a83bb7978686771897a8895c8",
+    "data/line-page-release.json": "113bb1635c0f3ebe45361cbb6d9d8103bcdf268ce4bb86dcc43dafc75160fbc5",
+    "research/line-pages/review-status.json": "1bd8095f8480cd24845cc9321823766df9ad3cf9213cdcf50b3674e21fe647af",
+    "data/line-page-imports.json": "0134d9839ca5dc1f492522295ec30664907e4c0db6e4b60558d67235b2cb7cd1",
+    "data/lines.json": "28f5f42250750cdf840b70edc2e85cd9efa105b4871b0291c54e684e89e0bc24",
+    "data/line-page-products.json": "d1e5ac8e03427c874d3614fa437f7649942bdbe7b6eb9e10e3bcdc9de1738adc",
+    "js/line-page-engine.js": "a32f3315ace86945dbc8777ebbe17ea71656cca8b64970be3254d981d76e4261",
+    "generated/line-pages/catalog-progress.json": "d80ea456c3b7f79d7292b8935367f2f1caffb9608dcf3b95e191e01e20184f86",
+    "generated/line-pages/CATALOG-PROGRESS.md": "49f1d078f57acf24c6638bc65326254316aac1183c235cff265a5db8a847d62f",
+    "reports/resolution-integration/handoff.json": "5fd085de12daf5f1a5f1d35e9a1a7a9efb8e3ac61d767db3ff70c52ff2fb46d0",
+    "reports/resolution-integration/final-browser-gate.json": "175d026493ebd33db6e5feaef2249551a9932d0f674b7e54c7dac8d5485a6494",
+    "generated/line-pages/UPLOAD-THIS-14-new-line-guides.csv": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa",
+    "research/line-pages/full-catalog/group-main/pack.json": "1ce9adbca1b0dba03206f20e8ad4db49666ab9c5d535deedb81b19a23b2a00f5",
+    "research/line-pages/full-catalog/group-a/pack.json": "b6051735d71cac417ceeff379cf632c702d79b2a0eca298d3012fa79771d6d7c",
+    "research/line-pages/full-catalog/group-b/pack.json": "3228ff1eec731e0f072667d2b7b65744e5821857ae3c7a03ca10c4f2c8219973",
+    "research/line-pages/full-catalog/group-c/pack.json": "cf0a9e30951af9976f33009703ac57308017ee1861847100a02e139e08e80a29",
+    "research/line-pages/full-catalog/group-d/pack.json": "45272eeb2553e33830a566ad4568c01c99fecd5211d2ba343177df7437dd60bd",
+    "research/line-pages/full-catalog/group-e/pack.json": "a36b2c21104b8c21b308ab3b2debd60eb4793cf6f991ad85761edd2ede8edd42",
+    "research/line-pages/full-catalog/sufix-resolutions/pack.json": "43fa7cb8fe338c6f09b4aa0deebf382294dd640ac813a81916abc7f82f2f03b3",
+    "research/line-pages/full-catalog/resolution-independent-review/sufix-review.json": "fc2b290132268fbae669fdfe0d53a441f713ef4cc6387cac5479975771e26ad6",
+    "research/line-pages/full-catalog/group-c-resolutions/pack.json": "7891786aaa7d2c5486a59deb369c98288d3ee063db5f06e31b918504403a6262",
+    "research/line-pages/full-catalog/resolution-independent-review/group-c-review.json": "394c68c26a8dec74b810a20ba6a4a2e218f459f6685efcc32e8b60c539c82d00",
+    "research/line-pages/full-catalog/pline-resolutions/pack.json": "39a53e7e2ed10394271b53eeef694fe68ba57936fe7ff7db2c5038ca80c6b2f1",
+    "research/line-pages/full-catalog/resolution-independent-review/pline-review.json": "3d4bc93a613bfcbe15918a412c625ca2eb4c5faf33fc62bbbd6dc283bb8e5ae2",
+    "research/line-pages/full-catalog/group-e-resolutions/pack.json": "952b69d1a3ea76431ea05b4828556689a85942747702b28af822e695df26047d",
+    "reports/resolution-integration/group-e-final-review.json": "5d2c42240f4356d25ac16c735f9256148bb2b2496683940591ebd486af9e7aee"
+  },
+  "writtenFiles": [
+    "generated/line-pages/imported-products.json"
+  ],
+  "browserAccessed": false,
+  "importedNatively": false,
+  "publishedNatively": false,
+  "nativeCopy28StatusChanged": false,
+  "note": "Only imported-products.json changes. Existing registry provenance and original100 order are retained. No public/review/version/catalog promotion.",
+  "afterHashes": {
+    "generated/line-pages/imported-products.json": "84bfc8bf6cd7fd28a3c450c8a1a1d1ec96bab57354c9c31f3eb47a89825fedd1"
+  }
+}

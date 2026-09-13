@@ -1,7 +1,7 @@
 # Line Page Expansion Tracker
 
-Main catalog: 138 models; 100 published; 38 remaining.
-Prepared and audited: 14. Still requiring page construction/research: 24. Prepared is not the same as published.
+Main catalog: 138 models; 114 published; 24 remaining.
+Prepared and audited: 0. Still requiring page construction/research: 24. Prepared is not the same as published.
 Additional PE-only model names: 39; kept separate from the main catalog until identity and regional specifications are checked.
 
 The presence of a diameter in the existing database is not, by itself, publication approval. No unknown spool size is invented.
@@ -37,7 +37,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Gamma Polyflex | published | None recorded |
 | Gamma Fluorocarbon Leader | published | leader-specific page flow (not full-spool mainline) |
 | Hi-Seas Grand Slam Monofilament | published | None recorded |
-| Hi-Seas Fluorocarbon | audited-awaiting-bulk-release | None recorded |
+| Hi-Seas Fluorocarbon | published | None recorded |
 | Hi-Seas Quattro Fluorocarbon | published | None recorded |
 | Hi-Seas Braid | published | None recorded |
 | KastKing SuperPower Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
@@ -53,13 +53,13 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Maxima Crystal Ivory | published | None recorded |
 | Maxima Fluorocarbon | published | None recorded |
 | Maxima Braid 8 | published | None recorded |
-| P-Line CXX X-Tra Strong | audited-awaiting-bulk-release | None recorded |
-| P-Line FloroClear | audited-awaiting-bulk-release | None recorded |
-| P-Line CX Premium | audited-awaiting-bulk-release | None recorded |
-| P-Line Tactical Fluorocarbon | audited-awaiting-bulk-release | None recorded |
-| P-Line HALO Fluorocarbon | audited-awaiting-bulk-release | None recorded |
-| P-Line EndurX Braid | audited-awaiting-bulk-release | None recorded |
-| P-Line TCB 8 Braid | audited-awaiting-bulk-release | None recorded |
+| P-Line CXX X-Tra Strong | published | None recorded |
+| P-Line FloroClear | published | None recorded |
+| P-Line CX Premium | published | None recorded |
+| P-Line Tactical Fluorocarbon | published | None recorded |
+| P-Line HALO Fluorocarbon | published | None recorded |
+| P-Line EndurX Braid | published | None recorded |
+| P-Line TCB 8 Braid | published | None recorded |
 | PowerPro Spectra | published | None recorded |
 | PowerPro Super8Slick V2 | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | PowerPro Maxcuatro | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
@@ -80,7 +80,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Shimano Ocea 8 PE | source-hold | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Shimano Grappler 8 | published | None recorded |
 | Shimano Ocea EX Fluorocarbon Leader | published | leader-specific page flow (not full-spool mainline) |
-| SpiderWire Stealth Braid | audited-awaiting-bulk-release | None recorded |
+| SpiderWire Stealth Braid | published | None recorded |
 | SpiderWire Stealth Smooth 8 | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | SpiderWire Ultracast Braid | published | None recorded |
 | SpiderWire Ultracast Invisi-Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
@@ -98,9 +98,9 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Stren Original | published | None recorded |
 | Stren High Impact | published | None recorded |
 | Stren Magnathin | published | None recorded |
-| Stren Super Knot | audited-awaiting-bulk-release | None recorded |
-| Stren Fluorocast | audited-awaiting-bulk-release | None recorded |
-| Stren Sonic Braid | audited-awaiting-bulk-release | None recorded |
+| Stren Super Knot | published | None recorded |
+| Stren Fluorocast | published | None recorded |
+| Stren Sonic Braid | published | None recorded |
 | Stren Crappie Mono | published | None recorded |
 | Strike King Contra Braid | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Sufix 832 Advanced Superline | published | None recorded |
@@ -108,7 +108,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Sufix Performance Braid | published | None recorded |
 | Sufix Elite | published | None recorded |
 | Sufix Advance Mono | published | None recorded |
-| Sufix Invisiline Fluorocarbon | audited-awaiting-bulk-release | None recorded |
+| Sufix Invisiline Fluorocarbon | published | None recorded |
 | Sufix Advance Fluorocarbon | published | None recorded |
 | Sunline FC Sniper | published | None recorded |
 | Sunline Shooter | published | None recorded |
@@ -135,7 +135,7 @@ The presence of a diameter in the existing database is not, by itself, publicati
 | Yo-Zuri SuperBraid | published | None recorded |
 | Yo-Zuri SuperBraid 9 | published | None recorded |
 | Seaguar BRAWLR | published | None recorded |
-| Sufix Calibr8 | audited-awaiting-bulk-release | None recorded |
+| Sufix Calibr8 | published | None recorded |
 | XBraid OLLTOLOS FC | research-needed | product-specific gold content and image; traceable diameter/product sources; strength-specific retail spool lengths; browser and calculation audit |
 | Rhino Hide Camo Braid | published | None recorded |
 | Rhino Hide Camo Monofilament | published | None recorded |

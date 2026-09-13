@@ -1,0 +1,964 @@
+{
+  "verifiedAt": "2026-09-13T17:38:37.894118+00:00",
+  "passed": true,
+  "status": "native28-copy-refresh-complete",
+  "scope": "Final native server export round trip for the 28 original80 copy-overlay guides only",
+  "reviewer": "Independent CSV verification by Codex; native UI actions and SEO inspection performed by main",
+  "inputs": {
+    "originalExport": {
+      "path": "C:\\Users\\Tyler\\Downloads\\products_Sep-13_01-12-58PM.csv",
+      "sha256": "e80d5bfdd1d0abbb05ab6d1b9c78a68c8daad40bf42ebb0d842a28d5af80e8c0",
+      "bytes": 9012793
+    },
+    "afterPilotExport": {
+      "path": "C:\\Users\\Tyler\\Downloads\\products_Sep-13_01-26-57PM.csv",
+      "sha256": "1e9260422d78346710be1e53fdae91b7c4f636d192d2d8a89cb920e968c37198",
+      "bytes": 9014577
+    },
+    "finalExport": {
+      "path": "C:\\Users\\Tyler\\Downloads\\products_Sep-13_01-33-37PM.csv",
+      "sha256": "bb710b57391973672eaa5654c2e2d56aa276173076a784eefe2aa637338932a8",
+      "bytes": 9060791
+    },
+    "approvedNativeContent": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\generated\\line-pages\\original80-copy-cleanup-native-content.json",
+      "sha256": "89584d72dd7559a6dd407132fadebb1643d3d1b6b21e13646337455147d6c282",
+      "bytes": 261121
+    },
+    "buildAudit": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\build-audit.json",
+      "sha256": "bd35515dd8c45c7e59588b81ea9eaa99a0e82a4d192f3bc5b6a571a749066726",
+      "bytes": 32356
+    },
+    "pilotServerProof": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\pilot-server-roundtrip-proof.json",
+      "sha256": "b497ac5c1c2ccd02b2bc74d3129b781f5325b5cc487f9924ac00c603410f5265",
+      "bytes": 27279
+    },
+    "batch27NativeImportReceipt": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\batch27-import-result.txt",
+      "sha256": "34183fc203b2f06049db3d6f799600390aa39362306cf84764638be77abc0659",
+      "bytes": 950
+    },
+    "mainPilotNativeSeo": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\pilot-native-seo.json",
+      "sha256": "52255d3dca60e91cc009e704d6082abadedf2e78e66084ea6def1c24c86d2298",
+      "bytes": 735
+    },
+    "registryUsedForSeoAndNew14Identity": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\data\\line-page-imports.json",
+      "sha256": "0134d9839ca5dc1f492522295ec30664907e4c0db6e4b60558d67235b2cb7cd1",
+      "bytes": 76707
+    },
+    "new14ScopeSource": {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\tests.json",
+      "sha256": "1b1c4080599534f7ce77eda0a87731e09db6600bf9863eada88641ffe60705bc",
+      "bytes": 2841
+    }
+  },
+  "submittedCsvs": [
+    {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\PILOT-1-daiwa-j-braid-x4-existing-description-update.csv",
+      "sha256": "30d44bcf264e9eaf708366518f4381e9b8e08acfbd69bbb4d59b7de58b326f7a",
+      "bytes": 9150,
+      "recordCount": 1
+    },
+    {
+      "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\HOLD-27-after-pilot-existing-description-updates.csv",
+      "sha256": "d97da251fdc292a6e53c430d7ab538f6d72ded20e228144946992428b2cc1b99",
+      "bytes": 250113,
+      "recordCount": 27
+    }
+  ],
+  "verificationMethods": [
+    "PowerShell Import-Csv independently compared all original/final decoded fields and all 28 approved descriptions: 28 changed cells, all Description, zero other changes.",
+    "Python csv.reader(strict=True), UTF-8-sig, newline=\"\": checked every field in original, after-pilot, final, and submitted CSVs without coercion or HTML normalization."
+  ],
+  "catalog": {
+    "expectedCount": 1019,
+    "originalCount": 1019,
+    "afterPilotCount": 1019,
+    "finalCount": 1019,
+    "columnCount": 34,
+    "headersUnchanged": true,
+    "headers": [
+      "Product ID [Non Editable]",
+      "Variant ID [Non Editable]",
+      "Product Type [Non Editable]",
+      "Product Page",
+      "Product URL",
+      "Title",
+      "Description",
+      "SKU",
+      "GTIN",
+      "MPN",
+      "Option Name 1",
+      "Option Value 1",
+      "Option Name 2",
+      "Option Value 2",
+      "Option Name 3",
+      "Option Value 3",
+      "Option Name 4",
+      "Option Value 4",
+      "Option Name 5",
+      "Option Value 5",
+      "Option Name 6",
+      "Option Value 6",
+      "Price",
+      "Sale Price",
+      "On Sale",
+      "Stock",
+      "Categories",
+      "Tags",
+      "Weight",
+      "Length",
+      "Width",
+      "Height",
+      "Visible",
+      "Hosted Image URLs"
+    ],
+    "uniqueFinalProductIds": 1019,
+    "uniqueFinalVariantIds": 1019,
+    "blankNativeIds": 0,
+    "addedNativeProductIds": [],
+    "removedNativeProductIds": [],
+    "nativeVariantIdsAndProductAssociationsUnchanged": true,
+    "productRowOrderUnchanged": true,
+    "taggedLineGuides": 100
+  },
+  "allFieldsComparison": {
+    "totalCellsCompared": 34646,
+    "nonDescriptionCellsCompared": 33627,
+    "nonDescriptionCellChanges": 0,
+    "changedCellCount": 28,
+    "changedColumns": [
+      "Description"
+    ],
+    "changedProductCount": 28,
+    "expectedChangedProductCount": 28,
+    "changedIdsExactlyApproved28": true,
+    "unchangedCellCount": 34618,
+    "unrelatedProductsEntirelyUnchanged": 991,
+    "allNativeIdsSkusUrlsTitlesPricesSaleStockOptionsVisibilityCategoriesTagsDimensionsAndImageUrlsUnchanged": true,
+    "hostedImageUrlsCompared": 1019,
+    "hostedImageUrlChanges": 0,
+    "changedCells": [
+      {
+        "nativeProductId": "6aa6c259f2549e0824da01fe",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c25ef2549e0824da0203",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c266f2549e0824da0209",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c26849562a30b2873a70",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c26ab820843cee919240",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c26df2549e0824da020d",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c26fd283af45512f5601",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c271f2549e0824da020f",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c289b820843cee919253",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c294f2549e0824da022c",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c296b820843cee91925e",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c298b820843cee919261",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c29b49562a30b2873aa5",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c29db820843cee919264",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c29fd283af45512f5627",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2a1d283af45512f562b",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2a3f2549e0824da0239",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2a549562a30b2873aac",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2a7f2549e0824da023b",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2aaf2549e0824da023c",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2ac49562a30b2873ab3",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2b3d283af45512f5634",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2bbb820843cee919280",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2d8d283af45512f564d",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2ec49562a30b2873af4",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2eed283af45512f5662",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2f049562a30b2873af6",
+        "column": "Description"
+      },
+      {
+        "nativeProductId": "6aa6c2f3b820843cee9192a9",
+        "column": "Description"
+      }
+    ]
+  },
+  "descriptions": {
+    "approvedCount": 28,
+    "finalExactMatchCount": 28,
+    "all28FinalRowsEqualSubmittedCsvRows": true,
+    "sanitizationDifferences": [],
+    "normalizationApplied": false,
+    "exceptionsAccepted": [],
+    "note": "All 28 final Description strings exactly match approved native HTML, including whitespace, entities and embedded line breaks."
+  },
+  "sincePilotComparison": {
+    "changedProducts": 27,
+    "changedCells": 27,
+    "changedColumns": [
+      "Description"
+    ],
+    "changedIdsExactlyRemaining27": true,
+    "pilotEntireRowUnchanged": true,
+    "nonDescriptionChanges": 0
+  },
+  "nativeImportEvidence": {
+    "pilot": {
+      "updated": 1,
+      "added": 0,
+      "basis": "User-reported native result plus independently passing pilot-server-roundtrip-proof.json"
+    },
+    "batch27": {
+      "receiptComplete": true,
+      "updatedLabels": 27,
+      "addedLabels": 0,
+      "receiptTitlesExactlyRemaining27": true,
+      "titles": [
+        "Seaguar Basix Fluorocarbon",
+        "Sufix 832 Advanced Superline",
+        "Sufix ProMix Braid",
+        "Sufix Performance Braid",
+        "Sufix Elite",
+        "Sufix Advance Mono",
+        "Sufix Advance Fluorocarbon",
+        "Shimano Kairiki 8 Braid",
+        "SPRO Finesse Braid 8X",
+        "SPRO Essential Bronzeye 8X",
+        "SPRO Cast Control 8X",
+        "SPRO Depth Control 8X",
+        "SPRO Gouken FLC",
+        "SPRO Rai-Jin Premium Fluorocarbon",
+        "Yo-Zuri Hybrid",
+        "Yo-Zuri Hybrid Ice Line",
+        "Yo-Zuri T-7 Premium Fluorocarbon",
+        "Yo-Zuri TopKnot MainLine",
+        "Yo-Zuri SuperBraid",
+        "Yo-Zuri SuperBraid 9",
+        "Cortland Fluorocarbon Leader",
+        "Gamma Fluorocarbon Leader",
+        "KastKing FluoroKote",
+        "SPRO Finesse Fluorocarbon Leader",
+        "Yo-Zuri TopKnot Leader",
+        "Yo-Zuri SuperFluoro Leader",
+        "Yo-Zuri H.D. Carbon Leader"
+      ],
+      "basis": "Main-captured batch27-import-result.txt, corroborated by final export comparison"
+    },
+    "aggregateUpdated": 28,
+    "aggregateAdded": 0,
+    "thisReviewerPerformedNoImport": true
+  },
+  "nativeSeoEvidence": {
+    "owner": "Main",
+    "pilotGuideId": "daiwa-j-braid-x4",
+    "mainReportsUnchanged": true,
+    "recordedSeoTitles": [
+      "Daiwa J-Braid X4 Diameter & Reel Capacity",
+      "Daiwa J-Braid X4 Diameter & Reel Capacity"
+    ],
+    "recordedSeoDescriptions": [
+      "Compare verified Daiwa J-Braid X4 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications.",
+      "Compare verified Daiwa J-Braid X4 diameters and package lengths. Estimate reel capacity, choose a working fill, and plan backing from exact specifications."
+    ],
+    "allRecordedTitleValuesAgree": true,
+    "allRecordedDescriptionValuesMatchRegistry": true,
+    "registrySeoTitle": "Daiwa J-Braid X4 Diameter & Reel Capacity | ReelCalc",
+    "nativeTitleEqualsRegistryLiterally": false,
+    "titleComparisonNote": "Native UI capture omits the trailing | ReelCalc present in the local registry. No native before/after title delta is inferred from this cross-system difference; main reports native SEO unchanged.",
+    "recordedPilotImagesLoadedAndMatchUnchangedExport": true,
+    "file": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\native-copy-refresh\\pilot-native-seo.json",
+    "scopeLimit": "Native UI evidence covers the Daiwa pilot only. SEO-specific fields are absent from the CSV, so this proof does not claim a 28-guide native SEO UI audit."
+  },
+  "new14": {
+    "importedByThisOperation": false,
+    "presentInFinalExport": 0,
+    "expectedNotImported": 14,
+    "checkedAgainstRegistrySlugs": true,
+    "products": [
+      {
+        "guideId": "spiderwire-stealth-braid",
+        "slug": "spiderwire-stealth-braid-diameter-capacity-guide"
+      },
+      {
+        "guideId": "stren-super-knot",
+        "slug": "stren-super-knot-diameter-capacity-guide"
+      },
+      {
+        "guideId": "stren-fluorocast",
+        "slug": "stren-fluorocast-diameter-capacity-guide"
+      },
+      {
+        "guideId": "stren-sonic-braid",
+        "slug": "stren-sonic-braid-diameter-capacity-guide"
+      },
+      {
+        "guideId": "hi-seas-fluorocarbon",
+        "slug": "hi-seas-fluorocarbon-diameter-capacity-guide"
+      },
+      {
+        "guideId": "sufix-invisiline-fluorocarbon",
+        "slug": "sufix-invisiline-fluorocarbon-diameter-capacity-guide"
+      },
+      {
+        "guideId": "sufix-calibr8",
+        "slug": "sufix-calibr8-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-cxx-x-tra-strong",
+        "slug": "p-line-cxx-x-tra-strong-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-floroclear",
+        "slug": "p-line-floroclear-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-cx-premium",
+        "slug": "p-line-cx-premium-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-tactical-fluorocarbon",
+        "slug": "p-line-tactical-fluorocarbon-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-halo-fluorocarbon",
+        "slug": "p-line-halo-fluorocarbon-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-endurx-braid",
+        "slug": "p-line-endurx-braid-diameter-capacity-guide"
+      },
+      {
+        "guideId": "p-line-tcb-8-braid",
+        "slug": "p-line-tcb-8-braid-diameter-capacity-guide"
+      }
+    ],
+    "publicationOrImportApprovalGranted": false
+  },
+  "products": [
+    {
+      "guideId": "daiwa-j-braid-x4",
+      "nativeProductId": "6aa6c259f2549e0824da01fe",
+      "nativeVariantId": "45bd226a-ba3f-4efe-9944-48064103e31e",
+      "sku": "RCLA46D8F5A7462796F6",
+      "slug": "daiwa-j-braid-x4-braid-diameter-capacity-guide",
+      "title": "Daiwa J-Braid X4 Braid",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "7587658bb485b46069aa2ab16c9616c46343af84433ff216c168796de6db7995",
+      "approvedAndFinalDescriptionSha256": "4b3da086f93b90d52a8a587b6effd2c904975f39b4c9acedc8a6c82d541f4751",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "seaguar-basix",
+      "nativeProductId": "6aa6c25ef2549e0824da0203",
+      "nativeVariantId": "452aa75b-fbfd-425d-87a1-1db0a93da6e1",
+      "sku": "RCLB50070235E582642B",
+      "slug": "seaguar-basix-fluorocarbon-diameter-capacity-guide",
+      "title": "Seaguar Basix Fluorocarbon",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "2277ddb63a4068342f2c1576d309ca8283dfa9c34c6bf692697b226d2f774aae",
+      "approvedAndFinalDescriptionSha256": "92d95c1325ffc7898455d3e13dab3d00e831bf232f7e19665f42c9c6e80a4a34",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "sufix-832-advanced-superline",
+      "nativeProductId": "6aa6c266f2549e0824da0209",
+      "nativeVariantId": "108ccdc5-2e04-4dd8-a030-2851f977cada",
+      "sku": "RCL5672EF26CCA6757CD",
+      "slug": "sufix-832-advanced-superline-diameter-capacity-guide",
+      "title": "Sufix 832 Advanced Superline",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "a56d8fd2fe6610e7dcea86712214a4b56d1a24dd270acd971107199d7a794d87",
+      "approvedAndFinalDescriptionSha256": "a29c731cae75b2d58be7fa804407a79484aaa2836e2980539081b6101f035894",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "sufix-promix-braid",
+      "nativeProductId": "6aa6c26849562a30b2873a70",
+      "nativeVariantId": "1f80be30-d965-4492-bea0-2c1b264ed443",
+      "sku": "RCL62642EFB2296A14C1",
+      "slug": "sufix-promix-braid-diameter-capacity-guide",
+      "title": "Sufix ProMix Braid",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "d36358cd2cf2403084a2734d49b7e7250bfbc4a1df5685734be5655407b3b930",
+      "approvedAndFinalDescriptionSha256": "ce9cb20a91a842221ffb06e44f978ae712bd301c507b74371c17cfceb204c390",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "sufix-performance-braid",
+      "nativeProductId": "6aa6c26ab820843cee919240",
+      "nativeVariantId": "6c299937-8ff4-4cfe-bf4d-278bee27337a",
+      "sku": "RCL8E47A03657AAEFCE0",
+      "slug": "sufix-performance-braid-diameter-capacity-guide",
+      "title": "Sufix Performance Braid",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "183b47fccd3a692d76b40c5e1a3bfabb8e8bebdebc1a7a8305865c40efaaa322",
+      "approvedAndFinalDescriptionSha256": "b2d4ee72cf919ee769f6a36bd589ae380e816adfe43bfed2eb4d62c2b3a4125a",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "sufix-elite",
+      "nativeProductId": "6aa6c26df2549e0824da020d",
+      "nativeVariantId": "fb72da9b-acb5-4ae9-81df-8d749729bc72",
+      "sku": "RCLF5F1C23BF17102D52",
+      "slug": "sufix-elite-diameter-capacity-guide",
+      "title": "Sufix Elite",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "72a5b4cabd22dd782fe74069a2ac14684681d3a2f1bab6578450b4cef9ad7cc8",
+      "approvedAndFinalDescriptionSha256": "5d562432e0d063a6c9d26872c7b30353ef05817a9d27f3fa63e879d3ebf8991c",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "sufix-advance-mono",
+      "nativeProductId": "6aa6c26fd283af45512f5601",
+      "nativeVariantId": "e3b42a02-4b1b-4786-ad70-6378f16f255b",
+      "sku": "RCL194AAF0C1545D8450",
+      "slug": "sufix-advance-mono-diameter-capacity-guide",
+      "title": "Sufix Advance Mono",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "81ea2c71053bd53c3b9097b85a7e050fe6879a31677eb05a5db1b0d3b618468d",
+      "approvedAndFinalDescriptionSha256": "93b246342cf088865264ddad348e29195765de7b0a7f2bd48a6826f6b3da8a8e",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "sufix-advance-fluorocarbon",
+      "nativeProductId": "6aa6c271f2549e0824da020f",
+      "nativeVariantId": "94f96959-1243-40c6-9de1-75a85cfbe92f",
+      "sku": "RCL77DFEABB0CFA2E64E",
+      "slug": "sufix-advance-fluorocarbon-diameter-capacity-guide",
+      "title": "Sufix Advance Fluorocarbon",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "6780099e9a8f63a1be852465013e6a041300e3ded601bec8af9d17304d43d63b",
+      "approvedAndFinalDescriptionSha256": "002ead99622c9de52fd284552d72f22d0f8d875c351ff17852f7a40a398a7370",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "shimano-kairiki-8",
+      "nativeProductId": "6aa6c289b820843cee919253",
+      "nativeVariantId": "4077349f-b9ab-4c57-aaa4-ed03fc99f46f",
+      "sku": "RCLB2F1E4E6D8BEEB8D3",
+      "slug": "shimano-kairiki-8-braid-diameter-capacity-guide",
+      "title": "Shimano Kairiki 8 Braid",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "6cc8ad35c25d033726619afb0913a4b7f06c1d8ef47008c72049b7da0c67231a",
+      "approvedAndFinalDescriptionSha256": "22d1d6f0cf85b2dbbd6079c7f6a84d355af5b1a57fad145ecb7edf4607e533cb",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-finesse-braid-8x",
+      "nativeProductId": "6aa6c294f2549e0824da022c",
+      "nativeVariantId": "c81cabb1-9258-48b8-9f41-d7fba7aaebf9",
+      "sku": "RCL1D0901A4E9EA3B739",
+      "slug": "spro-finesse-braid-8x-diameter-capacity-guide",
+      "title": "SPRO Finesse Braid 8X",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "baad679766be599c31ac6091bca8b22c5cfd114eed572936bf79f979892d7e8d",
+      "approvedAndFinalDescriptionSha256": "25ce171eb541bda64c171c222bdc8cbbe175a2a2528289423d034b98a56f0c0e",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-essential-bronzeye-8x",
+      "nativeProductId": "6aa6c296b820843cee91925e",
+      "nativeVariantId": "ad49f1c0-e412-4619-b527-6f51b9d1c296",
+      "sku": "RCL6A81033166B2507E2",
+      "slug": "spro-essential-bronzeye-8x-diameter-capacity-guide",
+      "title": "SPRO Essential Bronzeye 8X",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "427eff9718b1953a15ca7d61eea592e432486f39d65bb07df2d3a9dbcf95049e",
+      "approvedAndFinalDescriptionSha256": "7c39281d25acf94074811d2537ec71f6192a90a20b60f6c9f785c4eb4bce47f7",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-cast-control-8x",
+      "nativeProductId": "6aa6c298b820843cee919261",
+      "nativeVariantId": "0040ee1d-9944-448a-a293-cc4d8f4e19ab",
+      "sku": "RCLED64D99B494E20C29",
+      "slug": "spro-cast-control-8x-diameter-capacity-guide",
+      "title": "SPRO Cast Control 8X",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "387153d25feb06a0e6acabda7e28f1dc8936d108fe2f6d209a694ebd6f0bf160",
+      "approvedAndFinalDescriptionSha256": "2e0ed585f8deb3d0c01a2d6260f276a12b97bf66ce3e3bac1beb2b43fd0cf27f",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-depth-control-8x",
+      "nativeProductId": "6aa6c29b49562a30b2873aa5",
+      "nativeVariantId": "440aec1c-71cb-4cac-965a-89ca6adc7402",
+      "sku": "RCLF2ECD9A2216BF85C9",
+      "slug": "spro-depth-control-8x-diameter-capacity-guide",
+      "title": "SPRO Depth Control 8X",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "b8742e5af006378700e4ecb20f0eabaaac2273f95c1001671918a499b59679a9",
+      "approvedAndFinalDescriptionSha256": "02b0bafb61ea597dcdd5f293f58551d1fe7c2a9d9b138af77e8705ca4e3fb1e2",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-gouken-flc",
+      "nativeProductId": "6aa6c29db820843cee919264",
+      "nativeVariantId": "569aeb05-d396-4d07-87a8-66661a3e2bb2",
+      "sku": "RCL291D59DE3258B7771",
+      "slug": "spro-gouken-flc-diameter-capacity-guide",
+      "title": "SPRO Gouken FLC",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "1ca023e405bf1a617571171b4334bb8a8b6f2bad36e539920dcd147619b19317",
+      "approvedAndFinalDescriptionSha256": "d6fc3cb19fbfd8b9accf20e246465a42933983e8b783dc6529e541333eb3497d",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-rai-jin-premium-fluorocarbon",
+      "nativeProductId": "6aa6c29fd283af45512f5627",
+      "nativeVariantId": "b4d328d4-7ebf-4e76-a5a6-2a8923b25b16",
+      "sku": "RCLBDE2ADD10D228B1C0",
+      "slug": "spro-rai-jin-premium-fluorocarbon-diameter-capacity-guide",
+      "title": "SPRO Rai-Jin Premium Fluorocarbon",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "937ccbc80c203305da90ec88d0afa1b4d94bc803effd1202debcb81334c7fb59",
+      "approvedAndFinalDescriptionSha256": "766a0552d4078e795347f32faed759bea79831d84492efd82f7c32b58e94a3d9",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-hybrid",
+      "nativeProductId": "6aa6c2a1d283af45512f562b",
+      "nativeVariantId": "efd812c4-df00-4a2f-ab5d-8076b90ec4af",
+      "sku": "RCLF0F92D6232C48A09F",
+      "slug": "yo-zuri-hybrid-diameter-capacity-guide",
+      "title": "Yo-Zuri Hybrid",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "ae655d6498c4a0060810bb68faf9982cf43e099d87d2dc306e5ffeb925cde9ec",
+      "approvedAndFinalDescriptionSha256": "7d7d222856fff57105d75f21bd7e34de255b15b42a056a766a8c2a26d0e120d1",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-hybrid-ice-line",
+      "nativeProductId": "6aa6c2a3f2549e0824da0239",
+      "nativeVariantId": "99805b0c-0d41-4dbb-a285-d53591f6a328",
+      "sku": "RCL45C9D8B5E69BF3CED",
+      "slug": "yo-zuri-hybrid-ice-line-diameter-capacity-guide",
+      "title": "Yo-Zuri Hybrid Ice Line",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "67c5c03838de383a328a4479ee31fd1d94a75a048e3cdeea8b4263a7a19c7212",
+      "approvedAndFinalDescriptionSha256": "7a340ec9636bb6f5c564dbca0ab95b658155850875ad81c5360e98f0b02a0ef4",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-t-7-premium-fluorocarbon",
+      "nativeProductId": "6aa6c2a549562a30b2873aac",
+      "nativeVariantId": "5ca1e741-e9c9-48c8-99ef-f53cc6d51de2",
+      "sku": "RCLC87078ABE649276ED",
+      "slug": "yo-zuri-t-7-premium-fluorocarbon-diameter-capacity-guide",
+      "title": "Yo-Zuri T-7 Premium Fluorocarbon",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "cf457843aed398abcf55735f65b79dcbcdf82db25a94f9999d41aa41b9cb961a",
+      "approvedAndFinalDescriptionSha256": "7a2c1a97d1b1f4311b1b45845973931c81059bf1ed2dccd234c7a2eb42f726cd",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-topknot-mainline",
+      "nativeProductId": "6aa6c2a7f2549e0824da023b",
+      "nativeVariantId": "3e25754e-8dbc-46d1-b229-386276a0e210",
+      "sku": "RCLEE60A3614051C080B",
+      "slug": "yo-zuri-topknot-mainline-diameter-capacity-guide",
+      "title": "Yo-Zuri TopKnot MainLine",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "a4deabb802181f57329ea035fe1a24b6865bb2b301b16a298d0401d8304ac9e4",
+      "approvedAndFinalDescriptionSha256": "e5b56eed451dc9e327b9c7fb3cfb7c33660a125ef3a8725f05dd674ccb081027",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-superbraid",
+      "nativeProductId": "6aa6c2aaf2549e0824da023c",
+      "nativeVariantId": "6c13f3fb-cd75-4d17-85b6-ab84fa606dbd",
+      "sku": "RCL3D5141C4CA10062FE",
+      "slug": "yo-zuri-superbraid-diameter-capacity-guide",
+      "title": "Yo-Zuri SuperBraid",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "a0b736a036fbd73165af79bfcefb6d41846177d3c26b61bf829832ae73d8b0a2",
+      "approvedAndFinalDescriptionSha256": "e4ccf4765d09d0a34809e4195d194b7d86377b01fedd1b14a4a532c56fff0148",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-superbraid-9",
+      "nativeProductId": "6aa6c2ac49562a30b2873ab3",
+      "nativeVariantId": "d4ff1a84-0857-4ad9-9450-c8638d7056fa",
+      "sku": "RCL70DAC6EE99F908376",
+      "slug": "yo-zuri-superbraid-9-diameter-capacity-guide",
+      "title": "Yo-Zuri SuperBraid 9",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "2d2eb18d00ae00747400006623d4ca8b956f8cfcce1df87769c2033e157bb4c4",
+      "approvedAndFinalDescriptionSha256": "5052b8c8ca61e9b88b53b27747aaf03d5b3ef091d3f874bfe4af1f34b9d78233",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "cortland-fluorocarbon-leader",
+      "nativeProductId": "6aa6c2b3d283af45512f5634",
+      "nativeVariantId": "b6135914-2d4e-43e9-b2b8-a419e6439bae",
+      "sku": "RCL6D6239E1CE6D9CD72",
+      "slug": "cortland-fluorocarbon-leader-diameter-leader-guide",
+      "title": "Cortland Fluorocarbon Leader",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "0f45a216d24d5c013c2db658e63034dca95f63a7152d81ffc8d0672538740ff8",
+      "approvedAndFinalDescriptionSha256": "6f4a66c5d68ea618a0ac1537414055175dde71ddcf8d5c55731f8ec19292587c",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "gamma-fluorocarbon-leader",
+      "nativeProductId": "6aa6c2bbb820843cee919280",
+      "nativeVariantId": "db947724-3435-48f5-92f3-a2ed031631f3",
+      "sku": "RCLBD7F3B4BE098D342F",
+      "slug": "gamma-fluorocarbon-leader-diameter-leader-guide",
+      "title": "Gamma Fluorocarbon Leader",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "cb207f2841800bf76c75b5515ea303e4015cca3f8b1ced193fa87353e9817eb5",
+      "approvedAndFinalDescriptionSha256": "79d7eb794ff9884f914b901237739299a2082fa3ebb029cee52cfbdc466ac177",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "kastking-fluorokote",
+      "nativeProductId": "6aa6c2d8d283af45512f564d",
+      "nativeVariantId": "05ecee68-1b32-4c7a-b89d-931d5c2864ad",
+      "sku": "RCL52779ABE42A89274B",
+      "slug": "kastking-fluorokote-diameter-capacity-guide",
+      "title": "KastKing FluoroKote",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "b2342d5649f432ff4673fb8da6d74426ae7c3b0d5d5c96ab4c6821e81ad79417",
+      "approvedAndFinalDescriptionSha256": "ef16097d7c6b36fdf30406692b0f45e03381a523b46053ee0051239a9a7a6a8a",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "spro-finesse-fluorocarbon-leader",
+      "nativeProductId": "6aa6c2ec49562a30b2873af4",
+      "nativeVariantId": "95b316dc-1e94-4000-8b66-aa3f2cdad27f",
+      "sku": "RCL2A2DF5D58D508CEEB",
+      "slug": "spro-finesse-fluorocarbon-leader-diameter-capacity-guide",
+      "title": "SPRO Finesse Fluorocarbon Leader",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "49c1d70214bafd33021017ee087b496a0c4f545da85c81740f2780618bfc7695",
+      "approvedAndFinalDescriptionSha256": "250050e4cb178d5386a9c613c854fc6304510bfa9a7394c764f021fc48a21022",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-topknot-leader",
+      "nativeProductId": "6aa6c2eed283af45512f5662",
+      "nativeVariantId": "7de1e575-8075-4746-bbdd-7621e3bcb111",
+      "sku": "RCL3A1FB2F3D98BCAF30",
+      "slug": "yo-zuri-topknot-leader-diameter-capacity-guide",
+      "title": "Yo-Zuri TopKnot Leader",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "4e1e823c0f5474ea0404fde6dcef4143cb1851902733622c1f63c0615b91d9c6",
+      "approvedAndFinalDescriptionSha256": "c8262456c94a9a391cbb5c4498774fd1660a99f95e055d7006c9c032d5054b3a",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-superfluoro-leader",
+      "nativeProductId": "6aa6c2f049562a30b2873af6",
+      "nativeVariantId": "ec74a50e-02d7-4535-9663-0c431e16f057",
+      "sku": "RCL66FB5D90E143CF2AA",
+      "slug": "yo-zuri-superfluoro-leader-diameter-capacity-guide",
+      "title": "Yo-Zuri SuperFluoro Leader",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "2dacf5d5dac0add346b98f09366a370304344592c2e01ab4371dffa18de64832",
+      "approvedAndFinalDescriptionSha256": "46d326f7bfc25d0835256ad61390da80726a8be95d819d1e19e251573db72d33",
+      "hostedImageUrlsUnchanged": true
+    },
+    {
+      "guideId": "yo-zuri-h-d-carbon-leader",
+      "nativeProductId": "6aa6c2f3b820843cee9192a9",
+      "nativeVariantId": "02bb6d39-f38a-453f-b86b-20e293edda92",
+      "sku": "RCL39FEB1B47307E061F",
+      "slug": "yo-zuri-h-d-carbon-leader-diameter-capacity-guide",
+      "title": "Yo-Zuri H.D. Carbon Leader",
+      "price": "0.00",
+      "visible": "Yes",
+      "changedColumns": [
+        "Description"
+      ],
+      "all33OtherFieldsUnchanged": true,
+      "all34FieldsMatchSubmittedCsv": true,
+      "descriptionExactApproved": true,
+      "descriptionBeforeSha256": "41747c5acc61afcd0db61a18ce84390b636aa02e29ce89468dc4725474fc92fd",
+      "approvedAndFinalDescriptionSha256": "33c90a8eb9ac43d6876ba07a193a006da5a2046d30f302c0eca7c0b72de9baeb",
+      "hostedImageUrlsUnchanged": true
+    }
+  ],
+  "completion": {
+    "native28CopyRefreshComplete": true,
+    "remainingNative28DescriptionUpdates": 0,
+    "reimportRequired": false,
+    "doNotReimportPilotOrRemaining27": true,
+    "appliesToSnapshot": "C:\\Users\\Tyler\\Downloads\\products_Sep-13_01-33-37PM.csv",
+    "doesNotChangeNew14Status": true
+  },
+  "actions": {
+    "browserUsedByReviewer": false,
+    "importPerformedByReviewer": false,
+    "sourceOrCsvChanged": false,
+    "commitPerformed": false,
+    "pushPerformed": false,
+    "onlyWrittenArtifacts": [
+      "final-server-roundtrip-proof.json",
+      "final-server-roundtrip-proof.md"
+    ]
+  }
+}

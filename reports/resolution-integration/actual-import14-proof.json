@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "kind": "resolution14-import",
+  "site": "https://www.reelcalc.com",
+  "observedBy": "main-agent",
+  "observedAt": "2026-09-13T17:55:09.579686+00:00",
+  "submission": {
+    "status": "complete",
+    "file": "generated/line-pages/UPLOAD-THIS-14-new-line-guides.csv",
+    "sha256": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa",
+    "createdCount": 14,
+    "updatedCount": 0,
+    "failedCount": 0,
+    "submittedAt": "2026-09-13T17:44:50.207Z",
+    "completedAt": "2026-09-13T17:46:15.055Z"
+  },
+  "pages": {
+    "spiderwire-stealth-braid": {
+      "verified": true,
+      "nativeProductId": "6aa6e115b820843cee91adb7",
+      "nativeVariantId": "be9fe78c-0131-4248-9583-96df8dfd99d8",
+      "sku": "RCLB52E8452C37814300",
+      "slug": "spiderwire-stealth-braid-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/spiderwire-stealth-braid-diameter-capacity-guide",
+      "title": "SpiderWire Stealth Braid",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Public"
+    },
+    "stren-super-knot": {
+      "verified": true,
+      "nativeProductId": "6aa6e116b820843cee91adba",
+      "nativeVariantId": "30072bca-014f-4f34-99b5-54a8ab369a2f",
+      "sku": "RCLCF7053770E2CEB07C",
+      "slug": "stren-super-knot-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/stren-super-knot-diameter-capacity-guide",
+      "title": "Stren Super Knot",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Public"
+    },
+    "stren-fluorocast": {
+      "verified": true,
+      "nativeProductId": "6aa6e119f2549e0824da1cf4",
+      "nativeVariantId": "4c259509-d256-480c-bf27-e054c7b6e962",
+      "sku": "RCLA0F856AA7A78C9032",
+      "slug": "stren-fluorocast-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/stren-fluorocast-diameter-capacity-guide",
+      "title": "Stren Fluorocast",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "stren-sonic-braid": {
+      "verified": true,
+      "nativeProductId": "6aa6e11b49562a30b287574c",
+      "nativeVariantId": "ec0db82e-d8ee-48b0-bc72-2be15641d4e2",
+      "sku": "RCLBF1334FE2713E181D",
+      "slug": "stren-sonic-braid-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/stren-sonic-braid-diameter-capacity-guide",
+      "title": "Stren Sonic Braid",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "hi-seas-fluorocarbon": {
+      "verified": true,
+      "nativeProductId": "6aa6e12db820843cee91add4",
+      "nativeVariantId": "70084786-c737-405f-9b54-ef3c20ba3ef4",
+      "sku": "RCLA3A6C83BE2E09EF4F",
+      "slug": "hi-seas-fluorocarbon-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/hi-seas-fluorocarbon-diameter-capacity-guide",
+      "title": "Hi-Seas 100% Fluorocarbon Line",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "sufix-invisiline-fluorocarbon": {
+      "verified": true,
+      "nativeProductId": "6aa6e110d283af45512f71e4",
+      "nativeVariantId": "a3c4623f-f4c7-45b4-9c3f-a31147435bca",
+      "sku": "RCL894DB7015ABE42B5F",
+      "slug": "sufix-invisiline-fluorocarbon-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/sufix-invisiline-fluorocarbon-diameter-capacity-guide",
+      "title": "Sufix Castable Invisiline Fluorocarbon",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Public"
+    },
+    "sufix-calibr8": {
+      "verified": true,
+      "nativeProductId": "6aa6e112b820843cee91adb0",
+      "nativeVariantId": "4936135f-4b28-474a-b005-1efbb5d37a4d",
+      "sku": "RCL4668DA7670038660E",
+      "slug": "sufix-calibr8-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/sufix-calibr8-diameter-capacity-guide",
+      "title": "Sufix Calibr8 15 lb",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Public"
+    },
+    "p-line-cxx-x-tra-strong": {
+      "verified": true,
+      "nativeProductId": "6aa6e11df2549e0824da1cff",
+      "nativeVariantId": "213fc03d-4789-4185-8047-c6c830c0c772",
+      "sku": "RCLF645065FEC7097D4E",
+      "slug": "p-line-cxx-x-tra-strong-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-cxx-x-tra-strong-diameter-capacity-guide",
+      "title": "P-Line CXX X-Tra Strong",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "p-line-floroclear": {
+      "verified": true,
+      "nativeProductId": "6aa6e11fd283af45512f71f4",
+      "nativeVariantId": "16715d56-9ed9-425c-a3d4-c928a1c5a924",
+      "sku": "RCL24A657A5E29D3A049",
+      "slug": "p-line-floroclear-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-floroclear-diameter-capacity-guide",
+      "title": "P-Line FloroClear",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "p-line-cx-premium": {
+      "verified": true,
+      "nativeProductId": "6aa6e12249562a30b2875752",
+      "nativeVariantId": "1ecba412-05ca-4282-aeb6-807888557144",
+      "sku": "RCL35F8875474A480DFB",
+      "slug": "p-line-cx-premium-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-cx-premium-diameter-capacity-guide",
+      "title": "P-Line CX Premium",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "p-line-tactical-fluorocarbon": {
+      "verified": true,
+      "nativeProductId": "6aa6e124f2549e0824da1d08",
+      "nativeVariantId": "3fc4d7c4-82ee-4a1f-9b84-69d3f278d022",
+      "sku": "RCL446BB76506FF41CBF",
+      "slug": "p-line-tactical-fluorocarbon-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-tactical-fluorocarbon-diameter-capacity-guide",
+      "title": "P-Line Tactical Fluorocarbon: 2021 US Reference",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "p-line-halo-fluorocarbon": {
+      "verified": true,
+      "nativeProductId": "6aa6e126d283af45512f7203",
+      "nativeVariantId": "61c5e862-44b9-4670-9de2-8b3b0e4a8f92",
+      "sku": "RCL07C1C3A521986306B",
+      "slug": "p-line-halo-fluorocarbon-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-halo-fluorocarbon-diameter-capacity-guide",
+      "title": "P-Line HALO Fluorocarbon",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "p-line-endurx-braid": {
+      "verified": true,
+      "nativeProductId": "6aa6e12849562a30b287575c",
+      "nativeVariantId": "03de39a2-ac9e-47f2-849e-cb348aa711c7",
+      "sku": "RCL81D889FDCCBE02371",
+      "slug": "p-line-endurx-braid-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-endurx-braid-diameter-capacity-guide",
+      "title": "P-Line EndurX Braid",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    },
+    "p-line-tcb-8-braid": {
+      "verified": true,
+      "nativeProductId": "6aa6e12b49562a30b287575e",
+      "nativeVariantId": "cd9a287c-e60d-4fb2-9d27-698c1077c79c",
+      "sku": "RCL379A508156EFB3E4E",
+      "slug": "p-line-tcb-8-braid-diameter-capacity-guide",
+      "url": "https://www.reelcalc.com/lines/p/p-line-tcb-8-braid-diameter-capacity-guide",
+      "title": "P-Line TCB 8 Braid: US Teflon-Label Reference",
+      "productType": "SERVICE",
+      "productPage": "lines",
+      "visibility": "Hidden"
+    }
+  },
+  "provenance": {
+    "preparedBy": "Independent Codex CSV reconciliation for main",
+    "nativeObservationSource": "Actual main-downloaded native export. Product and variant IDs, SKU, title, collection, type, slug and visibility are read directly from that export.",
+    "observedAtBasis": "Actual export file LastWriteTimeUtc; this is the four-Public snapshot, not later publication progress.",
+    "urlBasis": "Same-site product URL composed from observed exported Product Page and Product URL; checked against main ledger/registry. No native IDs derived.",
+    "inputs": {
+      "beforeExport": {
+        "path": "C:\\Users\\Tyler\\Downloads\\products_Sep-13_01-33-37PM.csv",
+        "sha256": "bb710b57391973672eaa5654c2e2d56aa276173076a784eefe2aa637338932a8",
+        "bytes": 9060791
+      },
+      "nativeExport": {
+        "path": "C:\\Users\\Tyler\\Downloads\\products_Sep-13_01-55-08PM.csv",
+        "sha256": "960772b933d1e344449f025b7c6f9dccc14dfe5740e72fa10cca1f850b54dfd5",
+        "bytes": 9194054
+      },
+      "submittedCsv": {
+        "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\generated\\line-pages\\UPLOAD-THIS-14-new-line-guides.csv",
+        "sha256": "b1fbe6d4a519e256c42622d5ac9ab56d895c66e5712a8f109f4ddbf0e5fa1daa",
+        "bytes": 139059
+      },
+      "mainReceipt": {
+        "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\new14-import-result.txt",
+        "sha256": "3008a3f91660f8160314fbd826e24e57b70ce8a01be9b9a97423b13deb0bb0aa",
+        "bytes": 513
+      },
+      "mainLedger": {
+        "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\new14-publication-ledger.json",
+        "sha256": "92e503cfc57a47ab295d29b48772105431b752173913c487d718dc61e9b7d500",
+        "bytes": 30991
+      },
+      "signedScopeHandoff": {
+        "path": "C:\\Users\\Tyler\\Documents\\reelcalc WIZARD\\tmp\\line-page-launch-candidate\\reports\\resolution-integration\\handoff.json",
+        "sha256": "5fd085de12daf5f1a5f1d35e9a1a7a9efb8e3ac61d767db3ff70c52ff2fb46d0",
+        "bytes": 24872
+      }
+    },
+    "reconciliationReport": "reports/resolution-integration/new14-import-reconciliation.json",
+    "publicationNotAsserted": true
+  }
+}

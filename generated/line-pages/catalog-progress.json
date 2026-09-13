@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-13T17:33:19.096Z",
+  "generatedAt": "2026-09-13T18:08:47.143Z",
   "mainCatalogModels": 138,
-  "published": 100,
-  "prepared": 14,
+  "published": 114,
+  "prepared": 0,
   "notBuilt": 24,
-  "remaining": 38,
+  "remaining": 24,
   "peOnlyModels": 39,
   "entries": [
     {
@@ -1036,7 +1036,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/hi-seas-fluorocarbon.html",
       "sourceUrls": [
         "https://www.afwfishing.com/content/fishing_catalog_download.asp",
@@ -1597,7 +1597,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-cxx-x-tra-strong.html",
       "sourceUrls": [
         "https://p-line.com/product/cxx-x-tra-strong/",
@@ -1632,7 +1632,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-floroclear.html",
       "sourceUrls": [
         "https://p-line.com/product/floroclear/",
@@ -1663,7 +1663,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-cx-premium.html",
       "sourceUrls": [
         "https://p-line.com/product/cx-premium/",
@@ -1695,7 +1695,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-tactical-fluorocarbon.html",
       "sourceUrls": [
         "https://p-line.com/product/tactical-fluorocarbon/",
@@ -1724,7 +1724,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-halo-fluorocarbon.html",
       "sourceUrls": [
         "https://p-line.com/product/halo-fluorocarbon/",
@@ -1756,7 +1756,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 5,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-endurx-braid.html",
       "sourceUrls": [
         "https://p-line.com/product/endurx-braid/",
@@ -1786,7 +1786,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 5,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/p-line-tcb-8-braid.html",
       "sourceUrls": [
         "https://p-line.com/product/x-braid-green/",
@@ -2493,7 +2493,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 6,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/spiderwire-stealth-braid.html",
       "sourceUrls": [
         "https://www.purefishing.jp/product/spiderwire/spider-wire-stealth-braid.html"
@@ -3084,7 +3084,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/stren-super-knot.html",
       "sourceUrls": [
         "https://storage.westernbass.com/brochures/2014_stren/page4/index.html"
@@ -3115,7 +3115,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/stren-fluorocast.html",
       "sourceUrls": [
         "https://storage.westernbass.com/brochures/2014_stren/page6/index.html"
@@ -3144,7 +3144,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 6,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/stren-sonic-braid.html",
       "sourceUrls": [
         "https://media.s-bol.com/qNo4n48p70Bk/NLEWpyv/1200x775.jpg"
@@ -3405,7 +3405,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/sufix-invisiline-fluorocarbon.html",
       "sourceUrls": [
         "https://www.rapala.com/us_en/castable-invisiline-100-fluorocarbon"
@@ -4357,7 +4357,7 @@
       ],
       "role": "mainline",
       "peRecordCount": 0,
-      "status": "audited-awaiting-bulk-release",
+      "status": "published",
       "page": "examples/line-pages/sufix-calibr8.html",
       "sourceUrls": [
         "https://www.tacklewarehouse.com/Sufix_Calibr8_Braided_Line_Neon_Lime/descpage-SFXC8L.html",
