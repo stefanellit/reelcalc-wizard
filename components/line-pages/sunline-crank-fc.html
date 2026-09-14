@@ -24,10 +24,11 @@
               <label class="rc-field"><span>Sunline Crank FC strength</span><select id="rcStrength"></select></label>
               <div class="rc-selected-line" id="rcSelectedLine" aria-live="polite"></div>
               <label class="rc-field"><span>Retail spool length</span><select id="rcSpool"></select></label>
+              <div class="rc-selected-line-offer" id="rcSelectedLineOffer" hidden=""></div>
               <a class="rc-inline-link" href="#diameter-chart">Full diameter chart</a>
             </fieldset>
             <fieldset class="rc-control-step"><legend><span class="rc-step-number">2</span>Your reel</legend>
-              <div class="rc-segmented" id="rcReelSource" role="group" aria-label="Reel details"><button type="button" data-reel-source="database" aria-pressed="true">Find my reel</button><button type="button" data-reel-source="manual" aria-pressed="false">Enter specs</button></div>
+              <div class="rc-segmented" id="rcReelSource" role="group" aria-label="Reel details"><button type="button" data-reel-source="database" aria-pressed="true">Find my reel</button><button type="button" data-reel-source="manual" aria-pressed="false" aria-controls="rcManualReel">My reel isn't listed</button></div>
               <div id="rcCatalogReel">
               <div class="rc-segmented" id="rcReelType" role="group" aria-label="Reel type"><button type="button" data-reel-type="spinning" aria-pressed="true">Spinning</button><button type="button" data-reel-type="baitcasting" aria-pressed="false">Baitcasting</button></div>
               <label class="rc-field"><span>Brand</span><select id="rcReelBrand"></select></label>
@@ -35,7 +36,7 @@
               <label class="rc-field"><span>Exact model / size</span><select id="rcReelSize" disabled=""></select></label>
               </div>
               <div id="rcManualReel" hidden="">
-                <p class="rc-manual-guide">Reel not listed? Use its mono capacity rating for this fluorocarbon line.</p>
+                <p class="rc-manual-guide">Enter the capacity printed on your reel. Use its mono rating for this fluorocarbon line.</p>
                 <label class="rc-field" hidden=""><span>Rating on the reel</span><select id="rcManualType"><option value="mono">Mono rating</option></select></label>
                 <label class="rc-field"><span>Rated strength (lb)</span><input id="rcManualStrength" type="number" min="0.1" max="1000" step="any" inputmode="decimal" placeholder="10" aria-describedby="rcManualHelp rcManualError"></label>
                 <div class="rc-unit-fields"><label class="rc-field"><span>Rated capacity</span><input id="rcManualCapacity" type="number" min="0.1" max="100000" step="any" inputmode="decimal" placeholder="200" aria-describedby="rcManualError"></label><label class="rc-field"><span>Unit</span><select id="rcManualCapacityUnit" aria-label="Rated capacity unit"><option value="yd">Yards</option><option value="m">Meters</option></select></label></div>
@@ -45,7 +46,8 @@
               </div>
             </fieldset>
             <fieldset class="rc-control-step"><legend><span class="rc-step-number">3</span>Your spool plan</legend>
-              <label class="rc-field"><span id="rcWorkingYardsLabel">Main line to put on the reel (yards)</span><input id="rcWorkingYards" type="number" min="0.1" max="10000" step="any" inputmode="decimal" aria-describedby="rcFullSpoolHelp"></label>
+              <label class="rc-field" id="rcWorkingYardsField"><span id="rcWorkingYardsLabel">Main line to put on the reel (yards)</span><input id="rcWorkingYards" type="number" min="0.1" max="10000" step="any" inputmode="decimal"></label>
+              <div class="rc-full-spool-result" id="rcFullSpoolResult" hidden=""><span id="rcFullSpoolLabel">Estimated full-spool capacity</span><output id="rcFullSpoolAmount" aria-labelledby="rcFullSpoolLabel" aria-describedby="rcFullSpoolHelp">Choose a reel</output></div>
               <p id="rcFullSpoolHelp" class="rc-manual-guide" hidden=""></p>
               <div class="rc-backing-mode-row"><button type="button" class="rc-button rc-button-secondary rc-backing-mode-button" id="rcBackingModeButton" aria-pressed="false" aria-controls="rcBackingControls">I don't want to use backing</button><span id="rcBackingModeStatus" class="rc-backing-mode-status" hidden="">Full-spool capacity</span></div>
               <div id="rcBackingControls"><label class="rc-field"><span>Backing brand</span><select id="rcBackingBrand"></select></label><div class="rc-inline-fields"><label class="rc-field"><span>Backing model</span><select id="rcBackingModel" disabled=""></select></label><label class="rc-field"><span>Backing strength</span><select id="rcBackingLb" disabled=""></select></label></div></div>
@@ -61,7 +63,7 @@
   </section>
 
   <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
-    <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">Sunline Crank FC diameter chart</h2><p>US Crank FC diameter chart visually checked. Both inch and metric values are manufacturer-published. Exact assigned variants verify 200 and 660 yards.</p></div>
+    <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">Sunline Crank FC diameter chart</h2><p>US Crank FC diameter chart visually checked. Both inch and metric values are manufacturer-published. Exact listed spool sizes verify 200 and 660 yards.</p></div>
     <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>Listed diameters and offered spool lengths. Retail stock varies.</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">Spools (yd)</th></tr></thead><tbody><tr data-chart-line="sunline-crank-fc-fluorocarbon-8">
     <th scope="row"><button type="button" class="rc-chart-pick" data-select-line="sunline-crank-fc-fluorocarbon-8" aria-label="Use Sunline Crank FC 8 lb" aria-pressed="false" disabled="">8 lb</button></th>
     <td>0.0093</td><td>0.235</td>

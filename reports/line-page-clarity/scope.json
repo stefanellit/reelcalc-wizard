@@ -1,0 +1,701 @@
+{
+  "passed": true,
+  "baseline": "8436241",
+  "pagesChecked": 120,
+  "mainlinePages": 110,
+  "editorialPagesChanged": 87,
+  "tableCopiesUnchanged": 240,
+  "protectedFiles": [
+    "data/lines.json",
+    "data/pe-lines.json",
+    "data/reels.json",
+    "js/calculator-core.js",
+    "js/recommendation-engine.js",
+    "data/line-guide-links.json",
+    "js/affiliate-links.js",
+    "data/reel-affiliates.json"
+  ],
+  "changedFunctions": [
+    "cacheElements",
+    "bindInteractiveEvents",
+    "populateSpools",
+    "renderSelectedLineOffer",
+    "updateCalculateState",
+    "lineOfferLink",
+    "bindLineOfferLinks"
+  ],
+  "changes": [
+    {
+      "id": "berkley-trilene-xl",
+      "fields": [
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "seaguar-tatsu",
+      "fields": [
+        "chartNote",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-abrazx",
+      "fields": [
+        "faqs",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-red-label",
+      "fields": [
+        "chartNote",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-smackdown",
+      "fields": [
+        "faqs",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-brawlr",
+      "fields": [
+        "spoolingGuide",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-jdm-r18-mainline",
+      "fields": [
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-jdm-pex8-micro-braid",
+      "fields": [
+        "faqs",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "sunline-fc-sniper",
+      "fields": [
+        "chartNote",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-shooter",
+      "fields": [
+        "faqs",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-assassin-fc",
+      "fields": [
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-super-natural-mono",
+      "fields": [
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-sx1",
+      "fields": [
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-xplasma-asegai",
+      "fields": [
+        "quickSummary",
+        "spoolingGuide",
+        "faqs",
+        "chartNote",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-siglon-pe-x8",
+      "fields": [
+        "quickSummary",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-ginclear",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "daiwa-j-braid-x4",
+      "fields": [
+        "spoolingGuide",
+        "chartNote"
+      ]
+    },
+    {
+      "id": "seaguar-basix",
+      "fields": [
+        "strengthGuide",
+        "chartNote"
+      ]
+    },
+    {
+      "id": "sunline-crank-fc",
+      "fields": [
+        "chartNote"
+      ]
+    },
+    {
+      "id": "xbraid-x9-fulldrag-braid",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "faqs",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "sufix-elite",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "sufix-advance-mono",
+      "fields": [
+        "spoolingGuide",
+        "sourceNote",
+        "productGuidance",
+        "faqs"
+      ]
+    },
+    {
+      "id": "gamma-edge-fluorocarbon",
+      "fields": [
+        "chartNote",
+        "sourceNote",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "rhino-hide-camo-braid",
+      "fields": [
+        "strengthGuide",
+        "chartNote",
+        "faqs"
+      ]
+    },
+    {
+      "id": "rhino-hide-camo-monofilament",
+      "fields": [
+        "chartNote"
+      ]
+    },
+    {
+      "id": "berkley-trilene-big-game",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-vanish",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-x9-braid",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-x5-braid",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "daiwa-j-fluoro-samurai",
+      "fields": [
+        "faqs"
+      ]
+    },
+    {
+      "id": "shimano-mastiff-fc",
+      "fields": [
+        "strengthGuide",
+        "spoolingGuide",
+        "faqs",
+        "chartNote"
+      ]
+    },
+    {
+      "id": "shimano-kairiki-8",
+      "fields": [
+        "strengthGuide",
+        "faqs",
+        "chartNote"
+      ]
+    },
+    {
+      "id": "shimano-kairiki-4",
+      "fields": [
+        "strengthGuide",
+        "faqs",
+        "chartNote",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "shimano-grappler-8",
+      "fields": [
+        "spoolingGuide",
+        "faqs",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "shimano-ocea-ex-fluorocarbon-leader",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "chartNote",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "seaguar-jdm-grand-max-leader",
+      "fields": [
+        "quickSummary",
+        "faqs",
+        "chartNote",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "spro-cast-control-8x",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "sourceNote",
+        "productGuidance"
+      ]
+    },
+    {
+      "id": "spro-gouken-flc",
+      "fields": [
+        "quickSummary",
+        "spoolingGuide",
+        "productGuidance"
+      ]
+    },
+    {
+      "id": "spro-rai-jin-premium-fluorocarbon",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "yo-zuri-hybrid",
+      "fields": [
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "yo-zuri-t-7-premium-fluorocarbon",
+      "fields": [
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "cortland-master-braid",
+      "fields": [
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "cortland-fluorocarbon-leader",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "gamma-touch-fluorocarbon",
+      "fields": [
+        "strengthGuide",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "sources"
+      ]
+    },
+    {
+      "id": "gamma-torque-braid",
+      "fields": [
+        "quickSummary",
+        "chartNote",
+        "sourceNote",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "gamma-polyflex",
+      "fields": [
+        "strengthGuide",
+        "spoolingGuide",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "gamma-fluorocarbon-leader",
+      "fields": [
+        "sourceNote",
+        "chartNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "maxima-ultragreen",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "maxima-chameleon",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "maxima-clear",
+      "fields": [
+        "quickSummary",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "maxima-crystal-ivory",
+      "fields": [
+        "strengthGuide",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "maxima-fluorocarbon",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "maxima-braid-8",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "chartNote",
+        "sourceNote",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "ande-premium-monofilament",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "hi-seas-grand-slam-monofilament",
+      "fields": [
+        "quickSummary",
+        "chartNote",
+        "spoolingGuide",
+        "faqs",
+        "productGuidance",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "hi-seas-quattro-fluorocarbon",
+      "fields": [
+        "spoolingGuide",
+        "faqs",
+        "chartNote",
+        "productGuidance",
+        "sources"
+      ]
+    },
+    {
+      "id": "hi-seas-braid",
+      "fields": [
+        "quickSummary",
+        "spoolingGuide",
+        "faqs",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "id": "reaction-tackle-braid",
+      "fields": [
+        "quickSummary",
+        "chartNote"
+      ]
+    },
+    {
+      "id": "reaction-tackle-fluorocarbon",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "reaction-tackle-monofilament",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "reaction-tackle-ice-braid",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "vicious-fluorocarbon",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "vicious-braid",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "vicious-panfish-hi-vis-mono",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "yo-zuri-topknot-leader",
+      "fields": [
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "yo-zuri-h-d-carbon-leader",
+      "fields": [
+        "strengthGuide",
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "ande-braid",
+      "fields": [
+        "quickSummary",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-trilene-xt",
+      "fields": [
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-100-fluorocarbon",
+      "fields": [
+        "quickSummary",
+        "sources"
+      ]
+    },
+    {
+      "id": "berkley-forward-finesse-braid",
+      "fields": [
+        "strengthGuide",
+        "sources"
+      ]
+    },
+    {
+      "id": "sufix-invisiline-fluorocarbon",
+      "fields": [
+        "quickSummary",
+        "chartNote",
+        "sourceNote",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "sufix-calibr8",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "spiderwire-stealth-braid",
+      "fields": [
+        "quickSummary",
+        "strengthGuide",
+        "spoolingGuide",
+        "chartNote",
+        "sourceNote",
+        "productGuidance",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "stren-super-knot",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "stren-fluorocast",
+      "fields": [
+        "quickSummary"
+      ]
+    },
+    {
+      "id": "p-line-cxx-x-tra-strong",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "p-line-floroclear",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "p-line-cx-premium",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "p-line-tactical-fluorocarbon",
+      "fields": [
+        "strengthGuide",
+        "sources"
+      ]
+    },
+    {
+      "id": "p-line-halo-fluorocarbon",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "p-line-endurx-braid",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "p-line-tcb-8-braid",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "hi-seas-fluorocarbon",
+      "fields": [
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "sunline-kantan-cast-braid-x8",
+      "fields": [
+        "sourceNote"
+      ]
+    },
+    {
+      "id": "spiderwire-ez-braid",
+      "fields": [
+        "chartNote",
+        "sourceNote",
+        "faqs",
+        "sources"
+      ]
+    },
+    {
+      "id": "strike-king-contra-braid",
+      "fields": [
+        "sources"
+      ]
+    },
+    {
+      "id": "kastking-destron-monofilament",
+      "fields": [
+        "sourceNote"
+      ]
+    }
+  ]
+}

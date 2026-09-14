@@ -131,9 +131,9 @@
 
     function cacheElements() {
       [
-        "rcToolStatus", "rcLoading", "rcInteractive", "rcStrength", "rcSpool", "rcSelectedLine",
+        "rcToolStatus", "rcLoading", "rcInteractive", "rcStrength", "rcSpool", "rcSelectedLine", "rcSelectedLineOffer",
         "rcReelType", "rcReelBrand", "rcReelModel", "rcReelSize", "rcWorkingYards", "rcBackingBrand",
-        "rcWorkingYardsLabel", "rcFullSpoolHelp",
+        "rcWorkingYardsLabel", "rcFullSpoolHelp", "rcWorkingYardsField", "rcFullSpoolResult", "rcFullSpoolAmount",
         "rcReelSource", "rcCatalogReel", "rcManualReel", "rcManualType", "rcManualStrength",
         "rcManualCapacity", "rcManualCapacityUnit", "rcManualDiameter", "rcManualDiameterUnit", "rcManualError",
         "rcBackingModel", "rcBackingLb", "rcBackingModeButton", "rcBackingModeStatus", "rcBackingControls",
@@ -196,6 +196,7 @@
       });
       el.spool.addEventListener("change", function() {
         state.selectedSpoolYards = positiveNumber(el.spool.value) || 0;
+        renderSelectedLineOffer();
         setSuggestedWorkingAmount(false);
         track("line_page_spool_selected", Object.assign(baseEventParameters(), selectedLineParameters(), {
           spool_length_yd: state.selectedSpoolYards
@@ -445,6 +446,20 @@
         return { value: String(yards), label: (pack ? pack.meters + " m (about " + formatYards(yards) + ")" : formatYards(yards)) + " retail spool" };
       }), "No verified spool length", String(state.selectedSpoolYards || ""));
       el.spool.options[0].disabled = spools.length > 0;
+      renderSelectedLineOffer();
+    }
+
+    function renderSelectedLineOffer() {
+      if (!el.selectedLineOffer) return;
+      var offer = state.selectedLine && state.selectedSpoolYards > 0 && global.ReelCalcAffiliateLinks
+        ? global.ReelCalcAffiliateLinks.buildRecommendedLineOffer({ affiliateData: state.affiliateData, line: state.selectedLine, spoolYards: state.selectedSpoolYards })
+        : null;
+      el.selectedLineOffer.hidden = !offer;
+      el.selectedLineOffer.innerHTML = offer
+        ? lineOfferLink(offer, state.selectedLine, "mainline", state.selectedSpoolYards, "rcSelectedLineCta") +
+          '<p class="rc-disclosure">As an Amazon Associate, ReelCalc earns from qualifying purchases. Check the strength and spool length before buying.</p>'
+        : "";
+      if (offer) bindLineOfferLinks(el.selectedLineOffer, null, "line_selection");
     }
 
     function offeredSpools(line) {
@@ -605,6 +620,14 @@
       if (el.workingYardsLabel) el.workingYardsLabel.textContent = state.capacityOnly
         ? "Estimated full-spool amount (yards)"
         : "Main line to put on the reel (yards)";
+      if (el.fullSpoolResult && el.workingYardsField) {
+        el.fullSpoolResult.hidden = !state.capacityOnly;
+        el.workingYardsField.hidden = state.capacityOnly;
+        var fullSpoolYards = activeReel() && state.selectedLine ? fullCapacity(activeReel(), state.selectedLine) : 0;
+        el.fullSpoolAmount.textContent = fullSpoolYards > 0 ? formatYards(fullSpoolYards)
+          : state.reelSource === "manual" ? "Enter reel specs" : "Choose a reel";
+        el.fullSpoolAmount.classList.toggle("is-empty", !(fullSpoolYards > 0));
+      }
       if (el.fullSpoolHelp) {
         el.fullSpoolHelp.hidden = !state.capacityOnly;
         el.fullSpoolHelp.textContent = activeReel() && state.selectedLine
@@ -1133,25 +1156,29 @@
 
     function lineOfferLink(offer, line, role, spoolYards, id) {
       if (!offer || !line) return "";
-      var className = id === "rcAffiliateCta" ? "rc-button rc-button-affiliate" : "rc-line-offer";
+      var className = id === "rcAffiliateCta" || id === "rcSelectedLineCta" ? "rc-button rc-button-affiliate" : "rc-line-offer";
+      var label = id === "rcSelectedLineCta"
+        ? (offer.matchType === "generic_search" ? "Find this line on " : "Check price on ") + escapeHtml(offer.retailerName)
+        : 'Check ' + escapeHtml(lineLabel(line)) + (spoolYards ? " - " + formatYards(spoolYards) : " backing") + ' on ' + escapeHtml(offer.retailerName);
       return '<a class="' + className + '"' + (id ? ' id="' + id + '"' : '') + ' href="' + escapeHtml(offer.url) +
         '" target="_blank" rel="sponsored nofollow noopener" data-affiliate-line="' + escapeHtml(line.id) + '" data-affiliate-role="' + role +
-        '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-spool-yards="' + (spoolYards || "") + '">Check ' + escapeHtml(lineLabel(line)) +
-        (spoolYards ? " - " + formatYards(spoolYards) : " backing") + ' on ' + escapeHtml(offer.retailerName) + '</a>';
+        '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-spool-yards="' + (spoolYards || "") + '">' + label + '</a>';
     }
 
     function bindLineOfferLinks(container, reel, source) {
       Array.from(container.querySelectorAll("[data-affiliate-line]")).forEach(function(link) {
         link.addEventListener("click", function() {
           var line = state.lines.find(function(item) { return item.id === link.dataset.affiliateLine; });
-          if (!line || !reel) return;
+          if (!line) return;
+          var selectedReel = source === "line_selection" ? activeReel() : reel;
           var parameters = Object.assign(baseEventParameters(), {
             line_id: line.id, line_brand: line.brand, line_model: line.model, line_type: normalizedType(line.type),
             selected_lb_test: Number(line.lb), diameter_mm: rounded(Number(line.dia_in) * 25.4, 3),
-            reel_id: reel.id, reel_brand: reel.brand, reel_series: reel.model, reel_size: reel.size_label || reel.size_class || "",
             line_role: link.dataset.affiliateRole, retailer: link.dataset.retailer,
             selection_source: source, destination: "retailer"
           });
+          if (selectedReel) Object.assign(parameters, { reel_id: selectedReel.id, reel_brand: selectedReel.brand,
+            reel_series: selectedReel.model, reel_size: selectedReel.size_label || selectedReel.size_class || "" });
           if (Number(link.dataset.spoolYards) > 0) parameters.spool_length_yd = Number(link.dataset.spoolYards);
           track("line_page_affiliate_click", parameters);
         });

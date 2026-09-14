@@ -150,10 +150,10 @@ for (const type of ["braid", "fluorocarbon", "monofilament"]) {
   });
   assert(html.includes('id="rcManualReel"'), `${type}: manual entry is missing.`);
   if (type === "braid") {
-    assert(html.includes("Use its braid capacity rating if available. Otherwise, use its mono rating."));
+    assert(html.includes("Use its braid rating if available. Otherwise, use its mono rating."));
     assert(html.includes('<option value="braid">Braid rating</option>'));
   } else {
-    assert(html.includes(`Use its mono capacity rating for this ${type === "fluorocarbon" ? "fluorocarbon" : "mono"} line.`));
+    assert(html.includes(`Use its mono rating for this ${type === "fluorocarbon" ? "fluorocarbon" : "mono"} line.`));
     assert(!html.includes('<option value="braid">Braid rating</option>'));
   }
   assert(!html.includes("A capacity comparison is not a strength, durability, or casting-performance test."));
@@ -201,7 +201,7 @@ for (const productId of Object.keys(products)) {
     const expectedStrengths = lines.filter(line => line.brand === product.brand && line.model === product.model && line.type === product.lineType && !product.excludedLineIds.includes(line.id) && line.lb > 0 && line.dia_in > 0).length;
     assert.equal([...html.matchAll(/data-select-line="/g)].length, expectedStrengths, `${productId} chart must include every offered strength.`);
     assert(html.indexOf('id="use-this-line"') < html.indexOf('id="diameter-chart"'), "The calculator must precede the full chart.");
-    for (const id of ["rcStrength", "rcSpool", "rcCalculate", "rcResults", "rcStrengthWizard"]) {
+    for (const id of ["rcStrength", "rcSpool", "rcCalculate", "rcResults", "rcStrengthWizard", "rcManualReel", "rcFullSpoolAmount", "rcSelectedLineOffer"]) {
       assert.equal([...html.matchAll(new RegExp(`id="${id}"`, "g"))].length, 1, `${id} must be unique.`);
     }
     assert(html.indexOf('id="product-fit-title"') < html.indexOf('id="use-this-line"'), "Product suitability must precede the calculator.");

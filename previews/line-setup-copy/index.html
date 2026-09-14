@@ -15,13 +15,17 @@
 <body>
   <header>
     <label>Page <select id="page">
+      <option value="maxima-ultragreen">Ultragreen mono</option>
       <option value="daiwa-j-braid-grand-x8">Grand X8 braid</option>
+      <option value="seaguar-invizx">InvizX fluorocarbon</option>
       <option value="sunline-assassin-fc">Assassin fluorocarbon</option>
       <option value="maxima-chameleon">Chameleon mono</option>
       <option value="spro-finesse-fluorocarbon-leader">SPRO leader</option>
     </select></label>
     <label>Width <select id="width"><option>320</option><option>390</option><option>1200</option></select></label>
     <button id="fit" type="button">Setup section</button>
+    <button id="calculator" type="button">Calculator</button>
+    <button id="result" type="button">Full-spool result</button>
   </header>
   <output id="metrics"></output>
   <iframe id="preview" title="Line page preview"></iframe>
@@ -31,18 +35,24 @@
     function loadPage() { frame.src = '../../examples/line-pages/' + page.value + '.html'; }
     page.addEventListener('change', loadPage);
     document.getElementById('width').addEventListener('change', event => { frame.style.width = event.target.value + 'px'; });
-    document.getElementById('fit').addEventListener('click', () => {
+    function inspectSection(section) {
       const headings = [...frame.contentDocument.querySelectorAll('h2')];
-      const heading = headings.find(item => /right for your setup/i.test(item.textContent));
+      const heading = section ? frame.contentDocument.querySelector(section) : headings.find(item => /right for your setup/i.test(item.textContent));
       if (heading) heading.scrollIntoView();
       window.scrollTo(0, 0);
       const d = frame.contentDocument;
       document.getElementById('metrics').textContent = JSON.stringify({
         width: d.documentElement.clientWidth,
         scrollWidth: d.documentElement.scrollWidth,
-        brokenImages: [...d.images].filter(image => !image.complete || !image.naturalWidth).length
+        brokenImages: [...d.images].filter(image => !image.complete || !image.naturalWidth).length,
+        capacity: d.getElementById('rcFullSpoolAmount')?.textContent,
+        capacityColor: d.getElementById('rcFullSpoolAmount') ? frame.contentWindow.getComputedStyle(d.getElementById('rcFullSpoolAmount')).color : null,
+        capacityBelowHeading: d.getElementById('rcFullSpoolResult') ? d.getElementById('rcFullSpoolResult').getBoundingClientRect().top >= d.getElementById('rcFullSpoolResult').parentElement.querySelector('legend').getBoundingClientRect().bottom : null
       });
-    });
+    }
+    document.getElementById('fit').addEventListener('click', () => inspectSection());
+    document.getElementById('calculator').addEventListener('click', () => inspectSection('#use-this-line'));
+    document.getElementById('result').addEventListener('click', () => inspectSection('#rcFullSpoolResult'));
     loadPage();
   </script>
 </body>
