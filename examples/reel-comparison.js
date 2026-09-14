@@ -943,12 +943,18 @@
 
     var fitA = lineFitForReel(state.reelA, mainLine, backingLine, desiredYards);
     var fitB = lineFitForReel(state.reelB, mainLine, backingLine, desiredYards);
+    var ratingWarnings = [state.reelA, state.reelB].map(function(reel) {
+      var assessment = window.ReelCalcCore.assessReelCapacityRatings
+        ? window.ReelCalcCore.assessReelCapacityRatings(reel, state.lines) : null;
+      return assessment && assessment.warning
+        ? '<div class="rc-rating-warning" data-capacity-rating-warning><strong>' + escapeHtml(displayName(reel)) + ': ' + escapeHtml(assessment.title) + '</strong><p>' + escapeHtml(assessment.message) + '</p></div>' : "";
+    }).join("");
     elements.lineFitSummary.innerHTML = state.backingEnabled
       ? "Comparing <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> over <strong>" +
         escapeHtml(lineLabel(backingLine)) + "</strong>, with <strong>" + escapeHtml(trimNumber(desiredYards, 0)) +
         " yards of main line</strong>."
       : "Comparing a full spool of <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> with no backing.";
-    elements.lineFitComparison.innerHTML = comparisonTable([
+    elements.lineFitComparison.innerHTML = ratingWarnings + comparisonTable([
       { label: "Full spool estimate", a: capacityFitHtml(fitA), b: capacityFitHtml(fitB) },
       { label: "Backing needed", a: backingFitHtml(fitA, desiredYards), b: backingFitHtml(fitB, desiredYards) },
       { label: "Main-line handle turns", a: fitA.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitA.mainTurns), b: fitB.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitB.mainTurns) },

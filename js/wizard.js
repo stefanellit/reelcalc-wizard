@@ -1586,6 +1586,14 @@ function recommendationAffiliateHtml(line, fullCapacity, capacityRange) {
   return html;
 }
 
+function capacityRatingWarningHtml(reel, comparison) {
+  var assessment = window.ReelCalcCore.assessReelCapacityRatings
+    ? window.ReelCalcCore.assessReelCapacityRatings(reel, state.lines) : null;
+  if (!assessment || !assessment.warning) return "";
+  return '<div class="empty-state warning-box" data-capacity-rating-warning><strong>' + escapeHtml(assessment.title) +
+    '</strong><p>' + escapeHtml(comparison ? assessment.comparisonMessage : assessment.message) + '</p></div>';
+}
+
 function renderCapacityResult() {
   var reel = getActiveReel();
   var line = getActiveMainLine();
@@ -1621,6 +1629,7 @@ function renderCapacityResult() {
   var lineLabel = formatActiveLineShort(line);
   var braidCapacityNote = braidCapacityRangeNote(reel, line, capacityRange, false);
   var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
+  html += capacityRatingWarningHtml(reel);
   html += "<div class=\"capacity-hero\">";
   html += "<div><span class=\"eyebrow\">" + (capacityRange ? "Best full-spool estimate" : "Estimated full-spool capacity") + "</span><strong class=\"capacity-number\">" + formatNumber(yardsToDisplayLength(capacityRange ? capacityRange.centerYards : capacity), capacityRange ? 0 : 1) + "</strong><p>" + lengthUnitLong() + " of " + escapeHtml(lineLabel) + "</p>" + (capacityRange ? "<p class=\"capacity-range-note\"><strong>Expected real-world range:</strong> " + formatCapacityRange(capacityRange, true) + "</p>" : "") + "</div>";
   html += "</div>";
@@ -1677,6 +1686,7 @@ function renderBackingResult() {
     return;
   }
   var html = "<div class=\"result-box" + (result.overCapacity ? " error-box" : "") + "\">";
+  html += capacityRatingWarningHtml(reel);
   if (result.overCapacity) {
     html += "<p><strong>That is more line than this reel is estimated to hold.</strong> Use less main line or a thinner line.</p>";
   } else {
@@ -1748,7 +1758,7 @@ function renderSimilarLines() {
     return block;
   }).join("");
   el.similarLines.className = "";
-  el.similarLines.innerHTML = html;
+  el.similarLines.innerHTML = capacityRatingWarningHtml(reel, true) + html;
 }
 
 function findSimilarDiameterLines(lines, diameterIn, reel, excludeId) {

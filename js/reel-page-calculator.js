@@ -576,6 +576,9 @@
         return;
       }
       var braidRange = core.calculateActualLineBraidCapacityRange(reel, mainLine, preparedLines);
+      var ratingAssessment = core.assessReelCapacityRatings ? core.assessReelCapacityRatings(reel, preparedLines) : null;
+      var ratingWarning = ratingAssessment && ratingAssessment.warning
+        ? '<div class="practical-warning" data-capacity-rating-warning><strong>' + escapeHtml(ratingAssessment.title) + '</strong><br>' + escapeHtml(ratingAssessment.message) + '</div>' : "";
       var basisText = basisExplanation(basis, mainLine, braidRange);
       var capacityBasisKey = [basis.type, mainLine.id || "custom", mainLine.lb].join("|");
       if (capacityBasisKey !== state.lastCapacityBasisKey) {
@@ -599,7 +602,7 @@
         output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">' + (braidRange ? "Best full-spool estimate" : "Estimated full-spool capacity") + '</span><strong class="result-number">' + escapeHtml(capacityDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(mainLine)) + '</p>' + capacityRangeSummary + '</div>' +
           '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
           '<div class="setup-summary"><div class="summary-item"><span>Reel</span><strong>' + escapeHtml(displayName(reel)) + '</strong></div><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + '</strong></div></div>' +
-          practicalLineWarning(mainLine) +
+          ratingWarning + practicalLineWarning(mainLine) +
           '<p class="result-note">' + escapeHtml(capacityNote) + '</p>' +
           '<div class="affiliate-grid">' + affiliateCard(mainLine, braidRange ? braidRange.centerYards : basis.capacityYards, "main", braidRange ? braidRange.maximumYards : basis.capacityYards) + '</div>' +
           handleTurnsHtml(basis.capacityYards, null) + "</section>";
@@ -618,7 +621,7 @@
       }
       var result = core.calculateActualLineCalibratedBacking(reel, mainLine, desiredYards, backingLine, preparedLines);
       if (!result || result.overCapacity) {
-        output.innerHTML = '<div class="error">That main-line amount is greater than this reel is estimated to hold. Use less main line or choose a thinner line.</div>';
+        output.innerHTML = ratingWarning + '<div class="error">That main-line amount is greater than this reel is estimated to hold. Use less main line or choose a thinner line.</div>';
         return;
       }
       var backingRange = core.calculateActualLineCalibratedBackingRange(reel, mainLine, desiredYards, backingLine, preparedLines);
@@ -632,7 +635,7 @@
       output.innerHTML = '<section class="result"><div class="result-head"><span class="result-kicker">' + (backingRange ? "Best backing estimate" : "Estimated backing needed") + '</span><strong class="result-number">' + escapeHtml(backingDisplay) + '</strong><p class="result-subtitle">of ' + escapeHtml(lineLabel(backingLine)) + '</p>' + backingRangeSummary + '</div>' +
         '<div class="basis"><button type="button" class="info-button" data-action="capacity-info" aria-label="How ReelCalc chooses a capacity rating">i</button><span>' + escapeHtml(basisText) + '</span></div>' +
         '<div class="setup-summary"><div class="summary-item"><span>Main line</span><strong>' + escapeHtml(lineLabel(mainLine)) + " - " + escapeHtml(lengthLabel(desiredYards, 1)) + '</strong></div><div class="summary-item"><span>Backing</span><strong>' + escapeHtml(lineLabel(backingLine)) + " - " + escapeHtml(backingDisplay) + '</strong></div></div>' +
-        practicalLineWarning(mainLine) +
+        ratingWarning + practicalLineWarning(mainLine) +
         (backingNote ? '<p class="result-note">' + escapeHtml(backingNote) + '</p>' : "") +
         savingsHtml(mainLine, desiredYards, result.backingYards, basis.capacityYards) +
         '<div class="affiliate-grid">' + affiliateCard(mainLine, desiredYards, "main", desiredYards) + affiliateCard(backingLine, result.backingYards, "backing", backingRange ? backingRange.maximumYards : result.backingYards) + '</div>' +
@@ -819,7 +822,7 @@
     var affiliatesUrl = mount.dataset.affiliatesUrl ? new URL(mount.dataset.affiliatesUrl, document.baseURI).href : assetUrl("data/reel-affiliates.json");
 
     Promise.all([
-      loadScript("js/calculator-core.js?v=8", "ReelCalcCore"),
+      loadScript("js/calculator-core.js?v=9", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
       loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
       loadJson(reelsUrl),

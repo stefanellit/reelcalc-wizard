@@ -617,6 +617,13 @@ a:hover {
   font-size: 0.82rem;
 }
 
+.rc-rating-warning {
+  border-left-color: #ad7b00;
+  background: #fff8e5;
+  color: #5f4607;
+  line-height: 1.5;
+}
+
 .rc-error {
   margin: 18px 22px;
   padding: 14px;

@@ -678,6 +678,45 @@
     return actualLineBraidCapacityEstimate(reel, line, lineCatalog);
   }
 
+  function assessReelCapacityRatings(reel, lineCatalog) {
+    if (!reel || reel.id === "manual-reel" || reel.manualRating || reel.manual_reel_entry_mode ||
+        reel.capacity_reference_type === "braid" || !isReelReady(reel) ||
+        !Array.isArray(lineCatalog) || !lineCatalog.length) return null;
+
+    // Compare all usable references at one common diameter, not different lb tests.
+    var probeDiameter = 0.01;
+    var braid = actualLineBraidCapacityEstimate(reel, { type: "Braid", lb: 20, dia_in: probeDiameter }, lineCatalog);
+    if (!braid) return null;
+    var monoRatings = [{ yards: reel.capacity_yards, diameter_in: reel.rated_line_diameter_in }]
+      .concat(Array.isArray(reel.capacity_options) ? reel.capacity_options : []);
+    var monoYards = monoRatings.filter(function(rating) { return rating && Number(rating.yards) > 0 && Number(rating.diameter_in) > 0; }).map(function(rating) {
+      return calculateLineCapacityFromDiameter(Number(rating.yards), Number(rating.diameter_in), probeDiameter);
+    }).filter(function(value) { return Number.isFinite(value) && value > 0; });
+    var braidYards = braid.anchors.map(function(anchor) { return anchor.selectedLineCapacityYards; })
+      .filter(function(value) { return Number.isFinite(value) && value > 0; });
+    if (!monoYards.length || !braidYards.length) return null;
+    var monoMin = Math.min.apply(Math, monoYards);
+    var monoMax = Math.max.apply(Math, monoYards);
+    var braidMin = Math.min.apply(Math, braidYards);
+    var braidMax = Math.max.apply(Math, braidYards);
+    var separatedRatio = Math.max(monoMin / braidMax, braidMin / monoMax);
+    // A screening rule, not a validated packing tolerance or proof of a bad rating.
+    return {
+      warning: separatedRatio >= 2,
+      separatedRatio: separatedRatio,
+      threshold: 2,
+      probeDiameterIn: probeDiameter,
+      monoMinimumYards: monoMin,
+      monoMaximumYards: monoMax,
+      braidMinimumYards: braidMin,
+      braidMaximumYards: braidMax,
+      braidReferenceQuality: braid.referenceQuality,
+      title: "Capacity ratings don't line up",
+      message: "This reel's published mono and braid ratings give very different estimates using ReelCalc's reference diameters. The diameters behind the reel ratings may differ, so this does not prove a misprint. Treat capacity, backing amounts, and any shown ranges with extra caution. Check your spool's markings and stop at the recommended fill level, even if line remains.",
+      comparisonMessage: "Similar diameters can show very different amounts here because this reel's mono and braid ratings lead to conflicting estimates. The displayed ranges do not account for that conflict. Watch the spool fill rather than relying on the yardage alone."
+    };
+  }
+
   function capacityBasisForActualLine(reel, line, lineCatalog) {
     if (!line || !isLineReady(line)) return null;
     if (!isBraidLine(line)) return capacityBasisForLine(reel, line);
@@ -966,6 +1005,7 @@
     calculateBraidCapacityRange: calculateBraidCapacityRange,
     actualLineBraidCapacityEstimate: actualLineBraidCapacityEstimate,
     calculateActualLineBraidCapacityRange: calculateActualLineBraidCapacityRange,
+    assessReelCapacityRatings: assessReelCapacityRatings,
     capacityBasisForLine: capacityBasisForLine,
     capacityBasisForActualLine: capacityBasisForActualLine,
     calculateCalibratedBacking: calculateCalibratedBacking,

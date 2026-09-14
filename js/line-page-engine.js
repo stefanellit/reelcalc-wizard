@@ -679,6 +679,10 @@
       }
 
       state.lastResult = result;
+      var ratingAssessment = global.ReelCalcCore.assessReelCapacityRatings
+        ? global.ReelCalcCore.assessReelCapacityRatings(result.reel, calibrationCatalog()) : null;
+      var ratingWarning = ratingAssessment && ratingAssessment.warning
+        ? '<div class="rc-notice rc-rating-warning" data-capacity-rating-warning><strong>' + escapeHtml(ratingAssessment.title) + '</strong><br>' + escapeHtml(ratingAssessment.message) + '</div>' : "";
       var capacityDisplay = result.capacityRange
         ? formatYards(result.capacityRange.centerYards) + '<small>Expected range: ' + formatYards(result.capacityRange.minimumYards) + "-" + formatYards(result.capacityRange.maximumYards) + "</small>"
         : formatYards(result.fullCapacity);
@@ -706,7 +710,7 @@
       el.results.innerHTML = '<div class="rc-result-head"><span class="rc-eyebrow">Your ReelCalc setup</span><h3>' +
         escapeHtml(lineLabel(result.line)) + " on " + escapeHtml(reelLabel(result.reel)) +
         '</h3><p>' + escapeHtml(planSummary) + '</p></div>' +
-        '<div class="rc-result-grid">' +
+        ratingWarning + '<div class="rc-result-grid">' +
           '<div class="rc-result-metric"><span>Estimated full spool</span><strong>' + capacityDisplay + "</strong></div>" +
           '<div class="rc-result-metric"><span>' + (state.capacityOnly ? 'Full-spool amount' : 'Planned main line') + '</span><strong>' + formatYards(result.workingYards) + '</strong><small>' + escapeHtml(lineLabel(result.line)) + "</small></div>" +
           '<div class="rc-result-metric"><span>Calculated backing</span><strong>' + backingDisplay + "</strong></div>" +

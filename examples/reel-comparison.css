@@ -1044,6 +1044,21 @@ a:focus-visible {
   font-weight: 800;
 }
 
+.rc-rating-warning {
+  background: #fff8e5;
+  border-left: 4px solid #ad7b00;
+  color: #5f4607;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  overflow-wrap: anywhere;
+}
+
+.rc-rating-warning p {
+  margin: 6px 0 0;
+}
+
 .rc-fit-basis {
   color: var(--rc-muted);
   font-size: 12px;
