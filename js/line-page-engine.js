@@ -937,9 +937,9 @@
           !sameProduct(line, selected);
       }));
       var groups = [
-        { key: "thinner", label: "thinner", lines: [] },
-        { key: "same", label: "same-diameter", lines: [] },
-        { key: "thicker", label: "thicker", lines: [] }
+        { key: "thinner", label: "thinner", comparison: "that are thinner than", lines: [] },
+        { key: "same", label: "same-diameter", comparison: "with the same diameter as", lines: [] },
+        { key: "thicker", label: "thicker", comparison: "that are thicker than", lines: [] }
       ];
       comparable.sort(function(a, b) { return Number(a.dia_in) - Number(b.dia_in) || compareLines(a, b); }).forEach(function(line) {
         var difference = Number(line.dia_in) - Number(selected.dia_in);
@@ -952,7 +952,7 @@
           var label = group.lines.length + " " + group.label + " " + (group.lines.length === 1 ? "line" : "lines");
           if (!group.lines.length) return '<p class="rc-diameter-empty">' + label + '</p>';
           return '<details class="rc-diameter-group" data-diameter-group="' + group.key + '"' + (group === firstGroup && group.lines.length <= 6 ? ' open' : '') +
-            '><summary>' + label + '</summary><table class="rc-table rc-diameter-matches"><caption>' + cleanNumber(selected.lb, 0) + ' lb lines compared with ' + escapeHtml(lineLabel(selected)) +
+            '><summary>' + label + '</summary><table class="rc-table rc-diameter-matches"><caption>Other ' + cleanNumber(selected.lb, 0) + ' lb lines ' + group.comparison + ' ' + escapeHtml(lineLabel(selected)) +
             '</caption><thead><tr><th scope="col">Line</th><th scope="col">Listed diameter</th></tr></thead><tbody>' + group.lines.map(function(line) {
               return '<tr data-comparable-line="' + escapeHtml(line.id) + '"><td>' + escapeHtml(line.brand + " " + line.model + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "")) + '</td><td>' + cleanNumber(line.dia_in, 6) + ' in</td></tr>';
             }).join("") + '</tbody></table></details>';

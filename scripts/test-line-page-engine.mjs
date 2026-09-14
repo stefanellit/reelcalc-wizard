@@ -128,6 +128,15 @@ assert(offer.url.includes("tag=reelcalc-20"), "Amazon affiliate tag is missing."
 assert(offer.query.includes("150 yard spool"), "Affiliate search does not contain the selected spool length.");
 
 const linePageEngine = fs.readFileSync(path.join(root, "js", "line-page-engine.js"), "utf8");
+for (const [group, wording] of [
+  ["thinner", "that are thinner than"],
+  ["same", "with the same diameter as"],
+  ["thicker", "that are thicker than"]
+]) {
+  assert.match(linePageEngine, new RegExp(`key: "${group}", label: "[^"]+", comparison: "${wording}"`), `${group} comparisons need a group-specific description.`);
+}
+assert(linePageEngine.includes("<caption>Other ' + cleanNumber(selected.lb, 0) + ' lb lines ' + group.comparison + ' ' + escapeHtml(lineLabel(selected))"), "Comparison captions must name the selected strength and line.");
+assert(!linePageEngine.includes("lb lines compared with"), "Comparison groups must not use the old generic caption.");
 const xlExpected = [
   [2,.005,.12,330],[4,.008,.20,330],[6,.009,.22,330],[8,.010,.25,330],
   [10,.011,.27,300],[12,.013,.33,300],[14,.014,.35,300],[17,.015,.38,300],
