@@ -9,7 +9,7 @@
     if (document.querySelector("link[data-line-guide-host-css]")) return;
     var link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = new URL("css/squarespace-line-page.css?v=3", base).href;
+    link.href = new URL("css/squarespace-line-page.css?v=4", base).href;
     link.dataset.lineGuideHostCss = "true";
     document.head.appendChild(link);
   }
@@ -126,12 +126,30 @@
     return directory;
   }
 
+  function initializeCollection(base) {
+    document.body.classList.add("reelcalc-line-collection");
+    stylesheet(base);
+    var heading = document.querySelector("main h1");
+    var section = heading && heading.closest(".page-section");
+    if (!section) return;
+    section.classList.add("reelcalc-line-collection-intro");
+    var introduction = section.querySelector("p");
+    if (!introduction) return;
+    introduction.classList.add("reelcalc-collection-introduction");
+    if (section.querySelector(".reelcalc-collection-directory-link")) return;
+    var link = document.createElement("a");
+    link.className = "reelcalc-collection-directory-link";
+    link.href = "/fishing-line-setup-guides#reelcalc-line-guide-directory";
+    link.textContent = "Browse the organized guide directory";
+    introduction.insertAdjacentElement("afterend", link);
+  }
+
   function initialize(options) {
     var base = new URL(options.base, document.baseURI).href;
     var pathname = location.pathname.replace(/\/+$/, "");
     if (pathname === "/fishing-line-setup-guides") return initializeDirectory(base);
     if (/^\/lines(?:\/|$)/.test(pathname) && !/^\/lines\/p(?:\/|$)/.test(pathname)) {
-      document.body.classList.add("reelcalc-line-collection"); stylesheet(base); return Promise.resolve(true);
+      initializeCollection(base); return Promise.resolve(true);
     }
     var detail = document.querySelector(".product-detail, .ProductItem");
     if (!detail || (!detail.classList.contains("tag-reelcalc-line-guide") && !/^\/lines\/p\/[^/]+$/.test(pathname))) return Promise.resolve(false);

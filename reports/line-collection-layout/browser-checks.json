@@ -1,0 +1,277 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "/lines at 320",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/320",
+      "pass": true
+    },
+    {
+      "name": "/lines at 390",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/390",
+      "pass": true
+    },
+    {
+      "name": "/lines at 720",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/720",
+      "pass": true
+    },
+    {
+      "name": "/lines at 768",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/768",
+      "pass": true
+    },
+    {
+      "name": "/lines at 1280",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/1280",
+      "pass": true
+    },
+    {
+      "name": "Repeat initialization /lines",
+      "pass": true
+    },
+    {
+      "name": "/lines/line-guides at 320",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/line-guides/320",
+      "pass": true
+    },
+    {
+      "name": "/lines/line-guides at 390",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/line-guides/390",
+      "pass": true
+    },
+    {
+      "name": "/lines/line-guides at 720",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/line-guides/720",
+      "pass": true
+    },
+    {
+      "name": "/lines/line-guides at 768",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/line-guides/768",
+      "pass": true
+    },
+    {
+      "name": "/lines/line-guides at 1280",
+      "pass": true
+    },
+    {
+      "name": "Guide addresses retained /lines/line-guides/1280",
+      "pass": true
+    },
+    {
+      "name": "Repeat initialization /lines/line-guides",
+      "pass": true
+    },
+    {
+      "name": "Other stores untouched",
+      "pass": true
+    },
+    {
+      "name": "Detail route does not get directory styling",
+      "pass": true
+    },
+    {
+      "name": "Reel collection retains its compact cards",
+      "pass": true
+    }
+  ],
+  "runs": [
+    {
+      "path": "/lines",
+      "width": 320,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 1,
+      "headingSize": "34px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines",
+      "width": 390,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 1,
+      "headingSize": "34px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines",
+      "width": 720,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 1,
+      "headingSize": "34px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines",
+      "width": 768,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 3,
+      "headingSize": "52px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines",
+      "width": 1280,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 3,
+      "headingSize": "52px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines/line-guides",
+      "width": 320,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 1,
+      "headingSize": "34px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines/line-guides",
+      "width": 390,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 1,
+      "headingSize": "34px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines/line-guides",
+      "width": 720,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 1,
+      "headingSize": "34px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines/line-guides",
+      "width": 768,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 3,
+      "headingSize": "52px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    },
+    {
+      "path": "/lines/line-guides",
+      "width": 1280,
+      "cards": 120,
+      "visibleCards": 120,
+      "columns": 3,
+      "headingSize": "52px",
+      "titleSize": "16px",
+      "overflow": false,
+      "clippedCards": 0,
+      "overlaps": false,
+      "visibleImages": 0,
+      "visibleShopping": 0,
+      "visibleCategories": 0,
+      "directoryLinks": 1,
+      "introClear": true
+    }
+  ]
+}

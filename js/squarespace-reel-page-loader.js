@@ -628,11 +628,11 @@
       if (!document.querySelector("link[data-line-guide-host-css]")) {
         var lineStyle = document.createElement("link");
         lineStyle.rel = "stylesheet";
-        lineStyle.href = assetUrl("css/squarespace-line-page.css?v=3");
+        lineStyle.href = assetUrl("css/squarespace-line-page.css?v=4");
         lineStyle.dataset.lineGuideHostCss = "true";
         document.head.appendChild(lineStyle);
       }
-      loadScript("js/squarespace-line-page-loader.js?v=4", "ReelCalcSquarespaceLinePages").then(function(pages) {
+      loadScript("js/squarespace-line-page-loader.js?v=5", "ReelCalcSquarespaceLinePages").then(function(pages) {
         return pages.initialize({ base: assetBase.href, slug: loaderScript.dataset.pageSlug });
       }).catch(function(error) {
         console.warn("ReelCalc line guide could not load. The imported guide remains available.", error);

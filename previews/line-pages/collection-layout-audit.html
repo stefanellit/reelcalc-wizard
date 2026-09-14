@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Collection layout audit</title>
+<style>body{font:14px Arial;margin:12px}button{padding:8px}iframe{display:block;border:1px solid #ccc;height:850px;margin-top:12px}pre{white-space:pre-wrap}#report{max-height:140px;overflow:auto}</style></head>
+<body><button id="run">Run layout checks</button> <button id="desktop">Desktop preview</button> <button id="mobile">Phone preview</button><pre id="report">Ready</pre><iframe title="Line directory preview" width="1280"></iframe>
+<script>
+const frame=document.querySelector('iframe'), report=document.querySelector('#report');
+const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function load(kind,path){
+  frame.src='./collection-layout/'+kind+'.html'+(path?'?path='+encodeURIComponent(path):'');
+  await new Promise(resolve=>frame.onload=resolve);
+  for(let i=0;i<200;i++){
+    const d=frame.contentDocument;
+    if(d.querySelector('link[data-line-guide-host-css]')?.sheet || kind==='reel-pages'&&d.body.classList.contains('reelcalc-reel-collection')&&d.querySelector('.reelcalc-collection-directory-link')) return;
+    if(path==='/ordinary-shop'||path?.startsWith('/lines/p/')){await pause(500);return;}
+    await pause(50);
+  }
+  throw Error('Styles did not load');
+}
+function metrics(){
+  const d=frame.contentDocument,w=frame.contentWindow,visible=n=>n.getClientRects().length>0;
+  const cards=[...d.querySelectorAll('.product-list-item')],grid=d.querySelector('.product-list-layout-container');
+  const boxes=cards.map(n=>n.getBoundingClientRect());
+  const h=d.querySelector('main h1'),intro=d.querySelector('.reelcalc-collection-introduction'),link=d.querySelector('.reelcalc-collection-directory-link');
+  return {
+    width:w.innerWidth,cards:cards.length,visibleCards:cards.filter(n=>visible(n)&&w.getComputedStyle(n).opacity==='1'&&w.getComputedStyle(n).visibility==='visible').length,columns:w.getComputedStyle(grid).gridTemplateColumns.split(' ').length,
+    headingSize:w.getComputedStyle(h).fontSize,titleSize:w.getComputedStyle(cards[0].querySelector('.product-list-item-title')).fontSize,
+    overflow:d.documentElement.scrollWidth>d.documentElement.clientWidth+1,
+    clippedCards:cards.filter(n=>n.scrollWidth>n.clientWidth+1||n.scrollHeight>n.clientHeight+1).length,
+    overlaps:boxes.some((a,i)=>boxes.slice(i+1).some(b=>a.left<b.right-1&&a.right>b.left+1&&a.top<b.bottom-1&&a.bottom>b.top+1)),
+    visibleImages:[...d.querySelectorAll('.product-list-image-wrapper')].filter(visible).length,
+    visibleShopping:[...d.querySelectorAll('.product-list-item-price,.sqs-add-to-cart-button')].filter(visible).length,
+    visibleCategories:[...d.querySelectorAll('.product-list-category-select-container,.nested-category-children')].filter(visible).length,
+    directoryLinks:d.querySelectorAll('.reelcalc-collection-directory-link').length,
+    introClear:!!intro&&!!link&&h.getBoundingClientRect().bottom<=intro.getBoundingClientRect().top&&intro.getBoundingClientRect().bottom<=link.getBoundingClientRect().top&&link.getBoundingClientRect().bottom<=grid.getBoundingClientRect().top,
+    guideLinks:cards.map(n=>n.querySelector('a').getAttribute('href'))
+  };
+}
+document.querySelector('#desktop').onclick=async()=>{frame.style.width='1280px';frame.style.transform='scale('+Math.min(1,(innerWidth-30)/1280)+')';frame.style.transformOrigin='top left';await load('lines');};
+document.querySelector('#mobile').onclick=async()=>{frame.style.width='390px';frame.style.transform='none';await load('lines');};
+document.querySelector('#run').onclick=async()=>{
+  const checks=[],runs=[];const check=(name,pass)=>checks.push({name,pass:!!pass});
+  report.textContent='Running...';frame.style.transform='none';
+  try {
+    await load('lines');const original=metrics().guideLinks;
+    for(const path of ['/lines','/lines/line-guides']){
+      await load('lines',path);
+      for(const width of [320,390,720,768,1280]){
+        frame.style.width=width+'px';await pause(100);const m=metrics();runs.push({path,...m,guideLinks:undefined});
+        check(path+' at '+width,m.cards===120&&m.visibleCards===120&&m.columns===(width<=720?1:3)&&!m.overflow&&!m.clippedCards&&!m.overlaps&&!m.visibleImages&&!m.visibleShopping&&!m.visibleCategories&&m.introClear&&m.directoryLinks===1&&m.headingSize===(width<=720?'34px':'52px')&&m.titleSize==='16px');
+        check('Guide addresses retained '+path+'/'+width,JSON.stringify(m.guideLinks)===JSON.stringify(original));
+      }
+      await frame.contentWindow.ReelCalcSquarespaceLinePages.initialize({base:new URL('../../',location.href).href});
+      check('Repeat initialization '+path,metrics().directoryLinks===1);
+    }
+    await load('lines','/ordinary-shop');
+    check('Other stores untouched',!frame.contentDocument.body.classList.contains('reelcalc-line-collection')&&!frame.contentDocument.querySelector('.reelcalc-collection-directory-link'));
+    await load('lines','/lines/p/maxima-ultragreen-monofilament-diameter-capacity-guide');
+    check('Detail route does not get directory styling',!frame.contentDocument.body.classList.contains('reelcalc-line-collection'));
+    frame.style.width='1280px';await load('reel-pages');await pause(200);
+    const reel=metrics();
+    check('Reel collection retains its compact cards',reel.columns===3&&reel.titleSize==='16px'&&!reel.visibleImages);
+    await load('lines');
+    report.textContent=JSON.stringify({passed:checks.every(c=>c.pass),checks,runs},null,2);
+  } catch(error) {report.textContent=JSON.stringify({passed:false,error:String(error),checks,runs},null,2);}
+};
+load('lines');
+</script></body></html>
