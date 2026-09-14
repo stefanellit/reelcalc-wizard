@@ -72,7 +72,12 @@ assert.doesNotMatch(html, /undefined|\bTBD\b|\bTODO\b/i, "Page must not contain 
 const hrefs = Array.from(html.matchAll(/href="([^"]+)"/g), (match) => match[1]);
 assert.ok(hrefs.length >= 10, "Page must include the expected source, CTA, and internal links");
 assert.ok(hrefs.every((href) => href && !/^javascript:/i.test(href) && href !== "#"), "Every page link must have a usable destination");
-assert.ok(hrefs.includes("/lines/seaguar-invizx-fluorocarbon-diameter-capacity-guide"), "InvizX guide link must use its published path");
+const guideLinks = JSON.parse(await fs.readFile(path.join(root, "data", "line-guide-links.json"), "utf8"));
+const invizxPath = new URL(guideLinks.guides["seaguar-invizx"].url).pathname;
+for (const content of [html, generated, blogGenerated]) {
+  assert.ok(content.includes(`href="${invizxPath}"`), "InvizX link must match the current published guide catalog");
+  assert.doesNotMatch(content, /href="\/lines\/seaguar-invizx-/, "Never restore the old pre-import InvizX address");
+}
 assert.ok(hrefs.includes("/blog/how-much-backing-do-i-need-on-a-fishing-reel"), "Backing article link must use its published path");
 
 const schemaMatch = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);

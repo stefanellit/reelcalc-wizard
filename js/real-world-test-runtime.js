@@ -11,6 +11,7 @@
   var analyticsPromise = null;
   var affiliateDataPromise = null;
   var lineDataPromise = null;
+  var lineGuideDataPromise = null;
 
   function loadAnalytics() {
     if (window.ReelCalcAnalytics) return Promise.resolve(window.ReelCalcAnalytics);
@@ -82,6 +83,37 @@
     return lineDataPromise;
   }
 
+  function updateLineGuideLinks(page) {
+    var links = Array.from(page.querySelectorAll("a[href]")).filter(function(link) {
+      try {
+        var url = new URL(link.getAttribute("href"), document.baseURI);
+        return [location.origin, "https://www.reelcalc.com", "https://reelcalc.com"].includes(url.origin) &&
+          /^\/lines\/[^/]+\/?$/.test(url.pathname);
+      } catch (_) { return false; }
+    });
+    if (!links.length) return Promise.resolve();
+    // Older Squarespace article copies predate the /lines/p/ collection URLs.
+    if (!lineGuideDataPromise) lineGuideDataPromise = loadJson("data/line-guide-links.json");
+    return lineGuideDataPromise.then(function(data) {
+      var destinations = new Map();
+      Object.values(data.guides || {}).forEach(function(guide) {
+        var url = new URL(guide.url);
+        if (url.origin === "https://www.reelcalc.com" && url.pathname.startsWith("/lines/p/")) {
+          destinations.set(url.pathname.replace("/lines/p/", "/lines/"), url.href);
+        }
+      });
+      links.forEach(function(link) {
+        var old = new URL(link.getAttribute("href"), document.baseURI);
+        var destination = destinations.get(old.pathname.replace(/\/$/, ""));
+        if (!destination) return;
+        var url = new URL(destination);
+        url.search = old.search;
+        url.hash = old.hash;
+        link.href = url.href;
+      });
+    }).catch(function() {});
+  }
+
   function imageUrl(page, file) {
     var base = page.dataset.imageBase || "assets/real-world-tests/";
     return new URL(file, new URL(base, assetBase)).href;
@@ -129,6 +161,7 @@
   }
 
   function initializePage(page) {
+    updateLineGuideLinks(page);
     page.querySelectorAll("[data-test-image]").forEach(function(figure) {
       loadPhoto(figure, page);
     });
