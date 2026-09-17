@@ -862,10 +862,6 @@
 
     function updateSetupUI() {
         const simple = setupMode === "simple";
-        const alternateType = simpleRatingType === "mono" ? "braid" : "mono";
-        if (simple && !ratingHasAnyValue(simpleRatingType) && ratingHasAnyValue(alternateType)) {
-            simpleRatingType = alternateType;
-        }
 
         setSegmentActive("setupSegment", "setup", setupMode);
         setSegmentActive("simpleRatingSegment", "simpleRating", simpleRatingType);
@@ -958,6 +954,11 @@
             const button = event.target.closest(".seg-btn");
             if (!button || !button.dataset.setup || button.dataset.setup === setupMode) return;
             setupMode = button.dataset.setup;
+            // Preserve a populated rating when leaving Detailed Setup, not when choosing a rating.
+            const alternateType = simpleRatingType === "mono" ? "braid" : "mono";
+            if (setupMode === "simple" && !ratingHasAnyValue(simpleRatingType) && ratingHasAnyValue(alternateType)) {
+                simpleRatingType = alternateType;
+            }
             updateSetupUI();
             clearResult();
             refreshInlineValidation();

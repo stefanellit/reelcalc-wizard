@@ -24,7 +24,7 @@ assert.match(loader, /js\/homepage-calculator-v2\.js/);
 assert.match(loader, /js\/calculator-core\.js/);
 assert.match(loader, /data\/homepage-calculator-release\.json/);
 assert.match(loader, /could not load/i);
-assert.equal(release.version, "2");
+assert.equal(release.version, "3");
 
 assert.match(template, /id="reelcalc-homepage-calculator"/);
 assert.match(template, /id="feedbackHelpful"/);
