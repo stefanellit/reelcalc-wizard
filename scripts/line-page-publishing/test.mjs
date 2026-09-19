@@ -10,6 +10,8 @@ const root = process.argv[2] ? path.resolve(process.argv[2]) : path.resolve(path
 const read = name => fs.readFileSync(path.join(root, name), "utf8");
 const attr = (node, name) => node.attrs?.find(a => a.name === name)?.value;
 const all = (node, predicate) => [...(predicate(node) ? [node] : []), ...(node.childNodes || []).flatMap(n => all(n, predicate))];
+const schemaNodes = value => value && typeof value === "object"
+  ? [value, ...Object.values(value).flatMap(schemaNodes)] : [];
 const products = JSON.parse(read("data/line-page-products.json")).products;
 const lines = JSON.parse(read("data/lines.json"));
 const release = JSON.parse(read("data/line-page-release.json"));
@@ -43,12 +45,24 @@ for (const id of release.products) {
     assert.ok(attr(image, "alt"));
     assert.ok(!attr(image, "src").includes("127.0.0.1"));
   }
-  for (const script of all(doc, n => n.tagName === "script")) {
+  const componentScripts = all(doc, n => n.tagName === "script");
+  assert.equal(componentScripts.length, 1, `${id}: expected one component schema block`);
+  for (const script of componentScripts) {
     assert.equal(attr(script, "type"), "application/ld+json");
     const json = JSON.parse(script.childNodes.map(n => n.value || "").join(""));
+    // Informational guides must not advertise a Product, including nested or multi-type nodes.
+    assert.equal(schemaNodes(json).filter(n => [].concat(n["@type"] || []).some(type =>
+      /^(?:https?:\/\/schema\.org\/)?Product$/.test(type))).length, 0, `${id}: informational guide emits Product schema`);
+    for (const type of ["WebPage", "BreadcrumbList", "FAQPage"]) {
+      assert.equal(json["@graph"].filter(n => n["@type"] === type).length, 1, `${id}: missing or duplicate ${type}`);
+    }
     const page = json["@graph"].find(n => n["@type"] === "WebPage");
     assert.equal(page.url, "https://www.reelcalc.com/lines/p/" + product.slug);
     assert.ok(!JSON.stringify(json).includes("aggregateRating"));
+    const example = parse(read(`examples/line-pages/${id}.html`));
+    const exampleSchemas = all(example, n => n.tagName === "script" && attr(n, "type") === "application/ld+json");
+    assert.equal(exampleSchemas.length, 1, `${id}: expected one example schema block`);
+    assert.deepEqual(JSON.parse(exampleSchemas[0].childNodes.map(n => n.value || "").join("")), json, `${id}: example/component schema mismatch`);
   }
   const snippet = read(`generated/line-pages/${id}-squarespace-snippet.html`);
   assert.ok(snippet.length < 700 && !snippet.includes("<style"));

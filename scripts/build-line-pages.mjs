@@ -96,14 +96,6 @@ function jsonLd(product) {
       ]
     },
     {
-      "@type": "Product",
-      name: `${product.brand} ${product.model}`,
-      image: product.imageUrl,
-      description: product.quickSummary,
-      category: `${product.lineType} fishing line`,
-      brand: { "@type": "Brand", name: product.brand }
-    },
-    {
       "@type": "FAQPage",
       mainEntity: product.faqs.map((faq) => ({
         "@type": "Question",
