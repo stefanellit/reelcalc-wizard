@@ -182,6 +182,101 @@
         "shimano": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f000035yx0xqaq.html",
         "seaguar": "https://seaguar.com/products/invizx"
       }
+    },
+    {
+      "id": "reelcalc-real-world-test-003",
+      "number": 3,
+      "slug": "shimano-curado-200hg-mono-respool-test",
+      "canonicalPath": "/reel-tests/shimano-curado-200hg-mono-respool-test",
+      "publicationStatus": "prepared",
+      "reelId": "shimano-curado-200hg",
+      "reelPageLinks": [],
+      "reel": {
+        "brand": "Shimano",
+        "family": "Curado",
+        "size": "200 HG",
+        "modelMarking": "200HG",
+        "generationConfirmed": true,
+        "modelCode": "CU200HGM",
+        "generationNote": "The owner confirmed model CU200HGM, matching the Curado 200 M 200 HG RH calculator entry.",
+        "use": "Squarebill crankbait setup"
+      },
+      "previousMainLine": {
+        "lineId": "seaguar-invizx-fluorocarbon-10",
+        "originalYards": 65,
+        "remainingAmountMeasured": false,
+        "condition": "Shortened through normal use",
+        "unexplainedMidLineCastBreaks": 2,
+        "breakCauseEstablished": false
+      },
+      "mainLine": {
+        "lineId": "sunline-super-natural-mono-monofilament-10",
+        "brand": "Sunline",
+        "model": "Super Natural Mono",
+        "type": "Monofilament",
+        "strengthLb": 10,
+        "packageDiameterIn": 0.01,
+        "packageDiameterMm": 0.26,
+        "catalogDiameterIn": 0.0102,
+        "diameterPhysicallyMeasured": false,
+        "retailSpoolYards": 330,
+        "retailSpoolMeters": 300,
+        "intendedYards": 65,
+        "approximateInstalledYards": 65
+      },
+      "backing": {
+        "lineId": "berkley-trilene-big-game-monofilament-10",
+        "brand": "Berkley",
+        "model": "Trilene Big Game",
+        "type": "Monofilament",
+        "strengthLb": 10,
+        "diameterIn": 0.012,
+        "displayBackingYards": 108,
+        "status": "existing",
+        "planningMethod": "Previously calculated with ReelCalc and installed for the earlier setup",
+        "condition": "Still usable during this test",
+        "removed": false,
+        "replaced": false,
+        "amountMeasuredDuringTest": false
+      },
+      "calculatorSetup": {
+        "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+        "reelLabel": "Shimano Curado 200 M 200 HG RH",
+        "mainLineYards": 65,
+        "backingYards": 108.0375,
+        "displayBackingYards": 108,
+        "engineVersion": "2026.08-dual-anchor-v1",
+        "physicalReelMatchConfirmed": true
+      },
+      "measurement": {
+        "lineCounterUsed": true,
+        "device": "Rapala digital line counter",
+        "targetFeet": 195,
+        "photographedFeet": 195.4,
+        "method": "Counter reading while installing the replacement working line"
+      },
+      "physicalResult": {
+        "approximateMainLineYards": 65,
+        "connectionKnot": "Uni-to-Uni knot",
+        "fillObservation": "The finished spool appeared properly filled, with no obvious major underfill or overfill.",
+        "spoolGapMeasured": false,
+        "tensionMeasured": false
+      },
+      "images": [
+        { "file": "IMG_2639.jpeg", "role": "shortened-fluorocarbon-before-removal", "available": true, "sha256": "bf22718435273269df3e943cbdec5f200c9b6c84d08010e9cf0ae05539c74c77" },
+        { "file": "IMG_2643.jpeg", "role": "existing-backing-exposed", "available": true, "sha256": "cf76822d97467adb62ec8af8c45585899fb2dec42212f1919ec0a66ca0104e35" },
+        { "file": "IMG_2642.jpeg", "role": "replacement-line-package", "available": true, "sha256": "559df9b1a1803838283ce9de247ef88b91f71e53c3c93e5265d9a2739f278319" },
+        { "file": "8D62FAA2-870E-47E2-9E86-4EA7189BCE69.PNG", "role": "calculator-setup", "available": true, "sha256": "6d64913a11f836ed550debc59392123c068fa0e57f653bed7fab653072f0269f" },
+        { "file": "IMG_2645.jpeg", "role": "supply-spool-mounted", "available": true, "sha256": "385e96d4dfc1211ac015dc3b03a5ab1e7f4cf4151c1a8f02ef5006520fdf3cba", "displayFile": "IMG_2645-clean-background.png", "displaySha256": "49bf9cc54478e279e5ff14c8535c95ed55674a7d7d34b71f547587c15b76f713", "editNote": "Background clutter removed with the built-in image editor at the owner's request. Unedited original preserved and linked in the caption." },
+        { "file": "IMG_2646.jpeg", "role": "line-counter-reading", "available": true, "sha256": "cf6a2001acc245c58b6500bec28c19e9364971c03cd65b51e5908791ad8882a6" },
+        { "file": "IMG_2648.jpeg", "role": "finished-spool", "available": true, "sha256": "91337e15e0e6ff2ce3e0f525d737e38e8257711f72eff927ce0faa04dd677c5d" },
+        { "file": "IMG_2647.jpeg", "role": "finished-spool-detail", "available": true, "sha256": "6CD3A83C30A87E94549DDBEAB585C7DF1C6C1AA43DDEE6E30B21BD9B328A613E" }
+      ],
+      "sources": {
+        "sunline": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
+        "seaguar": "https://seaguar.com/products/invizx",
+        "calculatorReel": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html"
+      }
     }
   ]
 }
