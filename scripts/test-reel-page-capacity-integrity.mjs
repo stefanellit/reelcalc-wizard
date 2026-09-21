@@ -97,7 +97,7 @@ const loaderSource = fs.readFileSync(
 assert.match(loaderSource, /line-capacity/);
 assert.match(loaderSource, /content\.capacityRows/);
 assert.match(loaderSource, /content\.braidText/);
-assert.match(loaderSource, /reel-page-embeds\.json\?v=9/);
+assert.ok(loaderSource.includes(`reel-page-embeds.json?v=${manifest.version}`));
 assert.match(loaderSource, /insertRealWorldTest/);
 
 const wizardSource = fs.readFileSync(path.join(root, "js", "wizard.js"), "utf8");
