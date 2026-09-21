@@ -53,6 +53,8 @@ for(const f of build.files){
   assert.ok(core.isReelReady(r));
   assert.ok(f.checks.every(check=>check.passed!==false));
   const html=fs.readFileSync(path.join(root,f.blockFile),'utf8');
+  assert.match(fs.readFileSync(path.join(root,f.previewFile),'utf8'),/<meta name="robots" content="noindex, nofollow">/);
+  assert.ok(!html.includes('noindex'),'Squarespace guides must remain indexable.');
   assert.ok(html.includes('reel-page-calculator.js')&&html.includes('data-reelcalc-calculator'));
   assert.match(fs.readFileSync(path.join(root,'js/reel-page-calculator.js'),'utf8'),/js\/calculator-core\.js/);
   assert.ok(html.includes('data-reelcalc-affiliates'));

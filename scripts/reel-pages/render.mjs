@@ -590,6 +590,7 @@ export function renderPreviewDocument(model, block) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
   <title>${escapeHtml(model.pageTitle)} - Local Preview</title>
   <meta name="description" content="${escapeHtml(model.metaDescription)}">
   <style>
