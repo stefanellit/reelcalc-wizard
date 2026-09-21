@@ -46590,6 +46590,14 @@
         "braidText": "30 lb / 190 yards, 50 lb / 120 yards, 65 lb / 80 yards",
         "faqCapacity": "The reel is published at 8 lb / 180 yards, 10 lb / 155 yards, 14 lb / 110 yards. Its listed braid ratings are 30 lb / 190 yards, 50 lb / 120 yards, 65 lb / 80 yards. Actual capacity can vary with the diameter of the exact line selected.",
         "specsIntro": "The Shimano Curado 200 M 200 HG RH uses a 7.4:1 gear ratio. Its 32-inch pickup is the versatile middle ground for jigs, soft plastics, topwater, and moving baits. It weighs 7.6 oz and has a published maximum drag of 13 lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting."
+      },
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-003",
+        "relationship": "exact-reel",
+        "heading": "Real-World Curado 200 M HG Re-Spool Test",
+        "summary": "See this CU200HGM re-spooled with about 65 yards of 10 lb Sunline Super Natural mono over its existing Big Game backing.",
+        "linkLabel": "See the Curado Real-World Re-Spool",
+        "path": "/reel-tests/shimano-curado-200hg-mono-respool-test"
       }
     },
     "shimano-curado-200-m-201-hg-lh-cu201hgm": {

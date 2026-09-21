@@ -188,9 +188,17 @@
       "number": 3,
       "slug": "shimano-curado-200hg-mono-respool-test",
       "canonicalPath": "/reel-tests/shimano-curado-200hg-mono-respool-test",
-      "publicationStatus": "prepared",
-      "reelId": "shimano-curado-200hg",
-      "reelPageLinks": [],
+      "publicationStatus": "published",
+      "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+      "reelPageLinks": [
+        {
+          "reelId": "shimano-curado-200-m-200-hg-rh-cu200hgm",
+          "relationship": "exact-reel",
+          "heading": "Real-World Curado 200 M HG Re-Spool Test",
+          "summary": "See this CU200HGM re-spooled with about 65 yards of 10 lb Sunline Super Natural mono over its existing Big Game backing.",
+          "linkLabel": "See the Curado Real-World Re-Spool"
+        }
+      ],
       "reel": {
         "brand": "Shimano",
         "family": "Curado",

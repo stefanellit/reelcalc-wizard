@@ -37,7 +37,20 @@ assert.equal(test.physicalResult.spoolGapMeasured, false);
 assert.equal(test.reel.generationConfirmed, true);
 assert.equal(test.reel.modelCode, "CU200HGM");
 assert.equal(test.calculatorSetup.physicalReelMatchConfirmed, true);
-assert.deepEqual(test.reelPageLinks, [], "Add the reel-page link once the blog post is live");
+assert.equal(test.publicationStatus, "published");
+assert.equal(test.reelId, "shimano-curado-200-m-200-hg-rh-cu200hgm");
+assert.equal(test.reelPageLinks.length, 1, "Link only the confirmed model");
+assert.equal(test.reelPageLinks[0].reelId, test.reelId);
+assert.equal(test.reelPageLinks[0].relationship, "exact-reel");
+const registry = JSON.parse(await read("data/reel-pages.json"));
+const manifest = JSON.parse(await read("data/reel-page-embeds.json"));
+for (const pages of [registry.pages, Object.values(manifest.pages)]) {
+  const linked = pages.filter((page) => page.realWorldTest?.testId === test.id);
+  assert.equal(linked.length, 1, "Exactly one reel page links to the Curado test");
+  assert.equal(linked[0].reelId, test.reelId);
+  assert.equal(linked[0].realWorldTest.path, test.canonicalPath);
+  assert.equal(linked[0].realWorldTest.relationship, "exact-reel");
+}
 
 for (const content of [html, generated, blog]) {
   assert.equal((content.match(/<h1(?:\s|>)/g) || []).length, 1);

@@ -5713,7 +5713,15 @@
       "imageSourcePage": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html",
       "imageMethod": "official-family-image",
       "verifiedLive": true,
-      "quickAnswerNote": "A short mono base can prevent braid slip and reduce how much premium line is needed."
+      "quickAnswerNote": "A short mono base can prevent braid slip and reduce how much premium line is needed.",
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-003",
+        "relationship": "exact-reel",
+        "heading": "Real-World Curado 200 M HG Re-Spool Test",
+        "summary": "See this CU200HGM re-spooled with about 65 yards of 10 lb Sunline Super Natural mono over its existing Big Game backing.",
+        "linkLabel": "See the Curado Real-World Re-Spool",
+        "path": "/reel-tests/shimano-curado-200hg-mono-respool-test"
+      }
     },
     {
       "reelId": "shimano-curado-200-m-201-hg-lh-cu201hgm",
