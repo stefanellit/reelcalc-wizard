@@ -1,0 +1,975 @@
+{
+  "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "file": "research/spinning-page-expansion/sources/e5b5fe44d074d5cb.txt",
+    "checkedAt": "2026-09-21T01:33:31.078Z",
+    "sha256": "e5e8a14e63fc8b3128e3de76a9822569d75c07b9b50e9efac9704622d0535672"
+  },
+  "https://www.lews.com/en/shop/reels/spinning?p=1&s=100": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/shop/reels/spinning?p=1&s=100",
+    "file": "research/spinning-page-expansion/sources/9d3d844b52953d29.txt",
+    "checkedAt": "2026-09-21T01:33:31.889Z",
+    "sha256": "419465cc2806ebfd0bde6e33873325e7c943ee01036a6e244e8a0e100d83d578"
+  },
+  "https://www.abugarcia.com/products/max-x-spinning-reel-1624369": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/max-x-spinning-reel-1624369",
+    "file": "research/spinning-page-expansion/sources/69dfea287f7b3d94.txt",
+    "checkedAt": "2026-09-21T01:33:32.327Z",
+    "sha256": "114728a47b033f0a53ac317f989e206fd65bb63f5a9a75651af9b7c28b5124cb"
+  },
+  "https://www.abugarcia.com/products/max-sx-spinning-reel-1624368": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/max-sx-spinning-reel-1624368",
+    "file": "research/spinning-page-expansion/sources/36b52786814c1557.txt",
+    "checkedAt": "2026-09-21T01:33:32.658Z",
+    "sha256": "eac9c95e2254b2d3301546fc53dfe372080c6379e3f4d80ab9de4d300d688f61"
+  },
+  "https://www.abugarcia.com/products/max-pro-spinning-reel-1624367": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/max-pro-spinning-reel-1624367",
+    "file": "research/spinning-page-expansion/sources/aa24d7c345c289ef.txt",
+    "checkedAt": "2026-09-21T01:33:32.998Z",
+    "sha256": "7ca4d406d1e01ecb13d0a0a6284c33f2e06bb448de94feafa879753c4dd406db"
+  },
+  "https://www.abugarcia.com/products/max-elite-spinning-reel-1624366": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/max-elite-spinning-reel-1624366",
+    "file": "research/spinning-page-expansion/sources/f47c6d9f4cdb13e0.txt",
+    "checkedAt": "2026-09-21T01:33:33.314Z",
+    "sha256": "e1f7472db6d0a2db2e83ad9de9d68efd915435825cd48419ea41e2d61bfb0336"
+  },
+  "https://www.abugarcia.com/products/revo-x-spinning-reel-1573508": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/revo-x-spinning-reel-1573508",
+    "file": "research/spinning-page-expansion/sources/69606470cb8cb36f.txt",
+    "checkedAt": "2026-09-21T01:33:33.634Z",
+    "sha256": "40b6f038d159da703d5a5986b00f377be67c5383974ca43b3d6b0a6ad4bb517e"
+  },
+  "https://www.abugarcia.com/products/revo-sx-spinning-reel-1573507": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/revo-sx-spinning-reel-1573507",
+    "file": "research/spinning-page-expansion/sources/257fbcb100910a6e.txt",
+    "checkedAt": "2026-09-21T01:33:33.879Z",
+    "sha256": "fe93eaca6d63390939bce976f7f59f71cd0a6a44502ba89930ef86bf635764ea"
+  },
+  "https://www.abugarcia.com/products/revo-rocket-spinning-reel-1573492": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/revo-rocket-spinning-reel-1573492",
+    "file": "research/spinning-page-expansion/sources/f662bd8800e2ea14.txt",
+    "checkedAt": "2026-09-21T01:33:34.215Z",
+    "sha256": "b2867a6f92f7362a3c4fdffad9b2f61a7413a0ac045bcc274460c4484b80a86b"
+  },
+  "https://www.abugarcia.com/products/revo-winch-spinning-reel-1573499": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/revo-winch-spinning-reel-1573499",
+    "file": "research/spinning-page-expansion/sources/2de462d1cb2fa4b5.txt",
+    "checkedAt": "2026-09-21T01:33:34.527Z",
+    "sha256": "2c378fa2282410f095bfad44e9b74353cf0aee2104f13b90387785e93c8bbcf8"
+  },
+  "https://www.abugarcia.com/products/zenon-x-spinning-reel-1595483": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/zenon-x-spinning-reel-1595483",
+    "file": "research/spinning-page-expansion/sources/c0883e43c2b340e6.txt",
+    "checkedAt": "2026-09-21T01:33:34.860Z",
+    "sha256": "9e5dc821c77013086f7ddb0314e1c58d72b5e80fcd3a5cd1a9a5230eef9fd875"
+  },
+  "https://www.abugarcia.com/products/beast-spinning-reel-1641517": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/beast-spinning-reel-1641517",
+    "file": "research/spinning-page-expansion/sources/c40141c14886462c.txt",
+    "checkedAt": "2026-09-21T01:33:35.228Z",
+    "sha256": "6b7fb12dd3ff47bafc9ced1838b6fe2ba49f81f48f66ddc5b549c6a2b7879431"
+  },
+  "https://okumafishingusa.com/collections/spinning-reels/products/avenger-b-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://okumafishingusa.com/products/avenger-b-spinning-reel",
+    "file": "research/spinning-page-expansion/sources/fa8a761629b3a3ed.txt",
+    "checkedAt": "2026-09-21T01:33:36.016Z",
+    "sha256": "93ff1ec06546596f5d4f063a98a903cafccead30a64bccd236bc234c822f782b"
+  },
+  "https://okumafishingusa.com/collections/spinning-reels/products/rox-spinning-reels": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://okumafishingusa.com/products/rox-spinning-reels",
+    "file": "research/spinning-page-expansion/sources/e0269e19e3817267.txt",
+    "checkedAt": "2026-09-21T01:33:36.710Z",
+    "sha256": "5db1cb1786b24e8ef7c2813932e49f60d2e5be40fb803c8c0ddd0c5481b790ff"
+  },
+  "https://okumafishingusa.com/products/rox-spinning-reels": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://okumafishingusa.com/products/rox-spinning-reels",
+    "file": "research/spinning-page-expansion/sources/6bfead27cd00e6b5.txt",
+    "checkedAt": "2026-09-21T01:33:37.086Z",
+    "sha256": "1afc55ec0f2fc7a1d1d604f00183aa1c75aec7704ffba9f3b3080c32cb8bc43c"
+  },
+  "https://okumafishingusa.com/collections/spinning-reels/products/cedros-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://okumafishingusa.com/products/cedros-spinning-reel",
+    "file": "research/spinning-page-expansion/sources/c7bd621d739213da.txt",
+    "checkedAt": "2026-09-21T01:33:37.556Z",
+    "sha256": "4297739d7036ed3898be5ce504b5bcf70d60a1b0e8ca06dca81aa7758532171c"
+  },
+  "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://okumafishingusa.com/products/azores-blue",
+    "file": "research/spinning-page-expansion/sources/cd867d878d3ae6b4.txt",
+    "checkedAt": "2026-09-21T01:33:38.016Z",
+    "sha256": "417cd59229bb3422b9807d5d083f97cc4c73d8e2b7eb8cfe36d25ad1269e07a1"
+  },
+  "https://www.pennfishing.com/products/battle-iv-spinning-reel-1624423": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/battle-iv-spinning-reel-1624423",
+    "file": "research/spinning-page-expansion/sources/b701625873a05665.txt",
+    "checkedAt": "2026-09-21T01:33:38.508Z",
+    "sha256": "72c146b587fac4505c099616be595f91549e0816e8d390c5fc6db9148fbdd1f7"
+  },
+  "https://www.pennfishing.com/products/wrath-ii-spinning-reel-1595550": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/wrath-ii-spinning-reel-1595550",
+    "file": "research/spinning-page-expansion/sources/653ecc240b95c529.txt",
+    "checkedAt": "2026-09-21T01:33:38.860Z",
+    "sha256": "c4afc6b9c156dd7c66c8cda3e39f85bb7a33e16f165ddcd9e271b263b12a8131"
+  },
+  "https://www.pennfishing.com/products/clash-ii-spinning-reel-1523129": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/clash-ii-spinning-reel-1523129",
+    "file": "research/spinning-page-expansion/sources/84fc41070f8cc77f.txt",
+    "checkedAt": "2026-09-21T01:33:39.173Z",
+    "sha256": "ecbce44748f51dd6f809056a42aa41e5613293d0938c174d2a089eed7aef8b52"
+  },
+  "https://www.pennfishing.com/products/spinfisher-vii-live-liner-spinning-reel-1601020": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/spinfisher-vii-live-liner-spinning-reel-1601020",
+    "file": "research/spinning-page-expansion/sources/b17f26f885a08cfa.txt",
+    "checkedAt": "2026-09-21T01:33:39.456Z",
+    "sha256": "1a022a9589ddcadadd63cd107d5e91a82d00c3c6d2e494f076815d059afca8bd"
+  },
+  "https://www.pennfishing.com/products/spinfisher-vii-long-cast-spinning-reel-1601021": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/spinfisher-vii-long-cast-spinning-reel-1601021",
+    "file": "research/spinning-page-expansion/sources/abe28839cd031647.txt",
+    "checkedAt": "2026-09-21T01:33:40.301Z",
+    "sha256": "ab247d57a69907aa72dac55b33375d2534017479764dc1cedfd66cbc798dad6f"
+  },
+  "https://www.pennfishing.com/products/authority-spinning-reel-1573574": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/authority-spinning-reel-1573574",
+    "file": "research/spinning-page-expansion/sources/63ae04206ea20e7c.txt",
+    "checkedAt": "2026-09-21T01:33:40.674Z",
+    "sha256": "e35f7299f9d8d8f2b93597b6386b9fcb5eae7d6df2598d52b5933ba9801de854"
+  },
+  "https://pfluegerfishing.com/products/trion-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pfluegerfishing.com/products/trion-spinning-reel-1641625",
+    "file": "research/spinning-page-expansion/sources/8c7ba1651e1b5b71.txt",
+    "checkedAt": "2026-09-21T01:33:41.236Z",
+    "sha256": "a7fa7f3d8a6e332687b1e141fba8d053ed58778967b3787f473a3ef9613ff049"
+  },
+  "https://pfluegerfishing.com/products/president-xt-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pfluegerfishing.com/products/president-xt-spinning-reel-1595568",
+    "file": "research/spinning-page-expansion/sources/04945a40a0ca089e.txt",
+    "checkedAt": "2026-09-21T01:33:42.326Z",
+    "sha256": "81ff72072cd4583f778c1a9d2f726eeae890c20b53fa247fbd4e2fbad56c38c5"
+  },
+  "https://pfluegerfishing.com/products/president-le-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pfluegerfishing.com/products/president-le-spinning-reel-1595564",
+    "file": "research/spinning-page-expansion/sources/3c97913b5119741f.txt",
+    "checkedAt": "2026-09-21T01:33:43.548Z",
+    "sha256": "4380ee5bbf9f40b8585b5e6ef9a3188b90ed7fd34e0b79106f95094a1dff9e5f"
+  },
+  "https://pfluegerfishing.com/products/supreme-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pfluegerfishing.com/products/supreme-spinning-reel-1310328",
+    "file": "research/spinning-page-expansion/sources/070913feb9692cdc.txt",
+    "checkedAt": "2026-09-21T01:33:44.531Z",
+    "sha256": "1d260277f42832fa438edf4128fcd6adec2a2b695be616934ce2ec683d995ffb"
+  },
+  "https://pfluegerfishing.com/products/supreme-xt-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pfluegerfishing.com/products/supreme-xt-spinning-reel-1310331",
+    "file": "research/spinning-page-expansion/sources/d085c20540f800a8.txt",
+    "checkedAt": "2026-09-21T01:33:44.905Z",
+    "sha256": "c00455ff4429bca91500b79fee4353ca405d55bff50f574dc60e2f9a7bd012e7"
+  },
+  "https://pfluegerfishing.com/products/patriarch-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pfluegerfishing.com/products/patriarch-spinning-reel-1573578",
+    "file": "research/spinning-page-expansion/sources/439ecb6962cf4776.txt",
+    "checkedAt": "2026-09-21T01:33:45.343Z",
+    "sha256": "61e566c5f1e85a690f881388df8eaf05fd9bcc62be70c4d99cbe3a1f9429cf5d"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html",
+    "file": "research/spinning-page-expansion/sources/d62c7c2d4bc851ab.txt",
+    "checkedAt": "2026-09-21T01:33:45.639Z",
+    "sha256": "7a45bf8925d9ae3a5f115d2247737b73efa668a18a1239a61824f54eecfd7781"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slx2fqas.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slx2fqas.html",
+    "file": "research/spinning-page-expansion/sources/b52b70dbcb345f68.txt",
+    "checkedAt": "2026-09-21T01:33:45.837Z",
+    "sha256": "4bfb15446ac60d4a8f486f6b2130b37d581c98f9cfd2b1c9cb8486c3eb8ec3fb"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html",
+    "file": "research/spinning-page-expansion/sources/64d8bdb70c8fbc52.txt",
+    "checkedAt": "2026-09-21T01:33:46.051Z",
+    "sha256": "dd12419f28338a18e96b34daced1eff50b322fbff80108e6544c40fc8f182f01"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html",
+    "file": "research/spinning-page-expansion/sources/ce9ad41b41705012.txt",
+    "checkedAt": "2026-09-21T01:33:46.261Z",
+    "sha256": "6c3fcb9b7f628d9af5035820797316b2c93b4fd0ed757251824608a170bc5fa0"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
+    "file": "research/spinning-page-expansion/sources/400dbc8e738611e2.txt",
+    "checkedAt": "2026-09-21T01:33:46.470Z",
+    "sha256": "1efee62cc3656104648dbe0b0dd1f1353e8ef15852adb0f155088faa19800782"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fncqa2.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fncqa2.html",
+    "file": "research/spinning-page-expansion/sources/5025a0fef34ae780.txt",
+    "checkedAt": "2026-09-21T01:33:46.686Z",
+    "sha256": "f972195f96d3d0a2bc0a23dd6b9ae04188e8a7e4fa22955fb697cd2671153f1f"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2gakqam.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2gakqam.html",
+    "file": "research/spinning-page-expansion/sources/c73514eb76a82f0b.txt",
+    "checkedAt": "2026-09-21T01:33:46.886Z",
+    "sha256": "364320abd5cac8b22df7b9ce4d952365646d41d6dd3acdcffe606219bc0af705"
+  },
+  "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
+    "file": "research/spinning-page-expansion/sources/fed08a89aa080605.txt",
+    "checkedAt": "2026-09-21T01:33:47.104Z",
+    "sha256": "1ea94c8b0c885e3d8c17dc1870bc7c17813f8852bdd632657376cb767414b932"
+  },
+  "https://productimageserver.com/literature/brochure/105216BR.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://productimageserver.com/literature/brochure/105216BR.pdf",
+    "file": "research/spinning-page-expansion/sources/c26f69dc8091eb55.pdf",
+    "checkedAt": "2026-09-21T01:39:18.628Z",
+    "sha256": "e270763b8079e80220f75f933b492efb9cde8d7e2d5a4b426489529d5300bb5e"
+  },
+  "https://productimageserver.com/literature/brochure/105225BR.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://productimageserver.com/literature/brochure/105225BR.pdf",
+    "file": "research/spinning-page-expansion/sources/2bc446a50f5393d8.pdf",
+    "checkedAt": "2026-09-21T01:39:18.941Z",
+    "sha256": "414d92f0f28850c4a6b21d109663398a151583a854f4d43c8628f22bdc795c29"
+  },
+  "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf",
+    "file": "research/spinning-page-expansion/sources/5358873a6474874d.pdf",
+    "checkedAt": "2026-09-21T01:38:24.430Z",
+    "sha256": "2be1d3b5557dea81baed4722b5d861492ccdb8d24c3e0e3bab1c1619fbf2c18b"
+  },
+  "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://nicklowswholesale.com/files/attachments/11385/zebcobrands_product_catalog_2022.pdf",
+    "file": "research/spinning-page-expansion/sources/d79c31f1a8b261f1.pdf",
+    "checkedAt": "2026-09-21T01:38:24.916Z",
+    "sha256": "2636300ed85352648818139165f74c9f8216994a0cbe976fdddd7e26d2727627"
+  },
+  "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "file": "research/spinning-page-expansion/sources/d9867382ecb5444d.pdf",
+    "checkedAt": "2026-09-21T01:38:26.341Z",
+    "sha256": "9fbcf4077ae375d45bb4414d73435a6bb5134a6651f83b4c785facbb253e3c33"
+  },
+  "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://assets.basspro.com/image/upload/v1660148766/PDFs/productmanual/productmanual_Bass_Pro_Shops_Formula_Spinning_Reel.pdf",
+    "file": "research/spinning-page-expansion/sources/8f402f0bf0d114ee.pdf",
+    "checkedAt": "2026-09-21T01:38:26.616Z",
+    "sha256": "4c5396a521804ee7cbe420570a611658acd618d1c447fc2cb86dcdb36f478e9e"
+  },
+  "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://assets.basspro.com/image/upload/v1659716639/PDFs/productmanual/productmanual_Offshore_Angler_Sea_Lion_Spinning_Reel.pdf",
+    "file": "research/spinning-page-expansion/sources/a805d6b37b7e17a5.pdf",
+    "checkedAt": "2026-09-21T01:38:27.014Z",
+    "sha256": "3f50f27759d50ad62ae6995ac6e14b20cbe9dc4e068627f012b319a4324b0fb8"
+  },
+  "https://productimageserver.com/literature/brochure/110425BR.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://productimageserver.com/literature/brochure/110425BR.pdf",
+    "file": "research/spinning-page-expansion/sources/92f839dece747ad9.pdf",
+    "checkedAt": "2026-09-21T01:39:19.171Z",
+    "sha256": "74d5c4b9a13ff85ae32d4ef4239f61318021638d4ca9d39bebc602a62afeba20"
+  },
+  "https://productimageserver.com/literature/brochure/105206BR.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://productimageserver.com/literature/brochure/105206BR.pdf",
+    "file": "research/spinning-page-expansion/sources/1038b6904d0268c2.pdf",
+    "checkedAt": "2026-09-21T01:39:19.334Z",
+    "sha256": "0180829aa2beb9517e1e32d626110542ec1a326c1cfb641efdb77a8002e0b9e4"
+  },
+  "https://productimageserver.com/literature/brochure/96437BR.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://productimageserver.com/literature/brochure/96437BR.pdf",
+    "file": "research/spinning-page-expansion/sources/3a01647a51c0d84b.pdf",
+    "checkedAt": "2026-09-21T01:39:19.572Z",
+    "sha256": "5c849a132095a84339c8fffe3858b178bef3e88624127d680daa5eca45efd2e6"
+  },
+  "https://s3.amazonaws.com/nigavasports/thumbs/20260227091703444/4a33a012-06cf-43a8-bcde-3e7ac8acc4ef/abu_garcia_2025_catalog.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://s3.amazonaws.com/nigavasports/thumbs/20260227091703444/4a33a012-06cf-43a8-bcde-3e7ac8acc4ef/abu_garcia_2025_catalog.pdf",
+    "file": "research/spinning-page-expansion/sources/6de37fd553b38a5f.pdf",
+    "checkedAt": "2026-09-21T01:41:14.019Z",
+    "sha256": "cf049d9189e50cc1b466fd65f7179cdb9e2c2bfbede7657fa94415be238da81a"
+  },
+  "https://s3.amazonaws.com/nigavasports/thumbs/20260226212152265/53b0e0ba-1f21-4428-9b94-3388c152fb00/penn_2025_catalog.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://s3.amazonaws.com/nigavasports/thumbs/20260226212152265/53b0e0ba-1f21-4428-9b94-3388c152fb00/penn_2025_catalog.pdf",
+    "file": "research/spinning-page-expansion/sources/ada49d76117492fe.pdf",
+    "checkedAt": "2026-09-21T01:41:15.943Z",
+    "sha256": "e4124c791be63d122a8802da3d8a964c8a9310dc2709ccf56e564fb97f4782c8"
+  },
+  "https://s3.amazonaws.com/nigavasports/thumbs/20260227083409649/3acc952c-16e4-4818-aeeb-c13b06617334/pflueger_2025_catalog.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://s3.amazonaws.com/nigavasports/thumbs/20260227083409649/3acc952c-16e4-4818-aeeb-c13b06617334/pflueger_2025_catalog.pdf",
+    "file": "research/spinning-page-expansion/sources/89ca9733bde8de95.pdf",
+    "checkedAt": "2026-09-21T01:41:17.227Z",
+    "sha256": "4b637956352b5b71c838c5f24c204ff1e065324d6725d5ad085d6b13d761f693"
+  },
+  "https://s3.amazonaws.com/nigavasports/thumbs/20260227121147903/a18b6ac4-5807-431e-9151-afefaf131f19/quantum_2026_catalogue.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://s3.amazonaws.com/nigavasports/thumbs/20260227121147903/a18b6ac4-5807-431e-9151-afefaf131f19/quantum_2026_catalogue.pdf",
+    "file": "research/spinning-page-expansion/sources/c38c30e29bfc2df5.pdf",
+    "checkedAt": "2026-09-21T01:41:17.538Z",
+    "sha256": "0483a012c49e33e4d7dc6736e5c80e95417329461275d7e146a17af340339207"
+  },
+  "https://www.quantumfishing.com/en/shop/reels/spinning?p=1&s=100": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.quantumfishing.com/en/shop/reels/spinning?p=1&s=100",
+    "file": "research/spinning-page-expansion/sources/b731620b753883c9.txt",
+    "checkedAt": "2026-09-21T01:41:17.856Z",
+    "sha256": "ef51daefbebbfc58406297397072f8b88db5b925e7d9545981bc07afd879fd82"
+  },
+  "https://kastking.com/products/kastking-brutus-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://kastking.com/",
+    "file": "research/spinning-page-expansion/sources/43ea94cb77d8e772.txt",
+    "checkedAt": "2026-09-21T01:41:18.682Z",
+    "sha256": "08c50ecf3681d2d04c776f0b103bad8f49daff45dd10818bd58b823929f6fdbe"
+  },
+  "https://kastking.com/products/kastking-crixus-spinning-reel": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://kastking.com/products/kastking-crixus-spinning-reel",
+    "file": "research/spinning-page-followup/sources/6c5842f01e92a843.txt",
+    "checkedAt": "2026-09-22T03:00:59.920Z",
+    "sha256": "5d4893649c9e21d794450a1d7992aa0090f7f701ee3c7d89a0fcc2035559cb22"
+  },
+  "https://kastking.com/products/kastking-valiant-eagle-gold-spinning-reel": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://kastking.com/products/kastking-valiant-eagle-gold-spinning-reel",
+    "file": "research/spinning-page-followup/sources/38ff1ee80f221a15.txt",
+    "checkedAt": "2026-09-22T03:00:58.996Z",
+    "sha256": "734fa0d64bae8c2430fe2215b5a926c664daea654c222483f79cf1849105de77"
+  },
+  "https://kastking.com/products/kastking-pontus-baitfeeder-spinning-reels": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://kastking.com/products/kastking-pontus-baitfeeder-spinning-reels",
+    "file": "research/spinning-page-followup/sources/a695a9b701e30cb6.txt",
+    "checkedAt": "2026-09-22T03:01:00.368Z",
+    "sha256": "8ec3a1a43734a759e39396ebdb2f361b4adf5d31f220b82a2f6c1d21e77988dc"
+  },
+  "https://kastking.com/products/kastking-summer-and-centron-spinning-reels": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://kastking.com/products/kastking-summer-and-centron-spinning-reels",
+    "file": "research/spinning-page-expansion/sources/b7e79589d40048d2.txt",
+    "checkedAt": "2026-09-21T01:41:20.837Z",
+    "sha256": "578e2d871f0fc1d84afca76c499236faf35d121fd74eec0964edbf69d207398c"
+  },
+  "https://www.okumafishing.com/en/product/Cedros-Saltwater-Spinning-Reel.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.okumafishing.com/en/product/Cedros-Saltwater-Spinning-Reel.html",
+    "file": "research/spinning-page-expansion/sources/ab125185c919a1d6.txt",
+    "checkedAt": "2026-09-21T01:54:40.069Z",
+    "sha256": "fc6946d90b9aab8f896a5dbf3e9609cac6f72c2e6cbfb689a7b60f771156e372"
+  },
+  "https://www.okumafishing.com/en/product/Azores-Saltwater-Spinning-Reel.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.okumafishing.com/en/product/index.html",
+    "file": "research/spinning-page-expansion/sources/13d55538ad6dda33.txt",
+    "checkedAt": "2026-09-21T01:54:40.346Z",
+    "sha256": "a50e1a811e756129254478accabd2dd21dcb5282c8002cdd3d3609722dae2cf3"
+  },
+  "https://www.quantumfishing.com/products/benchmark-spinning-reel": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.quantumfishing.com/products/benchmark-spinning-reel",
+    "file": "research/spinning-page-expansion/sources/f6a0b0526beafe78.txt",
+    "checkedAt": "2026-09-21T01:54:40.535Z",
+    "sha256": "ef51daefbebbfc58406297397072f8b88db5b925e7d9545981bc07afd879fd82"
+  },
+  "https://www.quantumfishing.com/products/cabo-spinning-reel": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.quantumfishing.com/products/cabo-spinning-reel",
+    "file": "research/spinning-page-expansion/sources/6dfd118829a9b80b.txt",
+    "checkedAt": "2026-09-21T01:54:40.637Z",
+    "sha256": "ef51daefbebbfc58406297397072f8b88db5b925e7d9545981bc07afd879fd82"
+  },
+  "https://daiwa.us/products/26-crossfire-lt": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/26-crossfire-lt",
+    "file": "research/spinning-page-expansion/sources/11e343e19c4fdb37.txt",
+    "checkedAt": "2026-09-21T01:57:16.906Z",
+    "sha256": "b6cf6214241166b8ce77de8cf129d7da3d757b73b8d27eb45093a22df4e9483b"
+  },
+  "https://daiwa.us/products/laguna-lt": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/laguna-lt",
+    "file": "research/spinning-page-expansion/sources/3ba3f90bcf009bd5.txt",
+    "checkedAt": "2026-09-21T01:57:17.575Z",
+    "sha256": "eb74f20224443998f59d1a34ccbe79d19a652d2327cb1480e40f6d9eab828b5f"
+  },
+  "https://daiwa.us/products/23-exceler-lt": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/23-exceler-lt",
+    "file": "research/spinning-page-expansion/sources/c4610754bc52b7c5.txt",
+    "checkedAt": "2026-09-21T01:57:18.025Z",
+    "sha256": "920fd9d7436a9c345816a6eabf3f5c235bf2f79396220772497a55f2f3d737e4"
+  },
+  "https://daiwa.us/products/procyon-mq": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/products/procyon-mq",
+    "file": "research/spinning-page-expansion/sources/a71783de9a47cfa8.txt",
+    "checkedAt": "2026-09-21T01:57:18.467Z",
+    "sha256": "2199a30b9103e426f752d0ca4acbeff994f83a9eaca289fdb7dbb009740a6c7b"
+  },
+  "https://daiwa.us/products/24-sol-mq-icast-release": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/24-sol-mq-icast-release",
+    "file": "research/spinning-page-expansion/sources/a99d508a559d12b3.txt",
+    "checkedAt": "2026-09-21T01:57:19.066Z",
+    "sha256": "59615779fdc0cf7be858003af6721366e8073a2e1e8fe125890954a042722635"
+  },
+  "https://daiwa.us/products/kage-lt": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/products/kage-lt",
+    "file": "research/spinning-page-expansion/sources/0efaedcd1d199ea0.txt",
+    "checkedAt": "2026-09-21T01:57:19.414Z",
+    "sha256": "f9a59409b1de39531100333bfe7dc03d3b5c80e1350a5e91715be29f600ec230"
+  },
+  "https://daiwa.us/products/qr-750": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/qr-750",
+    "file": "research/spinning-page-expansion/sources/7d6e37e2eaf25201.txt",
+    "checkedAt": "2026-09-21T01:57:20.009Z",
+    "sha256": "693d687ebc47cf35c0144e1486ca68e54164ca53d1f2299e74cdb6996677a6c0"
+  },
+  "https://daiwa.us/products/qg-750": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/qg-750",
+    "file": "research/spinning-page-expansion/sources/3e302a427ec66ca3.txt",
+    "checkedAt": "2026-09-21T01:57:20.365Z",
+    "sha256": "ce8d7dcf668f907df8c1ea1bdc9dbd5092fff067dfc566253bff17925f567a6a"
+  },
+  "https://daiwa.us/products/qz-750": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/qz-750",
+    "file": "research/spinning-page-expansion/sources/7280928b7ddc1abe.txt",
+    "checkedAt": "2026-09-21T01:57:20.823Z",
+    "sha256": "c5d3fde8401509297e7e192fa90c435d421caa8c069ea674d3bd346f3df219ef"
+  },
+  "https://daiwa.us/products/bg-sw-spinning": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/bg-sw-spinning",
+    "file": "research/spinning-page-expansion/sources/3599b23d7ba87916.txt",
+    "checkedAt": "2026-09-21T01:57:21.218Z",
+    "sha256": "95b0fc8e56f3fa70ba89e67e071b9f1c996cad0f43919157546fa7060e7b912d"
+  },
+  "https://daiwa.us/products/bg-mq": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/bg-mq",
+    "file": "research/spinning-page-expansion/sources/9b1016943ab52a9e.txt",
+    "checkedAt": "2026-09-21T01:57:21.716Z",
+    "sha256": "192267a1da1c0220c8bfcfe9eee7e8471b1c2ab47760a8cafb78ead663b45f49"
+  },
+  "https://daiwa.us/products/new-saltist®-mq": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/new-saltist%C2%AE-mq",
+    "file": "research/spinning-page-expansion/sources/29695d5e1917c1c2.txt",
+    "checkedAt": "2026-09-21T01:57:22.393Z",
+    "sha256": "0b5684cee4143d6baff0bd376c76d97af6761049fcbe00f2cb692e1d94f42b63"
+  },
+  "https://daiwa.us/products/eliminator": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/products/eliminator",
+    "file": "research/spinning-page-expansion/sources/34746329a4bdedfc.txt",
+    "checkedAt": "2026-09-21T01:57:22.766Z",
+    "sha256": "beeb7d1802afe5a659f74f1a0692ac9f7a4a577ac487cd77d06c4b6933f0e633"
+  },
+  "https://daiwa.us/products/free-swimmer": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/free-swimmer",
+    "file": "research/spinning-page-expansion/sources/bb0cf140b2094f72.txt",
+    "checkedAt": "2026-09-21T01:57:23.179Z",
+    "sha256": "fdb3cc5815d806a2087a64ed1338405de4751fc6241448942373982b7af240c2"
+  },
+  "https://www.quantumfishing.com/shop/reels?p=1&s=100": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "file": "research/spinning-page-expansion/sources/94797d518f7c1865.txt",
+    "checkedAt": "2026-09-21T01:57:23.582Z",
+    "sha256": "264407b457f6ed191ff97c9d18fd0d8f8acb9e04fa400869497d43bce248f4e5"
+  },
+  "https://www.quantumfishing.com/en/learn/about-us/smooth-performing": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.quantumfishing.com/en/learn/about-us/smooth-performing",
+    "file": "research/spinning-page-expansion/sources/b2980e334df68510.txt",
+    "checkedAt": "2026-09-21T01:57:23.861Z",
+    "sha256": "2169d88190437f86aca3c3bc0c54264a7cea6c42eed5a64aaf74955e3c8abc3e"
+  },
+  "https://www.basspro.com/shop/en/3074457345620582191": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.basspro.com/shop/en/3074457345620582191",
+    "file": "research/spinning-page-expansion/sources/d984864787b82963.txt",
+    "checkedAt": "2026-09-21T01:57:24.038Z",
+    "sha256": "88884a13ffc6025e1bca09f46de12f9456ced12c7df4b9a43335065a5d354491"
+  },
+  "https://daiwa.us/products/new-eliminator-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/new-eliminator-spinning-reel",
+    "file": "research/spinning-page-expansion/sources/2e9434a6cb825c67.txt",
+    "checkedAt": "2026-09-21T02:01:43.638Z",
+    "sha256": "a22ff459e324334925d98b39ddbf568bc8f813a1d83f3df822bb6d3066c7995b"
+  },
+  "https://daiwa.us/blogs/image-resource-light-tackle-reels/procyon-mq": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/blogs/image-resource-light-tackle-reels/procyon-mq",
+    "file": "research/spinning-page-expansion/sources/7fe18adecdb8b6b0.txt",
+    "checkedAt": "2026-09-21T02:01:44.039Z",
+    "sha256": "da6b883a351951cbf59a22f2efd6ac736dc67515d7869913109daa38c3cc48fa"
+  },
+  "https://daiwa.us/blogs/image-resource-light-tackle-reels/kage-lt": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/blogs/image-resource-light-tackle-reels/kage-lt",
+    "file": "research/spinning-page-expansion/sources/5ebab3517e4473a0.txt",
+    "checkedAt": "2026-09-21T02:01:44.458Z",
+    "sha256": "8d64e0323b92eb4b1a3f82a9e5860e8d95082c5055aba20a27dc4b0b3ddd57aa"
+  },
+  "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+    "file": "research/spinning-page-followup/sources/77e43352f02dce8c.txt",
+    "checkedAt": "2026-09-22T02:59:28.620Z",
+    "sha256": "90b2d35cd5e08370ed20db81197dd9da1a4dbb421f71293fd5733ea49eb7b3e1"
+  },
+  "https://assets.unilogcorp.com/187/ITEM/DOC/OKUMA_103259611_Catalog.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://assets.unilogcorp.com/187/ITEM/DOC/OKUMA_103259611_Catalog.pdf",
+    "file": "research/spinning-page-followup/sources/a955abb4a79edf6d.pdf",
+    "checkedAt": "2026-09-22T02:59:29.662Z",
+    "sha256": "0b8c56915a45258b962490fff7d204c45cd2db677227469d41280ddb9d2c1aa1"
+  },
+  "https://www.lews.com/en/service/manuals--schematics": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/service/manuals--schematics",
+    "file": "research/spinning-page-followup/sources/3994165d07c620a1.txt",
+    "checkedAt": "2026-09-22T02:59:29.989Z",
+    "sha256": "375ea81480d85e615d74cc02d52790d4a4b0a922a7a822d78ac9b575a262e865"
+  },
+  "https://okumafishingusa.com/pages/catalog": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://okumafishingusa.com/pages/catalog",
+    "file": "research/spinning-page-followup/sources/b9f20378a690a27d.txt",
+    "checkedAt": "2026-09-22T02:59:30.829Z",
+    "sha256": "1e1d3d59888e9c08613bf3901484c4ec7fca4c2c79d1b43d18d8a6442c270b3b"
+  },
+  "https://daiwa.us/products/procyon-mq-lt": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/products/procyon-mq-lt",
+    "file": "research/spinning-page-followup/sources/0236791893cbf857.txt",
+    "checkedAt": "2026-09-22T02:59:31.339Z",
+    "sha256": "26e2a4b3d8d0c5a121898fcc3d8462e6a124cc1f1c6db4fb2306281948aeffaa"
+  },
+  "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://core-prod.lews.com/globalassets/media---lews/resources/2026_lews_mach_newproducts.pdf",
+    "file": "research/spinning-page-followup/sources/6abf8929b04a4695.pdf",
+    "checkedAt": "2026-09-22T02:59:33.132Z",
+    "sha256": "bcf8508d0be1bd0061b4ea6e3f46265bcd4852a85062050d0677af7a2c026b2f"
+  },
+  "https://okumafishingusa.com/pages/2026-2027-okuma-catalog": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://okumafishingusa.com/pages/2026-2027-okuma-catalog",
+    "file": "research/spinning-page-followup/sources/786f477399018921.txt",
+    "checkedAt": "2026-09-22T03:00:56.531Z",
+    "sha256": "f79a41aa9d1b8b1e237b3ac0f7e3b72a0ebaba36eabd9aba53d338df957368d1"
+  },
+  "https://www.lews.com/en/shop/reels/kvds": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/shop/reels/kvds",
+    "file": "research/spinning-page-followup/sources/7deeca23361c4746.txt",
+    "checkedAt": "2026-09-22T03:01:00.543Z",
+    "sha256": "467f566d80c628994db207be3028c278ae9210ad3a09707b751927830fd7df11"
+  },
+  "https://www.lews.com/en/shop/reels/ahtrsp": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.lews.com/en/shop/reels/ahtrsp",
+    "file": "research/spinning-page-followup/sources/3ebda35c0c7a310a.txt",
+    "checkedAt": "2026-09-22T03:01:00.682Z",
+    "sha256": "ef51daefbebbfc58406297397072f8b88db5b925e7d9545981bc07afd879fd82"
+  },
+  "https://core-prod.quantumfishing.com/globalassets/media---quantum-catalog/bmarkspreel/bmarkspreel_benchmarkspinningreel_manual.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://core-prod.quantumfishing.com/globalassets/media---quantum-catalog/bmarkspreel/bmarkspreel_benchmarkspinningreel_manual.pdf",
+    "file": "research/spinning-page-followup/sources/b3f454e4ea0a424d.pdf",
+    "checkedAt": "2026-09-22T03:01:00.940Z",
+    "sha256": "f95ebc12bd6b9b31e87c198945f79c9abaca4921614e772677bdc3b36919ee13"
+  },
+  "https://www.profishing.cl/files/Daiwa_2020.pdf": {
+    "ok": false,
+    "error": "The operation was aborted due to timeout",
+    "checkedAt": "2026-09-22T03:03:25.987Z"
+  },
+  "https://daiwa.us/pages/catalog": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/pages/catalog",
+    "file": "research/spinning-page-followup/sources/6a42a280a2fb3eb5.txt",
+    "checkedAt": "2026-09-22T03:03:26.717Z",
+    "sha256": "5a2bbacebf4504b56ea9a32a364dc0df1e062c67008bb7f81ae78ff1b6df3fb0"
+  },
+  "https://online.fliphtml5.com/zjkii/2026-2027-OK-Catalog_Web/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://online.fliphtml5.com/zjkii/2026-2027-OK-Catalog_Web/",
+    "file": "research/spinning-page-followup/sources/3764d9b62c49ec54.txt",
+    "checkedAt": "2026-09-22T03:03:26.868Z",
+    "sha256": "a138c6b0beb87390c44c6b39cedf866bbc14d59bb8ea3cac924e0032f6865ddf"
+  },
+  "https://lews.zendesk.com/hc/en-us/sections/4411556757655-Spinning": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://lews.zendesk.com/hc/en-us/sections/4411556757655-Spinning",
+    "file": "research/spinning-page-followup/sources/86a918f1f6d9d889.txt",
+    "checkedAt": "2026-09-22T03:03:26.993Z",
+    "sha256": "51bfd09b5a94b8e0d5122eddc1ac1aca7692fda6e1cc3891e96b9019218d207b"
+  },
+  "https://www.abugarcia.com/pages/abu-garcia-catalog": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.abugarcia.com/pages/abu-garcia-catalog",
+    "file": "research/spinning-page-followup/sources/8ebd5b5fc5c8845b.txt",
+    "checkedAt": "2026-09-22T03:03:27.358Z",
+    "sha256": "268b9a89a5fc32eeb7a822fee71f31de5c4c91fd51335a5e3ff6490830f47acb"
+  },
+  "https://fishshop.shimano.com/products/nexave-fi": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fishshop.shimano.com/products/nexave-fi",
+    "file": "research/spinning-page-followup/sources/e4a8fc7b634f68e5.txt",
+    "checkedAt": "2026-09-22T03:04:35.395Z",
+    "sha256": "ad813ae26e0cd4c523988682fefb51aa500d67ba981a94f393d5303ef6b5354d"
+  },
+  "https://fishshop.shimano.com/products/nexave-fj": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://fishshop.shimano.com/products/nexave-fj",
+    "file": "research/spinning-page-followup/sources/3483430ac8ca5e03.txt",
+    "checkedAt": "2026-09-22T03:04:35.672Z",
+    "sha256": "b6ce544c70b7b7199502cdd42cc01673760e191d41d982106424e401a5b2d82c"
+  },
+  "https://fishshop.shimano.com/products/exsence-a": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fishshop.shimano.com/products/exsence-a",
+    "file": "research/spinning-page-followup/sources/00f644464437ba7f.txt",
+    "checkedAt": "2026-09-22T03:04:36.093Z",
+    "sha256": "5a123fba6ee491107f30cf07cdd11af3c20f5b83a0a22e08cdc1d053dc3cc5fd"
+  },
+  "https://fishshop.shimano.com/products/twinpower-xd-fb": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://fishshop.shimano.com/products/twinpower-xd-fb",
+    "file": "research/spinning-page-followup/sources/bda0c2f4709f124c.txt",
+    "checkedAt": "2026-09-22T03:04:36.448Z",
+    "sha256": "80759ec0433001a395c64e91c3a9b5350c9ffdce61bf96e2c8edb47276900214"
+  },
+  "https://fishshop.shimano.com/products/ix": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fishshop.shimano.com/products/ix",
+    "file": "research/spinning-page-followup/sources/6d14bc0e780272a0.txt",
+    "checkedAt": "2026-09-22T03:04:36.872Z",
+    "sha256": "56a240c711e5860d6c1b652878e65fd4f425b01ebeb8abf93b1c0f6ae44d9d44"
+  },
+  "https://www.abugarcia.com/products/zata-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/collections/zata-collection",
+    "file": "research/spinning-page-followup/sources/0a99a660d4fda8af.txt",
+    "checkedAt": "2026-09-22T03:04:37.514Z",
+    "sha256": "9985911f5041078da7302bff0ce7c567a5469e866e0f9df6e71db8c0531a0306"
+  },
+  "https://www.abugarcia.com/products/jordan-lee-spinning-reel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/collections/reels",
+    "file": "research/spinning-page-followup/sources/313aeeafedae6deb.txt",
+    "checkedAt": "2026-09-22T03:04:38.077Z",
+    "sha256": "1e0fef4a2de761fa24dc835295bc87c7af47e56e2a28fcdb9ccea9373ba08668"
+  },
+  "https://online.fliphtml5.com/zjkii/2026-2027-OK-Catalog_Web/javascript/config.js?1787712708": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://online.fliphtml5.com/zjkii/2026-2027-OK-Catalog_Web/javascript/config.js?1787712708",
+    "file": "research/spinning-page-followup/sources/2cbbbe741e3d7e6a.txt",
+    "checkedAt": "2026-09-22T03:04:38.237Z",
+    "sha256": "1ffc1fd8d16e28b772796b4d192ec5dddccbaa6b3e7f43839902ba748eb96411"
+  },
+  "https://fishshop.shimano.com/products/25twinpower-xd-fb": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fishshop.shimano.com/products/25twinpower-xd-fb",
+    "file": "research/spinning-page-followup/sources/85b5b0266dd235f2.txt",
+    "checkedAt": "2026-09-22T03:05:34.059Z",
+    "sha256": "dc6d729744a0d5363f188e96bf7bce2853cb3950f7336df4ddd7d042723725fb"
+  },
+  "https://kastking.com/pages/manuals-schematics": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://kastking.com/pages/manuals-schematics",
+    "file": "research/spinning-page-followup/sources/76d4fba9778106de.txt",
+    "checkedAt": "2026-09-22T03:05:34.648Z",
+    "sha256": "7a1af97fbe1c172fc9bfc111cd543fd004c00c93a1f2a27bb69d8b1faca9c8fb"
+  },
+  "https://fliphtml5.com/zjkii/2026-2027-OK-Catalog_Web/": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://fliphtml5.com/zjkii/2026-2027-OK-Catalog_Web/",
+    "file": "research/spinning-page-followup/sources/747b460978ecec06.txt",
+    "checkedAt": "2026-09-22T03:05:34.772Z",
+    "sha256": "d2ebd111da20c6000bfe79bca9585f5b097e27426096c790f9ceee8160f66370"
+  },
+  "https://www.lews.com/en/shop/reels/spinning/kvds": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/shop/reels/spinning/kvds",
+    "file": "research/spinning-page-followup/sources/490729ad3b7e6154.txt",
+    "checkedAt": "2026-09-22T03:05:34.936Z",
+    "sha256": "9482e0a524b5be261723b825f742a3a714e862443e4c7f68c7e16b2d29a3a290"
+  },
+  "https://www.lews.com/en/shop/reels/spinning/kvdesh": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://www.lews.com/en/shop/reels/spinning/kvdesh",
+    "file": "research/spinning-page-followup/sources/d58a5c6c304e951e.txt",
+    "checkedAt": "2026-09-22T03:05:35.072Z",
+    "sha256": "ef51daefbebbfc58406297397072f8b88db5b925e7d9545981bc07afd879fd82"
+  },
+  "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/Brutus_SP_Reel.pdf?v=1785470369": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/Brutus_SP_Reel.pdf?v=1785470369",
+    "file": "research/spinning-page-followup/sources/483a7372d845ea69.pdf",
+    "checkedAt": "2026-09-22T03:06:45.399Z",
+    "sha256": "f18fb2878ebdedf165363a273247d444171b90f6f305063a9bf4884e2a95d254"
+  },
+  "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/Centron_SP_Reel.pdf?v=1785470436": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/Centron_SP_Reel.pdf?v=1785470436",
+    "file": "research/spinning-page-followup/sources/4bec48cc16ddff2e.pdf",
+    "checkedAt": "2026-09-22T03:06:45.768Z",
+    "sha256": "f43bc41d5a8a5250b1f12d0539f5d7fd78213fba7e7526ac391dd09b31af7b57"
+  },
+  "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/CRIXUS_spinning_reel.pdf?v=1785470486": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/CRIXUS_spinning_reel.pdf?v=1785470486",
+    "file": "research/spinning-page-followup/sources/9b1549f5b995ee94.pdf",
+    "checkedAt": "2026-09-22T03:06:45.849Z",
+    "sha256": "cd3b77fb437a6882cd246f0ab13253c3e85f571924048c87a2d7ded097e38ac3"
+  },
+  "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/Valiant_Eagle_Gold_sp.pdf?v=1785471732": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://cdn.shopify.com/s/files/1/0415/0378/5110/files/Valiant_Eagle_Gold_sp.pdf?v=1785471732",
+    "file": "research/spinning-page-followup/sources/f84e1bac4878e372.pdf",
+    "checkedAt": "2026-09-22T03:06:46.033Z",
+    "sha256": "c30f5e7da0f244f7d63fa41257b278dcc89f2bc2114e7d973635958e931d6b7d"
+  },
+  "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500-size-4460687": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500-size-4460687",
+    "file": "research/spinning-page-followup/sources/bcfe48e9d4aa26ec.txt",
+    "checkedAt": "2026-09-22T03:15:41.079Z",
+    "sha256": "5ff55448a60ca9461bdb1d6e4b08c639dc7ad19064ce0ce43a40bc26628cefed"
+  },
+  "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000-size-4460689": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000-size-4460689",
+    "file": "research/spinning-page-followup/sources/bf3345d043c2fb9b.txt",
+    "checkedAt": "2026-09-22T03:15:41.189Z",
+    "sha256": "fb22ea30bf8deff780568ddb87ae20770e09e8ff524eb7139afb274b1e69b414"
+  },
+  "https://tackletrap.com/pages/kage-lt-spinning-reels": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://tackletrap.com/pages/kage-lt-spinning-reels",
+    "file": "research/spinning-page-followup/sources/59fb2acdd66175c5.txt",
+    "checkedAt": "2026-09-22T03:15:41.536Z",
+    "sha256": "0faab55525298cb04829e7b7c7da2eb46058efc8009ddbc8a042d968f92a0776"
+  },
+  "https://www.tackledirect.com/daiwa-procyon-mq-lt-spinning-reels.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.tackledirect.com/daiwa-procyon-mq-lt-spinning-reels.html",
+    "file": "research/spinning-page-followup/sources/f42faec456a7c558.txt",
+    "checkedAt": "2026-09-22T03:15:42.195Z",
+    "sha256": "bd9b2f6260c147cbfa1cf1cc7a5de5ed4fd5ad441cb26ea82440baf23977c70b"
+  },
+  "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf",
+    "file": "research/spinning-page-followup/sources/2aa097cda4645638.pdf",
+    "checkedAt": "2026-09-22T03:19:31.366Z",
+    "sha256": "d28baadee929364e90c46b1d414807c75ff821c754cac466932030b27edd248e"
+  },
+  "https://daiwa.us/products/24-tatula-elite-spinning": {
+    "ok": false,
+    "status": 404,
+    "finalUrl": "https://daiwa.us/products/24-tatula-elite-spinning",
+    "file": "research/spinning-page-followup/sources/a397a30fcd355349.txt",
+    "checkedAt": "2026-09-22T03:19:31.726Z",
+    "sha256": "af078f29006d7fc59eb609b1832565be6503389d2cf606d12f10f8d22a0d0915"
+  },
+  "https://www.tackledirect.com/daiwa-tatuel2500d-xh-tatula-elite-spinning-reel.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.tackledirect.com/daiwa-tatuel2500d-xh-tatula-elite-spinning-reel.html",
+    "file": "research/spinning-page-followup/sources/f7703d612401da2f.txt",
+    "checkedAt": "2026-09-22T03:22:17.611Z",
+    "sha256": "db1c200cdd3de52c5e2c48eb73bda450cb2221d8cde67a8acae2ff0fd1c0fc6f"
+  },
+  "https://www.tackledirect.com/quantum-smoke-x-pt-smx25xpt-bx3-spinning-reel.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.tackledirect.com/quantum-smoke-x-pt-smx25xpt-bx3-spinning-reel.html",
+    "file": "research/spinning-page-followup/sources/12f40d204439e745.txt",
+    "checkedAt": "2026-09-22T03:22:18.291Z",
+    "sha256": "b404a210456afe8317c1ddc282f8c033f28be6d981de1376816be3c0b952d340"
+  },
+  "https://assets.basspro.com/image/upload/v1742413901/PDFs/productmanual/OA_Salt_Striker_Baitrunner_SST400060008000.pdf": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://assets.basspro.com/image/upload/v1742413901/PDFs/productmanual/OA_Salt_Striker_Baitrunner_SST400060008000.pdf",
+    "file": "research/spinning-page-followup/sources/0e1b115be898a3dd.pdf",
+    "checkedAt": "2026-09-22T03:22:18.584Z",
+    "sha256": "50aa46a24fc33c2929057ec9f18257185f485e5a488b81bbb3e18902ac69c18b"
+  }
+}

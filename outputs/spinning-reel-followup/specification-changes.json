@@ -1,0 +1,1781 @@
+[
+  {
+    "id": "bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500-jctt1500-61",
+    "differences": [],
+    "source": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500-size-4460687",
+    "supplements": [
+      "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500-size-4460687"
+    ]
+  },
+  {
+    "id": "bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000-jctt3000-62",
+    "differences": [],
+    "source": "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000-size-4460689",
+    "supplements": [
+      "https://www.basspro.com/shop/en/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000-size-4460689"
+    ]
+  },
+  {
+    "id": "daiwa-tatula-elite-spinning-2500d-xh-tael2500d-xh-141",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "TAEL2500D-XH",
+        "after": "TATUEL2500D-XH",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      },
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 6.9,
+        "after": 6.2
+      },
+      {
+        "field": "bearings",
+        "before": "7/1",
+        "after": "8BB+1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 8,
+              "yards": 240,
+              "diameter_in": 0.011,
+              "spool_space": 0.02904,
+              "raw": "8-240"
+            },
+            {
+              "lb": 10,
+              "yards": 210,
+              "diameter_in": 0.012,
+              "spool_space": 0.03024,
+              "raw": "10-210"
+            },
+            {
+              "lb": 12,
+              "yards": 160,
+              "diameter_in": 0.014,
+              "spool_space": 0.03136,
+              "raw": "12-160"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 10,
+              "yards": 250,
+              "ratingType": "lb",
+              "sourceLength": 250,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 15,
+              "yards": 185,
+              "ratingType": "lb",
+              "sourceLength": 185,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 8,
+              "yards": 240
+            },
+            {
+              "lb": 10,
+              "yards": 210
+            }
+          ],
+          "braid": [
+            {
+              "lb": 10,
+              "yards": 250
+            },
+            {
+              "lb": 15,
+              "yards": 185
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-tatula-elite-spinning-4000d-cxh-tael4000d-cxh-143",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "TAEL4000D-CXH",
+        "after": "TATUEL4000D-CXH",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      },
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 8.3,
+        "after": 6.2
+      },
+      {
+        "field": "bearings",
+        "before": "7/1",
+        "after": "8BB+1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 10,
+              "yards": 360,
+              "diameter_in": 0.012,
+              "spool_space": 0.05184,
+              "raw": "10-360"
+            },
+            {
+              "lb": 14,
+              "yards": 230,
+              "diameter_in": 0.015,
+              "spool_space": 0.05175,
+              "raw": "14-230"
+            },
+            {
+              "lb": 20,
+              "yards": 160,
+              "diameter_in": 0.018,
+              "spool_space": 0.05184,
+              "raw": "20-160"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 20,
+              "yards": 280,
+              "ratingType": "lb",
+              "sourceLength": 280,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 30,
+              "yards": 200,
+              "ratingType": "lb",
+              "sourceLength": 200,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 10,
+              "yards": 360
+            },
+            {
+              "lb": 14,
+              "yards": 250
+            }
+          ],
+          "braid": [
+            {
+              "lb": 20,
+              "yards": 280
+            },
+            {
+              "lb": 30,
+              "yards": 200
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-procyon-mq-lt-2500d-xh-pcnmqlt2500d-xh-146",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "bearings",
+        "before": "7/1",
+        "after": "6BB + 1"
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-procyon-mq-lt-4000d-cxh-pcnmqlt4000d-cxh-148",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 8.3,
+        "after": 8.1
+      },
+      {
+        "field": "bearings",
+        "before": "7/1",
+        "after": "6BB + 1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 10,
+              "yards": 360,
+              "diameter_in": 0.012,
+              "spool_space": 0.05184,
+              "raw": "10-360"
+            },
+            {
+              "lb": 14,
+              "yards": 230,
+              "diameter_in": 0.015,
+              "spool_space": 0.05175,
+              "raw": "14-230"
+            },
+            {
+              "lb": 20,
+              "yards": 160,
+              "diameter_in": 0.018,
+              "spool_space": 0.05184,
+              "raw": "20-160"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 20,
+              "yards": 280,
+              "ratingType": "lb",
+              "sourceLength": 280,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 30,
+              "yards": 200,
+              "ratingType": "lb",
+              "sourceLength": 200,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 10,
+              "yards": 210
+            },
+            {
+              "lb": 12,
+              "yards": 160
+            },
+            {
+              "lb": 14,
+              "yards": 140
+            }
+          ],
+          "braid": [
+            {
+              "lb": 20,
+              "yards": 280
+            },
+            {
+              "lb": 30,
+              "yards": 200
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-kage-lt-1000d-xh-kglt1000d-xh-176",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 6.3,
+        "after": 5.8
+      },
+      {
+        "field": "bearings",
+        "before": "7/1",
+        "after": "9 (1CRBB+8BB) + 1"
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-kage-lt-2000d-xh-kglt2000d-xh-177",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 6.5,
+        "after": 6
+      },
+      {
+        "field": "bearings",
+        "before": "7/1",
+        "after": "9 (1CRBB+8BB) + 1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 4,
+              "yards": 340,
+              "diameter_in": 0.008,
+              "spool_space": 0.02176,
+              "raw": "4-340"
+            },
+            {
+              "lb": 6,
+              "yards": 220,
+              "diameter_in": 0.0095,
+              "spool_space": 0.019855,
+              "raw": "6-220"
+            },
+            {
+              "lb": 8,
+              "yards": 160,
+              "diameter_in": 0.011,
+              "spool_space": 0.01936,
+              "raw": "8-160"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 8,
+              "yards": 220,
+              "ratingType": "lb",
+              "sourceLength": 220,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 10,
+              "yards": 215,
+              "ratingType": "lb",
+              "sourceLength": 215,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 4,
+              "yards": 340
+            },
+            {
+              "lb": 6,
+              "yards": 220
+            },
+            {
+              "lb": 8,
+              "yards": 160
+            }
+          ],
+          "braid": [
+            {
+              "lb": 8,
+              "yards": 280
+            },
+            {
+              "lb": 10,
+              "yards": 215
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-saltist-mq-8000-h-saltistmq8000-h-206",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "SALTISTMQ8000-H",
+        "after": "SALTISTMQ8000H",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      },
+      {
+        "field": "gear_ratio",
+        "before": "5.7",
+        "after": "5.7:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 22,
+        "after": 21.9
+      },
+      {
+        "field": "line_retrieve_in",
+        "before": 43.1,
+        "after": 43.4
+      },
+      {
+        "field": "bearings",
+        "before": "6/1",
+        "after": "6BB+1RB"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 20,
+              "yards": 280,
+              "diameter_in": 0.018,
+              "spool_space": 0.09072,
+              "raw": "20-280"
+            },
+            {
+              "lb": 25,
+              "yards": 220,
+              "diameter_in": 0.019,
+              "spool_space": 0.07942,
+              "raw": "25-220"
+            },
+            {
+              "lb": 30,
+              "yards": 160,
+              "diameter_in": 0.022,
+              "spool_space": 0.07744,
+              "raw": "30-160"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 40,
+              "yards": 330,
+              "ratingType": "lb",
+              "sourceLength": 330,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 50,
+              "yards": 280,
+              "ratingType": "lb",
+              "sourceLength": 280,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 330
+            },
+            {
+              "lb": 20,
+              "yards": 280
+            }
+          ],
+          "braid": [
+            {
+              "lb": 40,
+              "yards": 330
+            },
+            {
+              "lb": 50,
+              "yards": 280
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-saltist-mq-10000-h-saltistmq10000-h-207",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "SALTISTMQ10000-H",
+        "after": "SALTISTMQ10000H",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      },
+      {
+        "field": "gear_ratio",
+        "before": "5.7",
+        "after": "5.7:1"
+      },
+      {
+        "field": "line_retrieve_in",
+        "before": 45,
+        "after": 46.2
+      },
+      {
+        "field": "bearings",
+        "before": "6/1",
+        "after": "6BB+1RB"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 20,
+              "yards": 330,
+              "diameter_in": 0.018,
+              "spool_space": 0.10692,
+              "raw": "20-330"
+            },
+            {
+              "lb": 25,
+              "yards": 260,
+              "diameter_in": 0.019,
+              "spool_space": 0.09386,
+              "raw": "25-260"
+            },
+            {
+              "lb": 30,
+              "yards": 220,
+              "diameter_in": 0.022,
+              "spool_space": 0.10648,
+              "raw": "30-220"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 330,
+              "ratingType": "lb",
+              "sourceLength": 330,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 65,
+              "yards": 250,
+              "ratingType": "lb",
+              "sourceLength": 250,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 20,
+              "yards": 330
+            },
+            {
+              "lb": 25,
+              "yards": 280
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 330
+            },
+            {
+              "lb": 65,
+              "yards": 280
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "daiwa-saltist-mq-14000-h-saltistmq14000-h-208",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "SALTISTMQ14000-H",
+        "after": "SALTISTMQ14000H",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      },
+      {
+        "field": "gear_ratio",
+        "before": "5.7",
+        "after": "5.7:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": 22.9,
+        "after": 22.2
+      },
+      {
+        "field": "line_retrieve_in",
+        "before": 48,
+        "after": 48.3
+      },
+      {
+        "field": "bearings",
+        "before": "6/1",
+        "after": "6BB+1RB"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 25,
+              "yards": 370,
+              "diameter_in": 0.019,
+              "spool_space": 0.13357,
+              "raw": "25-370"
+            },
+            {
+              "lb": 30,
+              "yards": 300,
+              "diameter_in": 0.022,
+              "spool_space": 0.1452,
+              "raw": "30-300"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 65,
+              "yards": 330,
+              "ratingType": "lb",
+              "sourceLength": 330,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 80,
+              "yards": 260,
+              "ratingType": "lb",
+              "sourceLength": 260,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 25,
+              "yards": 330
+            },
+            {
+              "lb": 30,
+              "yards": 290
+            }
+          ],
+          "braid": [
+            {
+              "lb": 65,
+              "yards": 330
+            },
+            {
+              "lb": 80,
+              "yards": 280
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "supplements": [
+      "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+    ]
+  },
+  {
+    "id": "lew-s-kvd-spinning-reel-200-kvd200-339",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf"
+    ]
+  },
+  {
+    "id": "lew-s-kvd-spinning-reel-300-kvd300-340",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf"
+    ]
+  },
+  {
+    "id": "lew-s-kvd-spinning-reel-400-kvd400-341",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf"
+    ]
+  },
+  {
+    "id": "lew-s-mach-1-spinning-reel-100-mh100a-344",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf#page=5",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf#page=5"
+    ]
+  },
+  {
+    "id": "lew-s-mach-1-spinning-reel-200-mh200a-345",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf#page=5",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf#page=5"
+    ]
+  },
+  {
+    "id": "lew-s-mach-1-spinning-reel-300-mh300a-346",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf#page=5",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/2023_mach_final.pdf#page=5"
+    ]
+  },
+  {
+    "id": "lew-s-american-hero-tier-1-spinning-reel-200-42-352",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "",
+        "after": "6.2:1"
+      },
+      {
+        "field": "weight_oz",
+        "before": null,
+        "after": 8.6
+      },
+      {
+        "field": "max_drag_lb",
+        "before": null,
+        "after": 14
+      },
+      {
+        "field": "bearings",
+        "before": "",
+        "after": "10+1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 8,
+              "yards": 120,
+              "diameter_in": 0.011,
+              "spool_space": 0.01452,
+              "raw": "8-120"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 15,
+              "yards": 180,
+              "ratingType": "lb",
+              "sourceLength": 180,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "yards": 120,
+              "lb": 8
+            }
+          ],
+          "braid": [
+            {
+              "yards": 180,
+              "lb": 10
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf",
+    "supplements": [
+      "https://www.lews.com/contentassets/2666016ab56e4b5483bec74eb26b0aca/lews_2023_fnl.pdf"
+    ]
+  },
+  {
+    "id": "okuma-azores-blue-4000-z-4000h-blue-438",
+    "differences": [
+      {
+        "field": "weight_oz",
+        "before": null,
+        "after": 12
+      },
+      {
+        "field": "bearings",
+        "before": "6BB+1RB",
+        "after": "6BB + 1RB"
+      }
+    ],
+    "source": "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+    "supplements": [
+      "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+      "https://assets.unilogcorp.com/187/ITEM/DOC/OKUMA_103259611_Catalog.pdf#page=10"
+    ]
+  },
+  {
+    "id": "okuma-azores-blue-6000-z-6000h-blue-439",
+    "differences": [
+      {
+        "field": "weight_oz",
+        "before": null,
+        "after": 18.5
+      },
+      {
+        "field": "bearings",
+        "before": "6BB+1RB",
+        "after": "6BB + 1RB"
+      }
+    ],
+    "source": "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+    "supplements": [
+      "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+      "https://assets.unilogcorp.com/187/ITEM/DOC/OKUMA_103259611_Catalog.pdf#page=10"
+    ]
+  },
+  {
+    "id": "okuma-azores-blue-8000-z-8000h-blue-440",
+    "differences": [
+      {
+        "field": "weight_oz",
+        "before": null,
+        "after": 25.6
+      },
+      {
+        "field": "bearings",
+        "before": "6BB+1RB",
+        "after": "6BB + 1RB"
+      }
+    ],
+    "source": "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+    "supplements": [
+      "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+      "https://assets.unilogcorp.com/187/ITEM/DOC/OKUMA_103259611_Catalog.pdf#page=10"
+    ]
+  },
+  {
+    "id": "okuma-azores-blue-14000-z-14000h-blue-441",
+    "differences": [
+      {
+        "field": "weight_oz",
+        "before": null,
+        "after": 26.3
+      },
+      {
+        "field": "bearings",
+        "before": "6BB+1RB",
+        "after": "6BB + 1RB"
+      }
+    ],
+    "source": "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+    "supplements": [
+      "https://okumafishingusa.com/collections/spinning-reels/products/azores-blue",
+      "https://assets.unilogcorp.com/187/ITEM/DOC/OKUMA_103259611_Catalog.pdf#page=10"
+    ]
+  },
+  {
+    "id": "quantum-benchmark-2500-bm2500-b2-569",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "BM2500.B2",
+        "after": "BK2500.B2",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      }
+    ],
+    "source": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "supplements": [
+      "https://www.quantumfishing.com/shop/reels?p=1&s=100"
+    ]
+  },
+  {
+    "id": "quantum-benchmark-3000-bm3000-b2-570",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "BM3000.B2",
+        "after": "BK3000.B2",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      }
+    ],
+    "source": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "supplements": [
+      "https://www.quantumfishing.com/shop/reels?p=1&s=100"
+    ]
+  },
+  {
+    "id": "quantum-benchmark-4000-bm4000-b2-571",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "BM4000.B2",
+        "after": "BK4000.B2",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      }
+    ],
+    "source": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "supplements": [
+      "https://www.quantumfishing.com/shop/reels?p=1&s=100"
+    ]
+  },
+  {
+    "id": "quantum-benchmark-5000-bm5000-b2-572",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "BM5000.B2",
+        "after": "BK5000.B2",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      }
+    ],
+    "source": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "supplements": [
+      "https://www.quantumfishing.com/shop/reels?p=1&s=100"
+    ]
+  },
+  {
+    "id": "quantum-benchmark-6000-bm6000-b2-573",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "BM6000.B2",
+        "after": "BK6000.B2",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      }
+    ],
+    "source": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "supplements": [
+      "https://www.quantumfishing.com/shop/reels?p=1&s=100"
+    ]
+  },
+  {
+    "id": "quantum-benchmark-8000-bm8000-b2-574",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "BM8000.B2",
+        "after": "BK8000.B2",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      }
+    ],
+    "source": "https://www.quantumfishing.com/shop/reels?p=1&s=100",
+    "supplements": [
+      "https://www.quantumfishing.com/shop/reels?p=1&s=100"
+    ]
+  },
+  {
+    "id": "quantum-smoke-x-25-smx25xpt-bx3-608",
+    "differences": [
+      {
+        "field": "sku",
+        "before": "SMX25XPT.BX3",
+        "after": "SMX25XPT",
+        "reason": "Exact family and size matched to manufacturer model code; stable database ID retained."
+      },
+      {
+        "field": "gear_ratio",
+        "before": "6.0:1",
+        "after": "6:1"
+      }
+    ],
+    "source": "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf",
+    "supplements": [
+      "https://www.quantumfishing.com/contentassets/c199c43376d34f1188bb60458a395dfe/quantum_2024.pdf"
+    ]
+  },
+  {
+    "id": "shimano-nexave-fi-2500hg-nex2500hgfi-641",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html"
+    ]
+  },
+  {
+    "id": "shimano-nexave-fi-c3000hg-nexc3000hgfi-642",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html"
+    ]
+  },
+  {
+    "id": "shimano-nexave-fi-4000hg-nex4000hgfi-643",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "5.8",
+        "after": "5.8:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html"
+    ]
+  },
+  {
+    "id": "shimano-nexave-fi-c5000hg-nexc5000hgfi-644",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "5.8",
+        "after": "5.8:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html"
+    ]
+  },
+  {
+    "id": "shimano-twin-power-xd-fb-c3000xg-tpxdc3000xgfb-705",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.4",
+        "after": "6.4:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html"
+    ]
+  },
+  {
+    "id": "shimano-twin-power-xd-fb-4000xg-tpxd4000xgfb-706",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html"
+    ]
+  },
+  {
+    "id": "shimano-twin-power-xd-fb-c5000xg-tpxdc5000xgfb-707",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html"
+    ]
+  },
+  {
+    "id": "shimano-exsence-a-c3000mhg-exsc3000mhga-711",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6",
+        "after": "6:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html"
+    ]
+  },
+  {
+    "id": "shimano-exsence-a-4000mxg-exs4000mxga-712",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html"
+    ]
+  },
+  {
+    "id": "shimano-ix-1000r-ix1000r-730",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "4.1",
+        "after": "4.1:1"
+      },
+      {
+        "field": "bearings",
+        "before": "",
+        "after": "0"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 10,
+              "yards": 95,
+              "diameter_in": 0.008,
+              "spool_space": 0.00608,
+              "raw": "10-95"
+            },
+            {
+              "lb": 15,
+              "yards": 85,
+              "diameter_in": 0.008,
+              "spool_space": 0.00544,
+              "raw": "15-85"
+            },
+            {
+              "lb": 20,
+              "yards": 65,
+              "diameter_in": 0.009,
+              "spool_space": 0.005265,
+              "raw": "20-65"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 10,
+              "yards": 95,
+              "ratingType": "lb",
+              "sourceLength": 95,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 15,
+              "yards": 85,
+              "ratingType": "lb",
+              "sourceLength": 85,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 20,
+              "yards": 65,
+              "ratingType": "lb",
+              "sourceLength": 65,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 2,
+              "yards": 270
+            },
+            {
+              "lb": 4,
+              "yards": 140
+            },
+            {
+              "lb": 6,
+              "yards": 110
+            }
+          ],
+          "braid": [
+            {
+              "lb": 10,
+              "yards": 95
+            },
+            {
+              "lb": 15,
+              "yards": 85
+            },
+            {
+              "lb": 20,
+              "yards": 65
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
+      "https://fishshop.shimano.com/products/ix"
+    ]
+  },
+  {
+    "id": "shimano-ix-4000r-ix4000r-732",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "4.1",
+        "after": "4.1:1"
+      },
+      {
+        "field": "bearings",
+        "before": "",
+        "after": "0"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 15,
+              "yards": 265,
+              "diameter_in": 0.008,
+              "spool_space": 0.01696,
+              "raw": "15-265"
+            },
+            {
+              "lb": 30,
+              "yards": 175,
+              "diameter_in": 0.011,
+              "spool_space": 0.021175,
+              "raw": "30-175"
+            },
+            {
+              "lb": 50,
+              "yards": 145,
+              "diameter_in": 0.014,
+              "spool_space": 0.02842,
+              "raw": "50-145"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 15,
+              "yards": 265,
+              "ratingType": "lb",
+              "sourceLength": 265,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 30,
+              "yards": 175,
+              "ratingType": "lb",
+              "sourceLength": 175,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 50,
+              "yards": 145,
+              "ratingType": "lb",
+              "sourceLength": 145,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 8,
+              "yards": 240
+            },
+            {
+              "lb": 10,
+              "yards": 200
+            },
+            {
+              "lb": 12,
+              "yards": 160
+            }
+          ],
+          "braid": [
+            {
+              "lb": 15,
+              "yards": 265
+            },
+            {
+              "lb": 30,
+              "yards": 175
+            },
+            {
+              "lb": 50,
+              "yards": 145
+            }
+          ]
+        }
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/reardrag/a075f00002vocekqaa.html",
+      "https://fishshop.shimano.com/products/ix"
+    ]
+  },
+  {
+    "id": "shimano-spheros-sw-a-14000xg-spsw14000xga-740",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 360,
+              "diameter_in": 0.018,
+              "spool_space": 0.11664,
+              "raw": "16-360"
+            },
+            {
+              "lb": 20,
+              "yards": 260,
+              "diameter_in": 0.018,
+              "spool_space": 0.08424,
+              "raw": "20-260"
+            },
+            {
+              "lb": 25,
+              "yards": 190,
+              "diameter_in": 0.019,
+              "spool_space": 0.06859,
+              "raw": "25-190"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 400,
+              "ratingType": "lb",
+              "sourceLength": 400,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 65,
+              "yards": 315,
+              "ratingType": "lb",
+              "sourceLength": 315,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 80,
+              "yards": 240,
+              "ratingType": "lb",
+              "sourceLength": 240,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 360
+            },
+            {
+              "lb": 20,
+              "yards": 260
+            },
+            {
+              "lb": 25,
+              "yards": 190
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 400
+            },
+            {
+              "lb": 65,
+              "yards": 315
+            },
+            {
+              "lb": 80,
+              "yards": 240
+            }
+          ]
+        }
+      },
+      {
+        "field": "estimated mono diameters",
+        "before": [
+          [
+            16,
+            0.018
+          ],
+          [
+            20,
+            0.018
+          ],
+          [
+            25,
+            0.019
+          ]
+        ],
+        "after": [
+          [
+            16,
+            0.0156
+          ],
+          [
+            20,
+            0.018
+          ],
+          [
+            25,
+            0.019
+          ]
+        ],
+        "reason": "Use the existing shared calculator lookup, not the stale imported 16 lb value. These are estimates, not published diameters."
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fncqa2.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2fncqa2.html"
+    ]
+  },
+  {
+    "id": "shimano-saragosa-sw-a-14000xg-srg14000swaxg-747",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 360,
+              "diameter_in": 0.018,
+              "spool_space": 0.11664,
+              "raw": "16-360"
+            },
+            {
+              "lb": 20,
+              "yards": 260,
+              "diameter_in": 0.018,
+              "spool_space": 0.08424,
+              "raw": "20-260"
+            },
+            {
+              "lb": 25,
+              "yards": 190,
+              "diameter_in": 0.019,
+              "spool_space": 0.06859,
+              "raw": "25-190"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 400,
+              "ratingType": "lb",
+              "sourceLength": 400,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 65,
+              "yards": 315,
+              "ratingType": "lb",
+              "sourceLength": 315,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 80,
+              "yards": 240,
+              "ratingType": "lb",
+              "sourceLength": 240,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 360
+            },
+            {
+              "lb": 20,
+              "yards": 260
+            },
+            {
+              "lb": 25,
+              "yards": 190
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 400
+            },
+            {
+              "lb": 65,
+              "yards": 315
+            },
+            {
+              "lb": 80,
+              "yards": 240
+            }
+          ]
+        }
+      },
+      {
+        "field": "estimated mono diameters",
+        "before": [
+          [
+            16,
+            0.018
+          ],
+          [
+            20,
+            0.018
+          ],
+          [
+            25,
+            0.019
+          ]
+        ],
+        "after": [
+          [
+            16,
+            0.0156
+          ],
+          [
+            20,
+            0.018
+          ],
+          [
+            25,
+            0.019
+          ]
+        ],
+        "reason": "Use the existing shared calculator lookup, not the stale imported 16 lb value. These are estimates, not published diameters."
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2gakqam.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f00002k2gakqam.html"
+    ]
+  },
+  {
+    "id": "shimano-stella-sw-d-14000xg-stlsw14000xgd-776",
+    "differences": [
+      {
+        "field": "gear_ratio",
+        "before": "6.2",
+        "after": "6.2:1"
+      },
+      {
+        "field": "published capacities",
+        "before": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 360,
+              "diameter_in": 0.018,
+              "spool_space": 0.11664,
+              "raw": "16-360"
+            },
+            {
+              "lb": 20,
+              "yards": 260,
+              "diameter_in": 0.018,
+              "spool_space": 0.08424,
+              "raw": "20-260"
+            },
+            {
+              "lb": 25,
+              "yards": 190,
+              "diameter_in": 0.019,
+              "spool_space": 0.06859,
+              "raw": "25-190"
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 400,
+              "ratingType": "lb",
+              "sourceLength": 400,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 65,
+              "yards": 315,
+              "ratingType": "lb",
+              "sourceLength": 315,
+              "sourceUnit": "yd"
+            },
+            {
+              "lb": 80,
+              "yards": 240,
+              "ratingType": "lb",
+              "sourceLength": 240,
+              "sourceUnit": "yd"
+            }
+          ]
+        },
+        "after": {
+          "mono": [
+            {
+              "lb": 16,
+              "yards": 360
+            },
+            {
+              "lb": 20,
+              "yards": 260
+            },
+            {
+              "lb": 25,
+              "yards": 190
+            }
+          ],
+          "braid": [
+            {
+              "lb": 50,
+              "yards": 400
+            },
+            {
+              "lb": 65,
+              "yards": 315
+            },
+            {
+              "lb": 80,
+              "yards": 240
+            }
+          ]
+        }
+      },
+      {
+        "field": "estimated mono diameters",
+        "before": [
+          [
+            16,
+            0.018
+          ],
+          [
+            20,
+            0.018
+          ],
+          [
+            25,
+            0.019
+          ]
+        ],
+        "after": [
+          [
+            16,
+            0.0156
+          ],
+          [
+            20,
+            0.018
+          ],
+          [
+            25,
+            0.019
+          ]
+        ],
+        "reason": "Use the existing shared calculator lookup, not the stale imported 16 lb value. These are estimates, not published diameters."
+      }
+    ],
+    "source": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
+    "supplements": [
+      "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html"
+    ]
+  }
+]
