@@ -96,12 +96,13 @@ function humanizeReelType(value) {
   return normalized.replace(/[_-]+/g, " ").trim() || "fishing reel";
 }
 
-function stableIndex(value, count) {
-  let hash = 0;
-  for (const character of String(value || "")) {
-    hash = ((hash * 31) + character.charCodeAt(0)) >>> 0;
-  }
-  return count ? hash % count : 0;
+function reelTypeLabelFor(reel, recommendation) {
+  const uses = recommendation.useCases.join(" ").toLowerCase();
+  const saltwater = /inshore|surf|saltwater|offshore|redfish|speckled trout|tarpon|cobia/.test(uses);
+  const freshwater = /bass|walleye|trout|salmon|pike|catfish|panfish|freshwater/.test(uses);
+  const label = humanizeReelType(reel.reelType);
+  if (saltwater && freshwater) return label.replace(/^(?:freshwater|saltwater)\s+/, "");
+  return saltwater ? label.replace(/^freshwater\s+/, "") : label;
 }
 
 function numericArticle(value) {
@@ -157,133 +158,45 @@ function baitcasterRetrieveGuidance(reel) {
   return "";
 }
 
-function buildIntro(reel, recommendation, reelTypeLabel, featureProfile) {
-  const uses = naturalList(recommendation.useCases);
+export function buildIntro(reel, recommendation, featureProfile) {
+  const reelTypeLabel = reelTypeLabelFor(reel, recommendation);
   const sizeDescriptor = isBaitcaster(reel)
     ? baitcasterFrameDescriptor(reel)
     : `${reel.sizeClass}-size`;
   const sizeArticle = numericArticle(sizeDescriptor);
-  const weightArticle = numericArticle(reel.weightOz);
-  const openers = recommendation.heavyDuty
-    ? [
-        `The ${reel.displayName} (${reel.sku}) is ${sizeArticle} ${sizeDescriptor} ${reelTypeLabel} built for ${uses}.`,
-        `Built around ${sizeArticle} ${sizeDescriptor} frame, the ${reel.displayName} (${reel.sku}) is intended for ${uses}.`,
-        `The ${reel.displayName} (${reel.sku}) falls in the ${sizeDescriptor} class and is best matched to ${uses}.`
-      ]
-    : [
-        `The ${reel.displayName} (${reel.sku}) is ${sizeArticle} ${sizeDescriptor} ${reelTypeLabel} suited to ${uses}.`,
-        `Built around ${sizeArticle} ${sizeDescriptor} frame, the ${reel.displayName} (${reel.sku}) is best matched to ${uses}.`,
-        `The ${reel.displayName} (${reel.sku}) falls in the ${sizeDescriptor} class and is intended for ${uses}.`
-      ];
-  const facts = {
-    capacity: `${reel.ratedLineLb} lb / ${reel.capacityYards} yard`,
-    drag: `${reel.maxDragLb} lb`,
-    retrieve: `${reel.retrieveIn}-inch`,
-    size: sizeDescriptor,
-    weight: `${reel.weightOz}-ounce`
-  };
+  const opener = `The ${reel.displayName} (${reel.sku}) is ${sizeArticle} ${sizeDescriptor} ${reelTypeLabel}.`;
   const observations = {
-    ultralight: [
-      `At ${reel.weightOz} oz, it keeps trout and panfish outfits light in hand, while the ${facts.retrieve} retrieve provides controlled line pickup.`,
-      `Its ${facts.weight} weight suits repeated finesse casting, and ${reel.retrieveIn} inches of pickup per turn is practical for small jigs and light presentations.`,
-      `The ${facts.size} format weighs ${reel.weightOz} oz and retrieves ${reel.retrieveIn} inches per turn, a sensible pairing for light rods and fine-diameter line.`,
-      `With ${facts.drag} of published maximum drag and ${weightArticle} ${facts.weight} body, it is scaled for light-line control rather than heavy-cover pressure.`
-    ],
-    finesse: [
-      `At ${reel.weightOz} oz, it stays comfortable for repeated finesse casting, while the ${facts.retrieve} pickup helps manage slack around small jigs and soft plastics.`,
-      `Its published ${facts.capacity} capacity baseline gives light-line anglers practical reserve without stepping up to a bulky spool.`,
-      `The combination of ${weightArticle} ${facts.weight} body and ${reel.retrieveIn} inches of pickup per turn fits light rods, fine-diameter line, and precision presentations.`,
-      `A published maximum drag of ${facts.drag} adds useful headroom for bass and walleye while the reel remains sized for lighter tackle.`
-    ],
-    freshwater: [
-      `Its ${facts.retrieve} pickup helps recover slack around jigs and moving baits, while ${facts.drag} of maximum drag leaves useful room for bass and walleye work.`,
-      `At ${reel.weightOz} oz, it remains practical for repeated casting, with ${reel.retrieveIn} inches of pickup per turn for common freshwater presentations.`,
-      `The published ${facts.capacity} capacity baseline gives this size useful line reserve without moving into a high-capacity surf reel.`,
-      `A ${facts.retrieve} retrieve and ${facts.drag} maximum drag make it a useful middle ground between finesse duty and heavier freshwater setups.`,
-      `Its weight, line pickup, and published drag are proportioned for anglers who want one reel to cover several common freshwater techniques.`
-    ],
-    inshore: [
-      `The ${facts.retrieve} pickup helps manage line in current, and ${facts.drag} of maximum drag provides useful headroom for braid-and-leader inshore setups.`,
-      `Its published ${facts.capacity} capacity baseline leaves room for working line and leader, while the ${facts.retrieve} pickup supports quick line control around moving fish.`,
-      `At ${reel.weightOz} oz, this size balances repeated casting with the line reserve expected for light saltwater and inshore work.`,
-      `The combination of ${reel.retrieveIn} inches of pickup per turn and ${facts.drag} maximum drag suits presentations that need both slack recovery and steady pressure.`
-    ],
-    "big-inshore": [
-      `Its published ${facts.capacity} capacity baseline provides working-line reserve for heavier inshore braid and leader combinations.`,
-      `The ${facts.retrieve} pickup and ${facts.drag} maximum drag suit larger inshore fish, stronger line, and situations where current adds pressure.`,
-      `At ${reel.weightOz} oz, this reel puts capacity and pulling margin ahead of the light feel expected from smaller inshore sizes.`,
-      `With ${reel.retrieveIn} inches of pickup per turn, it can recover line efficiently while carrying the stronger braid commonly used for heavy inshore work.`
-    ],
-    pike: [
-      `The ${facts.drag} maximum drag and ${facts.retrieve} pickup provide useful control for pike, heavier bass, and leader-based setups.`,
-      `Its published ${facts.capacity} capacity baseline leaves room for stronger main line and the heavier leaders commonly used around toothy fish.`,
-      `With ${reel.retrieveIn} inches of pickup per turn, it can gather slack quickly when working larger lures or steering fish away from cover.`,
-      `At ${reel.weightOz} oz with ${facts.drag} of maximum drag, it favors line control and pulling margin over ultralight handling.`
-    ],
-    catfish: [
-      `The published ${facts.capacity} capacity baseline provides room for the heavier mono or braid-backed setups commonly used for catfish and bait fishing.`,
-      `Its ${facts.drag} maximum drag and working-line reserve favor steady pressure and stronger line over finesse handling.`,
-      `The ${facts.retrieve} pickup gathers line efficiently after a long cast, while the spool rating leaves useful reserve for sustained runs.`,
-      `At ${reel.weightOz} oz, this size is better suited to larger baits and line capacity than to an all-day ultralight outfit.`
-    ],
-    salmon: [
-      `Its ${facts.retrieve} pickup helps control slack in current, while the published ${facts.capacity} baseline supplies useful reserve for salmon and larger freshwater fish.`,
-      `The combination of ${facts.drag} maximum drag and a ${facts.capacity} capacity baseline supports stronger line and fish that can make a sustained run.`,
-      `With ${reel.retrieveIn} inches of pickup per turn, it can recover line efficiently when a fish changes direction in current.`,
-      `At ${reel.weightOz} oz, it emphasizes line reserve and control for salmon and heavy freshwater work rather than finesse duty.`
-    ],
-    surf: [
-      `Its published ${facts.capacity} capacity baseline gives surf and pier anglers useful reserve for long casts and running fish.`,
-      `With ${reel.retrieveIn} inches of pickup per turn and ${facts.drag} of maximum drag, it is equipped to manage heavier line across open water and current.`,
-      `At ${reel.weightOz} oz, this is a capacity-first reel for surf, pier, and heavy bait work rather than an all-day finesse option.`,
-      `The large-spool format retrieves ${reel.retrieveIn} inches per turn, helping recover line efficiently after long casts or when repositioning baits.`
-    ],
-    offshore: [
-      `Its published ${facts.capacity} capacity baseline and ${facts.drag} maximum drag emphasize heavy-line reserve for offshore and big-water use.`,
-      `The ${facts.retrieve} pickup moves substantial line per crank, while ${facts.drag} of maximum drag supports heavier braid setups.`,
-      `At ${reel.weightOz} oz, this is deliberately a power-and-capacity reel rather than a light-tackle all-rounder.`,
-      `The spool's published capacity and ${facts.drag} maximum drag are aimed at hard-running fish, heavy leaders, and demanding saltwater conditions.`
-    ],
-    heavy: [
-      `The published ${facts.capacity} capacity baseline and ${facts.drag} maximum drag make line reserve and pulling margin the priorities.`,
-      `Its ${facts.retrieve} pickup gathers line quickly across a large spool, while the rated capacity supports heavier working line.`,
-      `At ${reel.weightOz} oz, this reel is sized around capacity and sustained pressure rather than light-tackle handling.`,
-      `With ${reel.retrieveIn} inches of pickup per turn and a ${facts.capacity} capacity baseline, it is built around demanding big-reel work.`
-    ],
-    large: [
-      `Its published ${facts.capacity} capacity baseline gives anglers extra working-line reserve for larger fish and heavier presentations.`,
-      `The ${facts.retrieve} pickup and ${facts.drag} maximum drag provide a practical step up from common 3000- and 4000-size setups.`,
-      `At ${reel.weightOz} oz, it trades some light-tackle feel for additional capacity and control with stronger line.`,
-      `With ${reel.retrieveIn} inches of pickup per turn, this size can manage slack efficiently while carrying more line than a typical freshwater reel.`
-    ],
-    general: [
-      `At ${reel.weightOz} oz with a ${facts.retrieve} retrieve, its published dimensions fit the mix of casting comfort and line control expected from this size.`,
-      `Its ${facts.capacity} capacity baseline and ${facts.drag} maximum drag provide a practical reference for choosing line without oversizing the setup.`,
-      `The reel retrieves ${reel.retrieveIn} inches per turn and weighs ${reel.weightOz} oz, giving anglers a clear sense of how it will balance line pickup and handling.`,
-      `The combination of published capacity, ${facts.retrieve} pickup, and ${facts.drag} maximum drag defines a versatile working range for this reel.`
-    ]
+    ultralight: "For small lures, choose line that suits your rod, then check its diameter before deciding how much to spool.",
+    finesse: "For a finesse setup, choose your line for the rod and cover you're fishing, then work out how much the spool will hold.",
+    freshwater: "Start with the lures and cover you fish most, then decide whether you want a full spool of your chosen line or a shorter amount over backing.",
+    inshore: "For an inshore setup, choose your main line and leader for the fish and structure you expect, then check how much main line will fit.",
+    "big-inshore": "If you're using heavier line around structure, check how much will fit before buying a spool, and leave enough line for the fishing you plan to do.",
+    pike: "Choose your main line and leader for the lures and fish you're targeting, then check how much line that setup leaves on the spool.",
+    catfish: "When you're setting up for bait fishing, allow for the distance to your bait and the extra line you want left on the spool.",
+    salmon: "For fishing in current, allow enough line for your cast or drift with some left for a fish's run.",
+    surf: "For surf or pier fishing, allow enough line for your cast with some left for a fish's run before deciding how much backing to use.",
+    offshore: "Before adding backing, work out how much main line you want for the depth you're fishing and a fish's run.",
+    heavy: "With heavier line, check how much will fit and leave enough main line for your fishing before using backing to fill the rest.",
+    large: "A larger reel doesn't have to be filled entirely with your chosen main line; backing is an option if you only need part of that capacity.",
+    general: "Pick the line that suits your rod and the fishing you do, then check how much will fit before you start spooling."
   };
   const profile = introProfile(reel, recommendation);
-  const profileObservations = observations[profile];
-  const openerIndex = stableIndex(`${reel.id}:opener`, openers.length);
-  const observationIndex = stableIndex(`${reel.id}:observation`, profileObservations.length);
-  const retrieveGuidance = isBaitcaster(reel) ? baitcasterRetrieveGuidance(reel) : "";
 
   const approvedIntroTerms = (featureProfile?.terms || []).slice(0, 2);
   const verifiedFeatureSentence = featureSentence({ ...featureProfile, terms: approvedIntroTerms });
-  const verifiedSpecificationSentence = `${reel.weightOz} oz, ${reel.retrieveIn} inches of line pickup per handle turn, and ${reel.maxDragLb} lb of published maximum drag define the working scale of this exact model.`;
+  const verifiedSpecificationSentence = `It weighs ${reel.weightOz} oz, brings in ${reel.retrieveIn} inches of line with each handle turn, and has a listed maximum drag of ${reel.maxDragLb} lb.`;
   const marketSentence = /^(?:JP|JDM|Japan)$/i.test(String(reel.marketRegion || ""))
     ? `This page follows the exact Japanese-market ${reel.sku} specifications rather than a similarly named U.S. model.`
     : "";
   const detailMode = verifiedFeatureSentence ? "verified-features" : "verified-specifications";
   return {
     text: [
-      openers[openerIndex],
+      opener,
       marketSentence,
       verifiedFeatureSentence || verifiedSpecificationSentence,
-      retrieveGuidance || profileObservations[observationIndex]
+      observations[profile]
     ].filter(Boolean).join(" "),
-    variant: `${profile}-o${openerIndex + 1}-f${observationIndex + 1}-${verifiedFeatureSentence ? `t${approvedIntroTerms.length}` : "spec"}`,
+    variant: `${profile}-angler-${verifiedFeatureSentence ? `t${approvedIntroTerms.length}` : "spec"}`,
     detailMode,
     featureNames: approvedIntroTerms.map((term) => term.name),
     evidenceSource: featureProfile?.sourceUrl || reel.sourceUrl,
@@ -328,15 +241,8 @@ export function buildPageModel({
     : `The cited specification publishes ${braidText} for this exact reel. Actual capacity can vary with the diameter of the exact braid selected.`;
   const heavyDuty = recommendation.heavyDuty;
   const gearRatio = formatGearRatio(reel.gearRatio);
-  const useCaseText = recommendation.useCases.join(" ").toLowerCase();
-  const hasSaltwaterUse = /inshore|surf|saltwater|offshore|redfish|speckled trout|tarpon|cobia/.test(useCaseText);
-  const hasFreshwaterUse = /bass|walleye|trout|salmon|pike|catfish|panfish|freshwater/.test(useCaseText);
-  const reelTypeLabel = hasSaltwaterUse && hasFreshwaterUse
-    ? humanizeReelType(reel.reelType).replace(/^(?:freshwater|saltwater)\s+/, "")
-    : (hasSaltwaterUse
-      ? humanizeReelType(reel.reelType).replace(/^freshwater\s+/, "")
-      : humanizeReelType(reel.reelType));
-  const introModel = buildIntro(reel, recommendation, reelTypeLabel, featureProfile);
+  const reelTypeLabel = reelTypeLabelFor(reel, recommendation);
+  const introModel = buildIntro(reel, recommendation, featureProfile);
 
   return {
     reel,

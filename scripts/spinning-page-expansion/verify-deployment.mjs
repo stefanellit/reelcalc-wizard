@@ -13,7 +13,8 @@ async function get(file){
   assert.equal(response.status,200,file+' unavailable');
   return response;
 }
-const manifest=await (await get('data/reel-page-embeds.json?v=10')).json();
+const manifestVersion=read('data/reel-page-embeds.json').version;
+const manifest=await (await get(`data/reel-page-embeds.json?v=${manifestVersion}`)).json();
 assert.deepEqual(manifest,read('data/reel-page-embeds.json'));
 const registry=await (await get('data/reel-pages.json')).json();
 assert.deepEqual(registry,read('data/reel-pages.json'));
@@ -23,7 +24,7 @@ assert.deepEqual(reels,read('data/reels.json'));
 const affiliates=await (await get('data/reel-affiliates.json')).json();
 assert.deepEqual(affiliates,read('data/reel-affiliates.json'));
 const loader=await (await get('js/squarespace-reel-page-loader.js')).text();
-assert.ok(loader.includes('reel-page-embeds.json?v=10'));
+assert.ok(loader.includes(`reel-page-embeds.json?v=${manifestVersion}`));
 let assets=0;
 for(const file of new Set(build.files.map(f=>f.image.assetPath))){
   const response=await get(file);

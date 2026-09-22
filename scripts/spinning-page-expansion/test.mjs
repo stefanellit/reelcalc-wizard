@@ -5,6 +5,7 @@ import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 import {root,read,write} from './research.mjs';
 import {normalizeReel} from '../reel-pages/lookup.mjs';
+import {refreshIntros} from '../reel-pages/refresh-intros.mjs';
 
 const out='outputs/spinning-reel-expansion';
 const build=read(out+'/build.json');
@@ -27,7 +28,11 @@ assert.equal(reels.length,oldReels.length);
 assert.deepEqual(registry.pages.slice(0,oldRegistry.pages.length),oldRegistry.pages);
 assert.deepEqual(read('data/reel-pages.json'),oldRegistry,'Do not activate the directory before import.');
 for(const r of oldReels)if(!ids.has(r.id))assert.deepEqual(reels.find(n=>n.id===r.id),r);
-for(const [slug,value] of Object.entries(oldEmbeds.pages))assert.deepEqual(manifest.pages[slug],value);
+const refreshedOld=refreshIntros(structuredClone(oldEmbeds),reels,read('data/reel-family-features.json'));
+for(const [slug,value] of Object.entries(oldEmbeds.pages)){
+  const actual=manifest.pages[slug];
+  assert.deepEqual(actual,{...value,intro:refreshedOld.pages[slug].intro,introVariant:refreshedOld.pages[slug].introVariant});
+}
 for(const key of Object.keys(oldEmbeds).filter(k=>!['pages','version'].includes(k)))assert.deepEqual(manifest[key],oldEmbeds[key]);
 for(const [id,value] of Object.entries(oldAffiliates.reels))if(!ids.has(id))assert.deepEqual(affiliates.reels[id],value);
 const sandbox={window:{},URL,URLSearchParams,Map,Set,Array,Number,String,Math};
@@ -38,6 +43,22 @@ const lines=sandbox.window.ReelCalcLineSelector.prepareLines(read('data/lines.js
 const selections=['powerpro-spectra-braid-15','seaguar-invizx-fluorocarbon-10','berkley-trilene-big-game-monofilament-10'].map(id=>lines.find(l=>l.id===id));
 assert.ok(selections.every(Boolean));
 const backing=selections[2];
+for(const entry of Object.values(manifest.pages)){
+  const reel=normalizeReel(reels.find(r=>r.id===entry.reelId));
+  assert.ok(entry.intro.includes(reel.displayName)&&entry.intro.includes(reel.sku));
+  assert.doesNotMatch(entry.intro,/working scale|capacity baseline|pulling margin|useful headroom|falls in the|comfortable for repeated|all-day comfort/i);
+  assert.doesNotMatch(entry.intro,/for sealed spinning|for sealed budget spinning|for rear-drag\/quickfire style/i);
+  assert.doesNotMatch(entry.intro,/\b(?:we|I) (?:tested|used|fished|found|caught)\b/i);
+  assert.doesNotMatch(entry.intro,/\b(?:undefined|null|NaN)\b/);
+  assert.ok(entry.intro.split(/\s+/).length<=150,'Keep introductions concise.');
+  if(entry.introDetailMode==='verified-specifications'){
+    const fact=`It weighs ${reel.weightOz} oz, brings in ${reel.retrieveIn} inches of line with each handle turn, and has a listed maximum drag of ${reel.maxDragLb} lb.`;
+    assert.ok(entry.intro.includes(fact),`${entry.reelId}: exact specification sentence missing`);
+    assert.equal(entry.intro.split(fact).length-1,1);
+  }
+  for(const name of entry.introFeatureNames)assert.ok(entry.intro.includes(name));
+  if(/^(?:JP|JDM|Japan)$/i.test(reel.marketRegion))assert.ok(entry.intro.includes(`exact Japanese-market ${reel.sku} specifications`));
+}
 const pairs=rows=>Array.from(rows,r=>[Number(r.lb),Number(r.yards)]).sort((a,b)=>a[0]-b[0]);
 let calculations=0;
 for(const f of build.files){

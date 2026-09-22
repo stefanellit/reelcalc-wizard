@@ -28,7 +28,7 @@ Ready: **247 new spinning-reel pages**. Held for more research: **168**. The req
 - Exact model-code matching against manufacturer product tables or manufacturer-authored catalogs; supplemental catalog item numbers used where model labels differ.
 - Published mono and braid ratings reconciled against the page tables and calculator parser.
 - 2,964 capacity/backing/overfill scenarios passed, plus unit-conversion and rating round-trip checks.
-- All 919 existing page entries, real-world-test links, and aliases preserved.
+- All 919 existing pages retain their specifications, calculators, real-world-test links, and aliases. Their introductions now use the same plainer wording as the new pages.
 - CSV checked for 28 native columns, unique URLs and SKUs, blank product IDs, correct tags, and valid imported HTML.
 - Desktop and 390px phone-width imported-content previews tested, including line selection, capacity, backing, affiliate links, and disclosure.
 - Manufacturer images optimized without changing the reels shown. Some older catalog photographs are lower resolution than current product photographs.

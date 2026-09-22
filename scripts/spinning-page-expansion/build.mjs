@@ -5,6 +5,7 @@ import {root,read,write,missing,baseline} from './research.mjs';
 import {generateReelPage} from '../generate-reel-page.mjs';
 import {renderSquarespaceBlock,renderPreviewDocument} from '../reel-pages/render.mjs';
 import {normalizeAffiliateRegistry,ensureAmazonReelOffer} from '../reel-pages/affiliates.mjs';
+import {refreshIntros} from '../reel-pages/refresh-intros.mjs';
 
 const output='outputs/spinning-reel-expansion';
 const reconciliation=read('research/spinning-page-expansion/reconciliation.json');
@@ -37,6 +38,7 @@ const files=[];
 const failures=[];
 const lines=read('data/lines.json');
 const featureCatalog=read('data/reel-family-features.json');
+refreshIntros(embeds,reels,featureCatalog);
 for(const item of ready){
   const result=generateReelPage(item.id,{reels,lines,registry:stagedRegistry,affiliates,featureCatalog});
   if(result.status!=='generated'){failures.push({id:item.id,status:result.status,problems:result.problems||result.validation?.failures});continue;}
@@ -64,7 +66,7 @@ for(const item of ready){
 }
 write(output+'/generation-failures.json',failures);
 if(failures.length)throw new Error('Generation failures: '+failures.length+'; see report.');
-embeds.version=Number(originalEmbeds.version)+1;
+embeds.version=11;
 stagedRegistry.version=Number(originalRegistry.version)+1;
 const held=reconciliation.filter(r=>!readyIds.has(r.id)).map(r=>{const original=missing.find(m=>m.id===r.id);return {id:r.id,name:[original.brand,original.model,original.size_label].join(' '),sku:original.sku,reasons:r.status==='verified'?[images[r.id]?.reason||'Image verification incomplete.']:r.reasons,source:original.source_url};});
 write(output+'/build.json',{headers,files,held,baseCommit:'a5c6809bccd835cd8b0e57878cdf36bafb56de8e',existingPageCount:originalRegistry.pages.length});
