@@ -26,7 +26,21 @@ assert.equal(build.files.length+build.held.length,415);
 assert.equal(registry.pages.length,oldRegistry.pages.length+ids.size);
 assert.equal(reels.length,oldReels.length);
 assert.deepEqual(registry.pages.slice(0,oldRegistry.pages.length),oldRegistry.pages);
-assert.deepEqual(read('data/reel-pages.json'),oldRegistry,'Do not activate the directory before import.');
+const activeRegistry=read('data/reel-pages.json');
+if(activeRegistry.pages.length===oldRegistry.pages.length){
+  assert.deepEqual(activeRegistry,oldRegistry,'Do not activate the directory before import.');
+}else{
+  const liveCheck=read(out+'/live-import-check.json');
+  assert.equal(liveCheck.summary.present,ids.size);
+  assert.equal(liveCheck.summary.notFound,0);
+  assert.equal(liveCheck.summary.uncertain,0);
+  assert.deepEqual(activeRegistry,{...registry,pages:registry.pages.map(page=>ids.has(page.reelId)?{...page,verifiedLive:true}:page)});
+  const directorySandbox={window:{},URL,Map,Set,Array,Number,String,Math};
+  vm.createContext(directorySandbox);
+  vm.runInContext(fs.readFileSync(path.join(root,'js/reel-guide-list.js'),'utf8'),directorySandbox);
+  const entries=directorySandbox.window.ReelCalcGuideList.mergeEntries(read('data/reel-guide-legacy.json'),activeRegistry,reels,new Set(),false);
+  for(const file of build.files)assert.equal(entries.filter(entry=>entry.reelId===file.id&&entry.path==='/reel-pages/p/'+file.slug).length,1);
+}
 for(const r of oldReels)if(!ids.has(r.id))assert.deepEqual(reels.find(n=>n.id===r.id),r);
 const refreshedOld=refreshIntros(structuredClone(oldEmbeds),reels,read('data/reel-family-features.json'));
 for(const [slug,value] of Object.entries(oldEmbeds.pages)){

@@ -18,7 +18,12 @@ const manifest=await (await get(`data/reel-page-embeds.json?v=${manifestVersion}
 assert.deepEqual(manifest,read('data/reel-page-embeds.json'));
 const registry=await (await get('data/reel-pages.json')).json();
 assert.deepEqual(registry,read('data/reel-pages.json'));
-assert.equal(registry.pages.length,919);
+const importedIds=new Set(build.files.map(page=>page.id));
+const additions=registry.pages.filter(page=>importedIds.has(page.reelId));
+const directoryActivated=additions.length===build.files.length;
+assert.ok(additions.length===0||directoryActivated,'Do not partially activate this verified batch.');
+assert.equal(registry.pages.length,build.existingPageCount+additions.length);
+if(directoryActivated)assert.ok(additions.every(page=>page.verifiedLive===true));
 const reels=await (await get('data/reels.json')).json();
 assert.deepEqual(reels,read('data/reels.json'));
 const affiliates=await (await get('data/reel-affiliates.json')).json();
@@ -39,6 +44,6 @@ for(const file of build.files){
   assert.ok(html.includes(file.id)&&html.includes('data-reelcalc-calculator'));
   assert.ok(html.includes('<meta name="robots" content="noindex, nofollow">'));
 }
-const report={state:'published-and-verified',commit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),pages:build.files.length,held:build.held.length,manifestVersion:manifest.version,verifiedImageAssets:assets,verifiedHostedPreviews:build.files.length,existingDirectoryPages:registry.pages.length,imported:false,directoryActivated:false,checkedAt:new Date().toISOString(),deployment:process.argv[2]||'See repository GitHub Pages deployment history.'};
+const report={state:'published-and-verified',commit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),pages:build.files.length,held:build.held.length,manifestVersion:manifest.version,verifiedImageAssets:assets,verifiedHostedPreviews:build.files.length,existingDirectoryPages:build.existingPageCount,totalDirectoryPages:registry.pages.length,imported:directoryActivated,directoryActivated,checkedAt:new Date().toISOString(),deployment:process.argv[2]||'See repository GitHub Pages deployment history.'};
 write(out+'/release-status.json',report);
 console.log(JSON.stringify(report,null,2));

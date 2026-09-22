@@ -8,7 +8,8 @@ root = Path(__file__).resolve().parents[2]
 out = root / 'outputs/spinning-reel-expansion'
 build = json.loads((out / 'build.json').read_text())
 target = out / f'UPLOAD-THIS-{len(build["files"])}-new-spinning-reel-pages.csv'
-with target.open('w', newline='', encoding='utf-8-sig') as stream:
+# A BOM can make Squarespace treat the first header as an unknown column.
+with target.open('w', newline='', encoding='utf-8') as stream:
     writer = csv.DictWriter(stream, fieldnames=build['headers'])
     writer.writeheader()
     for page in build['files']:
@@ -25,8 +26,12 @@ with target.open('w', newline='', encoding='utf-8-sig') as stream:
         markup = ''.join(html.tostring(child, encoding='unicode') for child in tree)
         row['Description'] = '\n'.join(line.rstrip() for line in markup.splitlines()).strip()
         writer.writerow(row)
-with target.open(newline='', encoding='utf-8-sig') as stream:
-    rows = list(csv.DictReader(stream))
+assert not target.read_bytes().startswith(b'\xef\xbb\xbf')
+with target.open(newline='', encoding='utf-8') as stream:
+    reader = csv.DictReader(stream)
+    assert reader.fieldnames == build['headers']
+    assert reader.fieldnames[0] == 'Product ID [Non Editable]'
+    rows = list(reader)
 assert len(rows) == len(build['files'])
 assert len({r['Product URL'] for r in rows}) == len(rows)
 assert len({r['SKU'] for r in rows}) == len(rows)

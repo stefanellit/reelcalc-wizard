@@ -61,7 +61,8 @@ for(const item of ready){
   const related=m.related;
   embeds.pages[slug]={reelId:item.id,pageTitle:m.pageTitle,seoTitle:m.seoTitle,metaDescription:m.metaDescription,canonicalPath:m.page.path,imageUrl:m.page.imageUrl,imageAlt:m.page.imageAlt,intro:m.intro,introVariant:m.introVariant,introDetailMode:m.introDetailMode,introFeatureNames:m.introFeatureNames,introEvidenceSource:m.introEvidenceSource,introEvidenceKey:m.introEvidenceKey,related,sizeGuide:m.resources.find(r=>/^\/blog\/what-line-should-i-put-on-a-(?:2500|3000|4000)-spinning-reel$/.test(r.path))||null,calculator:m.calculatorDefaults,content:Object.fromEntries(['who','setupIntro','specsIntro','faqBraid','capacityIntro','capacityRows','monoText','braidText','faqCapacity'].map(key=>[key,m[key]]))};
   const row=Object.fromEntries(headers.map(h=>[h,'']));
-  Object.assign(row,{'Product Type [Non Editable]':'SERVICE','Product Page':'reel-pages','Product URL':slug,Title:m.pageTitle,SKU:'RC'+crypto.createHash('sha256').update(item.id).digest('hex').slice(0,18).toUpperCase(),MPN:item.reel.sku,Price:'0','On Sale':'No',Stock:'Unlimited',Categories:'Fishing Line Setup Guides',Tags:'reelcalc-reel-guide',Visible:'Yes'});
+  // Match the existing reel collection; the organized directory is not a store category.
+  Object.assign(row,{'Product Type [Non Editable]':'SERVICE','Product Page':'reel-pages','Product URL':slug,Title:m.pageTitle,SKU:'RC'+crypto.createHash('sha256').update(item.id).digest('hex').slice(0,18).toUpperCase(),MPN:item.reel.sku,Price:'0','On Sale':'No',Stock:'Unlimited',Categories:'',Tags:'reelcalc-reel-guide',Visible:'Yes'});
   files.push({id:item.id,name,slug,blockFile,previewFile,row,checks:result.validation.checks,source:item.official.evidenceUrl,supplements:item.reel.spec_verification_sources,image:images[item.id]});
 }
 write(output+'/generation-failures.json',failures);

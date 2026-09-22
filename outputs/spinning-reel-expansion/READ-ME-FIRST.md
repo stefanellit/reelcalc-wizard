@@ -1,5 +1,7 @@
 # Spinning Reel Page Import
 
+**Already imported: do not upload the create-only CSV again.** On September 21, 2026, the Squarespace export confirmed all 247 new records, each with one unique SKU. All 247 public URLs passed the live check. Squarespace left Categories and its internal MPN field blank; the model codes remain in the guide content and shared reel data. The existing 919 reel records and 120 line-guide records remain in place.
+
 Ready: **247 new spinning-reel pages**. Held for more research: **168**. The requested 415-page expansion is not fully complete.
 
 ## Import Steps
