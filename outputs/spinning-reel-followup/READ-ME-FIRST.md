@@ -1,8 +1,10 @@
 # Spinning Reel Page Import
 
-Ready: **43 new spinning-reel pages**. Held for more research: **125**. The requested 168-page follow-up is not fully complete.
+**Import complete:** all 43 new spinning-reel pages were verified live on September 23, 2026. Their links are activated in the shared guide registry. Held for more research: **125**. The requested 168-page follow-up is not fully complete.
 
-## Import Steps
+**Do not import the 43-page CSV again.** It is retained as a record of this completed batch.
+
+## Original Import Steps (Completed)
 
 1. In Squarespace, open the same product CSV import screen used for the earlier reel pages.
 2. Import **UPLOAD-THIS-43-new-spinning-reel-pages.csv** once. Use the existing **reel-pages** collection, not a new store or collection.
@@ -37,9 +39,9 @@ Ready: **43 new spinning-reel pages**. Held for more research: **125**. The requ
 - The directory registry stays at its existing size until import is confirmed, preventing premature links to missing Squarespace pages.
 - The remaining records are not included just to reach a number. The hold list identifies unresolved model codes, conflicting or incomplete specifications, and missing usable product photographs.
 
-## Not Yet Imported
+## Publication Status
 
-Nothing in this process imports items into Squarespace. The supporting GitHub assets must be deployed before the file is imported; see release-status.json for deployment verification.
+The user imported the CSV into the existing Squarespace Reel Pages collection. All 43 expected public URLs returned the matching reel ID and model code. The collection already lists the imported guides; the shared registry activates them in the organized Setup Guides hub. See live-import-check.json and activation.json for the checks, and release-status.json for deployment verification.
 
 ## Held Reels
 

@@ -1,9 +1,12 @@
 import fs from 'node:fs';
+import assert from 'node:assert/strict';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
-const out=path.join(root,'outputs/spinning-reel-expansion');
+const batch=process.argv[2]||'spinning-reel-expansion';
+assert.ok(['spinning-reel-expansion','spinning-reel-followup'].includes(batch),'Unknown import batch.');
+const out=path.join(root,'outputs',batch);
 const build=JSON.parse(fs.readFileSync(path.join(out,'build.json'),'utf8'));
 const results=[];
 for(const page of build.files){

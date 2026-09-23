@@ -1,0 +1,441 @@
+{
+  "summary": {
+    "checkedAt": "2026-09-23T23:42:56.215Z",
+    "expected": 43,
+    "present": 43,
+    "notFound": 0,
+    "uncertain": 0
+  },
+  "results": [
+    {
+      "name": "Bass Pro Shops Johnny Morris CarbonLite Tech Spinning Reel 1500",
+      "slug": "bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500",
+      "url": "https://www.reelcalc.com/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-1500",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Bass Pro Shops Johnny Morris CarbonLite Tech Spinning Reel 1500 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Bass Pro Shops Johnny Morris CarbonLite Tech Spinning Reel 3000",
+      "slug": "bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000",
+      "url": "https://www.reelcalc.com/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Bass Pro Shops Johnny Morris CarbonLite Tech Spinning Reel 3000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Tatula Elite Spinning 2500D-XH",
+      "slug": "daiwa-tatula-elite-spinning-2500d-xh",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-tatula-elite-spinning-2500d-xh",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-tatula-elite-spinning-2500d-xh",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Tatula Elite Spinning 2500D-XH Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Tatula Elite Spinning 4000D-CXH",
+      "slug": "daiwa-tatula-elite-spinning-4000d-cxh",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-tatula-elite-spinning-4000d-cxh",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-tatula-elite-spinning-4000d-cxh",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Tatula Elite Spinning 4000D-CXH Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Procyon MQ LT 2500D-XH",
+      "slug": "daiwa-procyon-mq-lt-2500d-xh",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-procyon-mq-lt-2500d-xh",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-procyon-mq-lt-2500d-xh",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Procyon MQ LT 2500D-XH Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Procyon MQ LT 4000D-CXH",
+      "slug": "daiwa-procyon-mq-lt-4000d-cxh",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-procyon-mq-lt-4000d-cxh",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-procyon-mq-lt-4000d-cxh",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Procyon MQ LT 4000D-CXH Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Kage LT 1000D-XH",
+      "slug": "daiwa-kage-lt-1000d-xh",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-kage-lt-1000d-xh",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-kage-lt-1000d-xh",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Kage LT 1000D-XH Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Kage LT 2000D-XH",
+      "slug": "daiwa-kage-lt-2000d-xh",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-kage-lt-2000d-xh",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-kage-lt-2000d-xh",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Kage LT 2000D-XH Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Saltist MQ 8000-H",
+      "slug": "daiwa-saltist-mq-8000-h",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-saltist-mq-8000-h",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-saltist-mq-8000-h",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Saltist MQ 8000-H Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Saltist MQ 10000-H",
+      "slug": "daiwa-saltist-mq-10000-h",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-saltist-mq-10000-h",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-saltist-mq-10000-h",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Saltist MQ 10000-H Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Daiwa Saltist MQ 14000-H",
+      "slug": "daiwa-saltist-mq-14000-h",
+      "url": "https://www.reelcalc.com/reel-pages/p/daiwa-saltist-mq-14000-h",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/daiwa-saltist-mq-14000-h",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Daiwa Saltist MQ 14000-H Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's KVD Spinning Reel 200",
+      "slug": "lew-s-kvd-spinning-reel-200",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-kvd-spinning-reel-200",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-kvd-spinning-reel-200",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s KVD Spinning Reel 200 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's KVD Spinning Reel 300",
+      "slug": "lew-s-kvd-spinning-reel-300",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-kvd-spinning-reel-300",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-kvd-spinning-reel-300",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s KVD Spinning Reel 300 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's KVD Spinning Reel 400",
+      "slug": "lew-s-kvd-spinning-reel-400",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-kvd-spinning-reel-400",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-kvd-spinning-reel-400",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s KVD Spinning Reel 400 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's MACH 1 Spinning Reel 100",
+      "slug": "lew-s-mach-1-spinning-reel-100",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-mach-1-spinning-reel-100",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-mach-1-spinning-reel-100",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s MACH 1 Spinning Reel 100 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's MACH 1 Spinning Reel 200",
+      "slug": "lew-s-mach-1-spinning-reel-200",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-mach-1-spinning-reel-200",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-mach-1-spinning-reel-200",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s MACH 1 Spinning Reel 200 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's MACH 1 Spinning Reel 300",
+      "slug": "lew-s-mach-1-spinning-reel-300",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-mach-1-spinning-reel-300",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-mach-1-spinning-reel-300",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s MACH 1 Spinning Reel 300 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Lew's American Hero Tier 1 Spinning Reel 200",
+      "slug": "lew-s-american-hero-tier-1-spinning-reel-200",
+      "url": "https://www.reelcalc.com/reel-pages/p/lew-s-american-hero-tier-1-spinning-reel-200",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/lew-s-american-hero-tier-1-spinning-reel-200",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Lew&#39;s American Hero Tier 1 Spinning Reel 200 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Okuma Azores Blue 4000",
+      "slug": "okuma-azores-blue-4000",
+      "url": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-4000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-4000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Okuma Azores Blue 4000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Okuma Azores Blue 6000",
+      "slug": "okuma-azores-blue-6000",
+      "url": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-6000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-6000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Okuma Azores Blue 6000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Okuma Azores Blue 8000",
+      "slug": "okuma-azores-blue-8000",
+      "url": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-8000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-8000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Okuma Azores Blue 8000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Okuma Azores Blue 14000",
+      "slug": "okuma-azores-blue-14000",
+      "url": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-14000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/okuma-azores-blue-14000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Okuma Azores Blue 14000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Benchmark 2500",
+      "slug": "quantum-benchmark-2500",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-2500",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-2500",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Benchmark 2500 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Benchmark 3000",
+      "slug": "quantum-benchmark-3000",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-3000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-3000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Benchmark 3000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Benchmark 4000",
+      "slug": "quantum-benchmark-4000",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-4000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-4000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Benchmark 4000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Benchmark 5000",
+      "slug": "quantum-benchmark-5000",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-5000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-5000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Benchmark 5000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Benchmark 6000",
+      "slug": "quantum-benchmark-6000",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-6000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-6000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Benchmark 6000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Benchmark 8000",
+      "slug": "quantum-benchmark-8000",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-8000",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-benchmark-8000",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Benchmark 8000 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Quantum Smoke X 25",
+      "slug": "quantum-smoke-x-25",
+      "url": "https://www.reelcalc.com/reel-pages/p/quantum-smoke-x-25",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/quantum-smoke-x-25",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Quantum Smoke X 25 Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Nexave FI 2500HG",
+      "slug": "shimano-nexave-fi-2500hg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-2500hg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-2500hg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Nexave FI 2500HG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Nexave FI C3000HG",
+      "slug": "shimano-nexave-fi-c3000hg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-c3000hg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-c3000hg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Nexave FI C3000HG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Nexave FI 4000HG",
+      "slug": "shimano-nexave-fi-4000hg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-4000hg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-4000hg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Nexave FI 4000HG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Nexave FI C5000HG",
+      "slug": "shimano-nexave-fi-c5000hg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-c5000hg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-nexave-fi-c5000hg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Nexave FI C5000HG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Twin Power XD FB C3000XG",
+      "slug": "shimano-twin-power-xd-fb-c3000xg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-twin-power-xd-fb-c3000xg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-twin-power-xd-fb-c3000xg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Twin Power XD FB C3000XG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Twin Power XD FB 4000XG",
+      "slug": "shimano-twin-power-xd-fb-4000xg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-twin-power-xd-fb-4000xg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-twin-power-xd-fb-4000xg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Twin Power XD FB 4000XG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Twin Power XD FB C5000XG",
+      "slug": "shimano-twin-power-xd-fb-c5000xg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-twin-power-xd-fb-c5000xg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-twin-power-xd-fb-c5000xg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Twin Power XD FB C5000XG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Exsence A C3000MHG",
+      "slug": "shimano-exsence-a-c3000mhg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-exsence-a-c3000mhg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-exsence-a-c3000mhg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Exsence A C3000MHG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Exsence A 4000MXG",
+      "slug": "shimano-exsence-a-4000mxg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-exsence-a-4000mxg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-exsence-a-4000mxg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Exsence A 4000MXG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano IX 1000R",
+      "slug": "shimano-ix-1000r",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-ix-1000r",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-ix-1000r",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano IX 1000R Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano IX 4000R",
+      "slug": "shimano-ix-4000r",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-ix-4000r",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-ix-4000r",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano IX 4000R Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Spheros SW A 14000XG",
+      "slug": "shimano-spheros-sw-a-14000xg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-spheros-sw-a-14000xg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-spheros-sw-a-14000xg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Spheros SW A 14000XG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Saragosa SW A 14000XG",
+      "slug": "shimano-saragosa-sw-a-14000xg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-saragosa-sw-a-14000xg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-saragosa-sw-a-14000xg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Saragosa SW A 14000XG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    },
+    {
+      "name": "Shimano Stella SW D 14000XG",
+      "slug": "shimano-stella-sw-d-14000xg",
+      "url": "https://www.reelcalc.com/reel-pages/p/shimano-stella-sw-d-14000xg",
+      "finalUrl": "https://www.reelcalc.com/reel-pages/p/shimano-stella-sw-d-14000xg",
+      "status": 200,
+      "expectedReel": true,
+      "expectedModel": true,
+      "title": "Shimano Stella SW D 14000XG Line Capacity &amp; Reel Setup Guide &mdash; ReelCalc"
+    }
+  ]
+}

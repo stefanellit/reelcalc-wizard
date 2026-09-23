@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import {read,write} from './research.mjs';
 
-const out='outputs/spinning-reel-expansion';
+const batch=process.argv[2]||'spinning-reel-expansion';
+assert.ok(['spinning-reel-expansion','spinning-reel-followup'].includes(batch),'Unknown import batch.');
+const out='outputs/'+batch;
 const build=read(out+'/build.json');
 const check=read(out+'/live-import-check.json');
 const staged=read(out+'/ACTIVATE-AFTER-IMPORT-reel-pages.json');
