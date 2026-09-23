@@ -68,7 +68,7 @@ for(const item of ready){
 }
 write(output+'/generation-failures.json',failures);
 if(failures.length)throw new Error('Generation failures: '+failures.length+'; see report.');
-embeds.version=Number(originalEmbeds.version)+1;
+embeds.version=Math.max(Number(originalEmbeds.version)+1,Number(read('data/reel-page-embeds.json').version));
 stagedRegistry.version=Number(originalRegistry.version)+1;
 const held=reconciliation.filter(r=>!readyIds.has(r.id)).map(r=>{const original=missing.find(m=>m.id===r.id);return {id:r.id,name:[original.brand,original.model,original.size_label].join(' '),sku:original.sku,reasons:r.status==='verified'?[images[r.id]?.reason||'Image verification incomplete.']:r.reasons,source:original.source_url};});
 write(output+'/build.json',{headers,files,held,baseCommit:'9b8a8edd2289c0f26ee848c41f1e4f76ccd84d4f',existingPageCount:originalRegistry.pages.length});

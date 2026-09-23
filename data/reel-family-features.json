@@ -3431,6 +3431,45 @@
       "excludedBySize": {},
       "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
     },
+    "Shimano|Exsence A": {
+      "brand": "Shimano",
+      "model": "Exsence A",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vfeikqa5.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        { "name": "MGL Rotor", "clause": "makes it easier to start and stop the retrieve when working a lure" },
+        { "name": "HAGANE Body", "clause": "uses a rigid magnesium frame to limit flex under load" }
+      ],
+      "excludedBySize": {},
+      "notes": "Verified against Shimano's Exsence A overview and EXSC3000MHGA / EXS4000MXGA lineup. Do not transfer these features to another Exsence generation."
+    },
+    "Shimano|Nexave FI": {
+      "brand": "Shimano",
+      "model": "Nexave FI",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003vwtxtqah.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        { "name": "Propulsion Line Management System", "clause": "uses an angled spool lip to help line leave the spool with less friction" },
+        { "name": "G-Free Body", "clause": "positions the reel's center of gravity closer to your hand" }
+      ],
+      "excludedBySize": {},
+      "notes": "Verified against Shimano's Nexave FI overview and exact FI lineup, including boxed and clamshell versions."
+    },
+    "Shimano|Twin Power XD FB": {
+      "brand": "Shimano",
+      "model": "Twin Power XD FB",
+      "sourceUrl": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f00003slwhoqac.html",
+      "sourceStatus": "verified",
+      "verification": "exact-family-source",
+      "terms": [
+        { "name": "MGL Rotor", "clause": "uses lightweight CI4+ construction for easy start-and-stop retrieves" },
+        { "name": "Anti-Twist Fin", "clause": "helps keep slack line from dropping below the spool" }
+      ],
+      "excludedBySize": {},
+      "notes": "Verified against Shimano's TwinPower XD FB overview and feature explanations. Applies to FB, not the earlier FA."
+    },
     "Shimano|Scorpion DC MD": {
       "brand": "Shimano",
       "model": "Scorpion DC MD",

@@ -78,22 +78,18 @@ function naturalList(values) {
 }
 
 function humanizeReelType(value) {
-  const normalized = String(value || "").toLowerCase();
-  if (normalized.includes("saltwater") && normalized.includes("spinning")) {
-    return "saltwater spinning reel";
-  }
-  if (normalized.includes("freshwater") && normalized.includes("spinning")) {
-    return "freshwater spinning reel";
-  }
-  if (normalized.includes("front_drag") && normalized.includes("freshwater")) {
-    return "freshwater spinning reel";
-  }
-  if (normalized.includes("front_drag") && normalized.includes("saltwater")) {
-    return "saltwater spinning reel";
-  }
-  if (normalized.includes("spinning")) return "spinning reel";
+  const normalized = String(value || "").toLowerCase().replace(/[_-]+/g, " ");
   if (normalized.includes("baitcast")) return "baitcasting reel";
-  return normalized.replace(/[_-]+/g, " ").trim() || "fishing reel";
+  if (normalized.includes("inshore")) return "inshore spinning reel";
+  if (normalized.includes("rear drag")) return "rear-drag spinning reel";
+  if (normalized.includes("saltwater") || normalized === "sw spinning") {
+    return "saltwater spinning reel";
+  }
+  if (normalized.includes("freshwater")) {
+    return "freshwater spinning reel";
+  }
+  if (normalized.includes("spinning") || normalized.includes("front drag")) return "spinning reel";
+  return "fishing reel";
 }
 
 function reelTypeLabelFor(reel, recommendation) {
@@ -166,21 +162,30 @@ export function buildIntro(reel, recommendation, featureProfile) {
   const sizeArticle = numericArticle(sizeDescriptor);
   const opener = `The ${reel.displayName} (${reel.sku}) is ${sizeArticle} ${sizeDescriptor} ${reelTypeLabel}.`;
   const observations = {
-    ultralight: "For small lures, choose line that suits your rod, then check its diameter before deciding how much to spool.",
-    finesse: "For a finesse setup, choose your line for the rod and cover you're fishing, then work out how much the spool will hold.",
-    freshwater: "Start with the lures and cover you fish most, then decide whether you want a full spool of your chosen line or a shorter amount over backing.",
-    inshore: "For an inshore setup, choose your main line and leader for the fish and structure you expect, then check how much main line will fit.",
-    "big-inshore": "If you're using heavier line around structure, check how much will fit before buying a spool, and leave enough line for the fishing you plan to do.",
-    pike: "Choose your main line and leader for the lures and fish you're targeting, then check how much line that setup leaves on the spool.",
+    ultralight: "For small lures, start with line that suits your rod and check its diameter as well as its pound test.",
+    finesse: "For a finesse setup, match your line to the rod, lighter lures, and cover you're fishing.",
+    freshwater: "Start with the lures and cover you fish most when choosing your line.",
+    inshore: "Match your main line and leader to the fish and structure you expect to encounter.",
+    "big-inshore": "Heavier line takes up more spool space, so allow enough length for the structure and fish you're targeting.",
+    pike: "Choose your main line and leader for the lures and fish you're targeting, with enough line left for a run.",
     catfish: "When you're setting up for bait fishing, allow for the distance to your bait and the extra line you want left on the spool.",
     salmon: "For fishing in current, allow enough line for your cast or drift with some left for a fish's run.",
-    surf: "For surf or pier fishing, allow enough line for your cast with some left for a fish's run before deciding how much backing to use.",
-    offshore: "Before adding backing, work out how much main line you want for the depth you're fishing and a fish's run.",
-    heavy: "With heavier line, check how much will fit and leave enough main line for your fishing before using backing to fill the rest.",
-    large: "A larger reel doesn't have to be filled entirely with your chosen main line; backing is an option if you only need part of that capacity.",
-    general: "Pick the line that suits your rod and the fishing you do, then check how much will fit before you start spooling."
+    surf: "For surf or pier fishing, allow enough line for your cast with some left for a fish's run.",
+    offshore: "Allow enough main line for the depth you're fishing and the runs you expect from the fish you're targeting.",
+    heavy: "With heavier line, check how much will fit and leave enough length for the fishing you plan to do.",
+    large: "Choose your line for the fishing you do, rather than assuming a larger reel needs heavier line.",
+    general: "Match your line to your rod and the fishing you do, then check its diameter before buying a spool."
   };
   const profile = introProfile(reel, recommendation);
+  const setupOptions = [
+    "Use the line suggestions and preloaded calculator below to plan a full spool of main line or a shorter length over optional backing.",
+    "The calculator below is set up for this exact reel: estimate a full spool of your chosen main line, or add backing underneath a shorter amount.",
+    "Explore line options below, then use this reel's preloaded calculator for either a full spool of main line or a setup with backing underneath.",
+    "Fill the spool with main line, or use backing under the amount you want to fish. The preloaded calculator below helps estimate either setup for this reel."
+  ];
+  // Keep copy choices stable across builds and independent of catalog ordering.
+  const copyKey = `${reel.brand}|${reel.model}|${reel.sku}`;
+  const optionIndex = [...copyKey].reduce((hash, char) => (hash * 31 + char.charCodeAt(0)) >>> 0, 0) % setupOptions.length;
 
   const approvedIntroTerms = (featureProfile?.terms || []).slice(0, 2);
   const verifiedFeatureSentence = featureSentence({ ...featureProfile, terms: approvedIntroTerms });
@@ -194,9 +199,10 @@ export function buildIntro(reel, recommendation, featureProfile) {
       opener,
       marketSentence,
       verifiedFeatureSentence || verifiedSpecificationSentence,
-      observations[profile]
+      observations[profile],
+      setupOptions[optionIndex]
     ].filter(Boolean).join(" "),
-    variant: `${profile}-angler-${verifiedFeatureSentence ? `t${approvedIntroTerms.length}` : "spec"}`,
+    variant: `${profile}-angler-${verifiedFeatureSentence ? `t${approvedIntroTerms.length}` : "spec"}-choice${optionIndex + 1}`,
     detailMode,
     featureNames: approvedIntroTerms.map((term) => term.name),
     evidenceSource: featureProfile?.sourceUrl || reel.sourceUrl,
