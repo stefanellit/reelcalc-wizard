@@ -47,24 +47,60 @@
       },
       "manufacturerRatings": {
         "monoStrength": [
-          { "strengthLb": 20, "yards": 340 },
-          { "strengthLb": 25, "yards": 310 },
-          { "strengthLb": 30, "yards": 230 }
+          {
+            "strengthLb": 20,
+            "yards": 340
+          },
+          {
+            "strengthLb": 25,
+            "yards": 310
+          },
+          {
+            "strengthLb": 30,
+            "yards": 230
+          }
         ],
         "monoDiameter": [
-          { "diameterMm": 0.46, "meters": 310 },
-          { "diameterMm": 0.48, "meters": 285 },
-          { "diameterMm": 0.56, "meters": 210 }
+          {
+            "diameterMm": 0.46,
+            "meters": 310
+          },
+          {
+            "diameterMm": 0.48,
+            "meters": 285
+          },
+          {
+            "diameterMm": 0.56,
+            "meters": 210
+          }
         ],
         "braidStrength": [
-          { "strengthLb": 50, "yards": 475 },
-          { "strengthLb": 65, "yards": 390 },
-          { "strengthLb": 80, "yards": 345 }
+          {
+            "strengthLb": 50,
+            "yards": 475
+          },
+          {
+            "strengthLb": 65,
+            "yards": 390
+          },
+          {
+            "strengthLb": 80,
+            "yards": 345
+          }
         ],
         "braidDiameter": [
-          { "diameterMm": 0.41, "meters": 435 },
-          { "diameterMm": 0.46, "meters": 355 },
-          { "diameterMm": 0.48, "meters": 315 }
+          {
+            "diameterMm": 0.41,
+            "meters": 435
+          },
+          {
+            "diameterMm": 0.46,
+            "meters": 355
+          },
+          {
+            "diameterMm": 0.48,
+            "meters": 315
+          }
         ]
       },
       "predictions": {
@@ -80,21 +116,81 @@
         "fillObservation": "The full 300-yard braid spool fit over 600 feet of mono backing, and the finished spool appeared properly filled."
       },
       "images": [
-        { "file": "reelcalc-prediction-207-4-hd.png", "role": "calculator-prediction", "available": true },
-        { "file": "IMG_2269.jpeg", "role": "line-counter", "available": true },
-        { "file": "IMG_2270.jpeg", "role": "main-line-package", "available": true },
-        { "file": "IMG_2271.jpeg", "role": "mono-capacity-ratings", "available": true },
-        { "file": "IMG_2272.jpeg", "role": "braid-capacity-ratings", "available": true },
-        { "file": "IMG_2273.jpeg", "role": "reel-identification-empty", "available": true },
-        { "file": "IMG_2274.jpeg", "role": "backing-product", "available": true },
-        { "file": "IMG_2275.jpeg", "role": "backing-attached", "available": true },
-        { "file": "IMG_2276.jpeg", "role": "main-line-product", "available": true },
-        { "file": "IMG_2277.jpeg", "role": "backing-installed", "available": true },
-        { "file": "IMG_2278.jpeg", "role": "mono-to-braid-connection-primary", "available": true },
-        { "file": "IMG_2279.jpeg", "role": "mono-to-braid-connection-alternate", "available": true },
-        { "file": "IMG_2280.jpeg", "role": "finished-spool-primary", "available": true },
-        { "file": "IMG_2281.jpeg", "role": "finished-spool-angle", "available": true },
-        { "file": "IMG_2282.jpeg", "role": "finished-spool-detail", "available": true }
+        {
+          "file": "reelcalc-prediction-207-4-hd.png",
+          "role": "calculator-prediction",
+          "available": true
+        },
+        {
+          "file": "IMG_2269.jpeg",
+          "role": "line-counter",
+          "available": true
+        },
+        {
+          "file": "IMG_2270.jpeg",
+          "role": "main-line-package",
+          "available": true
+        },
+        {
+          "file": "IMG_2271.jpeg",
+          "role": "mono-capacity-ratings",
+          "available": true
+        },
+        {
+          "file": "IMG_2272.jpeg",
+          "role": "braid-capacity-ratings",
+          "available": true
+        },
+        {
+          "file": "IMG_2273.jpeg",
+          "role": "reel-identification-empty",
+          "available": true
+        },
+        {
+          "file": "IMG_2274.jpeg",
+          "role": "backing-product",
+          "available": true
+        },
+        {
+          "file": "IMG_2275.jpeg",
+          "role": "backing-attached",
+          "available": true
+        },
+        {
+          "file": "IMG_2276.jpeg",
+          "role": "main-line-product",
+          "available": true
+        },
+        {
+          "file": "IMG_2277.jpeg",
+          "role": "backing-installed",
+          "available": true
+        },
+        {
+          "file": "IMG_2278.jpeg",
+          "role": "mono-to-braid-connection-primary",
+          "available": true
+        },
+        {
+          "file": "IMG_2279.jpeg",
+          "role": "mono-to-braid-connection-alternate",
+          "available": true
+        },
+        {
+          "file": "IMG_2280.jpeg",
+          "role": "finished-spool-primary",
+          "available": true
+        },
+        {
+          "file": "IMG_2281.jpeg",
+          "role": "finished-spool-angle",
+          "available": true
+        },
+        {
+          "file": "IMG_2282.jpeg",
+          "role": "finished-spool-detail",
+          "available": true
+        }
       ],
       "sources": {
         "penn": "https://www.pennfishing.com/products/fierce-iv-spinning-reel-1573575",
@@ -172,11 +268,31 @@
         "fillObservation": "The fresh working-line section produced a practical final fill over the existing backing."
       },
       "images": [
-        { "file": "IMG_2350.jpeg", "role": "existing-backing-exposed-after-main-line-removal", "available": true },
-        { "file": "IMG_2351.jpeg", "role": "main-line-package", "available": true },
-        { "file": "IMG_2352.jpeg", "role": "backing-to-fluorocarbon-connection", "available": true },
-        { "file": "IMG_2353.jpeg", "role": "finished-spool-primary", "available": true },
-        { "file": "IMG_2354.jpeg", "role": "finished-spool-angle", "available": true }
+        {
+          "file": "IMG_2350.jpeg",
+          "role": "existing-backing-exposed-after-main-line-removal",
+          "available": true
+        },
+        {
+          "file": "IMG_2351.jpeg",
+          "role": "main-line-package",
+          "available": true
+        },
+        {
+          "file": "IMG_2352.jpeg",
+          "role": "backing-to-fluorocarbon-connection",
+          "available": true
+        },
+        {
+          "file": "IMG_2353.jpeg",
+          "role": "finished-spool-primary",
+          "available": true
+        },
+        {
+          "file": "IMG_2354.jpeg",
+          "role": "finished-spool-angle",
+          "available": true
+        }
       ],
       "sources": {
         "shimano": "https://fish.shimano.com/en-US/product/reels/spinning/frontdrag/a075f000035yx0xqaq.html",
@@ -271,20 +387,281 @@
         "tensionMeasured": false
       },
       "images": [
-        { "file": "IMG_2639.jpeg", "role": "shortened-fluorocarbon-before-removal", "available": true, "sha256": "bf22718435273269df3e943cbdec5f200c9b6c84d08010e9cf0ae05539c74c77" },
-        { "file": "IMG_2643.jpeg", "role": "existing-backing-exposed", "available": true, "sha256": "cf76822d97467adb62ec8af8c45585899fb2dec42212f1919ec0a66ca0104e35" },
-        { "file": "IMG_2642.jpeg", "role": "replacement-line-package", "available": true, "sha256": "559df9b1a1803838283ce9de247ef88b91f71e53c3c93e5265d9a2739f278319" },
-        { "file": "8D62FAA2-870E-47E2-9E86-4EA7189BCE69.PNG", "role": "calculator-setup", "available": true, "sha256": "6d64913a11f836ed550debc59392123c068fa0e57f653bed7fab653072f0269f" },
-        { "file": "IMG_2645.jpeg", "role": "supply-spool-mounted", "available": true, "sha256": "385e96d4dfc1211ac015dc3b03a5ab1e7f4cf4151c1a8f02ef5006520fdf3cba", "displayFile": "IMG_2645-clean-background.png", "displaySha256": "49bf9cc54478e279e5ff14c8535c95ed55674a7d7d34b71f547587c15b76f713", "editNote": "Background clutter removed with the built-in image editor at the owner's request. Unedited original preserved and linked in the caption." },
-        { "file": "IMG_2646.jpeg", "role": "line-counter-reading", "available": true, "sha256": "cf6a2001acc245c58b6500bec28c19e9364971c03cd65b51e5908791ad8882a6" },
-        { "file": "IMG_2648.jpeg", "role": "finished-spool", "available": true, "sha256": "91337e15e0e6ff2ce3e0f525d737e38e8257711f72eff927ce0faa04dd677c5d" },
-        { "file": "IMG_2647.jpeg", "role": "finished-spool-detail", "available": true, "sha256": "6CD3A83C30A87E94549DDBEAB585C7DF1C6C1AA43DDEE6E30B21BD9B328A613E" }
+        {
+          "file": "IMG_2639.jpeg",
+          "role": "shortened-fluorocarbon-before-removal",
+          "available": true,
+          "sha256": "bf22718435273269df3e943cbdec5f200c9b6c84d08010e9cf0ae05539c74c77"
+        },
+        {
+          "file": "IMG_2643.jpeg",
+          "role": "existing-backing-exposed",
+          "available": true,
+          "sha256": "cf76822d97467adb62ec8af8c45585899fb2dec42212f1919ec0a66ca0104e35"
+        },
+        {
+          "file": "IMG_2642.jpeg",
+          "role": "replacement-line-package",
+          "available": true,
+          "sha256": "559df9b1a1803838283ce9de247ef88b91f71e53c3c93e5265d9a2739f278319"
+        },
+        {
+          "file": "8D62FAA2-870E-47E2-9E86-4EA7189BCE69.PNG",
+          "role": "calculator-setup",
+          "available": true,
+          "sha256": "6d64913a11f836ed550debc59392123c068fa0e57f653bed7fab653072f0269f"
+        },
+        {
+          "file": "IMG_2645.jpeg",
+          "role": "supply-spool-mounted",
+          "available": true,
+          "sha256": "385e96d4dfc1211ac015dc3b03a5ab1e7f4cf4151c1a8f02ef5006520fdf3cba",
+          "displayFile": "IMG_2645-clean-background.png",
+          "displaySha256": "49bf9cc54478e279e5ff14c8535c95ed55674a7d7d34b71f547587c15b76f713",
+          "editNote": "Background clutter removed with the built-in image editor at the owner's request. Unedited original preserved and linked in the caption."
+        },
+        {
+          "file": "IMG_2646.jpeg",
+          "role": "line-counter-reading",
+          "available": true,
+          "sha256": "cf6a2001acc245c58b6500bec28c19e9364971c03cd65b51e5908791ad8882a6"
+        },
+        {
+          "file": "IMG_2648.jpeg",
+          "role": "finished-spool",
+          "available": true,
+          "sha256": "91337e15e0e6ff2ce3e0f525d737e38e8257711f72eff927ce0faa04dd677c5d"
+        },
+        {
+          "file": "IMG_2647.jpeg",
+          "role": "finished-spool-detail",
+          "available": true,
+          "sha256": "6CD3A83C30A87E94549DDBEAB585C7DF1C6C1AA43DDEE6E30B21BD9B328A613E"
+        }
       ],
       "sources": {
         "sunline": "https://sunlineamerica.com/products/copy-of-copy-of-super-natural-monofilament",
         "seaguar": "https://seaguar.com/products/invizx",
         "calculatorReel": "https://fish.shimano.com/en-US/product/reels/baitcast/lowprofile/a075f00003rgoswqak.html"
       }
+    },
+    {
+      "id": "reelcalc-real-world-test-004",
+      "number": 4,
+      "slug": "daiwa-bg-lt-3000d-xh-line-capacity-test",
+      "canonicalPath": "/reel-tests/daiwa-bg-lt-3000d-xh-line-capacity-test",
+      "publicationStatus": "draft",
+      "reelId": "daiwa-bg-lt-3000d-xh",
+      "title": "Daiwa BG LT 3000D-XH Real-World Line Capacity Test",
+      "seoTitle": "Daiwa BG LT 3000D-XH Line Capacity Test | ReelCalc",
+      "description": "We spooled 12 lb Trilene XL and 20 lb J-Braid X4 on a Daiwa BG LT 3000D-XH. See the measured fills, 220-yard overfills, and what the diameter markings explain.",
+      "hubExcerpt": "Online specs said 220 yards of 12 lb mono or 20 lb braid. The box and spool told us more. See what happened when we tried both lines.",
+      "reelPageLinks": [],
+      "pendingReelPageLinks": [
+        {
+          "reelId": "daiwa-bg-lt-3000d-xh",
+          "relationship": "exact-reel",
+          "heading": "Real-World BG LT 3000D-XH Capacity Test",
+          "summary": "See this exact model spooled with 12 lb Trilene XL and 20 lb J-Braid X4, including the practical fills and intentional 220-yard overfills.",
+          "linkLabel": "See the BG LT Mono and Braid Spooling Test"
+        }
+      ],
+      "reel": {
+        "brand": "Daiwa",
+        "family": "BG LT",
+        "size": "3000D-XH",
+        "modelCode": "BGLT3000D-XH"
+      },
+      "backingUsed": false,
+      "measurement": {
+        "device": "Rapala digital line counter",
+        "unit": "feet",
+        "independentCalibrationDocumented": false,
+        "fillJudgedByAngler": true,
+        "absoluteMaximumMeasured": false,
+        "tensionMeasured": false,
+        "spoolGapMeasured": false,
+        "diametersPhysicallyMeasured": false
+      },
+      "runs": [
+        {
+          "material": "mono",
+          "lineId": "berkley-trilene-xl-monofilament-12",
+          "name": "Berkley Trilene XL 12 lb",
+          "diameterMm": 0.33,
+          "packageDiameterIn": 0.013,
+          "supplyYards": 300,
+          "supplyMeters": 274,
+          "practicalFeet": 426.8,
+          "continuedFeet": 660.3,
+          "extraRoomEstimateYards": 18,
+          "extraRoomMeasured": false,
+          "extraRoomObservation": "The angler confirmed there was clearly room for roughly another 18 yards, bringing the fill to about 160 yards in line with the 0.33 mm spool rating. A separate 160-yard fill was not measured or photographed.",
+          "packagePhoto": "IMG_2665.jpeg",
+          "practicalPhoto": "IMG_2667.jpeg",
+          "practicalCounterPhoto": "IMG_2668.jpeg",
+          "continuedPhoto": "IMG_2670.jpeg",
+          "continuedCounterPhoto": "IMG_2669.jpeg",
+          "continuedFillObservation": "Visibly overfilled"
+        },
+        {
+          "material": "braid",
+          "lineId": "daiwa-j-braid-x4-braid-20",
+          "name": "Daiwa J-Braid X4 20 lb",
+          "diameterMm": 0.21,
+          "packagePe": 2.5,
+          "supplyYards": 300,
+          "supplyMeters": 270,
+          "practicalFeet": 500.5,
+          "continuedFeet": 660.2,
+          "extraRoomObservation": "The first stop at 166.8 yards was a comfortable fill. The angler judged that a little more could have been added if needed while staying comfortable, but definitely not 220 yards. No additional comfortable-fill amount was measured; 220 yards was visibly overfilled.",
+          "packagePhoto": "IMG_2672.jpeg",
+          "practicalPhoto": "IMG_2676.jpeg",
+          "practicalCounterPhoto": "IMG_2677.jpeg",
+          "continuedPhoto": "IMG_2675.jpeg",
+          "continuedCounterPhoto": "IMG_2674.jpeg",
+          "continuedFillObservation": "Visibly overfilled"
+        }
+      ],
+      "manufacturerRatings": {
+        "online": [
+          {
+            "material": "mono",
+            "lb": 12,
+            "yards": 220
+          },
+          {
+            "material": "braid",
+            "lb": 20,
+            "yards": 220
+          }
+        ],
+        "physical": [
+          {
+            "material": "nylon",
+            "lb": 10,
+            "diameterMm": 0.25,
+            "meters": 260,
+            "printedYards": 280,
+            "photo": "factory-box-capacity.jpg"
+          },
+          {
+            "material": "nylon",
+            "lb": 12,
+            "diameterMm": 0.28,
+            "meters": 200,
+            "printedYards": 220,
+            "photo": "empty-spool-capacity.jpg"
+          },
+          {
+            "material": "nylon",
+            "lb": 16,
+            "diameterMm": 0.33,
+            "meters": 150,
+            "printedYards": 160,
+            "photo": "empty-spool-capacity.jpg"
+          },
+          {
+            "material": "braid",
+            "pe": 1.2,
+            "diameterMm": 0.16,
+            "meters": 430,
+            "photo": "factory-box-capacity.jpg"
+          },
+          {
+            "material": "braid",
+            "pe": 1.5,
+            "diameterMm": 0.18,
+            "meters": 300,
+            "photo": "empty-spool-capacity.jpg"
+          },
+          {
+            "material": "braid",
+            "pe": 2,
+            "diameterMm": 0.2,
+            "meters": 230,
+            "photo": "factory-box-capacity.jpg"
+          }
+        ]
+      },
+      "missingEvidence": [],
+      "evidenceNote": "The supplied factory-box and empty-spool close-ups verify all six physical capacity rows. Test photos remain unaltered.",
+      "factoryPhotos": {
+        "box": "factory-box-capacity.jpg",
+        "spool": "empty-spool-capacity.jpg"
+      },
+      "heroPhoto": "IMG_2664.jpeg",
+      "sources": {
+        "daiwa": "https://daiwa.us/collections/spin-reels/products/bg-copy",
+        "sufixElite": "https://www.rapala.com/us_en/elite"
+      },
+      "images": [
+        {
+          "file": "IMG_2664.jpeg",
+          "sha256": "be4ce1d598120219d3ca8c1b77e1a5a545444ac9b0602fbf5d29ad0a1a31b0f4",
+          "original": true
+        },
+        {
+          "file": "factory-box-capacity.jpg",
+          "sha256": "72126dd840837b805e5d3b0fdca1574152269c40ff16a6eaac0cc956b2e97c48",
+          "original": true
+        },
+        {
+          "file": "empty-spool-capacity.jpg",
+          "sha256": "2af85e8abd70008228c611dabdcea7127a1908155c1021fa77797bf6552cfa0c",
+          "original": true
+        },
+        {
+          "file": "IMG_2665.jpeg",
+          "sha256": "bbbc90eddb959a36db2ee4330e4736fa96ecde580d85854eeac55d7bd2570404",
+          "original": true
+        },
+        {
+          "file": "IMG_2667.jpeg",
+          "sha256": "0675e69d6c1ab4f876dcb7217d662847214ba06965ad67fa3c49af9cb590a85d",
+          "original": true
+        },
+        {
+          "file": "IMG_2668.jpeg",
+          "sha256": "e93a933f72d53634815cb20f8039abaab9007c102b5848d22b9c1b7486aed273",
+          "original": true
+        },
+        {
+          "file": "IMG_2670.jpeg",
+          "sha256": "225d077cf058e84f74266c15c82ec89a0ddc87c358b484b75fc4455226724d88",
+          "original": true
+        },
+        {
+          "file": "IMG_2669.jpeg",
+          "sha256": "d2fe6043b838c184c58e18aed2e1165fbefc623cf8f98169b64f9960507f5fc8",
+          "original": true
+        },
+        {
+          "file": "IMG_2672.jpeg",
+          "sha256": "7d1dd740f06c3c32a266c7b32394a2870d7e340c529dc73c576a9cc4275147c8",
+          "original": true
+        },
+        {
+          "file": "IMG_2676.jpeg",
+          "sha256": "173de5dbca05f70999dee10cb0b1b8ade512e80a92c6e6932ab609205df926c3",
+          "original": true
+        },
+        {
+          "file": "IMG_2677.jpeg",
+          "sha256": "20321439ff3cddbff009dd4bac63a09769edbcc6a250e7cd4026847eb4fd6b07",
+          "original": true
+        },
+        {
+          "file": "IMG_2675.jpeg",
+          "sha256": "dcf4d7bc27c85a6359d2c8a58b2da24827cda245b8b34922b46bff8b5be12154",
+          "original": true
+        },
+        {
+          "file": "IMG_2674.jpeg",
+          "sha256": "3d3fdf45ad97afb67aa727467c9c759a16be5ac4215314ac5def6e107d4f505d",
+          "original": true
+        }
+      ]
     }
   ]
 }

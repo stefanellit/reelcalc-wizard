@@ -1,0 +1,31 @@
+PAGE TITLE / H1
+Daiwa BG LT 3000D-XH Real-World Line Capacity Test
+
+SEO TITLE
+Daiwa BG LT 3000D-XH Line Capacity Test | ReelCalc
+
+META DESCRIPTION
+We spooled 12 lb Trilene XL and 20 lb J-Braid X4 on a Daiwa BG LT 3000D-XH. See the measured fills, 220-yard overfills, and what the diameter markings explain.
+
+URL SLUG
+daiwa-bg-lt-3000d-xh-line-capacity-test
+
+CANONICAL URL
+https://www.reelcalc.com/reel-tests/daiwa-bg-lt-3000d-xh-line-capacity-test
+
+HUB EXCERPT
+Online specs said 220 yards of 12 lb mono or 20 lb braid. The box and spool told us more. See what happened when we tried both lines.
+
+HUB THUMBNAIL
+assets/real-world-tests/daiwa-bg-lt-3000d-xh/IMG_2664.jpeg
+
+PUBLICATION STATUS
+Draft for review; not live.
+
+PUBLISHING
+Create one post in the existing /reel-tests Squarespace blog. This automatically adds its card to the current Real-World Tests hub. Do not create a second hub, product, or collection.
+Use daiwa-bg-lt-3000d-xh-line-capacity-test-squarespace-blog.html for the post code block. Publish assets before the post.
+All six physical capacity rows are verified against the supplied box and empty-spool photos. Both originals are included, along with all 11 test photos.
+After the post is live, transfer pendingReelPageLinks to reelPageLinks and set publicationStatus to published in data/real-world-test-004.json. Rebuild this page and sync the published test links. Verify the live blog card and exact reel link.
+Before running scripts/sync-real-world-test-links.mjs, replace its legacy hard-coded version assignments with monotonic version bumps. The current registry and embed manifest have newer versions. Refresh the reel loader's manifest cache version when deploying the new link.
+Do not substitute the older BG 3000 or BG MQ. Do not change the calculator's reel data or formulas as part of publishing this article.

@@ -173,6 +173,7 @@
     var affiliates = services.affiliates;
     var defaults = defaultsForMount(mount);
     var preload = selector.parsePreload(location.search);
+    if (!preload.mode && mount.dataset.defaultMode === "capacity") preload.mode = "capacity";
     var shadow = mount.shadowRoot || mount.attachShadow({ mode: "open" });
     shadow.innerHTML = calculatorTemplate(reel, defaults);
     var preparedLines = selector.prepareLines(lines);
@@ -371,6 +372,7 @@
 
     function updateMode() {
       var capacityOnly = state.mode === "capacity";
+      shadow.querySelector(".starting-setup").hidden = capacityOnly;
       q("backing-wrap").classList.toggle("hidden", capacityOnly);
       q("main-yards-wrap").classList.toggle("hidden", capacityOnly);
       q("mode-note").textContent = capacityOnly

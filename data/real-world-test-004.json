@@ -1,0 +1,74 @@
+{
+  "id": "reelcalc-real-world-test-004",
+  "number": 4,
+  "slug": "daiwa-bg-lt-3000d-xh-line-capacity-test",
+  "canonicalPath": "/reel-tests/daiwa-bg-lt-3000d-xh-line-capacity-test",
+  "publicationStatus": "draft",
+  "reelId": "daiwa-bg-lt-3000d-xh",
+  "title": "Daiwa BG LT 3000D-XH Real-World Line Capacity Test",
+  "seoTitle": "Daiwa BG LT 3000D-XH Line Capacity Test | ReelCalc",
+  "description": "We spooled 12 lb Trilene XL and 20 lb J-Braid X4 on a Daiwa BG LT 3000D-XH. See the measured fills, 220-yard overfills, and what the diameter markings explain.",
+  "hubExcerpt": "Online specs said 220 yards of 12 lb mono or 20 lb braid. The box and spool told us more. See what happened when we tried both lines.",
+  "reelPageLinks": [],
+  "pendingReelPageLinks": [{
+    "reelId": "daiwa-bg-lt-3000d-xh",
+    "relationship": "exact-reel",
+    "heading": "Real-World BG LT 3000D-XH Capacity Test",
+    "summary": "See this exact model spooled with 12 lb Trilene XL and 20 lb J-Braid X4, including the practical fills and intentional 220-yard overfills.",
+    "linkLabel": "See the BG LT Mono and Braid Spooling Test"
+  }],
+  "reel": { "brand": "Daiwa", "family": "BG LT", "size": "3000D-XH", "modelCode": "BGLT3000D-XH" },
+  "backingUsed": false,
+  "measurement": {
+    "device": "Rapala digital line counter",
+    "unit": "feet",
+    "independentCalibrationDocumented": false,
+    "fillJudgedByAngler": true,
+    "absoluteMaximumMeasured": false,
+    "tensionMeasured": false,
+    "spoolGapMeasured": false,
+    "diametersPhysicallyMeasured": false
+  },
+  "runs": [
+    {
+      "material": "mono", "lineId": "berkley-trilene-xl-monofilament-12",
+      "name": "Berkley Trilene XL 12 lb", "diameterMm": 0.33, "packageDiameterIn": 0.013,
+      "supplyYards": 300, "supplyMeters": 274,
+      "practicalFeet": 426.8, "continuedFeet": 660.3,
+      "extraRoomEstimateYards": 18, "extraRoomMeasured": false,
+      "extraRoomObservation": "The angler confirmed there was clearly room for roughly another 18 yards, bringing the fill to about 160 yards in line with the 0.33 mm spool rating. A separate 160-yard fill was not measured or photographed.",
+      "packagePhoto": "IMG_2665.jpeg", "practicalPhoto": "IMG_2667.jpeg",
+      "practicalCounterPhoto": "IMG_2668.jpeg", "continuedPhoto": "IMG_2670.jpeg",
+      "continuedCounterPhoto": "IMG_2669.jpeg", "continuedFillObservation": "Visibly overfilled"
+    },
+    {
+      "material": "braid", "lineId": "daiwa-j-braid-x4-braid-20",
+      "name": "Daiwa J-Braid X4 20 lb", "diameterMm": 0.21, "packagePe": 2.5,
+      "supplyYards": 300, "supplyMeters": 270,
+      "practicalFeet": 500.5, "continuedFeet": 660.2,
+      "extraRoomObservation": "The first stop at 166.8 yards was a comfortable fill. The angler judged that a little more could have been added if needed while staying comfortable, but definitely not 220 yards. No additional comfortable-fill amount was measured; 220 yards was visibly overfilled.",
+      "packagePhoto": "IMG_2672.jpeg", "practicalPhoto": "IMG_2676.jpeg",
+      "practicalCounterPhoto": "IMG_2677.jpeg", "continuedPhoto": "IMG_2675.jpeg",
+      "continuedCounterPhoto": "IMG_2674.jpeg", "continuedFillObservation": "Visibly overfilled"
+    }
+  ],
+  "manufacturerRatings": {
+    "online": [{ "material": "mono", "lb": 12, "yards": 220 }, { "material": "braid", "lb": 20, "yards": 220 }],
+    "physical": [
+      { "material": "nylon", "lb": 10, "diameterMm": 0.25, "meters": 260, "printedYards": 280, "photo": "factory-box-capacity.jpg" },
+      { "material": "nylon", "lb": 12, "diameterMm": 0.28, "meters": 200, "printedYards": 220, "photo": "empty-spool-capacity.jpg" },
+      { "material": "nylon", "lb": 16, "diameterMm": 0.33, "meters": 150, "printedYards": 160, "photo": "empty-spool-capacity.jpg" },
+      { "material": "braid", "pe": 1.2, "diameterMm": 0.16, "meters": 430, "photo": "factory-box-capacity.jpg" },
+      { "material": "braid", "pe": 1.5, "diameterMm": 0.18, "meters": 300, "photo": "empty-spool-capacity.jpg" },
+      { "material": "braid", "pe": 2, "diameterMm": 0.20, "meters": 230, "photo": "factory-box-capacity.jpg" }
+    ]
+  },
+  "missingEvidence": [],
+  "evidenceNote": "The supplied factory-box and empty-spool close-ups verify all six physical capacity rows. Test photos remain unaltered.",
+  "factoryPhotos": { "box": "factory-box-capacity.jpg", "spool": "empty-spool-capacity.jpg" },
+  "heroPhoto": "IMG_2664.jpeg",
+  "sources": {
+    "daiwa": "https://daiwa.us/collections/spin-reels/products/bg-copy",
+    "sufixElite": "https://www.rapala.com/us_en/elite"
+  }
+}

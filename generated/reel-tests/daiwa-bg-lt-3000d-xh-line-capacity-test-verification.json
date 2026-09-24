@@ -1,0 +1,117 @@
+{
+  "testId": "reelcalc-real-world-test-004",
+  "engineVersion": "2026.08-dual-anchor-v1",
+  "engineSha256": "4a23382f4d826b0a90896f6201df1521b0f5b2520308a3543abd3d13eef95c7f",
+  "reelId": "daiwa-bg-lt-3000d-xh",
+  "storedMonoDiameterIn": 0.014,
+  "mono": {
+    "storedDiameterIn": 0.013,
+    "currentCapacityYards": 255.14792899408286,
+    "physicalReference": {
+      "material": "nylon",
+      "lb": 12,
+      "diameterMm": 0.28,
+      "meters": 200,
+      "printedYards": 220,
+      "photo": "empty-spool-capacity.jpg"
+    },
+    "physicalDiameterCapacityYards": 158.38383838383837
+  },
+  "braid": {
+    "storedDiameterIn": 0.008,
+    "currentCapacityYards": 264.21875,
+    "minimumYards": 235,
+    "maximumYards": 295,
+    "physicalReference": {
+      "material": "braid",
+      "pe": 2,
+      "diameterMm": 0.2,
+      "meters": 230,
+      "photo": "factory-box-capacity.jpg"
+    },
+    "physicalDiameterCapacityYards": 228.1460849061225
+  },
+  "observations": [
+    {
+      "lineId": "berkley-trilene-xl-monofilament-12",
+      "practicalFeet": 426.8,
+      "practicalYards": 142.3,
+      "continuedFeet": 660.3,
+      "continuedYards": 220.1
+    },
+    {
+      "lineId": "daiwa-j-braid-x4-braid-20",
+      "practicalFeet": 500.5,
+      "practicalYards": 166.8,
+      "continuedFeet": 660.2,
+      "continuedYards": 220.1
+    }
+  ],
+  "images": [
+    {
+      "file": "IMG_2664.jpeg",
+      "sha256": "be4ce1d598120219d3ca8c1b77e1a5a545444ac9b0602fbf5d29ad0a1a31b0f4",
+      "original": true
+    },
+    {
+      "file": "factory-box-capacity.jpg",
+      "sha256": "72126dd840837b805e5d3b0fdca1574152269c40ff16a6eaac0cc956b2e97c48",
+      "original": true
+    },
+    {
+      "file": "empty-spool-capacity.jpg",
+      "sha256": "2af85e8abd70008228c611dabdcea7127a1908155c1021fa77797bf6552cfa0c",
+      "original": true
+    },
+    {
+      "file": "IMG_2665.jpeg",
+      "sha256": "bbbc90eddb959a36db2ee4330e4736fa96ecde580d85854eeac55d7bd2570404",
+      "original": true
+    },
+    {
+      "file": "IMG_2667.jpeg",
+      "sha256": "0675e69d6c1ab4f876dcb7217d662847214ba06965ad67fa3c49af9cb590a85d",
+      "original": true
+    },
+    {
+      "file": "IMG_2668.jpeg",
+      "sha256": "e93a933f72d53634815cb20f8039abaab9007c102b5848d22b9c1b7486aed273",
+      "original": true
+    },
+    {
+      "file": "IMG_2670.jpeg",
+      "sha256": "225d077cf058e84f74266c15c82ec89a0ddc87c358b484b75fc4455226724d88",
+      "original": true
+    },
+    {
+      "file": "IMG_2669.jpeg",
+      "sha256": "d2fe6043b838c184c58e18aed2e1165fbefc623cf8f98169b64f9960507f5fc8",
+      "original": true
+    },
+    {
+      "file": "IMG_2672.jpeg",
+      "sha256": "7d1dd740f06c3c32a266c7b32394a2870d7e340c529dc73c576a9cc4275147c8",
+      "original": true
+    },
+    {
+      "file": "IMG_2676.jpeg",
+      "sha256": "173de5dbca05f70999dee10cb0b1b8ade512e80a92c6e6932ab609205df926c3",
+      "original": true
+    },
+    {
+      "file": "IMG_2677.jpeg",
+      "sha256": "20321439ff3cddbff009dd4bac63a09769edbcc6a250e7cd4026847eb4fd6b07",
+      "original": true
+    },
+    {
+      "file": "IMG_2675.jpeg",
+      "sha256": "dcf4d7bc27c85a6359d2c8a58b2da24827cda245b8b34922b46bff8b5be12154",
+      "original": true
+    },
+    {
+      "file": "IMG_2674.jpeg",
+      "sha256": "3d3fdf45ad97afb67aa727467c9c759a16be5ac4215314ac5def6e107d4f505d",
+      "original": true
+    }
+  ]
+}
