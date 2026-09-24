@@ -9,6 +9,8 @@ const manifestPath = path.join(root, "data", "reel-page-embeds.json");
 const tests = JSON.parse(fs.readFileSync(testsPath, "utf8"));
 const registry = JSON.parse(fs.readFileSync(registryPath, "utf8"));
 const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+const originalRegistry = JSON.stringify(registry);
+const originalManifest = JSON.stringify(manifest);
 const linksByReelId = new Map();
 
 for (const test of tests.tests || []) {
@@ -47,9 +49,6 @@ if (registryLinked !== linksByReelId.size) {
   throw new Error(`Real-world test links target unregistered reel pages: ${missing.join(", ")}`);
 }
 
-registry.version = 7;
-fs.writeFileSync(registryPath, `${JSON.stringify(registry, null, 2)}\n`, "utf8");
-
 const pagesByReelId = new Map(registry.pages.map((page) => [page.reelId, page]));
 let manifestLinked = 0;
 let manifestCleared = 0;
@@ -71,8 +70,14 @@ if (manifestLinked !== linksByReelId.size) {
   throw new Error(`Real-world test links target reels missing from the live embed manifest: ${missing.join(", ")}`);
 }
 
-manifest.version = 9;
-fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
+if (JSON.stringify(registry) !== originalRegistry) {
+  registry.version += 1;
+  fs.writeFileSync(registryPath, `${JSON.stringify(registry, null, 2)}\n`, "utf8");
+}
+if (JSON.stringify(manifest) !== originalManifest) {
+  manifest.version += 1;
+  fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
+}
 
 console.log(`Synced ${registryLinked} real-world test link${registryLinked === 1 ? "" : "s"}.`);
 const cleared = registryCleared + manifestCleared;

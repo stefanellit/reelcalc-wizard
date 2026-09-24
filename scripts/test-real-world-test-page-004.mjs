@@ -97,6 +97,16 @@ for (const content of [html, fragment, blog]) {
 assert.doesNotMatch(blog, /href="\.\.\//);
 assert.doesNotMatch(blog, /<!doctype|<html(?:\s|>)/i);
 assert.doesNotMatch(blog, /name="robots"/, "Preview noindex must not leak into the publishing snippet");
+if (test.publicationStatus === "published") {
+  const registry = await json("data/reel-pages.json");
+  const manifest = await json("data/reel-page-embeds.json");
+  for (const pages of [registry.pages, Object.values(manifest.pages)]) {
+    const linked = pages.filter(page => page.realWorldTest?.testId === test.id);
+    assert.equal(linked.length, 1, "Link this test only to the exact tested reel");
+    assert.equal(linked[0].reelId, test.reelId);
+    assert.equal(linked[0].realWorldTest.path, test.canonicalPath);
+  }
+}
 
 const context = { window: {} };
 const engine = await read("js/calculator-core.js");

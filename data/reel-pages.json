@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "siteBaseUrl": "https://www.reelcalc.com",
   "wizardPath": "/reelcalc-wizard",
   "comparisonPath": "/reel-comparison",
@@ -5141,7 +5141,15 @@
       "imageSourcePage": "https://daiwa.us/collections/spin-reels/products/bg-copy",
       "imageMethod": "verified-existing-page",
       "verifiedLive": true,
-      "quickAnswerNote": "Using more backing can reduce how much premium line you need."
+      "quickAnswerNote": "Using more backing can reduce how much premium line you need.",
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-004",
+        "relationship": "exact-reel",
+        "heading": "Real-World BG LT 3000D-XH Capacity Test",
+        "summary": "See this exact model spooled with 12 lb Trilene XL and 20 lb J-Braid X4, including the practical fills and intentional 220-yard overfills.",
+        "linkLabel": "See the BG LT Mono and Braid Spooling Test",
+        "path": "/reel-tests/daiwa-bg-lt-3000d-xh-line-capacity-test"
+      }
     },
     {
       "reelId": "daiwa-bg-lt-4000d-cxh",

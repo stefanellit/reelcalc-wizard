@@ -7,6 +7,7 @@ import { buildLeaderGoldPage } from "./line-leader-gold-template.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(fs.readFileSync(path.join(root, "data", "line-page-products.json"), "utf8"));
 const lines = JSON.parse(fs.readFileSync(path.join(root, "data", "lines.json"), "utf8"));
+const realWorldTests = JSON.parse(fs.readFileSync(path.join(root, "data", "real-world-tests.json"), "utf8")).tests;
 const outputDirectory = path.join(root, "examples", "line-pages");
 
 fs.mkdirSync(outputDirectory, { recursive: true });
@@ -109,6 +110,13 @@ function jsonLd(product) {
 
 function buildPage(productId, product) {
   const records = productLines(product);
+  const recordIds = new Set(records.map(line => line.id));
+  const testLinks = realWorldTests.filter(test => test.publicationStatus === "published")
+    .flatMap(test => (test.runs || []).filter(run => recordIds.has(run.lineId)).map(run => ({
+      path: test.canonicalPath,
+      title: test.title,
+      summary: `See ${run.name} spooled on the ${test.reel.brand} ${test.reel.family} ${test.reel.size}, with measured yardage and photos of the fill level. This test covers the listed strength, not every size of this line.`
+    })));
   if (product.presentation === "gold") {
     for (const field of ["h1", "seoTitle", "metaDescription", "construction", "quickSummary", "suitabilityTitle", "suitabilitySummary", "chartNote", "sourceNote", "reviewNote", "localImagePath"]) {
       if (!product[field]) throw new Error(`${productId}: missing gold-page ${field}`);
@@ -127,7 +135,7 @@ function buildPage(productId, product) {
     return buildLeaderGoldPage(productId, product, records, { escapeHtml, jsonLd, sourceItems, faqs });
   }
   if (product.presentation === "gold") {
-    return buildGoldLinePage(productId, product, records, { escapeHtml, jsonLd, sourceItems, faqs });
+    return buildGoldLinePage(productId, product, records, { escapeHtml, jsonLd, sourceItems, faqs, testLinks });
   }
   const range = `${records[0].lb}-${records.at(-1).lb} lb`;
   const commonSpools = Array.from(new Set(records.flatMap((line) => line.spool_sizes_yd || [])))

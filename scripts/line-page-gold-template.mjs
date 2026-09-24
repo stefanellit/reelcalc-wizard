@@ -1,5 +1,5 @@
 export function buildGoldLinePage(productId, product, records, helpers) {
-  const { escapeHtml: e, jsonLd, sourceItems, faqs } = helpers;
+  const { escapeHtml: e, jsonLd, sourceItems, faqs, testLinks = [] } = helpers;
   const name = `${product.brand} ${product.model}`;
   const shortName = product.shortName || product.brand;
   const braidPage = /braid/i.test(product.lineType);
@@ -10,6 +10,12 @@ export function buildGoldLinePage(productId, product, records, helpers) {
   </tr>`).join("\n");
   const notes = product.spoolingGuide.map(item => `<div><h3>${e(item.title)}</h3><p>${e(item.text)}</p>${item.url ? `<a href="${e(item.url)}" data-internal-destination="spooling_guide">${e(item.linkText)}</a>` : ""}</div>`).join("\n");
   const strengthGuide = product.strengthGuide.map(text => `<p>${e(text)}</p>`).join("\n");
+  const realWorldTests = testLinks.length ? `
+  <section class="rc-section" id="real-world-tests" aria-labelledby="real-world-tests-title"><div class="rc-line-inner">
+    <div class="rc-section-heading"><h2 id="real-world-tests-title">Real-World Spooling Test</h2></div>
+    ${testLinks.map(test => `<p>${e(test.summary)}</p><a class="rc-inline-link" href="https://www.reelcalc.com${e(test.path)}" data-internal-destination="real_world_test">${e(test.title)}</a>`).join("\n")}
+  </div></section>
+` : "";
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,7 +93,7 @@ export function buildGoldLinePage(productId, product, records, helpers) {
     </div>
   </section>
 
-  <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
+${realWorldTests}  <section class="rc-section" id="diameter-chart" aria-labelledby="diameter-chart-title"><div class="rc-line-inner">
     <div class="rc-section-heading"><span class="rc-eyebrow">The numbers behind the setup</span><h2 id="diameter-chart-title">${e(name)} diameter chart</h2><p>${e(product.chartNote)}</p></div>
     <div class="rc-table-wrap rc-static-chart"><table class="rc-table rc-diameter-chart"><caption>${e(product.chartCaption || "Listed diameters and offered spool lengths. Retail stock varies.")}</caption><thead><tr><th scope="col">Strength</th><th scope="col">Inches</th><th scope="col">mm</th><th scope="col">${records.some(line => line.retail_packages?.length) ? "Spools (m / yd)" : "Spools (yd)"}</th></tr></thead><tbody>${chart}</tbody></table></div>
   </div></section>

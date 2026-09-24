@@ -450,14 +450,13 @@
       "number": 4,
       "slug": "daiwa-bg-lt-3000d-xh-line-capacity-test",
       "canonicalPath": "/reel-tests/daiwa-bg-lt-3000d-xh-line-capacity-test",
-      "publicationStatus": "draft",
+      "publicationStatus": "published",
       "reelId": "daiwa-bg-lt-3000d-xh",
       "title": "Daiwa BG LT 3000D-XH Real-World Line Capacity Test",
       "seoTitle": "Daiwa BG LT 3000D-XH Line Capacity Test | ReelCalc",
       "description": "We spooled 12 lb Trilene XL and 20 lb J-Braid X4 on a Daiwa BG LT 3000D-XH. See the measured fills, 220-yard overfills, and what the diameter markings explain.",
       "hubExcerpt": "Online specs said 220 yards of 12 lb mono or 20 lb braid. The box and spool told us more. See what happened when we tried both lines.",
-      "reelPageLinks": [],
-      "pendingReelPageLinks": [
+      "reelPageLinks": [
         {
           "reelId": "daiwa-bg-lt-3000d-xh",
           "relationship": "exact-reel",

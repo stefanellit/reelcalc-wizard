@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "pages": {
     "bass-pro-shops-micro-lite-elite-spinning-reel-5": {
       "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -41533,6 +41533,14 @@
         "monoText": "10 lb / 280 yards, 12 lb / 220 yards",
         "braidText": "15 lb / 250 yards, 20 lb / 220 yards",
         "faqCapacity": "The reel is published at 10 lb / 280 yards, 12 lb / 220 yards. Its listed braid ratings are 15 lb / 250 yards, 20 lb / 220 yards. Actual capacity can vary with the diameter of the exact line selected."
+      },
+      "realWorldTest": {
+        "testId": "reelcalc-real-world-test-004",
+        "relationship": "exact-reel",
+        "heading": "Real-World BG LT 3000D-XH Capacity Test",
+        "summary": "See this exact model spooled with 12 lb Trilene XL and 20 lb J-Braid X4, including the practical fills and intentional 220-yard overfills.",
+        "linkLabel": "See the BG LT Mono and Braid Spooling Test",
+        "path": "/reel-tests/daiwa-bg-lt-3000d-xh-line-capacity-test"
       }
     },
     "daiwa-bg-lt-4000": {

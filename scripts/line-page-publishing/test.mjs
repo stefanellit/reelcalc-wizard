@@ -15,6 +15,7 @@ const schemaNodes = value => value && typeof value === "object"
 const products = JSON.parse(read("data/line-page-products.json")).products;
 const lines = JSON.parse(read("data/lines.json"));
 const release = JSON.parse(read("data/line-page-release.json"));
+const realWorldTests = JSON.parse(read("data/real-world-tests.json")).tests;
 assert.match(release.version, /^[a-zA-Z0-9._-]+$/);
 assert.equal(new Set(release.products).size, release.products.length);
 for (const id of ["powerpro-spectra", "seaguar-invizx", "berkley-trilene-xl"]) assert.ok(release.products.includes(id), `Original guide missing: ${id}`);
@@ -38,6 +39,10 @@ for (const id of release.products) {
   const ids = all(doc, n => attr(n, "id") !== undefined).map(n => attr(n, "id"));
   assert.equal(new Set(ids).size, ids.length, `${id}: duplicate IDs`);
   const records = lines.filter(l => l.brand === product.brand && l.model === product.model && l.type === product.lineType && !product.excludedLineIds?.includes(l.id));
+  const expectedTests = realWorldTests.filter(test => test.publicationStatus === "published")
+    .flatMap(test => (test.runs || []).filter(run => records.some(line => line.id === run.lineId)).map(() => "https://www.reelcalc.com" + test.canonicalPath));
+  const testLinks = all(doc, n => n.tagName === "a" && attr(n, "data-internal-destination") === "real_world_test");
+  assert.deepEqual(testLinks.map(link => attr(link, "href")), expectedTests, `${id}: missing or unrelated real-world test link`);
   assert.equal(all(doc, n => attr(n, "data-chart-line") !== undefined).length, records.length);
   for (const link of all(doc, n => n.tagName === "a" && attr(n, "href")?.startsWith("#"))) assert.ok(ids.includes(attr(link, "href").slice(1)));
   for (const image of all(doc, n => n.tagName === "img")) {
