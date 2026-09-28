@@ -2,6 +2,19 @@
   "use strict";
 
   var mounts = new WeakMap();
+  var capacityReady = (async function() {
+    if (!global.ReelCalcCapacityPages && document.currentScript?.src) {
+      var bridgeUrl = new URL('capacity-page-bridge.js?v=1', document.currentScript.src);
+      await new Promise(function(resolve) {
+        var script = document.createElement('script');
+        var timer = setTimeout(function() { script.remove(); resolve(); }, 10000);
+        script.src = bridgeUrl.href;
+        script.onload = script.onerror = function() { clearTimeout(timer); resolve(); };
+        document.head.appendChild(script);
+      });
+    }
+    if (global.ReelCalcCapacityPages) await global.ReelCalcCapacityPages.ready;
+  })();
 
   function mount(root) {
     if (root.dataset.lineRole === "leader") return Promise.resolve(false);
@@ -46,6 +59,7 @@
       el.loading.textContent = "Loading reel and line data...";
       try {
         if (!global.ReelCalcCore) throw new Error("The shared calculation engine is unavailable.");
+        await capacityReady;
         var payload = await Promise.all([
           fetchJson("data/line-page-products.json"),
           fetchJson("data/reels.json"),
@@ -326,7 +340,7 @@
           : offered[0];
 
       var requestedReel = params.get("reel") || "";
-      state.selectedReel = state.reels.find(function(reel) { return reel.id === requestedReel && isReelReady(reel); }) || null;
+      state.selectedReel = state.reels.find(function(reel) { return reel.id === requestedReel && selectableReel(reel); }) || null;
       if (state.selectedReel) {
         state.reelType = isBaitcaster(state.selectedReel) ? "baitcasting" : "spinning";
         state.reelBrand = state.selectedReel.brand || "";
@@ -506,7 +520,7 @@
 
     function readyReels() {
       return state.reels.filter(function(reel) {
-        return isReelReady(reel) && (state.reelType === "baitcasting" ? isBaitcaster(reel) : isSpinningReel(reel));
+        return selectableReel(reel) && (state.reelType === "baitcasting" ? isBaitcaster(reel) : isSpinningReel(reel));
       });
     }
 
@@ -601,7 +615,9 @@
         updateCalculateState();
         return;
       }
-      var full = fullCapacity(activeReel(), state.selectedLine);
+      var resolved = capacityOnlyResult(activeReel(), state.selectedLine);
+      var full = resolved ? global.ReelCalcCapacityPages.present(resolved).capacity_yards : fullCapacity(activeReel(), state.selectedLine);
+      if (resolved && !(full > 0)) { el.workingYards.value = ""; updateCalculateState(); return; }
       if (!(full > 0)) return;
       var current = positiveNumber(el.workingYards.value);
       if (state.capacityOnly) {
@@ -616,6 +632,8 @@
 
     function updateCalculateState() {
       renderGuideLinks();
+      var resolved = capacityOnlyResult(activeReel(), state.selectedLine);
+      var view = resolved && global.ReelCalcCapacityPages.present(resolved);
       if (state.capacityOnly && (!activeReel() || !state.selectedLine)) el.workingYards.value = "";
       if (el.workingYardsLabel) el.workingYardsLabel.textContent = state.capacityOnly
         ? "Estimated full-spool amount (yards)"
@@ -623,10 +641,11 @@
       if (el.fullSpoolResult && el.workingYardsField) {
         el.fullSpoolResult.hidden = !state.capacityOnly;
         el.workingYardsField.hidden = state.capacityOnly;
-        var fullSpoolYards = activeReel() && state.selectedLine ? fullCapacity(activeReel(), state.selectedLine) : 0;
+        var fullSpoolYards = resolved ? view.capacity_yards : activeReel() && state.selectedLine ? fullCapacity(activeReel(), state.selectedLine) : 0;
         el.fullSpoolAmount.textContent = fullSpoolYards > 0 ? formatYards(fullSpoolYards)
           : state.reelSource === "manual" ? "Enter reel specs" : "Choose a reel";
         el.fullSpoolAmount.classList.toggle("is-empty", !(fullSpoolYards > 0));
+        if (resolved) el.fullSpoolAmount.textContent = view.value || view.title;
       }
       if (el.fullSpoolHelp) {
         el.fullSpoolHelp.hidden = !state.capacityOnly;
@@ -642,6 +661,12 @@
         : !state.selectedSpoolYards ? "Choose a retail spool length."
         : "Enter a main-line amount greater than zero.";
       el.workingYards.setAttribute("aria-invalid", activeReel() && !positiveNumber(el.workingYards.value) ? "true" : "false");
+      if (resolved) {
+        if (el.fullSpoolHelp) el.fullSpoolHelp.textContent = view.explanation;
+        el.calculate.disabled = false;
+        el.calculationHelp.textContent = "";
+        el.workingYards.setAttribute("aria-invalid", "false");
+      }
     }
 
     function refreshCalculationIfVisible() {
@@ -671,6 +696,30 @@
         backingLine: state.capacityOnly ? null : state.selectedBackingLine,
         capacityOnly: state.capacityOnly
       });
+      if (result.capacityResult) {
+        var pages = global.ReelCalcCapacityPages;
+        var view = pages.present(result.capacityResult);
+        result.spoolYards = state.selectedSpoolYards;
+        result.workingYards = result.fullCapacity;
+        state.lastResult = null;
+        el.results.hidden = false;
+        el.results.innerHTML = pages.html(result.capacityResult);
+        var assessment = pages.assessment(result.capacityResult, state.selectedSpoolYards);
+        if (assessment) {
+          el.results.innerHTML += '<p>Selected retail spool: ' + formatYards(state.selectedSpoolYards) + '. ' +
+            (assessment.spool_enough ? 'Estimated amount left: ' + formatYards(assessment.spare_yards) : 'Estimated shortfall: ' + formatYards(assessment.shortfall_yards)) + '.</p>';
+          var offer = global.ReelCalcAffiliateLinks?.buildRecommendedLineOffer({affiliateData:state.affiliateData, line:state.selectedLine, requiredYards:result.capacityResult.capacity_yards, spoolYards:state.selectedSpoolYards});
+          if (assessment.spool_enough) el.results.innerHTML += lineOfferLink(offer, state.selectedLine, 'mainline', state.selectedSpoolYards);
+        }
+        if (view.numeric_available) {
+          state.lastResult = result;
+          el.results.innerHTML += '<div class="rc-result-actions"><a class="rc-button rc-button-primary" id="rcWizardCta" href="' + escapeHtml(wizardUrl(result.reel, result.line, result.fullCapacity, result.spoolYards)) + '">Continue with this reel &amp; line</a><button type="button" class="rc-button rc-button-secondary" id="rcCopyResult">Copy Setup</button></div>';
+          bindResultActions(result);
+        }
+        updateLocation(result);
+        pages.record('line_page', result.capacityResult, state.selectedLine);
+        return;
+      }
       if (!result.ok) {
         state.lastResult = null;
         el.results.hidden = false;
@@ -751,6 +800,9 @@
       var spoolYards = positiveNumber(options.spoolYards);
       var workingYards = positiveNumber(options.workingYards);
       var backingLine = options.backingLine;
+      var resolved = capacityOnlyResult(reel, line, options.capacityOnly === true);
+      if (resolved) return {ok:global.ReelCalcCapacityPages.present(resolved).numeric_available,
+        capacityResult:resolved, reel:reel, line:line, fullCapacity:resolved.capacity_yards};
       if (!reel || !isReelReady(reel)) return { ok: false, message: "Choose a listed reel or enter a valid capacity rating." };
       if (!line || !isLineReady(line)) return { ok: false, message: "Choose a line strength with verified diameter data." };
       if (!spoolYards) return { ok: false, message: "Choose a verified retail spool length." };
@@ -912,7 +964,12 @@
       });
       bindLineOfferLinks(el.results, result.reel, "calculator_result");
       if (copy) copy.addEventListener("click", function() {
-        var text = [
+        var text = result.capacityResult ? [
+          lineLabel(result.line) + " on " + reelLabel(result.reel),
+          "Estimated full capacity: " + formatYards(result.fullCapacity),
+          global.ReelCalcCapacityPages.present(result.capacityResult).explanation,
+          "Estimate from ReelCalc.com"
+        ].join("\n") : [
           lineLabel(result.line) + " on " + reelLabel(result.reel),
           "Estimated full capacity: " + formatYards(result.fullCapacity),
           "Working main line: " + formatYards(result.workingYards),
@@ -1001,9 +1058,11 @@
       var reel = activeReel();
       var reelSubject = reel ? (reel.manualRating ? "your reel" : "the " + reelLabel(reel)) : "a reel";
       var capacitySentence = "";
+      var currentResult = capacityOnlyResult(reel, current, true);
+      var replacementResult = capacityOnlyResult(reel, replacement, true);
       if (reel) {
-        var oldCapacity = fullCapacity(reel, current);
-        var newCapacity = fullCapacity(reel, replacement);
+        var oldCapacity = currentResult ? global.ReelCalcCapacityPages.present(currentResult).capacity_yards : fullCapacity(reel, current);
+        var newCapacity = replacementResult ? global.ReelCalcCapacityPages.present(replacementResult).capacity_yards : fullCapacity(reel, replacement);
         if (oldCapacity > 0 && newCapacity > 0) {
           capacitySentence = " ReelCalc estimates about " +
             formatYards(oldCapacity) + " of " + lineLabel(current) + " and " +
@@ -1015,6 +1074,10 @@
         ? "<strong>" + escapeHtml(lineLabel(replacement)) + "</strong> " + diameterMatchText + escapeHtml(lineLabel(current)) + ", so " + escapeHtml(reelSubject) + " should hold about the same amount."
         : "<strong>" + escapeHtml(lineLabel(replacement)) + "</strong> has a listed diameter " + cleanNumber(percent, 1) + "% " + direction + " than " + escapeHtml(lineLabel(current)) + ", so " + escapeHtml(reelSubject) + " should hold " + (difference > 0 ? "less" : "more") + " of it.";
       el.switchResult.innerHTML = comparisonSentence + escapeHtml(capacitySentence);
+      if (currentResult || replacementResult) {
+        el.switchResult.innerHTML = '<p>' + escapeHtml(lineLabel(current)) + '</p>' + global.ReelCalcCapacityPages.html(currentResult) +
+          '<p>' + escapeHtml(lineLabel(replacement)) + '</p>' + global.ReelCalcCapacityPages.html(replacementResult);
+      }
       el.replacementWizard.href = wizardUrl(reel, replacement, state.capacityOnly ? 0 : positiveNumber(el.workingYards.value), 0);
       el.replacementWizard.hidden = false;
       el.replacementWizard.onclick = function() {
@@ -1048,6 +1111,7 @@
       }
       var setups = global.ReelCalcRecommendations.recommendSetups({
         reel: state.selectedReel,
+        capacityOnly: state.capacityOnly,
         lines: state.lines,
         fishingType: el.fishingType.value,
         priority: el.priority.value,
@@ -1063,7 +1127,15 @@
       }
       var offeredMatches = relevant.map(function(setup) {
         return closestProductLine(Number(setup.line.lb));
-      }).filter(Boolean);
+      }).filter(function(line) {
+        if (!line) return false;
+        var resolved = capacityOnlyResult(state.selectedReel, line);
+        return !resolved || global.ReelCalcCapacityPages.present(resolved).recommendation_eligible;
+      });
+      if (!offeredMatches.length) {
+        el.recommendation.textContent = "A dependable capacity-based starting range is not available for this product and reel.";
+        return;
+      }
       var uniqueStrengths = uniqueSorted(offeredMatches.map(function(line) { return Number(line.lb); })).slice(0, 2);
       var strengthText = uniqueStrengths.length > 1
         ? cleanNumber(Math.min.apply(Math, uniqueStrengths), 0) + "-" + cleanNumber(Math.max.apply(Math, uniqueStrengths), 0) + " lb"
@@ -1090,8 +1162,11 @@
       }).map(function(example) {
         var reel = state.reels.find(function(item) { return item.id === example.reelId; });
         var line = capacityExamples ? state.selectedLine : state.lines.find(function(item) { return item.id === example.lineId; });
-        if (!reel || !line || !isReelReady(reel) || !isLineReady(line)) return "";
+        if (!reel || !line || (!isReelReady(reel) && !(capacityExamples && global.ReelCalcCapacityPages?.enabled())) || !isLineReady(line)) return "";
         if (capacityExamples) {
+          var resolved = capacityOnlyResult(reel, line, true);
+          if (resolved) return '<article class="rc-example-card" data-plan-reel="' + escapeHtml(reel.id) + '"><h3>' + escapeHtml(reelLabel(reel)) + '</h3>' + global.ReelCalcCapacityPages.html(resolved) +
+            '<div class="rc-example-actions"><a class="rc-button rc-button-secondary" href="' + escapeHtml(wizardUrl(reel, line, 0, 0)) + '" data-example-reel="' + escapeHtml(reel.id) + '" data-example-line="' + escapeHtml(line.id) + '">Set Up This Reel</a></div></article>';
           var capacity = fullCapacity(reel, line);
           if (!(capacity > 0) || !Number.isFinite(capacity)) return "";
           return '<article class="rc-example-card rc-capacity-card" data-plan-reel="' + escapeHtml(reel.id) + '"><h3>' + escapeHtml(reelLabel(reel)) +
@@ -1193,10 +1268,20 @@
       return state.calibrationLines || state.lines;
     }
 
+    function capacityOnlyResult(reel, line, capacityOnly) {
+      if (!reel || !line || !global.ReelCalcCapacityPages) return null;
+      return global.ReelCalcCapacityPages.resolve('line_page', {reel:reel, line:line,
+        capacityOnly:capacityOnly === undefined ? state.capacityOnly : capacityOnly});
+    }
+
     function fullCapacity(reel, line) {
       if (!global.ReelCalcCore || typeof global.ReelCalcCore.calculateFullSpoolCapacity !== "function") return null;
       if (reel && reel.manualRating) return global.ReelCalcCore.capacityFromRating(reel.manualRating, Number(line && line.dia_in));
       return Number(global.ReelCalcCore.calculateFullSpoolCapacity(reel, line, { lineCatalog: calibrationCatalog() })) || null;
+    }
+
+    function selectableReel(reel) {
+      return isReelReady(reel) || !!(reel && state.capacityOnly && global.ReelCalcCapacityPages?.enabled());
     }
 
     function isReelReady(reel) {
@@ -1276,7 +1361,8 @@
         manualFields().forEach(function(field) { url.searchParams.delete(field[0]); });
       }
       url.searchParams.set("spool", cleanNumber(result.spoolYards, 0));
-      url.searchParams.set("mainYards", cleanNumber(result.workingYards, 1));
+      if (result.capacityResult && !result.capacityResult.numeric_available) url.searchParams.delete("mainYards");
+      else url.searchParams.set("mainYards", cleanNumber(result.workingYards, 1));
       if (result.backingLine && !state.capacityOnly) url.searchParams.set("backingLine", result.backingLine.id);
       else url.searchParams.set("backingLine", "none");
       if (state.capacityOnly) url.searchParams.set("mode", "capacity");

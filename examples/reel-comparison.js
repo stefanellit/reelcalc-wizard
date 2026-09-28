@@ -839,6 +839,16 @@
 
   function lineFitForReel(reel, mainLine, backingLine, desiredYards) {
     var core = window.ReelCalcCore;
+    var pages = window.ReelCalcCapacityPages;
+    var resolved = pages && pages.resolve('comparison', {reel:reel, line:mainLine, backingEnabled:state.backingEnabled});
+    if (resolved) {
+      var view = pages.present(resolved);
+      pages.record('comparison', resolved, mainLine);
+      return {capacityResult:resolved, capacity:view.capacity_yards, capacityRange:null, basis:null,
+        backing:null, backingRange:null, backingEnabled:false, overCapacity:!view.numeric_available,
+        mainTurns:view.numeric_available && Number(reel.line_retrieve_in) > 0 ? core.calculateHandleTurns(view.capacity_yards, Number(reel.line_retrieve_in)) : null,
+        backingTurns:null};
+    }
     var basis = core.capacityBasisForActualLine(reel, mainLine, state.lines);
     var capacity = core.calculateFullSpoolCapacity(reel, mainLine, { lineCatalog: state.lines });
     var capacityRange = mainLine.material === "Braid"
@@ -880,6 +890,7 @@
   }
 
   function capacityFitHtml(fit) {
+    if (fit.capacityResult) return window.ReelCalcCapacityPages.html(fit.capacityResult);
     if (!(fit.capacity > 0)) return '<span class="rc-fit-warning">Capacity could not be calculated</span>';
     var html = '<span class="rc-fit-primary">' + escapeHtml(yardsLabel(fit.capacity, 0)) + "</span>";
     if (fit.capacityRange) {
@@ -892,6 +903,7 @@
   }
 
   function backingFitHtml(fit, desiredYards) {
+    if (fit.capacityResult) return textValue("Not part of this calculation");
     if (!fit.backingEnabled) {
       return '<span class="rc-fit-primary">No backing</span><span class="rc-value-note">The full spool estimate is main line only.</span>';
     }
@@ -910,6 +922,7 @@
   }
 
   function basisHtml(fit) {
+    if (fit.capacityResult) return escapeHtml(window.ReelCalcCapacityPages.present(fit.capacityResult).explanation);
     if (!fit.basis) return "Capacity basis unavailable";
     var note = fit.basis.label;
     if (fit.basis.fallback) {
@@ -919,6 +932,7 @@
   }
 
   function backingTurnsHtml(fit) {
+    if (fit.capacityResult) return textValue("Not applicable");
     if (!fit.backingEnabled) return textValue("No backing used");
     if (fit.overCapacity) return textValue("Not applicable");
     if (fit.backing && fit.backing.backingYards < 0.5) return textValue("No backing needed");
@@ -926,6 +940,13 @@
   }
 
   function renderLineFit() {
+    if (elements.secondLineControls) elements.secondLineControls.hidden = state.backingEnabled;
+    if (elements.secondLineControls) {
+      var intro = document.querySelector('.rc-line-fit-section .rc-section-intro');
+      if (intro) intro.textContent = state.backingEnabled
+        ? 'Choose the same actual line setup for both reels to compare capacity, backing, and estimated handle turns.'
+        : 'Compare capacity and estimated handle turns with the same line or a separate line for each reel.';
+    }
     if (window.ReelCalcLineGuides) ["main", "backing"].forEach(function(role) {
       window.ReelCalcLineGuides.showAfter(roleElements(role).detail, role === "backing" && !state.backingEnabled ? null : state.lineRoles[role].line,
         { source: "reel_comparison", role: role });
@@ -942,7 +963,9 @@
     }
 
     var fitA = lineFitForReel(state.reelA, mainLine, backingLine, desiredYards);
-    var fitB = lineFitForReel(state.reelB, mainLine, backingLine, desiredYards);
+    var secondLine = !state.backingEnabled && elements.secondLineStrength?.value
+      ? state.lines.find(function(line) { return line.id === elements.secondLineStrength.value; }) || mainLine : mainLine;
+    var fitB = lineFitForReel(state.reelB, secondLine, backingLine, desiredYards);
     var ratingWarnings = [state.reelA, state.reelB].map(function(reel) {
       var assessment = window.ReelCalcCore.assessReelCapacityRatings
         ? window.ReelCalcCore.assessReelCapacityRatings(reel, state.lines) : null;
@@ -953,14 +976,17 @@
       ? "Comparing <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> over <strong>" +
         escapeHtml(lineLabel(backingLine)) + "</strong>, with <strong>" + escapeHtml(trimNumber(desiredYards, 0)) +
         " yards of main line</strong>."
-      : "Comparing a full spool of <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> with no backing.";
-    elements.lineFitComparison.innerHTML = ratingWarnings + comparisonTable([
+      : fitA.capacityResult || fitB.capacityResult
+        ? "Capacity estimates for each reel and its selected line."
+        : "Comparing a full spool of <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> with no backing.";
+    var capacityRows = fitA.capacityResult || fitB.capacityResult ? [{label:"Selected main line", a:textValue(lineLabel(mainLine)), b:textValue(lineLabel(secondLine))}] : [];
+    elements.lineFitComparison.innerHTML = (fitA.capacityResult || fitB.capacityResult ? "" : ratingWarnings) + comparisonTable(capacityRows.concat([
       { label: "Full spool estimate", a: capacityFitHtml(fitA), b: capacityFitHtml(fitB) },
       { label: "Backing needed", a: backingFitHtml(fitA, desiredYards), b: backingFitHtml(fitB, desiredYards) },
       { label: "Main-line handle turns", a: fitA.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitA.mainTurns), b: fitB.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitB.mainTurns) },
       { label: "Backing handle turns", a: backingTurnsHtml(fitA), b: backingTurnsHtml(fitB) },
       { label: "Capacity basis", a: basisHtml(fitA), b: basisHtml(fitB) }
-    ], state.reelA, state.reelB);
+    ]), state.reelA, state.reelB);
   }
 
   function allowedAffiliateUrl(value, retailer) {
@@ -1066,7 +1092,7 @@
       { label: "Mono capacity", a: textValue(monoCapacity(reelA)), b: textValue(monoCapacity(reelB)) },
       { label: "Braid capacity", a: textValue(braidCapacity(reelA)), b: textValue(braidCapacity(reelB)) },
       {
-        label: "Primary rating used",
+        label: window.ReelCalcCapacityPages?.enabled() ? "Catalog reference rating" : "Primary rating used",
         a: textValue(measurement(reelA.rated_line_lb, 1, " lb") + " / " + measurement(reelA.capacity_yards, 0, " yd")),
         b: textValue(measurement(reelB.rated_line_lb, 1, " lb") + " / " + measurement(reelB.capacity_yards, 0, " yd"))
       }
@@ -1092,6 +1118,10 @@
     else url.searchParams.delete("reel2");
     if (state.lineRoles.main.line) url.searchParams.set("mainLine", state.lineRoles.main.line.id);
     else url.searchParams.delete("mainLine");
+    if (elements.secondLineStrength) {
+      if (elements.secondLineStrength.value) url.searchParams.set("mainLineB", elements.secondLineStrength.value);
+      else url.searchParams.delete("mainLineB");
+    }
     if (state.lineRoles.backing.line) url.searchParams.set("backingLine", state.lineRoles.backing.line.id);
     else url.searchParams.delete("backingLine");
     url.searchParams.set("backing", state.backingEnabled ? "on" : "off");
@@ -1177,6 +1207,7 @@
     ["reel1", "reel2", "mainLine", "backingLine", "backing", "mainYards"].forEach(function(key) {
       url.searchParams.delete(key);
     });
+    if (elements.secondLineStrength) url.searchParams.delete("mainLineB");
     window.history.pushState({ reelcalcComparison: true }, "", url);
     chooseLinesFromParams(url.searchParams);
     renderComparison({ historyMode: "none", comparisonSource: "other" });
@@ -1501,6 +1532,7 @@
     elements.mainLineYards.value = desiredYards > 0 ? trimNumber(desiredYards, 1) : "100";
     refreshLineRole("main", mainLine ? mainLine.id : "");
     refreshLineRole("backing", backingLine ? backingLine.id : "");
+    if (elements.restoreSecondLine) elements.restoreSecondLine(params.get("mainLineB"));
     setBackingMode(backingEnabled);
   }
 
@@ -1530,7 +1562,45 @@
     }
   }
 
+  function mountSecondLineChoice() {
+    if (!window.ReelCalcCapacityPages?.enabled()) return;
+    var controls = document.createElement('div');
+    controls.className = 'rc-line-chooser';
+    controls.innerHTML = '<label for="second-line-product">Second reel main line</label><select id="second-line-product"><option value="">Same as first reel</option></select><label for="second-line-strength">Second reel line strength</label><select id="second-line-strength" disabled></select>';
+    elements.lineFitSummary.before(controls);
+    elements.secondLineControls = controls;
+    elements.secondLineProduct = controls.querySelector('#second-line-product');
+    elements.secondLineStrength = controls.querySelector('#second-line-strength');
+    var selector = window.ReelCalcLineSelector;
+    var products = ['Monofilament','Fluorocarbon','Copolymer','Braid'].flatMap(function(material) {return selector.productsFor(state.lines, material);});
+    products.forEach(function(product) {
+      var option = document.createElement('option'); option.value = product.key;
+      option.textContent = product.label + ' (' + product.material + ')';
+      elements.secondLineProduct.appendChild(option);
+    });
+    function refreshSecondLine() {
+      var product = products.find(function(p) {return p.key === elements.secondLineProduct.value;});
+      elements.secondLineStrength.replaceChildren();
+      selector.strengthsFor(state.lines, product).forEach(function(line) {
+        var option = document.createElement('option'); option.value = line.id; option.textContent = line.lb + ' lb';
+        elements.secondLineStrength.appendChild(option);
+      });
+      elements.secondLineStrength.disabled = !product;
+    }
+    elements.restoreSecondLine = function(id) {
+      var product = products.find(function(p) {return selector.strengthsFor(state.lines, p).some(function(line) {return line.id === id;});});
+      elements.secondLineProduct.value = product ? product.key : '';
+      refreshSecondLine();
+      if (product) elements.secondLineStrength.value = id;
+    };
+    elements.secondLineProduct.addEventListener('change', function() {
+      refreshSecondLine(); renderLineFit(); updateUrl('replace');
+    });
+    elements.secondLineStrength.addEventListener('change', function() {renderLineFit(); updateUrl('replace');});
+  }
+
   async function initialize() {
+    if (window.ReelCalcCapacityPages) await window.ReelCalcCapacityPages.ready;
     try {
       mountReelSelectors();
       if (!window.ReelCalcCore || !window.ReelCalcLineSelector || !window.ReelCalcComparisonData) {
@@ -1549,6 +1619,7 @@
       var reels = data[0];
       var registry = data[1];
       state.lines = window.ReelCalcLineSelector.prepareLines(data[2]);
+      mountSecondLineChoice();
       state.affiliateData = data[3];
       state.reelById = new Map(reels.map(function(reel) { return [reel.id, reel]; }));
       state.pageByReelId = new Map(registry.pages.map(function(page) { return [page.reelId, page]; }));

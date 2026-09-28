@@ -211,6 +211,9 @@
       return loadScript(versionedUrl(new URL("js/line-guide-links.js", projectBase)), "ReelCalcLineGuides", "line-guide-links").catch(function() {});
     })
     .then(function() {
+      return loadScript(versionedUrl(new URL("js/capacity-page-bridge.js", projectBase)), "ReelCalcCapacityPages", "capacity-page-bridge").catch(function() {});
+    })
+    .then(function() {
       return loadScript(versionedUrl(new URL("reel-comparison.js", exampleBase)), "", "reel-comparison");
     })
     .catch(function() {

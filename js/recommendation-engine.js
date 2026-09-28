@@ -251,6 +251,7 @@
     var calculateFullSpoolCapacity = options && options.calculateFullSpoolCapacity || core.calculateFullSpoolCapacity;
     var publishedBraidCapacityEstimate = core.publishedBraidCapacityEstimate;
     var actualLineBraidCapacityEstimate = core.actualLineBraidCapacityEstimate;
+    var capacityOnly = options?.capacityOnly === true && global.ReelCalcCapacityPages?.enabled();
     if (!reel || !calculateFullSpoolCapacity) return [];
     if (!recommendationCompatibility(reel, fishingType).recommend) return [];
 
@@ -258,10 +259,11 @@
     var reelSize = reelSizeClass(reel);
     var setups = group.setups.map(function(setupProfile) {
       setupProfile = scaledProfileForReel(setupProfile, reelSize, fishingType);
-      setupProfile = profileForReel(setupProfile, reel, lines, fishingType);
+      if (!capacityOnly) setupProfile = profileForReel(setupProfile, reel, lines, fishingType);
       if (!setupProfile) return null;
       return pickBestSetupForProfile(setupProfile, {
         reel: reel,
+        capacityOnly: capacityOnly,
         lines: lines,
         fishingType: fishingType,
         priority: priority,
@@ -663,11 +665,18 @@
 
   function pickBestSetupForProfile(setupProfile, context) {
     var candidates = buildCandidates(setupProfile, context.lines);
+    if (context.capacityOnly) {
+      candidates = context.lines.filter(function(line) {
+        return lineEligibleForRecommendations(line) && lineMatchesType(line, setupProfile.mainType) &&
+          Number(line.lb) >= setupProfile.mainRange[0] && Number(line.lb) <= setupProfile.mainRange[1];
+      }).map(function(line) { return {line:line, leaderType:setupProfile.leaderType,
+        leaderLb:setupProfile.leaderType ? setupProfile.leaderRange[0] : 0}; });
+    }
     if (!candidates.length) return null;
 
     return candidates.map(function(candidate) {
       return scoreCandidate(setupProfile, candidate, context);
-    }).sort(function(a, b) {
+    }).filter(Boolean).sort(function(a, b) {
       if (b.rankScore !== a.rankScore) return b.rankScore - a.rankScore;
       return a.line.lb - b.line.lb;
     })[0];
@@ -696,13 +705,15 @@
   function scoreCandidate(setupProfile, candidate, context) {
     var reel = context.reel;
     var line = candidate.line;
-    var actualBraidEstimate = context.actualLineBraidCapacityEstimate
+    var resolved = context.capacityOnly && global.ReelCalcCapacityPages.resolve('recommendations', {reel:reel, line:line, capacityOnly:true});
+    if (context.capacityOnly && (!resolved || !global.ReelCalcCapacityPages.present(resolved).recommendation_eligible)) return null;
+    var actualBraidEstimate = !resolved && context.actualLineBraidCapacityEstimate
       ? context.actualLineBraidCapacityEstimate(reel, line, context.lines)
       : null;
-    var capacity = actualBraidEstimate
+    var capacity = resolved ? resolved.capacity_yards : actualBraidEstimate
       ? actualBraidEstimate.centerYards
       : context.calculateFullSpoolCapacity(reel, line);
-    var publishedBraidEstimate = context.publishedBraidCapacityEstimate
+    var publishedBraidEstimate = !resolved && context.publishedBraidCapacityEstimate
       ? context.publishedBraidCapacityEstimate(reel, line)
       : null;
     var reelSize = reelSizeClass(reel);
@@ -726,7 +737,7 @@
     var rankScore = Math.round(score);
     var displayScore = Math.max(0, Math.min(100, rankScore));
 
-    return {
+    return Object.assign({
       title: setupProfile.title,
       useCase: setupProfile.useCase,
       line: line,
@@ -742,7 +753,7 @@
       capacityBasis: actualBraidEstimate ? "published-braid-diameter" : publishedBraidEstimate ? "published-braid" : "diameter",
       publishedBraidEstimate: publishedBraidEstimate,
       actualLineBraidEstimate: actualBraidEstimate
-    };
+    }, resolved ? {capacityResult:resolved} : {});
   }
 
   function lbOptions(range) {

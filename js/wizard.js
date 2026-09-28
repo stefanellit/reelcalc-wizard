@@ -77,6 +77,7 @@ async function init() {
   cacheElements();
   bindEvents();
   await loadData();
+  if (window.ReelCalcCapacityPages) await window.ReelCalcCapacityPages.ready;
   populateReelFilters();
   var preloadedReel = applyReelPreloadFromUrl();
   populateLineFilters();
@@ -474,10 +475,14 @@ async function loadData() {
   }
 }
 
+function capacityPageReelReady(reel) {
+  return !!(reel && !state.useManualReel && state.backingMode === "none" && window.ReelCalcCapacityPages?.enabled());
+}
+
 function renderAll() {
   var reel = getActiveReel();
   var line = getActiveMainLine();
-  var reelReady = isReelReady(reel);
+  var reelReady = capacityPageReelReady(reel) || isReelReady(reel);
   var lineReady = reelReady && isLineReady(line);
   var reelStarted = reelReady || state.useManualReel;
 
@@ -805,7 +810,7 @@ function selectReel(reel, updateSearch) {
   state.reelFilters.model = reel.model || "";
   state.reelFilters.size = reel.id || "";
   populateReelFilters();
-  if (!isReelReady(reel)) {
+  if (!isReelReady(reel) && !window.ReelCalcCapacityPages?.enabled()) {
     state.useManualReel = true;
     el.manualReelPanel.classList.remove("hidden");
   } else {
@@ -1098,7 +1103,10 @@ function renderReelSummary() {
   html += "<div><span class=\"eyebrow\">Your reel</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong></div>";
   html += "</div>";
   html += "<div class=\"selected-card-grid\">";
-  if (ready) {
+  if (window.ReelCalcCapacityPages?.enabled() && state.backingMode === 'none' && !state.useManualReel) {
+    html += '<div><span>Published mono capacity</span><strong>' + escapeHtml(reel.capacity_note || 'Not listed') + '</strong></div>';
+    if (reel.braid_capacity_note) html += '<div><span>Published braid capacity</span><strong>' + escapeHtml(formatPublishedBraidNote(reel)) + '</strong></div>';
+  } else if (ready) {
     html += "<div><span>Rating used</span><strong>" + formatReelRating(reel) + "</strong></div>";
     var diameterLabel = reel.capacity_reference_type === "braid"
       ? "Estimated braid diameter"
@@ -1326,7 +1334,7 @@ function renderLineSummary() {
 function renderRecommendations() {
   if (state.path !== "recommend") return;
   var reel = getActiveReel();
-  if (!reel || !isReelReady(reel)) {
+  if (!reel || (!capacityPageReelReady(reel) && !isReelReady(reel))) {
     el.recommendations.innerHTML = "<div class=\"empty-state warning-box\">Choose a reel with capacity data, or enter manual reel specs, to get recommendations.</div>";
     state.recommendations = [];
     return;
@@ -1347,6 +1355,7 @@ function renderRecommendations() {
   }
   state.recommendations = window.ReelCalcRecommendations.recommendSetups({
     reel: reel,
+    capacityOnly: state.backingMode === "none" && !state.useManualReel,
     lines: state.lines,
     fishingType: el.fishingType.value,
     priority: el.priority.value,
@@ -1375,7 +1384,7 @@ function renderRecommendations() {
   }, reelEventParameters(reel)), { onceKey: recommendationKey });
   el.recommendations.innerHTML = state.recommendations.map(function(setup, index) {
     var capacity = setup.capacityYards || calculateFullSpoolCapacity(reel, setup.line);
-    var capacityRange = getBraidCapacityRange(reel, setup.line);
+    var capacityRange = setup.capacityResult ? null : getBraidCapacityRange(reel, setup.line);
     var selected = state.selectedSetup && state.selectedSetup.title === setup.title && state.selectedSetup.line.id === setup.line.id;
     var isBestPick = index === 0;
     var html = "<article class=\"setup-card" + (isBestPick ? " best-pick" : "") + (selected ? " selected" : "") + "\">";
@@ -1395,7 +1404,7 @@ function renderRecommendations() {
     if (setup.tradeoffs && setup.tradeoffs.length) {
       html += "<p class=\"tiny-note\"><strong>Keep in mind:</strong> " + escapeHtml(setup.tradeoffs.join(" ")) + "</p>";
     }
-    var braidCapacityNote = braidCapacityRangeNote(reel, setup.line, capacityRange);
+    var braidCapacityNote = setup.capacityResult ? window.ReelCalcCapacityPages.present(setup.capacityResult).explanation : braidCapacityRangeNote(reel, setup.line, capacityRange);
     if (braidCapacityNote) {
       html += "<p class=\"tiny-note\">" + escapeHtml(braidCapacityNote) + "</p>";
     } else {
@@ -1410,6 +1419,7 @@ function renderRecommendations() {
 function formatSetupHeadline(setup) {
   var line = setup.line;
   var main = formatStrength(line.lb) + " " + String(line.type || "line").toLowerCase();
+  if (setup.capacityResult) main = formatLineShort(line);
   if (setup.leaderType && setup.leaderLb) {
     return main + " + " + formatStrength(setup.leaderLb) + " " + setup.leaderType.toLowerCase() + " leader";
   }
@@ -1594,9 +1604,28 @@ function capacityRatingWarningHtml(reel, comparison) {
     '</strong><p>' + escapeHtml(comparison ? assessment.comparisonMessage : assessment.message) + '</p></div>';
 }
 
+function wizardCapacity(reel, line) {
+  if (!reel || !line || !window.ReelCalcCapacityPages) return null;
+  return window.ReelCalcCapacityPages.resolve('wizard', {
+    reel:reel, line:state.useManualLine && line.id === 'manual-line' ? Object.assign({}, line, {custom_line:true}) : line,
+    backingMode:state.backingMode, useManualReel:state.useManualReel
+  });
+}
+
 function renderCapacityResult() {
   var reel = getActiveReel();
   var line = getActiveMainLine();
+  var resolved = wizardCapacity(reel, line);
+  if (resolved) {
+    var pages = window.ReelCalcCapacityPages;
+    var view = pages.present(resolved, {unit:state.unitSystem});
+    el.capacityResult.className = "";
+    el.capacityResult.innerHTML = pages.html(resolved, {unit:state.unitSystem}) +
+      (view.numeric_available ? handleTurnEstimateHtml([{kind:"main-line", label:formatActiveLineShort(line), yards:resolved.capacity_yards}]) : "") +
+      (view.affiliate_capacity_eligible ? recommendationAffiliateHtml(line, resolved.capacity_yards, null) : "");
+    pages.record('wizard', resolved, line);
+    return;
+  }
   if (state.useManualReel && !state.manualReel) {
     el.capacityResult.className = "empty-state warning-box";
     el.capacityResult.textContent = isMetric()
@@ -1652,6 +1681,12 @@ function renderCapacityResult() {
 function renderBackingResult() {
   var reel = getActiveReel();
   var line = getActiveMainLine();
+  var resolved = wizardCapacity(reel, line);
+  if (resolved) {
+    el.backingResult.className = "";
+    el.backingResult.innerHTML = window.ReelCalcCapacityPages.html(resolved, {unit:state.unitSystem});
+    return;
+  }
   if (state.useManualReel && !state.manualReel) {
     el.backingResult.className = "empty-state";
     el.backingResult.textContent = "Backing results will appear after you enter the manual reel specs and choose a main line.";
@@ -1726,7 +1761,7 @@ function renderSimilarLines() {
     el.similarLines.textContent = "Similar line options will appear after you enter the manual reel specs and choose a main line.";
     return;
   }
-  if (!reel || !line || !isReelReady(reel) || !isLineReady(line)) {
+  if (!reel || !line || (!capacityPageReelReady(reel) && !isReelReady(reel)) || !isLineReady(line)) {
     el.similarLines.className = "empty-state";
     el.similarLines.textContent = "Similar line options will appear after a main line is selected.";
     return;
@@ -1740,6 +1775,8 @@ function renderSimilarLines() {
   var html = groups.map(function(group) {
     var block = "<section class=\"line-group\"><h3>" + escapeHtml(group.title) + "</h3><div class=\"line-group-grid\">";
     block += group.lines.map(function(item) {
+      var resolved = wizardCapacity(reel, item);
+      if (resolved) return '<article class="line-card"><h3>' + escapeHtml(formatLineShort(item)) + '</h3>' + window.ReelCalcCapacityPages.html(resolved, {unit:state.unitSystem}) + '</article>';
       var yards = calculateFullSpoolCapacity(reel, item);
       var capacityRange = getBraidCapacityRange(reel, item);
       var card = "<article class=\"line-card\">";
@@ -1758,7 +1795,7 @@ function renderSimilarLines() {
     return block;
   }).join("");
   el.similarLines.className = "";
-  el.similarLines.innerHTML = capacityRatingWarningHtml(reel, true) + html;
+  el.similarLines.innerHTML = (capacityPageReelReady(reel) ? "" : capacityRatingWarningHtml(reel, true)) + html;
 }
 
 function findSimilarDiameterLines(lines, diameterIn, reel, excludeId) {

@@ -568,6 +568,16 @@
       var mainLine = currentLine("main");
       var backingLine = state.mode === "backing" ? currentLine("backing") : null;
       var output = q("output");
+      var pages = window.ReelCalcCapacityPages;
+      var resolved = mainLine && pages && pages.resolve('reel_page', {reel:reel, line:mainLine, mode:state.mode});
+      if (resolved) {
+        var view = pages.present(resolved, {unit:state.unit});
+        output.innerHTML = pages.html(resolved, {unit:state.unit}) +
+          (view.numeric_available ? handleTurnsHtml(resolved.capacity_yards, null) : "") +
+          (view.affiliate_capacity_eligible ? '<div class="affiliate-grid">' + affiliateCard(mainLine, resolved.capacity_yards, "main", resolved.capacity_yards) + '</div>' : "");
+        pages.record('reel_page', resolved, mainLine);
+        return;
+      }
       if (!mainLine || (state.mode === "backing" && !backingLine)) {
         output.innerHTML = '<div class="error">Choose lines with a usable diameter, or complete the custom-line fields.</div>';
         return;
@@ -830,12 +840,14 @@
       loadJson(reelsUrl),
       loadJson(linesUrl),
       loadJson(affiliatesUrl)
-    ]).then(function(values) {
+    ]).then(async function(values) {
+      await loadScript("js/capacity-page-bridge.js?v=1", "ReelCalcCapacityPages").catch(function() {});
+      if (window.ReelCalcCapacityPages) await window.ReelCalcCapacityPages.ready;
       var reels = values[3];
       var lines = values[4];
       var reel = Array.isArray(reels) ? reels.find(function(record) { return record.id === reelId; }) : null;
       if (!reel) throw new Error('ReelCalc could not find the reel record "' + reelId + '".');
-      if (!values[0].isReelReady(reel)) throw new Error("This reel is missing required mono capacity data.");
+      if (!values[0].isReelReady(reel) && !window.ReelCalcCapacityPages?.enabled()) throw new Error("This reel is missing required mono capacity data.");
       if (!Array.isArray(lines)) throw new Error("The central line database is unavailable.");
       mountCalculator(mount, reel, lines, values[5], {
         core: values[0],
