@@ -175,6 +175,7 @@
     var preload = selector.parsePreload(location.search);
     if (!preload.mode && mount.dataset.defaultMode === "capacity") preload.mode = "capacity";
     var shadow = mount.shadowRoot || mount.attachShadow({ mode: "open" });
+    window.ReelCalcCapacityPages?.observe?.(shadow);
     shadow.innerHTML = calculatorTemplate(reel, defaults);
     var preparedLines = selector.prepareLines(lines);
     var state = {
@@ -575,7 +576,10 @@
         output.innerHTML = pages.html(resolved, {unit:state.unit}) +
           (view.numeric_available ? handleTurnsHtml(resolved.capacity_yards, null) : "") +
           (view.affiliate_capacity_eligible ? '<div class="affiliate-grid">' + affiliateCard(mainLine, resolved.capacity_yards, "main", resolved.capacity_yards) + '</div>' : "");
-        pages.record('reel_page', resolved, mainLine);
+        pages.record('reel_page', resolved, mainLine, {onNumericComplete:function() {
+          dispatchCompleted(interactionSource, true, mainLine, null, {type:resolved.material, fallback:resolved.state === 'compatibility_estimate'},
+            {mainLineYards:resolved.capacity_yards, backingYards:0});
+        }});
         return;
       }
       if (!mainLine || (state.mode === "backing" && !backingLine)) {
@@ -841,7 +845,7 @@
       loadJson(linesUrl),
       loadJson(affiliatesUrl)
     ]).then(async function(values) {
-      await loadScript("js/capacity-page-bridge.js?v=1", "ReelCalcCapacityPages").catch(function() {});
+      await loadScript("js/capacity-page-bridge.js?v=monitoring-20260930", "ReelCalcCapacityPages").catch(function() {});
       if (window.ReelCalcCapacityPages) await window.ReelCalcCapacityPages.ready;
       var reels = values[3];
       var lines = values[4];

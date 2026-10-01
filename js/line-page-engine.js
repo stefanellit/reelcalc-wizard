@@ -4,7 +4,7 @@
   var mounts = new WeakMap();
   var capacityReady = (async function() {
     if (!global.ReelCalcCapacityPages && document.currentScript?.src) {
-      var bridgeUrl = new URL('capacity-page-bridge.js?v=1', document.currentScript.src);
+      var bridgeUrl = new URL('capacity-page-bridge.js?v=monitoring-20260930', document.currentScript.src);
       await new Promise(function(resolve) {
         var script = document.createElement('script');
         var timer = setTimeout(function() { script.remove(); resolve(); }, 10000);

@@ -61,6 +61,10 @@
     var allowedEvents = new Set([
       "reelcalc_page_view",
       "reel_comparison_opened",
+      "reelcalc_capacity_decision",
+      "reelcalc_capacity_failure",
+      "reelcalc_capacity_interaction",
+      "reel_comparison_capacity_completed",
       "wizard_viewed",
       "wizard_reel_selected",
       "wizard_line_selected",
@@ -103,7 +107,12 @@
       "main_line_id", "main_line_brand", "main_line_model", "main_line_yards",
       "main_line_diameter_mm", "backing_line_brand", "backing_line_model",
       "backing_line_type", "backing_line_lb", "backing_yards",
-      "custom_main_line", "custom_backing_line", "link_placement"
+      "custom_main_line", "custom_backing_line", "link_placement",
+      "surface", "capacity_route", "capacity_state", "selected_line_diameter",
+      "verified_anchor_count", "range_state", "review_state", "source_tier",
+      "numeric_available", "engine_status", "failure_code", "monitoring_version",
+      "calculation_origin", "capacity_action_id", "result_count", "numeric_result_count",
+      "hold_result_count", "unavailable_result_count", "failure_count", "material"
     ]);
 
     window.addEventListener("message", function(event) {

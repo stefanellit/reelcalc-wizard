@@ -1249,6 +1249,7 @@ function trackWizardCalculation(selectionSource) {
   var reel = getActiveReel();
   var line = getActiveMainLine();
   if (!isReelReady(reel) || !isLineReady(line)) return;
+  if (capacityPageReelReady(reel)) return; // The shared monitor counts only numeric new-engine completions.
   trackWizardEvent("wizard_calculation_completed", Object.assign({
     page_type: "setup_wizard",
     selection_source: selectionSource,
