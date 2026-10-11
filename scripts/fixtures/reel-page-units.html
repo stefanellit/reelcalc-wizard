@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Reel-page unit regression</title>
+<style>body{font:16px Arial,sans-serif;max-width:760px;margin:24px auto;padding:0 16px}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style>
+<h1>Reel-page unit regression</h1>
+<pre id="checks" role="status">Running...</pre>
+<div data-reelcalc-calculator data-reel-id="daiwa-bg-lt-3000d-xh" data-default-mode="capacity"></div>
+<script>
+  var readyCount = 0;
+  document.addEventListener("reelcalc:calculator-ready", function() {
+    readyCount += 1;
+    if (readyCount === 1) setTimeout(runChecks, 0);
+  });
+  function runChecks() {
+    var log = [];
+    var mount = document.querySelector("[data-reelcalc-calculator]");
+    var root = mount.shadowRoot;
+    var q = function(role) { return root.querySelector('[data-role="' + role + '"]'); };
+    var click = function(selector) { root.querySelector(selector).click(); };
+    var result = function() { return Number(root.querySelector(".result-number").textContent.replace(/[^0-9.]/g, "")); };
+    var check = function(condition, message) { if (!condition) throw new Error(message); log.push("PASS: " + message); };
+    var near = function(actual, expected, tolerance, message) { check(Math.abs(actual - expected) <= tolerance, message + " (" + actual + ")"); };
+    var units = function(unit) { click('[data-action="unit"][data-unit="' + unit + '"]'); };
+    try {
+      check(readyCount === 1, "only one mount despite auto-start and repeated loader calls");
+      units("metric");
+      near(Number(q("main-yards").value), 137.2, 0.01, "150 yd converts to meters once");
+      near(Number(q("reel-ipt").value), 93.5, 0.01, "retrieve converts to centimeters once");
+      click('[data-action="toggle-custom"][data-line-role="main"]');
+      q("main-custom-lb").value = "9.1";
+      q("main-custom-dia").value = "0.20";
+      click('[data-action="calculate"]');
+      var metricCapacity = result();
+      units("standard");
+      near(Number(q("main-custom-dia").value), 0.0079, 0.0000001, "0.20 mm becomes 0.0079 in, not 0.0003");
+      near(Number(q("main-custom-lb").value), 20.1, 0.01, "custom strength converts once");
+      near(result(), metricCapacity / 0.9144, 3, "full-spool result stays equivalent within input rounding");
+      var standardCapacity = result();
+      units("standard");
+      check(result() === standardCapacity, "clicking the active unit does nothing");
+      for (var i = 0; i < 5; i += 1) { units("metric"); units("standard"); }
+      near(Number(q("main-custom-dia").value), 0.0079, 0.0000001, "repeated switches do not shrink the diameter");
+      near(result(), standardCapacity, 1, "repeated switches preserve capacity");
+      click('[data-action="mode"][data-mode="backing"]');
+      click('[data-action="toggle-custom"][data-line-role="backing"]');
+      q("main-yards").value = "100";
+      q("backing-custom-lb").value = "12";
+      q("backing-custom-dia").value = "0.013";
+      click('[data-action="calculate"]');
+      var standardBacking = result();
+      units("metric");
+      near(Number(q("backing-custom-dia").value), 0.330, 0.00001, "backing diameter converts once");
+      near(Number(q("main-yards").value), 91.4, 0.01, "main-line amount converts once in backing mode");
+      near(result(), standardBacking * 0.9144, 2, "backing result stays equivalent within input rounding");
+      units("standard");
+      near(result(), standardBacking, 2, "backing round trip preserves the result");
+      near(Number(q("backing-custom-dia").value), 0.013, 0.000001, "backing diameter round trip");
+      click('[data-action="mode"][data-mode="capacity"]');
+      click('[data-action="toggle-custom"][data-line-role="main"]');
+      var option = root.querySelector('#main-product option[value]:not([value=""])');
+      q("main-product").value = option.value;
+      q("main-product").dispatchEvent(new Event("change", {bubbles:true}));
+      click('[data-action="calculate"]');
+      var databaseCapacity = result();
+      units("metric");
+      near(result(), databaseCapacity * 0.9144, 2, "database-line result converts once");
+      units("standard");
+      check(result() === databaseCapacity, "database-line capacity round trip is unchanged");
+      click('[data-action="toggle-custom"][data-line-role="main"]');
+      units("metric");
+      q("main-custom-lb").value = "9.1";
+      q("main-custom-dia").value = "0.20";
+      click('[data-action="calculate"]');
+      check(readyCount === 1, "unit and mode changes never remount the calculator");
+      document.getElementById("checks").textContent = log.join("\n") + "\nALL CHECKS PASSED";
+      document.documentElement.dataset.testResult = "passed";
+    } catch (error) {
+      document.getElementById("checks").textContent = log.join("\n") + "\nFAIL: " + error.message;
+      document.documentElement.dataset.testResult = "failed";
+      throw error;
+    }
+  }
+</script>
+<script defer src="../../js/reel-page-calculator.js" onload="ReelCalcReelPageCalculator.initialize(); ReelCalcReelPageCalculator.initialize();"></script>
+</html>

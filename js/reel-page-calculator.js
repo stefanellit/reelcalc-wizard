@@ -827,7 +827,7 @@
   }
 
   function initializeMount(mount) {
-    if (mount.dataset.reelcalcReady === "true") return;
+    if (mount.dataset.reelcalcReady === "true" || mount.dataset.reelcalcLoading === "true") return;
     var reelId = String(mount.dataset.reelId || "").trim();
     if (!reelId) {
       renderLoadError(mount, "This reel calculator is missing its ReelCalc reel ID.");
@@ -837,6 +837,8 @@
     var linesUrl = mount.dataset.linesUrl ? new URL(mount.dataset.linesUrl, document.baseURI).href : assetUrl("data/lines.json");
     var affiliatesUrl = mount.dataset.affiliatesUrl ? new URL(mount.dataset.affiliatesUrl, document.baseURI).href : assetUrl("data/reel-affiliates.json");
 
+    // Auto-start and the page loader can both call initialize before data is ready.
+    mount.dataset.reelcalcLoading = "true";
     Promise.all([
       loadScript("js/calculator-core.js?v=9", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
@@ -864,6 +866,8 @@
       }
     }).catch(function(error) {
       renderLoadError(mount, "The ReelCalc calculator could not load. " + error.message);
+    }).finally(function() {
+      delete mount.dataset.reelcalcLoading;
     });
   }
 
