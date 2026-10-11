@@ -20,10 +20,14 @@ assert.ok(bg);
 assert.equal(bg.capacity_note, "10-280, 12-220");
 assert.equal(bg.braid_capacity_note, "15-250, 20-220");
 assert.equal(bg.sku, "BGLT3000D-XH");
-assert.equal(assess(bg).warning, true);
-assert.ok(Math.abs(assess(bg).separatedRatio - 403.2 / 178.2) < 1e-9);
-assert.ok(Math.abs(core.calculateFullSpoolCapacity(bg, { type: "Fluorocarbon", lb: 10, dia_in: 0.01 }) - 431.2) < 1e-9);
-assert.ok(Math.abs(core.calculateFullSpoolCapacity(bg, { type: "Braid", lb: 20, dia_in: 0.01 }, { lineCatalog: lines }) - 169.1) < 1e-9);
+const legacyBg = { ...bg, manufacturer_capacity_ratings: [] };
+assert.equal(assess(legacyBg).warning, true);
+assert.ok(Math.abs(assess(legacyBg).separatedRatio - 403.2 / 178.2) < 1e-9);
+assert.ok(Math.abs(core.calculateFullSpoolCapacity(legacyBg, { type: "Fluorocarbon", lb: 10, dia_in: 0.01 }) - 431.2) < 1e-9);
+assert.ok(Math.abs(core.calculateFullSpoolCapacity(legacyBg, { type: "Braid", lb: 20, dia_in: 0.01 }, { lineCatalog: lines }) - 169.1) < 1e-9);
+assert.equal(assess(bg).braidReferenceQuality, "manufacturer-diameter");
+assert.equal(assess(bg).warning, false, "Verified references must replace the former guessed-reference warning");
+assert.ok(Math.abs(assess(bg).separatedRatio - (260 * 0.25 ** 2) / (230 * 0.20 ** 2)) < 1e-9);
 
 const fixture = {
   brand: "Daiwa", id: "fixture", capacity_yards: 200, rated_line_diameter_in: 0.01,
@@ -36,7 +40,7 @@ assert.equal(assess({ ...fixture, capacity_yards: 50 }, catalog).warning, true, 
 assert.equal(assess({ ...fixture, capacity_options: [{ yards: 110, diameter_in: 0.01 }] }, catalog).warning, false, "Closer usable mono anchor prevents warning");
 assert.equal(assess({ ...fixture, braid_capacity_note: "20-100, 30-200" }, [...catalog, { ...catalog[0], id: "braid-30", lb: 30 }]).warning, false, "Overlapping bands");
 assert.equal(assess({ ...fixture, capacity_options: [null, {}, { yards: -1, diameter_in: -0.01 }] }, catalog).warning, true, "Ignore malformed anchors");
-for (const reel of [null, {}, { ...bg, id: "manual-reel" }, { ...bg, manualRating: {} }, { ...bg, capacity_reference_type: "braid" }, { ...bg, braid_capacity_note: "Unknown" }]) {
+for (const reel of [null, {}, { ...bg, id: "manual-reel" }, { ...bg, manualRating: {} }, { ...bg, capacity_reference_type: "braid" }, { ...legacyBg, braid_capacity_note: "Unknown" }]) {
   assert.equal(assess(reel), null, "Unavailable or manual reference must not be judged");
 }
 assert.equal(assess(bg, []), null);
@@ -70,7 +74,7 @@ for (const file of ["js/wizard.js", "js/reel-page-calculator.js", "js/line-page-
 }
 assert.match(read("index.html"), /Lines with Similar Diameters/);
 assert.match(read("css/line-page-embed.css"), /\.rc-line-page \.rc-rating-warning/);
-console.log(`PASS: ${reels.length} reels checked; ${eligible} assessable; ${flagged.length} large conflicts. Edge cases, unchanged BG capacities, raw/prepared parity, non-mutation and all four UI integrations passed.`);
+console.log(`PASS: ${reels.length} reels checked; ${eligible} assessable; ${flagged.length} large conflicts. Edge cases, legacy BG fallback, verified BG references, raw/prepared parity, non-mutation and all four UI integrations passed.`);
 
 if (process.argv.includes("--report")) {
   const dir = path.join(root, "reports/capacity-rating-conflicts");

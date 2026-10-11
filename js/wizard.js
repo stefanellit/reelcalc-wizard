@@ -1,5 +1,5 @@
 const DATA_PATHS = {
-  reels: "data/reels.json?v=9",
+  reels: "data/reels.json?v=10",
   lines: "data/lines.json",
   quality: "data/data-quality-report.json?v=2",
   reelAffiliates: "data/reel-affiliates.json?v=2"
@@ -1107,13 +1107,22 @@ function renderReelSummary() {
     html += '<div><span>Published mono capacity</span><strong>' + escapeHtml(reel.capacity_note || 'Not listed') + '</strong></div>';
     if (reel.braid_capacity_note) html += '<div><span>Published braid capacity</span><strong>' + escapeHtml(formatPublishedBraidNote(reel)) + '</strong></div>';
   } else if (ready) {
-    html += "<div><span>Rating used</span><strong>" + formatReelRating(reel) + "</strong></div>";
-    var diameterLabel = reel.capacity_reference_type === "braid"
-      ? "Estimated braid diameter"
-      : reel.id === "manual-reel" && reel.manual_reel_entry_mode !== "metric-diameter"
-        ? "Estimated mono diameter"
-        : "Rated diameter";
-    html += "<div><span>" + diameterLabel + "</span><strong>" + formatDiameterWithUnit(reel.rated_line_diameter_in) + "</strong></div>";
+    var manufacturerBasis = typeof window.ReelCalcCore.manufacturerDiameterBasis === "function"
+      ? window.ReelCalcCore.manufacturerDiameterBasis(reel, getActiveMainLine()) : null;
+    if (manufacturerBasis) {
+      var original = manufacturerBasis.anchor.original;
+      html += "<div><span>Verified " + (manufacturerBasis.material === "braid" ? "braid" : "mono/nylon") + " reference used</span><strong>" +
+        escapeHtml(original.diameter.value + " " + original.diameter.unit + " / " + original.capacity.value + " " + original.capacity.unit) + "</strong></div>";
+    } else {
+      var hasVerifiedRating = (reel.manufacturer_capacity_ratings || []).some(function(rating) { return rating.calculation_eligible; });
+      html += "<div><span>" + (hasVerifiedRating ? "Fallback rating" : "Rating used") + "</span><strong>" + formatReelRating(reel) + "</strong></div>";
+      var diameterLabel = reel.capacity_reference_type === "braid"
+        ? "Estimated braid diameter"
+        : reel.id === "manual-reel" && reel.manual_reel_entry_mode !== "metric-diameter"
+          ? "Estimated mono diameter"
+          : "Rated diameter";
+      html += "<div><span>" + diameterLabel + "</span><strong>" + formatDiameterWithUnit(reel.rated_line_diameter_in) + "</strong></div>";
+    }
     var capacityNote = reel.id === "manual-reel" ? formatManualReelCapacityNote(reel.capacity_yards, reel.rated_line_lb, reel.rated_line_diameter_in, reel.manual_reel_entry_mode) : reel.capacity_note;
     if (capacityNote) html += "<div><span>Printed capacity</span><strong>" + escapeHtml(capacityNote) + "</strong></div>";
     if (reel.braid_capacity_note) html += "<div><span>Braid capacity</span><strong>" + escapeHtml(formatPublishedBraidNote(reel)) + "</strong></div>";
@@ -1472,6 +1481,10 @@ function calculateFullSpoolCapacity(reel, line) {
 
 function braidCapacityRangeNote(reel, line, range, includeRange) {
   if (!range) return "";
+  if (range.referenceQuality === "manufacturer-diameter") {
+    var manufacturerPrefix = includeRange === false ? "" : "Expected real-world range: " + formatCapacityRange(range, true) + ". ";
+    return manufacturerPrefix + "This estimate scales the reel's verified braid diameter and capacity rating to your chosen line diameter. The range remains a planning allowance, not a measured accuracy guarantee.";
+  }
   if (range.referenceQuality) {
     var actualPrefix = includeRange === false
       ? ""
@@ -1658,13 +1671,18 @@ function renderCapacityResult() {
   var capacityRange = getBraidCapacityRange(reel, line);
   var lineLabel = formatActiveLineShort(line);
   var braidCapacityNote = braidCapacityRangeNote(reel, line, capacityRange, false);
+  var manufacturerBasis = typeof window.ReelCalcCore.manufacturerDiameterBasis === "function"
+    ? window.ReelCalcCore.manufacturerDiameterBasis(reel, line) : null;
+  var ratingNote = braidCapacityNote || (manufacturerBasis
+    ? manufacturerBasis.label + ". Scaled to your chosen line diameter."
+    : "Rated at " + formatReelRating(reel) + " line.");
   var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
   html += capacityRatingWarningHtml(reel);
   html += "<div class=\"capacity-hero\">";
   html += "<div><span class=\"eyebrow\">" + (capacityRange ? "Best full-spool estimate" : "Estimated full-spool capacity") + "</span><strong class=\"capacity-number\">" + formatNumber(yardsToDisplayLength(capacityRange ? capacityRange.centerYards : capacity), capacityRange ? 0 : 1) + "</strong><p>" + lengthUnitLong() + " of " + escapeHtml(lineLabel) + "</p>" + (capacityRange ? "<p class=\"capacity-range-note\"><strong>Expected real-world range:</strong> " + formatCapacityRange(capacityRange, true) + "</p>" : "") + "</div>";
   html += "</div>";
   html += "<div class=\"capacity-detail-grid\">";
-  html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>" + (braidCapacityNote ? escapeHtml(braidCapacityNote) : "Rated at " + formatReelRating(reel) + " line.") + "</p></div>";
+  html += "<div class=\"capacity-detail-card\"><span>Reel used</span><strong>" + escapeHtml(formatReelShort(reel)) + "</strong><p>" + escapeHtml(ratingNote) + "</p></div>";
   html += "<div class=\"capacity-detail-card\"><span>Line used</span><strong>" + escapeHtml(lineLabel) + "</strong><p>Diameter: " + formatDiameterWithUnit(line.dia_in) + ".</p></div>";
   html += "</div>";
   if (capacityRange) {

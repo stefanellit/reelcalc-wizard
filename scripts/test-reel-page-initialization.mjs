@@ -36,7 +36,9 @@ const context = vm.createContext({
   },
   fetch: async url => {
     await dataReady;
-    return { ok: true, json: async () => url.endsWith("reels.json") ? reels : [] };
+    const parsed = new URL(url);
+    if (parsed.pathname.endsWith("reels.json")) assert.equal(parsed.searchParams.get("v"), "10", "load the released diameter inventory");
+    return { ok: true, json: async () => parsed.pathname.endsWith("reels.json") ? reels : [] };
   }
 });
 const settle = () => new Promise(resolve => setImmediate(resolve));

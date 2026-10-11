@@ -131,6 +131,10 @@ Then place the index.html body markup in a Code Block and update the asset paths
 
 ## Calculator Math
 
+Verified, exact-model, material-labelled manufacturer diameter/capacity pairs in `manufacturer_capacity_ratings` take priority. Mono/nylon pairs serve mono, fluorocarbon and copolymer; braid pairs serve braid. The nearest proportional eligible diameter is the reference, scaled as `reference_length * (reference_diameter / selected_diameter)^2` for any positive selected diameter, including outside the printed range. There is no exact-match requirement. Original ratings and provenance are preserved in the inventory and `data/reel-diameter-evidence.json`; held evidence is not used.
+
+Backing uses the appropriate full-spool capacity for each material and the existing dual-anchor fraction calculation. When no eligible matching-material reference exists, the existing fallback below remains unchanged. Manual reel entry remains unchanged. This preference does not enable the experimental capacity resolver or replace assumed mono diameters with catalog medians.
+
 Mono and fluorocarbon reuse the existing ReelCalc formula:
 
 ~~~text

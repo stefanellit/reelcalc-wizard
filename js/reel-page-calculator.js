@@ -407,6 +407,9 @@
     }
 
     function basisExplanation(basis, mainLine, range) {
+      if (basis.type === "manufacturer-diameter") {
+        return basis.label + ". ReelCalc scales that reference to your chosen line diameter; an exact diameter match is not required.";
+      }
       if (basis.type === "published-braid-diameter") {
         var actualEstimate = basis.actualLineEstimate;
         if (actualEstimate && actualEstimate.referenceQuality === "published-pe-diameter") {
@@ -833,14 +836,16 @@
       renderLoadError(mount, "This reel calculator is missing its ReelCalc reel ID.");
       return;
     }
-    var reelsUrl = mount.dataset.reelsUrl ? new URL(mount.dataset.reelsUrl, document.baseURI).href : assetUrl("data/reels.json");
+    var reelsUrl = new URL(mount.dataset.reelsUrl || assetUrl("data/reels.json"), document.baseURI);
+    reelsUrl.searchParams.set("v", "10");
+    reelsUrl = reelsUrl.href;
     var linesUrl = mount.dataset.linesUrl ? new URL(mount.dataset.linesUrl, document.baseURI).href : assetUrl("data/lines.json");
     var affiliatesUrl = mount.dataset.affiliatesUrl ? new URL(mount.dataset.affiliatesUrl, document.baseURI).href : assetUrl("data/reel-affiliates.json");
 
     // Auto-start and the page loader can both call initialize before data is ready.
     mount.dataset.reelcalcLoading = "true";
     Promise.all([
-      loadScript("js/calculator-core.js?v=9", "ReelCalcCore"),
+      loadScript("js/calculator-core.js?v=10", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
       loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
       loadJson(reelsUrl),

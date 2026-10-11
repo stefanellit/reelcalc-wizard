@@ -1,0 +1,10 @@
+{
+  "checks": 13136,
+  "catalogueChecks": 4506,
+  "fallbackChecks": 12375,
+  "evidenceRowsChecked": 2031,
+  "eligibleRowsChecked": 1633,
+  "exactAndNonmatchingDiametersPass": true,
+  "experimentalSwitchOff": true,
+  "legacyDataPreserved": true
+}

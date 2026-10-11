@@ -25,6 +25,7 @@ assert.ok(backingLine, "backing-line fixture is missing");
 let auditedPages = 0;
 let labeledAnchorSelections = 0;
 let nonExactSelections = 0;
+let verifiedSelections = 0;
 const largestCapacities = [];
 
 for (const page of pageRegistry.pages) {
@@ -40,11 +41,19 @@ for (const page of pageRegistry.pages) {
     const exactLine = braidLines.find((line) => Math.abs(line.lb - option.lb) < 0.001);
     if (!exactLine) continue;
     const exact = core.capacityBasisForActualLine(reel, exactLine, lines);
-    assert.equal(exact.type, "published-braid-diameter", `${page.path} did not use its braid rating`);
-    assert.equal(exact.actualLineEstimate.method, "label-match-diameter-calibrated", `${page.path} did not calibrate the selected braid diameter`);
-    const inferredSpace = exact.capacityYards * exactLine.dia_in * exactLine.dia_in;
-    if (pageSpoolSpace == null) pageSpoolSpace = inferredSpace;
-    assert.ok(Math.abs(inferredSpace - pageSpoolSpace) <= pageSpoolSpace * 1e-9, `${page.path} changed physical spool space between selected braid strengths`);
+    const verified = core.manufacturerDiameterBasis(reel, exactLine);
+    if (verified) {
+      assert.equal(exact.type, "manufacturer-diameter");
+      assert.equal(exact.capacityYards, verified.capacityYards);
+      assert.equal(exact.anchor.id, verified.anchor.id);
+      verifiedSelections += 1;
+    } else {
+      assert.equal(exact.type, "published-braid-diameter", `${page.path} did not use its braid rating`);
+      assert.equal(exact.actualLineEstimate.method, "label-match-diameter-calibrated", `${page.path} did not calibrate the selected braid diameter`);
+      const inferredSpace = exact.capacityYards * exactLine.dia_in * exactLine.dia_in;
+      if (pageSpoolSpace == null) pageSpoolSpace = inferredSpace;
+      assert.ok(Math.abs(inferredSpace - pageSpoolSpace) <= pageSpoolSpace * 1e-9, `${page.path} changed physical spool space between selected braid strengths`);
+    }
     labeledAnchorSelections += 1;
   }
 
@@ -57,10 +66,11 @@ for (const page of pageRegistry.pages) {
 
   const basis = core.capacityBasisForActualLine(reel, selected, lines);
   const range = core.calculateActualLineBraidCapacityRange(reel, selected, lines);
-  assert.equal(basis.type, "published-braid-diameter", `${page.path} missed diameter calibration`);
+  const verified = core.manufacturerDiameterBasis(reel, selected);
+  assert.equal(basis.type, verified ? "manufacturer-diameter" : "published-braid-diameter", `${page.path} missed diameter calibration`);
   assert.equal(
     range.method,
-    peRated ? "pe-diameter-calibrated" : "diameter-calibrated",
+    verified ? "manufacturer-diameter" : peRated ? "pe-diameter-calibrated" : "diameter-calibrated",
     `${page.path} used pound-test interpolation`
   );
   assert.ok(Number.isFinite(range.centerYards) && range.centerYards > 0, `${page.path} produced an invalid center`);
@@ -113,7 +123,7 @@ assert.ok(
 );
 
 console.log(`Reel-page braid calibration passed for ${auditedPages} published pages.`);
-console.log(`- ${labeledAnchorSelections} matching-strength selections preserved one physical spool space while applying actual line diameter`);
+console.log(`- ${labeledAnchorSelections} matching-strength selections applied actual diameter (${verifiedSelections} verified manufacturer references; remaining legacy paths preserved spool space)`);
 console.log(`- ${nonExactSelections} non-exact strengths used diameter calibration`);
 console.log(`- Centron 4000 regression: 10 lb left ${centronBacking10.backingYards.toFixed(1)} yd backing; 40 lb left ${centronBacking40.backingYards.toFixed(1)} yd`);
 console.log("- Largest audited capacity estimates:");

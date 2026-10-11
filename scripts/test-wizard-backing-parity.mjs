@@ -30,6 +30,7 @@ context.catalog = lines;
 vm.runInContext(`
   state.lines = catalog;
   el.backingResult = { innerHTML: "", textContent: "", className: "" };
+  el.reelSummary = { innerHTML: "", classList: { remove() {} } };
   el.mainLineSlider = { max: "", value: "" };
   el.mainLineYards = { value: "" };
   document.activeElement = el.mainLineYards;
@@ -74,9 +75,18 @@ function check(reel, main, backing, yards, options = {}) {
     state.unitSystem = scenario.metric ? "metric" : "standard";
     el.backingResult.innerHTML = "";
     el.backingResult.textContent = "";
+    renderReelSummary();
     renderBackingResult();
   `, context);
   const html = vm.runInContext("el.backingResult.innerHTML", context);
+  const reference = core.manufacturerDiameterBasis(reel, main);
+  const summary = vm.runInContext("el.reelSummary.innerHTML", context);
+  if (reference) {
+    assert.ok(summary.includes(`Verified ${reference.material === "braid" ? "braid" : "mono/nylon"} reference used`));
+    const source = reference.anchor.original;
+    assert.ok(summary.includes(`${source.diameter.value} ${source.diameter.unit} / ${source.capacity.value} ${source.capacity.unit}`));
+    assert.ok(!summary.includes("<span>Rated diameter</span>"), "Do not label a guessed fallback as the reference used");
+  }
   const wizardCapacity = vm.runInContext("calculateFullSpoolCapacity(getActiveReel(), getActiveMainLine())", context);
   close(wizardCapacity, expected.fullMainCapacityYards, "Full main-line capacity");
   if (options.capacityOnly) {
@@ -109,10 +119,17 @@ function check(reel, main, backing, yards, options = {}) {
   return expected;
 }
 
-const oldResult = core.calculateCalibratedBacking(vanford, invizx, 120, ande);
+const legacyVanford = { ...vanford, manufacturer_capacity_ratings: [] };
+const oldResult = core.calculateCalibratedBacking(legacyVanford, invizx, 120, ande);
 close(oldResult.backingYards, 65.625, "Reproduce the previous mismatch");
-const regression = check(vanford, invizx, ande, 120);
-close(regression.backingYards, 112.77777777777777, "Corrected diameter-aware backing");
+const regression = check(legacyVanford, invizx, ande, 120);
+// Baseline 0af1318 uses the current catalogue's braid-diameter calibration.
+close(regression.backingYards, 181.89923533462044, "Existing diameter-aware backing without new evidence");
+const verifiedRegression = check(vanford, invizx, ande, 120);
+assert.equal(verifiedRegression.basis.type, "manufacturer-diameter");
+close(verifiedRegression.backingYards,
+  verifiedRegression.fullBackingCapacityYards * (1 - 120 / verifiedRegression.fullMainCapacityYards),
+  "Verified mono reference with legacy braid backing");
 
 const sampleReels = [vanford,
   reels.find((reel) => reel.id === "shimano-slx-a-150-6-3-rh-slx150a"),

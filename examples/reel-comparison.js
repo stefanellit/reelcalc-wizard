@@ -1607,7 +1607,7 @@
         throw new Error("The ReelCalc calculation engine could not be loaded.");
       }
       var responses = await Promise.all([
-        fetch(assetUrl("data/reels.json"), { credentials: "omit" }),
+        fetch(assetUrl("data/reels.json?v=10"), { credentials: "omit" }),
         fetch(assetUrl("data/reel-pages.json"), { credentials: "omit" }),
         fetch(assetUrl("data/lines.json"), { credentials: "omit" }),
         fetch(assetUrl("data/reel-affiliates.json"), { credentials: "omit" })

@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-11",
+  "status": "release_checked_authorized_for_publication",
+  "baseline_commit": "0af1318bbdc0fbfd3f124b0d4f57af8c6eec7f48",
+  "policy": {
+    "mono_family": ["mono", "nylon", "fluorocarbon", "copolymer"],
+    "braid": "Verified braid diameter and length only",
+    "selection": "Nearest proportional eligible same-material diameter; deterministic evidence-ID tie break",
+    "formula": "source length * (source diameter / selected line diameter)^2, with consistent units",
+    "exact_diameter_match_required": false,
+    "inside_printed_range_required": false,
+    "fallback": "Existing capacity and backing behavior when no usable same-material diameter reference exists",
+    "backing": "Existing dual-anchor fraction calculation using the appropriate full-spool capacity for each line",
+    "experimental_ladder_enabled": false,
+    "manual_homepage_calculator_changed": false,
+    "new_packing_factor_or_underfill_reduction": false
+  },
+  "verification": {
+    "source": "Previous audits and reviewed physical evidence, checked against frozen identities, source decisions, original values and hashes; not a fresh reinspection of every manufacturer page or photo",
+    "raw_research_and_legacy_fields_preserved": true,
+    "unit_regression_browser_fixture": "All checks passed, including repeated metric/standard switching, custom and database line, capacity and backing",
+    "nonmatching_braid_browser_case": "BG LT3000D-XH custom 0.21 mm used its 0.20 mm / 230 m braid reference: 208.6 m, displayed 209 m",
+    "outside_range_browser_case": "BG LT3000D-XH custom 0.40 mm still used its verified braid reference: 57.5 m, displayed 58 m",
+    "wizard_mono_browser_case": "Trilene XL 12 lb at its stored 0.013 in used 0.33 mm / 150 m mono reference: 163.8 yd",
+    "layout": "Reel-page calculator result inspected at desktop and 390px widths",
+    "comparison": "1,328,691 capacity comparisons and 58,032 backing comparisons passed",
+    "line_page_browser_case": "BG LT3000D-XH and J-Braid X4 20 lb: 243.7 yd, displayed 244 yd, using the unchanged stored 0.008 in line diameter",
+    "idempotency": "Rerunning the data import produced byte-identical generated files",
+    "passed_scripts": [
+      "scripts/test-manufacturer-diameter-first.mjs",
+      "scripts/test-wizard-backing-parity.mjs",
+      "scripts/test-reel-comparison-parity.mjs",
+      "scripts/test-reel-page-braid-diameter-calibration.mjs",
+      "scripts/test-braid-capacity-calibration.mjs",
+      "scripts/test-capacity-rating-conflicts.mjs",
+      "scripts/test-single-braid-anchor-capacity.mjs",
+      "scripts/test-reel-page-capacity-integrity.mjs",
+      "scripts/test-reel-page-initialization.mjs",
+      "scripts/test-line-page-engine.mjs",
+      "scripts/test-homepage-calculator-v2.mjs",
+      "scripts/test-homepage-rating-switch.mjs",
+      "scripts/line-page-publishing/test.mjs"
+    ]
+  },
+  "limits": [
+    "Correct source selection and formula parity do not establish measured real-world accuracy for every reel/line combination.",
+    "Printed ratings and line diameters can be rounded. When multiple ratings imply different spool volumes, nearest-reference selection can change estimates at reference boundaries; no averaging or interpolation is introduced.",
+    "Existing braid planning ranges remain heuristic, not newly validated confidence bounds.",
+    "Selected-line inch values and existing inch/metric rounding behavior are unchanged.",
+    "Unclassified, uncertain exact-model, source-conflicted and unreviewed photo evidence remains stored but calculation-ineligible.",
+    "Do not activate the old experimental resolver switch."
+  ],
+  "release": {
+    "authorized_scope": "Publish verified same-material manufacturer diameter preference in capacity and backing calculations; no mono-median change",
+    "core_asset_version": "10",
+    "reel_inventory_version": "10",
+    "wizard_asset_version": "24",
+    "reel_page_calculator_asset_version": "13",
+    "line_page_release": "20",
+    "comparison_asset_suffix": "diameter-first-1",
+    "github_pages_source": "main:/",
+    "local_unit_browser_recheck": "All checks passed after release version updates",
+    "deployment_verification": "Pending publication; a separate deployment report records live results"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-11",
+  "total_reels": 1336,
+  "reels_with_stored_diameter_evidence": 572,
+  "reels_with_eligible_material_ratings": 487,
+  "eligible_material_coverage": {
+    "both": 49,
+    "mono_only": 434,
+    "braid_only": 4,
+    "neither": 849
+  },
+  "stored_evidence_rows": 2031,
+  "eligible_rows": 1633,
+  "held_rows": 398,
+  "prior_research_preserved": true,
+  "legacy_reel_fields_unchanged": true,
+  "scope": "Source admission only. No experimental resolver, PE conversion, inferred diameter, cross-material substitution, or range endpoint selection."
+}
