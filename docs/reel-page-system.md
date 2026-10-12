@@ -108,6 +108,8 @@ node scripts/generate-reel-page.mjs --reel "Shimano Sedona FJ 2500"
 
 The generator stops with `AMBIGUOUS REEL` when more than one record matches. It stops with `NEEDS DATA` when required trusted fields or a verified page URL are missing.
 
+For an explicitly approved capacity guide, a page's `unavailableSpecs` may disclose missing `weight_oz`, `max_drag_lb`, or `line_retrieve_in`. Those values remain null in the canonical reel record and display the disclosure, never zero or a guessed value. This exception does not waive identity, capacity, source, image, recommendation, or other validation. Without that page-level approval the strict gate remains in force. The October 12 Tiger follow-up uses this policy with the owner's approval; it does not change calculator logic.
+
 ## Deployment Order
 
 Before pasting a generated block into Squarespace, upload these shared files to the same GitHub Pages paths:

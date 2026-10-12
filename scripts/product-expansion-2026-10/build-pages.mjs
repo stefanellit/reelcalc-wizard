@@ -30,7 +30,7 @@ export function importDescription(block){
   for(const node of all(doc,n=>n.attrs))node.attrs=node.attrs.filter(a=>!['class','id','hidden','loading'].includes(a.name)&&!a.name.startsWith('data-'));
   return html.serialize(doc).trim();
 }
-function sourceNotes(block,reel){
+export function sourceNotes(block,reel){
   const doc=html.parseFragment(block);
   const urls=[...new Set([reel.source_url,...(reel.spec_verification_sources||[]),...(reel.manufacturer_capacity_ratings||[]).map(r=>r.source_url)].filter(Boolean))];
   const target=all(doc,n=>attr(n,'data-section')==='specifications')[0].childNodes.find(n=>n.tagName==='div');
@@ -38,7 +38,7 @@ function sourceNotes(block,reel){
   for(const node of note.childNodes){node.parentNode=target;target.childNodes.push(node);}
   return html.serialize(doc);
 }
-function customize(m,item){
+export function customize(m,item){
   const c=item.config,n=m.reel.displayName,s=Number(c.size),r=m.recommendation;
   const context=c.brand==='PENN'?({1000:'For a light inshore or freshwater setup, the 1000 keeps the published mono starting point at 4 lb / 135 yards.',2000:'The 2000 gives you a 6 lb / 180-yard mono reference for a light spinning setup.',2500:'The 2500 starts from an 8 lb / 175-yard mono rating, useful when choosing between straight mono and a braid-and-leader setup.',3000:'Moving to the 3000 gives you a 10 lb / 165-yard mono rating and a 20 lb / 180-yard braid reference.',4000:'The 4000 offers more reserve than the 3000 at the same 10 lb mono rating: 220 yards instead of 165.'}[s]):
     c.model.includes('Line Counter')?`The ${c.size} pairs a round spool with a line counter for repeating a trolling distance. Spool fill still matters when comparing line-out readings between setups.`:

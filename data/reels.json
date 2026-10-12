@@ -136121,8 +136121,8 @@
     "data_warnings": [],
     "gear_ratio": "5.6:1",
     "max_drag_lb": 25,
-    "weight_oz": null,
-    "line_retrieve_in": 35.8,
+    "weight_oz": 18.5,
+    "line_retrieve_in": 36,
     "bearings": "4+1",
     "reelcalc_recommended_braid": "30-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "15-25 lb mono/fluoro",
@@ -136132,17 +136132,19 @@
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [
       "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
-      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+      "https://publuu.com/flip-book/164752/2555201/page/64",
+      "https://pennfishing.com.au/penn-fierce-v/"
     ],
     "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
     "manufacturer_product_number": "1653910",
     "ipt_verification_status": "verified",
-    "ipt_original_value": 91,
-    "ipt_original_unit": "cm/turn",
-    "ipt_source_name": "Exact-model dealer specification supplement",
-    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_original_value": 36,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "PENN 2026 North America catalog, printed page 58",
+    "ipt_source_url": "https://publuu.com/flip-book/164752/2555201/page/64",
     "ipt_date_checked": "2026-10-12",
-    "ipt_confidence": "medium",
+    "ipt_confidence": "high",
     "manufacturer_capacity_ratings": [
       {
         "id": "diam-d7af894e26ee9ac4d10485a5",
@@ -136283,7 +136285,24 @@
         "source_url": "https://pennfishing.com.au/penn-fierce-v/"
       }
     ],
-    "spec_review_notes": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable."
+    "spec_review_notes": "U.S. weight and retrieve verified in PENN's 2026 North America catalog, printed page 58. Use the North American specification for this U.S.-source record. PENN Australia lists 557 g for the same numeric SKU; the reason for that manufacturer discrepancy remains unresolved. Earlier dealer evidence is preserved in the research audit.",
+    "weight_verification_status": "verified",
+    "weight_source_name": "PENN 2026 North America catalog, printed page 58",
+    "weight_source_url": "https://publuu.com/flip-book/164752/2555201/page/64",
+    "weight_date_checked": "2026-10-12",
+    "spec_conflicts": [
+      {
+        "field": "weight_oz",
+        "status": "unresolved-regional-publication-difference",
+        "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+        "preferred_original_value": 18.5,
+        "preferred_original_unit": "oz",
+        "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+        "other_original_value": 557,
+        "other_original_unit": "g",
+        "decision": "Use the exact-model North American manufacturer catalog for the U.S.-source record; do not claim the Australian value is a typo."
+      }
+    ]
   },
   {
     "id": "penn-fierce-v-6000-frcv6000",
@@ -136317,8 +136336,8 @@
     "data_warnings": [],
     "gear_ratio": "5.6:1",
     "max_drag_lb": 25,
-    "weight_oz": null,
-    "line_retrieve_in": 40.9,
+    "weight_oz": 20,
+    "line_retrieve_in": 41,
     "bearings": "4+1",
     "reelcalc_recommended_braid": "30-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "15-25 lb mono/fluoro",
@@ -136328,17 +136347,19 @@
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [
       "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
-      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+      "https://publuu.com/flip-book/164752/2555201/page/64",
+      "https://pennfishing.com.au/penn-fierce-v/"
     ],
     "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
     "manufacturer_product_number": "1653912",
     "ipt_verification_status": "verified",
-    "ipt_original_value": 104,
-    "ipt_original_unit": "cm/turn",
-    "ipt_source_name": "Exact-model dealer specification supplement",
-    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_original_value": 41,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "PENN 2026 North America catalog, printed page 58",
+    "ipt_source_url": "https://publuu.com/flip-book/164752/2555201/page/64",
     "ipt_date_checked": "2026-10-12",
-    "ipt_confidence": "medium",
+    "ipt_confidence": "high",
     "manufacturer_capacity_ratings": [
       {
         "id": "diam-9f1d71d00d740d8fae7c8d94",
@@ -136479,7 +136500,24 @@
         "source_url": "https://pennfishing.com.au/penn-fierce-v/"
       }
     ],
-    "spec_review_notes": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable."
+    "spec_review_notes": "U.S. weight and retrieve verified in PENN's 2026 North America catalog, printed page 58. Use the North American specification for this U.S.-source record. PENN Australia lists 606 g for the same numeric SKU; the reason for that manufacturer discrepancy remains unresolved. Earlier dealer evidence is preserved in the research audit.",
+    "weight_verification_status": "verified",
+    "weight_source_name": "PENN 2026 North America catalog, printed page 58",
+    "weight_source_url": "https://publuu.com/flip-book/164752/2555201/page/64",
+    "weight_date_checked": "2026-10-12",
+    "spec_conflicts": [
+      {
+        "field": "weight_oz",
+        "status": "unresolved-regional-publication-difference",
+        "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+        "preferred_original_value": 20,
+        "preferred_original_unit": "oz",
+        "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+        "other_original_value": 606,
+        "other_original_unit": "g",
+        "decision": "Use the exact-model North American manufacturer catalog for the U.S.-source record; do not claim the Australian value is a typo."
+      }
+    ]
   },
   {
     "id": "penn-fierce-v-8000-frcv8000",
@@ -136513,8 +136551,8 @@
     "data_warnings": [],
     "gear_ratio": "5.3:1",
     "max_drag_lb": 30,
-    "weight_oz": null,
-    "line_retrieve_in": 44.1,
+    "weight_oz": 27.1,
+    "line_retrieve_in": 44,
     "bearings": "4+1",
     "reelcalc_recommended_braid": "40-65 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-30 lb mono/fluoro",
@@ -136525,17 +136563,19 @@
     "spec_verification_sources": [
       "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
       "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
-      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332"
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332",
+      "https://publuu.com/flip-book/164752/2555201/page/64",
+      "https://pennfishing.com.au/penn-fierce-v/"
     ],
     "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
     "manufacturer_product_number": "1653914",
     "ipt_verification_status": "verified",
-    "ipt_original_value": 112,
-    "ipt_original_unit": "cm/turn",
-    "ipt_source_name": "Exact-model dealer specification supplement",
-    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_original_value": 44,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "PENN 2026 North America catalog, printed page 58",
+    "ipt_source_url": "https://publuu.com/flip-book/164752/2555201/page/64",
     "ipt_date_checked": "2026-10-12",
-    "ipt_confidence": "medium",
+    "ipt_confidence": "high",
     "manufacturer_capacity_ratings": [
       {
         "id": "diam-dd2c8796098c98f70b889ea6",
@@ -136676,7 +136716,33 @@
         "source_url": "https://pennfishing.com.au/penn-fierce-v/"
       }
     ],
-    "spec_review_notes": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable."
+    "spec_review_notes": "U.S. weight and retrieve verified in PENN's 2026 North America catalog, printed page 58. Use the North American specification for this U.S.-source record. PENN Australia lists 815 g for the same numeric SKU; the reason for that manufacturer discrepancy remains unresolved. Earlier dealer evidence is preserved in the research audit.",
+    "weight_verification_status": "verified",
+    "weight_source_name": "PENN 2026 North America catalog, printed page 58",
+    "weight_source_url": "https://publuu.com/flip-book/164752/2555201/page/64",
+    "weight_date_checked": "2026-10-12",
+    "spec_conflicts": [
+      {
+        "field": "weight_oz",
+        "status": "unresolved-regional-publication-difference",
+        "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+        "preferred_original_value": 27.1,
+        "preferred_original_unit": "oz",
+        "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+        "other_original_value": 815,
+        "other_original_unit": "g",
+        "decision": "Use the exact-model North American manufacturer catalog for the U.S.-source record; do not claim the Australian value is a typo."
+      },
+      {
+        "field": "braid_capacity_note",
+        "status": "unresolved-regional-publication-difference",
+        "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+        "preferred_original_value": "390 yd / 65 lb",
+        "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+        "other_original_value": "390 yd / 60 lb",
+        "decision": "Retain the existing U.S. 65 lb / 390 yd rating, corroborated by the U.S. catalog and product page."
+      }
+    ]
   },
   {
     "id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
@@ -138216,7 +138282,7 @@
     "reelcalc_recommended_braid": "10-15 lb braid",
     "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
     "reelcalc_use_case": "general freshwater lure and bait fishing",
-    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unconfirmed. The owner approved a capacity guide with those three missing specifications clearly labeled on October 12, 2026; numeric fields remain null.",
     "search_text": "shakespeare tiger spinning 30 tigrsp30 general freshwater lure and bait fishing",
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [
@@ -138348,7 +138414,7 @@
     "reelcalc_recommended_braid": "15-20 lb braid",
     "reelcalc_recommended_mono_fluoro": "8-12 lb mono/fluoro",
     "reelcalc_use_case": "general freshwater lure and bait fishing",
-    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unconfirmed. The owner approved a capacity guide with those three missing specifications clearly labeled on October 12, 2026; numeric fields remain null.",
     "search_text": "shakespeare tiger spinning 40 tigrsp40 general freshwater lure and bait fishing",
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [
@@ -138480,7 +138546,7 @@
     "reelcalc_recommended_braid": "20-30 lb braid",
     "reelcalc_recommended_mono_fluoro": "12-17 lb mono/fluoro",
     "reelcalc_use_case": "heavier bait fishing",
-    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unconfirmed. The owner approved a capacity guide with those three missing specifications clearly labeled on October 12, 2026; numeric fields remain null.",
     "search_text": "shakespeare tiger spinning 50 tigrsp50 heavier bait fishing",
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [
@@ -138612,7 +138678,7 @@
     "reelcalc_recommended_braid": "30-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "14-20 lb mono/fluoro",
     "reelcalc_use_case": "heavier bait fishing",
-    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unconfirmed. The owner approved a capacity guide with those three missing specifications clearly labeled on October 12, 2026; numeric fields remain null.",
     "search_text": "shakespeare tiger spinning 60 tigrsp60 heavier bait fishing",
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [
@@ -138744,7 +138810,7 @@
     "reelcalc_recommended_braid": "30-50 lb braid",
     "reelcalc_recommended_mono_fluoro": "20-30 lb mono/fluoro",
     "reelcalc_use_case": "heavier bait fishing",
-    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unconfirmed. The owner approved a capacity guide with those three missing specifications clearly labeled on October 12, 2026; numeric fields remain null.",
     "search_text": "shakespeare tiger spinning 80 tigrsp80 heavier bait fishing",
     "spec_date_checked": "2026-10-12",
     "spec_verification_sources": [

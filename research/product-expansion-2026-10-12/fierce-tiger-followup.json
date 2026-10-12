@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-10-12T19:14:11.409Z",
+  "baselineCommit": "2156908209a7af9931c25d1c19384544abec1d80",
+  "catalog": "https://publuu.com/flip-book/164752/2555201/page/64",
+  "catalogImage": "https://d1uiew9hysv4w7.cloudfront.net/164752/2555201/svg/2555201_65.svg",
+  "catalogPrintedPage": 58,
+  "catalogViewerPage": 65,
+  "sourceCache": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://d1uiew9hysv4w7.cloudfront.net/164752/2555201/svg/2555201_65.svg",
+    "file": "research/product-expansion-2026-10-12/sources/30ccb628e6806397.txt",
+    "checkedAt": "2026-10-12T18:50:25.442Z",
+    "sha256": "dfab4ba9a09a29adc1f6c8c6d5ecd03179c07585c413237da7fa658268cc0dbe"
+  },
+  "updates": [
+    {
+      "id": "penn-fierce-v-5000-frcv5000",
+      "sku": "FRCV5000",
+      "numericSku": "1653910",
+      "weight_oz": 18.5,
+      "line_retrieve_in": 36,
+      "previousSpecReview": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable.",
+      "previousRetrieve": {
+        "value": 35.8,
+        "originalValue": 91,
+        "originalUnit": "cm/turn",
+        "source": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+      },
+      "conflicts": [
+        {
+          "field": "weight_oz",
+          "status": "unresolved-regional-publication-difference",
+          "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+          "preferred_original_value": 18.5,
+          "preferred_original_unit": "oz",
+          "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+          "other_original_value": 557,
+          "other_original_unit": "g",
+          "decision": "Use the exact-model North American manufacturer catalog for the U.S.-source record; do not claim the Australian value is a typo."
+        }
+      ]
+    },
+    {
+      "id": "penn-fierce-v-6000-frcv6000",
+      "sku": "FRCV6000",
+      "numericSku": "1653912",
+      "weight_oz": 20,
+      "line_retrieve_in": 41,
+      "previousSpecReview": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable.",
+      "previousRetrieve": {
+        "value": 40.9,
+        "originalValue": 104,
+        "originalUnit": "cm/turn",
+        "source": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+      },
+      "conflicts": [
+        {
+          "field": "weight_oz",
+          "status": "unresolved-regional-publication-difference",
+          "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+          "preferred_original_value": 20,
+          "preferred_original_unit": "oz",
+          "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+          "other_original_value": 606,
+          "other_original_unit": "g",
+          "decision": "Use the exact-model North American manufacturer catalog for the U.S.-source record; do not claim the Australian value is a typo."
+        }
+      ]
+    },
+    {
+      "id": "penn-fierce-v-8000-frcv8000",
+      "sku": "FRCV8000",
+      "numericSku": "1653914",
+      "weight_oz": 27.1,
+      "line_retrieve_in": 44,
+      "previousSpecReview": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable.",
+      "previousRetrieve": {
+        "value": 44.1,
+        "originalValue": 112,
+        "originalUnit": "cm/turn",
+        "source": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+      },
+      "conflicts": [
+        {
+          "field": "weight_oz",
+          "status": "unresolved-regional-publication-difference",
+          "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+          "preferred_original_value": 27.1,
+          "preferred_original_unit": "oz",
+          "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+          "other_original_value": 815,
+          "other_original_unit": "g",
+          "decision": "Use the exact-model North American manufacturer catalog for the U.S.-source record; do not claim the Australian value is a typo."
+        },
+        {
+          "field": "braid_capacity_note",
+          "status": "unresolved-regional-publication-difference",
+          "preferred_source": "https://publuu.com/flip-book/164752/2555201/page/64",
+          "preferred_original_value": "390 yd / 65 lb",
+          "other_source": "https://pennfishing.com.au/penn-fierce-v/",
+          "other_original_value": "390 yd / 60 lb",
+          "decision": "Retain the existing U.S. 65 lb / 390 yd rating, corroborated by the U.S. catalog and product page."
+        }
+      ]
+    }
+  ],
+  "tiger": {
+    "status": "capacity-guides-with-approved-disclosures",
+    "models": [
+      "shakespeare-tiger-spinning-30-tigrsp30",
+      "shakespeare-tiger-spinning-40-tigrsp40",
+      "shakespeare-tiger-spinning-50-tigrsp50",
+      "shakespeare-tiger-spinning-60-tigrsp60",
+      "shakespeare-tiger-spinning-80-tigrsp80"
+    ],
+    "newVerifiedFields": 0,
+    "ownerApproval": "Finish useful guides with missing specs clearly labeled",
+    "previousNotes": [
+      {
+        "id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification."
+      },
+      {
+        "id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification."
+      },
+      {
+        "id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification."
+      },
+      {
+        "id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification."
+      },
+      {
+        "id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification."
+      }
+    ],
+    "reason": "Manufacturer product pages and catalog omit verified net reel weight, max drag and line retrieve. Commerce shipping-weight fields are not accepted as net reel weight.",
+    "sources": [
+      "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+      "https://publuu.com/flip-book/164752/2514736/page/46"
+    ],
+    "previousAudit": "research/product-expansion-2026-10-12/agent-tiger.json"
+  }
+}

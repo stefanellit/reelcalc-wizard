@@ -115,8 +115,10 @@ export function generateReelPage(query, options = {}) {
   }
 
   const reel = normalizeReel(resolution.reel);
-  const problems = requiredDataProblems(reel);
   const page = registry.pages.find((item) => item.reelId === reel.id);
+  // Only approved page-level disclosures can waive the three non-capacity specs.
+  reel.unavailableSpecs = page?.unavailableSpecs || {};
+  const problems = requiredDataProblems(reel, reel.unavailableSpecs);
   if (!page) problems.push("registered existing or approved page URL");
   if (page && (!page.imageUrl || !page.imageAlt)) problems.push("verified product image and alt text");
   const affiliateOffer = resolvePreferredReelOffer(affiliates, reel.id);

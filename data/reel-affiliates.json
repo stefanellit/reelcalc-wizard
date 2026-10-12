@@ -14770,6 +14770,102 @@
           }
         }
       }
+    },
+    "penn-fierce-v-5000-frcv5000": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=PENN+Fierce+V+5000+FRCV5000&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "PENN Fierce V 5000 FRCV5000"
+          }
+        }
+      }
+    },
+    "penn-fierce-v-6000-frcv6000": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=PENN+Fierce+V+6000+FRCV6000&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "PENN Fierce V 6000 FRCV6000"
+          }
+        }
+      }
+    },
+    "penn-fierce-v-8000-frcv8000": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=PENN+Fierce+V+8000+FRCV8000&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "PENN Fierce V 8000 FRCV8000"
+          }
+        }
+      }
+    },
+    "shakespeare-tiger-spinning-30-tigrsp30": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shakespeare+Tiger+Spinning+30+TIGRSP30&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shakespeare Tiger Spinning 30 TIGRSP30"
+          }
+        }
+      }
+    },
+    "shakespeare-tiger-spinning-40-tigrsp40": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shakespeare+Tiger+Spinning+40+TIGRSP40&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shakespeare Tiger Spinning 40 TIGRSP40"
+          }
+        }
+      }
+    },
+    "shakespeare-tiger-spinning-50-tigrsp50": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shakespeare+Tiger+Spinning+50+TIGRSP50&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shakespeare Tiger Spinning 50 TIGRSP50"
+          }
+        }
+      }
+    },
+    "shakespeare-tiger-spinning-60-tigrsp60": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shakespeare+Tiger+Spinning+60+TIGRSP60&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shakespeare Tiger Spinning 60 TIGRSP60"
+          }
+        }
+      }
+    },
+    "shakespeare-tiger-spinning-80-tigrsp80": {
+      "offers": {
+        "amazon": {
+          "reel": {
+            "url": "https://www.amazon.com/s?k=Shakespeare+Tiger+Spinning+80+TIGRSP80&tag=reelcalc-20",
+            "matchType": "search",
+            "verifiedExact": false,
+            "searchQuery": "Shakespeare Tiger Spinning 80 TIGRSP80"
+          }
+        }
+      }
     }
   },
   "lines": {},

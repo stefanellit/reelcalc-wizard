@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "pages": {
     "bass-pro-shops-micro-lite-elite-spinning-reel-5": {
       "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -129573,6 +129573,974 @@
         ],
         "monoText": "8 lb / 205 yards",
         "braidText": "10 lb / 300 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-5000": {
+      "reelId": "penn-fierce-v-5000-frcv5000",
+      "pageTitle": "PENN Fierce V 5000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 5000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 5000 (FRCV5000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-5000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-5000-frcv5000.jpg",
+      "imageAlt": "PENN Fierce V 5000, manufacturer product photograph",
+      "intro": "For heavier inshore bait fishing or a surf setup, the Fierce V 5000 starts with a published 15 lb / 200-yard mono capacity. PENN also lists 0.36 mm / 205 m for mono, giving you a way to compare the thickness of your actual line. Its HT-100 carbon fiber drag washers are part of the saltwater-focused design. Use the reel-specific calculator below for a full spool or a shorter main line with optional backing.",
+      "introVariant": "inshore-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Daiwa BG 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-5000",
+          "reelId": "daiwa-bg-5000-bg5000-189"
+        },
+        {
+          "label": "KastKing Centron Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-5000",
+          "reelId": "kastking-centron-spinning-5000-52-295"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-5000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-5000-fgb5000-72"
+        },
+        {
+          "label": "PENN Fierce V 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-4000",
+          "reelId": "penn-fierce-v-4000-frcv4000"
+        },
+        {
+          "label": "PENN Fierce V 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-3000",
+          "reelId": "penn-fierce-v-3000-frcv3000"
+        },
+        {
+          "label": "PENN Fierce V 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-2500",
+          "reelId": "penn-fierce-v-2500-frcv2500"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier inshore bait fishing and surf fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 15-25 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "30 lb braid over monofilament backing with a 15-25 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "heavier inshore bait fishing and surf fishing",
+            "setup": "30 lb braid with a 15-25 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "15-25 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "Weight (18.5 oz) and retrieve (36 inches per turn) follow PENN's 2026 North America catalog for FRCV5000. PENN Australia publishes a different weight for the same product number, so we have kept the U.S. figure here rather than treating the two as interchangeable. Maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 15,
+            "yards": 200,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "200 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 300,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "300 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "185 m (about 202 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "275 m (about 301 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "205 m (about 224 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "125 m (about 137 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "385 m (about 421 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "220 m (about 241 yd)"
+          }
+        ],
+        "monoText": "15 lb / 200 yards",
+        "braidText": "30 lb / 300 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-6000": {
+      "reelId": "penn-fierce-v-6000-frcv6000",
+      "pageTitle": "PENN Fierce V 6000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 6000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 6000 (FRCV6000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-6000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-6000-frcv6000.jpg",
+      "imageAlt": "PENN Fierce V 6000, manufacturer product photograph",
+      "intro": "The Fierce V 6000 gives you more line in reserve than the 5000, with published ratings of 20 lb / 230 yards for mono and 40 lb / 390 yards for braid. For surf or heavier inshore bait fishing, that makes line choice worth planning before you spool up. It uses HT-100 carbon fiber drag washers. Choose your line in the preloaded calculator to work out a full fill or leave room for backing.",
+      "introVariant": "surf-angler-t2-choice3",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Abu Garcia Max X Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-6000",
+          "reelId": "abu-garcia-max-x-spinning-6000-maxxsp6000-6"
+        },
+        {
+          "label": "Daiwa BG MQ 6000D-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-mq-6000d-h",
+          "reelId": "daiwa-bg-mq-6000d-h-bgmq6000d-h-196"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-6000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-6000-39-282"
+        },
+        {
+          "label": "PENN Fierce V 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-4000",
+          "reelId": "penn-fierce-v-4000-frcv4000"
+        },
+        {
+          "label": "PENN Fierce V 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-3000",
+          "reelId": "penn-fierce-v-3000-frcv3000"
+        },
+        {
+          "label": "PENN Fierce V 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-2500",
+          "reelId": "penn-fierce-v-2500-frcv2500"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 300,
+        "backingLb": 20,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.018,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier inshore bait fishing and surf fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 15-25 lb mono ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "30 lb braid over monofilament backing is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "heavier inshore bait fishing and surf fishing",
+            "setup": "30 lb braid"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "15-25 lb mono"
+          }
+        ],
+        "specsIntro": "Weight (20 oz) and retrieve (41 inches per turn) follow PENN's 2026 North America catalog for FRCV6000. PENN Australia publishes a different weight for the same product number, so we have kept the U.S. figure here rather than treating the two as interchangeable. Maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 230,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "230 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 40,
+            "yards": 390,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "390 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "210 m (about 230 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "355 m (about 388 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "305 m (about 334 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.48 mm",
+            "capacityLabel": "190 m (about 208 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "450 m (about 492 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "305 m (about 334 yd)"
+          }
+        ],
+        "monoText": "20 lb / 230 yards",
+        "braidText": "40 lb / 390 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-8000": {
+      "reelId": "penn-fierce-v-8000-frcv8000",
+      "pageTitle": "PENN Fierce V 8000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 8000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 8000 (FRCV8000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-8000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-8000-frcv8000.jpg",
+      "imageAlt": "PENN Fierce V 8000, manufacturer product photograph",
+      "intro": "If your surf setup calls for heavier line and plenty in reserve, the Fierce V 8000 has a published 25 lb / 310-yard mono rating. Its 5.3:1 gearing is slower than the 5000 and 6000, while the larger spool still retrieves a listed 44 inches per turn at the rated fill level. PENN fits HT-100 carbon fiber drag washers. The calculator below is set to this exact reel, with both full-spool and optional-backing setups available.",
+      "introVariant": "surf-angler-t2-choice1",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Daiwa BG 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-8000",
+          "reelId": "daiwa-bg-8000-bg8000-191"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-8000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-8000-40-283"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-8000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-8000-fgb8000-75"
+        },
+        {
+          "label": "PENN Fierce V 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-4000",
+          "reelId": "penn-fierce-v-4000-frcv4000"
+        },
+        {
+          "label": "PENN Fierce V 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-3000",
+          "reelId": "penn-fierce-v-3000-frcv3000"
+        },
+        {
+          "label": "PENN Fierce V 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-fierce-v-2500",
+          "reelId": "penn-fierce-v-2500-frcv2500"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 300,
+        "backingLb": 25,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.02,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier inshore bait fishing and surf fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 40-65 lb braid and 20-30 lb mono ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "40 lb braid over monofilament backing is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "heavier inshore bait fishing and surf fishing",
+            "setup": "40 lb braid"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "20-30 lb mono"
+          }
+        ],
+        "specsIntro": "Weight (27.1 oz) and retrieve (44 inches per turn) follow PENN's 2026 North America catalog for FRCV8000. PENN Australia publishes a different weight for the same product number, so we have kept the U.S. figure here rather than treating the two as interchangeable. Maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "Start with 40-65 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 25,
+            "yards": 310,
+            "ratingLabel": "25 lb",
+            "capacityLabel": "310 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 65,
+            "yards": 390,
+            "ratingLabel": "65 lb",
+            "capacityLabel": "390 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.48 mm",
+            "capacityLabel": "285 m (about 312 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "355 m (about 388 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "310 m (about 339 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.56 mm",
+            "capacityLabel": "210 m (about 230 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "435 m (about 476 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.48 mm",
+            "capacityLabel": "315 m (about 344 yd)"
+          }
+        ],
+        "monoText": "25 lb / 310 yards",
+        "braidText": "65 lb / 390 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "shakespeare-tiger-spinning-30": {
+      "reelId": "shakespeare-tiger-spinning-30-tigrsp30",
+      "pageTitle": "Shakespeare Tiger Spinning 30 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shakespeare Tiger Spinning 30 Line Capacity | ReelCalc",
+      "metaDescription": "Shakespeare Tiger Spinning 30 (TIGRSP30) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/shakespeare-tiger-spinning-30",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645661_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 30, manufacturer product photograph",
+      "intro": "The Tiger 30 is the lighter-line option in this group, with published mono ratings from 4 to 8 lb. If you are matching it to a light freshwater rod, those ratings are a useful place to start. Stren clear monofilament comes pre-spooled on the reel. The calculator is set to TIGRSP30 for a full refill or a shorter working line over optional backing.",
+      "introVariant": "freshwater-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Stren clear monofilament"
+      ],
+      "introEvidenceSource": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "introEvidenceKey": "Shakespeare|Tiger Spinning",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "Daiwa BG 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-3000",
+          "reelId": "daiwa-bg-3000-bg3000-185"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-3000",
+          "reelId": "abu-garcia-max-sx-spinning-3000-maxsxsp3000-10"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-3000",
+          "reelId": "abu-garcia-max-x-spinning-3000-maxxsp3000-4"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For general freshwater lure and bait fishing, match the line to your rod, presentation and cover. 4-8 lb mono/fluoro is ReelCalc's starting range for a straight-line setup. The suggested 10-15 lb braid range is an alternative, not a published Shakespeare braid rating or a statement about maximum drag.",
+        "setupIntro": "The reel comes with Stren clear mono. When replacing it, 4-8 lb mono/fluoro is a starting range to consider alongside your rod rating. You can fill with main line or use optional backing. For braid, secure the base against slipping and watch the actual fill level because Shakespeare does not publish a braid capacity for this model.",
+        "setupRows": [
+          {
+            "use": "general freshwater lure and bait fishing",
+            "setup": "10 lb braid with a 4-8 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "4-8 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "Shakespeare publishes this model's gear ratio, bearing count and mono capacities. We could not confirm its net weight, maximum drag or line retrieve from the manufacturer sources checked. Those fields stay labeled below; no values have been guessed. Without a verified retrieve rate, the calculator does not preload a handle-turn estimate.",
+        "faqBraid": "ReelCalc suggests 10-15 lb braid as a starting range, subject to your rod and fishing conditions. Shakespeare does not publish a braid capacity for TIGRSP30, so the calculator uses its existing mono-based fallback rather than a verified braid rating. Backing is optional, but braid must be secured against slipping on the spool.",
+        "capacityIntro": "These are Shakespeare's published mono ratings, including exact-model millimeter capacities. No manufacturer braid capacity was found. If you select braid, ReelCalc uses its existing mono-based fallback and labels the estimate accordingly; it is not a factory braid rating.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 190,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 140,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "140 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 110,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "110 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.2 mm",
+            "capacityLabel": "175 m (about 191 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.23 mm",
+            "capacityLabel": "130 m (about 142 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.25 mm",
+            "capacityLabel": "100 m (about 109 yd)"
+          }
+        ],
+        "monoText": "4 lb / 190 yards, 6 lb / 140 yards, 8 lb / 110 yards",
+        "braidText": "",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "shakespeare-tiger-spinning-40": {
+      "reelId": "shakespeare-tiger-spinning-40-tigrsp40",
+      "pageTitle": "Shakespeare Tiger Spinning 40 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shakespeare Tiger Spinning 40 Line Capacity | ReelCalc",
+      "metaDescription": "Shakespeare Tiger Spinning 40 (TIGRSP40) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/shakespeare-tiger-spinning-40",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645662_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 40, manufacturer product photograph",
+      "intro": "For a general freshwater setup, the Tiger 40 gives you a published 10 lb / 210-yard mono reference, with 8 and 12 lb alternatives also listed. Choose the line to suit the rod and cover rather than filling it with the heaviest option. Stren clear monofilament comes pre-spooled on the reel. Use the exact-reel calculator below to compare a full spool with an optional-backing setup.",
+      "introVariant": "freshwater-angler-t2-choice1",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Stren clear monofilament"
+      ],
+      "introEvidenceSource": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "introEvidenceKey": "Shakespeare|Tiger Spinning",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 4000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-4000h",
+          "reelId": "abu-garcia-max-elite-spinning-4000h-maxelitesp4000h-20"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 40 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-40",
+          "reelId": "bass-pro-shops-formula-spinning-reel-40-fma40-50"
+        },
+        {
+          "label": "Daiwa BG 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-4000",
+          "reelId": "daiwa-bg-4000-bg4000-187"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 4000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-4000h",
+          "reelId": "abu-garcia-max-pro-spinning-4000h-maxprosp4000h-16"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-4000",
+          "reelId": "abu-garcia-max-sx-spinning-4000-maxsxsp4000-11"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-4000",
+          "reelId": "abu-garcia-max-x-spinning-4000-maxxsp4000-5"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For general freshwater lure and bait fishing, match the line to your rod, presentation and cover. 8-12 lb mono/fluoro is ReelCalc's starting range for a straight-line setup. The suggested 15-20 lb braid range is an alternative, not a published Shakespeare braid rating or a statement about maximum drag.",
+        "setupIntro": "The reel comes with Stren clear mono. When replacing it, 8-12 lb mono/fluoro is a starting range to consider alongside your rod rating. You can fill with main line or use optional backing. For braid, secure the base against slipping and watch the actual fill level because Shakespeare does not publish a braid capacity for this model.",
+        "setupRows": [
+          {
+            "use": "general freshwater lure and bait fishing",
+            "setup": "15 lb braid with an 8-12 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "8-12 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "Shakespeare publishes this model's gear ratio, bearing count and mono capacities. We could not confirm its net weight, maximum drag or line retrieve from the manufacturer sources checked. Those fields stay labeled below; no values have been guessed. Without a verified retrieve rate, the calculator does not preload a handle-turn estimate.",
+        "faqBraid": "ReelCalc suggests 15-20 lb braid as a starting range, subject to your rod and fishing conditions. Shakespeare does not publish a braid capacity for TIGRSP40, so the calculator uses its existing mono-based fallback rather than a verified braid rating. Backing is optional, but braid must be secured against slipping on the spool.",
+        "capacityIntro": "These are Shakespeare's published mono ratings, including exact-model millimeter capacities. No manufacturer braid capacity was found. If you select braid, ReelCalc uses its existing mono-based fallback and labels the estimate accordingly; it is not a factory braid rating.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 240,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "240 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 210,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 175,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "175 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.25 mm",
+            "capacityLabel": "220 m (about 241 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.28 mm",
+            "capacityLabel": "190 m (about 208 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.33 mm",
+            "capacityLabel": "160 m (about 175 yd)"
+          }
+        ],
+        "monoText": "8 lb / 240 yards, 10 lb / 210 yards, 12 lb / 175 yards",
+        "braidText": "",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "shakespeare-tiger-spinning-50": {
+      "reelId": "shakespeare-tiger-spinning-50-tigrsp50",
+      "pageTitle": "Shakespeare Tiger Spinning 50 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shakespeare Tiger Spinning 50 Line Capacity | ReelCalc",
+      "metaDescription": "Shakespeare Tiger Spinning 50 (TIGRSP50) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/shakespeare-tiger-spinning-50",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645663_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 50, manufacturer product photograph",
+      "intro": "The Tiger 50 steps up to published mono ratings of 12, 14 and 17 lb. For bait fishing, think about how much line you need beyond the distance to your bait, then check the actual diameter before buying a replacement spool. Stren clear monofilament comes pre-spooled on the reel. Choose your line below to estimate a full fill, or work out backing beneath a shorter main line.",
+      "introVariant": "large-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Stren clear monofilament"
+      ],
+      "introEvidenceSource": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "introEvidenceKey": "Shakespeare|Tiger Spinning",
+      "related": [
+        {
+          "label": "Daiwa BG 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-5000",
+          "reelId": "daiwa-bg-5000-bg5000-189"
+        },
+        {
+          "label": "KastKing Centron Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-5000",
+          "reelId": "kastking-centron-spinning-5000-52-295"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-5000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-5000-fgb5000-72"
+        },
+        {
+          "label": "Daiwa BG SW 2026 5000-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-sw-2026-5000",
+          "reelId": "daiwa-bg-sw-2026-5000-h-bgsw5000-h"
+        },
+        {
+          "label": "Daiwa Crossfire LT 5000-C Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-crossfire-lt-5000-c",
+          "reelId": "daiwa-crossfire-lt-5000-c-crflt5000-c-94"
+        },
+        {
+          "label": "Daiwa Eliminator Spinning Reel 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-eliminator-spinning-reel-5000",
+          "reelId": "daiwa-eliminator-spinning-reel-5000-elt5000-216"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 20,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.009,
+        "mainLineYards": 150,
+        "backingLb": 10,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.012,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier bait fishing, match the line to your rod, presentation and cover. 12-17 lb mono/fluoro is ReelCalc's starting range for a straight-line setup. The suggested 20-30 lb braid range is an alternative, not a published Shakespeare braid rating or a statement about maximum drag.",
+        "setupIntro": "The reel comes with Stren clear mono. When replacing it, 12-17 lb mono/fluoro is a starting range to consider alongside your rod rating. You can fill with main line or use optional backing. For braid, secure the base against slipping and watch the actual fill level because Shakespeare does not publish a braid capacity for this model.",
+        "setupRows": [
+          {
+            "use": "heavier bait fishing",
+            "setup": "20 lb braid with a 12-17 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-17 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "Shakespeare publishes this model's gear ratio, bearing count and mono capacities. We could not confirm its net weight, maximum drag or line retrieve from the manufacturer sources checked. Those fields stay labeled below; no values have been guessed. Without a verified retrieve rate, the calculator does not preload a handle-turn estimate.",
+        "faqBraid": "ReelCalc suggests 20-30 lb braid as a starting range, subject to your rod and fishing conditions. Shakespeare does not publish a braid capacity for TIGRSP50, so the calculator uses its existing mono-based fallback rather than a verified braid rating. Backing is optional, but braid must be secured against slipping on the spool.",
+        "capacityIntro": "These are Shakespeare's published mono ratings, including exact-model millimeter capacities. No manufacturer braid capacity was found. If you select braid, ReelCalc uses its existing mono-based fallback and labels the estimate accordingly; it is not a factory braid rating.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 280,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 215,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "215 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 195,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "195 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.33 mm",
+            "capacityLabel": "255 m (about 279 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "195 m (about 213 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "180 m (about 197 yd)"
+          }
+        ],
+        "monoText": "12 lb / 280 yards, 14 lb / 215 yards, 17 lb / 195 yards",
+        "braidText": "",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "shakespeare-tiger-spinning-60": {
+      "reelId": "shakespeare-tiger-spinning-60-tigrsp60",
+      "pageTitle": "Shakespeare Tiger Spinning 60 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shakespeare Tiger Spinning 60 Line Capacity | ReelCalc",
+      "metaDescription": "Shakespeare Tiger Spinning 60 (TIGRSP60) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/shakespeare-tiger-spinning-60",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645664_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 60, manufacturer product photograph",
+      "intro": "With a published 17 lb / 220-yard mono reference, the Tiger 60 gives you room to plan a heavier bait-fishing setup. Its 5.1:1 ratio is the same as the 50, but the capacity table is specific to this larger size. Stren clear monofilament comes pre-spooled on the reel. The preloaded calculator lets you plan either a full spool of main line or a setup with backing underneath.",
+      "introVariant": "heavy-angler-t2-choice3",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Stren clear monofilament"
+      ],
+      "introEvidenceSource": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "introEvidenceKey": "Shakespeare|Tiger Spinning",
+      "related": [
+        {
+          "label": "Abu Garcia Max X Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-6000",
+          "reelId": "abu-garcia-max-x-spinning-6000-maxxsp6000-6"
+        },
+        {
+          "label": "Daiwa BG MQ 6000D-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-mq-6000d-h",
+          "reelId": "daiwa-bg-mq-6000d-h-bgmq6000d-h-196"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-6000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-6000-39-282"
+        },
+        {
+          "label": "Daiwa BG SW 2026 6000-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-sw-2026-6000",
+          "reelId": "daiwa-bg-sw-2026-6000-h-bgsw6000-h"
+        },
+        {
+          "label": "Daiwa Exceler LT 6000D Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-exceler-lt-6000d",
+          "reelId": "daiwa-exceler-lt-6000d-exelt6000d-128"
+        },
+        {
+          "label": "Daiwa Fuego LT 6000D Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-fuego-lt-6000",
+          "reelId": "daiwa-fuego-lt-6000d-feglt6000d-135"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 300,
+        "backingLb": 17,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.016,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier bait fishing, match the line to your rod, presentation and cover. 14-20 lb mono/fluoro is ReelCalc's starting range for a straight-line setup. The suggested 30-50 lb braid range is an alternative, not a published Shakespeare braid rating or a statement about maximum drag.",
+        "setupIntro": "The reel comes with Stren clear mono. When replacing it, 14-20 lb mono/fluoro is a starting range to consider alongside your rod rating. You can fill with main line or use optional backing. For braid, secure the base against slipping and watch the actual fill level because Shakespeare does not publish a braid capacity for this model.",
+        "setupRows": [
+          {
+            "use": "heavier bait fishing",
+            "setup": "30 lb braid"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "14-20 lb mono"
+          }
+        ],
+        "specsIntro": "Shakespeare publishes this model's gear ratio, bearing count and mono capacities. We could not confirm its net weight, maximum drag or line retrieve from the manufacturer sources checked. Those fields stay labeled below; no values have been guessed. Without a verified retrieve rate, the calculator does not preload a handle-turn estimate.",
+        "faqBraid": "ReelCalc suggests 30-50 lb braid as a starting range, subject to your rod and fishing conditions. Shakespeare does not publish a braid capacity for TIGRSP60, so the calculator uses its existing mono-based fallback rather than a verified braid rating. Backing is optional, but braid must be secured against slipping on the spool.",
+        "capacityIntro": "These are Shakespeare's published mono ratings, including exact-model millimeter capacities. No manufacturer braid capacity was found. If you select braid, ReelCalc uses its existing mono-based fallback and labels the estimate accordingly; it is not a factory braid rating.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 240,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "240 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 220,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 150,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "150 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "220 m (about 241 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "200 m (about 219 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "135 m (about 148 yd)"
+          }
+        ],
+        "monoText": "14 lb / 240 yards, 17 lb / 220 yards, 20 lb / 150 yards",
+        "braidText": "",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "shakespeare-tiger-spinning-80": {
+      "reelId": "shakespeare-tiger-spinning-80-tigrsp80",
+      "pageTitle": "Shakespeare Tiger Spinning 80 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shakespeare Tiger Spinning 80 Line Capacity | ReelCalc",
+      "metaDescription": "Shakespeare Tiger Spinning 80 (TIGRSP80) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/shakespeare-tiger-spinning-80",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645665_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 80, manufacturer product photograph",
+      "intro": "The Tiger 80 is the largest of these five spinning models, with a 25 lb / 290-yard mono reference and 4.4:1 gearing. The thicker line used for heavier bait fishing takes up more space, so check your chosen line against the diameter ratings below. Stren clear monofilament comes pre-spooled on the reel. Use this reel's calculator to plan your refill with or without backing.",
+      "introVariant": "heavy-angler-t2-choice1",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Stren clear monofilament"
+      ],
+      "introEvidenceSource": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "introEvidenceKey": "Shakespeare|Tiger Spinning",
+      "related": [
+        {
+          "label": "Daiwa BG 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-8000",
+          "reelId": "daiwa-bg-8000-bg8000-191"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-8000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-8000-40-283"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-8000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-8000-fgb8000-75"
+        },
+        {
+          "label": "Daiwa BG MQ 8000-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-mq-8000-h",
+          "reelId": "daiwa-bg-mq-8000-h-bgmq8000-h-197"
+        },
+        {
+          "label": "Daiwa BG SW 2026 8000-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-sw-2026-8000",
+          "reelId": "daiwa-bg-sw-2026-8000-h-bgsw8000-h"
+        },
+        {
+          "label": "Daiwa Eliminator Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-eliminator-spinning-reel-8000",
+          "reelId": "daiwa-eliminator-spinning-reel-8000-elt8000-218"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 300,
+        "backingLb": 25,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.02,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier bait fishing, match the line to your rod, presentation and cover. 20-30 lb mono/fluoro is ReelCalc's starting range for a straight-line setup. The suggested 30-50 lb braid range is an alternative, not a published Shakespeare braid rating or a statement about maximum drag.",
+        "setupIntro": "The reel comes with Stren clear mono. When replacing it, 20-30 lb mono/fluoro is a starting range to consider alongside your rod rating. You can fill with main line or use optional backing. For braid, secure the base against slipping and watch the actual fill level because Shakespeare does not publish a braid capacity for this model.",
+        "setupRows": [
+          {
+            "use": "heavier bait fishing",
+            "setup": "30 lb braid"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "20-30 lb mono"
+          }
+        ],
+        "specsIntro": "Shakespeare publishes this model's gear ratio, bearing count and mono capacities. We could not confirm its net weight, maximum drag or line retrieve from the manufacturer sources checked. Those fields stay labeled below; no values have been guessed. Without a verified retrieve rate, the calculator does not preload a handle-turn estimate.",
+        "faqBraid": "ReelCalc suggests 30-50 lb braid as a starting range, subject to your rod and fishing conditions. Shakespeare does not publish a braid capacity for TIGRSP80, so the calculator uses its existing mono-based fallback rather than a verified braid rating. Backing is optional, but braid must be secured against slipping on the spool.",
+        "capacityIntro": "These are Shakespeare's published mono ratings, including exact-model millimeter capacities. No manufacturer braid capacity was found. If you select braid, ReelCalc uses its existing mono-based fallback and labels the estimate accordingly; it is not a factory braid rating.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 350,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 25,
+            "yards": 290,
+            "ratingLabel": "25 lb",
+            "capacityLabel": "290 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 30,
+            "yards": 220,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "320 m (about 350 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.48 mm",
+            "capacityLabel": "270 m (about 295 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.56 mm",
+            "capacityLabel": "220 m (about 241 yd)"
+          }
+        ],
+        "monoText": "20 lb / 350 yards, 25 lb / 290 yards, 30 lb / 220 yards",
+        "braidText": "",
         "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
       }
     }

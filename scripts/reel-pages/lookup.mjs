@@ -128,7 +128,7 @@ export function normalizeReel(reel) {
   };
 }
 
-export function requiredDataProblems(reel) {
+export function requiredDataProblems(reel, unavailableSpecs = {}) {
   const checks = [
     ["id", reel.id],
     ["brand", reel.brand],
@@ -152,7 +152,10 @@ export function requiredDataProblems(reel) {
   ];
 
   const problems = checks
-    .filter(([, value]) => !value)
+    .filter(([field, value]) => !value && !(
+      ["line_retrieve_in", "weight_oz", "max_drag_lb"].includes(field) &&
+      typeof unavailableSpecs[field] === "string" && unavailableSpecs[field].trim()
+    ))
     .map(([field]) => field);
   if (reel.capacityStatus !== "ready") problems.push("capacity_status");
   if (reel.warnings.length) problems.push("data_warnings: " + reel.warnings.join("; "));

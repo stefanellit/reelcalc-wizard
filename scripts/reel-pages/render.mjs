@@ -189,7 +189,9 @@ export function buildIntro(reel, recommendation, featureProfile) {
 
   const approvedIntroTerms = (featureProfile?.terms || []).slice(0, 2);
   const verifiedFeatureSentence = featureSentence({ ...featureProfile, terms: approvedIntroTerms });
-  const verifiedSpecificationSentence = `It weighs ${reel.weightOz} oz, brings in ${reel.retrieveIn} inches of line with each handle turn, and has a listed maximum drag of ${reel.maxDragLb} lb.`;
+  const verifiedSpecificationSentence = Object.keys(reel.unavailableSpecs || {}).length
+    ? `Its published monofilament reference is ${reel.ratedLineLb} lb / ${reel.capacityYards} yards.`
+    : `It weighs ${reel.weightOz} oz, brings in ${reel.retrieveIn} inches of line with each handle turn, and has a listed maximum drag of ${reel.maxDragLb} lb.`;
   const marketSentence = /^(?:JP|JDM|Japan)$/i.test(String(reel.marketRegion || ""))
     ? `This page follows the exact Japanese-market ${reel.sku} specifications rather than a similarly named U.S. model.`
     : "";
@@ -286,12 +288,14 @@ export function buildPageModel({
       : heavyDuty
       ? `This reel makes the most sense for anglers fishing ${naturalList(recommendation.useCases)}. Its deep spool is designed around heavy line and substantial reserve, so ${recommendation.braidRange} over monofilament backing is usually more practical than filling the entire spool with premium braid. Anglers who prefer a straight-line setup can use the published ${recommendation.monoRange} range.`
       : `This reel makes the most sense for anglers fishing ${naturalList(recommendation.useCases)}. Its published capacity gives you room to choose between a simple ${recommendation.monoRange} setup or a thinner ${recommendation.braidRange} setup with a leader. That flexibility is useful when the same reel may see light presentations one day and stronger fish or mixed cover the next.`,
-    calculatorIntro: `This calculator is pre-loaded for the exact ${reel.displayName}. Choose the actual line you plan to spool and ReelCalc automatically uses the appropriate published mono or braid capacity. In backing mode, the suggested main-line amount adjusts when needed to leave practical room for backing. The ${reel.retrieveIn}-inch retrieve is also loaded for the handle-turn estimate.`,
+    calculatorIntro: `This calculator is pre-loaded for the exact ${reel.displayName}. Choose the actual line you plan to spool and ReelCalc automatically uses the appropriate published mono or braid capacity. In backing mode, the suggested main-line amount adjusts when needed to leave practical room for backing. ${reel.retrieveIn > 0 ? `The ${reel.retrieveIn}-inch retrieve is also loaded for the handle-turn estimate.` : 'A verified retrieve rate is not available, so no handle-turn estimate is preloaded.'}`,
     setupIntro: baitcaster
       ? `A practical starting point for the ${exactName} is ${recommendation.primarySetup}. A short mono base can prevent braid from slipping and can reduce how much premium line is needed, but this compact spool does not require a large backing layer. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.`
       : `A practical starting point for the ${exactName} is ${recommendation.primarySetup}. Backing lets you put the useful amount of working line on top without filling the entire spool with premium line. Since two lines with the same pound-test label can have different diameters, use the listed diameter of the exact line whenever it is available.`,
     capacityIntro,
-    specsIntro: baitcaster
+    specsIntro: Object.keys(reel.unavailableSpecs || {}).length
+      ? `Published specifications are shown below. Unconfirmed specifications are labeled rather than estimated; they are not needed for the line-capacity calculation.`
+      : baitcaster
       ? `The ${exactName} uses a ${gearRatio} gear ratio. ${baitcasterRetrieveGuidance(reel)} It weighs ${reel.weightOz} oz and has a published maximum drag of ${reel.maxDragLb} lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting.`
       : heavyDuty
       ? `The ${exactName} uses a ${gearRatio} gear ratio and retrieves ${reel.retrieveIn} inches per handle turn. It weighs ${reel.weightOz} oz and has a published maximum drag of ${reel.maxDragLb} lb, reflecting its focus on capacity and pulling power rather than light-tackle handling. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting.`
@@ -336,9 +340,9 @@ export function renderSquarespaceBlock(model, assetBase) {
     ["Reel size", reel.sizeLabel],
     ...(isBaitcaster(reel) ? [["Retrieve hand", reel.retrieveHand || "Not specified"]] : []),
     ["Gear ratio", formatGearRatio(reel.gearRatio)],
-    ["Line retrieve", `${reel.retrieveIn} inches per crank`],
-    ["Weight", `${reel.weightOz} oz`],
-    ["Maximum drag", `${reel.maxDragLb} lb`],
+    ["Line retrieve", reel.retrieveIn > 0 ? `${reel.retrieveIn} inches per crank` : reel.unavailableSpecs?.line_retrieve_in || "Not verified"],
+    ["Weight", reel.weightOz > 0 ? `${reel.weightOz} oz` : reel.unavailableSpecs?.weight_oz || "Not verified"],
+    ["Maximum drag", reel.maxDragLb > 0 ? `${reel.maxDragLb} lb` : reel.unavailableSpecs?.max_drag_lb || "Not verified"],
     ["Bearings", reel.bearings],
     ["Mono capacity", model.monoText],
     ["Braid capacity", model.braidText || "Not published in the trusted record"]
@@ -394,7 +398,7 @@ export function renderSquarespaceBlock(model, assetBase) {
 
   <section class="reelcalc-page-section" data-section="calculator">
     <div class="reelcalc-page-content">
-      <h2>Use the Pre-Loaded ${escapeHtml(isBaitcaster(reel) ? reel.displayName : `${reel.model} ${reel.sizeClass}`)} ReelCalc Calculator</h2>
+      <h2>Use the Pre-Loaded ${escapeHtml(model.calculatorHeading || (isBaitcaster(reel) ? reel.displayName : `${reel.model} ${reel.sizeClass}`))} ReelCalc Calculator</h2>
       <p>${escapeHtml(model.calculatorIntro)}</p>
       <div
         data-reelcalc-calculator
