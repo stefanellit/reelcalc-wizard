@@ -1,5 +1,5 @@
 {
-  "version": "21",
+  "version": 22,
   "products": [
     "powerpro-spectra",
     "seaguar-invizx",
@@ -120,7 +120,8 @@
     "spiderwire-ez-braid",
     "strike-king-contra-braid",
     "kastking-superpower-braid",
-    "kastking-destron-monofilament"
+    "kastking-destron-monofilament",
+    "fins-bfs-ultralight"
   ],
   "publishedProducts": [
     "powerpro-spectra",

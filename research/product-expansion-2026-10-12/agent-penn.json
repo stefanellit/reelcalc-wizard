@@ -1,0 +1,435 @@
+{
+  "scope": "Independent public-source research only. No production edits or publishing.",
+  "verified_date": "2026-10-12",
+  "status": "Capacity policy confirmed; standard-versus-Live-Liner identity confirmed; same-SKU weight conflicts unresolved.",
+  "decisions": {
+    "eu_mono_braid_mm_anchors_all_eight": "APPROVE. Exact FRCV model and numeric SKU match confirmed with official EU and US sources.",
+    "au_extra_mm_triples_5000_6000_8000": "APPROVE with AU field-level provenance. Numeric SKUs match and both mono and braid middle anchors exactly match EU.",
+    "au_extra_mm_triples_2500_3000_4000": "HOLD. Numeric SKUs differ. AU 2500 mono anchor is 175 m / 0.28 mm, whereas EU/US SKU 1653904 has EU 160 m / 0.28 mm.",
+    "dealer_listing_identity": "STANDARD FIERCE V, not Live Liner. Pecheur 401820 uses all eight standard numeric SKUs despite the word Live in its title.",
+    "dealer_ipt_cm": "Verified as published standard-model dealer specifications for all eight sizes, corroborated by other EU dealer listings. For 5000/6000/8000, official AU also gives 91/104/112 cm on identical numeric SKUs.",
+    "dealer_weights_1000_to_4000": "Dealer-supported standard-model figures; US dealer ounce figures agree after rounding. Do not describe these as manufacturer-verified net weights.",
+    "weights_5000_6000_8000": "HOLD an unqualified canonical net-weight assertion. Dealer 524/567/785 g conflicts with official AU 557/606/815 g for identical SKUs. No manufacturer correction or measurement was found.",
+    "publishing": "Not performed."
+  },
+  "sources": {
+    "eu_cached": {
+      "url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+      "cache": "extracted/cee1e6fbb833a5a9.json",
+      "evidence": "tables[0], variants, and product.variants joined by Shopify variant id; contains all eight numeric SKUs, FRCV models, and EU barcodes."
+    },
+    "eu_public": {
+      "url": "https://www.pennfishing.eu/products/fierce-v-spinning-reel-1656770",
+      "evidence": "Official standard series comparison table; all eight SKUs confirmed."
+    },
+    "us_cached": {
+      "url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "cache": "extracted/43285154ec6b6859.json",
+      "evidence": "Seven product variants (1000 through 6000), each with identical EU/US SKU, model, and barcode. This cache DOES NOT contain an 8000 variant."
+    },
+    "us_8000_recovered": {
+      "url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332",
+      "discovered_from": "https://www.pennfishing.com/collections/shop-all/products/fierce-v-spinning-reel-1656770",
+      "evidence": "Exact selected variant displays Model #: FRCV8000 and SKU: 1653914, plus mono 310/25 yd/lb and braid 390/65 yd/lb. Retrieved through public web tool during this verification."
+    },
+    "au": {
+      "url": "https://pennfishing.com.au/penn-fierce-v/",
+      "product_url": "https://pennfishing.com.au/product/penn-fierce-v/",
+      "cache": "extracted/1defc777e2f1a9d9.json",
+      "evidence": "tables[0] is the STANDARD table; tables[1] is Live Liner. Dedicated official standard product page separately reproduces all six standard rows and conflicting weights."
+    },
+    "pecheur": {
+      "url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+      "cache": "sources/35fd5d375165b930.txt",
+      "evidence": "HTML line 72 identifies eight standard SKUs; lines 2691-2697 label capacity, retrieve cm/tm, and weight g; following SKU-keyed rows provide all quoted values. Also corroborated by search-indexed page text.",
+      "separate_live_liner_url": "https://www.pecheur.com/en/gb/buy-surf-reel-penn-fierce-v-live-liner-spinning-401818.html",
+      "separate_live_liner_evidence": "Linked as a distinct product in standard page HTML line 3676; no reliance on an unread separate page."
+    },
+    "official_eu_live_liner": {
+      "url": "https://www.pennfishing.eu/products/fierce-v-live-liner-spinning-reel-1656714",
+      "evidence": "Official LL SKUs are 1653916 (2500), 1653917 (4000), 1653919 (6000), 1653921 (8000), distinct from all standard SKUs."
+    },
+    "eu_dealer_corroboration": {
+      "url": "https://www.hengelsportfauna.nl/p/penn-fierce-v-0001843082",
+      "evidence": "Search-indexed standard Fierce V listing reproduces all eight quoted weight and cm-retrieve pairs."
+    },
+    "eu_dealer_sku_corroboration": {
+      "url": "https://www.leurredelapeche.fr/gb/19950-spinning-reel-penn-fierce-v.html",
+      "evidence": "Search-indexed table explicitly associates 1653904/06/08/10/12/14 with 272/326/343/524/567/785 g and 83/89/93/91/104/112 cm."
+    },
+    "old_generation_comparison": {
+      "url": "https://www.passionepesca.org/it/mulinello-penn-fierce-iv/?variant=10130",
+      "evidence": "Fierce IV dealer table lists 557/606/815 g for 5000/6000/8000. This numerical match does NOT prove that the AU Fierce V page copied old data."
+    }
+  },
+  "units": {
+    "eu_capacity_pairs": "[length_m, diameter_mm]",
+    "au_normalized_capacity_pairs": "[length_m, diameter_mm]",
+    "au_source_warning": "AU headings say m/mm, but cell tokens are diameter_mm/length_m, for example 0.38/185. Reverse into 185 m / 0.38 mm; do not ingest the header order literally.",
+    "ipt": "cm per handle turn; native published inch values are separately identified, not silently substituted for cm-to-inch conversions."
+  },
+  "models": [
+    {
+      "model": "FRCV1000",
+      "size": 1000,
+      "numeric_sku": "1653901",
+      "eu_upc": "031324064218",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        125,
+        0.2
+      ],
+      "eu_braid_anchor": [
+        115,
+        0.18
+      ],
+      "standard_eu_dealer_weight_g": 221,
+      "standard_eu_dealer_retrieve_cm": 56,
+      "au_numeric_sku": null,
+      "au_weight_g": null,
+      "us_dealer_weight_oz": 7.8,
+      "us_dealer_retrieve_in": 22,
+      "us_dealer_source": "https://fishtacklemarine.com/products/penn-frcv1000-fierce-v-1000-spinning-reel-1653901",
+      "weight_status": "DEALER_CORROBORATED_NOT_OEM_NET_WEIGHT_CONFIRMED"
+    },
+    {
+      "model": "FRCV2000",
+      "size": 2000,
+      "numeric_sku": "1653902",
+      "eu_upc": "031324064225",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        165,
+        0.23
+      ],
+      "eu_braid_anchor": [
+        165,
+        0.23
+      ],
+      "standard_eu_dealer_weight_g": 269,
+      "standard_eu_dealer_retrieve_cm": 75,
+      "au_numeric_sku": null,
+      "au_weight_g": null,
+      "us_dealer_weight_oz": 9.5,
+      "us_dealer_retrieve_in": 30,
+      "us_dealer_source": "https://fishtacklemarine.com/products/penn-frcv2000-fierce-v-2000-spinning-reel-1653902",
+      "weight_status": "DEALER_CORROBORATED_NOT_OEM_NET_WEIGHT_CONFIRMED"
+    },
+    {
+      "model": "FRCV2500",
+      "size": 2500,
+      "numeric_sku": "1653904",
+      "eu_upc": "031324064249",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        160,
+        0.28
+      ],
+      "eu_braid_anchor": [
+        200,
+        0.25
+      ],
+      "standard_eu_dealer_weight_g": 272,
+      "standard_eu_dealer_retrieve_cm": 83,
+      "au_numeric_sku": "1653958",
+      "au_weight_g": 280,
+      "us_dealer_weight_oz": 9.6,
+      "us_dealer_retrieve_in": 33,
+      "us_dealer_source": "https://fishtacklemarine.com/products/penn-frcv2500-fierce-v-2500-spinning-reel-1653904",
+      "weight_status": "DEALER_CORROBORATED_NOT_OEM_NET_WEIGHT_CONFIRMED"
+    },
+    {
+      "model": "FRCV3000",
+      "size": 3000,
+      "numeric_sku": "1653906",
+      "eu_upc": "031324064263",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        150,
+        0.31
+      ],
+      "eu_braid_anchor": [
+        165,
+        0.29
+      ],
+      "standard_eu_dealer_weight_g": 326,
+      "standard_eu_dealer_retrieve_cm": 89,
+      "au_numeric_sku": "1653959",
+      "au_weight_g": 335,
+      "us_dealer_weight_oz": 11.5,
+      "us_dealer_retrieve_in": 35,
+      "us_dealer_source": "https://petersonmarineinc.com/products/penn-frcv3000-fierce-v-3000-spinning-reel-1653906",
+      "weight_status": "DEALER_CORROBORATED_NOT_OEM_NET_WEIGHT_CONFIRMED"
+    },
+    {
+      "model": "FRCV4000",
+      "size": 4000,
+      "numeric_sku": "1653908",
+      "eu_upc": "031324064287",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        200,
+        0.31
+      ],
+      "eu_braid_anchor": [
+        240,
+        0.29
+      ],
+      "standard_eu_dealer_weight_g": 343,
+      "standard_eu_dealer_retrieve_cm": 93,
+      "au_numeric_sku": "1653960",
+      "au_weight_g": 353,
+      "us_dealer_weight_oz": 12.1,
+      "us_dealer_retrieve_in": 37,
+      "us_dealer_source": "https://petersonmarineinc.com/products/penn-frcv4000-fierce-v-4000-spinning-reel-1653908",
+      "weight_status": "DEALER_CORROBORATED_NOT_OEM_NET_WEIGHT_CONFIRMED"
+    },
+    {
+      "model": "FRCV5000",
+      "size": 5000,
+      "numeric_sku": "1653910",
+      "eu_upc": "031324064300",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        185,
+        0.38
+      ],
+      "eu_braid_anchor": [
+        275,
+        0.36
+      ],
+      "standard_eu_dealer_weight_g": 524,
+      "standard_eu_dealer_retrieve_cm": 91,
+      "au_numeric_sku": "1653910",
+      "au_weight_g": 557,
+      "us_dealer_weight_oz": 18.5,
+      "us_dealer_retrieve_in": 36,
+      "us_dealer_source": "https://petersonmarineinc.com/products/penn-frcv5000-fierce-v-5000-spinning-reel-1653910",
+      "weight_status": "UNRESOLVED_SAME_SKU_CONFLICT"
+    },
+    {
+      "model": "FRCV6000",
+      "size": 6000,
+      "numeric_sku": "1653912",
+      "eu_upc": "031324064324",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_cached"
+      ],
+      "eu_mono_anchor": [
+        210,
+        0.46
+      ],
+      "eu_braid_anchor": [
+        355,
+        0.38
+      ],
+      "standard_eu_dealer_weight_g": 567,
+      "standard_eu_dealer_retrieve_cm": 104,
+      "au_numeric_sku": "1653912",
+      "au_weight_g": 606,
+      "us_dealer_weight_oz": 20,
+      "us_dealer_retrieve_in": 41,
+      "us_dealer_source": "https://petersonmarineinc.com/products/penn-frcv6000-fierce-v-6000-spinning-reel-1653912",
+      "weight_status": "UNRESOLVED_SAME_SKU_CONFLICT"
+    },
+    {
+      "model": "FRCV8000",
+      "size": 8000,
+      "numeric_sku": "1653914",
+      "eu_upc": "031324064348",
+      "official_us_eu_sku_match": true,
+      "mapping_evidence": [
+        "eu_cached",
+        "us_8000_recovered"
+      ],
+      "eu_mono_anchor": [
+        285,
+        0.48
+      ],
+      "eu_braid_anchor": [
+        355,
+        0.46
+      ],
+      "standard_eu_dealer_weight_g": 785,
+      "standard_eu_dealer_retrieve_cm": 112,
+      "au_numeric_sku": "1653914",
+      "au_weight_g": 815,
+      "us_dealer_weight_oz": 27.1,
+      "us_dealer_retrieve_in": 44,
+      "us_dealer_source": "https://petersonmarineinc.com/products/penn-frcv8000-fierce-v-8000-spinning-reel-1653914",
+      "weight_status": "UNRESOLVED_SAME_SKU_CONFLICT"
+    }
+  ],
+  "approved_au_capacity_triples": [
+    {
+      "model": "FRCV5000",
+      "sku": "1653910",
+      "mono": [
+        [
+          205,
+          0.36
+        ],
+        [
+          185,
+          0.38
+        ],
+        [
+          125,
+          0.46
+        ]
+      ],
+      "braid": [
+        [
+          385,
+          0.29
+        ],
+        [
+          275,
+          0.36
+        ],
+        [
+          220,
+          0.38
+        ]
+      ],
+      "both_eu_anchors_exact_match": true
+    },
+    {
+      "model": "FRCV6000",
+      "sku": "1653912",
+      "mono": [
+        [
+          305,
+          0.38
+        ],
+        [
+          210,
+          0.46
+        ],
+        [
+          190,
+          0.48
+        ]
+      ],
+      "braid": [
+        [
+          450,
+          0.36
+        ],
+        [
+          355,
+          0.38
+        ],
+        [
+          305,
+          0.41
+        ]
+      ],
+      "both_eu_anchors_exact_match": true
+    },
+    {
+      "model": "FRCV8000",
+      "sku": "1653914",
+      "mono": [
+        [
+          310,
+          0.46
+        ],
+        [
+          285,
+          0.48
+        ],
+        [
+          210,
+          0.56
+        ]
+      ],
+      "braid": [
+        [
+          435,
+          0.41
+        ],
+        [
+          355,
+          0.46
+        ],
+        [
+          315,
+          0.48
+        ]
+      ],
+      "both_eu_anchors_exact_match": true
+    }
+  ],
+  "weight_investigation": {
+    "conflicting_standard_weights": [
+      {
+        "model": "FRCV5000",
+        "eu_dealer_g": 524,
+        "au_official_g": 557,
+        "difference_g": 33,
+        "us_dealer_oz": 18.5,
+        "us_oz_converted_g": 524.47
+      },
+      {
+        "model": "FRCV6000",
+        "eu_dealer_g": 567,
+        "au_official_g": 606,
+        "difference_g": 39,
+        "us_dealer_oz": 20,
+        "us_oz_converted_g": 566.99
+      },
+      {
+        "model": "FRCV8000",
+        "eu_dealer_g": 785,
+        "au_official_g": 815,
+        "difference_g": 30,
+        "us_dealer_oz": 27.1,
+        "us_oz_converted_g": 768.27
+      }
+    ],
+    "not_live_liner": "AU separate LL table gives 688 g for 6000LL/1653919 and 909 g for 8000LL/1653921. Standard 606/815 g are not those LL values.",
+    "us_8000_additional_conflict": "27.1 oz is about 768.27 g, not 785 g. Do not normalize this to 785 g or call it harmless unit rounding.",
+    "no_root_cause_claim": "Evidence does not establish a typo, regional construction change, packaged weight, or stale specification. Those explanations remain unverified.",
+    "resolution_needed": "A PENN net-weight correction for exact SKU 1653910/12/14, or an appropriately documented physical measurement, is needed to resolve the conflict.",
+    "shopify_weight_not_net_reel_spec": "Raw product.variants[].weight values are 340/390/400/470/490/750/790/1000 for EU sizes 1000/2000/2500/3000/4000/5000/6000/8000. They are not displayed net-reel-weight specs; do not substitute them."
+  },
+  "additional_discrepancies": [
+    "Official AU 8000 braid yd/lb is 390/60, but exact official US 8000 variant gives 390/65. Preserve EU mm capacity; do not import AU lb ratings as an automatic US replacement.",
+    "AU 2500 and 4000 recovery is 84 and 94 cm on different numeric SKUs; EU dealer values are 83 and 93 cm. Do not use the AU values to correct US/EU rows.",
+    "US dealer native retrieve values are 22/30/33/35/37/36/41/44 inches, while EU dealer cm values are 56/75/83/89/93/91/104/112. Keep source-native values or clearly label calculated unit conversions; rounded published units need not be exact conversions.",
+    "The US 6000 dealer listing reports mono 23/20 yd/lb; official US says 230/20. Do not copy the dealer capacity typo.",
+    "The web-rendered EU .eu table labels capacity m/kg, but the supplied official UK/EU cached table and variant metadata explicitly label m/mm. Record this labeling inconsistency instead of interpreting decimal diameters as breaking strengths."
+  ],
+  "limitations": [
+    "Several dealer pages were accessible through search-indexed text but returned cache-miss errors on direct web open. The supplied Pecheur raw HTML independently verifies its values.",
+    "No physical measurements, manufacturer contact, or production data edits were performed.",
+    "No claim is made that different dealer sites are independent measurements or independent upstream data feeds."
+  ]
+}

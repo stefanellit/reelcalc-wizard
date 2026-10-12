@@ -1,0 +1,394 @@
+{
+  "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "checkedAt": "2026-10-12T15:29:46.101Z",
+    "sha256": "062a39dbb9d2c6dc6cd489be6daaab47452ef01cbf04a10f55799fffd50dc79c"
+  },
+  "https://www.purefishing.com/products/penn-fierce-v-spinning-reel-1656770": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.purefishing.com/products/penn-fierce-v-spinning-reel-1656770",
+    "file": "research/product-expansion-2026-10-12/sources/6842a4340af86338.txt",
+    "checkedAt": "2026-10-12T15:29:46.661Z",
+    "sha256": "07976ccdcccc1ee91fdefecda5a2040ced23e97a885b5b0fcf0677c486bdfb2b"
+  },
+  "https://pennfishing.com.au/penn-fierce-v/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://pennfishing.com.au/penn-fierce-v/",
+    "file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+    "checkedAt": "2026-10-12T15:29:47.798Z",
+    "sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66"
+  },
+  "https://www.finsfishing.com/products/bfs-ultralight": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.finsfishing.com/products/bfs-ultralight",
+    "file": "research/product-expansion-2026-10-12/sources/52f199ae052f2993.txt",
+    "checkedAt": "2026-10-12T15:29:48.488Z",
+    "sha256": "e555ec420cdd4bc706a44fa21db9ab182973a8a24050f7f7800d7706e2b2693c"
+  },
+  "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids",
+    "file": "research/product-expansion-2026-10-12/sources/f19c4af17f505cbf.txt",
+    "checkedAt": "2026-10-12T15:29:48.935Z",
+    "sha256": "b19423227730754ddb1fa45589d4bb950e29e0306ade5209c49c2135e6b5c640"
+  },
+  "https://www.lews.com/en/shop/new-products/hmssrsg2": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/shop/new-products/hmssrsg2",
+    "file": "research/product-expansion-2026-10-12/sources/c3c7fb51f2033612.txt",
+    "checkedAt": "2026-10-12T15:35:23.441Z",
+    "sha256": "e023539fceb01f2b6729d9fe15142141691d3786a8a34fdcd2cee71f4aa25039"
+  },
+  "https://www.lews.com/en/shop/new-products/moblcmbc": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/shop/new-products/moblcmbc",
+    "file": "research/product-expansion-2026-10-12/sources/d39babb489306061.txt",
+    "checkedAt": "2026-10-12T15:35:23.569Z",
+    "sha256": "705c68f505550b7b016d542b03b40c8262cf57235a5f86ef05341339d0fd4c7d"
+  },
+  "https://www.lews.com/en/shop/new-products/moblcmbs": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "file": "research/product-expansion-2026-10-12/sources/be45fedb27d93770.txt",
+    "checkedAt": "2026-10-12T15:35:23.705Z",
+    "sha256": "fad1d6126bf70681cbe4bb73b0ffd92ebc4b3f0ea61b9fbebf2cd8042e72c71a"
+  },
+  "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+    "file": "research/product-expansion-2026-10-12/sources/38a3be27e17171d2.txt",
+    "checkedAt": "2026-10-12T15:35:24.147Z",
+    "sha256": "7e94d6eaa1ecc6b4cd094220bd86d25cc26663ce9679b976066f64244a275bab"
+  },
+  "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+    "file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+    "checkedAt": "2026-10-12T15:35:24.558Z",
+    "sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a"
+  },
+  "https://daiwa-france.com/produits/moulinets/rs-2024": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa-france.com/produits/moulinets/rs-2024",
+    "file": "research/product-expansion-2026-10-12/sources/615c853f98ab7369.txt",
+    "checkedAt": "2026-10-12T15:35:25.048Z",
+    "sha256": "7771d452fb1fbec19299b34a14d58038fd0f87184b944c2b7bb0b78f907d10ed"
+  },
+  "https://www.abugarcia-fishing.eu/products": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia-fishing.eu/products",
+    "file": "research/product-expansion-2026-10-12/sources/95fce1b0dc88abd7.txt",
+    "checkedAt": "2026-10-12T15:35:25.460Z",
+    "sha256": "338e6a6f5a56f9a1ddb003fcc50b6b7e6317dadac77ca1dc8b77e126db80bc81"
+  },
+  "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+    "file": "research/product-expansion-2026-10-12/sources/c966c7bcaf51804d.txt",
+    "checkedAt": "2026-10-12T15:37:08.122Z",
+    "sha256": "ae49e1cd5fda611ab0574dc8ee96e583739136c46f4fcef8b5192b4537f74dc1"
+  },
+  "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740",
+    "file": "research/product-expansion-2026-10-12/sources/1a1b69944f61faf5.txt",
+    "checkedAt": "2026-10-12T15:37:08.523Z",
+    "sha256": "865910cc18ec43f946b8fdc860c76527f9224886bc5d9a19e0c1b83bb126ab76"
+  },
+  "https://www.abugarcia.com/collections/ambassadeur-collection": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/collections/ambassadeur-collection",
+    "file": "research/product-expansion-2026-10-12/sources/1066cebac5564588.txt",
+    "checkedAt": "2026-10-12T15:37:08.883Z",
+    "sha256": "44681b9df64e27286d98fd38cc98f557e700c822671983f648542664e0d27d10"
+  },
+  "https://daiwa.us/products/2026-rs-ultralight": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/2026-rs-ultralight",
+    "file": "research/product-expansion-2026-10-12/sources/9d431c214042dc15.txt",
+    "checkedAt": "2026-10-12T15:37:09.428Z",
+    "sha256": "c0d47d185e4567012a9b120111417ed9fa5342059c2e13239b8d5672dea45196"
+  },
+  "https://fish.shimano.com/en-AU/product/reels/spinning/a075f000042oo94qac.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fish.shimano.com/en-AU/product/reels/spinning/a075f000042oo94qac.html",
+    "file": "research/product-expansion-2026-10-12/sources/60bd05b1248a9a01.txt",
+    "checkedAt": "2026-10-12T15:37:09.811Z",
+    "sha256": "515636b40ac04db7e41965c5068616023e3691e8eeb4878f2b01473d49ea9dc3"
+  },
+  "https://fishshop.shimano.com/products/26miravel": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://fishshop.shimano.com/products/26miravel",
+    "file": "research/product-expansion-2026-10-12/sources/0f5f3927d55daffc.txt",
+    "checkedAt": "2026-10-12T15:37:10.303Z",
+    "sha256": "3328c778f28662e24a4df90ec2def65581f7afce62c33b9d5b725c90f8e8c0f7"
+  },
+  "https://xbraid.us/products/xbraid-x9-fulldrag-braid": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://xbraid.us/products/xbraid-x9-fulldrag-braid",
+    "file": "research/product-expansion-2026-10-12/sources/3e93da3239ee2771.txt",
+    "checkedAt": "2026-10-12T15:37:10.803Z",
+    "sha256": "2078971acf1b7a65f707f88629dcf8433100993f78ba80a86f1884d2f5c71b0a"
+  },
+  "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+    "file": "research/product-expansion-2026-10-12/sources/912cc5a14768517c.txt",
+    "checkedAt": "2026-10-12T15:37:53.899Z",
+    "sha256": "017123969f021730b8266cf5f2a3ea22569124486dd54739c4f0550c562eda09"
+  },
+  "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739",
+    "file": "research/product-expansion-2026-10-12/sources/9aa6e47e40976f0a.txt",
+    "checkedAt": "2026-10-12T15:37:54.251Z",
+    "sha256": "554b4126a72f98a7540e544981b0f33b3f14675babe4b89960a6ff2676a64b8b"
+  },
+  "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+    "file": "research/product-expansion-2026-10-12/sources/a52ec0d89869967d.txt",
+    "checkedAt": "2026-10-12T15:37:54.614Z",
+    "sha256": "337f5375e25e43d876330776e01729bcb1b5c2fd41f75244ed0cf4e1c9f9edc0"
+  },
+  "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-line-counter-reel-1656690": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-line-counter-reel-1656690",
+    "file": "research/product-expansion-2026-10-12/sources/f9375d07d1600b5d.txt",
+    "checkedAt": "2026-10-12T15:37:54.883Z",
+    "sha256": "7d57f306b171392c843088d8b91a6200c21444e653c97f4918c0db7477cc073d"
+  },
+  "https://www.abugarcia.com/products/ambassadeur-c1-7000-round-reel-1656699": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia.com/products/ambassadeur-c1-7000-round-reel-1656699",
+    "file": "research/product-expansion-2026-10-12/sources/c2423ad42682a68c.txt",
+    "checkedAt": "2026-10-12T15:37:55.162Z",
+    "sha256": "6db948955abf0531adb78a73d7ac1aa8634727097e9b477aded3d06e84a777f4"
+  },
+  "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-7000-round-reel-1656699": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-7000-round-reel-1656699",
+    "file": "research/product-expansion-2026-10-12/sources/fbcbd00710db7ff9.txt",
+    "checkedAt": "2026-10-12T15:37:55.492Z",
+    "sha256": "8e6458a7177df80fc9e228c2d019e8481014076da600cdb797341f7d1fb10301"
+  },
+  "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+    "file": "research/product-expansion-2026-10-12/sources/e5b5fe44d074d5cb.txt",
+    "checkedAt": "2026-10-12T15:37:55.689Z",
+    "sha256": "565cf27f1d920c6baedf0b1fb8f63ae09d44880ca5559a664442e524bf281ea3"
+  },
+  "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+    "file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+    "checkedAt": "2026-10-12T15:38:38.464Z",
+    "sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4"
+  },
+  "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+    "file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+    "checkedAt": "2026-10-12T15:38:38.866Z",
+    "sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1"
+  },
+  "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+    "file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+    "checkedAt": "2026-10-12T15:38:39.196Z",
+    "sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7"
+  },
+  "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+    "file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+    "checkedAt": "2026-10-12T15:38:39.594Z",
+    "sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa"
+  },
+  "https://daiwa.us/products/2026-seaborg-300jl": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/2026-seaborg-300jl",
+    "file": "research/product-expansion-2026-10-12/sources/152036cbf209a766.txt",
+    "checkedAt": "2026-10-12T15:38:40.083Z",
+    "sha256": "565c883828bc370e09fece09d73fcb2a223629e925957889eee24e8b846771a3"
+  },
+  "https://daiwa.us/products/2026-tanacom-300j": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa.us/products/2026-tanacom-300j",
+    "file": "research/product-expansion-2026-10-12/sources/59ccfa9e46f634ab.txt",
+    "checkedAt": "2026-10-12T15:38:40.479Z",
+    "sha256": "829a90f433c1d55418dda412f94b1591f4d2c5a44b5f489ce55126ad380aa1f7"
+  },
+  "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.eu/products/fierce-v-spinning-reel-1656770",
+    "file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+    "checkedAt": "2026-10-12T15:38:41.216Z",
+    "sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978"
+  },
+  "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "file": "research/product-expansion-2026-10-12/sources/35fd5d375165b930.txt",
+    "checkedAt": "2026-10-12T15:45:14.345Z",
+    "sha256": "8150747fec40a46d6c481bfbb445c5a8dbb4a965cf68c55032a457a286ee7877"
+  },
+  "https://www.firstchoicemarine.com/products/abu-garcia-ambassadeur-c1-5500-round-reel-1649410": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.firstchoicemarine.com/products/abu-garcia-ambassadeur-c1-5500-round-reel-1649410",
+    "file": "research/product-expansion-2026-10-12/sources/ea8ea97297f06149.txt",
+    "checkedAt": "2026-10-12T15:45:15.047Z",
+    "sha256": "50f2482f049d9633e766080c104ea290fe3ccfd38852b112fc61446241c1413e"
+  },
+  "https://www.hodgesmarine.com/abu1649411-abu-garcia-ambassadeur-round-reel-right-hand-c.html": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.hodgesmarine.com/abu1649411-abu-garcia-ambassadeur-round-reel-right-hand-c.html",
+    "file": "research/product-expansion-2026-10-12/sources/12f07a95af038b7d.txt",
+    "checkedAt": "2026-10-12T15:45:15.240Z",
+    "sha256": "058de0924dee3ec22061214909fc17f00711717684907cbfa71563e8bce3f13b"
+  },
+  "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-w-digital-line-counter-right-hand-c1-5500lc/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-w-digital-line-counter-right-hand-c1-5500lc/",
+    "file": "research/product-expansion-2026-10-12/sources/ff403a594f597313.txt",
+    "checkedAt": "2026-10-12T15:45:16.082Z",
+    "sha256": "9fcec6b6c7bc8062444b1d47927e5b939b0263ed620de28bdf020117416ace0b"
+  },
+  "https://www.hodgesmarine.com/abu1649434-abu-garcia-ambassadeur-c1-6500-round-reel-wdigi.html": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.hodgesmarine.com/abu1649434-abu-garcia-ambassadeur-c1-6500-round-reel-wdigi.html",
+    "file": "research/product-expansion-2026-10-12/sources/d91e52abe2935c56.txt",
+    "checkedAt": "2026-10-12T15:45:16.191Z",
+    "sha256": "08e6984f574b568be5f87225e66fc46122b6463261e9539230e207c6c54f38e6"
+  },
+  "https://consumermarinesupply.com/product/ambassadeur-round-reel-right-hand-c2-5600/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://consumermarinesupply.com/",
+    "file": "research/product-expansion-2026-10-12/sources/bb9239b7a8418f7c.txt",
+    "checkedAt": "2026-10-12T15:45:16.814Z",
+    "sha256": "95caf74612577dd7dd65f2ff99ff07891229b579a21cd71ca5166fdec49c66b5"
+  },
+  "https://www.hodgesmarine.com/abu1649416-abu-garcia-ambassadeur-round-reel-right-hand-c.html": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.hodgesmarine.com/abu1649416-abu-garcia-ambassadeur-round-reel-right-hand-c.html",
+    "file": "research/product-expansion-2026-10-12/sources/5282b141c12fea55.txt",
+    "checkedAt": "2026-10-12T15:45:16.922Z",
+    "sha256": "6c6fb9483e8242f2dad3be1f01cb224863a253bbe7d1889d598fdc7ce3badc84"
+  },
+  "https://www.hodgesmarine.com/abu1649425-abu-garcia-ambassadeur-round-reel-right-hand-c.html": {
+    "ok": false,
+    "status": 403,
+    "finalUrl": "https://www.hodgesmarine.com/abu1649425-abu-garcia-ambassadeur-round-reel-right-hand-c.html",
+    "file": "research/product-expansion-2026-10-12/sources/126aade9c99f75d8.txt",
+    "checkedAt": "2026-10-12T15:45:17.024Z",
+    "sha256": "4624bb5169fa586b7be3191af7a7ed6506bfa0e8857a87fab2b539e70dd25b68"
+  },
+  "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-6500/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-6500/",
+    "file": "research/product-expansion-2026-10-12/sources/ffd3dcc3a84057ec.txt",
+    "checkedAt": "2026-10-12T15:47:38.410Z",
+    "sha256": "984050d583a9639ce5b88c7c7c71908eee8120003b1ac32e4e89c938025b92e1"
+  },
+  "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-w-digital-line-counter-right-hand-c1-6500lc/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://consumermarinesupply.com/",
+    "file": "research/product-expansion-2026-10-12/sources/fa3494d24d8f4704.txt",
+    "checkedAt": "2026-10-12T15:47:39.113Z",
+    "sha256": "d37c5dc73903260b6c35fd82f553044336d6b7d3552139349240aa519ca49d5d"
+  },
+  "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c2-6600/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c2-6600/",
+    "file": "research/product-expansion-2026-10-12/sources/880e6ce018721076.txt",
+    "checkedAt": "2026-10-12T15:47:39.869Z",
+    "sha256": "f6d83b25afd3dbf4de02a0e8762ff26f33da4d2b1893c36c6b13ce83422ee682"
+  },
+  "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-7000/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-7000/",
+    "file": "research/product-expansion-2026-10-12/sources/0e9a46decacb8fe7.txt",
+    "checkedAt": "2026-10-12T15:47:40.542Z",
+    "sha256": "9adf2f3424e411e41eabeeb63689a4b7d2931de2e65d67f2bab67f59514e3b83"
+  },
+  "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=LINES!A1:Z100000": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=LINES!A1:Z100000",
+    "file": "research/product-expansion-2026-10-12/sources/602bf3513d7c92df.txt",
+    "checkedAt": "2026-10-12T15:47:40.989Z",
+    "sha256": "8486ce532ded139bca8e9fb0932fb797c557c607f8085356d6d941973e7e422c"
+  },
+  "https://www.theoutdoorwarehouse.com/fishing-gear-equipment-supplies/abu-garcia-ambassadeur-c1-6500-round-baitcast-reel/": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.theoutdoorwarehouse.com/fishing-gear-equipment-supplies/abu-garcia-ambassadeur-c1-6500-round-baitcast-reel/",
+    "file": "research/product-expansion-2026-10-12/sources/648375827c383a76.txt",
+    "checkedAt": "2026-10-12T15:49:07.174Z",
+    "sha256": "f125806dd3c6dda57d0fe0d7d87051ecc1a09e090cd5a33866d09a14ebae46cf"
+  },
+  "https://sm4sports.com/products/ambassadeur-round-reel-right-hand-c2-5600-1649415": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://sm4sports.com/products/ambassadeur-round-reel-right-hand-c2-5600-1649415",
+    "file": "research/product-expansion-2026-10-12/sources/764208a65c40b4a9.txt",
+    "checkedAt": "2026-10-12T15:49:07.669Z",
+    "sha256": "d27015e0b9261b416277fc320db3b0a0e602f9d9af2625469de74d93fadf933a"
+  },
+  "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332": {
+    "ok": true,
+    "status": 200,
+    "finalUrl": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332",
+    "file": "research/product-expansion-2026-10-12/sources/0394083b1aeeb6b0.txt",
+    "checkedAt": "2026-10-12T15:57:55.012Z",
+    "sha256": "a915cd18977eb5aa411ea9184277e257271ff294336b13d91afd57ddf6d69d7e"
+  }
+}

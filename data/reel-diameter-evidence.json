@@ -30,25 +30,30 @@
       "key": "reviews",
       "file": "outputs/reel-diameter-audit/catalog-research/reel-diameter-review-queue.json",
       "sha256": "1545c0c8af0432243cddc0e4087a7ccd32ec8380f13a166f35169deede7cde04"
+    },
+    {
+      "key": "product-expansion-2026-10-12",
+      "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+      "sha256": "adad2ae3e1efd8d445264ed43df5965cefdfc8c8ec07611a22e8085614afd7b7"
     }
   ],
   "summary": {
-    "date": "2026-10-11",
-    "total_reels": 1336,
-    "reels_with_stored_diameter_evidence": 572,
-    "reels_with_eligible_material_ratings": 487,
+    "date": "2026-10-12",
+    "total_reels": 1362,
+    "reels_with_stored_diameter_evidence": 593,
+    "reels_with_eligible_material_ratings": 508,
     "eligible_material_coverage": {
-      "both": 49,
-      "mono_only": 434,
+      "both": 63,
+      "mono_only": 441,
       "braid_only": 4,
-      "neither": 849
+      "neither": 854
     },
-    "stored_evidence_rows": 2031,
-    "eligible_rows": 1633,
+    "stored_evidence_rows": 2112,
+    "eligible_rows": 1714,
     "held_rows": 398,
     "prior_research_preserved": true,
     "legacy_reel_fields_unchanged": true,
-    "scope": "Source admission only. No experimental resolver, PE conversion, inferred diameter, cross-material substitution, or range endpoint selection."
+    "scope": "Additive exact-model product expansion. Existing records and calculator behavior preserved."
   },
   "sources": {
     "diam-4d80c88910a97b814ca22c60": {
@@ -254047,6 +254052,3894 @@
       },
       "photo_id": "SH-E015",
       "release_review": null
+    },
+    "diam-6399cdc37cb49db2cb65852c": {
+      "reel_id": "penn-fierce-v-1000-frcv1000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/0"
+      },
+      "raw": {
+        "anchor_id": "diam-6399cdc37cb49db2cb65852c",
+        "reel_id": "penn-fierce-v-1000-frcv1000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 125,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 125,
+          "capacity_yards": 136.70166229221348
+        },
+        "original_text": "125/0.20",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV1000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653901",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "125/0.20"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-6b7eedfd0b302d551b7a8b93": {
+      "reel_id": "penn-fierce-v-1000-frcv1000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/1"
+      },
+      "raw": {
+        "anchor_id": "diam-6b7eedfd0b302d551b7a8b93",
+        "reel_id": "penn-fierce-v-1000-frcv1000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.18,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 115,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.18,
+          "diameter_in": 0.007086614173228346,
+          "capacity_meters": 115,
+          "capacity_yards": 125.76552930883639
+        },
+        "original_text": "115/0.18",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV1000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653901",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "115/0.18"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-d937c4c6e36b7da5da0b9083": {
+      "reel_id": "penn-fierce-v-2000-frcv2000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/2"
+      },
+      "raw": {
+        "anchor_id": "diam-d937c4c6e36b7da5da0b9083",
+        "reel_id": "penn-fierce-v-2000-frcv2000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.23,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.23,
+          "diameter_in": 0.009055118110236222,
+          "capacity_meters": 165,
+          "capacity_yards": 180.4461942257218
+        },
+        "original_text": "165/0.23",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV2000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653902",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "165/0.23"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-685bb3608c6ca60bde458742": {
+      "reel_id": "penn-fierce-v-2000-frcv2000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/3"
+      },
+      "raw": {
+        "anchor_id": "diam-685bb3608c6ca60bde458742",
+        "reel_id": "penn-fierce-v-2000-frcv2000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.23,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.23,
+          "diameter_in": 0.009055118110236222,
+          "capacity_meters": 165,
+          "capacity_yards": 180.4461942257218
+        },
+        "original_text": "165/0.23",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV2000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653902",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "165/0.23"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-ced79d500843d37b27f23989": {
+      "reel_id": "penn-fierce-v-2500-frcv2500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/4"
+      },
+      "raw": {
+        "anchor_id": "diam-ced79d500843d37b27f23989",
+        "reel_id": "penn-fierce-v-2500-frcv2500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.28,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.28,
+          "diameter_in": 0.011023622047244096,
+          "capacity_meters": 160,
+          "capacity_yards": 174.97812773403325
+        },
+        "original_text": "160/0.28",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV2500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653904",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "160/0.28"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-f1e46c51f9399a169291ebce": {
+      "reel_id": "penn-fierce-v-2500-frcv2500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/5"
+      },
+      "raw": {
+        "anchor_id": "diam-f1e46c51f9399a169291ebce",
+        "reel_id": "penn-fierce-v-2500-frcv2500",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "200/0.25",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV2500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653904",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "200/0.25"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-7983ab0346aacae2045c3c2e": {
+      "reel_id": "penn-fierce-v-3000-frcv3000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/6"
+      },
+      "raw": {
+        "anchor_id": "diam-7983ab0346aacae2045c3c2e",
+        "reel_id": "penn-fierce-v-3000-frcv3000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.31,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 150,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.31,
+          "diameter_in": 0.012204724409448819,
+          "capacity_meters": 150,
+          "capacity_yards": 164.04199475065616
+        },
+        "original_text": "150/0.31",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV3000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653906",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "150/0.31"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-eec115b6c564d6c5c8892422": {
+      "reel_id": "penn-fierce-v-3000-frcv3000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/7"
+      },
+      "raw": {
+        "anchor_id": "diam-eec115b6c564d6c5c8892422",
+        "reel_id": "penn-fierce-v-3000-frcv3000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 165,
+          "capacity_yards": 180.4461942257218
+        },
+        "original_text": "165/0.29",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV3000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653906",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "165/0.29"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-474996d4326a543877fa9b73": {
+      "reel_id": "penn-fierce-v-4000-frcv4000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/8"
+      },
+      "raw": {
+        "anchor_id": "diam-474996d4326a543877fa9b73",
+        "reel_id": "penn-fierce-v-4000-frcv4000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.31,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.31,
+          "diameter_in": 0.012204724409448819,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "200/0.31",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV4000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653908",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "200/0.31"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-96b3bef5c146655789ea4320": {
+      "reel_id": "penn-fierce-v-4000-frcv4000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/9"
+      },
+      "raw": {
+        "anchor_id": "diam-96b3bef5c146655789ea4320",
+        "reel_id": "penn-fierce-v-4000-frcv4000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 240,
+          "capacity_yards": 262.4671916010499
+        },
+        "original_text": "240/0.29",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV4000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653908",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "240/0.29"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-d7af894e26ee9ac4d10485a5": {
+      "reel_id": "penn-fierce-v-5000-frcv5000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/10"
+      },
+      "raw": {
+        "anchor_id": "diam-d7af894e26ee9ac4d10485a5",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 185,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 185,
+          "capacity_yards": 202.31846019247595
+        },
+        "original_text": "185/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV5000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653910",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "185/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-033ca7f2bf1c2cb2e9c8e3b4": {
+      "reel_id": "penn-fierce-v-5000-frcv5000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/11"
+      },
+      "raw": {
+        "anchor_id": "diam-033ca7f2bf1c2cb2e9c8e3b4",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 275,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 275,
+          "capacity_yards": 300.74365704286964
+        },
+        "original_text": "275/0.36",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV5000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653910",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "275/0.36"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-8242181d01464e8113ab4054": {
+      "reel_id": "penn-fierce-v-5000-frcv5000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/12"
+      },
+      "raw": {
+        "anchor_id": "diam-8242181d01464e8113ab4054",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 205,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 205,
+          "capacity_yards": 224.1907261592301
+        },
+        "original_text": "0.36 mm / 205 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV5000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653910",
+          "header": "mono capacity (m/mm)",
+          "cell": "0.36 mm / 205 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-ba5b11faab73673a177092d2": {
+      "reel_id": "penn-fierce-v-5000-frcv5000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/13"
+      },
+      "raw": {
+        "anchor_id": "diam-ba5b11faab73673a177092d2",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 125,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 125,
+          "capacity_yards": 136.70166229221348
+        },
+        "original_text": "0.46 mm / 125 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV5000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653910",
+          "header": "mono capacity (m/mm)",
+          "cell": "0.46 mm / 125 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-cb54b52f3c1e06ea6f7dcf6f": {
+      "reel_id": "penn-fierce-v-5000-frcv5000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/14"
+      },
+      "raw": {
+        "anchor_id": "diam-cb54b52f3c1e06ea6f7dcf6f",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 385,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 385,
+          "capacity_yards": 421.0411198600175
+        },
+        "original_text": "0.29 mm / 385 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV5000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653910",
+          "header": "braid capacity (m/mm)",
+          "cell": "0.29 mm / 385 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-4a56da8572f01cb15e0d4458": {
+      "reel_id": "penn-fierce-v-5000-frcv5000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/15"
+      },
+      "raw": {
+        "anchor_id": "diam-4a56da8572f01cb15e0d4458",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 220,
+          "capacity_yards": 240.59492563429572
+        },
+        "original_text": "0.38 mm / 220 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV5000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653910",
+          "header": "braid capacity (m/mm)",
+          "cell": "0.38 mm / 220 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-9f1d71d00d740d8fae7c8d94": {
+      "reel_id": "penn-fierce-v-6000-frcv6000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/16"
+      },
+      "raw": {
+        "anchor_id": "diam-9f1d71d00d740d8fae7c8d94",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 210,
+          "capacity_yards": 229.65879265091863
+        },
+        "original_text": "210/0.46",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV6000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653912",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "210/0.46"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-51bd071fd16cc28c9ba90e10": {
+      "reel_id": "penn-fierce-v-6000-frcv6000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/17"
+      },
+      "raw": {
+        "anchor_id": "diam-51bd071fd16cc28c9ba90e10",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 355,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 355,
+          "capacity_yards": 388.23272090988627
+        },
+        "original_text": "355/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV6000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653912",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "355/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-f190838a183e583d5b0c0781": {
+      "reel_id": "penn-fierce-v-6000-frcv6000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/18"
+      },
+      "raw": {
+        "anchor_id": "diam-f190838a183e583d5b0c0781",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 305,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 305,
+          "capacity_yards": 333.55205599300086
+        },
+        "original_text": "0.38 mm / 305 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV6000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653912",
+          "header": "mono capacity (m/mm)",
+          "cell": "0.38 mm / 305 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-953a874f175084881f960cf2": {
+      "reel_id": "penn-fierce-v-6000-frcv6000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/19"
+      },
+      "raw": {
+        "anchor_id": "diam-953a874f175084881f960cf2",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 190,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "diameter_in": 0.01889763779527559,
+          "capacity_meters": 190,
+          "capacity_yards": 207.78652668416447
+        },
+        "original_text": "0.48 mm / 190 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV6000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653912",
+          "header": "mono capacity (m/mm)",
+          "cell": "0.48 mm / 190 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-c3739fdb5341c56d112f259e": {
+      "reel_id": "penn-fierce-v-6000-frcv6000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/20"
+      },
+      "raw": {
+        "anchor_id": "diam-c3739fdb5341c56d112f259e",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 450,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 450,
+          "capacity_yards": 492.12598425196853
+        },
+        "original_text": "0.36 mm / 450 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV6000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653912",
+          "header": "braid capacity (m/mm)",
+          "cell": "0.36 mm / 450 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-bd5bab3075edcfea34c7d367": {
+      "reel_id": "penn-fierce-v-6000-frcv6000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/21"
+      },
+      "raw": {
+        "anchor_id": "diam-bd5bab3075edcfea34c7d367",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 305,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 305,
+          "capacity_yards": 333.55205599300086
+        },
+        "original_text": "0.41 mm / 305 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV6000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653912",
+          "header": "braid capacity (m/mm)",
+          "cell": "0.41 mm / 305 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-dd2c8796098c98f70b889ea6": {
+      "reel_id": "penn-fierce-v-8000-frcv8000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/22"
+      },
+      "raw": {
+        "anchor_id": "diam-dd2c8796098c98f70b889ea6",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 285,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "diameter_in": 0.01889763779527559,
+          "capacity_meters": 285,
+          "capacity_yards": 311.67979002624674
+        },
+        "original_text": "285/0.48",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV8000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653914",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "285/0.48"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-02cc8d2dd5aa0563129a25e0": {
+      "reel_id": "penn-fierce-v-8000-frcv8000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/23"
+      },
+      "raw": {
+        "anchor_id": "diam-02cc8d2dd5aa0563129a25e0",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 355,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 355,
+          "capacity_yards": 388.23272090988627
+        },
+        "original_text": "355/0.46",
+        "source_type": "manufacturer_product_page",
+        "source_id": "cee1e6fbb833a5a9",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+        "source_sha256": "50e834a3fcfd3156e7cb1c6a31d909b716d17f4abe1c98ca3d4a8a79e172a978",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV8000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653914",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "355/0.46"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-6aa48ebf98310be4f3bfd136": {
+      "reel_id": "penn-fierce-v-8000-frcv8000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/24"
+      },
+      "raw": {
+        "anchor_id": "diam-6aa48ebf98310be4f3bfd136",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 310,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 310,
+          "capacity_yards": 339.0201224846894
+        },
+        "original_text": "0.46 mm / 310 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV8000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653914",
+          "header": "mono capacity (m/mm)",
+          "cell": "0.46 mm / 310 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-44bc8b43025b023a62bb23e1": {
+      "reel_id": "penn-fierce-v-8000-frcv8000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/25"
+      },
+      "raw": {
+        "anchor_id": "diam-44bc8b43025b023a62bb23e1",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.56,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.56,
+          "diameter_in": 0.022047244094488192,
+          "capacity_meters": 210,
+          "capacity_yards": 229.65879265091863
+        },
+        "original_text": "0.56 mm / 210 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV8000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653914",
+          "header": "mono capacity (m/mm)",
+          "cell": "0.56 mm / 210 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-600b14a806aa192ffabedc6d": {
+      "reel_id": "penn-fierce-v-8000-frcv8000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/26"
+      },
+      "raw": {
+        "anchor_id": "diam-600b14a806aa192ffabedc6d",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 435,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 435,
+          "capacity_yards": 475.7217847769029
+        },
+        "original_text": "0.41 mm / 435 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV8000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653914",
+          "header": "braid capacity (m/mm)",
+          "cell": "0.41 mm / 435 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-11aa6211d44fb51ea1021689": {
+      "reel_id": "penn-fierce-v-8000-frcv8000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/27"
+      },
+      "raw": {
+        "anchor_id": "diam-11aa6211d44fb51ea1021689",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 315,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "diameter_in": 0.01889763779527559,
+          "capacity_meters": 315,
+          "capacity_yards": 344.48818897637796
+        },
+        "original_text": "0.48 mm / 315 m",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1defc777e2f1a9d9",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1defc777e2f1a9d9.txt",
+        "source_sha256": "aec8c2cabc52e2eba28fc04b359cc667b4816204b4818360c3e3a5ebcf995e66",
+        "date_checked": "2026-10-12",
+        "source_model": "FRCV8000",
+        "exact_model_verified": true,
+        "model_match_evidence": "AU and US/EU numeric product SKU match exactly for this size. Weight discrepancy retained in research; published diameter capacities are not contradictory.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1653914",
+          "header": "braid capacity (m/mm)",
+          "cell": "0.48 mm / 315 m"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-1eda3b87b9a20ce7f9371813": {
+      "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/28"
+      },
+      "raw": {
+        "anchor_id": "diam-1eda3b87b9a20ce7f9371813",
+        "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.32,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 245,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.32,
+          "diameter_in": 0.012598425196850395,
+          "capacity_meters": 245,
+          "capacity_yards": 267.9352580927384
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "9aa6e47e40976f0a",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/9aa6e47e40976f0a.txt",
+        "source_sha256": "554b4126a72f98a7540e544981b0f33b3f14675babe4b89960a6ff2676a64b8b",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "C1-5500",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-74227a73f1c004390c29ab4d": {
+      "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/29"
+      },
+      "raw": {
+        "anchor_id": "diam-74227a73f1c004390c29ab4d",
+        "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 210,
+          "capacity_yards": 229.65879265091863
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "9aa6e47e40976f0a",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/9aa6e47e40976f0a.txt",
+        "source_sha256": "554b4126a72f98a7540e544981b0f33b3f14675babe4b89960a6ff2676a64b8b",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "C1-5500",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-da091a0aed93b84563716f1b": {
+      "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/30"
+      },
+      "raw": {
+        "anchor_id": "diam-da091a0aed93b84563716f1b",
+        "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 175,
+          "capacity_yards": 191.38232720909886
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "9aa6e47e40976f0a",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/9aa6e47e40976f0a.txt",
+        "source_sha256": "554b4126a72f98a7540e544981b0f33b3f14675babe4b89960a6ff2676a64b8b",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "C1-5500",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-3b729711fb8e420c5f93df07": {
+      "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/31"
+      },
+      "raw": {
+        "anchor_id": "diam-3b729711fb8e420c5f93df07",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 280,
+          "capacity_yards": 306.2117235345582
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1abd1bce172be05a",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+        "source_sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649411",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-94c90dae290e0dd75474d00d": {
+      "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/32"
+      },
+      "raw": {
+        "anchor_id": "diam-94c90dae290e0dd75474d00d",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 230,
+          "capacity_yards": 251.53105861767278
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1abd1bce172be05a",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+        "source_sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649411",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-f905dee9b5b17f545ce5352e": {
+      "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/33"
+      },
+      "raw": {
+        "anchor_id": "diam-f905dee9b5b17f545ce5352e",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.42,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.42,
+          "diameter_in": 0.01653543307086614,
+          "capacity_meters": 195,
+          "capacity_yards": 213.25459317585302
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1abd1bce172be05a",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+        "source_sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649411",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-3491245a873d723bd8bc5942": {
+      "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/34"
+      },
+      "raw": {
+        "anchor_id": "diam-3491245a873d723bd8bc5942",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 425,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 425,
+          "capacity_yards": 464.7856517935258
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1abd1bce172be05a",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+        "source_sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649411",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-145ef404920ce61beeebaaef": {
+      "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/35"
+      },
+      "raw": {
+        "anchor_id": "diam-145ef404920ce61beeebaaef",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 320,
+          "capacity_yards": 349.9562554680665
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1abd1bce172be05a",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+        "source_sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649411",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-08c702c6c8540500e57e06c2": {
+      "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/36"
+      },
+      "raw": {
+        "anchor_id": "diam-08c702c6c8540500e57e06c2",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 225,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 225,
+          "capacity_yards": 246.06299212598427
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1abd1bce172be05a",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1abd1bce172be05a.txt",
+        "source_sha256": "13bf07a06f732981e330319f906c5eb67378d5a0fcef08845e7057f7a40b5db4",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649411",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-66e2a94396705d64232d096c": {
+      "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/37"
+      },
+      "raw": {
+        "anchor_id": "diam-66e2a94396705d64232d096c",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "300/0.41 230/0.46 210/0.49",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b1e090ceaf2e46e5",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+        "source_sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-7000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649425",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "300/0.41 230/0.46 210/0.49"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-303813466aa9b46c5809e314": {
+      "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/38"
+      },
+      "raw": {
+        "anchor_id": "diam-303813466aa9b46c5809e314",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 230,
+          "capacity_yards": 251.53105861767278
+        },
+        "original_text": "300/0.41 230/0.46 210/0.49",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b1e090ceaf2e46e5",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+        "source_sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-7000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649425",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "300/0.41 230/0.46 210/0.49"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-d6c0c509f25e3ac302b388c7": {
+      "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/39"
+      },
+      "raw": {
+        "anchor_id": "diam-d6c0c509f25e3ac302b388c7",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.49,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.49,
+          "diameter_in": 0.019291338582677165,
+          "capacity_meters": 210,
+          "capacity_yards": 229.65879265091863
+        },
+        "original_text": "300/0.41 230/0.46 210/0.49",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b1e090ceaf2e46e5",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+        "source_sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-7000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649425",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "300/0.41 230/0.46 210/0.49"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-021a06f3725168ead584ceb5": {
+      "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/40"
+      },
+      "raw": {
+        "anchor_id": "diam-021a06f3725168ead584ceb5",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 470,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 470,
+          "capacity_yards": 513.9982502187227
+        },
+        "original_text": "470/0.36 385/0.38 330/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b1e090ceaf2e46e5",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+        "source_sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-7000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649425",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "470/0.36 385/0.38 330/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-5dc3ecbda7ab4683814f8af4": {
+      "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/41"
+      },
+      "raw": {
+        "anchor_id": "diam-5dc3ecbda7ab4683814f8af4",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 385,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 385,
+          "capacity_yards": 421.0411198600175
+        },
+        "original_text": "470/0.36 385/0.38 330/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b1e090ceaf2e46e5",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+        "source_sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-7000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649425",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "470/0.36 385/0.38 330/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-71fd350a50bb8341a652c27f": {
+      "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/42"
+      },
+      "raw": {
+        "anchor_id": "diam-71fd350a50bb8341a652c27f",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 330,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 330,
+          "capacity_yards": 360.8923884514436
+        },
+        "original_text": "470/0.36 385/0.38 330/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b1e090ceaf2e46e5",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b1e090ceaf2e46e5.txt",
+        "source_sha256": "a36d4fab923626081cef2faffe12cbb60ce7e74f10be328c1957804af87c42b7",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-7000",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649425",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "470/0.36 385/0.38 330/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-bd45263ab904771c464bfc76": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/43"
+      },
+      "raw": {
+        "anchor_id": "diam-bd45263ab904771c464bfc76",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.32,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 245,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.32,
+          "diameter_in": 0.012598425196850395,
+          "capacity_meters": 245,
+          "capacity_yards": 267.9352580927384
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649433",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-7ddcf0f9de44f83cbe853486": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/44"
+      },
+      "raw": {
+        "anchor_id": "diam-7ddcf0f9de44f83cbe853486",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 210,
+          "capacity_yards": 229.65879265091863
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649433",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-9cddab44278b8b992722928a": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/45"
+      },
+      "raw": {
+        "anchor_id": "diam-9cddab44278b8b992722928a",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 175,
+          "capacity_yards": 191.38232720909886
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649433",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-0d5d903dc91bdcf180277323": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/46"
+      },
+      "raw": {
+        "anchor_id": "diam-0d5d903dc91bdcf180277323",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 320,
+          "capacity_yards": 349.9562554680665
+        },
+        "original_text": "320/0.29 240/0.36 170/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649433",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "320/0.29 240/0.36 170/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-9d5a0b19b9b20b3fd21d90e7": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/47"
+      },
+      "raw": {
+        "anchor_id": "diam-9d5a0b19b9b20b3fd21d90e7",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 240,
+          "capacity_yards": 262.4671916010499
+        },
+        "original_text": "320/0.29 240/0.36 170/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649433",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "320/0.29 240/0.36 170/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-cdabad53c3ce8a3d077da6f0": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/48"
+      },
+      "raw": {
+        "anchor_id": "diam-cdabad53c3ce8a3d077da6f0",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 170,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 170,
+          "capacity_yards": 185.91426071741031
+        },
+        "original_text": "320/0.29 240/0.36 170/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-5500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649433",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "320/0.29 240/0.36 170/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-2f7d0536dbb90826e22353dc": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/49"
+      },
+      "raw": {
+        "anchor_id": "diam-2f7d0536dbb90826e22353dc",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 280,
+          "capacity_yards": 306.2117235345582
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649434",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-79babce522fe1b9adb620135": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/50"
+      },
+      "raw": {
+        "anchor_id": "diam-79babce522fe1b9adb620135",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 230,
+          "capacity_yards": 251.53105861767278
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649434",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-66300a7fed30ca6cb29571f6": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/51"
+      },
+      "raw": {
+        "anchor_id": "diam-66300a7fed30ca6cb29571f6",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.42,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.42,
+          "diameter_in": 0.01653543307086614,
+          "capacity_meters": 195,
+          "capacity_yards": 213.25459317585302
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649434",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-828a74d82d137cbe02209984": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/52"
+      },
+      "raw": {
+        "anchor_id": "diam-828a74d82d137cbe02209984",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 425,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 425,
+          "capacity_yards": 464.7856517935258
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649434",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-fba99d1ba839a741a43506e0": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/53"
+      },
+      "raw": {
+        "anchor_id": "diam-fba99d1ba839a741a43506e0",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 320,
+          "capacity_yards": 349.9562554680665
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649434",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-5aa9de153bb5dd18a17ed449": {
+      "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/54"
+      },
+      "raw": {
+        "anchor_id": "diam-5aa9de153bb5dd18a17ed449",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 225,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 225,
+          "capacity_yards": 246.06299212598427
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "3e0f31214151e74d",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/3e0f31214151e74d.txt",
+        "source_sha256": "f8a3cfd14a382da9fbd6ff504db20e776207c9265a8dbbd05fdf058c0bce28a1",
+        "date_checked": "2026-10-12",
+        "source_model": "C1-6500LC",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649434",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-ae39018b861c361f9d91dbc9": {
+      "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/55"
+      },
+      "raw": {
+        "anchor_id": "diam-ae39018b861c361f9d91dbc9",
+        "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.32,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 245,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.32,
+          "diameter_in": 0.012598425196850395,
+          "capacity_meters": 245,
+          "capacity_yards": 267.9352580927384
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1a1b69944f61faf5",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1a1b69944f61faf5.txt",
+        "source_sha256": "865910cc18ec43f946b8fdc860c76527f9224886bc5d9a19e0c1b83bb126ab76",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-5600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "C2-5600",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-2febc85233f228f73eca2c27": {
+      "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/56"
+      },
+      "raw": {
+        "anchor_id": "diam-2febc85233f228f73eca2c27",
+        "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 210,
+          "capacity_yards": 229.65879265091863
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1a1b69944f61faf5",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1a1b69944f61faf5.txt",
+        "source_sha256": "865910cc18ec43f946b8fdc860c76527f9224886bc5d9a19e0c1b83bb126ab76",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-5600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "C2-5600",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-ddb0b0282de00ca0e5206af7": {
+      "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/57"
+      },
+      "raw": {
+        "anchor_id": "diam-ddb0b0282de00ca0e5206af7",
+        "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 175,
+          "capacity_yards": 191.38232720909886
+        },
+        "original_text": "245/0.32 210/0.35 175/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "1a1b69944f61faf5",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/1a1b69944f61faf5.txt",
+        "source_sha256": "865910cc18ec43f946b8fdc860c76527f9224886bc5d9a19e0c1b83bb126ab76",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-5600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "C2-5600",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "245/0.32 210/0.35 175/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-b1cacbdf537ec0b4d7ee0ba9": {
+      "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/58"
+      },
+      "raw": {
+        "anchor_id": "diam-b1cacbdf537ec0b4d7ee0ba9",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 280,
+          "capacity_yards": 306.2117235345582
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b4bf4d478419e931",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+        "source_sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-6600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649416",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-774a9d960091b11d6ae3eaa8": {
+      "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/59"
+      },
+      "raw": {
+        "anchor_id": "diam-774a9d960091b11d6ae3eaa8",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 230,
+          "capacity_yards": 251.53105861767278
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b4bf4d478419e931",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+        "source_sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-6600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649416",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-66eb224fcf6d18e896e7a968": {
+      "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/60"
+      },
+      "raw": {
+        "anchor_id": "diam-66eb224fcf6d18e896e7a968",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.42,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.42,
+          "diameter_in": 0.01653543307086614,
+          "capacity_meters": 195,
+          "capacity_yards": 213.25459317585302
+        },
+        "original_text": "280/0.35 230/0.38 195/0.42",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b4bf4d478419e931",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+        "source_sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-6600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649416",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "280/0.35 230/0.38 195/0.42"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-155645a865e999bd383466f2": {
+      "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/61"
+      },
+      "raw": {
+        "anchor_id": "diam-155645a865e999bd383466f2",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 425,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "diameter_in": 0.01141732283464567,
+          "capacity_meters": 425,
+          "capacity_yards": 464.7856517935258
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b4bf4d478419e931",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+        "source_sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-6600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649416",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-d8f20f878f6741bd642eb7b1": {
+      "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/62"
+      },
+      "raw": {
+        "anchor_id": "diam-d8f20f878f6741bd642eb7b1",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 320,
+          "capacity_yards": 349.9562554680665
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b4bf4d478419e931",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+        "source_sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-6600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649416",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-39bf5aaa33d5f25bb576ad40": {
+      "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/63"
+      },
+      "raw": {
+        "anchor_id": "diam-39bf5aaa33d5f25bb576ad40",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 225,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "diameter_in": 0.016141732283464567,
+          "capacity_meters": 225,
+          "capacity_yards": 246.06299212598427
+        },
+        "original_text": "425/0.29 320/0.36 225/0.41",
+        "source_type": "manufacturer_product_page",
+        "source_id": "b4bf4d478419e931",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/b4bf4d478419e931.txt",
+        "source_sha256": "a8029f585a0081d211dad87ac42585b99cdb76f0766bd5a8f4dd37042a94cefa",
+        "date_checked": "2026-10-12",
+        "source_model": "C2-6600",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "1649416",
+          "header": "Braid Capacity (m/mm)",
+          "cell": "425/0.29 320/0.36 225/0.41"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-0df8b30b903ff87e77f42896": {
+      "reel_id": "daiwa-rs-500-rs500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/64"
+      },
+      "raw": {
+        "anchor_id": "diam-0df8b30b903ff87e77f42896",
+        "reel_id": "daiwa-rs-500-rs500",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.16,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.16,
+          "diameter_in": 0.006299212598425198,
+          "capacity_meters": 160,
+          "capacity_yards": 174.97812773403325
+        },
+        "original_text": "160m/0,16mm",
+        "source_type": "manufacturer_product_page",
+        "source_id": "615c853f98ab7369",
+        "source_url": "https://daiwa-france.com/produits/moulinets/rs-2024",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/615c853f98ab7369.txt",
+        "source_sha256": "7771d452fb1fbec19299b34a14d58038fd0f87184b944c2b7bb0b78f907d10ed",
+        "date_checked": "2026-10-12",
+        "source_model": "RS500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact RS500 SKU. US 5.2 ratio, 5.8 oz and 24.8 in retrieve match French 5.2, 165 g and 63 cm within published rounding.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "RS500",
+          "header": "nylon",
+          "cell": "160m/0,16mm"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-44c86370986da6487a0694c6": {
+      "reel_id": "daiwa-rs-500-rs500",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/65"
+      },
+      "raw": {
+        "anchor_id": "diam-44c86370986da6487a0694c6",
+        "reel_id": "daiwa-rs-500-rs500",
+        "material": "braid",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.06,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.06,
+          "diameter_in": 0.002362204724409449,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "200m/0,06mm",
+        "source_type": "manufacturer_product_page",
+        "source_id": "615c853f98ab7369",
+        "source_url": "https://daiwa-france.com/produits/moulinets/rs-2024",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/615c853f98ab7369.txt",
+        "source_sha256": "7771d452fb1fbec19299b34a14d58038fd0f87184b944c2b7bb0b78f907d10ed",
+        "date_checked": "2026-10-12",
+        "source_model": "RS500",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact RS500 SKU and matching physical specifications. Explicit source mm value retained, not converted from PE.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "RS500",
+          "header": "tresse",
+          "cell": "200m/0,06mm"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-3313a4dd90b1fabc70685687": {
+      "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/66"
+      },
+      "raw": {
+        "anchor_id": "diam-3313a4dd90b1fabc70685687",
+        "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 175,
+          "capacity_yards": 191.38232720909886
+        },
+        "original_text": "175/0.20 130/0.23 100/0.25",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP30",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP30",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "175/0.20 130/0.23 100/0.25"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-156bb614b3360342f6871794": {
+      "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/67"
+      },
+      "raw": {
+        "anchor_id": "diam-156bb614b3360342f6871794",
+        "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.23,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.23,
+          "diameter_in": 0.009055118110236222,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "175/0.20 130/0.23 100/0.25",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP30",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP30",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "175/0.20 130/0.23 100/0.25"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-eed714d5dbe21be6d0e77314": {
+      "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/68"
+      },
+      "raw": {
+        "anchor_id": "diam-eed714d5dbe21be6d0e77314",
+        "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 100,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 100,
+          "capacity_yards": 109.36132983377078
+        },
+        "original_text": "175/0.20 130/0.23 100/0.25",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP30",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP30",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "175/0.20 130/0.23 100/0.25"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-6937d9e1dfe397d25ab2fb24": {
+      "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/69"
+      },
+      "raw": {
+        "anchor_id": "diam-6937d9e1dfe397d25ab2fb24",
+        "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 220,
+          "capacity_yards": 240.59492563429572
+        },
+        "original_text": "220/0.25 190/0.28 160/0.33",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP40",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP40",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "220/0.25 190/0.28 160/0.33"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-fa1420731c704736e357c648": {
+      "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/70"
+      },
+      "raw": {
+        "anchor_id": "diam-fa1420731c704736e357c648",
+        "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.28,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 190,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.28,
+          "diameter_in": 0.011023622047244096,
+          "capacity_meters": 190,
+          "capacity_yards": 207.78652668416447
+        },
+        "original_text": "220/0.25 190/0.28 160/0.33",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP40",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP40",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "220/0.25 190/0.28 160/0.33"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-4cd7e7fe8fec18bd790d8471": {
+      "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/71"
+      },
+      "raw": {
+        "anchor_id": "diam-4cd7e7fe8fec18bd790d8471",
+        "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.33,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.33,
+          "diameter_in": 0.01299212598425197,
+          "capacity_meters": 160,
+          "capacity_yards": 174.97812773403325
+        },
+        "original_text": "220/0.25 190/0.28 160/0.33",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP40",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP40",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "220/0.25 190/0.28 160/0.33"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-fc7994a588cfe389d49057b0": {
+      "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/72"
+      },
+      "raw": {
+        "anchor_id": "diam-fc7994a588cfe389d49057b0",
+        "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.33,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 255,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.33,
+          "diameter_in": 0.01299212598425197,
+          "capacity_meters": 255,
+          "capacity_yards": 278.8713910761155
+        },
+        "original_text": "255/0.33 195/0.36 180/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP50",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP50",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "255/0.33 195/0.36 180/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-142369d680523ff786af2a28": {
+      "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/73"
+      },
+      "raw": {
+        "anchor_id": "diam-142369d680523ff786af2a28",
+        "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 195,
+          "capacity_yards": 213.25459317585302
+        },
+        "original_text": "255/0.33 195/0.36 180/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP50",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP50",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "255/0.33 195/0.36 180/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-e802d3bee19eee8bdeb6f499": {
+      "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/74"
+      },
+      "raw": {
+        "anchor_id": "diam-e802d3bee19eee8bdeb6f499",
+        "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "255/0.33 195/0.36 180/0.38",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP50",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP50",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "255/0.33 195/0.36 180/0.38"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-c7b69374095fb8cb082e6a2e": {
+      "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/75"
+      },
+      "raw": {
+        "anchor_id": "diam-c7b69374095fb8cb082e6a2e",
+        "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "diameter_in": 0.014173228346456693,
+          "capacity_meters": 220,
+          "capacity_yards": 240.59492563429572
+        },
+        "original_text": "220/0.36 200/0.38 135/0.46",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP60",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP60",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "220/0.36 200/0.38 135/0.46"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-14fb1bf33ad51bb1b839d7df": {
+      "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/76"
+      },
+      "raw": {
+        "anchor_id": "diam-14fb1bf33ad51bb1b839d7df",
+        "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "diameter_in": 0.014960629921259844,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "220/0.36 200/0.38 135/0.46",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP60",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP60",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "220/0.36 200/0.38 135/0.46"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-b03943c4a43bd79071108c45": {
+      "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/77"
+      },
+      "raw": {
+        "anchor_id": "diam-b03943c4a43bd79071108c45",
+        "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 135,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 135,
+          "capacity_yards": 147.63779527559055
+        },
+        "original_text": "220/0.36 200/0.38 135/0.46",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP60",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP60",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "220/0.36 200/0.38 135/0.46"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-915a9f05c6fabb42f905ed86": {
+      "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/78"
+      },
+      "raw": {
+        "anchor_id": "diam-915a9f05c6fabb42f905ed86",
+        "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "diameter_in": 0.018110236220472444,
+          "capacity_meters": 320,
+          "capacity_yards": 349.9562554680665
+        },
+        "original_text": "320/0.46 270/0.48 220/0.56",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP80",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP80",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "320/0.46 270/0.48 220/0.56"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-4320c3c09eeb2eaec726d0bb": {
+      "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/79"
+      },
+      "raw": {
+        "anchor_id": "diam-4320c3c09eeb2eaec726d0bb",
+        "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 270,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "diameter_in": 0.01889763779527559,
+          "capacity_meters": 270,
+          "capacity_yards": 295.2755905511811
+        },
+        "original_text": "320/0.46 270/0.48 220/0.56",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP80",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP80",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "320/0.46 270/0.48 220/0.56"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-e6b85d7d514ae462ad897bc5": {
+      "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+      "origin": {
+        "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
+        "pointer": "/80"
+      },
+      "raw": {
+        "anchor_id": "diam-e6b85d7d514ae462ad897bc5",
+        "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.56,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.56,
+          "diameter_in": 0.022047244094488192,
+          "capacity_meters": 220,
+          "capacity_yards": 240.59492563429572
+        },
+        "original_text": "320/0.46 270/0.48 220/0.56",
+        "source_type": "manufacturer_product_page",
+        "source_id": "64aa284865ce7307",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+        "evidence_file": "research/product-expansion-2026-10-12/sources/64aa284865ce7307.txt",
+        "source_sha256": "e3dc5445c939199ef597d717d3340a85fce21c7d6929ce1b26dce0fc6293f48a",
+        "date_checked": "2026-10-12",
+        "source_model": "TIGRSP80",
+        "exact_model_verified": true,
+        "model_match_evidence": "Exact manufacturer model or numeric product SKU matches the reel record.",
+        "confidence": "high",
+        "status": "verified_source",
+        "source_locator": {
+          "identity": "TIGRSP80",
+          "header": "Mono Capacity (m/mm)",
+          "cell": "320/0.46 270/0.48 220/0.56"
+        },
+        "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
     }
   },
   "photo_records": {

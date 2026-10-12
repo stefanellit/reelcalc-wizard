@@ -3438,8 +3438,14 @@
       "sourceStatus": "verified",
       "verification": "exact-family-source",
       "terms": [
-        { "name": "MGL Rotor", "clause": "makes it easier to start and stop the retrieve when working a lure" },
-        { "name": "HAGANE Body", "clause": "uses a rigid magnesium frame to limit flex under load" }
+        {
+          "name": "MGL Rotor",
+          "clause": "makes it easier to start and stop the retrieve when working a lure"
+        },
+        {
+          "name": "HAGANE Body",
+          "clause": "uses a rigid magnesium frame to limit flex under load"
+        }
       ],
       "excludedBySize": {},
       "notes": "Verified against Shimano's Exsence A overview and EXSC3000MHGA / EXS4000MXGA lineup. Do not transfer these features to another Exsence generation."
@@ -3451,8 +3457,14 @@
       "sourceStatus": "verified",
       "verification": "exact-family-source",
       "terms": [
-        { "name": "Propulsion Line Management System", "clause": "uses an angled spool lip to help line leave the spool with less friction" },
-        { "name": "G-Free Body", "clause": "positions the reel's center of gravity closer to your hand" }
+        {
+          "name": "Propulsion Line Management System",
+          "clause": "uses an angled spool lip to help line leave the spool with less friction"
+        },
+        {
+          "name": "G-Free Body",
+          "clause": "positions the reel's center of gravity closer to your hand"
+        }
       ],
       "excludedBySize": {},
       "notes": "Verified against Shimano's Nexave FI overview and exact FI lineup, including boxed and clamshell versions."
@@ -3464,8 +3476,14 @@
       "sourceStatus": "verified",
       "verification": "exact-family-source",
       "terms": [
-        { "name": "MGL Rotor", "clause": "uses lightweight CI4+ construction for easy start-and-stop retrieves" },
-        { "name": "Anti-Twist Fin", "clause": "helps keep slack line from dropping below the spool" }
+        {
+          "name": "MGL Rotor",
+          "clause": "uses lightweight CI4+ construction for easy start-and-stop retrieves"
+        },
+        {
+          "name": "Anti-Twist Fin",
+          "clause": "helps keep slack line from dropping below the spool"
+        }
       ],
       "excludedBySize": {},
       "notes": "Verified against Shimano's TwinPower XD FB overview and feature explanations. Applies to FB, not the earlier FA."
@@ -3492,6 +3510,158 @@
       ],
       "excludedBySize": {},
       "notes": "Terms are present on the cited exact-family manufacturer source and are explained conservatively for angler-facing copy."
+    },
+    "PENN|Fierce V": {
+      "brand": "PENN",
+      "model": "Fierce V",
+      "sourceUrl": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "CNC Gear technology",
+          "clause": "handles the gearing"
+        },
+        {
+          "name": "HT-100 carbon-fiber drag washers",
+          "clause": "provide drag pressure when a fish takes line"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Abu Garcia|Ambassadeur C1": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur C1",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "The 4-pin centrifugal brake",
+          "clause": "provides casting control"
+        },
+        {
+          "name": "The synchronized levelwind",
+          "clause": "distributes line across the spool"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Abu Garcia|Ambassadeur C1 Line Counter": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur C1 Line Counter",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "The lighted digital line counter",
+          "clause": "helps repeat a line-out setting"
+        },
+        {
+          "name": "The synchronized levelwind",
+          "clause": "distributes line across the spool"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Abu Garcia|Ambassadeur C2": {
+      "brand": "Abu Garcia",
+      "model": "Ambassadeur C2",
+      "sourceUrl": "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "The 6-pin centrifugal brake",
+          "clause": "provides adjustable casting control"
+        },
+        {
+          "name": "The synchronized levelwind",
+          "clause": "distributes line across the spool"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Lew's|HyperMag Shallow Spool": {
+      "brand": "Lew's",
+      "model": "HyperMag Shallow Spool",
+      "sourceUrl": "https://www.lews.com/en/shop/new-products/hmssrsg2",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "EvenLay slow oscillation",
+          "clause": "guides the line onto its shallow spool"
+        },
+        {
+          "name": "The magnesium frame",
+          "clause": "keeps the listed reel weight at 7 oz"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Daiwa|RS": {
+      "brand": "Daiwa",
+      "model": "RS",
+      "sourceUrl": "https://daiwa.us/products/2026-rs-ultralight",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "Infinite Anti-Reverse",
+          "clause": "limits backward handle movement"
+        },
+        {
+          "name": "The aluminum spool",
+          "clause": "holds the line on this compact ultralight reel"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Lew's|MACH Bottomland Baitcast": {
+      "brand": "Lew's",
+      "model": "MACH Bottomland Baitcast",
+      "sourceUrl": "https://www.lews.com/en/shop/new-products/moblcmbc",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "The MC1 magnetic brake",
+          "clause": "provides adjustable casting control"
+        },
+        {
+          "name": "The graphite frame",
+          "clause": "is part of the supplied combo reel"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
+    },
+    "Lew's|MACH Bottomland Spinning": {
+      "brand": "Lew's",
+      "model": "MACH Bottomland Spinning",
+      "sourceUrl": "https://www.lews.com/en/shop/new-products/moblcmbs",
+      "sourceStatus": "verified",
+      "verification": "verified-features",
+      "terms": [
+        {
+          "name": "The braid-ready aluminum spool",
+          "clause": "is part of the supplied combo reel"
+        },
+        {
+          "name": "The multi-disc drag",
+          "clause": "controls line release under load"
+        }
+      ],
+      "excludedBySize": {},
+      "notes": "Manufacturer feature claims paraphrased in their spool/setup context; not hands-on testing."
     }
   }
 }

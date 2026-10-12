@@ -1,5 +1,5 @@
 {
-  "version": "15",
+  "version": 22,
   "collection": "lines",
   "pages": {
     "powerpro-spectra-braid-diameter-capacity-guide": {
@@ -1081,6 +1081,15 @@
       "url": "https://www.reelcalc.com/lines/p/kastking-destron-monofilament-diameter-capacity-guide",
       "image": "https://stefanellit.github.io/reelcalc-wizard/assets/line-pages/full-catalog/recovery-round2/kastking-vicious/kastking-destron-monofilament.jpg",
       "sku": "RCLE4C558737BD116B05"
+    },
+    "fins-bfs-ultralight-braid-diameter-capacity-guide": {
+      "id": "fins-bfs-ultralight",
+      "title": "FINS BFS Ultralight Braid",
+      "seoTitle": "FINS BFS Ultralight Diameter & Reel Capacity | ReelCalc",
+      "seoDescription": "FINS BFS Ultralight 4-15 lb diameter chart, spool lengths and a reel capacity calculator. Plan a BFS or ultralight setup with optional backing.",
+      "url": "https://www.reelcalc.com/lines/p/fins-bfs-ultralight-braid-diameter-capacity-guide",
+      "image": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/fins-bfs-ultralight.png",
+      "sku": "RCL510085F0DA03EACF5"
     }
   }
 }

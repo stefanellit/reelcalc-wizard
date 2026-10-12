@@ -27125,5 +27125,161 @@
       "evidence": "Visually checked 2014 US catalog page 6, LEFT FluoroCast table: 4 lb, 0.007 in, Clear dot; 4-17 lb filler 200 yds and pony 100 yds legends. Millimeters converted from published inches x 25.4. Not right-hand 100% Fluoro table."
     },
     "source_scope_label": "2014 US catalog; Clear; 100/200 yd"
+  },
+  {
+    "id": "fins-bfs-ultralight-braid-4",
+    "brand": "FINS",
+    "model": "BFS Ultralight",
+    "type": "Braid",
+    "lb": 4,
+    "dia_mm": 0.053,
+    "dia_in": 0.0020866141732283467,
+    "published_dia_in": 0.002,
+    "diameter_basis": "manufacturer-mm-converted-to-in",
+    "source_note": "Checked 2026-10-12. Exact manufacturer millimeter diameter retained. Calculation inches are mm / 25.4 without rounding; rounded published inches are preserved separately.",
+    "search_text": "fins bfs ultralight braid 4 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      500
+    ],
+    "retail_packages": [],
+    "colors": [
+      "Dark Green",
+      "Chartreuse"
+    ],
+    "construction": "8-carrier braid",
+    "product_source_url": "https://www.finsfishing.com/products/bfs-ultralight",
+    "diameter_source_url": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids"
+  },
+  {
+    "id": "fins-bfs-ultralight-braid-6",
+    "brand": "FINS",
+    "model": "BFS Ultralight",
+    "type": "Braid",
+    "lb": 6,
+    "dia_mm": 0.074,
+    "dia_in": 0.0029133858267716534,
+    "published_dia_in": 0.003,
+    "diameter_basis": "manufacturer-mm-converted-to-in",
+    "source_note": "Checked 2026-10-12. Exact manufacturer millimeter diameter retained. Calculation inches are mm / 25.4 without rounding; rounded published inches are preserved separately.",
+    "search_text": "fins bfs ultralight braid 6 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      500
+    ],
+    "retail_packages": [],
+    "colors": [
+      "Dark Green",
+      "Chartreuse"
+    ],
+    "construction": "8-carrier braid",
+    "product_source_url": "https://www.finsfishing.com/products/bfs-ultralight",
+    "diameter_source_url": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids"
+  },
+  {
+    "id": "fins-bfs-ultralight-braid-8",
+    "brand": "FINS",
+    "model": "BFS Ultralight",
+    "type": "Braid",
+    "lb": 8,
+    "dia_mm": 0.09,
+    "dia_in": 0.003543307086614173,
+    "published_dia_in": 0.0035,
+    "diameter_basis": "manufacturer-mm-converted-to-in",
+    "source_note": "Checked 2026-10-12. Exact manufacturer millimeter diameter retained. Calculation inches are mm / 25.4 without rounding; rounded published inches are preserved separately.",
+    "search_text": "fins bfs ultralight braid 8 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      500
+    ],
+    "retail_packages": [],
+    "colors": [
+      "Dark Green",
+      "Chartreuse"
+    ],
+    "construction": "8-carrier braid",
+    "product_source_url": "https://www.finsfishing.com/products/bfs-ultralight",
+    "diameter_source_url": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids"
+  },
+  {
+    "id": "fins-bfs-ultralight-braid-10",
+    "brand": "FINS",
+    "model": "BFS Ultralight",
+    "type": "Braid",
+    "lb": 10,
+    "dia_mm": 0.104,
+    "dia_in": 0.004094488188976378,
+    "published_dia_in": 0.004,
+    "diameter_basis": "manufacturer-mm-converted-to-in",
+    "source_note": "Checked 2026-10-12. Exact manufacturer millimeter diameter retained. Calculation inches are mm / 25.4 without rounding; rounded published inches are preserved separately.",
+    "search_text": "fins bfs ultralight braid 10 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      500
+    ],
+    "retail_packages": [],
+    "colors": [
+      "Dark Green",
+      "Chartreuse"
+    ],
+    "construction": "8-carrier braid",
+    "product_source_url": "https://www.finsfishing.com/products/bfs-ultralight",
+    "diameter_source_url": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids"
+  },
+  {
+    "id": "fins-bfs-ultralight-braid-12",
+    "brand": "FINS",
+    "model": "BFS Ultralight",
+    "type": "Braid",
+    "lb": 12,
+    "dia_mm": 0.117,
+    "dia_in": 0.004606299212598425,
+    "published_dia_in": 0.0045,
+    "diameter_basis": "manufacturer-mm-converted-to-in",
+    "source_note": "Checked 2026-10-12. Exact manufacturer millimeter diameter retained. Calculation inches are mm / 25.4 without rounding; rounded published inches are preserved separately.",
+    "search_text": "fins bfs ultralight braid 12 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      500
+    ],
+    "retail_packages": [],
+    "colors": [
+      "Dark Green",
+      "Chartreuse"
+    ],
+    "construction": "8-carrier braid",
+    "product_source_url": "https://www.finsfishing.com/products/bfs-ultralight",
+    "diameter_source_url": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids"
+  },
+  {
+    "id": "fins-bfs-ultralight-braid-15",
+    "brand": "FINS",
+    "model": "BFS Ultralight",
+    "type": "Braid",
+    "lb": 15,
+    "dia_mm": 0.128,
+    "dia_in": 0.005039370078740158,
+    "published_dia_in": 0.005,
+    "diameter_basis": "manufacturer-mm-converted-to-in",
+    "source_note": "Checked 2026-10-12. Exact manufacturer millimeter diameter retained. Calculation inches are mm / 25.4 without rounding; rounded published inches are preserved separately.",
+    "search_text": "fins bfs ultralight braid 15 lb",
+    "role": "mainline",
+    "spool_sizes_yd": [
+      150,
+      500
+    ],
+    "retail_packages": [],
+    "colors": [
+      "Dark Green",
+      "Chartreuse"
+    ],
+    "construction": "8-carrier braid",
+    "product_source_url": "https://www.finsfishing.com/products/bfs-ultralight",
+    "diameter_source_url": "https://www.finsfishing.com/blogs/news/introducing-bfs-ultralight-an-american-made-answer-to-japanese-bait-finesse-system-braids"
   }
 ]

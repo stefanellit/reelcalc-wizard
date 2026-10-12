@@ -135573,5 +135573,3490 @@
       "https://fish.shimano.com/ja-JP/product/reel/baitlurecasting/a075f00004dfpu0qad.html"
     ],
     "spec_notes": "JDM model: do not merge with a similarly named U.S. generation without exact product-code confirmation."
+  },
+  {
+    "id": "penn-fierce-v-1000-frcv1000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV1000",
+    "size_label": "1000",
+    "size_class": "1000",
+    "recommendation_size_class": 1000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 135,
+    "rated_line_lb": 4,
+    "rated_line_diameter_in": 0.008,
+    "spool_space": 0.00864,
+    "capacity_options": [
+      {
+        "lb": 4,
+        "yards": 135,
+        "diameter_in": 0.008,
+        "spool_space": 0.00864,
+        "raw": "4-135"
+      }
+    ],
+    "capacity_note": "4-135",
+    "braid_capacity_note": "8-130",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": 9,
+    "weight_oz": 7.8,
+    "line_retrieve_in": 22,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "8-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
+    "reelcalc_use_case": "light inshore and freshwater fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 1000 frcv1000 light inshore and freshwater fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653901",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 56,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-6399cdc37cb49db2cb65852c",
+        "reel_id": "penn-fierce-v-1000-frcv1000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 125,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "capacity_meters": 125
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-6b7eedfd0b302d551b7a8b93",
+        "reel_id": "penn-fierce-v-1000-frcv1000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.18,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 115,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.18,
+          "capacity_meters": 115
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      }
+    ]
+  },
+  {
+    "id": "penn-fierce-v-2000-frcv2000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV2000",
+    "size_label": "2000",
+    "size_class": "2000",
+    "recommendation_size_class": 2000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 180,
+    "rated_line_lb": 6,
+    "rated_line_diameter_in": 0.0095,
+    "spool_space": 0.016245,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 180,
+        "diameter_in": 0.0095,
+        "spool_space": 0.016245,
+        "raw": "6-180"
+      }
+    ],
+    "capacity_note": "6-180",
+    "braid_capacity_note": "10-180",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 10,
+    "weight_oz": 9.49,
+    "line_retrieve_in": 29.5,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "8-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
+    "reelcalc_use_case": "light inshore and freshwater fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 2000 frcv2000 light inshore and freshwater fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653902",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 75,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-d937c4c6e36b7da5da0b9083",
+        "reel_id": "penn-fierce-v-2000-frcv2000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.23,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.23,
+          "capacity_meters": 165
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-685bb3608c6ca60bde458742",
+        "reel_id": "penn-fierce-v-2000-frcv2000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.23,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.23,
+          "capacity_meters": 165
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      }
+    ]
+  },
+  {
+    "id": "penn-fierce-v-2500-frcv2500",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV2500",
+    "size_label": "2500",
+    "size_class": "2500",
+    "recommendation_size_class": 2500,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 175,
+    "rated_line_lb": 8,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.021175,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 175,
+        "diameter_in": 0.011,
+        "spool_space": 0.021175,
+        "raw": "8-175"
+      }
+    ],
+    "capacity_note": "8-175",
+    "braid_capacity_note": "15-220",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 12,
+    "weight_oz": 9.59,
+    "line_retrieve_in": 32.7,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "10-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-12 lb mono/fluoro",
+    "reelcalc_use_case": "inshore lures and light bait fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 2500 frcv2500 inshore lures and light bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653904",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 83,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-ced79d500843d37b27f23989",
+        "reel_id": "penn-fierce-v-2500-frcv2500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.28,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.28,
+          "capacity_meters": 160
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-f1e46c51f9399a169291ebce",
+        "reel_id": "penn-fierce-v-2500-frcv2500",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "capacity_meters": 200
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      }
+    ]
+  },
+  {
+    "id": "penn-fierce-v-3000-frcv3000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV3000",
+    "size_label": "3000",
+    "size_class": "3000",
+    "recommendation_size_class": 3000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 165,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.02376,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 165,
+        "diameter_in": 0.012,
+        "spool_space": 0.02376,
+        "raw": "10-165"
+      }
+    ],
+    "capacity_note": "10-165",
+    "braid_capacity_note": "20-180",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 15,
+    "weight_oz": 11.5,
+    "line_retrieve_in": 35,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "10-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-12 lb mono/fluoro",
+    "reelcalc_use_case": "inshore lures and light bait fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 3000 frcv3000 inshore lures and light bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653906",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 89,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-7983ab0346aacae2045c3c2e",
+        "reel_id": "penn-fierce-v-3000-frcv3000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.31,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 150,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.31,
+          "capacity_meters": 150
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-eec115b6c564d6c5c8892422",
+        "reel_id": "penn-fierce-v-3000-frcv3000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 165
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      }
+    ]
+  },
+  {
+    "id": "penn-fierce-v-4000-frcv4000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV4000",
+    "size_label": "4000",
+    "size_class": "4000",
+    "recommendation_size_class": 4000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 220,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.03168,
+    "capacity_options": [
+      {
+        "lb": 10,
+        "yards": 220,
+        "diameter_in": 0.012,
+        "spool_space": 0.03168,
+        "raw": "10-220"
+      }
+    ],
+    "capacity_note": "10-220",
+    "braid_capacity_note": "20-260",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "6.2:1",
+    "max_drag_lb": 15,
+    "weight_oz": 12.1,
+    "line_retrieve_in": 36.6,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "15-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "10-15 lb mono/fluoro",
+    "reelcalc_use_case": "inshore lures and light bait fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 4000 frcv4000 inshore lures and light bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653908",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 93,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-474996d4326a543877fa9b73",
+        "reel_id": "penn-fierce-v-4000-frcv4000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.31,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.31,
+          "capacity_meters": 200
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-96b3bef5c146655789ea4320",
+        "reel_id": "penn-fierce-v-4000-frcv4000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 240
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      }
+    ]
+  },
+  {
+    "id": "penn-fierce-v-5000-frcv5000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV5000",
+    "size_label": "5000",
+    "size_class": "5000",
+    "recommendation_size_class": 5000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 200,
+    "rated_line_lb": 15,
+    "rated_line_diameter_in": 0.015,
+    "spool_space": 0.045,
+    "capacity_options": [
+      {
+        "lb": 15,
+        "yards": 200,
+        "diameter_in": 0.015,
+        "spool_space": 0.045,
+        "raw": "15-200"
+      }
+    ],
+    "capacity_note": "15-200",
+    "braid_capacity_note": "30-300",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.6:1",
+    "max_drag_lb": 25,
+    "weight_oz": null,
+    "line_retrieve_in": 35.8,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "15-25 lb mono/fluoro",
+    "reelcalc_use_case": "heavier inshore bait fishing and surf fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 5000 frcv5000 heavier inshore bait fishing and surf fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653910",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 91,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-d7af894e26ee9ac4d10485a5",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 185,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 185
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-033ca7f2bf1c2cb2e9c8e3b4",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 275,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 275
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-8242181d01464e8113ab4054",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 205,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 205
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-ba5b11faab73673a177092d2",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 125,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 125
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-cb54b52f3c1e06ea6f7dcf6f",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 385,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 385
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-4a56da8572f01cb15e0d4458",
+        "reel_id": "penn-fierce-v-5000-frcv5000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 220
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      }
+    ],
+    "spec_review_notes": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable."
+  },
+  {
+    "id": "penn-fierce-v-6000-frcv6000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV6000",
+    "size_label": "6000",
+    "size_class": "6000",
+    "recommendation_size_class": 6000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 230,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.07452,
+    "capacity_options": [
+      {
+        "lb": 20,
+        "yards": 230,
+        "diameter_in": 0.018,
+        "spool_space": 0.07452,
+        "raw": "20-230"
+      }
+    ],
+    "capacity_note": "20-230",
+    "braid_capacity_note": "40-390",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+    "source_file": "research/product-expansion-2026-10-12/sources/43285154ec6b6859.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.6:1",
+    "max_drag_lb": 25,
+    "weight_oz": null,
+    "line_retrieve_in": 40.9,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "15-25 lb mono/fluoro",
+    "reelcalc_use_case": "heavier inshore bait fishing and surf fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately.",
+    "search_text": "penn fierce v 6000 frcv6000 heavier inshore bait fishing and surf fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653912",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 104,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-9f1d71d00d740d8fae7c8d94",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 210
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-51bd071fd16cc28c9ba90e10",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 355,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 355
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-f190838a183e583d5b0c0781",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 305,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 305
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-953a874f175084881f960cf2",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 190,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "capacity_meters": 190
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-c3739fdb5341c56d112f259e",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 450,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 450
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-bd5bab3075edcfea34c7d367",
+        "reel_id": "penn-fierce-v-6000-frcv6000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 305,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 305
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      }
+    ],
+    "spec_review_notes": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable."
+  },
+  {
+    "id": "penn-fierce-v-8000-frcv8000",
+    "brand": "PENN",
+    "model": "Fierce V",
+    "sku": "FRCV8000",
+    "size_label": "8000",
+    "size_class": "8000",
+    "recommendation_size_class": 8000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 310,
+    "rated_line_lb": 25,
+    "rated_line_diameter_in": 0.019,
+    "spool_space": 0.11191,
+    "capacity_options": [
+      {
+        "lb": 25,
+        "yards": 310,
+        "diameter_in": 0.019,
+        "spool_space": 0.11191,
+        "raw": "25-310"
+      }
+    ],
+    "capacity_note": "25-310",
+    "braid_capacity_note": "65-390",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332",
+    "source_file": "research/product-expansion-2026-10-12/sources/cee1e6fbb833a5a9.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.3:1",
+    "max_drag_lb": 30,
+    "weight_oz": null,
+    "line_retrieve_in": 44.1,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "40-65 lb braid",
+    "reelcalc_recommended_mono_fluoro": "20-30 lb mono/fluoro",
+    "reelcalc_use_case": "heavier inshore bait fishing and surf fishing",
+    "notes": "Fierce V generation, separate from Fierce IV. Exact US/EU product number used for diameter evidence. Dealer weight/retrieve supplement retained separately. US selected-variant page checked separately: mono 25 lb/310 yd, braid 65 lb/390 yd. AU lists 60 lb instead; not used for the US pound-test record.",
+    "search_text": "penn fierce v 8000 frcv8000 heavier inshore bait fishing and surf fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770",
+      "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+      "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1653914",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 112,
+    "ipt_original_unit": "cm/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.pecheur.com/en/gb/buy-spinning-reel-penn-fierce-v-live-401820.html",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-dd2c8796098c98f70b889ea6",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 285,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "capacity_meters": 285
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-02cc8d2dd5aa0563129a25e0",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 355,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 355
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.penn-fishing.co.uk/products/fierce-v-spinning-reel-1656770"
+      },
+      {
+        "id": "diam-6aa48ebf98310be4f3bfd136",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 310,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 310
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-44bc8b43025b023a62bb23e1",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.56,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.56,
+          "capacity_meters": 210
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-600b14a806aa192ffabedc6d",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 435,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 435
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      },
+      {
+        "id": "diam-11aa6211d44fb51ea1021689",
+        "reel_id": "penn-fierce-v-8000-frcv8000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 315,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "capacity_meters": 315
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://pennfishing.com.au/penn-fierce-v/"
+      }
+    ],
+    "spec_review_notes": "Net weight unresolved: exact-SKU European dealer and Australian manufacturer weights disagree. Full page held; capacity remains usable."
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C1",
+    "sku": "C1-5500",
+    "size_label": "5500",
+    "size_class": "5500",
+    "recommendation_size_class": 5500,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 230,
+    "rated_line_lb": 14,
+    "rated_line_diameter_in": 0.015,
+    "spool_space": 0.05175,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 270,
+        "diameter_in": 0.014,
+        "spool_space": 0.05292,
+        "raw": "12-270"
+      },
+      {
+        "lb": 14,
+        "yards": 230,
+        "diameter_in": 0.015,
+        "spool_space": 0.05175,
+        "raw": "14-230"
+      },
+      {
+        "lb": 17,
+        "yards": 190,
+        "diameter_in": 0.018,
+        "spool_space": 0.06156,
+        "raw": "17-190"
+      }
+    ],
+    "capacity_note": "12-270, 14-230, 17-190",
+    "braid_capacity_note": "20-350, 30-265, 50-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+    "source_file": "research/product-expansion-2026-10-12/sources/912cc5a14768517c.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.1:1",
+    "max_drag_lb": 11,
+    "weight_oz": 10.58,
+    "line_retrieve_in": 25,
+    "bearings": "2",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-20 lb mono/fluoro",
+    "reelcalc_use_case": "larger lures, bait fishing and trolling",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c1 5500 c1-5500 larger lures, bait fishing and trolling",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+      "https://www.firstchoicemarine.com/products/abu-garcia-ambassadeur-c1-5500-round-reel-1649410"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649410",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 25,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.firstchoicemarine.com/products/abu-garcia-ambassadeur-c1-5500-round-reel-1649410",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-1eda3b87b9a20ce7f9371813",
+        "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.32,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 245,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.32,
+          "capacity_meters": 245
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-74227a73f1c004390c29ab4d",
+        "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "capacity_meters": 210
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-da091a0aed93b84563716f1b",
+        "reel_id": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 175
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c1-round-reel-1656739"
+      }
+    ]
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C1",
+    "sku": "C1-6500",
+    "size_label": "6500",
+    "size_class": "6500",
+    "recommendation_size_class": 6500,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 255,
+    "rated_line_lb": 17,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.08262,
+    "capacity_options": [
+      {
+        "lb": 14,
+        "yards": 305,
+        "diameter_in": 0.015,
+        "spool_space": 0.068625,
+        "raw": "14-305"
+      },
+      {
+        "lb": 17,
+        "yards": 255,
+        "diameter_in": 0.018,
+        "spool_space": 0.08262,
+        "raw": "17-255"
+      },
+      {
+        "lb": 20,
+        "yards": 210,
+        "diameter_in": 0.018,
+        "spool_space": 0.06804,
+        "raw": "20-210"
+      }
+    ],
+    "capacity_note": "14-305, 17-255, 20-210",
+    "braid_capacity_note": "20-465, 30-350, 50-245",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+    "source_file": "research/product-expansion-2026-10-12/sources/912cc5a14768517c.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.1:1",
+    "max_drag_lb": 11,
+    "weight_oz": 10.58,
+    "line_retrieve_in": 25,
+    "bearings": "2",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-20 lb mono/fluoro",
+    "reelcalc_use_case": "larger lures, bait fishing and trolling",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c1 6500 c1-6500 larger lures, bait fishing and trolling",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+      "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-6500/"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649411",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 25,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-6500/",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-3b729711fb8e420c5f93df07",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "capacity_meters": 280
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-94c90dae290e0dd75474d00d",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 230
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-f905dee9b5b17f545ce5352e",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.42,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.42,
+          "capacity_meters": 195
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-3491245a873d723bd8bc5942",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 425,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 425
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-145ef404920ce61beeebaaef",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 320
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739"
+      },
+      {
+        "id": "diam-08c702c6c8540500e57e06c2",
+        "reel_id": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 225,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 225
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-round-reel-1656739"
+      }
+    ]
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C1",
+    "sku": "C1-7000",
+    "size_label": "7000",
+    "size_class": "7000",
+    "recommendation_size_class": 7000,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 250,
+    "rated_line_lb": 20,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.081,
+    "capacity_options": [
+      {
+        "lb": 17,
+        "yards": 325,
+        "diameter_in": 0.018,
+        "spool_space": 0.1053,
+        "raw": "17-325"
+      },
+      {
+        "lb": 20,
+        "yards": 250,
+        "diameter_in": 0.018,
+        "spool_space": 0.081,
+        "raw": "20-250"
+      },
+      {
+        "lb": 25,
+        "yards": 230,
+        "diameter_in": 0.019,
+        "spool_space": 0.08303,
+        "raw": "25-230"
+      }
+    ],
+    "capacity_note": "17-325, 20-250, 25-230",
+    "braid_capacity_note": "30-515, 40-420, 50-360",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c1-7000-round-reel-1656699",
+    "source_file": "research/product-expansion-2026-10-12/sources/c2423ad42682a68c.txt",
+    "data_warnings": [],
+    "gear_ratio": "4.1:1",
+    "max_drag_lb": 20,
+    "weight_oz": 21.45,
+    "line_retrieve_in": 22,
+    "bearings": "2+1",
+    "reelcalc_recommended_braid": "40-65 lb braid",
+    "reelcalc_recommended_mono_fluoro": "17-25 lb mono/fluoro",
+    "reelcalc_use_case": "heavier bait fishing and trolling",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c1 7000 c1-7000 heavier bait fishing and trolling",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c1-7000-round-reel-1656699",
+      "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-7000/"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649425",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 22,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c1-7000/",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-66e2a94396705d64232d096c",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 300
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699"
+      },
+      {
+        "id": "diam-303813466aa9b46c5809e314",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 230
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699"
+      },
+      {
+        "id": "diam-d6c0c509f25e3ac302b388c7",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.49,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.49,
+          "capacity_meters": 210
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699"
+      },
+      {
+        "id": "diam-021a06f3725168ead584ceb5",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 470,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 470
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699"
+      },
+      {
+        "id": "diam-5dc3ecbda7ab4683814f8af4",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 385,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 385
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699"
+      },
+      {
+        "id": "diam-71fd350a50bb8341a652c27f",
+        "reel_id": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 330,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 330
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-7000-round-reel-1656699"
+      }
+    ]
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C1 Line Counter",
+    "sku": "C1-5500LC",
+    "size_label": "5500",
+    "size_class": "5500",
+    "recommendation_size_class": 5500,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 230,
+    "rated_line_lb": 14,
+    "rated_line_diameter_in": 0.015,
+    "spool_space": 0.05175,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 270,
+        "diameter_in": 0.014,
+        "spool_space": 0.05292,
+        "raw": "12-270"
+      },
+      {
+        "lb": 14,
+        "yards": 230,
+        "diameter_in": 0.015,
+        "spool_space": 0.05175,
+        "raw": "14-230"
+      },
+      {
+        "lb": 17,
+        "yards": 190,
+        "diameter_in": 0.018,
+        "spool_space": 0.06156,
+        "raw": "17-190"
+      }
+    ],
+    "capacity_note": "12-270, 14-230, 17-190",
+    "braid_capacity_note": "20-350, 30-265, 50-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+    "source_file": "research/product-expansion-2026-10-12/sources/a52ec0d89869967d.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.1:1",
+    "max_drag_lb": 11,
+    "weight_oz": 10.58,
+    "line_retrieve_in": 25,
+    "bearings": "2",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-20 lb mono/fluoro",
+    "reelcalc_use_case": "trolling and repeatable line deployment",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c1 line counter 5500 c1-5500lc trolling and repeatable line deployment",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+      "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-w-digital-line-counter-right-hand-c1-5500lc/"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649433",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 25,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-w-digital-line-counter-right-hand-c1-5500lc/",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-bd45263ab904771c464bfc76",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.32,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 245,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.32,
+          "capacity_meters": 245
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-7ddcf0f9de44f83cbe853486",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "capacity_meters": 210
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-9cddab44278b8b992722928a",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 175
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-0d5d903dc91bdcf180277323",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 320
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-9d5a0b19b9b20b3fd21d90e7",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 240
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-cdabad53c3ce8a3d077da6f0",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 170,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 170
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      }
+    ]
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C1 Line Counter",
+    "sku": "C1-6500LC",
+    "size_label": "6500",
+    "size_class": "6500",
+    "recommendation_size_class": 6500,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 255,
+    "rated_line_lb": 17,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.08262,
+    "capacity_options": [
+      {
+        "lb": 14,
+        "yards": 305,
+        "diameter_in": 0.015,
+        "spool_space": 0.068625,
+        "raw": "14-305"
+      },
+      {
+        "lb": 17,
+        "yards": 255,
+        "diameter_in": 0.018,
+        "spool_space": 0.08262,
+        "raw": "17-255"
+      },
+      {
+        "lb": 20,
+        "yards": 210,
+        "diameter_in": 0.018,
+        "spool_space": 0.06804,
+        "raw": "20-210"
+      }
+    ],
+    "capacity_note": "14-305, 17-255, 20-210",
+    "braid_capacity_note": "20-465, 30-350, 50-245",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+    "source_file": "research/product-expansion-2026-10-12/sources/a52ec0d89869967d.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.1:1",
+    "max_drag_lb": 11,
+    "weight_oz": 10.58,
+    "line_retrieve_in": 25,
+    "bearings": "2",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-20 lb mono/fluoro",
+    "reelcalc_use_case": "trolling and repeatable line deployment",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c1 line counter 6500 c1-6500lc trolling and repeatable line deployment",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+      "https://www.theoutdoorwarehouse.com/fishing-gear-equipment-supplies/abu-garcia-ambassadeur-c1-6500-round-baitcast-reel/"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649434",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 25,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://www.theoutdoorwarehouse.com/fishing-gear-equipment-supplies/abu-garcia-ambassadeur-c1-6500-round-baitcast-reel/",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-2f7d0536dbb90826e22353dc",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "capacity_meters": 280
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-79babce522fe1b9adb620135",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 230
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-66300a7fed30ca6cb29571f6",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.42,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.42,
+          "capacity_meters": 195
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-828a74d82d137cbe02209984",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 425,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 425
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-fba99d1ba839a741a43506e0",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 320
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      },
+      {
+        "id": "diam-5aa9de153bb5dd18a17ed449",
+        "reel_id": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 225,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 225
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c1-line-counter-reel-1656690"
+      }
+    ]
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C2",
+    "sku": "C2-5600",
+    "size_label": "5600",
+    "size_class": "5600",
+    "recommendation_size_class": 5600,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 230,
+    "rated_line_lb": 14,
+    "rated_line_diameter_in": 0.015,
+    "spool_space": 0.05175,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 270,
+        "diameter_in": 0.014,
+        "spool_space": 0.05292,
+        "raw": "12-270"
+      },
+      {
+        "lb": 14,
+        "yards": 230,
+        "diameter_in": 0.015,
+        "spool_space": 0.05175,
+        "raw": "14-230"
+      },
+      {
+        "lb": 17,
+        "yards": 190,
+        "diameter_in": 0.018,
+        "spool_space": 0.06156,
+        "raw": "17-190"
+      }
+    ],
+    "capacity_note": "12-270, 14-230, 17-190",
+    "braid_capacity_note": "20-350, 30-265, 50-185",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+    "source_file": "research/product-expansion-2026-10-12/sources/c966c7bcaf51804d.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.3:1",
+    "max_drag_lb": 12.5,
+    "weight_oz": 10.58,
+    "line_retrieve_in": 26,
+    "bearings": "3+1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-20 lb mono/fluoro",
+    "reelcalc_use_case": "larger lures, bait fishing and trolling",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c2 5600 c2-5600 larger lures, bait fishing and trolling",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+      "https://sm4sports.com/products/ambassadeur-round-reel-right-hand-c2-5600-1649415"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649415",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 26,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://sm4sports.com/products/ambassadeur-round-reel-right-hand-c2-5600-1649415",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-ae39018b861c361f9d91dbc9",
+        "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.32,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 245,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.32,
+          "capacity_meters": 245
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-2febc85233f228f73eca2c27",
+        "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 210,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "capacity_meters": 210
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-ddb0b0282de00ca0e5206af7",
+        "reel_id": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 175
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/abu-garcia-ambassadeur-c2-round-reel-1656740"
+      }
+    ]
+  },
+  {
+    "id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+    "brand": "Abu Garcia",
+    "model": "Ambassadeur C2",
+    "sku": "C2-6600",
+    "size_label": "6600",
+    "size_class": "6600",
+    "recommendation_size_class": 6600,
+    "reel_type": "round_baitcast",
+    "baitcaster_class": "round_casting",
+    "retrieve_hand": "RH",
+    "capacity_yards": 255,
+    "rated_line_lb": 17,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.08262,
+    "capacity_options": [
+      {
+        "lb": 14,
+        "yards": 305,
+        "diameter_in": 0.015,
+        "spool_space": 0.068625,
+        "raw": "14-305"
+      },
+      {
+        "lb": 17,
+        "yards": 255,
+        "diameter_in": 0.018,
+        "spool_space": 0.08262,
+        "raw": "17-255"
+      },
+      {
+        "lb": 20,
+        "yards": 210,
+        "diameter_in": 0.018,
+        "spool_space": 0.06804,
+        "raw": "20-210"
+      }
+    ],
+    "capacity_note": "14-305, 17-255, 20-210",
+    "braid_capacity_note": "20-465, 30-350, 50-245",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+    "source_file": "research/product-expansion-2026-10-12/sources/c966c7bcaf51804d.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.3:1",
+    "max_drag_lb": 12.5,
+    "weight_oz": 11.29,
+    "line_retrieve_in": 26,
+    "bearings": "3+1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-20 lb mono/fluoro",
+    "reelcalc_use_case": "larger lures, bait fishing and trolling",
+    "notes": "",
+    "search_text": "abu garcia ambassadeur c2 6600 c2-6600 larger lures, bait fishing and trolling",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+      "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c2-6600/"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1649416",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 26,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Exact-model dealer specification supplement",
+    "ipt_source_url": "https://consumermarinesupply.com/product/abu-garcia-ambassadeur-round-reel-right-hand-c2-6600/",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "medium",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-b1cacbdf537ec0b4d7ee0ba9",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "capacity_meters": 280
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-774a9d960091b11d6ae3eaa8",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 230
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-66eb224fcf6d18e896e7a968",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.42,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.42,
+          "capacity_meters": 195
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-155645a865e999bd383466f2",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.29,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 425,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.29,
+          "capacity_meters": 425
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-d8f20f878f6741bd642eb7b1",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 320
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740"
+      },
+      {
+        "id": "diam-39bf5aaa33d5f25bb576ad40",
+        "reel_id": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.41,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 225,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.41,
+          "capacity_meters": 225
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.abugarcia-fishing.eu/products/ambassadeur-c2-round-reel-1656740"
+      }
+    ]
+  },
+  {
+    "id": "lew-s-hypermag-shallow-spool-300-hm300ssg2",
+    "brand": "Lew's",
+    "model": "HyperMag Shallow Spool",
+    "sku": "HM300SSG2",
+    "size_label": "300",
+    "size_class": "300",
+    "recommendation_size_class": 3000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 120,
+    "rated_line_lb": 8,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.01452,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 120,
+        "diameter_in": 0.011,
+        "spool_space": 0.01452,
+        "raw": "8-120"
+      }
+    ],
+    "capacity_note": "8-120",
+    "braid_capacity_note": "10-180",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.lews.com/en/shop/new-products/hmssrsg2",
+    "source_file": "research/product-expansion-2026-10-12/sources/c3c7fb51f2033612.txt",
+    "data_warnings": [],
+    "gear_ratio": "7.0:1",
+    "max_drag_lb": 20,
+    "weight_oz": 7,
+    "line_retrieve_in": 40,
+    "bearings": "10+1",
+    "reelcalc_recommended_braid": "10-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-10 lb mono/fluoro",
+    "reelcalc_use_case": "finesse spinning and quick slack pickup",
+    "notes": "Manufacturer listed as coming soon when checked. Shallow-spool HM300SSG2 is distinct from HMS300. No manufacturer diameter found.",
+    "search_text": "lew's hypermag shallow spool 300 hm300ssg2 finesse spinning and quick slack pickup",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.lews.com/en/shop/new-products/hmssrsg2"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 40,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official manufacturer specifications",
+    "ipt_source_url": "https://www.lews.com/en/shop/new-products/hmssrsg2",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "high"
+  },
+  {
+    "id": "daiwa-rs-500-rs500",
+    "brand": "Daiwa",
+    "model": "RS",
+    "sku": "RS500",
+    "size_label": "500",
+    "size_class": "500",
+    "recommendation_size_class": 500,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 170,
+    "rated_line_lb": 4,
+    "rated_line_diameter_in": 0.008,
+    "spool_space": 0.01088,
+    "capacity_options": [
+      {
+        "lb": 4,
+        "yards": 170,
+        "diameter_in": 0.008,
+        "spool_space": 0.01088,
+        "raw": "4-170"
+      }
+    ],
+    "capacity_note": "4-170",
+    "braid_capacity_note": "6-220",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://daiwa.us/products/2026-rs-ultralight",
+    "source_file": "research/product-expansion-2026-10-12/sources/9d431c214042dc15.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": 6.6,
+    "weight_oz": 5.8,
+    "line_retrieve_in": 24.8,
+    "bearings": "3+1",
+    "reelcalc_recommended_braid": "4-8 lb braid",
+    "reelcalc_recommended_mono_fluoro": "2-4 lb mono/fluoro",
+    "reelcalc_use_case": "ultralight trout and panfish fishing",
+    "notes": "US RS500 specifications match the exact RS500 model on Daiwa France for ratio, weight and retrieve. France gives explicit mm, not PE, in the braid column.",
+    "search_text": "daiwa rs 500 rs500 ultralight trout and panfish fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://daiwa.us/products/2026-rs-ultralight"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 24.8,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official manufacturer specifications",
+    "ipt_source_url": "https://daiwa.us/products/2026-rs-ultralight",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "high",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-0df8b30b903ff87e77f42896",
+        "reel_id": "daiwa-rs-500-rs500",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.16,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.16,
+          "capacity_meters": 160
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://daiwa-france.com/produits/moulinets/rs-2024"
+      },
+      {
+        "id": "diam-44c86370986da6487a0694c6",
+        "reel_id": "daiwa-rs-500-rs500",
+        "material": "braid",
+        "original": {
+          "diameter": {
+            "value": 0.06,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.06,
+          "capacity_meters": 200
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://daiwa-france.com/produits/moulinets/rs-2024"
+      }
+    ]
+  },
+  {
+    "id": "shakespeare-tiger-spinning-30-tigrsp30",
+    "brand": "Shakespeare",
+    "model": "Tiger Spinning",
+    "sku": "TIGRSP30",
+    "size_label": "30",
+    "size_class": "3000",
+    "recommendation_size_class": 3000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 140,
+    "rated_line_lb": 6,
+    "rated_line_diameter_in": 0.0095,
+    "spool_space": 0.012635,
+    "capacity_options": [
+      {
+        "lb": 4,
+        "yards": 190,
+        "diameter_in": 0.008,
+        "spool_space": 0.01216,
+        "raw": "4-190"
+      },
+      {
+        "lb": 6,
+        "yards": 140,
+        "diameter_in": 0.0095,
+        "spool_space": 0.012635,
+        "raw": "6-140"
+      },
+      {
+        "lb": 8,
+        "yards": 110,
+        "diameter_in": 0.011,
+        "spool_space": 0.01331,
+        "raw": "8-110"
+      }
+    ],
+    "capacity_note": "4-190, 6-140, 8-110",
+    "braid_capacity_note": "",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+    "source_file": "research/product-expansion-2026-10-12/sources/38a3be27e17171d2.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": null,
+    "weight_oz": null,
+    "line_retrieve_in": null,
+    "bearings": "1",
+    "reelcalc_recommended_braid": "10-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-8 lb mono/fluoro",
+    "reelcalc_use_case": "general freshwater lure and bait fishing",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "search_text": "shakespeare tiger spinning 30 tigrsp30 general freshwater lure and bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1645661",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-3313a4dd90b1fabc70685687",
+        "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 175,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "capacity_meters": 175
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-156bb614b3360342f6871794",
+        "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.23,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.23,
+          "capacity_meters": 130
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-eed714d5dbe21be6d0e77314",
+        "reel_id": "shakespeare-tiger-spinning-30-tigrsp30",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 100,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "capacity_meters": 100
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      }
+    ]
+  },
+  {
+    "id": "shakespeare-tiger-spinning-40-tigrsp40",
+    "brand": "Shakespeare",
+    "model": "Tiger Spinning",
+    "sku": "TIGRSP40",
+    "size_label": "40",
+    "size_class": "4000",
+    "recommendation_size_class": 4000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 210,
+    "rated_line_lb": 10,
+    "rated_line_diameter_in": 0.012,
+    "spool_space": 0.03024,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 240,
+        "diameter_in": 0.011,
+        "spool_space": 0.02904,
+        "raw": "8-240"
+      },
+      {
+        "lb": 10,
+        "yards": 210,
+        "diameter_in": 0.012,
+        "spool_space": 0.03024,
+        "raw": "10-210"
+      },
+      {
+        "lb": 12,
+        "yards": 175,
+        "diameter_in": 0.014,
+        "spool_space": 0.0343,
+        "raw": "12-175"
+      }
+    ],
+    "capacity_note": "8-240, 10-210, 12-175",
+    "braid_capacity_note": "",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+    "source_file": "research/product-expansion-2026-10-12/sources/38a3be27e17171d2.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": null,
+    "weight_oz": null,
+    "line_retrieve_in": null,
+    "bearings": "1",
+    "reelcalc_recommended_braid": "15-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "8-12 lb mono/fluoro",
+    "reelcalc_use_case": "general freshwater lure and bait fishing",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "search_text": "shakespeare tiger spinning 40 tigrsp40 general freshwater lure and bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1645662",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-6937d9e1dfe397d25ab2fb24",
+        "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "capacity_meters": 220
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-fa1420731c704736e357c648",
+        "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.28,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 190,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.28,
+          "capacity_meters": 190
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-4cd7e7fe8fec18bd790d8471",
+        "reel_id": "shakespeare-tiger-spinning-40-tigrsp40",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.33,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.33,
+          "capacity_meters": 160
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      }
+    ]
+  },
+  {
+    "id": "shakespeare-tiger-spinning-50-tigrsp50",
+    "brand": "Shakespeare",
+    "model": "Tiger Spinning",
+    "sku": "TIGRSP50",
+    "size_label": "50",
+    "size_class": "5000",
+    "recommendation_size_class": 5000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 215,
+    "rated_line_lb": 14,
+    "rated_line_diameter_in": 0.015,
+    "spool_space": 0.048375,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 280,
+        "diameter_in": 0.014,
+        "spool_space": 0.05488,
+        "raw": "12-280"
+      },
+      {
+        "lb": 14,
+        "yards": 215,
+        "diameter_in": 0.015,
+        "spool_space": 0.048375,
+        "raw": "14-215"
+      },
+      {
+        "lb": 17,
+        "yards": 195,
+        "diameter_in": 0.018,
+        "spool_space": 0.06318,
+        "raw": "17-195"
+      }
+    ],
+    "capacity_note": "12-280, 14-215, 17-195",
+    "braid_capacity_note": "",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+    "source_file": "research/product-expansion-2026-10-12/sources/38a3be27e17171d2.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.1:1",
+    "max_drag_lb": null,
+    "weight_oz": null,
+    "line_retrieve_in": null,
+    "bearings": "1",
+    "reelcalc_recommended_braid": "20-30 lb braid",
+    "reelcalc_recommended_mono_fluoro": "12-17 lb mono/fluoro",
+    "reelcalc_use_case": "heavier bait fishing",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "search_text": "shakespeare tiger spinning 50 tigrsp50 heavier bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1645663",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-fc7994a588cfe389d49057b0",
+        "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.33,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 255,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.33,
+          "capacity_meters": 255
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-142369d680523ff786af2a28",
+        "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 195,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 195
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-e802d3bee19eee8bdeb6f499",
+        "reel_id": "shakespeare-tiger-spinning-50-tigrsp50",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 180
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      }
+    ]
+  },
+  {
+    "id": "shakespeare-tiger-spinning-60-tigrsp60",
+    "brand": "Shakespeare",
+    "model": "Tiger Spinning",
+    "sku": "TIGRSP60",
+    "size_label": "60",
+    "size_class": "6000",
+    "recommendation_size_class": 6000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 220,
+    "rated_line_lb": 17,
+    "rated_line_diameter_in": 0.018,
+    "spool_space": 0.07128,
+    "capacity_options": [
+      {
+        "lb": 14,
+        "yards": 240,
+        "diameter_in": 0.015,
+        "spool_space": 0.054,
+        "raw": "14-240"
+      },
+      {
+        "lb": 17,
+        "yards": 220,
+        "diameter_in": 0.018,
+        "spool_space": 0.07128,
+        "raw": "17-220"
+      },
+      {
+        "lb": 20,
+        "yards": 150,
+        "diameter_in": 0.018,
+        "spool_space": 0.0486,
+        "raw": "20-150"
+      }
+    ],
+    "capacity_note": "14-240, 17-220, 20-150",
+    "braid_capacity_note": "",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+    "source_file": "research/product-expansion-2026-10-12/sources/38a3be27e17171d2.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.1:1",
+    "max_drag_lb": null,
+    "weight_oz": null,
+    "line_retrieve_in": null,
+    "bearings": "1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "14-20 lb mono/fluoro",
+    "reelcalc_use_case": "heavier bait fishing",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "search_text": "shakespeare tiger spinning 60 tigrsp60 heavier bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1645664",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-c7b69374095fb8cb082e6a2e",
+        "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.36,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.36,
+          "capacity_meters": 220
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-14fb1bf33ad51bb1b839d7df",
+        "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.38,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.38,
+          "capacity_meters": 200
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-b03943c4a43bd79071108c45",
+        "reel_id": "shakespeare-tiger-spinning-60-tigrsp60",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 135,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 135
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      }
+    ]
+  },
+  {
+    "id": "shakespeare-tiger-spinning-80-tigrsp80",
+    "brand": "Shakespeare",
+    "model": "Tiger Spinning",
+    "sku": "TIGRSP80",
+    "size_label": "80",
+    "size_class": "8000",
+    "recommendation_size_class": 8000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 290,
+    "rated_line_lb": 25,
+    "rated_line_diameter_in": 0.019,
+    "spool_space": 0.10469,
+    "capacity_options": [
+      {
+        "lb": 20,
+        "yards": 350,
+        "diameter_in": 0.018,
+        "spool_space": 0.1134,
+        "raw": "20-350"
+      },
+      {
+        "lb": 25,
+        "yards": 290,
+        "diameter_in": 0.019,
+        "spool_space": 0.10469,
+        "raw": "25-290"
+      },
+      {
+        "lb": 30,
+        "yards": 220,
+        "diameter_in": 0.022,
+        "spool_space": 0.10648,
+        "raw": "30-220"
+      }
+    ],
+    "capacity_note": "20-350, 25-290, 30-220",
+    "braid_capacity_note": "",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+    "source_file": "research/product-expansion-2026-10-12/sources/38a3be27e17171d2.txt",
+    "data_warnings": [],
+    "gear_ratio": "4.4:1",
+    "max_drag_lb": null,
+    "weight_oz": null,
+    "line_retrieve_in": null,
+    "bearings": "1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "20-30 lb mono/fluoro",
+    "reelcalc_use_case": "heavier bait fishing",
+    "notes": "No official braid capacity published. Weight, maximum drag and line retrieve remain unavailable; full SEO page held pending verification.",
+    "search_text": "shakespeare tiger spinning 80 tigrsp80 heavier bait fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "manufacturer_product_number": "1645665",
+    "manufacturer_capacity_ratings": [
+      {
+        "id": "diam-915a9f05c6fabb42f905ed86",
+        "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.46,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 320,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.46,
+          "capacity_meters": 320
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-4320c3c09eeb2eaec726d0bb",
+        "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.48,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 270,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.48,
+          "capacity_meters": 270
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      },
+      {
+        "id": "diam-e6b85d7d514ae462ad897bc5",
+        "reel_id": "shakespeare-tiger-spinning-80-tigrsp80",
+        "material": "mono",
+        "original": {
+          "diameter": {
+            "value": 0.56,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.56,
+          "capacity_meters": 220
+        },
+        "verification_status": "verified_source",
+        "calculation_eligible": true,
+        "evidence_file": "data/reel-diameter-evidence.json",
+        "source_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817"
+      }
+    ]
+  },
+  {
+    "id": "lew-s-mach-bottomland-baitcast-150-mobl1sh70m",
+    "brand": "Lew's",
+    "model": "MACH Bottomland Baitcast",
+    "sku": "MOBL1SH70M",
+    "size_label": "150",
+    "size_class": "150",
+    "recommendation_size_class": 150,
+    "reel_type": "low_profile_baitcast",
+    "baitcaster_class": "standard",
+    "retrieve_hand": "RH/LH",
+    "capacity_yards": 110,
+    "rated_line_lb": 12,
+    "rated_line_diameter_in": 0.014,
+    "spool_space": 0.02156,
+    "capacity_options": [
+      {
+        "lb": 12,
+        "yards": 110,
+        "diameter_in": 0.014,
+        "spool_space": 0.02156,
+        "raw": "12-110"
+      }
+    ],
+    "capacity_note": "12-110",
+    "braid_capacity_note": "30-110",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.lews.com/en/shop/new-products/moblcmbc",
+    "source_file": "research/product-expansion-2026-10-12/sources/d39babb489306061.txt",
+    "data_warnings": [],
+    "gear_ratio": "7.5:1",
+    "max_drag_lb": 15,
+    "weight_oz": 7.2,
+    "line_retrieve_in": 30,
+    "bearings": "4+1",
+    "reelcalc_recommended_braid": "30-50 lb braid",
+    "reelcalc_recommended_mono_fluoro": "10-15 lb mono/fluoro",
+    "reelcalc_use_case": "bass fishing with moving baits",
+    "notes": "Capacity record for the reel supplied in these combos. Rod length/action does not create a separate reel record.",
+    "search_text": "lew's mach bottomland baitcast 150 mobl1sh70m bass fishing with moving baits",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.lews.com/en/shop/new-products/moblcmbc"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "combo_skus": [
+      "MOBL1SH70M",
+      "MOBL1SHL70M",
+      "MOBL1SH70MH",
+      "MOBL1SHL70MH",
+      "MOBL1SH73MH"
+    ],
+    "product_form": "combo-reel",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 30,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official manufacturer specifications",
+    "ipt_source_url": "https://www.lews.com/en/shop/new-products/moblcmbc",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "high"
+  },
+  {
+    "id": "lew-s-mach-bottomland-spinning-100-mobl1060ls",
+    "brand": "Lew's",
+    "model": "MACH Bottomland Spinning",
+    "sku": "MOBL1060LS",
+    "size_label": "100",
+    "size_class": "100",
+    "recommendation_size_class": 1000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 135,
+    "rated_line_lb": 6,
+    "rated_line_diameter_in": 0.0095,
+    "spool_space": 0.012184,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 135,
+        "diameter_in": 0.0095,
+        "spool_space": 0.012184,
+        "raw": "6-135"
+      }
+    ],
+    "capacity_note": "6-135",
+    "braid_capacity_note": "8-135",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "source_file": "research/product-expansion-2026-10-12/sources/be45fedb27d93770.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": 10,
+    "weight_oz": 8.3,
+    "line_retrieve_in": 26,
+    "bearings": "3+1",
+    "reelcalc_recommended_braid": "8-10 lb braid",
+    "reelcalc_recommended_mono_fluoro": "4-6 lb mono/fluoro",
+    "reelcalc_use_case": "light freshwater fishing",
+    "notes": "Capacity record for the reel supplied in these combos. Rod length/action does not create a separate reel record.",
+    "search_text": "lew's mach bottomland spinning 100 mobl1060ls light freshwater fishing",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.lews.com/en/shop/new-products/moblcmbs"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "combo_skus": [
+      "MOBL1060LS"
+    ],
+    "product_form": "combo-reel",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 26,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official manufacturer specifications",
+    "ipt_source_url": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "high"
+  },
+  {
+    "id": "lew-s-mach-bottomland-spinning-200-mobl2066ms",
+    "brand": "Lew's",
+    "model": "MACH Bottomland Spinning",
+    "sku": "MOBL2066MS",
+    "size_label": "200",
+    "size_class": "200",
+    "recommendation_size_class": 2000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 190,
+    "rated_line_lb": 6,
+    "rated_line_diameter_in": 0.0095,
+    "spool_space": 0.017147,
+    "capacity_options": [
+      {
+        "lb": 6,
+        "yards": 190,
+        "diameter_in": 0.0095,
+        "spool_space": 0.017147,
+        "raw": "6-190"
+      }
+    ],
+    "capacity_note": "6-190",
+    "braid_capacity_note": "8-280",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "source_file": "research/product-expansion-2026-10-12/sources/be45fedb27d93770.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": 13,
+    "weight_oz": 8.5,
+    "line_retrieve_in": 27,
+    "bearings": "3+1",
+    "reelcalc_recommended_braid": "10-15 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-8 lb mono/fluoro",
+    "reelcalc_use_case": "general freshwater spinning",
+    "notes": "Capacity record for the reel supplied in these combos. Rod length/action does not create a separate reel record.",
+    "search_text": "lew's mach bottomland spinning 200 mobl2066ms general freshwater spinning",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.lews.com/en/shop/new-products/moblcmbs"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "combo_skus": [
+      "MOBL2066MS",
+      "MOBL2066MS-2"
+    ],
+    "product_form": "combo-reel",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 27,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official manufacturer specifications",
+    "ipt_source_url": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "high"
+  },
+  {
+    "id": "lew-s-mach-bottomland-spinning-300-mobl3070ms",
+    "brand": "Lew's",
+    "model": "MACH Bottomland Spinning",
+    "sku": "MOBL3070MS",
+    "size_label": "300",
+    "size_class": "300",
+    "recommendation_size_class": 3000,
+    "reel_type": "Spinning reel",
+    "retrieve_hand": "reversible",
+    "capacity_yards": 205,
+    "rated_line_lb": 8,
+    "rated_line_diameter_in": 0.011,
+    "spool_space": 0.024805,
+    "capacity_options": [
+      {
+        "lb": 8,
+        "yards": 205,
+        "diameter_in": 0.011,
+        "spool_space": 0.024805,
+        "raw": "8-205"
+      }
+    ],
+    "capacity_note": "8-205",
+    "braid_capacity_note": "10-300",
+    "capacity_status": "ready",
+    "capacity_data_source": "Official manufacturer exact-model specification table",
+    "source_url": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "source_file": "research/product-expansion-2026-10-12/sources/be45fedb27d93770.txt",
+    "data_warnings": [],
+    "gear_ratio": "5.2:1",
+    "max_drag_lb": 13,
+    "weight_oz": 9.1,
+    "line_retrieve_in": 28,
+    "bearings": "3+1",
+    "reelcalc_recommended_braid": "10-20 lb braid",
+    "reelcalc_recommended_mono_fluoro": "6-10 lb mono/fluoro",
+    "reelcalc_use_case": "bass and all-around freshwater spinning",
+    "notes": "Capacity record for the reel supplied in these combos. Rod length/action does not create a separate reel record.",
+    "search_text": "lew's mach bottomland spinning 300 mobl3070ms bass and all-around freshwater spinning",
+    "spec_date_checked": "2026-10-12",
+    "spec_verification_sources": [
+      "https://www.lews.com/en/shop/new-products/moblcmbs"
+    ],
+    "capacity_reference_note": "Pound-test reference diameters retain the existing ReelCalc importer lookup. They are assumptions, not manufacturer-published diameters. Verified manufacturer diameters are stored separately by material.",
+    "combo_skus": [
+      "MOBL3070MS",
+      "MOBL3072MHS-2"
+    ],
+    "product_form": "combo-reel",
+    "ipt_verification_status": "verified",
+    "ipt_original_value": 28,
+    "ipt_original_unit": "in/turn",
+    "ipt_source_name": "Official manufacturer specifications",
+    "ipt_source_url": "https://www.lews.com/en/shop/new-products/moblcmbs",
+    "ipt_date_checked": "2026-10-12",
+    "ipt_confidence": "high"
   }
 ]

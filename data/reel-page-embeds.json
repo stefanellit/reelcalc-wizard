@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "pages": {
     "bass-pro-shops-micro-lite-elite-spinning-reel-5": {
       "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -127410,6 +127410,2170 @@
         "monoText": "16 lb / 360 yards, 20 lb / 260 yards, 25 lb / 190 yards",
         "braidText": "50 lb / 400 yards, 65 lb / 315 yards, 80 lb / 240 yards",
         "faqCapacity": "The reel is published at 16 lb / 360 yards, 20 lb / 260 yards, 25 lb / 190 yards. Its listed braid ratings are 50 lb / 400 yards, 65 lb / 315 yards, 80 lb / 240 yards. Actual capacity can vary with the diameter of the exact line selected."
+      }
+    },
+    "penn-fierce-v-1000": {
+      "reelId": "penn-fierce-v-1000-frcv1000",
+      "pageTitle": "PENN Fierce V 1000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 1000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 1000 (FRCV1000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-1000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-1000-frcv1000.jpg",
+      "imageAlt": "PENN Fierce V 1000, manufacturer product photograph",
+      "intro": "For a light inshore or freshwater setup, the 1000 keeps the published mono starting point at 4 lb / 135 yards. HT-100 carbon-fiber drag washers provide drag pressure when a fish takes line. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "ultralight-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon-fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Abu Garcia Revo SX Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-sx-spinning-10",
+          "reelId": "abu-garcia-revo-sx-spinning-10-revo3-sx-sp10-25"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-10",
+          "reelId": "bass-pro-shops-formula-spinning-reel-10-fma10-47"
+        },
+        {
+          "label": "Daiwa Crossfire LT 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-crossfire-lt-1000",
+          "reelId": "daiwa-crossfire-lt-1000-crflt1000-89"
+        },
+        {
+          "label": "Abu Garcia Revo X Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-x-spinning-10",
+          "reelId": "abu-garcia-revo-x-spinning-10-revo3-x-sp10-21"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris CarbonLite 2.0 Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000-jct1000-57"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Signature Series Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000-jsg1000-66"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 150,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.009,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light inshore and freshwater fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 8-15 lb braid and 4-8 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "8 lb braid over monofilament backing with a 4-8 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "light inshore and freshwater fishing",
+            "setup": "8 lb braid with a 4-8 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "4-8 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for FRCV1000. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 8-15 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 135,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "135 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 130,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "130 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.2 mm",
+            "capacityLabel": "125 m (about 137 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.18 mm",
+            "capacityLabel": "115 m (about 126 yd)"
+          }
+        ],
+        "monoText": "4 lb / 135 yards",
+        "braidText": "8 lb / 130 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-2000": {
+      "reelId": "penn-fierce-v-2000-frcv2000",
+      "pageTitle": "PENN Fierce V 2000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 2000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 2000 (FRCV2000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-2000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-2000-frcv2000.jpg",
+      "imageAlt": "PENN Fierce V 2000, manufacturer product photograph",
+      "intro": "The 2000 gives you a 6 lb / 180-yard mono reference for a light spinning setup. HT-100 carbon-fiber drag washers provide drag pressure when a fish takes line. Choose your line below to estimate a full fill, or set a shorter main-line amount and check how much backing fits underneath.",
+      "introVariant": "inshore-angler-t2-choice3",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon-fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2000h",
+          "reelId": "abu-garcia-max-elite-spinning-2000h-maxelitesp2000h-17"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 20 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-20",
+          "reelId": "bass-pro-shops-formula-spinning-reel-20-fma20-48"
+        },
+        {
+          "label": "Daiwa BG 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-2000",
+          "reelId": "daiwa-bg-2000-bg2000-183"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2000h",
+          "reelId": "abu-garcia-max-pro-spinning-2000h-maxprosp2000h-13"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2000",
+          "reelId": "abu-garcia-max-sx-spinning-2000-maxsxsp2000-8"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2000",
+          "reelId": "abu-garcia-max-x-spinning-2000-maxxsp2000-2"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light inshore and freshwater fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 8-15 lb braid and 4-8 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "8 lb braid over monofilament backing with a 4-8 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "light inshore and freshwater fishing",
+            "setup": "8 lb braid with a 4-8 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "4-8 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for FRCV2000. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 8-15 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 180,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 180,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.23 mm",
+            "capacityLabel": "165 m (about 180 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.23 mm",
+            "capacityLabel": "165 m (about 180 yd)"
+          }
+        ],
+        "monoText": "6 lb / 180 yards",
+        "braidText": "10 lb / 180 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-2500": {
+      "reelId": "penn-fierce-v-2500-frcv2500",
+      "pageTitle": "PENN Fierce V 2500 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 2500 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 2500 (FRCV2500) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-2500",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-2500-frcv2500.jpg",
+      "imageAlt": "PENN Fierce V 2500, manufacturer product photograph",
+      "intro": "The 2500 starts from an 8 lb / 175-yard mono rating, useful when choosing between straight mono and a braid-and-leader setup. HT-100 carbon-fiber drag washers provide drag pressure when a fish takes line. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "inshore-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon-fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2500H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2500h",
+          "reelId": "abu-garcia-max-elite-spinning-2500h-maxelitesp2500h-18"
+        },
+        {
+          "label": "Daiwa BG 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-2500",
+          "reelId": "daiwa-bg-2500-bg2500-184"
+        },
+        {
+          "label": "KastKing ReKon Saltwater Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-rekon-saltwater-spinning-2500",
+          "reelId": "kastking-rekon-saltwater-spinning-2500-41-284"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2500H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2500h",
+          "reelId": "abu-garcia-max-pro-spinning-2500h-maxprosp2500h-14"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2500",
+          "reelId": "abu-garcia-max-sx-spinning-2500-maxsxsp2500-9"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2500",
+          "reelId": "abu-garcia-max-x-spinning-2500-maxxsp2500-3"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For inshore lures and light bait fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 10-20 lb braid and 6-12 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "10 lb braid over monofilament backing with a 6-12 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "inshore lures and light bait fishing",
+            "setup": "10 lb braid with a 6-12 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "6-12 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for FRCV2500. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 10-20 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 175,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "175 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 15,
+            "yards": 220,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.28 mm",
+            "capacityLabel": "160 m (about 175 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.25 mm",
+            "capacityLabel": "200 m (about 219 yd)"
+          }
+        ],
+        "monoText": "8 lb / 175 yards",
+        "braidText": "15 lb / 220 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-3000": {
+      "reelId": "penn-fierce-v-3000-frcv3000",
+      "pageTitle": "PENN Fierce V 3000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 3000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 3000 (FRCV3000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-3000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-3000-frcv3000.jpg",
+      "imageAlt": "PENN Fierce V 3000, manufacturer product photograph",
+      "intro": "Moving to the 3000 gives you a 10 lb / 165-yard mono rating and a 20 lb / 180-yard braid reference. HT-100 carbon-fiber drag washers provide drag pressure when a fish takes line. Use the calculator below with your exact line to plan a full spool or work out optional backing.",
+      "introVariant": "inshore-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon-fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "Daiwa BG 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-3000",
+          "reelId": "daiwa-bg-3000-bg3000-185"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-3000",
+          "reelId": "abu-garcia-max-sx-spinning-3000-maxsxsp3000-10"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-3000",
+          "reelId": "abu-garcia-max-x-spinning-3000-maxxsp3000-4"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For inshore lures and light bait fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 10-20 lb braid and 6-12 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "10 lb braid over monofilament backing with a 6-12 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "inshore lures and light bait fishing",
+            "setup": "10 lb braid with a 6-12 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "6-12 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for FRCV3000. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 10-20 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 165,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "165 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 180,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.31 mm",
+            "capacityLabel": "150 m (about 164 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "165 m (about 180 yd)"
+          }
+        ],
+        "monoText": "10 lb / 165 yards",
+        "braidText": "20 lb / 180 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "penn-fierce-v-4000": {
+      "reelId": "penn-fierce-v-4000-frcv4000",
+      "pageTitle": "PENN Fierce V 4000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "PENN Fierce V 4000 Line Capacity | ReelCalc",
+      "metaDescription": "PENN Fierce V 4000 (FRCV4000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/penn-fierce-v-4000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-4000-frcv4000.jpg",
+      "imageAlt": "PENN Fierce V 4000, manufacturer product photograph",
+      "intro": "The 4000 offers more reserve than the 3000 at the same 10 lb mono rating: 220 yards instead of 165. HT-100 carbon-fiber drag washers provide drag pressure when a fish takes line. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "inshore-angler-t2-choice1",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "HT-100 carbon-fiber drag washers"
+      ],
+      "introEvidenceSource": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "introEvidenceKey": "PENN|Fierce V",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 4000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-4000h",
+          "reelId": "abu-garcia-max-elite-spinning-4000h-maxelitesp4000h-20"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 40 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-40",
+          "reelId": "bass-pro-shops-formula-spinning-reel-40-fma40-50"
+        },
+        {
+          "label": "Daiwa BG 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-4000",
+          "reelId": "daiwa-bg-4000-bg4000-187"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 4000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-4000h",
+          "reelId": "abu-garcia-max-pro-spinning-4000h-maxprosp4000h-16"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-4000",
+          "reelId": "abu-garcia-max-sx-spinning-4000-maxsxsp4000-11"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-4000",
+          "reelId": "abu-garcia-max-x-spinning-4000-maxxsp4000-5"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For inshore lures and light bait fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 15-30 lb braid and 10-15 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "15 lb braid over monofilament backing with a 10-15 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "inshore lures and light bait fishing",
+            "setup": "15 lb braid with a 10-15 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for FRCV4000. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 15-30 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 220,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 260,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "260 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.31 mm",
+            "capacityLabel": "200 m (about 219 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "240 m (about 262 yd)"
+          }
+        ],
+        "monoText": "10 lb / 220 yards",
+        "braidText": "20 lb / 260 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c1-5500": {
+      "reelId": "abu-garcia-ambassadeur-c1-5500-c1-5500",
+      "pageTitle": "Abu Garcia Ambassadeur C1 5500 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C1 5500 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C1 5500 (C1-5500) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c1-5500",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c1-5500-c1-5500.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C1 5500, manufacturer product photograph",
+      "intro": "The 5500 is a round baitcaster for larger lures, bait fishing and trolling. Its 0.35 mm / 210 m mono rating gives a diameter-based reference for choosing a full fill or a shorter working section. The 4-pin centrifugal brake provides casting control. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "freshwater-angler-t2-choice3",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The 4-pin centrifugal brake"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C1",
+      "related": [
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000h-4550133215643",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000h-4550133215643"
+        },
+        {
+          "label": "KastKing Skeet Reese Icon Baitcasting Reel KRLCSTSR-72LGS - LH - 7.2:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-skeet-reese-icon-krlcstsr-72lgs",
+          "reelId": "kastking-skeet-reese-icon-krlcstsr-72lgs"
+        },
+        {
+          "label": "Lew's Super Duty® 300 Baitcast Reel SD3SH - RH - 7.2:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/lew-s-super-duty-300-lfs-sd3sh",
+          "reelId": "lew-s-super-duty-300-lfs-sd3sh"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000hl-4550133215650",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000hl-4550133215650"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000XH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000xh-4550133215667",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000xh-4550133215667"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000XHL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000xhl-4550133215674",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000xhl-4550133215674"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For larger lures, bait fishing and trolling, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 12-20 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "30 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "larger lures, bait fishing and trolling",
+            "setup": "30 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C1-5500. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 270,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "270 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 230,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "230 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 190,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 350,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 265,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "265 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 185,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "185 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.32 mm",
+            "capacityLabel": "245 m (about 268 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "210 m (about 230 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "175 m (about 191 yd)"
+          }
+        ],
+        "monoText": "12 lb / 270 yards, 14 lb / 230 yards, 17 lb / 190 yards",
+        "braidText": "20 lb / 350 yards, 30 lb / 265 yards, 50 lb / 185 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c1-6500": {
+      "reelId": "abu-garcia-ambassadeur-c1-6500-c1-6500",
+      "pageTitle": "Abu Garcia Ambassadeur C1 6500 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C1 6500 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C1 6500 (C1-6500) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c1-6500",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c1-6500-c1-6500.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C1 6500, manufacturer product photograph",
+      "intro": "The 6500 is a round baitcaster for larger lures, bait fishing and trolling. Its 0.35 mm / 280 m mono rating gives you room to plan a longer fill or reserve space beneath your working line. The 4-pin centrifugal brake provides casting control. Choose your line below to estimate a full fill, or set a shorter main-line amount and check how much backing fits underneath.",
+      "introVariant": "freshwater-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The 4-pin centrifugal brake"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c1-round-reel-1656739",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C1",
+      "related": [
+        {
+          "label": "Daiwa 26 Ryoga 150H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150h-4550133217272",
+          "reelId": "daiwa-jdm-26-ryoga-150h-4550133217272"
+        },
+        {
+          "label": "Lew's Laser® XL Round Baitcast Reel LXLC60 - RH - 4.2:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/lew-s-laser-xl-round-lxlc60",
+          "reelId": "lew-s-laser-xl-round-lxlc60"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150hl-4550133217289",
+          "reelId": "daiwa-jdm-26-ryoga-150hl-4550133217289"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150P Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150p-4550133217258",
+          "reelId": "daiwa-jdm-26-ryoga-150p-4550133217258"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150PL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150pl-4550133217265",
+          "reelId": "daiwa-jdm-26-ryoga-150pl-4550133217265"
+        },
+        {
+          "label": "Daiwa 26 Ryoga SV 100 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-sv-100-4550133217234",
+          "reelId": "daiwa-jdm-26-ryoga-sv-100-4550133217234"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For larger lures, bait fishing and trolling, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 12-20 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "30 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "larger lures, bait fishing and trolling",
+            "setup": "30 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C1-6500. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 305,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "305 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 255,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "255 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 210,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 465,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "465 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 350,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 245,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "245 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "280 m (about 306 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "230 m (about 252 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.42 mm",
+            "capacityLabel": "195 m (about 213 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "425 m (about 465 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "320 m (about 350 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "225 m (about 246 yd)"
+          }
+        ],
+        "monoText": "14 lb / 305 yards, 17 lb / 255 yards, 20 lb / 210 yards",
+        "braidText": "20 lb / 465 yards, 30 lb / 350 yards, 50 lb / 245 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c1-7000": {
+      "reelId": "abu-garcia-ambassadeur-c1-7000-c1-7000",
+      "pageTitle": "Abu Garcia Ambassadeur C1 7000 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C1 7000 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C1 7000 (C1-7000) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c1-7000",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c1-7000-c1-7000.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C1 7000, manufacturer product photograph",
+      "intro": "The 7000 is the larger C1 here, with a 20 lb / 325-yard mono rating for anglers who need more line in reserve. Its 4.1:1 gearing is a different starting point from the faster 5500 and 6500. The 4-pin centrifugal brake provides casting control. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "freshwater-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The 4-pin centrifugal brake"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c1-7000-round-reel-1656699",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C1",
+      "related": [
+        {
+          "label": "Daiwa 26 Ryoga 150H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150h-4550133217272",
+          "reelId": "daiwa-jdm-26-ryoga-150h-4550133217272"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150hl-4550133217289",
+          "reelId": "daiwa-jdm-26-ryoga-150hl-4550133217289"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150P Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150p-4550133217258",
+          "reelId": "daiwa-jdm-26-ryoga-150p-4550133217258"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150PL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150pl-4550133217265",
+          "reelId": "daiwa-jdm-26-ryoga-150pl-4550133217265"
+        },
+        {
+          "label": "Daiwa 26 Ryoga SV 100 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-sv-100-4550133217234",
+          "reelId": "daiwa-jdm-26-ryoga-sv-100-4550133217234"
+        },
+        {
+          "label": "Daiwa 26 Ryoga SV 100L Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-sv-100l-4550133217241",
+          "reelId": "daiwa-jdm-26-ryoga-sv-100l-4550133217241"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier bait fishing and trolling, start with the rod's line range and the cover you expect to fish. ReelCalc's 40-65 lb braid and 17-25 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "40 lb braid over monofilament backing with a 17-25 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "heavier bait fishing and trolling",
+            "setup": "40 lb braid with a 17-25 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "17-25 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C1-7000. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 40-65 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 325,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "325 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 250,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 25,
+            "yards": 230,
+            "ratingLabel": "25 lb",
+            "capacityLabel": "230 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 515,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "515 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 40,
+            "yards": 420,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "420 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 360,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "360 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "300 m (about 328 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.46 mm",
+            "capacityLabel": "230 m (about 252 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.49 mm",
+            "capacityLabel": "210 m (about 230 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "470 m (about 514 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "385 m (about 421 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "330 m (about 361 yd)"
+          }
+        ],
+        "monoText": "17 lb / 325 yards, 20 lb / 250 yards, 25 lb / 230 yards",
+        "braidText": "30 lb / 515 yards, 40 lb / 420 yards, 50 lb / 360 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c1-line-counter-5500": {
+      "reelId": "abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc",
+      "pageTitle": "Abu Garcia Ambassadeur C1 Line Counter 5500 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C1 Line Counter 5500 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C1 Line Counter 5500 (C1-5500LC) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c1-line-counter-5500",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c1-line-counter-5500-c1-5500lc.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C1 Line Counter 5500, manufacturer product photograph",
+      "intro": "The 5500 pairs a round spool with a line counter for repeating a trolling distance. Spool fill still matters when comparing line-out readings between setups. The lighted digital line counter helps repeat a line-out setting. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "freshwater-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The lighted digital line counter"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C1 Line Counter",
+      "related": [
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000h-4550133215643",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000h-4550133215643"
+        },
+        {
+          "label": "KastKing Skeet Reese Icon Baitcasting Reel KRLCSTSR-72LGS - LH - 7.2:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-skeet-reese-icon-krlcstsr-72lgs",
+          "reelId": "kastking-skeet-reese-icon-krlcstsr-72lgs"
+        },
+        {
+          "label": "Lew's Super Duty® 300 Baitcast Reel SD3SH - RH - 7.2:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/lew-s-super-duty-300-lfs-sd3sh",
+          "reelId": "lew-s-super-duty-300-lfs-sd3sh"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000hl-4550133215650",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000hl-4550133215650"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000XH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000xh-4550133215667",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000xh-4550133215667"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000XHL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000xhl-4550133215674",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000xhl-4550133215674"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For trolling and repeatable line deployment, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 12-20 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "30 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "trolling and repeatable line deployment",
+            "setup": "30 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C1-5500LC. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 270,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "270 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 230,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "230 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 190,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 350,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 265,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "265 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 185,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "185 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.32 mm",
+            "capacityLabel": "245 m (about 268 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "210 m (about 230 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "175 m (about 191 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "320 m (about 350 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "240 m (about 262 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "170 m (about 186 yd)"
+          }
+        ],
+        "monoText": "12 lb / 270 yards, 14 lb / 230 yards, 17 lb / 190 yards",
+        "braidText": "20 lb / 350 yards, 30 lb / 265 yards, 50 lb / 185 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c1-line-counter-6500": {
+      "reelId": "abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc",
+      "pageTitle": "Abu Garcia Ambassadeur C1 Line Counter 6500 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C1 Line Counter 6500 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C1 Line Counter 6500 (C1-6500LC) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c1-line-counter-6500",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c1-line-counter-6500-c1-6500lc.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C1 Line Counter 6500, manufacturer product photograph",
+      "intro": "The 6500 pairs a round spool with a line counter for repeating a trolling distance. Spool fill still matters when comparing line-out readings between setups. The lighted digital line counter helps repeat a line-out setting. Choose your line below to estimate a full fill, or set a shorter main-line amount and check how much backing fits underneath.",
+      "introVariant": "freshwater-angler-t2-choice3",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The lighted digital line counter"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c1-line-counter-reel-1656690",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C1 Line Counter",
+      "related": [
+        {
+          "label": "Daiwa 26 Ryoga 150H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150h-4550133217272",
+          "reelId": "daiwa-jdm-26-ryoga-150h-4550133217272"
+        },
+        {
+          "label": "Lew's Laser® XL Round Baitcast Reel LXLC60 - RH - 4.2:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/lew-s-laser-xl-round-lxlc60",
+          "reelId": "lew-s-laser-xl-round-lxlc60"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150hl-4550133217289",
+          "reelId": "daiwa-jdm-26-ryoga-150hl-4550133217289"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150P Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150p-4550133217258",
+          "reelId": "daiwa-jdm-26-ryoga-150p-4550133217258"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150PL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150pl-4550133217265",
+          "reelId": "daiwa-jdm-26-ryoga-150pl-4550133217265"
+        },
+        {
+          "label": "Daiwa 26 Ryoga SV 100 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-sv-100-4550133217234",
+          "reelId": "daiwa-jdm-26-ryoga-sv-100-4550133217234"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For trolling and repeatable line deployment, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 12-20 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "30 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "trolling and repeatable line deployment",
+            "setup": "30 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C1-6500LC. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 305,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "305 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 255,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "255 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 210,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 465,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "465 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 350,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 245,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "245 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "280 m (about 306 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "230 m (about 252 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.42 mm",
+            "capacityLabel": "195 m (about 213 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "425 m (about 465 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "320 m (about 350 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "225 m (about 246 yd)"
+          }
+        ],
+        "monoText": "14 lb / 305 yards, 17 lb / 255 yards, 20 lb / 210 yards",
+        "braidText": "20 lb / 465 yards, 30 lb / 350 yards, 50 lb / 245 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c2-5600": {
+      "reelId": "abu-garcia-ambassadeur-c2-5600-c2-5600",
+      "pageTitle": "Abu Garcia Ambassadeur C2 5600 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C2 5600 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C2 5600 (C2-5600) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c2-5600",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c2-5600-c2-5600.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C2 5600, manufacturer product photograph",
+      "intro": "The 5600 is a round baitcaster for larger lures, bait fishing and trolling. Its 0.35 mm / 210 m mono rating gives a diameter-based reference for choosing a full fill or a shorter working section. The 6-pin centrifugal brake provides adjustable casting control. Choose your line below to estimate a full fill, or set a shorter main-line amount and check how much backing fits underneath.",
+      "introVariant": "freshwater-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The 6-pin centrifugal brake"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C2",
+      "related": [
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000h-4550133215643",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000h-4550133215643"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000hl-4550133215650",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000hl-4550133215650"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000XH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000xh-4550133215667",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000xh-4550133215667"
+        },
+        {
+          "label": "Daiwa 22 Zillion TW HD 1000 1000XHL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-22-zillion-tw-hd-1000-1000xhl-4550133215674",
+          "reelId": "daiwa-jdm-22-zillion-tw-hd-1000-1000xhl-4550133215674"
+        },
+        {
+          "label": "Daiwa Tatula 300 TTU300H - RH - 6.3:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-tatula-300-ttu300h",
+          "reelId": "daiwa-tatula-300-ttu300h"
+        },
+        {
+          "label": "Daiwa Tatula 300 TTU300HL - LH - 6.3:1 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-tatula-300-ttu300hl",
+          "reelId": "daiwa-tatula-300-ttu300hl"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For larger lures, bait fishing and trolling, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 12-20 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "30 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "larger lures, bait fishing and trolling",
+            "setup": "30 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C2-5600. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 270,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "270 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 230,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "230 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 190,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 350,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 265,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "265 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 185,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "185 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.32 mm",
+            "capacityLabel": "245 m (about 268 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "210 m (about 230 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "175 m (about 191 yd)"
+          }
+        ],
+        "monoText": "12 lb / 270 yards, 14 lb / 230 yards, 17 lb / 190 yards",
+        "braidText": "20 lb / 350 yards, 30 lb / 265 yards, 50 lb / 185 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-ambassadeur-c2-6600": {
+      "reelId": "abu-garcia-ambassadeur-c2-6600-c2-6600",
+      "pageTitle": "Abu Garcia Ambassadeur C2 6600 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Ambassadeur C2 6600 Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Ambassadeur C2 6600 (C2-6600) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-ambassadeur-c2-6600",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/abu-garcia-ambassadeur-c2-6600-c2-6600.jpg",
+      "imageAlt": "Abu Garcia Ambassadeur C2 6600, manufacturer product photograph",
+      "intro": "The 6600 is a round baitcaster for larger lures, bait fishing and trolling. Its 0.35 mm / 280 m mono rating gives you room to plan a longer fill or reserve space beneath your working line. The 6-pin centrifugal brake provides adjustable casting control. Use the calculator below with your exact line to plan a full spool or work out optional backing.",
+      "introVariant": "freshwater-angler-t2-choice3",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The 6-pin centrifugal brake"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/ambassadeur-c2-round-reel-1656740",
+      "introEvidenceKey": "Abu Garcia|Ambassadeur C2",
+      "related": [
+        {
+          "label": "Daiwa 26 Ryoga 150H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150h-4550133217272",
+          "reelId": "daiwa-jdm-26-ryoga-150h-4550133217272"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150HL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150hl-4550133217289",
+          "reelId": "daiwa-jdm-26-ryoga-150hl-4550133217289"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150P Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150p-4550133217258",
+          "reelId": "daiwa-jdm-26-ryoga-150p-4550133217258"
+        },
+        {
+          "label": "Daiwa 26 Ryoga 150PL Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-150pl-4550133217265",
+          "reelId": "daiwa-jdm-26-ryoga-150pl-4550133217265"
+        },
+        {
+          "label": "Daiwa 26 Ryoga SV 100 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-sv-100-4550133217234",
+          "reelId": "daiwa-jdm-26-ryoga-sv-100-4550133217234"
+        },
+        {
+          "label": "Daiwa 26 Ryoga SV 100L Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-jdm-26-ryoga-sv-100l-4550133217241",
+          "reelId": "daiwa-jdm-26-ryoga-sv-100l-4550133217241"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 125,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For larger lures, bait fishing and trolling, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 12-20 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Allow enough working line for casting or trolling plus a useful reserve.",
+        "setupIntro": "30 lb braid over monofilament backing with a 12-20 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "larger lures, bait fishing and trolling",
+            "setup": "30 lb braid with a 12-20 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "12-20 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for C2-6600. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 305,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "305 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 17,
+            "yards": 255,
+            "ratingLabel": "17 lb",
+            "capacityLabel": "255 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 210,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 465,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "465 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 350,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "350 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 245,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "245 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "280 m (about 306 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.38 mm",
+            "capacityLabel": "230 m (about 252 yd)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.42 mm",
+            "capacityLabel": "195 m (about 213 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.29 mm",
+            "capacityLabel": "425 m (about 465 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.36 mm",
+            "capacityLabel": "320 m (about 350 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.41 mm",
+            "capacityLabel": "225 m (about 246 yd)"
+          }
+        ],
+        "monoText": "14 lb / 305 yards, 17 lb / 255 yards, 20 lb / 210 yards",
+        "braidText": "20 lb / 465 yards, 30 lb / 350 yards, 50 lb / 245 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "lew-s-hypermag-shallow-spool-300": {
+      "reelId": "lew-s-hypermag-shallow-spool-300-hm300ssg2",
+      "pageTitle": "Lew's HyperMag Shallow Spool 300 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Lew's HyperMag Shallow Spool 300 Line Capacity | ReelCalc",
+      "metaDescription": "Lew's HyperMag Shallow Spool 300 (HM300SSG2) line capacity, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/lew-s-hypermag-shallow-spool-300",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/lew-s-hypermag-shallow-spool-300-hm300ssg2.png",
+      "imageAlt": "Lew's HyperMag Shallow Spool 300, manufacturer product photograph",
+      "intro": "The shallow spool is the point of this 300: it is rated for 120 yards of 8 lb mono or 180 yards of 10 lb braid, rather than a large reserve of unused line. The 7.0:1 gearing retrieves a listed 40 inches per turn. EvenLay slow oscillation guides the line onto its shallow spool. Use the calculator below with your exact line to plan a full spool or work out optional backing.",
+      "introVariant": "general-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "EvenLay slow oscillation"
+      ],
+      "introEvidenceSource": "https://www.lews.com/en/shop/new-products/hmssrsg2",
+      "introEvidenceKey": "Lew's|HyperMag Shallow Spool",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "Daiwa BG 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-3000",
+          "reelId": "daiwa-bg-3000-bg3000-185"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-3000",
+          "reelId": "abu-garcia-max-sx-spinning-3000-maxsxsp3000-10"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-3000",
+          "reelId": "abu-garcia-max-x-spinning-3000-maxxsp3000-4"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For finesse spinning and quick slack pickup, start with the rod's line range and the cover you expect to fish. ReelCalc's 10-20 lb braid and 6-10 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "10 lb braid over monofilament backing with a 6-10 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "finesse spinning and quick slack pickup",
+            "setup": "10 lb braid with a 6-10 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "6-10 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for HM300SSG2. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 10-20 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "These are the manufacturer's pound-test/yard ratings. No verified millimeter capacity was found for this model, so the calculator uses ReelCalc's existing reference-diameter estimate. Your selected line's diameter can make the result different from the label.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 120,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "120 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 180,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "180 yards"
+          }
+        ],
+        "monoText": "8 lb / 120 yards",
+        "braidText": "10 lb / 180 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "daiwa-rs-500": {
+      "reelId": "daiwa-rs-500-rs500",
+      "pageTitle": "Daiwa RS 500 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa RS 500 Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa RS 500 (RS500) line capacity, verified diameter ratings, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/daiwa-rs-500",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/daiwa-rs-500-rs500.png",
+      "imageAlt": "Daiwa RS 500, manufacturer product photograph",
+      "intro": "This 500-size ultralight starts with a 4 lb / 170-yard US mono rating. Daiwa also publishes exact RS500 millimeter capacities, which make it easier to compare thin lines without treating every 4 lb label as the same thickness. Infinite Anti-Reverse limits backward handle movement. Choose your line below to estimate a full fill, or set a shorter main-line amount and check how much backing fits underneath.",
+      "introVariant": "ultralight-angler-t2-choice4",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Infinite Anti-Reverse"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/2026-rs-ultralight",
+      "introEvidenceKey": "Daiwa|RS",
+      "related": [
+        {
+          "label": "Bass Pro Shops Micro Lite Elite Spinning Reel 5 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-micro-lite-elite-spinning-reel-5",
+          "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51"
+        },
+        {
+          "label": "KastKing Centron Spinning 500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-500",
+          "reelId": "kastking-centron-spinning-500-47-290"
+        },
+        {
+          "label": "Lew's Laser Lite Spinning Reel 50 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/lew-s-laser-lite-spinning-reel-50",
+          "reelId": "lew-s-laser-lite-spinning-reel-75-22-332"
+        },
+        {
+          "label": "KastKing Zephyr Spinning 500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-zephyr-spinning-500",
+          "reelId": "kastking-zephyr-spinning-500-31-274"
+        },
+        {
+          "label": "Lew's Wally Marshall Signature Series Spinning Reel 50 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/lew-s-wally-marshall-signature-series-spinning-reel-50",
+          "reelId": "lew-s-wally-marshall-signature-series-spinning-reel-75-46-356"
+        },
+        {
+          "label": "Okuma Avenger B 500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-avenger-b-500",
+          "reelId": "okuma-avenger-b-500-av-500b-375"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 4,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.004,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.009,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For ultralight trout and panfish fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 4-8 lb braid and 2-4 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Keep an ultralight setup balanced with the rod and small presentations rather than choosing heavier line simply because it fits.",
+        "setupIntro": "4 lb braid over monofilament backing with a 2-4 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "ultralight trout and panfish fishing",
+            "setup": "4 lb braid with a 2-4 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "2-4 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for RS500. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 4-8 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "The table keeps the published pound-test ratings and the verified millimeter ratings separate. ReelCalc uses a verified diameter rating for the matching line material when available, then scales it to your chosen line. A pound-test label alone does not tell you its thickness.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 170,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "170 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 6,
+            "yards": 220,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.16 mm",
+            "capacityLabel": "160 m (about 175 yd)"
+          },
+          {
+            "type": "Braid",
+            "ratingLabel": "0.06 mm",
+            "capacityLabel": "200 m (about 219 yd)"
+          }
+        ],
+        "monoText": "4 lb / 170 yards",
+        "braidText": "6 lb / 220 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "lew-s-mach-bottomland-baitcast-150": {
+      "reelId": "lew-s-mach-bottomland-baitcast-150-mobl1sh70m",
+      "pageTitle": "Lew's MACH Bottomland Baitcast 150 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Lew's MACH Bottomland Baitcast 150 Line Capacity | ReelCalc",
+      "metaDescription": "Lew's MACH Bottomland Baitcast 150 (MOBL1SH70M) line capacity, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/lew-s-mach-bottomland-baitcast-150",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/lew-s-mach-bottomland-baitcast-150-mobl1sh70m.png",
+      "imageAlt": "Lew's MACH Bottomland Baitcast 150 shown on a representative MACH Bottomland combo rod, manufacturer product photograph",
+      "intro": "This page covers the 150-size baitcaster supplied with MACH Bottomland combos. Its 7.5:1 gearing and 12 lb / 110-yard mono rating are useful starting points for a bass casting setup. The MC1 magnetic brake provides adjustable casting control. Use the calculator below with your exact line to plan a full spool or work out optional backing.",
+      "introVariant": "freshwater-angler-t2-choice1",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The MC1 magnetic brake"
+      ],
+      "introEvidenceSource": "https://www.lews.com/en/shop/new-products/moblcmbc",
+      "introEvidenceKey": "Lew's|MACH Bottomland Baitcast",
+      "related": [
+        {
+          "label": "Shimano Curado 150 M 150 6.2 RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-6-2-rh-cu150mgm",
+          "reelId": "shimano-curado-150-m-150-6-2-rh-cu150mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 HG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-hg-rh-cu150hgm",
+          "reelId": "shimano-curado-150-m-150-hg-rh-cu150hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 150 XG RH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-150-xg-rh-cu150xgm",
+          "reelId": "shimano-curado-150-m-150-xg-rh-cu150xgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 151 6.2 LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-151-6-2-lh-cu151mgm",
+          "reelId": "shimano-curado-150-m-151-6-2-lh-cu151mgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 151 HG LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-151-hg-lh-cu151hgm",
+          "reelId": "shimano-curado-150-m-151-hg-lh-cu151hgm"
+        },
+        {
+          "label": "Shimano Curado 150 M 151 XG LH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-curado-150-m-151-xg-lh-cu151xgm",
+          "reelId": "shimano-curado-150-m-151-xg-lh-cu151xgm"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 100,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For bass fishing with moving baits, start with the rod's line range and the cover you expect to fish. ReelCalc's 30-50 lb braid and 10-15 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "30 lb braid over monofilament backing with a 10-15 lb mono/fluoro leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "bass fishing with moving baits",
+            "setup": "30 lb braid with a 10-15 lb mono/fluoro leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "10-15 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for MOBL1SH70M. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 30-50 lb braid, then match the strength to your rod and fishing conditions. Very thin braid can dig into lower wraps on a baitcaster, so maximum yardage is not the only consideration. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "These are the manufacturer's pound-test/yard ratings. No verified millimeter capacity was found for this model, so the calculator uses ReelCalc's existing reference-diameter estimate. Your selected line's diameter can make the result different from the label.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 110,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "110 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 110,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "110 yards"
+          }
+        ],
+        "monoText": "12 lb / 110 yards",
+        "braidText": "30 lb / 110 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "lew-s-mach-bottomland-spinning-100": {
+      "reelId": "lew-s-mach-bottomland-spinning-100-mobl1060ls",
+      "pageTitle": "Lew's MACH Bottomland Spinning 100 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Lew's MACH Bottomland Spinning 100 Line Capacity | ReelCalc",
+      "metaDescription": "Lew's MACH Bottomland Spinning 100 (MOBL1060LS) line capacity, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/lew-s-mach-bottomland-spinning-100",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/lew-s-mach-bottomland-spinning-100-mobl1060ls.png",
+      "imageAlt": "Lew's MACH Bottomland Spinning 100 shown on a representative MACH Bottomland combo rod, manufacturer product photograph",
+      "intro": "This guide covers the 100-size spinning reel supplied with MACH Bottomland combos. The 6 lb / 135-yard mono rating suits planning a lighter setup. The braid-ready aluminum spool is part of the supplied combo reel. The calculator is already set to this reel, so you can compare your line choices with or without backing.",
+      "introVariant": "ultralight-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The braid-ready aluminum spool"
+      ],
+      "introEvidenceSource": "https://www.lews.com/en/shop/new-products/moblcmbs",
+      "introEvidenceKey": "Lew's|MACH Bottomland Spinning",
+      "related": [
+        {
+          "label": "Abu Garcia Revo SX Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-sx-spinning-10",
+          "reelId": "abu-garcia-revo-sx-spinning-10-revo3-sx-sp10-25"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-10",
+          "reelId": "bass-pro-shops-formula-spinning-reel-10-fma10-47"
+        },
+        {
+          "label": "Daiwa Crossfire LT 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-crossfire-lt-1000",
+          "reelId": "daiwa-crossfire-lt-1000-crflt1000-89"
+        },
+        {
+          "label": "Abu Garcia Revo X Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-x-spinning-10",
+          "reelId": "abu-garcia-revo-x-spinning-10-revo3-x-sp10-21"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris CarbonLite 2.0 Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000-jct1000-57"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Signature Series Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000-jsg1000-66"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 150,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.009,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light freshwater fishing, start with the rod's line range and the cover you expect to fish. ReelCalc's 8-10 lb braid and 4-6 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "8 lb braid over monofilament backing with a 4-6 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "light freshwater fishing",
+            "setup": "8 lb braid with a 4-6 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "4-6 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for MOBL1060LS. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 8-10 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "These are the manufacturer's pound-test/yard ratings. No verified millimeter capacity was found for this model, so the calculator uses ReelCalc's existing reference-diameter estimate. Your selected line's diameter can make the result different from the label.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 135,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "135 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 135,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "135 yards"
+          }
+        ],
+        "monoText": "6 lb / 135 yards",
+        "braidText": "8 lb / 135 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "lew-s-mach-bottomland-spinning-200": {
+      "reelId": "lew-s-mach-bottomland-spinning-200-mobl2066ms",
+      "pageTitle": "Lew's MACH Bottomland Spinning 200 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Lew's MACH Bottomland Spinning 200 Line Capacity | ReelCalc",
+      "metaDescription": "Lew's MACH Bottomland Spinning 200 (MOBL2066MS) line capacity, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/lew-s-mach-bottomland-spinning-200",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/lew-s-mach-bottomland-spinning-200-mobl2066ms.png",
+      "imageAlt": "Lew's MACH Bottomland Spinning 200 shown on a representative MACH Bottomland combo rod, manufacturer product photograph",
+      "intro": "This guide covers the 200-size spinning reel supplied with MACH Bottomland combos. The 6 lb / 190-yard mono rating gives more reserve than the 100 at the same listed strength. The braid-ready aluminum spool is part of the supplied combo reel. Choose your line below to estimate a full fill, or set a shorter main-line amount and check how much backing fits underneath.",
+      "introVariant": "freshwater-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The braid-ready aluminum spool"
+      ],
+      "introEvidenceSource": "https://www.lews.com/en/shop/new-products/moblcmbs",
+      "introEvidenceKey": "Lew's|MACH Bottomland Spinning",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2000h",
+          "reelId": "abu-garcia-max-elite-spinning-2000h-maxelitesp2000h-17"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 20 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-20",
+          "reelId": "bass-pro-shops-formula-spinning-reel-20-fma20-48"
+        },
+        {
+          "label": "Daiwa BG 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-2000",
+          "reelId": "daiwa-bg-2000-bg2000-183"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2000h",
+          "reelId": "abu-garcia-max-pro-spinning-2000h-maxprosp2000h-13"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2000",
+          "reelId": "abu-garcia-max-sx-spinning-2000-maxsxsp2000-8"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2000",
+          "reelId": "abu-garcia-max-x-spinning-2000-maxxsp2000-2"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For general freshwater spinning, start with the rod's line range and the cover you expect to fish. ReelCalc's 10-15 lb braid and 6-8 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "10 lb braid over monofilament backing with a 6-8 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "general freshwater spinning",
+            "setup": "10 lb braid with a 6-8 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "6-8 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for MOBL2066MS. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 10-15 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "These are the manufacturer's pound-test/yard ratings. No verified millimeter capacity was found for this model, so the calculator uses ReelCalc's existing reference-diameter estimate. Your selected line's diameter can make the result different from the label.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 190,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 280,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "280 yards"
+          }
+        ],
+        "monoText": "6 lb / 190 yards",
+        "braidText": "8 lb / 280 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "lew-s-mach-bottomland-spinning-300": {
+      "reelId": "lew-s-mach-bottomland-spinning-300-mobl3070ms",
+      "pageTitle": "Lew's MACH Bottomland Spinning 300 Line Capacity & Reel Setup Guide",
+      "seoTitle": "Lew's MACH Bottomland Spinning 300 Line Capacity | ReelCalc",
+      "metaDescription": "Lew's MACH Bottomland Spinning 300 (MOBL3070MS) line capacity, specs and a preloaded calculator for full-spool or backing setups.",
+      "canonicalPath": "/reel-pages/p/lew-s-mach-bottomland-spinning-300",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/lew-s-mach-bottomland-spinning-300-mobl3070ms.png",
+      "imageAlt": "Lew's MACH Bottomland Spinning 300 shown on a representative MACH Bottomland combo rod, manufacturer product photograph",
+      "intro": "This guide covers the 300-size spinning reel supplied with MACH Bottomland combos. At 8 lb / 205 yards for mono, the 300 gives you a thicker-line starting point than the smaller sizes. The braid-ready aluminum spool is part of the supplied combo reel. Use the calculator below with your exact line to plan a full spool or work out optional backing.",
+      "introVariant": "freshwater-angler-t2-choice2",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "The braid-ready aluminum spool"
+      ],
+      "introEvidenceSource": "https://www.lews.com/en/shop/new-products/moblcmbs",
+      "introEvidenceKey": "Lew's|MACH Bottomland Spinning",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "Daiwa BG 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-3000",
+          "reelId": "daiwa-bg-3000-bg3000-185"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-3000",
+          "reelId": "abu-garcia-max-sx-spinning-3000-maxsxsp3000-10"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-3000",
+          "reelId": "abu-garcia-max-x-spinning-3000-maxxsp3000-4"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For bass and all-around freshwater spinning, start with the rod's line range and the cover you expect to fish. ReelCalc's 10-20 lb braid and 6-10 lb mono/fluoro ranges are setup suggestions, not extra manufacturer ratings. Choose the lighter end for open water, and move up when the rod, cover and presentation call for it.",
+        "setupIntro": "10 lb braid over monofilament backing with a 6-10 lb leader is a starting suggestion for this reel. You can fill the spool with main line, or use backing beneath a shorter working section. Select the actual line and its listed diameter before deciding how many yards to put on.",
+        "setupRows": [
+          {
+            "use": "bass and all-around freshwater spinning",
+            "setup": "10 lb braid with a 6-10 lb leader"
+          },
+          {
+            "use": "Simple straight-line setup",
+            "setup": "6-10 lb mono/fluoro"
+          }
+        ],
+        "specsIntro": "These are published specifications for MOBL3070MS. Retrieve is the listed amount per turn at the rated fill level, not a fixed value as the spool empties. Maximum drag is an upper rating, not the setting to use with every line.",
+        "faqBraid": "Start with 10-20 lb braid, then match the strength to your rod and fishing conditions. For a braid-and-leader setup, choose the leader for the cover and presentation rather than matching the braid label alone. Backing is optional; check that braid is secured against slipping if you tie directly to the spool.",
+        "capacityIntro": "These are the manufacturer's pound-test/yard ratings. No verified millimeter capacity was found for this model, so the calculator uses ReelCalc's existing reference-diameter estimate. Your selected line's diameter can make the result different from the label.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 205,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "205 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 300,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "300 yards"
+          }
+        ],
+        "monoText": "8 lb / 205 yards",
+        "braidText": "10 lb / 300 yards",
+        "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
       }
     }
   },

@@ -1,0 +1,121 @@
+{
+  "research_date": "2026-10-12",
+  "scope": "Research-only final gap check for current Shakespeare Tiger spinning reels; no production edits or publishing.",
+  "status": "remaining_gaps",
+  "verified_requested_field_count": 0,
+  "remaining_requested_field_count": 15,
+  "null_meaning": "No trustworthy exact-model specification verified; not zero or not applicable.",
+  "models": [
+    {
+      "model": "TIGRSP30",
+      "sku": "1645661",
+      "upc": "043388015419",
+      "weight_oz": null,
+      "max_drag_lb": null,
+      "inches_per_turn": null,
+      "official_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817?variant=50124384600341",
+      "pure_fishing_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817?variant=41838654816389",
+      "packaging_image_url": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645661_PKG.jpg?v=1787737229"
+    },
+    {
+      "model": "TIGRSP40",
+      "sku": "1645662",
+      "upc": "043388015426",
+      "weight_oz": null,
+      "max_drag_lb": null,
+      "inches_per_turn": null,
+      "official_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817?variant=50124384633109",
+      "pure_fishing_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817?variant=41838654849157",
+      "packaging_image_url": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645662_PKG.jpg?v=1787737229"
+    },
+    {
+      "model": "TIGRSP50",
+      "sku": "1645663",
+      "upc": "043388015433",
+      "weight_oz": null,
+      "max_drag_lb": null,
+      "inches_per_turn": null,
+      "official_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817?variant=50124384665877",
+      "pure_fishing_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817?variant=41838654881925",
+      "packaging_image_url": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645663_PKG.jpg?v=1787737228"
+    },
+    {
+      "model": "TIGRSP60",
+      "sku": "1645664",
+      "upc": "043388015440",
+      "weight_oz": null,
+      "max_drag_lb": null,
+      "inches_per_turn": null,
+      "official_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817?variant=50124384698645",
+      "pure_fishing_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817?variant=41838654914693",
+      "packaging_image_url": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645664_PKG.jpg?v=1787737228"
+    },
+    {
+      "model": "TIGRSP80",
+      "sku": "1645665",
+      "upc": "043388015457",
+      "weight_oz": null,
+      "max_drag_lb": null,
+      "inches_per_turn": null,
+      "official_url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817?variant=50124384731413",
+      "pure_fishing_url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817?variant=41838654947461",
+      "packaging_image_url": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645665_PKG.jpg?v=1787737229"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "official_product_page",
+      "url": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "finding": "All five exact models appear in the comparison table. No reel-weight or recovery-rate specification. Embedded variant specifications have an empty Max Drag (lbs) value for every model; visible selected-model pages show a dash placeholder.",
+      "existing_local_extraction": "research/product-expansion-2026-10-12/extracted/38a3be27e17171d2.json"
+    },
+    {
+      "type": "official_product_page",
+      "url": "https://www.purefishing.com/products/shakespeare-tiger-spinning-reel-1656817",
+      "finding": "Exact model comparison lists size, ratio, retrieve hand, bearing count and mono capacity, but none of the three requested fields.",
+      "existing_local_extraction": "research/product-expansion-2026-10-12/extracted/64aa284865ce7307.json"
+    },
+    {
+      "type": "official_manufacturer_catalog",
+      "title": "2026 Shakespeare - North America",
+      "discovery_url": "https://purefishing.publuu.com/",
+      "url": "https://publuu.com/flip-book/164752/2514736/page/46",
+      "page": 47,
+      "verification_method": "Opened from Pure Fishing's catalog bookshelf; searched TIGRSP and visually inspected enlarged page 47 in the browser. The URL displays the 46-47 spread.",
+      "finding": "Tiger Spinning Reel table explicitly lists TIGRSP30/40/50/60/80 with material numbers 1645661-1645665. Columns are Model #, Material, Packaging, Size, Capacity, Gear Ratio, Bearing, Handle and Pre-Spooled Line. No reel weight, maximum drag or inches-per-turn column or accompanying claim."
+    },
+    {
+      "type": "official_packaging_photographs",
+      "urls": "See each model's packaging_image_url.",
+      "verification_method": "Visually inspected all five manufacturer package-front images in browser.",
+      "finding": "No visible net-weight, maximum-drag or retrieve-rate specification. These are front views only; unseen package backs were not verified."
+    },
+    {
+      "type": "manufacturer_launch_release_republished_by_trade_press",
+      "url": "https://fishingtackleretailer.com/shakespeare-goes-big-with-new-tiger-series/",
+      "date": "2026-10-01",
+      "finding": "Current launch release describes the spinning range but supplies none of the requested model-specific measurements."
+    }
+  ],
+  "search_coverage": [
+    "Exact searches for all five model numbers, with and without the two official storefront domains excluded.",
+    "Exact SKU and UPC searches for all five models.",
+    "Model and family searches with weight, oz, drag, inches, retrieve rate and inches per turn; manufacturer catalog and PDF searches.",
+    "Official product comparisons and existing embedded-data extractions, all five package-front images, current launch release, and exact-model table in the official 2026 catalog."
+  ],
+  "excluded_evidence": [
+    {
+      "candidate": "Shopify product.variants[].weight in both official storefront extractions",
+      "reason": "Commerce weight metadata is not explicitly identified as net reel weight and may represent shipping or packaged weight. Not converted into or accepted as weight_oz."
+    },
+    {
+      "candidate": "Older Tiger combo models, TS50A/TSP50A/TGRA50, TGRA40 spincast, and Tiger conventional-combo results",
+      "reason": "Different model numbers, generations or reel types; no measurements transferred to TIGRSP30/40/50/60/80."
+    },
+    {
+      "candidate": "Line capacities, pre-spooled line strengths and gear ratios",
+      "reason": "Line strength is not maximum drag, and gear ratio alone does not establish inches per handle turn. No estimates or inferred substitutions made."
+    }
+  ],
+  "recommended_disposition": "Leave all 15 requested cells null pending an exact-model manufacturer specification sheet or written manufacturer confirmation of net reel weight, maximum drag and line recovery."
+}
