@@ -1610,12 +1610,14 @@ function recommendationAffiliateHtml(line, fullCapacity, capacityRange) {
   return html;
 }
 
-function capacityRatingWarningHtml(reel, comparison) {
-  var assessment = window.ReelCalcCore.assessReelCapacityRatings
-    ? window.ReelCalcCore.assessReelCapacityRatings(reel, state.lines) : null;
+function capacityRatingWarningHtml(reel, line, role, compact) {
+  var assessment = window.ReelCalcCore.assessLineCapacityRatings
+    ? window.ReelCalcCore.assessLineCapacityRatings(reel, line, state.lines) : null;
   if (!assessment || !assessment.warning) return "";
-  return '<div class="empty-state warning-box" data-capacity-rating-warning><strong>' + escapeHtml(assessment.title) +
-    '</strong><p>' + escapeHtml(comparison ? assessment.comparisonMessage : assessment.message) + '</p></div>';
+  if (compact) return '<details class="empty-state warning-box" data-capacity-rating-warning><summary>' + escapeHtml(assessment.title) +
+    '</summary><p>' + escapeHtml(assessment.message) + '</p></details>';
+  return '<div class="empty-state warning-box" data-capacity-rating-warning><strong>' + escapeHtml((role ? role + ": " : "") + assessment.title) +
+    '</strong><p>' + escapeHtml(role ? assessment.backingMessage : assessment.message) + '</p></div>';
 }
 
 function wizardCapacity(reel, line) {
@@ -1677,7 +1679,7 @@ function renderCapacityResult() {
     ? manufacturerBasis.label + ". Scaled to your chosen line diameter."
     : "Rated at " + formatReelRating(reel) + " line.");
   var html = "<div id=\"reelcalc-main-result\" class=\"result-box capacity-result\">";
-  html += capacityRatingWarningHtml(reel);
+  html += capacityRatingWarningHtml(reel, line);
   html += "<div class=\"capacity-hero\">";
   html += "<div><span class=\"eyebrow\">" + (capacityRange ? "Best full-spool estimate" : "Estimated full-spool capacity") + "</span><strong class=\"capacity-number\">" + formatNumber(yardsToDisplayLength(capacityRange ? capacityRange.centerYards : capacity), capacityRange ? 0 : 1) + "</strong><p>" + lengthUnitLong() + " of " + escapeHtml(lineLabel) + "</p>" + (capacityRange ? "<p class=\"capacity-range-note\"><strong>Expected real-world range:</strong> " + formatCapacityRange(capacityRange, true) + "</p>" : "") + "</div>";
   html += "</div>";
@@ -1740,7 +1742,7 @@ function renderBackingResult() {
     return;
   }
   var html = "<div class=\"result-box" + (result.overCapacity ? " error-box" : "") + "\">";
-  html += capacityRatingWarningHtml(reel);
+  html += capacityRatingWarningHtml(reel, line, "Main line") + capacityRatingWarningHtml(reel, backing, "Backing line");
   if (result.overCapacity) {
     html += "<p><strong>That is more line than this reel is estimated to hold.</strong> Use less main line or a thinner line.</p>";
   } else {
@@ -1807,6 +1809,7 @@ function renderSimilarLines() {
       card += "<span class=\"pill subtle\">" + formatDiameterWithUnit(item.dia_in) + "</span>";
       card += "</div>";
       card += "<p>Estimated " + lengthUnitLong() + " on selected reel: <strong>" + (capacityRange ? formatCapacityRangeValue(capacityRange) : formatNumber(yardsToDisplayLength(yards), 1)) + "</strong></p>";
+      card += capacityRatingWarningHtml(reel, item, null, true);
       card += "</article>";
       return card;
     }).join("");
@@ -1814,7 +1817,7 @@ function renderSimilarLines() {
     return block;
   }).join("");
   el.similarLines.className = "";
-  el.similarLines.innerHTML = (capacityPageReelReady(reel) ? "" : capacityRatingWarningHtml(reel, true)) + html;
+  el.similarLines.innerHTML = html;
 }
 
 function findSimilarDiameterLines(lines, diameterIn, reel, excludeId) {

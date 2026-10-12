@@ -595,9 +595,14 @@
         return;
       }
       var braidRange = core.calculateActualLineBraidCapacityRange(reel, mainLine, preparedLines);
-      var ratingAssessment = core.assessReelCapacityRatings ? core.assessReelCapacityRatings(reel, preparedLines) : null;
-      var ratingWarning = ratingAssessment && ratingAssessment.warning
-        ? '<div class="practical-warning" data-capacity-rating-warning><strong>' + escapeHtml(ratingAssessment.title) + '</strong><br>' + escapeHtml(ratingAssessment.message) + '</div>' : "";
+      var warningLines = [{ line: mainLine, role: "Main line" }];
+      if (state.mode === "backing") warningLines.push({ line: backingLine, role: "Backing line" });
+      var ratingWarning = warningLines.map(function(entry) {
+        var assessment = core.assessLineCapacityRatings ? core.assessLineCapacityRatings(reel, entry.line, preparedLines) : null;
+        var backingMode = state.mode === "backing";
+        return assessment && assessment.warning
+          ? '<div class="practical-warning" data-capacity-rating-warning><strong>' + escapeHtml((backingMode ? entry.role + ": " : "") + assessment.title) + '</strong><br>' + escapeHtml(backingMode ? assessment.backingMessage : assessment.message) + '</div>' : "";
+      }).join("");
       var basisText = basisExplanation(basis, mainLine, braidRange);
       var capacityBasisKey = [basis.type, mainLine.id || "custom", mainLine.lb].join("|");
       if (capacityBasisKey !== state.lastCapacityBasisKey) {
@@ -845,7 +850,7 @@
     // Auto-start and the page loader can both call initialize before data is ready.
     mount.dataset.reelcalcLoading = "true";
     Promise.all([
-      loadScript("js/calculator-core.js?v=10", "ReelCalcCore"),
+      loadScript("js/calculator-core.js?v=11", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
       loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
       loadJson(reelsUrl),

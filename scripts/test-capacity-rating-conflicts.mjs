@@ -68,7 +68,8 @@ assert.equal(JSON.stringify({ reels, lines }), before, "Assessment must not muta
 const fierce = reels.find(reel => /penn-fierce-iv-8000/.test(reel.id));
 assert.ok(fierce && assess(fierce) && !assess(fierce).warning, "PENN Fierce IV control");
 for (const file of ["js/wizard.js", "js/reel-page-calculator.js", "js/line-page-engine.js", "examples/reel-comparison.js"]) {
-  assert.match(read(file), /assessReelCapacityRatings\(/, `${file} must use the shared check`);
+  assert.match(read(file), /assessLineCapacityRatings\(/, `${file} must use the selected-line shared check`);
+  assert.doesNotMatch(read(file), /assessReelCapacityRatings\(/, `${file} must not show a blanket reel warning`);
   assert.match(read(file), /data-capacity-rating-warning/, `${file} must display the warning`);
   new vm.Script(read(file), { filename: file });
 }

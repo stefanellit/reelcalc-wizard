@@ -24,14 +24,18 @@ assert.match(loader, /js\/homepage-calculator-v2\.js/);
 assert.match(loader, /js\/calculator-core\.js/);
 assert.match(loader, /data\/homepage-calculator-release\.json/);
 assert.match(loader, /could not load/i);
-assert.equal(release.version, "3");
+assert.equal(release.version, "4");
 
 assert.match(template, /id="reelcalc-homepage-calculator"/);
 assert.match(template, /id="feedbackHelpful"/);
 assert.match(template, /id="copyResultsButton"/);
+assert.match(template, /<p class="rating-diameter-note" id="reelDiameterNote"><strong>Reel lists a line diameter\?<\/strong> Use it instead of the lb-test rating, with the capacity listed beside it\.<\/p>/);
+assert.ok(template.indexOf('id="reelDiameterNote"') < template.indexOf('id="step1Help"'), "Diameter guidance must be visible outside collapsed help");
+assert.equal((template.match(/aria-describedby="reelDiameterNote"/g) || []).length, 2, "Both material controls share the diameter guidance");
 assert.doesNotMatch(template, /<script|<style/i);
 
 assert.match(stylesheet, /#reelcalc-homepage-calculator/);
+assert.match(stylesheet, /#reelcalc-homepage-calculator \.rating-diameter-note\s*\{/);
 assert.match(stylesheet, /@media\s*\(max-width:\s*520px\)/);
 assert.match(calculator, /window\.ReelCalcHomepageCalculator/);
 assert.match(calculator, /window\.ReelCalcCore/);

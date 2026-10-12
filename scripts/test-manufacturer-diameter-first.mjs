@@ -36,14 +36,14 @@ for (const file of ['data/lines.json', 'js/capacity-config.js', 'js/capacity-res
   assert.equal(digest(read(file).replaceAll('\r\n', '\n')), digest(git(file).replaceAll('\r\n', '\n')), 'Protected file changed: ' + file);
 }
 assert.match(read('js/capacity-config.js'), /capacityOnlyEnabled:false/);
-assert.match(read('index.html'), /calculator-core\.js\?v=10/);
-assert.match(read('index.html'), /wizard\.js\?v=24/);
+assert.match(read('index.html'), /calculator-core\.js\?v=11/);
+assert.match(read('index.html'), /wizard\.js\?v=25/);
 assert.match(read('js/wizard.js'), /data\/reels\.json\?v=10/);
-assert.match(read('js/reel-page-calculator.js'), /calculator-core\.js\?v=10/);
-assert.match(read('js/squarespace-reel-page-loader.js'), /reel-page-calculator\.js\?v=13/);
+assert.match(read('js/reel-page-calculator.js'), /calculator-core\.js\?v=11/);
+assert.match(read('js/squarespace-reel-page-loader.js'), /reel-page-calculator\.js\?v=14/);
 assert.match(read('examples/reel-comparison-loader.js'), /diameter-first-1/);
 assert.match(read('examples/reel-comparison.js'), /data\/reels\.json\?v=10/);
-assert.equal(JSON.parse(read('data/line-page-release.json')).version, '20');
+assert.equal(JSON.parse(read('data/line-page-release.json')).version, '21');
 const inputs = new Map();
 for (const item of evidence.input_manifest) {
   const content = fs.readFileSync(path.join(workspace, item.file));

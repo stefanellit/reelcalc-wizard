@@ -92,19 +92,23 @@
     return totalSpoolSpace / (selectedLineDiameterIn * selectedLineDiameterIn);
   }
 
-  function manufacturerDiameterBasis(reel, line) {
-    if (!reel || !isLineReady(line) || reel.id === "manual-reel" || reel.manualRating || reel.manual_reel_entry_mode) return null;
-    var type = String(line.type || "").toLowerCase();
-    var material = /braid/.test(type) ? "braid" : /mono|nylon|fluoro|copoly/.test(type) ? "mono" : null;
-    if (!material || !Array.isArray(reel.manufacturer_capacity_ratings)) return null;
-    var selectedMm = Number(line.dia_in) * MM_PER_INCH;
-    if (!Number.isFinite(selectedMm) || !(selectedMm > 0)) return null;
-    var ratings = reel.manufacturer_capacity_ratings.filter(function(row) {
+  function eligibleManufacturerRatings(reel, material) {
+    if (!reel || !material || !Array.isArray(reel.manufacturer_capacity_ratings)) return [];
+    return reel.manufacturer_capacity_ratings.filter(function(row) {
       return row && row.reel_id === reel.id && row.material === material && row.calculation_eligible === true &&
         ["verified_source", "reviewed_physical_source"].indexOf(row.verification_status) !== -1 &&
         row.normalized && Number.isFinite(row.normalized.diameter_mm) && row.normalized.diameter_mm > 0 &&
         Number.isFinite(row.normalized.capacity_meters) && row.normalized.capacity_meters > 0;
     });
+  }
+
+  function manufacturerDiameterBasis(reel, line) {
+    if (!reel || !isLineReady(line) || reel.id === "manual-reel" || reel.manualRating || reel.manual_reel_entry_mode) return null;
+    var type = String(line.type || "").toLowerCase();
+    var material = /braid/.test(type) ? "braid" : /mono|nylon|fluoro|copoly/.test(type) ? "mono" : null;
+    var selectedMm = Number(line.dia_in) * MM_PER_INCH;
+    if (!Number.isFinite(selectedMm) || !(selectedMm > 0)) return null;
+    var ratings = eligibleManufacturerRatings(reel, material);
     if (!ratings.length) return null;
     // Nearest proportional diameter, with a stable tie-break. Never an exact-match/range gate.
     ratings.sort(function(a, b) {
@@ -777,6 +781,60 @@
     };
   }
 
+  function assessLineCapacityRatings(reel, line, lineCatalog) {
+    if (!reel || reel.id === "manual-reel" || reel.manualRating || reel.manual_reel_entry_mode ||
+        !isLineReady(line) || !Array.isArray(lineCatalog) || !lineCatalog.length) return null;
+    var type = String(line.type || "").toLowerCase();
+    var material = /braid/.test(type) ? "braid" : /mono|nylon|fluoro|copoly/.test(type) ? "mono" : null;
+    var diameter = Number(line.dia_in);
+    if (!material || !Number.isFinite(diameter) || !(diameter > 0)) return null;
+    var basis = capacityBasisForActualLine(reel, line, lineCatalog);
+    if (!basis || !Number.isFinite(basis.capacityYards) || !(basis.capacityYards > 0)) return null;
+    // A cross-material discrepancy does not discredit a verified same-material reference.
+    if (basis.type === "manufacturer-diameter") return {
+      warning: false, reason: "verified_same_material", material: material,
+      selectedCapacityYards: basis.capacityYards, basisType: basis.type
+    };
+    if (basis.type === "mono-derived-braid-fallback" || reel.capacity_reference_type === "braid") return null;
+
+    var otherMaterial = material === "braid" ? "mono" : "braid";
+    var verified = eligibleManufacturerRatings(reel, otherMaterial);
+    var referenceYards = verified.map(function(row) {
+      return calculateLineCapacityFromDiameter(row.normalized.capacity_meters / 0.9144,
+        row.normalized.diameter_mm / MM_PER_INCH, diameter);
+    });
+    if (!referenceYards.length && otherMaterial === "mono") {
+      referenceYards = [{ yards: reel.capacity_yards, diameter_in: reel.rated_line_diameter_in }]
+        .concat(Array.isArray(reel.capacity_options) ? reel.capacity_options : []).map(function(row) {
+          return row && calculateLineCapacityFromDiameter(Number(row.yards), Number(row.diameter_in), diameter);
+        });
+    } else if (!referenceYards.length) {
+      var braid = actualLineBraidCapacityEstimate(reel, { type: "Braid", lb: Number(line.lb), dia_in: diameter }, lineCatalog);
+      referenceYards = braid ? braid.anchors.map(function(anchor) { return anchor.selectedLineCapacityYards; }) : [];
+    }
+    referenceYards = referenceYards.filter(function(value) { return Number.isFinite(value) && value > 0; });
+    if (!referenceYards.length) return null;
+    var minimum = Math.min.apply(Math, referenceYards);
+    var maximum = Math.max.apply(Math, referenceYards);
+    var ratio = Math.max(minimum / basis.capacityYards, basis.capacityYards / maximum);
+    var warning = ratio >= 2;
+    var relativeDirection = basis.capacityYards < minimum ? "low" : basis.capacityYards > maximum ? "high" : "overlap";
+    // The 2x screen flags disagreement, not the direction of a real-world fill error.
+    var lineName = material === "braid" ? "braid" : /fluoro/.test(type) ? "fluorocarbon" : /copoly/.test(type) ? "copolymer" : "mono";
+    var title = "Keep an eye on your spool";
+    var message = "This reel's mono and braid ratings give different estimates. Use this " + lineName +
+      " yardage as a guide, and stop when the spool reaches its recommended fill level.";
+    return {
+      warning: warning, reason: "selected_line_rating_comparison", material: material, lineId: line.id || null,
+      selectedCapacityYards: basis.capacityYards, basisType: basis.type,
+      comparisonMaterial: otherMaterial, comparisonVerified: verified.length > 0,
+      comparisonMinimumYards: minimum, comparisonMaximumYards: maximum,
+      separatedRatio: ratio, threshold: 2, relativeDirection: relativeDirection, direction: "uncertain",
+      title: title, message: message,
+      backingMessage: message + " The backing amount is an estimate too."
+    };
+  }
+
   function capacityBasisForActualLine(reel, line, lineCatalog) {
     if (!line || !isLineReady(line)) return null;
     var manufacturerBasis = manufacturerDiameterBasis(reel, line);
@@ -1078,6 +1136,7 @@
     actualLineBraidCapacityEstimate: actualLineBraidCapacityEstimate,
     calculateActualLineBraidCapacityRange: calculateActualLineBraidCapacityRange,
     assessReelCapacityRatings: assessReelCapacityRatings,
+    assessLineCapacityRatings: assessLineCapacityRatings,
     capacityBasisForLine: capacityBasisForLine,
     capacityBasisForActualLine: capacityBasisForActualLine,
     calculateCalibratedBacking: calculateCalibratedBacking,

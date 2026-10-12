@@ -280,6 +280,14 @@
     line-height: 1.45;
     color: rgba(0,0,0,0.68);
 }
+#reelcalc-homepage-calculator .rating-diameter-note {
+    margin: 10px 0 14px;
+    padding: 6px 10px;
+    border-left: 3px solid #276956;
+    color: #24433a;
+    font-size: 14px;
+    line-height: 1.5;
+}
 #reelcalc-homepage-calculator #backingTypeSegment .seg-btn.active{
     background: rgba(155,89,182,0.18);
     color: #573464;

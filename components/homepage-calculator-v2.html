@@ -38,6 +38,7 @@
     <button type="button" class="info-btn" data-help-toggle="step1Help" aria-expanded="false" aria-controls="step1Help" aria-label="Help with reel specifications">&#9432;</button>
   </div>
   <p class="step-intro" id="step1Intro">Enter one complete Mono or Braid capacity rating from your reel.</p>
+  <p class="rating-diameter-note" id="reelDiameterNote"><strong>Reel lists a line diameter?</strong> Use it instead of the lb-test rating, with the capacity listed beside it.</p>
   <div class="step-help hidden" id="step1Help">
     <p>Find the reel's line-capacity specifications on the spool, box, manual, or manufacturer's specifications.</p>
     <p id="step1RatingExample">Choose the unit beside each field to match the reel exactly. Mixed units are okay, such as 8 lb / 200 yards / 0.28 mm.</p>
@@ -72,7 +73,7 @@
         </select>
       </div>
       <label class="rating-diameter-toggle" for="monoUseDiameter">
-        <input id="monoUseDiameter" type="checkbox" data-rating-diameter-toggle="mono">
+        <input id="monoUseDiameter" type="checkbox" data-rating-diameter-toggle="mono" aria-describedby="reelDiameterNote">
         <span>My reel lists diameter</span>
       </label>
       <div class="rating-diameter-fields hidden" id="monoDiameterWrap">
@@ -108,7 +109,7 @@
         </select>
       </div>
       <label class="rating-diameter-toggle" for="braidUseDiameter">
-        <input id="braidUseDiameter" type="checkbox" data-rating-diameter-toggle="braid">
+        <input id="braidUseDiameter" type="checkbox" data-rating-diameter-toggle="braid" aria-describedby="reelDiameterNote">
         <span>My reel lists diameter</span>
       </label>
       <div class="rating-diameter-fields hidden" id="braidDiameterWrap">

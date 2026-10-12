@@ -728,10 +728,14 @@
       }
 
       state.lastResult = result;
-      var ratingAssessment = global.ReelCalcCore.assessReelCapacityRatings
-        ? global.ReelCalcCore.assessReelCapacityRatings(result.reel, calibrationCatalog()) : null;
-      var ratingWarning = ratingAssessment && ratingAssessment.warning
-        ? '<div class="rc-notice rc-rating-warning" data-capacity-rating-warning><strong>' + escapeHtml(ratingAssessment.title) + '</strong><br>' + escapeHtml(ratingAssessment.message) + '</div>' : "";
+      var warningLines = [{ line: result.line, role: "Main line" }];
+      if (result.needsBacking && result.backingLine) warningLines.push({ line: result.backingLine, role: "Backing line" });
+      var ratingWarning = warningLines.map(function(entry) {
+        var assessment = global.ReelCalcCore.assessLineCapacityRatings
+          ? global.ReelCalcCore.assessLineCapacityRatings(result.reel, entry.line, calibrationCatalog()) : null;
+        return assessment && assessment.warning
+          ? '<div class="rc-notice rc-rating-warning" data-capacity-rating-warning><strong>' + escapeHtml((result.needsBacking ? entry.role + ": " : "") + assessment.title) + '</strong><br>' + escapeHtml(result.needsBacking ? assessment.backingMessage : assessment.message) + '</div>' : "";
+      }).join("");
       var capacityDisplay = result.capacityRange
         ? formatYards(result.capacityRange.centerYards) + '<small>Expected range: ' + formatYards(result.capacityRange.minimumYards) + "-" + formatYards(result.capacityRange.maximumYards) + "</small>"
         : formatYards(result.fullCapacity);

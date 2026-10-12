@@ -966,11 +966,16 @@
     var secondLine = !state.backingEnabled && elements.secondLineStrength?.value
       ? state.lines.find(function(line) { return line.id === elements.secondLineStrength.value; }) || mainLine : mainLine;
     var fitB = lineFitForReel(state.reelB, secondLine, backingLine, desiredYards);
-    var ratingWarnings = [state.reelA, state.reelB].map(function(reel) {
-      var assessment = window.ReelCalcCore.assessReelCapacityRatings
-        ? window.ReelCalcCore.assessReelCapacityRatings(reel, state.lines) : null;
-      return assessment && assessment.warning
-        ? '<div class="rc-rating-warning" data-capacity-rating-warning><strong>' + escapeHtml(displayName(reel)) + ': ' + escapeHtml(assessment.title) + '</strong><p>' + escapeHtml(assessment.message) + '</p></div>' : "";
+    var ratingWarnings = [{ reel: state.reelA, line: mainLine, fit: fitA }, { reel: state.reelB, line: secondLine, fit: fitB }].map(function(entry) {
+      if (entry.fit.capacityResult) return "";
+      var warningLines = [{ line: entry.line, role: "Main line" }];
+      if (state.backingEnabled) warningLines.push({ line: backingLine, role: "Backing line" });
+      return warningLines.map(function(selected) {
+        var assessment = window.ReelCalcCore.assessLineCapacityRatings
+          ? window.ReelCalcCore.assessLineCapacityRatings(entry.reel, selected.line, state.lines) : null;
+        return assessment && assessment.warning
+          ? '<div class="rc-rating-warning" data-capacity-rating-warning><strong>' + escapeHtml(displayName(entry.reel)) + ': ' + escapeHtml((state.backingEnabled ? selected.role + ": " : "") + assessment.title) + '</strong><p>' + escapeHtml(state.backingEnabled ? assessment.backingMessage : assessment.message) + '</p></div>' : "";
+      }).join("");
     }).join("");
     elements.lineFitSummary.innerHTML = state.backingEnabled
       ? "Comparing <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> over <strong>" +
@@ -980,7 +985,7 @@
         ? "Capacity estimates for each reel and its selected line."
         : "Comparing a full spool of <strong>" + escapeHtml(lineLabel(mainLine)) + "</strong> with no backing.";
     var capacityRows = fitA.capacityResult || fitB.capacityResult ? [{label:"Selected main line", a:textValue(lineLabel(mainLine)), b:textValue(lineLabel(secondLine))}] : [];
-    elements.lineFitComparison.innerHTML = (fitA.capacityResult || fitB.capacityResult ? "" : ratingWarnings) + comparisonTable(capacityRows.concat([
+    elements.lineFitComparison.innerHTML = ratingWarnings + comparisonTable(capacityRows.concat([
       { label: "Full spool estimate", a: capacityFitHtml(fitA), b: capacityFitHtml(fitB) },
       { label: "Backing needed", a: backingFitHtml(fitA, desiredYards), b: backingFitHtml(fitB, desiredYards) },
       { label: "Main-line handle turns", a: fitA.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitA.mainTurns), b: fitB.overCapacity ? textValue(state.backingEnabled ? "Reduce main-line amount" : "Unavailable") : turnsLabel(fitB.mainTurns) },
