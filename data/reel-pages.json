@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "siteBaseUrl": "https://www.reelcalc.com",
   "wizardPath": "/reelcalc-wizard",
   "comparisonPath": "/reel-comparison",
@@ -16013,6 +16013,135 @@
       "imageMethod": "verified-manufacturer-image",
       "verifiedLive": true,
       "quickAnswerNote": ""
+    },
+    {
+      "reelId": "penn-fierce-v-5000-frcv5000",
+      "path": "/reel-pages/p/penn-fierce-v-5000",
+      "family": "PENN Fierce V",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-5000-frcv5000.jpg",
+      "imageAlt": "PENN Fierce V 5000, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.pennfishing.com/cdn/shop/files/PEN_FierceVSpinningReel_1653910_alt1.jpg?v=1787808975",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": ""
+    },
+    {
+      "reelId": "penn-fierce-v-6000-frcv6000",
+      "path": "/reel-pages/p/penn-fierce-v-6000",
+      "family": "PENN Fierce V",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-6000-frcv6000.jpg",
+      "imageAlt": "PENN Fierce V 6000, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.pennfishing.com/cdn/shop/files/PEN_FierceVSpinningReel_1653912_alt1.jpg?v=1787808975",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": ""
+    },
+    {
+      "reelId": "penn-fierce-v-8000-frcv8000",
+      "path": "/reel-pages/p/penn-fierce-v-8000",
+      "family": "PENN Fierce V",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/product-expansion-2026-10/penn-fierce-v-8000-frcv8000.jpg",
+      "imageAlt": "PENN Fierce V 8000, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.pennfishing.eu/cdn/shop/files/PEN_FierceVSpinningReel_1653914_alt1.jpg?v=1788514145",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.pennfishing.com/products/fierce-v-spinning-reel-1656770?variant=55709936648332",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": ""
+    },
+    {
+      "reelId": "shakespeare-tiger-spinning-30-tigrsp30",
+      "path": "/reel-pages/p/shakespeare-tiger-spinning-30",
+      "family": "Shakespeare Tiger Spinning",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645661_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 30, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645661_alt1.jpg?v=1787737229",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": "",
+      "unavailableSpecs": {
+        "weight_oz": "Not confirmed in checked manufacturer sources",
+        "max_drag_lb": "Not published in checked manufacturer sources",
+        "line_retrieve_in": "Not published in checked manufacturer sources"
+      }
+    },
+    {
+      "reelId": "shakespeare-tiger-spinning-40-tigrsp40",
+      "path": "/reel-pages/p/shakespeare-tiger-spinning-40",
+      "family": "Shakespeare Tiger Spinning",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645662_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 40, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645662_alt1.jpg?v=1787737229",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": "",
+      "unavailableSpecs": {
+        "weight_oz": "Not confirmed in checked manufacturer sources",
+        "max_drag_lb": "Not published in checked manufacturer sources",
+        "line_retrieve_in": "Not published in checked manufacturer sources"
+      }
+    },
+    {
+      "reelId": "shakespeare-tiger-spinning-50-tigrsp50",
+      "path": "/reel-pages/p/shakespeare-tiger-spinning-50",
+      "family": "Shakespeare Tiger Spinning",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645663_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 50, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645663_alt1.jpg?v=1787737229",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": "",
+      "unavailableSpecs": {
+        "weight_oz": "Not confirmed in checked manufacturer sources",
+        "max_drag_lb": "Not published in checked manufacturer sources",
+        "line_retrieve_in": "Not published in checked manufacturer sources"
+      }
+    },
+    {
+      "reelId": "shakespeare-tiger-spinning-60-tigrsp60",
+      "path": "/reel-pages/p/shakespeare-tiger-spinning-60",
+      "family": "Shakespeare Tiger Spinning",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645664_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 60, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645664_alt1.jpg?v=1787737229",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": "",
+      "unavailableSpecs": {
+        "weight_oz": "Not confirmed in checked manufacturer sources",
+        "max_drag_lb": "Not published in checked manufacturer sources",
+        "line_retrieve_in": "Not published in checked manufacturer sources"
+      }
+    },
+    {
+      "reelId": "shakespeare-tiger-spinning-80-tigrsp80",
+      "path": "/reel-pages/p/shakespeare-tiger-spinning-80",
+      "family": "Shakespeare Tiger Spinning",
+      "imageUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645665_alt1.jpg?v=1787737229",
+      "imageAlt": "Shakespeare Tiger Spinning 80, manufacturer product photograph",
+      "imageOriginalUrl": "https://www.shakespeare-fishing.com/cdn/shop/files/SHA_TigerSpinningReel_1645665_alt1.jpg?v=1787737229",
+      "imageSource": "Manufacturer product photograph",
+      "imageSourcePage": "https://www.shakespeare-fishing.com/products/tiger-spinning-reel-1656817",
+      "imageMethod": "verified-manufacturer-image",
+      "verifiedLive": true,
+      "quickAnswerNote": "",
+      "unavailableSpecs": {
+        "weight_oz": "Not confirmed in checked manufacturer sources",
+        "max_drag_lb": "Not published in checked manufacturer sources",
+        "line_retrieve_in": "Not published in checked manufacturer sources"
+      }
     }
   ],
   "goldStandard": {
