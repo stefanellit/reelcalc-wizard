@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "selectionMode": "separate",
+  "status": "live_optional",
+  "approvedMethods": ["line-laboratory-api-average"],
+  "dataPath": "data/line-laboratory.json",
+  "matchesPath": "data/line-laboratory-matches.json"
+}

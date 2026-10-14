@@ -1,0 +1,11 @@
+{
+  "name": "reelcalc-line-laboratory-import",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "6.1.0"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  }
+}

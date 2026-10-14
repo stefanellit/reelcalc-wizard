@@ -599,6 +599,7 @@
   }
 
   function lineLabel(line) {
+    if (line && line.diameter_source === "line_laboratory") return window.ReelCalcLineSources.label(line) + " (Line Laboratory)";
     return line ? lineProductLabel(line) + " " + trimNumber(line.lb, 1) + " lb" : "Choose a line";
   }
 
@@ -940,6 +941,7 @@
   }
 
   function renderLineFit() {
+    if (state.reelA && state.reelB) elements.sources.innerHTML = sourceColumn(state.reelA, state.pageByReelId.get(state.reelA.id), "left") + sourceColumn(state.reelB, state.pageByReelId.get(state.reelB.id), "right");
     if (elements.secondLineControls) elements.secondLineControls.hidden = state.backingEnabled;
     if (elements.secondLineControls) {
       var intro = document.querySelector('.rc-line-fit-section .rc-section-intro');
@@ -965,6 +967,10 @@
     var fitA = lineFitForReel(state.reelA, mainLine, backingLine, desiredYards);
     var secondLine = !state.backingEnabled && elements.secondLineStrength?.value
       ? state.lines.find(function(line) { return line.id === elements.secondLineStrength.value; }) || mainLine : mainLine;
+    if (!state.backingEnabled && state.secondSource === "line_laboratory") {
+      secondLine = state.secondLaboratoryLine;
+      if (!secondLine) { elements.lineFitComparison.innerHTML = ""; elements.lineFitSummary.textContent = "Choose a tested line for the second reel."; return; }
+    }
     var fitB = lineFitForReel(state.reelB, secondLine, backingLine, desiredYards);
     var ratingWarnings = [{ reel: state.reelA, line: mainLine, fit: fitA }, { reel: state.reelB, line: secondLine, fit: fitB }].map(function(entry) {
       if (entry.fit.capacityResult) return "";
@@ -1034,6 +1040,26 @@
   function sourceColumn(reel, page, position) {
     var pageUrl = SITE_BASE + page.path;
     var wizardUrl = SITE_BASE + "/reelcalc-wizard?reel=" + encodeURIComponent(reel.id);
+    var mainLine = state.lineRoles.main.line;
+    if (position === "right" && !state.backingEnabled) {
+      if (state.secondSource === "line_laboratory") mainLine = state.secondLaboratoryLine;
+      else if (elements.secondLineStrength?.value) mainLine = state.lines.find(function(line) { return line.id === elements.secondLineStrength.value; }) || mainLine;
+    }
+    var backingLine = state.backingEnabled ? state.lineRoles.backing.line : null;
+    if (mainLine?.diameter_source === "line_laboratory" || backingLine?.diameter_source === "line_laboratory") {
+      var handoff = new URL(wizardUrl);
+      if (mainLine) {
+        handoff.searchParams.set("line", mainLine.id);
+        handoff.searchParams.set("lineSource", mainLine.diameter_source === "line_laboratory" ? "line_laboratory" : "manufacturer");
+      }
+      if (backingLine) {
+        handoff.searchParams.set("backingLine", backingLine.id);
+        handoff.searchParams.set("backingLineSource", backingLine.diameter_source === "line_laboratory" ? "line_laboratory" : "manufacturer");
+      }
+      handoff.searchParams.set("mode", state.backingEnabled ? "backing" : "capacity");
+      if (state.backingEnabled && Number(elements.mainLineYards.value) > 0) handoff.searchParams.set("mainYards", elements.mainLineYards.value);
+      wizardUrl = handoff.href;
+    }
     var affiliate = reelAffiliateOffer(reel);
     var attributes = ' data-reel-id="' + escapeHtml(reel.id) + '" data-position="' + position + '"';
     return [
@@ -1123,8 +1149,15 @@
     else url.searchParams.delete("reel2");
     if (state.lineRoles.main.line) url.searchParams.set("mainLine", state.lineRoles.main.line.id);
     else url.searchParams.delete("mainLine");
+    url.searchParams.set("lineSource", state.lineRoles.main.source || "manufacturer");
+    url.searchParams.set("backingLineSource", state.lineRoles.backing.source || "manufacturer");
+    url.searchParams.set("lineSourceB", state.secondSource || "manufacturer");
     if (elements.secondLineStrength) {
       if (elements.secondLineStrength.value) url.searchParams.set("mainLineB", elements.secondLineStrength.value);
+      else url.searchParams.delete("mainLineB");
+    }
+    if (state.secondSource === "line_laboratory") {
+      if (state.secondLaboratoryLine) url.searchParams.set("mainLineB", state.secondLaboratoryLine.id);
       else url.searchParams.delete("mainLineB");
     }
     if (state.lineRoles.backing.line) url.searchParams.set("backingLine", state.lineRoles.backing.line.id);
@@ -1209,7 +1242,7 @@
     closeReelMenu("B");
 
     var url = new URL(window.location.href);
-    ["reel1", "reel2", "mainLine", "backingLine", "backing", "mainYards"].forEach(function(key) {
+    ["reel1", "reel2", "mainLine", "backingLine", "backing", "mainYards", "lineSource", "backingLineSource", "lineSourceB", "mainLineB"].forEach(function(key) {
       url.searchParams.delete(key);
     });
     if (elements.secondLineStrength) url.searchParams.delete("mainLineB");
@@ -1537,8 +1570,54 @@
     elements.mainLineYards.value = desiredYards > 0 ? trimNumber(desiredYards, 1) : "100";
     refreshLineRole("main", mainLine ? mainLine.id : "");
     refreshLineRole("backing", backingLine ? backingLine.id : "");
+    if (state.sourcePickers) ["main", "backing"].forEach(function(role) {
+      var requested = window.ReelCalcLineSources.selection(params.toString(), role);
+      if (requested.source !== "manufacturer" || state.sourcePickers[role].source() !== "manufacturer") {
+        state.sourcePickers[role].setSelection(requested);
+        if (requested.source === "manufacturer") refreshLineRole(role, requested.id);
+      }
+    });
+    if (!state.sourcePickers) ["main", "backing"].forEach(function(role) {
+      var id = params.get(role === "main" ? "mainLine" : "backingLine") || "";
+      if (id.startsWith("line-laboratory:") || params.get(role === "main" ? "lineSource" : "backingLineSource") === "line_laboratory") {
+        state.lineRoles[role].line = null;
+        roleElements(role).detail.textContent = "Line Laboratory is unavailable. Choose a manufacturer line to continue.";
+      }
+    });
     if (elements.restoreSecondLine) elements.restoreSecondLine(params.get("mainLineB"));
+    if (state.secondPicker) state.secondPicker.setSelection({ source: params.get("lineSourceB") || (String(params.get("mainLineB")).startsWith("line-laboratory:") ? "line_laboratory" : "manufacturer"), id: params.get("mainLineB") || "" });
     setBackingMode(backingEnabled);
+  }
+
+  async function initializeLaboratory() {
+    var sources = window.ReelCalcLineSources;
+    if (!sources) return;
+    var catalog = await sources.load(state.lines, ASSET_ROOT.href);
+    state.sourcePickers = {};
+    ["main", "backing"].forEach(function(role) {
+      var chooser = document.querySelector('.rc-line-chooser[data-line-role="' + role + '"]');
+      var heading = chooser.querySelector("h3");
+      var fields = Array.from(chooser.children).filter(function(field) { return field !== heading; });
+      var holder = document.createElement("div");
+      if (heading) heading.after(holder); else chooser.prepend(holder);
+      state.sourcePickers[role] = sources.mountPicker({ catalog: catalog, parent: holder, role: role, manufacturerFields: fields,
+        onSourceChange: function(source) {
+          state.lineRoles[role].source = source; state.lineRoles[role].line = null;
+          closeLineMenu(role);
+          if (source === "manufacturer") refreshLineRole(role, "");
+          renderLineFit(); updateUrl("replace");
+        },
+        onSelect: function(line) { state.lineRoles[role].line = line; renderLineFit(); updateUrl("replace"); }
+      });
+    });
+    if (elements.secondLineControls) {
+      var fields = Array.from(elements.secondLineControls.children), holder = document.createElement("div");
+      elements.secondLineControls.prepend(holder);
+      state.secondPicker = sources.mountPicker({ catalog: catalog, parent: holder, role: "Second reel main", manufacturerFields: fields,
+        onSourceChange: function(source) { state.secondSource = source; state.secondLaboratoryLine = null; renderLineFit(); updateUrl("replace"); },
+        onSelect: function(line) { state.secondLaboratoryLine = line; renderLineFit(); updateUrl("replace"); }
+      });
+    }
   }
 
   function chooseReelsFromParams(params, source) {
@@ -1666,6 +1745,7 @@
         ["baitcasting", state.options.filter(function(option) { return option.type === "baitcasting"; })]
       ]);
       installEvents();
+      await initializeLaboratory();
       var initialParams = new URLSearchParams(window.location.search);
       var initialSource = initialParams.get("reel1") && initialParams.get("reel2")
         ? "shared_url"

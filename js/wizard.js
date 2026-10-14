@@ -60,6 +60,8 @@ const state = {
   unitSystem: "standard",
   reelLabelMap: new Map(),
   lineLabelMap: new Map(),
+  lineSource: "manufacturer",
+  backingSource: "manufacturer",
 };
 
 const el = {};
@@ -83,6 +85,7 @@ async function init() {
   populateLineFilters();
   var preloadedLine = applyLinePreloadFromUrl();
   populateBackingFilters();
+  await initializeLineSources();
   renderAll();
   trackWizardEvent("wizard_viewed", {
     page_type: "setup_wizard",
@@ -506,9 +509,9 @@ function renderAll() {
   renderBackingResult();
   renderSimilarLines();
   if (window.ReelCalcLineGuides) {
-    window.ReelCalcLineGuides.showAfter(el.lineLb.closest("label"), state.path === "exact" && !state.useManualLine ? state.selectedLine : null,
+    window.ReelCalcLineGuides.showAfter(el.lineLb.closest("label"), state.path === "exact" && !state.useManualLine && state.lineSource === "manufacturer" ? state.selectedLine : null,
       { source: "setup_wizard", role: "main", reel: !state.useManualReel && reel ? reel.id : "" });
-    window.ReelCalcLineGuides.showAfter(el.backingLb.closest("label"), state.backingMode === "yes" && !state.useManualBacking ? state.backingLine : null,
+    window.ReelCalcLineGuides.showAfter(el.backingLb.closest("label"), state.backingMode === "yes" && !state.useManualBacking && state.backingSource === "manufacturer" ? state.backingLine : null,
       { source: "setup_wizard", role: "backing", reel: !state.useManualReel && reel ? reel.id : "" });
   }
 }
@@ -850,6 +853,12 @@ function applyReelPreloadFromUrl() {
 
 function applyLinePreloadFromUrl() {
   var params = new URLSearchParams(window.location.search);
+  if (params.get("lineSource") && params.get("lineSource") !== "manufacturer" ||
+      String(params.get("line") || params.get("mainLine") || "").startsWith("line-laboratory:")) {
+    state.path = "exact";
+    setActiveButtons("data-path", state.path);
+    return null;
+  }
   var requested = params.get("line") || params.get("mainLine");
   if (!requested) return null;
   var line = state.lines.find(function(item) { return item.id === requested; });
@@ -906,7 +915,86 @@ function resolveLineFromFilters() {
   }
 }
 
+async function initializeLineSources() {
+  var sources = window.ReelCalcLineSources;
+  if (!sources) {
+    var incoming = new URLSearchParams(location.search);
+    ["main", "backing"].forEach(function(role) {
+      var source = incoming.get(role === "main" ? "lineSource" : "backingLineSource");
+      var id = incoming.get(role === "main" ? "line" : "backingLine") || incoming.get(role === "main" ? "mainLine" : "backingLine");
+      if ((source && source !== "manufacturer") || String(id || "").startsWith("line-laboratory:")) {
+        if (role === "main") { state.lineSource = "unavailable"; state.selectedLine = null; }
+        else { state.backingSource = "unavailable"; state.backingLine = null; }
+        var notice = document.createElement("p");
+        notice.textContent = "The laboratory selection could not load. Refresh this page, or remove the laboratory selection from the link to use manufacturer specifications.";
+        (role === "main" ? el.exactPanel : el.backingFields).prepend(notice);
+      }
+    });
+    return;
+  }
+  var catalog = await sources.load(state.lines);
+  var requestedMain = sources.selection(location.search, "main");
+  var requestedBacking = sources.selection(location.search, "backing");
+  if (requestedMain.source !== "manufacturer" || requestedBacking.source !== "manufacturer") {
+    var params = new URLSearchParams(location.search);
+    state.backingMode = params.get("mode") === "capacity" ? "none" : requestedBacking.explicit || params.get("mode") === "backing" ? "yes" : "none";
+    var yards = Number(params.get("mainYards"));
+    if (Number.isFinite(yards) && yards > 0 && yards <= 100000) state.desiredMainYards = yards;
+    if (requestedBacking.source === "manufacturer" && requestedBacking.id) {
+      var backing = catalog.resolve("manufacturer", requestedBacking.id);
+      if (backing) selectBackingLine(backing);
+    }
+  }
+  ["main", "backing"].forEach(function(role) {
+    var backing = role === "backing";
+    var panel = backing ? el.backingFields : el.exactPanel;
+    var grid = panel.querySelector(".form-grid");
+    var parent = document.createElement("div");
+    grid.before(parent);
+    var manualPanel = backing ? el.manualBackingPanel : el.manualLinePanel;
+    var toggle = backing ? el.manualBackingToggle : el.manualLineToggle;
+    state[role + "SourcePicker"] = sources.mountPicker({
+      catalog: catalog, parent: parent, role: role, selection: sources.selection(location.search, role),
+      manufacturerFields: [grid, toggle.parentElement, manualPanel],
+      onSourceChange: function(source) {
+        if (backing) {
+          state.backingSource = source; state.backingLine = null;
+          state.useManualBacking = false; state.manualBacking = null;
+          state.backingFilters = { brand: "", model: "", lb: "" };
+          populateBackingFilters();
+        } else {
+          state.lineSource = source; state.selectedLine = null; state.selectedSetup = null;
+          state.useManualLine = false; state.manualLine = null;
+          state.lineFilters = { brand: "", model: "", lb: "" };
+          state.path = "exact"; setActiveButtons("data-path", "exact");
+          populateLineFilters();
+        }
+        manualPanel.classList.add("hidden");
+        toggle.setAttribute("aria-pressed", "false");
+        toggle.textContent = backing ? "Enter backing manually: Off" : "Enter line manually: Off";
+        renderAll();
+      },
+      onSelect: function(line) {
+        if (backing) state.backingLine = line;
+        else state.selectedLine = line;
+        renderAll();
+      }
+    });
+  });
+  if (catalog.available) {
+    var browse = document.createElement("button");
+    browse.type = "button"; browse.className = "secondary-button";
+    browse.textContent = "Search Line Laboratory tested lines";
+    document.querySelector('[data-path="exact"]').parentElement.after(browse);
+    browse.addEventListener("click", function() {
+      state.mainSourcePicker.setSelection({ source: sources.SOURCE, id: "" });
+      state.mainSourcePicker.element.querySelector('input[type="search"]').focus();
+    });
+  }
+}
+
 function selectLine(line, updateSearch) {
+  if (state.lineSource !== "manufacturer" && state.mainSourcePicker) state.mainSourcePicker.reset();
   state.selectedLine = line;
   state.selectedSetup = null;
   state.useManualLine = false;
@@ -957,6 +1045,7 @@ function resolveBackingFromFilters() {
 }
 
 function selectBackingLine(line) {
+  if (state.backingSource !== "manufacturer" && state.backingSourcePicker) state.backingSourcePicker.reset();
   state.backingLine = line;
   state.useManualBacking = false;
   state.manualBacking = null;
@@ -1047,15 +1136,15 @@ function getActiveReel() {
 }
 
 function getActiveMainLine() {
-  if (state.path === "recommend") return state.selectedSetup ? state.selectedSetup.line : null;
-  if (state.useManualLine) return state.manualLine;
-  return state.selectedLine;
+  var line = state.path === "recommend" ? (state.selectedSetup ? state.selectedSetup.line : null) :
+    state.useManualLine ? state.manualLine : state.selectedLine;
+  return line;
 }
 
 function getBackingLine() {
-  if (state.useManualBacking && state.manualBacking) return state.manualBacking;
-  if (state.backingLine) return state.backingLine;
-  return DEFAULT_BACKING;
+  var line = state.backingSource !== "manufacturer" ? state.backingLine :
+    state.useManualBacking && state.manualBacking ? state.manualBacking : state.backingLine || DEFAULT_BACKING;
+  return line;
 }
 
 function getVisibleReelWarnings(values) {
@@ -1578,6 +1667,7 @@ function formatRetailSpoolLength(yards) {
 }
 
 function recommendationAffiliateHtml(line, fullCapacity, capacityRange) {
+  if (line && line.diameter_source === "line_laboratory") return "";
   if (state.path !== "recommend" || !state.selectedSetup || !line ||
       !window.ReelCalcAffiliateLinks || !state.affiliateData) return "";
 
@@ -1732,6 +1822,11 @@ function renderBackingResult() {
     return;
   }
   var backing = getBackingLine();
+  if (!isLineReady(backing)) {
+    el.backingResult.className = "empty-state";
+    el.backingResult.textContent = "Choose an available backing measurement. No manufacturer diameter will be substituted.";
+    return;
+  }
   var desired = Number(state.desiredMainYards) || 0;
   // Resolve both line references, including braid used underneath a mono/fluoro main line.
   var result = calculateActualLineCalibratedBacking(reel, line, desired, backing, state.lines);
@@ -1934,6 +2029,7 @@ function formatReelShort(reel) {
 }
 
 function formatLineLabel(line) {
+  if (line.diameter_source === "line_laboratory") return window.ReelCalcLineSources.label(line) + " (Line Laboratory)";
   return [line.brand, line.model, line.type, line.lb ? formatStrength(line.lb) : ""].filter(Boolean).join(" ") + (line.source_scope_label ? " (" + line.source_scope_label + ")" : "");
 }
 

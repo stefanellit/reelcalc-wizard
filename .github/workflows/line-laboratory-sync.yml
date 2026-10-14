@@ -1,0 +1,63 @@
+name: Update Line Laboratory catalog
+
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: line-laboratory-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'stefanellit/reelcalc-wizard' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install pinned test dependencies
+        run: |
+          npm install --global pnpm@11.25.0 --ignore-scripts
+          pnpm --dir tools/line-laboratory install --frozen-lockfile --ignore-scripts
+      - name: Test importer safeguards and calculator integrations
+        run: |
+          node tools/line-laboratory/test-sync.mjs
+          node tools/line-laboratory/test.mjs
+      - name: Fetch and validate the public feed
+        run: node tools/line-laboratory/sync-api.mjs --output "$RUNNER_TEMP/lab-sync" --write
+      - name: Check updated catalog in all three calculators
+        run: node tools/line-laboratory/test.mjs
+      - name: Commit only the checked catalog
+        run: |
+          if ! git diff --quiet -- data/line-laboratory.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -- data/line-laboratory.json
+            git commit -m "Update verified Line Laboratory catalog"
+            git push origin HEAD:main
+          fi
+      - name: Publish and verify the live catalog
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node tools/line-laboratory/verify-published.mjs
+      - name: Flag held records for review
+        run: |
+          node --input-type=module -e 'import fs from "node:fs"; const r=JSON.parse(fs.readFileSync(process.env.RUNNER_TEMP+"/lab-sync/sync-report.json")); if(r.review.length) { console.error("Records held for review. Last accepted measurements are preserved. See sync-report.json."); process.exitCode=1; }'
+      - name: Preserve feed receipt and review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: line-laboratory-sync-${{ github.run_id }}
+          path: ${{ runner.temp }}/lab-sync
+          if-no-files-found: ignore
+          retention-days: 90

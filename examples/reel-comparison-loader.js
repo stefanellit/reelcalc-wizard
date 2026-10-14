@@ -170,7 +170,7 @@
 
   function versionedUrl(url) {
     var value = new URL(url);
-    value.searchParams.set("v", (assetVersion || "shared-engine-8") + "-guide-links-1-rating-warnings-1-diameter-first-1-material-warnings-1");
+    value.searchParams.set("v", (assetVersion || "shared-engine-8") + "-guide-links-1-rating-warnings-1-diameter-first-1-material-warnings-1-lab-1");
     return value.href;
   }
 
@@ -212,6 +212,9 @@
     })
     .then(function() {
       return loadScript(new URL("js/capacity-page-bridge.js?v=monitoring-20260930", projectBase).href, "ReelCalcCapacityPages", "capacity-page-bridge").catch(function() {});
+    })
+    .then(function() {
+      return loadScript(versionedUrl(new URL("js/line-sources.js", projectBase)), "ReelCalcLineSources", "line-sources").catch(function() {});
     })
     .then(function() {
       return loadScript(versionedUrl(new URL("reel-comparison.js", exampleBase)), "", "reel-comparison");

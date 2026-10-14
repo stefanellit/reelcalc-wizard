@@ -171,6 +171,8 @@
     var core = services.core;
     var selector = services.selector;
     var affiliates = services.affiliates;
+    var sources = window.ReelCalcLineSources;
+    var sourcePickers = {};
     var defaults = defaultsForMount(mount);
     var preload = selector.parsePreload(location.search);
     if (!preload.mode && mount.dataset.defaultMode === "capacity") preload.mode = "capacity";
@@ -254,6 +256,7 @@
 
     function lineLabel(line) {
       if (!line) return "";
+      if (line.diameter_source === "line_laboratory") return sources.label(line) + " (Line Laboratory)";
       var product = line.custom_line
         ? "Custom " + selector.normalizedMaterial(line.type).toLowerCase()
         : [line.brand, line.model].filter(Boolean).join(" ");
@@ -284,6 +287,7 @@
 
     function refreshRole(role, selectedLineId) {
       var roleState = state[role];
+      if (roleState.source && roleState.source !== "manufacturer") return;
       var products = selector.productsFor(preparedLines, roleState.material);
       var current = selectedLineId
         ? preparedLines.find(function(line) { return line.id === selectedLineId; })
@@ -322,7 +326,7 @@
     function renderGuideLinks() {
       if (!window.ReelCalcLineGuides) return;
       ["main", "backing"].forEach(function(role) {
-        window.ReelCalcLineGuides.showAfter(q(role + "-detail"), state[role].custom ? null : state[role].line,
+        window.ReelCalcLineGuides.showAfter(q(role + "-detail"), state[role].custom || state[role].source === "line_laboratory" ? null : state[role].line,
           { source: "reel_page", role: role, reel: reel.id });
       });
     }
@@ -451,6 +455,7 @@
     }
 
     function affiliateCard(line, requiredYards, role, planningYards) {
+      if (line && line.diameter_source === "line_laboratory") return "";
       var purchaseYards = Number(planningYards) > Number(requiredYards)
         ? Number(planningYards)
         : Number(requiredYards);
@@ -698,8 +703,17 @@
     }
 
     function useRecommendedSetup(userInitiated) {
+      if (userInitiated) Object.keys(sourcePickers).forEach(function(role) { sourcePickers[role].reset(); });
       var main = selector.findLine(preparedLines, "", preload.mainLineId || defaults.mainLineId);
       var backing = selector.findLine(preparedLines, "", preload.backingLineId || defaults.backingLineId);
+      if (!userInitiated && sources) {
+        ["main", "backing"].forEach(function(role) {
+          var requested = sources.selection(location.search, role);
+          if (requested.source !== "manufacturer") state[role].source = requested.source;
+        });
+        if (state.main.source && state.main.source !== "manufacturer") main = null;
+        if (state.backing.source && state.backing.source !== "manufacturer") backing = null;
+      }
       if (main) setRoleLine("main", main); else refreshRole("main");
       if (backing) setRoleLine("backing", backing); else refreshRole("backing");
       state.mode = preload.mode === "capacity" ? "capacity" : "backing";
@@ -824,6 +838,30 @@
     });
     if (Number(reel.line_retrieve_in) > 0) q("reel-ipt").value = Number(reel.line_retrieve_in);
     useRecommendedSetup(false);
+    if (sources && services.catalog) ["main", "backing"].forEach(function(role) {
+      var container = q(role + "-selector");
+      var parent = document.createElement("div");
+      container.querySelector(".line-selector-head").after(parent);
+      var customButton = container.querySelector('[data-action="toggle-custom"]');
+      sourcePickers[role] = sources.mountPicker({
+        catalog: services.catalog, parent: parent, role: role, selection: sources.selection(location.search, role),
+        manufacturerFields: [container.querySelector(".material-tabs"), q(role + "-database-fields"), q(role + "-custom-fields"), customButton],
+        onSourceChange: function(source) {
+          state[role].source = source; state[role].custom = false;
+          state[role].line = null; state[role].awaitingChoice = true;
+          q(role + "-database-fields").classList.remove("hidden");
+          q(role + "-custom-fields").classList.add("hidden");
+          customButton.classList.remove("active"); customButton.setAttribute("aria-pressed", "false");
+          customButton.textContent = "My line isn't listed";
+          refreshRole(role); renderGuideLinks(); q("output").replaceChildren();
+        },
+        onSelect: function(line) {
+          state[role].line = line;
+          if (line) state[role].material = line.material;
+          updateSuggestedSummary(); calculateIfReady("diameter_source_change");
+        }
+      });
+    });
     setActiveButtons("unit", "unit", state.unit);
     updateMode();
     mount.dataset.reelcalcReady = "true";
@@ -865,10 +903,14 @@
       if (!reel) throw new Error('ReelCalc could not find the reel record "' + reelId + '".');
       if (!values[0].isReelReady(reel) && !window.ReelCalcCapacityPages?.enabled()) throw new Error("This reel is missing required mono capacity data.");
       if (!Array.isArray(lines)) throw new Error("The central line database is unavailable.");
+      var sources = await loadScript("js/line-sources.js?v=1", "ReelCalcLineSources").catch(function() { return null; });
+      var catalog = sources ? await sources.load(lines, assetBase.href) : null;
+      if (!sources && /line_laboratory|line-laboratory%3A|line-laboratory:/i.test(location.search)) throw new Error("The selected laboratory measurement is unavailable. Remove the laboratory selection to use manufacturer specifications.");
       mountCalculator(mount, reel, lines, values[5], {
         core: values[0],
         selector: values[1],
-        affiliates: values[2]
+        affiliates: values[2],
+        catalog: catalog
       });
       var introduction = mount.previousElementSibling;
       if (introduction && introduction.tagName === "P") {

@@ -1,0 +1,13 @@
+{
+  "partnerAuthorized": false,
+  "approvedBy": "",
+  "authorizationReference": "",
+  "format": "csv",
+  "feedUrl": "",
+  "allowedFeedHosts": [],
+  "tokenEnvironmentVariable": "",
+  "privateDir": "",
+  "approvedMethods": [],
+  "columnMap": {},
+  "identityApprovals": []
+}
