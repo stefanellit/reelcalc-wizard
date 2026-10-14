@@ -144,6 +144,7 @@ Authentic-data tests cover the initial 199 records and future additions, label-v
 - `js/wizard.js`
 - `js/wizard-embed-loader.js`
 - `js/reel-page-calculator.js`
+- `js/squarespace-reel-page-loader.js` (calculator asset version only)
 - `examples/reel-comparison.js`, `examples/reel-comparison.html`, `examples/reel-comparison-loader.js`
 - New `js/line-sources.js`
 - New `data/line-laboratory.json`

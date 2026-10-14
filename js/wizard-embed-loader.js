@@ -9,6 +9,7 @@
     ? script.dataset.wizardUrl
     : "https://stefanellit.github.io/reelcalc-wizard/";
   var wizardUrl = new URL(baseUrl, window.location.href);
+  wizardUrl.searchParams.set("v", "laboratory-1");
   var pageParams = new URLSearchParams(window.location.search);
   var forwardedParams = [
     "reel",
