@@ -903,7 +903,7 @@
       if (!reel) throw new Error('ReelCalc could not find the reel record "' + reelId + '".');
       if (!values[0].isReelReady(reel) && !window.ReelCalcCapacityPages?.enabled()) throw new Error("This reel is missing required mono capacity data.");
       if (!Array.isArray(lines)) throw new Error("The central line database is unavailable.");
-      var sources = await loadScript("js/line-sources.js?v=1", "ReelCalcLineSources").catch(function() { return null; });
+      var sources = await loadScript("js/line-sources.js?v=2", "ReelCalcLineSources").catch(function() { return null; });
       var catalog = sources ? await sources.load(lines, assetBase.href) : null;
       if (!sources && /line_laboratory|line-laboratory%3A|line-laboratory:/i.test(location.search)) throw new Error("The selected laboratory measurement is unavailable. Remove the laboratory selection to use manufacturer specifications.");
       mountCalculator(mount, reel, lines, values[5], {

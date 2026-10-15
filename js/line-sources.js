@@ -3,8 +3,6 @@
   var SOURCE = "line_laboratory";
   var PREFIX = "line-laboratory:";
   var HOME_URL = "https://linelaboratory.com/";
-  // A display caution threshold, not a measured capacity-error bound or correction factor.
-  var LARGE_DIAMETER_GAP_PERCENT = 25;
   var MATERIALS = ["Monofilament", "Fluorocarbon", "Copolymer", "Braid"];
   var requests = new Map();
   var capturedScript = typeof document !== "undefined" ? document.currentScript : null;
@@ -174,20 +172,11 @@
       var magnitude = Math.abs(percent);
       var difference = document.createElement("p");
       difference.className = "rc-lab-diameter-difference";
-      difference.style.cssText = "margin:6px 0;font-weight:700";
+      difference.style.cssText = "margin:6px 0";
       var amount = magnitude < 0.1 ? "less than 0.1" : String(Number(magnitude.toFixed(1)));
       difference.textContent = magnitude < 1e-9 ? "Measured diameter matches the label." :
         "Measured diameter is " + amount + "% " + (percent > 0 ? "larger" : "smaller") + " than the label.";
       parent.appendChild(difference);
-      if (magnitude >= LARGE_DIAMETER_GAP_PERCENT - 1e-9) {
-        var caution = document.createElement("p");
-        caution.className = "rc-lab-diameter-caution";
-        caution.style.cssText = "margin:8px 0;padding:8px 10px;border-left:3px solid #9c6f16;background:#fff8e7;color:#5b3f0e;line-height:1.5;overflow-wrap:anywhere";
-        var heading = document.createElement("strong");
-        heading.textContent = "Large diameter difference. ";
-        caution.append(heading, document.createTextNode("These diameter figures are far apart. Treat the capacity and backing estimates with extra caution, and watch the spool as you fill it. The gap doesn't tell us whether the yardage estimate is high or low."));
-        parent.appendChild(caution);
-      }
     }
     parent.append(note, detail);
   }

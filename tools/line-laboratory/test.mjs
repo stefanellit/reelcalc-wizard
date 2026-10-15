@@ -162,20 +162,22 @@ assert.equal(mixedParent.querySelector("small").textContent, "Currently availabl
 const comparison = pickerDOM.window.document.createElement("div");
 function compareDiameters(quoted, measuredMm) {
   ds.renderDiameters(comparison, { ...measured, quoted_diameter_mm: quoted, dia_mm: measuredMm });
+  assert.equal(comparison.querySelector(".rc-lab-diameter-caution"), null, "Diameter differences are informational, never a warning");
+  const difference = comparison.querySelector(".rc-lab-diameter-difference");
+  if (difference) {
+    for (const style of ["background", "border", "color", "fontWeight"]) assert.equal(difference.style[style], "");
+    assert.equal(difference.getAttribute("role"), null);
+    assert.equal(difference.querySelector("strong"), null);
+  }
   return comparison.querySelector(".rc-lab-diameter-difference")?.textContent;
 }
 assert.equal(compareDiameters(.21, .313), "Measured diameter is 49% larger than the label.");
-assert.ok(comparison.querySelector(".rc-lab-diameter-caution"));
-assert.ok(comparison.textContent.includes("capacity and backing estimates with extra caution"));
-assert.ok(comparison.textContent.includes("doesn't tell us whether the yardage estimate is high or low"));
+assert.ok(!comparison.textContent.includes("extra caution"));
 assert.equal(compareDiameters(.4, .3), "Measured diameter is 25% smaller than the label.");
-assert.ok(comparison.querySelector(".rc-lab-diameter-caution"));
 assert.equal(compareDiameters(.2, .2498), "Measured diameter is 24.9% larger than the label.");
-assert.equal(comparison.querySelector(".rc-lab-diameter-caution"), null);
 assert.equal(compareDiameters(.4, .5), "Measured diameter is 25% larger than the label.");
-assert.ok(comparison.querySelector(".rc-lab-diameter-caution"));
+assert.equal(compareDiameters(.1, .3), "Measured diameter is 200% larger than the label.");
 assert.equal(compareDiameters(.21, .21), "Measured diameter matches the label.");
-assert.equal(comparison.querySelector(".rc-lab-diameter-caution"), null);
 assert.equal(compareDiameters(.2, .20001), "Measured diameter is less than 0.1% larger than the label.");
 for (const invalid of [null, undefined, 0, -1, NaN, Infinity]) {
   assert.equal(compareDiameters(invalid, .313), undefined);
@@ -187,7 +189,7 @@ assert.equal(comparison.querySelector(".rc-lab-diameter-difference").textContent
 ds.renderDiameters(comparison, manufacturer[0]);
 assert.equal(comparison.textContent, "", "Switching away clears all laboratory comparisons and cautions");
 pickerDOM.window.close();
-console.log("PASS optional measured source, material coverage, estimate notice, homepage attribution and signed diameter differences/caution boundaries");
+console.log("PASS optional measured source, material coverage, estimate notice, homepage attribution and neutral signed diameter differences without warnings");
 
 const wizardDOM = await dom(await read("index.html"), "?reel=" + reel.id + "&line=" + measured.id + "&lineSource=line_laboratory");
 await script(wizardDOM, "js/calculator-core.js"); await script(wizardDOM, "js/recommendation-engine.js"); await script(wizardDOM, "js/line-sources.js"); await script(wizardDOM, "js/wizard.js");

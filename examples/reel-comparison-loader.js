@@ -170,7 +170,7 @@
 
   function versionedUrl(url) {
     var value = new URL(url);
-    value.searchParams.set("v", (assetVersion || "shared-engine-8") + "-guide-links-1-rating-warnings-1-diameter-first-1-material-warnings-1-lab-1");
+    value.searchParams.set("v", (assetVersion || "shared-engine-8") + "-guide-links-1-rating-warnings-1-diameter-first-1-material-warnings-1-lab-2");
     return value.href;
   }
 
