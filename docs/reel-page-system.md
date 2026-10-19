@@ -100,6 +100,16 @@ The low estimate uses the lower premium-line price and higher backing price. The
 
 ## Generate a Page
 
+### Context-Specific Braid FAQ
+
+`scripts/reel-pages/braid-faq.mjs` owns the default braid FAQ wording. It uses the exact reel's stored fishing roles and bait-finesse classification, not only a size or heavy-duty cutoff. The existing recommendation range is passed through unchanged. This editorial layer never changes calculator inputs, specifications, or line recommendations.
+
+- Check each fishing example against the reel's use case. Inshore/surf/pier reels must not inherit a small freshwater trout template; bait-finesse reels must not inherit general frog/heavy-cover advice.
+- Keep relevant species. Freshwater trout/panfish and saltwater speckled-trout/redfish contexts are distinct and can both be appropriate on their respective reels.
+- Preserve intentionally customized FAQs, especially missing-spec disclosures. Do not replace them with a default merely to make wording uniform.
+- Page builders must carry `faqBraid` into the embed manifest. The Squarespace loader updates that answer as well as the capacity answer; imported descriptions must also be updated so raw page content is consistent.
+- Back up original descriptions, change only the intended answer, and test desktop/mobile. Run `node scripts/test-reel-page-faq-context.mjs` before release. URLs, IDs, tracking, disclosures, capacity data, and line ranges must remain unchanged.
+
 From the project folder:
 
 ```powershell

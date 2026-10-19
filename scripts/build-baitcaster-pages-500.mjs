@@ -194,6 +194,7 @@ for (const page of newPages) {
       monoText: generated.model.monoText,
       braidText: generated.model.braidText,
       faqCapacity: generated.model.faqCapacity,
+      faqBraid: generated.model.faqBraid,
       specsIntro: generated.model.specsIntro
     }
   };

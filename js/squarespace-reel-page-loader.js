@@ -318,11 +318,14 @@
     }
 
     var faqSection = description.querySelector('[data-section="faqs"]');
-    if (faqSection && content.faqCapacity) {
+    if (faqSection) {
       Array.from(faqSection.querySelectorAll("h3")).forEach(function(heading) {
-        if (heading.textContent.trim().toLowerCase().indexOf("how much line does") !== 0) return;
+        var question = heading.textContent.trim().toLowerCase();
+        var text = question.indexOf("how much line does") === 0 ? content.faqCapacity
+          : question.indexOf("what size braid is best for") === 0 ? content.faqBraid : null;
+        if (!text) return;
         var answer = heading.nextElementSibling;
-        if (answer && answer.tagName === "P") answer.textContent = content.faqCapacity;
+        if (answer && answer.tagName === "P") answer.textContent = text;
       });
     }
   }
@@ -657,7 +660,7 @@
 
     var slug = loaderScript.dataset.pageSlug ||
       decodeURIComponent(location.pathname.split("/").filter(Boolean).pop() || "");
-    fetch(assetUrl("data/reel-page-embeds.json?v=14"), { credentials: "omit" })
+    fetch(assetUrl("data/reel-page-embeds.json?v=15"), { credentials: "omit" })
       .then(function(response) {
         if (!response.ok) throw new Error("Reel page mapping returned HTTP " + response.status + ".");
         return response.json();

@@ -1,4 +1,5 @@
 import { featureSentence } from "./features.mjs";
+import { braidFaqAdvice } from "./braid-faq.mjs";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -300,11 +301,7 @@ export function buildPageModel({
       : heavyDuty
       ? `The ${exactName} uses a ${gearRatio} gear ratio and retrieves ${reel.retrieveIn} inches per handle turn. It weighs ${reel.weightOz} oz and has a published maximum drag of ${reel.maxDragLb} lb, reflecting its focus on capacity and pulling power rather than light-tackle handling. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting.`
       : `The ${exactName} uses a ${gearRatio} gear ratio and retrieves ${reel.retrieveIn} inches per handle turn, which helps pick up slack without making the reel oversized for its intended uses. It weighs ${reel.weightOz} oz and has a published maximum drag of ${reel.maxDragLb} lb. Maximum drag is the reel's upper rating, not a suggestion to fish every setup at that setting.`,
-    faqBraid: baitcaster
-      ? `${recommendation.braidRange} is the practical ReelCalc range for this baitcaster. Use the lighter end for open water and easier casting, and the stronger end around vegetation, docks, wood, frogs, or larger baits. Avoid choosing very thin braid only to maximize yardage because thin braid can dig into a baitcaster spool under load.`
-      : heavyDuty
-      ? `${recommendation.braidRange} is the practical ReelCalc range for this reel. Use the lighter end when line capacity and casting distance matter most. Move toward the stronger end for large baits, rough structure, heavy current, or situations where abrasion resistance and pulling power take priority.`
-      : `${recommendation.braidRange} is the practical ReelCalc range for this reel. Use the lighter end for finesse presentations, trout, and open water. Move toward the stronger end for bass, current, vegetation, or situations where a little more abrasion resistance and control are useful.`,
+    faqBraid: braidFaqAdvice(reel, recommendation).text,
     faqCapacity
   };
 }
