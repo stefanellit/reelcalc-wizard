@@ -164,6 +164,11 @@ export function generateReelPage(query, options = {}) {
     related,
     featureProfile
   });
+  // Reviewed page-specific copy survives later regeneration without altering calculator inputs.
+  for (const key of ["intro", "introVariant", "introDetailMode", "introFeatureNames", "introEvidenceSource", "introEvidenceKey", "who", "calculatorIntro", "calculatorHeading", "setupIntro", "setupRows", "capacityIntro", "capacityRows", "monoText", "braidText", "specsIntro", "faqBraid", "faqCapacity", "seoTitle", "metaDescription", "sourceLinkLabel"]) {
+    if (Object.hasOwn(page.editorial || {}, key)) model[key] = structuredClone(page.editorial[key]);
+  }
+  if (page.editorial?.quickAnswer) model.recommendation.quickAnswer = page.editorial.quickAnswer;
   const productionBlock = renderSquarespaceBlock(model, registry.assetBaseUrl);
   const outputSlug = model.page.path.replace(/^\/+|\/+$/g, "");
   const localOutputDirectory = path.join(root, "generated", path.dirname(outputSlug));

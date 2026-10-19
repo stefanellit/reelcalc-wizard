@@ -1,0 +1,33 @@
+import {Workbook} from '@oai/artifact-tool';
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {root,output,read,write} from './build.mjs';
+
+const input=read(`${output}/build-pages.json`);
+const matrix=[input.headers,...input.files.map(x=>input.headers.map(h=>x.row[h]??''))];
+const workbook=Workbook.create(),sheet=workbook.worksheets.add('Squarespace import');
+const range=sheet.getRangeByIndexes(0,0,matrix.length,input.headers.length);
+range.setNumberFormat('@');range.values=matrix;
+sheet.getRange('A1:AB1').format.font={bold:true};
+sheet.getRange('A1:E1').format.columnWidth=32;
+sheet.getRange('A1:E1').format.rowHeight=45;
+sheet.getRange('A1:E1').format.wrapText=true;
+workbook.recalculate();
+const values=range.values.map(r=>r.map(v=>v==null?'':String(v)));
+assert.deepEqual(values,matrix,'Workbook changed native import values');
+console.log((await workbook.inspect({kind:'table',range:"'Squarespace import'!A1:E2",include:'values,formulas',tableMaxRows:2,tableMaxCols:5,maxChars:1500})).ndjson);
+const preview=await workbook.render({sheetName:'Squarespace import',range:'A1:E2',scale:1,format:'png'});
+fs.writeFileSync(path.join(root,output,'csv-preview.png'),new Uint8Array(await preview.arrayBuffer()));
+// Preserve the checked text cells in Squarespace's native CSV schema.
+const cell=v=>/[",\r\n]/.test(v)?'"'+v.replaceAll('"','""')+'"':v;
+const csv=values.map(row=>row.map(cell).join(',')).join('\r\n')+'\r\n';
+const file=path.join(root,output,`UPLOAD-${input.files.length}-BEAST-STELLA-DAIWA-REEL-PAGES.csv`);
+fs.writeFileSync(file,csv,'utf8');
+const check=await Workbook.fromCSV(csv,{sheetName:'Check'});
+const restored=check.worksheets.getItem('Check').getRangeByIndexes(0,0,matrix.length,input.headers.length).values.map(r=>r.map(v=>v==null?'':String(v)));
+assert.deepEqual(restored,matrix,'CSV round-trip changed content');
+assert.equal(new Set(input.files.map(x=>x.row.SKU)).size,input.files.length);
+for(const {row}of input.files){assert.equal(row.Visible,'No');assert.equal(row['Product ID [Non Editable]'],'');assert.equal(row['Product Type [Non Editable]'],'SERVICE');}
+write(`${output}/csv-validation.json`,{file,rows:input.files.length,columns:input.headers.length,hidden:true,roundTripPassed:true,bytes:fs.statSync(file).size});
+console.log(JSON.stringify({file,rows:input.files.length,hidden:true}));

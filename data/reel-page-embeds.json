@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "pages": {
     "bass-pro-shops-micro-lite-elite-spinning-reel-5": {
       "reelId": "bass-pro-shops-micro-lite-elite-spinning-reel-5-mxl05f-51",
@@ -131461,6 +131461,2518 @@
         "monoText": "20 lb / 350 yards, 25 lb / 290 yards, 30 lb / 220 yards",
         "braidText": "",
         "faqCapacity": "Use the factory ratings in the capacity table as reference points, not a promise that every line of that pound test fits the same amount. Select your exact line in the calculator, and watch the reel's fill clearance as you spool under steady tension."
+      }
+    },
+    "abu-garcia-beast-spinning-3000h": {
+      "reelId": "abu-garcia-beast-spinning-3000h-bst3000h-37",
+      "pageTitle": "Abu Garcia Beast Spinning 3000H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Beast Spinning 3000H Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Beast Spinning 3000H (BST3000H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-beast-spinning-3000h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/abu-garcia-beast-spinning-3000h.jpg",
+      "imageAlt": "Abu Garcia Beast Spinning, manufacturer product photograph",
+      "intro": "If you want a spinning setup for bass or lighter inshore work, the Beast 3000H gives you a 10 lb / 140-yard mono reference to plan around. Rocket Line Management helps control line coming off the spool, but the diameter of the line you choose still determines how much fits. Use the calculator below for a full fill or a shorter main line over optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Rocket Line Management"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/beast-spinning-reel-1641517",
+      "introEvidenceKey": "Abu Garcia|Beast Spinning|BST3000H",
+      "related": [
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "Daiwa BG 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-3000",
+          "reelId": "daiwa-bg-3000-bg3000-185"
+        },
+        {
+          "label": "KastKing Centron Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-3000",
+          "reelId": "kastking-centron-spinning-3000-50-293"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris CarbonLite 2.0 Spinning Reel 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-3000",
+          "reelId": "bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-3000-jct3000-60"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris CarbonLite Tech Spinning Reel 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000",
+          "reelId": "bass-pro-shops-johnny-morris-carbonlite-tech-spinning-reel-3000-jctt3000-62"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Platinum Signature ZN-LITE Spinning Reel 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-platinum-signature-zn-lite-spinning-reel-3000",
+          "reelId": "bass-pro-shops-johnny-morris-platinum-signature-zn-lite-spinning-reel-3000-jmps3000-64"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "Abu Garcia designed the Beast family around larger baits and greater cranking and drag demands. Choose this size to suit the rod, presentation and amount of reserve you need; a higher drag rating is not a reason to fish more drag than your line and knots can handle.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "Spinning setup matched to this size",
+            "setup": "10-20 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "8-10 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "Abu Garcia publishes the ratio, drag, bearing count and capacities below. Reel weight and line retrieve were not published in the checked manufacturer table and are left unconfirmed. This is a specification-based setup guide, not a hands-on review.",
+        "faqBraid": "10-20 lb braid is the practical ReelCalc range for this reel. Use the lighter end for lighter lures in open water. For the reel's inshore or mixed-cover uses, choose more strength when your rod, rig, and the structure call for it. A leader suited to the fish and structure matters too; the braid's pound-test label does not tell you the whole setup.",
+        "capacityIntro": "The pound-test ratings and millimeter ratings below are published reference points. When a verified diameter rating is available for the selected line material, ReelCalc uses it to estimate how much of your chosen line fits. The result is an estimate, not a measured fill for every line.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 225,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "225 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 175,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "175 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 140,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "140 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 180,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.25 mm",
+            "capacityLabel": "185 m (about 202 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.28 mm",
+            "capacityLabel": "150 m (about 164 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.3 mm",
+            "capacityLabel": "130 m (about 142 yards)"
+          }
+        ],
+        "monoText": "6 lb / 225 yards; 8 lb / 175 yards; 10 lb / 140 yards",
+        "braidText": "10 lb / 180 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for BST3000H. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "abu-garcia-beast-spinning-3500h": {
+      "reelId": "abu-garcia-beast-spinning-3500h-bst3500h-38",
+      "pageTitle": "Abu Garcia Beast Spinning 3500H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Beast Spinning 3500H Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Beast Spinning 3500H (BST3500H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-beast-spinning-3500h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/abu-garcia-beast-spinning-3500h.jpg",
+      "imageAlt": "Abu Garcia Beast Spinning, manufacturer product photograph",
+      "intro": "The Beast 3500H gives you more room than the 3000H at the same 10 lb mono rating: 190 yards instead of 140. That extra reserve is useful to consider when you want a longer working section without jumping straight to the 4000H. Rocket Line Management is part of the reel's line-handling design. Choose your exact line below to estimate a refill with or without backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Rocket Line Management"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/beast-spinning-reel-1641517",
+      "introEvidenceKey": "Abu Garcia|Beast Spinning|BST3500H",
+      "related": [
+        {
+          "label": "Daiwa BG 3500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-3500",
+          "reelId": "daiwa-bg-3500-bg3500-186"
+        },
+        {
+          "label": "PENN Authority 3500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-authority-3500",
+          "reelId": "penn-authority-3500-ath3500-525"
+        },
+        {
+          "label": "Quantum Reliance 35 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/quantum-reliance-35",
+          "reelId": "quantum-reliance-35-rel35xpt-599"
+        },
+        {
+          "label": "PENN Slammer IV 3500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-slammer-iv-3500",
+          "reelId": "penn-slammer-iv-3500-slaiv3500-513"
+        },
+        {
+          "label": "PENN Spinfisher VII 3500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-spinfisher-vii-3500",
+          "reelId": "penn-spinfisher-vii-3500-ssvii3500-495"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "Abu Garcia designed the Beast family around larger baits and greater cranking and drag demands. Choose this size to suit the rod, presentation and amount of reserve you need; a higher drag rating is not a reason to fish more drag than your line and knots can handle.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "Spinning setup matched to this size",
+            "setup": "15-20 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "8-12 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "Abu Garcia publishes the ratio, drag, bearing count and capacities below. Reel weight and line retrieve were not published in the checked manufacturer table and are left unconfirmed. This is a specification-based setup guide, not a hands-on review.",
+        "faqBraid": "15-20 lb braid is the practical ReelCalc range for this reel. For heavier freshwater or inshore fishing, the lighter end helps preserve casting distance and line capacity. Move up when larger baits, current, or nearby structure call for more control, within your rod's line rating. Choose the leader for the fish and structure rather than simply matching the braid label.",
+        "capacityIntro": "The pound-test ratings and millimeter ratings below are published reference points. When a verified diameter rating is available for the selected line material, ReelCalc uses it to estimate how much of your chosen line fits. The result is an estimate, not a measured fill for every line.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 240,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "240 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 190,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 135,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "135 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 14,
+            "yards": 190,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "190 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.25 mm",
+            "capacityLabel": "220 m (about 241 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.28 mm",
+            "capacityLabel": "170 m (about 186 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.33 mm",
+            "capacityLabel": "120 m (about 131 yards)"
+          }
+        ],
+        "monoText": "8 lb / 240 yards; 10 lb / 190 yards; 12 lb / 135 yards",
+        "braidText": "14 lb / 190 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for BST3500H. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "abu-garcia-beast-spinning-4000h": {
+      "reelId": "abu-garcia-beast-spinning-4000h-bst4000h-39",
+      "pageTitle": "Abu Garcia Beast Spinning 4000H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Beast Spinning 4000H Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Beast Spinning 4000H (BST4000H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-beast-spinning-4000h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/abu-garcia-beast-spinning-4000h.jpg",
+      "imageAlt": "Abu Garcia Beast Spinning, manufacturer product photograph",
+      "intro": "For a heavier bass or inshore spinning setup, the Beast 4000H starts with a published 12 lb / 180-yard mono capacity. Its Power Stack Carbon Matrix Drag System provides the reel's stopping power; choose your fishing drag for the line and rod, not the maximum rating. The calculator is set to this exact model so you can compare a full spool with an optional-backing setup.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Power Stack Carbon Matrix Drag System"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/beast-spinning-reel-1641517",
+      "introEvidenceKey": "Abu Garcia|Beast Spinning|BST4000H",
+      "related": [
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 40 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-40",
+          "reelId": "bass-pro-shops-formula-spinning-reel-40-fma40-50"
+        },
+        {
+          "label": "Daiwa BG 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-4000",
+          "reelId": "daiwa-bg-4000-bg4000-187"
+        },
+        {
+          "label": "KastKing Centron Spinning 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-4000",
+          "reelId": "kastking-centron-spinning-4000-51-294"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Platinum Signature ZN-LITE Spinning Reel 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-platinum-signature-zn-lite-spinning-reel-4000",
+          "reelId": "bass-pro-shops-johnny-morris-platinum-signature-zn-lite-spinning-reel-4000-jmps4000-65"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Signature Series Spinning Reel 4000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-signature-series-spinning-reel-4000",
+          "reelId": "bass-pro-shops-johnny-morris-signature-series-spinning-reel-4000-jsg4000-69"
+        },
+        {
+          "label": "Bass Pro Shops Tourney Special Spinning Reel 40 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-tourney-special-spinning-reel-40",
+          "reelId": "bass-pro-shops-tourney-special-spinning-reel-40-tsz-40-56"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 15,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.008,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "Abu Garcia designed the Beast family around larger baits and greater cranking and drag demands. Choose this size to suit the rod, presentation and amount of reserve you need; a higher drag rating is not a reason to fish more drag than your line and knots can handle.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "Spinning setup matched to this size",
+            "setup": "15-30 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "10-12 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "Abu Garcia publishes the ratio, drag, bearing count and capacities below. Reel weight and line retrieve were not published in the checked manufacturer table and are left unconfirmed. This is a specification-based setup guide, not a hands-on review.",
+        "faqBraid": "15-30 lb braid is the practical ReelCalc range for this reel. For heavier freshwater or inshore fishing, the lighter end helps preserve casting distance and line capacity. Move up when larger baits, current, or nearby structure call for more control, within your rod's line rating. Choose the leader for the fish and structure rather than simply matching the braid label.",
+        "capacityIntro": "The pound-test ratings and millimeter ratings below are published reference points. When a verified diameter rating is available for the selected line material, ReelCalc uses it to estimate how much of your chosen line fits. The result is an estimate, not a measured fill for every line.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 210,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 180,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 150,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "150 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 14,
+            "yards": 210,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.25 mm",
+            "capacityLabel": "265 m (about 290 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.3 mm",
+            "capacityLabel": "185 m (about 202 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "135 m (about 148 yards)"
+          }
+        ],
+        "monoText": "10 lb / 210 yards; 12 lb / 180 yards; 14 lb / 150 yards",
+        "braidText": "14 lb / 210 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for BST4000H. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "abu-garcia-beast-spinning-5000h": {
+      "reelId": "abu-garcia-beast-spinning-5000h-bst5000h-40",
+      "pageTitle": "Abu Garcia Beast Spinning 5000H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Abu Garcia Beast Spinning 5000H Line Capacity | ReelCalc",
+      "metaDescription": "Abu Garcia Beast Spinning 5000H (BST5000H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/abu-garcia-beast-spinning-5000h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/abu-garcia-beast-spinning-5000h.jpg",
+      "imageAlt": "Abu Garcia Beast Spinning, manufacturer product photograph",
+      "intro": "The Beast 5000H is the largest of these four sizes, with a 20 lb / 125-yard mono rating and a brass Duragear Gen III gear. For inshore or heavier freshwater fishing, think about how much reserve you need after the cast before choosing a thicker line. Use this reel's calculator to plan either a full spool of main line or backing beneath a shorter amount.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Duragear Gen III"
+      ],
+      "introEvidenceSource": "https://www.abugarcia.com/products/beast-spinning-reel-1641517",
+      "introEvidenceKey": "Abu Garcia|Beast Spinning|BST5000H",
+      "related": [
+        {
+          "label": "Daiwa BG 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-5000",
+          "reelId": "daiwa-bg-5000-bg5000-189"
+        },
+        {
+          "label": "KastKing Centron Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-5000",
+          "reelId": "kastking-centron-spinning-5000-52-295"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-5000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-5000-fgb5000-72"
+        },
+        {
+          "label": "Daiwa BG SW 2026 5000-H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-sw-2026-5000",
+          "reelId": "daiwa-bg-sw-2026-5000-h-bgsw5000-h"
+        },
+        {
+          "label": "Daiwa Crossfire LT 5000-C Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-crossfire-lt-5000-c",
+          "reelId": "daiwa-crossfire-lt-5000-c-crflt5000-c-94"
+        },
+        {
+          "label": "Daiwa Eliminator Spinning Reel 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-eliminator-spinning-reel-5000",
+          "reelId": "daiwa-eliminator-spinning-reel-5000-elt5000-216"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "Abu Garcia designed the Beast family around larger baits and greater cranking and drag demands. Choose this size to suit the rod, presentation and amount of reserve you need; a higher drag rating is not a reason to fish more drag than your line and knots can handle.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "Spinning setup matched to this size",
+            "setup": "30-40 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "12-14 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "Abu Garcia publishes the ratio, drag, bearing count and capacities below. Reel weight and line retrieve were not published in the checked manufacturer table and are left unconfirmed. This is a specification-based setup guide, not a hands-on review.",
+        "faqBraid": "30-40 lb braid is the practical ReelCalc range for this reel. For inshore and surf fishing, use the lighter end when casting distance and line capacity matter most. Move toward the stronger end around structure, heavier current, or larger baits, while staying within your rod's line rating. Match the leader to the structure and fish; heavier braid alone is not a substitute for a suitable leader.",
+        "capacityIntro": "The pound-test ratings and millimeter ratings below are published reference points. When a verified diameter rating is available for the selected line material, ReelCalc uses it to estimate how much of your chosen line fits. The result is an estimate, not a measured fill for every line.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 205,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "205 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 180,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 125,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "125 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 200,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "200 yards"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.3 mm",
+            "capacityLabel": "200 m (about 219 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.35 mm",
+            "capacityLabel": "155 m (about 170 yards)"
+          },
+          {
+            "type": "Monofilament",
+            "ratingLabel": "0.4 mm",
+            "capacityLabel": "115 m (about 126 yards)"
+          }
+        ],
+        "monoText": "12 lb / 205 yards; 14 lb / 180 yards; 20 lb / 125 yards",
+        "braidText": "20 lb / 200 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for BST5000H. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "shimano-stella-sw-d-8000pg": {
+      "reelId": "shimano-stella-sw-d-8000pg-stlsw8000pgd-773",
+      "pageTitle": "Shimano Stella SW D 8000PG Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Stella SW D 8000PG Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Stella SW D 8000PG (STLSW8000PGD) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/shimano-stella-sw-d-8000pg",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/shimano-stella-sw-d-8000pg.avif",
+      "imageAlt": "Shimano Stella SW D, manufacturer product photograph (representative family image)",
+      "intro": "For a saltwater setup built around jigging or working heavier loads, the Stella SW D 8000PG offers the lower 4.8:1 gearing of these two 8000 models. Its listed retrieve is 36 inches per turn, compared with 42 inches on the HG. InfinityXross spreads load across the gear teeth. Shimano publishes PowerPro braid capacities for this model; use the calculator below to plan your chosen main line with or without backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "InfinityXross"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
+      "introEvidenceKey": "Shimano|Stella SW D|STLSW8000PGD",
+      "related": [
+        {
+          "label": "Daiwa BG 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-8000",
+          "reelId": "daiwa-bg-8000-bg8000-191"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-8000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-8000-40-283"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-8000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-8000-fgb8000-75"
+        },
+        {
+          "label": "Shimano Stella SW D 10000PG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-10000",
+          "reelId": "shimano-stella-sw-d-10000pg-stlsw10000pgd-775"
+        },
+        {
+          "label": "Shimano Stella SW D 6000HG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-6000",
+          "reelId": "shimano-stella-sw-d-6000hg-stlsw6000hgd-771"
+        },
+        {
+          "label": "Shimano Stella SW D 6000XG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-6000-stlsw6000xgd",
+          "reelId": "shimano-stella-sw-d-6000xg-stlsw6000xgd-772"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 50,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.014,
+        "mainLineYards": 200,
+        "backingLb": 20,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.018,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This 8000-size Stella is for heavier saltwater work, not light freshwater finesse fishing. Plan enough working line for the depth or casting distance and the reserve your fishing calls for. Match the leader and drag setting to the rod, target fish and structure.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "Heavier saltwater jigging or lure fishing",
+            "setup": "50-65 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "16-20 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are Shimano's published STLSW8000PGD specifications. The 36-inch retrieve applies at the rated fill level and falls as line leaves the spool. Maximum drag is an upper rating, not a suggested fishing setting. This is a specification-based guide, not a hands-on review.",
+        "faqBraid": "50-65 lb braid is ReelCalc's starting range for this heavier saltwater reel. Choose within it for the rod, lure or jig weight, current and fish you expect, then select a leader suited to structure and abrasion. Shimano's published capacities use PowerPro braid; a different braid with the same pound-test label may fill differently.",
+        "capacityIntro": "Shimano lists PowerPro braid capacities for these 8000 models, but leaves the mono-capacity column blank. The table below keeps that distinction: no factory mono capacity has been invented. The calculator still gives an estimate for your selected line, and the actual fill level is what matters as you spool.",
+        "capacityRows": [
+          {
+            "type": "PowerPro Braid",
+            "lb": 40,
+            "yards": 340,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "340 yards"
+          },
+          {
+            "type": "PowerPro Braid",
+            "lb": 50,
+            "yards": 265,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "265 yards"
+          },
+          {
+            "type": "PowerPro Braid",
+            "lb": 65,
+            "yards": 215,
+            "ratingLabel": "65 lb",
+            "capacityLabel": "215 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "40 lb / 340 yards; 50 lb / 265 yards; 65 lb / 215 yards",
+        "faqCapacity": "Shimano lists PowerPro at 40 lb / 340 yards, 50 lb / 265 yards and 65 lb / 215 yards for this model. No mono capacity is published in the cited U.S. table. Select your exact line to estimate a refill, then check the fill clearance as you spool."
+      }
+    },
+    "shimano-stella-sw-d-8000hg": {
+      "reelId": "shimano-stella-sw-d-8000hg-stlsw8000hgd-774",
+      "pageTitle": "Shimano Stella SW D 8000HG Line Capacity & Reel Setup Guide",
+      "seoTitle": "Shimano Stella SW D 8000HG Line Capacity | ReelCalc",
+      "metaDescription": "Shimano Stella SW D 8000HG (STLSW8000HGD) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/shimano-stella-sw-d-8000hg",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/shimano-stella-sw-d-8000hg.avif",
+      "imageAlt": "Shimano Stella SW D, manufacturer product photograph (representative family image)",
+      "intro": "When picking up line quickly matters for your saltwater lure setup, the Stella SW D 8000HG brings in a listed 42 inches per turn with its 5.6:1 gearing. It has the same published PowerPro capacities as the 8000PG, so this choice is about retrieve rather than extra line room. InfinityXross spreads load across the gear teeth. Choose your line below to estimate a full fill or work out optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "InfinityXross"
+      ],
+      "introEvidenceSource": "https://fish.shimano.com/en-US/product/reels/spinning/swspinning/a075f000043mjvrqag.html",
+      "introEvidenceKey": "Shimano|Stella SW D|STLSW8000HGD",
+      "related": [
+        {
+          "label": "Daiwa BG 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-bg-8000",
+          "reelId": "daiwa-bg-8000-bg8000-191"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-8000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-8000-40-283"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-8000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-8000-fgb8000-75"
+        },
+        {
+          "label": "Shimano Stella SW D 10000PG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-10000",
+          "reelId": "shimano-stella-sw-d-10000pg-stlsw10000pgd-775"
+        },
+        {
+          "label": "Shimano Stella SW D 6000HG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-6000",
+          "reelId": "shimano-stella-sw-d-6000hg-stlsw6000hgd-771"
+        },
+        {
+          "label": "Shimano Stella SW D 6000XG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-6000-stlsw6000xgd",
+          "reelId": "shimano-stella-sw-d-6000xg-stlsw6000xgd-772"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 50,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.014,
+        "mainLineYards": 200,
+        "backingLb": 20,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.018,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This 8000-size Stella is for heavier saltwater work, not light freshwater finesse fishing. Plan enough working line for the depth or casting distance and the reserve your fishing calls for. Match the leader and drag setting to the rod, target fish and structure.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "Heavier saltwater jigging or lure fishing",
+            "setup": "50-65 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "16-20 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are Shimano's published STLSW8000HGD specifications. The 42-inch retrieve applies at the rated fill level and falls as line leaves the spool. Maximum drag is an upper rating, not a suggested fishing setting. This is a specification-based guide, not a hands-on review.",
+        "faqBraid": "50-65 lb braid is ReelCalc's starting range for this heavier saltwater reel. Choose within it for the rod, lure or jig weight, current and fish you expect, then select a leader suited to structure and abrasion. Shimano's published capacities use PowerPro braid; a different braid with the same pound-test label may fill differently.",
+        "capacityIntro": "Shimano lists PowerPro braid capacities for these 8000 models, but leaves the mono-capacity column blank. The table below keeps that distinction: no factory mono capacity has been invented. The calculator still gives an estimate for your selected line, and the actual fill level is what matters as you spool.",
+        "capacityRows": [
+          {
+            "type": "PowerPro Braid",
+            "lb": 40,
+            "yards": 340,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "340 yards"
+          },
+          {
+            "type": "PowerPro Braid",
+            "lb": 50,
+            "yards": 265,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "265 yards"
+          },
+          {
+            "type": "PowerPro Braid",
+            "lb": 65,
+            "yards": 215,
+            "ratingLabel": "65 lb",
+            "capacityLabel": "215 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "40 lb / 340 yards; 50 lb / 265 yards; 65 lb / 215 yards",
+        "faqCapacity": "Shimano lists PowerPro at 40 lb / 340 yards, 50 lb / 265 yards and 65 lb / 215 yards for this model. No mono capacity is published in the cited U.S. table. Select your exact line to estimate a refill, then check the fill clearance as you spool."
+      }
+    },
+    "daiwa-regal-lt-1000d": {
+      "reelId": "daiwa-regal-lt-1000d-rglt1000d-108",
+      "pageTitle": "Daiwa Regal LT 1000D Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Regal LT 1000D Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Regal LT 1000D (RGLT1000D) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-regal-lt-1000d",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-regal-lt-1000d.jpg",
+      "imageAlt": "Daiwa Regal LT, manufacturer product photograph (representative family image)",
+      "intro": "For small freshwater lures, the original Regal LT 1000D gives you a 6 lb / 160-yard mono reference without moving up to a larger reel. Its Air Rotor is part of Daiwa's lightweight spinning design. This guide covers RGLT1000D, not the newer B-generation model. Choose your line below to plan a full spool or a shorter main line over optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Air Rotor"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Regal LT|RGLT1000D",
+      "related": [
+        {
+          "label": "Abu Garcia Revo SX Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-sx-spinning-10",
+          "reelId": "abu-garcia-revo-sx-spinning-10-revo3-sx-sp10-25"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-10",
+          "reelId": "bass-pro-shops-formula-spinning-reel-10-fma10-47"
+        },
+        {
+          "label": "KastKing Royale Legend Pro Spinning 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-royale-legend-pro-spinning-1000",
+          "reelId": "kastking-royale-legend-pro-spinning-1000-0-243"
+        },
+        {
+          "label": "Abu Garcia Revo X Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-x-spinning-10",
+          "reelId": "abu-garcia-revo-x-spinning-10-revo3-x-sp10-21"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris CarbonLite 2.0 Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000-jct1000-57"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Signature Series Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000-jsg1000-66"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 6,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.009,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light freshwater spinning for small lures, panfish and trout, choose your line around the rod, presentation and cover. This guide follows RGLT1000D; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "light freshwater spinning for small lures, panfish and trout",
+            "setup": "6-10 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "2-6 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact RGLT1000D source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "6-10 lb braid is the practical ReelCalc range for this reel. Use the lighter end when fishing small lures for trout and panfish in open water. The upper end can provide more margin around light cover, but keep the line matched to the rod and lure so the setup still handles light presentations well.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 250,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 160,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "160 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 6,
+            "yards": 320,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "320 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 200,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "200 yards"
+          }
+        ],
+        "monoText": "4 lb / 250 yards; 6 lb / 160 yards",
+        "braidText": "6 lb / 320 yards; 8 lb / 200 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for RGLT1000D. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-regal-lt-2000d": {
+      "reelId": "daiwa-regal-lt-2000d-rglt2000d-109",
+      "pageTitle": "Daiwa Regal LT 2000D Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Regal LT 2000D Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Regal LT 2000D (RGLT2000D) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-regal-lt-2000d",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-regal-lt-2000d.jpg",
+      "imageAlt": "Daiwa Regal LT, manufacturer product photograph (representative family image)",
+      "intro": "The original Regal LT 2000D adds reserve for light-line fishing: Daiwa lists 220 yards of 6 lb mono, compared with 160 on the 1000D. Its Air Rotor keeps this in the lighter freshwater spinning family. The calculator below follows the non-B RGLT2000D, so you can check your chosen line with or without backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "Air Rotor"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Regal LT|RGLT2000D",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2000h",
+          "reelId": "abu-garcia-max-elite-spinning-2000h-maxelitesp2000h-17"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 20 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-20",
+          "reelId": "bass-pro-shops-formula-spinning-reel-20-fma20-48"
+        },
+        {
+          "label": "KastKing Centron Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-2000",
+          "reelId": "kastking-centron-spinning-2000-49-292"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2000h",
+          "reelId": "abu-garcia-max-pro-spinning-2000h-maxprosp2000h-13"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2000",
+          "reelId": "abu-garcia-max-sx-spinning-2000-maxsxsp2000-8"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2000",
+          "reelId": "abu-garcia-max-x-spinning-2000-maxxsp2000-2"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light freshwater spinning for trout, panfish and finesse presentations, choose your line around the rod, presentation and cover. This guide follows RGLT2000D; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "light freshwater spinning for trout, panfish and finesse presentations",
+            "setup": "8-15 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "4-8 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact RGLT2000D source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "8-15 lb braid is the practical ReelCalc range for this reel. Use the lighter end when fishing small lures for trout and panfish in open water. The upper end can provide more margin around light cover or when targeting bass, but keep the line matched to the rod and lure so the setup still handles light presentations well.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 340,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "340 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 220,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 280,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 215,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "215 yards"
+          }
+        ],
+        "monoText": "4 lb / 340 yards; 6 lb / 220 yards",
+        "braidText": "8 lb / 280 yards; 10 lb / 215 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for RGLT2000D. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-regal-lt-2500d-xh": {
+      "reelId": "daiwa-regal-lt-2500d-xh-rglt2500d-xh-110",
+      "pageTitle": "Daiwa Regal LT 2500D-XH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Regal LT 2500D-XH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Regal LT 2500D-XH (RGLT2500D-XH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-regal-lt-2500d-xh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-regal-lt-2500d-xh.jpg",
+      "imageAlt": "Daiwa Regal LT, manufacturer product photograph (representative family image)",
+      "intro": "For bass finesse and general freshwater lure fishing, the original Regal LT 2500D-XH combines a 10 lb / 210-yard mono rating with 34.5 inches of listed line pickup per turn. Its 6.2:1 gearing is useful when recovering slack, while ATD drag handles line release under load. Use the calculator for this non-B model to plan your refill, with backing only if you want it.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ATD drag"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Regal LT|RGLT2500D-XH",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2500H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2500h",
+          "reelId": "abu-garcia-max-elite-spinning-2500h-maxelitesp2500h-18"
+        },
+        {
+          "label": "KastKing ReKon Saltwater Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-rekon-saltwater-spinning-2500",
+          "reelId": "kastking-rekon-saltwater-spinning-2500-41-284"
+        },
+        {
+          "label": "Okuma Acuador 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-acuador-2500",
+          "reelId": "okuma-acuador-2500-acu-2500a-391"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2500H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2500h",
+          "reelId": "abu-garcia-max-pro-spinning-2500h-maxprosp2500h-14"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2500",
+          "reelId": "abu-garcia-max-sx-spinning-2500-maxsxsp2500-9"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2500",
+          "reelId": "abu-garcia-max-x-spinning-2500-maxxsp2500-3"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For finesse bass and general freshwater lure fishing, with faster line pickup, choose your line around the rod, presentation and cover. This guide follows RGLT2500D-XH; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "finesse bass and general freshwater lure fishing, with faster line pickup",
+            "setup": "10-15 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "6-8 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact RGLT2500D-XH source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "10-15 lb braid is the practical ReelCalc range for this reel. Use the lighter end when fishing small lures for trout in open water. The upper end can provide more margin around light cover or when targeting bass, but keep the line matched to the rod and lure so the setup still handles light presentations well.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 240,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "240 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 210,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 250,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 15,
+            "yards": 185,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "185 yards"
+          }
+        ],
+        "monoText": "8 lb / 240 yards; 10 lb / 210 yards",
+        "braidText": "10 lb / 250 yards; 15 lb / 185 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for RGLT2500D-XH. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-regal-lt-3000d-c": {
+      "reelId": "daiwa-regal-lt-3000d-c-rglt3000d-c-111",
+      "pageTitle": "Daiwa Regal LT 3000D-C Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Regal LT 3000D-C Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Regal LT 3000D-C (RGLT3000D-C) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-regal-lt-3000d-c",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-regal-lt-3000d-c.jpg",
+      "imageAlt": "Daiwa Regal LT, manufacturer product photograph (representative family image)",
+      "intro": "The original Regal LT 3000D-C gives you a deeper-spool option for freshwater fishing, rated for 220 yards of 12 lb mono. Its 5.3:1 gearing and listed 31.6-inch retrieve make it a more moderate-speed choice than an XH model. ATD drag is part of this original non-B reel. Select your exact line below to work out a full fill or optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ATD drag"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Regal LT|RGLT3000D-C",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "KastKing Centron Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-3000",
+          "reelId": "kastking-centron-spinning-3000-50-293"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-3000",
+          "reelId": "abu-garcia-max-sx-spinning-3000-maxsxsp3000-10"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-3000",
+          "reelId": "abu-garcia-max-x-spinning-3000-maxxsp3000-4"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For general freshwater lure fishing with a deeper spool and moderate-speed retrieve, choose your line around the rod, presentation and cover. This guide follows RGLT3000D-C; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "general freshwater lure fishing with a deeper spool and moderate-speed retrieve",
+            "setup": "10-20 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "8-10 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact RGLT3000D-C source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "10-20 lb braid is the practical ReelCalc range for this reel. Use the lighter end for lighter lures in open water. For the reel's inshore or mixed-cover uses, choose more strength when your rod, rig, and the structure call for it. A leader suited to the fish and structure matters too; the braid's pound-test label does not tell you the whole setup.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 280,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 220,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 15,
+            "yards": 250,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 220,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "220 yards"
+          }
+        ],
+        "monoText": "10 lb / 280 yards; 12 lb / 220 yards",
+        "braidText": "15 lb / 250 yards; 20 lb / 220 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for RGLT3000D-C. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-regal-lt-5000d-c": {
+      "reelId": "daiwa-regal-lt-5000d-c-rglt5000d-c-113",
+      "pageTitle": "Daiwa Regal LT 5000D-C Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Regal LT 5000D-C Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Regal LT 5000D-C (RGLT5000D-C-B) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-regal-lt-5000d-c",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-regal-lt-5000d-c.png",
+      "imageAlt": "Daiwa Regal LT, manufacturer product photograph (representative family image)",
+      "intro": "With a 20 lb / 180-yard mono rating, the 2024 Regal LT 5000D-C gives you room to plan a heavier freshwater spinning setup. The ZAION V body keeps weight in check, with a published reel weight of 8.5 oz. This guide follows the B-generation RGLT5000D-C-B. Use its calculator to compare line diameters and decide whether to fill with main line or add backing underneath.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ZAION V body"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/24-regal-lt",
+      "introEvidenceKey": "Daiwa|Regal LT|RGLT5000D-C-B",
+      "related": [
+        {
+          "label": "KastKing Centron Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-5000",
+          "reelId": "kastking-centron-spinning-5000-52-295"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-5000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-5000-fgb5000-72"
+        },
+        {
+          "label": "Okuma Acuador 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-acuador-5000",
+          "reelId": "okuma-acuador-5000-acu-5000a-394"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-5000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-5000-38-281"
+        },
+        {
+          "label": "KastKing MegaJaws Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-megajaws-spinning-5000",
+          "reelId": "kastking-megajaws-spinning-5000-28-271"
+        },
+        {
+          "label": "KastKing MegaTron Spinning 5000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-megatron-spinning-5000",
+          "reelId": "kastking-megatron-spinning-5000-23-266"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 30,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.011,
+        "mainLineYards": 150,
+        "backingLb": 12,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.013,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier-line freshwater spinning and larger-lure applications where line reserve matters; select tackle for the actual target and conditions, choose your line around the rod, presentation and cover. This guide follows RGLT5000D-C-B; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "heavier-line freshwater spinning and larger-lure applications where line reserve matters; select tackle for the actual target and conditions",
+            "setup": "30-40 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "12-14 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact RGLT5000D-C-B source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "30-40 lb braid is the practical ReelCalc range for this reel. For inshore and surf fishing, use the lighter end when casting distance and line capacity matter most. Move toward the stronger end around structure, heavier current, or larger baits, while staying within your rod's line rating. Match the leader to the structure and fish; heavier braid alone is not a substitute for a suitable leader.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 14,
+            "yards": 280,
+            "ratingLabel": "14 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 180,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "180 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 230,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "230 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 40,
+            "yards": 160,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "160 yards"
+          }
+        ],
+        "monoText": "14 lb / 280 yards; 20 lb / 180 yards",
+        "braidText": "30 lb / 230 yards; 40 lb / 160 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for RGLT5000D-C-B. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-regal-lt-6000d": {
+      "reelId": "daiwa-regal-lt-6000d-rglt6000d-114",
+      "pageTitle": "Daiwa Regal LT 6000D Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Regal LT 6000D Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Regal LT 6000D (RGLT6000D-B) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-regal-lt-6000d",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-regal-lt-6000d.png",
+      "imageAlt": "Daiwa Regal LT, manufacturer product photograph (representative family image)",
+      "intro": "The 2024 Regal LT 6000D carries a published 270 yards of 20 lb mono or 320 yards of 30 lb braid, giving you more reserve than the 5000D-C at those same ratings. The ZAION V body is part of this B-generation design, which weighs a listed 11.1 oz. For heavier freshwater spinning, choose your line and working length below to plan a full fill or an optional-backing setup.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ZAION V body"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/24-regal-lt",
+      "introEvidenceKey": "Daiwa|Regal LT|RGLT6000D-B",
+      "related": [
+        {
+          "label": "Abu Garcia Max X Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-6000",
+          "reelId": "abu-garcia-max-x-spinning-6000-maxxsp6000-6"
+        },
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-6000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-6000-39-282"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-6000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-6000-fgb6000-73"
+        },
+        {
+          "label": "KastKing MegaTron Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-megatron-spinning-6000",
+          "reelId": "kastking-megatron-spinning-6000-24-267"
+        },
+        {
+          "label": "KastKing ReKon Saltwater Spinning 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-rekon-saltwater-spinning-6000",
+          "reelId": "kastking-rekon-saltwater-spinning-6000-45-288"
+        },
+        {
+          "label": "KastKing Sharky Baitfeeder III 6000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-sharky-baitfeeder-iii-6000",
+          "reelId": "kastking-sharky-baitfeeder-iii-6000-19-262"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 40,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.013,
+        "mainLineYards": 300,
+        "backingLb": 30,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.022,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For heavier-line freshwater spinning and larger-lure applications where line reserve matters; select tackle for the actual target and conditions, choose your line around the rod, presentation and cover. This guide follows RGLT6000D-B; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "heavier-line freshwater spinning and larger-lure applications where line reserve matters; select tackle for the actual target and conditions",
+            "setup": "40-50 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "14-20 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact RGLT6000D-B source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "40-50 lb braid is the practical ReelCalc range for this reel. For inshore and surf fishing, use the lighter end when casting distance and line capacity matter most. Move toward the stronger end around structure, heavier current, or larger baits, while staying within your rod's line rating. Match the leader to the structure and fish; heavier braid alone is not a substitute for a suitable leader.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 20,
+            "yards": 270,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "270 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 30,
+            "yards": 160,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "160 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 30,
+            "yards": 320,
+            "ratingLabel": "30 lb",
+            "capacityLabel": "320 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 40,
+            "yards": 240,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "240 yards"
+          }
+        ],
+        "monoText": "20 lb / 270 yards; 30 lb / 160 yards",
+        "braidText": "30 lb / 320 yards; 40 lb / 240 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for RGLT6000D-B. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-tatula-lt-1000d-xh": {
+      "reelId": "daiwa-tatula-mq-lt-1000d-xh-talt1000d-xh-136",
+      "pageTitle": "Daiwa Tatula LT 1000D-XH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Tatula LT 1000D-XH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Tatula LT 1000D-XH (TALT1000D-XH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-tatula-lt-1000d-xh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-tatula-lt-1000d-xh.jpg",
+      "imageAlt": "Daiwa Tatula LT, manufacturer product photograph (representative family image)",
+      "intro": "The original Tatula LT 1000D-XH pairs a 5.8 oz reel with a deep spool for light freshwater fishing. Daiwa lists 160 yards of 6 lb mono and a 30.5-inch retrieve, so it offers reserve and quick slack pickup for small-lure work. Its ZAION frame belongs to the original LT design, not the later MQ. Choose your line below for a full-spool estimate or an optional-backing setup.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ZAION frame"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Tatula LT|TALT1000D-XH",
+      "related": [
+        {
+          "label": "Abu Garcia Revo SX Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-sx-spinning-10",
+          "reelId": "abu-garcia-revo-sx-spinning-10-revo3-sx-sp10-25"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-10",
+          "reelId": "bass-pro-shops-formula-spinning-reel-10-fma10-47"
+        },
+        {
+          "label": "KastKing Royale Legend Pro Spinning 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-royale-legend-pro-spinning-1000",
+          "reelId": "kastking-royale-legend-pro-spinning-1000-0-243"
+        },
+        {
+          "label": "Abu Garcia Revo X Spinning 10 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-revo-x-spinning-10",
+          "reelId": "abu-garcia-revo-x-spinning-10-revo3-x-sp10-21"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris CarbonLite 2.0 Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-carbonlite-2-0-spinning-reel-1000-jct1000-57"
+        },
+        {
+          "label": "Bass Pro Shops Johnny Morris Signature Series Spinning Reel 1000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000",
+          "reelId": "bass-pro-shops-johnny-morris-signature-series-spinning-reel-1000-jsg1000-66"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 6,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 100,
+        "backingLb": 6,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.009,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light freshwater spinning for panfish, trout and small finesse presentations, choose your line around the rod, presentation and cover. This guide follows TALT1000D-XH; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "light freshwater spinning for panfish, trout and small finesse presentations",
+            "setup": "6-10 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "2-6 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact TALT1000D-XH source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "6-10 lb braid is the practical ReelCalc range for this reel. Use the lighter end when fishing small lures for trout and panfish in open water. The upper end can provide more margin around light cover, but keep the line matched to the rod and lure so the setup still handles light presentations well.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 250,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 160,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "160 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 110,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "110 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 6,
+            "yards": 320,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "320 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 200,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "200 yards"
+          }
+        ],
+        "monoText": "4 lb / 250 yards; 6 lb / 160 yards; 8 lb / 110 yards",
+        "braidText": "6 lb / 320 yards; 8 lb / 200 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for TALT1000D-XH. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-tatula-lt-2000d-xh": {
+      "reelId": "daiwa-tatula-mq-lt-2000d-xh-talt2000d-xh-137",
+      "pageTitle": "Daiwa Tatula LT 2000D-XH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Tatula LT 2000D-XH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Tatula LT 2000D-XH (TALT2000D-XH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-tatula-lt-2000d-xh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-tatula-lt-2000d-xh.jpg",
+      "imageAlt": "Daiwa Tatula LT, manufacturer product photograph (representative family image)",
+      "intro": "For light-line freshwater fishing, the original Tatula LT 2000D-XH keeps the listed weight at 5.8 oz while adding line reserve over the 1000: 220 yards of 6 lb mono instead of 160. Its ZAION frame and 6.2:1 gearing suit an easy-to-handle spinning setup with quick slack pickup. This is the original TALT model, not MQ; the calculator below is set to its capacities.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ZAION frame"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Tatula LT|TALT2000D-XH",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2000h",
+          "reelId": "abu-garcia-max-elite-spinning-2000h-maxelitesp2000h-17"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 20 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-20",
+          "reelId": "bass-pro-shops-formula-spinning-reel-20-fma20-48"
+        },
+        {
+          "label": "KastKing Centron Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-2000",
+          "reelId": "kastking-centron-spinning-2000-49-292"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2000h",
+          "reelId": "abu-garcia-max-pro-spinning-2000h-maxprosp2000h-13"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2000",
+          "reelId": "abu-garcia-max-sx-spinning-2000-maxsxsp2000-8"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2000",
+          "reelId": "abu-garcia-max-x-spinning-2000-maxxsp2000-2"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 8,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.005,
+        "mainLineYards": 100,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For light-line freshwater spinning and finesse bass presentations, choose your line around the rod, presentation and cover. This guide follows TALT2000D-XH; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "light-line freshwater spinning and finesse bass presentations",
+            "setup": "8-15 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "4-8 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact TALT2000D-XH source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "8-15 lb braid is the practical ReelCalc range for this reel. Use the lighter end when fishing small lures for trout and panfish in open water. The upper end can provide more margin around light cover or when targeting bass, but keep the line matched to the rod and lure so the setup still handles light presentations well.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 4,
+            "yards": 340,
+            "ratingLabel": "4 lb",
+            "capacityLabel": "340 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 6,
+            "yards": 220,
+            "ratingLabel": "6 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 160,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "160 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 8,
+            "yards": 280,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 215,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "215 yards"
+          }
+        ],
+        "monoText": "4 lb / 340 yards; 6 lb / 220 yards; 8 lb / 160 yards",
+        "braidText": "8 lb / 280 yards; 10 lb / 215 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for TALT2000D-XH. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-tatula-lt-2500d-xh": {
+      "reelId": "daiwa-tatula-mq-lt-2500d-xh-talt2500d-xh-138",
+      "pageTitle": "Daiwa Tatula LT 2500D-XH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Tatula LT 2500D-XH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Tatula LT 2500D-XH (TALT2500D-XH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-tatula-lt-2500d-xh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-tatula-lt-2500d-xh.jpg",
+      "imageAlt": "Daiwa Tatula LT, manufacturer product photograph (representative family image)",
+      "intro": "The original Tatula LT 2500D-XH is a useful size to consider for bass finesse and general freshwater spinning. Its 6.2 oz weight, ZAION frame and listed 34.5-inch retrieve balance light handling with quick line pickup. Daiwa rates it for 210 yards of 10 lb mono. Choose your actual line below to estimate a refill with or without backing; this guide covers TALT2500D-XH, not Tatula MQ.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ZAION frame"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Tatula LT|TALT2500D-XH",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 2500H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-2500h",
+          "reelId": "abu-garcia-max-elite-spinning-2500h-maxelitesp2500h-18"
+        },
+        {
+          "label": "KastKing ReKon Saltwater Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-rekon-saltwater-spinning-2500",
+          "reelId": "kastking-rekon-saltwater-spinning-2500-41-284"
+        },
+        {
+          "label": "Okuma Acuador 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-acuador-2500",
+          "reelId": "okuma-acuador-2500-acu-2500a-391"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 2500H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-2500h",
+          "reelId": "abu-garcia-max-pro-spinning-2500h-maxprosp2500h-14"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-2500",
+          "reelId": "abu-garcia-max-sx-spinning-2500-maxsxsp2500-9"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 2500 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-2500",
+          "reelId": "abu-garcia-max-x-spinning-2500-maxxsp2500-3"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For bass finesse and general freshwater lure fishing with fast slack pickup, choose your line around the rod, presentation and cover. This guide follows TALT2500D-XH; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "bass finesse and general freshwater lure fishing with fast slack pickup",
+            "setup": "10-15 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "6-8 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact TALT2500D-XH source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "10-15 lb braid is the practical ReelCalc range for this reel. Use the lighter end when fishing small lures for trout in open water. The upper end can provide more margin around light cover or when targeting bass, but keep the line matched to the rod and lure so the setup still handles light presentations well.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 8,
+            "yards": 240,
+            "ratingLabel": "8 lb",
+            "capacityLabel": "240 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 210,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "210 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 160,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "160 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 10,
+            "yards": 250,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 15,
+            "yards": 185,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "185 yards"
+          }
+        ],
+        "monoText": "8 lb / 240 yards; 10 lb / 210 yards; 12 lb / 160 yards",
+        "braidText": "10 lb / 250 yards; 15 lb / 185 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for TALT2500D-XH. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-tatula-lt-3000d-cxh": {
+      "reelId": "daiwa-tatula-mq-lt-3000d-cxh-talt3000d-cxh-139",
+      "pageTitle": "Daiwa Tatula LT 3000D-CXH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Tatula LT 3000D-CXH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Tatula LT 3000D-CXH (TALT3000D-CXH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-tatula-lt-3000d-cxh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-tatula-lt-3000d-cxh.jpg",
+      "imageAlt": "Daiwa Tatula LT, manufacturer product photograph (representative family image)",
+      "intro": "If you want more line reserve without adding listed weight over the original Tatula LT 2500D-XH, the 3000D-CXH is rated for 280 yards of 10 lb mono and also weighs 6.2 oz. Its ZAION frame and 36.8-inch retrieve suit freshwater spinning where slack pickup matters. This guide covers the original non-MQ TALT3000D-CXH, with a calculator for your chosen line and optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "ZAION frame"
+      ],
+      "introEvidenceSource": "https://web.archive.org/web/20200828041052/https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+      "introEvidenceKey": "Daiwa|Tatula LT|TALT3000D-CXH",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "KastKing Centron Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-3000",
+          "reelId": "kastking-centron-spinning-3000-50-293"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        },
+        {
+          "label": "Abu Garcia Max SX Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-sx-spinning-3000",
+          "reelId": "abu-garcia-max-sx-spinning-3000-maxsxsp3000-10"
+        },
+        {
+          "label": "Abu Garcia Max X Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-x-spinning-3000",
+          "reelId": "abu-garcia-max-x-spinning-3000-maxxsp3000-4"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For deeper-spool freshwater spinning and bass presentations requiring additional line reserve, choose your line around the rod, presentation and cover. This guide follows TALT3000D-CXH; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "deeper-spool freshwater spinning and bass presentations requiring additional line reserve",
+            "setup": "10-20 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "8-10 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact TALT3000D-CXH source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "10-20 lb braid is the practical ReelCalc range for this reel. Use the lighter end for lighter lures in open water. For the reel's inshore or mixed-cover uses, choose more strength when your rod, rig, and the structure call for it. A leader suited to the fish and structure matters too; the braid's pound-test label does not tell you the whole setup.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 280,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 220,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 16,
+            "yards": 160,
+            "ratingLabel": "16 lb",
+            "capacityLabel": "160 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 15,
+            "yards": 250,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 220,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "220 yards"
+          }
+        ],
+        "monoText": "10 lb / 280 yards; 12 lb / 220 yards; 16 lb / 160 yards",
+        "braidText": "15 lb / 250 yards; 20 lb / 220 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for TALT3000D-CXH. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-tatula-elite-spinning-3000d-cxh": {
+      "reelId": "daiwa-tatula-elite-spinning-3000d-cxh-tael3000d-cxh-142",
+      "pageTitle": "Daiwa Tatula Elite Spinning 3000D-CXH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Tatula Elite Spinning 3000D-CXH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Tatula Elite Spinning 3000D-CXH (TATUEL3000D-CXH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-tatula-elite-spinning-3000d-cxh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-tatula-elite-spinning-3000d-cxh.webp",
+      "imageAlt": "Daiwa Tatula Elite Spinning, representative family product photograph",
+      "intro": "The Tatula Elite Spinning 3000D-CXH puts a 3000 spool and rotor on a 2500-sized ZAION body, giving you line reserve in a compact freshwater setup. Daiwa lists 280 yards of 10 lb mono and 36.8 inches of retrieve per turn. The AIRDRIVE rotor is part of its lightweight front-end design. Use the calculator below for a full spool or a shorter main line over optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "AIRDRIVE rotor"
+      ],
+      "introEvidenceSource": "https://daiwa.us/collections/tatula-reels/products/24-tatula-elite-spinning",
+      "introEvidenceKey": "Daiwa|Tatula Elite Spinning|TATUEL3000D-CXH",
+      "related": [
+        {
+          "label": "Abu Garcia Max Elite Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-elite-spinning-3000h",
+          "reelId": "abu-garcia-max-elite-spinning-3000h-maxelitesp3000h-19"
+        },
+        {
+          "label": "Bass Pro Shops Formula Spinning Reel 30 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/bass-pro-shops-formula-spinning-reel-30",
+          "reelId": "bass-pro-shops-formula-spinning-reel-30-fma30-49"
+        },
+        {
+          "label": "KastKing Centron Spinning 3000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-centron-spinning-3000",
+          "reelId": "kastking-centron-spinning-3000-50-293"
+        },
+        {
+          "label": "Daiwa Tatula Elite Spinning 2500D-XH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-tatula-elite-spinning-2500d-xh",
+          "reelId": "daiwa-tatula-elite-spinning-2500d-xh-tael2500d-xh-141"
+        },
+        {
+          "label": "Daiwa Tatula Elite Spinning 4000D-CXH Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/daiwa-tatula-elite-spinning-4000d-cxh",
+          "reelId": "daiwa-tatula-elite-spinning-4000d-cxh-tael4000d-cxh-143"
+        },
+        {
+          "label": "Abu Garcia Max Pro Spinning 3000H Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/abu-garcia-max-pro-spinning-3000h",
+          "reelId": "abu-garcia-max-pro-spinning-3000h-maxprosp3000h-15"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 10,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.006,
+        "mainLineYards": 150,
+        "backingLb": 8,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.01,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "For bass finesse and general freshwater spinning where a compact body, deep spool and fast pickup are useful, choose your line around the rod, presentation and cover. This guide follows TATUEL3000D-CXH; do not substitute the capacity of a similarly named reel from another generation.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "bass finesse and general freshwater spinning where a compact body, deep spool and fast pickup are useful",
+            "setup": "10-20 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "8-10 lb mono/fluoro"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These specifications follow the exact TATUEL3000D-CXH source. Unconfirmed values are labeled rather than guessed. Retrieve depends on spool fill, and maximum drag is not a suggested fishing setting.",
+        "faqBraid": "10-20 lb braid is the practical ReelCalc range for this reel. Use the lighter end for lighter lures in open water. For the reel's inshore or mixed-cover uses, choose more strength when your rod, rig, and the structure call for it. A leader suited to the fish and structure matters too; the braid's pound-test label does not tell you the whole setup.",
+        "capacityIntro": "These are the published capacity ratings for this exact model. A pound-test label does not tell you the line's diameter, so the calculator uses its existing diameter references when the reel has no verified diameter rating for that material. Watch the actual fill level while spooling.",
+        "capacityRows": [
+          {
+            "type": "Monofilament",
+            "lb": 10,
+            "yards": 280,
+            "ratingLabel": "10 lb",
+            "capacityLabel": "280 yards"
+          },
+          {
+            "type": "Monofilament",
+            "lb": 12,
+            "yards": 220,
+            "ratingLabel": "12 lb",
+            "capacityLabel": "220 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 15,
+            "yards": 250,
+            "ratingLabel": "15 lb",
+            "capacityLabel": "250 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 20,
+            "yards": 220,
+            "ratingLabel": "20 lb",
+            "capacityLabel": "220 yards"
+          }
+        ],
+        "monoText": "10 lb / 280 yards; 12 lb / 220 yards",
+        "braidText": "15 lb / 250 yards; 20 lb / 220 yards",
+        "faqCapacity": "The capacity table shows the manufacturer ratings for TATUEL3000D-CXH. Your chosen line may be thicker or thinner than the line behind a pound-test rating. Use its diameter in the calculator and watch the actual fill level rather than trying to force on the last few yards."
+      }
+    },
+    "daiwa-certate-sw-2026-8000-h": {
+      "reelId": "daiwa-certate-sw-8000-h-certsw8000-h-224",
+      "pageTitle": "Daiwa Certate SW 2026 8000-H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Certate SW 2026 8000-H Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Certate SW 2026 8000-H (CERSW8000-H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-certate-sw-2026-8000-h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-certate-sw-2026-8000-h.png",
+      "imageAlt": "Daiwa Certate SW 2026, manufacturer product photograph (representative family image)",
+      "intro": "For an offshore spinning setup where line reserve matters, the 2026 Certate SW 8000-H starts with a published J-Braid capacity of 50 lb / 280 yards. Its listed 43.4-inch retrieve and 5.6:1 gearing give you a reference for jigging or working saltwater lures. Daiwa's POWERDRIVE DESIGN belongs to this 2026 generation. Choose your line below to estimate a full fill or optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "POWERDRIVE DESIGN"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/2026-certate-sw",
+      "introEvidenceKey": "Daiwa|Certate SW 2026|CERSW8000-H",
+      "related": [
+        {
+          "label": "KastKing Kapstan Elite Saltwater Spinning 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-kapstan-elite-saltwater-spinning-8000",
+          "reelId": "kastking-kapstan-elite-saltwater-spinning-8000-40-283"
+        },
+        {
+          "label": "Offshore Angler Frigate II Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-frigate-ii-spinning-reel-8000",
+          "reelId": "offshore-angler-frigate-ii-spinning-reel-8000-fgb8000-75"
+        },
+        {
+          "label": "Okuma Avenger B 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-avenger-b-8000",
+          "reelId": "okuma-avenger-b-8000-av-8000b-383"
+        },
+        {
+          "label": "KastKing ReKon Saltwater Spinning 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/kastking-rekon-saltwater-spinning-8000",
+          "reelId": "kastking-rekon-saltwater-spinning-8000-46-289"
+        },
+        {
+          "label": "Offshore Angler Sea Lion Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-sea-lion-spinning-reel-8000",
+          "reelId": "offshore-angler-sea-lion-spinning-reel-8000-sls80-82"
+        },
+        {
+          "label": "Offshore Angler Tightline II Spinning Reel 8000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/offshore-angler-tightline-ii-spinning-reel-8000",
+          "reelId": "offshore-angler-tightline-ii-spinning-reel-8000-tlb8000-88"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 50,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.014,
+        "mainLineYards": 200,
+        "backingLb": 20,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.018,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This is a heavier saltwater spinning reel for offshore casting and jigging. Match its line reserve and weight to the rod, depth and fish you expect. Choose the leader and fishing drag for the tackle and structure, rather than using the maximum drag rating as a target.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "offshore casting and jigging",
+            "setup": "50-65 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "16-20 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are the published 2026 US CERSW8000-H specifications, not those of the older Certate SW. Retrieve falls as line leaves the spool, and maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "50-65 lb braid is the practical ReelCalc range for this reel. For offshore fishing, balance the working line and reserve you need against the strength required by your rod, rig, and target fish. The lighter end leaves more line in reserve; the stronger end suits heavier rigs when the rest of the tackle is matched to them. Choose the leader separately for the fish and structure.",
+        "capacityIntro": "Daiwa lists J-Braid capacities for this 2026 model, but no factory mono capacity. The table keeps that distinction. Other lines can fill differently, even at the same pound-test rating, so use the calculator as a starting estimate and check the spool as you wind.",
+        "capacityRows": [
+          {
+            "type": "Braid",
+            "lb": 40,
+            "yards": 330,
+            "ratingLabel": "40 lb",
+            "capacityLabel": "330 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 280,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "280 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "40 lb / 330 yards; 50 lb / 280 yards",
+        "faqCapacity": "Daiwa lists J-Braid at 40 lb / 330 yards and 50 lb / 280 yards. No mono capacity is published in the cited 2026 U.S. table. The calculator can estimate other lines from the available reference, but that is not a factory mono rating."
+      }
+    },
+    "daiwa-certate-sw-2026-10000-h": {
+      "reelId": "daiwa-certate-sw-10000-h-certsw10000-h-225",
+      "pageTitle": "Daiwa Certate SW 2026 10000-H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Certate SW 2026 10000-H Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Certate SW 2026 10000-H (CERSW10000-H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-certate-sw-2026-10000-h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-certate-sw-2026-10000-h.png",
+      "imageAlt": "Daiwa Certate SW 2026, manufacturer product photograph (representative family image)",
+      "intro": "The 2026 Certate SW 10000-H adds reserve over the 8000-H at the same 50 lb J-Braid rating: 330 yards instead of 280. Its listed 46.1-inch retrieve is worth considering when you need to pick up line quickly during offshore lure or jig work. Daiwa's POWERDRIVE DESIGN belongs to this 2026 generation. Choose your line below to estimate a full fill or optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "POWERDRIVE DESIGN"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/2026-certate-sw",
+      "introEvidenceKey": "Daiwa|Certate SW 2026|CERSW10000-H",
+      "related": [
+        {
+          "label": "Okuma Avenger B 10000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-avenger-b-10000",
+          "reelId": "okuma-avenger-b-10000-av-10000b-384"
+        },
+        {
+          "label": "PENN Battle IV 10000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/penn-battle-iv-10000",
+          "reelId": "penn-battle-iv-10000-btliv10000-466"
+        },
+        {
+          "label": "Shimano Saragosa SW A 10000PG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-saragosa-sw-a-10000",
+          "reelId": "shimano-saragosa-sw-a-10000pg-srg10000swapg-746"
+        },
+        {
+          "label": "Okuma Cedros 10000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-cedros-10000",
+          "reelId": "okuma-cedros-10000-cj-10000-436"
+        },
+        {
+          "label": "Okuma Makaira 10000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-makaira-10000",
+          "reelId": "okuma-makaira-10000-mk-10000l-r-417"
+        },
+        {
+          "label": "Okuma Salina 10000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-salina-10000",
+          "reelId": "okuma-salina-10000-sa-10000a-431"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 50,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.014,
+        "mainLineYards": 275,
+        "backingLb": 20,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.018,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This is a heavier saltwater spinning reel for offshore casting and jigging. Match its line reserve and weight to the rod, depth and fish you expect. Choose the leader and fishing drag for the tackle and structure, rather than using the maximum drag rating as a target.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "offshore casting and jigging",
+            "setup": "50-80 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "20-25 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are the published 2026 US CERSW10000-H specifications, not those of the older Certate SW. Retrieve falls as line leaves the spool, and maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "50-80 lb braid is the practical ReelCalc range for this reel. For offshore fishing, balance the working line and reserve you need against the strength required by your rod, rig, and target fish. The lighter end leaves more line in reserve; the stronger end suits heavier rigs when the rest of the tackle is matched to them. Choose the leader separately for the fish and structure.",
+        "capacityIntro": "Daiwa lists J-Braid capacities for this 2026 model, but no factory mono capacity. The table keeps that distinction. Other lines can fill differently, even at the same pound-test rating, so use the calculator as a starting estimate and check the spool as you wind.",
+        "capacityRows": [
+          {
+            "type": "Braid",
+            "lb": 50,
+            "yards": 330,
+            "ratingLabel": "50 lb",
+            "capacityLabel": "330 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 65,
+            "yards": 280,
+            "ratingLabel": "65 lb",
+            "capacityLabel": "280 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "50 lb / 330 yards; 65 lb / 280 yards",
+        "faqCapacity": "Daiwa lists J-Braid at 50 lb / 330 yards and 65 lb / 280 yards. No mono capacity is published in the cited 2026 U.S. table. The calculator can estimate other lines from the available reference, but that is not a factory mono rating."
+      }
+    },
+    "daiwa-certate-sw-2026-14000-xh": {
+      "reelId": "daiwa-certate-sw-14000-xh-certsw14000-xh-226",
+      "pageTitle": "Daiwa Certate SW 2026 14000-XH Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Certate SW 2026 14000-XH Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Certate SW 2026 14000-XH (CERSW14000-XH) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-certate-sw-2026-14000-xh",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-certate-sw-2026-14000-xh.png",
+      "imageAlt": "Daiwa Certate SW 2026, manufacturer product photograph (representative family image)",
+      "intro": "For offshore casting where fast line pickup is useful, the 2026 Certate SW 14000-XH has 6.2:1 gearing and a listed 52.6-inch retrieve. Daiwa rates its spool for 330 yards of 65 lb J-Braid, so you can plan your working line and reserve around that reference. Daiwa's POWERDRIVE DESIGN belongs to this 2026 generation. Choose your line below to estimate a full fill or optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "POWERDRIVE DESIGN"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/2026-certate-sw",
+      "introEvidenceKey": "Daiwa|Certate SW 2026|CERSW14000-XH",
+      "related": [
+        {
+          "label": "Okuma Azores Blue 14000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-azores-blue-14000",
+          "reelId": "okuma-azores-blue-14000-z-14000h-blue-441"
+        },
+        {
+          "label": "Shimano Saragosa SW A 14000XG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-saragosa-sw-a-14000xg",
+          "reelId": "shimano-saragosa-sw-a-14000xg-srg14000swaxg-747"
+        },
+        {
+          "label": "Okuma Cedros 14000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-cedros-14000",
+          "reelId": "okuma-cedros-14000-cj-14000-437"
+        },
+        {
+          "label": "Okuma Salina 14000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-salina-14000",
+          "reelId": "okuma-salina-14000-sa-14000a-432"
+        },
+        {
+          "label": "Okuma Tesoro 14000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-tesoro-14000",
+          "reelId": "okuma-tesoro-14000-tsr-14000ha-424"
+        },
+        {
+          "label": "Shimano Spheros SW A 14000XG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-spheros-sw-a-14000xg",
+          "reelId": "shimano-spheros-sw-a-14000xg-spsw14000xga-740"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 65,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.016,
+        "mainLineYards": 175,
+        "backingLb": 30,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.022,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This is a heavier saltwater spinning reel for offshore casting and jigging. Match its line reserve and weight to the rod, depth and fish you expect. Choose the leader and fishing drag for the tackle and structure, rather than using the maximum drag rating as a target.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "offshore casting and jigging",
+            "setup": "65-80 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "20-25 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are the published 2026 US CERSW14000-XH specifications, not those of the older Certate SW. Retrieve falls as line leaves the spool, and maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "65-80 lb braid is the practical ReelCalc range for this reel. For offshore fishing, balance the working line and reserve you need against the strength required by your rod, rig, and target fish. The lighter end leaves more line in reserve; the stronger end suits heavier rigs when the rest of the tackle is matched to them. Choose the leader separately for the fish and structure.",
+        "capacityIntro": "Daiwa lists J-Braid capacities for this 2026 model, but no factory mono capacity. The table keeps that distinction. Other lines can fill differently, even at the same pound-test rating, so use the calculator as a starting estimate and check the spool as you wind.",
+        "capacityRows": [
+          {
+            "type": "Braid",
+            "lb": 65,
+            "yards": 330,
+            "ratingLabel": "65 lb",
+            "capacityLabel": "330 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 80,
+            "yards": 220,
+            "ratingLabel": "80 lb",
+            "capacityLabel": "220 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "65 lb / 330 yards; 80 lb / 220 yards",
+        "faqCapacity": "Daiwa lists J-Braid at 65 lb / 330 yards and 80 lb / 220 yards. No mono capacity is published in the cited 2026 U.S. table. The calculator can estimate other lines from the available reference, but that is not a factory mono rating."
+      }
+    },
+    "daiwa-certate-sw-2026-18000-h": {
+      "reelId": "daiwa-certate-sw-18000-h-certsw18000-h-227",
+      "pageTitle": "Daiwa Certate SW 2026 18000-H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Certate SW 2026 18000-H Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Certate SW 2026 18000-H (CERSW18000-H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-certate-sw-2026-18000-h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-certate-sw-2026-18000-h.png",
+      "imageAlt": "Daiwa Certate SW 2026, manufacturer product photograph (representative family image)",
+      "intro": "The 2026 Certate SW 18000-H moves into a larger offshore setup, with a 31.2 oz weight and a published 80 lb / 330-yard J-Braid capacity. Its 5.5:1 gearing retrieves a listed 51 inches per turn; match that size and line reserve to the rod and the fishing ahead. Daiwa's POWERDRIVE DESIGN belongs to this 2026 generation. Choose your line below to estimate a full fill or optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "POWERDRIVE DESIGN"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/2026-certate-sw",
+      "introEvidenceKey": "Daiwa|Certate SW 2026|CERSW18000-H",
+      "related": [
+        {
+          "label": "Okuma Tesoro 18000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-tesoro-18000",
+          "reelId": "okuma-tesoro-18000-tsr-18000pa-425"
+        },
+        {
+          "label": "Shimano Saragosa SW A 18000HG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-saragosa-sw-a-18000",
+          "reelId": "shimano-saragosa-sw-a-18000hg-srg18000swahg-748"
+        },
+        {
+          "label": "Shimano Spheros SW A 18000HG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-spheros-sw-a-18000",
+          "reelId": "shimano-spheros-sw-a-18000hg-spsw18000hga-741"
+        },
+        {
+          "label": "Shimano Stella SW D 18000HG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-18000",
+          "reelId": "shimano-stella-sw-d-18000hg-stlsw18000hgd-777"
+        },
+        {
+          "label": "Okuma Makaira 20000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-makaira-20000",
+          "reelId": "okuma-makaira-20000-mk-20000ls-rs-418"
+        },
+        {
+          "label": "Okuma Tesoro 20000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-tesoro-20000",
+          "reelId": "okuma-tesoro-20000-tsr-20000pa-426"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 80,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.017,
+        "mainLineYards": 250,
+        "backingLb": 30,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.022,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This is a heavier saltwater spinning reel for offshore casting and jigging. Match its line reserve and weight to the rod, depth and fish you expect. Choose the leader and fishing drag for the tackle and structure, rather than using the maximum drag rating as a target.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "offshore casting and jigging",
+            "setup": "80-100 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "25-30 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are the published 2026 US CERSW18000-H specifications, not those of the older Certate SW. Retrieve falls as line leaves the spool, and maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "80-100 lb braid is the practical ReelCalc range for this reel. For offshore fishing, balance the working line and reserve you need against the strength required by your rod, rig, and target fish. The lighter end leaves more line in reserve; the stronger end suits heavier rigs when the rest of the tackle is matched to them. Choose the leader separately for the fish and structure.",
+        "capacityIntro": "Daiwa lists J-Braid capacities for this 2026 model, but no factory mono capacity. The table keeps that distinction. Other lines can fill differently, even at the same pound-test rating, so use the calculator as a starting estimate and check the spool as you wind.",
+        "capacityRows": [
+          {
+            "type": "Braid",
+            "lb": 65,
+            "yards": 460,
+            "ratingLabel": "65 lb",
+            "capacityLabel": "460 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 80,
+            "yards": 330,
+            "ratingLabel": "80 lb",
+            "capacityLabel": "330 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "65 lb / 460 yards; 80 lb / 330 yards",
+        "faqCapacity": "Daiwa lists J-Braid at 65 lb / 460 yards and 80 lb / 330 yards. No mono capacity is published in the cited 2026 U.S. table. The calculator can estimate other lines from the available reference, but that is not a factory mono rating."
+      }
+    },
+    "daiwa-certate-sw-2026-20000-h": {
+      "reelId": "daiwa-certate-sw-20000-h-certsw20000-h-228",
+      "pageTitle": "Daiwa Certate SW 2026 20000-H Line Capacity & Reel Setup Guide",
+      "seoTitle": "Daiwa Certate SW 2026 20000-H Line Capacity | ReelCalc",
+      "metaDescription": "Daiwa Certate SW 2026 20000-H (CERSW20000-H) line capacities, specs and a reel-specific calculator for a full fill or optional backing.",
+      "canonicalPath": "/reel-pages/p/daiwa-certate-sw-2026-20000-h",
+      "imageUrl": "https://stefanellit.github.io/reelcalc-wizard/assets/reel-page-completion-2026-10-18/daiwa-certate-sw-2026-20000-h.png",
+      "imageAlt": "Daiwa Certate SW 2026, manufacturer product photograph (representative family image)",
+      "intro": "When a long reserve of heavy braid is part of your offshore plan, the 2026 Certate SW 20000-H is rated for 330 yards of 100 lb J-Braid. Its listed weight is 31.6 oz and retrieve is 54.4 inches per turn, making it a substantial setup rather than a light-tackle choice. Daiwa's POWERDRIVE DESIGN belongs to this 2026 generation. Choose your line below to estimate a full fill or optional backing.",
+      "introVariant": "exact-model-reviewed-2026-10-18",
+      "introDetailMode": "verified-features",
+      "introFeatureNames": [
+        "POWERDRIVE DESIGN"
+      ],
+      "introEvidenceSource": "https://daiwa.us/products/2026-certate-sw",
+      "introEvidenceKey": "Daiwa|Certate SW 2026|CERSW20000-H",
+      "related": [
+        {
+          "label": "Okuma Makaira 20000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-makaira-20000",
+          "reelId": "okuma-makaira-20000-mk-20000ls-rs-418"
+        },
+        {
+          "label": "Shimano Saragosa SW A 20000PG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-saragosa-sw-a-20000",
+          "reelId": "shimano-saragosa-sw-a-20000pg-srg20000swapg-749"
+        },
+        {
+          "label": "Okuma Tesoro 20000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-tesoro-20000",
+          "reelId": "okuma-tesoro-20000-tsr-20000pa-426"
+        },
+        {
+          "label": "Shimano Spheros SW A 20000PG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-spheros-sw-a-20000",
+          "reelId": "shimano-spheros-sw-a-20000pg-spsw20000pga-742"
+        },
+        {
+          "label": "Shimano Stella SW D 20000PG Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/shimano-stella-sw-d-20000",
+          "reelId": "shimano-stella-sw-d-20000pg-stlsw20000pgd-778"
+        },
+        {
+          "label": "Okuma Tesoro 18000 Line Capacity & Setup Guide",
+          "path": "/reel-pages/p/okuma-tesoro-18000",
+          "reelId": "okuma-tesoro-18000-tsr-18000pa-425"
+        }
+      ],
+      "sizeGuide": null,
+      "calculator": {
+        "mainLineLb": 80,
+        "mainLineType": "braid",
+        "mainLineDiameterIn": 0.017,
+        "mainLineYards": 300,
+        "backingLb": 30,
+        "backingType": "monofilament",
+        "backingDiameterIn": 0.022,
+        "diameterSource": "database median inside realistic range"
+      },
+      "content": {
+        "who": "This is a heavier saltwater spinning reel for offshore casting and jigging. Match its line reserve and weight to the rod, depth and fish you expect. Choose the leader and fishing drag for the tackle and structure, rather than using the maximum drag rating as a target.",
+        "setupIntro": "Start with the line range that suits your rod and fishing. You can fill with main line or use backing beneath a shorter working length. For braid, secure the base against slipping and spool under steady tension; stop at a sensible clearance below the lip.",
+        "setupRows": [
+          {
+            "use": "offshore casting and jigging",
+            "setup": "80-100 lb braid with a leader suited to the fishing"
+          },
+          {
+            "use": "Straight main line, without backing",
+            "setup": "25-30 lb mono"
+          },
+          {
+            "use": "A shorter working section",
+            "setup": "Your chosen main line over optional mono backing"
+          }
+        ],
+        "specsIntro": "These are the published 2026 US CERSW20000-H specifications, not those of the older Certate SW. Retrieve falls as line leaves the spool, and maximum drag is an upper rating, not a suggested fishing setting.",
+        "faqBraid": "80-100 lb braid is the practical ReelCalc range for this reel. For offshore fishing, balance the working line and reserve you need against the strength required by your rod, rig, and target fish. The lighter end leaves more line in reserve; the stronger end suits heavier rigs when the rest of the tackle is matched to them. Choose the leader separately for the fish and structure.",
+        "capacityIntro": "Daiwa lists J-Braid capacities for this 2026 model, but no factory mono capacity. The table keeps that distinction. Other lines can fill differently, even at the same pound-test rating, so use the calculator as a starting estimate and check the spool as you wind.",
+        "capacityRows": [
+          {
+            "type": "Braid",
+            "lb": 80,
+            "yards": 400,
+            "ratingLabel": "80 lb",
+            "capacityLabel": "400 yards"
+          },
+          {
+            "type": "Braid",
+            "lb": 100,
+            "yards": 330,
+            "ratingLabel": "100 lb",
+            "capacityLabel": "330 yards"
+          }
+        ],
+        "monoText": "Not published in the cited manufacturer table",
+        "braidText": "80 lb / 400 yards; 100 lb / 330 yards",
+        "faqCapacity": "Daiwa lists J-Braid at 80 lb / 400 yards and 100 lb / 330 yards. No mono capacity is published in the cited 2026 U.S. table. The calculator can estimate other lines from the available reference, but that is not a factory mono rating."
       }
     }
   },

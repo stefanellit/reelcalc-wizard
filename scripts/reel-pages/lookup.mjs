@@ -76,7 +76,7 @@ export function parseCapacityNote(value, { yardsFirstSlash = false } = {}) {
 }
 
 export function normalizeReel(reel) {
-  const monoCapacities = Array.isArray(reel.capacity_options)
+  const monoCapacities = reel.capacity_reference_type !== "braid" && Array.isArray(reel.capacity_options)
     ? reel.capacity_options
         .filter((item) => Number(item.lb) > 0 && Number(item.yards) > 0)
         .map((item) => ({

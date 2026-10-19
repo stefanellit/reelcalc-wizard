@@ -221,7 +221,7 @@ function reelSizeNumber(reel) {
 export function recommendedBackingStrength(reel, mainLineLb) {
   const sizeNumber = reelSizeNumber(reel);
   const braidLb = Number(mainLineLb) || 0;
-  const publishedMonoLb = Number(reel.ratedLineLb) || 0;
+  const publishedMonoLb = reel.capacityReferenceType === "braid" ? 0 : Number(reel.ratedLineLb) || 0;
 
   if (isBaitcaster(reel)) {
     if (braidLb <= 20) return 10;
