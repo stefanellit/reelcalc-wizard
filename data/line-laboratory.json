@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "line_laboratory",
-  "lastSuccessfulSync": "2026-10-14T22:08:53.812Z",
+  "lastSuccessfulSync": "2026-10-20T14:23:29.273Z",
   "records": [
     {
       "source_record_id": "rc-api-00120bb8-7c70-43e6-98b7-2c8a4ebe744f",
@@ -1581,6 +1581,50 @@
         },
         "snapshot_sha256": "ad331dccf4034e5b9b33c3fcd20e3ff1a4915eec7305f43b2c94e249d4566565",
         "observed_at": "2026-10-14T22:08:53.812Z",
+        "id_origin": "reelcalc_local_registry",
+        "updated_at_basis": "local_import_not_source_test_date",
+        "units_evidence": "https://linelaboratory.com/braid-summary/",
+        "measurement_definition": "AverageDiameter as supplied by API; not a derived packing diameter"
+      }
+    },
+    {
+      "source_record_id": "rc-api-2afde978-2d4a-45f7-8361-b6fcb5727bb6",
+      "original_name": "Zukibo Prototype Green PE1",
+      "brand": "Zukibo",
+      "product": "Prototype Green PE1",
+      "variant": "Not separately supplied",
+      "material": "Braid",
+      "rated_strength": {
+        "value": 19.8,
+        "unit": "lb",
+        "label": "19.8 lb"
+      },
+      "quoted_diameter": {
+        "value": 1,
+        "unit": "mm"
+      },
+      "diameters": [
+        {
+          "method_id": "line-laboratory-api-average",
+          "value": 0.191,
+          "unit": "mm"
+        }
+      ],
+      "capacity_method_id": "line-laboratory-api-average",
+      "source_url": "https://linelaboratory.com/braid-summary/",
+      "updated_at": "2026-10-20T14:23:29.273Z",
+      "status": "active",
+      "api_provenance": {
+        "endpoint": "https://linelaboratory.com/api/v1/braid/diameters/",
+        "raw": {
+          "Brand": "Zukibo",
+          "Name": "Prototype Green PE1",
+          "RatedStrength": 19.8,
+          "QuotedDiameter": 1,
+          "AverageDiameter": 0.191
+        },
+        "snapshot_sha256": "a41ddc1a0c050007d9ab1129f10ab3ae4e13dd3da807723e4c8d6554e4afbfce",
+        "observed_at": "2026-10-20T14:23:29.273Z",
         "id_origin": "reelcalc_local_registry",
         "updated_at_basis": "local_import_not_source_test_date",
         "units_evidence": "https://linelaboratory.com/braid-summary/",
@@ -5020,6 +5064,50 @@
       }
     },
     {
+      "source_record_id": "rc-api-9ae588ec-114d-4210-9024-573da573a708",
+      "original_name": "Zukibo Super NanoFil - Semi Hard PE1",
+      "brand": "Zukibo",
+      "product": "Super NanoFil - Semi Hard PE1",
+      "variant": "Not separately supplied",
+      "material": "Braid",
+      "rated_strength": {
+        "value": 15.2,
+        "unit": "lb",
+        "label": "15.2 lb"
+      },
+      "quoted_diameter": {
+        "value": 0.17,
+        "unit": "mm"
+      },
+      "diameters": [
+        {
+          "method_id": "line-laboratory-api-average",
+          "value": 0.163,
+          "unit": "mm"
+        }
+      ],
+      "capacity_method_id": "line-laboratory-api-average",
+      "source_url": "https://linelaboratory.com/braid-summary/",
+      "updated_at": "2026-10-20T14:23:29.273Z",
+      "status": "active",
+      "api_provenance": {
+        "endpoint": "https://linelaboratory.com/api/v1/braid/diameters/",
+        "raw": {
+          "Brand": "Zukibo",
+          "Name": "Super NanoFil - Semi Hard PE1",
+          "RatedStrength": 15.2,
+          "QuotedDiameter": 0.17,
+          "AverageDiameter": 0.163
+        },
+        "snapshot_sha256": "a41ddc1a0c050007d9ab1129f10ab3ae4e13dd3da807723e4c8d6554e4afbfce",
+        "observed_at": "2026-10-20T14:23:29.273Z",
+        "id_origin": "reelcalc_local_registry",
+        "updated_at_basis": "local_import_not_source_test_date",
+        "units_evidence": "https://linelaboratory.com/braid-summary/",
+        "measurement_definition": "AverageDiameter as supplied by API; not a derived packing diameter"
+      }
+    },
+    {
       "source_record_id": "rc-api-9bf007ac-195e-4393-bc16-eec603e1e762",
       "original_name": "Daiwa UVF PE Durasensor x12EX+Si3 PE 1.5",
       "brand": "Daiwa",
@@ -6333,6 +6421,50 @@
         },
         "snapshot_sha256": "ad331dccf4034e5b9b33c3fcd20e3ff1a4915eec7305f43b2c94e249d4566565",
         "observed_at": "2026-10-14T22:08:53.812Z",
+        "id_origin": "reelcalc_local_registry",
+        "updated_at_basis": "local_import_not_source_test_date",
+        "units_evidence": "https://linelaboratory.com/braid-summary/",
+        "measurement_definition": "AverageDiameter as supplied by API; not a derived packing diameter"
+      }
+    },
+    {
+      "source_record_id": "rc-api-bb3de56e-ebc1-473b-bdfc-b03497788e94",
+      "original_name": "Zukibo Super NanoFil - Soft PE1",
+      "brand": "Zukibo",
+      "product": "Super NanoFil - Soft PE1",
+      "variant": "Not separately supplied",
+      "material": "Braid",
+      "rated_strength": {
+        "value": 15.2,
+        "unit": "lb",
+        "label": "15.2 lb"
+      },
+      "quoted_diameter": {
+        "value": 0.17,
+        "unit": "mm"
+      },
+      "diameters": [
+        {
+          "method_id": "line-laboratory-api-average",
+          "value": 0.163,
+          "unit": "mm"
+        }
+      ],
+      "capacity_method_id": "line-laboratory-api-average",
+      "source_url": "https://linelaboratory.com/braid-summary/",
+      "updated_at": "2026-10-20T14:23:29.273Z",
+      "status": "active",
+      "api_provenance": {
+        "endpoint": "https://linelaboratory.com/api/v1/braid/diameters/",
+        "raw": {
+          "Brand": "Zukibo",
+          "Name": "Super NanoFil - Soft PE1",
+          "RatedStrength": 15.2,
+          "QuotedDiameter": 0.17,
+          "AverageDiameter": 0.163
+        },
+        "snapshot_sha256": "a41ddc1a0c050007d9ab1129f10ab3ae4e13dd3da807723e4c8d6554e4afbfce",
+        "observed_at": "2026-10-20T14:23:29.273Z",
         "id_origin": "reelcalc_local_registry",
         "updated_at_basis": "local_import_not_source_test_date",
         "units_evidence": "https://linelaboratory.com/braid-summary/",
