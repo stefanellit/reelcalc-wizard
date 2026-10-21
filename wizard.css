@@ -935,6 +935,17 @@ button {
   margin: 0;
 }
 
+.site-footer .quick-links {
+  justify-content: flex-start;
+  margin-bottom: 14px;
+}
+
+.site-footer .quick-links a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+}
+
 @media (max-width: 860px) {
   .site-header,
   .tool-heading {
