@@ -1689,12 +1689,13 @@ function recommendationAffiliateHtml(line, fullCapacity, capacityRange) {
     : capacityRange
       ? "Best full-spool estimate: " + formatLength(capacityRange.centerYards, 0, true) + ". Expected range: " + formatCapacityRange(capacityRange, true) + "."
       : "A full spool is estimated to use about " + formatLength(requiredYards, 0, true) + ".";
-  var buttonLabel = "Shop " + formatRetailSpoolLength(offer.suggestedSpoolYards) + " " + lineLabel + " options";
+  var buttonLabel = offer.label;
   var html = "<section class=\"line-affiliate-card\" aria-label=\"Shop the recommended main line\">";
   html += "<div class=\"line-affiliate-copy\"><span class=\"eyebrow\">Shop this main-line setup</span>";
   html += "<strong>Look for at least " + escapeHtml(formatRetailSpoolLength(offer.suggestedSpoolYards)) + " of " + escapeHtml(lineLabel) + "</strong>";
   html += "<p>" + escapeHtml(setupDescription) + " The suggested retail spool size includes a practical allowance for normal fill variation.</p></div>";
   html += "<a class=\"line-affiliate-button\" href=\"" + escapeHtml(offer.url) + "\" target=\"_blank\" rel=\"sponsored nofollow noopener\" data-line-affiliate-link data-retailer=\"" + escapeHtml(offer.retailerId) + "\" data-match-type=\"" + escapeHtml(offer.matchType) + "\" data-required-yards=\"" + escapeHtml(String(Number(requiredYards.toFixed(1)))) + "\" data-spool-yards=\"" + escapeHtml(String(offer.suggestedSpoolYards)) + "\">" + escapeHtml(buttonLabel) + "</a>";
+  html += "<p class=\"muted\">" + escapeHtml(offer.reminder) + "</p>";
   html += "<span class=\"line-affiliate-disclosure\">" + escapeHtml(offer.disclosure) + "</span>";
   html += "</section>";
   return html;

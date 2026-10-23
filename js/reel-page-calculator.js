@@ -488,6 +488,7 @@
       return '<div class="affiliate-card"><strong>' + roleLabel + ': ' + escapeHtml(lineLabel(line)) + "</strong>" +
         "<p>" + escapeHtml(amountText) + "Suggested retail spool: " + escapeHtml(lengthLabel(offer.suggestedSpoolYards, 0)) + ".</p>" +
         '<a class="affiliate-link" href="' + escapeHtml(offer.url) + '" target="_blank" rel="sponsored nofollow noopener" data-affiliate-role="' + role + '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-line-id="' + escapeHtml(line.id || "") + '" data-required-yards="' + escapeHtml(requiredYards.toFixed(1)) + '" data-planning-yards="' + escapeHtml(purchaseYards.toFixed(1)) + '" data-spool-yards="' + escapeHtml(offer.suggestedSpoolYards) + '">' + escapeHtml(offer.label) + "</a>" +
+        '<p>' + escapeHtml(offer.reminder) + '</p>' +
         '<span class="disclosure">' + escapeHtml(offer.disclosure) + "</span></div>";
     }
 
@@ -808,6 +809,7 @@
           lineId: nextLine ? nextLine.id : "",
           lineBrand: nextLine ? nextLine.brand : "",
           lineModel: nextLine ? nextLine.model : "",
+          lineLb: nextLine ? nextLine.lb : 0,
           lineType: state[role].material
         });
         calculateIfReady("line_product_change");
@@ -890,7 +892,7 @@
     Promise.all([
       loadScript("js/calculator-core.js?v=11", "ReelCalcCore"),
       loadScript("js/line-selector.js", "ReelCalcLineSelector"),
-      loadScript("js/affiliate-links.js", "ReelCalcAffiliateLinks"),
+      loadScript("js/affiliate-links.js?v=3", "ReelCalcAffiliateLinks"),
       loadJson(reelsUrl),
       loadJson(linesUrl),
       loadJson(affiliatesUrl)

@@ -81,6 +81,9 @@
       "wizard_reel_not_found",
       "reel_affiliate_clicked",
       "reel_line_selected",
+      "reel_line_type_selected",
+      "homepage_calculator_view",
+      "homepage_calculator_calculation_complete",
       "reel_capacity_basis_selected",
       "reel_braid_capacity_fallback",
       "reel_calculator_mode_selected",
@@ -112,7 +115,9 @@
       "verified_anchor_count", "range_state", "review_state", "source_tier",
       "numeric_available", "engine_status", "failure_code", "monitoring_version",
       "calculation_origin", "capacity_action_id", "result_count", "numeric_result_count",
-      "hold_result_count", "unavailable_result_count", "failure_count", "material"
+      "hold_result_count", "unavailable_result_count", "failure_count", "material",
+      "calculator_version", "setup_mode", "main_rating_source", "backing_rating_source",
+      "rating_fallback_used", "printed_rating_diameter_used", "handle_turns_available"
     ]);
 
     window.addEventListener("message", function(event) {
@@ -680,8 +685,8 @@
         });
 
         return Promise.all([
-          loadScript("js/reel-page-calculator.js?v=16", "ReelCalcReelPageCalculator"),
-          loadScript("js/reel-page-runtime.js?v=3", "ReelCalcReelPageRuntime")
+          loadScript("js/reel-page-calculator.js?v=17", "ReelCalcReelPageCalculator"),
+          loadScript("js/reel-page-runtime.js?v=4", "ReelCalcReelPageRuntime")
         ]).then(function(services) {
           if (services[0] && services[0].initialize) services[0].initialize();
           if (services[1] && services[1].initialize) services[1].initialize();

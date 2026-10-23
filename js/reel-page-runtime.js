@@ -12,7 +12,7 @@
   function loadAnalytics() {
     if (window.ReelCalcAnalytics) return Promise.resolve(window.ReelCalcAnalytics);
     if (analyticsPromise) return analyticsPromise;
-    var src = new URL("js/analytics.js", assetBase).href;
+    var src = new URL("js/analytics.js?v=2", assetBase).href;
     var existing = Array.from(document.scripts).find(function(script) {
       return script.src === src;
     });
@@ -180,7 +180,9 @@
 
     document.addEventListener("reelcalc:line-selection-changed", function(event) {
       var detail = event.detail || {};
-      track("reel_line_selected", Object.assign(
+      var materialOnly = detail.selectionStage === "type";
+      if (!materialOnly && (!detail.lineId || !detail.lineModel || !(Number(detail.lineLb) > 0))) return;
+      track(materialOnly ? "reel_line_type_selected" : "reel_line_selected", Object.assign(
         reelDetailParameters(detail),
         selectedLineParameters(detail)
       ));

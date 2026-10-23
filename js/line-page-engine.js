@@ -1240,12 +1240,11 @@
     function lineOfferLink(offer, line, role, spoolYards, id) {
       if (!offer || !line) return "";
       var className = id === "rcAffiliateCta" || id === "rcSelectedLineCta" ? "rc-button rc-button-affiliate" : "rc-line-offer";
-      var label = id === "rcSelectedLineCta"
-        ? (offer.matchType === "generic_search" ? "Find this line on " : "Check price on ") + escapeHtml(offer.retailerName)
-        : 'Check ' + escapeHtml(lineLabel(line)) + (spoolYards ? " - " + formatYards(spoolYards) : " backing") + ' on ' + escapeHtml(offer.retailerName);
+      var label = escapeHtml(global.ReelCalcAffiliateLinks.shoppingLabel(offer, line, spoolYards));
       return '<a class="' + className + '"' + (id ? ' id="' + id + '"' : '') + ' href="' + escapeHtml(offer.url) +
         '" target="_blank" rel="sponsored nofollow noopener" data-affiliate-line="' + escapeHtml(line.id) + '" data-affiliate-role="' + role +
-        '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-spool-yards="' + (spoolYards || "") + '">' + label + '</a>';
+        '" data-retailer="' + escapeHtml(offer.retailerId) + '" data-spool-yards="' + (spoolYards || "") + '">' + label + '</a>' +
+        '<p class="rc-muted">' + escapeHtml(offer.reminder) + '</p>';
     }
 
     function bindLineOfferLinks(container, reel, source) {

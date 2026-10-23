@@ -80,10 +80,26 @@
     if (!url) return null;
     return {
       url: url.href,
-      matchType: lineOffer.matchType || "exact",
+      matchType: url.pathname === "/s" ? "generic_search" : (lineOffer.matchType || "product_family"),
       label: lineOffer.label || retailer.directLineLabel || retailer.directLabel ||
         "Check Current Price at " + (retailer.name || retailerId)
     };
+  }
+
+  function shoppingLabel(offer, line, spoolYards) {
+    var named = line.custom_line !== true && line.generic_recommendation !== true && line.brand && line.model;
+    var identity = named ? [line.brand, line.model].join(" ") : normalizedLineType(line.type);
+    var strength = Number(line.lb) > 0 ? Number(line.lb) + " lb" : "";
+    var pack = (Array.isArray(line.retail_packages) ? line.retail_packages : []).find(function(item) {
+      return Number(item.meters) > 0 && Math.abs(Number(item.yards) - Number(spoolYards)) < 0.000001;
+    });
+    var length = Number(spoolYards) > 0 ? (pack ? pack.meters + " m" : spoolYards + " yd") : "";
+    var details = [identity, strength].filter(Boolean).join(" ") +
+      (named && line.source_scope_label ? " (" + line.source_scope_label + ")" : "") +
+      (length ? " - " + length : "");
+    return /search/.test(offer.matchType)
+      ? "Search " + offer.retailerName + " for " + details
+      : "View " + details + " options on " + offer.retailerName;
   }
 
   function buildRecommendedLineOffer(options) {
@@ -122,14 +138,12 @@
       var mapped = isActualProduct ? mappedLineOffer(data, line, retailerId, retailer) : null;
       var url = buildSearchUrl(retailer, query);
       if (!mapped && !url) continue;
-      return {
+      var result = {
         retailerId: retailerId,
         retailerName: retailer.name || retailerId,
         url: mapped ? mapped.url : url,
         matchType: mapped ? mapped.matchType : "generic_search",
-        label: mapped ? mapped.label : (isActualProduct
-          ? "Check " + productName + " price on " + (retailer.name || retailerId)
-          : retailer.lineSearchLabel || "Shop Recommended Line at " + (retailer.name || retailerId)),
+        reminder: "Confirm the model, strength, and spool size on the retailer's page before buying. Search results may include other options.",
         disclosure: [data.genericDisclosure, retailer.disclosure].filter(Boolean).join(" "),
         query: query,
         requiredYards: requiredYards,
@@ -140,6 +154,8 @@
         lineBrand: line.brand || "",
         lineModel: line.model || ""
       };
+      result.label = shoppingLabel(result, line, spoolYards);
+      return result;
     }
     return null;
   }
@@ -149,6 +165,7 @@
     MINIMUM_BUFFER_YARDS: MINIMUM_BUFFER_YARDS,
     PURCHASE_BUFFER_RATE: PURCHASE_BUFFER_RATE,
     normalizedLineType: normalizedLineType,
+    shoppingLabel: shoppingLabel,
     lineProductKey: lineProductKey,
     recommendedSpoolYards: recommendedSpoolYards,
     buildRecommendedLineOffer: buildRecommendedLineOffer

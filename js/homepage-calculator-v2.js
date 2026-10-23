@@ -112,7 +112,7 @@
             button.setAttribute("aria-pressed", "false");
         });
         document.getElementById("resultTools").classList.remove("hidden");
-        trackCalculatorEvent("homepage_calculator_calculation_completed");
+        trackCalculatorEvent("homepage_calculator_calculation_complete");
     }
 
     function fallbackCopy(text) {
@@ -949,6 +949,7 @@
         const calculatorRoot = document.getElementById("reelcalc-homepage-calculator");
         if (!calculatorRoot || calculatorRoot.dataset.reelcalcInitialized === "true") return;
         calculatorRoot.dataset.reelcalcInitialized = "true";
+        trackCalculatorEvent("homepage_calculator_view");
 
         document.getElementById("setupSegment").addEventListener("click", function(event) {
             const button = event.target.closest(".seg-btn");

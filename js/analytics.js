@@ -3,7 +3,7 @@
 
   if (window.ReelCalcAnalytics) return;
 
-  var VERSION = "1.0";
+  var VERSION = "1.1";
   var pending = Array.isArray(window.ReelCalcAnalyticsQueue)
     ? window.ReelCalcAnalyticsQueue
     : [];
@@ -98,7 +98,18 @@
     return output;
   }
 
-  function emitDebugEvent(name, parameters) {
+  function emitDebugEvent(name, parameters, delivery) {
+    try {
+      // Opt-in diagnostics for release checks, without anonymous session identifiers.
+      if (new URL(location.href).searchParams.get("reelcalc_debug") === "1" && window.console) {
+        var debugParameters = Object.assign({}, parameters);
+        delete debugParameters.journey_id;
+        delete debugParameters.wizard_session_id;
+        window.console.debug("ReelCalc analytics " + JSON.stringify({ name: name, parameters: debugParameters, delivery: delivery }));
+      }
+    } catch (error) {
+      // Optional console diagnostics must not affect event dispatch.
+    }
     try {
       document.dispatchEvent(new CustomEvent("reelcalc:analytics-event", {
         detail: { name: name, parameters: parameters }
@@ -112,7 +123,7 @@
     if (typeof window.gtag === "function") {
       try {
         window.gtag("event", item.name, item.parameters);
-        emitDebugEvent(item.name, item.parameters);
+        emitDebugEvent(item.name, item.parameters, "gtag");
         return true;
       } catch (error) {
         return false;
@@ -127,7 +138,7 @@
           name: item.name,
           parameters: item.parameters
         }, parentOrigin);
-        emitDebugEvent(item.name, item.parameters);
+        emitDebugEvent(item.name, item.parameters, "parent");
         return true;
       } catch (error) {
         return false;
@@ -175,7 +186,7 @@
     if (pending.length >= MAX_QUEUE) pending.shift();
     pending.push(item);
     scheduleFlush();
-    emitDebugEvent(item.name, item.parameters);
+    emitDebugEvent(item.name, item.parameters, "queued");
     return true;
   }
 
@@ -375,6 +386,7 @@
   }
 
   function instrumentHomepageCalculator() {
+    if (document.getElementById("reelcalc-homepage-calculator")) return;
     var output = document.getElementById("output");
     var reelCapacity = document.getElementById("reelYards");
     var mainLineDiameter = document.getElementById("goodDia");
@@ -405,7 +417,7 @@
         var mainLengthDisplay = Number((document.getElementById("goodYards") || {}).value) || 0;
         var mainDiameterDisplay = Number(mainLineDiameter.value) || 0;
         var backingDiameterDisplay = Number((document.getElementById("backDia") || {}).value) || 0;
-        track("homepage_calculation_completed", {
+        track("homepage_calculator_calculation_complete", {
           page_type: "homepage_calculator",
           calculator_mode: mode,
           unit_system: unitSystem,
