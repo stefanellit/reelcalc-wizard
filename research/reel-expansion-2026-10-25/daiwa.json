@@ -1,0 +1,3851 @@
+{
+  "brandScope": "Daiwa only. Research-only candidates; US first, then exact JDM identities. No production import or publication.",
+  "researchedAt": "2026-10-25",
+  "candidates": [
+    {
+      "brand": "Daiwa",
+      "model": "Ballistic LT",
+      "generation": "Original LT, pre-MQ (documented in 2018 US catalog)",
+      "market": "US",
+      "sku": "BLSLT1000D",
+      "size": "1000D",
+      "sizeClass": "1000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 5.8,
+      "dragLb": 11,
+      "iptIn": 25.5,
+      "bearings": "6 BB (1 CRBB + 5 BB) + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 4,
+          "pe": null,
+          "diameterMm": null,
+          "length": 250,
+          "unit": "yd",
+          "raw": "4/250",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 6,
+          "pe": null,
+          "diameterMm": null,
+          "length": 160,
+          "unit": "yd",
+          "raw": "6/160",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        }
+      ],
+      "features": [
+        "LT concept",
+        "ZAION body",
+        "MAGSEALED main shaft",
+        "Machined A7075 aluminum DIGIGEAR",
+        "AIR ROTOR",
+        "AIR BAIL"
+      ],
+      "useCase": "ultralight freshwater spinning",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "originalSpec": {
+          "model": "BLSLT1000D",
+          "bearings": "1CRBB, 5BB, 1RB",
+          "ratio": "5.2:1",
+          "retrieveIn": 25.5,
+          "weightOz": 5.8,
+          "monoLbYd": "4/250, 6/160",
+          "maxDragLb": 11
+        },
+        "generationEvidence": "Daiwa's manufacturer-authored 2018 US catalog labels this BLSLT family NEW BALLISTIC LT. The catalog is viewed on Westernbass; not a retailer-authored spec table. This is the conventional ZAION-body generation, not BLSMQ/BALMQ/BAMQ.",
+        "capacityEvidence": "2018 table explicitly labels Mono Capacity (Lb. Test/Yards). No manufacturer diameter is published here; diameter remains null. Braid is omitted rather than importing ratings from a different market.",
+        "secondarySourceLimit": "The original 2020 manufacturer PDF URL now returns 404, but its search-indexed exact rows corroborate these numbers. The live 2018 catalog mirror is the usable primary source.",
+        "useCaseBasis": "Editorial size-based application, not first-hand testing or a manufacturer rating.",
+        "handEvidence": "Reversible screw-in spinning handle; no separate handed variants proposed. Handle-cap configuration is visible in the exact-family image.",
+        "imageEvidence": "HTTP 200 image/jpeg; visually inspected. Image visibly reads BALLISTIC LT 2500D-XH despite retailer URL naming 1000D. Marked family-representative except for 2500D-XH."
+      },
+      "image": {
+        "url": "https://www.tackleworld.com/cdn/shop/files/daiwa-ballistic-lt-spinning-reels-reel-daiwa-blslt1000d-tackle-world_1000x.jpg?v=1749586742",
+        "sourceUrl": "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels",
+        "credit": "Product photograph via Tackle World",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|ballisticlt|originalltpremqdocumentedin2018uscatalog|1000d|reversible",
+        "normalizedSku": "blslt1000d",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No BLSLT records. Existing BALMQLT records are named Ballistic MQ LT and are not renamed or treated as new regional SKUs. This candidate has independently documented pre-MQ construction and exact US identity."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Ballistic LT",
+      "generation": "Original LT, pre-MQ (documented in 2018 US catalog)",
+      "market": "US",
+      "sku": "BLSLT2500D",
+      "size": "2500D",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.3:1",
+      "weightOz": 6.3,
+      "dragLb": 22,
+      "iptIn": 29.6,
+      "bearings": "6 BB (1 CRBB + 5 BB) + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 240,
+          "unit": "yd",
+          "raw": "8/240",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 210,
+          "unit": "yd",
+          "raw": "10/210",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        }
+      ],
+      "features": [
+        "LT concept",
+        "ZAION body",
+        "MAGSEALED main shaft",
+        "Machined A7075 aluminum DIGIGEAR",
+        "AIR ROTOR",
+        "AIR BAIL"
+      ],
+      "useCase": "bass and general freshwater spinning",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "originalSpec": {
+          "model": "BLSLT2500D",
+          "bearings": "1CRBB, 5BB, 1RB",
+          "ratio": "5.3:1",
+          "retrieveIn": 29.6,
+          "weightOz": 6.3,
+          "monoLbYd": "8/240, 10/210",
+          "maxDragLb": 22
+        },
+        "generationEvidence": "Daiwa's manufacturer-authored 2018 US catalog labels this BLSLT family NEW BALLISTIC LT. The catalog is viewed on Westernbass; not a retailer-authored spec table. This is the conventional ZAION-body generation, not BLSMQ/BALMQ/BAMQ.",
+        "capacityEvidence": "2018 table explicitly labels Mono Capacity (Lb. Test/Yards). No manufacturer diameter is published here; diameter remains null. Braid is omitted rather than importing ratings from a different market.",
+        "secondarySourceLimit": "The original 2020 manufacturer PDF URL now returns 404, but its search-indexed exact rows corroborate these numbers. The live 2018 catalog mirror is the usable primary source.",
+        "useCaseBasis": "Editorial size-based application, not first-hand testing or a manufacturer rating.",
+        "handEvidence": "Reversible screw-in spinning handle; no separate handed variants proposed. Handle-cap configuration is visible in the exact-family image.",
+        "imageEvidence": "HTTP 200 image/jpeg; visually inspected. Image visibly reads BALLISTIC LT 2500D-XH despite retailer URL naming 1000D. Marked family-representative except for 2500D-XH."
+      },
+      "image": {
+        "url": "https://www.tackleworld.com/cdn/shop/files/daiwa-ballistic-lt-spinning-reels-reel-daiwa-blslt1000d-tackle-world_1000x.jpg?v=1749586742",
+        "sourceUrl": "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels",
+        "credit": "Product photograph via Tackle World",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|ballisticlt|originalltpremqdocumentedin2018uscatalog|2500d|reversible",
+        "normalizedSku": "blslt2500d",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No BLSLT records. Existing BALMQLT records are named Ballistic MQ LT and are not renamed or treated as new regional SKUs. This candidate has independently documented pre-MQ construction and exact US identity."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Ballistic LT",
+      "generation": "Original LT, pre-MQ (documented in 2018 US catalog)",
+      "market": "US",
+      "sku": "BLSLT2500D-XH",
+      "size": "2500D-XH",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 6.3,
+      "dragLb": 22,
+      "iptIn": 34.5,
+      "bearings": "6 BB (1 CRBB + 5 BB) + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 240,
+          "unit": "yd",
+          "raw": "8/240",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 210,
+          "unit": "yd",
+          "raw": "10/210",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        }
+      ],
+      "features": [
+        "LT concept",
+        "ZAION body",
+        "MAGSEALED main shaft",
+        "Machined A7075 aluminum DIGIGEAR",
+        "AIR ROTOR",
+        "AIR BAIL"
+      ],
+      "useCase": "bass and general freshwater spinning",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "originalSpec": {
+          "model": "BLSLT2500D-XH",
+          "bearings": "1CRBB, 5BB, 1RB",
+          "ratio": "6.2:1",
+          "retrieveIn": 34.5,
+          "weightOz": 6.3,
+          "monoLbYd": "8/240, 10/210",
+          "maxDragLb": 22
+        },
+        "generationEvidence": "Daiwa's manufacturer-authored 2018 US catalog labels this BLSLT family NEW BALLISTIC LT. The catalog is viewed on Westernbass; not a retailer-authored spec table. This is the conventional ZAION-body generation, not BLSMQ/BALMQ/BAMQ.",
+        "capacityEvidence": "2018 table explicitly labels Mono Capacity (Lb. Test/Yards). No manufacturer diameter is published here; diameter remains null. Braid is omitted rather than importing ratings from a different market.",
+        "secondarySourceLimit": "The original 2020 manufacturer PDF URL now returns 404, but its search-indexed exact rows corroborate these numbers. The live 2018 catalog mirror is the usable primary source.",
+        "useCaseBasis": "Editorial size-based application, not first-hand testing or a manufacturer rating.",
+        "handEvidence": "Reversible screw-in spinning handle; no separate handed variants proposed. Handle-cap configuration is visible in the exact-family image.",
+        "imageEvidence": "HTTP 200 image/jpeg; visually inspected. Image visibly reads BALLISTIC LT 2500D-XH despite retailer URL naming 1000D. Marked family-representative except for 2500D-XH."
+      },
+      "image": {
+        "url": "https://www.tackleworld.com/cdn/shop/files/daiwa-ballistic-lt-spinning-reels-reel-daiwa-blslt1000d-tackle-world_1000x.jpg?v=1749586742",
+        "sourceUrl": "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels",
+        "credit": "Product photograph via Tackle World",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|ballisticlt|originalltpremqdocumentedin2018uscatalog|2500dxh|reversible",
+        "normalizedSku": "blslt2500dxh",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No BLSLT records. Existing BALMQLT records are named Ballistic MQ LT and are not renamed or treated as new regional SKUs. This candidate has independently documented pre-MQ construction and exact US identity."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Ballistic LT",
+      "generation": "Original LT, pre-MQ (documented in 2018 US catalog)",
+      "market": "US",
+      "sku": "BLSLT3000D-C",
+      "size": "3000D-C",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.3:1",
+      "weightOz": 6.5,
+      "dragLb": 22,
+      "iptIn": 31.6,
+      "bearings": "6 BB (1 CRBB + 5 BB) + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 280,
+          "unit": "yd",
+          "raw": "10/280",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 220,
+          "unit": "yd",
+          "raw": "12/220",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        }
+      ],
+      "features": [
+        "LT concept",
+        "ZAION body",
+        "MAGSEALED main shaft",
+        "Machined A7075 aluminum DIGIGEAR",
+        "AIR ROTOR",
+        "AIR BAIL"
+      ],
+      "useCase": "freshwater and light inshore spinning",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "originalSpec": {
+          "model": "BLSLT3000D-C",
+          "bearings": "1CRBB, 5BB, 1RB",
+          "ratio": "5.3:1",
+          "retrieveIn": 31.6,
+          "weightOz": 6.5,
+          "monoLbYd": "10/280, 12/220",
+          "maxDragLb": 22
+        },
+        "generationEvidence": "Daiwa's manufacturer-authored 2018 US catalog labels this BLSLT family NEW BALLISTIC LT. The catalog is viewed on Westernbass; not a retailer-authored spec table. This is the conventional ZAION-body generation, not BLSMQ/BALMQ/BAMQ.",
+        "capacityEvidence": "2018 table explicitly labels Mono Capacity (Lb. Test/Yards). No manufacturer diameter is published here; diameter remains null. Braid is omitted rather than importing ratings from a different market.",
+        "secondarySourceLimit": "The original 2020 manufacturer PDF URL now returns 404, but its search-indexed exact rows corroborate these numbers. The live 2018 catalog mirror is the usable primary source.",
+        "useCaseBasis": "Editorial size-based application, not first-hand testing or a manufacturer rating.",
+        "handEvidence": "Reversible screw-in spinning handle; no separate handed variants proposed. Handle-cap configuration is visible in the exact-family image.",
+        "imageEvidence": "HTTP 200 image/jpeg; visually inspected. Image visibly reads BALLISTIC LT 2500D-XH despite retailer URL naming 1000D. Marked family-representative except for 2500D-XH."
+      },
+      "image": {
+        "url": "https://www.tackleworld.com/cdn/shop/files/daiwa-ballistic-lt-spinning-reels-reel-daiwa-blslt1000d-tackle-world_1000x.jpg?v=1749586742",
+        "sourceUrl": "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels",
+        "credit": "Product photograph via Tackle World",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|ballisticlt|originalltpremqdocumentedin2018uscatalog|3000dc|reversible",
+        "normalizedSku": "blslt3000dc",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No BLSLT records. Existing BALMQLT records are named Ballistic MQ LT and are not renamed or treated as new regional SKUs. This candidate has independently documented pre-MQ construction and exact US identity."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Ballistic LT",
+      "generation": "Original LT, pre-MQ (documented in 2018 US catalog)",
+      "market": "US",
+      "sku": "BLSLT4000D-C",
+      "size": "4000D-C",
+      "sizeClass": "4000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 7.9,
+      "dragLb": 26.4,
+      "iptIn": 32.5,
+      "bearings": "6 BB (1 CRBB + 5 BB) + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 360,
+          "unit": "yd",
+          "raw": "10/360",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 14,
+          "pe": null,
+          "diameterMm": null,
+          "length": 250,
+          "unit": "yd",
+          "raw": "14/250",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        }
+      ],
+      "features": [
+        "LT concept",
+        "ZAION body",
+        "MAGSEALED main shaft",
+        "Machined A7075 aluminum DIGIGEAR",
+        "AIR ROTOR",
+        "AIR BAIL"
+      ],
+      "useCase": "inshore lure and bait fishing",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "originalSpec": {
+          "model": "BLSLT4000D-C",
+          "bearings": "1CRBB, 5BB, 1RB",
+          "ratio": "5.2:1",
+          "retrieveIn": 32.5,
+          "weightOz": 7.9,
+          "monoLbYd": "10/360, 14/250",
+          "maxDragLb": 26.4
+        },
+        "generationEvidence": "Daiwa's manufacturer-authored 2018 US catalog labels this BLSLT family NEW BALLISTIC LT. The catalog is viewed on Westernbass; not a retailer-authored spec table. This is the conventional ZAION-body generation, not BLSMQ/BALMQ/BAMQ.",
+        "capacityEvidence": "2018 table explicitly labels Mono Capacity (Lb. Test/Yards). No manufacturer diameter is published here; diameter remains null. Braid is omitted rather than importing ratings from a different market.",
+        "secondarySourceLimit": "The original 2020 manufacturer PDF URL now returns 404, but its search-indexed exact rows corroborate these numbers. The live 2018 catalog mirror is the usable primary source.",
+        "useCaseBasis": "Editorial size-based application, not first-hand testing or a manufacturer rating.",
+        "handEvidence": "Reversible screw-in spinning handle; no separate handed variants proposed. Handle-cap configuration is visible in the exact-family image.",
+        "imageEvidence": "HTTP 200 image/jpeg; visually inspected. Image visibly reads BALLISTIC LT 2500D-XH despite retailer URL naming 1000D. Marked family-representative except for 2500D-XH."
+      },
+      "image": {
+        "url": "https://www.tackleworld.com/cdn/shop/files/daiwa-ballistic-lt-spinning-reels-reel-daiwa-blslt1000d-tackle-world_1000x.jpg?v=1749586742",
+        "sourceUrl": "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels",
+        "credit": "Product photograph via Tackle World",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|ballisticlt|originalltpremqdocumentedin2018uscatalog|4000dc|reversible",
+        "normalizedSku": "blslt4000dc",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No BLSLT records. Existing BALMQLT records are named Ballistic MQ LT and are not renamed or treated as new regional SKUs. This candidate has independently documented pre-MQ construction and exact US identity."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Ballistic LT",
+      "generation": "Original LT, pre-MQ (documented in 2018 US catalog)",
+      "market": "US",
+      "sku": "BLSLT5000D-C",
+      "size": "5000D-C",
+      "sizeClass": "5000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 8.1,
+      "dragLb": 26.4,
+      "iptIn": 34.5,
+      "bearings": "6 BB (1 CRBB + 5 BB) + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 14,
+          "pe": null,
+          "diameterMm": null,
+          "length": 280,
+          "unit": "yd",
+          "raw": "14/280",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 20,
+          "pe": null,
+          "diameterMm": null,
+          "length": 180,
+          "unit": "yd",
+          "raw": "20/180",
+          "sourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html"
+        }
+      ],
+      "features": [
+        "LT concept",
+        "ZAION body",
+        "MAGSEALED main shaft",
+        "Machined A7075 aluminum DIGIGEAR",
+        "AIR ROTOR",
+        "AIR BAIL"
+      ],
+      "useCase": "heavier inshore spinning",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "originalSpec": {
+          "model": "BLSLT5000D-C",
+          "bearings": "1CRBB, 5BB, 1RB",
+          "ratio": "5.2:1",
+          "retrieveIn": 34.5,
+          "weightOz": 8.1,
+          "monoLbYd": "14/280, 20/180",
+          "maxDragLb": 26.4
+        },
+        "generationEvidence": "Daiwa's manufacturer-authored 2018 US catalog labels this BLSLT family NEW BALLISTIC LT. The catalog is viewed on Westernbass; not a retailer-authored spec table. This is the conventional ZAION-body generation, not BLSMQ/BALMQ/BAMQ.",
+        "capacityEvidence": "2018 table explicitly labels Mono Capacity (Lb. Test/Yards). No manufacturer diameter is published here; diameter remains null. Braid is omitted rather than importing ratings from a different market.",
+        "secondarySourceLimit": "The original 2020 manufacturer PDF URL now returns 404, but its search-indexed exact rows corroborate these numbers. The live 2018 catalog mirror is the usable primary source.",
+        "useCaseBasis": "Editorial size-based application, not first-hand testing or a manufacturer rating.",
+        "handEvidence": "Reversible screw-in spinning handle; no separate handed variants proposed. Handle-cap configuration is visible in the exact-family image.",
+        "imageEvidence": "HTTP 200 image/jpeg; visually inspected. Image visibly reads BALLISTIC LT 2500D-XH despite retailer URL naming 1000D. Marked family-representative except for 2500D-XH."
+      },
+      "image": {
+        "url": "https://www.tackleworld.com/cdn/shop/files/daiwa-ballistic-lt-spinning-reels-reel-daiwa-blslt1000d-tackle-world_1000x.jpg?v=1749586742",
+        "sourceUrl": "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels",
+        "credit": "Product photograph via Tackle World",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|ballisticlt|originalltpremqdocumentedin2018uscatalog|5000dc|reversible",
+        "normalizedSku": "blslt5000dc",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No BLSLT records. Existing BALMQLT records are named Ballistic MQ LT and are not renamed or treated as new regional SKUs. This candidate has independently documented pre-MQ construction and exact US identity."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Emcast BR LT",
+      "generation": "US ECLTBR LT Bite N' Run generation (release year not established)",
+      "market": "US",
+      "sku": "ECLTBR2500",
+      "size": "2500",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 10.4,
+      "dragLb": 22,
+      "iptIn": 28.7,
+      "bearings": "3 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 6,
+          "pe": null,
+          "diameterMm": null,
+          "length": 160,
+          "unit": "yd",
+          "raw": "6/160",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 110,
+          "unit": "yd",
+          "raw": "8/110",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "yd",
+          "raw": "8/200",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 170,
+          "unit": "yd",
+          "raw": "10/170",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        }
+      ],
+      "features": [
+        "Automatic Bite N' Run clutch",
+        "LT concept",
+        "Carbon Light body",
+        "AIR ROTOR",
+        "Machined aluminum handle",
+        "ATD drag"
+      ],
+      "useCase": "live-bait and natural-bait spinning",
+      "sourceUrls": [
+        "https://daiwa.us/products/emcast-br-lt",
+        "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "https://fliphtml5.com/hjglc/joqj/25-26-Daiwa-Catalog_%282%29/",
+        "https://fishermanscentral.com/products/emcast-bite-run-spinning-reel-43178596005"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "originalSpec": {
+          "model": "ECLTBR2500",
+          "bearings": "3BB + 1",
+          "ratio": "5.2 : 1",
+          "retrieveIn": "28.7",
+          "weightOz": "10.4",
+          "monoLbYd": "6/160, 8/110",
+          "jBraidLbYd": "8/200,10/170",
+          "maxDragLb": "22"
+        },
+        "generationEvidence": "Current official US product page variants and feed use ECLTBR codes. Same four rows appear in Daiwa's 2025-26 manufacturer-authored catalog. Do not assign the European 24 Emcast generation year to these US models.",
+        "feedProvenance": "Official product HTML declares window.DAIWA_SHEETS_PROXY and requests this exact feed. Read with Origin https://daiwa.us. MONO and J-BRAID columns are separate; J-FLOURO is --.",
+        "capacityEvidence": "Pound-test/yards units corroborated by the manufacturer-authored 2025-26 catalog. No diameters inferred.",
+        "handEvidence": "Fisherman's Central lists Right/Left across this family; numeric specifications remain manufacturer-sourced.",
+        "useCaseBasis": "Official page explicitly describes live and natural bait fishing.",
+        "imageEvidence": "Official image returned HTTP 200 image/jpeg and was visually inspected. Spool label ECLTBR3000-C is a family representative; source feed's model spelling remains ECLTBR3000."
+      },
+      "image": {
+        "url": "https://daiwa.us/cdn/shop/products/emcast_21b44d0d-9a14-442c-87a6-13be73e9cf0c_580x.jpg?v=1609886286",
+        "sourceUrl": "https://daiwa.us/products/emcast-br-lt",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|emcastbrlt|usecltbrltbitenrungenerationreleaseyearnotestablished|2500|reversible",
+        "normalizedSku": "ecltbr2500",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-free-swimmer-8000-frsw8000-219",
+          "daiwa-free-swimmer-10000-frsw10000-220"
+        ],
+        "reason": "No Emcast/ECLTBR family or SKU in either input. Free Swimmer is an existing, separately named bite-and-run family, not an Emcast alias."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Emcast BR LT",
+      "generation": "US ECLTBR LT Bite N' Run generation (release year not established)",
+      "market": "US",
+      "sku": "ECLTBR3000",
+      "size": "3000",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 10.6,
+      "dragLb": 22,
+      "iptIn": 30.6,
+      "bearings": "3 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 160,
+          "unit": "yd",
+          "raw": "8/160",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 130,
+          "unit": "yd",
+          "raw": "10/130",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 220,
+          "unit": "yd",
+          "raw": "8/220",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 185,
+          "unit": "yd",
+          "raw": "10/185",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        }
+      ],
+      "features": [
+        "Automatic Bite N' Run clutch",
+        "LT concept",
+        "Carbon Light body",
+        "AIR ROTOR",
+        "Machined aluminum handle",
+        "ATD drag"
+      ],
+      "useCase": "live-bait and natural-bait spinning",
+      "sourceUrls": [
+        "https://daiwa.us/products/emcast-br-lt",
+        "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "https://fliphtml5.com/hjglc/joqj/25-26-Daiwa-Catalog_%282%29/",
+        "https://fishermanscentral.com/products/emcast-bite-run-spinning-reel-43178596005"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "originalSpec": {
+          "model": "ECLTBR3000",
+          "bearings": "3BB + 1",
+          "ratio": "5.2 : 1",
+          "retrieveIn": "30.6",
+          "weightOz": "10.6",
+          "monoLbYd": "8/160,10/130",
+          "jBraidLbYd": "8/220, 10/185",
+          "maxDragLb": "22"
+        },
+        "generationEvidence": "Current official US product page variants and feed use ECLTBR codes. Same four rows appear in Daiwa's 2025-26 manufacturer-authored catalog. Do not assign the European 24 Emcast generation year to these US models.",
+        "feedProvenance": "Official product HTML declares window.DAIWA_SHEETS_PROXY and requests this exact feed. Read with Origin https://daiwa.us. MONO and J-BRAID columns are separate; J-FLOURO is --.",
+        "capacityEvidence": "Pound-test/yards units corroborated by the manufacturer-authored 2025-26 catalog. No diameters inferred.",
+        "handEvidence": "Fisherman's Central lists Right/Left across this family; numeric specifications remain manufacturer-sourced.",
+        "useCaseBasis": "Official page explicitly describes live and natural bait fishing.",
+        "imageEvidence": "Official image returned HTTP 200 image/jpeg and was visually inspected. Spool label ECLTBR3000-C is a family representative; source feed's model spelling remains ECLTBR3000."
+      },
+      "image": {
+        "url": "https://daiwa.us/cdn/shop/products/emcast_21b44d0d-9a14-442c-87a6-13be73e9cf0c_580x.jpg?v=1609886286",
+        "sourceUrl": "https://daiwa.us/products/emcast-br-lt",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|emcastbrlt|usecltbrltbitenrungenerationreleaseyearnotestablished|3000|reversible",
+        "normalizedSku": "ecltbr3000",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-free-swimmer-8000-frsw8000-219",
+          "daiwa-free-swimmer-10000-frsw10000-220"
+        ],
+        "reason": "No Emcast/ECLTBR family or SKU in either input. Free Swimmer is an existing, separately named bite-and-run family, not an Emcast alias."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Emcast BR LT",
+      "generation": "US ECLTBR LT Bite N' Run generation (release year not established)",
+      "market": "US",
+      "sku": "ECLTBR4000-C",
+      "size": "4000-C",
+      "sizeClass": "4000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 11.3,
+      "dragLb": 26.4,
+      "iptIn": 32.5,
+      "bearings": "3 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 160,
+          "unit": "yd",
+          "raw": "12/160",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 14,
+          "pe": null,
+          "diameterMm": null,
+          "length": 140,
+          "unit": "yd",
+          "raw": "14/140",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 10,
+          "pe": null,
+          "diameterMm": null,
+          "length": 220,
+          "unit": "yd",
+          "raw": "10/220",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 15,
+          "pe": null,
+          "diameterMm": null,
+          "length": 185,
+          "unit": "yd",
+          "raw": "15/185",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        }
+      ],
+      "features": [
+        "Automatic Bite N' Run clutch",
+        "LT concept",
+        "Carbon Light body",
+        "AIR ROTOR",
+        "Machined aluminum handle",
+        "ATD drag"
+      ],
+      "useCase": "live-bait and natural-bait spinning",
+      "sourceUrls": [
+        "https://daiwa.us/products/emcast-br-lt",
+        "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "https://fliphtml5.com/hjglc/joqj/25-26-Daiwa-Catalog_%282%29/",
+        "https://fishermanscentral.com/products/emcast-bite-run-spinning-reel-43178596005"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "originalSpec": {
+          "model": "ECLTBR4000-C",
+          "bearings": "3BB + 1",
+          "ratio": "5.2 : 1",
+          "retrieveIn": "32.5",
+          "weightOz": "11.3",
+          "monoLbYd": "12/160, 14/140",
+          "jBraidLbYd": "10/220, 15/185",
+          "maxDragLb": "26.4"
+        },
+        "generationEvidence": "Current official US product page variants and feed use ECLTBR codes. Same four rows appear in Daiwa's 2025-26 manufacturer-authored catalog. Do not assign the European 24 Emcast generation year to these US models.",
+        "feedProvenance": "Official product HTML declares window.DAIWA_SHEETS_PROXY and requests this exact feed. Read with Origin https://daiwa.us. MONO and J-BRAID columns are separate; J-FLOURO is --.",
+        "capacityEvidence": "Pound-test/yards units corroborated by the manufacturer-authored 2025-26 catalog. No diameters inferred.",
+        "handEvidence": "Fisherman's Central lists Right/Left across this family; numeric specifications remain manufacturer-sourced.",
+        "useCaseBasis": "Official page explicitly describes live and natural bait fishing.",
+        "imageEvidence": "Official image returned HTTP 200 image/jpeg and was visually inspected. Spool label ECLTBR3000-C is a family representative; source feed's model spelling remains ECLTBR3000."
+      },
+      "image": {
+        "url": "https://daiwa.us/cdn/shop/products/emcast_21b44d0d-9a14-442c-87a6-13be73e9cf0c_580x.jpg?v=1609886286",
+        "sourceUrl": "https://daiwa.us/products/emcast-br-lt",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|emcastbrlt|usecltbrltbitenrungenerationreleaseyearnotestablished|4000c|reversible",
+        "normalizedSku": "ecltbr4000c",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-free-swimmer-8000-frsw8000-219",
+          "daiwa-free-swimmer-10000-frsw10000-220"
+        ],
+        "reason": "No Emcast/ECLTBR family or SKU in either input. Free Swimmer is an existing, separately named bite-and-run family, not an Emcast alias."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Emcast BR LT",
+      "generation": "US ECLTBR LT Bite N' Run generation (release year not established)",
+      "market": "US",
+      "sku": "ECLTBR5000-C",
+      "size": "5000-C",
+      "sizeClass": "5000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 11.1,
+      "dragLb": 26.4,
+      "iptIn": 34.5,
+      "bearings": "3 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 14,
+          "pe": null,
+          "diameterMm": null,
+          "length": 250,
+          "unit": "yd",
+          "raw": "14/250",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "mono",
+          "strengthLb": 20,
+          "pe": null,
+          "diameterMm": null,
+          "length": 160,
+          "unit": "yd",
+          "raw": "20/160",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 15,
+          "pe": null,
+          "diameterMm": null,
+          "length": 320,
+          "unit": "yd",
+          "raw": "15/320",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        },
+        {
+          "material": "braid",
+          "strengthLb": 20,
+          "pe": null,
+          "diameterMm": null,
+          "length": 280,
+          "unit": "yd",
+          "raw": "20/280",
+          "sourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000"
+        }
+      ],
+      "features": [
+        "Automatic Bite N' Run clutch",
+        "LT concept",
+        "Carbon Light body",
+        "AIR ROTOR",
+        "Machined aluminum handle",
+        "ATD drag"
+      ],
+      "useCase": "live-bait and natural-bait spinning",
+      "sourceUrls": [
+        "https://daiwa.us/products/emcast-br-lt",
+        "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "https://fliphtml5.com/hjglc/joqj/25-26-Daiwa-Catalog_%282%29/",
+        "https://fishermanscentral.com/products/emcast-bite-run-spinning-reel-43178596005"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "originalSpec": {
+          "model": "ECLTBR5000-C",
+          "bearings": "3BB + 1",
+          "ratio": "5.2 : 1",
+          "retrieveIn": "34.5",
+          "weightOz": "11.1",
+          "monoLbYd": "14/250, 20/160",
+          "jBraidLbYd": "15/320,20/280",
+          "maxDragLb": "26.4"
+        },
+        "generationEvidence": "Current official US product page variants and feed use ECLTBR codes. Same four rows appear in Daiwa's 2025-26 manufacturer-authored catalog. Do not assign the European 24 Emcast generation year to these US models.",
+        "feedProvenance": "Official product HTML declares window.DAIWA_SHEETS_PROXY and requests this exact feed. Read with Origin https://daiwa.us. MONO and J-BRAID columns are separate; J-FLOURO is --.",
+        "capacityEvidence": "Pound-test/yards units corroborated by the manufacturer-authored 2025-26 catalog. No diameters inferred.",
+        "handEvidence": "Fisherman's Central lists Right/Left across this family; numeric specifications remain manufacturer-sourced.",
+        "useCaseBasis": "Official page explicitly describes live and natural bait fishing.",
+        "imageEvidence": "Official image returned HTTP 200 image/jpeg and was visually inspected. Spool label ECLTBR3000-C is a family representative; source feed's model spelling remains ECLTBR3000."
+      },
+      "image": {
+        "url": "https://daiwa.us/cdn/shop/products/emcast_21b44d0d-9a14-442c-87a6-13be73e9cf0c_580x.jpg?v=1609886286",
+        "sourceUrl": "https://daiwa.us/products/emcast-br-lt",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|emcastbrlt|usecltbrltbitenrungenerationreleaseyearnotestablished|5000c|reversible",
+        "normalizedSku": "ecltbr5000c",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-free-swimmer-8000-frsw8000-219",
+          "daiwa-free-swimmer-10000-frsw10000-220"
+        ],
+        "reason": "No Emcast/ECLTBR family or SKU in either input. Free Swimmer is an existing, separately named bite-and-run family, not an Emcast alias."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442414",
+      "size": "FC LT1000S",
+      "sizeClass": "1000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.1:1",
+      "weightOz": 5.8202,
+      "dragLb": 11.0231,
+      "iptIn": 25.1969,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 2.5,
+          "pe": null,
+          "diameterMm": null,
+          "length": 100,
+          "unit": "m",
+          "raw": "2.5-100",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.3,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.3-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "trout and light saltwater finesse",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA FC LT1000S",
+          "weightG": 165,
+          "retrieveCm": 64,
+          "ratio": 5.1,
+          "nylonLbM": "2.5-100",
+          "peSizeM": "0.3-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442414"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA FC LT1000S and JAN 4550133442414. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_FC_LT1000S_4550133442414.jpg?rev=40bfd2f569e2420aa86f7d852ca64304",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|fclt1000s|reversible",
+        "normalizedSku": "4550133442414",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442421",
+      "size": "FC LT2000S",
+      "sizeClass": "2000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.1:1",
+      "weightOz": 5.8202,
+      "dragLb": 11.0231,
+      "iptIn": 26.378,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 3,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "3-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.4,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.4-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "trout and light saltwater finesse",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA FC LT2000S",
+          "weightG": 165,
+          "retrieveCm": 67,
+          "ratio": 5.1,
+          "nylonLbM": "3-150",
+          "peSizeM": "0.4-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442421"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA FC LT2000S and JAN 4550133442421. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_FC_LT2000S_4550133442421.jpg?rev=90b15bf7bc2541058555e43d1b3b977e",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|fclt2000s|reversible",
+        "normalizedSku": "4550133442421",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442438",
+      "size": "FC LT2000S-H",
+      "sizeClass": "2000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.8:1",
+      "weightOz": 5.8202,
+      "dragLb": 11.0231,
+      "iptIn": 29.9213,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 3,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "3-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.4,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.4-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "light-game lures and quicker slack pickup",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA FC LT2000S-H",
+          "weightG": 165,
+          "retrieveCm": 76,
+          "ratio": 5.8,
+          "nylonLbM": "3-150",
+          "peSizeM": "0.4-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442438"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA FC LT2000S-H and JAN 4550133442438. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_FC_LT2000S-H_4550133442438.jpg?rev=fe520b5d7580412684db6a3002645abc",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|fclt2000sh|reversible",
+        "normalizedSku": "4550133442438",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442445",
+      "size": "FC LT2500S",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.1:1",
+      "weightOz": 5.9966,
+      "dragLb": 11.0231,
+      "iptIn": 28.3465,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 4,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "4-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.6,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.6-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "light-rig bass and smaller squid jigs",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA FC LT2500S",
+          "weightG": 170,
+          "retrieveCm": 72,
+          "ratio": 5.1,
+          "nylonLbM": "4-150",
+          "peSizeM": "0.6-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442445"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA FC LT2500S and JAN 4550133442445. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_FC_LT2500S_4550133442445.jpg?rev=d49054bcafc7417db4fa7e1e65bd21af",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|fclt2500s|reversible",
+        "normalizedSku": "4550133442445",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442452",
+      "size": "FC LT2500S-H",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.8:1",
+      "weightOz": 5.9966,
+      "dragLb": 11.0231,
+      "iptIn": 32.2835,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 4,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "4-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.6,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.6-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "light-rig bass and squid-jig slack pickup",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA FC LT2500S-H",
+          "weightG": 170,
+          "retrieveCm": 82,
+          "ratio": 5.8,
+          "nylonLbM": "4-150",
+          "peSizeM": "0.6-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442452"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA FC LT2500S-H and JAN 4550133442452. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_FC_LT2500S-H_4550133442452.jpg?rev=f79c18255e7e4d8bbb7a898ac8a5ad4f",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|fclt2500sh|reversible",
+        "normalizedSku": "4550133442452",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442469",
+      "size": "LT2500",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 6.5257,
+      "dragLb": 22.0462,
+      "iptIn": 28.7402,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 6,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "6-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.8,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.8-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "bass, squid jigs and light inshore fishing",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT2500",
+          "weightG": 185,
+          "retrieveCm": 73,
+          "ratio": 5.2,
+          "nylonLbM": "6-150",
+          "peSizeM": "0.8-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 10,
+          "JAN": "4550133442469"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT2500 and JAN 4550133442469. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT2500_4550133442469.jpg?rev=cfb17e074df544e3b53593a47af07b22",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt2500|reversible",
+        "normalizedSku": "4550133442469",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442476",
+      "size": "LT2500S",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 6.3493,
+      "dragLb": 11.0231,
+      "iptIn": 28.7402,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 4,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "4-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.6,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.6-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "shallow-spool bass and squid-jig fishing",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT2500S",
+          "weightG": 180,
+          "retrieveCm": 73,
+          "ratio": 5.2,
+          "nylonLbM": "4-150",
+          "peSizeM": "0.6-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442476"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT2500S and JAN 4550133442476. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT2500S_4550133442476.jpg?rev=423b7df2bdf344a79affdea93d18e711",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt2500s|reversible",
+        "normalizedSku": "4550133442476",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442483",
+      "size": "LT2500S-XH",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 6.3493,
+      "dragLb": 11.0231,
+      "iptIn": 34.252,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 4,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "4-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.6,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.6-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "fast slack pickup for bass and squid jigs",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT2500S-XH",
+          "weightG": 180,
+          "retrieveCm": 87,
+          "ratio": 6.2,
+          "nylonLbM": "4-150",
+          "peSizeM": "0.6-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 5,
+          "JAN": "4550133442483"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT2500S-XH and JAN 4550133442483. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT2500S-XH_4550133442483.jpg?rev=95d32932fe7f4beb855cd14c440eda5a",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt2500sxh|reversible",
+        "normalizedSku": "4550133442483",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442490",
+      "size": "LT3000S-CXH",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 6.8784,
+      "dragLb": 22.0462,
+      "iptIn": 36.6142,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 6,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "6-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.8,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.8-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "bay seabass, light jigging and river trout",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT3000S-CXH",
+          "weightG": 195,
+          "retrieveCm": 93,
+          "ratio": 6.2,
+          "nylonLbM": "6-150",
+          "peSizeM": "0.8-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 10,
+          "JAN": "4550133442490"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT3000S-CXH and JAN 4550133442490. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT3000S-CXH_4550133442490.jpg?rev=b5675f031ed947fc9dbafb34a2301354",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt3000scxh|reversible",
+        "normalizedSku": "4550133442490",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442506",
+      "size": "LT3000",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 7.4075,
+      "dragLb": 22.0462,
+      "iptIn": 30.315,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "8-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "seabass and light boat jigging",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT3000",
+          "weightG": 210,
+          "retrieveCm": 77,
+          "ratio": 5.2,
+          "nylonLbM": "8-150",
+          "peSizeM": "1-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 10,
+          "JAN": "4550133442506"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT3000 and JAN 4550133442506. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT3000_4550133442506.jpg?rev=10aab9a7787e4b649cf740cf5ed4a8da",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt3000|reversible",
+        "normalizedSku": "4550133442506",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442513",
+      "size": "LT3000-XH",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 7.4075,
+      "dragLb": 22.0462,
+      "iptIn": 36.6142,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "8-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "seabass, light jigging and faster lure turnover",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT3000-XH",
+          "weightG": 210,
+          "retrieveCm": 93,
+          "ratio": 6.2,
+          "nylonLbM": "8-150",
+          "peSizeM": "1-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 10,
+          "JAN": "4550133442513"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT3000-XH and JAN 4550133442513. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT3000-XH_4550133442513.jpg?rev=deb806d65f01418fb69c1e1d403511f7",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt3000xh|reversible",
+        "normalizedSku": "4550133442513",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442520",
+      "size": "LT4000-C",
+      "sizeClass": "4000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 7.7603,
+      "dragLb": 26.4555,
+      "iptIn": 32.2835,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "12-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1.5,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1.5-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "steady lure retrieves and light shore jigging",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT4000-C",
+          "weightG": 220,
+          "retrieveCm": 82,
+          "ratio": 5.2,
+          "nylonLbM": "12-150",
+          "peSizeM": "1.5-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 12,
+          "JAN": "4550133442520"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT4000-C and JAN 4550133442520. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT4000-C_4550133442520.jpg?rev=b231026c3b634ccfba5f05c19c49509a",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt4000c|reversible",
+        "normalizedSku": "4550133442520",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442537",
+      "size": "LT4000-CXH",
+      "sizeClass": "4000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 7.7603,
+      "dragLb": 26.4555,
+      "iptIn": 38.9764,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "12-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1.5,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1.5-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TYPE-L drag"
+      ],
+      "useCase": "seabass, surf and light shore jigging",
+      "editorialFeatureSentence": "Its ATD TYPE-L drag is designed for responsive startup and smooth line release when a fish runs.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT4000-CXH",
+          "weightG": 220,
+          "retrieveCm": 99,
+          "ratio": 6.2,
+          "nylonLbM": "12-150",
+          "peSizeM": "1.5-200",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 12,
+          "JAN": "4550133442537"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT4000-CXH and JAN 4550133442537. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT4000-CXH_4550133442537.jpg?rev=3d6b1ef4d24b4c0eb8897880c191eb05",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt4000cxh|reversible",
+        "normalizedSku": "4550133442537",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133442544",
+      "size": "LT5000-C",
+      "sizeClass": "5000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 8.4658,
+      "dragLb": 26.4555,
+      "iptIn": 34.252,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 20,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "20-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 2,
+          "diameterMm": null,
+          "length": 300,
+          "unit": "m",
+          "raw": "2-300",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TOUGH carbon-washer drag",
+        "Power Light EVA handle knob"
+      ],
+      "useCase": "surf and light shore jigging",
+      "editorialFeatureSentence": "Its ATD TOUGH drag uses carbon washers for durability, while the Power Light EVA knob supports winding under load.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT5000-C",
+          "weightG": 240,
+          "retrieveCm": 87,
+          "ratio": 5.2,
+          "nylonLbM": "20-150",
+          "peSizeM": "2-300",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 12,
+          "JAN": "4550133442544"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT5000-C and JAN 4550133442544. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT5000-C_4550133442544.jpg?rev=632e490ab17443b2be7d58dcdf0c298b",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt5000c|reversible",
+        "normalizedSku": "4550133442544",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Caldia LT 2025",
+      "generation": "2025 (25CALDIA, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133458927",
+      "size": "LT5000-CXH",
+      "sizeClass": "5000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 8.4658,
+      "dragLb": 26.4555,
+      "iptIn": 41.3386,
+      "bearings": "6 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 20,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "20-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 2,
+          "diameterMm": null,
+          "length": 300,
+          "unit": "m",
+          "raw": "2-300",
+          "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh"
+        }
+      ],
+      "features": [
+        "ZAION V monocoque body",
+        "AIRDRIVE ROTOR",
+        "AIRDRIVE BAIL",
+        "AIRDRIVE SPOOL",
+        "MAGSEALED",
+        "ATD TOUGH carbon-washer drag",
+        "Power Light EVA handle knob"
+      ],
+      "useCase": "surf and light shore jigging",
+      "editorialFeatureSentence": "Its ATD TOUGH drag uses carbon washers for durability, while the Power Light EVA knob supports winding under load.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://jdmtackleheaven.com/collections/25-caldia"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "originalSpec": {
+          "item": "25CALDIA LT5000-CXH",
+          "weightG": 240,
+          "retrieveCm": 105,
+          "ratio": 6.2,
+          "nylonLbM": "20-150",
+          "peSizeM": "2-300",
+          "bearingsBallRoller": "6/1",
+          "maxDragKg": 12,
+          "JAN": "4550133458927"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 25CALDIA LT5000-CXH and JAN 4550133458927. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor, bail and spool, not AIRDRIVE shaft. ATD TYPE-L applies to smaller models; the two 5000 sizes use ATD TOUGH.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/lsej2uh_25CALDIA/25CALDIA_LT5000-CXH_4550133458927.jpg?rev=fe0321a9ab5c4f91a08d1bc69ad4160a",
+        "sourceUrl": "https://www.daiwa.com/jp/product/lsej2uh",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|caldialt2025|202525caldiajdm|lt5000cxh|reversible",
+        "normalizedSku": "4550133458927",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-ballistic-mq-lt-1000d-xh-balmqlt1000d-xh-150",
+          "daiwa-ballistic-mq-lt-2000d-xh-balmqlt2000d-xh-151",
+          "daiwa-ballistic-mq-lt-2500d-xh-balmqlt2500d-xh-152",
+          "daiwa-ballistic-mq-lt-3000d-cxh-balmqlt3000d-cxh-153",
+          "daiwa-ballistic-mq-lt-4000d-cxh-balmqlt4000d-cxh-154",
+          "daiwa-ballistic-mq-lt-5000d-cxh-balmqlt5000d-cxh-155"
+        ],
+        "reason": "No Caldia family or JAN match in either input. Current 25CALDIA has a documented ZAION V MQ body and 6+1 bearings; not a renaming of the existing uncertain BALMQLT XH records. FC/body size, shallow spool and gear suffix remain separate. Regional marketing duplicates are held, not separately proposed."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541810",
+      "size": "LT1000S-P",
+      "sizeClass": "1000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "4.8:1",
+      "weightOz": 6.1729,
+      "dragLb": 11.0231,
+      "iptIn": 23.622,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 2.5,
+          "pe": null,
+          "diameterMm": null,
+          "length": 100,
+          "unit": "m",
+          "raw": "2.5-100",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.3,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.3-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "slow trout spoons and light saltwater jigs",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT1000S-P",
+          "weightG": 175,
+          "retrieveCm": 60,
+          "ratio": 4.8,
+          "nylonLbM": "2.5-100",
+          "peSizeM": "0.3-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 5,
+          "JAN": "4550133541810"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT1000S-P and JAN 4550133541810. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT1000S-P_4550133541810.jpg?rev=85969ae0482f4434962087b625db8dbc",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt1000sp|reversible",
+        "normalizedSku": "4550133541810",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541841",
+      "size": "LT2000S-P",
+      "sizeClass": "2000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "4.8:1",
+      "weightOz": 6.1729,
+      "dragLb": 11.0231,
+      "iptIn": 24.8031,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 3,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "3-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.4,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.4-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "slow trout spoons and light saltwater jigs",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT2000S-P",
+          "weightG": 175,
+          "retrieveCm": 63,
+          "ratio": 4.8,
+          "nylonLbM": "3-150",
+          "peSizeM": "0.4-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 5,
+          "JAN": "4550133541841"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT2000S-P and JAN 4550133541841. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT2000S-P_4550133541841.jpg?rev=7aa572a12b214d799e6df50a566e61f7",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt2000sp|reversible",
+        "normalizedSku": "4550133541841",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541872",
+      "size": "LT2000S-XH",
+      "sizeClass": "2000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 6.1729,
+      "dragLb": 11.0231,
+      "iptIn": 31.8898,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 3,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "3-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.4,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.4-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "trout lure work and rapid slack pickup",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT2000S-XH",
+          "weightG": 175,
+          "retrieveCm": 81,
+          "ratio": 6.2,
+          "nylonLbM": "3-150",
+          "peSizeM": "0.4-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 5,
+          "JAN": "4550133541872"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT2000S-XH and JAN 4550133541872. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT2000S-XH_4550133541872.jpg?rev=ec4cb50490b3452aa77ceee75c10e090",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt2000sxh|reversible",
+        "normalizedSku": "4550133541872",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541889",
+      "size": "LT2500D",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.3:1",
+      "weightOz": 6.8784,
+      "dragLb": 22.0462,
+      "iptIn": 29.5276,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "12-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1.2,
+          "diameterMm": null,
+          "length": 300,
+          "unit": "m",
+          "raw": "1.2-300",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "general freshwater, light inshore and bait fishing",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT2500D",
+          "weightG": 195,
+          "retrieveCm": 75,
+          "ratio": 5.3,
+          "nylonLbM": "12-150",
+          "peSizeM": "1.2-300",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 10,
+          "JAN": "4550133541889"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT2500D and JAN 4550133541889. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT2500D_4550133541889.jpg?rev=2299dab7b2634fe297d3f6f598058105",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt2500d|reversible",
+        "normalizedSku": "4550133541889",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541896",
+      "size": "LT2500",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.3:1",
+      "weightOz": 6.8784,
+      "dragLb": 22.0462,
+      "iptIn": 29.5276,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 6,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "6-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.8,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.8-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "bass and squid-jig fishing",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT2500",
+          "weightG": 195,
+          "retrieveCm": 75,
+          "ratio": 5.3,
+          "nylonLbM": "6-150",
+          "peSizeM": "0.8-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 10,
+          "JAN": "4550133541896"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT2500 and JAN 4550133541896. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT2500_4550133541896.jpg?rev=4f7c57cf49aa444fa23b55cfa34b5af5",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt2500|reversible",
+        "normalizedSku": "4550133541896",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541926",
+      "size": "LT2500S-XH",
+      "sizeClass": "2500",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 6.7021,
+      "dragLb": 11.0231,
+      "iptIn": 34.252,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 4,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "4-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 0.6,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "0.6-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "fast lure turnover for bass and squid jigs",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT2500S-XH",
+          "weightG": 190,
+          "retrieveCm": 87,
+          "ratio": 6.2,
+          "nylonLbM": "4-150",
+          "peSizeM": "0.6-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 5,
+          "JAN": "4550133541926"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT2500S-XH and JAN 4550133541926. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT2500S-XH_4550133541926.jpg?rev=54270d39fe9b4ee2af875166b6e1686a",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt2500sxh|reversible",
+        "normalizedSku": "4550133541926",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541933",
+      "size": "LT3000D-C",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.3:1",
+      "weightOz": 7.0548,
+      "dragLb": 22.0462,
+      "iptIn": 31.4961,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 16,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "16-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1.5,
+          "diameterMm": null,
+          "length": 300,
+          "unit": "m",
+          "raw": "1.5-300",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "bait fishing, inshore lures and river trout",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT3000D-C",
+          "weightG": 200,
+          "retrieveCm": 80,
+          "ratio": 5.3,
+          "nylonLbM": "16-150",
+          "peSizeM": "1.5-300",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 10,
+          "JAN": "4550133541933"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT3000D-C and JAN 4550133541933. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT3000D-C_4550133541933.jpg?rev=51a9846b9289474e9a672315b09282a7",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt3000dc|reversible",
+        "normalizedSku": "4550133541933",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541957",
+      "size": "LT3000-CXH",
+      "sizeClass": "3000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 7.0548,
+      "dragLb": 22.0462,
+      "iptIn": 36.6142,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 8,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "8-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "bay seabass, light jigging and river trout",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT3000-CXH",
+          "weightG": 200,
+          "retrieveCm": 93,
+          "ratio": 6.2,
+          "nylonLbM": "8-150",
+          "peSizeM": "1-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 10,
+          "JAN": "4550133541957"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT3000-CXH and JAN 4550133541957. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT3000-CXH_4550133541957.jpg?rev=897629e71c9543ee89bc3473d0ac75ee",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt3000cxh|reversible",
+        "normalizedSku": "4550133541957",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133541988",
+      "size": "LT4000-C",
+      "sizeClass": "4000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.2:1",
+      "weightOz": 8.113,
+      "dragLb": 26.4555,
+      "iptIn": 32.2835,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "12-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1.5,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1.5-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "steady seabass retrieves and light shore jigging",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT4000-C",
+          "weightG": 230,
+          "retrieveCm": 82,
+          "ratio": 5.2,
+          "nylonLbM": "12-150",
+          "peSizeM": "1.5-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 12,
+          "JAN": "4550133541988"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT4000-C and JAN 4550133541988. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT4000-C_4550133541988.jpg?rev=7baa34eb1deb4f5db3c9552feb1efd36",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt4000c|reversible",
+        "normalizedSku": "4550133541988",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133542008",
+      "size": "LT4000-CXH",
+      "sizeClass": "4000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 8.113,
+      "dragLb": 26.4555,
+      "iptIn": 38.9764,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "12-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 1.5,
+          "diameterMm": null,
+          "length": 200,
+          "unit": "m",
+          "raw": "1.5-200",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper"
+      ],
+      "useCase": "seabass, surf and light shore jigging",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT4000-CXH",
+          "weightG": 230,
+          "retrieveCm": 99,
+          "ratio": 6.2,
+          "nylonLbM": "12-150",
+          "peSizeM": "1.5-200",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 12,
+          "JAN": "4550133542008"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT4000-CXH and JAN 4550133542008. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT4000-CXH_4550133542008.jpg?rev=7b6d816f025544b18dc5e7a98a44e5f3",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt4000cxh|reversible",
+        "normalizedSku": "4550133542008",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133542039",
+      "size": "LT5000D-CXH",
+      "sizeClass": "5000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "6.2:1",
+      "weightOz": 8.4658,
+      "dragLb": 26.4555,
+      "iptIn": 41.3386,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 25,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "25-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 2.5,
+          "diameterMm": null,
+          "length": 300,
+          "unit": "m",
+          "raw": "2.5-300",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper",
+        "Power Light EVA handle knob"
+      ],
+      "useCase": "surf and light shore jigging",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT5000D-CXH",
+          "weightG": 240,
+          "retrieveCm": 105,
+          "ratio": 6.2,
+          "nylonLbM": "25-150",
+          "peSizeM": "2.5-300",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 12,
+          "JAN": "4550133542039"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT5000D-CXH and JAN 4550133542039. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT5000D-CXH_4550133542039.jpg?rev=e4fe471b4606498fae76fd8e6cbf8844",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt5000dcxh|reversible",
+        "normalizedSku": "4550133542039",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    },
+    {
+      "brand": "Daiwa",
+      "model": "Freams LT 2026",
+      "generation": "2026 (26FREAMS, JDM)",
+      "market": "Japan (JDM)",
+      "sku": "4550133542060",
+      "size": "LT6000D-H",
+      "sizeClass": "6000",
+      "reelType": "spinning",
+      "hand": "reversible",
+      "ratio": "5.7:1",
+      "weightOz": 11.2877,
+      "dragLb": 26.4555,
+      "iptIn": 39.7638,
+      "bearings": "5 BB + 1 RB",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 35,
+          "pe": null,
+          "diameterMm": null,
+          "length": 150,
+          "unit": "m",
+          "raw": "35-150",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        },
+        {
+          "material": "braid",
+          "strengthLb": null,
+          "pe": 3,
+          "diameterMm": null,
+          "length": 300,
+          "unit": "m",
+          "raw": "3-300",
+          "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq"
+        }
+      ],
+      "features": [
+        "ZAION V body",
+        "ZAION V AIRDRIVE ROTOR",
+        "Hollow-pipe AIRDRIVE BAIL",
+        "MAGSEALED pinion",
+        "TOUGH DIGIGEAR",
+        "ATD TYPE-L drag",
+        "Perfect Line Stopper",
+        "Power Light EVA handle knob"
+      ],
+      "useCase": "shore jigging and heavier-line casting",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://jdmtackleheaven.com/collections/26-freams/products/daiwa-26-freams-lt2500"
+      ],
+      "fieldNotes": {
+        "numericSourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "originalSpec": {
+          "item": "26FREAMS LT6000D-H",
+          "weightG": 320,
+          "retrieveCm": 101,
+          "ratio": 5.7,
+          "nylonLbM": "35-150",
+          "peSizeM": "3-300",
+          "bearingsBallRoller": "5/1",
+          "maxDragKg": 12,
+          "JAN": "4550133542060"
+        },
+        "conversion": "oz = g / 28.349523125; lb = kg / 0.45359237; in/turn = cm/turn / 2.54. Results rounded to four decimals; capacity stays in original meters.",
+        "generationEvidence": "Official Japan table explicitly labels 26FREAMS LT6000D-H and JAN 4550133542060. JAN is the manufacturer product identifier used as sku; not a fabricated US-style code.",
+        "capacityEvidence": "Official header explicitly distinguishes nylon (lb-m) from PE (size-m). Nylon is recorded as mono. PE number is not pound-test or diameter. No diameter or fluorocarbon capacity is assigned, and no Nordic diameter rating is blended into this JDM record.",
+        "featureEvidence": "Official page confirms only AIRDRIVE rotor and bail, not AIRDRIVE spool/shaft. Do not import generic technology claims or the Scandinavian page's ambiguous Twist Buster 23 text.",
+        "handEvidence": "Reversible family configuration corroborated by JDM Tackle Heaven; no separate LH/RH rows created. Dealer numeric capacities are not used.",
+        "useCaseBasis": "Concise editorial paraphrase of the official model-specific intended-use section; no first-hand testing claim.",
+        "imageEvidence": "Exact JAN/model-named image linked on the same Japan product page. All 27 JDM image URLs returned HTTP 200 image/jpeg; one image per family visually spot-checked."
+      },
+      "image": {
+        "url": "https://390386bd-1bf0-4900-aa10-cac1793c9a23-afd-dqdkdpcqgcc6hahm.z01.azurefd.net/-/media/Project/globeride/daiwa_com_jp/001_product_photo/reel/001/FREAMS_w7t57lq/26FREAMS_LT6000D-H_4550133542060.jpg?rev=2570ae3afb6e462d8af234e37b6ffdc9",
+        "sourceUrl": "https://www.daiwa.com/jp/product/w7t57lq",
+        "representative": false
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "databaseReels": 1362,
+        "daiwaRecordsReviewed": 342,
+        "normalizedIdentity": "daiwa|freamslt2026|202626freamsjdm|lt6000dh|reversible",
+        "normalizedSku": "4550133542060",
+        "matchingExistingIds": [],
+        "relatedExistingIds": [
+          "daiwa-fuego-lt-1000d-feglt1000d-129",
+          "daiwa-fuego-lt-2000d-feglt2000d-130",
+          "daiwa-fuego-lt-2500d-xh-feglt2500d-xh-131",
+          "daiwa-fuego-lt-3000d-c-feglt3000d-c-132",
+          "daiwa-fuego-lt-4000d-c-feglt4000d-c-133",
+          "daiwa-fuego-lt-5000d-c-feglt5000d-c-134",
+          "daiwa-fuego-lt-6000d-feglt6000d-135"
+        ],
+        "reason": "No Freams family or JAN match in either input. 26FREAMS is independently documented with 5+1 bearings and hollow-pipe AIRDRIVE bail. Existing Fuego FEGLT records are not relabeled as Freams; deep/standard/shallow and speed suffixes are preserved. Scandinavian duplicate presentations are not extra candidates."
+      }
+    }
+  ],
+  "held": [
+    {
+      "model": "Ballistic LT BLSLT6000D-C (US, pre-MQ)",
+      "reason": "Manufacturer 2018/2020 tables print 26.4 in/turn, also the drag number; unresolved potential transcription error. Do not substitute a plausible 36.2 or infer from ratio/spool geometry. Held pending independent exact-model retrieve confirmation.",
+      "sources": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.daiwa.com/us/image/top/Daiwa-2020-Catalog.pdf"
+      ]
+    },
+    {
+      "model": "23 Ninja LT, Scandinavian range (8 variants)",
+      "reason": "Official rows 23NJLT1000, 2000, 2500, 2500-XH, 3000-C, 4000-C, 5000-C and 6000 have nylon/braid diameter capacities, but no exact published pound-test capacity verified. Held under the updated validation rule. UK capacities are not material-labeled in its table and differ from Scandinavia; do not infer strengths or blend tables.",
+      "sources": [
+        "https://www.daiwa.com/scandinavia/product/orgnpq0",
+        "https://www.daiwasports.co.uk/product/lure/23-ninja-lt"
+      ]
+    },
+    {
+      "model": "25 Caldia LT, Scandinavian range (6 regional presentations)",
+      "reason": "Diameter-only regional rows do not independently meet the pound-test rule. The 15 selected Japan JAN variants already cover the corresponding family; these regional names/SKUs are not counted as additional reels. Do not attach Nordic diameters to Japanese pound-test capacities without an exact cross-market identity check. UK 2500 weight also differs (190 g versus Scandinavian/Japan 185 g).",
+      "sources": [
+        "https://www.daiwa.com/scandinavia/product/xtkz61t",
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwasports.co.uk/product/specialist/25-caldia-lt"
+      ]
+    },
+    {
+      "model": "26 Freams LT, Scandinavian range (5 regional presentations)",
+      "reason": "Scandinavian table publishes only J-Braid diameter ratings. 1000D, 2000D and 4000D-C lack verified pound-test rows in this pass; 2500D and 3000D-C are already represented by Japan JAN candidates. Do not create extra records for regional UPCs or infer lb from diameter/PE.",
+      "sources": [
+        "https://www.daiwa.com/scandinavia/product/f6f2xut",
+        "https://www.daiwa.com/jp/product/w7t57lq"
+      ]
+    },
+    {
+      "model": "21 Freams LT (previous generation)",
+      "reason": "Not candidate-ready in this pass. Retailer material establishes the older Zaion V/Air Rotor family, but the research selected the current 26FREAMS manufacturer table with complete exact-model evidence. No old-generation values are transferred to 26FREAMS.",
+      "sources": [
+        "https://www.tackleuk.co.uk/shop/ReelsFrontDragReels/Daiwa-21-Freams-LT-Reels.htm",
+        "https://compleatanglernedlands.com.au/products/daiwa-21-freams-lt",
+        "https://www.daiwa.com/jp/product/w7t57lq"
+      ]
+    },
+    {
+      "model": "Ballistic MQ / Fuego / existing unproven regional-style LT SKUs",
+      "reason": "Existing database includes BALMQLT1000D-XH through 5000D-CXH and FEGLT1000D through 6000D. No replacement SKU, corrected spelling or regional marketing name is proposed as a new reel. This research does not repair those existing identities.",
+      "sources": [
+        "data/reels.json",
+        "data/reel-pages.json",
+        "https://daiwa.us/products/ballistic-mq",
+        "https://daiwa.us/collections/spin-reels/products/23-fuego-lt"
+      ]
+    }
+  ],
+  "familyEditorial": {
+    "Ballistic LT": {
+      "positioning": "Original pre-MQ US spinning family for freshwater and inshore lure fishing.",
+      "featureSentence": "Its lightweight ZAION body and AIR ROTOR suit repeated casting, while the MAGSEALED main shaft helps limit water and debris entry.",
+      "sourceUrls": [
+        "https://storage.westernbass.com/brochures/2018_daiwa/page19/index.html",
+        "https://www.tackleworld.com/products/daiwa-ballistic-lt-spinning-reels"
+      ]
+    },
+    "Emcast BR LT": {
+      "positioning": "US live-bait and natural-bait spinning family with a secondary free-running mode.",
+      "featureSentence": "The Bite N' Run clutch lets a fish take line before the main drag is engaged, providing controlled bait presentations with the bail closed.",
+      "sourceUrls": [
+        "https://daiwa.us/products/emcast-br-lt",
+        "https://daiwa-us-sheets-proxy.devotedigital.workers.dev/sheets/specs?ranges=REELS!A1:Z100000",
+        "https://fliphtml5.com/hjglc/joqj/25-26-Daiwa-Catalog_%282%29/"
+      ]
+    },
+    "Caldia LT 2025": {
+      "positioning": "2025 JDM spinning family spanning trout finesse, bass, squid-jig fishing and light shore work.",
+      "featureSentence": "AIRDRIVE rotor, bail and spool support lure control and line handling; smaller sizes use ATD TYPE-L, while the 5000 sizes use ATD TOUGH carbon washers.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/lsej2uh",
+        "https://www.daiwa.com/jp/special/products/25caldia/",
+        "https://www.daiwa.com/scandinavia/product/xtkz61t"
+      ]
+    },
+    "Freams LT 2026": {
+      "positioning": "2026 JDM spinning family covering light-game lures, general bait fishing and shore casting.",
+      "featureSentence": "The hollow-pipe AIRDRIVE bail guides line toward the roller, and ATD TYPE-L provides responsive drag startup when a fish takes line.",
+      "sourceUrls": [
+        "https://www.daiwa.com/jp/product/w7t57lq",
+        "https://www.daiwa.com/southeastasia/product/w7t57lq",
+        "https://www.daiwa.com/scandinavia/product/f6f2xut"
+      ]
+    }
+  }
+}

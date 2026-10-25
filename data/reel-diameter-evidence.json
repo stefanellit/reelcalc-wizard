@@ -35,25 +35,30 @@
       "key": "product-expansion-2026-10-12",
       "file": "research/product-expansion-2026-10-12/new-diameter-ratings.json",
       "sha256": "adad2ae3e1efd8d445264ed43df5965cefdfc8c8ec07611a22e8085614afd7b7"
+    },
+    {
+      "key": "reel-expansion-2026-10-25",
+      "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+      "sha256": "8fe42ebb5d0e205f9f10994150e662fda221d8da2ca99ffc2f61f3f187c8b85d"
     }
   ],
   "summary": {
-    "date": "2026-10-12",
-    "total_reels": 1362,
-    "reels_with_stored_diameter_evidence": 593,
-    "reels_with_eligible_material_ratings": 508,
+    "date": "2026-10-25",
+    "total_reels": 1526,
+    "reels_with_stored_diameter_evidence": 621,
+    "reels_with_eligible_material_ratings": 536,
     "eligible_material_coverage": {
       "both": 63,
-      "mono_only": 441,
+      "mono_only": 469,
       "braid_only": 4,
-      "neither": 854
+      "neither": 990
     },
-    "stored_evidence_rows": 2112,
-    "eligible_rows": 1714,
+    "stored_evidence_rows": 2196,
+    "eligible_rows": 1798,
     "held_rows": 398,
     "prior_research_preserved": true,
     "legacy_reel_fields_unchanged": true,
-    "scope": "Additive exact-model product expansion. Existing records and calculator behavior preserved."
+    "scope": "Append-only verified reel expansion; all pre-existing reel records unchanged."
   },
   "sources": {
     "diam-4d80c88910a97b814ca22c60": {
@@ -257939,6 +257944,4386 @@
           "cell": "320/0.46 270/0.48 220/0.56"
         },
         "notes": "Material-labelled published diameter and length. No PE conversion or pound-test-to-diameter inference. Regional rounded lengths retained as printed."
+      }
+    },
+    "diam-c81093fe933f17c819146b84": {
+      "reel_id": "shimano-sedona-fi-6000-se6000fi",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/0"
+      },
+      "raw": {
+        "anchor_id": "diam-c81093fe933f17c819146b84",
+        "reel_id": "shimano-sedona-fi-6000-se6000fi",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.33,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.33,
+          "diameter_in": 0.01299212598425197,
+          "capacity_meters": 240,
+          "capacity_yards": 262.4671916010499
+        },
+        "original_text": "0.33-240",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://fish.shimano.com/en-AU/product/reels/spinning/a071000001jesqraa0_p.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/shimano.json",
+        "source_sha256": "d34ae5a1d262d17fc37c0e8c4f0ad0afa027024427ba1355673085b630c57835",
+        "date_checked": "2026-10-25",
+        "source_model": "SE6000FI",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "not_present",
+          "checkedAt": "2026-10-25",
+          "databaseReelCount": 1362,
+          "databasePageCount": 1257,
+          "normalizedKey": "shimano|sedonafi|2017|6000|reversible",
+          "normalizedSku": "se6000fi",
+          "skuMatches": [],
+          "sameGenerationModelMatches": [],
+          "pageSkuMatches": [],
+          "existingDifferentGenerationOrType": [],
+          "method": "Case/punctuation normalization; compared all 294 Shimano brand/model/SKU/size identities and all 291 Shimano page entries. F versus A, FL versus FM, FB versus FC/FD, FC versus FD, FI versus FJ and FJ versus FK are separate verified generations. Compact C and HG/XG retained. Regional naming and package aliases are not counted separately."
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-9fd1788859179017713861a0": {
+      "reel_id": "shimano-sedona-fi-6000-se6000fi",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/1"
+      },
+      "raw": {
+        "anchor_id": "diam-9fd1788859179017713861a0",
+        "reel_id": "shimano-sedona-fi-6000-se6000fi",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.37,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 190,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.37,
+          "diameter_in": 0.014566929133858268,
+          "capacity_meters": 190,
+          "capacity_yards": 207.78652668416447
+        },
+        "original_text": "0.37-190",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://fish.shimano.com/en-AU/product/reels/spinning/a071000001jesqraa0_p.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/shimano.json",
+        "source_sha256": "d34ae5a1d262d17fc37c0e8c4f0ad0afa027024427ba1355673085b630c57835",
+        "date_checked": "2026-10-25",
+        "source_model": "SE6000FI",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "not_present",
+          "checkedAt": "2026-10-25",
+          "databaseReelCount": 1362,
+          "databasePageCount": 1257,
+          "normalizedKey": "shimano|sedonafi|2017|6000|reversible",
+          "normalizedSku": "se6000fi",
+          "skuMatches": [],
+          "sameGenerationModelMatches": [],
+          "pageSkuMatches": [],
+          "existingDifferentGenerationOrType": [],
+          "method": "Case/punctuation normalization; compared all 294 Shimano brand/model/SKU/size identities and all 291 Shimano page entries. F versus A, FL versus FM, FB versus FC/FD, FC versus FD, FI versus FJ and FJ versus FK are separate verified generations. Compact C and HG/XG retained. Regional naming and package aliases are not counted separately."
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-c09940dd5c7222479fb0a253": {
+      "reel_id": "shimano-sedona-fi-6000-se6000fi",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/2"
+      },
+      "raw": {
+        "anchor_id": "diam-c09940dd5c7222479fb0a253",
+        "reel_id": "shimano-sedona-fi-6000-se6000fi",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.4,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.4,
+          "diameter_in": 0.015748031496062995,
+          "capacity_meters": 160,
+          "capacity_yards": 174.97812773403325
+        },
+        "original_text": "0.40-160",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://fish.shimano.com/en-AU/product/reels/spinning/a071000001jesqraa0_p.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/shimano.json",
+        "source_sha256": "d34ae5a1d262d17fc37c0e8c4f0ad0afa027024427ba1355673085b630c57835",
+        "date_checked": "2026-10-25",
+        "source_model": "SE6000FI",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "not_present",
+          "checkedAt": "2026-10-25",
+          "databaseReelCount": 1362,
+          "databasePageCount": 1257,
+          "normalizedKey": "shimano|sedonafi|2017|6000|reversible",
+          "normalizedSku": "se6000fi",
+          "skuMatches": [],
+          "sameGenerationModelMatches": [],
+          "pageSkuMatches": [],
+          "existingDifferentGenerationOrType": [],
+          "method": "Case/punctuation normalization; compared all 294 Shimano brand/model/SKU/size identities and all 291 Shimano page entries. F versus A, FL versus FM, FB versus FC/FD, FC versus FD, FI versus FJ and FJ versus FK are separate verified generations. Compact C and HG/XG retained. Regional naming and package aliases are not counted separately."
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-132c44f0e049bd1584773470": {
+      "reel_id": "shimano-sedona-fi-8000-se8000fi",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/3"
+      },
+      "raw": {
+        "anchor_id": "diam-132c44f0e049bd1584773470",
+        "reel_id": "shimano-sedona-fi-8000-se8000fi",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.37,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 275,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.37,
+          "diameter_in": 0.014566929133858268,
+          "capacity_meters": 275,
+          "capacity_yards": 300.74365704286964
+        },
+        "original_text": "0.37-275",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://fish.shimano.com/en-AU/product/reels/spinning/a071000001jesqraa0_p.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/shimano.json",
+        "source_sha256": "d34ae5a1d262d17fc37c0e8c4f0ad0afa027024427ba1355673085b630c57835",
+        "date_checked": "2026-10-25",
+        "source_model": "SE8000FI",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "not_present",
+          "checkedAt": "2026-10-25",
+          "databaseReelCount": 1362,
+          "databasePageCount": 1257,
+          "normalizedKey": "shimano|sedonafi|2017|8000|reversible",
+          "normalizedSku": "se8000fi",
+          "skuMatches": [],
+          "sameGenerationModelMatches": [],
+          "pageSkuMatches": [],
+          "existingDifferentGenerationOrType": [],
+          "method": "Case/punctuation normalization; compared all 294 Shimano brand/model/SKU/size identities and all 291 Shimano page entries. F versus A, FL versus FM, FB versus FC/FD, FC versus FD, FI versus FJ and FJ versus FK are separate verified generations. Compact C and HG/XG retained. Regional naming and package aliases are not counted separately."
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-0f063d48d2f4755a774a3e3a": {
+      "reel_id": "shimano-sedona-fi-8000-se8000fi",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/4"
+      },
+      "raw": {
+        "anchor_id": "diam-0f063d48d2f4755a774a3e3a",
+        "reel_id": "shimano-sedona-fi-8000-se8000fi",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.4,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 230,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.4,
+          "diameter_in": 0.015748031496062995,
+          "capacity_meters": 230,
+          "capacity_yards": 251.53105861767278
+        },
+        "original_text": "0.40-230",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://fish.shimano.com/en-AU/product/reels/spinning/a071000001jesqraa0_p.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/shimano.json",
+        "source_sha256": "d34ae5a1d262d17fc37c0e8c4f0ad0afa027024427ba1355673085b630c57835",
+        "date_checked": "2026-10-25",
+        "source_model": "SE8000FI",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "not_present",
+          "checkedAt": "2026-10-25",
+          "databaseReelCount": 1362,
+          "databasePageCount": 1257,
+          "normalizedKey": "shimano|sedonafi|2017|8000|reversible",
+          "normalizedSku": "se8000fi",
+          "skuMatches": [],
+          "sameGenerationModelMatches": [],
+          "pageSkuMatches": [],
+          "existingDifferentGenerationOrType": [],
+          "method": "Case/punctuation normalization; compared all 294 Shimano brand/model/SKU/size identities and all 291 Shimano page entries. F versus A, FL versus FM, FB versus FC/FD, FC versus FD, FI versus FJ and FJ versus FK are separate verified generations. Compact C and HG/XG retained. Regional naming and package aliases are not counted separately."
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-c8c1c6406b3df21f799570ce": {
+      "reel_id": "shimano-sedona-fi-8000-se8000fi",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/5"
+      },
+      "raw": {
+        "anchor_id": "diam-c8c1c6406b3df21f799570ce",
+        "reel_id": "shimano-sedona-fi-8000-se8000fi",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.47,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 160,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.47,
+          "diameter_in": 0.018503937007874015,
+          "capacity_meters": 160,
+          "capacity_yards": 174.97812773403325
+        },
+        "original_text": "0.47-160",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://fish.shimano.com/en-AU/product/reels/spinning/a071000001jesqraa0_p.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/shimano.json",
+        "source_sha256": "d34ae5a1d262d17fc37c0e8c4f0ad0afa027024427ba1355673085b630c57835",
+        "date_checked": "2026-10-25",
+        "source_model": "SE8000FI",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "not_present",
+          "checkedAt": "2026-10-25",
+          "databaseReelCount": 1362,
+          "databasePageCount": 1257,
+          "normalizedKey": "shimano|sedonafi|2017|8000|reversible",
+          "normalizedSku": "se8000fi",
+          "skuMatches": [],
+          "sameGenerationModelMatches": [],
+          "pageSkuMatches": [],
+          "existingDifferentGenerationOrType": [],
+          "method": "Case/punctuation normalization; compared all 294 Shimano brand/model/SKU/size identities and all 291 Shimano page entries. F versus A, FL versus FM, FB versus FC/FD, FC versus FD, FI versus FJ and FJ versus FK are separate verified generations. Compact C and HG/XG retained. Regional naming and package aliases are not counted separately."
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-5e06c637051f81ab54d9bea0": {
+      "reel_id": "okuma-ceymar-hd-1000-chd-1000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/6"
+      },
+      "raw": {
+        "anchor_id": "diam-5e06c637051f81ab54d9bea0",
+        "reel_id": "okuma-ceymar-hd-1000-chd-1000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.15,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 255,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.15,
+          "diameter_in": 0.005905511811023622,
+          "capacity_meters": 255,
+          "capacity_yards": 278.8713910761155
+        },
+        "original_text": "0.15/255",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-1000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-1d7297fbf9e289958fea7006": {
+      "reel_id": "okuma-ceymar-hd-1000-chd-1000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/7"
+      },
+      "raw": {
+        "anchor_id": "diam-1d7297fbf9e289958fea7006",
+        "reel_id": "okuma-ceymar-hd-1000-chd-1000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 140,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 140,
+          "capacity_yards": 153.1058617672791
+        },
+        "original_text": "0.20/140",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-1000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-fee58703f439ab545e4bcbd5": {
+      "reel_id": "okuma-ceymar-hd-1000-chd-1000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/8"
+      },
+      "raw": {
+        "anchor_id": "diam-fee58703f439ab545e4bcbd5",
+        "reel_id": "okuma-ceymar-hd-1000-chd-1000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 90,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 90,
+          "capacity_yards": 98.4251968503937
+        },
+        "original_text": "0.25/90",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-1000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-0b44bb24a708da5a4ff00f3e": {
+      "reel_id": "okuma-ceymar-hd-2500-chd-2500a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/9"
+      },
+      "raw": {
+        "anchor_id": "diam-0b44bb24a708da5a4ff00f3e",
+        "reel_id": "okuma-ceymar-hd-2500-chd-2500a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 250,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 250,
+          "capacity_yards": 273.40332458442697
+        },
+        "original_text": "0.20/250",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-2500A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-db30c3b90801e504b697d875": {
+      "reel_id": "okuma-ceymar-hd-2500-chd-2500a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/10"
+      },
+      "raw": {
+        "anchor_id": "diam-db30c3b90801e504b697d875",
+        "reel_id": "okuma-ceymar-hd-2500-chd-2500a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 165,
+          "capacity_yards": 180.4461942257218
+        },
+        "original_text": "0.25/165",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-2500A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-530ae2bc2c0ac3eb377b4ed3": {
+      "reel_id": "okuma-ceymar-hd-2500-chd-2500a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/11"
+      },
+      "raw": {
+        "anchor_id": "diam-530ae2bc2c0ac3eb377b4ed3",
+        "reel_id": "okuma-ceymar-hd-2500-chd-2500a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 110,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 110,
+          "capacity_yards": 120.29746281714786
+        },
+        "original_text": "0.30/110",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-2500A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-81d8e6484f8f073983f86249": {
+      "reel_id": "okuma-ceymar-hd-3000-chd-3000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/12"
+      },
+      "raw": {
+        "anchor_id": "diam-81d8e6484f8f073983f86249",
+        "reel_id": "okuma-ceymar-hd-3000-chd-3000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 310,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 310,
+          "capacity_yards": 339.0201224846894
+        },
+        "original_text": "0.20/310",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-3000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-b8b11d126c4ac094e0a11819": {
+      "reel_id": "okuma-ceymar-hd-3000-chd-3000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/13"
+      },
+      "raw": {
+        "anchor_id": "diam-b8b11d126c4ac094e0a11819",
+        "reel_id": "okuma-ceymar-hd-3000-chd-3000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-3000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-b2cf5f3ab6daa2dab5c12ab0": {
+      "reel_id": "okuma-ceymar-hd-3000-chd-3000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/14"
+      },
+      "raw": {
+        "anchor_id": "diam-b2cf5f3ab6daa2dab5c12ab0",
+        "reel_id": "okuma-ceymar-hd-3000-chd-3000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-3000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-0c18ec22fe5fd8e2586ec9a0": {
+      "reel_id": "okuma-ceymar-hd-4000-chd-4000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/15"
+      },
+      "raw": {
+        "anchor_id": "diam-0c18ec22fe5fd8e2586ec9a0",
+        "reel_id": "okuma-ceymar-hd-4000-chd-4000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 280,
+          "capacity_yards": 306.2117235345582
+        },
+        "original_text": "0.25/280",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-4000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-06faa61fa623d572398bc5a8": {
+      "reel_id": "okuma-ceymar-hd-4000-chd-4000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/16"
+      },
+      "raw": {
+        "anchor_id": "diam-06faa61fa623d572398bc5a8",
+        "reel_id": "okuma-ceymar-hd-4000-chd-4000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 185,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 185,
+          "capacity_yards": 202.31846019247595
+        },
+        "original_text": "0.30/185",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-4000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-3531424732c0ae8d9abb27f0": {
+      "reel_id": "okuma-ceymar-hd-4000-chd-4000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/17"
+      },
+      "raw": {
+        "anchor_id": "diam-3531424732c0ae8d9abb27f0",
+        "reel_id": "okuma-ceymar-hd-4000-chd-4000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-4000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-382a12992c6e7f6d6ce9a249": {
+      "reel_id": "okuma-ceymar-hd-c5000-chd-c5000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/18"
+      },
+      "raw": {
+        "anchor_id": "diam-382a12992c6e7f6d6ce9a249",
+        "reel_id": "okuma-ceymar-hd-c5000-chd-c5000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 240,
+          "capacity_yards": 262.4671916010499
+        },
+        "original_text": "0.30/240",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-C5000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-68bcbaca4a4680dd7d863d6d": {
+      "reel_id": "okuma-ceymar-hd-c5000-chd-c5000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/19"
+      },
+      "raw": {
+        "anchor_id": "diam-68bcbaca4a4680dd7d863d6d",
+        "reel_id": "okuma-ceymar-hd-c5000-chd-c5000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 170,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 170,
+          "capacity_yards": 185.91426071741031
+        },
+        "original_text": "0.35/170",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-C5000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-d704213df9233478e8110069": {
+      "reel_id": "okuma-ceymar-hd-c5000-chd-c5000a",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/20"
+      },
+      "raw": {
+        "anchor_id": "diam-d704213df9233478e8110069",
+        "reel_id": "okuma-ceymar-hd-c5000-chd-c5000a",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.4,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 125,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.4,
+          "diameter_in": 0.015748031496062995,
+          "capacity_meters": 125,
+          "capacity_yards": 136.70166229221348
+        },
+        "original_text": "0.40/125",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-C5000A",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-4ae028e22a8f79549c2037b8": {
+      "reel_id": "okuma-ceymar-hd-2500h-chd-2500ha",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/21"
+      },
+      "raw": {
+        "anchor_id": "diam-4ae028e22a8f79549c2037b8",
+        "reel_id": "okuma-ceymar-hd-2500h-chd-2500ha",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 250,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 250,
+          "capacity_yards": 273.40332458442697
+        },
+        "original_text": "0.20/250",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-2500HA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-eb6c38ff076d4641e503500b": {
+      "reel_id": "okuma-ceymar-hd-2500h-chd-2500ha",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/22"
+      },
+      "raw": {
+        "anchor_id": "diam-eb6c38ff076d4641e503500b",
+        "reel_id": "okuma-ceymar-hd-2500h-chd-2500ha",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 165,
+          "capacity_yards": 180.4461942257218
+        },
+        "original_text": "0.25/165",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-2500HA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-e87f7c06e0775aab1bc32e55": {
+      "reel_id": "okuma-ceymar-hd-2500h-chd-2500ha",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/23"
+      },
+      "raw": {
+        "anchor_id": "diam-e87f7c06e0775aab1bc32e55",
+        "reel_id": "okuma-ceymar-hd-2500h-chd-2500ha",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 110,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 110,
+          "capacity_yards": 120.29746281714786
+        },
+        "original_text": "0.30/110",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-2500HA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-6df9650f0734fc87b8283ed7": {
+      "reel_id": "okuma-ceymar-hd-3000h-chd-3000ha",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/24"
+      },
+      "raw": {
+        "anchor_id": "diam-6df9650f0734fc87b8283ed7",
+        "reel_id": "okuma-ceymar-hd-3000h-chd-3000ha",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 310,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 310,
+          "capacity_yards": 339.0201224846894
+        },
+        "original_text": "0.20/310",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-3000HA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-b40d6df11d56c202d9123bdf": {
+      "reel_id": "okuma-ceymar-hd-3000h-chd-3000ha",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/25"
+      },
+      "raw": {
+        "anchor_id": "diam-b40d6df11d56c202d9123bdf",
+        "reel_id": "okuma-ceymar-hd-3000h-chd-3000ha",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-3000HA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-5b603c1ec7deeeb5ab0b8875": {
+      "reel_id": "okuma-ceymar-hd-3000h-chd-3000ha",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/26"
+      },
+      "raw": {
+        "anchor_id": "diam-5b603c1ec7deeeb5ab0b8875",
+        "reel_id": "okuma-ceymar-hd-3000h-chd-3000ha",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-3000HA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-f71df714e127ecbb5be31880": {
+      "reel_id": "okuma-ceymar-hd-4000x-chd-4000xa",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/27"
+      },
+      "raw": {
+        "anchor_id": "diam-f71df714e127ecbb5be31880",
+        "reel_id": "okuma-ceymar-hd-4000x-chd-4000xa",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 280,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 280,
+          "capacity_yards": 306.2117235345582
+        },
+        "original_text": "0.25/280",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-4000XA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-ef95e8640572753a7fb81aaf": {
+      "reel_id": "okuma-ceymar-hd-4000x-chd-4000xa",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/28"
+      },
+      "raw": {
+        "anchor_id": "diam-ef95e8640572753a7fb81aaf",
+        "reel_id": "okuma-ceymar-hd-4000x-chd-4000xa",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 185,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 185,
+          "capacity_yards": 202.31846019247595
+        },
+        "original_text": "0.30/185",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-4000XA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-1c91752e2e6656d659acc267": {
+      "reel_id": "okuma-ceymar-hd-4000x-chd-4000xa",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/29"
+      },
+      "raw": {
+        "anchor_id": "diam-1c91752e2e6656d659acc267",
+        "reel_id": "okuma-ceymar-hd-4000x-chd-4000xa",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/en/product/Ceymar-HD-Spinning-Reel.html",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "CHD-4000XA",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-be825f9ea5f9d4dea7857c0e": {
+      "reel_id": "okuma-itx-1000h-itx-1000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/30"
+      },
+      "raw": {
+        "anchor_id": "diam-be825f9ea5f9d4dea7857c0e",
+        "reel_id": "okuma-itx-1000h-itx-1000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.15,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 250,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.15,
+          "diameter_in": 0.005905511811023622,
+          "capacity_meters": 250,
+          "capacity_yards": 273.40332458442697
+        },
+        "original_text": "0.15/250",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-1000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-49d4080fabb83e8afd929768": {
+      "reel_id": "okuma-itx-1000h-itx-1000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/31"
+      },
+      "raw": {
+        "anchor_id": "diam-49d4080fabb83e8afd929768",
+        "reel_id": "okuma-itx-1000h-itx-1000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 140,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 140,
+          "capacity_yards": 153.1058617672791
+        },
+        "original_text": "0.20/140",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-1000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-009cf33df06fe69cbfd6ff56": {
+      "reel_id": "okuma-itx-1000h-itx-1000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/32"
+      },
+      "raw": {
+        "anchor_id": "diam-009cf33df06fe69cbfd6ff56",
+        "reel_id": "okuma-itx-1000h-itx-1000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 90,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 90,
+          "capacity_yards": 98.4251968503937
+        },
+        "original_text": "0.25/90",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-1000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-e3a5a2caad30289c15b11bf3": {
+      "reel_id": "okuma-itx-2500h-itx-2500h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/33"
+      },
+      "raw": {
+        "anchor_id": "diam-e3a5a2caad30289c15b11bf3",
+        "reel_id": "okuma-itx-2500h-itx-2500h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 250,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 250,
+          "capacity_yards": 273.40332458442697
+        },
+        "original_text": "0.20/250",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-2500H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-dfd75b38330d79716ce042d2": {
+      "reel_id": "okuma-itx-2500h-itx-2500h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/34"
+      },
+      "raw": {
+        "anchor_id": "diam-dfd75b38330d79716ce042d2",
+        "reel_id": "okuma-itx-2500h-itx-2500h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 165,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 165,
+          "capacity_yards": 180.4461942257218
+        },
+        "original_text": "0.25/165",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-2500H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-31718eed621cb195e4e35bac": {
+      "reel_id": "okuma-itx-2500h-itx-2500h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/35"
+      },
+      "raw": {
+        "anchor_id": "diam-31718eed621cb195e4e35bac",
+        "reel_id": "okuma-itx-2500h-itx-2500h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 110,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 110,
+          "capacity_yards": 120.29746281714786
+        },
+        "original_text": "0.30/110",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-2500H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-ed2833e09499cdeabd6f1b6c": {
+      "reel_id": "okuma-itx-3000h-itx-3000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/36"
+      },
+      "raw": {
+        "anchor_id": "diam-ed2833e09499cdeabd6f1b6c",
+        "reel_id": "okuma-itx-3000h-itx-3000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "0.20/300",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-3000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-c101fe94ee57a0b1f7c8ddc6": {
+      "reel_id": "okuma-itx-3000h-itx-3000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/37"
+      },
+      "raw": {
+        "anchor_id": "diam-c101fe94ee57a0b1f7c8ddc6",
+        "reel_id": "okuma-itx-3000h-itx-3000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-3000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-fad11f15f4ff7c58a2c5fcd1": {
+      "reel_id": "okuma-itx-3000h-itx-3000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/38"
+      },
+      "raw": {
+        "anchor_id": "diam-fad11f15f4ff7c58a2c5fcd1",
+        "reel_id": "okuma-itx-3000h-itx-3000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-3000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-adaff0f4061cb9b8246e30da": {
+      "reel_id": "okuma-itx-4000h-itx-4000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/39"
+      },
+      "raw": {
+        "anchor_id": "diam-adaff0f4061cb9b8246e30da",
+        "reel_id": "okuma-itx-4000h-itx-4000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 260,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 260,
+          "capacity_yards": 284.339457567804
+        },
+        "original_text": "0.25/260",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-4000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-6c759955c651c05349567d82": {
+      "reel_id": "okuma-itx-4000h-itx-4000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/40"
+      },
+      "raw": {
+        "anchor_id": "diam-6c759955c651c05349567d82",
+        "reel_id": "okuma-itx-4000h-itx-4000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "0.30/180",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-4000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-755e97c8115f93d986f5258a": {
+      "reel_id": "okuma-itx-4000h-itx-4000h",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/41"
+      },
+      "raw": {
+        "anchor_id": "diam-755e97c8115f93d986f5258a",
+        "reel_id": "okuma-itx-4000h-itx-4000h",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ITX-4000H",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-2e998753f69d048a1a11b6a1": {
+      "reel_id": "okuma-epixor-xt-20-epxt-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/42"
+      },
+      "raw": {
+        "anchor_id": "diam-2e998753f69d048a1a11b6a1",
+        "reel_id": "okuma-epixor-xt-20-epxt-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.15,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 250,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.15,
+          "diameter_in": 0.005905511811023622,
+          "capacity_meters": 250,
+          "capacity_yards": 273.40332458442697
+        },
+        "original_text": "0.15/250",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-0850529f0157a8e809db4a88": {
+      "reel_id": "okuma-epixor-xt-20-epxt-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/43"
+      },
+      "raw": {
+        "anchor_id": "diam-0850529f0157a8e809db4a88",
+        "reel_id": "okuma-epixor-xt-20-epxt-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 140,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 140,
+          "capacity_yards": 153.1058617672791
+        },
+        "original_text": "0.20/140",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-0ca290927bdc6d5631cd536a": {
+      "reel_id": "okuma-epixor-xt-20-epxt-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/44"
+      },
+      "raw": {
+        "anchor_id": "diam-0ca290927bdc6d5631cd536a",
+        "reel_id": "okuma-epixor-xt-20-epxt-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 90,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 90,
+          "capacity_yards": 98.4251968503937
+        },
+        "original_text": "0.25/90",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-d7c8a0e99d8994e2c62e194f": {
+      "reel_id": "okuma-epixor-xt-30-epxt-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/45"
+      },
+      "raw": {
+        "anchor_id": "diam-d7c8a0e99d8994e2c62e194f",
+        "reel_id": "okuma-epixor-xt-30-epxt-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "0.20/300",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-7c25bd6c4ffb2ea7e29dc3eb": {
+      "reel_id": "okuma-epixor-xt-30-epxt-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/46"
+      },
+      "raw": {
+        "anchor_id": "diam-7c25bd6c4ffb2ea7e29dc3eb",
+        "reel_id": "okuma-epixor-xt-30-epxt-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-d97356ae4d05f345e01d383d": {
+      "reel_id": "okuma-epixor-xt-30-epxt-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/47"
+      },
+      "raw": {
+        "anchor_id": "diam-d97356ae4d05f345e01d383d",
+        "reel_id": "okuma-epixor-xt-30-epxt-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-ffc3581c66655e618cd8d4c5": {
+      "reel_id": "okuma-epixor-xt-40-epxt-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/48"
+      },
+      "raw": {
+        "anchor_id": "diam-ffc3581c66655e618cd8d4c5",
+        "reel_id": "okuma-epixor-xt-40-epxt-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 260,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 260,
+          "capacity_yards": 284.339457567804
+        },
+        "original_text": "0.25/260",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-e4905af361ae87ea904ab6eb": {
+      "reel_id": "okuma-epixor-xt-40-epxt-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/49"
+      },
+      "raw": {
+        "anchor_id": "diam-e4905af361ae87ea904ab6eb",
+        "reel_id": "okuma-epixor-xt-40-epxt-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "0.30/180",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-7ea925bc2e7c6804d44f24d3": {
+      "reel_id": "okuma-epixor-xt-40-epxt-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/50"
+      },
+      "raw": {
+        "anchor_id": "diam-7ea925bc2e7c6804d44f24d3",
+        "reel_id": "okuma-epixor-xt-40-epxt-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-db955534ab987d24dfc5bf9d": {
+      "reel_id": "okuma-epixor-xt-55-epxt-55",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/51"
+      },
+      "raw": {
+        "anchor_id": "diam-db955534ab987d24dfc5bf9d",
+        "reel_id": "okuma-epixor-xt-55-epxt-55",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "0.30/300",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-55",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-a6b2ab5e66276b621bcfe379": {
+      "reel_id": "okuma-epixor-xt-55-epxt-55",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/52"
+      },
+      "raw": {
+        "anchor_id": "diam-a6b2ab5e66276b621bcfe379",
+        "reel_id": "okuma-epixor-xt-55-epxt-55",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 220,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 220,
+          "capacity_yards": 240.59492563429572
+        },
+        "original_text": "0.35/220",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-55",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-114df1cba741cefd05da7fcc": {
+      "reel_id": "okuma-epixor-xt-55-epxt-55",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/53"
+      },
+      "raw": {
+        "anchor_id": "diam-114df1cba741cefd05da7fcc",
+        "reel_id": "okuma-epixor-xt-55-epxt-55",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.4,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 170,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.4,
+          "diameter_in": 0.015748031496062995,
+          "capacity_meters": 170,
+          "capacity_yards": 185.91426071741031
+        },
+        "original_text": "0.40/170",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-55",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-271fc21c4e779246bdb67a1b": {
+      "reel_id": "okuma-epixor-xt-30s-epxt-30s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/54"
+      },
+      "raw": {
+        "anchor_id": "diam-271fc21c4e779246bdb67a1b",
+        "reel_id": "okuma-epixor-xt-30s-epxt-30s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "0.20/300",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-30S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-15f10fac6d9d139c82a88e08": {
+      "reel_id": "okuma-epixor-xt-30s-epxt-30s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/55"
+      },
+      "raw": {
+        "anchor_id": "diam-15f10fac6d9d139c82a88e08",
+        "reel_id": "okuma-epixor-xt-30s-epxt-30s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-30S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-ce5a03db83c0acbe701c1097": {
+      "reel_id": "okuma-epixor-xt-30s-epxt-30s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/56"
+      },
+      "raw": {
+        "anchor_id": "diam-ce5a03db83c0acbe701c1097",
+        "reel_id": "okuma-epixor-xt-30s-epxt-30s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-30S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-6a045be8525235aae95dc0f5": {
+      "reel_id": "okuma-epixor-xt-40s-epxt-40s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/57"
+      },
+      "raw": {
+        "anchor_id": "diam-6a045be8525235aae95dc0f5",
+        "reel_id": "okuma-epixor-xt-40s-epxt-40s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 260,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 260,
+          "capacity_yards": 284.339457567804
+        },
+        "original_text": "0.25/260",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-40S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-5647e88a9d566dd3120545ae": {
+      "reel_id": "okuma-epixor-xt-40s-epxt-40s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/58"
+      },
+      "raw": {
+        "anchor_id": "diam-5647e88a9d566dd3120545ae",
+        "reel_id": "okuma-epixor-xt-40s-epxt-40s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "0.30/180",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-40S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-1127f82411f9ea2154937517": {
+      "reel_id": "okuma-epixor-xt-40s-epxt-40s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/59"
+      },
+      "raw": {
+        "anchor_id": "diam-1127f82411f9ea2154937517",
+        "reel_id": "okuma-epixor-xt-40s-epxt-40s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=13",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "EPXT-40S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-ed3ea189b14afcb974ce7db8": {
+      "reel_id": "okuma-helios-sx-20-hsx-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/60"
+      },
+      "raw": {
+        "anchor_id": "diam-ed3ea189b14afcb974ce7db8",
+        "reel_id": "okuma-helios-sx-20-hsx-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.15,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.15,
+          "diameter_in": 0.005905511811023622,
+          "capacity_meters": 240,
+          "capacity_yards": 262.4671916010499
+        },
+        "original_text": "0.15/240",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-af27f0f7c9f60e28a4dc4a50": {
+      "reel_id": "okuma-helios-sx-20-hsx-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/61"
+      },
+      "raw": {
+        "anchor_id": "diam-af27f0f7c9f60e28a4dc4a50",
+        "reel_id": "okuma-helios-sx-20-hsx-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 140,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 140,
+          "capacity_yards": 153.1058617672791
+        },
+        "original_text": "0.20/140",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-90115ffd16f25c8a7b0d8688": {
+      "reel_id": "okuma-helios-sx-20-hsx-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/62"
+      },
+      "raw": {
+        "anchor_id": "diam-90115ffd16f25c8a7b0d8688",
+        "reel_id": "okuma-helios-sx-20-hsx-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 90,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 90,
+          "capacity_yards": 98.4251968503937
+        },
+        "original_text": "0.25/90",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-fc0c2d478ac5d341e360f6f7": {
+      "reel_id": "okuma-helios-sx-30-hsx-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/63"
+      },
+      "raw": {
+        "anchor_id": "diam-fc0c2d478ac5d341e360f6f7",
+        "reel_id": "okuma-helios-sx-30-hsx-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "0.20/300",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-d83f56e4ca2619dcb0a01f30": {
+      "reel_id": "okuma-helios-sx-30-hsx-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/64"
+      },
+      "raw": {
+        "anchor_id": "diam-d83f56e4ca2619dcb0a01f30",
+        "reel_id": "okuma-helios-sx-30-hsx-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-3e56934fcb1b0b373900c11b": {
+      "reel_id": "okuma-helios-sx-30-hsx-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/65"
+      },
+      "raw": {
+        "anchor_id": "diam-3e56934fcb1b0b373900c11b",
+        "reel_id": "okuma-helios-sx-30-hsx-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-fd18b83b243106555450f21f": {
+      "reel_id": "okuma-helios-sx-40-hsx-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/66"
+      },
+      "raw": {
+        "anchor_id": "diam-fd18b83b243106555450f21f",
+        "reel_id": "okuma-helios-sx-40-hsx-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 260,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 260,
+          "capacity_yards": 284.339457567804
+        },
+        "original_text": "0.25/260",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-e1732d0a97b9443824f8b9b5": {
+      "reel_id": "okuma-helios-sx-40-hsx-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/67"
+      },
+      "raw": {
+        "anchor_id": "diam-e1732d0a97b9443824f8b9b5",
+        "reel_id": "okuma-helios-sx-40-hsx-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "0.30/180",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-1e5797a92eb7a1b3a4f75a6c": {
+      "reel_id": "okuma-helios-sx-40-hsx-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/68"
+      },
+      "raw": {
+        "anchor_id": "diam-1e5797a92eb7a1b3a4f75a6c",
+        "reel_id": "okuma-helios-sx-40-hsx-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-23b5751b3669dc52efc2987d": {
+      "reel_id": "okuma-helios-sx-40s-hsx-40s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/69"
+      },
+      "raw": {
+        "anchor_id": "diam-23b5751b3669dc52efc2987d",
+        "reel_id": "okuma-helios-sx-40s-hsx-40s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 260,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 260,
+          "capacity_yards": 284.339457567804
+        },
+        "original_text": "0.25/260",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-40S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-ea0ff923fb034c6055191d11": {
+      "reel_id": "okuma-helios-sx-40s-hsx-40s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/70"
+      },
+      "raw": {
+        "anchor_id": "diam-ea0ff923fb034c6055191d11",
+        "reel_id": "okuma-helios-sx-40s-hsx-40s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "0.30/180",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-40S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-0552ef6e169bec9bc772262d": {
+      "reel_id": "okuma-helios-sx-40s-hsx-40s",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/71"
+      },
+      "raw": {
+        "anchor_id": "diam-0552ef6e169bec9bc772262d",
+        "reel_id": "okuma-helios-sx-40s-hsx-40s",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=11",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "HSX-40S",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-f8292ec8510eeb8e20cbc743": {
+      "reel_id": "okuma-alaris-20-als-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/72"
+      },
+      "raw": {
+        "anchor_id": "diam-f8292ec8510eeb8e20cbc743",
+        "reel_id": "okuma-alaris-20-als-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.15,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 250,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.15,
+          "diameter_in": 0.005905511811023622,
+          "capacity_meters": 250,
+          "capacity_yards": 273.40332458442697
+        },
+        "original_text": "0.15/250",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-f134f971ebfefa2d13055544": {
+      "reel_id": "okuma-alaris-20-als-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/73"
+      },
+      "raw": {
+        "anchor_id": "diam-f134f971ebfefa2d13055544",
+        "reel_id": "okuma-alaris-20-als-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 140,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 140,
+          "capacity_yards": 153.1058617672791
+        },
+        "original_text": "0.20/140",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-30b8e3b5f7702026d39cdc72": {
+      "reel_id": "okuma-alaris-20-als-20",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/74"
+      },
+      "raw": {
+        "anchor_id": "diam-30b8e3b5f7702026d39cdc72",
+        "reel_id": "okuma-alaris-20-als-20",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 90,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 90,
+          "capacity_yards": 98.4251968503937
+        },
+        "original_text": "0.25/90",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-20",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-8ec72faed4e82b898a533f81": {
+      "reel_id": "okuma-alaris-30-als-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/75"
+      },
+      "raw": {
+        "anchor_id": "diam-8ec72faed4e82b898a533f81",
+        "reel_id": "okuma-alaris-30-als-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.2,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 300,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.2,
+          "diameter_in": 0.007874015748031498,
+          "capacity_meters": 300,
+          "capacity_yards": 328.0839895013123
+        },
+        "original_text": "0.20/300",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-e00f46b1c4b6f2d1ae17aab2": {
+      "reel_id": "okuma-alaris-30-als-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/76"
+      },
+      "raw": {
+        "anchor_id": "diam-e00f46b1c4b6f2d1ae17aab2",
+        "reel_id": "okuma-alaris-30-als-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 200,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 200,
+          "capacity_yards": 218.72265966754156
+        },
+        "original_text": "0.25/200",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-edc7e5a0d69906aa9b50e2fc": {
+      "reel_id": "okuma-alaris-30-als-30",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/77"
+      },
+      "raw": {
+        "anchor_id": "diam-edc7e5a0d69906aa9b50e2fc",
+        "reel_id": "okuma-alaris-30-als-30",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.30/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-30",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-54c82525feb5d8be134b3f49": {
+      "reel_id": "okuma-alaris-40-als-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/78"
+      },
+      "raw": {
+        "anchor_id": "diam-54c82525feb5d8be134b3f49",
+        "reel_id": "okuma-alaris-40-als-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.25,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 260,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.25,
+          "diameter_in": 0.00984251968503937,
+          "capacity_meters": 260,
+          "capacity_yards": 284.339457567804
+        },
+        "original_text": "0.25/260",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-bbebc458f1fdc585d9df1a0f": {
+      "reel_id": "okuma-alaris-40-als-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/79"
+      },
+      "raw": {
+        "anchor_id": "diam-bbebc458f1fdc585d9df1a0f",
+        "reel_id": "okuma-alaris-40-als-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 180,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 180,
+          "capacity_yards": 196.8503937007874
+        },
+        "original_text": "0.30/180",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-56b8975cd39d9b36d4cd0aa6": {
+      "reel_id": "okuma-alaris-40-als-40",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/80"
+      },
+      "raw": {
+        "anchor_id": "diam-56b8975cd39d9b36d4cd0aa6",
+        "reel_id": "okuma-alaris-40-als-40",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 130,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 130,
+          "capacity_yards": 142.169728783902
+        },
+        "original_text": "0.35/130",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-40",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-c3956cc6f6b4affbd1c70ea1": {
+      "reel_id": "okuma-alaris-45-als-45",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/81"
+      },
+      "raw": {
+        "anchor_id": "diam-c3956cc6f6b4affbd1c70ea1",
+        "reel_id": "okuma-alaris-45-als-45",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.3,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 240,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.3,
+          "diameter_in": 0.011811023622047244,
+          "capacity_meters": 240,
+          "capacity_yards": 262.4671916010499
+        },
+        "original_text": "0.30/240",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-45",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-4f680183f9190ba2a5ea6bae": {
+      "reel_id": "okuma-alaris-45-als-45",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/82"
+      },
+      "raw": {
+        "anchor_id": "diam-4f680183f9190ba2a5ea6bae",
+        "reel_id": "okuma-alaris-45-als-45",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.35,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 170,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.35,
+          "diameter_in": 0.013779527559055118,
+          "capacity_meters": 170,
+          "capacity_yards": 185.91426071741031
+        },
+        "original_text": "0.35/170",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-45",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
+      }
+    },
+    "diam-20a87bcc7ac64f4dc7574f13": {
+      "reel_id": "okuma-alaris-45-als-45",
+      "origin": {
+        "file": "research/reel-expansion-2026-10-25/new-diameter-ratings.json",
+        "pointer": "/83"
+      },
+      "raw": {
+        "anchor_id": "diam-20a87bcc7ac64f4dc7574f13",
+        "reel_id": "okuma-alaris-45-als-45",
+        "material": "mono",
+        "strength_lb": null,
+        "pe_size": null,
+        "original": {
+          "diameter": {
+            "value": 0.4,
+            "unit": "mm"
+          },
+          "capacity": {
+            "value": 125,
+            "unit": "m"
+          }
+        },
+        "normalized": {
+          "diameter_mm": 0.4,
+          "diameter_in": 0.015748031496062995,
+          "capacity_meters": 125,
+          "capacity_yards": 136.70166229221348
+        },
+        "original_text": "0.40/125",
+        "source_type": "manufacturer_product_specifications",
+        "source_url": "https://www.okumafishing.com/Templates/att/2022%20International%20catalog.pdf?lng=en#page=17",
+        "evidence_file": "research/reel-expansion-2026-10-25/okuma.json",
+        "source_sha256": "a128595b0c84d36cbd7c8e4cbabcc799e41de20b2b12df6dc2659aa5037d0726",
+        "date_checked": "2026-10-25",
+        "source_model": "ALS-45",
+        "exact_model_verified": true,
+        "model_match_evidence": {
+          "status": "passed",
+          "checkedAgainst": "data/reels.json",
+          "checkedAt": "2026-10-25",
+          "existingTotalRecords": 1362,
+          "existingOkumaRecords": 133,
+          "exactSkuMatches": [],
+          "normalizedSkuMatches": [],
+          "modelSizeRatioMatches": [],
+          "withinBatchSkuUnique": true
+        },
+        "confidence": "high",
+        "status": "verified_source",
+        "notes": "Published material-specific diameter and length; no lb or PE conversion used to invent a diameter."
       }
     }
   },

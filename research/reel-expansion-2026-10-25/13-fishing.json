@@ -1,0 +1,2321 @@
+{
+  "brandScope": "13 Fishing only; US-priority exact standalone reels; research only",
+  "researchedAt": "2026-10-25",
+  "candidates": [
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-5.6-LH",
+      "size": "LH 5.6:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "5.6:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 22.0472,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-5.6-LH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 5.6:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "lower-geared crankbait and moving-bait bass fishing",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-5.6-LH",
+          "raw": "A2-5.6-LH | Left-Hand | 5.6:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-5.6-LH row",
+          "raw": "A2-5.6-LH | 5.6:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "p.292, row 125116",
+          "originalValue": 56,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = published centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "5.6:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"LH 5.6:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|lh|5.6:1",
+        "normalizedSku": "a256lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-5.6-RH",
+      "size": "RH 5.6:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "5.6:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 22.2,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-5.6-RH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 5.6:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "lower-geared crankbait and moving-bait bass fishing",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+        "https://www.freaksports.com.au/product/13-fishing-concept-a-baitcaster-reel/"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-5.6-RH",
+          "raw": "A2-5.6-RH | Right-Hand | 5.6:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-5.6-RH row",
+          "raw": "A2-5.6-RH | 5.6:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://www.freaksports.com.au/product/13-fishing-concept-a-baitcaster-reel/",
+          "location": "A2-5.6-RH table row",
+          "originalValue": 22.2,
+          "originalUnit": "in/turn",
+          "conversion": "None; published inches"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "5.6:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"RH 5.6:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|rh|5.6:1",
+        "normalizedSku": "a256rh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-6.8-LH",
+      "size": "LH 6.8:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "6.8:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 26.7717,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-6.8-LH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 6.8:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "general-purpose bass casting with moving baits",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-6.8-LH",
+          "raw": "A2-6.8-LH | Left-Hand | 6.8:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-6.8-LH row",
+          "raw": "A2-6.8-LH | 6.8:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "p.292, row 125118",
+          "originalValue": 68,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = published centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "6.8:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"LH 6.8:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|lh|6.8:1",
+        "normalizedSku": "a268lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-6.8-RH",
+      "size": "RH 6.8:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "6.8:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 26.7717,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-6.8-RH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 6.8:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "general-purpose bass casting with moving baits",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-6.8-RH",
+          "raw": "A2-6.8-RH | Right-Hand | 6.8:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-6.8-RH row",
+          "raw": "A2-6.8-RH | 6.8:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "p.292, row 125117",
+          "originalValue": 68,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = published centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "6.8:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"RH 6.8:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|rh|6.8:1",
+        "normalizedSku": "a268rh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-7.5-LH",
+      "size": "LH 7.5:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "7.5:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 29.5276,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-7.5-LH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 7.5:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "bass casting with quick slack pickup",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-7.5-LH",
+          "raw": "A2-7.5-LH | Left-Hand | 7.5:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-7.5-LH row",
+          "raw": "A2-7.5-LH | 7.5:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "p.292, row 125119",
+          "originalValue": 75,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = published centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "7.5:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"LH 7.5:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|lh|7.5:1",
+        "normalizedSku": "a275lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-7.5-RH",
+      "size": "RH 7.5:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "7.5:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 29.7,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-7.5-RH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 7.5:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "bass casting with quick slack pickup",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+        "https://www.publiclands.com/p/13-fishing-concept-a2-baitcasting-reel-201fiucncpt751lhbree/201fiucncpt751lhbree"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-7.5-RH",
+          "raw": "A2-7.5-RH | Right-Hand | 7.5:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-7.5-RH row",
+          "raw": "A2-7.5-RH | 7.5:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-concept-a2-baitcasting-reel-201fiucncpt751lhbree/201fiucncpt751lhbree",
+          "location": "A2-7.5-RH table row",
+          "originalValue": 29.7,
+          "originalUnit": "in/turn",
+          "conversion": "None; published inches"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "7.5:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"RH 7.5:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|rh|7.5:1",
+        "normalizedSku": "a275rh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-8.3-LH",
+      "size": "LH 8.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "8.3:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 32.6772,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-8.3-LH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 8.3:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "bass casting with fast line pickup",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-8.3-LH",
+          "raw": "A2-8.3-LH | Left-Hand | 8.3:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-8.3-LH row",
+          "raw": "A2-8.3-LH | 8.3:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "p.292, row 125120",
+          "originalValue": 83,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = published centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "8.3:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"LH 8.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|lh|8.3:1",
+        "normalizedSku": "a283lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept A2",
+      "generation": "Concept A Gen II / A2 (not original Concept A)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "A2-8.3-RH",
+      "size": "RH 8.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "8.3:1",
+      "weightOz": 7.4,
+      "dragLb": 25,
+      "iptIn": 32.8,
+      "bearings": "7 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "A2-8.3-RH: 12/125; Reel Line Capacity (lbs/yds). Material corroboration: Karl's Concept A2 table labels 12/125 Mono at 8.3:1.",
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+        }
+      ],
+      "features": [
+        "HD Aluminum Frame",
+        "Ocean Armor 2 Treatment",
+        "H.A.M. Hardened Brass Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate",
+        "Dead Stop Anti-Reverse"
+      ],
+      "useCase": "bass casting with fast line pickup",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://www.rapala.eu/eu_en/concept-a2",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+        "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+        "https://www.publiclands.com/p/13-fishing-concept-a2-baitcasting-reel-201fiucncpt751lhbree/201fiucncpt751lhbree"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "Specifications, A2-8.3-RH",
+          "raw": "A2-8.3-RH | Right-Hand | 8.3:1"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer calls this Concept A Gen II and lists A2-7.5-LH/RH; A2 is not a separate reel from the North American Concept A Gen II marketing name. Other exact variants are corroborated by the manufacturer EU page/catalog and Defender."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel",
+          "location": "A2-8.3-RH row",
+          "raw": "A2-8.3-RH | 8.3:1 | 7.4 oz | 25 lbs | 7 | 12/125",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-concept-a2-baitcasting-reel-201fiucncpt751lhbree/201fiucncpt751lhbree",
+          "location": "A2-8.3-RH table row",
+          "originalValue": 32.8,
+          "originalUnit": "in/turn",
+          "conversion": "None; published inches"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-a2-baitcasting-reel",
+          "evidence": "8.3:1 row: Mono Line Capacity (lbs./yards) = 12/125. Exact handed SKU and the same capacity are listed separately by Defender. No mono diameter, PE, braid or fluorocarbon rating inferred."
+        },
+        "conflicts": "North American manufacturer/retailer rating 25 lb and 7.4 oz retained. EU product page also contains 22 lb/10 kg and 209/211 g; catalog says 25 lb/11 kg and 211 g. Do not mix those regional rounded fields into the US record. EU page diameter 0.30 mm versus catalog 0.33 mm is unresolved and omitted. Catalog centimeter IPT and retailer inch IPT can differ slightly; exact cited row is retained, not averaged.",
+        "size": "Display label \"RH 8.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+          "evidence": "Manufacturer feature list; names only, not independent validation of performance claims."
+        },
+        "image": "Official Concept A Gen II gallery link. HTTP GET 200 image/png, 476054 bytes on research date. Family-representative; do not imply exact handedness or gear ratio.",
+        "availability": "Manufacturer and retail pages include out-of-stock states. This is a verified model record, not a claim of current inventory.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/9/4/9458eua87l7o98nfb46couk474.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept a2|concept a gen ii / a2 (not original concept a)|size-unspecified|rh|8.3:1",
+        "normalizedSku": "a283rh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept C2",
+      "generation": "Concept C Gen II / C2 (not original Concept C)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "C2-6.8-LH",
+      "size": "LH 6.8:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "6.8:1",
+      "weightOz": 5.89,
+      "dragLb": 25,
+      "iptIn": 26.7717,
+      "bearings": "9 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "6.8:1 | Mono Line Capacity (lbs./yards): 12/125; Concept C2 family specification table.",
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+        }
+      ],
+      "features": [
+        "Cast Iron Carbon Frame and Side Plate",
+        "High Spin Spool System",
+        "Ti-Armor Aluminum Hamai Cut Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate"
+      ],
+      "useCase": "repeated bass lure presentations with moving baits",
+      "sourceUrls": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 (PDF page 12), product 125109",
+          "raw": "C2-6.8-LH | 167 g | 6.8:1 | 9 | 68 cm | 0.33mm / 114m",
+          "evidence": "Exact model code ends in the explicit LH/RH designation. No missing opposite-hand variant generated."
+        },
+        "generation": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293",
+          "evidence": "Concept C2 heading and Concept C Gen II description identify the generation; the catalog year is not asserted as the launch year."
+        },
+        "weightOz": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 opening sentence",
+          "originalValue": 5.89,
+          "originalUnit": "oz",
+          "evidence": "Manufacturer explicitly prints 5.89 oz/167 g; use published oz rather than retailer 5.8/5.9 rounding."
+        },
+        "dragLb": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list",
+          "originalValue": 25,
+          "originalUnit": "lb",
+          "evidence": "25 lb / 11 kg Bulldog Drag System; retain manufacturer's original pound rating."
+        },
+        "bearings": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-6.8-LH row",
+          "evidence": "Table says 9. Feature-list component counts add to 8, so preserve published total 9 and do not invent a ninth bearing's location."
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-6.8-LH row",
+          "originalValue": 68,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacity": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+          "evidence": "Retailer explicitly labels 6.8:1 family row Mono 12 lb/125 yd; manufacturer verifies exact SKU/generation. The retailer's ratio-level capacity table is shared across handedness, not an individually measured hand-specific capacity. No diameter is paired with this pound rating."
+        },
+        "conflicts": "Karl's descriptive frame text appears inconsistent with Gen II manufacturer construction. Only its clearly labeled mono-capacity table and product image are used; manufacturer controls construction, weight, drag and bearing total.",
+        "size": "Display label \"LH 6.8:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list"
+        },
+        "image": "Karl's Concept C2 gallery URL; decoded original image URL from its Cloudinary wrapper. HTTP GET 200 image/jpeg. RH family photograph is representative for all variants.",
+        "availability": "Catalogued exact model; current US stock/continued production not verified.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://shopkarls.com/media/catalog/product/c/o/concept_c2-rh-4_1__6.jpg",
+        "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept c2|concept c gen ii / c2 (not original concept c)|size-unspecified|lh|6.8:1",
+        "normalizedSku": "c268lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept C2",
+      "generation": "Concept C Gen II / C2 (not original Concept C)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "C2-7.5-LH",
+      "size": "LH 7.5:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "7.5:1",
+      "weightOz": 5.89,
+      "dragLb": 25,
+      "iptIn": 29.5276,
+      "bearings": "9 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "7.5:1 | Mono Line Capacity (lbs./yards): 12/125; Concept C2 family specification table.",
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+        }
+      ],
+      "features": [
+        "Cast Iron Carbon Frame and Side Plate",
+        "High Spin Spool System",
+        "Ti-Armor Aluminum Hamai Cut Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate"
+      ],
+      "useCase": "bass lure casting with quick slack pickup",
+      "sourceUrls": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 (PDF page 12), product 125110",
+          "raw": "C2-7.5-LH | 167 g | 7.5:1 | 9 | 75 cm | 0.33mm / 114m",
+          "evidence": "Exact model code ends in the explicit LH/RH designation. No missing opposite-hand variant generated."
+        },
+        "generation": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293",
+          "evidence": "Concept C2 heading and Concept C Gen II description identify the generation; the catalog year is not asserted as the launch year."
+        },
+        "weightOz": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 opening sentence",
+          "originalValue": 5.89,
+          "originalUnit": "oz",
+          "evidence": "Manufacturer explicitly prints 5.89 oz/167 g; use published oz rather than retailer 5.8/5.9 rounding."
+        },
+        "dragLb": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list",
+          "originalValue": 25,
+          "originalUnit": "lb",
+          "evidence": "25 lb / 11 kg Bulldog Drag System; retain manufacturer's original pound rating."
+        },
+        "bearings": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-7.5-LH row",
+          "evidence": "Table says 9. Feature-list component counts add to 8, so preserve published total 9 and do not invent a ninth bearing's location."
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-7.5-LH row",
+          "originalValue": 75,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacity": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+          "evidence": "Retailer explicitly labels 7.5:1 family row Mono 12 lb/125 yd; manufacturer verifies exact SKU/generation. The retailer's ratio-level capacity table is shared across handedness, not an individually measured hand-specific capacity. No diameter is paired with this pound rating."
+        },
+        "conflicts": "Karl's descriptive frame text appears inconsistent with Gen II manufacturer construction. Only its clearly labeled mono-capacity table and product image are used; manufacturer controls construction, weight, drag and bearing total.",
+        "size": "Display label \"LH 7.5:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list"
+        },
+        "image": "Karl's Concept C2 gallery URL; decoded original image URL from its Cloudinary wrapper. HTTP GET 200 image/jpeg. RH family photograph is representative for all variants.",
+        "availability": "Catalogued exact model; current US stock/continued production not verified.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://shopkarls.com/media/catalog/product/c/o/concept_c2-rh-4_1__6.jpg",
+        "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept c2|concept c gen ii / c2 (not original concept c)|size-unspecified|lh|7.5:1",
+        "normalizedSku": "c275lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept C2",
+      "generation": "Concept C Gen II / C2 (not original Concept C)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "C2-7.5-RH",
+      "size": "RH 7.5:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "7.5:1",
+      "weightOz": 5.89,
+      "dragLb": 25,
+      "iptIn": 29.5276,
+      "bearings": "9 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "7.5:1 | Mono Line Capacity (lbs./yards): 12/125; Concept C2 family specification table.",
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+        }
+      ],
+      "features": [
+        "Cast Iron Carbon Frame and Side Plate",
+        "High Spin Spool System",
+        "Ti-Armor Aluminum Hamai Cut Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate"
+      ],
+      "useCase": "bass lure casting with quick slack pickup",
+      "sourceUrls": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 (PDF page 12), product 126025",
+          "raw": "C2-7.5-RH | 167 g | 7.5:1 | 9 | 75 cm | 0.33mm / 114m",
+          "evidence": "Exact model code ends in the explicit LH/RH designation. No missing opposite-hand variant generated."
+        },
+        "generation": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293",
+          "evidence": "Concept C2 heading and Concept C Gen II description identify the generation; the catalog year is not asserted as the launch year."
+        },
+        "weightOz": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 opening sentence",
+          "originalValue": 5.89,
+          "originalUnit": "oz",
+          "evidence": "Manufacturer explicitly prints 5.89 oz/167 g; use published oz rather than retailer 5.8/5.9 rounding."
+        },
+        "dragLb": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list",
+          "originalValue": 25,
+          "originalUnit": "lb",
+          "evidence": "25 lb / 11 kg Bulldog Drag System; retain manufacturer's original pound rating."
+        },
+        "bearings": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-7.5-RH row",
+          "evidence": "Table says 9. Feature-list component counts add to 8, so preserve published total 9 and do not invent a ninth bearing's location."
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-7.5-RH row",
+          "originalValue": 75,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacity": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+          "evidence": "Retailer explicitly labels 7.5:1 family row Mono 12 lb/125 yd; manufacturer verifies exact SKU/generation. The retailer's ratio-level capacity table is shared across handedness, not an individually measured hand-specific capacity. No diameter is paired with this pound rating."
+        },
+        "conflicts": "Karl's descriptive frame text appears inconsistent with Gen II manufacturer construction. Only its clearly labeled mono-capacity table and product image are used; manufacturer controls construction, weight, drag and bearing total.",
+        "size": "Display label \"RH 7.5:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list"
+        },
+        "image": "Karl's Concept C2 gallery URL; decoded original image URL from its Cloudinary wrapper. HTTP GET 200 image/jpeg. RH family photograph is representative for all variants.",
+        "availability": "Catalogued exact model; current US stock/continued production not verified.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://shopkarls.com/media/catalog/product/c/o/concept_c2-rh-4_1__6.jpg",
+        "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept c2|concept c gen ii / c2 (not original concept c)|size-unspecified|rh|7.5:1",
+        "normalizedSku": "c275rh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Concept C2",
+      "generation": "Concept C Gen II / C2 (not original Concept C)",
+      "market": "US; exact shared international model-code sources used where US specifications are incomplete; current stock/continued production not asserted",
+      "sku": "C2-8.3-LH",
+      "size": "LH 8.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "8.3:1",
+      "weightOz": 5.89,
+      "dragLb": 25,
+      "iptIn": 32.6772,
+      "bearings": "9 total",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 125,
+          "unit": "yd",
+          "raw": "8.3:1 | Mono Line Capacity (lbs./yards): 12/125; Concept C2 family specification table.",
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+        }
+      ],
+      "features": [
+        "Cast Iron Carbon Frame and Side Plate",
+        "High Spin Spool System",
+        "Ti-Armor Aluminum Hamai Cut Drive Gear",
+        "Bulldog Drag System",
+        "Arrowhead Line Guide",
+        "KeepR Integrated Hook Keeper",
+        "Low-Friction 6-Way Braking System",
+        "Beetle Wing Rapid Access Side Plate"
+      ],
+      "useCase": "bass lure casting with fast line pickup",
+      "sourceUrls": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+      ],
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 (PDF page 12), product 125111",
+          "raw": "C2-8.3-LH | 167 g | 8.3:1 | 9 | 83 cm | 0.33mm / 114m",
+          "evidence": "Exact model code ends in the explicit LH/RH designation. No missing opposite-hand variant generated."
+        },
+        "generation": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293",
+          "evidence": "Concept C2 heading and Concept C Gen II description identify the generation; the catalog year is not asserted as the launch year."
+        },
+        "weightOz": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 opening sentence",
+          "originalValue": 5.89,
+          "originalUnit": "oz",
+          "evidence": "Manufacturer explicitly prints 5.89 oz/167 g; use published oz rather than retailer 5.8/5.9 rounding."
+        },
+        "dragLb": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list",
+          "originalValue": 25,
+          "originalUnit": "lb",
+          "evidence": "25 lb / 11 kg Bulldog Drag System; retain manufacturer's original pound rating."
+        },
+        "bearings": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-8.3-LH row",
+          "evidence": "Table says 9. Feature-list component counts add to 8, so preserve published total 9 and do not invent a ninth bearing's location."
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293, C2-8.3-LH row",
+          "originalValue": 83,
+          "originalUnit": "cm/turn",
+          "conversion": "inches = centimeters / 2.54; rounded to 4 decimals"
+        },
+        "capacity": {
+          "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+          "evidence": "Retailer explicitly labels 8.3:1 family row Mono 12 lb/125 yd; manufacturer verifies exact SKU/generation. The retailer's ratio-level capacity table is shared across handedness, not an individually measured hand-specific capacity. No diameter is paired with this pound rating."
+        },
+        "conflicts": "Karl's descriptive frame text appears inconsistent with Gen II manufacturer construction. Only its clearly labeled mono-capacity table and product image are used; manufacturer controls construction, weight, drag and bearing total.",
+        "size": "Display label \"LH 8.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.293 feature list"
+        },
+        "image": "Karl's Concept C2 gallery URL; decoded original image URL from its Cloudinary wrapper. HTTP GET 200 image/jpeg. RH family photograph is representative for all variants.",
+        "availability": "Catalogued exact model; current US stock/continued production not verified.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "image": {
+        "url": "https://shopkarls.com/media/catalog/product/c/o/concept_c2-rh-4_1__6.jpg",
+        "sourceUrl": "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel",
+        "representative": true
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "concept c2|concept c gen ii / c2 (not original concept c)|size-unspecified|lh|8.3:1",
+        "normalizedSku": "c283lh",
+        "method": "Compared normalized brand (13 Fishing / 13Fishing / Thirteen Fishing / ONE3), SKU, family/model, generation, size and handedness against both files. No brand/family matches. Regional names and punctuation-only SKU aliases are one reel, not extra records."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Modus SZ2",
+      "generation": "SZ2 standard-spool generation (documented 2023; not 8.1 F shallow-spool)",
+      "market": "US / North America; Canadian manufacturer and same-code EU catalog corroboration; stock not asserted",
+      "sku": "MODSZ2-7.3-LH",
+      "size": "LH 7.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "7.3:1",
+      "weightOz": 7.19,
+      "dragLb": 18,
+      "iptIn": 30.7087,
+      "bearings": "8 total (5 stainless ball bearings + 2 CZB + 1 anti-reverse)",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 130,
+          "unit": "yd",
+          "raw": "Modus SZ2 7.3-LH | Mono (LB/YD): 12/130",
+          "sourceUrl": "https://www.freetimemania.com/catalogo-attrezzatura-da-pesca/mulinelli/bobina-rotante/13-fishing-modus-sz2/"
+        }
+      ],
+      "features": [
+        "CZB Spool Bearings",
+        "Japanese Hamai Cut Aluminum Drive Gear",
+        "HD Aluminum Frame",
+        "KeepR Integrated Hook Keeper",
+        "Multi-Material Drag System",
+        "Arrowhead Line Guide",
+        "Dead Stop Anti-Reverse",
+        "6-Way Centrifugal Braking System"
+      ],
+      "useCase": "all-around bass casting with the standard spool",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://www.freetimemania.com/catalogo-attrezzatura-da-pesca/mulinelli/bobina-rotante/13-fishing-modus-sz2/"
+      ],
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/8/5/85d687b8dc48d1_epqt57n6v16v77lgc95nseho1d_382467de.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+        "representative": true
+      },
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+          "location": "Specifications, MODSZ2-7.3-LH row",
+          "raw": "MODSZ2-7.3-LH | Left-Hand | 7.3:1 | 7.19oz | 18 | 8 | 12 lbs / 130 yards"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+          "evidence": "Official 2023 product announcement names the SZ2 in 7.3:1 LH/RH. Catalog p.295 explicitly separates these standard-spool codes from MODSZ2-8.1-*-F. Do not use shallow-spool capacity here."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "total bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ],
+          "evidence": "Exact-model table above. The feature list explicitly labels the drag as 18 lb, supplying the unit omitted from the numeric table cell."
+        },
+        "bearings": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.295",
+          "evidence": "5 SS BB + 2 CZB + 1 anti-reverse. Canadian page loosely calls all 8 ball bearings; retain total 8 while distinguishing CZB polymer bearings."
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.295, MODSZ2-7.3-LH",
+          "originalValue": 78,
+          "originalUnit": "cm/turn",
+          "conversion": "78 / 2.54 = 30.7087 inches, rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://www.freetimemania.com/catalogo-attrezzatura-da-pesca/mulinelli/bobina-rotante/13-fishing-modus-sz2/",
+          "evidence": "Exact handed standard 7.3 model explicitly says mono; capacity matches manufacturer 12 lbs / 130 yards. Diameter entries in EU/retailer tables are not attached to this US pound rating."
+        },
+        "size": "Display label \"LH 7.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+          "location": "Product details feature list"
+        },
+        "image": "Official SZ2 gallery labels the photographed reel 7.3:1 RH. HTTP GET 200 image/png, 414740 bytes. Marked representative, including for LH.",
+        "availability": "North American model identity verified; present manufacturer page is out of stock. No claim that it remains in production.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "modus sz2|sz2 standard-spool generation (documented 2023; not 8.1 f shallow-spool)|size-unspecified|lh|7.3:1",
+        "normalizedSku": "modsz273lh",
+        "method": "Normalized brand aliases (13 Fishing, 13Fishing, Thirteen Fishing, ONE3), SKU, model, generation, size and handedness checked against both data files; no matches. No regional aliases or combo duplicates proposed."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Modus SZ2",
+      "generation": "SZ2 standard-spool generation (documented 2023; not 8.1 F shallow-spool)",
+      "market": "US / North America; Canadian manufacturer and same-code EU catalog corroboration; stock not asserted",
+      "sku": "MODSZ2-7.3-RH",
+      "size": "RH 7.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "7.3:1",
+      "weightOz": 7.19,
+      "dragLb": 18,
+      "iptIn": 30.7087,
+      "bearings": "8 total (5 stainless ball bearings + 2 CZB + 1 anti-reverse)",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 130,
+          "unit": "yd",
+          "raw": "Modus SZ2 7.3:1 RH | Line Capacity Mono: 12 lb / 130 yd",
+          "sourceUrl": "https://www.londerosports.com/en/13-fishing-modus-sz2-7-3-1-rh-baitcasting-reel"
+        }
+      ],
+      "features": [
+        "CZB Spool Bearings",
+        "Japanese Hamai Cut Aluminum Drive Gear",
+        "HD Aluminum Frame",
+        "KeepR Integrated Hook Keeper",
+        "Multi-Material Drag System",
+        "Arrowhead Line Guide",
+        "Dead Stop Anti-Reverse",
+        "6-Way Centrifugal Braking System"
+      ],
+      "useCase": "all-around bass casting with the standard spool",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://www.londerosports.com/en/13-fishing-modus-sz2-7-3-1-rh-baitcasting-reel"
+      ],
+      "image": {
+        "url": "https://www.rapala.eu/img/940/940/resize/catalog/product/8/5/85d687b8dc48d1_epqt57n6v16v77lgc95nseho1d_382467de.png",
+        "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+        "representative": true
+      },
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+          "location": "Specifications, MODSZ2-7.3-RH row",
+          "raw": "MODSZ2-7.3-RH | Right-Hand | 7.3:1 | 7.19oz | 18 | 8 | 12 lbs / 130 yards"
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+          "evidence": "Official 2023 product announcement names the SZ2 in 7.3:1 LH/RH. Catalog p.295 explicitly separates these standard-spool codes from MODSZ2-8.1-*-F. Do not use shallow-spool capacity here."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "total bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ],
+          "evidence": "Exact-model table above. The feature list explicitly labels the drag as 18 lb, supplying the unit omitted from the numeric table cell."
+        },
+        "bearings": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.295",
+          "evidence": "5 SS BB + 2 CZB + 1 anti-reverse. Canadian page loosely calls all 8 ball bearings; retain total 8 while distinguishing CZB polymer bearings."
+        },
+        "iptIn": {
+          "sourceUrl": "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+          "location": "printed p.295, MODSZ2-7.3-RH",
+          "originalValue": 78,
+          "originalUnit": "cm/turn",
+          "conversion": "78 / 2.54 = 30.7087 inches, rounded to 4 decimals"
+        },
+        "capacityMaterial": {
+          "sourceUrl": "https://www.londerosports.com/en/13-fishing-modus-sz2-7-3-1-rh-baitcasting-reel",
+          "evidence": "Exact handed standard 7.3 model explicitly says mono; capacity matches manufacturer 12 lbs / 130 yards. Diameter entries in EU/retailer tables are not attached to this US pound rating."
+        },
+        "size": "Display label \"RH 7.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "features": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+          "location": "Product details feature list"
+        },
+        "image": "Official SZ2 gallery labels the photographed reel 7.3:1 RH. HTTP GET 200 image/png, 414740 bytes. Marked representative, including for LH.",
+        "availability": "North American model identity verified; present manufacturer page is out of stock. No claim that it remains in production.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "modus sz2|sz2 standard-spool generation (documented 2023; not 8.1 f shallow-spool)|size-unspecified|rh|7.3:1",
+        "normalizedSku": "modsz273rh",
+        "method": "Normalized brand aliases (13 Fishing, 13Fishing, Thirteen Fishing, ONE3), SKU, model, generation, size and handedness checked against both data files; no matches. No regional aliases or combo duplicates proposed."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Inception G2",
+      "generation": "Gerald Swindle G2 standard-capacity series (not original Inception, SLD2, or ING2P Power)",
+      "market": "US; official North American G2 series announcement plus exact US retailer specifications; stock not asserted",
+      "sku": "ING2-6.6-LH",
+      "size": "LH 6.6:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "6.6:1",
+      "weightOz": 6.9,
+      "dragLb": 22,
+      "iptIn": 27.74,
+      "bearings": "8 total (7+1)",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 135,
+          "unit": "yd",
+          "raw": "ING2-6.6-LH | Mono line capacity (lb/yd): 12/135",
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh"
+        }
+      ],
+      "features": [
+        "Bulldog Drag",
+        "Arrowhead Line Guide",
+        "Beetle Wing Rapid Access Side Plate",
+        "Low Friction 6-Way Braking System",
+        "KeepR Integrated Hook Keeper",
+        "EVA Tech Handle Knobs",
+        "Aluminum Star Drag",
+        "Gen II Hard Anodized Worm Gear"
+      ],
+      "useCase": "general-purpose bass casting with moving baits",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+        "https://www.thebassholetackleshop.com/products/13-fishing-concept-inception-casting-reel"
+      ],
+      "image": {
+        "url": "https://rodlocker.com/cdn/shop/files/alfc-13-fishing-inception-g2-casting-reel-rh-1.jpg?v=1726648349&width=1946",
+        "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+        "representative": true
+      },
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+          "evidence": "Exact ING2-6.6-LH and LH retrieve. Public Lands omits the hyphen before RH/LH in its display; canonical SKU punctuation is corroborated by The Bass Hole exact-model table."
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+          "evidence": "Manufacturer identifies Inception G2 as Gerald Swindle's series in the 2023 announcement. 7.3 LH/RH are explicit there; the 6.6 exact codes and full specs are supplied by US retailer rows. No model-year or production-status inference."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+          "raw": "ING2-6.6-LH | 6.6:1 | 27.74 in/turn | 6.9 oz | 12 lb/135 yd mono | 8 total | 22 lb drag",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "iptIn",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+          "originalValue": 27.74,
+          "originalUnit": "in/turn",
+          "conversion": "None; explicit retailer LPT/Line Per Turn value."
+        },
+        "bearings": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+          "evidence": "US exact-model retailer gives 7+1 for G2 standard models; Public Lands gives total 8. No bearing-location claims."
+        },
+        "capacity": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+          "evidence": "Explicit mono pound-test/yards, not inferred from diameter. Standard G2 12/135 is not the ING2P power-model 12/150 rating."
+        },
+        "features": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-lh-ing2-6-6-lh",
+          "evidence": "Verified feature names from product feature list. Drive-gear alloy omitted because generic family copy lists both brass and aluminum without consistently mapping the ratio variant."
+        },
+        "size": "Display label \"LH 6.6:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "image": "Retailer Inception G2 RH gallery. HTTP GET 200 image/jpeg, 48713 bytes. Family image, not asserted exact gear ratio or handedness for every candidate.",
+        "availability": "Search-indexed or fetched retailer detail page; sold-out/backorder wording is not proof of current production.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "inception g2|gerald swindle g2 standard-capacity series (not original inception, sld2, or ing2p power)|size-unspecified|lh|6.6:1",
+        "normalizedSku": "ing266lh",
+        "method": "Normalized brand aliases (13 Fishing, 13Fishing, Thirteen Fishing, ONE3), SKU, model, generation, size and handedness checked against both data files; no matches. No regional aliases or combo duplicates proposed."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Inception G2",
+      "generation": "Gerald Swindle G2 standard-capacity series (not original Inception, SLD2, or ING2P Power)",
+      "market": "US; official North American G2 series announcement plus exact US retailer specifications; stock not asserted",
+      "sku": "ING2-6.6-RH",
+      "size": "RH 6.6:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "6.6:1",
+      "weightOz": 6.9,
+      "dragLb": 22,
+      "iptIn": 27.74,
+      "bearings": "8 total (7+1)",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 135,
+          "unit": "yd",
+          "raw": "ING2-6.6-RH | Mono line capacity (lb/yd): 12/135",
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh"
+        }
+      ],
+      "features": [
+        "Bulldog Drag",
+        "Arrowhead Line Guide",
+        "Beetle Wing Rapid Access Side Plate",
+        "Low Friction 6-Way Braking System",
+        "KeepR Integrated Hook Keeper",
+        "EVA Tech Handle Knobs",
+        "Aluminum Star Drag",
+        "Gen II Hard Anodized Worm Gear"
+      ],
+      "useCase": "general-purpose bass casting with moving baits",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+        "https://www.thebassholetackleshop.com/products/13-fishing-concept-inception-casting-reel"
+      ],
+      "image": {
+        "url": "https://rodlocker.com/cdn/shop/files/alfc-13-fishing-inception-g2-casting-reel-rh-1.jpg?v=1726648349&width=1946",
+        "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+        "representative": true
+      },
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+          "evidence": "Exact ING2-6.6-RH and RH retrieve. Public Lands omits the hyphen before RH/LH in its display; canonical SKU punctuation is corroborated by The Bass Hole exact-model table."
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+          "evidence": "Manufacturer identifies Inception G2 as Gerald Swindle's series in the 2023 announcement. 7.3 LH/RH are explicit there; the 6.6 exact codes and full specs are supplied by US retailer rows. No model-year or production-status inference."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+          "raw": "ING2-6.6-RH | 6.6:1 | 27.74 in/turn | 6.9 oz | 12 lb/135 yd mono | 8 total | 22 lb drag",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "iptIn",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+          "originalValue": 27.74,
+          "originalUnit": "in/turn",
+          "conversion": "None; explicit retailer LPT/Line Per Turn value."
+        },
+        "bearings": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+          "evidence": "US exact-model retailer gives 7+1 for G2 standard models; Public Lands gives total 8. No bearing-location claims."
+        },
+        "capacity": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+          "evidence": "Explicit mono pound-test/yards, not inferred from diameter. Standard G2 12/135 is not the ING2P power-model 12/150 rating."
+        },
+        "features": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+          "evidence": "Verified feature names from product feature list. Drive-gear alloy omitted because generic family copy lists both brass and aluminum without consistently mapping the ratio variant."
+        },
+        "size": "Display label \"RH 6.6:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "image": "Retailer Inception G2 RH gallery. HTTP GET 200 image/jpeg, 48713 bytes. Family image, not asserted exact gear ratio or handedness for every candidate.",
+        "availability": "Search-indexed or fetched retailer detail page; sold-out/backorder wording is not proof of current production.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "inception g2|gerald swindle g2 standard-capacity series (not original inception, sld2, or ing2p power)|size-unspecified|rh|6.6:1",
+        "normalizedSku": "ing266rh",
+        "method": "Normalized brand aliases (13 Fishing, 13Fishing, Thirteen Fishing, ONE3), SKU, model, generation, size and handedness checked against both data files; no matches. No regional aliases or combo duplicates proposed."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Inception G2",
+      "generation": "Gerald Swindle G2 standard-capacity series (not original Inception, SLD2, or ING2P Power)",
+      "market": "US; official North American G2 series announcement plus exact US retailer specifications; stock not asserted",
+      "sku": "ING2-7.3-LH",
+      "size": "LH 7.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "LH",
+      "ratio": "7.3:1",
+      "weightOz": 6.9,
+      "dragLb": 22,
+      "iptIn": 30.68,
+      "bearings": "8 total (7+1)",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 135,
+          "unit": "yd",
+          "raw": "ING2-7.3-LH | Mono line capacity (lb/yd): 12/135",
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh"
+        }
+      ],
+      "features": [
+        "Bulldog Drag",
+        "Arrowhead Line Guide",
+        "Beetle Wing Rapid Access Side Plate",
+        "Low Friction 6-Way Braking System",
+        "KeepR Integrated Hook Keeper",
+        "EVA Tech Handle Knobs",
+        "Aluminum Star Drag",
+        "Gen II Hard Anodized Worm Gear"
+      ],
+      "useCase": "bass casting with quick slack pickup",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+        "https://www.thebassholetackleshop.com/products/13-fishing-concept-inception-casting-reel"
+      ],
+      "image": {
+        "url": "https://rodlocker.com/cdn/shop/files/alfc-13-fishing-inception-g2-casting-reel-rh-1.jpg?v=1726648349&width=1946",
+        "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+        "representative": true
+      },
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "evidence": "Exact ING2-7.3-LH and LH retrieve. Public Lands omits the hyphen before RH/LH in its display; canonical SKU punctuation is corroborated by The Bass Hole exact-model table."
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+          "evidence": "Manufacturer identifies Inception G2 as Gerald Swindle's series in the 2023 announcement. 7.3 LH/RH are explicit there; the 6.6 exact codes and full specs are supplied by US retailer rows. No model-year or production-status inference."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "raw": "ING2-7.3-LH | 7.3:1 | 30.68 in/turn | 6.9 oz | 12 lb/135 yd mono | 8 total | 22 lb drag",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "iptIn",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "originalValue": 30.68,
+          "originalUnit": "in/turn",
+          "conversion": "None; explicit retailer LPT/Line Per Turn value."
+        },
+        "bearings": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "evidence": "US exact-model retailer gives 7+1 for G2 standard models; Public Lands gives total 8. No bearing-location claims."
+        },
+        "capacity": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "evidence": "Explicit mono pound-test/yards, not inferred from diameter. Standard G2 12/135 is not the ING2P power-model 12/150 rating."
+        },
+        "features": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "evidence": "Verified feature names from product feature list. Drive-gear alloy omitted because generic family copy lists both brass and aluminum without consistently mapping the ratio variant."
+        },
+        "size": "Display label \"LH 7.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "image": "Retailer Inception G2 RH gallery. HTTP GET 200 image/jpeg, 48713 bytes. Family image, not asserted exact gear ratio or handedness for every candidate.",
+        "availability": "Search-indexed or fetched retailer detail page; sold-out/backorder wording is not proof of current production.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "inception g2|gerald swindle g2 standard-capacity series (not original inception, sld2, or ing2p power)|size-unspecified|lh|7.3:1",
+        "normalizedSku": "ing273lh",
+        "method": "Normalized brand aliases (13 Fishing, 13Fishing, Thirteen Fishing, ONE3), SKU, model, generation, size and handedness checked against both data files; no matches. No regional aliases or combo duplicates proposed."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    },
+    {
+      "brand": "13 Fishing",
+      "model": "Inception G2",
+      "generation": "Gerald Swindle G2 standard-capacity series (not original Inception, SLD2, or ING2P Power)",
+      "market": "US; official North American G2 series announcement plus exact US retailer specifications; stock not asserted",
+      "sku": "ING2-7.3-RH",
+      "size": "RH 7.3:1",
+      "sizeClass": 100,
+      "reelType": "baitcasting",
+      "hand": "RH",
+      "ratio": "7.3:1",
+      "weightOz": 6.9,
+      "dragLb": 22,
+      "iptIn": 30.68,
+      "bearings": "8 total (7+1)",
+      "capacities": [
+        {
+          "material": "mono",
+          "strengthLb": 12,
+          "pe": null,
+          "diameterMm": null,
+          "length": 135,
+          "unit": "yd",
+          "raw": "ING2-7.3-RH | Mono line capacity (lb/yd): 12/135",
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh"
+        }
+      ],
+      "features": [
+        "Bulldog Drag",
+        "Arrowhead Line Guide",
+        "Beetle Wing Rapid Access Side Plate",
+        "Low Friction 6-Way Braking System",
+        "KeepR Integrated Hook Keeper",
+        "EVA Tech Handle Knobs",
+        "Aluminum Star Drag",
+        "Gen II Hard Anodized Worm Gear"
+      ],
+      "useCase": "bass casting with quick slack pickup",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh",
+        "https://www.thebassholetackleshop.com/products/13-fishing-concept-inception-casting-reel"
+      ],
+      "image": {
+        "url": "https://rodlocker.com/cdn/shop/files/alfc-13-fishing-inception-g2-casting-reel-rh-1.jpg?v=1726648349&width=1946",
+        "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh",
+        "representative": true
+      },
+      "fieldNotes": {
+        "evidenceFile": "research/reel-expansion-2026-10-25/13-fishing/source-evidence.json",
+        "identity": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh",
+          "evidence": "Exact ING2-7.3-RH and RH retrieve. Public Lands omits the hyphen before RH/LH in its display; canonical SKU punctuation is corroborated by The Bass Hole exact-model table."
+        },
+        "generation": {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+          "evidence": "Manufacturer identifies Inception G2 as Gerald Swindle's series in the 2023 announcement. 7.3 LH/RH are explicit there; the 6.6 exact codes and full specs are supplied by US retailer rows. No model-year or production-status inference."
+        },
+        "numericSpecs": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh",
+          "raw": "ING2-7.3-RH | 7.3:1 | 30.68 in/turn | 6.9 oz | 12 lb/135 yd mono | 8 total | 22 lb drag",
+          "fields": [
+            "ratio",
+            "weightOz",
+            "dragLb",
+            "iptIn",
+            "bearings",
+            "capacity strengthLb",
+            "capacity length"
+          ]
+        },
+        "iptIn": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh",
+          "originalValue": 30.68,
+          "originalUnit": "in/turn",
+          "conversion": "None; explicit retailer LPT/Line Per Turn value."
+        },
+        "bearings": {
+          "sourceUrl": "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-7-3-1-lh-ing2-7-3-lh",
+          "evidence": "US exact-model retailer gives 7+1 for G2 standard models; Public Lands gives total 8. No bearing-location claims."
+        },
+        "capacity": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh",
+          "evidence": "Explicit mono pound-test/yards, not inferred from diameter. Standard G2 12/135 is not the ING2P power-model 12/150 rating."
+        },
+        "features": {
+          "sourceUrl": "https://www.publiclands.com/p/13-fishing-inception-g2-baitcasting-reel-221fiuncptng2bcrlreeh/221fiuncptng2bcrlreeh",
+          "evidence": "Verified feature names from product feature list. Drive-gear alloy omitted because generic family copy lists both brass and aluminum without consistently mapping the ratio variant."
+        },
+        "size": "Display label \"RH 7.3:1\" combines the exact published retrieve hand and gear ratio documented in fieldNotes.identity. It is a variant label, not a manufacturer numeric reel size. No factory numeric size has been verified; no new physical size or SKU is created by this label.",
+        "image": "Retailer Inception G2 RH gallery. HTTP GET 200 image/jpeg, 48713 bytes. Family image, not asserted exact gear ratio or handedness for every candidate.",
+        "availability": "Public Lands specification table was available in search-indexed content; direct open returned HTTP 410. Numeric facts are retained as archived retailer evidence, not current stock. The Bass Hole exact-model table independently corroborates SKU/hand/ratio/weight/capacity.",
+        "sizeClass": "100 is strictly an internal ReelCalc editorial recommendation category for a standard low-profile baitcaster, explicitly authorized for this batch. It is not a manufacturer size designation, spool dimension, capacity measurement, or cross-brand physical equivalence; do not publish it as a factory size.",
+        "lineRanges": "braidRange and monoRange are editorial starting suggestions for ordinary bass casting, not manufacturer line limits or capacity ratings. See familyEditorial[model] and editorialPolicy.lineRanges. No braid/fluorocarbon capacity, diameter, PE value, or spool size is inferred from these ranges.",
+        "useCase": "Editorial technique context, not a manufacturer specification or first-hand performance finding."
+      },
+      "duplicateCheck": {
+        "status": "not_present",
+        "checkedFiles": [
+          "data/reels.json",
+          "data/reel-pages.json"
+        ],
+        "checkedReels": 1362,
+        "checkedPages": 1257,
+        "normalizedBrand": "13fishing",
+        "normalizedIdentity": "inception g2|gerald swindle g2 standard-capacity series (not original inception, sld2, or ing2p power)|size-unspecified|rh|7.3:1",
+        "normalizedSku": "ing273rh",
+        "method": "Normalized brand aliases (13 Fishing, 13Fishing, Thirteen Fishing, ONE3), SKU, model, generation, size and handedness checked against both data files; no matches. No regional aliases or combo duplicates proposed."
+      },
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro"
+    }
+  ],
+  "held": [
+    {
+      "model": "Concept A3 Gen II (CA3 variants)",
+      "reason": "Official US table publishes 10.3 / 9.8 oz without mapping those weights to a handle configuration. Do not pick one. The catalog CA3-5.5-LH row also prints a conflicting 5.1:1 ratio. Older A3- codes, 30-lb drag and 10.5-oz data are a different generation. Full exact-configuration resolution, material-labeled 12/240 capacity, and an image check remain required.",
+      "sources": [
+        "https://www.rapala.com/us_en/concept-a3-baitcast-reel",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://rapalavmc.pl/wp-content/uploads/2026/01/13FISHING_2026.pdf"
+      ]
+    },
+    {
+      "model": "Concept C2 additional RH/5.6 variants",
+      "reason": "Only four exact Gen II codes were verified in the primary catalog table used here. Do not generate the other hand for each gear ratio, or add the older Concept C as a renamed C2. Additional exact-hand primary identity confirmation is needed.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+      ]
+    },
+    {
+      "model": "Inception G2 5.3 / ING2P Power variants",
+      "reason": "Retailer listings differ between ING2-5.3 with 6.9 oz and 12/135 versus ING2P-5.3 with 7.2 oz and 12/150. Official announcement names a 5.3 power-handle version, but this batch did not reconcile non-P versus P identities, exact spool capacity and IPT. Do not treat spelling omissions as a newly discovered reel.",
+      "sources": [
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://www.thebassholetackleshop.com/products/13-fishing-concept-inception-casting-reel",
+        "https://www.americanlegacyfishing.com/products/13-fishing-inception-g2-casting-reel-5-3-1-lh-ing2-5-3-lh"
+      ]
+    },
+    {
+      "model": "Inception SLD2 / Inception Slide",
+      "reason": "Same INSLD2 generation under two regional names, not two reels. Primary catalog confirms INSLD2-8.1-RH/LH and 0.32 mm/123 m but no pound-test capacity was verified from a suitable exact-model source in this pass. Held for the required pound-test validation; no strength inferred.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://rapalavmc.pl/wp-content/uploads/2026/01/13FISHING_2026.pdf",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023"
+      ]
+    },
+    {
+      "model": "Modus C2",
+      "reason": "Primary catalog verifies MODC2-6.6/8.1 LH/RH, but a reliable exact-model pound-test/material and image evidence chain was not completed. Catalog 2024 gives 78 cm for 6.6 while 2026 gives 70 cm: preserve that discrepancy rather than silently borrowing another ratio's IPT.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://rapalavmc.pl/wp-content/uploads/2026/01/13FISHING_2026.pdf",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023"
+      ]
+    },
+    {
+      "model": "Modus SZ2 F / Whisper Shallow Spool",
+      "reason": "MODSZ2-8.1-RH-F/LH-F are distinct from included 7.3 standard spools. Primary catalog publishes 0.32 mm/61 m only; no verified exact published pound-test capacity in this pass. Never copy 12 lb/130 yd from the standard reel.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://rapalavmc.pl/wp-content/uploads/2026/01/13FISHING_2026.pdf"
+      ]
+    },
+    {
+      "model": "Modus TX2",
+      "reason": "Primary catalog confirms MODTX2-7.3-RH/LH and 0.32 mm/123 m. A suitable exact-model pound-test/material confirmation and verified product-image chain were not completed. Not converted from diameter to lb.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://rapalavmc.pl/wp-content/uploads/2026/01/13FISHING_2026.pdf"
+      ]
+    },
+    {
+      "model": "Modus RP2 F / Radioactive variants",
+      "reason": "The catalog's MODRP2-8.1-*-F shallow spool is 0.32 mm/61 m. Other Radioactive R2/RP2 marketing and standard-spool copy cannot establish that F model's pound-test capacity. No duplicate color, region or combo-only record generated.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://rapalavmc.pl/wp-content/uploads/2026/01/13FISHING_2026.pdf",
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-rods-reels-and-combos-blog"
+      ]
+    },
+    {
+      "model": "Origin F1 / O1 Blackout / R1",
+      "reason": "Primary catalog lists exact model codes, but complete North-American exact-hand weight/capacity evidence and image verification were not completed. OF1-6.6-RH retailer explicitly labels mono 12 lb/110 yd, whereas other rows have weight and ratio transcription inconsistencies. Do not extend that one verified row to every Origin or use combo specifications for standalone records.",
+      "sources": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-rods-reels-and-combos-blog",
+        "https://basilmanning.co.za/product/reel-13f-origin-f1-of1-6-6-right-hand/",
+        "https://www.londerosports.com/fr/moulinet-13-fishing-origin-f1-8-1-1-baitcast-gaucher"
+      ]
+    },
+    {
+      "model": "Kalon A",
+      "reason": "Official family announcement and retailer listing found; current official product detail was inaccessible and full exact-size IPT plus unambiguous material-labeled capacity evidence was not completed. No inferred size-to-weight/drag/IPT mapping.",
+      "sources": [
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-rods-reels-and-combos-blog",
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-and-noteworthy-ice-combos-rods-and-reels",
+        "https://www.fishingonline.com/products/13-fishing-kalon-a-spinning-reel"
+      ]
+    },
+    {
+      "model": "Kalon C",
+      "reason": "Retailer table verifies six size/SKU combinations, but official exact-size table was unavailable. Full material-labeled capacity and IPT verification was not completed. Do not silently use conflicting retailer 5.2/6.2 ratios for the 5.0 size or copy specs from Kalon A/O.",
+      "sources": [
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-rods-reels-and-combos-blog",
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-and-noteworthy-ice-combos-rods-and-reels",
+        "https://www.fishingonline.com/products/13-fishing-kalon-c-spinning-reel"
+      ]
+    },
+    {
+      "model": "Kalon O / Kalon Blackout",
+      "reason": "These names describe the same O/Blackout family, not two discoveries. Official family/feature evidence exists but complete exact-size specifications, published pound-test/material labeling and images were not verified in this pass; combo-only versions excluded.",
+      "sources": [
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-rods-reels-and-combos-blog",
+        "https://www.rapala.ca/ca_en/blog/13-fishings-new-and-noteworthy-ice-combos-rods-and-reels"
+      ]
+    },
+    {
+      "model": "Axum original sizes 2.0 / 3.0 / 4.0 and Axum Competition",
+      "reason": "Original AX 2.0/3.0/4.0 catalog rows are not promoted from diameter-only ratings without verified pound-test capacity. Axum Competition is a distinct shallow-spool/drag revision and must not inherit original AX capacities. The two original AX codes with explicit US mono lb/yd tables (AX-6.2-1.0 and AX-6.2-5.0) are separately held for unverified IPT, not included as candidates.",
+      "sources": [
+        "https://www.rapala.com/us_en/axum-spinning-reel",
+        "https://www.rapala.eu/eu_en/axum",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf"
+      ]
+    },
+    {
+      "model": "Axum original 1.0 (AX-6.2-1.0)",
+      "reason": "Moved from candidates to held: exact AX-6.2-1.0 has verified US mono pound-test capacity but no verified IPT. Official US/EU pages omit retrieve per turn; the 2024 catalog prints 81 m for this size, an unresolved unit problem. Do not silently change m to cm, calculate IPT from gear ratio, or borrow it from another Axum size/generation. Retained source evidence: research/reel-expansion-2026-10-25/13-fishing/source-evidence.json.",
+      "sources": [
+        "https://www.rapala.com/us_en/axum-spinning-reel",
+        "https://www.rapala.eu/eu_en/axum",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf"
+      ]
+    },
+    {
+      "model": "Axum original 5.0 (AX-6.2-5.0)",
+      "reason": "Moved from candidates to held: exact AX-6.2-5.0 has verified US mono pound-test capacity but no verified IPT. Official US/EU pages omit retrieve per turn; the 2024 catalog prints 98 m for this size, an unresolved unit problem. Do not silently change m to cm, calculate IPT from gear ratio, or borrow it from another Axum size/generation. Retained source evidence: research/reel-expansion-2026-10-25/13-fishing/source-evidence.json.",
+      "sources": [
+        "https://www.rapala.com/us_en/axum-spinning-reel",
+        "https://www.rapala.eu/eu_en/axum",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf"
+      ]
+    }
+  ],
+  "familyEditorial": {
+    "Concept A2": {
+      "positioning": "A low-profile, all-purpose casting family for bass and inshore lure fishing, with separate slower and faster retrieve options.",
+      "featureSentence": "The six-way braking adjustment and accessible side plate let anglers tune casting control as lure loads change.",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/concept-a-baitcast-reel",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://defender.com/en_us/13-fishing-concept-a-baitcast-reel"
+      ],
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro",
+      "lineRangeNotes": "Editorial starting ranges for the included standard-spool bass-casting variants; see editorialPolicy.lineRanges. Hand and gear-ratio changes do not establish different line-strength limits."
+    },
+    "Concept C2": {
+      "positioning": "The lightweight Gen II Concept casting option for anglers making repeated lure presentations.",
+      "featureSentence": "Its carbon frame and low-friction six-way brakes combine reduced reel weight with adjustable spool control during the cast.",
+      "sourceUrls": [
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://shopkarls.com/p/13-fishing-concept-c2-baitcasting-reel"
+      ],
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro",
+      "lineRangeNotes": "Editorial starting ranges for the included standard-spool bass-casting variants; see editorialPolicy.lineRanges. Hand and gear-ratio changes do not establish different line-strength limits."
+    },
+    "Modus SZ2": {
+      "positioning": "An all-around casting reel spanning power and lighter lure presentations; these records cover the standard spool, not the separate shallow F version.",
+      "featureSentence": "CZB spool bearings and six-way centrifugal braking are paired with an Arrowhead line guide to manage the spool and line during casting.",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/modus-sz2-baitcaster",
+        "https://rapalavmc.pl/wp-content/uploads/2024/01/13_fishing_2024.pdf",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023"
+      ],
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro",
+      "lineRangeNotes": "Editorial starting ranges for the included standard-spool bass-casting variants; see editorialPolicy.lineRanges. Hand and gear-ratio changes do not establish different line-strength limits."
+    },
+    "Inception G2": {
+      "positioning": "Gerald Swindle's versatile bass-casting series, offered in distinct gear and spool configurations.",
+      "featureSentence": "The rapid-access side plate exposes the braking adjustment, making it possible to retune spool control when changing presentations.",
+      "sourceUrls": [
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023",
+        "https://www.thebassholetackleshop.com/products/13-fishing-concept-inception-casting-reel",
+        "https://rodlocker.com/products/13-fishing-inception-g2-casting-reel-6-6-1-rh-ing2-6-6-rh"
+      ],
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro",
+      "lineRangeNotes": "Editorial starting ranges for the included standard-spool bass-casting variants; see editorialPolicy.lineRanges. Hand and gear-ratio changes do not establish different line-strength limits."
+    },
+    "Axum": {
+      "positioning": "The original Axum spinning family for inshore and freshwater use, with smaller and larger line-capacity options.",
+      "featureSentence": "A ceramic line roller and Glide Oscillation handle line travel, while the sealed rotor is part of the reel's saltwater-oriented construction.",
+      "sourceUrls": [
+        "https://www.rapala.com/us_en/axum-spinning-reel",
+        "https://www.rapala.eu/eu_en/axum",
+        "https://www.rapala.ca/ca_en/blog/new-13-fishing-rods-reels-and-combos-for-2023"
+      ],
+      "status": "held: both previously researched exact-size records lack verified IPT"
+    }
+  },
+  "editorialPolicy": {
+    "sizeLabels": {
+      "appliesTo": "All 18 baitcasting candidates in this file",
+      "size": "Exact published hand plus gear ratio; variant display label only.",
+      "sizeClass": "100 is an internal editorial low-profile recommendation category, not a manufacturer size. Parent builder owns the generated specification-table row label and specsIntro explanation.",
+      "duplicateIdentity": "Existing normalized factory identities remain size-unspecified because no numeric factory size was verified. Hand, ratio, generation and SKU evidence remain unchanged."
+    },
+    "lineRanges": {
+      "classification": "Editorial synthesis for general bass casting; not a manufacturer recommendation for these exact reels.",
+      "braidRange": "30-50 lb braid",
+      "monoRange": "12-17 lb mono/fluoro",
+      "scope": "All four included families use standard spools with separately verified 12 lb mono capacity. That published reference is not a minimum/maximum line-strength limit and is not converted into a braid rating. No artificial range difference is assigned by hand or gear ratio.",
+      "guidance": "Choose within or outside these starting ranges to suit the rod, lure, cover and intended technique. This baseline is not BFS, heavy punching or big-bait guidance; it does not claim a specific fill length, line diameter or drag setting. monoRange covers alternative mono or fluorocarbon main lines, not a new fluorocarbon capacity rating.",
+      "sourceEvidence": [
+        {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/big-topwaters-big-bass",
+          "evidence": "Rapala's surface-lure guidance gives 30 lb braid for open water and 40 or 50 lb around cover. Applying a 30-50 lb starting band to the included standard low-profile reels is editorial, not an exact-reel factory rating."
+        },
+        {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/best-rapala-baits-for-fall-bass",
+          "evidence": "The Shad Rap section suggests 12-14 lb monofilament around timber, docks and abrasive cover. This supports part of the editorial mono range, not a spool-capacity claim."
+        },
+        {
+          "sourceUrl": "https://www.rapala.ca/ca_en/blog/best-fishing-line-choices-for-soft-plastics",
+          "evidence": "The article describes 12-14 lb fluorocarbon for baitcasting soft plastics, 17 or 20 lb fluorocarbon around cover, and 17 lb mono for certain Texas-rigged plastics. The narrower 12-17 lb general starting band here is editorial synthesis."
+        }
+      ]
+    },
+    "featureSentenceValidation": {
+      "checkedAt": "2026-10-25",
+      "builder": "scripts/reel-expansion-2026-10-25/build-pages.mjs",
+      "precedence": "c.editorialFeatureSentence ?? item.familyEditorial?.featureSentence ?? ''. None of these 18 records defines a record-level override, so the family sentence is selected.",
+      "result": "All four active family sentences refer to verified shared construction, braking or line-handling features. None claims a numeric factory size, handedness-specific technology or a different feature set for a gear variant. Hand/ratio labels are not added to candidate features.",
+      "featureBasis": {
+        "Concept A2": [
+          "Low-Friction 6-Way Braking System",
+          "Beetle Wing Rapid Access Side Plate"
+        ],
+        "Concept C2": [
+          "Cast Iron Carbon Frame and Side Plate",
+          "Low-Friction 6-Way Braking System"
+        ],
+        "Modus SZ2": [
+          "CZB Spool Bearings",
+          "6-Way Centrifugal Braking System",
+          "Arrowhead Line Guide"
+        ],
+        "Inception G2": [
+          "Beetle Wing Rapid Access Side Plate",
+          "Low Friction 6-Way Braking System"
+        ]
+      },
+      "execution": "Builder source inspected only; no production build or publishing performed."
+    }
+  }
+}
