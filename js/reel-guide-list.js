@@ -96,6 +96,9 @@
         brand: reel.brand,
         category: reelCategory(reel),
         family: page.family || "",
+        model: reel.model || "",
+        size: reel.size_label || reel.size_class || "",
+        sizeClass: reel.size_class || "",
         label: page.guideLabel || reelLabel(reel),
         sku: reel.sku || "",
         path: path,
@@ -286,15 +289,35 @@
         publishedPaths = new Set();
       }
 
-      mounts.forEach(function (mount) {
+      for (var mount of mounts) {
         var includeUnpublished = mount.dataset.includeUnpublished === "true";
         var entries = mergeEntries(data[0], data[1], data[2], publishedPaths, includeUnpublished);
         if (!entries.length) {
           setStatus(mount, "The reel guide list is temporarily unavailable.", "error");
-          return;
+          continue;
         }
         renderDirectory(mount, entries);
-      });
+        // The setup hub has its own browsing UI; other directory consumers stay unchanged.
+        if (window.location.pathname.replace(/\/+$/, "") === "/fishing-line-setup-guides") {
+          try {
+            var hub = window.ReelCalcSetupHub;
+            if (!hub) {
+              await new Promise(function(resolve, reject) {
+                var script = document.createElement("script");
+                script.src = assetBase + "/js/setup-guide-hub.js?v=1";
+                var timer = setTimeout(function() { script.remove(); reject(new Error("Setup guide script timed out")); }, 15000);
+                script.onload = function() { clearTimeout(timer); resolve(); };
+                script.onerror = function() { clearTimeout(timer); script.remove(); reject(new Error("Setup guide script unavailable")); };
+                document.head.appendChild(script);
+              });
+              hub = window.ReelCalcSetupHub;
+            }
+            if (hub) await hub.mount(mount, entries, assetBase);
+          } catch (hubError) {
+            console.warn("ReelCalc setup hub: original guide list retained.", hubError.message);
+          }
+        }
+      }
     } catch (error) {
       mounts.forEach(function (mount) {
         setStatus(mount, "The reel guide list is temporarily unavailable. Please use the Reel Setup Wizard.", "error");

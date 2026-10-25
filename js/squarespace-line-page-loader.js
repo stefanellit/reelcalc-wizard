@@ -78,6 +78,7 @@
   }
 
   function initializeDirectory(base) {
+    if (document.getElementById("reelcalc-setup-hub")) return Promise.resolve(true);
     var mount = document.querySelector("[data-reelcalc-guide-list]");
     if (!mount) return Promise.resolve(false);
     if (directory) return directory;
@@ -115,7 +116,7 @@
         more.href = "/lines"; more.textContent = "Browse all line guides";
         section.append(heading, intro, list, more);
         // The existing directory grows in normal flow inside its Squarespace code block.
-        mount.insertAdjacentElement("beforebegin", section);
+        if (!document.getElementById("reelcalc-setup-hub")) mount.insertAdjacentElement("beforebegin", section);
         return true;
       } catch (error) {
         directory = null;
