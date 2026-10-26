@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "line_laboratory",
-  "lastSuccessfulSync": "2026-10-23T14:18:31.790Z",
+  "lastSuccessfulSync": "2026-10-26T16:12:48.334Z",
   "records": [
     {
       "source_record_id": "rc-api-00120bb8-7c70-43e6-98b7-2c8a4ebe744f",
@@ -3781,6 +3781,50 @@
         },
         "snapshot_sha256": "ad331dccf4034e5b9b33c3fcd20e3ff1a4915eec7305f43b2c94e249d4566565",
         "observed_at": "2026-10-14T22:08:53.812Z",
+        "id_origin": "reelcalc_local_registry",
+        "updated_at_basis": "local_import_not_source_test_date",
+        "units_evidence": "https://linelaboratory.com/braid-summary/",
+        "measurement_definition": "AverageDiameter as supplied by API; not a derived packing diameter"
+      }
+    },
+    {
+      "source_record_id": "rc-api-73986c8c-728b-4690-9ff0-355f0d7cfa58",
+      "original_name": "Zukibo 131 PE6",
+      "brand": "Zukibo",
+      "product": "131 PE6",
+      "variant": "Not separately supplied",
+      "material": "Braid",
+      "rated_strength": {
+        "value": 80,
+        "unit": "lb",
+        "label": "80 lb"
+      },
+      "quoted_diameter": {
+        "value": 1,
+        "unit": "mm"
+      },
+      "diameters": [
+        {
+          "method_id": "line-laboratory-api-average",
+          "value": 0.472,
+          "unit": "mm"
+        }
+      ],
+      "capacity_method_id": "line-laboratory-api-average",
+      "source_url": "https://linelaboratory.com/braid-summary/",
+      "updated_at": "2026-10-26T16:12:48.334Z",
+      "status": "active",
+      "api_provenance": {
+        "endpoint": "https://linelaboratory.com/api/v1/braid/diameters/",
+        "raw": {
+          "Brand": "Zukibo",
+          "Name": "131 PE6",
+          "RatedStrength": 80,
+          "QuotedDiameter": 1,
+          "AverageDiameter": 0.472
+        },
+        "snapshot_sha256": "9f24772055ae1d3e92f18c1b048fad643959b51304c322cfc3fbd187dd079965",
+        "observed_at": "2026-10-26T16:12:48.334Z",
         "id_origin": "reelcalc_local_registry",
         "updated_at_basis": "local_import_not_source_test_date",
         "units_evidence": "https://linelaboratory.com/braid-summary/",
